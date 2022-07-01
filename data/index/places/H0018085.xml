@@ -1,0 +1,57 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Latinskoe zimov'e</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0018085</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0018085.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0018085.xml">
+                    <p>Latinskoe zimov'e [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018085.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-places</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="H0018085">
+                    <placeName type="reg">Latinskoe zimov'e</placeName>
+                    <placeName type="alt">Латинское зимовье</placeName>
+                    <placeName type="alt">Latinskoje</placeName>
+                    <!-- Rose 1837/1842, I, 386; Karte vom Ural -->
+                    <placeName type="alt">Latinski Simoviä</placeName>
+                    <!-- RST, I, 53v, 54r -->
+                    <note>Historische Poststation zwischen <placeName key="H0017219">Nižnaja Tura</placeName> und
+                            <placeName key="H0017566">Bogoslovsk</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    <listPlace>
+                        <place oldID="ed_z4l_v4w_c3b" xml:id="H0018026" type="others">
+                            <!--xml:id="ediarum_ry4_qpp_psb"-->
+                            <placeName type="reg">Pitatelevskij zolotoj priisk</placeName>
+                            <placeName type="alt">Питателевская золотопромывальная</placeName>
+                            <placeName type="alt">Питателевский золотой прииск</placeName>
+                            <placeName type="alt">Pitatelevskaja zolotopromyval'naja</placeName>
+                            <note>historische Goldwäsche bei der ehemaligen Poststation Latinskoe zimov'e zwischen
+                                    <placeName key="H0017219">Nižnaja Tura</placeName> und <placeName key="H0005280">Bogoslovsk</placeName>
+                            </note>
+                        </place>
+                    </listPlace>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

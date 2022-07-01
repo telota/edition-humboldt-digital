@@ -1,0 +1,903 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Title. . URL: https://edition-humboldt.de/v8/</bibl>
+            </sourceDesc>
+        </fileDesc>
+    <profileDesc>
+            <textClass>research-articles</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="ed_s21_nbb_t3b">
+                    <label type="reg">Grado de fuerza</label>
+                    <desc>Maßeinheit für Alkoholgehalt (Kuba)</desc>
+                </item>
+                <item xml:id="ed_vhl_bmd_r3b">
+                    <label type="reg">Frasco</label>
+                    <desc>Volumenmaß für Flüssigkeiten (Spanien)</desc>
+                </item>
+                <item xml:id="mark_koelnisch">
+                    <label>Kölnische Mark</label>
+                    <desc xml:lang="de">Gewichtsmaß (Preußen)</desc>
+                    <desc xml:lang="en">Unit of mass (Prussia)</desc>
+                    <measure type="weight" quantity="0.23386" unit="kg"/>
+                </item>
+                <item xml:id="pfund_preussisch">
+                    <label xml:lang="de">Preußisches Pfund</label>
+                    <desc xml:lang="de">Gewichtsmaß (Preußen)</desc>
+                    <desc xml:lang="en">Unit of mass (Prussia)</desc>
+                    <note>32 Loth</note>
+                    <measure type="weight" quantity="0.46771" unit="kg"/>
+                </item>
+                <item xml:id="pfund_russisch">
+                    <label xml:lang="de">Russisches Pfund</label>
+                    <desc xml:lang="de">Gewichtsmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of mass (Russia)</desc>
+                    <note>96 Zolotnik</note>
+                    <measure type="weight" quantity="0.41" unit="kg"/>
+                </item>
+
+                <item xml:id="reamur" sortKey="1">
+                    <label>Réaumur</label>
+                    <desc xml:lang="de">Temperaturmaß</desc>
+                    <desc xml:lang="en">Temperature Scale</desc>
+                    <note>1,25° Celsius</note>
+                    <measure type="temperature" quantity="274.4" unit="K"/>
+                </item>
+                <item xml:id="ed_umm_mmd_r3b">
+                    <label type="reg">Pipa</label>
+                    <desc>Öl- und Weinmaß (Europa, Lateinamerika)</desc>
+                </item>
+                <item xml:id="ed_xpb_2pj_r3b">
+                    <label type="reg">Peso fuerte</label>
+                </item>
+                <item xml:id="mark_banco">
+                    <label>Mark banco</label>
+                    <desc xml:lang="de">Buchwährung (Hamburg)</desc>
+                    <desc xml:lang="en">Bank money (Hamburg)</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="courant_preussisch">
+                    <label>Preußisch Courant</label>
+                    <desc xml:lang="de">Währungseinheit (Preußen)</desc>
+                    <desc xml:lang="en">Currency (Prussia)</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="rubel">
+                    <label xml:lang="de">Russischer Rubel (Rubl')</label>
+                    <desc xml:lang="de">Währungseinheit (Russland)</desc>
+                    <desc xml:lang="en">Currency (Russia)</desc>
+                    <note>100 Kopeken</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="aamen">
+                    <label>Aamen</label>
+                    <desc xml:lang="de">Altes Weinmaß (Preußen)</desc>
+                    <desc xml:lang="en">Old wine measure (Prussia)</desc>
+                    <note xml:lang="de">Auch: Ohm</note>
+                    <note xml:lang="en">Also: Ohm</note>
+                    <measure type="capacity" quantity="137.404" unit="L"/>
+                </item>
+                <item xml:id="acre_of_land">
+                    <label>Acre of land</label>
+                    <desc xml:lang="de">Angloamerikanisches Flächenmaß</desc>
+                    <desc xml:lang="en">Anglo-American unit of area</desc>
+                    <note>43,560 Quadratfuß</note>
+                    <measure type="area" quantity="4046.78" unit="m2"/>
+                </item>
+                <item xml:id="almud">
+                    <label>Almud</label>
+                    <desc xml:lang="de">Flächenmaß (Lateinamerika)</desc>
+                    <desc xml:lang="en">Unit of area (Latin America)</desc>
+                    <measure type="area" quantity="3300" unit="m2"/>
+                </item>
+                <item xml:id="arpent_de_paris">
+                    <label>Arpent de Paris</label>
+                    <desc xml:lang="de">Flächenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of area (Latin America)</desc>
+                    <measure type="area" quantity="3419" unit="m2" ana="#circa"/>
+                </item>
+                <item xml:id="arroba">
+                    <label>Arroba</label>
+                    <desc xml:lang="de">Gewichtsmaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of mass (Spain)</desc>
+                    <note>25 Pfund</note>
+                    <measure type="weight" quantity="11.502" unit="kg" ana="#circa"/>
+                </item>
+                <item xml:id="arschin">
+                    <label>Aršin</label>
+                    <desc xml:lang="de">Längenmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of lenght (Russia)</desc>
+                    <measure type="length" quantity="0.7112" unit="m"/>
+                </item>
+                <item xml:id="barrel">
+                    <label xml:lang="de">Barrel (Fass)</label>
+                    <desc xml:lang="de">Raummaß (englisch)</desc>
+                    <desc xml:lang="en">Unit of volume (english)</desc>
+                </item>
+                <item xml:id="barril">
+                    <label>Barril, Varril (Fass)</label>
+                    <desc xml:lang="de">Raummaß (spanisch)</desc>
+                    <desc xml:lang="en">Unit of volume (spanish)</desc>
+                </item>
+                <item xml:id="bocoy">
+                    <label>Bocoy</label>
+                    <desc xml:lang="de">Gewichtsmaß (Kuba)</desc>
+                    <desc xml:lang="en">Unit of mass (Cuba)</desc>
+                    <note>6 Barrilas = 12 Arrobas</note>
+                    <measure type="capacity"/>
+                </item>
+                <item xml:id="brasse">
+                    <label>Brasse</label>
+                    <desc xml:lang="de">Tiefenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Depth gauge (France)</desc>
+                    <note>6 Pariser Fuß</note>
+                    <measure type="length" quantity="1.949" unit="m"/>
+                </item>
+                <item xml:id="braza">
+                    <label>Braza</label>
+                    <desc xml:lang="de">Tiefenmaß (Spanien)</desc>
+                    <desc xml:lang="en">Depth gauge (Spain)</desc>
+                    <measure type="length" quantity="1.6718" unit="m"/>
+                </item>
+                <item xml:id="bushel">
+                    <label>Bushel</label>
+                    <desc xml:lang="de">Getreidemaß (USA)</desc>
+                    <desc xml:lang="en">Bushel (USA)</desc>
+                    <note>Scheffel</note>
+                    <measure type="weight" quantity="28.12" unit="kg" ana="#circa"/>
+                </item>
+                <item xml:id="ed_t3t_yvj_r3b">
+                    <label type="reg">Caballería</label>
+                    <desc>Flächenmaß (Spanien, Karibik)</desc>
+                </item>
+                <item xml:id="caja">
+                    <label>Caja</label>
+                    <desc xml:lang="de">Gewichtsmaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of mass (Spain)</desc>
+                    <measure type="weight" quantity="200" unit="kg" ana="#circa"/>
+                </item>
+                <item xml:id="cajon">
+                    <label>Cajón</label>
+                    <desc xml:lang="de">Gewichtsmaß (Lateinamerika)</desc>
+                    <desc xml:lang="en">Unit of mass (Latin America)</desc>
+                    <note xml:lang="de">Maßeinheit für Erze</note>
+                    <note xml:lang="en">Unit of mass for ores</note>
+                    <measure type="weight" quantity="30" unit="kg" ana="#circa"/>
+                </item>
+                <item xml:id="carat">
+                    <label>Karat</label>
+                    <desc xml:lang="de">Goldgewicht</desc>
+                    <desc xml:lang="en">Gold weight</desc>
+                    <note>4 Grains</note>
+                    <measure type="weight" quantity="0.1555" unit="g" ana="#circa"/>
+                </item>
+                <item xml:id="carga">
+                    <label>Carga</label>
+                    <desc xml:lang="de">Gewichtsmaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of mass (Spain)</desc>
+                    <note>1 Carga = 10 Arrobas</note>
+                    <measure type="weight" quantity="115" unit="kg" ana="#circa"/>
+                </item>
+                <item xml:id="castellano_de_oro">
+                    <label>Castellano de oro</label>
+                    <desc xml:lang="de">Goldmünze (Spanien)</desc>
+                    <desc xml:lang="en">Gold coin (Spain)</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="cordel">
+                    <label>Cordel</label>
+                    <desc xml:lang="de">Längenmaß (Lateinamerika)</desc>
+                    <desc xml:lang="en">Linear measure (Latin America)</desc>
+                    <note xml:lang="de">Cuerda, dt. Schnur</note>
+                    <note xml:lang="en">Cuerda, engl. line</note>
+                    <measure type="length" quantity="20" unit="m"/>
+                </item>
+                <item xml:id="cuarta">
+                    <label>Cuarta</label>
+                    <desc xml:lang="de">Längenmaß (Spanien)</desc>
+                    <desc xml:lang="en">Linear measure (Spain)</desc>
+                    <note>Viertelelle, Spanne</note>
+                    <measure type="length"/>
+                </item>
+                <item xml:id="cuartillo">
+                    <label>Cuartillo</label>
+                    <desc xml:lang="de">Getreidemaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of volume for grain (Spain)</desc>
+                    <measure type="capacity" quantity="1.156" unit="L"/>
+                </item>
+                <item xml:id="desjatina">
+                    <label>Desjatina</label>
+                    <desc xml:lang="de">Flächenmaß (Russland)</desc>
+                    <desc xml:lang="en">Square measure (Russia)</desc>
+                    <measure type="area" quantity="10900" unit="m2"/>
+                </item>
+                <item xml:id="dolja">
+                    <label>Dolja</label>
+                    <desc xml:lang="de">Gewichtsmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of mass (Russia)</desc>
+                    <measure type="weight" quantity="0.0443" unit="g"/>
+                </item>
+                <item xml:id="drachme">
+                    <label>Drachme</label>
+                    <desc xml:lang="de">Gewichtsmaß (griechische Antike)</desc>
+                    <desc xml:lang="en">Unit of mass (Ancient Greece)</desc>
+                    <measure type="weight" quantity="5" unit="g"/>
+                </item>
+                <item xml:id="drachme_geld">
+                    <label>Drachme</label>
+                    <desc xml:lang="de">antike Währung</desc>
+                    <desc xml:lang="en">Ancient currency</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="duro">
+                    <label>Duro</label>
+                    <desc xml:lang="de">Kurzform von Peso</desc>
+                    <desc xml:lang="en">Short form for Pesos</desc>
+                    <note>8 Silberrealen</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="fahrenheit">
+                    <label>Fahrenheit</label>
+                    <desc xml:lang="de">Temperaturmaß</desc>
+                    <desc xml:lang="en">Unit of temperature</desc>
+                    <note>32° Fahrenheit = 0° Celsius</note>
+                    <measure type="temperature" quantity="255.928" unit="K"/>
+                </item>
+                <item xml:id="fanega">
+                    <label>Fanega</label>
+                    <desc xml:lang="de">Gewichts- und Getreidemaß (Spanien und Lateinamerika)</desc>
+                    <desc xml:lang="en">Unit of mass and grain (Spain and Latin America)</desc>
+                    <measure type="capacity" quantity="55.5" unit="L" ana="#circa"/>
+                </item>
+                <item xml:id="fathom">
+                    <label>Fathom</label>
+                    <desc xml:lang="de">Tiefenmaß (Großbritannien, USA)</desc>
+                    <desc xml:lang="en">Depth gauge (Great Britain and USA)</desc>
+                    <measure type="length" quantity="1.83" unit="m"/>
+                </item>
+                <item xml:id="florin">
+                    <label>Florin (Gulden)</label>
+                    <desc xml:lang="de">Währungseinheit</desc>
+                    <desc xml:lang="en">Currency</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="foot">
+                    <label>Foot</label>
+                    <desc xml:lang="de">Fuß (Großbritannien)</desc>
+                    <desc xml:lang="en">Foot (Great Britain)</desc>
+                    <measure type="length" quantity="0.3048" unit="m"/>
+                </item>
+                <item xml:id="franc">
+                    <label>Franc</label>
+                    <desc xml:lang="de">Währungseinheit (Frankreich)</desc>
+                    <desc xml:lang="en">Currency (France)</desc>
+                    <note>100 Centimes</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="friedrichsdor">
+                    <label>Friedrich d’or</label>
+                    <desc xml:lang="de">Goldmünze (Preußen)</desc>
+                    <desc xml:lang="en">Gold coin (Prussia)</desc>
+                    <note>1 Friedrich d'or = 5 preußische Reichstaler</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="fuder">
+                    <label>Fuder</label>
+                    <desc xml:lang="de">Weinmaß (Deutschland)</desc>
+                    <desc xml:lang="en">Unit of volume for wine (Germany)</desc>
+                    <measure type="capacity" quantity="850" unit="L" ana="#circa"/>
+                </item>
+                <item xml:id="funt">
+                    <label>Funt</label>
+                    <desc xml:lang="de">Gewichtsmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of mass (Russia)</desc>
+                    <note>96 Zolotnik</note>
+                    <measure type="weight" quantity="0.409" unit="kg"/>
+                </item>
+                <item xml:id="fuss_preussisch">
+                    <label>Fuß</label>
+                    <desc xml:lang="de">Längenmaß (Preußen)</desc>
+                    <desc xml:lang="en">Linear measure (Prussia)</desc>
+                    <measure type="length" quantity="0.31385" unit="m"/>
+                </item>
+                <item xml:id="fuss_de_burgos">
+                    <label>Pié de Burgos</label>
+                    <desc xml:lang="de">Längenmaß (Spanien)</desc>
+                    <desc xml:lang="en">Linear measure (Spain)</desc>
+                    <measure type="length" quantity="0.28" unit="m" ana="#circa"/>
+                </item>
+                <item xml:id="geogr_mile">
+                    <label>Geographical mile</label>
+                    <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
+                    <measure type="length" quantity="1885.4" unit="m"/>
+                </item>
+                <item xml:id="grain_troy">
+                    <label>Grain (Troy)</label>
+                    <desc xml:lang="de">Gewichtsmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of mass (Great Britain)</desc>
+                    <measure type="weight" quantity="0.0648" unit="g"/>
+                    
+                </item>
+                <item xml:id="ed_sst_jwj_r3b">
+                    <label type="reg">Gallone</label>
+                    <desc>Flüssigkeitsmaß (angloamerikanischer Sprachraum)</desc>
+                </item>
+                <item xml:id="gran">
+                    <label>Gran</label>
+                    <desc xml:lang="de">Gewichtsmaß (Deutschland)</desc>
+                    <desc xml:lang="en">Unit of mass (Germany)</desc>
+                    <measure type="weight" quantity="0.065" unit="g"/>
+                    
+                </item>
+                <item xml:id="groschen">
+                    <label>Groschen</label>
+                    <desc xml:lang="de">Währungseinheit</desc>
+                    <desc xml:lang="en">Currency</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="hektar">
+                    <label>Hektar</label>
+                    <desc xml:lang="de">Flächenmaß</desc>
+                    <desc xml:lang="en">Square measure</desc>
+                    <note>100 a = 1 hm² = 0,01 km² </note>
+                    <measure type="area" quantity="10.000" unit="m2"/>
+                </item>
+                <item xml:id="klafter">
+                    <label>Klafter</label>
+                    <desc xml:lang="de">Holzmaß (Preußen)</desc>
+                    <desc xml:lang="en">Unit of volume (Prussia)</desc>
+                    <measure type="capacity" quantity="3.44" unit="m3"/>
+                </item>
+                <item xml:id="kreuzer">
+                    <label>Kreuzer</label>
+                    <desc xml:lang="de">Währungseinheit</desc>
+                    <desc xml:lang="en">Currency</desc>
+                    <note>4 Pfennige</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="lachter">
+                    <label>Lachter</label>
+                    <desc xml:lang="de">Bergbauliches Längenmaß</desc>
+                    <desc xml:lang="en">Unit of length for mining (Prussia)</desc>
+                    <note>? 6 2/3 Fuß ? 1 Toise</note>
+                    <measure type="length" quantity="1.95" unit="m" ana="#circa"/>
+                    
+                </item>
+                <item xml:id="league">
+                    <label>League</label>
+                    <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
+                    <note>3 Miles</note>
+                    <measure type="length" quantity="4827.99" unit="m"/>
+                </item>
+                <item xml:id="league_marine">
+                    <label>Marine league</label>
+                    <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
+                    <note>3 Nautical Miles</note>
+                    <measure type="length" quantity="5564.9" unit="m"/>
+                </item>
+                <item xml:id="leagua" sortKey="1">
+                    <label>Legua</label>
+                    <desc xml:lang="de">Längenmaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of length (Spain)</desc>
+                    <note>Meile</note>
+                    <note>1 Legua marit. = 6650 varas</note>
+                    <measure type="length" quantity="5572" unit="m"/>
+                </item>
+                <item xml:id="legua_antiga">
+                    <label>Légua antiga</label>
+                    <desc xml:lang="de">Längenmaß (Portugal)</desc>
+                    <desc xml:lang="en">Unit of length (Portugal)</desc>
+                    <measure type="length" quantity="6197" unit="m"/>
+                </item>
+                <item xml:id="legua_cuadrada">
+                    <label>Legua cuadrada</label>
+                    <desc xml:lang="de">Flächenmaß (Spanien)</desc>
+                    <desc xml:lang="en">Square measure (Spain)</desc>
+                    <measure type="area" quantity="31054985" unit="m2" ana="#circa"/>
+                </item>
+                <item xml:id="lieue" sortKey="1">
+                    <label>Lieue</label>
+                    <desc xml:lang="de">Längenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of length (France)</desc>
+                    <measure type="length" quantity="4444.4" unit="m"/>
+                </item>
+                <item xml:id="lieue_carree">
+                    <label>Lieue carrée</label>
+                    <desc xml:lang="de">Flächenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Square measure (France)</desc>
+                    <measure type="area" quantity="19790000" unit="m2"/>
+                </item>
+                <item xml:id="lieue_marine">
+                    <label>Lieue marine</label>
+                    <desc xml:lang="de">Längenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of length (France)</desc>
+                    <measure type="length" quantity="5556" unit="m"/>
+                </item>
+                
+                <item xml:id="ligne" sortKey="1">
+                    <label>Ligne</label>
+                    <desc xml:lang="de">Längenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of length (France)</desc>
+                    <note>Linie</note>
+                    <measure type="length" quantity="2.256" unit="mm"/>
+                </item>
+                <item xml:id="linie">
+                    <label>Linie</label>
+                    <desc xml:lang="de">Längenmaß (Preußen)</desc>
+                    <desc xml:lang="en">Unit of length (Prussia)</desc>
+                    <note>1/144 Fuß</note>
+                    <measure type="length" quantity="2.1795" unit="mm"/>
+                </item>
+                <item xml:id="livre">
+                    <label>Livre</label>
+                    <desc xml:lang="de">Münzgewicht (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of mass for coins (France)</desc>
+                    <measure type="weight" quantity="0.4896" unit="kg"/>
+                </item>
+                <item xml:id="livre_tournois">
+                    <label>Livres tournois</label>
+                    <desc xml:lang="de">Münzeinheit (Frankreich)</desc>
+                    <desc xml:lang="en">Currency unit (France)</desc>
+                    <note>20 Sous</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="loth">
+                    <label>Loth</label>
+                    <desc xml:lang="de">Gewichtsmaß (Deutschland)</desc>
+                    <desc xml:lang="en">Unit of mass (Germany)</desc>
+                    <note>1/32 preußisches Pfund</note>
+                    <measure type="weight" quantity="14.606" unit="g"/>
+                    
+                </item>
+                <item xml:id="louisdor">
+                    <label>Louis d’or</label>
+                    <desc xml:lang="de">Goldmünze (Frankreich)</desc>
+                    <desc xml:lang="en">Gold coin (France)</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="mark">
+                    <label>Mark</label>
+                    <desc xml:lang="de">Münzgewicht für Silber</desc>
+                    <desc xml:lang="en">Unit of mass for silver coins (France)</desc>
+                    <measure type="weight" quantity="2.44" unit="g"/>
+                </item>
+                <item xml:id="meile">
+                    <label>Geographische Meile</label>
+                    <desc xml:lang="de">Längenmaß</desc>
+                    <desc xml:lang="en">Unit of length</desc>
+                    <measure type="length" quantity="7420.44" unit="m"/>
+                </item>
+                <item xml:id="quadratmeile">
+                    <label>Geographische Quadratmeile</label>
+                    <desc xml:lang="de">Flächenmaß</desc>
+                    <desc xml:lang="en">Square measure</desc>
+                    <measure type="area" quantity="55.063" unit="km2"/>
+                </item>
+                <item xml:id="meile_preussisch">
+                    <label>Preußische Meile</label>
+                    <desc xml:lang="de">Längenmaß (Preußen)</desc>
+                    <desc xml:lang="en">Unit of length (Prussia)</desc>
+                    <measure type="length" quantity="7532.49" unit="m"/>
+                </item>
+                <item xml:id="metre">
+                    <label>Mètre</label>
+                    <desc xml:lang="de">Längenmaß</desc>
+                    <desc xml:lang="en">Unit of length</desc>
+                    <note>Meter</note>
+                    <measure type="length" quantity="1" unit="m"/>
+                </item>
+                <item xml:id="millimetre">
+                    <label>Millimètre</label>
+                    <desc xml:lang="de">Längenmaß</desc>
+                    <desc xml:lang="en">Unit of length</desc>
+                    <note>Millimeter</note>
+                    <measure type="length" quantity="0,001" unit="m"/>
+                </item>
+                <item xml:id="miglio">
+                    <label>Miglio</label>
+                    <desc xml:lang="de">Längenmaß (Venedig)</desc>
+                    <desc xml:lang="en">Unit of length (Venice)</desc>
+                    <measure type="length" quantity="1738.67" unit="m"/>
+                </item>
+                <item xml:id="mile">
+                    <label>Statute Mile</label>
+                    <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
+                    <note>5280 feet</note>
+                    <measure type="length" quantity="1609.33" unit="m"/>
+                </item>
+                <item xml:id="mile_nautical">
+                    <label>Nautical Mile</label>
+                    <desc xml:lang="de">nautisches Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
+                    <note>Seemeile, 1/60 Äquatorgrad</note>
+                    <measure type="length" quantity="1854.97" unit="m"/>
+                </item>
+                <item xml:id="milla">
+                    <label>Milla</label>
+                    <desc xml:lang="de">nautisches Längenmaß (Spanien)</desc>
+                    <desc xml:lang="en">Nautical unit of length (Spain)</desc>
+                    <note>Seemeile</note>
+                    <note>1 milla marit. = 2216 varas</note>
+                    <measure type="length" quantity="1852" unit="m"/>
+                </item>
+                <item xml:id="mille_nautique">
+                    <label>Mille nautique</label>
+                    <desc xml:lang="de">nautisches Längenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Nautical unit of length (France)</desc>
+                    <note>Seemeile</note>
+                    <note>1 mille = 950 toises</note>
+                    <measure type="length" quantity="1850.98" unit="m"/>
+                </item>
+                <item xml:id="napoleondor">
+                    <label>Napoléon d'dor</label>
+                    <desc xml:lang="de">Goldmünze (Frankreich)</desc>
+                    <desc xml:lang="en">Gold coin (France)</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="palmo">
+                    <label>Palmo</label>
+                    <desc xml:lang="de">Längenmaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of length (Spain)</desc>
+                    <note>Spanne, Handbreit</note>
+                    <measure type="length" quantity="0.21" unit="m" ana="#circa"/>
+                </item>
+                <item xml:id="parasangue">
+                    <label>Farsangue</label>
+                    
+                    
+                    <desc xml:lang="de">Längenmaß (Persien)</desc>
+                    <desc xml:lang="en">Unit of length (Persia)</desc>
+                    <note>historisches Maß, auch Parasangue; Stunde zu Pferd, Reitstunde</note>
+                    
+                    <measure type="length" quantity="6.23" unit="km" ana="#circa"/>
+                </item>
+                <item xml:id="pence">
+                    <label>Pence</label>
+                    <desc xml:lang="de">Währungseinheit (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of currency (Great Britain)</desc>
+                    <note>1 Pfund = 240 Pence</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="pennyweight">
+                    <label>Pennyweight</label>
+                    <desc xml:lang="de">Gewichtsmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of mass (Great Britain)</desc>
+                    <note>24 Grains (Troy)</note>
+                    <measure type="weight" quantity="1.56" unit="g"/>
+                    
+                </item>
+                <item xml:id="pfennig">
+                    <label>Pfennig</label>
+                    <desc xml:lang="de">Währungseinheit (Deutschland)</desc>
+                    <desc xml:lang="en">Unit of currency (Germany)</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="peso">
+                    <label>Peso</label>
+                    <desc xml:lang="de">Währungseinheit (Spanien)</desc>
+                    <desc xml:lang="en">Unit of currency (Spain)</desc>
+                    <note>8 Silberrealen = Piaster</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="pfund_sterling">
+                    <label>Pfund Sterling</label>
+                    <desc xml:lang="de">Währungseinheit (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of currency (Great Britain)</desc>
+                    <note/>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="piaster">
+                    <label>Piaster</label>
+                    <desc xml:lang="de">Währungseinheit (Spanien)</desc>
+                    <desc xml:lang="en">Unit of currency (Spain)</desc>
+                    <note>8 Silberrealen = 1 Peso</note>
+                    <note>1 Piaster = 8 real</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="pied_de_roi" sortKey="1">
+                    <label>Pied</label>
+                    <desc xml:lang="de">Längenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Linear measure (France)</desc>
+                    <note xml:lang="de">spanischer Fuss (pie) = 12 pulgadas</note>
+                    <measure type="length" quantity="0.3248" unit="m"/>
+                </item>
+                <item xml:id="pied_carre">
+                    <label>Pied carré</label>
+                    <desc xml:lang="de">Flächenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Square measure (France)</desc>
+                    <note>Quadratfuß</note>
+                    <measure type="area" quantity="0.1055" unit="m2"/>
+                </item>
+                <item xml:id="pied_cube">
+                    <label>Pied cube</label>
+                    <desc xml:lang="de">Raummaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of volume (France)</desc>
+                    <note>Kubikfuß</note>
+                    <measure type="capacity" quantity="0.0343" unit="m3"/>
+                </item>
+                <item xml:id="pole">
+                    <label>Pole</label>
+                    <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of lenght (Great Britain)</desc>
+                    <note>5,5 Yards = 16,5 Feet</note>
+                    <measure type="length" quantity="5.029102" unit="m"/>
+                </item>
+                <item xml:id="pouce" sortKey="1">
+                    <label>Pouce</label>
+                    <desc xml:lang="de">Längenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of lenght (France)</desc>
+                    <note>Zoll</note>
+                    <measure type="length" quantity="2.707" unit="cm"/>
+                </item>
+                <item xml:id="pouce_carre">
+                    <label>Pouce carré</label>
+                    <desc xml:lang="de">Flächenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of area (France)</desc>
+                    <note>Quadratzoll</note>
+                    <measure type="area" quantity="7.3278" unit="cm2"/>
+                </item>
+                <item xml:id="pouce_cube">
+                    <label>Pouce cube</label>
+                    <desc xml:lang="de">Raummaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of volume (France)</desc>
+                    <note>Pariser Kubikzoll</note>
+                    <measure type="capacity" quantity="19.83649" unit="cm3"/>
+                    
+                </item>
+                <item xml:id="pound_avoirdupois">
+                    <label>Pound avoirdupois</label>
+                    <desc xml:lang="de">Gewichtsmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of mass (Great Britain)</desc>
+                    <measure type="weight" quantity="0.45359" unit="kg"/>
+                </item>
+                <item xml:id="pud" sortKey="1">
+                    <label>Pud</label>
+                    <desc xml:lang="de">Gewichtsmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of mass (Russia)</desc>
+                    <note xml:lang="de">Auch: Poud</note>
+                    <note xml:lang="en">Also: Poud</note>
+                    <measure type="weight" quantity="16.38" unit="kg"/>
+                </item>
+                <item xml:id="quadratzoll">
+                    <label>Quadratzoll</label>
+                    <desc xml:lang="de">Flächenmmaß (Deutschland)</desc>
+                    <desc xml:lang="en">Square measure (Germany)</desc>
+                    <measure type="area" quantity="6.4516" unit="cm2"/>
+                    
+                </item>
+                <item xml:id="pulgada">
+                    <label>Pulgada</label>
+                    <desc xml:lang="de">Längenmaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of lenght (Spain)</desc>
+                    <note>Zoll, entspricht 12 lineas</note>
+                    <measure type="length" quantity="2.3166" unit="cm"/>
+                    
+                </item>
+                <item xml:id="quintal_spanisch">
+                    <label>Quintal</label>
+                    <desc xml:lang="de">Gewichtsmaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of mass (Spain)</desc>
+                    <note>Zentner, brit. hundredweight (cwt), entspricht 4 arrobes</note>
+                    <measure type="weight" quantity="50" unit="kg" ana="#circa"/>
+                </item>
+                <item xml:id="quintal_mexiko">
+                    <label>Quintal</label>
+                    <desc xml:lang="de">Gewichtsmaß (Kastilien, Mexiko)</desc>
+                    <desc xml:lang="en">Unit of mass (Castile, Mexico)</desc>
+                    <note/>
+                    <measure type="weight" quantity="46.025" unit="kg"/>
+                </item>
+                <item xml:id="real">
+                    <label>Real</label>
+                    <desc xml:lang="de">Spanische Münze</desc>
+                    <desc xml:lang="en">Spanisch Coin</desc>
+                    <note>1/8 Peso</note>
+                    <note>1/8 Piaster</note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="reichsthaler">
+                    <label>Reichstaler</label>
+                    <desc xml:lang="de">Preuß. Währungseinheit</desc>
+                    <desc xml:lang="en">Prussian unit of currency</desc>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="rood">
+                    <label>Rood, Rod</label>
+                    <desc xml:lang="de">Angloamerikanische Maßeinheit</desc>
+                    <desc xml:lang="en">Anglo-american unit of measure</desc>
+                    <measure type="length" quantity="5.029" unit="m"/>
+                </item>
+                <item xml:id="sazen">
+                    <label>Sažen</label>
+                    <desc xml:lang="de">Längenmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of length (Russia)</desc>
+                    <note xml:lang="de">Entspricht 3 Aršin</note>
+                    <note xml:lang="en">Equivalent to 3 Aršin</note>
+                    <note xml:lang="de">frz. Sagine</note>
+                    <measure type="length" quantity="2.13" unit="m"/>
+                </item>
+                <item xml:id="sol">
+                    <label>Sol</label>
+                    <desc xml:lang="de">Währungseinheit</desc>
+                    <desc xml:lang="en">Unit of currency</desc>
+                    <note>10 Dineros = 100 Centavos </note>
+                    <measure type="currency"/>
+                </item>
+                <item xml:id="square_rood">
+                    <label>Rood</label>
+                    <desc xml:lang="de">Flächenmaß (Großbritannien, USA)</desc>
+                    <desc xml:lang="en">Square measure (Great Britain and USA)</desc>
+                    <note>Viertelmorgen = 1/4 Acre</note>
+                    <measure type="area" quantity="1011.714" unit="m2"/>
+                </item>
+                <item xml:id="stein">
+                    <label>Stein</label>
+                    <desc xml:lang="de">Gewichtseinheit</desc>
+                    <desc xml:lang="en">Unit of mass</desc>
+                    <note>1/100 Sack = 1 Stein = 40 Unzen</note>
+                    <measure type="weight"/>
+                </item>
+                <item xml:id="toise" sortKey="1">
+                    <label>Toise</label>
+                    <desc xml:lang="de">Längenmaß (Frankreich), Humboldt verwendet auch die griechische Bezeichnung
+                        'hexapus' (6 Fuß)</desc>
+                    <desc xml:lang="en">Unit of lenght (France), Humboldt also uses the greek name 'hexapus' (6
+                        feet)</desc>
+                    <note>Klafter = 6 Pieds</note>
+                    <measure type="length" quantity="1.9484" unit="m"/>
+                </item>
+                <item xml:id="ed_utz_vcj_cjb">
+                    <label type="reg">Libra</label>
+                    <desc>Gewichtseinheit</desc>
+                </item>
+                <item xml:id="toise_carree">
+                    <label>Toise carrée</label>
+                    <desc xml:lang="de"> Flächenmaß (Frankreich)</desc>
+                    <desc xml:lang="en">Square measure (France)</desc>
+                    <note>Quadratklafter</note>
+                    <measure type="area" quantity="3.796" unit="m2" ana="#circa"/>
+                </item>
+                <item xml:id="toise_cubique">
+                    <label>Toise cubique</label>
+                    <desc xml:lang="de">Raummaß (Frankreich)</desc>
+                    <desc xml:lang="en">Unit of volume (France)</desc>
+                    <note>Kubikklafter</note>
+                    <measure type="capacity" quantity="7.397" unit="m2" ana="#circa"/>
+                </item>
+                <item xml:id="tonelada">
+                    <label>Tonelada</label>
+                    <desc xml:lang="de">Raummaß (Spanien)</desc>
+                    <desc xml:lang="en">Unit of volume (Spain)</desc>
+                    <note>Fass</note>
+                    <measure type="capacity" quantity="2.83" unit="m3"/>
+                </item>
+                <item xml:id="tonne">
+                    <label>Tonne</label>
+                    <desc xml:lang="de">Raummaß (Preußen)</desc>
+                    <desc xml:lang="en">Unit of volume (Prussia)</desc>
+                    <note>entspricht 4 Scheffel bzw. 7 Kubik-Fuß</note>
+                    <measure type="capacity" quantity="220" unit="L" ana="#circa"/>
+                </item>
+                <item xml:id="ounce_avoirdupois">
+                    <label>Ounce avoirdupois </label>
+                    <desc xml:lang="de">Gewichtsmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of mass (Great Britain)</desc>
+                    <measure type="weight" quantity="28.35" unit="g"/>
+                    
+                </item>
+                <item xml:id="ounce_troy">
+                    <label>Ounce troy </label>
+                    <desc xml:lang="de">Gewichtsmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of mass (Great Britain)</desc>
+                    <note>20 Pennyweight </note>
+                    <measure type="weight" quantity="31.1" unit="g"/>
+                    
+                </item>
+                <item xml:id="unze">
+                    <label>Unze, Once, Ounce</label>
+                    <desc xml:lang="de">Gewichtsmaß</desc>
+                    <desc xml:lang="en">Unit of mass</desc>
+                    <measure type="weight" quantity="30" unit="g" ana="#circa"/>
+                    
+                </item>
+                <item xml:id="vara_spanisch">
+                    <label>Vara (spanisch)</label>
+                    <desc xml:lang="de">Längenmaß (Spanien und Lateinamerika)</desc>
+                    <desc xml:lang="en">Unit of lenght (Spain and Latin America)</desc>
+                    <note>frz. Vare/Varre, dt. Elle = 36 Pulgadas</note>
+                    <measure type="length" quantity="0.8357976" unit="m"/>
+                </item>
+                <item xml:id="ed_wkf_l2b_cjb">
+                    <label type="reg">Vara cuadrada</label>
+                    <desc xml:lang="de">Flächenmaß (Spanien und Lateinamerika)</desc>
+                    <desc xml:lang="en">Square measure (Spain, Latin America)</desc>
+                    <measure type="area" quantity="0.6986" unit="m2"/>
+                </item>
+                <item xml:id="versok">
+                    <label>Veršok</label>
+                    <desc xml:lang="de">Längenmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of lenght (Russia)</desc>
+                    <note xml:lang="de">Deutsch: Werschok</note>
+                    <note xml:lang="en">German: Werschok</note>
+                    <measure type="length" quantity="4.445" unit="cm"/>
+                    
+                </item>
+                <item xml:id="versta" sortKey="1">
+                    <label>Versta</label>
+                    <desc xml:lang="de">Längenmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of lenght (Russia)</desc>
+                    <note>Deutsch: Werst, 1 Versta = 500 Sažen? </note>
+                    <measure type="length" quantity="1066.8" unit="m"/>
+                </item>
+                <item xml:id="weddra">
+                    <label>Weddra</label>
+                    <desc xml:lang="de">Flüssigkeitsmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of volume for liquids (Russia)</desc>
+                    <note xml:lang="de">dt: Eimer; 1 Weddra = 1/621 Pariser Kubikzoll; 1 Weddra = 1/4 Botschka? oder
+                        1/40 Fass oder 8 Kruska oder 88 Czarken (Schalen)</note>
+                    <measure/>
+                </item>
+                <item xml:id="yard">
+                    <label>Yard</label>
+                    <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of lenght (Great Britain)</desc>
+                    <note>3 Feet</note>
+                    <measure type="length" quantity="0.9144" unit="m"/>
+                </item>
+                <item xml:id="zentner">
+                    <label>Zentner</label>
+                    <desc xml:lang="de">Gewichtsmaß</desc>
+                    <desc xml:lang="en">Unit of mass</desc>
+                    <measure type="weight" quantity="50" unit="kg"/>
+                </item>
+                <item xml:id="zenter_preussisch">
+                    <label>Preußischer Zentner</label>
+                    <desc xml:lang="de">Gewichtsmaß (Preußen)</desc>
+                    <desc xml:lang="en">Unit of mass (Prussia)</desc>
+                    <measure type="weight" quantity="51.45" unit="kg"/>
+                </item>
+                <item xml:id="zoll_preussisch">
+                    <label>Preußisches Zoll</label>
+                    <desc xml:lang="de">Längenmaß (Preußen)</desc>
+                    <desc xml:lang="en">Unit of lenght (Prussia)</desc>
+                    <note>1/12 Fuß</note>
+                    <measure type="length" quantity="2.6154" unit="cm"/>
+                    
+                </item>
+                <item xml:id="zoll_englisch">
+                    <label>Englisches Zoll (inch)</label>
+                    <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of lenght (Great Britain)</desc>
+                    <measure type="length" quantity="2.45" unit="cm"/>
+                    
+                </item>
+                <item xml:id="zolotnik" sortKey="1">
+                    <label>Zolotnik</label>
+                    <desc xml:lang="de">Gewichtsmaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of mass (Russia)</desc>
+                    <measure type="weight" quantity="4.266" unit="g"/>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

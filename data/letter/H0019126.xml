@@ -1,0 +1,94 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Robert Schlagintweit. [Berlin, nach 1857]</title>
+                
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/111674743X" xml:id="MB">
+                        <surname>Brescius</surname>
+                        <forename>Moritz von</forename>
+                    </persName>
+                </editor>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-4634-2386" xml:id="LM">
+                        <surname>Martin</surname>
+                        <forename>Linda</forename>
+                    </persName>
+                </editor>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName xml:id="DE">
+                        <surname>Erdmann</surname>
+                        <forename>Dominik</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0019126</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0019126.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Robert Schlagintweit. [Berlin, nach 1857]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019126</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <date notBefore="1857-06-17" notAfter="1859-05-06" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
+                        (1833-1885)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <pb n="14r"/>
+                    <p>
+                    <address>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice>
+                            <lb/>Wohlgeboren</addrLine>
+                        <addrLine>Herrn <persName ref="http://d-nb.info/gnd/118795090">Robert
+                                Schlagintweit</persName>
+                        </addrLine>
+                    </address>
+                </p>
+                <p>Ich brauche Ihnen nicht<lb/> zu sagen wie sehr<lb/> es mich freuen<lb/> wird Sie
+                    und Ihren<lb/> Herrn Bruder <persName ref="http://d-nb.info/gnd/117280755">Eduard</persName>
+                    <lb/>
+                    Sontag um 1 Uhr<lb/> zu empfangen<supplied cert="high">.</supplied>
+                </p>
+                <closer>
+                    <signed>AlHumboldt</signed>
+                </closer>
+                <lb/>
+                <pb n="14v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

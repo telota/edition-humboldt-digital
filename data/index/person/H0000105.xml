@@ -1,0 +1,47 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>, </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0000105</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0000105.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0000105.xml">
+                    <p>,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000105.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-person</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="H0000105">
+                    <persName type="reg">
+                        <name>Firmin-Didot</name>
+                    </persName>
+                    <floruit notBefore="1700" notAfter="1900"><?oxy_comment_start author="mikosch" timestamp="20160314T154557+0100" comment="floruit: hier ist sicher Ambroise Firmin Didot gemeint, der bis 1836 lebte"?>18./19.
+                        Jh.</floruit>
+                    <?oxy_comment_end?>
+                    <note>Familie französischer Drucker, Verleger und Gelehrter</note>
+                    <linkGrp>
+                        <ptr subtype="comment" target="14#109" type="letter"/>
+                    </linkGrp>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

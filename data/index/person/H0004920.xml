@@ -1,0 +1,59 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Navarrete, Manuel de</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0004920</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0004920.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0004920.xml">
+                    <p>Navarrete, Manuel de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004920.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-person</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="H0004920">
+                    <persName type="reg">
+                        <surname>Navarrete</surname>
+                        <forename>Manuel de</forename>
+                    </persName>
+                    <persName type="alt">
+                        <name>Navarete</name>
+                    </persName>
+                    <persName type="alt">
+                        <name><?oxy_comment_start author="goetz" timestamp="20210716T182009+0200" comment="Name der Ehefrau"?>Del
+                            Rosario Sucre<?oxy_comment_end?>
+                        </name>
+                    </persName>
+                    <floruit notBefore="1800" notAfter="1800"><?oxy_comment_start author="goetz" timestamp="20210716T181732+0200" comment="Internet, Stammbaum: vollst. Name: Manuel Navarrete Y Sáenz; Leda: 1751-1819"?>um
+                        1800</floruit><?oxy_comment_end?>
+                    <note>seit 1777 Tesorero (Schatzmeister) der Provinz Cumaná</note>
+                    <linkGrp>
+                        <ptr subtype="sentFrom" target="16#16" type="letter"/>
+                        <ptr subtype="sentFrom" target="16#98" type="letter"/>
+                        <ptr subtype="sentFrom" target="16#112" type="letter"/>
+                        <ptr subtype="sentFrom" target="16#113" type="letter"/>
+                        <ptr target="16#101" type="letter"/>
+                    </linkGrp>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

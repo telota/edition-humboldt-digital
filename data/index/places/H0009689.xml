@@ -1,0 +1,67 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ust'-Buchtarma</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0009689</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0009689.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0009689.xml">
+                    <p>Ust'-Buchtarma [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009689.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-places</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="H0009689">
+                    <idno type="uri">https://www.geonames.org/1517617</idno>
+                    <placeName type="reg">Ust'-Buchtarma</placeName>
+                    <placeName type="alt">Buchtarminsk</placeName>
+                    <placeName type="alt">Ust-Buchtarma</placeName>
+                    <placeName type="alt">Усть-Бухтарма</placeName>
+                    <placeName type="alt">Buchtarma</placeName>
+                    <placeName type="alt">Buchtarminsker Stausee</placeName>
+                    <placeName type="alt">Buchtorma</placeName>
+                    <placeName type="alt">Buchtorminsk</placeName>
+                    <note>Stadt und histor. Festung an der Mündung der <placeName key="H0018617">Buchtarma</placeName> in
+                        den <placeName key="H0006725">Irtysch</placeName>, seit 1960 vom Buchtarminsker Stausee
+                        überflutet (Kasachstan)</note><!-- Rose I, 585 -->
+                    <linkGrp>
+                        <ptr target="32#164" type="letter"/>
+                        <ptr target="30#38" type="letter"/>
+                        <ptr subtype="comment" target="30#38" type="letter"/>
+                        <ptr target="30#43" type="letter"/>
+                        <ptr target="30#45–47" type="letter"/>
+                        <ptr target="30#49–51" type="letter"/>
+                        <ptr target="30#54" type="letter"/>
+                        <ptr target="30#55" type="letter"/>
+                        <ptr target="30#57" type="letter"/>
+                    </linkGrp>
+                    <listPlace>
+                        <place type="others" oldID="ediarum_dvw_3gy_wsb" xml:id="H0020294">
+                            <placeName type="reg">Kupfergrube Buchtarminsk</placeName>
+                            <note>östlich der Stadt und histor. Festung Buchtarminsk gelegene histor. Kupfergrube, Rose
+                                zufolge betrieben ab 1790</note><!-- Rose I, 588 -->
+                        </place>
+                    </listPlace>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

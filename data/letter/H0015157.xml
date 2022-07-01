@@ -1,0 +1,101 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 30. Januar 1844]</title>
+                <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0015157</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0015157.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 30. Januar 1844]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015157</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von
+                        (1769–1859)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1844-01-30" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
+                        (1788–1850)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+                    <salute/>
+                </opener>
+                <p>
+                    <pb n="1r"/>Der unglükliche Tag Sontag <lb/>4<supplied cert="high">.</supplied>
+                    <choice>
+                        <abbr>Febr</abbr>
+                        <expan>Februar</expan>
+                    </choice>.
+                    Ich kann Ihnen <lb/>nicht genug mein Bedauern <lb/>
+                    <choice>
+                        <orig>aussern</orig>
+                        <reg>äussern</reg>
+                    </choice>
+                    <supplied cert="high">.</supplied> Es ist Sontag
+                    <lb/>Abend 9–11<hi rendition="#sup">h</hi> die einzige <lb/>Carnaval-Cour
+                        bei<persName ref="http://d-nb.info/gnd/118822837">
+                        <choice>
+                            <abbr>Pr</abbr>
+                            <expan>Prinz</expan>
+                        </choice>
+                        <lb/>Carl</persName>, wo man ganz <lb/>brodirt sein muss, also <lb/>ist bei
+                    der Entlegenheit <lb/>meiner Wohnung kein Mittel <lb/>des Umkleidens<supplied cert="high">.</supplied>
+                </p>
+                <signed>AHt </signed>
+                <dateline>Dienstag</dateline>
+            </div>
+            <postscript>
+                <p>Vorigen Sontag war <lb/>die erste Cour <lb/>bei<persName ref="http://d-nb.info/gnd/118632884">
+                        <choice>
+                            <abbr>Pr.</abbr>
+                            <expan>Prinz</expan>
+                        </choice>
+                        <choice>
+                            <abbr>v.</abbr>
+                            <expan>von</expan>
+                        </choice> Preussen</persName>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>
+                    
+                        <pb n="1v"/>
+                        <address>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren</addrLine>
+                        <addrLine>Herrn <choice>
+                                <abbr>Prof.</abbr>
+                                <expan>Professor</expan>
+                            </choice> Kunth</addrLine>
+                    </address>
+                </p>
+            </postscript>
+        </body>
+    </text>
+</TEI>

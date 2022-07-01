@@ -1,0 +1,105 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin],
+               [1827–1830]
+               </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anne</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+                <publisher>
+               
+            </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016754</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016754.xml</idno>
+            </publicationStmt>
+         <sourceDesc>
+                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin],
+               author="thomas" timestamp="20190211T120526+0100" comment="sollte man das gemeinte &amp;quot;zwischen&amp;quot; doch anders ausdrücken? Tagging in &amp;lt;date&amp;gt; jedenfalls geändert, war @from und @to, ist nun @notBefore und @notAfter."[1827–1830]
+               . Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016754</bibl>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <textClass>letter</textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <date notBefore="1827" notAfter="1830">1827-1830</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+            <note>Zur Datierung: E. war seit 1827 Professor;
+               altdt.
+               Schrift
+            </note>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="writingSession">
+            <pb n="1r"/>
+                <opener>
+                    <address>
+                  <addrLine>
+                            <choice>
+                        <abbr>Sr</abbr>
+                        <expan>Seiner</expan>
+                     </choice> Wohlgeboren</addrLine>
+                  <addrLine>Herrn <choice>
+                        <abbr>Prof</abbr>
+                        <expan>Professor</expan>
+                     </choice> Ehrenberg</addrLine>
+               </address>
+            </opener>
+            <pb n="1v"/>
+                <p>Ich bin eben so erstaunt <lb/>als erfreut über Ihre <lb/>herrlichen
+               Entdekkungen, <lb/>mein theurer Ehrenberg. Herzliche <lb/>Grüße an <persName ref="http://d-nb.info/gnd/116609036">Rose</persName>
+                    <supplied cert="high">,</supplied> ich <lb/>hoffe
+               Sie morgen beide <lb/>besuchen zu können<supplied cert="high">.</supplied>
+                </p>
+            <closer rend="paragraph">
+                    <signed>Ihr <lb/>AHumboldt</signed>
+               <dateline>Montags</dateline>
+            </closer>
+         </div>
+         <postscript>
+            <p>Ich war gestern auf der <lb/>
+                    <placeName ref="https://edition-humboldt.de/v8/H0008243">Pfauen Insel</placeName>,
+               heute <lb/>muß ich nach <placeName ref="https://www.geonames.org/2940187">Charlotten<lb/>burg</placeName>
+                    <supplied cert="high">.</supplied>
+                </p>
+         </postscript>
+      </body>
+   </text>
+</TEI>

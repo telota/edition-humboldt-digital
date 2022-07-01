@@ -1,0 +1,104 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth, [Berlin], Donnerstag, [Oktober 1844]</title>
+                <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0005454</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0005454.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Carl Sigismund Kunth, [Berlin], Donnerstag, [Oktober 1844]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0005454</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von
+                        (1769–1859)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <date notAfter="1844-10-31" cert="high" notBefore="1844-10-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
+                        (1788–1850)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Der im Brief erwähnte <persName ref="https://edition-humboldt.de/v8/H0013940">Nicholas René Marjolin</persName>
+                    hielt sich im Oktober 1844 in Berlin auf. Vgl. Humboldts Empfehlungsschreiben
+                    für <persName ref="https://edition-humboldt.de/v8/H0013940">Marjolin</persName> an
+                        <persName ref="http://d-nb.info/gnd/11879972X">Johann Georg von Cotta</persName> ,
+                    Sanssouci, 25. Oktober 1844 (<bibl corresp="https://edition-humboldt.de/v8/KGM28M3V">Humboldt 2009</bibl>, 265). </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <p>
+                    <pb n="1r"/>Voici, mon excellent ami, <choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice>
+                    <lb/>
+                    <persName ref="https://edition-humboldt.de/v8/H0013940">Majorlin</persName>
+                    <choice>
+                        <orig>Medecin</orig>
+                        <reg>Médecin</reg>
+                    </choice> des <choice>
+                        <orig>Hopitaux </orig>
+                        <reg>Hôpitaux</reg>
+                    </choice>
+                    <lb/>fils du <persName ref="https://edition-humboldt.de/v8/H0013939">Chirurgien <choice>
+                            <orig>celebre</orig>
+                            <reg>célèbre</reg>
+                        </choice>
+                    </persName> de <placeName ref="https://www.geonames.org/2988507">
+                        <lb/>Paris</placeName>. Daignez lui donner un petit <lb/>mot pour le
+                        <orgName ref="http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName>
+                    <supplied cert="high">.</supplied>
+                    <lb/>C’est un home très instruit.</p>
+                <p>AlHumboldt <lb/>ce jeudi <lb/>
+                    <lb/>
+                    <address>
+                        <pb n="1v"/>
+                        <addrLine>
+                            <choice>
+                                <orig>a</orig>
+                                <reg>à</reg>
+                            </choice>
+                            Monsieur
+                        </addrLine>
+                        <addrLine>Monsieur Kunth</addrLine>
+                        <addrLine>Directeur du <orgName ref="http://d-nb.info/gnd/17434-8">Jardin
+                                botanique</orgName>
+                        </addrLine>
+                        <addrLine>Schüzenstrasse <choice>
+                                <abbr>n</abbr>
+                                <expan>numero</expan>
+                            </choice> 7.</addrLine>
+                        <addrLine>
+                            <lb/>AlHumboldt <lb/>par <choice>
+                                    <abbr>Mr</abbr>
+                                    <expan>Monsieur</expan>
+                                </choice> <persName ref="https://edition-humboldt.de/v8/H0013940">Majorlin</persName>
+                            <persName ref="https://edition-humboldt.de/v8/H0013940">
+                                <note hand="#addressee" place="mBottom">Marjolin</note>
+                            </persName>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

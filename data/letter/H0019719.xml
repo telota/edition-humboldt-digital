@@ -1,0 +1,92 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Freitag</title>
+                <title>, [vor 30. März 1831]</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0019719</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0019719.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Freitag, [vor 30. März 1831]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019719</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <date notBefore="1830-10-03" notAfter="1831-03-29" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                </correspAction>
+                <note>Zur Datierung vgl. <ref target="H0019587">den folgenden
+                    Brief</ref>.</note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+					<salute/>
+                </opener>
+				<pb n="1r"/>
+                <p>Je dois ajouter quelques
+                        éclair<lb/>cissemens par écrit que je <lb/>n’ai pas cru <choice>
+                        <sic>convenable</sic>
+                        <corr cert="high">convenables</corr>
+                    </choice>
+                    <lb/>de Vous donner de bouche, <lb/>mon cher Monsieur <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>
+                    <supplied cert="high">.</supplied>
+                    <lb/>Il n’est sérieusement ques<lb/>tion d’aucun achât de
+                    <lb/>Vos
+                    4 tableaux dont Vous <lb/>restez le maître ici et à <lb/>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>. Cette
+                    phrase n’étoit <lb/>que pour <choice>
+                        <abbr>Mr</abbr>
+                        <expan>Monsieur</expan>
+                    </choice>
+                    <persName ref="http://d-nb.info/gnd/116918241">Léo</persName>. <ref xml:id="e0eed66a-4a1e-4c90-aed6-6a4a1efc9092" corresp="#d2aeea1d-0e1c-45eb-aeea-1d0e1cd5eb06">J’ai voulu <lb/>tout simplement m’acquitter <lb/>d’une ancienne dette
+                            pour <lb/>les dessins que Vous avez eu <lb/>la bonté de m’envoyer</ref>
+                    <note xml:id="d2aeea1d-0e1c-45eb-aeea-1d0e1cd5eb06" corresp="#e0eed66a-4a1e-4c90-aed6-6a4a1efc9092">Humboldt bezieht sich hier wahrscheinlich auf
+                            die Pflanzenzeichnungen für die Neuausgabe der Ideen zu einer Geographie
+                            der Pflanzen, die er 1825 und 1826 bei Rugendas in Auftrag gegeben
+                            hatte. Vgl. unter anderem die <ref target="H0017850">Vereinbarung vom
+                                24. Oktober 1825</ref> sowie <ref target="H0017855">Humboldts Brief an
+                                Rugendas, Paris, 1. Februar 1826</ref>.</note>. Je <lb/>ne m’en intéresserai pas <lb/>avec moins de chaleur à <lb/>la
+                    sortie de Vos 4 jolis <lb/>tableaux. Je Vous prie en <lb/>grâce de ne pas me
+                        répon<lb/>dre à ces lignes dictées <lb/>par la plus haute estime
+                    pour <lb/>votre talent<supplied cert="high">.</supplied>
+                </p>
+				<closer>
+                    <signed>Al Humboldt</signed>
+				    <date>vendredi</date>
+				</closer>
+                <pb n="1v"/>
+                <gap reason="empty" unit="pages" quantity="1"/>
+                <pb n="2r"/>
+                <gap reason="empty" unit="pages" quantity="1"/>
+                <pb n="2v"/>
+                <gap reason="empty" unit="pages" quantity="1"/>
+                
+            </div>
+            
+        </body>
+    </text>
+</TEI>

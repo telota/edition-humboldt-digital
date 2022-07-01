@@ -1,0 +1,105 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [November
+               1848] </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+                <publisher>
+               
+            </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016590</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016590.xml</idno>
+            </publicationStmt>
+         <sourceDesc>
+                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [November
+               1848] . Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016590</bibl>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <textClass>letter</textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <date notBefore="1848-11" notAfter="1848-11">1848-11-00</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+            <note>Zur Datierung: vgl. E.s Brief v. 23.11.1848</note>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="writingSession">
+            <pb n="1r"/>
+            <opener>
+                    <address>
+                  <addrLine>
+                            <choice>
+                        <abbr>Sr</abbr>
+                        <expan>Seiner</expan>
+                     </choice> Wohlgeboren </addrLine>
+                  <addrLine>Herrn Professor Ehrenberg</addrLine>
+                  <addrLine>AlHumboldt</addrLine>
+               </address>
+                </opener>
+            <pb n="1v"/>
+            <p>Ich habe in meinem <ref xml:id="bd5eaa9e-4ece-404e-9eaa-9e4ecee04e23" corresp="#d4cff34c-03d9-4053-8ff3-4c03d96053cd">Kosmos</ref>
+                    <note xml:id="d4cff34c-03d9-4053-8ff3-4c03d96053cd" corresp="#bd5eaa9e-4ece-404e-9eaa-9e4ecee04e23">
+                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>
+                  </note> wirklich ganz <lb/>richtig 40000 Millionen gesagt. Ruhig <lb/>nachrechnend
+               finde ich nach Formel
+                   <lb/> <hi rendition="#c">288³×1728</hi>
+               <lb/>durch <choice>
+                  <sic>Zahlenrechnug</sic>
+                  <corr>Zahlenrechnung</corr>
+               </choice> 42550 Millionen <lb/>durch <choice>
+                  <abbr>logar.</abbr>
+                  <expan>logarithmisches</expan>
+               </choice> mit Weglassung von Deci<lb/>malstellen 41370 <choice>
+                  <abbr>Mill.</abbr>
+                  <expan>Millionen</expan>
+               </choice> also sind Ihre <lb/>Schäzungen, theurer Freund, ganz richtig<supplied cert="high">.</supplied>
+                    <ref xml:id="d54a9a57-bac1-4440-8a9a-57bac1b440bd" corresp="#a576af92-9c79-4dab-b6af-929c795dab1b"/>
+                    <note xml:id="a576af92-9c79-4dab-b6af-929c795dab1b" corresp="#d54a9a57-bac1-4440-8a9a-57bac1b440bd">vgl. <ref target="H0016515">Nr. 265 E3</ref>
+                    </note>
+            </p>
+              <closer rend="paragraph">
+                    <signed>AlHumboldt</signed>
+                </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,105 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Mittwoch, [15.
+                    Dezember 1830]</title>
+                <editor>
+                        <persName ref="http://d-nb.info/gnd/139028285">
+                            <surname>Päßler</surname>
+                            <forename>Ulrich</forename>
+                        </persName>
+                    </editor>
+                <respStmt>
+                    <persName ref="http://www.bbaw.de/die-akademie/mitarbeiter/schnee">
+                        <surname>Schnee</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0019585</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0019585.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Mittwoch, [15.
+                    Dezember 1830]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019585</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <date when="1830-12-15" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+					<salute/>
+                </opener>
+				<pb n="1r"/>
+                <p>Meinen innigsten Dank für Ihre
+                        <lb/>schönen
+                        <bibl corresp="https://edition-humboldt.de/v8/4M7BCH3N">Hefte</bibl>. Meine durch <lb/>
+                    <ref xml:id="d0d5b8a8-d33a-4936-95b8-a8d33ac936ea" corresp="#dc5dfad9-df9a-48f5-9dfa-d9df9aa8f5f9">die wilden Begebenheiten an <lb/>der <placeName ref="https://www.geonames.org/3081873">Weichsel</placeName>
+                    </ref>
+                    <note xml:id="dc5dfad9-df9a-48f5-9dfa-d9df9aa8f5f9" corresp="#d0d5b8a8-d33a-4936-95b8-a8d33ac936ea">Humboldt bezieht sich hier auf den Verlauf des
+                            Novemberaufstands in Polen. Am 29. November 1830 hatten Aufständische in
+                            Warschau versucht, den <persName ref="https://d-nb.info/gnd/118864513">Bruder des
+                                Zaren</persName> zu töten. Am 3. Dezember bildeten sie eine
+                            provisorische Regierung; der Oberbefehlshaber der Armee <persName ref="https://d-nb.info/gnd/119311593">Józef Chłopicki</persName> erklärte sich am 5.
+                            Dezember zum Diktator.</note> beschleunigte <lb/>Abreise und der <ref xml:id="a1b3669d-5b02-494e-b366-9d5b02e94e3d" corresp="#c26dd17c-075c-4eef-add1-7c075cbeef4c">Zeitfressende <lb/>unglükliche Prozeß</ref>
+                    <note xml:id="c26dd17c-075c-4eef-add1-7c075cbeef4c" corresp="#a1b3669d-5b02-494e-b366-9d5b02e94e3d">Vier ehemalige Minister <persName ref="http://d-nb.info/gnd/118776770">Karls X.</persName> mussten sich ab dem 15. Dezember 1830 vor der
+                            Pairskammer für die Unterzeichnung der Juliordonanzen verantworten.
+                            Dieses am 26. Juli 1830 veröffentlichte Dokument, in dem die
+                            Pressezensur eingeführt und das geltende Wahlrecht eingeschränkt wurde,
+                            gilt als unmittelbarer Auslöser der am folgenden Tag ausgebrochenen
+                            Julirevolution.</note> zwingen mich<supplied cert="high">,</supplied>
+                    <lb/>Sie zu bitten, mich schon <lb/>morgen Donnerstags 11½ Uhr <lb/>gütigst zu
+                        empfangen<supplied cert="high">.</supplied>
+                </p>
+				<closer>
+					<salute/>
+					<signed>AlHumboldt</signed>
+                    <dateline>Mittwoch</dateline>
+				</closer>
+                <pb n="1v"/>
+                <gap reason="empty" unit="pages" quantity="1"/>
+                <pb n="2r"/>
+                <gap reason="empty" unit="pages" quantity="1"/>
+                <pb n="2v"/>
+                <closer>
+                    <address>
+				    <addrLine>à Monsieur</addrLine>
+                        <addrLine>Monsieur <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>
+                        </addrLine>
+                        <addrLine>Quai Malaquai</addrLine>
+                        <addrLine>
+                            <choice>
+                                <abbr>n</abbr>
+                                <expan>numéro</expan>
+                            </choice> 15.</addrLine>
+				</address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

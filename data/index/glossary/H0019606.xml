@@ -1,0 +1,44 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abfall</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0019606</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0019606.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0019606.xml">
+                    <p>Abfall [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019606.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>glossary</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <list>
+                <item xml:id="H0019606">
+                    <label type="reg" xml:lang="deu">Abfall</label>
+                    <label type="alt" xml:lang="fra">pente</label>
+                    <interp id="#geologie"/>
+                    <!-- [ct] @Telota NB ist https://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-interp.html hier die beste Wahl, eigentlich für Span-Annotationen innerhalb des Textes, wenn ich das richtig verstehe. Aber ich schau nochmal, kein Problem bis dahin. -->
+                    <note resp="#FS">
+                        <p>Bergflanke, Hang, Abhang</p>
+                    </note>
+                </item>
+            </list>
+        </body>
+    </text>
+</TEI>

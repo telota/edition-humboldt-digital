@@ -1,0 +1,111 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 5. September
+               1848</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+                <publisher>
+               
+            </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016584</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016584.xml</idno>
+            </publicationStmt>
+         <sourceDesc>
+                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 5. September
+               1848. Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016584</bibl>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <textClass>letter</textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <date when="1848-09-05">1848-09-05</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="writingSession">
+            <pb n="1r"/>
+            <opener>
+                    <dateline rend="align(left)">5 <choice>
+                     <abbr>Sept</abbr>
+                     <expan>September</expan>
+                  </choice> 1848.</dateline>
+               <dateline rend="align(right)">Potsdam Montag <lb/>Nacht</dateline>
+                </opener>
+            <p>Ich gebe Ihnen ein kleines <lb/>Lebenszeichen, theurer College; <lb/>Ich bin sehr mit
+               Ihrer <lb/>herrlichen <ref xml:id="cdc9fbed-b4ed-41cd-89fb-edb4edb1cd51" corresp="#d6a1e0f9-a2bc-4fcc-a1e0-f9a2bc6fccab">Abhandlung über <lb/>die Corallen</ref>
+                    <note xml:id="d6a1e0f9-a2bc-4fcc-a1e0-f9a2bc6fccab" corresp="#cdc9fbed-b4ed-41cd-89fb-edb4edb1cd51">
+                     <bibl corresp="https://edition-humboldt.de/v8/BQ6LKZGT">Ehrenberg 1834</bibl>
+                  </note> beschäftigt <lb/>gewesen. Können Sie mir, <lb/>falls<del rendition="#s">,</del> Sie diese Zeilen <lb/>treffen, Ihr Exemplar <lb/>von <ref xml:id="ee301fd5-3520-4496-b01f-d5352014961e" corresp="#f57bd67d-63b8-418c-bbd6-7d63b8c18c6a">
+                        <persName ref="http://d-nb.info/gnd/118523813">Darwins</persName> kleinem
+                     <lb/>Corallenbuche</ref>
+                    <note xml:id="f57bd67d-63b8-418c-bbd6-7d63b8c18c6a" corresp="#ee301fd5-3520-4496-b01f-d5352014961e">
+                     <bibl corresp="https://edition-humboldt.de/v8/9WQFLU8M">Darwin 1842</bibl>
+                  </note> leihen<supplied cert="high">.</supplied> Ich <lb/>gehe <add place="superlinear">morgen</add> nach <placeName ref="https://www.geonames.org/2823708">Tegel</placeName>
+               und von <lb/>da unmittelbar schon <lb/>um 7<hi rendition="#sup">h</hi> Abends auf die
+                  <lb/>Eisenbahn<supplied cert="high">.</supplied> Können Sie, <lb/>theurer Freund,
+               das <lb/>Buch morgen Abend bis <subst>
+                  <add place="intralinear">6</add>
+                  <lb/>
+                  <del rendition="#s">8</del>
+               </subst> Uhr zu mir <subst>
+                  <del rendition="#s">oder</del>
+               </subst> in <lb/>
+                    <subst>
+                  <add place="left">mein</add>
+                  <del rendition="#s">das</del>
+               </subst> Berliner Haus <choice>
+                  <abbr>od</abbr>
+                  <expan>oder</expan>
+               </choice>
+               <lb/>einen anderen Tag nach <lb/>
+                    <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               schicken, so verbinden Sie <lb/>mich sehr<supplied cert="high">.</supplied>
+            </p>
+            <closer rend="paragraph">
+                    <salute>Mit alter Verehrung <lb/>Ihr</salute>
+                <lb/>
+                    <signed>AlHumboldt</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

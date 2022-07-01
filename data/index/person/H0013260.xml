@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cruz, José de la</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0013260</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0013260.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0013260.xml">
+                    <p>Cruz, José de la [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0013260.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-person</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="H0013260">
+                    <persName type="reg">
+                        <surname>Cruz</surname>
+                        <forename>José de la</forename>
+                    </persName>
+                    <floruit notBefore="1799" notAfter="1799">um 1799</floruit>
+                    <note>seit August 1799 Humboldts Reisebegleiterund Diener indigener Abstammung
+                        in Amerika und vermutlich auch in Europa</note>
+                    <linkGrp>
+                        <ptr target="16#80" type="letter"/>
+                        <ptr target="16#112" type="letter"/>
+                        <ptr subtype="comment" target="19#[11]" type="page"/>
+                        <ptr subtype="comment" target="19#[107]" type="page"/>
+                    </linkGrp>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
