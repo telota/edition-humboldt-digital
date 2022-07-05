@@ -1,0 +1,122 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Johann Moritz Rugendas. Berlin, 25. Februar
+                    1854</title>
+                <editor>
+                        <persName ref="http://d-nb.info/gnd/139028285">
+                            <surname>Päßler</surname>
+                            <forename>Ulrich</forename>
+                        </persName>
+                    </editor>
+                <respStmt>
+                    <persName ref="http://www.bbaw.de/die-akademie/mitarbeiter/schnee">
+                        <surname>Schnee</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0019728</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0019728.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. Berlin, 25. Februar
+                    1854. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019728</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1854-02-25" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <opener>
+                    <pb n="150r"/>
+                    <dateline>
+                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>, <choice>
+                            <abbr>d.</abbr>
+                            <expan>den</expan>
+                        </choice> 25<supplied cert="high">.</supplied>
+                        <choice>
+                            <abbr>Feb.</abbr>
+                            <expan>Februar</expan>
+                        </choice>
+                        <lb/>1854.</dateline>
+                </opener>
+				<p>Was ich so lange gewünscht habe, weil es von
+                        <lb/>einem
+                        <add place="superlinear">Ihnen</add> fremden, aber geistreichen und
+                    kunstgelehrten <lb/>
+                    <persName ref="http://d-nb.info/gnd/118535994">Monarchen</persName> ausgeht, auch
+                    eine öffentliche <lb/>Anerkennung Ihres schönen, grossen Talentes ist, <lb/>
+                    <subst>
+                        <del rendition="#s">ist</del>
+                        <add place="superlinear">wurde</add>
+                    </subst> erlangt!<del rendition="#s">worden.</del> Ich habe gestern den
+                        <lb/>
+                    <persName ref="http://d-nb.info/gnd/118535994">König</persName> noch so voll lebhafter
+                    Erin̅erung an die <lb/>Genüsse<choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice>
+                    <add place="superlinear">gefunden</add>
+                    <supplied cert="high">,</supplied> die<choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice> Sie ihm verschaft, dass ich <hi rendition="#u">zwei</hi>
+                    <lb/>Dinge zugleich für Sie erlangen konnte<supplied cert="high">:</supplied>
+                </p>
+                <p>den Rothen Adler Orden <lb/>dritter Klasse (Preussische <lb/>Künstler, wie
+                    Preussische <lb/>HofLeute müssen mit <lb/>der 4<hi rendition="#sup">
+                        <hi rendition="#u">ten</hi>
+                    </hi> Klasse beginnen)</p>
+                <p>und den Ankauf der <subst>
+                        <del rendition="#s">mit</del>
+                        <add place="intralinear">
+                            <lb/>mit</add>
+                    </subst>gebrachten Zeichnungen <lb/>von <placeName ref="https://www.geonames.org/4013516">Colima</placeName> und West<lb/>
+                    <placeName ref="https://www.geonames.org/3996063">Mexico</placeName> für 104 <choice>
+                        <abbr>Fr.</abbr>
+                        <expan>Friedrich</expan>
+                    </choice> d’or<supplied cert="high">.</supplied>
+                </p>
+                <p>Mögen es Ihnen Freude machen, mögen Sie <lb/>darin den Beweis der Dauer meiner
+                    <lb/>innigen Anhänglichkeit erkennen. Ueber <lb/>den <hi rendition="#u">modus</hi> der Zahlung (die gesichert <lb/>ist) muss ich erst mit Herrn
+                        <persName ref="http://d-nb.info/gnd/11712110X">
+                        <choice>
+                            <abbr>v</abbr>
+                            <expan>von</expan>
+                        </choice> Olfers</persName>
+                    <lb/>verhandeln, <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del> bei dem ich vorgestern <lb/>vergebens war.</p>
+				<closer>
+                    <signed>AlHumboldt</signed>
+                </closer>
+                <pb n="150v"/>
+                <gap reason="empty" unit="pages" quantity="1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

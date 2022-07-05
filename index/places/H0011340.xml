@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Laja</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0011340</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0011340.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0011340.xml">
+                    <p>Laja [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011340.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-places</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="H0011340">
+                    <idno type="uri">https://www.geonames.org/574929</idno>
+                    <placeName type="reg">Laja</placeName>
+                    <placeName type="alt">Лая</placeName>
+                    <placeName type="alt">Laya</placeName>
+                    <placeName type="alt">Laiga derebna</placeName>
+                    <!--ERST 33r-->
+                    <note>Ort nahe zwei historischen Hüttenwerken im <placeName key="H0020291">Mittleren
+                            Ural</placeName>, nordwestlich von <placeName key="H0001688">Nižnij Tagil</placeName>
+                            (<placeName key="H0010689">Russland</placeName>)</note>
+                    <linkGrp>
+                        <ptr target="30#50" type="letter"/>
+                    </linkGrp>
+                    <listPlace>
+                        <place type="others" oldID="ediarum_ebl_gst_ypb" xml:id="H0019554">
+                            <placeName type="reg">Nižne-Lajskij</placeName>
+                            <placeName type="alt">Нижне-Лайский</placeName>
+                            <note>historisches Eisenwerk</note>
+                        </place>
+                        <place type="others" oldID="ediarum_ajr_nst_ypb" xml:id="H0019555">
+                            <placeName type="reg">Werchne-Lajskij</placeName>
+                            <placeName type="alt">Верхне-Лайский</placeName>
+                            <note>historisches Eisenwerk</note>
+                        </place>
+                    </listPlace>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

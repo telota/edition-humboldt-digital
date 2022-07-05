@@ -1,0 +1,91 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Otto Schomburgk. [Berlin, 7. Dezember 1848]</title>
+                <editor>
+                    <persName ref="https://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="https://d-nb.info/gnd/1109066872">
+                        <surname>MacKinney</surname>
+                        <forename>Anne Greenwood</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://d-nb.info/gnd/1192713052">
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0019594</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0019594.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Otto Schomburgk. [Berlin, 7. Dezember 1848]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019594</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1848-12-07" cert="low"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="1r"/>
+            
+            <div type="writingSession">
+                <p>Wollen Sie mich gütigst besuchen<supplied cert="high">,</supplied>
+                    <lb/>morgen Sonnabend um 1 Uhr. Man <lb/>ist sehr, sehr zufrieden mit den
+                    <lb/>treflichen Sendungen Ihres jungen <lb/>
+                    <persName ref="http://d-nb.info/gnd/118759078">Bruders</persName>.</p>
+                <closer>AlHumboldt<dateline>Donnerstag</dateline>
+                    <pb n="1v"/>
+                    <gap reason="empty" unit="pages" quantity="1"/>
+                    <pb n="2r"/>
+                    <gap reason="empty" unit="pages" quantity="1"/>
+                    <pb n="2v"/>
+                    <address>
+                        <addrLine>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren</addrLine>
+                        <addrLine>Herrn Otto Schomburgk</addrLine>
+                        <addrLine>Neustädter Kirchstraße</addrLine>
+                        <addrLine>
+                            <choice>
+                                <abbr>n</abbr>
+                                <expan>numero</expan>
+                            </choice> 5</addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

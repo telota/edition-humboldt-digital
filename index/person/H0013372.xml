@@ -1,0 +1,61 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Gauß, Minna</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0013372</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0013372.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0013372.xml">
+                    <p>Gauß, Minna [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0013372.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-person</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="H0013372">
+                    <idno type="uri">http://d-nb.info/gnd/1072588277</idno>
+                    <persName type="reg">
+                        <surname>Gauß</surname>
+                        <forename>Minna</forename>
+                    </persName>
+                    <persName type="alt" subtype="birthname">
+                        <name>Waldeck</name>
+                    </persName>
+                    <persName type="alt">
+                        <surname>Gauß</surname>
+                        <forename>Friederica Wilhelmine</forename>
+                    </persName>
+                    <birth>1788</birth>
+                    <death>1831</death>
+                    <note>ab 1810 die 2. Ehefrau von Carl Friedrich Gauß</note>
+                    <linkGrp>
+                        <ptr target="04#7" type="letter"/>
+                        <ptr target="04#11" type="letter"/>
+                        <ptr subtype="comment" target="04#14" type="letter"/>
+                        <ptr subtype="comment" target="04#19" type="letter"/>
+                        <ptr subtype="comment" target="04#26" type="letter"/>
+                        <ptr subtype="comment" target="04#56" type="letter"/>
+                        <ptr subtype="comment" target="04#59" type="letter"/>
+                    </linkGrp>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>

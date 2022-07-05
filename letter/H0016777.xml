@@ -1,0 +1,85 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1854]
+            </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+                <publisher>
+               
+            </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016777</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016777.xml</idno>
+            </publicationStmt>
+         <sourceDesc>
+                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1854]
+            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016777</bibl>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <textClass>letter</textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <date notBefore="1854" notAfter="1854" cert="low">1854-00-00</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+            <note>Zur Datierung: vgl. Publikation</note>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="writingSession">
+             <pb n="1v"/>
+                <opener>
+                    <salute>
+                        <hi rendition="#u">Herr <choice>
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                     </choice> Ehrenberg</hi>,</salute>
+                </opener>
+                <p>
+                    <ref xml:id="a4a90eb5-5893-4786-a90e-b55893e78679" corresp="#cd9f02d0-f6a8-4b74-9f02-d0f6a83b74ac">von <persName ref="http://d-nb.info/gnd/117619426">Saulcy’s</persName> Reise <lb/>nach dem <placeName ref="https://www.geonames.org/295347">toten <lb/>Meere</placeName> nach dem alten <lb/>Sodom und Moab von <lb/>wo er
+               die Statue <lb/>eines Moabitischen <lb/>Königs neben den <lb/>
+                        <hi rendition="#u">heiligen</hi> Schnecken <lb/>mitgebracht<supplied cert="high">.</supplied>
+                    </ref>
+                    <note xml:id="cd9f02d0-f6a8-4b74-9f02-d0f6a83b74ac" corresp="#a4a90eb5-5893-4786-a90e-b55893e78679">
+                     <bibl corresp="https://edition-humboldt.de/v8/5FBNNDFE">Saulcy 1853</bibl>
+                  </note>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

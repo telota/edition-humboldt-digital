@@ -1,0 +1,283 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Digitale Methodik</title>
+                <title type="sub">Ein Überblick über Datenmodellierung und verwendete Technologien</title>
+                <author>
+                    <persName>
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                </author>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016212</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016212.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Dumont, Stefan: Digitale Methodik. Ein Überblick über Datenmodellierung und verwendete Technologien. 2017-06-07. URL: https://edition-humboldt.de/v8/H0016212</bibl>
+            </sourceDesc>
+        </fileDesc>
+
+        <revisionDesc>
+            <listChange>
+                <change when="2020-05-18" who="kraft">Von SD überarbeitete Fassung redaktionell
+                    bearbeitet (Struktur der Überschriften, anchor-Link gesetzt, externe Links  zur
+                    ehd ergänzt, kleine sprachliche Korrekturen)</change>
+                <change>
+                    <date>2017-06-07T08:44:30Z</date>
+                    <name>Stefan</name>
+                </change>
+            </listChange>
+        </revisionDesc>
+    <profileDesc>
+            <textClass>research-articles</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head type="h2">Software</head>
+                <p>Die Publikation <hi rendition="#i">edition humboldt digital</hi> wird von der
+                    Erfassung bis hin zur Publikation in <hi rendition="#i">ediarum</hi> erstellt.
+                    Die <ref target="https://www.ediarum.org/">digitale Arbeitsumgebung <hi rendition="#i">ediarum</hi>
+                    </ref> ist eine von der
+                        <ref target="http://www.bbaw.de/telota">DH-Initiative TELOTA</ref> seit 2012
+                    entwickelte Lösung, die es den Wissenschaftlern erlaubt, Transkriptionen von
+                    Manuskripten in TEI-konformem XML zu bearbeiten, mit einem Text- und Sachapparat
+                    zu versehen und anschließend im Druck und im Web zu veröffentlichen. Dabei
+                    besteht <hi rendition="#i">ediarum</hi> aus mehreren Softwarekomponenten, die
+                    zur Erarbeitung einer digitalen Edition entsprechend angepasst wurden: Zur
+                    Eingabe und Bearbeitung der Daten wird eine eigens angepasste Version des <ref target="http://www.oxygenxml.xom">oXygen XML Author</ref> benutzt. Die
+                    Speicherung der Daten erfolgt in der freien XML-Datenbank <ref target="http://www.exist-db.org">existdb</ref>. Sie dient gleichzeitig –
+                    zusammen mit dem Webserver Jetty – auch als Basis der digitalen Edition, die mit
+                    XQuery, XSLT und XPath realisiert wurde. Zur Anzeige der Faksimiles wird die am
+                    MPI für Wissenschaftsgeschichte entwickelte Software <ref target="http://digilib.sourceforge.net/">digilib</ref> eingesetzt.</p>
+            </div>
+            <div>
+                <head type="h2">Daten(-modell)</head>
+                <div>
+                    <head type="h3">Historische Quellen</head>
+                    <p>Die Metadaten und Texte der zu edierenden Schriften (Reisetagebücher,
+                        Dokumente und Briefe) werden nach den Richtlinien der <ref target="http://www.tei-c.org/ns/1.0">Text Encoding Initiative
+                            (TEI)</ref> kodiert. Dabei wird weitgehend das <ref target="http://deutschestextarchiv.de/doku/basisformat/">Basisformat des
+                            Deutschen Textarchivs (DTABf)</ref> verwendet, das u.a. im Rahmen dieses
+                        Editionsvorhabens für die Kodierung von handschriftlichen Texten erweitert
+                        wurde. Für einige wenige projektspezifische Belange wurden Ergänzungen und
+                        Erweiterungen zum Tagset vorgenommen, die konform zu den TEI-Richtlinien
+                        sind. Diese Erweiterung betrifft insbesondere projektspezifische
+                        Anforderungen, die sich durch das Material ergeben, wie z.B. die
+                        Auszeichnung von Maßangaben. Alle Personen-, Orts- und Institutionsnamen
+                        sowie Literaturangaben in den Quellentexten (und ihren Metadaten) werden mit
+                        ihren jeweiligen Registereinträgen verknüpft.</p>
+                </div>
+                <div>
+                    <head type="h3">Begleittexte</head>
+                    <p>Alle weiteren Texte, wie z.B. die einführenden Forschungsbeiträge zum
+                        Tagebuch-Fragment <ref target="http://edition-humboldt.de/H0002922">„Isle de
+                            Cube. Antilles en général“</ref>, wurden ebenfalls in TEI-XML gemäß dem
+                        Basisformat des Deutschen Textarchivs erfasst.</p>
+                </div>
+                <div>
+                    <head type="h3">Register</head>
+                    <p>Die Register zu <ref target="https://edition-humboldt.de/register/index.xql?l=de">Personen</ref>, <ref target="https://edition-humboldt.de/register/index.xql?l=de">Orten</ref>
+                        und <ref target="https://edition-humboldt.de/register/index.xql?l=de">Institutionen</ref> werden in TEI-XML bearbeitet und
+                        vorgehalten. Jeder Eintrag verfügt über eine eigene, eindeutige und
+                        permanente Identifizierungsnummer. Er soll darüber hinaus aber mit einer
+                        oder ggf. mehreren IDs aus den entsprechenden Normdateien versehen werden
+                        (sofern ein Eintrag in der Normdatei existiert), um eine
+                        projektübergreifende Identifizierung der Personen, Orte etc. zu ermöglichen.
+                        Zusätzlich zu den Basisdaten eines Eintrags wird außerdem eine
+                        Kurzbeschreibung vorgehalten. Darüber hinaus wurden im Rahmen des Projekts
+                        die Registerangaben von 25 zwischen 1973 und 2016 veröffentlichten Editionen
+                        (Briefe, Dokumente, Tagebuch-Exzerpte) der Alexander von Humboldt-Forschung
+                        retrodigitalisiert und zusätzlich bereitgestellt. Die Registerinformationen
+                        der gedruckten Editionen sind Teil der zunächst im Akademie-Verlag und
+                        schließlich bei De Gruyter veröffentlichten Reihe <ref target="https://www.degruyter.com/view/serial/BAHF-B">
+                            <hi rendition="#i">Beiträge zur Alexander von Humboldt-Forschung</hi>
+                        </ref>,
+                        herausgegeben von der Alexander-von-Humboldt-Forschungsstelle (1970–2014)
+                        der BBAW. Verknüpfungen zu anderen Registereinträgen und den edierten
+                        Materialien werden automatisiert aus der Datenbank ausgelesen.</p>
+                    <div>
+                        <anchor type="target" xml:id="pflanzenregister"/>
+                        <head type="h4">Pflanzenregister</head>
+                        <p>Für das <ref target="https://edition-humboldt.de/register/index.xql?l=de">Pflanzenregister</ref> werden keine eigenen Einträge in
+                            TEI-XML-Registerdateien angelegt (wie bei den anderen Registern).
+                            Stattdessen werden die wissenschaftlichen Pflanzennamen in den edierten
+                            Texten mit Hilfe der entsprechenden TEI-Kodierung normalisiert und dann
+                            automatisch ausgelesen. Das Pflanzenregister wird somit komplett
+                            dynamisch erstellt. Zu jedem distinkten Pflanzennamen werden die
+                            Belegstellen in den Texten gelistet und automatisiert
+                            mit verschiedenen taxonomischen Datenbanken verlinkt (siehe unten, Abschnitt <ref target="H0016212/#globalnames">Globale Indizes für wissenschaftliche Namen</ref>).
+                            Aufgrund der dynamischen Erstellung dieses Registers können hier bislang
+                            noch keine Permalinks angeboten werden.</p>
+                    </div>
+                    <div>
+                        <head type="h4">Bibliographie</head>
+                        <p>Die <ref target="https://edition-humboldt.de/register/index.xql?l=de">Bibliographie</ref> der Edition wird in der Literaturverwaltungssoftware
+                            Zotero gepflegt. Die öffentlich einsehbare <ref target="https://t1p.de/wyzz">Zotero-Gruppe</ref> ermöglicht die
+                            kollaborative Pflege der Daten und kann von allen Interessierten
+                            abgerufen werden– auch in verschiedenen Zitierstilen und
+                            Exportformaten.</p>
+
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <head type="h2">Verwendete Daten &amp; Webservices</head>
+                
+               
+                    <figure facs="https://digilib.bbaw.de/digitallibrary/servlet/Scaler?fn=silo10/avhr/edition_humboldt_allgemein/edition_humboldt_digital_v4_1500_Korrektur.tif&amp;dw=958&amp;dh=483">
+                    <figDesc>Das vernetzte Datenmodell der edition humboldt digital. Erstmals
+                        veröffentlicht als <ref target="https://zenodo.org/record/1035134">Dumont, Stefan/Kraft, Tobias. (2017). Edition Humboldt Digital Vernetzt.
+                            Zenodo.</ref>  
+                    </figDesc>
+                    
+                </figure>
+                
+                <p>Für die digitale Edition wurden an mehreren Stellen Daten aus Drittprojekten
+                    nachgenutzt bzw. externe Webservices verwendet.</p>
+                
+                <div>
+                    <head type="h3">Cascaded Analysis Broker des Deutschen Textarchiv
+                        (DTA::CAB)</head>
+                    <p>Die normale Suche kann um eine Funktion erweitert werden, die auch
+                        historische Schreibweisen und andere Wortformen findet. Zu diesem Zweck
+                        werden die edierten Texte mit Hilfe des <ref target="http://kaskade.dwds.de/demo/cab/">Webservices DTA::CAB</ref>
+                        linguistisch analysiert und annotiert. Dabei werden u.a. auch alle Wörter
+                        lemmatisiert, so dass auf Basis dieses Lemma gesucht werden kann. Der
+                        DTA::CAB wird im Rahmen des <ref target="http://www.deutschestextarchiv.de">Deutschen Textarchivs</ref> von Bryan Jurish entwickelt.</p>
+ <p>Für weitere
+                        Informationen siehe die <ref target="http://odo.dwds.de/~moocow/software/DTA-CAB/">Dokumentation</ref> oder B. Jurish: <hi rendition="#i">Finite-state
+                            Canonicalization Techniques for Historical German.</hi> PhD thesis,
+                        Universität Potsdam, 2012. URN <ref target="https://nbn-resolving.org/resolver?identifier=urn%3Anbn%3Ade%3Akobv%3A517-opus-55789">urn:nbn:de:kobv:517-opus-55789</ref>.</p>
+                </div>
+                <div>
+                    <head type="h3">Humboldts Schriften im Deutschen Textarchiv</head>
+                    <p>Im <ref target="http://www.deutschestextarchiv.de">Deutschen Textarchiv</ref>
+                        sind etwa <ref target="http://www.deutschestextarchiv.de/api/pnd/118554700">170 Schriften Alexander von Humboldts</ref> TEI-XML-kodiert im Volltext
+                        verfügbar. In der Chronologie wurde eine Funktion implementiert, die die
+                        Titeldaten dieser Schriften mitanzeigt bzw. durchsucht. Dafür wird die vom
+                        Deutschen Textarchiv bereitgestellte <ref target="http://kaskade.dwds.de/dstar/dta/">D* OpenSearch API</ref>
+                        verwendet. So können die Volltexte von Humboldts Schriften nicht nur
+                        angezeigt, sondern auch durchsucht werden: Die Suchfunktion erlaubt, die
+                        Anzahl der Treffer mitanzugeben und direkt auf die Trefferliste zu
+                        verlinken.</p>
+                </div>
+                <div>
+                    <head type="h3">Digitalisate-Bibliographie auf avhumboldt.de</head>
+                    <p>Im Rahmen des Portals avhumboldt.de wird unter der Leitung von Tobias Kraft
+                        seit 2009 eine <ref target="http://www.avhumboldt.de/?p=6769">Digitalisate-Bibliographie</ref> der selbständig erschienenen Schriften
+                        Alexander von Humboldts bereitgestellt. Die Daten dieser Bibliographie
+                        wurden in XML konvertiert und in die Datenbank der <hi rendition="#i">edition humboldt digital</hi> integriert, um in der Chronologie
+                        angezeigt werden zu können.</p>
+                </div>
+                <div>
+                    <head type="h3">correspSearch</head>
+                    <p>Der Webservice <ref target="http://correspSearch.net">correspSearch</ref>
+                        aggregiert maschinenlesbare Briefverzeichnisse von gedruckten oder digitalen
+                        Briefeditionen und macht sie zentral recherchierbar. Darüber hinaus bietet
+                        er eine <ref target="http://correspsearch.net/index.xql?id=api&amp;l=de">Schnittstelle</ref> an, die es ermöglicht, diese Daten auch
+                        automatisiert abzufragen und in eigenen Programmen nachzunutzen. Da
+                        Humboldts Korrespondenz nicht in einer Gesamtausgabe erscheint, sind die in
+                        correspSearch aggregierten Daten zu <ref target="http://correspsearch.net/search.xql?correspondent=http%3A%2F%2Fd-nb.info%2Fgnd%2F118554700&amp;l=de">Briefen an und von Alexander von Humboldt</ref> für die Forschung sehr
+                        nützlich. </p>
+                    <p>In der <hi rendition="#i">edition humboldt digital</hi> werden diese
+                        Daten über die API von correspSearch an zwei Stellen abgefragt: zum einen in
+                        der Chronologie (bei entsprechender Aktivierung dieser Option), zum anderen
+                        in der Einzelansicht eines Briefes unter „Briefnetz erkunden“. Dort werden
+                        Briefe von und an Alexander Humboldt aus anderen Editionen abgefragt, um
+                        sichtbar zu machen, mit welchen anderen Korrespondenzpartnern Humboldt im
+                        jeweiligen Zeitraum noch Kontakt hatte. Darüber hinaus wird auch angezeigt,
+                        welche Briefe der jeweilige Korrespondenzpartner im entsprechenden Zeitraum
+                        empfangen und versendet hat. Auf diese Weise soll der „erweiterte
+                        Korrespondenzkontext“ des Briefnetzes sichtbar gemacht werden.</p> 
+                </div>
+                <div>
+                    <head type="h3">GeoNames &amp; OpenStreetMap</head>
+                    <p>Die im Register verzeichneten Orte und Institutionsstandorte sind in der
+                        Regel mit einer ID der freien geographischen Datenbank <ref target="https://www.geonames.org">
+                            <hi rendition="#i">GeoNames</hi>
+                        </ref>
+                        versehen. So können die Orte projektübergreifend identifiziert werden, was
+                        die Nachnutzung der Daten erheblich vereinfacht. Darüber hinaus werden
+                        anhand der GeoNames-ID Koordinaten bezogen, auf deren Basis mit Hilfe des
+                        freien Kartendienstes OpenStreetMap eine entsprechende Karte bei den Orts-
+                        und Institutionseinträgen angezeigt werden kann.</p>
+                </div>
+                <div>
+                    <head type="h3">Gemeinsame Normdatei &amp; BEACON</head>
+                    <p>Anhand der in den Registereinträgen zu Personen notierten ID, die in der
+                        Regel der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">
+                            <hi rendition="#i">Gemeinsamen Normdatei</hi>
+                        </ref> (GND) entnommen
+                        wird, können weitere Daten über den GND-Webservice „Entity Facts“ bezogen
+                        werden. So können vor allem die (familiären) Beziehungen zwischen Personen
+                        im Register angezeigt werden. </p>
+                    <p>Die GND-ID erlaubt darüber hinaus, weitere Editionen, Lexika und Projekte zu
+                        verlinken, die im Themenbereich der <hi rendition="#i">edition humboldt
+                            digital</hi> relevant sind. Hierfür werden die BEACON-Schnittstellen
+                        dieser Projekte genutzt. So ist es etwa möglich, thematische
+                        Überschneidungen mit anderen Projekten des <ref target="http://zentrumpreussen.bbaw.de/">Zentrums Preußen-Berlin an der
+                            BBAW</ref> über die Verbindungen in den Registerdaten zu identifizieren
+                        und der Forschung bereitzustellen (Beispiel <ref target="https://edition-humboldt.de/H0012068">Wilhelm von Humboldt</ref> oder <ref target="https://edition-humboldt.de/H0011916">Aloys Hirt</ref>).</p>
+                </div>
+                <div>
+                    <anchor type="target" xml:id="globalnames"/>
+                    <head type="h3">Globale Indizes für wissenschaftliche Namen</head>
+                    <p>Im Pflanzenregister (<ref target="H0016212/#pflanzenregister">siehe
+                            oben</ref>) werden verschiedene Webservices und APIs benutzt, um
+                        wissenschaftliche Pflanzennamen aus Texten der <hi rendition="#i">edition
+                            humboldt digital</hi> automatisiert mit passenden Einträgen aus
+                        taxonomischen Datenbanken zu verknüpfen. Mithilfe des Webservices <ref target="https://resolver.globalnames.org/">Global Names Resolver</ref>
+                        verlinkt das Pflanzenregister wissenschaftliche Namen mit Einträgen in der
+                            <ref target="https://eol.org/">Encylopedia of Life</ref>, <ref target="https://www.tropicos.org/">Tropicos - Missouri Botanical
+                            Garden</ref>, <ref target="https://www.ipni.org/">The International
+                            Plant Names Index</ref> (IPNI) oder der englischen <ref target="https://en.wikipedia.org">Wikipedia</ref>. Darüber hinaus werden
+                        der <ref target="https://www.catalogueoflife.org/">Catalogue of Life</ref>,
+                        die <ref target="https://www.biodiversitylibrary.org/">Biodiversity Heritage
+                            Library</ref> und die <ref target="https://www.gbif.org/">Global
+                            Biodiversity Information Facility</ref> anhand ihrer eigenen
+                        Schnittstellen abgefragt und ebenfalls verknüpft. Weitere Datenbanken
+                        können, sofern sie über entsprechende technische Schnittstellen verfügen, in
+                        Zukunft ergänzt werden.</p>
+                    <p>Die Abfrage der verschiedenen Datenbanken und automatisierte Verlinkung
+                        erfolgt dabei auf Basis des wissenschaftlichen Pflanzennamens, der im edierten Text
+                        entsprechend kodiert und ggf. normalisiert wird.</p>
+                </div>
+            </div>
+            <div>
+                <head type="h2">Lizenzierung &amp; API</head>
+                <p>Die <hi rendition="#i">edition humboldt digital</hi> nutzt nicht nur externe
+                    Daten und Webservices nach, sondern stellt ihre Daten wiederrum unter der freien
+                        <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons-Lizenz CC BY-SA 4.0</ref> über eine Schnittstelle zur Verfügung.
+                    Desweiteren werden die Metadaten über mehrere Schnittstellen (OAI-PMH, CMIF und
+                    BEACON) angeboten. </p>
+                <p>
+                    <ref target="http://edition-humboldt.de/about/index.xql?id=api">Mehr
+                        Informationen zur API</ref>
+                </p>
+            </div>
+            <div>
+                <head type="h2">Langzeitverfügbarkeit und Permalinks</head>
+                <p>Die in <hi rendition="#i">edition humboldt digital</hi> bereitgestellten Texte
+                    und Daten sind mit Permalinks versehen, die auf die jeweilige Version
+                    referenzieren, z.B.: <ref target="http://edition-humboldt.de/v1/H0002656">http://edition-humboldt.de/v1/H0002656</ref>. Alle Versionen werden von der
+                    BBAW zum Abruf vorgehalten. Darüber hinaus sind die einzelnen Texte und
+                    Datensätze auch mit einer kanonischen URL versehen, die stets auf die aktuellste
+                    Version weiterleitet. Dabei entfällt einfach der Versionshinweis im Pfad, z.B.
+                        <ref target="http://edition-humboldt.de/H0002656">http://edition-humboldt.de/H0002656</ref>.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

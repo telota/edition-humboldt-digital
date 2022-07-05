@@ -1,0 +1,109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1828] </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+                <publisher>
+               
+            </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016731</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016731.xml</idno>
+            </publicationStmt>
+         <sourceDesc>
+                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1828] . Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016731</bibl>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <textClass>letter</textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <date notBefore="1828" notAfter="1828" cert="low">1828-00-00</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+            <note>Zur Datierung: von fremder Hand datiert</note>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="writingSession">
+            <pb n="1r"/>
+            <opener>
+               <address>
+                  <addrLine>
+                            <choice>
+                        <abbr>Sr</abbr>
+                        <expan>Seiner</expan>
+                     </choice> Wohlgeboren</addrLine>
+                  <addrLine>Herrn Professor <hi rendition="#u">Ehrenberg</hi>
+                        </addrLine>
+               </address>
+            </opener>
+            <pb n="1v"/>
+            <p>Ich hatte schon von Ihrer <lb/>glänzenden <ref xml:id="f61dc7fc-f8d7-45c4-9dc7-fcf8d7c5c43b" corresp="#d4c12023-9812-4e1f-8120-239812ae1fd8">Entdekkung über pollen <lb/>der <choice>
+                        <abbr>Asclep.</abbr>
+                        <expan>Asclepiadeen</expan>
+                     </choice>
+                    </ref>
+                    <note xml:id="d4c12023-9812-4e1f-8120-239812ae1fd8" corresp="#f61dc7fc-f8d7-45c4-9dc7-fcf8d7c5c43b">
+                     <bibl corresp="https://edition-humboldt.de/v8/8J8IKLPW">Ehrenberg 1831</bibl>
+                  </note> gehört. Sie hat <lb/>
+                    <choice>
+                  <abbr>Prof</abbr>
+                  <expan>Professor</expan>
+               </choice>
+               <persName ref="http://d-nb.info/gnd/115674667">Kunth</persName> sehr, sehr gefreut<supplied cert="high">.</supplied>
+               <lb/>Leider weiß ich nicht mehr, was <lb/>ich für <persName ref="http://d-nb.info/gnd/117339385">Valencienne’s</persName> Fische <lb/>gezahlt. Es war eine collective
+               <lb/>Rechnung! <choice>
+                  <abbr>Geh</abbr>
+                  <expan>Geheimrat</expan>
+               </choice>
+               <persName ref="http://d-nb.info/gnd/118510452">Beuth</persName> kann es <lb/>aber wissen da er die
+                  Zeichne-<lb/>rin geschaft hatte. <ref xml:id="de998ee3-93e2-4f2e-998e-e393e22f2e05" corresp="#a7642a87-d295-4004-a42a-87d2950004f3"/>
+                    <note xml:id="a7642a87-d295-4004-a42a-87d2950004f3" corresp="#de998ee3-93e2-4f2e-998e-e393e22f2e05">
+                     <quote>En octobre 1826, Valenciennes va accompagner Humboldt à Berlin afin
+                        d’etudier les poissons rapportés d’Afrique par Ehrenberg et Hemprich […]</quote>, vgl. <bibl corresp="https://edition-humboldt.de/v8/9MKY9ZNG">Théodoridès
+                        1965</bibl>, S. XXI. </note>
+            </p>
+                <closer rend="paragraph">
+                    <signed>Ihr <lb/>Sie verehrender <lb/>AlHumboldt</signed>
+               <dateline>Donnerstags</dateline>
+                </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

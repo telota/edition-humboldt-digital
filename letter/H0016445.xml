@@ -1,0 +1,108 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Robert Schlagintweit an Alexander von Humboldt. Berlin, 4. Januar
+                    1858</title>
+                
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/111674743X" xml:id="MB">
+                        <surname>Brescius</surname>
+                        <forename>Moritz von</forename>
+                    </persName>
+                </editor>
+                <editor>
+                    <persName ref="https://orcid.org/0000-0002-4634-2386" xml:id="LM">
+                        <surname>Martin</surname>
+                        <forename>Linda</forename>
+                    </persName>
+                </editor>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName xml:id="DE">
+                        <surname>Erdmann</surname>
+                        <forename>Dominik</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016445</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016445.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Robert Schlagintweit an Alexander von Humboldt. Berlin, 4. Januar
+                    1858. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016445</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
+                        (1833-1885)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
+                        Deutschland)</placeName>
+                    <date when="1858-01-04" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <pb n="66r"/>
+                <opener>
+                    <dateline>Berlin, den 4. Januar 1858.</dateline>
+					<salute>Euer
+                        Wohlgeboren</salute>
+                </opener>
+				<p>ersuche ich, gefälligst alle Briefe
+                        <lb/>und
+                    Packete, die an die Adresse <lb/>meines Bruders <persName ref="http://d-nb.info/gnd/119074117">Herrmann Schla<lb/>gintweit</persName> (<placeName ref="https://www.geonames.org/2879139">Leipzig</placeName>, Hôtel de <lb/>Bavière) an Sie kommen
+                        möch-<lb/>ten, bis zu seiner Ankunft,
+                    <lb/>die zwischen dem 7<supplied cert="high">.</supplied>
+                    <choice>
+                        <abbr>u.</abbr>
+                        <expan>und</expan>
+                    </choice> 11. <choice>
+                        <abbr>d.</abbr>
+                        <expan>des</expan>
+                    </choice>
+                    <choice>
+                        <abbr>M.</abbr>
+                        <expan>Monats</expan>
+                    </choice>
+                    <lb/>erfolgen wird, aufbewahren <lb/>zu wollen.</p>
+				<closer>
+					<salute>Hochachtungsvoll <choice>
+                            <abbr>u</abbr>
+                            <expan>und</expan>
+                        </choice> ergebenst</salute>
+					<signed>Robert Schlagintweit.</signed>
+				</closer>
+                <pb n="66v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="67r"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+                <pb n="67v"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

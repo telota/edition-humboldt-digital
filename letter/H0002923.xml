@@ -1,0 +1,97 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. Berlin, 17. Juli 1827</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <persName>Klaus</persName>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0002923</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0002923.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. Berlin, 17. Juli 1827. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002923</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1827-07-17" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession" n="1">
+                <pb n="1r"/>
+                <p>Indem ich Sie, theurer <lb/>Freund, um die Besor<lb/>gung
+                    dreier <placeName ref="https://www.geonames.org/2988507">Pariser</placeName>
+                    <lb/>Briefe bitte, ersuche <lb/>ich Sie zugleich den <lb/>Brief an Herrn
+                        <persName ref="http://d-nb.info/gnd/119526611">Gergonne</persName>
+                    <lb/>
+                    <hi rendition="#u">postfrei</hi> nach <placeName ref="https://www.geonames.org/2992166">Mont<lb/>peiller</placeName> zu besorgen<supplied cert="high">.</supplied>
+                    <lb/>Sezen Sie mir ja <lb/>für alle meine Briefe <lb/>eine runde Summe
+                    <lb/>porto in Rechnung<supplied cert="high">.</supplied>
+                    <lb/>Ich werde sonst <choice>
+                        <orig>auf<lb/>horen</orig>
+                        <reg>aufhören</reg>
+                    </choice>
+                    <choice>
+                        <orig>mussen</orig>
+                        <reg>müssen</reg>
+                    </choice>, Ihre <lb/>Güte in Anspruch <lb/>zu nehmen<supplied cert="high">.</supplied>
+                </p>
+                <closer rend="paragraph">
+                    <signed>AHumboldt</signed>
+                    <dateline rend="align(right)">Berlin<supplied cert="high">,</supplied>
+                        <lb/>den 17<supplied cert="high">.</supplied>
+                        <choice>
+                            <abbr>Jul</abbr>
+                            <expan>Julius</expan>
+                        </choice>
+                        <lb/>1827<pb n="1v"/>
+                    </dateline>
+                </closer>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </div>
+        </body>
+    </text>
+</TEI>

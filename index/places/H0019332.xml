@@ -1,0 +1,53 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hagley</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0019332</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0019332.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0019332.xml">
+                    <p>Hagley [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019332.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-places</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="H0019332">
+                    <idno type="uri">https://www.geonames.org/2647662</idno>
+                    <placeName type="reg">Hagley</placeName>
+                    <note>Ortschaft in den West Midlands südwestlich von <placeName key="H0018260">Birmingham</placeName> (<placeName key="H0005653">England</placeName>)</note>
+                    <listPlace>
+                        <place type="park" oldID="ediarum_nsf_wl3_g4b" xml:id="H0019333">
+                            <placeName type="reg">Hagley Park</placeName>
+                            <placeName type="alt">Hayleypark</placeName><!-- (Forster, III, 148) -->
+                            <note>Mitte des 18. Jhs. angelegter, zum Landsitz <placeName key="H0019334">Hagley Hall</placeName> gehörender
+                                Landschaftsgarten </note>
+                        </place>
+                        <place type="building" oldID="ediarum_nhb_2m3_g4b" xml:id="H0019334">
+                            <idno type="uri">https://www.geonames.org/12207041</idno>
+                            <placeName type="reg">Hagley Hall</placeName>
+                            <note>Mitte des 18. Jhs. erbauter palladianischer Landsitz</note>
+                        </place>
+                    </listPlace>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

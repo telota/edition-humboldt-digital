@@ -1,0 +1,77 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Dienstag, [1843 oder später]</title>
+                <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher>
+                    
+                </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0006045</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0006045.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Dienstag, [1843 oder später]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006045</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von
+                        (1769–1859)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <date from="1843-01-01" to="1850-03-22" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
+                        (1788–1850)</persName>
+                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                </correspAction>
+                <note>Zur Datierung: Der im Brief erwähnte <persName ref="http://d-nb.info/gnd/117622206">Karl
+                        David Bouché</persName> versah ab 1843 im <orgName ref="http://d-nb.info/gnd/17434-8">Königlichen Botanischen Garten</orgName> das Amt eines Inspektors. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+                <p>
+                    <pb n="1r"/>Darf ich Sie bitten, theurer <lb/>Freund, den treflichen <choice>
+                        <abbr>Dir.</abbr>
+                        <expan>Direktor</expan>
+                    </choice>
+                    <lb/>Herrn <persName ref="http://d-nb.info/gnd/117622206">Boucher</persName> zu fragen ob er
+                    <lb/>nicht gelegentlich die <choice>
+                        <orig>schonen</orig>
+                        <reg>schönen</reg>
+                    </choice>
+                    <lb/>Blumen wolle abholen lassen <lb/>die bei mir <choice>
+                        <orig>verbluht</orig>
+                        <reg>verblüht</reg>
+                    </choice> sind <lb/>und leiden<supplied cert="high">.</supplied>
+                    <lb/>
+                </p>
+                <signed>Ihr<lb/>AHt</signed>
+                <lb/>
+                <dateline>Dienstag</dateline>
+                <closer>
+                    <address>
+                        <pb n="1v"/>
+                        <addrLine>Herrn <choice>
+                                <abbr>Prof.</abbr>
+                                <expan>Professor</expan>
+                            </choice> Kunth</addrLine>
+                        <addrLine>AlHumboldt</addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

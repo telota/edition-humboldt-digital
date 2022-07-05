@@ -1,0 +1,113 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>P – Mariage</title>
+                
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://catalogue.bnf.fr/ark:/12148/cb16542070b">
+                        <surname>Barbasetti</surname>
+                        <forename>Laurence</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0013746</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0013746.xml</idno>
+            </publicationStmt>
+            <notesStmt>
+                <note type="editorial">
+                    <p>Die kurze Notiz enthält Exzerpte aus einem anonym erschienenen Artikel über eine Expedition in
+                        die Nilgiri-Berge Südindiens (<bibl corresp="https://edition-humboldt.de/v8/KRKH2TCH">Asiatic
+                            Journal 1819</bibl>). Die Überschrift „mariage“ deutet darauf hin, dass
+                        zunächst der darin enthaltene Bericht über die in dieser Region praktizierte
+                        Polyandrie Humboldts Aufmerksamkeit geweckt hatte. In die <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der
+                            Pflanzen</ref> ist das Blatt aber wohl aufgrund der ebenfalls
+                        geschilderten klimatischen Bedingungen in der Bergregion aufgenommen worden.
+                        Es ist dort unter „No. 20. Montagnes bleues – <ref xml:id="ed_uqw_qld_bbb" type="siglum" target="#Geographie_der_Pflanzen_P">P</ref>.“
+                        verzeichnet.</p>
+                </note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>P – Mariage. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
+                    Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0013746</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>document</textClass>
+            <creation>
+                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <date notBefore="1819-01-01" notAfter="1825-12-31" cert="high"/>
+            </creation>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366333/1200/0/00000005.jpg"/>
+                    <ref xml:id="ed_t1j_txv_yy" type="siglum" target="#Geographie_der_Pflanzen_P">P.</ref>
+                </p>
+                <p>
+                    <choice>
+                        <orig>mariage</orig>
+                        <reg>Mariage</reg>
+                    </choice>
+                </p>
+                <p>
+                    <placeName ref="https://www.geonames.org/1261390">Plateau des Nilgemies</placeName> ou <choice>
+                        <abbr>Mont.</abbr>
+                        <expan>Montagnes</expan>
+                    </choice>
+                    <lb/>bleues qui sépare par <choice>
+                        <abbr>lat</abbr>
+                        <expan>latitude</expan>
+                    </choice> 11°–12° <lb/>les contrées chaudes et basses de <lb/>
+                    <placeName ref="https://www.geonames.org/1273865">Coïmbettore</placeName> de la <placeName ref="https://www.geonames.org/1267254">côte
+                        de <lb/>Malabar</placeName> (près <placeName ref="https://www.geonames.org/1265873">Calicut</placeName>)<supplied cert="high">,</supplied> il y gèle <supplied cert="high">à,</supplied>
+                    <lb/>on <hi rendition="#u">croit<supplied cert="high">,</supplied>
+                    </hi>
+                    <measure quantity="10000" unit="pied_de_roi">10000 piés</measure>
+                    <supplied cert="high">de</supplied>
+                    <choice>
+                        <abbr>haut</abbr>
+                        <expan>hauteur</expan>
+                    </choice>. Roses <lb/>blanches<supplied cert="high">.</supplied> Les <unclear reason="illegible" cert="high">Lahtans</unclear> (<hi rendition="#u">Todevies</hi>) de <lb/>ce plateau n’ont qu’une <lb/>femme par famille. Il
+                    faut <lb/>que tous les frères consentent <lb/>
+                    <choice>
+                        <sic>du</sic>
+                        <corr cert="high">au</corr>
+                    </choice> choix. Les hommes la servent<supplied cert="high">.</supplied>
+                    <lb/>(<placeName ref="https://www.geonames.org/3631298">Orénoque</placeName> contraste <placeName ref="https://www.geonames.org/1279685">Thibet</placeName>
+                    <supplied cert="high">,</supplied> pays
+                        froid)<pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366333/1200/0/00000006.jpg"/>
+                    <gap unit="pages" quantity="1" reason="empty"/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

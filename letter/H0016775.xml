@@ -1,0 +1,95 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, [1834] </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+                <publisher>
+               
+            </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016775</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016775.xml</idno>
+            </publicationStmt>
+         <sourceDesc>
+                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, [1834] . Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016775</bibl>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <textClass>letter</textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <date notBefore="1834" notAfter="1834">1834-00-00</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+            <note>Zur Datierung: vgl. E.s Buch</note>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="writingSession">
+            <pb n="1r"/>
+            <p>ich gehe morgen nach <placeName ref="https://www.geonames.org/2823708">Tegel</placeName>, um <lb/>meinem
+                  <persName ref="http://d-nb.info/gnd/118554727">Bruder</persName> Ihre scharfsinni<lb/>gen
+                  <ref xml:id="ea8efc02-b7e6-4863-8efc-02b7e64863cc" corresp="#ed435a5a-09af-4b29-835a-5a09af6b29ff">Betrachtungen über <choice>
+                        <sic>das</sic>
+                        <corr cert="high">den</corr>
+                     </choice> Verkehr <lb/>zwischen Menschen und Affen</ref>
+                    <note xml:id="ed435a5a-09af-4b29-835a-5a09af6b29ff" corresp="#ea8efc02-b7e6-4863-8efc-02b7e64863cc">
+                     <bibl corresp="https://edition-humboldt.de/v8/59BVMANR">Ehrenberg 1834a</bibl>
+                  </note>
+               <lb/>vorzulesen. Wollten Sie, theurer <lb/>Freund, mir für ihn auf ein <lb/>Paar Tage
+               Ihr <ref xml:id="a5f9adf3-c51e-43b2-b9ad-f3c51e03b254" corresp="#af6f02f8-2775-426d-af02-f82775926d7f">Hindostanisches <lb/>Wörterbuchshakes von <persName ref="http://d-nb.info/gnd/172371090">Schakespeare</persName>
+                    </ref>
+                    <note xml:id="af6f02f8-2775-426d-af02-f82775926d7f" corresp="#a5f9adf3-c51e-43b2-b9ad-f3c51e03b254">
+                     <bibl corresp="https://edition-humboldt.de/v8/6WWKXB3W">Shakespear 1817</bibl>
+                  </note> leihen <lb/>und die Stellen über Cauri <lb/>
+                    <hi rendition="#u">Corral</hi>
+               <choice>
+                  <abbr>u</abbr>
+                  <expan>und</expan>
+               </choice>
+               <hi rendition="#u">Mädchen</hi> zeichnen.</p>
+            <closer rend="paragraph">
+                    <salute>Freundschaftlichst</salute>
+                <lb/>
+                    <signed>Ihr <lb/>AHt</signed>
+               <dateline>Donnerstag.</dateline>
+                </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

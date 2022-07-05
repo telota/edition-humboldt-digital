@@ -1,0 +1,50 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nagornyj</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0001536</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0001536.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0001536.xml">
+                    <p>Nagornyj [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001536.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-places</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPlace>
+                <place xml:id="H0001536">
+                    <placeName type="reg">Nagornyj</placeName>
+                    <placeName type="alt">Nagorni Rudnik</placeName>
+                    <!-- RST I, 62v -->
+                    <placeName type="alt">Нагорный</placeName>
+                    <placeName type="alt">Nagornei</placeName>
+                    <!-- RST I, 28v -->
+                    <placeName type="alt">Nagornoi</placeName>
+                    <!-- ERST, 22v: Rose 1837/1842, I, 231f. -->
+                    <note>historisches Seifenwerk an der <placeName key="H0019238">Berezovka</placeName> nördlich von
+                            <placeName key="H0005211">Berëzovskij</placeName> im <placeName key="H0020291">Mittleren Ural</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    <linkGrp>
+                        <ptr target="30#37" type="letter"/>
+                    </linkGrp>
+                </place>
+            </listPlace>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin], Freitag, [2. oder
+                    9. Juli 1830]</title>
+                <editor>
+                        <persName ref="http://d-nb.info/gnd/139028285">
+                            <surname>Päßler</surname>
+                            <forename>Ulrich</forename>
+                        </persName>
+                    </editor>
+                <respStmt>
+                    <persName ref="http://www.bbaw.de/die-akademie/mitarbeiter/schnee">
+                        <surname>Schnee</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt>
+            
+            <publicationStmt>
+                <publisher/>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0019584</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0019584.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin], Freitag, [2. oder
+                    9. Juli 1830]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019584</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>letter</textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <date notBefore="1830-07-02" notAfter="1830-07-09" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                </correspAction>
+                <note>Zur Datierung: Das vorliegende Schreiben, in dem Humboldt Rugendas über den
+                    Ankauf eines Bildes durch den Prinzen <persName ref="http://d-nb.info/gnd/118632884">Wilhelm von
+                        Preußen</persName> informiert, muss zeitlich vor einem <ref target="H0019717">Brief Humboldts an Karl Friedrich Schinkel,
+                        Potsdam, wohl 12. Juli 1830</ref>, angesetzt werden. </note>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="writingSession">
+				<pb n="1r"/>
+                <p>Schelten Sie nicht, mein lieber
+                        <lb/>
+                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>: ich habe schon ei<lb/>nes
+                    Ihrer schönen Bilder <lb/>verkauft, an <persName ref="http://d-nb.info/gnd/118632884">
+                        <choice>
+                            <abbr>Pr</abbr>
+                            <expan>Prinz</expan>
+                        </choice> Wilhelm</persName>, <lb/>Sohn des <persName ref="http://d-nb.info/gnd/118535986">König</persName>s; aber <lb/>nur für den von Ih-<lb/>nen bestimmten Preis, <lb/>für 30 <choice>
+                        <abbr>Fr.</abbr>
+                        <expan>Friedrich</expan>
+                    </choice> d’or. Ich <lb/>kenne den Hof, mehr <lb/>war nicht zu erlangen<supplied cert="high">.</supplied>
+                    <lb/>Die meisten Ihrer Briefe <lb/>sind geschrieben. Ich werde <lb/>Ihnen das
+                    andere Bild hof<lb/>fentlich auch verkaufen<supplied cert="high">.</supplied>
+                </p>
+				<closer>
+					<salute>Ihr</salute>
+					<signed>AlHumboldt</signed>
+				    <dateline>Freitags</dateline>
+				</closer>
+                <postscript>
+                    <p>Man hat sehr bewundert!</p>
+                </postscript>
+            <pb n="1v"/>
+                <gap reason="empty" unit="pages" quantity="1"/>
+                <pb n="2r"/>
+                <gap reason="empty" unit="pages" quantity="1"/>
+                <pb n="2v"/>
+                <closer>
+                    <address>
+                <addrLine>
+                            <choice>
+                            <abbr>Se</abbr>
+                            <expan>Seiner</expan>
+                        </choice> Wohlgeboren</addrLine>
+                    <addrLine>Herrn <persName ref="http://d-nb.info/gnd/118750321">Moritz Rugendas</persName>
+                        </addrLine>
+                                </address>
+                </closer>
+                <figure facs="Rugendas/Rugendas_Suedamerika.jpg" hand="#addressee">
+                <figDesc>Kartographische Ansicht und Höhenprofile von Südamerika, wohl von Rugendas’
+                        Hand</figDesc>
+            </figure>
+            </div>
+        </body>
+    </text>
+</TEI>

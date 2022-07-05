@@ -1,0 +1,104 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1838] </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+                <publisher>
+               
+            </publisher>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0016717</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0016717.xml</idno>
+            </publicationStmt>
+         <sourceDesc>
+                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1838] . Berlin-Brandenburgische Akademie der Wissenschaften
+                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016717</bibl>
+            </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <textClass>letter</textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <date notBefore="1838" notAfter="1838" cert="low">1838-00-00</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+            <note>Zur Datierung: vgl. Brief Nr. 149; Wellsteds Buch von 1838</note>
+         </correspDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="writingSession">
+            <pb n="1r"/>
+                <opener>
+                    <address>
+                  <addrLine>Herrn <choice>
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                     </choice> Ehrenberg</addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+                  <addrLine>mit 2 Büchern</addrLine>
+               </address>
+            </opener>
+            <pb n="1v"/>
+                <p>Vielleicht interessirt es Sie, <lb/>theurer Freund, einmal wieder
+               <lb/>sich des <placeName ref="https://www.geonames.org/349401">Sinai</placeName> und des <lb/>
+                    <placeName ref="https://www.geonames.org/350155">Rothen Meeres</placeName> und des <lb/>
+                    <placeName ref="https://edition-humboldt.de/v8/H0017537">Jebel Narkous</placeName> II 24. zu <lb/>erinnern. Herr <ref xml:id="e11654d5-898f-439b-9654-d5898fb39b4c" corresp="#ef2d3be4-373b-4304-ad3b-e4373bf30425">
+                        <persName ref="http://d-nb.info/gnd/100684696">Wellstedt</persName>
+                    </ref>
+                    <note xml:id="ef2d3be4-373b-4304-ad3b-e4373bf30425" corresp="#e11654d5-898f-439b-9654-d5898fb39b4c">
+                     <bibl corresp="https://edition-humboldt.de/v8/7CUT9Z5I">Wellsted 1838</bibl>
+                  </note>
+               <lb/>kennt nur <persName ref="http://d-nb.info/gnd/118734784">Niebuhr</persName> und <lb/>sich selbst, er
+               ahnet <lb/>nichts von Ihnen, <persName ref="http://d-nb.info/gnd/116638044">Laborde</persName>,
+                  <lb/>
+                    <persName ref="http://d-nb.info/gnd/11669811X">Rüppel</persName>. Sehen Sie zu <lb/>wie die Höhe
+               des <placeName ref="https://www.geonames.org/349401">Sinai</placeName>
+               <lb/>7500 <choice>
+                  <abbr>engl.</abbr>
+                  <expan>englische</expan>
+               </choice> Fuss <lb/>= 7037 <choice>
+                  <abbr>Par</abbr>
+                  <expan>Pariser</expan>
+               </choice> Fuss <lb/>mit den lezten Messungen <lb/>und Schäzungen passt. Ich <lb/>habe
+               die alten Zahlen <lb/>nicht.</p>
+            <closer rend="paragraph">
+                    <signed>Ihr <lb/>AHt</signed>
+                </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,58 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Raumer, Georg Wilhelm von</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+                </availability>
+                <idno type="URLWeb">https://edition-humboldt.de/H0000751</idno>
+                <idno type="URLXML">https://edition-humboldt.de/v8/H0000751.xml</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl target="https://edition-humboldt.de/v8/H0000751.xml">
+                    <p>Raumer, Georg Wilhelm von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000751.xml</ref>
+                    </p>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>index-person</textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="H0000751">
+                    <idno type="uri">http://d-nb.info/gnd/116364963</idno><!-- [ct] DNB korrigiert: http://d-nb.info/gnd/116364963 statt 1055185232 (nach Rückmeldung der GND-Redaktion) -->
+                    <persName type="reg">
+                        <surname>Raumer</surname>
+                        <forename>Georg Wilhelm von</forename>
+                    </persName>
+                    <birth>1856</birth><!-- [ct] korrgiert von "1850" (so auch in GDN) nach Nutzermeldung mit Quelle ADB, URL: https://www.deutsche-biographie.de/pnd116364963.html#adbcontent -->
+                    <death>1850</death>
+                    <note>preußischer Verwaltungsbeamter und Direktor des Geheimen
+                        Staatsarchivs</note>
+                    <linkGrp>
+                        <ptr target="43#28" type="page"/>
+                        <ptr subtype="comment" target="43#[28]" type="page"/>
+                        <ptr subtype="comment" target="43#[29]" type="page"/>
+                        <ptr target="43#30" type="page"/>
+                        <ptr target="43#31" type="page"/>
+                        <ptr target="43#95" type="page"/>
+                        <ptr subtype="comment" target="43#[95]" type="page"/>
+                        <ptr target="43#96" type="page"/>
+                        <ptr target="43#97" type="page"/>
+                        <ptr target="43#98" type="page"/>
+                    </linkGrp>
+                </person>
+            </listPerson>
+        </body>
+    </text>
+</TEI>
