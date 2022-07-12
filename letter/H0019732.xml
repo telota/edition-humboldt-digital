@@ -18,6 +18,20 @@
                 <bibl>Hermann und Robert Schlagintweit an Alexander von Humboldt. Berlin, 28.
                     Oktober 1857. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019732</bibl>
             </sourceDesc>
+		<!-- in der Originaldatei steht
+
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Archiv der Berlin-Brandenburgischen Akademie der Wissenschaften, Berlin</institution>
+                        <collection/>
+                        <idno>PAW (1812–1945), II-VI-4</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+
+            ...wieso wurde das nicht übernommen? -->
+		
         </fileDesc>
         <profileDesc>
             <textClass>letter</textClass>
@@ -62,9 +76,9 @@
                     <pb n="1v"/>sehr glücklich schätzen<supplied cert="high">,</supplied>
                     <lb/>wenn es uns gestattet <lb/>sein wird, später der <lb/>
                     <orgName ref="http://d-nb.info/gnd/35495-8">Academie</orgName> Mittheilungen <lb/>über die Resultate
-                    <lb/>unserer Untersuchun<lb/>gen vorzulegen; sie <lb/>werden, in etwa
+                    <lb/>unserer Untersuchun<lb/>gen <!-- korrekt wäre "Untersuchun<lb break="no"/>gen", so steht es auch im Original-Code --> vorzulegen; sie <lb/>werden, in etwa
                     9 <lb/>Bänden, unter dem <lb/>Titel</p>
-                <p>Resultate einer <lb/>wissenschaftlichen <lb/>Sendung nach In-<lb/>dien Hochasien <lb/>von <choice>
+                <p>Resultate einer <lb/>wissenschaftlichen <lb/>Sendung nach In-<lb/>dien <!-- korrekt wäre "In<g ref="#typoHyphen"/><lb break="no"/>dien", so steht es auch im Original-Code --> Hochasien <lb/>von <choice>
                         <abbr>H.</abbr>
                         <expan>Hermann</expan>
                     </choice>
