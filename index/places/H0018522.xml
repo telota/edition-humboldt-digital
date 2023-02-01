@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018522">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Poljakovka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Poljakovka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018522.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018522.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018522.xml">
-                    <p>Poljakovka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018522.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018522">
+                <place>
                     <idno type="uri">https://www.geonames.org/506846</idno>
                     <placeName type="reg">Poljakovka</placeName>
                     <placeName type="alt">Поляковка</placeName>
                     <placeName type="alt">Polyakovka</placeName>
-                    <note>Ortschaft im <placeName key="H0020292">Südlichen Ural</placeName> südlich des
-                            <placeName key="H0017292">Aushkul’-Sees</placeName>, vermutlich am Ort der historischen
+                    <note>Ortschaft im <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName> südlich des
+                            <placeName ref="https://editon-humboldt.de/H0017292 https://www.geonames.org/580351">Aushkul’-Sees</placeName>, vermutlich am Ort der historischen
                         Kupfergrube Poläkowsk</note>
                 </place>
             </listPlace>

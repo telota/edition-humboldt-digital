@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014461">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Musin-Puškin, Michail Nikolaevič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Musin-Puškin, Michail Nikolaevič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0014461.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,33 +20,34 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014461.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0014461.xml">
-                    <p>Musin-Puškin, Michail Nikolaevič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0014461.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0014461">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117188883</idno>
                     <persName type="reg">
                         <surname>Musin-Puškin</surname>
                         <forename>Michail Nikolaevič</forename>
                     </persName>
                     <persName type="alt">
-                        <surname>Mussin-Puschkin</surname><!-- Rose 1837/1842, I, 90 -->
+                        <surname>Mussin-Puschkin</surname>
                         <forename>Michail Nikolaevič</forename>
                     </persName>
                     <birth>1795</birth>
                     <death>1862</death>
                     <note>russischer Beamter und Politiker; 1829–1845 Kurator des Lehrbezirks von
-                        Kazan, 1845–1856 des <placeName key="H0008236">Sankt Petersburger</placeName> Lehrbezirks, Senator</note>
+                        Kazan, 1845–1856 des <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt Petersburger</placeName> Lehrbezirks, Senator</note>
                     <linkGrp>
                         <ptr subtype="comment" target="30#[33]" type="page"/>
                         <ptr target="30#40" type="page"/>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001224">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,53 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 24. Januar
+                    1836, hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0001224">https://edition-humboldt.de/v8/H0001224</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0001224</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0001224</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001224.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 24. Januar
-                    1836. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0001224</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 816 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 19,80 cm , B: 12,90 cm</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1836-01-24" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand (1804–1840)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -78,9 +97,11 @@
                     <del rendition="#s">
                         <unclear reason="covered" cert="low">bes</unclear>
                     </del>
-                    vertraut, <lb/>eine <bibl corresp="https://edition-humboldt.de/v8/RIJEJQME">Pflanzengeographie</bibl> geschrie-<lb/>ben
+                    vertraut, <lb/>eine <bibl corresp="https://edition-humboldt.de/RIJEJQME">Pflanzengeographie</bibl> geschrie<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben
                     haben. Der Plan Ihres Werckchens hat mich um so <lb/>mehr angesprochen, als
-                        neuer-<lb/>lichst man die Verbindung
+                        neuer<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichst man die Verbindung
                     <lb/>zwischen <choice>
                         <abbr>Bot.</abbr>
                         <expan>Botanik</expan>
@@ -88,16 +109,17 @@
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> unter <lb/>
-                    <persName ref="http://d-nb.info/gnd/118867148">Schouw</persName>’s Händen die
-                        Pflan-<lb/>zengeographie in eine <lb/>rein <choice>
+                    <persName ref="https://editon-humboldt.de/H0015668 http://d-nb.info/gnd/118867148">Schouw</persName>’s Händen die
+                        Pflan<g ref="#typoHyphen"/>
+                    <lb break="no"/>zengeographie in eine <lb/>rein <choice>
                         <abbr>meteorol.</abbr>
                         <expan>meteorologische</expan>
                     </choice> Abhandlung <lb/>ausgeartet ist. Ihre <choice>
                         <abbr>Abh.</abbr>
                         <expan>Abhandlung</expan>
                     </choice>
-                    <lb/>über <ref xml:id="d7d21b56-e227-4baa-921b-56e227bbaa3e" corresp="#ff0757c0-8197-4ff3-8757-c081971ff3ac">Zanichellia</ref>
-                    <note xml:id="ff0757c0-8197-4ff3-8757-c081971ff3ac" corresp="#d7d21b56-e227-4baa-921b-56e227bbaa3e">Sumpfteichfaden</note> wird aller<lb/>dings in <persName ref="http://d-nb.info/gnd/116685271">
+                    <lb/>über <ref xml:id="feb68aef-ec66-4de6-b68a-efec66ade657" corresp="#b569af13-9b58-441e-a9af-139b58e41ea0">Zanichellia</ref>
+                    <note xml:id="b569af13-9b58-441e-a9af-139b58e41ea0" corresp="#feb68aef-ec66-4de6-b68a-efec66ade657">Sumpfteichfaden</note> wird aller<lb break="no"/>dings in <persName ref="https://editon-humboldt.de/H0003679 http://d-nb.info/gnd/116685271">
                         <choice>
                             <abbr>Brog.</abbr>
                             <expan>Brogniards</expan>
@@ -108,9 +130,11 @@
                         <expan>Annalen</expan>
                     </choice> erscheinen<supplied cert="high">.</supplied>
                     <lb/>Sie war, als ich abging<supplied cert="high">,</supplied> in <lb/>
-                    <persName ref="http://d-nb.info/gnd/100057845">Mirbel</persName>’s Händen dem sie sehr <lb/>gefiel <add place="left">
-                        <metamark/>weil er <lb/>sich münd-<lb/>lich einiges <lb/>daraus hatte <lb/>begreiflich <lb/>machen
-                        <lb/>lassen</add>. Ich verstand aus Ih-<lb/>rem damaligen Briefe, ich <lb/>sollte sie dort zur Uebersezung <lb/>lassen, da
+                    <persName ref="https://editon-humboldt.de/H0003660 http://d-nb.info/gnd/100057845">Mirbel</persName>’s Händen dem sie sehr <lb/>gefiel <add place="left">
+                        <metamark/>weil er <lb/>sich münd<g ref="#typoHyphen"/>
+                        <lb break="no"/>lich einiges <lb/>daraus hatte <lb/>begreiflich <lb/>machen
+                        <lb/>lassen</add>. Ich verstand aus Ih<g ref="#typoHyphen"/>
+                    <lb break="no"/>rem damaligen Briefe, ich <lb/>sollte sie dort zur Uebersezung <lb/>lassen, da
                     von deutschen <lb/>
                     <pb n="1v"/>Arbeiten, bei der <subst>
                         <del rendition="#ow">ehe</del>
@@ -118,10 +142,10 @@
                     </subst> zu <lb/>als abnehmenden völligen <lb/>Unkenntniss der deutschen
                     <lb/>Sprache (an <hi rendition="#u">Geschriebenes</hi>
                     <lb/>ungedrucktes, wagt sich vollends <lb/>niemand) nur die Zeichnungen
-                    <lb/>begafft werden. Ich schreibe <lb/>bald an <persName ref="http://d-nb.info/gnd/100057845">Mirbel</persName>, dass er <lb/>sobald die Uebersezung <lb/>gemacht ist,
+                    <lb/>begafft werden. Ich schreibe <lb/>bald an <persName ref="https://editon-humboldt.de/H0003660 http://d-nb.info/gnd/100057845">Mirbel</persName>, dass er <lb/>sobald die Uebersezung <lb/>gemacht ist,
                     das Original <lb/>zurüksende. </p>
                 <closer>
-                    <salute> Mit freundschaft<lb/>licher Anhänglichkeit, </salute>
+                    <salute> Mit freundschaft<lb break="no"/>licher Anhänglichkeit, </salute>
                     <signed>Ihr <lb/>AlHumboldt</signed>
                     <dateline>
                         <choice>
@@ -137,37 +161,39 @@
             <postscript>
                 <p> Mögen Sie bald <lb/>Zeit gewinnen, die <lb/>grosse Masse von <lb/>Materialien
                     über <lb/>Pflanzengeographie<supplied cert="high">,</supplied>
-                    <lb/>die man jezt <lb/>besonders in englischen <lb/>Werken über <ref xml:id="c1cd88aa-f0fd-48c1-8d88-aaf0fdb8c130" corresp="#fb17b2d8-834f-4c53-97b2-d8834fbc5364">
-                        <placeName ref="https://www.geonames.org/1252558">Himala-<lb/>ya</placeName>
+                    <lb/>die man jezt <lb/>besonders in englischen <lb/>Werken über <ref xml:id="d14dbd74-f7f1-4500-8dbd-74f7f1650056" corresp="#b19a770a-9c5c-47e7-9a77-0a9c5c67e779">
+                        <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himala<g ref="#typoHyphen"/>
+                            <lb break="no"/>ya</placeName>
                     </ref>
-                    <note xml:id="fb17b2d8-834f-4c53-97b2-d8834fbc5364" corresp="#c1cd88aa-f0fd-48c1-8d88-aaf0fdb8c130">Meyen hatte eine Arbeit zum Vergleich der
-                            Verbreitung der Vegetation in den größten Höhen des <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> und in Hoch-Peru verfasst, ein
-                            Thema, das Humboldt sehr interessierte. Vgl. <bibl corresp="https://edition-humboldt.de/v8/FHSXM53H">Meyen 1836a</bibl>, 313–327.</note> besizt und zu <lb/>deren Sammlung Ihnen <lb/>eine Reise nach
+                    <note xml:id="b19a770a-9c5c-47e7-9a77-0a9c5c67e779" corresp="#d14dbd74-f7f1-4500-8dbd-74f7f1650056">Meyen hatte eine Arbeit zum Vergleich der
+                            Verbreitung der Vegetation in den größten Höhen des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> und in Hoch-Peru verfasst, ein
+                            Thema, das Humboldt sehr interessierte. Vgl. <bibl corresp="https://edition-humboldt.de/FHSXM53H">Meyen 1836a</bibl>, 313–327.</note> besizt und zu <lb/>deren Sammlung Ihnen <lb/>eine Reise nach
                         <lb/>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>, wegen <ref xml:id="faf403e1-3a62-42bb-b403-e13a62d2bba9" corresp="#b30fcab3-25b4-4a3d-8fca-b325b42a3db3">Delesserts</ref>
-                    <note xml:id="b30fcab3-25b4-4a3d-8fca-b325b42a3db3" corresp="#faf403e1-3a62-42bb-b403-e13a62d2bba9">Mit den Brüdern Delessert stand Humboldt im
-                            Briefkontakt. Es handelte sich um die Bankiers und Fabrikanten <persName ref="http://d-nb.info/gnd/116058110">Benjamin Baron Delessert</persName>, 7 Briefe;
-                                <persName ref="http://viaf.org/viaf/29524377">François Marie Delessert</persName> (1
-                            Brief) sowie den Politiker <persName ref="http://d-nb.info/gnd/116058102">Gabriel
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>, wegen <ref xml:id="dff5eb45-a6f6-4b3a-b5eb-45a6f66b3afc" corresp="#effc4061-6da1-448b-bc40-616da1a48be3">Delesserts</ref>
+                    <note xml:id="effc4061-6da1-448b-bc40-616da1a48be3" corresp="#dff5eb45-a6f6-4b3a-b5eb-45a6f66b3afc">Mit den Brüdern Delessert stand Humboldt im
+                            Briefkontakt. Es handelte sich um die Bankiers und Fabrikanten <persName ref="https://editon-humboldt.de/H0012200 http://d-nb.info/gnd/116058110">Benjamin Baron Delessert</persName>, 7 Briefe;
+                                <persName ref="https://editon-humboldt.de/H0012199 http://viaf.org/viaf/29524377">François Marie Delessert</persName> (1
+                            Brief) sowie den Politiker <persName ref="https://editon-humboldt.de/H0012201 http://d-nb.info/gnd/116058102">Gabriel
                                 Delessert</persName> (2 Briefe).</note>
                     <lb/>grosser <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
-                    </choice> vollstän-<lb/>diger Bibliothek
+                    </choice> vollstän<g ref="#typoHyphen"/>
+                    <lb break="no"/>diger Bibliothek
                     <lb/>nothwendig wäre, <lb/>in mehreren <lb/>Bänden ausführlich <lb/>zusammen zu
                         <lb/>tragen.<note hand="#author" place="left">
                         z. B.
-                        <persName ref="http://d-nb.info/gnd/11666875X">
+                        <persName ref="https://editon-humboldt.de/H0000168 http://d-nb.info/gnd/11666875X">
                             <add place="superlinear">Forbes</add> Royle</persName>
                         <lb/>
-                        <ref xml:id="e29b49a3-97b5-4bd8-9b49-a397b56bd874" corresp="#cf5a8b6c-b001-498c-9a8b-6cb001f98c3e">Illustration <lb/>of Botany <lb/>of Himalaya <lb/>and Cashmere
+                        <ref xml:id="efe7cc82-f4e3-407a-a7cc-82f4e3d07ac8" corresp="#e4df1f0d-4d31-41ca-9f1f-0d4d31c1ca04">Illustration <lb/>of Botany <lb/>of Himalaya <lb/>and Cashmere
                                 <lb/>1834–1835</ref>
-                        <note xml:id="cf5a8b6c-b001-498c-9a8b-6cb001f98c3e" corresp="#e29b49a3-97b5-4bd8-9b49-a397b56bd874">Humboldt beruft sich vermutlich auf die <ref target="http://www.jstor.org/stable/1797888">1835 im Journal of
+                        <note xml:id="e4df1f0d-4d31-41ca-9f1f-0d4d31c1ca04" corresp="#efe7cc82-f4e3-407a-a7cc-82f4e3d07ac8">Humboldt beruft sich vermutlich auf die <ref target="http://www.jstor.org/stable/1797888">1835 im Journal of
                                     the Royal Geographical Society of London angekündigten
                                     Lieferungen</ref>. Die beiden Bände der <hi rendition="#i">Illustrations of the
                                 botany and other branches of the natural history of the Himalayan
                                 Mountains and of the flora of Cashmere</hi> sollten erst vier Jahre
-                                später erscheinen (<bibl corresp="https://edition-humboldt.de/v8/2W5IM98R">Forbes
+                                später erscheinen (<bibl corresp="https://edition-humboldt.de/2W5IM98R">Forbes
                                     Royle 1839</bibl>).</note>. </note>
                 </p>
             </postscript>

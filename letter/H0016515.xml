@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016515">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 23. November
+               1848, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016515">https://edition-humboldt.de/v8/H0016515</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016515</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016515</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016515.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 23. November
-               1848. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016515</bibl>
-            </sourceDesc>
+            <msDesc rend="copy">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                            <idno type="legacy">265 E3</idno>
+                     <idno type="shelfmark">676, Bl. 43v-46v</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1848-11-23">1848-11-23</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -71,42 +89,51 @@
                   </choice> 23/11. 1848. </dateline>
             </opener>
             <p>Die Ihnen schon angedeuteten <lb/>Neuigkeiten über Gehirnverhältnisse <lb/>sind nun
-               gedruckt und das Cartesia-<lb/>nische Seelenorgan,
-               die Zirbel, wird <lb/>auch Ihre Theilnahme von Neuem <lb/>erwecken.<ref xml:id="e5dc604f-d184-4f21-9c60-4fd1842f2182" corresp="#a9408ad1-501c-4c0a-808a-d1501c9c0a01"/>
-                    <note xml:id="a9408ad1-501c-4c0a-808a-d1501c9c0a01" corresp="#e5dc604f-d184-4f21-9c60-4fd1842f2182">wohl <bibl corresp="https://edition-humboldt.de/v8/XM8RULED">Ehrenberg
+               gedruckt und das Cartesia<g ref="#typoHyphen"/>
+                    <lb break="no"/>nische Seelenorgan,
+               die Zirbel, wird <lb/>auch Ihre Theilnahme von Neuem <lb/>erwecken.<ref xml:id="eca92eef-33fd-441e-a92e-ef33fdb41e36" corresp="#a01ad475-22e4-4ad8-9ad4-7522e4dad83a"/>
+                    <note xml:id="a01ad475-22e4-4ad8-9ad4-7522e4dad83a" corresp="#eca92eef-33fd-441e-a92e-ef33fdb41e36">wohl <bibl corresp="https://edition-humboldt.de/XM8RULED">Ehrenberg
                         1836</bibl>
                   </note> Junge Kräfte werden nun <lb/>schon die alten Helden wieder von <lb/>neuem
                ausbeuten.</p>
-            <p>Auch die <ref xml:id="cdd7e5a9-b31e-426b-97e5-a9b31e726bb4" corresp="#f658b4b3-3e44-4351-98b4-b33e442351a2">
+            <p>Auch die <ref xml:id="e8a69811-4036-46c4-a698-114036b6c4fe" corresp="#f941c2ff-d58e-446a-81c2-ffd58e246abf">
                         <name type="animal|plant" key="Monas prodigiosa">Monas
                      prodigiosa</name>
                     </ref>
-                    <note xml:id="f658b4b3-3e44-4351-98b4-b33e442351a2" corresp="#cdd7e5a9-b31e-426b-97e5-a9b31e726bb4">
-                     <bibl corresp="https://edition-humboldt.de/v8/S49W6Z7K"> Ehrenberg 1848a</bibl>
-                  </note> ist bald fer-<lb/>tig im Druck. Vielleicht
+                    <note xml:id="f941c2ff-d58e-446a-81c2-ffd58e246abf" corresp="#e8a69811-4036-46c4-a698-114036b6c4fe">
+                     <bibl corresp="https://edition-humboldt.de/S49W6Z7K"> Ehrenberg 1848a</bibl>
+                  </note> ist bald fer<g ref="#typoHyphen"/>
+                    <lb break="no"/>tig im Druck. Vielleicht
                sind Ihnen <lb/>folgende Zahlen interessant: <lb/>
-                    <ref xml:id="a6edebff-dc58-48f0-adeb-ffdc5878f0ca" corresp="#b7735697-7eb1-4066-b356-977eb190660e">Der biliner Polirschiefer enthält <lb/>in jedem <choice>
+                    <ref xml:id="cd8dae2f-ab20-440d-8dae-2fab20c40d1e" corresp="#beddbbae-bdae-46f6-9dbb-aebdae06f64b">Der biliner Polirschiefer enthält <lb/>in jedem <choice>
                         <abbr>Cub.</abbr>
                         <expan>Cubik</expan>
                      </choice> Zoll 41,000,000,000 <lb/>Einzelthiere</ref>
-                    <note xml:id="b7735697-7eb1-4066-b356-977eb190660e" corresp="#a6edebff-dc58-48f0-adeb-ffdc5878f0ca">
-                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862 </bibl>, I, 157
+                    <note xml:id="beddbbae-bdae-46f6-9dbb-aebdae06f64b" corresp="#cd8dae2f-ab20-440d-8dae-2fab20c40d1e">
+                     <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862 </bibl>, I, 157
                   </note>.</p>
             <p>
                     <name type="animal|plant" key="Monas prodigiosa">Monas prodigiosa</name> erfüllt
-                  densel-<lb/>ben Raum mit <lb/>884. Billionen und
+                  densel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben Raum mit <lb/>884. Billionen und
                73 6000 Millionen. <lb/>1Thierchen = 1⁄8000 ‴ <lb/> <pb n="1v"/> <lb/> auf 1
                □
                Linie gehen 64,000,000 <lb/>auf 1 Cub.Linie 512,000,000,000 <lb/>1 Cub.Zoll=
                   <lb/>=1728.Cub.Lin.1728.<gap reason="illegible" unit="lines" quantity="4"/>
                 </p>
-            <p>Zwar lassen sich Zwischenräume <lb/>ohne Thierchen nicht erkennen, allein gä-<lb/>be man zu, daß 7 Längen zwischen je-<lb/>dem Thierchen leer wären, so bleiben <lb/>noch
+            <p>Zwar lassen sich Zwischenräume <lb/>ohne Thierchen nicht erkennen, allein gä<g ref="#typoHyphen"/>
+                    <lb break="no"/>be man zu, daß 7 Längen zwischen je<g ref="#typoHyphen"/>
+                    <lb break="no"/>dem Thierchen leer wären, so bleiben <lb/>noch
                1 Billion in jedem Cubikzoll, <lb/>was, aller Anschauung nach, viel zu <lb/>wenig
                ist.</p>
-            <p>Binnen 12 Stunden überzieht sich <lb/>bey warmer Luft eine ganze Schüs-<lb/>sel voll Reis damit. Als Fortpflan-<lb/>zungsweise ist nun Selbsttheilung <lb/>bisher
-               anschaulich geworden. Das <lb/>Selbsttheilungs-Gesetz bey den Infu-<lb/>
+            <p>Binnen 12 Stunden überzieht sich <lb/>bey warmer Luft eine ganze Schüs<g ref="#typoHyphen"/>
+                    <lb break="no"/>sel voll Reis damit. Als Fortpflan<g ref="#typoHyphen"/>
+                    <lb break="no"/>zungsweise ist nun Selbsttheilung <lb/>bisher
+               anschaulich geworden. Das <lb/>Selbsttheilungs-Gesetz bey den Infu<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="2r"/>sorien ergab bisher die
-                  Vermehrungs-<lb/>fähigkeit nach Stunden so:<table rows="6" cols="2">
+                  Vermehrungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>fähigkeit nach Stunden so:<table rows="6" cols="2">
                   <row role="label">
                      <cell>Stunde</cell>
                      <cell>Vermehrung</cell>
@@ -135,20 +162,24 @@
                      <cell>11</cell>
                      <cell>64.</cell>
                   </row>
-               </table> Wie klein ist diese frühere Vor-<lb/>stellung und Kenntniß der Naturkräfte <lb/>gegen diese neueste!</p>
+               </table> Wie klein ist diese frühere Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellung und Kenntniß der Naturkräfte <lb/>gegen diese neueste!</p>
             <p>Welch unbekannte Kraft mag <lb/>noch im Leben in der Richtung zum <lb/>kleinsten Raum
                hin schlummern! <lb/>Doch still! Schritt vor Schritt!</p>
-            <p>Die sinnlichen Transsubstantia-<lb/>tions-Verhältnisse habe ich in der <lb/>Akademie speciell erörtert und <lb/>keinen
+            <p>Die sinnlichen Transsubstantia<g ref="#typoHyphen"/>
+                    <lb break="no"/>tions-Verhältnisse habe ich in der <lb/>Akademie speciell erörtert und <lb/>keinen
                Anstand genommen sie <lb/>mit in Druck zu geben. Der <lb/>Wissenschaft mochte ich
-               nicht et-<lb/>was vorenthalten was für Men-<lb/>schengeschichte von Einfluß erscheint.</p>
+               nicht et<g ref="#typoHyphen"/>
+                    <lb break="no"/>was vorenthalten was für Men<g ref="#typoHyphen"/>
+                    <lb break="no"/>schengeschichte von Einfluß erscheint.</p>
             <p>Die Fäden und Wurzeln des <lb/>
                     <pb n="2v"/>Lebens gehen nach allen Seiten tiefer.</p>
             <p>Für das Große im Raume hat <lb/>der Mensch einen scharfsinnigen <lb/>wachsenden
                Geist, für das Kleine <lb/>ist und bleibt er zu grob und <lb/>wird es immer mehr.
                   <lb/>
-                    <ref xml:id="fa776b91-e331-46d3-b76b-91e33196d324" corresp="#a056b37f-dd77-4631-96b3-7fdd77d6314b">„Kühne Seglerin, Phantasie, <lb/> Wirf Dein muthloses Anker hie!“</ref>
-                    <note xml:id="a056b37f-dd77-4631-96b3-7fdd77d6314b" corresp="#fa776b91-e331-46d3-b76b-91e33196d324"> (leicht abgewandelte) Strophe aus Friedrich Schillers
-                     ‚Die Größe der Welt‛,vgl. <bibl corresp="https://edition-humboldt.de/v8/LMC8GRV3">Schiller
+                    <ref xml:id="e7efc231-3a12-4d46-afc2-313a124d4660" corresp="#d0502bab-8a4a-47d6-902b-ab8a4a87d6aa">„Kühne Seglerin, Phantasie, <lb/> Wirf Dein muthloses Anker hie!“</ref>
+                    <note xml:id="d0502bab-8a4a-47d6-902b-ab8a4a87d6aa" corresp="#e7efc231-3a12-4d46-afc2-313a124d4660"> (leicht abgewandelte) Strophe aus Friedrich Schillers
+                     ‚Die Größe der Welt‛,vgl. <bibl corresp="https://edition-humboldt.de/LMC8GRV3">Schiller
                         1844</bibl>, I, 56 </note>
                <lb/>Und doch nicht!</p>
             <closer rend="paragraph">
@@ -162,56 +193,64 @@
                   Infusorien:</hi>
                <lb/>
                     <gap reason="illegible" unit="lines" quantity="8"/> <lb/> <pb n="3r"/>Die marinen
-               reineren Infusorien-<lb/>tripel in <placeName>Virginien</placeName>, ohne Beimischung <lb/>von Kalkthierchen, erstrecken sich
+               reineren Infusorien<g ref="#typoHyphen"/>
+                    <lb break="no"/>tripel in <placeName ref="https://editon-humboldt.de/">Virginien</placeName>, ohne Beimischung <lb/>von Kalkthierchen, erstrecken sich
                von <lb/>
-                    <placeName ref="https://www.geonames.org/498817">Petersburg</placeName> in <placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Petersburg</placeName> in <placeName ref="https://editon-humboldt.de/">
                         <choice>
                      <abbr>Virg.</abbr>
                      <expan>Virginien</expan>
                   </choice>
-                    </placeName> bis <placeName ref="https://edition-humboldt.de/v8/H0017623">Piscataway</placeName> in
+                    </placeName> bis <placeName ref="https://editon-humboldt.de/H0017623">Piscataway</placeName> in
                   <lb/>
-                    <placeName ref="https://www.geonames.org/4361885">Maryland</placeName>. Sie sind auch bei <placeName ref="https://www.geonames.org/4781708">Richmond</placeName>
-               <lb/>und um <placeName ref="https://www.geonames.org/4781051">Rappahannok River</placeName> direct
-               <lb/>aufgefunden und ich habe das Mate-<lb/>rial von
-               all diesen Puncten bereits <lb/>analysirt. Das Lager ist von <persName ref="http://d-nb.info/gnd/116596708">Rogers</persName>
-               <lb/>entdeckt (Report on Geology of Vir-<lb/>ginia
+                    <placeName ref="https://editon-humboldt.de/H0008739 https://www.geonames.org/4361885">Maryland</placeName>. Sie sind auch bei <placeName ref="https://editon-humboldt.de/H0017115 https://www.geonames.org/4781708">Richmond</placeName>
+               <lb/>und um <placeName ref="https://editon-humboldt.de/H0017108 https://www.geonames.org/4781051">Rappahannok River</placeName> direct
+               <lb/>aufgefunden und ich habe das Mate<g ref="#typoHyphen"/>
+                    <lb break="no"/>rial von
+               all diesen Puncten bereits <lb/>analysirt. Das Lager ist von <persName ref="https://editon-humboldt.de/H0016815 http://d-nb.info/gnd/116596708">Rogers</persName>
+               <lb/>entdeckt (Report on Geology of Vir<g ref="#typoHyphen"/>
+                    <lb break="no"/>ginia
                for 1840). Ich habe in den <lb/>Schriften der Akademie 1841 <choice>
                   <abbr>pag.</abbr>
                   <expan>pagina</expan>
                </choice>
-               <lb/>327. die ersten Analysen gegeben <lb/>und <ref xml:id="d367615d-2711-4658-a761-5d27116658e1" corresp="#d5442d67-608b-4e35-842d-67608bfe358e">1844, in den Monatsberichten <choice>
+               <lb/>327. die ersten Analysen gegeben <lb/>und <ref xml:id="c75b22c9-9592-4053-9b22-c99592805357" corresp="#a326bc9a-e20c-41ac-a6bc-9ae20c91aca6">1844, in den Monatsberichten <choice>
                         <abbr>pag.</abbr>
                         <expan>pagina</expan>
                      </choice>
                      <lb/>57.</ref>
-                    <note xml:id="d5442d67-608b-4e35-842d-67608bfe358e" corresp="#d367615d-2711-4658-a761-5d27116658e1">
-                     <bibl corresp="https://edition-humboldt.de/v8/4QV4K4EG">Ehrenberg 1844a</bibl>
-                  </note> die ganze Übersicht. Die Amerika-<lb/>ner
+                    <note xml:id="a326bc9a-e20c-41ac-a6bc-9ae20c91aca6" corresp="#c75b22c9-9592-4053-9b22-c99592805357">
+                     <bibl corresp="https://edition-humboldt.de/4QV4K4EG">Ehrenberg 1844a</bibl>
+                  </note> die ganze Übersicht. Die Amerika<g ref="#typoHyphen"/>
+                    <lb break="no"/>ner
                halten es für eokäne Tertiärbildung.</p>
-            <p>Das Lager auf den <placeName ref="https://www.geonames.org/3573345">Bermuda- <lb/>Inseln</placeName> ist von
-                  <persName ref="http://d-nb.info/gnd/1140019635">Tuomey</persName> in <placeName ref="https://www.geonames.org/498817">Petersburg</placeName>
+            <p>Das Lager auf den <placeName ref="https://editon-humboldt.de/H0005222 https://www.geonames.org/3573345">Bermuda- <lb/>Inseln</placeName> ist von
+                  <persName ref="https://editon-humboldt.de/H0017107 http://d-nb.info/gnd/1140019635">Tuomey</persName> in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Petersburg</placeName>
                <lb/>
-                    <placeName>
+                    <placeName ref="https://editon-humboldt.de/">
                         <choice>
                      <abbr>Virg.</abbr>
                      <expan>Virginien</expan>
                   </choice>
-                    </placeName> entdeckt und von mir <ref xml:id="c9d7360e-60f2-4c0f-9736-0e60f28c0fde" corresp="#af6443f6-0bcb-4fd0-a443-f60bcb4fd0d2">1849 <lb/> <pb n="3v"/>in den Monatsberichten (<choice>
+                    </placeName> entdeckt und von mir <ref xml:id="e857210a-6c63-4639-9721-0a6c6326398e" corresp="#f4462358-28fc-4f55-8623-5828fcef55e6">1849 <lb/> <pb n="3v"/>in den Monatsberichten (<choice>
                         <abbr>pag.</abbr>
                         <expan>pagina</expan>
                      </choice> 257.)</ref>
-                    <note xml:id="af6443f6-0bcb-4fd0-a443-f60bcb4fd0d2" corresp="#c9d7360e-60f2-4c0f-9736-0e60f28c0fde">
-                     <bibl corresp="https://edition-humboldt.de/v8/KLAZJBDG">Ehrenberg 1844b</bibl>
+                    <note xml:id="f4462358-28fc-4f55-8623-5828fcef55e6" corresp="#e857210a-6c63-4639-9721-0a6c6326398e">
+                     <bibl corresp="https://edition-humboldt.de/KLAZJBDG">Ehrenberg 1844b</bibl>
                   </note>
                <lb/>analysirt worden. Es hat denselben <lb/>Character <hi rendition="#u">völligen
-                  Mangels an Polythala-<lb/>mien</hi>.</p>
-            <p>Von den virginischen Lagern sind <lb/>155. Formen verzeichnet von dem Ber-<lb/>muda-Lager 138. Species. Die Formen <lb/>sind
-               auffallend oft identisch mit dem <lb/>der Kreidemergel in <placeName ref="https://www.geonames.org/2523119">Sicilien</placeName> und <lb/>
-                    <placeName ref="https://www.geonames.org/3036836">Aron</placeName>.
-               Letzteres sind aber Mergel, er-<lb/>steres
+                  Mangels an Polythala<g ref="#typoHyphen"/>
+                        <lb break="no"/>mien</hi>.</p>
+            <p>Von den virginischen Lagern sind <lb/>155. Formen verzeichnet von dem Ber<g ref="#typoHyphen"/>
+                    <lb break="no"/>muda-Lager 138. Species. Die Formen <lb/>sind
+               auffallend oft identisch mit dem <lb/>der Kreidemergel in <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilien</placeName> und <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0017286 https://www.geonames.org/3036836">Aron</placeName>.
+               Letzteres sind aber Mergel, er<g ref="#typoHyphen"/>
+                    <lb break="no"/>steres
                Tripel.</p>
-            <p>Unsere Kreide bildet das Ge-<lb/>genstück: <hi rendition="#u">Polythalamien rein, ohne <lb/>Kieselthiere</hi>.</p>
+            <p>Unsere Kreide bildet das Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>genstück: <hi rendition="#u">Polythalamien rein, ohne <lb/>Kieselthiere</hi>.</p>
             <p>Diese beyden Zustände existiren <lb/>jezt nicht mehr in den Meeren, <lb/>da findet
                sich überall Mischung, <lb/>überall <hi rendition="#u">Mergel</hi>.</p>
             <p>Das Genus der Corallenthiere, <lb/>welches den Horn-Corallen verwandt <lb/>

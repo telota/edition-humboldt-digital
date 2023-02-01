@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011896">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Hildebrandt, Eduard</title>
             </titleStmt>
+            <editionStmt>
+                <p>Hildebrandt, Eduard [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011896.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,38 +20,34 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011896.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011896.xml">
-                    <p>Hildebrandt, Eduard [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011896.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0011896">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118704753</idno>
                     <persName type="reg">
                         <surname>Hildebrandt</surname>
                         <forename>Eduard</forename>
                     </persName>
                     <birth>1818</birth>
-                    <!-- ct: geändert, war "1817", aber ADB, GND, WP u.a. sind sicher(er) bei 1818 -->
+                    
                     <death>1868</death>
                     <note>bedeutender deutscher Maler und Weltreisender; berühmt für seine
                         Landschaftsbilder und Aquarelle; die Portraits seines Förderers Alexander
                         von Humboldt
-                        <?oxy_comment_start author="kraft" timestamp="20160926T165304+0200" comment="Link auf Online-Ressource
-http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface&amp;module=collection&amp;objectId=1414547
-
-(Verlinkung klappt im Moment nicht)" id="bxj_lpc_cqb"?><?oxy_comment_start author="thomas" timestamp="20210628T123756+0200" comment="Verlinkung ginge wohl ehd-seitig inzwischen, allerdings führt der o.g. Link nicht mehr zum Ziel. Also lieber lassen oder PURL suchen?" parentID="bxj_lpc_cqb" mid="3"?><?oxy_comment_start author="thomas" timestamp="20210628T123916+0200" comment="+ man könnte auch verlinken auf:
-[Humboldt, Alexander von]: Alexander von Humboldt [Beschreibung eines von Eduard Hildebrandt gemalten Aquarells]. [Berlin], [1856]. In: Deutsches Textarchiv &lt;https://www.deutschestextarchiv.de/humboldt_hildebrandt_1856&gt;, abgerufen am 28.06.2021.
-" parentID="bxj_lpc_cqb" mid="4"?>am Berliner Schreibtisch
-                        (1847)<?oxy_comment_end mid="4"?><?oxy_comment_end mid="3"?><?oxy_comment_end?>
+                        am Berliner Schreibtisch
+                        (1847)
                         und in der Bibliothek (1856) gehören zu klassischen Motiven der
                         Humboldt-Ikonographie</note>
                     <linkGrp>

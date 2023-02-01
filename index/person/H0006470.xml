@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006470">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Woltmann, Reinhard</title>
             </titleStmt>
+            <editionStmt>
+                <p>Woltmann, Reinhard [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0006470.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006470.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0006470.xml">
-                    <p>Woltmann, Reinhard [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0006470.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0006470">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/11743504X</idno>
                     <persName type="reg">
                         <surname>Woltmann</surname>
@@ -38,8 +43,8 @@
                     <birth>1757</birth>
                     <death>1837</death>
                     <note>1785–1792
-                        <?oxy_comment_start author="goetz" timestamp="20210528T140956+0200" comment="Wasserbau-Direktor in Cuxhaven gemäß Humboldt 1973, 610"?>Wasserbau-Kondukteur
-                        in Ritzebüttel<?oxy_comment_end?>; schrieb über Wassermaschinen und stellte Beobachtungen zur
+                        Wasserbau-Kondukteur
+                        in Ritzebüttel; schrieb über Wassermaschinen und stellte Beobachtungen zur
                         Strahlenbrechung an</note>
                     <linkGrp>
                         <ptr target="02#428" type="letter"/>

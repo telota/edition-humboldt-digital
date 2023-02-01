@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016454">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,34 +32,58 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Hermann und Robert Schlagintweit an Alexander von Humboldt. Berlin, 26. März
+                    1859, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016454">https://edition-humboldt.de/v8/H0016454</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016454</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016454</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016454.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Hermann und Robert Schlagintweit an Alexander von Humboldt. Berlin, 26. März
-                    1859. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016454</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 2, Mappe 4,
+                                Nr.61,
+                            Bl. 1r–2r</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1012257</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <persName ref="http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
+                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
                         (1833-1885)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
                         Deutschland)</placeName>
                     <date when="1859-03-26" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -79,16 +103,17 @@
                         Excellenz!</salute>
                 </opener>
                 <p>
-                    <ref xml:id="b69dc0e6-77e5-4d70-9dc0-e677e59d7076" corresp="#b0116ce0-5ca2-47f8-916c-e05ca287f802">Ihrem Wunsche gemäß beeilen wir uns, Ihnen einige Mit-<lb/>theilungen über unsere Messungen
+                    <ref xml:id="b55d807a-12fc-41ed-9d80-7a12fcb1eda2" corresp="#c854ccd7-e5be-4a3c-94cc-d7e5beea3cac">Ihrem Wunsche gemäß beeilen wir uns, Ihnen einige Mit<g ref="#typoHyphen"/>
+                        <lb break="no"/>theilungen über unsere Messungen
                             der Schneegrenze an den <lb/>verschiedenen Abhängen der Gebirgsketten
-                            Hochasiens, nämlich <lb/>des <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName>, <placeName>Karakorum</placeName> und <placeName ref="https://www.geonames.org/1280792">Kuenluen</placeName> zu senden.</ref>
-                    <note xml:id="b0116ce0-5ca2-47f8-916c-e05ca287f802" corresp="#b69dc0e6-77e5-4d70-9dc0-e677e59d7076">Ein Brief, in dem Humboldt die
+                            Hochasiens, nämlich <lb/>des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>, <placeName ref="https://editon-humboldt.de/H0000362">Karakorum</placeName> und <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenluen</placeName> zu senden.</ref>
+                    <note xml:id="c854ccd7-e5be-4a3c-94cc-d7e5beea3cac" corresp="#b55d807a-12fc-41ed-9d80-7a12fcb1eda2" resp="#LM">Ein Brief, in dem Humboldt die
                             Messungen zu den Schneegrenzen erfragte, ist bisher unbekannt.</note>
                 </p>
                 <p>Was uns diese Beobachtungen ganz besonders wichtig machte, <lb/>war die genaue
                     Bestimmung der Verschiedenheit der Höhe der <lb/>Schneegrenze am südlichen und
-                    nördlichen Abfalle des <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName>. <lb/>In
-                    der <bibl corresp="https://edition-humboldt.de/v8/DV9UD9GW">Asie Centrale (deutsche Ausgabe <choice>
+                    nördlichen Abfalle des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>. <lb/>In
+                    der <bibl corresp="https://edition-humboldt.de/DV9UD9GW">Asie Centrale (deutsche Ausgabe <choice>
                             <abbr>Bd.</abbr>
                             <expan>Band</expan>
                         </choice> II.</bibl>
@@ -98,71 +123,86 @@
                     </choice> 177 bis <choice>
                         <abbr>S.</abbr>
                         <expan>Seite</expan>
-                    </choice> 203) haben <lb/>Sie, <ref xml:id="fc86c2ad-961b-4ad7-86c2-ad961bfad746" corresp="#addfbc28-af4a-4759-9fbc-28af4af759c3">wie bereits 1820, in bewunderungswürdiger Weise alle That-<lb/>sachen zusammengestellt, welche
-                            sich auf das so anormale Ver-<lb/>hältniß beziehen, daß, verschieden von wohl allen anderen Ge-<lb/>birgen der nördlichen Hemisphäre,
-                            im <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> die Schneegrenze
+                    </choice> 203) haben <lb/>Sie, <ref xml:id="c08ae108-4472-4ce5-8ae1-0844721ce5e5" corresp="#e05e5e33-d23f-4387-9e5e-33d23f2387b7">wie bereits 1820, in bewunderungswürdiger Weise alle That<g ref="#typoHyphen"/>
+                        <lb break="no"/>sachen zusammengestellt, welche
+                            sich auf das so anormale Ver<g ref="#typoHyphen"/>
+                        <lb break="no"/>hältniß beziehen, daß, verschieden von wohl allen anderen Ge<g ref="#typoHyphen"/>
+                        <lb break="no"/>birgen der nördlichen Hemisphäre,
+                            im <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> die Schneegrenze
                             <lb/>auf dem Südabhange weiter herabreicht als auf dem
                             Nordabhange.</ref>
-                    <note xml:id="addfbc28-af4a-4759-9fbc-28af4af759c3" corresp="#fc86c2ad-961b-4ad7-86c2-ad961bfad746">Vgl. den Aufsatz über Schneegrenzen
-                            im <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> und am <placeName ref="https://edition-humboldt.de/v8/H0002500">Äquator</placeName> in der <hi rendition="#i">Annales
-                                de Chimie et de Physique</hi> (<bibl corresp="https://edition-humboldt.de/v8/PPBNLPCZ">Humboldt 1820a</bibl>, 16 ff.).</note>
+                    <note xml:id="e05e5e33-d23f-4387-9e5e-33d23f2387b7" corresp="#c08ae108-4472-4ce5-8ae1-0844721ce5e5" resp="#LM">Vgl. den Aufsatz über Schneegrenzen
+                            im <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> und am <placeName ref="https://editon-humboldt.de/H0002500">Äquator</placeName> in der <hi rendition="#i">Annales
+                                de Chimie et de Physique</hi> (<bibl corresp="https://edition-humboldt.de/PPBNLPCZ">Humboldt 1820a</bibl>, 16 ff.).</note>
                 </p>
-                <p>Es wurde dies zwar, in vorschneller Weise von Manchen be-<lb/>stritten, die es theils nur theoretisch bezweifelten, theils nur
-                    <lb/>einzelne Punkte des <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> gesehen
-                    hatten. Aber neuere <lb/>Beobachter, wie: <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName>, <persName ref="http://d-nb.info/gnd/117351946">Thompson</persName>, <persName ref="http://d-nb.info/gnd/116758112">Cunningham</persName>, <persName ref="http://d-nb.info/gnd/1055397353">Strachey</persName>, <persName ref="http://d-nb.info/gnd/118863703">Hodg-<lb/>son</persName>
+                <p>Es wurde dies zwar, in vorschneller Weise von Manchen be<g ref="#typoHyphen"/>
+                    <lb break="no"/>stritten, die es theils nur theoretisch bezweifelten, theils nur
+                    <lb/>einzelne Punkte des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> gesehen
+                    hatten. Aber neuere <lb/>Beobachter, wie: <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName>, <persName ref="https://editon-humboldt.de/H0003944 http://d-nb.info/gnd/117351946">Thompson</persName>, <persName ref="https://editon-humboldt.de/H0016929 http://d-nb.info/gnd/116758112">Cunningham</persName>, <persName ref="https://editon-humboldt.de/H0016116 http://d-nb.info/gnd/1055397353">Strachey</persName>, <persName ref="https://editon-humboldt.de/H0011923 http://d-nb.info/gnd/118863703">Hodg<g ref="#typoHyphen"/>
+                        <lb break="no"/>son</persName>
                     <choice>
                         <abbr>etc.</abbr>
                         <expan>et cetera</expan>
                     </choice> theilen vollkommen Ihre Ansicht.</p>
                 <p>Nach unseren eigenen Beobachtungen (in der Länge von <lb/>
-                    <placeName ref="https://www.geonames.org/1256312">Sikkim</placeName> bis <placeName ref="https://www.geonames.org/1138958">Kabul</placeName> und in der Breite von <placeName ref="https://www.geonames.org/1269750">Indien</placeName> bis <placeName ref="https://www.geonames.org/1281307">Yar-<lb/>kand</placeName>) können wir Ihre Bestimmungen des
+                    <placeName ref="https://editon-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName> bis <placeName ref="https://editon-humboldt.de/H0000324 https://www.geonames.org/1138958">Kabul</placeName> und in der Breite von <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> bis <placeName ref="https://editon-humboldt.de/H0010713 https://www.geonames.org/1281307">Yar<g ref="#typoHyphen"/>
+                        <lb break="no"/>kand</placeName>) können wir Ihre Bestimmungen des
                     Unterschiedes der <lb/>Höhe der Schneegrenze auf dem nördlichen und südlichen
-                        Ab-<lb/>hange vollkommen bestätigen. Unter
-                    den Ursachen des nie-<lb/>
+                        Ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>hange vollkommen bestätigen. Unter
+                    den Ursachen des nie<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="1v"/>drigeren
                     Standes der Schneegrenze auf der Südseite ist <lb/>als die bei weitem
                     wichtigste, die große Verschiedenheit der <lb/>Schneemenge zu nennen, wie auch
                     Sie es aussprechen. <lb/>Nichts kann in Beziehung auf raschen Wechsel des
-                        climati-<lb/>schen Characters die Gegensätze
-                    übertreffen, die <placeName ref="https://www.geonames.org/1282988">Nepal</placeName> und <lb/>
-                    <placeName ref="https://www.geonames.org/1279685">Tibet</placeName>, <placeName ref="https://www.geonames.org/1265709">Kulu</placeName>
-                    und <placeName ref="https://www.geonames.org/1265292">Spiti</placeName>, in Beziehung auf atmosphärische
+                        climati<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen Characters die Gegensätze
+                    übertreffen, die <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepal</placeName> und <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName>, <placeName ref="https://editon-humboldt.de/H0017471 https://www.geonames.org/1265709">Kulu</placeName>
+                    und <placeName ref="https://editon-humboldt.de/H0017411 https://www.geonames.org/1265292">Spiti</placeName>, in Beziehung auf atmosphärische
                     <lb/>Feuchtigkeit und Regenmenge bieten.</p>
                 <p>Dieselbe Ursache macht sich nochmals, und zwar in einer <lb/>wenigstens eben so
                     auffallenden Form geltend, wenn man <lb/>die <hi rendition="#u">mittlere</hi>
                     Schneegrenze der 2<hi rendition="#sup">
                         <hi rendition="#uu">ten</hi>
                     </hi> Kette,
-                    der nach uns <lb/>als eigentliche Wasserscheide zu betrachtenden <placeName>Karakorum-<lb/>Kette</placeName> mit der <hi rendition="#u">mittleren</hi> Schneegrenze
-                    des <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> vergleicht. <lb/>Obwohl für
-                    den <placeName>Karakorum</placeName> die Breite (im Mittel 3°)
-                        nörd-<lb/>licher als für den <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> ist, steigt doch im <placeName>Karakorum</placeName>
+                    der nach uns <lb/>als eigentliche Wasserscheide zu betrachtenden <placeName ref="https://editon-humboldt.de/H0000362">Karakorum<g ref="#typoHyphen"/>
+                        <lb break="no"/>Kette</placeName> mit der <hi rendition="#u">mittleren</hi> Schneegrenze
+                    des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> vergleicht. <lb/>Obwohl für
+                    den <placeName ref="https://editon-humboldt.de/H0000362">Karakorum</placeName> die Breite (im Mittel 3°)
+                        nörd<g ref="#typoHyphen"/>
+                    <lb break="no"/>licher als für den <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> ist, steigt doch im <placeName ref="https://editon-humboldt.de/H0000362">Karakorum</placeName>
                     <lb/>die Schneegrenze noch bedeutend höher, aber die Differenz <lb/>zwischen den
-                    beiden Abhängen ist wieder dieselbe gewor-<lb/>den, wie sie es gewöhnlich ist, am tibetanischen, am <lb/>Südabhange ist die
+                    beiden Abhängen ist wieder dieselbe gewor<g ref="#typoHyphen"/>
+                    <lb break="no"/>den, wie sie es gewöhnlich ist, am tibetanischen, am <lb/>Südabhange ist die
                     Schneegrenze im Mittel <measure quantity="500" unit="foot">500</measure> bis
                     <measure quantity="600" unit="foot">600′</measure> <lb/>höher, als am
-                    nördlichen <placeName ref="https://www.geonames.org/1517945">Turkistanischen</placeName>.</p>
+                    nördlichen <placeName ref="https://editon-humboldt.de/H0009597 https://www.geonames.org/1517945">Turkistanischen</placeName>.</p>
                 <p>In der 3<hi rendition="#sup">
                         <hi rendition="#uu">ten</hi>
                     </hi> Kette endlich, im
-                        <placeName ref="https://www.geonames.org/1280792">Kuenluen</placeName>, ist der Unter-<lb/>schied zwischen der größeren Höhe der
+                        <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenluen</placeName>, ist der Unter<g ref="#typoHyphen"/>
+                    <lb break="no"/>schied zwischen der größeren Höhe der
                     Schneegrenze auf der <lb/>Südseite und der (geringeren) Höhe auf der Nordseite
                     noch <lb/>bedeutender, weil hier die Nordseite der Region eines <lb/>etwas
                     weniger trockneren Klimas zugewandt ist. Auch <lb/>die mittlere Höhe sinkt hier
-                    rascher als dem Breitenun-<lb/>terschiede nach
+                    rascher als dem Breitenun<g ref="#typoHyphen"/>
+                    <lb break="no"/>terschiede nach
                     zu erwarten wäre.</p>
                 <p>Die folgende Zusammenstellung enthält die Mittel für die <lb/>Höhen der
-                    Schneegrenze, deren einzelne Bestimmungen (<ref xml:id="cc72f515-b442-4d5a-b2f5-15b442ad5a44" corresp="#e794b393-84e4-4122-94b3-9384e4f122c9">
+                    Schneegrenze, deren einzelne Bestimmungen (<ref xml:id="dac236cd-48e9-4c89-8236-cd48e90c89d0" corresp="#bc43debb-d78c-4993-83de-bbd78cd99336">
                         <choice>
                                 <abbr>Bd.</abbr>
                                 <expan>Band</expan>
                             </choice> 15 &amp; 41. <lb/>unserer Mansuscripte</ref>
-                    <note xml:id="e794b393-84e4-4122-94b3-9384e4f122c9" corresp="#cc72f515-b442-4d5a-b2f5-15b442ad5a44">Manuskriptbände zur Asienreise. Band
+                    <note xml:id="bc43debb-d78c-4993-83de-bbd78cd99336" corresp="#dac236cd-48e9-4c89-8236-cd48e90c89d0" resp="#LM">Manuskriptbände zur Asienreise. Band
                             15: <hi rendition="#i">Hyposometrische Beobachtungen und Gang des
                                 Barometers</hi>. Band 41: <hi rendition="#i">Pflanzen-Geographie. –
                                 Periodische Erscheinungen der Pflanzen. – Schneegrenzen</hi>. Vgl.
-                                <bibl corresp="https://edition-humboldt.de/v8/6LUDY2H3">Schlagintweit, A. H. R.
-                                1854–1858</bibl>. </note>) wir früher das Glück hatten Ihnen vor-<lb/>zulegen. <table rows="3" cols="3" rend="drawn">
+                                <bibl corresp="https://edition-humboldt.de/6LUDY2H3">Schlagintweit, A. H. R.
+                                1854–1858</bibl>. </note>) wir früher das Glück hatten Ihnen vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>zulegen. <table rows="3" cols="3" rend="drawn">
                         <row>
                             <cell/>
                             <cell cols="2">Schneelinie.</cell>
@@ -174,7 +214,7 @@
                         </row>
                         <row>
                             <cell>
-                                <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>
                             </cell>
                             <cell>
                                 <measure quantity="16000" unit="foot">16000 <choice>
@@ -193,7 +233,7 @@
                         </row>
                         <row>
                             <cell>
-                                <placeName>Karakorum</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0000362">Karakorum</placeName>
                             </cell>
                             <cell>
                                 <measure quantity="19100" unit="foot">19100</measure>
@@ -204,7 +244,7 @@
                         </row>
                         <row>
                             <cell>
-                                <placeName ref="https://www.geonames.org/1280792">Kuenluen</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenluen</placeName>
                             </cell>
                             <cell>
                                 <measure quantity="15200" unit="foot">15200</measure>

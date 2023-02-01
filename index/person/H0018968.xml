@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018968">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Hamel, </title>
             </titleStmt>
+            <editionStmt>
+                <p>Hamel,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018968.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,30 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018968.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018968.xml">
-                    <p>Hamel,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018968.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0018968">
+                <person>
                     <persName type="reg">
                         <surname>Hamel</surname>
                         <forename/>
                     </persName>
                     <floruit notBefore="1829" notAfter="1829">um 1829</floruit>
-                    <note>russ. Uhrmacher deutscher Herkunft in <placeName key="H0010125">Sarepta</placeName>; Sohn von <persName key="H0018969">Johann Christian
-                            Friedrich Hamel</persName>; Bruder von <persName key="H0011623">Joseph
+                    <note>russ. Uhrmacher deutscher Herkunft in <placeName ref="https://editon-humboldt.de/H0010125 https://www.geonames.org/542462">Sarepta</placeName>; Sohn von <persName ref="https://editon-humboldt.de/H0018969">Johann Christian
+                            Friedrich Hamel</persName>; Bruder von <persName ref="https://editon-humboldt.de/H0011623 http://d-nb.info/gnd/116423536">Joseph
                             Christian
-                        Hamel</persName><!-- Vgl. evtl. Stratenwerth: Joseph Christian Hamel, Borsdorf 2019; oder: Hernhuter Unitätsarchiv vor Ort  -->
+                        Hamel</persName>
                     </note>
                 </person>
             </listPerson>

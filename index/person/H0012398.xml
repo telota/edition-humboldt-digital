@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0012398">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Du Bois-Reymond, Felix-Henri</title>
             </titleStmt>
+            <editionStmt>
+                <p>Du Bois-Reymond, Felix-Henri [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0012398.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0012398.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0012398.xml">
-                    <p>Du Bois-Reymond, Felix-Henri [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0012398.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0012398">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117657158</idno>
                     <persName type="reg">
                         <surname>Du Bois-Reymond</surname>
@@ -42,8 +47,8 @@
                     <birth>1782</birth>
                     <death>1865</death>
                     <note>aus Neuchâtel (Frankreich) stammender höherer Beamter im preußischen
-                        Außenministerium; Vater von <persName key="H0012401">Emil</persName> und
-                            <persName key="H0012402">Paul Du Bois-Reymond</persName>
+                        Außenministerium; Vater von <persName ref="https://editon-humboldt.de/H0012401 http://d-nb.info/gnd/118527665">Emil</persName> und
+                            <persName ref="https://editon-humboldt.de/H0012402 http://d-nb.info/gnd/116231475">Paul Du Bois-Reymond</persName>
                     </note>
                     <linkGrp>
                         <ptr target="22#11" type="page"/>

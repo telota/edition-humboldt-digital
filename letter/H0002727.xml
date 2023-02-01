@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002727">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,32 +29,58 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Samuel Thomas Soemmerring. Berlin, 9. April
+                    1796, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002727">https://edition-humboldt.de/v8/H0002727</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002727</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002727</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002727.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Samuel Thomas Soemmerring. Berlin, 9. April
-                    1796. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002727</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift / Frankfurter Goethe-Museum</institution>
+                        <repository>Handschriftensammlung</repository>
+                        <idno>
+                            <idno type="shelfmark">Hs-5052</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/WFDJIWK6">Humboldt 1973,
+                            363</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/DW4AA88T">Soemmerring 2001,
+                            290–294</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
                     <date when="1796-04-09" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830)
+                    <persName ref="https://editon-humboldt.de/H0015944 http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830)
                     </persName>
                 </correspAction>
             </correspDesc>
@@ -69,7 +95,7 @@
                 </opener>
                 <p>
                     <pb n="1r"/>Ich habe Ihnen lange nicht geschrieben, mein Bester, deswegen
-                    <lb/>aber viel gearbeitet, auch neue Versuche gemacht. Ich <lb/>kam nach <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>, um hier <bibl corresp="https://edition-humboldt.de/v8/9S4VPTFP">mein <choice>
+                    <lb/>aber viel gearbeitet, auch neue Versuche gemacht. Ich <lb/>kam nach <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>, um hier <bibl corresp="https://edition-humboldt.de/9S4VPTFP">mein <choice>
                             <abbr>MSS.</abbr>
                             <expan>Manuscript</expan>
                         </choice> über den <lb/>Nerven<supplied cert="high">-</supplied> und
@@ -82,8 +108,8 @@
                         <abbr>v</abbr>
                         <expan>von</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/118545906"> Hardenberg </persName> blieb leider! <lb/>bis jezt
-                    noch hier. Er nahm <placeName ref="https://www.geonames.org/2951825">
+                    <persName ref="https://editon-humboldt.de/H0011658 http://d-nb.info/gnd/118545906"> Hardenberg </persName> blieb leider! <lb/>bis jezt
+                    noch hier. Er nahm <placeName ref="https://editon-humboldt.de/H0005176 https://www.geonames.org/2951825">
                         <choice>
                             <sic>Bareuthische</sic>
                             <corr cert="high">Bayreuthische</corr>
@@ -91,7 +117,8 @@
                     </placeName> Angelegenheiten <lb/>mit dem Kabinetts Ministerium vor <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> ließ mich arbei-<lb/>ten. Alle meine
+                    </choice> ließ mich arbei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten. Alle meine
                     Zeit ging darüber <subst>
                         <del rendition="#s">vers</del>
                         <add place="intralinear">verloren</add>
@@ -108,10 +135,11 @@
                         <abbr>MSS.</abbr>
                         <expan>Manuscripte</expan>
                     </choice> erhielten. <lb/>Ich gehe den 10ten von hier in meine Einsiedelei
-                    <lb/>nach <placeName ref="https://www.geonames.org/2951825">Bayreuth</placeName> ab <choice>
+                    <lb/>nach <placeName ref="https://editon-humboldt.de/H0005176 https://www.geonames.org/2951825">Bayreuth</placeName> ab <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> von da aus schikke ich Ih-<lb/>nen Ruk
+                    </choice> von da aus schikke ich Ih<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen Ruk
                     auf Ruk (wenn Sie es nicht abbestellen <lb/>
                     <choice>
                         <abbr>od</abbr>
@@ -119,19 +147,21 @@
                     </choice> mir wegen der Kriegsunruhen abrathen) mein <choice>
                         <abbr>MSS</abbr>
                         <expan>Manuscript</expan>
-                    </choice>. <lb/>Durch Sie erhält es <persName ref="http://d-nb.info/gnd/116208503">Blumenbach</persName>. Im Julius <choice>
+                    </choice>. <lb/>Durch Sie erhält es <persName ref="https://editon-humboldt.de/H0003404 http://d-nb.info/gnd/116208503">Blumenbach</persName>. Im Julius <choice>
                         <abbr>od</abbr>
                         <expan>oder</expan>
-                    </choice> August <lb/>ist es gedrukt, bei <persName ref="http://d-nb.info/gnd/116043431">Dekker</persName> der mit <measure quantity="3" unit="louisdor">3
+                    </choice> August <lb/>ist es gedrukt, bei <persName ref="https://editon-humboldt.de/H0012173 http://d-nb.info/gnd/116043431">Dekker</persName> der mit <measure quantity="3" unit="louisdor">3
                         Louisd’or</measure> pro <lb/>Bogen geboten. Ich bin außer mir vor Freuden,
                     daß meine <lb/>Versuche Ihren Beifall haben. Sie allein können <lb/>mich beim
-                    Publikum heben. Es haben sich hier Gesellschaf-<lb/>ten zusammengethan, <persName ref="http://d-nb.info/gnd/117474460">Selle</persName>,
-                        <persName ref="http://d-nb.info/gnd/118933876">Herz</persName>, <persName ref="http://d-nb.info/gnd/118549774">Hermbstedt</persName>, <persName ref="http://d-nb.info/gnd/118723367">Klaproth</persName>, vor
+                    Publikum heben. Es haben sich hier Gesellschaf<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten zusammengethan, <persName ref="https://editon-humboldt.de/H0015799 http://d-nb.info/gnd/117474460">Selle</persName>,
+                        <persName ref="https://editon-humboldt.de/H0011839 http://d-nb.info/gnd/118933876">Herz</persName>, <persName ref="https://editon-humboldt.de/H0011811 http://d-nb.info/gnd/118549774">Hermbstedt</persName>, <persName ref="https://editon-humboldt.de/H0001338 http://d-nb.info/gnd/118723367">Klaproth</persName>, vor
                     <lb/>denen ich experimentirt. Man hat alles untersucht <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <lb/>richtig gefunden. Ich habe bemerkt, daß bei den wun-<lb/>
+                    <lb/>richtig gefunden. Ich habe bemerkt, daß bei den wun<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="1v"/>dersamen Phänomenen, wo man einen Schenkel bloß <lb/>dadurch zukken
                     läßt, daß die Spize des nervus <lb/>cruralis in <choice>
                         <abbr>ol.</abbr>
@@ -140,14 +170,18 @@
                     <choice>
                         <abbr>tart.</abbr>
                         <expan>tartari</expan>
-                    </choice> getaucht wird, die Zuk-<lb/>kung vom
+                    </choice> getaucht wird, die Zuk<g ref="#typoHyphen"/>
+                    <lb break="no"/>kung vom
                     Zeh anfängt <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> so in den gastro-<lb/>cnemius
+                    </choice> so in den gastro<g ref="#typoHyphen"/>
+                    <lb break="no"/>cnemius
                     übergeht. Glauben Sie gar nicht, daß die <lb/>alcalien in so fern reizen, als
-                    sie Wasser an-<lb/>ziehen. Das reine Wasser
-                    bringt ja gar <lb/>kein Phänomen hervor, was nur damit in Ver-<lb/>gleich stände. Selbst das loser gebundene
+                    sie Wasser an<g ref="#typoHyphen"/>
+                    <lb break="no"/>ziehen. Das reine Wasser
+                    bringt ja gar <lb/>kein Phänomen hervor, was nur damit in Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>gleich stände. Selbst das loser gebundene
                     oxygen <lb/>in <choice>
                         <abbr>dephlogistis.</abbr>
                         <expan>dephlogistisirter</expan>
@@ -159,16 +193,18 @@
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Arsenikkalch wirkt un-<lb/>endlich
+                    </choice> Arsenikkalch wirkt un<g ref="#typoHyphen"/>
+                    <lb break="no"/>endlich
                     schwächer, als das <choice>
                         <abbr>ol.</abbr>
                         <expan>oleum</expan>
-                    </choice> tartari. Herrn <persName ref="http://d-nb.info/gnd/116726571">Creves</persName>
+                    </choice> tartari. Herrn <persName ref="https://editon-humboldt.de/H0013244 http://d-nb.info/gnd/116726571">Creves</persName>
                     <lb/>Ideen scheinen mir unendlich einseitig. Soll <lb/>der <choice>
                         <abbr>Galvan.</abbr>
                         <expan>Galvanismus</expan>
                     </choice> durch Wasserzersezung erklärt werden, so <lb/>ist dabei wohl auf
-                    oxygen im Wasser gerechnet, das al-<lb/>lerdings
+                    oxygen im Wasser gerechnet, das al<g ref="#typoHyphen"/>
+                    <lb break="no"/>lerdings
                     eine große Rolle in der Maschine spielt. <lb/>Aber Stoffe, die kein oxygen
                     halten, sondern azote <lb/>
                     <note hand="#author" place="mBottom">
@@ -186,7 +222,8 @@
                         <expan>Kochsalzsäure</expan>
                     </choice>
                     <supplied cert="high">.</supplied>
-                    <persName ref="http://d-nb.info/gnd/100425429">Bed-<lb/>does</persName>, <persName ref="http://d-nb.info/gnd/116647868">
+                    <persName ref="https://editon-humboldt.de/H0003196 http://d-nb.info/gnd/100425429">Bed<g ref="#typoHyphen"/>
+                        <lb break="no"/>does</persName>, <persName ref="https://editon-humboldt.de/H0013494 http://d-nb.info/gnd/116647868">
                         <choice>
                             <abbr>Girt.</abbr>
                             <expan>Girtanners</expan>
@@ -197,11 +234,15 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <lb/>der Lebensprozeß ist ein zusammengesezter entzünd-<lb/>licher Proceß. Denken Sie wohl daran, daß die edel<lb/>sten Feuchtigkeiten des Körpers, Gehirn und Saamen, beson-<lb/>ders Saamen nach <persName ref="http://d-nb.info/gnd/118804030">
-                        Vauquelin</persName> so viel freies Mi-<lb/>neralalcali enthalten? Der Saamen wird im Blut <lb/>resorbirt <choice>
+                    <lb/>der Lebensprozeß ist ein zusammengesezter entzünd<g ref="#typoHyphen"/>
+                    <lb break="no"/>licher Proceß. Denken Sie wohl daran, daß die edel<lb break="no"/>sten Feuchtigkeiten des Körpers, Gehirn und Saamen, beson<g ref="#typoHyphen"/>
+                    <lb break="no"/>ders Saamen nach <persName ref="https://editon-humboldt.de/H0002790 http://d-nb.info/gnd/118804030">
+                        Vauquelin</persName> so viel freies Mi<g ref="#typoHyphen"/>
+                    <lb break="no"/>neralalcali enthalten? Der Saamen wird im Blut <lb/>resorbirt <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> dadurch glaub ich der reizen-<lb/>de
+                    </choice> dadurch glaub ich der reizen<g ref="#typoHyphen"/>
+                    <lb break="no"/>de
                     alcalische Stoff ins ganze System verbreitet. <lb/>Ich habe endlich einen
                     Versuch entdekt, der zuerst <lb/>ganz widerlegt, daß das <choice>
                         <abbr>Galvan.</abbr>
@@ -238,7 +279,7 @@
                         gemachte Skizze</figDesc>
                 </figure>
                 <p>
-                    <persName ref="http://d-nb.info/gnd/118554727">Wilhelm</persName>, mein bester, hat allerdings die
+                    <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm</persName>, mein bester, hat allerdings die
                         <add place="across">nervi</add> cardiaci des <lb/>Fuchses gesehen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -257,13 +298,13 @@
                         <abbr>allgem.</abbr>
                         <expan>allgemeinen</expan>
                     </choice> Ausdruk meiner Empfindungen <lb/>zu geben. Ich las jezt auch erst Ihr
-                    Buch über <lb/>die vasa absorbentia. Welch ein Schaz von Entdekk<lb/>ungen <choice>
+                    Buch über <lb/>die vasa absorbentia. Welch ein Schaz von Entdekk<lb break="no"/>ungen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Ideen. Sie sind, was <persName ref="http://d-nb.info/gnd/118768204">Vesalius</persName>
+                    </choice> Ideen. Sie sind, was <persName ref="https://editon-humboldt.de/H0002827 http://d-nb.info/gnd/118768204">Vesalius</persName>
                     der Vorzeit war! </p>
                 <p>Ich habe eine Lieblingsidee, die ich Ihnen mit <lb/>3 Worten vorlege. Sie kennen
-                    <persName ref="http://d-nb.info/gnd/116239808"> Abernett</persName>’s sehr <lb/>richtige
+                    <persName ref="https://editon-humboldt.de/H0012476 http://d-nb.info/gnd/116239808"> Abernett</persName>’s sehr <lb/>richtige
                     Versuche über respiration der Haut. <lb/>Die Haut saugt oxygen ein und stößt
                     azote <choice>
                         <abbr>u</abbr>
@@ -271,21 +312,23 @@
                     </choice>
                     <lb/>Kohlensäure aus, wie die Lunge. Ich glaube es giebt <lb/>außer der Lunge
                     noch andere Punkte, wo das <lb/>venöse Blut arterieus wird. Ich glaube die
-                        lympha-<lb/>tischen Gefäße nehmen Blut aus
+                        lympha<g ref="#typoHyphen"/>
+                    <lb break="no"/>tischen Gefäße nehmen Blut aus
                     den Venen <choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
-                    </choice> Art-<lb/>erien auf, bringen es in
+                    </choice> Art<g ref="#typoHyphen"/>
+                    <lb break="no"/>erien auf, bringen es in
                     kleine Luftbehälter unter <lb/>der Haut, die man noch entdekken wird <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
                     <lb/>
                     <pb n="2v"/>führen es den Arterien oxygenirt wieder zu<supplied cert="high">.</supplied>
-                    <lb/>Sollte dieser kleine Blutumlauf nicht sehr wahrschein<lb/>lich
-                    sein. — Ich arbeite viel mit Microscopen <lb/>über die Oberhaut. <persName ref="http://d-nb.info/gnd/119188279">Leuwenhoek</persName> hat ganz un<lb/>recht. Man
-                    sieht keine Poren. Im <bibl corresp="https://edition-humboldt.de/v8/27Q9SUGB">
-                        <persName ref="http://d-nb.info/gnd/117519669">Fontana</persName>
+                    <lb/>Sollte dieser kleine Blutumlauf nicht sehr wahrschein<lb break="no"/>lich
+                    sein. — Ich arbeite viel mit Microscopen <lb/>über die Oberhaut. <persName ref="https://editon-humboldt.de/H0004409 http://d-nb.info/gnd/119188279">Leuwenhoek</persName> hat ganz un<lb break="no"/>recht. Man
+                    sieht keine Poren. Im <bibl corresp="https://edition-humboldt.de/27Q9SUGB">
+                        <persName ref="https://editon-humboldt.de/H0000163 http://d-nb.info/gnd/117519669">Fontana</persName>
                         <lb/>
                         <choice>
                             <abbr>tab</abbr>
@@ -297,26 +340,28 @@
                     muß noch die <choice>
                         <abbr>organ.</abbr>
                         <expan>organischen</expan>
-                    </choice> Gefäße entdek-<lb/>ken, durch welche
+                    </choice> Gefäße entdek<g ref="#typoHyphen"/>
+                    <lb break="no"/>ken, durch welche
                     die Haut respirirt.</p>
-                <p>Kennen Sie das prächtige Buch <bibl corresp="https://edition-humboldt.de/v8/EIVC9CGC">medical
+                <p>Kennen Sie das prächtige Buch <bibl corresp="https://edition-humboldt.de/EIVC9CGC">medical
                         <lb/>extracts on the nature of health, <choice>
                             <abbr>Lond.</abbr>
                             <expan>London</expan>
                         </choice> 95 <lb/>2 Theile</bibl> , eine Anwendung der neuen Chemie auf
-                    <lb/>Physiologie. Es ist nicht von <persName ref="http://d-nb.info/gnd/117663255">
+                    <lb/>Physiologie. Es ist nicht von <persName ref="https://editon-humboldt.de/H0012429 http://d-nb.info/gnd/117663255">
                     Duncan</persName>. Ich <lb/>benuze es sehr! </p>
                 <p>
-                    <persName ref="http://d-nb.info/gnd/117688010">Pohl</persName> hat durch <choice>
+                    <persName ref="https://editon-humboldt.de/H0002049 http://d-nb.info/gnd/117688010">Pohl</persName> hat durch <choice>
                         <abbr>dephlog</abbr>
                         <expan>dephlogistisirte</expan>
                     </choice> Salzsäure auf <lb/>meinen Rath Euphorbien Saamen aus <lb/>einem alten <choice>
                         <abbr>Herb.</abbr>
                         <expan>Herbarium</expan>
-                    </choice> zum keimen ge-<lb/>bracht. </p>
+                    </choice> zum keimen ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>bracht. </p>
                 <closer rend="paragraph">
                     <salute>Ich umarme Sie herzlich. Schreiben <lb/>Sie mir <hi rendition="#u">nach
-                                <placeName ref="https://www.geonames.org/2951825">Bayreuth </placeName>
+                                <placeName ref="https://editon-humboldt.de/H0005176 https://www.geonames.org/2951825">Bayreuth </placeName>
                         </hi>, wo ich den
                         <lb/>15ten sein werde u von wo <lb/>aus Sie <choice>
                             <abbr>MSS.</abbr>
@@ -331,13 +376,14 @@
                         <abbr>D</abbr>
                         <expan>Doktor</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116822414">Grapengiesser </persName> der Sie in <lb/>2 Monathen
-                    besuchen wird. Ich experi<lb/>mentirte mit ihm. Ich bin jezt sehr
+                    <persName ref="https://editon-humboldt.de/H0013596 http://d-nb.info/gnd/116822414">Grapengiesser </persName> der Sie in <lb/>2 Monathen
+                    besuchen wird. Ich experi<lb break="no"/>mentirte mit ihm. Ich bin jezt sehr
                     <lb/>fleißig <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Sie müssen mit mir <lb/>zufrieden sein.</p>
-                <p>Ich habe eine Respirationsmaschine und Ret-<lb/>tungsflasche zum Stande gebracht, durch die <lb/>man Erstikte augenbliklich
+                <p>Ich habe eine Respirationsmaschine und Ret<g ref="#typoHyphen"/>
+                    <lb break="no"/>tungsflasche zum Stande gebracht, durch die <lb/>man Erstikte augenbliklich
                     aus den <lb/>Gruben herausholen kann, auch eine Lampe <lb/>die in jeder Luftart
                     hell brennt. <lb/>Das Mineur Corps hats hier gebilligt<supplied cert="high">.</supplied>
                     <lb/>Die Erfindung ist nüzlich. </p>

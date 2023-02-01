@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016754">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -30,33 +30,51 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin],
+               [1827–1830]
+               , hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016754">https://edition-humboldt.de/v8/H0016754</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016754</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016754</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016754.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin],
-               author="thomas" timestamp="20190211T120526+0100" comment="sollte man das gemeinte &amp;quot;zwischen&amp;quot; doch anders ausdrücken? Tagging in &amp;lt;date&amp;gt; jedenfalls geändert, war @from und @to, ist nun @notBefore und @notAfter."[1827–1830]
-               . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016754</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">29</idno>
+                     <idno type="shelfmark">421, Bl. 51r, 52v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1827" notAfter="1830">1827-1830</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: E. war seit 1827 Professor;
                altdt.
@@ -84,7 +102,7 @@
             </opener>
             <pb n="1v"/>
                 <p>Ich bin eben so erstaunt <lb/>als erfreut über Ihre <lb/>herrlichen
-               Entdekkungen, <lb/>mein theurer Ehrenberg. Herzliche <lb/>Grüße an <persName ref="http://d-nb.info/gnd/116609036">Rose</persName>
+               Entdekkungen, <lb/>mein theurer Ehrenberg. Herzliche <lb/>Grüße an <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName>
                     <supplied cert="high">,</supplied> ich <lb/>hoffe
                Sie morgen beide <lb/>besuchen zu können<supplied cert="high">.</supplied>
                 </p>
@@ -95,8 +113,8 @@
          </div>
          <postscript>
             <p>Ich war gestern auf der <lb/>
-                    <placeName ref="https://edition-humboldt.de/v8/H0008243">Pfauen Insel</placeName>,
-               heute <lb/>muß ich nach <placeName ref="https://www.geonames.org/2940187">Charlotten<lb/>burg</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008243">Pfauen Insel</placeName>,
+               heute <lb/>muß ich nach <placeName ref="https://editon-humboldt.de/H0007341 https://www.geonames.org/2940187">Charlotten<lb break="no"/>burg</placeName>
                     <supplied cert="high">.</supplied>
                 </p>
          </postscript>

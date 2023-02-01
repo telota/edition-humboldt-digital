@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0010783">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Quito</title>
             </titleStmt>
+            <editionStmt>
+                <p>Quito [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0010783.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0010783.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0010783.xml">
-                    <p>Quito [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0010783.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0010783">
+                <place>
                     <idno type="uri">https://www.geonames.org/3652462</idno>
                     <placeName type="reg">Quito</placeName>
-                    <placeName type="alt"><?oxy_comment_start author="thomas" timestamp="20210609T174603+0200" comment="ist die &quot;Hochebene von Quito&quot; tatsächlich alternativer Name, also synonym zur Stadt/Siedlung Quito?"?>Hochebene
-                        von Quito<?oxy_comment_end?>
-                    </placeName>
+                    <placeName type="alt">Hochebene
+                        von Quito</placeName>
                     <note>Stadt in Südamerika (Hauptstadt
-                        <?oxy_comment_start author="thomas" timestamp="20210609T174503+0200" comment="müsste hier u.ö. nicht &quot;des heutigen&quot; o.Ä. ergänzt werden?" flag="done"?>Ekuadors<?oxy_comment_end?>)</note>
+                        Ekuadors)</note>
                     <linkGrp>
                         <ptr subtype="comment" target="04#21" type="letter"/>
                         <ptr subtype="comment" target="04#32" type="letter"/>

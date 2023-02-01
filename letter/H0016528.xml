@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016528">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [Oktober 1833] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016528">https://edition-humboldt.de/v8/H0016528</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016528</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016528</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016528.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [Oktober 1833] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016528</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">278E16[Archiv Nr.676 Bl.10-11]</idno>
+                     <idno type="shelfmark">676, Bl. 10r-11v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1833-10" notAfter="1833-10">1833-10-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Humboldt an Ehrenberg NL Ehrenberg 39 von 08/1833, wohl
                Antwort auf Humboldt an Ehrenberg NL Ehrenberg 42 von 10/1833</note>
@@ -69,8 +87,9 @@
             <p>Ihrer gütigen Erlaubniß gemäß <lb/>sende ich Ihnen noch einige Exemplare <lb/>meiner
                kleinen Abhandlung. Daß sie <lb/>Ihre Theilnahme erregt ist für mich <lb/>genug. Ich
                bin durch Ihre Nachsicht <lb/>und Freundlichkeit immer für eine <lb/>zeitlang neu
-               gestärkt und getröstet <lb/>für die trüben Aussichten und Verhält-<lb/>nisse, die mich immer enger umgeben. <lb/>Ein Brief von
-                  <persName ref="http://d-nb.info/gnd/118585053">Müller</persName> überzeugt mich <lb/>daß er auch ohne
+               gestärkt und getröstet <lb/>für die trüben Aussichten und Verhält<g ref="#typoHyphen"/>
+                    <lb break="no"/>nisse, die mich immer enger umgeben. <lb/>Ein Brief von
+                  <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName> überzeugt mich <lb/>daß er auch ohne
                äußeren Antrieb diesen <lb/>Weg einschlägt. Er spricht darin aus <lb/>
                     <pb n="1v"/>daß, da ich für das Museum gesammelt <lb/>habe (was ich nie gethan) die Sachen dem
                <lb/>Museum gehören und er sich mit aller Kunst <lb/>widersetzen werde, daß sie <add place="superlinear">gegen das Urtheil des Museums</add> entsant werden. <lb/>Ich
@@ -78,7 +97,8 @@
                <lb/>Rechte und Pflichten <choice>
                   <sic>oder</sic>
                   <corr cert="high">aber</corr>
-               </choice> für Vortheil <lb/>gelten werden weiß ich nicht, aber Sam̅-<lb/>ler für die Museen kann ich nie gewesen
+               </choice> für Vortheil <lb/>gelten werden weiß ich nicht, aber Sam̅<g ref="#typoHyphen"/>
+                    <lb break="no"/>ler für die Museen kann ich nie gewesen
                <lb/>seyn und ich bin <add place="superlinear">mir</add> dem Mann eines Freundes
                   <lb/>
                     <del rendition="#s">und mir selbst</del> schuldig nur <subst>
@@ -89,20 +109,24 @@
                <lb/>Thätigkeit einzustellen. Was ein Herr <lb/>Kollege für Kleinigkeit <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Eigensinn <lb/>halte (welcher Ausdrücke sich <persName ref="http://d-nb.info/gnd/118585053">Müller</persName>
+               </choice> Eigensinn <lb/>halte (welcher Ausdrücke sich <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName>
                <lb/>bedient) ist leider das innere Gefühl <lb/>von Nothwendig<del rendition="#s">keit</del> Beherrschung meines <lb/>Materials wenn ich mir <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> dem Staat <lb/>zu Ehre wirken soll. Daß alle Billig-<lb/>keit auch im Suchen ist liegt wohl am Tage<supplied cert="high">.</supplied>
+               </choice> dem Staat <lb/>zu Ehre wirken soll. Daß alle Billig<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit auch im Suchen ist liegt wohl am Tage<supplied cert="high">.</supplied>
                <lb/>Ob meine Forderungen nicht zu billig sind <lb/> wäre <add place="superlinear">von
                   Freunden</add> eher zu erwägen. <lb/>
                     <pb n="2r"/>Mit den Zähnen der <name type="animal" key="Helix Pomatia">Helix Pomatia</name> habe <lb/>ich nur Ihr Recht
-               anzuerkennen die Freude <lb/>gehabt, da ich Ihren Ernst für so viel Theil-<lb/>nahme nichts erwidern kann. Ich <lb/>gebe auch
+               anzuerkennen die Freude <lb/>gehabt, da ich Ihren Ernst für so viel Theil<g ref="#typoHyphen"/>
+                    <lb break="no"/>nahme nichts erwidern kann. Ich <lb/>gebe auch
                keineswegs Ihr <add place="superlinear">anderes</add> Recht auf, in den <lb/>Nerven
-               Atmosphären damals ein wich-<lb/>tiges Factum
+               Atmosphären damals ein wich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tiges Factum
                gefunden zu haben, obwohl <lb/>
-                    <persName ref="http://d-nb.info/gnd/118585053">Müller</persName> durch
-               Condensatoren keine Electrici-<lb/>tät finden zu
+                    <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName> durch
+               Condensatoren keine Electrici<g ref="#typoHyphen"/>
+                    <lb break="no"/>tät finden zu
                können angiebt. Ich glaube man <lb/>darf keine Electricität in den Nerven
                <lb/>suchen, <subst>
                   <del rendition="#s">aber doch</del>
@@ -121,8 +145,10 @@
                   <add place="superlinear">und des Lebenssafts</add>
                </subst>
                <supplied cert="high">vetreten</supplied>.</p>
-            <p>Ich habe noch 2 interessante Resul-<lb/>tate in
-               petto. Die mikroskopische <lb/>Structur zeigt klar daß die Bauch-<lb/>nerven der wirbellosen Thiere, weil <lb/>sie nicht Gliedernerven
+            <p>Ich habe noch 2 interessante Resul<g ref="#typoHyphen"/>
+                    <lb break="no"/>tate in
+               petto. Die mikroskopische <lb/>Structur zeigt klar daß die Bauch<g ref="#typoHyphen"/>
+                    <lb break="no"/>nerven der wirbellosen Thiere, weil <lb/>sie nicht Gliedernerven
                sind sondern <choice>
                   <sic>Röhrenerven</sic>
                   <corr>Röhrennerven</corr>
@@ -134,12 +160,12 @@
                <lb/>repräsentiren. <subst>
                   <del rendition="#s">Bisher</del>
                   <add place="superlinear">
-                            <persName ref="http://d-nb.info/gnd/118599224">Reil</persName>
+                            <persName ref="https://editon-humboldt.de/H0000801 http://d-nb.info/gnd/118599224">Reil</persName>
                         </add>
                </subst>vermuthete <subst>
                   <del rendition="#s">man <lb/>dieß nur zuweilen, jetzt ist es</del>
                   <add place="superlinear">es <lb/>
-                            <persName ref="http://d-nb.info/gnd/118585053">Müller</persName> hat es
+                            <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName> hat es
                      widerlegt.</add>
                </subst>
                <add place="superlinear">Ich glaube es jetzt </add>erwiesen. <note place="left" hand="#author">geringe <lb/>Menge der <lb/>Blutströme <lb/>bey den <name type="animal" key="Evertebrata">Evertebraten</name>
@@ -149,16 +175,16 @@
                   </figure>
                     </note>
                 </p>
-            <p>a) <persName ref="http://d-nb.info/gnd/118597248">Pythagoras</persName> hatte nicht ganz unrecht:
+            <p>a) <persName ref="https://editon-humboldt.de/H0002237 http://d-nb.info/gnd/118597248">Pythagoras</persName> hatte nicht ganz unrecht:
                <lb/>Sanguinem esse pabulum
                animae,
                während <lb/>man neuerlich immer noch an dem Bilde´ <lb/>hängt als wären die
                Blutgefäße <add place="superlinear">nur</add> Erbsensäcke <lb/>
                     <pb n="2v"/>in
-                  <persName ref="http://d-nb.info/gnd/118545140">Hallers</persName> Sinne<supplied cert="high">.</supplied>
+                  <persName ref="https://editon-humboldt.de/H0011611 http://d-nb.info/gnd/118545140">Hallers</persName> Sinne<supplied cert="high">.</supplied>
                 </p>
             <p>
-                    <ref xml:id="b5483e37-8e12-4ab3-883e-378e12bab339" corresp="#b7fbc09f-daa1-49f3-bbc0-9fdaa169f30c">Zu den Cristallbildungen in <choice>
+                    <ref xml:id="c9b2073b-f5b7-49e3-b207-3bf5b7d9e3b2" corresp="#fe9e44c3-e197-4a7f-9e44-c3e1970a7fd1">Zu den Cristallbildungen in <choice>
                         <abbr>lbd</abbr>
                         <expan>lebenden</expan>
                      </choice>
@@ -166,10 +192,10 @@
                      <lb/>Bauchschuppen des <name type="animal" key="Cyprinus Alburnus">Cyprinus
                         Alburnus</name>
                      <lb/>Essence d’orient</ref>
-                    <note xml:id="b7fbc09f-daa1-49f3-bbc0-9fdaa169f30c" corresp="#b5483e37-8e12-4ab3-883e-378e12bab339">
-                     <bibl corresp="https://edition-humboldt.de/v8/N8NC9HPR">Ehrenberg 1833a</bibl>
+                    <note xml:id="fe9e44c3-e197-4a7f-9e44-c3e1970a7fd1" corresp="#c9b2073b-f5b7-49e3-b207-3bf5b7d9e3b2">
+                     <bibl corresp="https://edition-humboldt.de/N8NC9HPR">Ehrenberg 1833a</bibl>
                   </note>. Ich habe sie noch nicht <lb/>untersucht aber <add place="superlinear">aus
-                     <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                     <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     </add> verschrieben da es <lb/>ein
                Arcanum ist. Dann wäre <lb/>
                     <subst>
@@ -178,7 +204,7 @@
                </subst> Handelsartikel.</p>
             <p>Für die Absonderung der kohlensauren
                <lb/>Kalkkrystalle in <name type="animal" key="Fröschen">Fröschen</name> giebt es
-               eine <lb/>eigene Gefäßbildung in der Rückgrads<lb/>höhle.</p>
+               eine <lb/>eigene Gefäßbildung in der Rückgrads<lb break="no"/>höhle.</p>
          </div>
       </body>
    </text>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003538">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bourbon, Louis Antoine de, duc d’Angoulême</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bourbon, Louis Antoine de, duc d’Angoulême [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003538.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003538.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003538.xml">
-                    <p>Bourbon, Louis Antoine de, duc d’Angoulême [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003538.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003538">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/120010887</idno>
                     <persName type="reg">
                         <surname>Bourbon</surname>
@@ -43,7 +48,7 @@
                     </persName>
                     <birth>1775</birth>
                     <death>1844</death>
-                    <note><?oxy_comment_start author="mikosch" timestamp="20160705T153540+0200" comment="muss der nach Frankreich?"?>älteste Sohn von König Karl X. von Frankreich<?oxy_comment_end?>; 1824 Thronfolger (Dauphin)
+                    <note>älteste Sohn von König Karl X. von Frankreich; 1824 Thronfolger (Dauphin)
                         des französischen Königreichs</note>
                     <linkGrp>
                         <ptr target="41#111" type="page"/>

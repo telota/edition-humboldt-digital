@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016784">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [11. März
+               1834] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016784">https://edition-humboldt.de/v8/H0016784</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016784</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016784</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016784.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [11. März
-               1834] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016784</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>Nachlass Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">56</idno>
+                     <idno type="shelfmark">421, Bl. 102r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1834-03-11">1834-03-11</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vor 11.3.1834, vgl. H. an Schwabe</note>
          </correspDesc>
@@ -64,9 +82,9 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Mein theurester Ehrenberg! Die <persName>Herzogin</persName>
-               <lb/>von Dessau die immer noch mit <lb/>microscopischen Untersuchungen leb<lb/>haft beschäftigt ist, vertraut mir <lb/>(während Ihres jezigen
-               hiesigen <lb/>Aufenthalts) wieder eine herzog<lb/>liche Entdekkung eine
+            <p>Mein theurester Ehrenberg! Die <persName ref="https://editon-humboldt.de/">Herzogin</persName>
+               <lb/>von Dessau die immer noch mit <lb/>microscopischen Untersuchungen leb<lb break="no"/>haft beschäftigt ist, vertraut mir <lb/>(während Ihres jezigen
+               hiesigen <lb/>Aufenthalts) wieder eine herzog<lb break="no"/>liche Entdekkung eine
                neue <lb/>Oscillatoria f 2. von 6. muralis <lb/>verschieden, die sie an einem
                <lb/>Lindenstamm gefunden! Wollen <lb/>Sie gütigst und Nachsichtsvoll, <lb/>mein
                Verehrter Freund, das <lb/>Wesen wieder aufweichen <choice>
@@ -78,8 +96,8 @@
                         </abbr>
                   <expan>Herr</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/115754504">Schwabe</persName> richtig <lb/>gesehen hat. Ich hoffe dass
-               <lb/>die kleine Familie ihr vegeta<lb/>tives, oscillirendes Leben fröhlich
+               <persName ref="https://editon-humboldt.de/H0015728 http://d-nb.info/gnd/115754504">Schwabe</persName> richtig <lb/>gesehen hat. Ich hoffe dass
+               <lb/>die kleine Familie ihr vegeta<lb break="no"/>tives, oscillirendes Leben fröhlich
                <lb/>fortwebt.</p>
             <closer rend="paragraph">
                     <salute>Dankbarst</salute>

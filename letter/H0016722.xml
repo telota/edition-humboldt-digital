@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016722">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [26. März
+               1846] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016722">https://edition-humboldt.de/v8/H0016722</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016722</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016722</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016722.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [26. März
-               1846] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016722</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">155</idno>
+                     <idno type="shelfmark">421, Bl. 277r, 278v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1846-03-26">1846-03-26</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: F.W. Bessel starb am 17.3.1846, J.C. Freiesleben am
                20.3.1846</note>
@@ -81,42 +99,42 @@
                 <p>Die unbequeme Anwesenheit so vieler Prinze, <lb/>die traurigen Familien-
                und Erbschafts-Regulirungen <lb/>bei Frau Ministerin <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
-                    </del> von <persName ref="http://d-nb.info/gnd/11866462X">Bülow</persName> und <lb/>der <ref xml:id="ab1ee3d2-9a78-4297-9ee3-d29a7892973b" corresp="#da8ad827-0a09-4fd7-8ad8-270a093fd712">Kosmos</ref>
-                    <note xml:id="da8ad827-0a09-4fd7-8ad8-270a093fd712" corresp="#ab1ee3d2-9a78-4297-9ee3-d29a7892973b">
-                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>
+                    </del> von <persName ref="https://editon-humboldt.de/H0003768 http://d-nb.info/gnd/11866462X">Bülow</persName> und <lb/>der <ref xml:id="c98415d4-3552-4895-8415-d43552e89586" corresp="#a56b1c09-6dd5-4b51-ab1c-096dd5bb51fe">Kosmos</ref>
+                    <note xml:id="a56b1c09-6dd5-4b51-ab1c-096dd5bb51fe" corresp="#c98415d4-3552-4895-8415-d43552e89586">
+                     <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862</bibl>
                   </note> von dem 10 Bogen gedrukt <lb/>sind sind daran Schuld, theurer edler
                <lb/>Freund, dass ich immer noch nicht bei <lb/>Ihnen war, um mich mit Ihnen der
-               <lb/>allmäligen Genesung Ihrer lieben <persName ref="https://edition-humboldt.de/v8/H0016962">Gattin</persName>
+               <lb/>allmäligen Genesung Ihrer lieben <persName ref="https://editon-humboldt.de/H0016962">Gattin</persName>
                <lb/>zu erfreuen<supplied cert="high">.</supplied> Ich danke innigst für <lb/>die
-               merkwürdigen neuen <ref xml:id="c1f3aa18-9ecc-4e5c-b3aa-189ecc3e5cbf" corresp="#b349e893-7a4e-40e8-89e8-937a4e70e8dc">Thatsachen <lb/>über <placeName ref="https://www.geonames.org/351036">Nil</placeName>
+               merkwürdigen neuen <ref xml:id="ae6da2d2-efd3-4f0b-ada2-d2efd3bf0bda" corresp="#c1dcef6f-128b-4437-9cef-6f128b5437bb">Thatsachen <lb/>über <placeName ref="https://editon-humboldt.de/H0001673 https://www.geonames.org/351036">Nil</placeName>
                      <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                      </choice>
-                     <placeName ref="https://www.geonames.org/1202950">Ganges</placeName>-Wasser</ref>
-                    <note xml:id="b349e893-7a4e-40e8-89e8-937a4e70e8dc" corresp="#c1f3aa18-9ecc-4e5c-b3aa-189ecc3e5cbf">vgl. <ref target="H0016521">Ehrenberg an Alexander von
+                     <placeName ref="https://editon-humboldt.de/H0010808 https://www.geonames.org/1202950">Ganges</placeName>-Wasser</ref>
+                    <note xml:id="c1dcef6f-128b-4437-9cef-6f128b5437bb" corresp="#ae6da2d2-efd3-4f0b-ada2-d2efd3bf0bda">vgl. <ref target="https://edition-humboldt.de/H0016521">Ehrenberg an Alexander von
                         Humboldt.
                         Berlin,
                         21. Juni 1858</ref>
-                    </note> und <ref xml:id="f34ba660-7e75-468c-8ba6-607e75668cd4" corresp="#c7619fb7-4cfa-443a-a19f-b74cfa643a6b">die sonder<lb/>bare Zwischenlage des Kohlenschiefers am
+                    </note> und <ref xml:id="aa5d9639-0d12-420a-9d96-390d12c20adc" corresp="#b00371ba-c734-4cd9-8371-bac7341cd920">die sonder<lb break="no"/>bare Zwischenlage des Kohlenschiefers am
                         <lb/>
-                        <placeName ref="https://www.geonames.org/2832708">Siebengebirge</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0010223 https://www.geonames.org/2832708">Siebengebirge</placeName>
                     </ref>
-                    <note xml:id="c7619fb7-4cfa-443a-a19f-b74cfa643a6b" corresp="#f34ba660-7e75-468c-8ba6-607e75668cd4">
-                     <bibl corresp="https://edition-humboldt.de/v8/QNUULNYM">Ehrenberg 1846d</bibl>
+                    <note xml:id="b00371ba-c734-4cd9-8371-bac7341cd920" corresp="#aa5d9639-0d12-420a-9d96-390d12c20adc">
+                     <bibl corresp="https://edition-humboldt.de/QNUULNYM">Ehrenberg 1846d</bibl>
                   </note>. Herr <choice>
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116817569">Buch</persName> könnte daraus <lb/>lernen wie Ihre
+               <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> könnte daraus <lb/>lernen wie Ihre
                Untersuchungen zu <lb/>Berichtigung geognostischer Verhältnisse <lb/>führen. Mein
-               alter Jugendfreund <lb/>der Berghauptmann <persName ref="http://d-nb.info/gnd/104260106">Freiesleben</persName> ist <lb/>auch dahin geschieden! Vielleicht könnte <lb/>die
-               Akademie ein Condolenzschreiben <lb/>an die Wittwe <persName ref="http://d-nb.info/gnd/116154527">Bessel</persName> richten. <lb/>
-                    <ref xml:id="a742d840-dd1c-473b-82d8-40dd1cd73b64" corresp="#a3e6e730-9c20-4043-a6e7-309c20d043d4">Claudite jam rivos</ref>
-                    <note xml:id="a3e6e730-9c20-4043-a6e7-309c20d043d4" corresp="#a742d840-dd1c-473b-82d8-40dd1cd73b64">Vgl. <ref target="http://cts.informatik.uni-leipzig.de/perseus/cts/?request=GetPassage&amp;urn=urn:cts:latinLit:phi0690.phi001.perseus_lat1:3">Vergil: Eklogen III</ref>, 111, wo die hier anzitierten Verse lauten:
+               alter Jugendfreund <lb/>der Berghauptmann <persName ref="https://editon-humboldt.de/H0000264 http://d-nb.info/gnd/104260106">Freiesleben</persName> ist <lb/>auch dahin geschieden! Vielleicht könnte <lb/>die
+               Akademie ein Condolenzschreiben <lb/>an die Wittwe <persName ref="https://editon-humboldt.de/H0003305 http://d-nb.info/gnd/116154527">Bessel</persName> richten. <lb/>
+                    <ref xml:id="fdce5d1a-8ccc-45e4-8e5d-1a8ccc95e4f4" corresp="#a0f54432-0872-4965-b544-320872596561">Claudite jam rivos</ref>
+                    <note xml:id="a0f54432-0872-4965-b544-320872596561" corresp="#fdce5d1a-8ccc-45e4-8e5d-1a8ccc95e4f4">Vgl. <ref target="http://cts.informatik.uni-leipzig.de/perseus/cts/?request=GetPassage&amp;urn=urn:cts:latinLit:phi0690.phi001.perseus_lat1:3">Vergil: Eklogen III</ref>, 111, wo die hier anzitierten Verse lauten:
                         <quote>Claudite iam rivos, pueri, sat prata biberunt.</quote> [Übertragung:
-                     ‚Knaben, verschließt jetzt die Rinnen: satt haben die Wiesen getrunken!‛]</note>, machen Sie ja dass <lb/>Ihr herrliches einziges grosses <ref xml:id="dd1b2600-41f7-402a-9b26-0041f7902a54" corresp="#a93333b0-4cef-46a6-b333-b04cef06a690">Werk</ref>
-                    <note xml:id="a93333b0-4cef-46a6-b333-b04cef06a690" corresp="#dd1b2600-41f7-402a-9b26-0041f7902a54">Gemeint ist wohl <bibl corresp="https://edition-humboldt.de/v8/6RPSFGPB">Ehrenberg 1854</bibl>.</note>
+                     ‚Knaben, verschließt jetzt die Rinnen: satt haben die Wiesen getrunken!‛]</note>, machen Sie ja dass <lb/>Ihr herrliches einziges grosses <ref xml:id="baac407c-005f-41a3-ac40-7c005f51a393" corresp="#dd790e15-1b6b-4f9d-b90e-151b6b3f9d10">Werk</ref>
+                    <note xml:id="dd790e15-1b6b-4f9d-b90e-151b6b3f9d10" corresp="#baac407c-005f-41a3-ac40-7c005f51a393">Gemeint ist wohl <bibl corresp="https://edition-humboldt.de/6RPSFGPB">Ehrenberg 1854</bibl>.</note>
                <lb/>bald erscheine.</p>
             <closer rend="paragraph">
                     <salute>Mit alter

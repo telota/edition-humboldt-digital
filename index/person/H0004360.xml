@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004360">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Hutot de Latour, Marie-Barbe</title>
             </titleStmt>
+            <editionStmt>
+                <p>Hutot de Latour, Marie-Barbe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004360.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004360.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004360.xml">
-                    <p>Hutot de Latour, Marie-Barbe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004360.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004360">
+                <person>
                     <persName type="reg">
                         <surname>Hutot de Latour</surname>
                         <forename>Marie-Barbe</forename>
                     </persName>
-                    <!-- ct: vgl. zu ihrer Person z.B. https://books.google.de/books?id=uBier9fFHekC&pg=PA38&lpg=PA38-->
+                    
                     <persName type="alt">
                         <surname>La Tour</surname>
                         <forename>Madame de</forename>

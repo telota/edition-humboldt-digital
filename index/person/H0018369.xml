@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018369">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ševnin, Fedor Stepanovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ševnin, Fedor Stepanovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018369.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018369.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018369.xml">
-                    <p>Ševnin, Fedor Stepanovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018369.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0018369">
+                <person>
                     <persName type="reg">
                         <surname>Ševnin</surname>
                         <forename>Fedor Stepanovič</forename>
@@ -49,7 +54,7 @@
                         <name>Schewenenin</name>
                     </persName>
                     <floruit notBefore="1829" notAfter="1829">um 1829</floruit>
-                    <note>Kommandant der Festung <placeName key="H0009689">Ust’-Buchtarma</placeName>, Dekabrist</note>
+                    <note>Kommandant der Festung <placeName ref="https://editon-humboldt.de/H0009689 https://www.geonames.org/1517617">Ust’-Buchtarma</placeName>, Dekabrist</note>
                 </person>
             </listPerson>
         </body>

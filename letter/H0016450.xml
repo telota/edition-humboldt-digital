@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016450">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,31 +32,50 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Adolph  und Hermann  Schlagintweit. Berlin, 4.
+                    September 1854, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016450">https://edition-humboldt.de/v8/H0016450</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016450</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016450</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016450.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Adolph  und Hermann  Schlagintweit. Berlin, 4.
-                    September 1854. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016450</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Humboldt Sammlung</collection>
+                        <idno>
+                            <idno type="shelfmark">HU 99/62 QA</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1854-09-04" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118755234">Schlagintweit, Adolph von (1829-1857)</persName>
-                    <persName ref="http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Schlagintweit, Adolph von (1829-1857)</persName>
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
                 </correspAction>
             </correspDesc>
@@ -78,34 +97,35 @@
                     </address>
                     
                 </opener>
-				<p>Ich hatte diese Nacht, wo ich 4 lange, <lb/>warme und listige <ref xml:id="a45220d1-ca8c-4ce0-9220-d1ca8cfce046" corresp="#b87464ba-7691-497a-b464-ba7691097aaa">Briefe</ref>
-                    <note xml:id="b87464ba-7691-497a-b464-ba7691097aaa" corresp="#a45220d1-ca8c-4ce0-9220-d1ca8cfce046">Siehe zum Beispiel den Teildruck
-                            eines Briefs Humboldts an den Präsidenten der <orgName ref="https://d-nb.info/gnd/1009388-6">Asiatic Society of Bengal</orgName>
-                            <persName ref="https://d-nb.info/gnd/116645539">James William Colville</persName> (<bibl corresp="https://edition-humboldt.de/v8/PDCYNYHY">Humboldt 1855</bibl>). Vgl. auch die
+				<p>Ich hatte diese Nacht, wo ich 4 lange, <lb/>warme und listige <ref xml:id="e918a2bb-be85-41e8-98a2-bbbe8511e82c" corresp="#e891d7cd-b117-49b4-91d7-cdb117d9b47a">Briefe</ref>
+                    <note xml:id="e891d7cd-b117-49b4-91d7-cdb117d9b47a" corresp="#e918a2bb-be85-41e8-98a2-bbbe8511e82c" resp="#UP">Siehe zum Beispiel den Teildruck
+                            eines Briefs Humboldts an den Präsidenten der <orgName ref="https://editon-humboldt.de/H0018854 https://d-nb.info/gnd/1009388-6">Asiatic Society of Bengal</orgName>
+                            <persName ref="https://editon-humboldt.de/H0018883 https://d-nb.info/gnd/116645539">James William Colville</persName> (<bibl corresp="https://edition-humboldt.de/PDCYNYHY">Humboldt 1855</bibl>). Vgl. auch die
                             Erwähnung eines Empfehlungsschreibens Humboldts vom 1. September 1854 an
-                                <persName ref="http://d-nb.info/gnd/124533450">Mountstuart Elphinstone</persName>:
+                                <persName ref="https://editon-humboldt.de/H0005917 http://d-nb.info/gnd/124533450">Mountstuart Elphinstone</persName>:
                             Elphinstone an Humboldt, Bombay, 31. Dezember 1854, BSB München,
                             Schlagintweitiana II.1.43, Bl. 27, sowie den Bericht über
-                            Empfehlungsschreiben Humboldts an <persName ref="http://d-nb.info/gnd/118863703">Brian
-                                Houghton Hodgson</persName> und <persName ref="http://d-nb.info/gnd/118774891">Joseph
-                                Dalton Hooker</persName> in <bibl corresp="https://edition-humboldt.de/v8/CSW6RAVJ">Ritter 1855</bibl>, 166.</note> für Sie schrieb, <lb/>meine liebenswürdigen, theuren Freunde, <lb/>nicht
+                            Empfehlungsschreiben Humboldts an <persName ref="https://editon-humboldt.de/H0011923 http://d-nb.info/gnd/118863703">Brian
+                                Houghton Hodgson</persName> und <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Joseph
+                                Dalton Hooker</persName> in <bibl corresp="https://edition-humboldt.de/CSW6RAVJ">Ritter 1855</bibl>, 166.</note> für Sie schrieb, <lb/>meine liebenswürdigen, theuren Freunde, <lb/>nicht
                     Musse gehabt, Ihnen ein Wort <lb/>der Liebe, des Andenkens, der innigen
-                    <lb/>Achtung und des <ref xml:id="ea251008-9811-4cac-a510-089811acaced" corresp="#e2783f7c-e3ab-4c8c-b83f-7ce3ab7c8c16">ewigen Abschiede<supplied cert="high">s</supplied>
+                    <lb/>Achtung und des <ref xml:id="b17c2819-994e-4284-bc28-19994eb28401" corresp="#f4635c08-d5df-4c84-a35c-08d5df7c84b5">ewigen Abschiede<supplied cert="high">s</supplied>
                     </ref>
-                    <note xml:id="e2783f7c-e3ab-4c8c-b83f-7ce3ab7c8c16" corresp="#ea251008-9811-4cac-a510-089811acaced">Der vorliegende Brief ist das letzte
+                    <note xml:id="f4635c08-d5df-4c84-a35c-08d5df7c84b5" corresp="#b17c2819-994e-4284-bc28-19994eb28401" resp="#UP">Der vorliegende Brief ist das letzte
                             Schreiben Humboldts an die Gebrüder Schlagintweit, bevor diese zu ihrer
-                            Forschungsreise nach <placeName ref="https://www.geonames.org/1269750">Indien</placeName>
+                            Forschungsreise nach <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>
                             aufbrachen.</note> zu <lb/>sagen! Unter allen Dingen zu denen ich <lb/>mitgewirkt, ist Ihre <choice>
                         <abbr>Exped.</abbr>
                         <expan>Expedition</expan>
                     </choice> mir eine <lb/>der wichtigsten geblieben. Es wird <lb/>mich dieselbe
                     noch im Sterben erfreuen<supplied cert="high">.</supplied>
-                    <lb/>Sie werden geniessen, was zwischen <lb/>der <ref xml:id="e0e1d021-6060-49bc-a1d0-21606099bc2d" corresp="#cd6555e5-01d4-4374-a555-e501d4d37405">Rück<supplied cert="high">k</supplied>unft von <placeName ref="https://www.geonames.org/3996063">Mexico</placeName> und der Sibi-<lb/>rischen Reise ununterbrochen meine <lb/>Phantasie
+                    <lb/>Sie werden geniessen, was zwischen <lb/>der <ref xml:id="bcc0bcaa-786b-4b6e-80bc-aa786bab6ed8" corresp="#ed3579e4-9fb8-486e-b579-e49fb8686ee0">Rück<supplied cert="high">k</supplied>unft von <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName> und der Sibi<g ref="#typoHyphen"/>
+                        <lb break="no"/>rischen Reise ununterbrochen meine <lb/>Phantasie
                             beschäftigt hat</ref>
-                    <note xml:id="cd6555e5-01d4-4374-a555-e501d4d37405" corresp="#e0e1d021-6060-49bc-a1d0-21606099bc2d">Humboldt plante nachweislich zwischen
-                            1805 und 1822 eine Forschungsreise nach <placeName ref="https://www.geonames.org/1269750">Indien</placeName> und <placeName ref="https://www.geonames.org/7729893">Innerasien</placeName>. Vgl. Alexander von Humboldt-Chronologie
+                    <note xml:id="ed3579e4-9fb8-486e-b579-e49fb8686ee0" corresp="#bcc0bcaa-786b-4b6e-80bc-aa786bab6ed8" resp="#UP">Humboldt plante nachweislich zwischen
+                            1805 und 1822 eine Forschungsreise nach <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> und <placeName ref="https://editon-humboldt.de/H0015014 https://www.geonames.org/7729893">Innerasien</placeName>. Vgl. Alexander von Humboldt-Chronologie
                             (10. März 1805), <hi rendition="#i">edition humboldt digital</hi>, <ref target="https://edition-humboldt.de/H0014753">https://edition-humboldt.de/H0014753</ref>. Die russisch-sibirische
-                            Reise 1829 führte ihn schließlich in den <placeName ref="https://www.geonames.org/1488441">Ural</placeName>, durch Teile West<placeName ref="https://www.geonames.org/2016590">sibiriens</placeName> und des <placeName ref="https://www.geonames.org/1516401">Altai</placeName>.</note>. Möge <lb/>es Ihnen wohl gehen.</p>
+                            Reise 1829 führte ihn schließlich in den <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>, durch Teile West<placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">sibiriens</placeName> und des <placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altai</placeName>.</note>. Möge <lb/>es Ihnen wohl gehen.</p>
 				<closer>
 					<salute>Ihr</salute>
 				    <signed>AlHumboldt</signed>
@@ -113,7 +133,7 @@
             </div>
             <postscript>
                 <p>Schicken Sie von <lb/>
-                    <placeName ref="https://www.geonames.org/415189">Aden</placeName> an <persName ref="http://d-nb.info/gnd/116609036">
+                    <placeName ref="https://editon-humboldt.de/H0002325 https://www.geonames.org/415189">Aden</placeName> an <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">
                         <choice>
                             <abbr>G</abbr>
                             <expan>Gustav</expan>
@@ -122,21 +142,22 @@
                         <reg>Ob</reg>
                     </choice> nich<supplied cert="high">t</supplied>
                     <lb/>etwas mehr <name type="mineral">Porphyr</name>, <lb/>
-                    <name type="mineral">Grünstein</name>, <name type="plant">Trachyt<lb/>artiges</name>
-                    daneben? <ref xml:id="ca0260d3-750a-4999-8260-d3750ae999f3" corresp="#bf73f9c0-8fde-4a93-b3f9-c08fde8a93eb">
+                    <name type="mineral">Grünstein</name>, <name type="plant">Trachyt<lb break="no"/>artiges</name>
+                    daneben? <ref xml:id="aee6d02c-4042-4fba-a6d0-2c40428fbae1" corresp="#fb2dd990-f4d6-4b10-add9-90f4d67b1051">
                         <lb/>Wie viel Angst hat <lb/>mir Ihr theurer <lb/>
-                        <persName ref="http://d-nb.info/gnd/118795090">Robert </persName>verursacht</ref>
-                    <note xml:id="bf73f9c0-8fde-4a93-b3f9-c08fde8a93eb" corresp="#ca0260d3-750a-4999-8260-d3750ae999f3">
-                        <persName ref="http://d-nb.info/gnd/118795090">Robert
+                        <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert </persName>verursacht</ref>
+                    <note xml:id="fb2dd990-f4d6-4b10-add9-90f4d67b1051" corresp="#aee6d02c-4042-4fba-a6d0-2c40428fbae1" resp="#UP">
+                        <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert
                                 Schlagintweit</persName> war kurz zuvor von einer schweren
                             Krankheit, die Humboldt für Cholera hielt, genesen. Vgl. Humboldt an
-                                <persName ref="http://d-nb.info/gnd/10148772X">Eduard Buschmann</persName>, [Berlin],
+                                <persName ref="https://editon-humboldt.de/H0003808 http://d-nb.info/gnd/10148772X">Eduard Buschmann</persName>, [Berlin],
                             Dienstag [29. August 1854], <ref target="http://kalliope-verbund.info/DE-611-HS-2936867">Biblioteka
                                 Jagiellońska, Krakau, Nachlass Alexander von Humboldt, Bd. 14/2 Bl.
                                 306r</ref>.</note>
                     <supplied cert="high">,</supplied>
-                    <lb/>auch der <persName ref="http://d-nb.info/gnd/118535994">König</persName>
-                    <lb/>der auf das lebhaf-<lb/>teste mit seiner
+                    <lb/>auch der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
+                    <lb/>der auf das lebhaf<g ref="#typoHyphen"/>
+                    <lb break="no"/>teste mit seiner
                     <lb/>Herstellung <lb/>beschäftigt <lb/>war. Es giebt <lb/>auch Könige<supplied cert="high">,</supplied> die <lb/>Gemüth haben<supplied cert="high">.</supplied>
                 </p>
             </postscript>

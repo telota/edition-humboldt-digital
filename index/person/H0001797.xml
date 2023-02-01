@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001797">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Parthey, Gustav</title>
             </titleStmt>
+            <editionStmt>
+                <p>Parthey, Gustav [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001797.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001797.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001797.xml">
-                    <p>Parthey, Gustav [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001797.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001797">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/104366508</idno>
                     <persName type="reg">
                         <surname>Parthey</surname>
@@ -39,7 +44,7 @@
                     <death>1872</death>
                     <note>deutscher Buchhändler, Philologe, Altertumsforscher; übernahm 1825 die Nicolaische
                         Buchhandlung in Berlin; fertigte unter anderem eine umfangreiche Nachschrift der sogenannten
-                        Kosmos-Vorträge <persName key="H0012069">Alexander von Humboldt</persName>s an der <orgName key="H0000603">Berliner Universität</orgName> an (= <bibl sameAs="zotero-667230-W9WHBUGV">Parthey 1827/1828</bibl>). </note>
+                        Kosmos-Vorträge <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>s an der <orgName ref="https://editon-humboldt.de/H0000603 http://d-nb.info/gnd/1220138-8">Berliner Universität</orgName> an (= <bibl corresp="https://edition-humboldt.de/W9WHBUGV">Parthey 1827/1828</bibl>). </note>
                     <linkGrp>
                         <ptr target="19#549" type="page"/>
                         <ptr subtype="comment" target="19#[549]" type="page"/>

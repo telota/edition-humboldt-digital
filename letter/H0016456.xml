@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016456">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -32,33 +32,50 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Hermann Schlagintweit. [Berlin, Ende März
+                    1850], hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016456">https://edition-humboldt.de/v8/H0016456</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016456</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016456</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016456.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Hermann Schlagintweit. [Berlin, Ende März
-                    1850]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016456</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Schloss Tegel, Berlin</institution>
+                        <repository>Archiv Familie von Heinz</repository>
+                        <collection/>
+                        <idno>
+                            <idno type="shelfmark">ohne Signatur</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     <date notBefore="1850-03-17" notAfter="1850-03-23" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
                     
-                    <persName ref="http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
                 </correspAction>
             </correspDesc>
@@ -73,21 +90,21 @@
                     Unwohlsein,
                     <lb/>als ein unglücklicher, schwer zu
                     <lb/>überwindender Drang von Beschäftigungen, <lb/>der
-                    mich gehindert hat, das mir <lb/>so theure <ref xml:id="b4364604-01b3-4ad5-b646-0401b38ad5bb" corresp="#d2ff2796-95ad-4fdb-bf27-9695ad3fdb60">Bruderpaar</ref>
-                    <note xml:id="d2ff2796-95ad-4fdb-bf27-9695ad3fdb60" corresp="#b4364604-01b3-4ad5-b646-0401b38ad5bb">Gemeint sind hier <persName ref="http://d-nb.info/gnd/118755234">Adolph</persName> und <persName ref="http://d-nb.info/gnd/119074117">Hermann Schlagintweit</persName>.</note> zu sehen. <lb/>Kommen Sie beide freundlichst <lb/>Sonnabend um 1 Uhr. Ich
-                    nehme <lb/>dankbar, aber beschämt, <ref xml:id="d805f453-4751-42ce-85f4-53475112cef3" corresp="#d5f09769-1b09-4155-b097-691b09c15514">Ihre Zueignung</ref>
-                    <note xml:id="d5f09769-1b09-4155-b097-691b09c15514" corresp="#d805f453-4751-42ce-85f4-53475112cef3">Adolph und Hermann Schlagintweit widmeten ihre
+                    mich gehindert hat, das mir <lb/>so theure <ref xml:id="aa0348c8-a5d6-4f45-8348-c8a5d66f45ec" corresp="#b293fc48-930b-4bda-93fc-48930bebdae5">Bruderpaar</ref>
+                    <note xml:id="b293fc48-930b-4bda-93fc-48930bebdae5" corresp="#aa0348c8-a5d6-4f45-8348-c8a5d66f45ec" resp="#LM">Gemeint sind hier <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph</persName> und <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann Schlagintweit</persName>.</note> zu sehen. <lb/>Kommen Sie beide freundlichst <lb/>Sonnabend um 1 Uhr. Ich
+                    nehme <lb/>dankbar, aber beschämt, <ref xml:id="e8e52959-e32f-40f6-a529-59e32fe0f616" corresp="#ba2662cf-84f0-40e5-a662-cf84f0c0e5e5">Ihre Zueignung</ref>
+                    <note xml:id="ba2662cf-84f0-40e5-a662-cf84f0c0e5e5" corresp="#e8e52959-e32f-40f6-a529-59e32fe0f616">Adolph und Hermann Schlagintweit widmeten ihre
                             <hi rendition="#i">Untersuchungen über die Physicalische Geographie der Alpen</hi> Alexander von
-                            Humboldt (<bibl corresp="https://edition-humboldt.de/v8/CU8W2N3I">Schlagintweit,
+                            Humboldt (<bibl corresp="https://edition-humboldt.de/CU8W2N3I">Schlagintweit,
                                 H./Schlagintweit, A. 1850</bibl>).</note>
-                    <lb/>gern an. Der <persName ref="http://d-nb.info/gnd/118535994">König</persName>, dem ich mehr-
-                    <lb/>mals von Ihren schönen Arbeiten <lb/>gesprochen, und der die
-                        <placeName ref="https://www.geonames.org/2661786">Bergkette</placeName> liebt, <lb/>die Sie
-                    erforscht, würde allerdings Sie <lb/>empfangen und den <ref xml:id="ca3993fd-e110-4563-b993-fde110656375" corresp="#feccb705-9a48-4f65-8cb7-059a48ef65ad">Anfang des wichtige<supplied cert="high">n</supplied>
+                    <lb/>gern an. Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>, dem ich mehr<g ref="#typoHyphen"/>
+                    <lb break="no"/>mals von Ihren schönen Arbeiten <lb/>gesprochen, und der die
+                        <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Bergkette</placeName> liebt, <lb/>die Sie
+                    erforscht, würde allerdings Sie <lb/>empfangen und den <ref xml:id="f8f84c13-72c1-48a3-b84c-1372c1d8a3e5" corresp="#fde2f320-84dd-4f27-a2f3-2084ddff277f">Anfang des wichtige<supplied cert="high">n</supplied>
                             <lb/>Werkes</ref>
-                    <note xml:id="feccb705-9a48-4f65-8cb7-059a48ef65ad" corresp="#ca3993fd-e110-4563-b993-fde110656375">
-                            <bibl corresp="https://edition-humboldt.de/v8/CU8W2N3I">Schlagintweit, H./Schlagintweit,
-                                A. 1850</bibl>.</note> sehen, aber er geht Sonntag <lb/>nach <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>, bleibt dort ganz einsam <lb/>
+                    <note xml:id="fde2f320-84dd-4f27-a2f3-2084ddff277f" corresp="#f8f84c13-72c1-48a3-b84c-1372c1d8a3e5" resp="#LM">
+                            <bibl corresp="https://edition-humboldt.de/CU8W2N3I">Schlagintweit, H./Schlagintweit,
+                                A. 1850</bibl>.</note> sehen, aber er geht Sonntag <lb/>nach <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>, bleibt dort ganz einsam <lb/>
                     <add place="left">
                         <choice>
                             <abbr>u.</abbr>
@@ -95,21 +112,21 @@
                         </choice>
                     </add>eingezogen in der Charwoche, da er <lb/>das Abendmal nimmt, also wäre
                     <lb/>Er nur in den ersten Tagen des <lb/>April zu sehen<supplied cert="high">.</supplied> Ich werde alles <lb/>thun, was Sie wünschen, meine <lb/>lieben
-                    Freunde, und Ihnen beiden <lb/>auch unmittelbar <ref xml:id="ff1a0f6e-714a-4c71-9a0f-6e714a9c71e9" corresp="#c81ca51e-63fd-4adb-9ca5-1e63fd7adbf7">einen Brief <lb/>an den <persName ref="http://d-nb.info/gnd/118579347">König von
+                    Freunde, und Ihnen beiden <lb/>auch unmittelbar <ref xml:id="fc2b030a-309a-4b1d-ab03-0a309a3b1d94" corresp="#eed22aa9-e6cf-458b-922a-a9e6cf058b99">einen Brief <lb/>an den <persName ref="https://editon-humboldt.de/H0003163 http://d-nb.info/gnd/118579347">König von
                                 Baiern</persName>
                         </ref>
-                    <note xml:id="c81ca51e-63fd-4adb-9ca5-1e63fd7adbf7" corresp="#ff1a0f6e-714a-4c71-9a0f-6e714a9c71e9">Vgl. Humboldts Empfehlungsschreiben
-                            für Adolph und Hermann Schlagintweit an <persName ref="http://d-nb.info/gnd/118579347">König
+                    <note xml:id="eed22aa9-e6cf-458b-922a-a9e6cf058b99" corresp="#fc2b030a-309a-4b1d-ab03-0a309a3b1d94" resp="#UP">Vgl. Humboldts Empfehlungsschreiben
+                            für Adolph und Hermann Schlagintweit an <persName ref="https://editon-humboldt.de/H0003163 http://d-nb.info/gnd/118579347">König
                                 Maximilan II. von Bayern</persName>, Berlin, 4. April 1850,
                             Bayerisches Hauptstaatsarchiv, Abteilung III, Geheimes
                             Hausarchiv.</note> anbieten <lb/>in dem ich sage, was wir <del rendition="#s">
                         <gap quantity="1" unit="words"/>
-                    </del> Ihnen <lb/>und Ihrem <persName ref="http://d-nb.info/gnd/118755234">Bruder</persName>
+                    </del> Ihnen <lb/>und Ihrem <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruder</persName>
                     verdanken. Der <lb/>
-                    <ref xml:id="a636b97e-c826-44e8-b6b9-7ec826a4e805" corresp="#c081b1f1-85f9-4137-81b1-f185f9b1375a">
+                    <ref xml:id="efa182a0-2b76-495d-a182-a02b76195df5" corresp="#b1a5a8a0-03e9-4d9d-a5a8-a003e99d9de6">
                         <add place="left">gerechte</add> politische
                             Mismuth</ref>
-                    <note xml:id="c081b1f1-85f9-4137-81b1-f185f9b1375a" corresp="#a636b97e-c826-44e8-b6b9-7ec826a4e805">Humboldt bezieht sich hier wohl auf
+                    <note xml:id="b1a5a8a0-03e9-4d9d-a5a8-a003e99d9de6" corresp="#efa182a0-2b76-495d-a182-a02b76195df5" resp="#UP">Humboldt bezieht sich hier wohl auf
                             den preußisch-bayerischen Antagonismus in der deutschen Frage. Am 27.
                             Februar 1850 schloss Bayern mit Sachsen, Hannover und Württemberg
                             dasVierkönigsbündnis. Dieses Bündnis stellte sich gegen die von Preußen
@@ -117,11 +134,12 @@
                             eröffnet worden) und einen kleindeutschen Bundesstaat unter preußischer
                             Führung.</note> sollte mich <lb/>fast davon abhalten, aber wenn <lb/>ich mit Recht hoffen
                     darf, <hi rendition="#uu">Ihnen</hi>
-                    <lb/>nüzlich zu werden, so ver-<lb/>schwindet
+                    <lb/>nüzlich zu werden, so ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>schwindet
                     jede andere Betrachtung<supplied cert="high">.</supplied>
                     <lb/>Ueber dieses alles sprechen wir <lb/>Sonnabend, mein theurer Hermann
                     <lb/>Schlagintweit. Grüssen Sie <lb/>herzlich Ihren vortreflichen <lb/>
-                    <persName ref="http://d-nb.info/gnd/118755234">Bruder</persName>. </p>
+                    <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruder</persName>. </p>
 				<closer>
 					<salute>Ihr </salute>
 					<signed>AlHumboldt</signed>

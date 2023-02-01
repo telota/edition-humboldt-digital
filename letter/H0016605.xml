@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016605">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [25. Mai 1856] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016605">https://edition-humboldt.de/v8/H0016605</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016605</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016605</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016605.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [25. Mai 1856] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016605</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                 <idno> 
+                    <idno type="legacy">197</idno>
+                    <idno type="shelfmark">421, Bl. 360r</idno>
+                 </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1856-05-25">1856-05-25</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: E.s Vortrag in der Akademie war am 22.5.1856</note>
          </correspDesc>
@@ -62,37 +80,37 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Ich eile, theurer Freund, da ich selbst heute Nachmittag <lb/>nach <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName> muss Ihnen die <ref xml:id="d4e67313-f836-49df-a673-13f836b9dfa6" corresp="#c233c4b4-0f06-482e-b3c4-b40f06982e2c">Africana</ref>
-                    <note xml:id="c233c4b4-0f06-482e-b3c4-b40f06982e2c" corresp="#d4e67313-f836-49df-a673-13f836b9dfa6">
-                     <bibl corresp="https://edition-humboldt.de/v8/22RLXXH8">Ehrenberg 1856b</bibl>
+            <p>Ich eile, theurer Freund, da ich selbst heute Nachmittag <lb/>nach <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName> muss Ihnen die <ref xml:id="c3e94c4b-62ff-4308-a94c-4b62ff63087b" corresp="#f3e5c6ec-9e2c-491b-a5c6-ec9e2cc91b3f">Africana</ref>
+                    <note xml:id="f3e5c6ec-9e2c-491b-a5c6-ec9e2cc91b3f" corresp="#c3e94c4b-62ff-4308-a94c-4b62ff63087b">
+                     <bibl corresp="https://edition-humboldt.de/22RLXXH8">Ehrenberg 1856b</bibl>
                   </note>, die äusserst <lb/>interessant sind, schon jezt zurükzusenden, damit <lb/>sie
-                  <persName ref="http://d-nb.info/gnd/11860130X">Ritter</persName> bald durch Ihre Güte für die <lb/>
-                    <ref xml:id="d68b0a70-723f-4d88-8b0a-70723f0d8898" corresp="#f21d917c-cd25-48b1-9d91-7ccd2598b1e7">Zeitschrift</ref>
-                    <note xml:id="f21d917c-cd25-48b1-9d91-7ccd2598b1e7" corresp="#d68b0a70-723f-4d88-8b0a-70723f0d8898">
-                     <bibl corresp="https://edition-humboldt.de/v8/6IHIT6CX">Ritter 1856</bibl>
+                  <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Ritter</persName> bald durch Ihre Güte für die <lb/>
+                    <ref xml:id="d90f92a3-15d7-4d86-8f92-a315d7fd86e0" corresp="#bbfefe37-fb1e-4666-befe-37fb1e3666d0">Zeitschrift</ref>
+                    <note xml:id="bbfefe37-fb1e-4666-befe-37fb1e3666d0" corresp="#d90f92a3-15d7-4d86-8f92-a315d7fd86e0">
+                     <bibl corresp="https://edition-humboldt.de/6IHIT6CX">Ritter 1856</bibl>
                   </note> erhalten könne. Ich habe ebenfalls <lb/>
-                    <persName ref="http://d-nb.info/gnd/104356480">Peters</persName>
+                    <persName ref="https://editon-humboldt.de/H0001905 http://d-nb.info/gnd/104356480">Peters</persName>
                <choice>
                   <sic>gebeteten</sic>
                   <corr>gebeten</corr>
                </choice> mit dem Auszug, den mir der <lb/>
-                    <persName ref="http://d-nb.info/gnd/104085703">Vater</persName>
+                    <persName ref="https://editon-humboldt.de/H0002880 http://d-nb.info/gnd/104085703">Vater</persName>
                geschikt und der die Beschreibung des <lb/>
                     <name type="animal" key="Manati">Manati</name> (<name type="animal" key="Lamantin">Lamantin</name>) enthielt ein
                gleiches zu <lb/>thun<supplied cert="high">.</supplied>
                 </p>
             <p>Wegen der Bernsteinthiere werde ich <lb/>nach Ihrem Rathe einen förmlichen
                <lb/>Antrag fordern<supplied cert="high">.</supplied> Ich werde aber deshalb <lb/>von
-                  <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName> aus an <choice>
+                  <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName> aus an <choice>
                   <abbr>Prof</abbr>
                   <expan>Professor</expan>
                </choice>
                <hi rendition="#u">
-                        <persName ref="http://d-nb.info/gnd/116087994">Baum</persName>
+                        <persName ref="https://editon-humboldt.de/H0003147 http://d-nb.info/gnd/116087994">Baum</persName>
                     </hi>
-               <lb/>schreiben, habe aber schändlich ver<lb/>gessen wo er ist. Ich denke
+               <lb/>schreiben, habe aber schändlich ver<lb break="no"/>gessen wo er ist. Ich denke
                Professor <lb/>in <hi rendition="#u">
-                        <placeName ref="https://www.geonames.org/2918632">Göttingen</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0010897 https://www.geonames.org/2918632">Göttingen</placeName>
                     </hi>? Wenn der Brief an <lb/>mich, wie ich glaube in Ihren
                <lb/>Händen geblieben ist, so bitte ich <lb/>Sie ihn mir noch <hi rendition="#uu">heute</hi>
                <subst>
@@ -100,7 +118,7 @@
                   <add place="intralinear">hierher</add>
                </subst>
                <lb/>nach <hi rendition="#u">
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     </hi> zu
                   schicken<supplied cert="high">.</supplied>
             </p>
@@ -110,11 +128,12 @@
                <dateline>Sontags <lb/> eiligst</dateline>
             </closer>
             <postscript>
-               <p>Ich denke in <persName ref="http://d-nb.info/gnd/116087994">Baum’s</persName> Briefe <lb/>gelesen zu
+               <p>Ich denke in <persName ref="https://editon-humboldt.de/H0003147 http://d-nb.info/gnd/116087994">Baum’s</persName> Briefe <lb/>gelesen zu
                   haben dass das <lb/>Bernstein <choice>
                      <abbr>MSS</abbr>
                      <expan>Manuskript</expan>
-                  </choice> ganz fertig-<lb/>redigirt, und zwar
+                  </choice> ganz fertig<g ref="#typoHyphen"/>
+                        <lb break="no"/>redigirt, und zwar
                   dieses Mal <lb/>von einer Person redigirt <lb/>ist.</p>
             </postscript>
          </div>

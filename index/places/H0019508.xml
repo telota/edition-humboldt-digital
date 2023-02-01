@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019508">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Uktus</title>
             </titleStmt>
+            <editionStmt>
+                <p>Uktus [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019508.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019508.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019508.xml">
-                    <p>Uktus [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019508.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019508">
+                <place>
                     <idno type="uri">https://www.geonames.org/8310025</idno>
                     <placeName type="reg">Uktus</placeName>
                     <placeName type="alt">Уктус</placeName>
                     <placeName type="alt">Uktuska</placeName>
                     <placeName type="alt">Uktuss</placeName>
-                    <!-- Rose 1837/1842, I, 155 -->
-                    <note>Zufluss des <placeName key="H0017509">Iset'</placeName> (heute der <placeName key="H0019320">Šilovka</placeName>) südlich von <placeName key="H0005599">Jekaterinburg</placeName>
-                            (<placeName key="H0010689">Russland</placeName>)</note>
+                    
+                    <note>Zufluss des <placeName ref="https://editon-humboldt.de/H0017509 https://www.geonames.org/1495641">Iset'</placeName> (heute der <placeName ref="https://editon-humboldt.de/H0019320 https://www.geonames.org/1492196">Šilovka</placeName>) südlich von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>
+                            (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

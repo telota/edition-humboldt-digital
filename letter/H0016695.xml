@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016695">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1842] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016695">https://edition-humboldt.de/v8/H0016695</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016695</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016695</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016695.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1842] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016695</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">128</idno>
+                     <idno type="shelfmark">421, Bl. 238r, 239v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1842" notAfter="1842" cert="low">1842-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: von fremder Hand datiert</note>
          </correspDesc>
@@ -78,16 +96,17 @@
             <pb n="1v"/>
                 <p>Ich danke Ihnen, mein theurer Freund, <lb/>für Ihre belehrenden
                Anmerkungen über <lb/>
-                    <persName ref="http://d-nb.info/gnd/11667153X">Corda’s</persName> Brief. Sie wissen,
+                    <persName ref="https://editon-humboldt.de/H0013170 http://d-nb.info/gnd/11667153X">Corda’s</persName> Brief. Sie wissen,
                dass ich <lb/>ihn selbst etwas <hi rendition="#u">grossmäulig</hi>
-               <lb/>nannte: doch hat mich, was ich <lb/>hier von seinem Pflanzen-Ana-<lb/>tomischen der Pflanzen-Gefässe <lb/>in
+               <lb/>nannte: doch hat mich, was ich <lb/>hier von seinem Pflanzen-Ana<g ref="#typoHyphen"/>
+                    <lb break="no"/>tomischen der Pflanzen-Gefässe <lb/>in
                Zeichnung und Microscop sah, <lb/>sehr angezogen. Ich bin nicht <lb/>Ihrer Meinung
                dass <choice>
                   <abbr>D<hi rendition="#sup">r</hi>
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/117550175">Krumbholz</persName>
+               <persName ref="https://editon-humboldt.de/H0017013 http://d-nb.info/gnd/117550175">Krumbholz</persName>
                <lb/>ihn dem Kaufmannsstande <lb/>nicht hätte entziehen sollen<supplied cert="high">.</supplied>
                <lb/>
                     <del rendition="#s">Aber</del>
@@ -110,7 +129,7 @@
                Ihnen über <lb/>den <hi rendition="#u">Nubier</hi> hatte, den sie jezt auch <lb/>noch
                gern den Kaufmann nennen. <lb/>Nehmen Sie als Scherz was ich <lb/>Ihnen, meinem
                theuresten, hoch <lb/>geachtesten Freunde als Scherz schreibe<supplied cert="high">.</supplied>
-               <lb/>Es ist mir übrigens nicht in den Sinn <lb/>gekommen, das <persName ref="http://d-nb.info/gnd/11667153X">Corda</persName> der <choice>
+               <lb/>Es ist mir übrigens nicht in den Sinn <lb/>gekommen, das <persName ref="https://editon-humboldt.de/H0013170 http://d-nb.info/gnd/11667153X">Corda</persName> der <choice>
                   <abbr>Acad.</abbr>
                   <expan>Academie</expan>
                </choice> etwas schikken <lb/>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016422">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,30 +11,51 @@
                     </persName>
                 </editor>
             </titleStmt>
+            <editionStmt>
+                <p>Von Carl Sigismund Kunth an Alexander von Humboldt. Berlin, 26. März
+                    1833, hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016422">https://edition-humboldt.de/v8/H0016422</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016422</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016422</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016422.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Von Carl Sigismund Kunth an Alexander von Humboldt. Berlin, 26. März
-                    1833. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016422</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Slg. Darmstaedter</collection>
+                        <idno>
+                            <idno type="shelfmark">Lb 1820: Kunth, Karl Sigismund; 4</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1248236</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1833-03-26" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -46,16 +67,16 @@
                     <salute>
                         <pb n="4r"/>Mein verehrter Gönner,</salute>
                 </opener>
-                <p>Ich habe leider <bibl corresp="https://edition-humboldt.de/v8/NCV7AXGT">
-                        <persName ref="http://d-nb.info/gnd/116107170">Beechey</persName>’s Reise</bibl>
+                <p>Ich habe leider <bibl corresp="https://edition-humboldt.de/NCV7AXGT">
+                        <persName ref="https://editon-humboldt.de/H0003197 http://d-nb.info/gnd/116107170">Beechey</persName>’s Reise</bibl>
                     nicht, <lb/>Sie machten mich aber vor geraumer <lb/>Zeit darauf aufmerksam und
-                    schrieben <lb/>mir: „Ich gebe so eben <persName ref="http://d-nb.info/gnd/117662933">Arnott</persName>s <lb/>Bearbeitung der <bibl corresp="https://edition-humboldt.de/v8/NCV7AXGT">Reise von <choice>
+                    schrieben <lb/>mir: „Ich gebe so eben <persName ref="https://editon-humboldt.de/H0006219 http://d-nb.info/gnd/117662933">Arnott</persName>s <lb/>Bearbeitung der <bibl corresp="https://edition-humboldt.de/NCV7AXGT">Reise von <choice>
                             <abbr>Cap.</abbr>
                             <expan>Captain</expan>
-                    </choice> <persName ref="http://d-nb.info/gnd/116107170">Beechey</persName>
+                    </choice> <persName ref="https://editon-humboldt.de/H0003197 http://d-nb.info/gnd/116107170">Beechey</persName>
                     </bibl>
                     <lb/>der Bibliothek zurück.“ Dieses Briefchen <lb/>ist bis jetzt zur Erinnerung
-                    auf <lb/>meinem Tisch liegen geblieben, <lb/>weil ich mir das Werk kommen <pb n="4v"/> lassen wollte, was aber unter<lb/>blieben ist.</p>
+                    auf <lb/>meinem Tisch liegen geblieben, <lb/>weil ich mir das Werk kommen <pb n="4v"/> lassen wollte, was aber unter<lb break="no"/>blieben ist.</p>
                 <p>Für den
                     neusten
                     Band der <lb/>Leopoldinischen Schriften statte <lb/>ich

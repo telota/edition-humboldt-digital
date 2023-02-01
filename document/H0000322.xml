@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000322">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -19,13 +19,20 @@
                     </persName>
                 </editor>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: Aa – Physiognomie de la Flore des États-Unis, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0000322">https://edition-humboldt.de/v8/H0000322</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0000322</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0000322</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000322.xml</idno>
             </publicationStmt>
             <notesStmt>
@@ -34,21 +41,35 @@
                         Septentrionalis“ von Frederick Traugott Pursh (1814) und „A Sketch of the
                         Botany of South Carolina and Georgia“ von Stephen Elliott (1821–1824). In
                         seiner
-                            <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der
+                            <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe der Geographie der
                             Pflanzen</ref> verweist Karl Sigismund Kunth auf
                         dieses Blatt unter Nummer 27 „États Unis. Karakteristik“ und vergibt die
                         Sigle <ref xml:id="ed_hgx_z2c_bbb" type="siglum" target="#Geographie_der_Pflanzen_Aa">Aa</ref>. Vgl. auch Sigle <ref xml:id="ed_bkx_1fc_bbb" type="siglum" target="#Geographie_der_Pflanzen_Ag">Ag</ref>. </p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Aa – Physiognomie de la Flore des États-Unis. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0000322</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 79a, Bl. 1</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2832781</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
                 <date notBefore="1814-01-01" notAfter="1821-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -59,19 +80,19 @@
                 <pb n="1r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000001.jpg"/>
                 <p>
                     <note place="mTop" hand="#author">
-                        <p>P. <persName ref="http://d-nb.info/gnd/1055363785">Pursh</persName>
+                        <p>P. <persName ref="https://editon-humboldt.de/H0002227 http://d-nb.info/gnd/1055363785">Pursh</persName>
                         </p>
                         <p>E<supplied cert="high">.</supplied>
-                            <persName ref="http://viaf.org/viaf/69782997">Elliot</persName>
+                            <persName ref="https://editon-humboldt.de/H0005912 http://viaf.org/viaf/69782997">Elliot</persName>
                         </p>
                     </note>Physiognomie de la Flore
                         <lb/>des
-                        <placeName ref="https://www.geonames.org/6252001">États<supplied cert="high">-</supplied>Unis</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0009136 https://www.geonames.org/6252001">États<supplied cert="high">-</supplied>Unis</placeName>
                 </p>
-                <p>Arundo gigantea <persName ref="http://d-nb.info/gnd/1055363823">Walter</persName> (<choice>
+                <p>Arundo gigantea <persName ref="https://editon-humboldt.de/H0006233 http://d-nb.info/gnd/1055363823">Walter</persName> (<choice>
                         <abbr>A.</abbr>
                         <expan>Arundo</expan>
-                    </choice> macrosperma <persName ref="http://d-nb.info/gnd/104292369">
+                    </choice> macrosperma <persName ref="https://editon-humboldt.de/H0014205 http://d-nb.info/gnd/104292369">
                         <choice>
                             <abbr>Mich</abbr>
                             <expan>Michaux</expan>
@@ -85,9 +106,9 @@
                         <abbr>macrosp.</abbr>
                         <expan>macrosperma</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116091509">Persoon</persName>) forme les impénétrables <lb/>Canes
-                    brakes le long du <placeName ref="https://www.geonames.org/7932547">Missisipi</placeName> et en
-                        <placeName ref="https://www.geonames.org/4155751">Floride</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001891 http://d-nb.info/gnd/116091509">Persoon</persName>) forme les impénétrables <lb/>Canes
+                    brakes le long du <placeName ref="https://editon-humboldt.de/H0008887 https://www.geonames.org/7932547">Missisipi</placeName> et en
+                        <placeName ref="https://editon-humboldt.de/H0004781 https://www.geonames.org/4155751">Floride</placeName>
                     <supplied cert="high">.</supplied>
                     <lb/>
                     <measure quantity="30" unit="foot">30</measure>–<subst>
@@ -108,8 +129,8 @@
                     </choice>.<note place="mBottom" hand="#author">
                         <metamark/>de 32 à 30° 40′
                             <lb/>
-                        <bibl corresp="https://edition-humboldt.de/v8/XIV8UBDP">
-                            <persName ref="http://d-nb.info/gnd/117499838">Ellicot</persName>
+                        <bibl corresp="https://edition-humboldt.de/XIV8UBDP">
+                            <persName ref="https://editon-humboldt.de/H0005910 http://d-nb.info/gnd/117499838">Ellicot</persName>
                             <choice>
                                 <abbr>p</abbr>
                                 <expan>page</expan>
@@ -124,24 +145,24 @@
                         <choice>
                             <abbr>moy</abbr>
                             <expan>moyenne</expan>
-                        </choice>. </note> L’Arundo tecta <persName ref="http://d-nb.info/gnd/1055363823">Walter</persName>
+                        </choice>. </note> L’Arundo tecta <persName ref="https://editon-humboldt.de/H0006233 http://d-nb.info/gnd/1055363823">Walter</persName>
                     <choice>
                         <sic>en en</sic>
                         <corr type="deleted"/>
                     </choice>
                     <subst>
                         <del rendition="#s">paroît </del>
-                        <add place="intralinear">(de <placeName ref="https://www.geonames.org/4597040">South
+                        <add place="intralinear">(de <placeName ref="https://editon-humboldt.de/H0010327 https://www.geonames.org/4597040">South
                                 Caroline</placeName>)</add>
                     </subst> qui n’a que <measure quantity="3" unit="foot">3</measure>–<measure quantity="15" unit="foot">15 piés</measure>
-                    <lb/>en paroît une variété. <ref xml:id="b2503bc5-d7e2-47d9-903b-c5d7e287d97c" corresp="#a2698127-703b-4d05-a981-27703b7d0594">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott <choice>
+                    <lb/>en paroît une variété. <ref xml:id="f0f10633-8d16-4366-b106-338d1673664e" corresp="#a6c417b7-e990-47c2-8417-b7e99057c2f7">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott <choice>
                                 <abbr>p</abbr>
                                 <expan>page</expan>
                             </choice> 97</bibl>
                     </ref>
-                    <note xml:id="a2698127-703b-4d05-a981-27703b7d0594" corresp="#b2503bc5-d7e2-47d9-903b-c5d7e287d97c">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott
+                    <note xml:id="a6c417b7-e990-47c2-8417-b7e99057c2f7" corresp="#f0f10633-8d16-4366-b106-338d1673664e">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott
                                 1821–1824</bibl>, I.</note>
                     <supplied cert="high">.</supplied>
                 </p>
@@ -156,13 +177,13 @@
                     <choice>
                         <abbr>haut</abbr>
                         <expan>hauteur</expan>
-                    </choice> de <placeName ref="https://www.geonames.org/4197000">Géorgie</placeName> et <placeName ref="https://www.geonames.org/4597040">South <choice>
+                    </choice> de <placeName ref="https://editon-humboldt.de/H0010842 https://www.geonames.org/4197000">Géorgie</placeName> et <placeName ref="https://editon-humboldt.de/H0010327 https://www.geonames.org/4597040">South <choice>
                             <abbr>Carol.</abbr>
                             <expan>Carolina</expan>
                         </choice>
                     </placeName>
-                    <ref xml:id="c4192fb7-d94f-4dfc-992f-b7d94f1dfc49" corresp="#ee1bce53-41fa-43cb-9bce-5341faf3cb5c">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                    <ref xml:id="e50f56a4-f30c-432d-8f56-a4f30c632d28" corresp="#f3213771-2e9d-499d-a137-712e9d599da4">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                 <abbr>P.</abbr>
                                 <expan>Pursh</expan>
@@ -172,10 +193,10 @@
                                 <expan>page</expan>
                             </choice> 585</bibl>
                     </ref>
-                    <note xml:id="ee1bce53-41fa-43cb-9bce-5341faf3cb5c" corresp="#c4192fb7-d94f-4dfc-992f-b7d94f1dfc49">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
-                                1814</bibl>, II.</note>. <ref xml:id="f1406ab0-4107-497f-806a-b04107e97f86" corresp="#c9f69ef1-d9e6-4d7f-b69e-f1d9e66d7f4a">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">
+                    <note xml:id="f3213771-2e9d-499d-a137-712e9d599da4" corresp="#e50f56a4-f30c-432d-8f56-a4f30c632d28">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
+                                1814</bibl>, II.</note>. <ref xml:id="eec50490-eede-4bd7-8504-90eedeabd7d9" corresp="#ae650002-b0b7-41da-a500-02b0b761da51">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">
                             <choice>
                                 <abbr>E.</abbr>
                                 <expan>Elliott</expan>
@@ -185,8 +206,8 @@
                                 <expan>page</expan>
                             </choice> 2</bibl>
                     </ref>
-                    <note xml:id="c9f69ef1-d9e6-4d7f-b69e-f1d9e66d7f4a" corresp="#f1406ab0-4107-497f-806a-b04107e97f86">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott
+                    <note xml:id="ae650002-b0b7-41da-a500-02b0b761da51" corresp="#eec50490-eede-4bd7-8504-90eedeabd7d9">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott
                                 1821–1824</bibl>, I.</note>.<note place="left" hand="#author">
                         <subst>
                             <del rendition="#s">de Géorgie à</del>
@@ -195,13 +216,13 @@
                                     <abbr>austr</abbr>
                                     <expan>australe</expan>
                                 </choice>
-                                <lb/>de <placeName ref="https://www.geonames.org/4197000">Géorgie</placeName>
+                                <lb/>de <placeName ref="https://editon-humboldt.de/H0010842 https://www.geonames.org/4197000">Géorgie</placeName>
                                 <lb/>30°½<supplied cert="high">,</supplied>
                                 <lb/>limite <choice>
                                     <abbr>sept</abbr>
                                     <expan>septentrionale</expan>
                                 </choice>
-                                <lb/>de <placeName ref="https://www.geonames.org/4482348">North <lb/>
+                                <lb/>de <placeName ref="https://editon-humboldt.de/H0001707 https://www.geonames.org/4482348">North <lb/>
                                     <choice>
                                         <abbr>Carol.</abbr>
                                         <expan>Carolina</expan>
@@ -224,8 +245,9 @@
                                 <choice>
                                     <abbr>temp</abbr>
                                     <expan>température</expan>
-                                </choice> de <placeName ref="https://www.geonames.org/3172394">Na-<lb/>ples</placeName> et <lb/>
-                                <placeName ref="https://www.geonames.org/2972328">Toulon</placeName>
+                                </choice> de <placeName ref="https://editon-humboldt.de/H0001578 https://www.geonames.org/3172394">Na<g ref="#typoHyphen"/>
+                                    <lb break="no"/>ples</placeName> et <lb/>
+                                <placeName ref="https://editon-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName>
                                 <supplied cert="high">.</supplied>
                             </add>
                         </subst>
@@ -244,10 +266,10 @@
                     <choice>
                         <abbr>P.</abbr>
                         <expan>Populus</expan>
-                    </choice> balsamifera surtout autour <placeName ref="https://www.geonames.org/5978134">Bay <lb/>de
+                    </choice> balsamifera surtout autour <placeName ref="https://editon-humboldt.de/H0006927 https://www.geonames.org/5978134">Bay <lb/>de
                         Hudson</placeName>
-                    <ref xml:id="e02a5bea-26b2-40c4-aa5b-ea26b280c4e0" corresp="#c7a02099-a204-4b26-a020-99a2042b26ad">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                    <ref xml:id="fb27bd38-a3b9-4636-a7bd-38a3b96636e3" corresp="#be7a796b-8704-44f1-ba79-6b8704e4f143">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                 <abbr>P.</abbr>
                                 <expan>Pursh</expan>
@@ -257,20 +279,20 @@
                                 <expan>page</expan>
                             </choice> 618</bibl>
                     </ref>
-                    <note xml:id="c7a02099-a204-4b26-a020-99a2042b26ad" corresp="#e02a5bea-26b2-40c4-aa5b-ea26b280c4e0">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
+                    <note xml:id="be7a796b-8704-44f1-ba79-6b8704e4f143" corresp="#fb27bd38-a3b9-4636-a7bd-38a3b96636e3">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
                                 1814</bibl>, II.</note>
                     <supplied cert="high">,</supplied> Rhus <choice>
                         <abbr>toxicodendr.</abbr>
                         <expan>toxicodendron</expan>
                     </choice>
-                    <placeName ref="https://www.geonames.org/6251999">Canada</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0000345 https://www.geonames.org/6251999">Canada</placeName>
                     <supplied cert="high">,</supplied>
                     <lb/>un Olea, <choice>
                         <abbr>O.</abbr>
                         <expan>Olea</expan>
-                    </choice> excelsa <ref xml:id="aef3f9a4-c0f8-440d-b3f9-a4c0f8440db9" corresp="#f44faf87-fc7d-4a29-8faf-87fc7daa295a">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                    </choice> excelsa <ref xml:id="f874cccd-5cd0-4b75-b4cc-cd5cd0bb7548" corresp="#eba8a96d-114c-4be0-a8a9-6d114cabe005">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                 <abbr>P</abbr>
                                 <expan>Pursh</expan>
@@ -280,10 +302,10 @@
                                 <expan>page</expan>
                             </choice> 7</bibl>
                     </ref>
-                    <note xml:id="f44faf87-fc7d-4a29-8faf-87fc7daa295a" corresp="#aef3f9a4-c0f8-440d-b3f9-a4c0f8440db9">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
+                    <note xml:id="eba8a96d-114c-4be0-a8a9-6d114cabe005" corresp="#f874cccd-5cd0-4b75-b4cc-cd5cd0bb7548">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
                                 1814</bibl>, I.</note> Caroline et <lb/>
-                    <placeName ref="https://www.geonames.org/4155751">floride</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0004781 https://www.geonames.org/4155751">floride</placeName>
                     <supplied cert="high">,</supplied> n’aime que les <hi rendition="#u">côtes</hi>
                     <supplied cert="high">.</supplied>
                 </p>
@@ -294,8 +316,8 @@
                     </choice>
                 </p>
                 <p>Panicum<supplied cert="high">,</supplied> le genre le plus nombreux <lb/>en
-                    espèces, 39 espèces seulement en <placeName ref="https://www.geonames.org/4197000">
-                        <lb/>Géorgie</placeName> et Caroline <ref xml:id="f683782a-3910-44a6-8378-2a391014a644" corresp="#a66dc8b0-8793-4c43-adc8-b087931c43bf">
+                    espèces, 39 espèces seulement en <placeName ref="https://editon-humboldt.de/H0010842 https://www.geonames.org/4197000">
+                        <lb/>Géorgie</placeName> et Caroline <ref xml:id="b5fd5b01-75bf-4c5f-bd5b-0175bf9c5fb2" corresp="#c8634c8c-70bf-445f-a34c-8c70bfc45fb1">
                         <choice>
                                 <abbr>E.</abbr>
                                 <expan>Elliott</expan>
@@ -304,9 +326,9 @@
                                 <abbr>p</abbr>
                                 <expan>page</expan>
                             </choice> 180</ref>
-                    <note xml:id="a66dc8b0-8793-4c43-adc8-b087931c43bf" corresp="#f683782a-3910-44a6-8378-2a391014a644">Wohl <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott 1821 –1824</bibl>. Die betreffende Textstelle konnte nicht
+                    <note xml:id="c8634c8c-70bf-445f-a34c-8c70bfc45fb1" corresp="#b5fd5b01-75bf-4c5f-bd5b-0175bf9c5fb2">Wohl <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott 1821 –1824</bibl>. Die betreffende Textstelle konnte nicht
                             ermittelt werden.</note>.</p>
-                <p>Paspalum jusqu’à <placeName ref="https://www.geonames.org/5101760">New Jersey</placeName>
+                <p>Paspalum jusqu’à <placeName ref="https://editon-humboldt.de/H0001636 https://www.geonames.org/5101760">New Jersey</placeName>
                     <supplied cert="high">,</supplied>
                     <lb/>7 espèces<supplied cert="high">.</supplied>
                 </p>
@@ -319,9 +341,10 @@
                         <metamark/>(ou <choice>
                             <abbr>A.</abbr>
                             <expan>Azalea</expan>
-                        </choice> pericly-<lb/>menoides <lb/>
-                        <ref xml:id="b1afae9e-95df-40da-afae-9e95df60dae9" corresp="#e622ab77-0fe5-4cdc-a2ab-770fe5ecdc4a">
-                            <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                        </choice> pericly<g ref="#typoHyphen"/>
+                        <lb break="no"/>menoides <lb/>
+                        <ref xml:id="ace6068b-fc1e-4deb-a606-8bfc1eedebf2" corresp="#f141dfaa-04da-4a1f-81df-aa04da6a1f34">
+                            <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                                 <choice>
                                         <abbr>P.</abbr>
                                         <expan>Pursh</expan>
@@ -331,16 +354,16 @@
                                         <expan>page</expan>
                                     </choice> 152</bibl>
                         </ref>
-                        <note xml:id="e622ab77-0fe5-4cdc-a2ab-770fe5ecdc4a" corresp="#b1afae9e-95df-40da-afae-9e95df60dae9">
-                            <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
+                        <note xml:id="f141dfaa-04da-4a1f-81df-aa04da6a1f34" corresp="#ace6068b-fc1e-4deb-a606-8bfc1eedebf2">
+                            <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
                                     1814</bibl>, I.</note>.<supplied cert="high">)</supplied>
                     </note> et les 7–8 <lb/>varietés;
                     Kalmia latifolia 12 piés <choice>
                         <abbr>Rhododend</abbr>
                         <expan>Rhododendron</expan>
                     </choice>
-                    <lb/>maximum 20 piés. (<ref xml:id="a8ad3ff4-131c-4999-ad3f-f4131c99991b" corresp="#c13b738d-ac97-407c-bb73-8dac97c07c02">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">
+                    <lb/>maximum 20 piés. (<ref xml:id="d9dd244e-16ec-494d-9d24-4e16eca94d96" corresp="#ce5fa68a-bb67-4ab3-9fa6-8abb67cab3c0">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">
                             <choice>
                                     <abbr>E.</abbr>
                                     <expan>Elliott</expan>
@@ -350,8 +373,8 @@
                                     <expan>page</expan>
                                 </choice> 484</bibl>
                     </ref>
-                    <note xml:id="c13b738d-ac97-407c-bb73-8dac97c07c02" corresp="#a8ad3ff4-131c-4999-ad3f-f4131c99991b">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott
+                    <note xml:id="ce5fa68a-bb67-4ab3-9fa6-8abb67cab3c0" corresp="#d9dd244e-16ec-494d-9d24-4e16eca94d96">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott
                                 1821 –1824</bibl>, I.</note>); 16 espèces <choice>
                         <orig>de Andromeda</orig>
                         <reg>d’Andromeda</reg>
@@ -360,8 +383,8 @@
                         <abbr>A</abbr>
                         <expan>Azalea</expan>
                     </choice> arborea <measure quantity="60" unit="foot">60 piés</measure>
-                    <ref xml:id="dd495fdf-b3b4-4a29-895f-dfb3b45a29fc" corresp="#ba29fafc-a5d0-4ae3-a9fa-fca5d0cae3c5">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">
+                    <ref xml:id="badc4f59-aeae-420c-9c4f-59aeae920c2f" corresp="#ae35878e-cd12-45b6-b587-8ecd1255b66d">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">
                             <choice>
                                 <abbr>E.</abbr>
                                 <expan>Elliott</expan>
@@ -371,8 +394,8 @@
                                 <expan>page</expan>
                             </choice> 491</bibl>
                     </ref>
-                    <note xml:id="ba29fafc-a5d0-4ae3-a9fa-fca5d0cae3c5" corresp="#dd495fdf-b3b4-4a29-895f-dfb3b45a29fc">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott
+                    <note xml:id="ae35878e-cd12-45b6-b587-8ecd1255b66d" corresp="#badc4f59-aeae-420c-9c4f-59aeae920c2f">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott
                                 1821 –1824</bibl>, I.</note>. Vaccinium <choice>
                         <abbr>arbor</abbr>
                         <expan>arboreum</expan>
@@ -385,16 +408,16 @@
                     <choice>
                         <orig>superbe</orig>
                         <reg>Superbe</reg>
-                    </choice> Lobelia cardinalis <placeName ref="https://www.geonames.org/6251999">Canada</placeName>
+                    </choice> Lobelia cardinalis <placeName ref="https://editon-humboldt.de/H0000345 https://www.geonames.org/6251999">Canada</placeName>
                     <supplied cert="high">,</supplied>
-                    <placeName ref="https://www.geonames.org/4482348">Carolina</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0001707 https://www.geonames.org/4482348">Carolina</placeName>
                     <lb/>
                     <choice>
                         <abbr>L.</abbr>
                         <expan>Lobelia</expan>
-                    </choice> fulgens <placeName ref="https://www.geonames.org/7932547">Missipi</placeName>
-                    <ref xml:id="b223311b-0285-4d77-a331-1b0285ad7785" corresp="#c3a4a2b7-53d0-491e-a4a2-b753d0c91e7b">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                    </choice> fulgens <placeName ref="https://editon-humboldt.de/H0008887 https://www.geonames.org/7932547">Missipi</placeName>
+                    <ref xml:id="de9cfb50-799e-43d4-9cfb-50799eb3d40c" corresp="#d605b07f-7cfa-47e7-85b0-7f7cfab7e72c">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                 <abbr>P.</abbr>
                                 <expan>Pursh</expan>
@@ -404,14 +427,14 @@
                                 <expan>page</expan>
                             </choice> 448</bibl>
                     </ref>
-                    <note xml:id="c3a4a2b7-53d0-491e-a4a2-b753d0c91e7b" corresp="#b223311b-0285-4d77-a331-1b0285ad7785">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
+                    <note xml:id="d605b07f-7cfa-47e7-85b0-7f7cfab7e72c" corresp="#de9cfb50-799e-43d4-9cfb-50799eb3d40c">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
                                 1814</bibl>, II.</note> ou la nôtre?</p>
                 <p>Pinkneya pubescens presque Cinchona<supplied cert="high">,</supplied>
-                    <placeName ref="https://www.geonames.org/4197000">Géorgie</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0010842 https://www.geonames.org/4197000">Géorgie</placeName>
                     <lb/>
-                    <ref xml:id="ad6cdc53-8854-467c-acdc-538854467ce6" corresp="#c140c7b3-d02f-40a0-80c7-b3d02fc0a001">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                    <ref xml:id="a3f67d5f-786f-45ed-b67d-5f786fc5ed9d" corresp="#e4daf734-4e45-435e-9af7-344e45235e40">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                     <abbr>P</abbr>
                                     <expan>Pursh</expan>
@@ -421,10 +444,10 @@
                                     <expan>page</expan>
                                 </choice> 158</bibl>
                     </ref>
-                    <note xml:id="c140c7b3-d02f-40a0-80c7-b3d02fc0a001" corresp="#ad6cdc53-8854-467c-acdc-538854467ce6">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
-                                1814</bibl>, I.</note>. <ref xml:id="a4421ffa-d984-4d3d-821f-fad9848d3d80" corresp="#cfe6afcb-de8e-4447-a6af-cbde8e3447c0">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">
+                    <note xml:id="e4daf734-4e45-435e-9af7-344e45235e40" corresp="#a3f67d5f-786f-45ed-b67d-5f786fc5ed9d">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
+                                1814</bibl>, I.</note>. <ref xml:id="ea3c37a2-f60d-4556-bc37-a2f60db5569f" corresp="#cb79a4a2-13e8-4292-b9a4-a213e842920d">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">
                             <choice>
                                 <abbr>E</abbr>
                                 <expan>Elliott</expan>
@@ -434,19 +457,19 @@
                                 <expan>page</expan>
                             </choice> 268</bibl>
                     </ref>
-                    <note xml:id="cfe6afcb-de8e-4447-a6af-cbde8e3447c0" corresp="#a4421ffa-d984-4d3d-821f-fad9848d3d80">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott
+                    <note xml:id="cb79a4a2-13e8-4292-b9a4-a213e842920d" corresp="#ea3c37a2-f60d-4556-bc37-a2f60db5569f">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott
                                 1821–1824</bibl>, I.</note>
                     <supplied cert="high">.</supplied>
                 </p>
-                <p>Laurus 6 espèces jusqu’en <placeName ref="https://www.geonames.org/6251999">Canada</placeName>.</p>
+                <p>Laurus 6 espèces jusqu’en <placeName ref="https://editon-humboldt.de/H0000345 https://www.geonames.org/6251999">Canada</placeName>.</p>
                 <p>Bejaria racemosa 4–5 piés <choice>
                         <abbr>hau</abbr>
                         <expan>hauteur</expan>
                     </choice>
                     <supplied cert="high">,</supplied>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/4197000">Géorgie</placeName> et <placeName ref="https://www.geonames.org/4155751">Floride</placeName> surtout de <placeName ref="https://www.geonames.org/4220629">
+                    <placeName ref="https://editon-humboldt.de/H0010842 https://www.geonames.org/4197000">Géorgie</placeName> et <placeName ref="https://editon-humboldt.de/H0004781 https://www.geonames.org/4155751">Floride</placeName> surtout de <placeName ref="https://editon-humboldt.de/H0016304 https://www.geonames.org/4220629">
                         <lb/>
                         <choice>
                             <abbr>St</abbr>
@@ -454,8 +477,8 @@
                         </choice> Marie</placeName>
                     <supplied cert="high">.</supplied>
                 </p>
-                <p>Parnassia <gap unit="words" quantity="1" reason="illegible"/> deux espèces <ref xml:id="ca749a62-5fa9-4320-b49a-625fa9132083" corresp="#ae60ad8d-e04c-4222-a0ad-8de04cc22299">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">
+                <p>Parnassia <gap unit="words" quantity="1" reason="illegible"/> deux espèces <ref xml:id="b465a0d2-3b5c-4f94-a5a0-d23b5cff94a0" corresp="#f05a83db-a2c0-4608-9a83-dba2c036086a">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">
                             <choice>
                                 <abbr>E.</abbr>
                                 <expan>Elliott</expan>
@@ -465,11 +488,11 @@
                                 <expan>page</expan>
                             </choice> 871</bibl>
                     </ref>
-                    <note xml:id="ae60ad8d-e04c-4222-a0ad-8de04cc22299" corresp="#ca749a62-5fa9-4320-b49a-625fa9132083">vielmehr: <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott 1821 –1824</bibl>, I, 371.</note>
+                    <note xml:id="f05a83db-a2c0-4608-9a83-dba2c036086a" corresp="#b465a0d2-3b5c-4f94-a5a0-d23b5cff94a0">vielmehr: <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott 1821 –1824</bibl>, I, 371.</note>
                     <supplied cert="high">.</supplied>
                 </p>
                 <p>7 espèces de Rhexia (Caroline<supplied cert="high">,</supplied>
-                    <placeName ref="https://www.geonames.org/614540">Géorgie</placeName>)<supplied cert="high">.</supplied>
+                    <placeName ref="https://editon-humboldt.de/H0010843 https://www.geonames.org/614540">Géorgie</placeName>)<supplied cert="high">.</supplied>
                 </p>
                 <p>Mimoses. <choice>
                         <orig>encore</orig>
@@ -478,9 +501,9 @@
                     <choice>
                         <abbr>Schr.</abbr>
                         <expan>Schrankia</expan>
-                    </choice> horridula <placeName ref="https://www.geonames.org/6254928">Virginie</placeName>
-                    <ref xml:id="cc9a82b2-5d42-4626-9a82-b25d4226264a" corresp="#abbbbc81-a6b9-4a09-bbbc-81a6b91a098a">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                    </choice> horridula <placeName ref="https://editon-humboldt.de/H0009177 https://www.geonames.org/6254928">Virginie</placeName>
+                    <ref xml:id="d1d96056-e552-428e-9960-56e552028e3f" corresp="#c7b60d5d-c468-4aaf-b60d-5dc4687aaf8a">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                 <abbr>P.</abbr>
                                 <expan>Pursh</expan>
@@ -490,22 +513,22 @@
                                 <expan>page</expan>
                             </choice> 305</bibl>
                     </ref>
-                    <note xml:id="abbbbc81-a6b9-4a09-bbbc-81a6b91a098a" corresp="#cc9a82b2-5d42-4626-9a82-b25d4226264a">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
+                    <note xml:id="c7b60d5d-c468-4aaf-b60d-5dc4687aaf8a" corresp="#d1d96056-e552-428e-9960-56e552028e3f">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
                                 1814</bibl>, I.</note>. </p>
                 <p>2 Acacias <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
-                    </choice> 305 <placeName ref="https://www.geonames.org/6254925">Kentucky</placeName>
+                    </choice> 305 <placeName ref="https://editon-humboldt.de/H0000399 https://www.geonames.org/6254925">Kentucky</placeName>
                 </p>
-                <p>et 8 Cassia <placeName ref="https://www.geonames.org/6254928">Virginie</placeName>
+                <p>et 8 Cassia <placeName ref="https://editon-humboldt.de/H0009177 https://www.geonames.org/6254928">Virginie</placeName>
                     <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
                     </choice> 306<supplied cert="high">,</supplied>
                 </p>
-                <p>Linnaea <ref xml:id="d40b0316-02b5-4b05-8b03-1602b5eb05d2" corresp="#d08fc528-01ee-42b9-8fc5-2801ee02b94e">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                <p>Linnaea <ref xml:id="b824742d-980f-490a-a474-2d980f090a39" corresp="#e0fd016c-2d45-480c-bd01-6c2d45980c71">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                 <abbr>P</abbr>
                                 <expan>Pursh</expan>
@@ -515,13 +538,13 @@
                                 <expan>page</expan>
                             </choice> 414</bibl>
                     </ref>
-                    <note xml:id="d08fc528-01ee-42b9-8fc5-2801ee02b94e" corresp="#d40b0316-02b5-4b05-8b03-1602b5eb05d2">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
+                    <note xml:id="e0fd016c-2d45-480c-bd01-6c2d45980c71" corresp="#b824742d-980f-490a-a474-2d980f090a39">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
                                 1814</bibl>, II.</note>
                     <supplied cert="high">,</supplied>
                 </p>
-                <p>2 Polymnia <ref xml:id="faf033df-2b04-433c-b033-df2b04a33c93" corresp="#dfb68cbd-b80e-4912-b68c-bdb80ea91236">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                <p>2 Polymnia <ref xml:id="ac91e132-1354-4a35-91e1-321354fa35c6" corresp="#bf214dd1-91b7-4d8e-a14d-d191b7cd8ebe">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                 <abbr>P</abbr>
                                 <expan>Pursh</expan>
@@ -531,13 +554,13 @@
                                 <expan>page</expan>
                             </choice> 579</bibl>
                     </ref>
-                    <note xml:id="dfb68cbd-b80e-4912-b68c-bdb80ea91236" corresp="#faf033df-2b04-433c-b033-df2b04a33c93">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
+                    <note xml:id="bf214dd1-91b7-4d8e-a14d-d191b7cd8ebe" corresp="#ac91e132-1354-4a35-91e1-321354fa35c6">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
                                 1814</bibl>, II.</note>
                     <supplied cert="high">,</supplied>
                 </p>
-                <p>Dionaea seulement près <placeName ref="https://www.geonames.org/4499379">Wilmington</placeName>
-                    <placeName ref="https://www.geonames.org/4482348">
+                <p>Dionaea seulement près <placeName ref="https://editon-humboldt.de/H0007969 https://www.geonames.org/4499379">Wilmington</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0001707 https://www.geonames.org/4482348">
                         <choice>
                             <abbr>N.</abbr>
                             <expan>North</expan>
@@ -549,8 +572,8 @@
                     </placeName>
                     <supplied cert="high">,</supplied>
                     <lb/>
-                    <ref xml:id="badaa670-45b6-4c38-9aa6-7045b64c387f" corresp="#c0acf1a7-1ab7-4a24-acf1-a71ab78a24c3">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">
+                    <ref xml:id="c56c9e65-5c28-42ce-ac9e-655c28a2ce55" corresp="#fc238494-cc13-4b65-a384-94cc13ab650d">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">
                             <choice>
                                 <abbr>E.</abbr>
                                 <expan>Elliott</expan>
@@ -560,12 +583,12 @@
                                 <expan>page</expan>
                             </choice> 479</bibl>
                     </ref>
-                    <note xml:id="c0acf1a7-1ab7-4a24-acf1-a71ab78a24c3" corresp="#badaa670-45b6-4c38-9aa6-7045b64c387f">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZCZS2BBC">Elliott
+                    <note xml:id="fc238494-cc13-4b65-a384-94cc13ab650d" corresp="#c56c9e65-5c28-42ce-ac9e-655c28a2ce55">
+                        <bibl corresp="https://edition-humboldt.de/ZCZS2BBC">Elliott
                                 1821 –1824</bibl>, I.</note>
                     <supplied cert="high">,</supplied>
-                    <ref xml:id="ff00a010-59c2-4b37-80a0-1059c2cb379a" corresp="#f0deb717-3337-470d-9eb7-173337f70d6d">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">
+                    <ref xml:id="c4caed54-a507-46d3-8aed-54a50746d3de" corresp="#cc5f5262-fe74-4fd1-9f52-62fe749fd1cf">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">
                             <choice>
                                 <abbr>P</abbr>
                                 <expan>Pursh</expan>
@@ -575,8 +598,8 @@
                                 <expan>page</expan>
                             </choice> 304</bibl>
                     </ref>
-                    <note xml:id="f0deb717-3337-470d-9eb7-173337f70d6d" corresp="#ff00a010-59c2-4b37-80a0-1059c2cb379a">
-                        <bibl corresp="https://edition-humboldt.de/v8/M4TNQJF9">Pursh
+                    <note xml:id="cc5f5262-fe74-4fd1-9f52-62fe749fd1cf" corresp="#c4caed54-a507-46d3-8aed-54a50746d3de">
+                        <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh
                                 1814</bibl>, I.</note>
                     <supplied cert="high">.</supplied>
                 </p>

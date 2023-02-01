@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0012155">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Dávalos, Rafael José </title>
             </titleStmt>
+            <editionStmt>
+                <p>Dávalos, Rafael José  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0012155.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0012155.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0012155.xml">
-                    <p>Dávalos, Rafael José  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0012155.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0012155">
+                <person>
                     <persName type="reg">
                         <surname>Dávalos</surname>
                         <forename>Rafael José </forename>
                     </persName>
                     <birth/>
                     <death>1810</death>
-                    <note>1800–1805 Schüler der <orgName key="H0000577">Berghochschule in
+                    <note>1800–1805 Schüler der <orgName ref="https://editon-humboldt.de/H0000577">Berghochschule in
                             Mexiko-Stadt</orgName>, Gehilfe Humboldts beim Kartographieren; nach
                         1805 Professor für Mathematik in Guanajuato (Mexiko); wegen Beteiligung an
                         der Unabhängigkeitsbewegung 1810 hingerichtet</note>

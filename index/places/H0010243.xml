@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0010243">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>La Silla de Paita</title>
             </titleStmt>
+            <editionStmt>
+                <p>La Silla de Paita [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0010243.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,41 +20,42 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0010243.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0010243.xml">
-                    <p>La Silla de Paita [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0010243.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0010243">
-                    <idno type="uri">https://www.geonames.org/3691824</idno>
-                    <placeName type="reg">La Silla de Paita</placeName>
-                    <placeName type="alt">Montaña de Avila</placeName>
-                    <placeName type="alt">Cerro de Avila</placeName>
-                    <placeName type="alt">Sierra de Avila</placeName>
-                    <note>Berg und gleichnamiger Berggipfel bei Paita, Peru</note>
-                    <linkGrp>
-                        <ptr target="16#23" type="letter"/>
-                        <ptr target="16#26" type="letter"/>
-                        <ptr target="16#27" type="letter"/>
-                        <ptr target="16#37" type="letter"/>
-                        <ptr target="16#41" type="letter"/>
-                        <ptr target="41#2" type="letter"/>
-                        <ptr target="41#15" type="letter"/>
-                        <ptr subtype="comment" target="41#15" type="letter"/>
-                        <ptr target="41#16" type="letter"/>
-                        <ptr target="41#19" type="letter"/>
-                        <ptr target="41#28" type="letter"/>
-                        <ptr target="41#64" type="letter"/>
-                    </linkGrp>
-                </place>
+                <place>
+            <idno type="uri">https://www.geonames.org/3691824</idno>
+            <placeName type="reg">La Silla de Paita</placeName>
+            <placeName type="alt">Montaña de Avila</placeName>
+            <placeName type="alt">Cerro de Avila</placeName>
+            <placeName type="alt">Sierra de Avila</placeName>
+            <note>Berg und gleichnamiger Berggipfel bei Paita, Peru</note>
+            <linkGrp>
+                <ptr target="16#23" type="letter"/>
+                <ptr target="16#26" type="letter"/>
+                <ptr target="16#27" type="letter"/>
+                <ptr target="16#37" type="letter"/>
+                <ptr target="16#41" type="letter"/>
+                <ptr target="41#2" type="letter"/>
+                <ptr target="41#15" type="letter"/>
+                <ptr subtype="comment" target="41#15" type="letter"/>
+                <ptr target="41#16" type="letter"/>
+                <ptr target="41#19" type="letter"/>
+                <ptr target="41#28" type="letter"/>
+                <ptr target="41#64" type="letter"/>
+            </linkGrp>
+        </place>
             </listPlace>
         </body>
     </text>

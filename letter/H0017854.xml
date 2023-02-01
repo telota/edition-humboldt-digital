@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017854">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,29 +28,57 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Johann Moritz Rugendas an Alexander von Humboldt. Augsburg, 20. März 1826, hg. v. Ulrich Päßler unter Mitarbeit von Lisa Poggel und Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0017854">https://edition-humboldt.de/v8/H0017854</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0017854</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0017854</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017854.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Johann Moritz Rugendas an Alexander von Humboldt. Augsburg, 20. März 1826. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0017854</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 38, Bl. 1r</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1035677</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/QHMIHAVB">Löschner 1976</bibl>, 177–179.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 291–292.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
-                    <placeName ref="https://www.geonames.org/2954172">Augsburg (Stadt in Bayern (Deutschland))</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0002622 https://www.geonames.org/2954172">Augsburg (Stadt in Bayern (Deutschland))</placeName>
                     <date when="1826-03-20" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -64,7 +92,7 @@
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/1037584171">Gide</persName> me
+                    <persName ref="https://editon-humboldt.de/H0013466 http://d-nb.info/gnd/1037584171">Gide</persName> me
                         <lb/>doit
                         40<hi rendition="#sup">#</hi>
                     <lb/>
@@ -78,40 +106,41 @@
                 <p>Ich erwiedere Ihr gütiges Schreiben vom ersten Februar, welches <lb/>aber erst
                     den 4ten Maerz hier eintraf<supplied cert="high">,</supplied> etwas
                         spaet<supplied cert="high">,</supplied> da ich<supplied cert="high">,</supplied> um <lb/>Ihrem Auftrage wegen der botanischen Benennung der
-                        <ref xml:id="d8caaafe-ff39-4215-8aaa-feff39e21587" corresp="#d891956b-4e56-4315-9195-6b4e56931518">Palmen</ref>
-                    <note xml:id="d891956b-4e56-4315-9195-6b4e56931518" corresp="#d8caaafe-ff39-4215-8aaa-feff39e21587">
-                        <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000008">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 3</ref>,<ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000010"> Bl. 4</ref> und <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">5</ref>.</note> zu <lb/>entsprechen, nachdem ich auf 2 Anfragen bey <persName ref="http://d-nb.info/gnd/118731416">Martius</persName> keine genü-<lb/>gende Auskunft erhielt, <choice>
+                        <ref xml:id="dad291bc-2304-4867-9291-bc2304c867df" corresp="#fdc781b3-4db3-4610-8781-b34db3b6108a">Palmen</ref>
+                    <note xml:id="fdc781b3-4db3-4610-8781-b34db3b6108a" corresp="#dad291bc-2304-4867-9291-bc2304c867df">
+                        <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000008">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 3</ref>,<ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000010"> Bl. 4</ref> und <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">5</ref>.</note> zu <lb/>entsprechen, nachdem ich auf 2 Anfragen bey <persName ref="https://editon-humboldt.de/H0013985 http://d-nb.info/gnd/118731416">Martius</persName> keine genü<g ref="#typoHyphen"/>
+                    <lb break="no"/>gende Auskunft erhielt, <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> sich in hiesiger <choice>
                         <sic>Bibliotheke</sic>
                         <corr cert="high">Bibliothek</corr>
-                    </choice> sein Werk <lb/>nicht befindet, mich nach <placeName ref="https://www.geonames.org/2867714">München</placeName> begeben mußte<supplied cert="high">,</supplied> um
+                    </choice> sein Werk <lb/>nicht befindet, mich nach <placeName ref="https://editon-humboldt.de/H0009046 https://www.geonames.org/2867714">München</placeName> begeben mußte<supplied cert="high">,</supplied> um
                     selber nach <lb/>zu schlagen.</p>
-                <p>Demnach fand ich<supplied cert="high">,</supplied> daß die <ref xml:id="d0299a76-3d0d-45bc-a99a-763d0d85bcdd" corresp="#f1c6aeae-f1f5-4c3c-86ae-aef1f5ac3ce9">Palme mit dem Neger <choice>
+                <p>Demnach fand ich<supplied cert="high">,</supplied> daß die <ref xml:id="e9de34d4-97bb-4b42-9e34-d497bb5b42fb" corresp="#bd47f47e-9682-4a49-87f4-7e96829a49ff">Palme mit dem Neger <choice>
                                 <abbr>u.</abbr>
                                 <expan>und</expan>
                             </choice> der Tamarinde</ref>
-                    <note xml:id="f1c6aeae-f1f5-4c3c-86ae-aef1f5ac3ce9" corresp="#d0299a76-3d0d-45bc-a99a-763d0d85bcdd">
+                    <note xml:id="bd47f47e-9682-4a49-87f4-7e96829a49ff" corresp="#e9de34d4-97bb-4b42-9e34-d497bb5b42fb">
                         <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000010">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 4</ref>.</note>
-                    <lb/>in <placeName ref="https://www.geonames.org/3471168">Bahia</placeName>
+                    <lb/>in <placeName ref="https://editon-humboldt.de/H0017805 https://www.geonames.org/3471168">Bahia</placeName>
                     <supplied cert="high">,</supplied> wo ich sie – im Juny 1825 – gezeichnet<supplied cert="high">,</supplied> D.Endé – Dendezeiro <lb/>
                     <choice>
                         <orig>genan̅t</orig>
                         <reg>genannt</reg>
-                    </choice>, von <persName ref="http://d-nb.info/gnd/118731416">Martius</persName> als <name type="plant">Elaeis guineensis</name>, – <ref xml:id="f2badaa7-a685-424f-bada-a7a685724f7d" corresp="#c512f4ad-e53e-4f4a-92f4-ade53e8f4a6a">jene in der Provinz <placeName ref="https://www.geonames.org/3451190">
+                    </choice>, von <persName ref="https://editon-humboldt.de/H0013985 http://d-nb.info/gnd/118731416">Martius</persName> als <name type="plant">Elaeis guineensis</name>, – <ref xml:id="f695a4dc-1a0c-4449-95a4-dc1a0c4449b5" corresp="#d1e4c93f-c40f-4361-a4c9-3fc40f5361d4">jene in der Provinz <placeName ref="https://editon-humboldt.de/H0010546 https://www.geonames.org/3451190">
                             <lb/>Rio
                                 Janeiro</placeName> gezeichnete schlancke Palme neben der
                             Araucarie</ref>
-                    <note xml:id="c512f4ad-e53e-4f4a-92f4-ade53e8f4a6a" corresp="#f2badaa7-a685-424f-bada-a7a685724f7d">
+                    <note xml:id="d1e4c93f-c40f-4361-a4c9-3fc40f5361d4" corresp="#f695a4dc-1a0c-4449-95a4-dc1a0c4449b5">
                         <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 5</ref>.</note>
                     <lb/>von den Portugiesen Ricury oder mit dem allgemeinen Namen <lb/>Coquero
-                    bezeichnet, als <name type="plant">Cocos coronata</name>, – ferner <ref xml:id="b7efb393-99e9-4026-afb3-9399e9102633" corresp="#f9463403-ed2e-402d-8634-03ed2e402d32">die in <placeName ref="https://www.geonames.org/3457153">Minas <lb/>Geraes</placeName> am
-                                <placeName ref="https://www.geonames.org/3445366">Rio das Velhas</placeName> im <choice>
+                    bezeichnet, als <name type="plant">Cocos coronata</name>, – ferner <ref xml:id="ecf0482d-3d7d-48bf-b048-2d3d7d78bf54" corresp="#f9b6541a-d12f-4cfa-b654-1ad12f5cfa66">die in <placeName ref="https://editon-humboldt.de/H0017780 https://www.geonames.org/3457153">Minas <lb/>Geraes</placeName> am
+                                <placeName ref="https://editon-humboldt.de/H0017701 https://www.geonames.org/3445366">Rio das Velhas</placeName> im <choice>
                                 <abbr>Nov.</abbr>
                                 <expan>November</expan>
                             </choice> 1824. entworfene Palmgruppe <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00019EED00000002"/>der Macauba, Macaiba oder Cataró</ref>
-                    <note xml:id="f9463403-ed2e-402d-8634-03ed2e402d32" corresp="#b7efb393-99e9-4026-afb3-9399e9102633">
+                    <note xml:id="f9b6541a-d12f-4cfa-b654-1ad12f5cfa66" corresp="#ecf0482d-3d7d-48bf-b048-2d3d7d78bf54">
                         <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000008">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 3</ref>.</note> – von Martius als <lb/>
                     <name type="plant">A<supplied cert="high">c</supplied>rocomia <choice>
                             <sic>scelerocarpa</sic>
@@ -162,15 +191,16 @@
                 <p>Die Araucarie habe ich gleich ganz vollendet, da mich gerade einige <lb/>trübe
                     Tage am malen hinderten, sollte sie sich so nicht zu Ihrem <lb/>Gebrauche
                     eignen, so bitte ich sie einstweilen zurückzulegen und <lb/>mir gefälligst Ihre
-                    Meinung mitzutheilen. Mit dieser Gele-<lb/>genheit hoffe ich zu hören, ob sich die spätere Zeichnungssendung <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB00019EED00000003"/>ebenfalls Ihres gütigen Beyfalles, welcher mir äusserst werth war, zu
+                    Meinung mitzutheilen. Mit dieser Gele<g ref="#typoHyphen"/>
+                    <lb break="no"/>genheit hoffe ich zu hören, ob sich die spätere Zeichnungssendung <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB00019EED00000003"/>ebenfalls Ihres gütigen Beyfalles, welcher mir äusserst werth war, zu
                     <lb/>erfreuen hatten.</p>
                 <p>Gegenwärtig beschaeftigt mich hier ein grösseres Öhlgemälde<supplied cert="high">,</supplied> eine <lb/>Scene in einem <choice>
                         <abbr>bras.</abbr>
                         <expan>brasilianischen</expan>
                     </choice> Urwalde vorstellend, nach dessen Beendigung <lb/>ich meine Reiße nach
-                        <placeName ref="https://www.geonames.org/2988507">Paris</placeName> wieder anzutretten gedencke. </p>
+                        <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> wieder anzutretten gedencke. </p>
                 <p>Hier nehme ich mir die Freyheit Ihnen verehrtester Herr Baron <lb/>mitzutheilen,
-                    daß ich von dem Hauße <orgName ref="http://d-nb.info/gnd/1085932001">Engelman <choice>
+                    daß ich von dem Hauße <orgName ref="https://editon-humboldt.de/H0018001 http://d-nb.info/gnd/1085932001">Engelman <choice>
                             <abbr>Comp.</abbr>
                             <expan>Compagnie</expan>
                         </choice>
@@ -178,13 +208,13 @@
                     <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
-                    </choice> Aufforderungen zur <ref xml:id="e043c9b4-d545-4ca3-83c9-b4d5453ca325" corresp="#d1ce9f03-eb5f-46b9-8e9f-03eb5f76b994">Herausgabe meiner Scizzen erhalten habe,</ref>
-                    <note xml:id="d1ce9f03-eb5f-46b9-8e9f-03eb5f76b994" corresp="#e043c9b4-d545-4ca3-83c9-b4d5453ca325">Rugendas’ <hi rendition="#i">Malerische Reise in Brasilien</hi> erschien zwischen 1827
-                                    und 1835 mit einem Text von <persName ref="http://d-nb.info/gnd/118554107">Victor Aimé
+                    </choice> Aufforderungen zur <ref xml:id="bb214fcd-f0be-403c-a14f-cdf0be903cf2" corresp="#ce426ad6-c23b-45bf-826a-d6c23b35bf08">Herausgabe meiner Scizzen erhalten habe,</ref>
+                    <note xml:id="ce426ad6-c23b-45bf-826a-d6c23b35bf08" corresp="#bb214fcd-f0be-403c-a14f-cdf0be903cf2">Rugendas’ <hi rendition="#i">Malerische Reise in Brasilien</hi> erschien zwischen 1827
+                                    und 1835 mit einem Text von <persName ref="https://editon-humboldt.de/H0012031 http://d-nb.info/gnd/118554107">Victor Aimé
                                         Huber</persName> parallel auf deutsch und französisch
-                                    (<bibl corresp="https://edition-humboldt.de/v8/4M7BCH3N">Rugendas 1827–1835</bibl>, <bibl corresp="https://edition-humboldt.de/v8/V2BWUHXA">Rugendas 1835</bibl>). Humboldt
+                                    (<bibl corresp="https://edition-humboldt.de/4M7BCH3N">Rugendas 1827–1835</bibl>, <bibl corresp="https://edition-humboldt.de/V2BWUHXA">Rugendas 1835</bibl>). Humboldt
                             hatte Rugendas bei der Suche nach einem Verlag unterstützt und half wohl
-                            auch bei der Auswahl der Motive (<bibl corresp="https://edition-humboldt.de/v8/PE652NCX">Achenbach 2009</bibl>, 65–67).</note>
+                            auch bei der Auswahl der Motive (<bibl corresp="https://edition-humboldt.de/PE652NCX">Achenbach 2009</bibl>, 65–67).</note>
                     <lb/>denen ich keineswegs abgeneigt wäre, nur scheint mir daß sich für
                     <lb/>dieses lithographische Unternehmen – ein Theil meiner Studien, die
                         <lb/>Palmen<supplied cert="high">-</supplied>
@@ -201,7 +231,7 @@
                         <reg>genannten</reg>
                     </choice>
                     <lb/>
-                    <orgName ref="http://d-nb.info/gnd/1085932001">Hauße</orgName> den Verkauf schließe – Herr
+                    <orgName ref="https://editon-humboldt.de/H0018001 http://d-nb.info/gnd/1085932001">Hauße</orgName> den Verkauf schließe – Herr
                     Baron – Sie um Ihren gütigen <lb/>Rath bitten, dem ich <choice>
                         <orig>nachzukom̅en</orig>
                         <reg>nachzukommen</reg>
@@ -214,16 +244,16 @@
                         <orig>Erin̅erung</orig>
                         <reg>Erinnerung</reg>
                     </choice>
-                    <lb/>meiner bey Herrn Baron <persName ref="http://d-nb.info/gnd/119284936">Gérard</persName>, danke
+                    <lb/>meiner bey Herrn Baron <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">Gérard</persName>, danke
                         <supplied cert="high">ich</supplied> im voraus für die gütige <lb/>Erwähnung
-                    in Ihrem <ref xml:id="f24aafe0-218d-4cd5-8aaf-e0218d5cd5d0" corresp="#e0ffce95-dd7a-48fb-bfce-95dd7a68fb99">
+                    in Ihrem <ref xml:id="dc4984f6-ab09-44bb-8984-f6ab0914bb32" corresp="#e42acf55-f855-4b66-aacf-55f8559b6604">
                         <choice>
                                 <orig>Program̅e</orig>
                                 <reg>Programme</reg>
                             </choice>
                     </ref>
-                    <note xml:id="e0ffce95-dd7a-48fb-bfce-95dd7a68fb99" corresp="#f24aafe0-218d-4cd5-8aaf-e0218d5cd5d0">
-                        <bibl corresp="https://edition-humboldt.de/v8/EUSFRJ4Z">Humboldt 1826a</bibl>, <bibl corresp="https://edition-humboldt.de/v8/E6RB8HWM">Humboldt
+                    <note xml:id="e42acf55-f855-4b66-aacf-55f8559b6604" corresp="#dc4984f6-ab09-44bb-8984-f6ab0914bb32">
+                        <bibl corresp="https://edition-humboldt.de/EUSFRJ4Z">Humboldt 1826a</bibl>, <bibl corresp="https://edition-humboldt.de/E6RB8HWM">Humboldt
                                 1826b</bibl>.</note> – <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>

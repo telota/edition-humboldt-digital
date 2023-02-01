@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006159">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7,32 +7,41 @@
                     </title>
                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (16. November 1826) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006159">https://edition-humboldt.de/v8/H0006159</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006159</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006159</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006159.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1826. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0006159</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> H. trägt in der <orgName ref="http://d-nb.info/gnd/35495-8">Berliner Akademie</orgName> einen
-                    Bericht vom 13.11. über die Reise von <persName ref="http://d-nb.info/gnd/118529250">Christian
-                        Gottfried Ehrenberg</persName> und <persName ref="http://d-nb.info/gnd/117516376">Friedrich
-                            Wilhelm Hemprich</persName> durch <placeName ref="https://www.geonames.org/357994">Ägypten</placeName>, <placeName ref="https://www.geonames.org/163843">Syrien</placeName>,
-                    <placeName ref="https://www.geonames.org/102358">Arabien</placeName> etc. (1820–1825) vor. (<bibl corresp="https://edition-humboldt.de/v8/Y3MBCB48">Humboldt 1826</bibl>; online verfügbar im <hi rendition="#i">Deutschen Textarchiv</hi>, 
+                <p> H. trägt in der <orgName ref="https://editon-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Berliner Akademie</orgName> einen
+                    Bericht vom 13.11. über die Reise von <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian
+                        Gottfried Ehrenberg</persName> und <persName ref="https://editon-humboldt.de/H0011778 http://d-nb.info/gnd/117516376">Friedrich
+                            Wilhelm Hemprich</persName> durch <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Ägypten</placeName>, <placeName ref="https://editon-humboldt.de/H0010421 https://www.geonames.org/163843">Syrien</placeName>,
+                    <placeName ref="https://editon-humboldt.de/H0002504 https://www.geonames.org/102358">Arabien</placeName> etc. (1820–1825) vor. (<bibl corresp="https://edition-humboldt.de/Y3MBCB48">Humboldt 1826</bibl>; online verfügbar im <hi rendition="#i">Deutschen Textarchiv</hi>, 
                     <ref target="https://www.deutschestextarchiv.de/humboldt_bericht_1826">https://www.deutschestextarchiv.de/humboldt_bericht_1826</ref>.)</p>
             </body>
         </text>

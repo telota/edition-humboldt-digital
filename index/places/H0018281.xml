@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018281">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Tadeicken</title>
             </titleStmt>
+            <editionStmt>
+                <p>Tadeicken [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018281.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018281.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018281.xml">
-                    <p>Tadeicken [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018281.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018281">
+                <place>
                     <idno type="uri">https://www.geonames.org/454978</idno>
                     <placeName type="reg">Tadeicken</placeName>
                     <placeName type="alt">Tadaiki</placeName>
                     <placeName type="alt">Dateika</placeName>
-                    <note>Station an der Poststraße zwischen <placeName key="H0000424">Memel</placeName> und <placeName key="H0008889">Mitau</placeName> im russischen Gouvernement <placeName key="H0000508">Kurland</placeName> (Lettland)</note>
+                    <note>Station an der Poststraße zwischen <placeName ref="https://editon-humboldt.de/H0000424 https://www.geonames.org/598098">Memel</placeName> und <placeName ref="https://editon-humboldt.de/H0008889 https://www.geonames.org/459279">Mitau</placeName> im russischen Gouvernement <placeName ref="https://editon-humboldt.de/H0000508">Kurland</placeName> (Lettland)</note>
                 </place>
             </listPlace>
         </body>

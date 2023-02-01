@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016663">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [September
+               1836] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016663">https://edition-humboldt.de/v8/H0016663</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016663</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016663</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016663.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [September
-               1836] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016663</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">95</idno>
+                     <idno type="shelfmark">421, Bl. 176r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1836-09" notAfter="1836-09">1836-09-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Bezug: Brief 80, vgl. Berlinische Nachrichten von Staats- und
                gelehrten Sachen Nr. 209 vom 7. September 1836, S. 6</note>
@@ -71,9 +89,9 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> Ihr <lb/>Talent und Ihren Charakter <lb/>durchdrungen ist<supplied cert="high">.</supplied> Da Ihr <lb/>Brief vor 300 Menschen gelesen <lb/>wird so
-               muss er ganz in <lb/>der Form sein wie er <lb/>in <placeName ref="https://www.geonames.org/3017382">Frankreich</placeName> vor einer <lb/>solchen Versammlung einen <lb/>ernsten
+               muss er ganz in <lb/>der Form sein wie er <lb/>in <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName> vor einer <lb/>solchen Versammlung einen <lb/>ernsten
                Effect hervorbringen <lb/>kann. Ich habe also selbst <lb/>was Sie mir gesagt, was
-               <lb/>in Ihren 2 Schematen <lb/>lag und Ihrer wissenschaft<lb/>lichen
+               <lb/>in Ihren 2 Schematen <lb/>lag und Ihrer wissenschaft<lb break="no"/>lichen
                Stellung erheischt <lb/>zusammengestellt und schlage <lb/>Ihnen eine Redaction
                <lb/>vor aus der Sie wieder <lb/>mit mir gemeinschaftlich <lb/>ausstreichen können
                was <lb/>Sie wollen. Da ich um <lb/>12 <choice>

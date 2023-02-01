@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003466">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bond, William Cranch</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bond, William Cranch [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003466.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003466.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003466.xml">
-                    <p>Bond, William Cranch [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003466.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003466">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117618187</idno>
                     <persName type="reg">
                         <surname>Bond</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1789</birth>
                     <death>1859</death>
-                    <note>US-amerikanischer Astronom; ab 1839 Direktor des <orgName key="H0000551">Harvard College Observatory</orgName>
+                    <note>US-amerikanischer Astronom; ab 1839 Direktor des <orgName ref="https://editon-humboldt.de/H0000551 http://d-nb.info/gnd/5030386-7">Harvard College Observatory</orgName>
                     </note>
                     <linkGrp>
                         <ptr target="19#267–269" type="page"/>

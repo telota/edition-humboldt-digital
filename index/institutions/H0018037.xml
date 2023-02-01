@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018037">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title/>
             </titleStmt>
+            <editionStmt>
+                <p> [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018037.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,30 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018037.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018037.xml">
-                    <p> [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018037.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018037">
+                <org>
                     <orgName type="reg">Svinečnoe mestoroždenie</orgName>
                     <orgName type="alt">Свинечное месторождение</orgName>
                     <orgName type="alt">Bleigrube</orgName>
-                    <desc>Bleigrube im <placeName key="H0005151">Bertevaja</placeName>-Bergrücken etwa 1,5 km vom Ort
-                        Šilovka gelegen, zwischen <placeName key="H0001688">Nižnij Tagil</placeName> und <placeName key="H0002366">Alapaevsk</placeName>. </desc>
+                    <desc>Bleigrube im <placeName ref="https://editon-humboldt.de/H0005151">Bertevaja</placeName>-Bergrücken etwa 1,5 km vom Ort
+                        Šilovka gelegen, zwischen <placeName ref="https://editon-humboldt.de/H0001688 https://www.geonames.org/520494">Nižnij Tagil</placeName> und <placeName ref="https://editon-humboldt.de/H0002366 https://www.geonames.org/1511954">Alapaevsk</placeName>. </desc>
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/1489212</idno>
-                            <settlement key="H0018193">Šilovka [Шиловка]</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0018193">Šilovka [Шиловка]</settlement>
                             <note/>
                         </address>
                     </location>

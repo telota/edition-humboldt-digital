@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017549">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Baskunčak</title>
             </titleStmt>
+            <editionStmt>
+                <p>Baskunčak [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017549.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017549.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017549.xml">
-                    <p>Baskunčak [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017549.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017549">
+                <place>
                     <idno type="uri">https://www.geonames.org/578801</idno>
                     <placeName type="reg">Baskunčak</placeName>
                     <placeName type="alt">Баскунчак</placeName>
@@ -39,14 +44,13 @@
                     <placeName type="alt">Lake Baskunchak</placeName>
                     <placeName type="alt">Lac Baskountchak</placeName>
                     <placeName type="alt">Bаskuntschatskischer Salzsee</placeName>
-                    <!-- Rose 1837/1842, II, 227 -->
+                    
                     <placeName type="alt">Lac Bаschuntschazki</placeName>
                     <placeName type="alt">Bogdo See</placeName>
                     <placeName type="alt">Boscontschats Koya</placeName>
                     <placeName type="alt">Baskuntschatskoe See</placeName>
-                    <note>Salzsee nördlich des Berges <placeName key="H0017565">Bogdo</placeName> am linken <placeName key="H0007984">Wolga</placeName>-Ufer zwischen <placeName key="H0002585">Astrachan</placeName> und <placeName key="H0017314">Wolgograd</placeName>
-                        <!-- für eine zeitgenössische Darstellung vgl. Erdmann 1822-1826, II.1, Tab. V -->
-                    </note>
+                    <note>Salzsee nördlich des Berges <placeName ref="https://editon-humboldt.de/H0017565 https://www.geonames.org/573710">Bogdo</placeName> am linken <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName>-Ufer zwischen <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName> und <placeName ref="https://editon-humboldt.de/H0017314 https://www.geonames.org/472752">Wolgograd</placeName>
+                        </note>
                 </place>
             </listPlace>
         </body>

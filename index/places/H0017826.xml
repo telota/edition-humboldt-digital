@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017826">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Tarkitau</title>
             </titleStmt>
+            <editionStmt>
+                <p>Tarkitau [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017826.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017826.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017826.xml">
-                    <p>Tarkitau [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017826.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017826">
+                <place>
                     <idno type="uri">https://www.geonames.org/869828</idno>
                     <placeName type="reg">Tarkitau</placeName>
                     <placeName type="alt">Tarki-Tau</placeName>
                     <placeName type="alt">Khrebet Tarkitau</placeName>
                     <placeName type="alt">Хребет Таркитау</placeName>
                     <placeName type="alt">Tarkitau Mountain</placeName>
-                    <note>Berg in <placeName key="H0017749">Dagestan</placeName> am Westufer des <placeName key="H0000384">Kaspischen Meeres</placeName> nahe des früheren kumykischen Herrschersitzes
-                            <placeName key="H0017825">Tarki</placeName> gelegen, westlich von Machatschkala.</note>
+                    <note>Berg in <placeName ref="https://editon-humboldt.de/H0017749">Dagestan</placeName> am Westufer des <placeName ref="https://editon-humboldt.de/H0000384 https://www.geonames.org/630671">Kaspischen Meeres</placeName> nahe des früheren kumykischen Herrschersitzes
+                            <placeName ref="https://editon-humboldt.de/H0017825 https://www.geonames.org/484334">Tarki</placeName> gelegen, westlich von Machatschkala.</note>
                 </place>
             </listPlace>
         </body>

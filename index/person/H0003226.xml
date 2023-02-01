@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003226">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bellingshausen, Fabian Gottlieb Thaddeus von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bellingshausen, Fabian Gottlieb Thaddeus von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003226.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003226.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003226.xml">
-                    <p>Bellingshausen, Fabian Gottlieb Thaddeus von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003226.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003226">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/133531317</idno>
                     <persName type="reg">
                         <surname>Bellingshausen</surname>
@@ -59,11 +64,11 @@
                     <persName type="alt">
                         <name>Beiligsgauzen</name>
                     </persName>
-                    <birth>1778<!-- alt: 1779 --></birth>
+                    <birth>1778</birth>
                     <death>1852</death>
                     <note>russischer Marineoffizier, Forschungsreisender und Kartograph
                         deutsch-baltischer Herkunft; 1819–1821 Leiter der ersten russischen
-                        Expedition in die <placeName key="H0002469">Südpolarregion</placeName>, 1828
+                        Expedition in die <placeName ref="https://editon-humboldt.de/H0002469 https://www.geonames.org/6255152">Südpolarregion</placeName>, 1828
                         Vizeadmiral, 1843 Admiral </note>
                     <linkGrp>
                         <ptr target="30#208–210" type="page"/>

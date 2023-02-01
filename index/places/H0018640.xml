@@ -1,13 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018640">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>El
                         Higuerote</title>
             </titleStmt>
+            <editionStmt>
+                <p>El
+                        Higuerote [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018640.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -17,24 +22,24 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018640.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018640.xml">
-                    <p>El
-                        Higuerote [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018640.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018640">
-                    <placeName type="reg"><?oxy_comment_start author="lkirsten" timestamp="20191015T111724+0200" comment="möglicherweise dieser Berg: https://www.geonames.org/3806452/cerro-higuerote.html"?>El
+                <place>
+                    <placeName type="reg">El
                         Higuerote</placeName>
-                    <note>Gneisgebirge nahe Caracas (Venezuela)<?oxy_comment_end?></note>
+                    <note>Gneisgebirge nahe Caracas (Venezuela)</note>
                 </place>
             </listPlace>
         </body>

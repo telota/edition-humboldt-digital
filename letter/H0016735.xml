@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016735">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1828] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016735">https://edition-humboldt.de/v8/H0016735</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016735</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016735</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016735.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1828] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016735</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">10</idno>
+                     <idno type="shelfmark">421, Bl. 9r-9v, 10v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1828" notAfter="1828">1828-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Ehrenbergs Reisewerk erschien 1828; vgl. N.10</note>
          </correspDesc>
@@ -82,19 +100,19 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Die <ref xml:id="d9ae28f6-2b1d-48ff-ae28-f62b1d88ff19" corresp="#a6ea37d1-2c62-4b9f-aa37-d12c62ab9f9e">Dedication ist eine <lb/>schöne Latinität</ref>
-                    <note xml:id="a6ea37d1-2c62-4b9f-aa37-d12c62ab9f9e" corresp="#d9ae28f6-2b1d-48ff-ae28-f62b1d88ff19">
-                     <bibl corresp="https://edition-humboldt.de/v8/LE8SG5BS">Ehrenberg/Hemprich 1828</bibl>
-                  </note> nur der <lb/>Name <persName ref="http://d-nb.info/gnd/118586408">Napoleon</persName> kommt <lb/>in
+            <p>Die <ref xml:id="ea305dd7-c461-423f-b05d-d7c461323fde" corresp="#c7adf6d0-b928-4700-adf6-d0b928370097">Dedication ist eine <lb/>schöne Latinität</ref>
+                    <note xml:id="c7adf6d0-b928-4700-adf6-d0b928370097" corresp="#ea305dd7-c461-423f-b05d-d7c461323fde">
+                     <bibl corresp="https://edition-humboldt.de/LE8SG5BS">Ehrenberg/Hemprich 1828</bibl>
+                  </note> nur der <lb/>Name <persName ref="https://editon-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Napoleon</persName> kommt <lb/>in
                immer bloß historischer <lb/>Beziehung vor. Da die <lb/>Zuschrift lateinisch ist,
-               <lb/>so ist zu wetten, daß <lb/>der <persName ref="http://d-nb.info/gnd/118535986">König</persName> das
+               <lb/>so ist zu wetten, daß <lb/>der <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">König</persName> das
                Wort nicht <lb/>einmal sieht, da er <lb/>nicht zu lesen versuchen <lb/>wird. Erlauben
                Sie, daß <lb/>ich Sie frage, mein <lb/>Verehrtester, wegen des <lb/>microscops für
-                  <persName ref="http://d-nb.info/gnd/119352885">Larrey</persName>
+                  <persName ref="https://editon-humboldt.de/H0004339 http://d-nb.info/gnd/119352885">Larrey</persName>
                     <supplied>?</supplied>
                <lb/>
-                    <pb n="2r"/>1.) was der Ankaufspreis <lb/>in <placeName ref="https://www.geonames.org/2988507">Paris</placeName> bei <persName>Chevalier</persName>
-               <lb/>war; 2) ob Ihre beiden <lb/>microscope von <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <pb n="2r"/>1.) was der Ankaufspreis <lb/>in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> bei <persName ref="https://editon-humboldt.de/">Chevalier</persName>
+               <lb/>war; 2) ob Ihre beiden <lb/>microscope von <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                <lb/>hierher mit Post <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>

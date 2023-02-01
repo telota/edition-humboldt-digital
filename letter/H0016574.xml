@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016574">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1847] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016574">https://edition-humboldt.de/v8/H0016574</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016574</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016574</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016574.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1847] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016574</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">166</idno>
+                     <idno type="shelfmark">421, Bl. 298r, 299v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1847" notAfter="1847">1847-00-00 </date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Adresse “Unter den Linden” von ca. 1845 bis 1848</note>
          </correspDesc>
@@ -84,9 +102,9 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Darf ich Sie bitten, theurer College, <lb/>einen praktischen Arzt aus <placeName ref="https://www.geonames.org/3171457">Parma</placeName>
-               <lb/>Herrn Luigi <persName ref="http://viaf.org/viaf/88796509">Caggiati</persName> der sich viel mit
-               <lb/>Anatomie beschäftigt, auch Schüler des <lb/>grossen Physikers <persName ref="http://d-nb.info/gnd/119268884">Melloni</persName> ist, freundlichst <lb/>und infusorisch
+            <p>Darf ich Sie bitten, theurer College, <lb/>einen praktischen Arzt aus <placeName ref="https://editon-humboldt.de/H0008130 https://www.geonames.org/3171457">Parma</placeName>
+               <lb/>Herrn Luigi <persName ref="https://editon-humboldt.de/H0016914 http://viaf.org/viaf/88796509">Caggiati</persName> der sich viel mit
+               <lb/>Anatomie beschäftigt, auch Schüler des <lb/>grossen Physikers <persName ref="https://editon-humboldt.de/H0014090 http://d-nb.info/gnd/119268884">Melloni</persName> ist, freundlichst <lb/>und infusorisch
                   aufzunehmen<supplied cert="high">.</supplied>
             </p>
             <closer rend="paragraph">

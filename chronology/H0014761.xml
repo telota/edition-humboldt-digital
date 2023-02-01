@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014761">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7,37 +7,46 @@
                     </title>
                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (18. September 1805) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0014761">https://edition-humboldt.de/v8/H0014761</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0014761</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0014761</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014761.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1805. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0014761</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> H. reist von <placeName ref="https://www.geonames.org/3169070">Rom</placeName> mit <persName ref="http://d-nb.info/gnd/118716581">Gay-Lussac</persName> und <persName ref="http://d-nb.info/gnd/116817569">L. von
-                        Buch</persName> nach <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> ab.
-                    Reiseroute: <placeName ref="https://www.geonames.org/3176854">Foligno</placeName>, <placeName ref="https://www.geonames.org/3172242">Nocera Umbra</placeName> (20.9.), <placeName ref="https://www.geonames.org/3182884">Arezzo</placeName>, <placeName ref="https://www.geonames.org/3176959">Florenz</placeName> (22.–26.9.), <placeName ref="https://www.geonames.org/3181928">Bologna</placeName> (27.9.), <placeName ref="https://www.geonames.org/3173331">Modena</placeName>,
-                        <placeName ref="https://www.geonames.org/3171457">Parma</placeName> (30.9.), <placeName ref="https://www.geonames.org/3171058">Piacenza</placeName>, <placeName ref="https://www.geonames.org/3173434">Mailand</placeName> (1. bis etwa 7.10.; Treffen mit <persName ref="http://d-nb.info/gnd/118661604">Bonpland</persName>, der in <placeName ref="https://www.geonames.org/3170647">Pisa</placeName> gewesen war, und am 2.10. mit dem Physiker <persName ref="http://d-nb.info/gnd/119292556">Alessandro Volta</persName>; Weiterreise 10.10.),
+                <p> H. reist von <placeName ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName> mit <persName ref="https://editon-humboldt.de/H0013386 http://d-nb.info/gnd/118716581">Gay-Lussac</persName> und <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">L. von
+                        Buch</persName> nach <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> ab.
+                    Reiseroute: <placeName ref="https://editon-humboldt.de/H0018634 https://www.geonames.org/3176854">Foligno</placeName>, <placeName ref="https://editon-humboldt.de/H0019118 https://www.geonames.org/3172242">Nocera Umbra</placeName> (20.9.), <placeName ref="https://editon-humboldt.de/H0019059 https://www.geonames.org/3182884">Arezzo</placeName>, <placeName ref="https://editon-humboldt.de/H0004778 https://www.geonames.org/3176959">Florenz</placeName> (22.–26.9.), <placeName ref="https://editon-humboldt.de/H0005298 https://www.geonames.org/3181928">Bologna</placeName> (27.9.), <placeName ref="https://editon-humboldt.de/H0008911 https://www.geonames.org/3173331">Modena</placeName>,
+                        <placeName ref="https://editon-humboldt.de/H0008130 https://www.geonames.org/3171457">Parma</placeName> (30.9.), <placeName ref="https://editon-humboldt.de/H0018517 https://www.geonames.org/3171058">Piacenza</placeName>, <placeName ref="https://editon-humboldt.de/H0008583 https://www.geonames.org/3173434">Mailand</placeName> (1. bis etwa 7.10.; Treffen mit <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>, der in <placeName ref="https://editon-humboldt.de/H0008307 https://www.geonames.org/3170647">Pisa</placeName> gewesen war, und am 2.10. mit dem Physiker <persName ref="https://editon-humboldt.de/H0002905 http://d-nb.info/gnd/119292556">Alessandro Volta</persName>; Weiterreise 10.10.),
                     Como,
-                        <placeName ref="https://www.geonames.org/2659836">Lugano</placeName>, <placeName ref="https://www.geonames.org/2661830">Airolo</placeName>, <placeName ref="https://www.geonames.org/2658828">St.
-                        Gotthard</placeName> (14./15.10.), <placeName ref="https://www.geonames.org/2661780">Altdorf</placeName>, <placeName ref="https://www.geonames.org/2659811">Luzern</placeName>,
-                        <placeName ref="https://www.geonames.org/2657896">Zürich</placeName> (17.–23.10.), <placeName ref="https://www.geonames.org/2661604">Basel</placeName>, <placeName ref="https://www.geonames.org/2820860">Tübingen</placeName> (Besuch bei dem Verleger <persName ref="http://d-nb.info/gnd/11852240X">Johann Friedrich von Cotta</persName>), <placeName ref="https://www.geonames.org/2907669">Heilbronn</placeName> (B: 28.10.), <placeName ref="https://www.geonames.org/2907911">Heidelberg</placeName>, <placeName ref="https://www.geonames.org/2892518">Kassel</placeName>,
-                        <placeName ref="https://www.geonames.org/2918632">Göttingen</placeName> (4.–7.11.; Besuch bei dem
-                    Naturforscher <persName ref="http://d-nb.info/gnd/116208503">Johann Friedrich Blumenbach</persName>,
+                        <placeName ref="https://editon-humboldt.de/H0019099 https://www.geonames.org/2659836">Lugano</placeName>, <placeName ref="https://editon-humboldt.de/H0019043 https://www.geonames.org/2661830">Airolo</placeName>, <placeName ref="https://editon-humboldt.de/H0009940 https://www.geonames.org/2658828">St.
+                        Gotthard</placeName> (14./15.10.), <placeName ref="https://editon-humboldt.de/H0019057 https://www.geonames.org/2661780">Altdorf</placeName>, <placeName ref="https://editon-humboldt.de/H0011535 https://www.geonames.org/2659811">Luzern</placeName>,
+                        <placeName ref="https://editon-humboldt.de/H0015036 https://www.geonames.org/2657896">Zürich</placeName> (17.–23.10.), <placeName ref="https://editon-humboldt.de/H0005157 https://www.geonames.org/2661604">Basel</placeName>, <placeName ref="https://editon-humboldt.de/H0009545 https://www.geonames.org/2820860">Tübingen</placeName> (Besuch bei dem Verleger <persName ref="https://editon-humboldt.de/H0013206 http://d-nb.info/gnd/11852240X">Johann Friedrich von Cotta</persName>), <placeName ref="https://editon-humboldt.de/H0018808 https://www.geonames.org/2907669">Heilbronn</placeName> (B: 28.10.), <placeName ref="https://editon-humboldt.de/H0006823 https://www.geonames.org/2907911">Heidelberg</placeName>, <placeName ref="https://editon-humboldt.de/H0007214 https://www.geonames.org/2892518">Kassel</placeName>,
+                        <placeName ref="https://editon-humboldt.de/H0010897 https://www.geonames.org/2918632">Göttingen</placeName> (4.–7.11.; Besuch bei dem
+                    Naturforscher <persName ref="https://editon-humboldt.de/H0003404 http://d-nb.info/gnd/116208503">Johann Friedrich Blumenbach</persName>,
                     einem seiner Lehrer während der Göttinger Studienzeit). </p>
             </body>
         </text>

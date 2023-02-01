@@ -1,40 +1,56 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015273">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [2. November 1842]</title>
                 <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [2. November 1842], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015273">https://edition-humboldt.de/v8/H0015273</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015273</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015273</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015273.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [2. November 1842]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015273</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1842-11-02" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
                 <note>Die Datierung des vorliegenden Briefes richtet sich nach dem darauf folgenden
-                        <ref target="H0015080">Schreiben
+                        <ref target="https://edition-humboldt.de/H0015080">Schreiben
                         Humboldts an Kunth vom 8. November
                     1842</ref>.
                 </note>
@@ -45,10 +61,10 @@
         <body>
             <div type="writingSession">
                 <p>
-                    <pb n="1r"/>Der Minister des Inneren <persName ref="http://d-nb.info/gnd/116349697">Graf 
+                    <pb n="1r"/>Der Minister des Inneren <persName ref="https://editon-humboldt.de/H0012731 http://d-nb.info/gnd/116349697">Graf 
                         <lb/>Arnim Boitzenburg</persName> hat einem <lb/>11
                     jährigen sehr viel versprochen<supplied cert="high">,</supplied>
-                    <lb/>dem <persName ref="http://d-nb.info/gnd/117662828">Sohn</persName>, den er das <choice>
+                    <lb/>dem <persName ref="https://editon-humboldt.de/H0012733 http://d-nb.info/gnd/117662828">Sohn</persName>, den er das <choice>
                         <orig>College</orig>
                         <reg>Collège</reg>
                     </choice>
@@ -60,11 +76,11 @@
                         <orig>lasst</orig>
                         <reg>lässt</reg>
                     </choice> wo <lb/>fast gar keine Naturgeschichte <lb/>getrieben wird zu der doch
-                    <lb/>das <persName ref="http://d-nb.info/gnd/117662828">Kind</persName> die meiste Nei<lb/>gung bezeigt. Die Haupt<lb/>neigung des <persName ref="http://d-nb.info/gnd/117662828">Kindes</persName> ist zwar <lb/>jezt Mineralogie weil er <lb/>eine
-                    kleine Sammlung besizt <lb/>aber, da das <persName ref="http://d-nb.info/gnd/117662828">Kind</persName> einst <lb/>grosse <choice>
+                    <lb/>das <persName ref="https://editon-humboldt.de/H0012733 http://d-nb.info/gnd/117662828">Kind</persName> die meiste Nei<lb break="no"/>gung bezeigt. Die Haupt<lb break="no"/>neigung des <persName ref="https://editon-humboldt.de/H0012733 http://d-nb.info/gnd/117662828">Kindes</persName> ist zwar <lb/>jezt Mineralogie weil er <lb/>eine
+                    kleine Sammlung besizt <lb/>aber, da das <persName ref="https://editon-humboldt.de/H0012733 http://d-nb.info/gnd/117662828">Kind</persName> einst <lb/>grosse <choice>
                         <orig>Guter</orig>
                         <reg>Güter</reg>
-                    </choice> besizen wird <lb/>so wünscht der <persName ref="http://d-nb.info/gnd/116349697">Vater</persName> be<lb/>sonders, dass das <persName ref="http://d-nb.info/gnd/117662828">Kind</persName> Liebe <lb/>zur Botanik gewinne<supplied cert="high">.</supplied>
+                    </choice> besizen wird <lb/>so wünscht der <persName ref="https://editon-humboldt.de/H0012731 http://d-nb.info/gnd/116349697">Vater</persName> be<lb break="no"/>sonders, dass das <persName ref="https://editon-humboldt.de/H0012733 http://d-nb.info/gnd/117662828">Kind</persName> Liebe <lb/>zur Botanik gewinne<supplied cert="high">.</supplied>
                     <pb n="1v"/>
                     <lb/>Meine Frage ist nun ob Sie <lb/>mir jemand schaffen <choice>
                         <orig>konnen</orig>
@@ -73,9 +89,10 @@
                     <lb/>der <choice>
                         <orig>fur</orig>
                         <reg>für</reg>
-                    </choice> Geld dem <persName ref="http://d-nb.info/gnd/117662828">Kinde</persName>
+                    </choice> Geld dem <persName ref="https://editon-humboldt.de/H0012733 http://d-nb.info/gnd/117662828">Kinde</persName>
                     <lb/>mit Vorzeigung von <choice>
-                        <orig>Natur-<lb/>gegenstanden</orig>
+                        <orig>Natur<g ref="#typoHyphen"/>
+                            <lb break="no"/>gegenstanden</orig>
                         <reg>Naturgegenständen</reg>
                     </choice> etwas Botanik <lb/>
                     <choice>
@@ -85,27 +102,27 @@
                     Mineralogische <lb/>Kenntnisse <choice>
                         <orig>hatte</orig>
                         <reg>hätte</reg>
-                    </choice>. Es ist <lb/>ganz prosaisch ein Stunden<lb/>geben, das man
-                        Stunden<lb/>weise bezahlte. Die <persName ref="https://edition-humboldt.de/v8/H0012732">Mutter</persName>
+                    </choice>. Es ist <lb/>ganz prosaisch ein Stunden<lb break="no"/>geben, das man
+                        Stunden<lb break="no"/>weise bezahlte. Die <persName ref="https://editon-humboldt.de/H0012732">Mutter</persName>
                     <lb/>
                     <choice>
                         <abbr>geb.</abbr>
                         <expan>geborene</expan>
                     </choice>
-                    <ref xml:id="f78ed75a-ff06-472f-8ed7-5aff06072f76" corresp="#a220d1e0-0def-4b22-a0d1-e00def0b227c">
+                    <ref xml:id="ba733495-16ae-4f39-b334-9516aeef3965" corresp="#b741e87a-aa4b-4b09-81e8-7aaa4b6b09f1">
                             <choice>
                                 <orig>Grafin</orig>
                                 <reg>Gräfin</reg>
                             </choice> Seckendorf</ref>
-                    <note xml:id="a220d1e0-0def-4b22-a0d1-e00def0b227c" corresp="#f78ed75a-ff06-472f-8ed7-5aff06072f76">vielmehr: <persName ref="https://edition-humboldt.de/v8/H0012732">Anna Caroline
-                                Gräfin von der Schulenburg</persName>.</note>, <lb/>einst Hofdame in <placeName ref="https://www.geonames.org/2812482">Weimar</placeName>
+                    <note xml:id="b741e87a-aa4b-4b09-81e8-7aaa4b6b09f1" corresp="#ba733495-16ae-4f39-b334-9516aeef3965">vielmehr: <persName ref="https://editon-humboldt.de/H0012732">Anna Caroline
+                                Gräfin von der Schulenburg</persName>.</note>, <lb/>einst Hofdame in <placeName ref="https://editon-humboldt.de/H0007930 https://www.geonames.org/2812482">Weimar</placeName>
                     <lb/>ist sehr <choice>
                         <orig>liebenswurdig</orig>
                         <reg>liebenswürdig</reg>
                     </choice>
                     <supplied cert="high">.</supplied>
                     <lb/>Verzeihen Sie die <choice>
-                        <orig>Lastig<lb/>keit</orig>
+                        <orig>Lastig<lb break="no"/>keit</orig>
                         <reg>Lästigkeit</reg>
                     </choice> theurer Freund<supplied cert="high">.</supplied>
                 </p>

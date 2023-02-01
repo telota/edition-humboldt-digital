@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019208">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Platovskajasteppe</title>
             </titleStmt>
+            <editionStmt>
+                <p>Platovskajasteppe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019208.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,22 +20,23 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019208.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019208.xml">
-                    <p>Platovskajasteppe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019208.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019208">
+                <place>
                     <placeName type="reg">Platovskajasteppe</placeName>
-                    <note>Landschaft zwischen <placeName key="H0007780">Ob</placeName> und <placeName key="H0006725">Irtyš</placeName> im <placeName key="H0002407">Altai</placeName> (Kasachstan)</note>
+                    <note>Landschaft zwischen <placeName ref="https://editon-humboldt.de/H0007780 https://www.geonames.org/1496420">Ob</placeName> und <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtyš</placeName> im <placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altai</placeName> (Kasachstan)</note>
                 </place>
             </listPlace>
         </body>

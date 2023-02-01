@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002651">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,34 +28,54 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p> Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 14. Mai 1830, hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002651">https://edition-humboldt.de/v8/H0002651</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002651</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002651</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002651.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl> Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 14. Mai 1830. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002651</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 830 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 19,80 cm , B: 12,50 cm; Wasserzeichen: J. Whatman, Turkey Mill
+                            1829</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1830-05-14" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -68,35 +88,35 @@
                     <salute/>
                 </opener>
                 <p>
-                    <pb n="1r"/>Ich bin auf meiner <ref xml:id="ed2398f0-7cf0-4eda-a398-f07cf08eda85" corresp="#cf5cd283-c13a-4a0c-9cd2-83c13a8a0cfe">Abreise</ref>
-                    <note xml:id="cf5cd283-c13a-4a0c-9cd2-83c13a8a0cfe" corresp="#ed2398f0-7cf0-4eda-a398-f07cf08eda85">Am 21. Mai 1830 reiste Humboldt im Gefolge des
-                            nachmaligen Königs <persName ref="http://d-nb.info/gnd/118535994">Friedrich Wilhelm
-                                IV.</persName>, von <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
-                            nach <placeName ref="https://www.geonames.org/756135">Warschau</placeName> (Eröffnung des
+                    <pb n="1r"/>Ich bin auf meiner <ref xml:id="dfb20ce8-b3f1-40fb-b20c-e8b3f1a0fb92" corresp="#d6411b6d-7b09-4d7f-811b-6d7b090d7f6b">Abreise</ref>
+                    <note xml:id="d6411b6d-7b09-4d7f-811b-6d7b090d7f6b" corresp="#dfb20ce8-b3f1-40fb-b20c-e8b3f1a0fb92">Am 21. Mai 1830 reiste Humboldt im Gefolge des
+                            nachmaligen Königs <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelm
+                                IV.</persName>, von <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+                            nach <placeName ref="https://editon-humboldt.de/H0007919 https://www.geonames.org/756135">Warschau</placeName> (Eröffnung des
                             polnischen Reichstages). Am 3. Juni nahm Humboldt an einer Sitzung der
-                                <orgName ref="http://d-nb.info/gnd/4718287-8">Warszawskie Towarzystwo Przyjaciół
+                                <orgName ref="https://editon-humboldt.de/H0000604 http://d-nb.info/gnd/4718287-8">Warszawskie Towarzystwo Przyjaciół
                                 Nauk</orgName> teil, bei der er eine lange Rede zum Anlass seiner
                             feierlichen Aufnahme als Ehrenmitglied der Gesellschaft hielt (vgl.
-                                <bibl corresp="https://edition-humboldt.de/v8/663VFCQW">Zielnica 2004</bibl>, 55–58).
-                            Nach <ref target="H0004715">weiteren Stationen</ref> kehrte er am 23. Juni nach Berlin
+                                <bibl corresp="https://edition-humboldt.de/663VFCQW">Zielnica 2004</bibl>, 55–58).
+                            Nach <ref target="https://edition-humboldt.de/H0004715">weiteren Stationen</ref> kehrte er am 23. Juni nach Berlin
                             zurück.</note>
                     <lb/>begriffen, habe aber <lb/>weitläufigst mit <choice>
                         <abbr>Hr</abbr>
                         <expan>Herrn</expan>
                     </choice>
-                    <ref xml:id="d648d09d-cdd6-4f08-88d0-9dcdd6df0818" corresp="#f0f54927-8228-4dae-b549-2782285daee0">
-                            <persName ref="http://d-nb.info/gnd/118603256">Rother</persName>
+                    <ref xml:id="b8ca74b4-86ae-4a79-8a74-b486aeaa79a5" corresp="#a648f69f-794c-4774-88f6-9f794c47744d">
+                            <persName ref="https://editon-humboldt.de/H0001077 http://d-nb.info/gnd/118603256">Rother</persName>
                         </ref>
-                    <note xml:id="f0f54927-8228-4dae-b549-2782285daee0" corresp="#d648d09d-cdd6-4f08-88d0-9dcdd6df0818">
-                        <persName ref="http://d-nb.info/gnd/118603256">Christian
-                                Rother</persName> war seit 1820 Chef der <orgName ref="http://d-nb.info/gnd/4031532-0">preußischen Seehandlung</orgName>, 1835–1837 preußischer
+                    <note xml:id="a648f69f-794c-4774-88f6-9f794c47744d" corresp="#b8ca74b4-86ae-4a79-8a74-b486aeaa79a5">
+                        <persName ref="https://editon-humboldt.de/H0001077 http://d-nb.info/gnd/118603256">Christian
+                                Rother</persName> war seit 1820 Chef der <orgName ref="https://editon-humboldt.de/H0000586 http://d-nb.info/gnd/4031532-0">preußischen Seehandlung</orgName>, 1835–1837 preußischer
                             Handelsminister. Humboldt korrespondierte mit ihm zwischen 1818–1846.
                             Der Forschung sind derzeit 12 Briefe bekannt, davon 5 von Humboldt an
                             Rother.</note>
-                    <lb/>für Sie gesprochen. Er <lb/>ist ganz von der Nüz<lb/>lichkeit
-                    Ihrer Reise über<lb/>zeugt und harrt nur auf <lb/>eine Antwort von
+                    <lb/>für Sie gesprochen. Er <lb/>ist ganz von der Nüz<lb break="no"/>lichkeit
+                    Ihrer Reise über<lb break="no"/>zeugt und harrt nur auf <lb/>eine Antwort von
                     Minister <lb/>
-                    <persName ref="http://d-nb.info/gnd/11862783X">
+                    <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">
                         <choice>
                             <abbr>Altenst</abbr>
                             <expan>Altenstein</expan>
@@ -105,7 +125,7 @@
                     <lb/>geschrieben, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> nichts ver<lb/>säumt um Ihnen Beweise <lb/>meiner
+                    </choice> nichts ver<lb break="no"/>säumt um Ihnen Beweise <lb/>meiner
                     freundschaftlichsten <lb/>Hochachtung zu geben.</p>
                 <closer>
                     <salute/>

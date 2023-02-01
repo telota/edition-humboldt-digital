@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014707">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -21,42 +21,62 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Schouw, Joakim Frederik: T – F. J. Schouw: Plan einer pflanzengeographischen Uebersicht von Italien
+                    und Sicilien , hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0014707">https://edition-humboldt.de/v8/H0014707</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0014707</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0014707</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014707.xml</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p>Dieses Dokument, durch die Fußzeile auf Blatt 1 (<quote>Aus der Isis 1821 besonders
-                            abgedruckt</quote>.)  als Separatdruck von <bibl corresp="https://edition-humboldt.de/v8/74TSV457">Schouw 1821</bibl> ausgewiesen, nennt
-                        Karl Sigismund Kunths <ref target="H0000005">Ideensammlung zur Neuausgabe
+                            abgedruckt</quote>.)  als Separatdruck von <bibl corresp="https://edition-humboldt.de/74TSV457">Schouw 1821</bibl> ausgewiesen, nennt
+                        Karl Sigismund Kunths <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe
                             der Geographie der Pflanzen</ref> unter der „No. 22 Italien Show“ (Sigle
                             <ref xml:id="ed_od5_xlj_bbb" type="siglum" target="#Geographie_der_Pflanzen_T">T</ref>). Das letzte Blatt fehlt im
                         vorliegenden Sonderdruck. 1823 veröffentlichte der dänische Botaniker die
                         deutsche Übersetzung seiner „Grundzüge einer allgemeinen Pflanzengeographie“
-                            (<bibl corresp="https://edition-humboldt.de/v8/RWBUDNCR">Schouw 1823</bibl>), die Kunth
+                            (<bibl corresp="https://edition-humboldt.de/RWBUDNCR">Schouw 1823</bibl>), die Kunth
                         beim Verfassen seiner Ideensammlung wichtige Impulse lieferte (vgl.
                         insbesondere Blatt 1r). Eine pflanzengeographische Übersicht von Italien und
                         Sizilien erschien 1839 unter dem Titel „Tableau du climat et de la
-                        végétation de l'Italie“ (<bibl corresp="https://edition-humboldt.de/v8/ES63EUBU">Schouw
+                        végétation de l'Italie“ (<bibl corresp="https://edition-humboldt.de/ES63EUBU">Schouw
                             1839</bibl>).</p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>T – F. J. Schouw: Plan einer pflanzengeographischen Uebersicht von Italien
-                    und Sicilien . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0014707</bibl>
+                <msDesc rend="print">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 81, Bl. 1–4</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1255551</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118867148">Schouw, Joakim Frederik
+                <persName ref="https://editon-humboldt.de/H0015668 http://d-nb.info/gnd/118867148">Schouw, Joakim Frederik
                     (1789–1852)</persName>
                 <date notBefore="1821-01-01" notAfter="1821-12-31" cert="high"/>
             </creation>
@@ -88,160 +108,231 @@
                     </note>
                 </head>
                 <p rendition="#mPrint">
-                    <cb type="start" n="1"/>Nachdem ich, von dem <persName ref="http://d-nb.info/gnd/119217139">Könige von Dänemark</persName> unter-<lb/>stützt, in 2 ½ Jahren <placeName ref="https://www.geonames.org/3175395">Italien</placeName> u. <placeName ref="https://www.geonames.org/2523119">Sicilien</placeName>,
-                    vorz. um die pflan-<lb/>zengeographischen
+                    <cb type="start" n="1"/>Nachdem ich, von dem <persName ref="https://editon-humboldt.de/H0012133 http://d-nb.info/gnd/119217139">Könige von Dänemark</persName> unter<g ref="#typoHyphen"/>
+                    <lb break="no"/>stützt, in 2 ½ Jahren <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> u. <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilien</placeName>,
+                    vorz. um die pflan<g ref="#typoHyphen"/>
+                    <lb break="no"/>zengeographischen
                     Verhältnisse dieser Länder zu untersuchen, <lb/>bereist habe, bin ich jetzt
-                    gesonnen, die Resultate dieser Un-<lb/>tersuchungen herauszugeben. — Da aber eine vorläufige
+                    gesonnen, die Resultate dieser Un<g ref="#typoHyphen"/>
+                    <lb break="no"/>tersuchungen herauszugeben. — Da aber eine vorläufige
                     <lb/>Bekanntmachung
-                    des Planes zu einem solchen Werke viel-<lb/>leicht zu Bemerkungen und Aeußerungen Anlaß geben dürf-<lb/>te, die Verbesserungen und Berichtigungen zur Folge haben
+                    des Planes zu einem solchen Werke viel<g ref="#typoHyphen"/>
+                    <lb break="no"/>leicht zu Bemerkungen und Aeußerungen Anlaß geben dürf<g ref="#typoHyphen"/>
+                    <lb break="no"/>te, die Verbesserungen und Berichtigungen zur Folge haben
                     <lb/>könnten; so habe ich es zweckmäßig gefunden, einen solchen <lb/>Plan dem
                     Publicum in dieser Zeitschrift mitzutheilen. —</p>
                 <p rendition="#mPrint">Das Werk, welches in lateinischer Sprache abgefaßt <lb/>wird,
                     zerfällt der Natur der Sache gemäß in drey Theile, <lb/>wovon der erste die
-                    climatischen Verhältnisse isolirt darstel-<lb/>len, der zweyte ein Verzeichniß der <placeName ref="https://www.geonames.org/3175395">italiänischen</placeName> Pflan-<lb/>zen,
-                    nebst Angabe des Vorkommens und der Verbreitung so-<lb/>wohl der einzelnen Arten als der Gattungen und Familien
-                    <lb/>enthalten; in dem dritten aber, für welchen die beyden er-<lb/>steren die Grundlage bilden, die
+                    climatischen Verhältnisse isolirt darstel<g ref="#typoHyphen"/>
+                    <lb break="no"/>len, der zweyte ein Verzeichniß der <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italiänischen</placeName> Pflan<g ref="#typoHyphen"/>
+                    <lb break="no"/>zen,
+                    nebst Angabe des Vorkommens und der Verbreitung so<g ref="#typoHyphen"/>
+                    <lb break="no"/>wohl der einzelnen Arten als der Gattungen und Familien
+                    <lb/>enthalten; in dem dritten aber, für welchen die beyden er<g ref="#typoHyphen"/>
+                    <lb break="no"/>steren die Grundlage bilden, die
                     Vegetation mit dem Clima <lb/>in Verbindung gesetzt wird, wo sowohl zwischen den
-                        ver-<lb/>schiedenen Theilen <placeName ref="https://www.geonames.org/3175395">Italiens</placeName> als zwischen diesem Lande und
+                        ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>schiedenen Theilen <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiens</placeName> als zwischen diesem Lande und
                     <lb/>anderen Welttheilen Vergleichungen angestellt werden.</p>
                 <p rendition="#mPrint">
                     <hi rendition="#f">Der erste Theil</hi> wird also folgendes
                     enthalten:</p>
                 <p rendition="#mPrint">1) Plan des Werkes.</p>
                 <p rendition="#mPrint">2) Nachricht über die Reise. </p>
-                <p rendition="#mPrint">3) Die auf der Reise angestellten Höhemessungen. — Nach-<lb/>dem in einer Einleitung die Instrumente
-                    beschrieben, das <lb/>Verfahren angegeben, und einige allgemeine Bermerkun-<lb/>gen vorangeschickt sind, werden die
+                <p rendition="#mPrint">3) Die auf der Reise angestellten Höhemessungen. — Nach<g ref="#typoHyphen"/>
+                    <lb break="no"/>dem in einer Einleitung die Instrumente
+                    beschrieben, das <lb/>Verfahren angegeben, und einige allgemeine Bermerkun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen vorangeschickt sind, werden die
                     Beobachtungen, so <lb/>wie solche angestellt worden, nebst den correspondirenden
-                    <lb/>Beobachtungen, auf die Art geliefert werden, wie ich ei-<lb/>nige auf dem <placeName ref="https://www.geonames.org/2524810">Etna</placeName>
-                    gemachte Höhemessungen in der Biblio-<lb/>thèque
+                    <lb/>Beobachtungen, auf die Art geliefert werden, wie ich ei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nige auf dem <placeName ref="https://editon-humboldt.de/H0002606 https://www.geonames.org/2524810">Etna</placeName>
+                    gemachte Höhemessungen in der Biblio<g ref="#typoHyphen"/>
+                    <lb break="no"/>thèque
                     universelle. 1819. Octbr. Tab. 2. geliefert <lb/>habe. Nachdem sämmtliche
-                    Beobachtungen in chronolo-<lb/>gischer Folge
+                    Beobachtungen in chronolo<g ref="#typoHyphen"/>
+                    <lb break="no"/>gischer Folge
                     gegeben sind, werden die Resultate davon <lb/>nebst den von anderen in
-                        <placeName ref="https://www.geonames.org/3175395">Italien</placeName> und <placeName ref="https://www.geonames.org/2523119">Sicilien</placeName> angestell-<lb/>
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> und <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilien</placeName> angestell<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <cb n="2"/>ten Höhemessungen in geographischer Folge dargestellt <lb/>werden. — </p>
                 <p rendition="#mPrint">4) Uebersicht der climatischen Verhältnisse derjenigen
                     Oerter, <lb/>für welche ich hinlängliche Beobachtungen besitze. Eine
-                    <lb/>ziemlich ausführliche Einleitung von der Anwendung me-<lb/>teorologischer Beobachtungen zur Vergleichung der Vege-<lb/>tation mit den climatischen
-                    Verhältnissen, von der in die-<lb/>ser Rücksicht
-                    zu beobachtenden Vorsicht, von der Art, ver-<lb/>schiedene Beobachtungen wo möglich auf einen Maasstab <lb/>zu reduciren u. s.
+                    <lb/>ziemlich ausführliche Einleitung von der Anwendung me<g ref="#typoHyphen"/>
+                    <lb break="no"/>teorologischer Beobachtungen zur Vergleichung der Vege<g ref="#typoHyphen"/>
+                    <lb break="no"/>tation mit den climatischen
+                    Verhältnissen, von der in die<g ref="#typoHyphen"/>
+                    <lb break="no"/>ser Rücksicht
+                    zu beobachtenden Vorsicht, von der Art, ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>schiedene Beobachtungen wo möglich auf einen Maasstab <lb/>zu reduciren u. s.
                     w., wird vorangeschickt. Darauf wird <lb/>für jeden Ort eine solche
-                    meteorologische Tafel, wie die <lb/>beygefügte für <placeName ref="https://www.geonames.org/3169070">Rom</placeName>, folgen; worin die Temperatur, die <lb/>Feuchtigkeit, die
-                    Menge des Regens, die Zahl der Re-<lb/>gentage,
+                    meteorologische Tafel, wie die <lb/>beygefügte für <placeName ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName>, folgen; worin die Temperatur, die <lb/>Feuchtigkeit, die
+                    Menge des Regens, die Zahl der Re<g ref="#typoHyphen"/>
+                    <lb break="no"/>gentage,
                     die Winde, der Barometerstand
                     ec.
-                    des Ortes <lb/>dargestellt werden. — Jeder Tafel werden zugleich Be-<lb/>merkungen beygefügt, um die Art, wie die
-                    angeführten <lb/>Resultate herausgebracht sind, und in wie fern Localitä-<lb/>ten Einfluß haben mögen, zu zeigen, so
-                    wie sie auch sol-<lb/>che Aufschlüsse über die
+                    des Ortes <lb/>dargestellt werden. — Jeder Tafel werden zugleich Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>merkungen beygefügt, um die Art, wie die
+                    angeführten <lb/>Resultate herausgebracht sind, und in wie fern Localitä<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten Einfluß haben mögen, zu zeigen, so
+                    wie sie auch sol<g ref="#typoHyphen"/>
+                    <lb break="no"/>che Aufschlüsse über die
                     climatischen Verhältnisse geben <lb/>werden, die sich in tabellarischer Form
-                    nicht darstellen las-<lb/>sen. — Einigen
-                    Oertern, für welche Beobachtungen ei-<lb/>ner
-                    früheren Periode vorhanden sind, werden zwey Ta-<lb/>feln gewidmet, um Vergleichungen anzustellen, die zur
-                    <lb/>Beantwortung der Frage, ob die climatischen Verhältnis-<lb/>se verändert sind, leiten können. — Um die Uebersicht
-                    <lb/>der climatischen Verhältnisse zu erleichtern, werden gra-<lb/>phische Darstellungen mittelst
-                    Temperaturcurven hinzu-<lb/>gefügt. —</p>
+                    nicht darstellen las<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen. — Einigen
+                    Oertern, für welche Beobachtungen ei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ner
+                    früheren Periode vorhanden sind, werden zwey Ta<g ref="#typoHyphen"/>
+                    <lb break="no"/>feln gewidmet, um Vergleichungen anzustellen, die zur
+                    <lb/>Beantwortung der Frage, ob die climatischen Verhältnis<g ref="#typoHyphen"/>
+                    <lb break="no"/>se verändert sind, leiten können. — Um die Uebersicht
+                    <lb/>der climatischen Verhältnisse zu erleichtern, werden gra<g ref="#typoHyphen"/>
+                    <lb break="no"/>phische Darstellungen mittelst
+                    Temperaturcurven hinzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>gefügt. —</p>
                 <p rendition="#mPrint">Der zweyte Theil wird von folgendem Inhalte seyn.</p>
                 <p rendition="#mPrint">1) Derjenige Theil der botanischen Literatur, welcher
-                    <lb/>über die <placeName ref="https://www.geonames.org/3175395">italienische</placeName> Vegetation
+                    <lb/>über die <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italienische</placeName> Vegetation
                     Aufschluß gibt. — </p>
-                <p rendition="#mPrint">2) Verzeichnis der <placeName ref="https://www.geonames.org/3175395">italienischen</placeName> Pflanzen. Es ist zu <lb/>bemerken, daß ich keine
-                    Flora von <placeName ref="https://www.geonames.org/3175395">Italien</placeName> und <placeName ref="https://www.geonames.org/2523119">Sicilien</placeName>, <lb/>sondern vielmehr ein mit
-                    Berücksichtigung der geo-<lb/>graphischen
-                    Verhältnisse abgefaßtes Verzeichniß <lb/>der <placeName ref="https://www.geonames.org/3175395">italienischen</placeName> und <placeName ref="https://www.geonames.org/2523119">sicilianischen</placeName> Pflanzen zu liefern ge-<lb/>
+                <p rendition="#mPrint">2) Verzeichnis der <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italienischen</placeName> Pflanzen. Es ist zu <lb/>bemerken, daß ich keine
+                    Flora von <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> und <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilien</placeName>, <lb/>sondern vielmehr ein mit
+                    Berücksichtigung der geo<g ref="#typoHyphen"/>
+                    <lb break="no"/>graphischen
+                    Verhältnisse abgefaßtes Verzeichniß <lb/>der <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italienischen</placeName> und <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">sicilianischen</placeName> Pflanzen zu liefern ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="1v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636702X/500/0/00000002.jpg"/>
                     <cb type="start" n="1"/>denke, — und daß folglich verschiedenes, was in
                     eine <lb/>Flora hingehört, von diesem Verzeichnisse ausgeschlossen, <lb/>und
                     manches dagegen darin vorkommen wird, welches in <lb/>Floren gewöhnlich nicht zu
                     finden ist. Also:</p>
-                <p rendition="#mPrint">a. Wird man nicht die Vollständigkeit einer Flora ver-<lb/>langen können. — Da bey den
-                    geographischen Ver-<lb/>hältnissen die
+                <p rendition="#mPrint">a. Wird man nicht die Vollständigkeit einer Flora ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>langen können. — Da bey den
+                    geographischen Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>hältnissen die
                     Gewißheit, daß die Pflanzen wirklich <lb/>vorkommen, wichtiger ist als die
-                    Vollständigkeit, d. <lb/>h., daß alle Pflanzen angeführt sind, da sogar in vie-<lb/>len Fällen das Weglassen einiger seltener
-                    Arten, wenn <lb/>von der Vegetation im Allgemeinen die Rede ist, ge-<lb/>ringen Einfluß hat, — nehme ich nur
-                    solche Pflan-<lb/>zen auf, die ich entweder
-                        in<placeName ref="https://www.geonames.org/3175395"> Italien</placeName> und <placeName ref="https://www.geonames.org/2523119">Sici-<lb/>lien</placeName>
+                    Vollständigkeit, d. <lb/>h., daß alle Pflanzen angeführt sind, da sogar in vie<g ref="#typoHyphen"/>
+                    <lb break="no"/>len Fällen das Weglassen einiger seltener
+                    Arten, wenn <lb/>von der Vegetation im Allgemeinen die Rede ist, ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>ringen Einfluß hat, — nehme ich nur
+                    solche Pflan<g ref="#typoHyphen"/>
+                    <lb break="no"/>zen auf, die ich entweder
+                        in<placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395"> Italien</placeName> und <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sici<g ref="#typoHyphen"/>
+                        <lb break="no"/>lien</placeName>
                     selbst gefunden, oder von andern als dort <lb/>gesammelt bekommen habe, oder
-                    endlich in Her-<lb/>barien mit Angabe des
-                    Standortes gesehen ha-<lb/>be. — Auf die bloße
+                    endlich in Her<g ref="#typoHyphen"/>
+                    <lb break="no"/>barien mit Angabe des
+                    Standortes gesehen ha<g ref="#typoHyphen"/>
+                    <lb break="no"/>be. — Auf die bloße
                     Autorität Anderer wird keine <lb/>Pflanze aufgenommen. — Doch mache ich von
                     dieser <lb/>Regel in höchst einzelnen Fällen Ausnahme, wenn <lb/>nehmlich eine
                     hinlänglich bekannte, mit keiner andern <lb/>leicht zu verwechslende Pflanze von
-                    vielen <placeName ref="https://www.geonames.org/3175395">italieni-<lb/>schen</placeName> Verfassern als einheimisch angegeben ist. — Es
+                    vielen <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italieni<g ref="#typoHyphen"/>
+                        <lb break="no"/>schen</placeName> Verfassern als einheimisch angegeben ist. — Es
                     <lb/>werden ferner diejenigen Pflanzen, die ich von andern <lb/>erhalten habe,
-                    mit (*), die, welche ich nur in Her-<lb/>barien
+                    mit (*), die, welche ich nur in Her<g ref="#typoHyphen"/>
+                    <lb break="no"/>barien
                     gesehen habe, mit (**) bezeichnet, um sie von <lb/>denjenigen, die ich selbst
                     gesammelt, zu unterscheiden. <lb/>Bey Bestimmung der geographischen Verbreitung
                     einer <lb/>als einheimisch anerkannten Pflanze, wird gleichfalls <lb/>fremde
-                    Autorität nur mit der äußersten Vorsicht be-<lb/>nutzt, dann nur, wenn ich die Pflanze in der Nähe <lb/>oder wenigstens unter
-                    ähnlichen Umständen selbst ange-<lb/>troffen
+                    Autorität nur mit der äußersten Vorsicht be<g ref="#typoHyphen"/>
+                    <lb break="no"/>nutzt, dann nur, wenn ich die Pflanze in der Nähe <lb/>oder wenigstens unter
+                    ähnlichen Umständen selbst ange<g ref="#typoHyphen"/>
+                    <lb break="no"/>troffen
                     habe. Obwohl eine absolute Vollständigkeit, <lb/>wie schon bemerkt, nicht als
-                    durchaus nothwendig an-<lb/>zusehen ist, will
+                    durchaus nothwendig an<g ref="#typoHyphen"/>
+                    <lb break="no"/>zusehen ist, will
                     ich doch am Schlusse jeder Gattung, <lb/>die Arten noch hinzufügen, welche mir
-                    entweder völlig <lb/>oder doch als <placeName ref="https://www.geonames.org/3175395">italienische</placeName> unbekannt sind, wodurch ich <lb/>vielleicht dem
-                    künftigen Bearbeiter einer <placeName ref="https://www.geonames.org/3175395">italienischen
+                    entweder völlig <lb/>oder doch als <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italienische</placeName> unbekannt sind, wodurch ich <lb/>vielleicht dem
+                    künftigen Bearbeiter einer <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italienischen
                     </placeName>
                     <lb/>Flora die Arbeit etwas erleichtern dürfte. —</p>
-                <p>b. Dem Zwecke des Werkes zufolge, werden Beschreibun-<lb/>gen und ausführliche Adumbrationen nicht vorkommen. <lb/>Für
-                    diesen Zweck scheint es hinlänglich den ersten Ver-<lb/>fasser, der die Pflanze beschrieben hat, anzuführen, <lb/>eine
-                    von mir selbst nach der Pflanze ausgearbei-<lb/>tete (nicht von andern Werken entlehnte) Phrase zu <lb/>geben und eine gute
+                <p>b. Dem Zwecke des Werkes zufolge, werden Beschreibun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen und ausführliche Adumbrationen nicht vorkommen. <lb/>Für
+                    diesen Zweck scheint es hinlänglich den ersten Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>fasser, der die Pflanze beschrieben hat, anzuführen, <lb/>eine
+                    von mir selbst nach der Pflanze ausgearbei<g ref="#typoHyphen"/>
+                    <lb break="no"/>tete (nicht von andern Werken entlehnte) Phrase zu <lb/>geben und eine gute
                     Abbildung zu citiren, — da man <lb/>auf diese Weise im Stande seyn wird zu
                     beurtheilen, <lb/>welche Pflanze ich vor mir gehabt habe. Hie und da <lb/>werden
                     die nothwendigsten Bemerkungen hinzugefügt. <lb/>Nur die neuen Pflanzen (deren
-                    jedoch das Werk weni-<lb/>ge enthält) werden
+                    jedoch das Werk weni<g ref="#typoHyphen"/>
+                    <lb break="no"/>ge enthält) werden
                     durch Beschreibungen erläutert. —</p>
                 <p>c. Die Synonymie wird hier anders als in einer Flora <lb/>behandelt werden. In
-                    einer Flora würde eine genaue <lb/>Prüfung der von den alten <placeName ref="https://www.geonames.org/3175395">italienischen</placeName> Botanikern <lb/>angeführten
-                    Pflanzen, so wie Angabe derjenigen Syn-<lb/>onyme, welche zur genaueren Kenntniß der Pflanze, <lb/>deren Eigenschaften,
+                    einer Flora würde eine genaue <lb/>Prüfung der von den alten <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italienischen</placeName> Botanikern <lb/>angeführten
+                    Pflanzen, so wie Angabe derjenigen Syn<g ref="#typoHyphen"/>
+                    <lb break="no"/>onyme, welche zur genaueren Kenntniß der Pflanze, <lb/>deren Eigenschaften,
                     Nutzen ec. dienen, nothwendig seyn. <lb/>Allein in einem Werke, wie das meine,
-                    werden dage-<lb/>gen solche Synonyme ihren Platz
-                    haben, die über die <lb/>geographischen Verhältnisse der Pflanzen Aufschluß ge-<lb/>
+                    werden dage<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen solche Synonyme ihren Platz
+                    haben, die über die <lb/>geographischen Verhältnisse der Pflanzen Aufschluß ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <cb n="4"/>ben. Synonyme, die in dieser
                     Rücksicht ohne Nutzen <lb/>sind, werden in meinem Werke überflüssig, während
-                    <lb/>solche, die in einer Flora vielleicht als überflüssig an-<lb/>zusehen wären, für meinen Zweck wichtig
-                    seyn können. <lb/>— Die Synonyme sind übrigens theils<placeName ref="https://www.geonames.org/3175395">
+                    <lb/>solche, die in einer Flora vielleicht als überflüssig an<g ref="#typoHyphen"/>
+                    <lb break="no"/>zusehen wären, für meinen Zweck wichtig
+                    seyn können. <lb/>— Die Synonyme sind übrigens theils<placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">
                         italienische</placeName>, <lb/>welche die geographischen Verhältnisse in
-                        <placeName ref="https://www.geonames.org/3175395">Italien</placeName> er-<lb/>läutern, theils exotische, wodurch die Verbreitung der
-                        <placeName ref="https://www.geonames.org/3175395">
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> er<g ref="#typoHyphen"/>
+                    <lb break="no"/>läutern, theils exotische, wodurch die Verbreitung der
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">
                         <lb/>italienischen</placeName> Pflanzen außerhalb
-                        <placeName ref="https://www.geonames.org/3175395">Italien</placeName> dargestellt <lb/>wird. —</p>
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> dargestellt <lb/>wird. —</p>
                 <p>d. Die Angabe der örtlichen Verhältnisse werden hier <lb/>vollständiger seyn, als
-                    man sie in den Floren gewöhn-<lb/>lich findet. —
-                    Die Verbreitung der Pflanzen in Hin-<lb/>sicht
+                    man sie in den Floren gewöhn<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich findet. —
+                    Die Verbreitung der Pflanzen in Hin<g ref="#typoHyphen"/>
+                    <lb break="no"/>sicht
                     der geographischen Breite und Länge sowohl in <lb/>als außerhalb Italien, die
                     Verbreitung in Hinsicht der <lb/>Höhe über dem Meere, so wie auch das Vorkommen
                     <lb/>der Pflanzen, werden angegeben. — Hingegen sehe <lb/>ich es in den meisten
                     Fällen als überflüssig an, die <lb/>loca specialia anzuführen, welche freylich
-                    in einer <lb/>Flora nicht fehlen dürften. Das Zeichen (††) bedeu-<lb/>tet, daß ich die Pflanze in dem
-                    angegebenen Theile <placeName ref="https://www.geonames.org/3175395">
+                    in einer <lb/>Flora nicht fehlen dürften. Das Zeichen (††) bedeu<g ref="#typoHyphen"/>
+                    <lb break="no"/>tet, daß ich die Pflanze in dem
+                    angegebenen Theile <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">
                         <lb/>Italiens</placeName> selbst
                     gefunden habe, das Zeichen (†), daß <lb/>ich ein daselbst von einem anderen
-                    gefundenes Exem-<lb/>plar besitze. Am Schlusse
+                    gefundenes Exem<g ref="#typoHyphen"/>
+                    <lb break="no"/>plar besitze. Am Schlusse
                     jeder Gattung und Familie <lb/>wird eine Uebersicht der geographischen
-                    Verhältnisse der-<lb/>selben beygefügt. Die am
-                    Schlusse dieses Planes an-<lb/>geführte Probe
-                    des zweyten Theils, worin die Gat-<lb/>tung
-                    Campanula behandelt ist, wird die Sache deut-<lb/>licher machen. —</p>
-                <p>e. In einer Flora würde man vielleicht lieber ein künst-<lb/>liches oder heuristisches System wählen; in einem Werke
+                    Verhältnisse der<g ref="#typoHyphen"/>
+                    <lb break="no"/>selben beygefügt. Die am
+                    Schlusse dieses Planes an<g ref="#typoHyphen"/>
+                    <lb break="no"/>geführte Probe
+                    des zweyten Theils, worin die Gat<g ref="#typoHyphen"/>
+                    <lb break="no"/>tung
+                    Campanula behandelt ist, wird die Sache deut<g ref="#typoHyphen"/>
+                    <lb break="no"/>licher machen. —</p>
+                <p>e. In einer Flora würde man vielleicht lieber ein künst<g ref="#typoHyphen"/>
+                    <lb break="no"/>liches oder heuristisches System wählen; in einem Werke
                     <lb/>aber von der Natur, wie das gegenwärtige, kann nur <lb/>ein natürliches
                     oder synoptisches zweckmäßig seyn. Die <lb/>Pflanzen werden daher nach dem
-                    System des Herrn <persName ref="http://d-nb.info/gnd/119273624">
+                    System des Herrn <persName ref="https://editon-humboldt.de/H0004222 http://d-nb.info/gnd/119273624">
                         <lb/>Jussieu</persName> nebst den
                     späteren Veränderungen, insofern sie <lb/>Beyfall verdienen, aufgestellt werden.
                     — </p>
-                <p>Die große <placeName ref="https://www.geonames.org/2661786">Alpenkette</placeName> von <placeName ref="https://www.geonames.org/2990440">Nizza</placeName> bis <placeName ref="https://www.geonames.org/3337514">Istrien</placeName>, und das <placeName ref="https://www.geonames.org/363196">
+                <p>Die große <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpenkette</placeName> von <placeName ref="https://editon-humboldt.de/H0001689 https://www.geonames.org/2990440">Nizza</placeName> bis <placeName ref="https://editon-humboldt.de/H0006748 https://www.geonames.org/3337514">Istrien</placeName>, und das <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">
                         <lb/>mittelländische
-                        Meer</placeName> mit seinen Buchten bilden, ohne Rück-<lb/>sicht auf politische Eintheilungen, die Gränzen der Län-<lb/>der, deren pflanzengeographische
+                        Meer</placeName> mit seinen Buchten bilden, ohne Rück<g ref="#typoHyphen"/>
+                    <lb break="no"/>sicht auf politische Eintheilungen, die Gränzen der Län<g ref="#typoHyphen"/>
+                    <lb break="no"/>der, deren pflanzengeographische
                     Verhältnisse ich behandeln <lb/>werde. — </p>
                 <p>Der dritte Theil.</p>
-                <p>1) Uebersicht der physischen Geographie <placeName ref="https://www.geonames.org/3175395">Italiens</placeName>. <lb/>Folglich die Lage, Gränzen, Gebirge, deren Form
-                    und <lb/>Richtung, Flüsse, Seen u. s. w. Die Resultate der cli-<lb/>matischen Verhältnisse des ganzen Landes.
+                <p>1) Uebersicht der physischen Geographie <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiens</placeName>. <lb/>Folglich die Lage, Gränzen, Gebirge, deren Form
+                    und <lb/>Richtung, Flüsse, Seen u. s. w. Die Resultate der cli<g ref="#typoHyphen"/>
+                    <lb break="no"/>matischen Verhältnisse des ganzen Landes.
                     —</p>
-                <p>2) Vergleichung der verschiedenen Theile dieses Lan-<lb/>des in pflanzengeographischer Rücksicht. — Folgen-<lb/>de werden die wichtigsten Vergleichungen
+                <p>2) Vergleichung der verschiedenen Theile dieses Lan<g ref="#typoHyphen"/>
+                    <lb break="no"/>des in pflanzengeographischer Rücksicht. — Folgen<g ref="#typoHyphen"/>
+                    <lb break="no"/>de werden die wichtigsten Vergleichungen
                     seyn:</p>
                 <p>a. Zwischen den verschiedenen Theilen rücksichtlich <lb/>der geographischen
-                    Breite; also zwischen dem nörd-<lb/>lichen und
-                    südlichen <placeName ref="https://www.geonames.org/3175395">Italien</placeName>, zwischen diesem und
-                        <placeName ref="https://www.geonames.org/2523119">Si-<lb/>cilien</placeName> u. s. w. </p>
-                <p>b. Zwischen den verschiedenen Regionen. Die Ge-<lb/>birgsregionen werden — jede Hauptgebirgskette für sich
+                    Breite; also zwischen dem nörd<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen und
+                    südlichen <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName>, zwischen diesem und
+                        <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Si<g ref="#typoHyphen"/>
+                        <lb break="no"/>cilien</placeName> u. s. w. </p>
+                <p>b. Zwischen den verschiedenen Regionen. Die Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>birgsregionen werden — jede Hauptgebirgskette für sich
                     <lb/>genommen — sowohl nach den wildwachsenden als nach <lb/>den angebauten
                     Pflanzen bestimmt. Dann werden die <lb/>Regionen der verschiedenen Gebirge
                     verglichen.</p>
@@ -249,57 +340,71 @@
                     <pb n="2r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636702X/500/0/00000003.jpg"/>Die vorzüglichsten Puncte der Vergleichung:</p>
                 <p>a. Rücksichtlich der relativen Anzahl der Individuen, <lb/>Arten, Gattungen,
                     Familien, so wie auch der Masse <lb/>der Vegetation.</p>
-                <p>b. Rücksichtlich der Uebereinstimmung und des Un-<lb/>terschiedes der Arten, Gattungen und Familien.</p>
-                <p>c. Rücksichtlich der Uebereinstimmung und des Unterschie-<lb/>des in Hinsicht des Vorkommens. </p>
+                <p>b. Rücksichtlich der Uebereinstimmung und des Un<g ref="#typoHyphen"/>
+                    <lb break="no"/>terschiedes der Arten, Gattungen und Familien.</p>
+                <p>c. Rücksichtlich der Uebereinstimmung und des Unterschie<g ref="#typoHyphen"/>
+                    <lb break="no"/>des in Hinsicht des Vorkommens. </p>
                 <p>d. Rücksichtlich des ganzen habitus der Vegetation.</p>
                 <p>e. In Hinsicht der Blüthezeit, der Hauptperioden für <lb/>die angebauten Pflanzen
                     u. s. w. — </p>
-                <p>Sämmtliche Uebereinstimmungen und Unterschiede wer-<lb/>den mit den climatischen Verhältnissen in Verbindung ge-<lb/>setzt, und mit Hülfe dieser möglichst
+                <p>Sämmtliche Uebereinstimmungen und Unterschiede wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>den mit den climatischen Verhältnissen in Verbindung ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>setzt, und mit Hülfe dieser möglichst
                     erklärt. — </p>
                 <p>
-                    <lb/>3) Vergleichung zwischen <placeName ref="https://www.geonames.org/3175395">Italien</placeName> und
-                    anderen Thei-<lb/>len der Erde.</p>
-                <p>a. Mit <placeName ref="https://www.geonames.org/2264397">Portugal</placeName>, <placeName ref="https://www.geonames.org/2510769">Spanien</placeName>, dem südlichen <placeName ref="https://www.geonames.org/3017382">Frankreich</placeName>, <placeName ref="https://www.geonames.org/390903">
-                        <lb/>Griechenland</placeName>, <placeName ref="https://edition-humboldt.de/v8/H0000426">Kleinasien</placeName>, <placeName ref="https://www.geonames.org/357994">Aegypten</placeName>, der
-                        <placeName ref="https://www.geonames.org/2219875">Barbarey</placeName>, <lb/>
-                    <placeName ref="https://www.geonames.org/2593110">den canarischen Inseln</placeName>; d. h. mit der ganzen
-                        <placeName ref="https://www.geonames.org/363196">mediter- <lb/>raneischen</placeName> Flora. —</p>
-                <p>b. Mit dem<placeName ref="https://www.geonames.org/7729883"> nördlichen Europa</placeName>.</p>
-                <p>c. Mit dem <placeName ref="https://edition-humboldt.de/v8/H0001699">nördlichen Asien</placeName>.</p>
-                <p>d. Mit <placeName ref="https://www.geonames.org/7729890">Nordamerica</placeName>.</p>
-                <p>e. Mit der <placeName ref="https://edition-humboldt.de/v8/H0010829">temperirten Zone</placeName> der <placeName ref="https://edition-humboldt.de/v8/H0010383">südlichen Hemisphäre</placeName>.</p>
-                <p>f. Mit der <placeName ref="http://d-nb.info/gnd/4060997-2">heißen Zone</placeName>.</p>
-                <p>g. Mit der <placeName ref="https://edition-humboldt.de/v8/H0008340">Polar-Zone</placeName>. </p>
-                <p>h. Die Vegetation der <placeName ref="https://www.geonames.org/3175395">italienischen</placeName>
-                    <placeName ref="https://www.geonames.org/2661786">Alpen</placeName>, <placeName ref="https://www.geonames.org/3182969">Apenninen</placeName>
-                    <lb/>und der <placeName ref="https://www.geonames.org/2523119">sicilianischen</placeName> Gebirge mit
+                    <lb/>3) Vergleichung zwischen <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> und
+                    anderen Thei<g ref="#typoHyphen"/>
+                    <lb break="no"/>len der Erde.</p>
+                <p>a. Mit <placeName ref="https://editon-humboldt.de/H0008382 https://www.geonames.org/2264397">Portugal</placeName>, <placeName ref="https://editon-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName>, dem südlichen <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName>, <placeName ref="https://editon-humboldt.de/H0010922 https://www.geonames.org/390903">
+                        <lb/>Griechenland</placeName>, <placeName ref="https://editon-humboldt.de/H0000426">Kleinasien</placeName>, <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Aegypten</placeName>, der
+                        <placeName ref="https://editon-humboldt.de/H0005119 https://www.geonames.org/2219875">Barbarey</placeName>, <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0000346 https://www.geonames.org/2593110">den canarischen Inseln</placeName>; d. h. mit der ganzen
+                        <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">mediter- <lb/>raneischen</placeName> Flora. —</p>
+                <p>b. Mit dem<placeName ref="https://editon-humboldt.de/H0001700 https://www.geonames.org/7729883"> nördlichen Europa</placeName>.</p>
+                <p>c. Mit dem <placeName ref="https://editon-humboldt.de/H0001699">nördlichen Asien</placeName>.</p>
+                <p>d. Mit <placeName ref="https://editon-humboldt.de/H0001698 https://www.geonames.org/7729890">Nordamerica</placeName>.</p>
+                <p>e. Mit der <placeName ref="https://editon-humboldt.de/H0010829">temperirten Zone</placeName> der <placeName ref="https://editon-humboldt.de/H0010383">südlichen Hemisphäre</placeName>.</p>
+                <p>f. Mit der <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">heißen Zone</placeName>.</p>
+                <p>g. Mit der <placeName ref="https://editon-humboldt.de/H0008340">Polar-Zone</placeName>. </p>
+                <p>h. Die Vegetation der <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italienischen</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>, <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">Apenninen</placeName>
+                    <lb/>und der <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">sicilianischen</placeName> Gebirge mit
                     der der nördlichen <lb/>
-                    <placeName ref="https://www.geonames.org/2658434">Schweitzer</placeName>, der
-                        <placeName ref="https://www.geonames.org/3112616">Pyrenäen</placeName>, der <placeName ref="https://www.geonames.org/682674">Carpathen</placeName>, des <placeName ref="https://www.geonames.org/573081">cauca-<lb/>sischen Gebirges</placeName>, des
-                        <placeName ref="https://edition-humboldt.de/v8/H0010276">scandinavischen</placeName> und <placeName ref="https://www.geonames.org/2638360">schottländi-<lb/>schen</placeName> Hochlandes, der temperirten Regionen des tropi-<lb/>schen Amerikas und <placeName ref="https://edition-humboldt.de/v8/H0002578">Asiens</placeName>.</p>
-                <p>i. Die Pflanzen des <placeName ref="https://www.geonames.org/363196">mittelländischen Meeres</placeName>
-                    mit den ve-<lb/>getabilischen Erzeugnissen
+                    <placeName ref="https://editon-humboldt.de/H0010179 https://www.geonames.org/2658434">Schweitzer</placeName>, der
+                        <placeName ref="https://editon-humboldt.de/H0008509 https://www.geonames.org/3112616">Pyrenäen</placeName>, der <placeName ref="https://editon-humboldt.de/H0000371 https://www.geonames.org/682674">Carpathen</placeName>, des <placeName ref="https://editon-humboldt.de/H0000394 https://www.geonames.org/573081">cauca<g ref="#typoHyphen"/>
+                        <lb break="no"/>sischen Gebirges</placeName>, des
+                        <placeName ref="https://editon-humboldt.de/H0010276">scandinavischen</placeName> und <placeName ref="https://editon-humboldt.de/H0010167 https://www.geonames.org/2638360">schottländi<g ref="#typoHyphen"/>
+                        <lb break="no"/>schen</placeName> Hochlandes, der temperirten Regionen des tropi<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen Amerikas und <placeName ref="https://editon-humboldt.de/H0002578">Asiens</placeName>.</p>
+                <p>i. Die Pflanzen des <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">mittelländischen Meeres</placeName>
+                    mit den ve<g ref="#typoHyphen"/>
+                    <lb break="no"/>getabilischen Erzeugnissen
                     anderer Meere. — </p>
                 <p>Die Vergleichungspuncte werden im Wesentlichen die <lb/>nehmlichen als in Nr. 2.
                     seyn; — und die Phänomene <lb/>werden so weit möglich durch die climatischen
                     Verhältnisse <lb/>erklärt. —</p>
                 <p> Diesen Theil werden verschiedene Karten erläutern, <lb/>theils Plankarten, worin
-                        <placeName ref="https://www.geonames.org/3175395">Italien</placeName> und <placeName ref="https://www.geonames.org/2523119">Sicilien</placeName> in verschie-<lb/>dene
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> und <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilien</placeName> in verschie<g ref="#typoHyphen"/>
+                    <lb break="no"/>dene
                     Unterabtheilungen rücksichtlich der Vegetation getheilt <lb/>werden; theils
                     Profilkarten, um die Regionen darzustellen. —</p>
-                <p>Als Anhang werden Beyträge zur Geschichte der <lb/>Pflanzen in <placeName ref="https://www.geonames.org/3175395">Italien</placeName> geliefert, nehmlich zur Beantwortung
-                    <lb/>der Fragen, welche <placeName ref="https://www.geonames.org/3175395">italienische</placeName>
+                <p>Als Anhang werden Beyträge zur Geschichte der <lb/>Pflanzen in <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> geliefert, nehmlich zur Beantwortung
+                    <lb/>der Fragen, welche <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">italienische</placeName>
                     Pflanzen als ursprüngliche, <lb/>welche als eingeführte anzusehen sind; wie und
                     wann die <lb/>letzteren eingeführt worden; — ob und wie fern das Klima <lb/>und
-                    die Vegetation verändert ist; endlich die Aufschlüsse, <lb/>welche <placeName ref="https://www.geonames.org/3175395">Italien</placeName> über die Geschichte der Pflanzen im
-                        Allge-<lb/>meinen zu geben vermag. —</p>
+                    die Vegetation verändert ist; endlich die Aufschlüsse, <lb/>welche <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> über die Geschichte der Pflanzen im
+                        Allge<g ref="#typoHyphen"/>
+                    <lb break="no"/>meinen zu geben vermag. —</p>
                 <p>J. F. Schouw.</p>
                 <p> Philosph. Doctor. <lb/> ___________________________ </p>
                 <p>
                     <lb/>C a m p a n u l a. <lb/> † Capsula nuda. </p>
                 <p>
-                    <lb/>1. <hi rendition="#i">Campanula cenisia* </hi>(<persName ref="http://d-nb.info/gnd/118573349">Lin</persName>.), caulibus unifloris, fo-<lb/>liis integerrimis ciliatis, radicalibus obovato-<lb/>spathulatis, calyce hirto, corollam
-                        subaequan-<lb/>te. All. Ped. t. 6. f. 2.</p>
+                    <lb/>1. <hi rendition="#i">Campanula cenisia* </hi>(<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin</persName>.), caulibus unifloris, fo<g ref="#typoHyphen"/>
+                    <lb break="no"/>liis integerrimis ciliatis, radicalibus obovato<g ref="#typoHyphen"/>
+                    <lb break="no"/>spathulatis, calyce hirto, corollam
+                        subaequan<g ref="#typoHyphen"/>
+                    <lb break="no"/>te. All. Ped. t. 6. f. 2.</p>
                 <p>
                     <hi rendition="#i">Syn.ital.</hi> All. Ped. 1. p. 108. </p>
                 <p>
@@ -308,7 +413,7 @@
                     nr. 696. Villars Delph.
                     2. <lb/>p. 499. Flor. Fr. 3. p. 696. </p>
                 <p>
-                    <lb/>In locis saxosis regionis <placeName ref="https://www.geonames.org/2661786">alpinae</placeName>,
+                    <lb/>In locis saxosis regionis <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">alpinae</placeName>,
                     Pedemontii (†). <lb/>Inter 4800–7500 circiter ped. par. Decand. Mèm.
                     <lb/>d’Arcueil T. 3. Occurrit etiam in alpinis Delphinatus
                         <lb/>et
@@ -316,22 +421,28 @@
                 <p>
                     <lb/>2. <hi rendition="#i">Campanula Raineri
                     </hi>(Perpenti),
-                    caule decumbente <lb/>subunifloro, foliis ellipticis subsessilibus, den-<lb/>tato-crenatis, pubescentibus subincanis,
-                        caly-<lb/>cinis laciniis lanceolatis
-                    dentatis corolla du-<lb/>plo minoribus. —
+                    caule decumbente <lb/>subunifloro, foliis ellipticis subsessilibus, den<g ref="#typoHyphen"/>
+                    <lb break="no"/>tato-crenatis, pubescentibus subincanis,
+                        caly<g ref="#typoHyphen"/>
+                    <lb break="no"/>cinis laciniis lanceolatis
+                    dentatis corolla du<g ref="#typoHyphen"/>
+                    <lb break="no"/>plo minoribus. —
                     Bibliotec. Italian. 1817. <lb/>Jan. fig.</p>
                 <p>
                     <hi rendition="#i">Syn. ital.</hi>: Bibl. Ital. l. c. </p>
                 <p>
                     <lb/>In Rhaeticis
                     alpibus
-                    (monte Codeno † † Corni di <lb/>Canzo et val Trompia Perpenti) solummodo hucus-<lb/>que observata. Partem superiorem regionis
-                        sylva-<lb/>ticae superioris (scil. regionis
+                    (monte Codeno † † Corni di <lb/>Canzo et val Trompia Perpenti) solummodo hucus<g ref="#typoHyphen"/>
+                    <lb break="no"/>que observata. Partem superiorem regionis
+                        sylva<g ref="#typoHyphen"/>
+                    <lb break="no"/>ticae superioris (scil. regionis
                     Fagi) et inferiorem <lb/>regionis subalpinae (scil. regionis laricis et abietis)
                     <lb/>tenet, 4000–5000 p. p. — In fissuris rupium. </p>
                 <p>
                     <lb/>
-                    <hi rendition="#i">Obs.</hi> Species satis distincta mihi videtur. For-<lb/>ma corollae et calycis ad sequentem
+                    <hi rendition="#i">Obs.</hi> Species satis distincta mihi videtur. For<g ref="#typoHyphen"/>
+                    <lb break="no"/>ma corollae et calycis ad sequentem
                     accedit, a qua <lb/>tamen caeteris notis satis differt. </p>
                 <p>
                     <lb/>
@@ -340,33 +451,38 @@
                         <corr cert="high">3</corr>
                     </choice>. <hi rendition="#i">Campanula fragilis
                     </hi>(Cyrillo),
-                    caule debili pauciflo-<lb/>ro, foliis
+                    caule debili pauciflo<g ref="#typoHyphen"/>
+                    <lb break="no"/>ro, foliis
                     radicalibus cordato-ovatis crenatis, <lb/>longissime petiolatis, summis caulinis
-                        lanceo-<lb/>latis sessilibus, stylo exserto.
+                        lanceo<g ref="#typoHyphen"/>
+                    <lb break="no"/>latis sessilibus, stylo exserto.
                     Barrelier. <lb/>icon. 453.</p>
                 <p>
                     <hi rendition="#i">Syn. ital.</hi>: <hi rendition="#i">Camp. diffusa</hi>, Vahl.
-                    Symb. 1. p. 18! <lb/>C. cochlearifolia, Vahl. Symb. 1. p. 18! C. <hi rendition="#i">fra-</hi>
-                    <lb/>
+                    Symb. 1. p. 18! <lb/>C. cochlearifolia, Vahl. Symb. 1. p. 18! C. <hi rendition="#i">fra<g ref="#typoHyphen"/>
+                    </hi>
+                    <lb break="no"/>
                     <hi rendition="#i">gilis</hi> Cyrillo pl. fasc. 1. p. 32. Tenore Fl. Neap.
                     <lb/>Prodr. Raccolta viag. p. 56. Barrelier. pl. p. 10 <lb/>nr. 80. Raji Hist.
                     Vol. 1. p. 741. Rafinesque <lb/>Chloris Ethn. p. 11. — </p>
                 <p>
                     <lb/>β. <hi rendition="#i">pilosa</hi>. Tenore prodr. l. c. p. 19.</p>
-                <p>In parte meridionali <placeName ref="https://www.geonames.org/3175395">Italiae</placeName> haud rara
-                        (<placeName ref="https://www.geonames.org/2525468">Calabria</placeName>
+                <p>In parte meridionali <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiae</placeName> haud rara
+                        (<placeName ref="https://editon-humboldt.de/H0000329 https://www.geonames.org/2525468">Calabria</placeName>
                     <lb/>et
                     Capraea
-                    †† et alibi †) forsan etiam in <placeName ref="https://www.geonames.org/2523119">Sicilia
+                    †† et alibi †) forsan etiam in <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilia
                     </placeName>
                     <lb/>(Raf.); ultra gradum 41° latit. vix obvenit, nec <lb/>extra
-                        <placeName ref="https://www.geonames.org/3175395">Italiam</placeName> et <placeName ref="https://www.geonames.org/2523119">Siciliam</placeName> adhuc reperta est. Regio-<lb/>nem sempervirentem* occupat quin etiam regione <lb/>sylvatica
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiam</placeName> et <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Siciliam</placeName> adhuc reperta est. Regio<g ref="#typoHyphen"/>
+                    <lb break="no"/>nem sempervirentem* occupat quin etiam regione <lb/>sylvatica
                     inferiori obvia, fere usque ad terminum <lb/>inferiorem Fagi (0–3000 p. p.).
                     Densissimos et <lb/>pulcherrimos cespites facit e rupibus pendentes. <lb/>Solum
                     calcareum amare videtur. </p>
                 <p>
-                    <lb/>* So nenne ich die unterste Region der <placeName ref="https://www.geonames.org/3182969">Apenninen</placeName>, worinn <lb/>Quercus Ilex und Suber, Viburnum Tinus,
-                    Myrtus com-<lb/>munis, Arbutus unedo, die
+                    <lb/>* So nenne ich die unterste Region der <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">Apenninen</placeName>, worinn <lb/>Quercus Ilex und Suber, Viburnum Tinus,
+                    Myrtus com<g ref="#typoHyphen"/>
+                    <lb break="no"/>munis, Arbutus unedo, die
                     Phillyreen, Erica arborea, <lb/>Pistacia Lentiscus und mehrere immergrüne Bäume
                     und <lb/>Sträucher die charakterisierenden Pflanzen sind. <lb/>
                 </p>
@@ -375,16 +491,19 @@
                     <pb n="2v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636702X/500/0/00000004.jpg"/>
                     <hi rendition="#i">Obs. C. diffusa</hi> Vahl. et <hi rendition="#i">C.
                         cochlearifolia</hi>. Ejusd. <lb/>quin hujus loci sint, inspectis
-                    speciminibus herba-<lb/>rii Vahliani non est
+                    speciminibus herba<g ref="#typoHyphen"/>
+                    <lb break="no"/>rii Vahliani non est
                     quod dubitem. Barrel. icon. <lb/>454 autem (a Vahlio citato) vix nostram plantam
                     <lb/>sistit, plantam alpinam appellat, nec ante oculos <lb/>nisi folia radicalia
-                    habuit, quae forsan ad C. rotun-<lb/>difoliae
+                    habuit, quae forsan ad C. rotun<g ref="#typoHyphen"/>
+                    <lb break="no"/>difoliae
                     varietatem vel affines species pertinent. Nec <lb/>
                     <hi rendition="#i">C.
                         cochlearifoliam</hi> Lamark. Enc. 1. p. 578 allegare <lb/>ausus sum. </p>
                 <p>
-                    <lb/>4. <hi rendition="#i">Campanula linifolia</hi> (<persName ref="http://d-nb.info/gnd/118726048">Lamarck</persName>, non <persName ref="http://d-nb.info/gnd/117387436">Willd</persName>.),
-                        cauli-<lb/>bus subunifloris, foliis
+                    <lb/>4. <hi rendition="#i">Campanula linifolia</hi> (<persName ref="https://editon-humboldt.de/H0004274 http://d-nb.info/gnd/118726048">Lamarck</persName>, non <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willd</persName>.),
+                        cauli<g ref="#typoHyphen"/>
+                    <lb break="no"/>bus subunifloris, foliis
                     radicalibus oblongo- <lb/>lanceolatis, caulinis linearibus subfalcatis.
                     <lb/>Scheuchzer iter
                     l.
@@ -400,16 +519,21 @@
                 <p>
                     <lb/>In alpibus a
                     Cottiis
-                    usque ad <placeName ref="https://www.geonames.org/2661545">Rhaeticas</placeName> depre-<lb/>henditur (††), in <placeName ref="https://www.geonames.org/2658434">Helvetia</placeName> vero septentrionali abesse <lb/>videtur;
-                    at in <placeName ref="https://www.geonames.org/682674">Carpathis</placeName> et <placeName ref="https://www.geonames.org/3112616">Pyrenaeis</placeName> obvia. <placeName ref="https://www.geonames.org/2661786">Regi-<lb/>onem alpinam</placeName> occupat, in
-                    subalpinam descendit <lb/>(6000–7500 p. p.) Pascua subuliginosa praeci-<lb/>pue amat. </p>
+                    usque ad <placeName ref="https://editon-humboldt.de/H0010423 https://www.geonames.org/2661545">Rhaeticas</placeName> depre<g ref="#typoHyphen"/>
+                    <lb break="no"/>henditur (††), in <placeName ref="https://editon-humboldt.de/H0010179 https://www.geonames.org/2658434">Helvetia</placeName> vero septentrionali abesse <lb/>videtur;
+                    at in <placeName ref="https://editon-humboldt.de/H0000371 https://www.geonames.org/682674">Carpathis</placeName> et <placeName ref="https://editon-humboldt.de/H0008509 https://www.geonames.org/3112616">Pyrenaeis</placeName> obvia. <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Regi<g ref="#typoHyphen"/>
+                        <lb break="no"/>onem alpinam</placeName> occupat, in
+                    subalpinam descendit <lb/>(6000–7500 p. p.) Pascua subuliginosa praeci<g ref="#typoHyphen"/>
+                    <lb break="no"/>pue amat. </p>
                 <p>
-                    <lb/>Obs. <hi rendition="#i">C. linifolia</hi>. Flor. Tic. p. 99. forsan ad no-<lb/>stram plantam non pertinet; planta enim
+                    <lb/>Obs. <hi rendition="#i">C. linifolia</hi>. Flor. Tic. p. 99. forsan ad no<g ref="#typoHyphen"/>
+                    <lb break="no"/>stram plantam non pertinet; planta enim
                     montium <lb/>parum elevatorum est. Nec <hi rendition="#i">C. linifoliam</hi>
-                    Tenore <lb/>Catal. 1813. citare audeo. — Figura <persName ref="http://d-nb.info/gnd/118607308">Scheuchzeri</persName>, <lb/>licet respectu artis pessima, bene habitum
-                        plan-<lb/>tae exprimit. </p>
+                    Tenore <lb/>Catal. 1813. citare audeo. — Figura <persName ref="https://editon-humboldt.de/H0015526 http://d-nb.info/gnd/118607308">Scheuchzeri</persName>, <lb/>licet respectu artis pessima, bene habitum
+                        plan<g ref="#typoHyphen"/>
+                    <lb break="no"/>tae exprimit. </p>
                 <p>
-                    <lb/>5. <hi rendition="#i">Campanula caespitosa</hi> (<persName ref="http://d-nb.info/gnd/11909360X">Scopoli</persName>), floribus racemosis, <lb/>caulibus caespitosis, foliis
+                    <lb/>5. <hi rendition="#i">Campanula caespitosa</hi> (<persName ref="https://editon-humboldt.de/H0015756 http://d-nb.info/gnd/11909360X">Scopoli</persName>), floribus racemosis, <lb/>caulibus caespitosis, foliis
                     caulinis subdentatis, <lb/>corollis parvis basi dilatatis. Scop. Carn.
                         <lb/>2.
                     t. 4.</p>
@@ -419,20 +543,24 @@
                     <lb/>— <hi rendition="#i">ex</hi>. Scopoli l. c. <hi rendition="#i">C.
                         pusilla</hi> Wahl. Carp. p. 59?</p>
                 <p>In alpium parte magis orientem versus, scil. in <lb/>
-                    <placeName ref="https://www.geonames.org/2661545">alpibus Rhaeticis</placeName> (Baldo ††) et Juliis (†); forsan et <lb/>in
-                        <placeName ref="https://www.geonames.org/682674">Carpathis</placeName>. Regionem sylvaticam
+                    <placeName ref="https://editon-humboldt.de/H0010423 https://www.geonames.org/2661545">alpibus Rhaeticis</placeName> (Baldo ††) et Juliis (†); forsan et <lb/>in
+                        <placeName ref="https://editon-humboldt.de/H0000371 https://www.geonames.org/682674">Carpathis</placeName>. Regionem sylvaticam
                     superiorem et <lb/>subalpinam habitat. 4000–6000 p. p. — </p>
                 <p>
-                    <lb/>6. <hi rendition="#i">Campanula rotundifolia</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus panicula-<lb/>tis, foliis radicalibus cordatis, caulinis linea-<lb/>ribus integerrimis. — Engl. Bot. t. 866.</p>
+                    <lb/>6. <hi rendition="#i">Campanula rotundifolia</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus panicula<g ref="#typoHyphen"/>
+                    <lb break="no"/>tis, foliis radicalibus cordatis, caulinis linea<g ref="#typoHyphen"/>
+                    <lb break="no"/>ribus integerrimis. — Engl. Bot. t. 866.</p>
                 <p>
                     <hi rendition="#i">Syn. it</hi>. All. Ped. 1. p. 108. Flor. Tic. p. 99. Marz.
                     <lb/>Vicent. p. 23. Poll. Viag. p. 15, 118. Flor. Atest. <lb/>p. 24. Bertol. Am.
-                    p. 342. Savi due Centurie. Te-<lb/>nore Catal.
+                    p. 342. Savi due Centurie. Te<g ref="#typoHyphen"/>
+                    <lb break="no"/>nore Catal.
                     1813. Ucria Hort. p. 92. </p>
                 <p>
                     <lb/>— <hi rendition="#i">ex</hi>. Flor. Fr. 3. p. 698. Quer. Esp. 2. p. 384.
                     <lb/>nr. 10. et Cavanill. Valencia T. 2. Flor. Graec. <lb/>Prodr. 1. p. 137.
-                    Wahlenb. Carpath. p. 59. Wah-<lb/>lenb. Helv. p.
+                    Wahlenb. Carpath. p. 59. Wah<g ref="#typoHyphen"/>
+                    <lb break="no"/>lenb. Helv. p.
                     39. Flor. Dan. 1086. Wahl. Lapp. <lb/>p. 65. Gmel. Sibir. 3. p. 161 nr. 30.
                     Pursh. amer. <lb/>bor. 1. p. 159. </p>
                 <p>
@@ -449,51 +577,62 @@
                     caulinis lanceolatis Fl. Ped. <lb/>t. 47. f. 2. </p>
                 <p>
                     <lb/>Species latissimum spatium horizontale obtinens, <lb/>maximam quippe partem
-                    zonae temperatae <placeName ref="https://edition-humboldt.de/v8/H0001702">hemi-<lb/>sphaerii borealis</placeName> occupat. (<placeName ref="https://www.geonames.org/2016590">Sibiria</placeName>, <placeName ref="https://www.geonames.org/830603">Lapponia</placeName>,<placeName ref="https://www.geonames.org/7729890"> Ame-<lb/>rica bor.</placeName>); in planitie 43°–72° latit.;
-                    Nec mi-<lb/>nor est extensio verticalis, a
+                    zonae temperatae <placeName ref="https://editon-humboldt.de/H0001702">hemi<g ref="#typoHyphen"/>
+                        <lb break="no"/>sphaerii borealis</placeName> occupat. (<placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibiria</placeName>, <placeName ref="https://editon-humboldt.de/H0011377 https://www.geonames.org/830603">Lapponia</placeName>,<placeName ref="https://editon-humboldt.de/H0001698 https://www.geonames.org/7729890"> Ame<g ref="#typoHyphen"/>
+                        <lb break="no"/>rica bor.</placeName>); in planitie 43°–72° latit.;
+                    Nec mi<g ref="#typoHyphen"/>
+                    <lb break="no"/>nor est extensio verticalis, a
                     planitie enim usque ad <lb/>summas regiones adscendit (in regione alpina sub
-                    <lb/>forma <hi rendition="#i">β</hi>.) In <placeName ref="https://www.geonames.org/3175395">Italia</placeName> superiori maxime vulgaris, in <placeName ref="https://www.geonames.org/3175395">
+                    <lb/>forma <hi rendition="#i">β</hi>.) In <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> superiori maxime vulgaris, in <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">
                         <lb/>Italia</placeName> inferiori sensim sensimque rarescit et versus
                     <lb/>elevatas regiones adscendit; sicut infra gradum 40° <lb/>lat. vix nisi
-                    supra 2000 p. p. invenitur. In Flora at-<lb/>lantica abesse videtur. Loca sterilia praefert. </p>
+                    supra 2000 p. p. invenitur. In Flora at<g ref="#typoHyphen"/>
+                    <lb break="no"/>lantica abesse videtur. Loca sterilia praefert. </p>
                 <p>
-                    <lb/>7. <hi rendition="#i">Campanula rhomboidea</hi> (<persName ref="http://d-nb.info/gnd/118573330">Lin.</persName>), floribus racemosis <lb/>subsecundis, foliis inferioribus
+                    <lb/>7. <hi rendition="#i">Campanula rhomboidea</hi> (<persName ref="https://editon-humboldt.de/H0004552 http://d-nb.info/gnd/118573330">Lin.</persName>), floribus racemosis <lb/>subsecundis, foliis inferioribus
                     rhomboideo- <lb/>ovatis, laciniis calycinis subulatis. Barrel. ic. <lb/>567.
                     Boccone Mus. p. 75 tab. 61. f. 1.</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: <hi rendition="#i">C. rhomboidalis</hi>. All.
-                    Ped. 1. p. 110. Sco--<lb/>pol carn. 1. p. 146. </p>
+                    Ped. 1. p. 110. Sco-<g ref="#typoHyphen"/>
+                    <lb break="no"/>pol carn. 1. p. 146. </p>
                 <p>
                     <lb/>— <hi rendition="#i">
                         <hi rendition="#i">ex</hi>.: C. rhomboidalis</hi>.
                     Flor. Fr. 3. p. 701. <hi rendition="#i">C. <lb/>rhomboida β.</hi> Wahlenb. Carp.
                     p. 60. Hall. Helv. <lb/>nr. 693. Wahlenb. Helv. p. 40. </p>
                 <p>
-                    <lb/>In alpium parte occidentali vulgaris (<placeName ref="https://www.geonames.org/3181986">Cénis</placeName> et <lb/>
-                    <placeName ref="https://edition-humboldt.de/v8/H0009702">Simplon</placeName> ††) et
-                    ni fallor per totum jugum extendi-<lb/>tur,
-                    adest enim prope Goriziam (<persName ref="http://d-nb.info/gnd/11909360X">Scop.</persName>)
-                    Helvetiae <lb/>septentrionalis, Delphinatus et <placeName ref="https://www.geonames.org/682674">Carpathorum</placeName> etiam <lb/>incola. Regionem
-                    sylvaticam superiorem et regio-<lb/>nem
-                    subalpinam habitat, in regione alpina vix ob-<lb/>via. (2500—5000 p. p.) — </p>
+                    <lb/>In alpium parte occidentali vulgaris (<placeName ref="https://editon-humboldt.de/H0008955 https://www.geonames.org/3181986">Cénis</placeName> et <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0009702">Simplon</placeName> ††) et
+                    ni fallor per totum jugum extendi<g ref="#typoHyphen"/>
+                    <lb break="no"/>tur,
+                    adest enim prope Goriziam (<persName ref="https://editon-humboldt.de/H0015756 http://d-nb.info/gnd/11909360X">Scop.</persName>)
+                    Helvetiae <lb/>septentrionalis, Delphinatus et <placeName ref="https://editon-humboldt.de/H0000371 https://www.geonames.org/682674">Carpathorum</placeName> etiam <lb/>incola. Regionem
+                    sylvaticam superiorem et regio<g ref="#typoHyphen"/>
+                    <lb break="no"/>nem
+                    subalpinam habitat, in regione alpina vix ob<g ref="#typoHyphen"/>
+                    <lb break="no"/>via. (2500—5000 p. p.) — </p>
                 <p>
                     <lb/>8. <hi rendition="#i">Campanula trichocalycina</hi>
                     (Tenore),
-                    floribus race-<lb/>mosis, foliis ellipticis
+                    floribus race<g ref="#typoHyphen"/>
+                    <lb break="no"/>mosis, foliis ellipticis
                     subsessilibus profunde <lb/>et inaequaliter serratis, laciniis calycinis ca-
                     <lb/>pillaribus. Flor. Neap. t. 16.</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: Fl. Neap. <hi rendition="#i">C. alburnica</hi>
                     Briganti Stirp. rar. <lb/>(ex Giornale Encicl. Septbr. 1817.) </p>
                 <p>
-                    <lb/>Apenninorum partem inferiorem scil. <placeName ref="https://www.geonames.org/3172394">Neapolita-<lb/>nam</placeName> (<placeName ref="https://www.geonames.org/2523731">monte Pollino</placeName> ††
+                    <lb/>Apenninorum partem inferiorem scil. <placeName ref="https://editon-humboldt.de/H0001578 https://www.geonames.org/3172394">Neapolita<g ref="#typoHyphen"/>
+                        <lb break="no"/>nam</placeName> (<placeName ref="https://editon-humboldt.de/H0008515 https://www.geonames.org/2523731">monte Pollino</placeName> ††
                     monte
-                    Cerealto Tenore) nec <lb/>non <placeName ref="https://edition-humboldt.de/v8/H0001534">montes Nebrodenses</placeName>
-                    <placeName ref="https://www.geonames.org/2523119">Sicilia</placeName> (†) inhabitat. In <lb/>regione
+                    Cerealto Tenore) nec <lb/>non <placeName ref="https://editon-humboldt.de/H0001534">montes Nebrodenses</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilia</placeName> (†) inhabitat. In <lb/>regione
                     Fagi, circiter 4500 p. p. eam observavi. </p>
                 <p>
-                    <lb/>9. <hi rendition="#i">Campanula Rapunculus</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus paniculatis, <lb/>panicula coarctata, foliis
-                    pilosis undulatis, ra-<lb/>dicalibus
+                    <lb/>9. <hi rendition="#i">Campanula Rapunculus</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus paniculatis, <lb/>panicula coarctata, foliis
+                    pilosis undulatis, ra<g ref="#typoHyphen"/>
+                    <lb break="no"/>dicalibus
                     oblongo-lanceolatis, caulinis lineari- <lb/>lanceolatis. Engl. Bot. t. 283.</p>
                 <p>
                     <hi rendition="#i">Syn. it</hi>.: All. Ped. 1. p. 109. Poll. Viag. p. 81. Marz.
@@ -504,35 +643,40 @@
                     <hi rendition="#i">— ex.:</hi> Fl. Fr. 3. p. 699. Hall. Helv. 699. Wahl.
                     <lb/>Helv. p. 40. Flor. Dan. 1326. (var.)! Asso Arrag. <lb/>p. 24. Desf. <hi rendition="#i">A</hi>tl. I. p. 178! </p>
                 <p>
-                    <lb/>Species perinde fere respectu latitudinis extensa <lb/>ac <hi rendition="#i">C. rotundifolia</hi>; ad <placeName ref="https://edition-humboldt.de/v8/H0008340">circulum
+                    <lb/>Species perinde fere respectu latitudinis extensa <lb/>ac <hi rendition="#i">C. rotundifolia</hi>; ad <placeName ref="https://editon-humboldt.de/H0008340">circulum
                         polarem</placeName> haud adeo <lb/>accedit, vix enim gradum 56 superat, at
                     meridiem <lb/>versus magis diffunditur, nam non solum in parte <lb/>
                     <pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636702X/500/0/00000005.jpg"/>
-                    <placeName ref="https://www.geonames.org/3175395">Italiae</placeName> magis ad meridiem, sed et in
-                        <placeName ref="https://www.geonames.org/2219875">Barbaria</placeName>
-                    in-<lb/>venitur. Sec. <persName ref="http://d-nb.info/gnd/104182156">Roemer</persName> et <persName ref="http://d-nb.info/gnd/104365838">Schultes</persName> Syst. 5.
+                    <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiae</placeName> magis ad meridiem, sed et in
+                        <placeName ref="https://editon-humboldt.de/H0005119 https://www.geonames.org/2219875">Barbaria</placeName>
+                    in<g ref="#typoHyphen"/>
+                    <lb break="no"/>venitur. Sec. <persName ref="https://editon-humboldt.de/H0001019 http://d-nb.info/gnd/104182156">Roemer</persName> et <persName ref="https://editon-humboldt.de/H0015705 http://d-nb.info/gnd/104365838">Schultes</persName> Syst. 5.
                     p. 105 <lb/>etiam capitis bonae spei incola est, sed forsan <lb/>translata.
                     Ratione longitudinis geographicae minor <lb/>est extensio; quod et de extensione
-                    verticali valet, <lb/>in <placeName ref="https://www.geonames.org/3175395">Italia</placeName> enim plana
+                    verticali valet, <lb/>in <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> enim plana
                     inprimis occupat et vix supra <lb/>regionem sylvaticam inferiorem adscendit.
                     </p>
                 
-                <p>10. <hi rendition="#i">Campanula patula</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus paniculatis, <lb/>panicula patula; foliis
-                    radicalibus oblongo-<lb/>lanceolatis sinuatis pubescentibus, caulinis
+                <p>10. <hi rendition="#i">Campanula patula</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus paniculatis, <lb/>panicula patula; foliis
+                    radicalibus oblongo-<lb break="no"/>lanceolatis sinuatis pubescentibus, caulinis
                     <lb/>linearibus glabris, calyce glabro. Fl. Dan. 373.</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 109. Poll. Viag. p. 15. 109. </p>
-                <p>— <hi rendition="#i">exot</hi>. Flor. Fr. 3. p. 699. Hall. Helv. 698. Sco-<lb/>pol. Carn. 1. p. 145. Wahlenb. Carpath.
+                <p>— <hi rendition="#i">exot</hi>. Flor. Fr. 3. p. 699. Hall. Helv. 698. Sco<g ref="#typoHyphen"/>
+                    <lb break="no"/>pol. Carn. 1. p. 145. Wahlenb. Carpath.
                     p. 60. Fl. <lb/>Dan. 373. Quer Esp. 2. p. 383 Nr. 3. Flor. Gr. <lb/>Prodr. I. p.
                     137. </p>
                 <p>Ejusdem est extensionis ac <hi rendition="#i">C. rapunculus</hi> respectu
-                    <lb/>latitudinis, longitudinis et elevationis. Per totam <placeName ref="https://www.geonames.org/3175395">
+                    <lb/>latitudinis, longitudinis et elevationis. Per totam <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">
                         <lb/>Italiam</placeName> satis frequentem, sed nunquam supra
-                    <lb/>3000 p. p. observavi. Specimina Danica et Tune-<lb/>tana vidi. </p>
+                    <lb/>3000 p. p. observavi. Specimina Danica et Tune<g ref="#typoHyphen"/>
+                    <lb break="no"/>tana vidi. </p>
                 <p>11. <hi rendition="#i">Campanula Lorei</hi> *
                     (Pollini),
-                    floribus solitariis <lb/>terminalibus; foliis oblongo-lanceolatis, un-<lb/>dulato-crenatis, calyce dense strigoso,
-                        laci-<lb/>niis corollam subaequantibus.
+                    floribus solitariis <lb/>terminalibus; foliis oblongo-lanceolatis, un<g ref="#typoHyphen"/>
+                    <lb break="no"/>dulato-crenatis, calyce dense strigoso,
+                        laci<g ref="#typoHyphen"/>
+                    <lb break="no"/>niis corollam subaequantibus.
                     Poll. Element. <lb/>Bot. II. tab. ult. fig. 1. (ex Poll. pl.)</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: Poll. Cat. pl. hort. Ver. 1812 p. 9. Ejusd.
@@ -540,7 +684,7 @@
                     <lb/>
                     <hi rendition="#i">baldensis </hi>Balbis Catal. hort. Taur.
                     1813 p. 20. </p>
-                <p>Hucusque non nisi in solo <placeName ref="https://www.geonames.org/3164526">Veronensi</placeName> (†)
+                <p>Hucusque non nisi in solo <placeName ref="https://editon-humboldt.de/H0009139 https://www.geonames.org/3164526">Veronensi</placeName> (†)
                     regione <lb/>collina lecta est. </p>
                 <p>
                     <hi rendition="#i">Obs.</hi>: Forsan pro varietate <hi rendition="#i">C.
@@ -549,52 +693,62 @@
                     tum <lb/>hirsutie calycis tum dispositione florum ad <hi rendition="#i">C. Lorei
                     </hi>
                     <lb/>maxime accedit. </p>
-                <p>12. <hi rendition="#i">Campanula latifolia</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus, <lb/>foliis lanceolato-ovatis,
-                    inaequaliter dentatis <lb/>sessilibus, pedunculis unifloris, calycibus gla-<lb/>bris. Flor. Dan. 782.</p>
+                <p>12. <hi rendition="#i">Campanula latifolia</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus, <lb/>foliis lanceolato-ovatis,
+                    inaequaliter dentatis <lb/>sessilibus, pedunculis unifloris, calycibus gla<g ref="#typoHyphen"/>
+                    <lb break="no"/>bris. Flor. Dan. 782.</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 111. Daponte Serio. Te-
                     <lb/>nore Catal. 1813? <hi rendition="#i">C. urticifolia</hi> All. Ped. 1. p.
                     110 <lb/>cfr. Auct. p. 8. Flor. Neap. Prodr.? </p>
-                <p>— <hi rendition="#i">ex.</hi>: Fl. Fr. 3. p. 701. Haller Helv. legi Wah-<lb/>lenb. Carp. p. 61. Flor. Dan. l. c.
+                <p>— <hi rendition="#i">ex.</hi>: Fl. Fr. 3. p. 701. Haller Helv. legi Wah<g ref="#typoHyphen"/>
+                    <lb break="no"/>lenb. Carp. p. 61. Flor. Dan. l. c.
                     Wahlenb. <lb/>Lapp. p. 65. </p>
-                <p>Plantam hanc, quae in <placeName ref="https://www.geonames.org/7729883">Europa boreali</placeName>
-                        praeser-<lb/>tim viget et ad <placeName ref="https://www.geonames.org/830603">Lapponiam</placeName> usque se extendit, in <lb/>
-                    <placeName ref="https://www.geonames.org/3175395">Italia</placeName> non nisi in confiniis septentrionalibus
-                        obser-<lb/>vavi et quidem regionibus
-                    sylvaticis, in <placeName ref="https://www.geonames.org/3182969">Apenninis</placeName>
+                <p>Plantam hanc, quae in <placeName ref="https://editon-humboldt.de/H0001700 https://www.geonames.org/7729883">Europa boreali</placeName>
+                        praeser<g ref="#typoHyphen"/>
+                    <lb break="no"/>tim viget et ad <placeName ref="https://editon-humboldt.de/H0011377 https://www.geonames.org/830603">Lapponiam</placeName> usque se extendit, in <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> non nisi in confiniis septentrionalibus
+                        obser<g ref="#typoHyphen"/>
+                    <lb break="no"/>vavi et quidem regionibus
+                    sylvaticis, in <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">Apenninis</placeName>
                     <lb/>nunquam;
                     quamobrem <hi rendition="#i">C latifoliam</hi> Tenore Cat. <lb/>non nisi dubius
                     citavi. <hi rendition="#i">C. urticifolia</hi> Flor. Neap. <lb/>Pr. forsan ad
                         <hi rendition="#i">C. trachelium</hi> pertinet. Montibus <lb/>
-                    <placeName ref="https://www.geonames.org/3012052">Jurassus</placeName>, Del Thunphinatus et <placeName ref="https://www.geonames.org/682674">Carpathorum</placeName> planta nos- <lb/>tra non deest. Loca
+                    <placeName ref="https://editon-humboldt.de/H0006630 https://www.geonames.org/3012052">Jurassus</placeName>, Del Thunphinatus et <placeName ref="https://editon-humboldt.de/H0000371 https://www.geonames.org/682674">Carpathorum</placeName> planta nos- <lb/>tra non deest. Loca
                     umbrosa requirit. — <lb/>
                     <lb/>13. <hi rendition="#i">Campanula trachelium</hi> (Lin.), floribus
                     axillaribus, <lb/>foliis cordato-lanceolatis, serratis petiolatis,
                     <lb/>pedunculis multifloris, calycibus ciliatis. Fl. <lb/>Dan. 1026.</p>
                 <p>
-                    <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 111. Flor. Tic. p. 100. Da-<lb/>ponte Serio. Poll. Viag. p. 15, 81, 118,
+                    <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 111. Flor. Tic. p. 100. Da<g ref="#typoHyphen"/>
+                    <lb break="no"/>ponte Serio. Poll. Viag. p. 15, 81, 118,
                     125. <lb/>Marz Vicent. p. 23. Bertol. Am. p. 342. Flor. <lb/>Rom Prodr. p. 100.
                     Tenore Cat. 1813. Racc. <lb/>Viag. p. 73, 144, 319. Ucria Hort. p. 93. </p>
                 <p>— <hi rendition="#i">exot.</hi>: Flor. Fr. 3. p. 703. Hall. Helv. p. 690.
                     <lb/>Wahl. Helv. p. 40. Asso Arrag. p. 24 et Quer <lb/>Esp. 2. p. 381. Nr. 2.
-                    Wahlenb. Carp. p. 62. <lb/>Flor. Dan. 1026. Thunb. Japon. p. 88. <hi rendition="#i">C. urti-</hi>
-                    <lb/>
+                    Wahlenb. Carp. p. 62. <lb/>Flor. Dan. 1026. Thunb. Japon. p. 88. <hi rendition="#i">C. urti<g ref="#typoHyphen"/>
+                    </hi>
+                    <lb break="no"/>
                     <hi rendition="#i">cifolia </hi>Biberst. I. p. 149? </p>
                 <p>
                     <lb/>Species respectu latitudinis satis extensa, non <lb/>modo per totam
-                        <placeName ref="https://www.geonames.org/3175395">Italiam</placeName> a <placeName ref="https://www.geonames.org/2523119">Sicilia</placeName> usque ad <placeName ref="https://www.geonames.org/2661786">alpes</placeName>,
-                    <lb/>sed etiam per universam <placeName ref="https://www.geonames.org/6255148">Europam</placeName> usque
-                    ad 60° <lb/>et ulterius; teste Thunbergio etiam in <placeName ref="https://www.geonames.org/1861060">Japonia</placeName>
-                    <lb/>obvia. In <placeName ref="https://www.geonames.org/3175395">Italia</placeName> superiori in
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiam</placeName> a <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilia</placeName> usque ad <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">alpes</placeName>,
+                    <lb/>sed etiam per universam <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europam</placeName> usque
+                    ad 60° <lb/>et ulterius; teste Thunbergio etiam in <placeName ref="https://editon-humboldt.de/H0006559 https://www.geonames.org/1861060">Japonia</placeName>
+                    <lb/>obvia. In <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> superiori in
                     planitie occurrit, in <lb/>regionibus sylvaticis frequentissima et etiam in
-                        sub-<lb/>alpinam ascendit (0–5000 p. p.) in
-                        <placeName ref="https://www.geonames.org/3175395">Italia</placeName> vero infe-<lb/>riori et <placeName ref="https://www.geonames.org/2523119">Sicilia</placeName> in
+                        sub<g ref="#typoHyphen"/>
+                    <lb break="no"/>alpinam ascendit (0–5000 p. p.) in
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> vero infe<g ref="#typoHyphen"/>
+                    <lb break="no"/>riori et <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilia</placeName> in
                     regione sempervirenti frustra <lb/>quaeritur, at in regione Castaneae
-                    Quercuumque <lb/>nec non in regione Fagi invenitur. Terminus infe-<lb/>rior quo propius meridiem eo magis
-                    attollitur; sic <lb/>in Etruria circiter 1200 p. in <placeName ref="https://www.geonames.org/2525468">Calabria</placeName> 2000 p. — <lb/>Nec in <placeName ref="https://www.geonames.org/3182969">Apenninis</placeName> altius adscendit quam ad regio- <lb/>nem subalpinam.
+                    Quercuumque <lb/>nec non in regione Fagi invenitur. Terminus infe<g ref="#typoHyphen"/>
+                    <lb break="no"/>rior quo propius meridiem eo magis
+                    attollitur; sic <lb/>in Etruria circiter 1200 p. in <placeName ref="https://editon-humboldt.de/H0000329 https://www.geonames.org/2525468">Calabria</placeName> 2000 p. — <lb/>Nec in <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">Apenninis</placeName> altius adscendit quam ad regio- <lb/>nem subalpinam.
                     Loca sylvatica amat. </p>
-                <p>14. <hi rendition="#i">Campanula rapunculoides</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus subspi- <lb/>catis secundis, foliis
-                    cordato-lanceolatis sca-<lb/>bris. Flor. Dan.
+                <p>14. <hi rendition="#i">Campanula rapunculoides</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus subspi- <lb/>catis secundis, foliis
+                    cordato-lanceolatis sca<g ref="#typoHyphen"/>
+                    <lb break="no"/>bris. Flor. Dan.
                     1327.</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 111. Poll. Viag.
@@ -604,15 +758,20 @@
                     <lb/>Wahlenb. Helv. p. 40. Wahlenb. Carpath. p. <lb/>61. Biberst. Caucas. I. p.
                     150. Fl. Dan. l. c. </p>
                 <p>
-                    <lb/>Planta haec in<placeName ref="https://www.geonames.org/6255148"> Europa</placeName> midia
+                    <lb/>Planta haec in<placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148"> Europa</placeName> midia
                     frequentissima, in <lb/>
-                    <placeName ref="https://www.geonames.org/3175395">Italia</placeName> superiori
-                    rarius occurrit, in planitie et in re-<lb/>gionibus sylvaticis, vix in r<placeName ref="https://www.geonames.org/2661786">egione
-                        alpina</placeName>. In <placeName ref="https://www.geonames.org/3175395">Italia
+                    <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> superiori
+                    rarius occurrit, in planitie et in re<g ref="#typoHyphen"/>
+                    <lb break="no"/>gionibus sylvaticis, vix in r<placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">egione
+                        alpina</placeName>. In <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia
                     </placeName>
-                    <lb/>inferiori nunquam mihi visa est, nec ab ullo auto-<lb/>re hujus partis <placeName ref="https://www.geonames.org/3175395">Italiae</placeName> laudatur nisi a Savio in Flor. <lb/>Pis. ubi forsan
+                    <lb/>inferiori nunquam mihi visa est, nec ab ullo auto<g ref="#typoHyphen"/>
+                    <lb break="no"/>re hujus partis <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiae</placeName> laudatur nisi a Savio in Flor. <lb/>Pis. ubi forsan
                     error subiit. In universum Florae <lb/>mediterraneae civis non est. </p>
-                <p>15. <hi rendition="#i">Campanula bononiensis</hi>* (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus panicu-<lb/>latis, panicula diffusa; foliis subtus subto-<lb/>mentosis inferioribus ovatis superioribus lan-<lb/>ceolatis. Morison. 2. sect. 5. tab. 4. f.
+                <p>15. <hi rendition="#i">Campanula bononiensis</hi>* (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus panicu<g ref="#typoHyphen"/>
+                    <lb break="no"/>latis, panicula diffusa; foliis subtus subto<g ref="#typoHyphen"/>
+                    <lb break="no"/>mentosis inferioribus ovatis superioribus lan<g ref="#typoHyphen"/>
+                    <lb break="no"/>ceolatis. Morison. 2. sect. 5. tab. 4. f.
                     38. <lb/>(haud bona).</p>
                 <p>
                     <hi rendition="#i">Syn. ital</hi>.: All. Ped. 1 p. 111! Fl. Tic. p. 100.
@@ -630,13 +789,17 @@
                     <pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636702X/500/0/00000006.jpg"/>
                     <hi rendition="#i">γ. ?</hi>
                     <hi rendition="#i">Obliquifolia: C. obliquifolia</hi>. Flor. Neap.<lb/>tab. 17. </p>
-                <p>Species haec Campanulae ad Floram <placeName ref="https://www.geonames.org/7729884">Europae
+                <p>Species haec Campanulae ad Floram <placeName ref="https://editon-humboldt.de/H0007872 https://www.geonames.org/7729884">Europae
                             <lb/>orientalis</placeName>
-                    et <placeName ref="https://www.geonames.org/7729893">Asiae mediae</placeName> pertinet, in occidentali-<lb/>bus partibus haud lecta; in regione
-                    sylvatica tum <lb/>superiori tum inferiori per omnes fere <placeName ref="https://www.geonames.org/2661786">alpes</placeName> a Car-<lb/>nia usque ad Pedemontium (†) et in planitie <placeName ref="https://www.geonames.org/3174618">Lom-<lb/>barda</placeName> occurrit; etiam in
-                    apenninorum <placeName ref="https://www.geonames.org/3182969">regione</placeName> syl-<lb/>vatica superiori, scil. <hi rendition="#i">C. obliquifolia </hi>Tenore, nisi <lb/>haec pro diversa
+                    et <placeName ref="https://editon-humboldt.de/H0015014 https://www.geonames.org/7729893">Asiae mediae</placeName> pertinet, in occidentali<g ref="#typoHyphen"/>
+                    <lb break="no"/>bus partibus haud lecta; in regione
+                    sylvatica tum <lb/>superiori tum inferiori per omnes fere <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">alpes</placeName> a Car<g ref="#typoHyphen"/>
+                    <lb break="no"/>nia usque ad Pedemontium (†) et in planitie <placeName ref="https://editon-humboldt.de/H0011487 https://www.geonames.org/3174618">Lom<g ref="#typoHyphen"/>
+                        <lb break="no"/>barda</placeName> occurrit; etiam in
+                    apenninorum <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">regione</placeName> syl<g ref="#typoHyphen"/>
+                    <lb break="no"/>vatica superiori, scil. <hi rendition="#i">C. obliquifolia </hi>Tenore, nisi <lb/>haec pro diversa
                     specie habenda. </p>
-                <p>16. <hi rendition="#i">Campanula persicifolia</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus racemosis, <lb/>foliis glabris, radicalibus
+                <p>16. <hi rendition="#i">Campanula persicifolia</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus racemosis, <lb/>foliis glabris, radicalibus
                     obovatis in petiolum <lb/>decurrentibus, caulinis lanceolato-linearibus.
                     <lb/>Flor. Dan. 1087.</p>
                 <p>
@@ -648,25 +811,33 @@
                     <lb/>Wahlenb. Helv. p. 40. Wahlenb. Carpath. p. <lb/>60, Flor. Dan. l. c.
                     Gmelin. Sib. 3. p. 161 Nr. <lb/>29. Flor. Graec. Prodr. 1. p. 138. Asso Arrag.
                     <lb/>p. 24. Quer. Esp. 3. T. p. 385 Nr. 12. </p>
-                <p>Species per <placeName ref="https://www.geonames.org/6255148">Europam</placeName> et <placeName ref="https://edition-humboldt.de/v8/H0001699">Asiam borealem</placeName> ad 60° <lb/>usque extensa, in
-                    <placeName ref="https://www.geonames.org/3175395">Italia</placeName> superiori a planitie ad re-<lb/>gionem subalpinam adscendit (0–4500), in
-                        <placeName ref="https://www.geonames.org/3175395">Italia </placeName>
+                <p>Species per <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europam</placeName> et <placeName ref="https://editon-humboldt.de/H0001699">Asiam borealem</placeName> ad 60° <lb/>usque extensa, in
+                    <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> superiori a planitie ad re<g ref="#typoHyphen"/>
+                    <lb break="no"/>gionem subalpinam adscendit (0–4500), in
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia </placeName>
                     <lb/>vero inferiori vix
                     regionis sempervirentis incola est, <lb/>at in regionibus Castaneae et Fagi haud
                     rara. Loca <lb/>umbrosa praeferre videtur. </p>
-                <p>17. <hi rendition="#i">Campanula pyramidalis</hi>* (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus panicu-<lb/>latis, panicula spiciformi, caule simplici, fo-<lb/>liis ovatis petiolatis glabris. Kniph. Cent. <lb/>tab. 20.</p>
+                <p>17. <hi rendition="#i">Campanula pyramidalis</hi>* (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus panicu<g ref="#typoHyphen"/>
+                    <lb break="no"/>latis, panicula spiciformi, caule simplici, fo<g ref="#typoHyphen"/>
+                    <lb break="no"/>liis ovatis petiolatis glabris. Kniph. Cent. <lb/>tab. 20.</p>
                 <p>
                     <hi rendition="#i">Syn. ital.</hi>: Scopoli Carn. 1. p. 146. All. Ped. 1. p.
                     <lb/>110? Mazzuc. Viag. </p>
-                <p>E Forojuliensi territorio plantam habeo (†), <persName ref="http://d-nb.info/gnd/11909360X">Sco-<lb/>poli</persName> circa Adriam,
-                        <persName ref="https://edition-humboldt.de/v8/H0006181">Wulfen</persName> in Carnia eam legit. De
+                <p>E Forojuliensi territorio plantam habeo (†), <persName ref="https://editon-humboldt.de/H0015756 http://d-nb.info/gnd/11909360X">Sco<g ref="#typoHyphen"/>
+                        <lb break="no"/>poli</persName> circa Adriam,
+                        <persName ref="https://editon-humboldt.de/H0006181">Wulfen</persName> in Carnia eam legit. De
                     <lb/>reliquis locis natalibus ambigi potest. Allionius ab <lb/>aliis informatus
                     est et Decandolle (Fl. Fr.) non nisi <lb/>autoritate Allionii nititur. Colles et
-                    montes inferio-<lb/>res habitare videtur. </p>
-                <p>18. <hi rendition="#i">Campanula graminifolia</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus capita-<lb/>tis,
-                    foliis linearibus, bracteis oblongis acu-<lb/>tis capitulum complectentibus. Barrelier icon. <lb/>332. Waldst. et Kit. pl.
-                    hung. t. 154. Cupa-<lb/>ni pamphyton. (Camp.
-                    alpina Tragopogi-<lb/>folio).</p>
+                    montes inferio<g ref="#typoHyphen"/>
+                    <lb break="no"/>res habitare videtur. </p>
+                <p>18. <hi rendition="#i">Campanula graminifolia</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus capita<g ref="#typoHyphen"/>
+                    <lb break="no"/>tis,
+                    foliis linearibus, bracteis oblongis acu<g ref="#typoHyphen"/>
+                    <lb break="no"/>tis capitulum complectentibus. Barrelier icon. <lb/>332. Waldst. et Kit. pl.
+                    hung. t. 154. Cupa<g ref="#typoHyphen"/>
+                    <lb break="no"/>ni pamphyton. (Camp.
+                    alpina Tragopogi-<lb break="no"/>folio).</p>
                 <p>
                     <hi rendition="#i">Syn. it</hi>.: Flor. Rom. Pr. p. 101. Fl. Neap. Rac-
                     <lb/>colt. Viag. p. 130, 146. Colum. Phytol. p. 118 tab. <lb/>34. Cupani l. c.
@@ -679,74 +850,93 @@
                     et Kit. pl. <lb/>hung. 2. p. 168 t.
                     155.</p>
                 
-                <p>Planta <placeName ref="https://www.geonames.org/9408658">Europae meridionalis</placeName> quae <placeName ref="https://www.geonames.org/2661786">alpes </placeName> haud <lb/>superat, et in <placeName ref="https://www.geonames.org/3175395">Italia</placeName> vix ultra gradum 42 latit: re-<lb/>peritur. In <placeName ref="https://www.geonames.org/3182969">Apenninis</placeName> regionem subalpinam impri-<lb/>mis habitat et inter vulgatissimas est plantas, in <lb/>regionem
-                    Fagi vero aliquantum descendit et in con-<lb/>finiis <placeName ref="https://www.geonames.org/2661786">alpinae</placeName> regionis quoque obvia;
-                    iisdem in re-<lb/>gionibus <placeName ref="https://www.geonames.org/2523119">Sicilia</placeName> reperitur. 3000–7500 p. p. — <hi rendition="#i">β.</hi>
-                    <placeName ref="https://edition-humboldt.de/v8/H0001534">
+                <p>Planta <placeName ref="https://editon-humboldt.de/H0010382 https://www.geonames.org/9408658">Europae meridionalis</placeName> quae <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">alpes </placeName> haud <lb/>superat, et in <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> vix ultra gradum 42 latit: re<g ref="#typoHyphen"/>
+                    <lb break="no"/>peritur. In <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">Apenninis</placeName> regionem subalpinam impri<g ref="#typoHyphen"/>
+                    <lb break="no"/>mis habitat et inter vulgatissimas est plantas, in <lb/>regionem
+                    Fagi vero aliquantum descendit et in con<g ref="#typoHyphen"/>
+                    <lb break="no"/>finiis <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">alpinae</placeName> regionis quoque obvia;
+                    iisdem in re<g ref="#typoHyphen"/>
+                    <lb break="no"/>gionibus <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilia</placeName> reperitur. 3000–7500 p. p. — <hi rendition="#i">β.</hi>
+                    <placeName ref="https://editon-humboldt.de/H0001534">
                         <lb/>Montes Nebrodenses </placeName>habitat. In
                     fissuris rupium <lb/>calcariarum. — </p>
-                <p>19. <hi rendition="#i">Campanula petraea</hi>* (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus capitatis, <lb/>caule declinato ramoso, foliis
-                    oblongis utrin-<lb/>que attenuatis obtusiusculis
+                <p>19. <hi rendition="#i">Campanula petraea</hi>* (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus capitatis, <lb/>caule declinato ramoso, foliis
+                    oblongis utrin<g ref="#typoHyphen"/>
+                    <lb break="no"/>que attenuatis obtusiusculis
                     subtus tomentosis <lb/>sessilibus. Poll. Elem. et Bot. II. p. 151. tab. <lb/>5.
                     fig. 1. Pona Bald. Descrip. p. 62 cum fig.</p>
                 <p>
                     <hi rendition="#i">Syn. it</hi>.: Poll. Viag. p. 125. Seguier Ver. 1. p. 179
                     <lb/>N. 9. Pona l. c. </p>
-                <p>Locum natalem certum praeter montem Bal-<lb/>dum
+                <p>Locum natalem certum praeter montem Bal<g ref="#typoHyphen"/>
+                    <lb break="no"/>dum
                     (†) nullum afferre possum. Hic in regione <lb/>sylvatica obvia. </p>
                 <p>
                     <hi rendition="#i">Obs</hi>.: <hi rendition="#i">C. petraea</hi> All. Ped. 1. p.
                     112. Flor. Neap. <lb/>et Racolt. Viag. p. 147 vix huius loci. — In <lb/>herbario
                     Vahliano adest specimen a Bellardio <lb/>misssum quod ad <hi rendition="#i">C.
                         aggregatam</hi>
-                    <persName ref="http://d-nb.info/gnd/117387436">Willd. </persName>spectat; <lb/>et de planta <placeName ref="https://www.geonames.org/3172394">neapolitana</placeName> Tenorius ipse dubitat. <lb/>Planta
-                    baldensis a <hi rendition="#i">C. glomerata</hi> satis diver-<lb/>sa est. </p>
-                <p>20. <hi rendition="#i">Campanulata glomerata</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus subcapi-<lb/>tatis, caule erecto simplici, foliis radicalibus <lb/>cordato-lanceolatis
-                    petiolatis, caulinis ses-<lb/>silibus
+                    <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willd. </persName>spectat; <lb/>et de planta <placeName ref="https://editon-humboldt.de/H0001578 https://www.geonames.org/3172394">neapolitana</placeName> Tenorius ipse dubitat. <lb/>Planta
+                    baldensis a <hi rendition="#i">C. glomerata</hi> satis diver<g ref="#typoHyphen"/>
+                    <lb break="no"/>sa est. </p>
+                <p>20. <hi rendition="#i">Campanulata glomerata</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus subcapi<g ref="#typoHyphen"/>
+                    <lb break="no"/>tatis, caule erecto simplici, foliis radicalibus <lb/>cordato-lanceolatis
+                    petiolatis, caulinis ses<g ref="#typoHyphen"/>
+                    <lb break="no"/>silibus
                     subamplexicaulibus acutis. Barrel. <lb/>ic. 523.</p>
                 <p>
                     <hi rendition="#i">Syn. it</hi>.: All. Ped. 1 p. 111. Daponte Serio. Poll.
                     <lb/>Viag. p. 15, 81, 118. Bertol. Am. p. 131 et 342, <lb/>Flor. Rom. Prodr. p.
-                    101. Flor. Neap. Rac-<lb/>colt. Viag. p.
+                    101. Flor. Neap. Rac<g ref="#typoHyphen"/>
+                    <lb break="no"/>colt. Viag. p.
                     146.</p>
                 <p>— <hi rendition="#i">exot.</hi>: Fl. Fr. 3. p. 703. Hall. Helv. 685. <lb/>Wahl.
                     Helv. p. 40. et Carp. 62. Biberst. Cauc. <lb/>1. p. 152. Gmelin Sib. 3. p. 157.
-                    N. 25. Fl. Dan. <lb/>1328. Flor. Graec. Prodr. 1. p. 140. Asso Ar-<lb/>rag. p. 24. </p>
+                    N. 25. Fl. Dan. <lb/>1328. Flor. Graec. Prodr. 1. p. 140. Asso Ar<g ref="#typoHyphen"/>
+                    <lb break="no"/>rag. p. 24. </p>
                 <p>
                     <hi rendition="#i">β. </hi>
                     <hi rendition="#i">Aggregata: C. aggregata</hi>
-                        (<persName ref="http://d-nb.info/gnd/117387436">Willd.</persName>). Flor. Tic. <lb/>p. 100 tab. 5.
+                        (<persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willd.</persName>). Flor. Tic. <lb/>p. 100 tab. 5.
                     Bibliot. Ital. Decbr. 1816 et <lb/>Critico crit. </p>
                 <p>
-                    <hi rendition="#i">γ.</hi> Trachel. oblong, Boccone mus. t. 58. <hi rendition="#i">C. el-</hi>
-                    <lb/>
+                    <hi rendition="#i">γ.</hi> Trachel. oblong, Boccone mus. t. 58. <hi rendition="#i">C. el<g ref="#typoHyphen"/>
+                    </hi>
+                    <lb break="no"/>
                     <hi rendition="#i">iptica</hi> Kitaib. apud Schultes Oest. Flora? </p>
-                <p>Per <placeName ref="https://www.geonames.org/7729883">Eurpoam borealem </placeName> usque ad 56° et
-                        <placeName ref="https://edition-humboldt.de/v8/H0001699">Asiam <lb/>borealem</placeName> frequenter
-                    occurrit; in <placeName ref="https://www.geonames.org/3175395">Italia </placeName>superiori <lb/>satis
+                <p>Per <placeName ref="https://editon-humboldt.de/H0001700 https://www.geonames.org/7729883">Eurpoam borealem </placeName> usque ad 56° et
+                        <placeName ref="https://editon-humboldt.de/H0001699">Asiam <lb/>borealem</placeName> frequenter
+                    occurrit; in <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia </placeName>superiori <lb/>satis
                     vulgaris in planitie, regione sylvatica utraque <lb/>nec non in regione
-                    subalpina (0–5000 p.); in <placeName ref="https://www.geonames.org/3175395">Ita-<lb/>lia</placeName> inferiori in regione sempervirenti deest, at
-                    in <lb/>regionibus sylvaticis et subalpinis frequens (2000–<lb/>5500); in collibus prope <placeName ref="https://www.geonames.org/6542282">Genuam</placeName> tamen in
-                        regio-<lb/>ne sempervirenti plantam legi
+                    subalpina (0–5000 p.); in <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Ita<g ref="#typoHyphen"/>
+                        <lb break="no"/>lia</placeName> inferiori in regione sempervirenti deest, at
+                    in <lb/>regionibus sylvaticis et subalpinis frequens (2000–<lb break="no"/>5500); in collibus prope <placeName ref="https://editon-humboldt.de/H0010840 https://www.geonames.org/6542282">Genuam</placeName> tamen in
+                        regio<g ref="#typoHyphen"/>
+                    <lb break="no"/>ne sempervirenti plantam legi
                     quam non nisi pro <lb/>varietate habere possum, licet aliquantum differt <lb/>et
                     forsan. <hi rendition="#i">C. nicaeensis </hi>Roem. et Schult. est. — <lb/>Loca
                     sterilia <hi rendition="#i">C. glomerata</hi> amat.</p>
                 <p>
                     <pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636702X/500/0/00000007.jpg"/> 21. <hi rendition="#i">Camanula foliosa </hi>(Tenore), floribus capitatis,
                     <lb/>caule erecto simplici, foliis ovatis in petiolum <lb/>decurrentibus,
-                    dupliciter dentatis pilosis, co-<lb/>rollae
+                    dupliciter dentatis pilosis, co<g ref="#typoHyphen"/>
+                    <lb break="no"/>rollae
                     fauce barbata. Flor. Neap. tab. 18</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: Flor. Neap. l. c. </p>
-                <p>In <placeName ref="https://www.geonames.org/3182969">Apenninis</placeName> Aprutiorum (<placeName ref="https://edition-humboldt.de/v8/H0010912">Gransasso</placeName>) et provin-<lb/>ciae principatus citerioris (<placeName ref="https://edition-humboldt.de/v8/H0009703">St.
-                        Eremo</placeName>) in regione Fa-<lb/>gi
+                <p>In <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">Apenninis</placeName> Aprutiorum (<placeName ref="https://editon-humboldt.de/H0010912">Gransasso</placeName>) et provin<g ref="#typoHyphen"/>
+                    <lb break="no"/>ciae principatus citerioris (<placeName ref="https://editon-humboldt.de/H0009703">St.
+                        Eremo</placeName>) in regione Fa<g ref="#typoHyphen"/>
+                    <lb break="no"/>gi
                     (4500–5500) legi. — </p>
                 <p>
                     <hi rendition="#i">Obs.</hi>: Affinis <hi rendition="#i">C. ellipticae</hi>
                     Kitaib., at ni fallor <lb/>tum a hac tum a caeteris <hi rendition="#i">C.
-                        glomeratae</hi> vari-<lb/>etatibus diversa.
+                        glomeratae</hi> vari<g ref="#typoHyphen"/>
+                    <lb break="no"/>etatibus diversa.
                     — </p>
-                <p>22. <hi rendition="#i">Campanula cervicaria </hi>** (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus capita-<lb/>to-glomeratis, foliis lanceolato-linearibus <lb/>undulatis. Flor. Dan.
+                <p>22. <hi rendition="#i">Campanula cervicaria </hi>** (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus capita<g ref="#typoHyphen"/>
+                    <lb break="no"/>to-glomeratis, foliis lanceolato-linearibus <lb/>undulatis. Flor. Dan.
                     787.</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 112! Marz. Vicent. p. 23.
@@ -758,16 +948,18 @@
                     <lb/>at
                     minus vulgaris. In Pedemontii
                     collibus
-                    (†) et <lb/>forsan in alliis <placeName ref="https://www.geonames.org/2661786">alpium</placeName> locis
-                    minus elevatis; vix <lb/>autem in <placeName ref="https://www.geonames.org/3182969">Apenninis</placeName>. — </p>
-                <p>23. <hi rendition="#i">Campanula thyrsoidea</hi> *** (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus spica-<lb/>tis
+                    (†) et <lb/>forsan in alliis <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">alpium</placeName> locis
+                    minus elevatis; vix <lb/>autem in <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">Apenninis</placeName>. — </p>
+                <p>23. <hi rendition="#i">Campanula thyrsoidea</hi> *** (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus spica<g ref="#typoHyphen"/>
+                    <lb break="no"/>tis
                     spica densa, foliis linearibus cum caule <lb/>pilosis, calyce glabro. Jacq. obs.
                     1. t. 31. Fl. <lb/>Austr. 5. t. 41.</p>
                 <p>
                     <hi rendition="#i">Syn. it</hi>.: All. Ped. 1. p. 113.</p>
-                <p>— <hi rendition="#i">exot</hi>.: Fl. Fr. 3. p. 704. Hall. Helv. 688. Wah-<lb/>lenb. Helv. p. 40. Thal Hareyn. p. 32 t.
+                <p>— <hi rendition="#i">exot</hi>.: Fl. Fr. 3. p. 704. Hall. Helv. 688. Wah<g ref="#typoHyphen"/>
+                    <lb break="no"/>lenb. Helv. p. 40. Thal Hareyn. p. 32 t.
                     4.</p>
-                <p> In <placeName ref="https://www.geonames.org/3175395">Italia</placeName> non nisi in Pedemontio
+                <p> In <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> non nisi in Pedemontio
                     observata, vix <lb/>extra alpes (nisi in
                     Haregnia).
                     Regionem occupat <lb/>alpinam, in subalpinam etiam descendens. </p>
@@ -777,7 +969,7 @@
                     <lb/> †† Capsula
                     sinubns
                     laciniarum calycis reflexis obtecta. </p>
-                <p>24. <hi rendition="#i">Campanula spicata</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus, <lb/>subspicatis, foliis lanceolato
+                <p>24. <hi rendition="#i">Campanula spicata</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus, <lb/>subspicatis, foliis lanceolato
                     linearibus cum <lb/>caule et calyce hispidis, Allion. Ped. t. 46 f. <lb/>2. et
                     47. f. 1.</p>
                 <p>
@@ -785,19 +977,21 @@
                     <lb/>125. Marz. Vicent. p. 56. Haller. Helv. 687.</p>
                 <p>— <hi rendition="#i">exot.</hi>: Fl. Fr. 3 p. 708. Pohl. Fl. Boem. p. 206.
                     <lb/>Krock. Siles. 1. p. 327.</p>
-                <p>Per totam alpium <placeName ref="https://www.geonames.org/2661786">catenam</placeName> haud infrequens,
-                        ex-<lb/>tra eam vix nisi in <placeName ref="https://edition-humboldt.de/v8/H0005285">Bohemia </placeName> et <placeName ref="https://www.geonames.org/3066138">Silesia</placeName> occurrit. E <lb/>planitie ad regionem subalpinam passim
-                    adscendit. <lb/>In inferiori <placeName ref="https://www.geonames.org/3175395">Italia</placeName> deesse
-                    videtur; vidi tamen semel <lb/>in herbario quodam specimen quod in <placeName ref="https://www.geonames.org/3182969">Apenninorum</placeName>
+                <p>Per totam alpium <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">catenam</placeName> haud infrequens,
+                        ex<g ref="#typoHyphen"/>
+                    <lb break="no"/>tra eam vix nisi in <placeName ref="https://editon-humboldt.de/H0005285">Bohemia </placeName> et <placeName ref="https://editon-humboldt.de/H0010152 https://www.geonames.org/3066138">Silesia</placeName> occurrit. E <lb/>planitie ad regionem subalpinam passim
+                    adscendit. <lb/>In inferiori <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> deesse
+                    videtur; vidi tamen semel <lb/>in herbario quodam specimen quod in <placeName ref="https://editon-humboldt.de/H0002488 https://www.geonames.org/3182969">Apenninorum</placeName>
                     <lb/>regionibus elevatis lectum esse dicebatur. </p>
-                <p>25.<hi rendition="#i"> Campanula barbata</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus subracemosis <lb/>cernuis, foliis oblongis
+                <p>25.<hi rendition="#i"> Campanula barbata</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus subracemosis <lb/>cernuis, foliis oblongis
                     hirtis, corolla barbata. <lb/>Jacq. Obs. 2. t. 37.
                     </p>
                 
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 113. Daponte Serio. Poll.
                     <lb/>Viagg. p. 106, 111. Marz. Vicent. p. 22.</p>
-                <p>— <hi rendition="#i">ex.</hi>: Fl. Fr. 3. p. 705. Hall. Helv. 694. Wah-<lb/>lenb. Helv. p. 41. Krock. Siles. 1. p.
+                <p>— <hi rendition="#i">ex.</hi>: Fl. Fr. 3. p. 705. Hall. Helv. 694. Wah<g ref="#typoHyphen"/>
+                    <lb break="no"/>lenb. Helv. p. 41. Krock. Siles. 1. p.
                     326. </p>
                 <p>
                     <hi rendition="#i">β.</hi>
@@ -810,30 +1004,37 @@
                     <hi rendition="#i">C. allionii</hi>
                     <hi rendition="#i">β</hi>. Fl. Fr. 3. p. 706. <hi rendition="#i">C.
                         ligularis</hi>, Lam. <lb/>Enc. 1. p. 585? </p>
-                <p>Alpium propria fere planta est, extra alpes enim <lb/>modo in <placeName ref="https://www.geonames.org/3066138">Silesia</placeName> obvia. In <placeName ref="https://www.geonames.org/3112616">Pyrenaeis</placeName> et <placeName ref="https://www.geonames.org/682674">Carpathis</placeName>
+                <p>Alpium propria fere planta est, extra alpes enim <lb/>modo in <placeName ref="https://editon-humboldt.de/H0010152 https://www.geonames.org/3066138">Silesia</placeName> obvia. In <placeName ref="https://editon-humboldt.de/H0008509 https://www.geonames.org/3112616">Pyrenaeis</placeName> et <placeName ref="https://editon-humboldt.de/H0000371 https://www.geonames.org/682674">Carpathis</placeName>
                     <lb/>haud occurrit. Per omnes vero alpes frequentissima
-                    <lb/>est, regionem subalpinam imprimis praefert et al-<lb/>pinam (praesertim <hi rendition="#i">β.</hi>), descendit autem
-                    in sylvati-<lb/>cam superiorem (3500–7500). In
+                    <lb/>est, regionem subalpinam imprimis praefert et al<g ref="#typoHyphen"/>
+                    <lb break="no"/>pinam (praesertim <hi rendition="#i">β.</hi>), descendit autem
+                    in sylvati<g ref="#typoHyphen"/>
+                    <lb break="no"/>cam superiorem (3500–7500). In
                     pratis alpinis <lb/>praecipue invenitur. </p>
                 <p>
                     <hi rendition="#i">Obs</hi>.: Hujus loci esse videtur. <hi rendition="#i">C.
                         trilocularis</hi>. <lb/>Turra Prodr. p. 64 nr. 10. nescio autem ad quamnam
                     <lb/>pertineat varietatem. — <hi rendition="#i">γ.</hi> forsan pro specie
-                        distin-<lb/>cta habenda. </p>
-                <p>26. <hi rendition="#i">Campanula medium</hi> *** (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillari-<lb/>bus erectis, caule indiviso, foliis ovato-lan-<lb/>ceolatis. Kniph. Centur. 11. tab. 20.</p>
+                        distin<g ref="#typoHyphen"/>
+                    <lb break="no"/>cta habenda. </p>
+                <p>26. <hi rendition="#i">Campanula medium</hi> *** (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillari<g ref="#typoHyphen"/>
+                    <lb break="no"/>bus erectis, caule indiviso, foliis ovato-lan<g ref="#typoHyphen"/>
+                    <lb break="no"/>ceolatis. Kniph. Centur. 11. tab. 20.</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 113. Flor. Tic. p. 101. Marz.
                     <lb/>Vicent. p. 56. Fl. Cam. 1. p. 149. Surius Clavar. <lb/>Fl. Pis. et Santi
                     Viagg. 1. p. 207 et 351. Fl. Neap. <lb/>Raccolt. Viag. g. 288.</p>
                 <p>— <hi rendition="#i">exot.</hi>
                     <hi rendition="#i">:</hi> Fl. Fr. 3. p. 707.</p>
-                <p>Plantam licet a me nunquam lectam, tantis au-<lb/>ctoritatibus ductus indigenam Italiae nuncupavi. <lb/>In Apenninis regionem
+                <p>Plantam licet a me nunquam lectam, tantis au<g ref="#typoHyphen"/>
+                    <lb break="no"/>ctoritatibus ductus indigenam Italiae nuncupavi. <lb/>In Apenninis regionem
                     sylvaticam inferiorem et <lb/>sempervirentem occupare videtur. </p>
                 <p>
                     <hi rendition="#i">Obs. C. longifolia</hi>, Lapeyr. Pyr. t. 6. vix nisi pro
                     <lb/>varietate haberi potest. </p>
-                <p>27. <hi rendition="#i">Campanula sibirica</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus paniculatis, <lb/>caule ramoso, foliis hirtis,
-                    radicalibus spa-<lb/>thulatis, caulinis lineari
+                <p>27. <hi rendition="#i">Campanula sibirica</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus paniculatis, <lb/>caule ramoso, foliis hirtis,
+                    radicalibus spa<g ref="#typoHyphen"/>
+                    <lb break="no"/>thulatis, caulinis lineari
                     lanceolatis. Jacq. <lb/>Aust. t. 200.</p>
                 <p>
                     <hi rendition="#i">Syn. it.</hi>: All. Ped. 1. p. 114! Poll. Viag. p. 15, 109,
@@ -841,13 +1042,13 @@
                 <p> — <hi rendition="#i">exot.</hi>
                     <hi rendition="#i">:</hi> Jacq. Austr. 2. p. 60.
                     Biberst. Cauc. 1. <lb/>p. 155. Gmel. Sib. T. 3 tab. 29. </p>
-                <p>Species haec ad Floram <placeName ref="https://edition-humboldt.de/v8/H0008516">Asiae mediae</placeName> et
-                        <placeName ref="https://www.geonames.org/7729884">Europae <lb/>orientalis</placeName> pertinet, in
-                        <placeName ref="https://www.geonames.org/9408659">Europa occidentali</placeName> et boreali
+                <p>Species haec ad Floram <placeName ref="https://editon-humboldt.de/H0008516">Asiae mediae</placeName> et
+                        <placeName ref="https://editon-humboldt.de/H0007872 https://www.geonames.org/7729884">Europae <lb/>orientalis</placeName> pertinet, in
+                        <placeName ref="https://editon-humboldt.de/H0007950 https://www.geonames.org/9408659">Europa occidentali</placeName> et boreali
                     <lb/>omnino abest. Per alpes a Juliis ad Rhaeticas et <lb/>Cottias. Regionis
                     sylvaticae inferioris incola est. <lb/>Extra catenam alpium earumque radices vix
                     in <lb/>Italia. — </p>
-                <p>28. <hi rendition="#i">Campanula dichotoma</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus <lb/>terminalibusque, caule
+                <p>28. <hi rendition="#i">Campanula dichotoma</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus <lb/>terminalibusque, caule
                     dichotomo cum foliis <lb/>hirto, corolla basi tubulosa. Bocc. sic. t. 45. </p>
                 <p>
                     <pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636702X/500/0/00000008.jpg"/>f. 1. Barrel. ic. 759. Cup. Pamphyt. (Camp. <lb/>hirsuta ocymifolio caulem
@@ -860,29 +1061,35 @@
                 <p>— <hi rendition="#i">exot</hi>
                     <hi rendition="#i">:</hi> Flor. Graec. Prodr. 1. p.
                     141. Desfont <lb/>Atl. 1. p. 179! </p>
-                <p>In Sicilia et parte extrema <placeName ref="https://www.geonames.org/3175395">Italiae</placeName> inter
+                <p>In Sicilia et parte extrema <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiae</placeName> inter
                     vulgares <lb/>est planta; gradum 41 v. 42 omnino non excedens, <lb/>et ultra 40
-                    jam rarescit. In <placeName ref="https://www.geonames.org/390903">Graecia</placeName> et <placeName ref="https://www.geonames.org/2219875">Barbaria </placeName>
+                    jam rarescit. In <placeName ref="https://editon-humboldt.de/H0010922 https://www.geonames.org/390903">Graecia</placeName> et <placeName ref="https://editon-humboldt.de/H0005119 https://www.geonames.org/2219875">Barbaria </placeName>
                     <lb/>
                     <hi rendition="#i">quoque</hi>
-                    crescit et forsan per plures <placeName ref="https://www.geonames.org/363196">terras mare me-<lb/>diterraneum</placeName> cingentes.
-                    Regionis sempervirentis in-<lb/>cola est et vix
+                    crescit et forsan per plures <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">terras mare me<g ref="#typoHyphen"/>
+                        <lb break="no"/>diterraneum</placeName> cingentes.
+                    Regionis sempervirentis in<g ref="#typoHyphen"/>
+                    <lb break="no"/>cola est et vix
                     altius adscendit. Loca sterilia amat. <lb/>— Tum in solo calcario tum in
-                    vulcanico ob-<lb/>servavi. — </p>
+                    vulcanico ob<g ref="#typoHyphen"/>
+                    <lb break="no"/>servavi. — </p>
                 <p>
                     <lb/>
                     <hi rendition="#i">Obs.</hi> Est <hi rendition="#i">Camp. mollis</hi>
                     <hi rendition="#i">β.</hi>
-                    <persName ref="http://d-nb.info/gnd/117387436">Willd.</persName> et alior. Vera <lb/>
-                    <hi rendition="#i">C. mollis</hi> vix <placeName ref="https://www.geonames.org/3175395">Italiae</placeName> est indigena. <hi rendition="#i">Camp. decipiens
+                    <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willd.</persName> et alior. Vera <lb/>
+                    <hi rendition="#i">C. mollis</hi> vix <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italiae</placeName> est indigena. <hi rendition="#i">Camp. decipiens
                     </hi>
-                    <lb/>Roem. et Schultes Syst. 5. p. 142 ni fallor ad <hi rendition="#i">dicho-</hi>
-                    <lb/>
+                    <lb/>Roem. et Schultes Syst. 5. p. 142 ni fallor ad <hi rendition="#i">dicho<g ref="#typoHyphen"/>
+                    </hi>
+                    <lb break="no"/>
                     <hi rendition="#i">tomam </hi>spectat. </p>
                 <p>
                     <lb/> ††† Corolla subinaequali, capsula apice dehiscente.
                     </p>
-                <p>29. <hi rendition="#i">Campanula Erinus</hi> (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus ses-<lb/>silibus, caule dichotomo, foliis oblongis pro-<lb/>funde dentatis sessilibus, inferioribus
+                <p>29. <hi rendition="#i">Campanula Erinus</hi> (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus ses<g ref="#typoHyphen"/>
+                    <lb break="no"/>silibus, caule dichotomo, foliis oblongis pro<g ref="#typoHyphen"/>
+                    <lb break="no"/>funde dentatis sessilibus, inferioribus
                     alternis, <lb/>superioribus oppositis. Morison hist. II. Sect. <lb/>5. t. 3. f.
                     25. Column. Phytol. p. 122. t. 37. <lb/>fig. sinistra.</p>
                 <p>
@@ -892,18 +1099,23 @@
                 <p>— <hi rendition="#i">exot</hi>.<hi rendition="#i">:</hi> Fl. Fr. 3. p. 705. Flor
                     Gr. Prodr. 1. p. <lb/>142. Desf. atl. 1. p. 181! v. Buch. Canar. (Act.
                     <lb/>Berol. Quer. Esp. 3. p. 383 nr. 4. et Cavanilles <lb/>Valencia T. 2.</p>
-                <p>Civis est Florae <placeName ref="https://www.geonames.org/363196">mediterraneae</placeName>, per omnes
-                    enim <lb/>terras <placeName ref="https://www.geonames.org/363196">mare mediterraneum</placeName>
-                    circumdantes satis fre-<lb/>quens; in <placeName ref="https://www.geonames.org/3175395">Italia</placeName> inferiori et <placeName ref="https://www.geonames.org/2523119">Sicilia</placeName> vulgaris, in su-<lb/>periori plane desideratur. Regionis sempervirentis <lb/>praecipue incola est,
-                    adscendit autem etiam in re-<lb/>giones
+                <p>Civis est Florae <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">mediterraneae</placeName>, per omnes
+                    enim <lb/>terras <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">mare mediterraneum</placeName>
+                    circumdantes satis fre<g ref="#typoHyphen"/>
+                    <lb break="no"/>quens; in <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName> inferiori et <placeName ref="https://editon-humboldt.de/H0010274 https://www.geonames.org/2523119">Sicilia</placeName> vulgaris, in su<g ref="#typoHyphen"/>
+                    <lb break="no"/>periori plane desideratur. Regionis sempervirentis <lb/>praecipue incola est,
+                    adscendit autem etiam in re<g ref="#typoHyphen"/>
+                    <lb break="no"/>giones
                     sylvaticas; — in subalpina etiam pygmaeam <lb/>deprehendi. — In muris et locis
                     saxosis praecipue <lb/>viget. — </p>
-                <p>30. <hi rendition="#i">Campanula Elatines</hi>* (<persName ref="http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus, <lb/>pedunculis multifloris
-                    capillaribus, foliis corda-<lb/>tis petiolatis
+                <p>30. <hi rendition="#i">Campanula Elatines</hi>* (<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Lin.</persName>), floribus axillaribus, <lb/>pedunculis multifloris
+                    capillaribus, foliis corda<g ref="#typoHyphen"/>
+                    <lb break="no"/>tis petiolatis
                     pilosis, stylo exserto. All. Ped. <lb/>t. 7. f. 2. (haud bona).</p>
                 <p>
-                    <hi rendition="#i">Syn. ital.</hi>: All. Ped. 1. p. 114! Flor. Neap.? Da-<lb/>ponte Serio? <lb/>In Pedemontii montanis
-                    umbrosis, teste Tenorio <lb/>etiam in regno <placeName ref="https://www.geonames.org/3172394">Neapolitano</placeName>. </p>
+                    <hi rendition="#i">Syn. ital.</hi>: All. Ped. 1. p. 114! Flor. Neap.? Da<g ref="#typoHyphen"/>
+                    <lb break="no"/>ponte Serio? <lb/>In Pedemontii montanis
+                    umbrosis, teste Tenorio <lb/>etiam in regno <placeName ref="https://editon-humboldt.de/H0001578 https://www.geonames.org/3172394">Neapolitano</placeName>. </p>
                 <p>
                     <hi rendition="#i">Obs.</hi>: In Fl. Fr. satis male citatur Barrel. icon.
                     <lb/>453. quae ad <hi rendition="#i">C. fragilem </hi>pertinet.</p>
@@ -913,25 +1125,32 @@
                 
                 <p>
                     <hi rendition="#i">Campanula nicaeensis </hi>Roemer et Schult. Syst. 5. p.
-                    <lb/>126 (caule angulato simplici glabro, foliis radi-<lb/>calibus oblongis in petiolum attenuatis, caulinis <lb/>confertis
+                    <lb/>126 (caule angulato simplici glabro, foliis radi<g ref="#typoHyphen"/>
+                    <lb break="no"/>calibus oblongis in petiolum attenuatis, caulinis <lb/>confertis
                     subcordatis ovatis acuminatis crenatis <lb/>pubescentibus subtus hispidulis,
-                    capitulo termi-<lb/>nali. All. Ped. t. 39. f. 1.
-                    in regione <placeName ref="https://www.geonames.org/2990440">Nicaeense</placeName>). <lb/>Cfr. <hi rendition="#i">C. glomerata.</hi>
+                    capitulo termi<g ref="#typoHyphen"/>
+                    <lb break="no"/>nali. All. Ped. t. 39. f. 1.
+                    in regione <placeName ref="https://editon-humboldt.de/H0001689 https://www.geonames.org/2990440">Nicaeense</placeName>). <lb/>Cfr. <hi rendition="#i">C. glomerata.</hi>
                 </p>
                 <p>
                     <hi rendition="#i">Campanula cervicarioides</hi> Roemer et Schult.
                     Syst. 5. <lb/>p. 128. (hirta, floribus sessilibus capitulo
-                        ter-<lb/>minali glomeribusque axillaribus,
-                    foliis caulinis <lb/>lineari-lanceolatis subamplexicaulibus auctissi-<lb/>mis complicatis crenato-serratis in
-                        <placeName ref="https://www.geonames.org/3175395">Italia</placeName>).</p>
+                        ter<g ref="#typoHyphen"/>
+                    <lb break="no"/>minali glomeribusque axillaribus,
+                    foliis caulinis <lb/>lineari-lanceolatis subamplexicaulibus auctissi<g ref="#typoHyphen"/>
+                    <lb break="no"/>mis complicatis crenato-serratis in
+                        <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName>).</p>
                 <p>
                     <hi rendition="#i">Campanula virgata</hi> Flor. Neap. Raccolt. Viag. p. 426
-                    <lb/>(Labillard. Syn. 2. p. 11. t. 6. ramis virgatis, fo-<lb/>liis lanceolatis utrinque acutis dentatis scabrius-<lb/>culis, corollis profunde partitis,
+                    <lb/>(Labillard. Syn. 2. p. 11. t. 6. ramis virgatis, fo<g ref="#typoHyphen"/>
+                    <lb break="no"/>liis lanceolatis utrinque acutis dentatis scabrius<g ref="#typoHyphen"/>
+                    <lb break="no"/>culis, corollis profunde partitis,
                     floribus binis <lb/>sessilibus, — <hi rendition="#i">Phyteuma virgatum</hi>
                     Willd. —). </p>
                 <p>
                     <hi rendition="#i">Campanula corymbosa</hi> Flor. Neap. Prodr. an C. co-
-                    <lb/>rymbosa Desf. plant. Coroll. t. 15. (erecta villo-<lb/>sa, foliis ovatis serratis, floribus corymbosis, <lb/>calyce
+                    <lb/>rymbosa Desf. plant. Coroll. t. 15. (erecta villo<g ref="#typoHyphen"/>
+                    <lb break="no"/>sa, foliis ovatis serratis, floribus corymbosis, <lb/>calyce
                     tecto laciniis lanceolato-subulatis ciliatis <lb/>sinubus reflexis.). — </p>
                 <p>
                     <hi rendition="#i">Campanula grandiflora</hi> Tenore Catal. 1813. </p>
@@ -944,9 +1163,12 @@
                 <p>
                     <hi rendition="#i">Campanula urticifolia</hi> Vitman. Summa
                     plant.
-                    1. p. <lb/>454 (caule erectiusculo, foliis superioribus sessi-<lb/>libus spica secunda, pedunculis
-                    unifloris, caly-<lb/>cibus glabris). Turra
-                    Prodr. et Giornale di Ve-<lb/>nezia tab. 1.
+                    1. p. <lb/>454 (caule erectiusculo, foliis superioribus sessi<g ref="#typoHyphen"/>
+                    <lb break="no"/>libus spica secunda, pedunculis
+                    unifloris, caly<g ref="#typoHyphen"/>
+                    <lb break="no"/>cibus glabris). Turra
+                    Prodr. et Giornale di Ve<g ref="#typoHyphen"/>
+                    <lb break="no"/>nezia tab. 1.
                     Daponte Serio. Mazzucatto Viag. <lb/>an. <hi rendition="#i">C latifolia</hi>. </p>
                 <p>
                     <hi rendition="#i">Campanula vesula</hi> All. Ped. 1 p. 108. tab. 7. f. 1
@@ -955,25 +1177,29 @@
                 <p>
                     <hi rendition="#i">Campanula Alpini</hi> Turra Prod. (Lin. Syst. Edit. 2. p.
                     <lb/>1669, foliis lanceolatis serratis laevibus, floribus <lb/>racemosis
-                    secundis nutantibus, calycibus ser-<lb/>ratis). </p>
+                    secundis nutantibus, calycibus ser<g ref="#typoHyphen"/>
+                    <lb break="no"/>ratis). </p>
                 <p>
-                    <hi rendition="#i">Campanula alpina</hi>, Daponte Serio (Lin. foliis ellipti-<lb/>cis hirsutis, petiolis alaribus
+                    <hi rendition="#i">Campanula alpina</hi>, Daponte Serio (Lin. foliis ellipti<g ref="#typoHyphen"/>
+                    <lb break="no"/>cis hirsutis, petiolis alaribus
                     unifloris, floribus <lb/>glabris).</p>
                 
                 <p>Campanula genus est zonae temperatae utriusque
                     <lb/>hemisphaerii et in ejusdem parte calidiosi (30°–45°) <lb/>lat.) maxime
-                    obvenit. (<placeName ref="https://www.geonames.org/3175395">Italia</placeName>, <placeName ref="https://www.geonames.org/390903">Graecia</placeName>, <placeName ref="https://edition-humboldt.de/v8/H0000426">Asia
-                        minor</placeName>, <lb/>terrae <placeName ref="https://www.geonames.org/573081">Caucasicae</placeName>, <placeName ref="https://www.geonames.org/3367577">Caput bonae
-                        spei</placeName>, <placeName ref="https://www.geonames.org/2077456">Nova Hollan-<lb/>dia</placeName>). Inter tropicos omnino desideratur,
-                    praeter <lb/>duas species in <placeName ref="https://edition-humboldt.de/v8/H0002429">Americae
-                        meridionalis</placeName> regionibus <hi rendition="#i">tem-</hi>
-                    <lb/>
+                    obvenit. (<placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italia</placeName>, <placeName ref="https://editon-humboldt.de/H0010922 https://www.geonames.org/390903">Graecia</placeName>, <placeName ref="https://editon-humboldt.de/H0000426">Asia
+                        minor</placeName>, <lb/>terrae <placeName ref="https://editon-humboldt.de/H0000394 https://www.geonames.org/573081">Caucasicae</placeName>, <placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">Caput bonae
+                        spei</placeName>, <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Nova Hollan<g ref="#typoHyphen"/>
+                        <lb break="no"/>dia</placeName>). Inter tropicos omnino desideratur,
+                    praeter <lb/>duas species in <placeName ref="https://editon-humboldt.de/H0002429">Americae
+                        meridionalis</placeName> regionibus <hi rendition="#i">tem<g ref="#typoHyphen"/>
+                    </hi>
+                    <lb break="no"/>
                     <hi rendition="#i">peratis</hi>
-                    (scil. in montibus <placeName ref="https://www.geonames.org/3996063">mexicanis</placeName> haud infra
+                    (scil. in montibus <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">mexicanis</placeName> haud infra
                     4500 in <lb/>
-                    <placeName ref="https://edition-humboldt.de/v8/H0002454">Andibus</placeName> haud infra 6180 p. p.
+                    <placeName ref="https://editon-humboldt.de/H0002454">Andibus</placeName> haud infra 6180 p. p.
                     Humboldt. Nova Genera <lb/>Vol. 3. p. 300–301) et duas in <hi rendition="#i">montibus</hi>
-                    <placeName ref="https://www.geonames.org/1282988">Nepalensibus</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepalensibus</placeName>
                 </p>
                 
             </div>

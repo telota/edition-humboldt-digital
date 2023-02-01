@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014218">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Mifflin, John Francis</title>
             </titleStmt>
+            <editionStmt>
+                <p>Mifflin, John Francis [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0014218.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014218.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0014218.xml">
-                    <p>Mifflin, John Francis [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0014218.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0014218">
+                <person>
                     <persName type="reg">
                         <surname>Mifflin</surname>
                         <forename>John Francis</forename>
                     </persName>
                     <birth>1759</birth>
                     <death>1813</death>
-                    <note>nordamerikanischer Jurist; Mitglied der <orgName key="H0000527">American
+                    <note>nordamerikanischer Jurist; Mitglied der <orgName ref="https://editon-humboldt.de/H0000527 http://d-nb.info/gnd/35311-5">American
                             Philosophical Society</orgName> in Philadelphia; Halbbruder des
                         Politikers Thomas Mifflin (1744–1800)</note>
                     <linkGrp>

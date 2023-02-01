@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016710">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,31 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Januar 1844]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016710">https://edition-humboldt.de/v8/H0016710</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016710</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016710</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016710.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Januar 1844]
-            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016710</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">142</idno>
+                     <idno type="shelfmark">421, Bl. 254r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1844-01" notAfter="1844-01">1844-01-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: E. hat in der Sitzung vom 25.1.1844 über den
                         Meteorsteinfall vorgetragen</note>
@@ -69,17 +88,17 @@
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/120832534">Mohnike</persName>
+               <persName ref="https://editon-humboldt.de/H0014265 http://d-nb.info/gnd/120832534">Mohnike</persName>
                <lb/>den ich Ihnen an das Herz lege <lb/>und der Meteorstein in Person. <lb/>Ich bin
                durch Einladung beim <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">König</persName> um 4 Uhr
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> um 4 Uhr
                gehindert auf <lb/>der Akademie selbst zu erscheinen<supplied cert="high">.</supplied>
                 </p>
             <p>Ich bitte Sie den Aerolithen <note place="left" hand="#author">credo 6 ¼ Pfund aus
                   der Gegend von Nordhausen</note>
-               <lb/>durch <persName ref="http://d-nb.info/gnd/116609036">Rose</persName>
+               <lb/>durch <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName>
                <hi rendition="#u">wiegen</hi> zu lassen <lb/>und diesen zu bitten Ihnen <lb/>für die
-               öffentliche Sizung <lb/>zugleich das Fragment des <lb/>ganz ähnlichen <placeName ref="https://edition-humboldt.de/v8/H0017527">
+               öffentliche Sizung <lb/>zugleich das Fragment des <lb/>ganz ähnlichen <placeName ref="https://editon-humboldt.de/H0017527">
                         <hi rendition="#u">erxlebenschen</hi>
                     </placeName>
                <lb/>Aerolithen zum <hi rendition="#u">Vorzeigen</hi>
@@ -88,20 +107,20 @@
                   <abbr>Lieut.</abbr>
                   <expan>Lieutenant</expan>
                </choice> von <lb/>
-                    <persName ref="http://d-nb.info/gnd/117683086">Lossau</persName> dessen <choice>
+                    <persName ref="https://editon-humboldt.de/H0004637 http://d-nb.info/gnd/117683086">Lossau</persName> dessen <choice>
                   <sic>Schager</sic>
                   <corr>Schwager</corr>
-               </choice> Landrath <lb/>von <persName ref="https://edition-humboldt.de/v8/H0016994">Byla</persName>, mir den grossen
+               </choice> Landrath <lb/>von <persName ref="https://editon-humboldt.de/H0016994">Byla</persName>, mir den grossen
                <lb/>Aerolithen geschenkt, bringt <lb/>mir erst heute um 2 Uhr <lb/>die Papiere über
                den Fall <lb/>ohne Gewölk, bei ganz heiterem <lb/>Himmel. Ich kann Ihnen daher
-               <lb/>die <ref xml:id="eb0af0ba-3be4-47b2-8af0-ba3be4d7b286" corresp="#e1985d53-ead6-4315-985d-53ead6831556">kleine Note</ref>
-                    <note xml:id="e1985d53-ead6-4315-985d-53ead6831556" corresp="#eb0af0ba-3be4-47b2-8af0-ba3be4d7b286">
-                     <bibl corresp="https://edition-humboldt.de/v8/">vgl. Brief Nr. 142a</bibl>
+               <lb/>die <ref xml:id="b827c22b-cd91-4ccd-a7c2-2bcd919ccd22" corresp="#d9664133-ebe4-4204-a641-33ebe4f204eb">kleine Note</ref>
+                    <note xml:id="d9664133-ebe4-4204-a641-33ebe4f204eb" corresp="#b827c22b-cd91-4ccd-a7c2-2bcd919ccd22">
+                     <bibl corresp="https://edition-humboldt.de/">vgl. Brief Nr. 142a</bibl>
                   </note> für die <lb/>
-                    <ref xml:id="b27f52c8-5fe1-43cd-bf52-c85fe1a3cda5" corresp="#f93a3330-75b3-4413-ba33-3075b3041399">öffentliche Sizung erst in <lb/>einigen Tagen senden<supplied cert="high">.</supplied>
+                    <ref xml:id="e3a8027c-f094-408e-a802-7cf094508eb8" corresp="#af92d65d-82a7-4326-92d6-5d82a72326a8">öffentliche Sizung erst in <lb/>einigen Tagen senden<supplied cert="high">.</supplied>
                     </ref>
-                    <note xml:id="f93a3330-75b3-4413-ba33-3075b3041399" corresp="#b27f52c8-5fe1-43cd-bf52-c85fe1a3cda5">
-                     <bibl corresp="https://edition-humboldt.de/v8/ZZJGNPEF">Humboldt 1844</bibl>
+                    <note xml:id="af92d65d-82a7-4326-92d6-5d82a72326a8" corresp="#e3a8027c-f094-408e-a802-7cf094508eb8">
+                     <bibl corresp="https://edition-humboldt.de/ZZJGNPEF">Humboldt 1844</bibl>
                   </note>
                 </p>
                <closer rend="paragraph">

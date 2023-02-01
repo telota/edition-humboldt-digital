@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015557">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schlagintweit-Sakünlünski, Hermann</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schlagintweit-Sakünlünski, Hermann [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015557.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015557.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015557.xml">
-                    <p>Schlagintweit-Sakünlünski, Hermann [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015557.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xmlns:telota="http://www.telota.de" xml:id="H0015557" telota:merge="1">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/119074117</idno>
                     <persName type="reg">
                         <surname>Schlagintweit-Sakünlünski</surname>
@@ -42,8 +47,8 @@
                     <birth>1826</birth>
                     <death>1882</death>
                     <note>deutscher Geograph, Meterologe und Forschungsreisender in den Alpen und im Himalaya; einer der
-                        fünf <persName key="H0015551">Gebrüder Schlagintweit</persName>, die allesamt Naturforschung
-                        betrieben; mit seinem Bruder <persName key="H0015556">Robert</persName> 1859 in den erblichen
+                        fünf <persName ref="https://editon-humboldt.de/H0015551">Gebrüder Schlagintweit</persName>, die allesamt Naturforschung
+                        betrieben; mit seinem Bruder <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> 1859 in den erblichen
                         bayerischen Adelsstand erhoben; den Zusatznamen Sakülünski erhielt er als Ersteiger einer der
                         Berge von Kwen-Lun (Kunlun), einer über 7000 m hohen Gebirgskette in China</note>
                     <linkGrp>

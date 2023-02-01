@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016658">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,31 +29,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juni 1848]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016658">https://edition-humboldt.de/v8/H0016658</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016658</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016658</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016658.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juni 1848]
-            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016658</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">90</idno>
+                     <idno type="shelfmark">421, Bl. 166r</idno>, 167v </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1848-06" notAfter="1848-06">1848-06-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur
         Datierung: ab Mai 1848 Adresse Zimmerstr.</note>
@@ -77,9 +95,9 @@
               </address>
                </opener>
             <pb n="1v"/> 
-            <p>Vielen Dank mein theurer Ehrenberg, für Ihre <lb/>freundliche Aufnahme meiner <ref xml:id="fb42ef1e-1459-4722-82ef-1e14596722e9" corresp="#d67e5dd6-33d7-46ae-be5d-d633d706ae26">„nächtlichen <lb/>Thierstimmen“</ref>
-                    <note xml:id="d67e5dd6-33d7-46ae-be5d-d633d706ae26" corresp="#fb42ef1e-1459-4722-82ef-1e14596722e9">
-                     <bibl corresp="https://edition-humboldt.de/v8/7K6BKJ7K">Humboldt 1849</bibl>
+            <p>Vielen Dank mein theurer Ehrenberg, für Ihre <lb/>freundliche Aufnahme meiner <ref xml:id="fb641610-9547-42e7-a416-10954752e72b" corresp="#e630e6a4-f2b0-4931-b0e6-a4f2b0f9311b">„nächtlichen <lb/>Thierstimmen“</ref>
+                    <note xml:id="e630e6a4-f2b0-4931-b0e6-a4f2b0f9311b" corresp="#fb641610-9547-42e7-a416-10954752e72b">
+                     <bibl corresp="https://edition-humboldt.de/7K6BKJ7K">Humboldt 1849</bibl>
                   </note> aber ich erhalte nur von <lb/>Ihnen zurük <choice>
                   <abbr>S.</abbr>
                   <expan>Seite</expan>

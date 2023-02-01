@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016587">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [27. Januar
+               1848] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016587">https://edition-humboldt.de/v8/H0016587</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016587</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016587</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016587.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [27. Januar
-               1848] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016587</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">178a</idno>
+                     <idno type="shelfmark">421, Bl. 330r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1848-01-27">1848-01-27</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Zusatz von Humboldt auf Brief Nr. 178 vom 27.1.1848</note>
          </correspDesc>
@@ -65,13 +83,14 @@
          <div type="writingSession">
             <pb n="1v"/>
             <p>Sie sehen, mein theurer Ehrenberg, <lb/>aus diesen Zahlen des Flügel Adjutanten
-               <lb/>auf die ich Sie nicht zu antworten <lb/>bitte, dass es die höchste Wahr-<lb/>scheinlichkeit ist, der <persName ref="http://d-nb.info/gnd/118535994">König</persName> werde <lb/>sein Versprechen auf die Akademie
+               <lb/>auf die ich Sie nicht zu antworten <lb/>bitte, dass es die höchste Wahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlichkeit ist, der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> werde <lb/>sein Versprechen auf die Akademie
                <lb/>heute zu kommen halten<supplied cert="high">.</supplied> Ich <lb/>hatte nämlich
                heute morgen den <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">König</persName> noch an Ihren Vorsiz
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> noch an Ihren Vorsiz
                <lb/>erinnert und es ist aus <supplied>der</supplied> Antwort <lb/>geschlossen worden
                zu Hause um 3 Uhr <lb/>und nicht bei<supplied cert="high">m</supplied>
-               <persName ref="http://d-nb.info/gnd/118632884">
+               <persName ref="https://editon-humboldt.de/H0002173 http://d-nb.info/gnd/118632884">
                         <choice>
                      <abbr>Pr</abbr>
                      <expan>Prinzen</expan>

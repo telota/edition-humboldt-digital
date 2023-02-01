@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000531">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Berliner Sternwarte</title>
             </titleStmt>
+            <editionStmt>
+                <p>Berliner Sternwarte [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000531.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000531.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000531.xml">
-                    <p>Berliner Sternwarte [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000531.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0000531">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/510068-9</idno>
                     <orgName type="reg">Berliner Sternwarte</orgName>
                     <orgName type="alt">Königliche Sternwarte zu Berlin</orgName>
                     <desc>Die Berliner Sternwarte war eine
-                        <?oxy_comment_start author="kraft" timestamp="20160831T160130+0200" comment="die Referenzen im Sachregister auf den Refraktor sind nicht in die Einträge zur Sternwarte übernommen worden. Später überprüfen, ob Zusammenführung sinnvoll wäre."?>astronomische<?oxy_comment_end?>
+                        astronomische
                         Forschungseinrichtung, die in Verbindung mit der Kurfürstlich-Brandenburgischen Societät der
                         Wissenschaften gegründet und unter der nachfolgenden Königlich Preußischen Sozietät
                         beziehungsweise der Königlich-Preußischen Akademie der Wissenschaften als Königliche Sternwarte
@@ -42,7 +47,7 @@
                     <location from="1711" to="1835">
                         <address>
                             <idno type="uri">https://www.geonames.org/11153851</idno>
-                            <settlement key="H0005221">Berlin</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005221">Berlin</settlement>
                             <note>Neustadt, Letzte Straße No. 64</note>
                             <linkGrp>
                                 <ptr target="22#45" type="page"/>
@@ -59,7 +64,7 @@
                     <location from="1835" to="1913">
                         <address>
                             <idno type="uri">https://www.geonames.org/11153856</idno>
-                            <settlement key="H0005221">Berlin</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005221">Berlin</settlement>
                             <note>Lindenstraße, später Enckeplatz 3A</note>
                             <linkGrp>
                                 <ptr target="19#45" type="page"/>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018256">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Berëzovo</title>
             </titleStmt>
+            <editionStmt>
+                <p>Berëzovo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018256.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018256.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018256.xml">
-                    <p>Berëzovo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018256.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018256">
+                <place>
                     <idno type="uri">https://www.geonames.org/1510214</idno>
                     <placeName type="reg">Berëzovo</placeName>
                     <placeName type="alt">Beresow</placeName>
@@ -38,10 +43,10 @@
                     <placeName type="alt">Berjosow</placeName>
                     <placeName type="alt">Берёзово</placeName>
                     <placeName type="alt">Beryozovo</placeName>
-                    <note>Stadt im Nordwesten <placeName key="H0010218">Sibiriens</placeName> (<placeName key="H0010689">Russland</placeName>) zwischen den Flüssen <placeName key="H0018103">Wogulka</placeName>
-                        und <placeName key="H0018082">Nördliche Soswa</placeName> nahe der Mündung in den <placeName key="H0007780">Ob</placeName>; 1593 gegründet; im 17. und 18. Jh. wichtiger Handelsplatz;
+                    <note>Stadt im Nordwesten <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibiriens</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>) zwischen den Flüssen <placeName ref="https://editon-humboldt.de/H0018103">Wogulka</placeName>
+                        und <placeName ref="https://editon-humboldt.de/H0018082 https://www.geonames.org/1492620">Nördliche Soswa</placeName> nahe der Mündung in den <placeName ref="https://editon-humboldt.de/H0007780 https://www.geonames.org/1496420">Ob</placeName>; 1593 gegründet; im 17. und 18. Jh. wichtiger Handelsplatz;
                         vom frühen 18. Jh. bis in die Sowjet-Zeit Verbannungsort.
-                        <!-- Nicht zu verwechseln mit dem Bergwerksort Berezovskij bei Jekaterinburg -->
+                        
                     </note>
                 </place>
             </listPlace>

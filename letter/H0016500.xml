@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016500">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1856] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016500">https://edition-humboldt.de/v8/H0016500</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016500</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016500</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016500.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1856] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016500</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">250</idno>
+                     <idno type="shelfmark">421, Bl. 467r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1856" notAfter="1856">1856-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: C.S. Weiss starb am 1.10.1856.</note>
          </correspDesc>
@@ -65,15 +83,15 @@
             <p>Ich freue mich sehr des Geschenkes des Herrn Prälaten <lb/>und des Steines der die
                schlafenden Kinder <lb/>verschont hat! Das mir zugesandte Stück <lb/>lassen Sie wohl,
                theurer Freund, in meinem <lb/>Hause abgeben. Sollte ich noch hier sein <lb/>wenn
-               unser College <persName ref="http://d-nb.info/gnd/118806556">Weiss</persName> endlich ankommt, <lb/>so
+               unser College <persName ref="https://editon-humboldt.de/H0006306 http://d-nb.info/gnd/118806556">Weiss</persName> endlich ankommt, <lb/>so
                bitte ich um Adresse <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
                </choice> vielmehr <lb/>
                     <hi rendition="#u">Titulatur</hi> des hochwürdigen? Herrn,
-                  viel<lb/>leicht Abt<supplied cert="high">.</supplied> Ich möchte ihm
-               schreiben <lb/>wie sehr dem <persName ref="http://d-nb.info/gnd/118535994">König</persName> sein Wohlwollen
-               <lb/>für <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> gefallen. Bei <persName ref="http://d-nb.info/gnd/118576178">Magnus</persName> zeigte <lb/>mir <persName ref="http://d-nb.info/gnd/116250836">Poggendorf</persName> die sehr zusammen<lb/>gesezte Analyse des
+                  viel<lb break="no"/>leicht Abt<supplied cert="high">.</supplied> Ich möchte ihm
+               schreiben <lb/>wie sehr dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> sein Wohlwollen
+               <lb/>für <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> gefallen. Bei <persName ref="https://editon-humboldt.de/H0013863 http://d-nb.info/gnd/118576178">Magnus</persName> zeigte <lb/>mir <persName ref="https://editon-humboldt.de/H0002047 http://d-nb.info/gnd/116250836">Poggendorf</persName> die sehr zusammen<lb break="no"/>gesezte Analyse des
                Weltkörpers. </p>
             <closer rend="paragraph">
                     <signed>Ihr <lb/>AlHumboldt.</signed>

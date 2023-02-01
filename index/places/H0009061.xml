@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0009061">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Murzinka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Murzinka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0009061.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0009061.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0009061.xml">
-                    <p>Murzinka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009061.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0009061">
+                <place>
                     <idno type="uri">https://www.geonames.org/1498190</idno>
                     <placeName type="reg">Murzinka</placeName>
                     <placeName type="alt">Mursinsk</placeName>
-                    <!-- Rose 1837/1842, I, passim -->
+                    
                     <placeName type="alt">Мурзинка</placeName>
                     <placeName type="alt">Mursinska</placeName>
-                    <!-- Karte vom Ural 1837 -->
-                    <note>Dorf an der <placeName key="H0017212">Neiwa</placeName>, nördlich von <placeName key="H0005599">Jekaterinburg</placeName>
+                    
+                    <note>Dorf an der <placeName ref="https://editon-humboldt.de/H0017212 https://www.geonames.org/1497782">Neiwa</placeName>, nördlich von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="30#43" type="letter"/>

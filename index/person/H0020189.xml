@@ -1,12 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020189">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>, </title>
+                <title>
+                    <name>Ninus</name>
+                </title>
             </titleStmt>
+            <editionStmt>
+                <p>Ninus [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020189.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +22,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020189.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020189.xml">
-                    <p>,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020189.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person role="mythological" xml:id="H0020189">
+                <person>
                     <idno type="uri">https://d-nb.info/gnd/1030499160</idno>
                     <persName type="reg">
                         <name>Ninus</name>
                     </persName>
-                    <note>mythischer König und Gründer der Stadt <placeName key="H0001680">Ninive</placeName> im antiken <placeName key="H0002584">Assyrien</placeName>
+                    <note>mythischer König und Gründer der Stadt <placeName ref="https://editon-humboldt.de/H0001680 http://www.geonames.org/99072">Ninive</placeName> im antiken <placeName ref="https://editon-humboldt.de/H0002584">Assyrien</placeName>
                     </note>
                 </person>
             </listPerson>

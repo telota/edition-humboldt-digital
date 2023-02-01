@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016694">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [27. Juni
+               1842] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016694">https://edition-humboldt.de/v8/H0016694</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016694</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016694</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016694.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [27. Juni
-               1842] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016694</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">127</idno>
+                     <idno type="shelfmark">421, Bl. 236r-236v, 237v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1842-06-27">1842-06-27</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: 1842 von fremder Hand; seit 28.6.1842 war P.T. Riess ordentliches
                Mitglied der Königl. Preuß. Akademie der Wissenschaften; Öffentliche Sitzung zur
@@ -82,8 +100,8 @@
             <pb n="1v"/>
                 <p>Ich eile Ihnen zu sagen, mein <lb/>theurer Freund, dass die Wahlen
                <lb/>allerdings proclamirt werden können<supplied cert="high">.</supplied>
-               <lb/>Ich hatte wegen <persName ref="http://d-nb.info/gnd/116545259">Riess</persName> vorgestern <lb/>an
-                  <persName ref="http://d-nb.info/gnd/104335262">Eichhorn</persName> geschrieben und er<lb/>hielt gestern früh von ihm <lb/>die sehr freundliche Antwort<supplied cert="high">.</supplied>
+               <lb/>Ich hatte wegen <persName ref="https://editon-humboldt.de/H0000912 http://d-nb.info/gnd/116545259">Riess</persName> vorgestern <lb/>an
+                  <persName ref="https://editon-humboldt.de/H0005881 http://d-nb.info/gnd/104335262">Eichhorn</persName> geschrieben und er<lb break="no"/>hielt gestern früh von ihm <lb/>die sehr freundliche Antwort<supplied cert="high">.</supplied>
                </p>
             <p>Die Staatszeitung <lb/>solle zu Dienstag <lb/>die Ernennung des <choice>
                   <abbr>D<hi rendition="#sup">r</hi>
@@ -91,10 +109,11 @@
                   <expan>Doktor</expan>
                </choice>
                <lb/>
-                    <persName ref="http://d-nb.info/gnd/116545259">Riess</persName> verkündigen, <lb/>die <choice>
+                    <persName ref="https://editon-humboldt.de/H0000912 http://d-nb.info/gnd/116545259">Riess</persName> verkündigen, <lb/>die <choice>
                   <abbr>Königl.</abbr>
                   <expan>Königliche</expan>
-               </choice> Bestäti<lb/>gung sei Freitag <lb/>von <placeName ref="https://www.geonames.org/3099434">Danzig</placeName> gekom-<lb/>men und er werde
+               </choice> Bestäti<lb break="no"/>gung sei Freitag <lb/>von <placeName ref="https://editon-humboldt.de/H0005478 https://www.geonames.org/3099434">Danzig</placeName> gekom<g ref="#typoHyphen"/>
+                    <lb break="no"/>men und er werde
                <lb/>sie eiligst der <choice>
                   <abbr>Akad</abbr>
                   <expan>Akademie</expan>
@@ -106,19 +125,20 @@
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116545259">Riess</persName> gelegt. <lb/>Da ich gerade das <persName ref="http://d-nb.info/gnd/118571249">Leibnitzi-<lb/>sche</persName> Fest
+               <persName ref="https://editon-humboldt.de/H0000912 http://d-nb.info/gnd/116545259">Riess</persName> gelegt. <lb/>Da ich gerade das <persName ref="https://editon-humboldt.de/H0004426 http://d-nb.info/gnd/118571249">Leibnitzi<g ref="#typoHyphen"/>
+                        <lb break="no"/>sche</persName> Fest
                zum Vorwande <lb/>
-                    <pb n="2r"/>gebraucht um <persName ref="http://d-nb.info/gnd/104335262">Eichhorn</persName> so <lb/>zu bedrängen, so würde <lb/>meine Eile wenig vor ihm
+                    <pb n="2r"/>gebraucht um <persName ref="https://editon-humboldt.de/H0005881 http://d-nb.info/gnd/104335262">Eichhorn</persName> so <lb/>zu bedrängen, so würde <lb/>meine Eile wenig vor ihm
                <lb/>gerechtfertigt sein, wenn <lb/>die <choice>
                   <abbr>kön.</abbr>
                   <expan>königliche</expan>
                </choice> Bestätigung <lb/>nicht in der Sizung <lb/>verkündigt würde<supplied cert="high">.</supplied> Es ist auch <lb/>im Interesse des liberalen <lb/>Rufs des
-                  <persName ref="http://d-nb.info/gnd/118535994">Königs</persName>. Ganz <lb/>
-                    <placeName ref="https://www.geonames.org/294640">Israel</placeName> wird der Sizung <lb/>beiwohnen. <ref xml:id="a57708c4-c11a-40b1-b708-c4c11a80b184" corresp="#cb44b460-ade3-4147-84b4-60ade3914744">Die mit <lb/>Bewusstsein schwimmenden <lb/>Ziegelsteine</ref>
-                    <note xml:id="cb44b460-ade3-4147-84b4-60ade3914744" corresp="#a57708c4-c11a-40b1-b708-c4c11a80b184">
-                     <bibl corresp="https://edition-humboldt.de/v8/8V6H4TWL">Ehrenberg 1842</bibl>
+                  <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Königs</persName>. Ganz <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0017508 https://www.geonames.org/294640">Israel</placeName> wird der Sizung <lb/>beiwohnen. <ref xml:id="b47a51a3-7f63-4ec3-ba51-a37f633ec369" corresp="#ca917b1b-5132-491c-917b-1b5132591c95">Die mit <lb/>Bewusstsein schwimmenden <lb/>Ziegelsteine</ref>
+                    <note xml:id="ca917b1b-5132-491c-917b-1b5132591c95" corresp="#b47a51a3-7f63-4ec3-ba51-a37f633ec369">
+                     <bibl corresp="https://edition-humboldt.de/8V6H4TWL">Ehrenberg 1842</bibl>
                   </note> müssen Sie <lb/>sehr erfreuen<supplied cert="high">.</supplied> In der
-               <lb/>Schrift von <persName ref="http://d-nb.info/gnd/115769307">Duvernoy</persName> ist <lb/>Ihrer sehr
+               <lb/>Schrift von <persName ref="https://editon-humboldt.de/H0017054 http://d-nb.info/gnd/115769307">Duvernoy</persName> ist <lb/>Ihrer sehr
                lobend, wie <lb/>überall gedacht. Ich <lb/>dachte, ich hätte sie <lb/>Ihnen
                zurükgeschikt.</p>
             <closer rend="paragraph">Ihr <lb/>AHt <dateline>Montags.</dateline>

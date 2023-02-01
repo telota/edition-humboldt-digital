@@ -1,13 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002070">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Pommard, author="thomas" timestamp="20200908T162113+0200" comment="vgl. ANCIENS ELEVES WEB - Recherche simple bibli-aleph.polytechnique.fr, http://bibli-aleph.polytechnique.fr/F/?func=find-b&amp;amp;request=POMMARD+Achille+C%C3%A9sar+Charles+1800&amp;amp;find_code=WPE&amp;amp;adjacent=N&amp;amp;local_base=BCXC2"Achille-César-Charles
                             Leblanc de</title>
             </titleStmt>
+            <editionStmt>
+                <p>Pommard, author="thomas" timestamp="20200908T162113+0200" comment="vgl. ANCIENS ELEVES WEB - Recherche simple bibli-aleph.polytechnique.fr, http://bibli-aleph.polytechnique.fr/F/?func=find-b&amp;amp;request=POMMARD+Achille+C%C3%A9sar+Charles+1800&amp;amp;find_code=WPE&amp;amp;adjacent=N&amp;amp;local_base=BCXC2"Achille-César-Charles
+                            Leblanc de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0002070.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -17,26 +22,25 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002070.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0002070.xml">
-                    <p>Pommard, author="thomas" timestamp="20200908T162113+0200" comment="vgl. ANCIENS ELEVES WEB - Recherche simple bibli-aleph.polytechnique.fr, http://bibli-aleph.polytechnique.fr/F/?func=find-b&amp;amp;request=POMMARD+Achille+C%C3%A9sar+Charles+1800&amp;amp;find_code=WPE&amp;amp;adjacent=N&amp;amp;local_base=BCXC2"Achille-César-Charles
-                            Leblanc de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0002070.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0002070">
+                <person>
                     <persName type="reg">
                         <surname>Pommard</surname>
-                        <forename><?oxy_comment_start author="thomas" timestamp="20200908T162113+0200" comment="vgl. ANCIENS ELEVES WEB - Recherche simple bibli-aleph.polytechnique.fr, http://bibli-aleph.polytechnique.fr/F/?func=find-b&amp;request=POMMARD+Achille+C%C3%A9sar+Charles+1800&amp;find_code=WPE&amp;adjacent=N&amp;local_base=BCXC2"?>Achille-César-Charles
-                            Leblanc de<?oxy_comment_end?>
-                        </forename>
+                        <forename>Achille-César-Charles
+                            Leblanc de</forename>
                     </persName>
                     <persName type="alt">
                         <name>Pomard</name>
@@ -53,7 +57,7 @@
                     <birth>1781</birth>
                     <death>1807</death>
                     <note>französischer Astronom und Geodät; Schüler der Ecole polytechnique; später Assistent des
-                        Astronomen <persName key="H0012189">Delambre</persName>
+                        Astronomen <persName ref="https://editon-humboldt.de/H0012189 http://d-nb.info/gnd/118878913">Delambre</persName>
                     </note>
                     <linkGrp>
                         <ptr target="02#475" type="letter"/>

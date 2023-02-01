@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019241">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bisserskaja</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bisserskaja [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019241.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,36 +20,37 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019241.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019241.xml">
-                    <p>Bisserskaja [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019241.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019241">
+                <place>
                     <placeName type="reg">Bisserskaja</placeName>
-                    <!-- Humboldt 1844, I, 288; Rose 1837/1842, I, 122 -->
+                    
                     <placeName type="alt">Bissersskaja</placeName>
-                    <!-- Karte vom Ural-Gebirge-->
+                    
                     <placeName type="alt">Бисерскаа</placeName>
-                    <!-- Geograficheskii atlas Rossiiskoi Imperii/ Gouvernement Perm -->
+                    
                     <placeName type="alt">Bisserskaia</placeName>
-                    <!-- Geograficheskii atlas Rossiiskoi Imperii/ Gouvernement Perm -->
+                    
                     <placeName type="alt">Biserskaya</placeName>
-                    <!-- RST, Bl. 9r -->
+                    
                     <placeName type="alt">Bisserskaya</placeName>
-                    <!-- RST, Bl. 60r, 60v -->
-                    <note>Ort am <placeName key="H0019240">Bisert'</placeName> nahe von <placeName key="H0019252">Jalim</placeName> an der Westflanke des <placeName key="H0020291">Mittleren
-                            Ural</placeName>, südöstlich von <placeName key="H0000501">Kungur</placeName> und westlich
-                        von <placeName key="H0005599">Jekaterinburg</placeName> gelegen; Humboldt zufolge als <ref target="http://opacplus.bsb-muenchen.de/title/BV020086787/ft/bsb10433528?page=314">"Anfangspunkt des Ural"</ref> angesehen (<placeName key="H0010689">Russland</placeName>)
-                        <!-- (Humboldt 1844, I, 288) -->
+                    
+                    <note>Ort am <placeName ref="https://editon-humboldt.de/H0019240 https://www.geonames.org/576259">Bisert'</placeName> nahe von <placeName ref="https://editon-humboldt.de/H0019252 https://www.geonames.org/469342/yalym.html">Jalim</placeName> an der Westflanke des <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren
+                            Ural</placeName>, südöstlich von <placeName ref="https://editon-humboldt.de/H0000501 https://www.geonames.org/539147">Kungur</placeName> und westlich
+                        von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName> gelegen; Humboldt zufolge als <ref target="http://opacplus.bsb-muenchen.de/title/BV020086787/ft/bsb10433528?page=314">"Anfangspunkt des Ural"</ref> angesehen (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)
+                        
                     </note>
                 </place>
             </listPlace>

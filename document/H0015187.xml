@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015187">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,13 +29,20 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: S – Portulak auf Barbados, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015187">https://edition-humboldt.de/v8/H0015187</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015187</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015187</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015187.xml</idno>
             </publicationStmt>
             <notesStmt>
@@ -45,21 +52,35 @@
                         Humboldt und die Geobotaniker seiner Zeit. Der englische Naturforscher
                         Martin Lister berichtete 1675 über das Vorkommen des in Europa beheimateten
                         Portulak (Purslane, Portulaca oleracea) auf der Insel Barbados. In Karl
-                        Sigismund Kunths <ref target="H0000005">Ideensammlung zur Neuausgabe der
+                        Sigismund Kunths <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe der
                             Geographie der Pflanzen</ref> wird auf das Exzerpt aus Listers Bericht
                         mit dem Kommentar „älteste Frage von Lister“ und der Sigle <ref xml:id="ed_rb4_pjd_bbb" type="siglum" target="#Geographie_der_Pflanzen_S">S</ref> verwiesen. </p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>S – Portulak auf Barbados. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015187</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 79a, Bl. 24</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2832781</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -76,8 +97,8 @@
                         <sic>wether</sic>
                         <corr cert="high">whether</corr>
                     </choice>
-                    <placeName ref="https://edition-humboldt.de/v8/H0002429">America</placeName> have <lb/>some plants common with
-                    <lb/>those of <placeName ref="https://www.geonames.org/6255148">Europe</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0002429">America</placeName> have <lb/>some plants common with
+                    <lb/>those of <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europe</placeName>
                     <lb/>
                     <del rendition="#s">
                         <gap quantity="1" unit="words"/>
@@ -89,12 +110,12 @@
                         <del rendition="#s">Barbade</del>
                         <add place="intralinear">
                             <lb/>
-                            <placeName ref="https://www.geonames.org/3374084">Barbade</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0005116 https://www.geonames.org/3374084">Barbade</placeName>
                         </add>
                     </subst>
                     <supplied cert="high">,</supplied>
-                    <persName ref="http://d-nb.info/gnd/117676179">Lister</persName>
-                    <bibl corresp="https://edition-humboldt.de/v8/74WW43IZ">
+                    <persName ref="https://editon-humboldt.de/H0004561 http://d-nb.info/gnd/117676179">Lister</persName>
+                    <bibl corresp="https://edition-humboldt.de/74WW43IZ">
                         <lb/>
                         <choice>
                             <abbr>Phil</abbr>

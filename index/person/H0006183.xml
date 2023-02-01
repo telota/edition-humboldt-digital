@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006183">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Wach, Wilhelm Karl</title>
             </titleStmt>
+            <editionStmt>
+                <p>Wach, Wilhelm Karl [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0006183.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006183.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0006183.xml">
-                    <p>Wach, Wilhelm Karl [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0006183.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0006183">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117076317</idno>
                     <persName type="reg">
                         <surname>Wach</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1787</birth>
                     <death>1845</death>
-                    <note>deutscher Königlicher Hofmaler und Vizedirektor der <orgName key="H0000568">Akademie der
+                    <note>deutscher Königlicher Hofmaler und Vizedirektor der <orgName ref="https://editon-humboldt.de/H0000568 http://d-nb.info/gnd/2015876-2">Akademie der
                             Künste</orgName> in Berlin</note>
                     <linkGrp>
                         <ptr target="33#144" type="page"/>

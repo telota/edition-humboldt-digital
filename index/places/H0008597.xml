@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0008597">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Makar'evo</title>
             </titleStmt>
+            <editionStmt>
+                <p>Makar'evo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0008597.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0008597.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0008597.xml">
-                    <p>Makar'evo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0008597.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0008597">
+                <place>
                     <idno type="uri">https://www.geonames.org/532133</idno>
                     <placeName type="reg">Makar'evo</placeName>
                     <placeName type="alt">Макарьево</placeName>
@@ -38,9 +43,9 @@
                     <placeName type="alt">Markajew</placeName>
                     <placeName type="alt">Makariew</placeName>
                     <placeName type="alt">Макарьев</placeName>
-                    <note>Ort an der mittleren <placeName key="H0007984">Wolga</placeName> zwischen <placeName key="H0001687">Nižnij Novgorod</placeName> und <placeName key="H0000396">Kazan</placeName>;
+                    <note>Ort an der mittleren <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> zwischen <placeName ref="https://editon-humboldt.de/H0001687 https://www.geonames.org/520555">Nižnij Novgorod</placeName> und <placeName ref="https://editon-humboldt.de/H0000396 https://www.geonames.org/551487">Kazan</placeName>;
                         1641 bis 1816 Standort der Makar'ev-Messe, des größten russischen Handelsmarkts (nach einem
-                        Brand 1816 nach Nižnij Novgorod verlegt) (<placeName key="H0010689">Russland</placeName>) </note>
+                        Brand 1816 nach Nižnij Novgorod verlegt) (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>) </note>
                     <linkGrp>
                         <ptr target="30#9" type="letter"/>
                         <ptr subtype="comment" target="30#9" type="letter"/>

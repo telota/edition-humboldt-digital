@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001182">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,32 +29,59 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 1. Mai
+                    1796, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0001182">https://edition-humboldt.de/v8/H0001182</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0001182</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0001182</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001182.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 1. Mai
-                    1796. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0001182</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift / Frankfurter Goethe-Museum</institution>
+                        <repository>Handschriftensammlung</repository>
+                        <idno>
+                            <idno type="shelfmark">Hs-5056</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/WFDJIWK6">Humboldt 1973,
+                            508–509</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/DW4AA88T">Soemmerring 2001,
+                            308–310</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2951825">Bayreuth</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0005176 https://www.geonames.org/2951825">Bayreuth</placeName>
                     <date when="1796-05-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830)
+                    <persName ref="https://editon-humboldt.de/H0015944 http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830)
                     </persName>
                 </correspAction>
             </correspDesc>
@@ -68,15 +95,19 @@
                     <pb n="1r"/>Liebster <choice>
                         <abbr>S</abbr>
                         <expan>Soemmerring</expan>
-                    </choice>. Ich bin noch ganz voll von Ihrer Entdek-<lb/>kung übers Gehirn. Es ist eine der größten unserer <lb/>Zeit.
+                    </choice>. Ich bin noch ganz voll von Ihrer Entdek<g ref="#typoHyphen"/>
+                    <lb break="no"/>kung übers Gehirn. Es ist eine der größten unserer <lb/>Zeit.
                     Aber heute benuze ich meine geringe Muße <lb/>um Ihnen zu sagen, daß ich
-                    unablässig beschäftigt <lb/>bin Versuche übers Herz zu machen. Ich habe vor-<lb/>züglich darüber folgende Entdekkung gemacht, welche Ihnen
-                        viel<lb/>leicht wegen des Streits mit <persName ref="http://d-nb.info/gnd/117088536">Scarpa</persName> wichtig ist. Ich ver-<lb/>gleiche die stimuli, welche auf die Nerven der Bewegungs-<lb/>muskeln und die, welche aufs Herz wirken.</p>
-                <p>Sie wissen aus <ref xml:id="af0ced13-7086-4e75-8ced-1370868e752d" corresp="#a6c3db3c-e965-4a2e-83db-3ce9655a2e0f">
-                            <persName ref="http://d-nb.info/gnd/117519669">Fontana</persName>
+                    unablässig beschäftigt <lb/>bin Versuche übers Herz zu machen. Ich habe vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>züglich darüber folgende Entdekkung gemacht, welche Ihnen
+                        viel<lb break="no"/>leicht wegen des Streits mit <persName ref="https://editon-humboldt.de/H0015482 http://d-nb.info/gnd/117088536">Scarpa</persName> wichtig ist. Ich ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>gleiche die stimuli, welche auf die Nerven der Bewegungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>muskeln und die, welche aufs Herz wirken.</p>
+                <p>Sie wissen aus <ref xml:id="b5c80cb6-9bda-4d96-880c-b69bda3d9663" corresp="#a403c24c-5065-43ba-83c2-4c5065b3babe">
+                            <persName ref="https://editon-humboldt.de/H0000163 http://d-nb.info/gnd/117519669">Fontana</persName>
                         </ref>
-                    <note xml:id="a6c3db3c-e965-4a2e-83db-3ce9655a2e0f" corresp="#af0ced13-7086-4e75-8ced-1370868e752d">
-                            <bibl corresp="https://edition-humboldt.de/v8/27Q9SUGB">Fontana 1787</bibl>.</note>, daß Alcohol (nicht aber <lb/>Opium <subst>
+                    <note xml:id="a403c24c-5065-43ba-83c2-4c5065b3babe" corresp="#b5c80cb6-9bda-4d96-880c-b69bda3d9663">
+                            <bibl corresp="https://edition-humboldt.de/27Q9SUGB">Fontana 1787</bibl>.</note>, daß Alcohol (nicht aber <lb/>Opium <subst>
                         <del rendition="#s">u</del>
                         <add place="intralinear">in</add>
                     </subst> Wasser aufgelöst) jedem Nerv fast <lb/>wie ein starker <choice>
@@ -119,7 +150,8 @@
                     </choice> Salzsäure, er überreizt aber auch mehr <lb/>als diese <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> das Wiederbeleben ist daher von kür-<lb/>zerer Dauer. Der alcohol ist fürs Herz, was <choice>
+                    </choice> das Wiederbeleben ist daher von kür<g ref="#typoHyphen"/>
+                    <lb break="no"/>zerer Dauer. Der alcohol ist fürs Herz, was <choice>
                         <abbr>ol.</abbr>
                         <expan>oleum</expan>
                     </choice>
@@ -185,7 +217,8 @@
                     </choice> es pulsirte <lb/>darin, weil der stimulus das <choice>
                         <abbr>art.</abbr>
                         <expan>arterielle</expan>
-                    </choice> Blut abge-<lb/>waschen ward, nur 6 mal in 1 <choice>
+                    </choice> Blut abge<g ref="#typoHyphen"/>
+                    <lb break="no"/>waschen ward, nur 6 mal in 1 <choice>
                         <abbr>Min</abbr>
                         <expan>Minute</expan>
                     </choice>. Ich warf es <lb/>aus dem Wasser in <choice>
@@ -202,12 +235,12 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> zwar in der lsten Minute 18, in der 2ten 20, <lb/>in der 3ten 23 mal.
-                    Auch folgendes ist merk<lb/>würdig! Wenn ein Herz in <choice>
+                    Auch folgendes ist merk<lb break="no"/>würdig! Wenn ein Herz in <choice>
                         <abbr>natürl.</abbr>
                         <expan>natürlichem</expan>
                     </choice> Zustande <lb/>
                     <pb n="2r"/>die Irritabilität verliert, so pulsirt es
-                    immer lang<lb/>samer zulezt kaum 1 mal in 1 <choice>
+                    immer lang<lb break="no"/>samer zulezt kaum 1 mal in 1 <choice>
                         <abbr>Min</abbr>
                         <expan>Minute</expan>
                     </choice>. Es hebt <lb/>sich dabei aber meist bis zulezt gleich hoch. Im
@@ -216,7 +249,8 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> je schneller desto weniger hebt <lb/>es sich. Im schnellsten Tact wenn
-                    der Tod aus Ue-<lb/>berreizung nahe ist, verschwinden die <choice>
+                    der Tod aus Ue<g ref="#typoHyphen"/>
+                    <lb break="no"/>berreizung nahe ist, verschwinden die <choice>
                         <abbr>Pulsat.</abbr>
                         <expan>Pulsationen</expan>
                     </choice> ganz.</p>

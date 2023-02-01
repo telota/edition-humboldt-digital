@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016798">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Russisch-Kaiserliche Mineralogische Gesellschaft</title>
             </titleStmt>
+            <editionStmt>
+                <p>Russisch-Kaiserliche Mineralogische Gesellschaft [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016798.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016798.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016798.xml">
-                    <p>Russisch-Kaiserliche Mineralogische Gesellschaft [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016798.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0016798">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/254613-9</idno>
                     <orgName type="reg">Russisch-Kaiserliche Mineralogische Gesellschaft</orgName>
                     <orgName type="alt"> Imperatorskoe Mineralogičeskoe Obščestvo </orgName>
@@ -38,7 +43,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/498817</idno>
-                            <settlement key="H0008236">Sankt Petersburg [Санкт-Петербу́рг]</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0008236">Sankt Petersburg [Санкт-Петербу́рг]</settlement>
                         </address>
                     </location>
                 </org>

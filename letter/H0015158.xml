@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015158">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,37 +29,53 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach September
+                    1828, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015158">https://edition-humboldt.de/v8/H0015158</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015158</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015158</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015158.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach September
-                    1828. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015158</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1828-09-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 </correspAction>
-                <note>Die Datierung richtet sich nach der Erwähnung von <persName ref="http://d-nb.info/gnd/118674455">Robert Browns</persName> Artikel "A Brief Account of Microscopical
-                    Observations", der im September 1828 erschien (<bibl corresp="https://edition-humboldt.de/v8/RIUKP4EA">Brown 1828</bibl>).</note>
+                <note>Die Datierung richtet sich nach der Erwähnung von <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Robert Browns</persName> Artikel "A Brief Account of Microscopical
+                    Observations", der im September 1828 erschien (<bibl corresp="https://edition-humboldt.de/RIUKP4EA">Brown 1828</bibl>).</note>
             </correspDesc>
         </profileDesc>
     </teiHeader>
@@ -78,9 +94,9 @@
                             <orig>a</orig>
                             <reg>à</reg>
                         </choice>
-                        <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                         <lb/>
-                        <bibl corresp="https://edition-humboldt.de/v8/RIUKP4EA">
+                        <bibl corresp="https://edition-humboldt.de/RIUKP4EA">
                             <choice>
                                 <orig>le</orig>
                                 <reg>les</reg>
@@ -88,11 +104,11 @@
                             <choice>
                                 <orig>Molecules</orig>
                                 <reg>Molécules</reg>
-                            </choice> de <persName ref="http://d-nb.info/gnd/118674455">Brown</persName>
+                            </choice> de <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Brown</persName>
                         </bibl> et ce que
                         l’on<lb/>en dit</note>
                 </p>
-                <p>Je Vous supplie cher <lb/>ami, de commander <lb/>chez <persName ref="http://d-nb.info/gnd/117659487">Chevalier</persName> un <lb/>
+                <p>Je Vous supplie cher <lb/>ami, de commander <lb/>chez <persName ref="https://editon-humboldt.de/H0013031 http://d-nb.info/gnd/117659487">Chevalier</persName> un <lb/>
                     <hi rendition="#u">microscope</hi> semblable
                     <lb/>aux derniers qu’il <lb/>a <choice>
                         <sic>envoyé</sic>
@@ -106,17 +122,17 @@
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/104268190">
+                    <persName ref="https://editon-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">
                         <hi rendition="#u">Link</hi>
                     </persName>. <note hand="#author" place="left">
                         <hi rendition="#uu">
-                            <persName ref="http://d-nb.info/gnd/104268190">Link</persName>
+                            <persName ref="https://editon-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">Link</persName>
                         </hi>
                     </note> Faites <lb/>le payer <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116918241">Leo</persName> mais <lb/>
+                    <persName ref="https://editon-humboldt.de/H0004453 http://d-nb.info/gnd/116918241">Leo</persName> mais <lb/>
                     <choice>
                         <sic>recommander</sic>
                         <corr cert="high">recommandez</corr>
@@ -129,7 +145,7 @@
                         <orig>pieces</orig>
                         <reg>pièces</reg>
                     </choice> soyent moins <lb/>mauvaisses. Observez <lb/>l’effet de ma lettre
-                    <lb/>sur <persName ref="http://d-nb.info/gnd/118779249">Legendre</persName>
+                    <lb/>sur <persName ref="https://editon-humboldt.de/H0004414 http://d-nb.info/gnd/118779249">Legendre</persName>
                     <supplied cert="high">.</supplied> Je Vous <lb/>embrasse tendrement<supplied cert="high">.</supplied>
                 </p>
                <closer>

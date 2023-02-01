@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018925">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Solomirskij, Pavel Dmitrievič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Solomirskij, Pavel Dmitrievič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018925.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018925.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018925.xml">
-                    <p>Solomirskij, Pavel Dmitrievič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018925.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0018925">
+                <person>
                     <persName type="reg">
                         <surname>Solomirskij</surname>
                         <forename>Pavel Dmitrievič</forename>
@@ -47,8 +52,8 @@
                     </persName>
                     <birth>1801</birth>
                     <death>1861</death>
-                    <note>russ. Unternehmer; Besitzer des Kupferschmelzwerks <placeName key="H0008343">Polevskoj</placeName> im Bergbaudistrikt Sysert südwestlich von <placeName key="H0005599">Jekaterinburg</placeName>; Enkel von Aleksej Fëdorovič Turčaninov [?]
-                        <!-- alternative Lebensdaten 1798-1870, evtl. andere Person gleichen Namens? Muss von jemandem mit Russischkenntnissen geprüft werden! Vermutlich Sohn von Natalja Koltkovska (Наталья Алексеевна Колтовская) (FS, 23.04.2020) -->
+                    <note>russ. Unternehmer; Besitzer des Kupferschmelzwerks <placeName ref="https://editon-humboldt.de/H0008343 https://www.geonames.org/1494573">Polevskoj</placeName> im Bergbaudistrikt Sysert südwestlich von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>; Enkel von Aleksej Fëdorovič Turčaninov [?]
+                        
                     </note>
                 </person>
             </listPerson>

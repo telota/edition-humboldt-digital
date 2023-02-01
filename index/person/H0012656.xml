@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0012656">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Anžu, Pëtr Fëdorovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Anžu, Pëtr Fëdorovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0012656.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0012656.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0012656.xml">
-                    <p>Anžu, Pëtr Fëdorovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0012656.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0012656">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/43260467</idno>
                     <persName type="reg">
                         <surname>Anžu</surname>
@@ -58,11 +63,11 @@
                     <birth>1796</birth>
                     <death>1869</death>
                     <note>Russischer Marineoffizier und Polarforscher; 1820-1824 Mitglied der russ.
-                        Expedition nach Nordost-<placeName key="H0010218">Sibirien</placeName>;
-                        1825/1826 Teilnehmer der von <persName key="H0003261">Friedrich Wilhelm
+                        Expedition nach Nordost-<placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibirien</placeName>;
+                        1825/1826 Teilnehmer der von <persName ref="https://editon-humboldt.de/H0003261 http://d-nb.info/gnd/117586714">Friedrich Wilhelm
                             Rembert von Berg</persName> geleiteten topographischen Expedion des
-                        russ. Militärs vom <placeName key="H0000384">Kaspischen Meer</placeName>
-                        durch die Kirgisensteppe zum <placeName key="H0002514">Aralsee</placeName>;
+                        russ. Militärs vom <placeName ref="https://editon-humboldt.de/H0000384 https://www.geonames.org/630671">Kaspischen Meer</placeName>
+                        durch die Kirgisensteppe zum <placeName ref="https://editon-humboldt.de/H0002514 https://www.geonames.org/1526250">Aralsee</placeName>;
                         1828 Heirat mit Xenia Iwanowa Loginowa; 1854 Vize-Admiral, 1866 Admiral. </note>
                     <linkGrp>
                         <ptr target="30#272" type="page"/>

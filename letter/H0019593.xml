@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019593">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,30 +29,49 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Otto Schomburgk an Alexander von Humboldt. Brieffragment mit Pflanzenliste.
+                    Berlin, 10. Januar 1849, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019593">https://edition-humboldt.de/v8/H0019593</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019593</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019593</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019593.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Otto Schomburgk an Alexander von Humboldt. Brieffragment mit Pflanzenliste.
-                    Berlin, 10. Januar 1849. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019593</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz,
+                            Berlin</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Nachl. Alexander von Humboldt, gr. Kasten 12, Nr. 99a, Bl. 1r–1v<idno type="uri">https://kalliope-verbund.info/DE-611-HS-1447585</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1849-01-10" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -67,7 +86,7 @@
                 <list>
                     <item>
                         <name type="plant">Cunninghamia sinensis</name>
-                        <persName ref="http://d-nb.info/gnd/118674455">
+                        <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">
                             <choice>
                                 <abbr>Rob.</abbr>
                                 <expan>Robert</expan>
@@ -76,12 +95,12 @@
                                 <abbr>Br.</abbr>
                                 <expan>Brown</expan>
                             </choice>
-                        </persName>, <placeName ref="https://www.geonames.org/1814991">China</placeName>,
+                        </persName>, <placeName ref="https://editon-humboldt.de/H0007396 https://www.geonames.org/1814991">China</placeName>,
                         erreicht eine Höhe von <measure quantity="180" unit="foot">180
                         Fuß</measure>.</item>
                     <item>
                         <name type="plant">Araucaria excelsa</name>
-                        <persName ref="http://d-nb.info/gnd/118674455">
+                        <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">
                             <choice>
                                 <abbr>Rob.</abbr>
                                 <expan>Robert</expan>
@@ -90,25 +109,25 @@
                                 <abbr>Br.</abbr>
                                 <expan>Brown</expan>
                             </choice>
-                        </persName>, <placeName ref="https://www.geonames.org/2077456">Australien</placeName>
-                            (<placeName ref="https://www.geonames.org/7839376">Moreton-bay</placeName>), eine Höhe von
+                        </persName>, <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australien</placeName>
+                            (<placeName ref="https://editon-humboldt.de/H0019940 https://www.geonames.org/7839376">Moreton-bay</placeName>), eine Höhe von
                             <hi rendition="#uu" hand="#addressee">
                             <measure quantity="160" unit="foot">160</measure>–<measure quantity="200" unit="foot">200</measure>
                         </hi> Fuß.</item>
                     <item>
                         <name type="plant">Araucaria Cunninghamii</name>
-                        <persName ref="http://d-nb.info/gnd/100005063">
+                        <persName ref="https://editon-humboldt.de/H0012549 http://d-nb.info/gnd/100005063">
                             <choice>
                                 <abbr>Ait.</abbr>
                                 <expan>Aiton</expan>
                             </choice>
-                        </persName>, <placeName ref="https://www.geonames.org/2077456">Australien</placeName>
-                            (<placeName ref="https://www.geonames.org/7839376">Moreton-bay</placeName>), eine Höhe von
+                        </persName>, <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australien</placeName>
+                            (<placeName ref="https://editon-humboldt.de/H0019940 https://www.geonames.org/7839376">Moreton-bay</placeName>), eine Höhe von
                             <measure quantity="200" unit="foot">
                             <hi rendition="#u" hand="#addressee">200</hi> Fuß</measure>.</item>
                     <item>
                         <name type="plant">Podocarpus cupressinus</name>
-                        <persName ref="http://d-nb.info/gnd/118674455">
+                        <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">
                             <choice>
                                 <abbr>Rob.</abbr>
                                 <expan>Robert</expan>
@@ -117,7 +136,7 @@
                                 <abbr>Br.</abbr>
                                 <expan>Brown</expan>
                             </choice>
-                        </persName>, <placeName ref="https://www.geonames.org/1642673">Java</placeName>, eine
+                        </persName>, <placeName ref="https://editon-humboldt.de/H0006568 https://www.geonames.org/1642673">Java</placeName>, eine
                         Höhe von <measure quantity="180" unit="foot">180 Fuß</measure>.</item>
                     <item>
                         <name type="plant">Podocarpus <choice>
@@ -125,7 +144,7 @@
                                 <reg>dacrydioides</reg>
                             </choice>
                         </name>
-                        <persName ref="http://d-nb.info/gnd/116505575">
+                        <persName ref="https://editon-humboldt.de/H0016229 http://d-nb.info/gnd/116505575">
                             <choice>
                                 <abbr>A.</abbr>
                                 <expan>Achille</expan>
@@ -134,17 +153,17 @@
                                 <abbr>Rich.</abbr>
                                 <expan>Richard</expan>
                             </choice>
-                        </persName>, <placeName ref="https://www.geonames.org/2186224">Neuseeland</placeName>,
+                        </persName>, <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">Neuseeland</placeName>,
                         eine Höhe von <measure quantity="200" unit="foot">200 Fuß</measure>.</item>
                     <item>
                         <name type="plant">Dacrydium excelsum</name>
-                        <persName ref="http://d-nb.info/gnd/116758120">Cunningham</persName>, <placeName ref="https://www.geonames.org/2186224">Neuseeland</placeName>, eine Höhe von <measure quantity="130" unit="foot">130 Fuß</measure>.</item>
+                        <persName ref="https://editon-humboldt.de/H0013268 http://d-nb.info/gnd/116758120">Cunningham</persName>, <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">Neuseeland</placeName>, eine Höhe von <measure quantity="130" unit="foot">130 Fuß</measure>.</item>
                     <item>
                         <name type="plant">Dacrydium cupressinum</name>
-                        <persName ref="http://d-nb.info/gnd/117637521">Solander</persName>, <placeName ref="https://www.geonames.org/2186224">Neuseeland</placeName>, eine Höhe von <measure quantity="200" unit="foot">200 Fuß</measure>.</item>
+                        <persName ref="https://editon-humboldt.de/H0015932 http://d-nb.info/gnd/117637521">Solander</persName>, <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">Neuseeland</placeName>, eine Höhe von <measure quantity="200" unit="foot">200 Fuß</measure>.</item>
                     <item>
                         <name type="plant">Knightia excelsa</name>
-                        <persName ref="http://d-nb.info/gnd/118674455">
+                        <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">
                             <choice>
                                 <abbr>Rob.</abbr>
                                 <expan>Robert</expan>
@@ -153,30 +172,30 @@
                                 <abbr>Br.</abbr>
                                 <expan>Brown</expan>
                             </choice>
-                        </persName>, <placeName ref="https://www.geonames.org/2186224">Neuseeland</placeName>,
+                        </persName>, <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">Neuseeland</placeName>,
                         eine Höhe von <measure quantity="80" unit="foot">80 Fuß</measure> der Stamm
                         bis zur <lb/>Abzweigung der Aeste.</item>
                     <item>
                         <name type="plant">Dammara australis</name>
-                        <persName ref="http://d-nb.info/gnd/116652292">
+                        <persName ref="https://editon-humboldt.de/H0004278 http://d-nb.info/gnd/116652292">
                             <choice>
                                 <abbr>Lamb.</abbr>
                                 <expan>Lambert</expan>
                             </choice>
-                        </persName>, <placeName ref="https://www.geonames.org/2186224">Neuseeland</placeName>,
+                        </persName>, <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">Neuseeland</placeName>,
                         eine Höhe von <measure quantity="80" unit="foot">80</measure>–<measure quantity="140" unit="foot">140 Fuß</measure>.</item>
                 </list>
                 <pb n="1v"/>
                 <gap reason="lost" unit="lines" quantity="0"/>
                 <closer>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> den <date>10<hi rendition="#sup">
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> den <date>10<hi rendition="#sup">
                                 <hi rendition="#u">ten</hi>
                             </hi> Januar
                             1849.</date>
                     </dateline>
                     <signed>
-                        <persName ref="http://d-nb.info/gnd/116911921">Otto Schomburgk</persName>
+                        <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto Schomburgk</persName>
                     </signed>
                 </closer>
             </div>

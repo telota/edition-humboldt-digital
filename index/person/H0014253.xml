@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014253">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Mociño, José Mariano</title>
             </titleStmt>
+            <editionStmt>
+                <p>Mociño, José Mariano [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0014253.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014253.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0014253.xml">
-                    <p>Mociño, José Mariano [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0014253.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0014253">
+                <person>
                     <persName type="reg">
                         <surname>Mociño</surname>
                         <forename>José Mariano</forename>
@@ -37,7 +42,7 @@
                     <birth>1757</birth>
                     <death>1819</death>
                     <note>mexikanischer Botaniker, Zoologe und Mediziner, 1789 Mitglied der
-                        „Expedición Botánica“ in Mexico, 1809 Direktor des <orgName key="H0000574">Gabinete de Historia Natural</orgName>, wo er zoologische Vorlesungen
+                        „Expedición Botánica“ in Mexico, 1809 Direktor des <orgName ref="https://editon-humboldt.de/H0000574 http://d-nb.info/gnd/4334546-3">Gabinete de Historia Natural</orgName>, wo er zoologische Vorlesungen
                         hielt; später Präsident der Medizinischen Akademie in Madrid</note>
                 </person>
             </listPerson>

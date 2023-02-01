@@ -1,43 +1,60 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002733">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 12. Juli 1835] </title>
                 <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 12. Juli 1835] , hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002733">https://edition-humboldt.de/v8/H0002733</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002733</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002733</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002733.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 12. Juli 1835] . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002733</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1835-01-01" notAfter="1835-07-12" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
                         (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
                 <note>Zur Datierung: Die Anfrage zur geographischen Verbreitung der Pflanzen an den
                     Atlantikküsten Afrikas und Südamerikas bezieht sich auf Recherchen zum Examen
-                    critique (<bibl corresp="https://edition-humboldt.de/v8/EWHAUTU9">Oktav-Ausgabe</bibl>, 2, 77–78).
+                    critique (<bibl corresp="https://edition-humboldt.de/EWHAUTU9">Oktav-Ausgabe</bibl>, 2, 77–78).
                     Der Druck der Folio-Ausgabe dieses Werkes war spätestens am 12. Juli 1835
-                    beendet (vgl. <bibl corresp="https://edition-humboldt.de/v8/384RP7BM">Fiedler/Leitner 2000</bibl>,
+                    beendet (vgl. <bibl corresp="https://edition-humboldt.de/384RP7BM">Fiedler/Leitner 2000</bibl>,
                     162). </note>
             </correspDesc>
         </profileDesc>
@@ -56,9 +73,9 @@
                         <expan>Monsieur</expan>
                     </choice> Kunth</p>
                 <p>Je vous supplie de
-                    <lb/>disposer aussi de <ref xml:id="d4158dd8-8912-4ca4-958d-d889126ca4cf" corresp="#f9b3b88c-a007-488b-b3b8-8ca007888b0c">mon <lb/>exemplaire</ref>
-                    <note xml:id="f9b3b88c-a007-488b-b3b8-8ca007888b0c" corresp="#d4158dd8-8912-4ca4-958d-d889126ca4cf">
-                        <bibl corresp="https://edition-humboldt.de/v8/KG4X57GQ">Brown
+                    <lb/>disposer aussi de <ref xml:id="e57a6ad1-d736-47ac-ba6a-d1d73627ac6d" corresp="#f0d8fb1c-6abc-40cd-98fb-1c6abc00cd0e">mon <lb/>exemplaire</ref>
+                    <note xml:id="f0d8fb1c-6abc-40cd-98fb-1c6abc00cd0e" corresp="#e57a6ad1-d736-47ac-ba6a-d1d73627ac6d">
+                        <bibl corresp="https://edition-humboldt.de/KG4X57GQ">Brown
                                 1818</bibl>.</note>, car les mots <lb/>sur la distribution <lb/>
                     <choice>
                         <orig>geographique</orig>
@@ -75,14 +92,14 @@
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/117241814">Adrien</persName>
+                    <persName ref="https://editon-humboldt.de/H0004221 http://d-nb.info/gnd/117241814">Adrien</persName>
                     <lb/>
-                    <ref xml:id="bbe16b00-0ae9-4e55-a16b-000ae90e55a3" corresp="#cc6cbacf-16e7-4eea-acba-cf16e78eea4a">Vous seriez aimable de <lb/>le prier de me procurer <lb/>par <choice>
+                    <ref xml:id="cde28d94-fb34-4e5a-a28d-94fb343e5a56" corresp="#c56effbd-e760-4101-aeff-bde7604101df">Vous seriez aimable de <lb/>le prier de me procurer <lb/>par <choice>
                                 <abbr>Mr</abbr>
                                 <expan>Monsieur</expan>
                             </choice>
-                            <persName ref="http://d-nb.info/gnd/117698946">Perrotet</persName> une <lb/>liste des plantes
-                            connues <lb/>au <placeName ref="https://www.geonames.org/2245662">
+                            <persName ref="https://editon-humboldt.de/H0001885 http://d-nb.info/gnd/117698946">Perrotet</persName> une <lb/>liste des plantes
+                            connues <lb/>au <placeName ref="https://editon-humboldt.de/H0010198 https://www.geonames.org/2245662">
                                 <choice>
                                     <orig>Senegal</orig>
                                     <reg>Sénégal</reg>
@@ -91,8 +108,8 @@
                                 <orig>a</orig>
                                 <reg>à</reg>
                             </choice>
-                            <lb/>la <placeName ref="https://www.geonames.org/3378535">Guyane</placeName> ou <lb/>
-                            <placeName ref="https://www.geonames.org/3469034">
+                            <lb/>la <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">Guyane</placeName> ou <lb/>
+                            <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">
                                 <choice>
                                     <orig>Bresil</orig>
                                     <reg> Brésil</reg>
@@ -103,8 +120,8 @@
                                 <expan>page</expan>
                             </choice> 59<supplied cert="high">.</supplied>
                         </ref>
-                    <note xml:id="cc6cbacf-16e7-4eea-acba-cf16e78eea4a" corresp="#bbe16b00-0ae9-4e55-a16b-000ae90e55a3">Vgl. <bibl corresp="https://edition-humboldt.de/v8/KG4X57GQ">Brown
-                                1818</bibl>, <bibl corresp="https://edition-humboldt.de/v8/4BIT4BGM">Guillemin/Perrottet/Richard 1830–1833</bibl> sowie <bibl corresp="https://edition-humboldt.de/v8/EWHAUTU9">Humboldt 1836–1839</bibl>, II,
+                    <note xml:id="c56effbd-e760-4101-aeff-bde7604101df" corresp="#cde28d94-fb34-4e5a-a28d-94fb343e5a56">Vgl. <bibl corresp="https://edition-humboldt.de/KG4X57GQ">Brown
+                                1818</bibl>, <bibl corresp="https://edition-humboldt.de/4BIT4BGM">Guillemin/Perrottet/Richard 1830–1833</bibl> sowie <bibl corresp="https://edition-humboldt.de/EWHAUTU9">Humboldt 1836–1839</bibl>, II,
                             77–78.</note>
                 </p> <closer>
                     <salute>Amitiés</salute>

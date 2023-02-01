@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016590">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [November
+               1848] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016590">https://edition-humboldt.de/v8/H0016590</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016590</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016590</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016590.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [November
-               1848] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016590</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">181</idno>
+                     <idno type="shelfmark">421, Bl. 326r</idno>, 327v </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1848-11" notAfter="1848-11">1848-11-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. E.s Brief v. 23.11.1848</note>
          </correspDesc>
@@ -76,9 +93,9 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Ich habe in meinem <ref xml:id="bd5eaa9e-4ece-404e-9eaa-9e4ecee04e23" corresp="#d4cff34c-03d9-4053-8ff3-4c03d96053cd">Kosmos</ref>
-                    <note xml:id="d4cff34c-03d9-4053-8ff3-4c03d96053cd" corresp="#bd5eaa9e-4ece-404e-9eaa-9e4ecee04e23">
-                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>
+            <p>Ich habe in meinem <ref xml:id="c73a4f91-97a5-4ca5-ba4f-9197a52ca5d7" corresp="#e74180ca-dea8-420d-8180-cadea8020d86">Kosmos</ref>
+                    <note xml:id="e74180ca-dea8-420d-8180-cadea8020d86" corresp="#c73a4f91-97a5-4ca5-ba4f-9197a52ca5d7">
+                     <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862</bibl>
                   </note> wirklich ganz <lb/>richtig 40000 Millionen gesagt. Ruhig <lb/>nachrechnend
                finde ich nach Formel
                    <lb/> <hi rendition="#c">288³×1728</hi>
@@ -88,12 +105,12 @@
                </choice> 42550 Millionen <lb/>durch <choice>
                   <abbr>logar.</abbr>
                   <expan>logarithmisches</expan>
-               </choice> mit Weglassung von Deci<lb/>malstellen 41370 <choice>
+               </choice> mit Weglassung von Deci<lb break="no"/>malstellen 41370 <choice>
                   <abbr>Mill.</abbr>
                   <expan>Millionen</expan>
                </choice> also sind Ihre <lb/>Schäzungen, theurer Freund, ganz richtig<supplied cert="high">.</supplied>
-                    <ref xml:id="d54a9a57-bac1-4440-8a9a-57bac1b440bd" corresp="#a576af92-9c79-4dab-b6af-929c795dab1b"/>
-                    <note xml:id="a576af92-9c79-4dab-b6af-929c795dab1b" corresp="#d54a9a57-bac1-4440-8a9a-57bac1b440bd">vgl. <ref target="H0016515">Nr. 265 E3</ref>
+                    <ref xml:id="c7ad7881-716e-45f9-ad78-81716ea5f90b" corresp="#e19e1e46-df37-40b1-9e1e-46df3710b1ca"/>
+                    <note xml:id="e19e1e46-df37-40b1-9e1e-46df3710b1ca" corresp="#c7ad7881-716e-45f9-ad78-81716ea5f90b">vgl. <ref target="https://edition-humboldt.de/H0016515">Nr. 265 E3</ref>
                     </note>
             </p>
               <closer rend="paragraph">

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002995">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -19,33 +19,41 @@
                         </resp>
                     </respStmt>
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (26. September 1829) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002995">https://edition-humboldt.de/v8/H0002995</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002995</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002995</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002995.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1829. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0002995</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-                <change when="2020-12-01" resp="#FS"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p>H. reist morgens von <placeName ref="https://www.geonames.org/515003">Orenburg</placeName> mit dem Ziel <placeName ref="https://www.geonames.org/580497">Astrachan</placeName> ab. <persName ref="http://viaf.org/viaf/5696261">Ernst Reinhold
-                        Hofmann</persName> und <persName ref="http://d-nb.info/gnd/116691174">Gregor von Helmersen</persName>, die ihn seit
-                    dem Aufenthalt in <placeName ref="https://www.geonames.org/1498894">Miass</placeName> Anfang September begleiten, verlassen
-                    die Reisegesellschaft. H. fährt am rechten Ufer des <placeName ref="https://www.geonames.org/478869">Ural</placeName> nach
-                    Westen und gelangt über <placeName ref="https://www.geonames.org/568764">Černorečenskoe</placeName> nach <placeName ref="https://www.geonames.org/521069">Nižne Ozernyja</placeName>. In der Nacht setzt er die Reise fort.</p>
+                <p>H. reist morgens von <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburg</placeName> mit dem Ziel <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName> ab. <persName ref="https://editon-humboldt.de/H0011946 http://viaf.org/viaf/5696261">Ernst Reinhold
+                        Hofmann</persName> und <persName ref="https://editon-humboldt.de/H0011769 http://d-nb.info/gnd/116691174">Gregor von Helmersen</persName>, die ihn seit
+                    dem Aufenthalt in <placeName ref="https://editon-humboldt.de/H0008855 https://www.geonames.org/1498894">Miass</placeName> Anfang September begleiten, verlassen
+                    die Reisegesellschaft. H. fährt am rechten Ufer des <placeName ref="https://editon-humboldt.de/H0009660 https://www.geonames.org/478869">Ural</placeName> nach
+                    Westen und gelangt über <placeName ref="https://editon-humboldt.de/H0019495 https://www.geonames.org/568764">Černorečenskoe</placeName> nach <placeName ref="https://editon-humboldt.de/H0018081 https://www.geonames.org/521069">Nižne Ozernyja</placeName>. In der Nacht setzt er die Reise fort.</p>
             </body>
         </text>
     </TEI>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017196">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Golf von Darién</title>
             </titleStmt>
+            <editionStmt>
+                <p>Golf von Darién [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017196.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,25 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017196.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017196.xml">
-                    <p>Golf von Darién [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017196.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017196">
+                <place>
                     <placeName type="reg">Golf von Darién</placeName>
                     <placeName type="alt">Golfo de Darién</placeName>
-                    <?oxy_comment_start author="goehmann" timestamp="20180129T165637+0100" comment="könnte das  
-Golfo de San Miguel
-
-sein? ist in der Region Darién aim Osten
-
-https://www.geonames.org/3701338/golfo-de-san-miguel.html"?>
-                    <note><?oxy_comment_end?>östlich von Panama</note>
+                    
+                    <note>östlich von Panama</note>
                     <linkGrp>
                         <ptr target="16#43" type="letter"/>
                         <ptr target="16#55" type="letter"/>

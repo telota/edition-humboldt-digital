@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000178">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Forster, Johann Reinhold</title>
             </titleStmt>
+            <editionStmt>
+                <p>Forster, Johann Reinhold [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000178.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000178.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000178.xml">
-                    <p>Forster, Johann Reinhold [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000178.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0000178">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118534432</idno>
                     <persName type="reg">
                         <surname>Forster</surname>
@@ -37,8 +42,8 @@
                     </persName>
                     <birth>1729</birth>
                     <death>1798</death>
-                    <note>Forschungsreisender, Naturwissenschaftler und Ethnologe; Vater <persName key="H0000177">Georg Forsters</persName>; 1765 in <placeName key="H0010689">Russland</placeName>, 1766–1780 in England; 1772–1775
-                        Teilnahme an der zweiten Weltumseglung <persName key="H0013159">Cooks</persName>; 1780 Professor für Naturgeschichte in Halle</note>
+                    <note>Forschungsreisender, Naturwissenschaftler und Ethnologe; Vater <persName ref="https://editon-humboldt.de/H0000177 http://d-nb.info/gnd/118534416">Georg Forsters</persName>; 1765 in <placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>, 1766–1780 in England; 1772–1775
+                        Teilnahme an der zweiten Weltumseglung <persName ref="https://editon-humboldt.de/H0013159 http://d-nb.info/gnd/118522027">Cooks</persName>; 1780 Professor für Naturgeschichte in Halle</note>
                     <linkGrp>
                         <ptr subtype="sentFrom" target="02#55" type="letter"/>
                         <ptr subtype="sentFrom" target="02#61" type="letter"/>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016624">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [April 1855] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016624">https://edition-humboldt.de/v8/H0016624</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016624</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016624</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016624.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [April 1855] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016624</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">216</idno>
+                     <idno type="shelfmark">421, Bl. 396r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1855-04" notAfter="1855-04">1855-04-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: G.L. Duvernoy starb am 1.3.1855; Ch. Lyell war seit 26.7.1855
                Korrespondierendes Mitglied der Akademie</note>
@@ -65,27 +83,30 @@
             <pb n="1r"/>
             <p>
                     <add place="intralinear">
-                        <persName ref="http://d-nb.info/gnd/119156679">Flourens</persName>,</add>
-               <persName ref="http://d-nb.info/gnd/118677578">Cuvier’s</persName> Nachfolger im Secretariat des
+                        <persName ref="https://editon-humboldt.de/H0000151 http://d-nb.info/gnd/119156679">Flourens</persName>,</add>
+               <persName ref="https://editon-humboldt.de/H0013277 http://d-nb.info/gnd/118677578">Cuvier’s</persName> Nachfolger im Secretariat des
                   Instituts<supplied cert="high">,</supplied>
                <lb/>Mitglied fast aller Akademien, auch seit <lb/>
                     <add place="intralinear">1835</add> der Royal <choice>
                   <abbr>Soc.</abbr>
                   <expan>Society</expan>
-               </choice> in <placeName ref="https://www.geonames.org/2643743">London</placeName>, ist so un-<lb/>glüklich, dass er nicht <choice>
+               </choice> in <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>, ist so un<g ref="#typoHyphen"/>
+                    <lb break="no"/>glüklich, dass er nicht <choice>
                   <abbr>Corresp.</abbr>
                   <expan>Correspondent</expan>
                </choice> unserer <lb/>
                     <choice>
                   <abbr>Akad.</abbr>
                   <expan>Akademie</expan>
-               </choice> ist, dass er seit <persName ref="http://d-nb.info/gnd/115769307">Duvernoy’s</persName> Tod
+               </choice> ist, dass er seit <persName ref="https://editon-humboldt.de/H0017054 http://d-nb.info/gnd/115769307">Duvernoy’s</persName> Tod
                <lb/>mir deshalb hat eiligst schreiben <lb/>lassen. Machen Sie ja, theurer Freund
-               <lb/>dass er eine gute Stelle auf der Wahl-<lb/>liste
+               <lb/>dass er eine gute Stelle auf der Wahl<g ref="#typoHyphen"/>
+                    <lb break="no"/>liste
                erhält, obgleich die Anwesenheit <lb/>des <hi rendition="#u">Gehörnten</hi> (Sir
-               Charles <persName ref="http://d-nb.info/gnd/118575538">Lyell</persName>) und die <lb/>grosse Anzahl
+               Charles <persName ref="https://editon-humboldt.de/H0004701 http://d-nb.info/gnd/118575538">Lyell</persName>) und die <lb/>grosse Anzahl
                Stimmen, die er für meinen <lb/>Orden gehabt, mir die sonst sehr <lb/>nothwendige
-               Wahl von <persName ref="http://d-nb.info/gnd/119156679">Flourens</persName> wahr-<lb/>scheinlich machen. Alea jacta ... </p>
+               Wahl von <persName ref="https://editon-humboldt.de/H0000151 http://d-nb.info/gnd/119156679">Flourens</persName> wahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlich machen. Alea jacta ... </p>
             <closer rend="paragraph">
                <salute>Mit alter Treue <lb/>Ihr</salute>
                <signed>AlHumboldt</signed>

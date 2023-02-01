@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019729">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,29 +20,57 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin], Sonnabend, [11. Februar 1854?], hg. v. Ulrich Päßler unter Mitarbeit von Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019729">https://edition-humboldt.de/v8/H0019729</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019729</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019729</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019729.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin], Sonnabend, [11. Februar 1854?]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019729</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>
+                            <idno>Autogr. I/530-9</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051310</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert
+                        1952</bibl>, 25.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 27.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1854-02-11" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -51,35 +79,36 @@
         <body>
             <div type="writingSession">
 				<pb n="1r"/>
-                <p>Das Ueberziehen des <persName ref="http://d-nb.info/gnd/118535994">Königs</persName> von <placeName ref="https://www.geonames.org/2940187">Charlottenburg</placeName>
+                <p>Das Ueberziehen des <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Königs</persName> von <placeName ref="https://editon-humboldt.de/H0007341 https://www.geonames.org/2940187">Charlottenburg</placeName>
                     <lb/>nach <subst>
                         <del rendition="#s">Potsdam</del>
                         <add place="intralinear">
-                            <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                         </add>
                     </subst>, seine Reise nach <lb/>
-                    <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                     <supplied cert="high">,</supplied> von wo er erst
-                    gestern zurük-<lb/>kam<supplied cert="high">,</supplied> haben ihn gehindert, Sie, theurer <lb/>
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>
+                    gestern zurük<g ref="#typoHyphen"/>
+                    <lb break="no"/>kam<supplied cert="high">,</supplied> haben ihn gehindert, Sie, theurer <lb/>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>
                     <supplied cert="high">,</supplied> früher
                     zu sehen. Er hat noch <lb/>gestern Abend mit vieler Freundlichkeit <lb/>von
                     Ihrer Ankunft gesprochen und <lb/>gesagt<supplied cert="high">,</supplied> er
-                    würde sich und der <persName ref="http://d-nb.info/gnd/118688634">Königin</persName>
+                    würde sich und der <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634">Königin</persName>
                     <lb/>einen angenehmen <supplied cert="low">Nachmittag</supplied> bereiten, <choice>
                         <orig>in dem</orig>
                         <reg>indem</reg>
                     </choice>
                     <lb/>er Sie mit Ihren Schäzen einlade<supplied cert="high">.</supplied>
                     <lb/>Ich glaube, wenn Sie es nicht schon <lb/>gethan haben, Sie sollten drei
-                    <lb/>Zeilen an den Herrn OberstMarschall <lb/>des <persName ref="http://d-nb.info/gnd/118535994">Königs</persName>, Grafen von <subst>
+                    <lb/>Zeilen an den Herrn OberstMarschall <lb/>des <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Königs</persName>, Grafen von <subst>
                         <del rendition="#s">Kol</del>
                         <add place="intralinear">
-                            <persName ref="http://d-nb.info/gnd/111248051X">Keller</persName>
+                            <persName ref="https://editon-humboldt.de/H0001283 http://d-nb.info/gnd/111248051X">Keller</persName>
                         </add>
                     </subst>
                     <lb/>schreiben: </p>
-                <p>Sie wünschten vor Ihrer <lb/>Abreise <persName ref="http://d-nb.info/gnd/118535994">
+                <p>Sie wünschten vor Ihrer <lb/>Abreise <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">
                         <choice>
                             <abbr>Sr</abbr>
                             <expan>Seiner</expan>
@@ -91,11 +120,11 @@
                     <lb/>noch persönlich den Audruk <lb/>Ihres ehrerbietigsten <lb/>
                     <hi rendition="#u">Dankes</hi> darbringen zu <lb/>können. Vergessen Sie nicht
                     <lb/>Ihre <hi rendition="#u">Wohnung</hi> dabei <lb/>anzugeben.</p>
-                <p>Ich bin in grosser Betrübniss <lb/>wegen der <ref xml:id="a1dc2eb3-e6cf-47e2-9c2e-b3e6cf27e281" corresp="#f5305256-22bb-44ed-b052-5622bb44ed82">Todesgefahr, in der <lb/>eine nahe Verwandte schwebt, </ref>
-                    <note xml:id="f5305256-22bb-44ed-b052-5622bb44ed82" corresp="#a1dc2eb3-e6cf-47e2-9c2e-b3e6cf27e281">Humboldts Großnichte <persName ref="http://d-nb.info/gnd/1181808162">Gabriele von Loën</persName> verstarb am 16. Februar 1854 (vgl.
+                <p>Ich bin in grosser Betrübniss <lb/>wegen der <ref xml:id="cdd2a62c-cc1d-4151-92a6-2ccc1d315136" corresp="#fc1a8f84-3220-4d87-9a8f-8432207d87f7">Todesgefahr, in der <lb/>eine nahe Verwandte schwebt, </ref>
+                    <note xml:id="fc1a8f84-3220-4d87-9a8f-8432207d87f7" corresp="#cdd2a62c-cc1d-4151-92a6-2ccc1d315136">Humboldts Großnichte <persName ref="https://editon-humboldt.de/H0004591 http://d-nb.info/gnd/1181808162">Gabriele von Loën</persName> verstarb am 16. Februar 1854 (vgl.
                             Alexander von Humboldt-Chronologie, edition humboldt digital, <ref target="https://edition-humboldt.de/H0005703">https://edition-humboldt.de/H0005703</ref>.</note>
                     <lb/>aber es soll mich doch sehr <lb/>freuen, Sie Montag um 1 Uhr <lb/>mit
-                    den herrlichen Arbeiten <lb/>zu sehen die Sie dem <persName ref="http://d-nb.info/gnd/118535994">König</persName> vorlegen <lb/>wollen<supplied cert="high">.</supplied>
+                    den herrlichen Arbeiten <lb/>zu sehen die Sie dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> vorlegen <lb/>wollen<supplied cert="high">.</supplied>
                 </p>
 				<closer>
                     <salute>Freundschaftlichst</salute>

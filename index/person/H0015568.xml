@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015568">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schleiermacher, Friedrich</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schleiermacher, Friedrich [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015568.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015568.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015568.xml">
-                    <p>Schleiermacher, Friedrich [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015568.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015568">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118608045</idno>
                     <persName type="reg">
                         <surname>Schleiermacher</surname>
@@ -42,10 +47,10 @@
                     <birth>1768</birth>
                     <death>1834</death>
                     <note>deutscher Theologe, Philosoph, Pädagoge, Publizist, Philologe und Übersetzer, 1787-1789
-                        Studium in <placeName key="H0006785">Halle</placeName>, 1796-1802 Prediger an der <placeName key="H0005221">Berlin</placeName>er Charité, befreundet u.a. mit <persName key="H0011838">Henriette Herz</persName> und <persName key="H0015563">Friedrich Schlegel</persName>, ab
+                        Studium in <placeName ref="https://editon-humboldt.de/H0006785 https://www.geonames.org/2911522">Halle</placeName>, 1796-1802 Prediger an der <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>er Charité, befreundet u.a. mit <persName ref="https://editon-humboldt.de/H0011838 http://d-nb.info/gnd/118550152">Henriette Herz</persName> und <persName ref="https://editon-humboldt.de/H0015563 http://d-nb.info/gnd/118607987">Friedrich Schlegel</persName>, ab
                         1804 Universitätsprediger und Theologieprofessor in Halle, ab 1807 in Berlin, 1809 Prediger an
-                        der <placeName key="H0019864">Dreifaltigkeitskirche</placeName>, 1810 Professor an
-                        der <orgName key="H0000603">Berliner Universität</orgName>, Mitglied der <orgName key="H0000569">Akademie der Wissenschaften</orgName> und Berufung ins Kultusministerium durch <persName key="H0012068">Wilhelm von Humboldt</persName>, 1815/1816 Rektor der Universität, 1817
+                        der <placeName ref="https://editon-humboldt.de/H0019864">Dreifaltigkeitskirche</placeName>, 1810 Professor an
+                        der <orgName ref="https://editon-humboldt.de/H0000603 http://d-nb.info/gnd/1220138-8">Berliner Universität</orgName>, Mitglied der <orgName ref="https://editon-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Akademie der Wissenschaften</orgName> und Berufung ins Kultusministerium durch <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm von Humboldt</persName>, 1815/1816 Rektor der Universität, 1817
                         Präses der gemeinsamen Kreissynode</note>
                     <linkGrp>
                         <ptr target="34#20" type="page"/>

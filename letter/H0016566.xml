@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016566">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,53 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 25. Februar 1838, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016566">https://edition-humboldt.de/v8/H0016566</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016566</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016566</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016566.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 25. Februar 1838. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016566</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                     <idno type="shelfmark">gr. Kasten 11, Nr. 85, Bl. 1</idno>
+                     <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1317287</idno>
+                     <idno type="URLImages">http://resolver.staatsbibliothek-berlin.de/SBB0001ABF800000000</idno>
+                     <idno type="URLCatalogue">http://stabikat.de/DB=1/PPN?PPN=832955299</idno>
+                     <idno type="URN"/>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1838-02-25">1838-02-25</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -67,39 +89,40 @@
                      <expan>Februar</expan>
                   </choice> 1838.</dateline>
             </opener>
-            <p>Die Stelle über den rothen Schnee bei <lb/> <persName ref="http://d-nb.info/gnd/118650130">Aristoteles</persName> heißt: <ref xml:id="e5408153-5f3b-421f-8081-535f3b021f6f" corresp="#e351d9e3-066d-4eb1-91d9-e3066d7eb165">
+            <p>Die Stelle über den rothen Schnee bei <lb/> <persName ref="https://editon-humboldt.de/H0012718 http://d-nb.info/gnd/118650130">Aristoteles</persName> heißt: <ref xml:id="d1d313a1-e58d-4c7c-9313-a1e58d9c7ccc" corresp="#b229bcf2-c7ab-4835-a9bc-f2c7ab283513">
                         <foreign xml:lang="grc">Περὶ τὰ ζῷα ἱστορ</foreign>
                         <supplied>
                             <foreign xml:lang="grc">ία</foreign>
                         </supplied>. Ε. 19.</ref>
-                    <note xml:id="e351d9e3-066d-4eb1-91d9-e3066d7eb165" corresp="#e5408153-5f3b-421f-8081-535f3b021f6f">Historia animalum, 552 b 5-7</note>
+                    <note xml:id="b229bcf2-c7ab-4835-a9bc-f2c7ab283513" corresp="#d1d313a1-e58d-4c7c-9313-a1e58d9c7ccc">Historia animalum, 552 b 5-7</note>
                <lb/>
-                    <ref xml:id="a3f2c451-58ee-47f1-b2c4-5158ee67f1bc" corresp="#b36f54ad-67df-44e1-af54-ad67df34e1d1">
+                    <ref xml:id="d134ce9b-a3bf-43b5-b4ce-9ba3bf83b51f" corresp="#af2f38f4-713b-480e-af38-f4713be80e3b">
                         <foreign xml:lang="grc">Καὶ γὰρ ἐν τοῖς δοκοῦσιν ἀσηπτοτάτοις εἶναι
                         <lb/>ἐγγίγνονται ζῷα, οἷον ἐν χιόνι τῇ παλαιᾷ <supplied>σκώληκες.</supplied>
                         <lb/>Γίγνεται δ’ἡ παλαιὰ ἐρυθροτέρ,––</foreign>
                     </ref>
-                    <note xml:id="b36f54ad-67df-44e1-af54-ad67df34e1d1" corresp="#a3f2c451-58ee-47f1-b2c4-5158ee67f1bc">Übertragung: „Denn auch in dem, was am wenigsten zu
+                    <note xml:id="af2f38f4-713b-480e-af38-f4713be80e3b" corresp="#d134ce9b-a3bf-43b5-b4ce-9ba3bf83b51f">Übertragung: „Denn auch in dem, was am wenigsten zu
                      faulen scheint, entstehen Lebewesen, wie in altem Schnee Würmer. Der alte wird
                      röter, …“</note>
                 </p>
             <p>Eine kurze Übersicht der gewaltigen <lb/>Literatur über die Färbungen der Gewässer,
-               <lb/>so weit sie mir bekannt geworden, <lb/>habe ich in beiligender Stelle des <ref xml:id="b2ab7f39-f2dd-4d48-ab7f-39f2dd1d4840" corresp="#dd802eb7-ea00-4cda-802e-b7ea001cda70">In-<lb/>fusorien-Werkes</ref>
-                    <note xml:id="dd802eb7-ea00-4cda-802e-b7ea001cda70" corresp="#b2ab7f39-f2dd-4d48-ab7f-39f2dd1d4840">
-                     <bibl corresp="https://edition-humboldt.de/v8/X7KZUS33">Ehrenberg 1838</bibl>
+               <lb/>so weit sie mir bekannt geworden, <lb/>habe ich in beiligender Stelle des <ref xml:id="a4e00d19-5d5d-479b-a00d-195d5d279b4c" corresp="#d36a6ae7-009b-4efd-aa6a-e7009b4efd32">In<g ref="#typoHyphen"/>
+                        <lb break="no"/>fusorien-Werkes</ref>
+                    <note xml:id="d36a6ae7-009b-4efd-aa6a-e7009b4efd32" corresp="#a4e00d19-5d5d-479b-a00d-195d5d279b4c">
+                     <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>
                   </note> versucht. <note place="left" hand="#addressee">
                         <note xml:id="avhrd1e94">Nur
                      Schneewürmer?</note>
                     </note>
                 </p>
             <p>
-                    <persName ref="http://d-nb.info/gnd/118650130">Aristoteles</persName> hielt, wie man aus dem Ganzen
+                    <persName ref="https://editon-humboldt.de/H0012718 http://d-nb.info/gnd/118650130">Aristoteles</persName> hielt, wie man aus dem Ganzen
                <lb/>sieht, die rothe Färbung nicht selbst für Thiere, <lb/>sondern glaubte, daß
                daraus, wie aus einer <lb/>Fäulniß, sich Thiere durch generatio primaria
                <lb/>entwickelten <add place="intralinear">und</add> diese Thiere sind die großen
                   <lb/>
                     <add place="intralinear">farbigen</add> Schneewürmer (<foreign xml:lang="grc">σκώληκες</foreign>) <name type="animal" key="Telephorus fuscus">Telephorus
-                  fuscus</name> (<name type="animal" key="Cantharis">Cantha<lb/>ris
+                  fuscus</name> (<name type="animal" key="Cantharis">Cantha<lb break="no"/>ris
                   Linné</name>). </p>
             <closer rend="paragraph">
                <salute>In herzlicher Verehrung <lb/>Ihr </salute>

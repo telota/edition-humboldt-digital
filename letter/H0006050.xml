@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006050">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,57 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>George Arnott Walker-Arnott an Alexander von Humboldt. Paris, 15. März
+                    1825, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006050">https://edition-humboldt.de/v8/H0006050</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006050</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006050</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006050.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>George Arnott Walker-Arnott an Alexander von Humboldt. Paris, 15. März
-                    1825. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006050</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 13, Nr. 22, Bl. 3</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1447688</idno>
+                            <idno type="URLCatalogue">http://stabikat.de/DB=1/PPN?PPN=829063978</idno>
+                            <idno type="URLImages">http://resolver.staatsbibliothek-berlin.de/SBB0001A5AC00000007</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/117662933">Walker-Arnott, George Arnott (1799–1869)</persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0006219 http://d-nb.info/gnd/117662933">Walker-Arnott, George Arnott (1799–1869)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <date when="1825-03-15" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 </correspAction>
-                <note>Dieses Begleitschreiben zu George Arnott Walker-Arnotts <ref target="H0000007">Manuskript
+                <note>Dieses Begleitschreiben zu George Arnott Walker-Arnotts <ref target="https://edition-humboldt.de/H0000007">Manuskript
                         zur geographischen Verbreitung der Moose</ref> (Sigle <ref xml:id="ed_pqd_4zb_bbb" type="siglum" target="#Geographie_der_Pflanzen_B">B</ref>) bewahrte Humboldt
                     gemeinsam mit dem Manuskript des Autors auf. </note>
             </correspDesc>
@@ -82,17 +105,17 @@
                     </subst> sketch. <choice>
                         <sic>I</sic>
                         <corr cert="high">The</corr>
-                    </choice> order I follow is <lb/>the same I adopt in a <bibl corresp="https://edition-humboldt.de/v8/VWC7VAVT">Dispositio Muscorum</bibl> I lately
-                    <lb/>transmitted to the <ref xml:id="a1a6e938-9a82-44fe-a6e9-389a8224fe97" corresp="#d0f89246-1549-498c-b892-461549a98cfb">
-                        <orgName ref="http://d-nb.info/gnd/7864271-1">Natural History Society of
+                    </choice> order I follow is <lb/>the same I adopt in a <bibl corresp="https://edition-humboldt.de/VWC7VAVT">Dispositio Muscorum</bibl> I lately
+                    <lb/>transmitted to the <ref xml:id="b27949b2-55b8-429d-b949-b255b8f29d46" corresp="#dc0f64f1-039d-49ee-8f64-f1039d99ee36">
+                        <orgName ref="https://editon-humboldt.de/H0000587 http://d-nb.info/gnd/7864271-1">Natural History Society of
                             Paris</orgName>.</ref>
-                    <note xml:id="d0f89246-1549-498c-b892-461549a98cfb" corresp="#a1a6e938-9a82-44fe-a6e9-389a8224fe97">Walker-Arnott trug seine Nouvelle Disposition
-                            méthodique des espèces de mousses am 18. März 1825 in der <orgName ref="http://d-nb.info/gnd/7864271-1">Société d’Histoire naturelle de Paris</orgName> vor
-                            (vgl. <bibl corresp="https://edition-humboldt.de/v8/VWC7VAVT">Walker-Arnott 1825</bibl>).
+                    <note xml:id="dc0f64f1-039d-49ee-8f64-f1039d99ee36" corresp="#b27949b2-55b8-429d-b949-b255b8f29d46">Walker-Arnott trug seine Nouvelle Disposition
+                            méthodique des espèces de mousses am 18. März 1825 in der <orgName ref="https://editon-humboldt.de/H0000587 http://d-nb.info/gnd/7864271-1">Société d’Histoire naturelle de Paris</orgName> vor
+                            (vgl. <bibl corresp="https://edition-humboldt.de/VWC7VAVT">Walker-Arnott 1825</bibl>).
                             Walker-Arnott war korrespondierendes Mitglied der Gesellschaft.</note>
                     <lb/>Should much be omitted I hope you will excuse <lb/>me, as the greater part
                     is done from memory, being <lb/>very far distant from my own herbarium, and
-                    there <lb/>not being any extensive one in <placeName ref="https://www.geonames.org/2988507">Paris</placeName> so arranged that <lb/>I could at one view perceive the
+                    there <lb/>not being any extensive one in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> so arranged that <lb/>I could at one view perceive the
                     different localities <subst>
                         <del rendition="#s">of</del>
                         <add place="intralinear">
@@ -104,7 +127,7 @@
                         <add place="intralinear">my</add>
                     </subst> not copying it over <metamark/>
                     <add place="superlinear">again</add> for you, as my
-                    time is <lb/>short in <placeName ref="https://www.geonames.org/2988507">Paris</placeName>, and as I have
+                    time is <lb/>short in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>, and as I have
                     much yet to do.</p>
                 <closer>Believe me Sir your<del rendition="#s">s</del> Sincer<subst>
                         <del rendition="#ow">ely</del>

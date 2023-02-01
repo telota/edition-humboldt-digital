@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019302">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Marmorwerk Gornoščitskij</title>
             </titleStmt>
+            <editionStmt>
+                <p>Marmorwerk Gornoščitskij [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019302.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,30 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019302.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019302.xml">
-                    <p>Marmorwerk Gornoščitskij [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019302.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="others" xml:id="H0019302">
+                <place>
                             <placeName type="reg">Marmorwerk Gornoščitskij</placeName>
                             <placeName type="alt">Горнощитский мраморный завод</placeName>
                             <placeName type="alt">Gornoščitskij Mramornyi Zavod</placeName>
                             <placeName type="alt">Marmorwerk Gornoschtschitski</placeName>
                             <placeName type="alt">Gorna Schizkaya Savod</placeName>
-                            <!-- RST, I, 51r -->
+                            
                             <placeName type="alt">Gornoschitsche Brüche</placeName>
-                            <!-- Rose 1837/1842, I, 247 -->
-                            <note>historische Marmorschleiferei südlich von <placeName key="H0005599">Jekaterinburg</placeName>
+                            
+                            <note>historische Marmorschleiferei südlich von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>
                     </note>
                         </place>
             </listPlace>

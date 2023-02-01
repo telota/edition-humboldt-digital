@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016503">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [11. Oktober
+               1848] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016503">https://edition-humboldt.de/v8/H0016503</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016503</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016503</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016503.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [11. Oktober
-               1848] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016503</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">253</idno>
+                     <idno type="shelfmark">421, Bl. 475r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1848-10-11">1848-10-11</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Brief 264</note>
          </correspDesc>
@@ -77,20 +95,20 @@
                   <abbr>Reinh.</abbr>
                   <expan>Reinhold</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118534432">Forster</persName>, der ebenfalls <lb/>das <placeName>Caspische Meer</placeName> besuchte, sagt vom <lb/>
+               <persName ref="https://editon-humboldt.de/H0000178 http://d-nb.info/gnd/118534432">Forster</persName>, der ebenfalls <lb/>das <placeName ref="https://editon-humboldt.de/">Caspische Meer</placeName> besuchte, sagt vom <lb/>
                     <name type="plant" key="Triticum">Triticum</name>
                <choice>
                   <abbr>hab</abbr>
                   <expan>habitat</expan>
-               </choice> Sponte ad <placeName ref="https://www.geonames.org/499099">Samaram</placeName>
+               </choice> Sponte ad <placeName ref="https://editon-humboldt.de/H0009771 https://www.geonames.org/499099">Samaram</placeName>
                     <supplied cert="high">.</supplied>
                <lb/>Ich will gern glauben was wir sahen <lb/>war verwildertes Getreide, doch
-               <lb/>sahen wir dort mehr, als in <placeName ref="https://www.geonames.org/6255148">Europa</placeName>
+               <lb/>sahen wir dort mehr, als in <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName>
                <lb/>wir gewohnt sind zu sehen, <subst>
                   <del rendition="#ow">die</del>
                   <add place="across">wo</add>
                </subst> die´ <lb/>Vögel wohl alles zufällig ausgesaete
-               <lb/>wegfressen. Wir waren in <placeName>Samara</placeName>
+               <lb/>wegfressen. Wir waren in <placeName ref="https://editon-humboldt.de/">Samara</placeName>
                <lb/>zwischen 26 <choice>
                   <abbr>Sept</abbr>
                   <expan>September</expan>
@@ -98,32 +116,32 @@
                4 <choice>
                   <abbr>Oct.</abbr>
                   <expan>October</expan>
-               </choice>  auf dem <lb/>Wege von <placeName ref="https://www.geonames.org/515003">Orenburg</placeName> nach
-                  <placeName ref="https://www.geonames.org/498677">Saratow</placeName>. Sollten Sie <lb/>nicht etwas über
-               den Weizen (ich <lb/>glaube das viele verwilderte Korn <lb/>war <placeName>Triticum</placeName>) aufgeschrieben haben<supplied cert="high">.</supplied>
+               </choice>  auf dem <lb/>Wege von <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburg</placeName> nach
+                  <placeName ref="https://editon-humboldt.de/H0010119 https://www.geonames.org/498677">Saratow</placeName>. Sollten Sie <lb/>nicht etwas über
+               den Weizen (ich <lb/>glaube das viele verwilderte Korn <lb/>war <placeName ref="https://editon-humboldt.de/">Triticum</placeName>) aufgeschrieben haben<supplied cert="high">.</supplied>
                <lb/>Ich halte einen Correcturbogen
                   auf<supplied cert="high">.</supplied>
                <lb/>Sagen Sie mir, theurer Freund, in <lb/>3 Zeilen, welche Eindrücke Ihnen <lb/>die
-               Sache liess<supplied cert="high">.</supplied> Ihre <ref xml:id="a3d095e7-2516-424b-9095-e72516324b6a" corresp="#ac044b48-b6bc-4da4-844b-48b6bccda449">Optica</ref>
-                    <note xml:id="ac044b48-b6bc-4da4-844b-48b6bccda449" corresp="#a3d095e7-2516-424b-9095-e72516324b6a">
-                     <bibl corresp="https://edition-humboldt.de/v8/QBFVNXJG">Ehrenberg 1848b</bibl>
+               Sache liess<supplied cert="high">.</supplied> Ihre <ref xml:id="d1df11a2-8907-48c8-9f11-a2890748c889" corresp="#f7994369-672a-4429-9943-69672aa42975">Optica</ref>
+                    <note xml:id="f7994369-672a-4429-9943-69672aa42975" corresp="#d1df11a2-8907-48c8-9f11-a2890748c889">
+                     <bibl corresp="https://edition-humboldt.de/QBFVNXJG">Ehrenberg 1848b</bibl>
                   </note> habe <lb/>ich seit
                8
-               Tagen mit vieler <lb/>ernster Empfehlung an <persName ref="http://d-nb.info/gnd/118847767">Arago</persName>
-               <lb/>durch seinen jüngsten <persName ref="https://edition-humboldt.de/v8/H0016933">Sohn</persName>, der <lb/>als
-               Maler hier war, nach <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+               Tagen mit vieler <lb/>ernster Empfehlung an <persName ref="https://editon-humboldt.de/H0012670 http://d-nb.info/gnd/118847767">Arago</persName>
+               <lb/>durch seinen jüngsten <persName ref="https://editon-humboldt.de/H0016933">Sohn</persName>, der <lb/>als
+               Maler hier war, nach <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                <lb/>gesandt.
-               <ref xml:id="ecaf40a9-172e-42e1-af40-a9172eb2e148" corresp="#ebd22c46-7723-49bd-922c-467723f9bd5c">
-                        <persName ref="http://d-nb.info/gnd/118522396">Cotta’s</persName> Brief</ref>
-                    <note xml:id="ebd22c46-7723-49bd-922c-467723f9bd5c" corresp="#ecaf40a9-172e-42e1-af40-a9172eb2e148">
-                     <bibl corresp="https://edition-humboldt.de/v8/Z9FLIZBH">Cotta 1848-1860</bibl>
+               <ref xml:id="d75861aa-c83d-4cd7-9861-aac83d5cd737" corresp="#c7f46c21-b46c-4556-b46c-21b46c455653">
+                        <persName ref="https://editon-humboldt.de/H0013204 http://d-nb.info/gnd/118522396">Cotta’s</persName> Brief</ref>
+                    <note xml:id="c7f46c21-b46c-4556-b46c-21b46c455653" corresp="#d75861aa-c83d-4cd7-9861-aac83d5cd737">
+                     <bibl corresp="https://edition-humboldt.de/Z9FLIZBH">Cotta 1848-1860</bibl>
                   </note> scheint <lb/>ein phantastisches Kinderbuch<supplied cert="high">.</supplied>
-               <lb/>Mein <ref xml:id="a4ffdbe0-e673-4a13-bfdb-e0e6733a1398" corresp="#f093b60f-a013-4a44-93b6-0fa013aa44ac">Kosmos</ref>
-                    <note xml:id="f093b60f-a013-4a44-93b6-0fa013aa44ac" corresp="#a4ffdbe0-e673-4a13-bfdb-e0e6733a1398">
-                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>
+               <lb/>Mein <ref xml:id="d43b6180-3b8e-46db-bb61-803b8e56db87" corresp="#e101da81-ddf2-416d-81da-81ddf2b16dd2">Kosmos</ref>
+                    <note xml:id="e101da81-ddf2-416d-81da-81ddf2b16dd2" corresp="#d43b6180-3b8e-46db-bb61-803b8e56db87">
+                     <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862</bibl>
                   </note>, wenn er etwas <lb/>werth ist, hat wenigstens das Gute <lb/>das rein sichere,
                wissenschaftliche <lb/>zu geben. Jezt wird man einen <lb/>neuen Commentar zu
-                  <persName ref="http://d-nb.info/gnd/118522396">Cotta’s</persName> Briefen <lb/>herausgeben –
+                  <persName ref="https://editon-humboldt.de/H0013204 http://d-nb.info/gnd/118522396">Cotta’s</persName> Briefen <lb/>herausgeben –
                Nürnberger Schachteln <lb/>die in einander liegen. </p> <closer>
                     <signed>Ihr <lb/>AlHumboldt</signed>
                 </closer>

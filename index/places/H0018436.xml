@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018436">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Glininoi</title>
             </titleStmt>
+            <editionStmt>
+                <p>Glininoi [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018436.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018436.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018436.xml">
-                    <p>Glininoi [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018436.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018436">
+                <place>
                     <idno type="uri">https://www.geonames.org/609891</idno>
                     <placeName type="reg">Glininoi</placeName>
-                    <!-- Rose 1837/1842, II, 229 -->
+                    
                     <placeName type="alt">Glinenoi</placeName>
-                    <!-- RST Bl. 67r -->
+                    
                     <placeName type="alt">Glinenskiy</placeName>
                     <placeName type="alt">Glinenskij</placeName>
-                    <note>Ortschaft östlich des <placeName key="H0005636">Elton-Sees</placeName> nahe der Mündung des
-                            <placeName key="H0019041">Malyj Usen'</placeName> in die <placeName key="H0018671">Kamyš-Samarskie-Seen</placeName>; hist. Kosacken-Vorposten in der Kirgisen-Steppe an der
-                        Handelsstraße zwischen <placeName key="H0002585">Astrachan</placeName>, <placeName key="H0007984">Wolga</placeName> und <placeName key="H0009660">Ural</placeName>
+                    <note>Ortschaft östlich des <placeName ref="https://editon-humboldt.de/H0005636 https://www.geonames.org/563493">Elton-Sees</placeName> nahe der Mündung des
+                            <placeName ref="https://editon-humboldt.de/H0019041 https://www.geonames.org/12188757">Malyj Usen'</placeName> in die <placeName ref="https://editon-humboldt.de/H0018671 https://www.geonames.org/609710">Kamyš-Samarskie-Seen</placeName>; hist. Kosacken-Vorposten in der Kirgisen-Steppe an der
+                        Handelsstraße zwischen <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName>, <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> und <placeName ref="https://editon-humboldt.de/H0009660 https://www.geonames.org/478869">Ural</placeName>
                         (Kasachstan)</note>
                 </place>
             </listPlace>

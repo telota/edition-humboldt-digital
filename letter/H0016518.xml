@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016518">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, 8. August
+               1854, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016518">https://edition-humboldt.de/v8/H0016518</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016518</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016518</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016518.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, 8. August
-               1854. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016518</bibl>
-            </sourceDesc>
+            <msDesc rend="copy">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                            <idno type="legacy">268E6</idno>
+                     <idno type="shelfmark">676, Bl. 53r</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1854-08-08">1854-08-08</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -66,13 +84,16 @@
             <opener>
                     <dateline>Berlin 8/8. 54.</dateline>
             </opener>
-            <p>Da mein <ref xml:id="f985feaf-0ba8-4108-85fe-af0ba8c108c6" corresp="#e16e54c9-2b42-49df-ae54-c92b42e9df65">Vortrag vom Juni <lb/>über das kleine Leben der Mee-<lb/>restiefe im <placeName ref="https://www.geonames.org/265695">Aegäischen
+            <p>Da mein <ref xml:id="d687a2f6-2d0c-46f5-87a2-f62d0cd6f5ec" corresp="#c015df81-360d-4820-95df-81360dc820a6">Vortrag vom Juni <lb/>über das kleine Leben der Mee<g ref="#typoHyphen"/>
+                        <lb break="no"/>restiefe im <placeName ref="https://editon-humboldt.de/H0002332 https://www.geonames.org/265695">Aegäischen
                         Meere</placeName>
                      <lb/>jetzt in Übersicht gedruckt ist</ref>
-                    <note xml:id="e16e54c9-2b42-49df-ae54-c92b42e9df65" corresp="#f985feaf-0ba8-4108-85fe-af0ba8c108c6">
-                     <bibl corresp="https://edition-humboldt.de/v8/IJNMA3R5">Ehrenberg 1854a</bibl>
+                    <note xml:id="c015df81-360d-4820-95df-81360dc820a6" corresp="#d687a2f6-2d0c-46f5-87a2-f62d0cd6f5ec">
+                     <bibl corresp="https://edition-humboldt.de/IJNMA3R5">Ehrenberg 1854a</bibl>
                   </note>, <lb/>so erlaube ich mir Ihnen, mein <lb/>innig verehrter Herr Baron,
-               <lb/>einen Abdruck zu senden. <lb/>Ich hoffe, daß damit eine Ver-<lb/>gleichung der Kreide und der <lb/>jetzigen Ablagerungen einge-<lb/>leitet ist.</p>
+               <lb/>einen Abdruck zu senden. <lb/>Ich hoffe, daß damit eine Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>gleichung der Kreide und der <lb/>jetzigen Ablagerungen einge<g ref="#typoHyphen"/>
+                    <lb break="no"/>leitet ist.</p>
             <p>Die Grünsande wachsen von <lb/>allen Seiten ins Leben hienein. </p>
             <closer rend="paragraph">
                     <salute>In herzlicher Verehrung</salute>

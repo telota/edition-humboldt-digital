@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002652">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,35 +28,55 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>            
+            </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonnabend,
+                    [vor 28. September 1830], hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002652">https://edition-humboldt.de/v8/H0002652</ref>
+                </p>
+            </editionStmt>            
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002652</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002652</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002652.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonnabend,
-                    [vor 28. September 1830]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002652</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 822 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 19,90 cm , B: 12,40 cm</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1830-01-01" notAfter="1830-09-27" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>

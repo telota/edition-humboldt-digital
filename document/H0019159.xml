@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019159">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,13 +11,20 @@
                     </persName>
                 </editor>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: Entwurf zur Gliederung der Relation historique, hg. v. Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019159">https://edition-humboldt.de/v8/H0019159</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019159</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019159</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019159.xml</idno>
             </publicationStmt>
             <notesStmt>
@@ -25,17 +32,17 @@
                     <p>Die vorliegende Notiz ist der einzige aus Humboldts Nachlass bekannte Beleg
                         zur ursprünglichen Gliederung des Berichts zur Reise durch die
                         amerikanischen Tropen. Bekanntlich veröffentlichte Humboldt seine Relation
-                        historique (<bibl corresp="https://edition-humboldt.de/v8/DR2NAW3J">Humboldt 1814–1825</bibl>)
+                        historique (<bibl corresp="https://edition-humboldt.de/DR2NAW3J">Humboldt 1814–1825</bibl>)
                         in sieben Lieferungen zwischen den Jahren 1814–1831 als dreibändige
-                        Quartausgabe (<bibl corresp="https://edition-humboldt.de/v8/384RP7BM">Fiedler/Leitner
+                        Quartausgabe (<bibl corresp="https://edition-humboldt.de/384RP7BM">Fiedler/Leitner
                             2000</bibl>, 77–78). Im dritten Band endet der veröffentlichte
                         Reisebericht am 20. April 1801 mit Kapitel 28 und dem Auftakt zur Reise auf
-                        dem <placeName ref="https://edition-humboldt.de/v8/H0008572">Río Magdalena</placeName>, kurz nach der
-                        Ankunft in <placeName ref="https://www.geonames.org/3687247">Cartagena de Indias</placeName> am 30.
+                        dem <placeName ref="https://editon-humboldt.de/H0008572">Río Magdalena</placeName>, kurz nach der
+                        Ankunft in <placeName ref="https://editon-humboldt.de/H0007180 https://www.geonames.org/3687247">Cartagena de Indias</placeName> am 30.
                         März desselben Jahres (vgl. Alexander von Humboldt-Chronologie, edition
                         humboldt digital, <ref target="https://edition-humboldt.de/H0014890">https://edition-humboldt.de/H0014890</ref>). Ein vierter Band wurde
                         zwar angekündigt, Humboldt selbst sprach noch 1849 in einem Brief an seinen
-                        Verleger davon (<bibl corresp="https://edition-humboldt.de/v8/384RP7BM">Fiedler/Leitner
+                        Verleger davon (<bibl corresp="https://edition-humboldt.de/384RP7BM">Fiedler/Leitner
                             2000</bibl>, 70), erschien jedoch nie. Die hier entwickelte Gliederung
                         in 47 Kapiteln zeigt erstmals Humboldts Gesamtkonzeption des nie zu Ende
                         geführten Reiseberichts und ist zugleich ein Zeugnis für die mehrfachen
@@ -44,35 +51,47 @@
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Entwurf zur Gliederung der Relation historique. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019159</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz,
+                            Berlin</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">kl. Kasten 7b, Nr. 40 (Bl. 28)</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1267259</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>1 Bl. Zur Datierung: In Humboldts Nachlass findet sich der Zettel am Ende
+                            eines Umschlags mit Druckfahnen zu <persName ref="https://editon-humboldt.de/H0012496 http://d-nb.info/gnd/1055243224">Joaquín de
+                                Acostas</persName>
+                            <ref target="http://resolver.staatsbibliothek-berlin.de/SBB00015CA200000000">
+                                <hi rendition="#i">Noticia Sobre la jeografia politica de
+                                    Colombia</hi>
+                            </ref> (Bogotá 1825). Art und Inhalt der
+                            Korrekturen lässt vermuten, dass Humboldt die Notiz zur Gliederung
+                            seines Reiseberichts tatsächlich in der Zeit nach Erhalt des Textes von
+                            Acosta verfasst hat, also wahrscheinlich im Zeitraum 1825–1826. Warum
+                            die Notiz allerdings den Fahnen beiliegt, konnte bisher nicht
+                            abschließend geklärt werden. </p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date notBefore="1825" notAfter="1826" cert="low"/>
             </creation>
         </profileDesc>
-        <revisionDesc status="basis+">
-            <listChange>
-                <change when="2022-04-21" who="kraft" type="status" status="show">Text erstmalig in
-                    der Version 8 veröffentlicht. Kodierung der Datumsangaben
-                    abgeschlossen.</change>
-                <change when="2022-04-21" who="kraft">Editionsstufe hinzugefügt: Basis+</change>
-                <change when="2021-05-25" who="kraft">Kommentierung erweitert, Metadaten
-                    vervollständigt</change>
-                <change when="2021-05-25" who="kraft">&lt;date/&gt;- und &lt;placeName/&gt;-tagging
-                    komplett überprüft und vervollständigt, Kommentierung einzelner Stellen; </change>
-                <change when="2021-05-23" who="kraft">Abschluss Transkription 28r und 28v;
-                    textkritisches tagging</change>
-                <change when="2020-02-28" who="kraft">28r: Anmerkungen zum Text überarbeitet,
-                    &lt;date/&gt;- und &lt;placeName/&gt;-tagging komplett</change>
-                <change when="2020-02-17" who="kraft">Datei angelegt, Rohtranskription 28r</change>
-            </listChange>
-        </revisionDesc>
+        
     </teiHeader>
 
     <text>
@@ -100,8 +119,8 @@
                         <abbr>Chap</abbr>
                         <expan>Chapitres</expan>
                     </choice>) <lb/>
-                    <placeName ref="https://www.geonames.org/2510769">Espagne</placeName>
-                    <placeName ref="https://www.geonames.org/2593110">
+                    <placeName ref="https://editon-humboldt.de/H0010330 https://www.geonames.org/2510769">Espagne</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0000346 https://www.geonames.org/2593110">
                         <subst>
                             <del rendition="#ow">I</del>
                             <add place="across">C</add>
@@ -113,9 +132,9 @@
                         </subst>ies</placeName>
                     <add place="superlinear">
                         <metamark/>
-                        <placeName ref="https://www.geonames.org/3373405">Atlantique</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0002602 https://www.geonames.org/3373405">Atlantique</placeName>
                     </add>
-                    <ref xml:id="a56cbe0d-c9e8-4426-acbe-0dc9e8a42648" corresp="#eda3abb5-1585-49b1-a3ab-b5158559b18f">288 <choice>
+                    <ref xml:id="deaa44a1-ec97-4ea0-aa44-a1ec978ea036" corresp="#c4499b8f-64b8-4607-899b-8f64b8460799">288 <choice>
                                 <abbr>p</abbr>
                                 <expan>pages</expan>
                             </choice>
@@ -127,7 +146,7 @@
                                 <expan>pages</expan>
                             </choice>
                     </ref>
-                    <note xml:id="eda3abb5-1585-49b1-a3ab-b5158559b18f" corresp="#a56cbe0d-c9e8-4426-acbe-0dc9e8a42648">Für die Kapitelplanung der ersten Bücher (Livres
+                    <note xml:id="c4499b8f-64b8-4607-899b-8f64b8460799" corresp="#deaa44a1-ec97-4ea0-aa44-a1ec978ea036">Für die Kapitelplanung der ersten Bücher (Livres
                             I–VI) überschlägt Humboldt noch den erwarteten Seitenumfang, wobei er
                             sich gelegentlich verzählt. Mit <quote>Livre VII</quote> bricht diese
                             Kalkulation ab, da sie sich vermutlich als wenig aussagekräftig erwiesen
@@ -137,8 +156,8 @@
                         <abbr>Chap</abbr>
                         <expan>Chapitres</expan>
                     </choice>) <lb/>
-                    <placeName ref="https://www.geonames.org/3644768">Cumana</placeName>
-                    <placeName ref="https://www.geonames.org/3649002">Araya</placeName> 64. <choice>
+                    <placeName ref="https://editon-humboldt.de/H0007693 https://www.geonames.org/3644768">Cumana</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0002524 https://www.geonames.org/3649002">Araya</placeName> 64. <choice>
                         <abbr>p</abbr>
                         <expan>pages</expan>
                     </choice>
@@ -161,7 +180,7 @@
                         <abbr>p</abbr>
                         <expan>pages</expan>
                     </choice>
-                    <lb/>Montagnes du <placeName ref="https://www.geonames.org/3646536">Caripe</placeName>
+                    <lb/>Montagnes du <placeName ref="https://editon-humboldt.de/H0017313 https://www.geonames.org/3646536">Caripe</placeName>
                     <lb/>1 <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
@@ -178,11 +197,11 @@
                         <expan>pages</expan>
                     </choice>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3637721">Guayra</placeName>
-                    <placeName ref="https://www.geonames.org/3646738">
+                    <placeName ref="https://editon-humboldt.de/H0011325 https://www.geonames.org/3637721">Guayra</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0007134 https://www.geonames.org/3646738">
                         <add place="superlinear">ville</add>
                         Caracas</placeName>
-                    <placeName ref="https://www.geonames.org/3646735">Silla</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0018778 https://www.geonames.org/3646735">Silla</placeName>
                     <lb/>1 <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
@@ -230,7 +249,7 @@
                         <expan>pages</expan>
                     </choice>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3649110">Vallées d'Aragua</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0002507 https://www.geonames.org/3649110">Vallées d'Aragua</placeName>
                     <lb/>1 <choice>
                         <abbr>Chap.</abbr>
                         <expan>Chapitre</expan>
@@ -255,7 +274,7 @@
                         </add>
                     </subst>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3634703">Llanos</placeName> et <placeName ref="https://edition-humboldt.de/v8/H0002496">Apu<subst>
+                    <placeName ref="https://editon-humboldt.de/H0016371 https://www.geonames.org/3634703">Llanos</placeName> et <placeName ref="https://editon-humboldt.de/H0002496">Apu<subst>
                             <del rendition="#ow">
                                 <unclear reason="covered" cert="low">e</unclear>
                             </del>
@@ -273,11 +292,11 @@
                         <abbr>Chap</abbr>
                         <expan>Chapitres</expan>
                     </choice>) <lb/>
-                    <placeName ref="https://www.geonames.org/3631298">Orenoque</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orenoque</placeName>
                 </p>
                 <p>Livre VIII</p>
                 <p>
-                    <ref xml:id="d30b1dde-c410-4abd-8b1d-dec4102abd1a" corresp="#f7bb39ff-cfd6-4fca-bb39-ffcfd68fca4d">
+                    <ref xml:id="d37e41d0-986f-4272-be41-d0986fc27298" corresp="#b8c8344f-1cd6-4fc9-8834-4f1cd63fc907">
                         <choice>
                                 <abbr>Chap</abbr>
                                 <expan>Chapitre</expan>
@@ -290,25 +309,25 @@
                             </del>
                                 <add place="across">2</add>
                             </subst>3</ref>
-                    <note xml:id="f7bb39ff-cfd6-4fca-bb39-ffcfd68fca4d" corresp="#d30b1dde-c410-4abd-8b1d-dec4102abd1a">Mit Kapitel 23 geht Humboldt von einer
+                    <note xml:id="b8c8344f-1cd6-4fc9-8834-4f1cd63fc907" corresp="#d37e41d0-986f-4272-be41-d0986fc27298">Mit Kapitel 23 geht Humboldt von einer
                             kapitelübergreifenden zu einer kapitelspezifischen Gliederung über.
                             Folgt man der bisherigen Aufstellung, so enthalten die ersten sieben
                             Bücher (Livre I–VII) 21 Kapitel, verteilt auf die ersten beiden Bände.
                             Das achte Buch müsste also mit dem 22. Kapitel beginnen. Humboldt ist
                             hier vermutlich mit der eigenen Zählung durcheinander gekommen. </note>
-                    <placeName ref="https://www.geonames.org/3631536">Río Negro</placeName>
-                    <placeName ref="https://www.geonames.org/3646290">Cassiquiare</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0010589 https://www.geonames.org/3631536">Río Negro</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0017133 https://www.geonames.org/3646290">Cassiquiare</placeName>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 24 retour de <placeName ref="https://www.geonames.org/3631298">Orenoque</placeName>
+                    </choice> 24 retour de <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orenoque</placeName>
                     <subst>
                         <del rendition="#s">Llanos</del>
                         <add place="superlinear">
-                            <placeName ref="https://www.geonames.org/3638067">Esmeralda</placeName> –
-                                <placeName ref="https://www.geonames.org/3645528">Angostura</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0005679 https://www.geonames.org/3638067">Esmeralda</placeName> –
+                                <placeName ref="https://editon-humboldt.de/H0009704 https://www.geonames.org/3645528">Angostura</placeName>
                         </add>
                     </subst>
                 </p>
@@ -327,10 +346,10 @@
                     </add>
                 </head>
                 <p>
-                    <ref xml:id="ccdd72e3-02b9-435d-9d72-e302b9235dbe" corresp="#be962ab1-bd91-4ca2-962a-b1bd919ca2dd">
+                    <ref xml:id="b59a9beb-a0c0-4340-9a9b-eba0c0c3404e" corresp="#d4fde7e3-a23f-43a0-bde7-e3a23fa3a0f8">
                         <add place="superlinear">Livre IX</add>
                     </ref>
-                    <note xml:id="be962ab1-bd91-4ca2-962a-b1bd919ca2dd" corresp="#ccdd72e3-02b9-435d-9d72-e302b9235dbe">Die Korrekturen in diesem Bereich sind besonders
+                    <note xml:id="d4fde7e3-a23f-43a0-bde7-e3a23fa3a0f8" corresp="#b59a9beb-a0c0-4340-9a9b-eba0c0c3404e">Die Korrekturen in diesem Bereich sind besonders
                             intensiv. Auffallend ist, dass die Mineralogie im Zuge der Umstellungen
                             vollständig gestrichen wurde. </note>
                     <lb/>
@@ -340,8 +359,8 @@
                     </choice> 25. <subst>
                         <del rendition="#s">Statistique</del>
                         <add place="intralinear">
-                            <placeName ref="https://www.geonames.org/3634703">Llanos</placeName>. <placeName ref="https://www.geonames.org/3644768">Cumana</placeName>
-                            <placeName ref="https://www.geonames.org/3648559">Barcelone</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0016371 https://www.geonames.org/3634703">Llanos</placeName>. <placeName ref="https://editon-humboldt.de/H0007693 https://www.geonames.org/3644768">Cumana</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0001734 https://www.geonames.org/3648559">Barcelone</placeName>
                             <lb/>
                             <del rendition="#s">Mineralogie <lb/>
                                 <unclear reason="illegible" cert="high">abreise</unclear>
@@ -382,12 +401,12 @@
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 27 <ref xml:id="b1bf10f1-2c92-4a17-bf10-f12c920a170b" corresp="#ece961b8-434e-4556-a961-b8434ed556ea">trajet</ref>
-                    <note xml:id="ece961b8-434e-4556-a961-b8434ed556ea" corresp="#b1bf10f1-2c92-4a17-bf10-f12c920a170b">Gemeint ist wohl die Überfahrt von <placeName ref="https://www.geonames.org/3648559">Nueva Barcelona</placeName> (14.11.1800) nach
-                                <placeName ref="https://www.geonames.org/3553478">La Habana</placeName> (19.12.1800).</note>
+                    </choice> 27 <ref xml:id="d00ba34a-f7ea-4474-8ba3-4af7ea84740a" corresp="#d77b1891-b918-46fe-bb18-91b918b6fedc">trajet</ref>
+                    <note xml:id="d77b1891-b918-46fe-bb18-91b918b6fedc" corresp="#d00ba34a-f7ea-4474-8ba3-4af7ea84740a">Gemeint ist wohl die Überfahrt von <placeName ref="https://editon-humboldt.de/H0001734 https://www.geonames.org/3648559">Nueva Barcelona</placeName> (14.11.1800) nach
+                                <placeName ref="https://editon-humboldt.de/H0006819 https://www.geonames.org/3553478">La Habana</placeName> (19.12.1800).</note>
                     <subst>
                         <del rendition="#s">
-                            <placeName ref="https://www.geonames.org/3562981">Cuba</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0000494 https://www.geonames.org/3562981">Cuba</placeName>
                         </del>
                         <add place="intralinear">tablas</add>
                     </subst>
@@ -396,7 +415,7 @@
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 28 Statistique <add place="intralinear">de <placeName ref="https://www.geonames.org/3562981">Cuba</placeName>
+                    </choice> 28 Statistique <add place="intralinear">de <placeName ref="https://editon-humboldt.de/H0000494 https://www.geonames.org/3562981">Cuba</placeName>
                     </add>
                 </p>
                 <pb n="28v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00015CA200000056"/>
@@ -426,33 +445,33 @@
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 29. <ref xml:id="acd33777-0b9d-4d99-9337-770b9dbd99da" corresp="#c7c5287e-c544-4ec6-8528-7ec5449ec69e">trajet</ref>
-                    <note xml:id="c7c5287e-c544-4ec6-8528-7ec5449ec69e" corresp="#acd33777-0b9d-4d99-9337-770b9dbd99da">Gemeint ist wohl die Abreise aus <placeName ref="https://www.geonames.org/3553478">La Habana</placeName> (5.3.1801) entlang der
-                            kubanischen Küste über <placeName ref="https://www.geonames.org/3534915">Trinidad</placeName>
-                            nach <placeName ref="https://www.geonames.org/3687247">Cartagena de Indias</placeName> (Ankunft
+                    </choice> 29. <ref xml:id="c3c3b385-3658-4fcd-83b3-853658bfcd16" corresp="#c7a03158-b52d-496b-a031-58b52dc96b59">trajet</ref>
+                    <note xml:id="c7a03158-b52d-496b-a031-58b52dc96b59" corresp="#c3c3b385-3658-4fcd-83b3-853658bfcd16">Gemeint ist wohl die Abreise aus <placeName ref="https://editon-humboldt.de/H0006819 https://www.geonames.org/3553478">La Habana</placeName> (5.3.1801) entlang der
+                            kubanischen Küste über <placeName ref="https://editon-humboldt.de/H0009519 https://www.geonames.org/3534915">Trinidad</placeName>
+                            nach <placeName ref="https://editon-humboldt.de/H0007180 https://www.geonames.org/3687247">Cartagena de Indias</placeName> (Ankunft
                             30.3.1801). </note>
-                    <placeName ref="https://www.geonames.org/3687247">Carthagene</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0007180 https://www.geonames.org/3687247">Carthagene</placeName>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3666577">Turbaco</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0009590 https://www.geonames.org/3666577">Turbaco</placeName>
                     <subst>
                         <del rendition="#s">
-                            <placeName ref="https://edition-humboldt.de/v8/H0008572">Magdalena</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008572">Magdalena</placeName>
                         </del>
                         <add place="superlinear">
-                            <placeName ref="https://www.geonames.org/3675668">Mahates</placeName>.</add>
+                            <placeName ref="https://editon-humboldt.de/H0008580 https://www.geonames.org/3675668">Mahates</placeName>.</add>
                     </subst>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap.</abbr>
                         <expan>Chapitre</expan>
-                    </choice> XXX <placeName ref="https://edition-humboldt.de/v8/H0008572">
+                    </choice> XXX <placeName ref="https://editon-humboldt.de/H0008572">
                         <subst>
                             <del rendition="#s">Magdalena</del>
                             <add place="superlinear">Magdalena</add>
                         </subst>
                     </placeName>
-                    <placeName ref="https://www.geonames.org/3681703">Guaduas</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0010970 https://www.geonames.org/3681703">Guaduas</placeName>
                 </p>
                 <p>
                     <choice>
@@ -460,9 +479,9 @@
                         <expan>Chapitre</expan>
                     </choice> XXI <subst>
                         <del rendition="#s">
-                            <placeName ref="https://www.geonames.org/3681703">Guaduas</placeName>.</del>
+                            <placeName ref="https://editon-humboldt.de/H0010970 https://www.geonames.org/3681703">Guaduas</placeName>.</del>
                         <add place="intralinear">
-                            <placeName ref="https://www.geonames.org/3688689">
+                            <placeName ref="https://editon-humboldt.de/H0005282 https://www.geonames.org/3688689">
                                 <choice>
                                     <abbr>S. Fe</abbr>
                                     <expan>Santa Fe</expan>
@@ -471,44 +490,44 @@
                         </add>
                     </subst>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3667278">
+                    <placeName ref="https://editon-humboldt.de/H0009331 https://www.geonames.org/3667278">
                         <choice>
                             <abbr>Tequend</abbr>
                             <expan>Tequendama</expan>
                         </choice>
                     </placeName>
-                    <placeName ref="https://www.geonames.org/3665542">Zipaquirá</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0015022 https://www.geonames.org/3665542">Zipaquirá</placeName>
                 </p>
                 <p>Livre XI</p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 32 <placeName>Puente Pandi</placeName>
+                    </choice> 32 <placeName ref="https://editon-humboldt.de/H0019266">Puente Pandi</placeName>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3680653">Ibagué</placeName>
-                    <placeName ref="https://www.geonames.org/3671087">Quindíu</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0006635 https://www.geonames.org/3680653">Ibagué</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0010776 https://www.geonames.org/3671087">Quindíu</placeName>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 33 <placeName ref="https://www.geonames.org/3687232">Carthago</placeName>
-                    <placeName ref="https://www.geonames.org/3688256">Buga</placeName>
+                    </choice> 33 <placeName ref="https://editon-humboldt.de/H0007182 https://www.geonames.org/3687232">Carthago</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005391 https://www.geonames.org/3688256">Buga</placeName>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3671916">Popayán</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008357 https://www.geonames.org/3671916">Popayán</placeName>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 34. <placeName ref="https://www.geonames.org/3690137">Almaguer</placeName>. <placeName ref="https://www.geonames.org/3672779">Pasto</placeName>
+                    </choice> 34. <placeName ref="https://editon-humboldt.de/H0002393 https://www.geonames.org/3690137">Almaguer</placeName>. <placeName ref="https://editon-humboldt.de/H0008143 https://www.geonames.org/3672779">Pasto</placeName>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 35. <placeName ref="https://edition-humboldt.de/v8/H0008147">Los Pastos</placeName>
+                    </choice> 35. <placeName ref="https://editon-humboldt.de/H0008147">Los Pastos</placeName>
                 </p>
                 <note place="left" hand="#author">
                     <p>
@@ -557,41 +576,41 @@
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 36 <placeName ref="https://www.geonames.org/3652462">Quito</placeName>
-                    <ref xml:id="c236023a-cd75-4a11-b602-3acd755a11ce" corresp="#d2e1c85f-1b89-4673-a1c8-5f1b8986731a">volcans <lb/>autour</ref>
-                    <note xml:id="d2e1c85f-1b89-4673-a1c8-5f1b8986731a" corresp="#c236023a-cd75-4a11-b602-3acd755a11ce">Humboldt hält sich vom 6. Januar bis zum 9. Juni
-                            1802 in <placeName ref="https://www.geonames.org/3652462">Quito</placeName> und der umliegenden
+                    </choice> 36 <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName>
+                    <ref xml:id="d8dcdc3e-3bfe-45ea-9cdc-3e3bfe25ea78" corresp="#b064a290-99f9-48a9-a4a2-9099f9b8a9c3">volcans <lb/>autour</ref>
+                    <note xml:id="b064a290-99f9-48a9-a4a2-9099f9b8a9c3" corresp="#d8dcdc3e-3bfe-45ea-9cdc-3e3bfe25ea78">Humboldt hält sich vom 6. Januar bis zum 9. Juni
+                            1802 in <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName> und der umliegenden
                             Region auf. Während dieser Zeit unternimmt er Vulkanexkursionen zum
-                                <placeName ref="https://www.geonames.org/3660594">Antisana</placeName> (16.3.), <placeName ref="https://www.geonames.org/3657683">Pichincha</placeName> (14.4., 26.5., 28.5.) und
-                                <placeName ref="https://www.geonames.org/3754875">Cotopaxi</placeName> (28.4.), wobei er
-                            lediglich den <placeName ref="https://www.geonames.org/3657683">Rucu Pichincha</placeName> bis
+                                <placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">Antisana</placeName> (16.3.), <placeName ref="https://editon-humboldt.de/H0008253 https://www.geonames.org/3657683">Pichincha</placeName> (14.4., 26.5., 28.5.) und
+                                <placeName ref="https://editon-humboldt.de/H0007607 https://www.geonames.org/3754875">Cotopaxi</placeName> (28.4.), wobei er
+                            lediglich den <placeName ref="https://editon-humboldt.de/H0008253 https://www.geonames.org/3657683">Rucu Pichincha</placeName> bis
                             zum Gipfel besteigt. </note>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 37 <placeName ref="https://www.geonames.org/3659238">Chimborazo</placeName>
-                    <placeName ref="https://www.geonames.org/3654667">Loxa</placeName>
+                    </choice> 37 <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">Chimborazo</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0011478 https://www.geonames.org/3654667">Loxa</placeName>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 38 <ref xml:id="c476ee94-1324-4053-b6ee-9413240053cd" corresp="#ac779426-316f-40cf-b794-26316f70cf79">Amazone</ref>
-                    <note xml:id="ac779426-316f-40cf-b794-26316f70cf79" corresp="#c476ee94-1324-4053-b6ee-9413240053cd">Während seiner Reise durch die amerikanischen
-                                <placeName ref="http://d-nb.info/gnd/4060997-2">Tropen</placeName> kam Humboldt zweimal in
-                            die Nähe des Amazonas-Beckens: im Mai 1800 während seiner <placeName ref="https://www.geonames.org/3631298">Orinoco</placeName>-Reise durch die Fahrt auf dem
-                                <placeName ref="https://www.geonames.org/3646290">Río Casiquiare</placeName> und am 22.
-                            August 1802 während der Flussfahrt den <placeName ref="https://edition-humboldt.de/v8/H0017145">Río
-                                Chamaya</placeName> abwärts bis zur Einmündung in den <placeName ref="https://edition-humboldt.de/v8/H0008689">Río Marañón</placeName>, den Oberlauf des <placeName ref="https://www.geonames.org/3407729"> Amazonas</placeName>. Nachdem Humboldt mit seinen
-                            Reisegefährten <placeName ref="https://www.geonames.org/3654667">Loja</placeName> (die letzte
+                    </choice> 38 <ref xml:id="d4e4d72b-2e2f-42af-a4d7-2b2e2fa2afd0" corresp="#c6f50ab0-4dd3-4315-b50a-b04dd333154d">Amazone</ref>
+                    <note xml:id="c6f50ab0-4dd3-4315-b50a-b04dd333154d" corresp="#d4e4d72b-2e2f-42af-a4d7-2b2e2fa2afd0">Während seiner Reise durch die amerikanischen
+                                <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">Tropen</placeName> kam Humboldt zweimal in
+                            die Nähe des Amazonas-Beckens: im Mai 1800 während seiner <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orinoco</placeName>-Reise durch die Fahrt auf dem
+                                <placeName ref="https://editon-humboldt.de/H0017133 https://www.geonames.org/3646290">Río Casiquiare</placeName> und am 22.
+                            August 1802 während der Flussfahrt den <placeName ref="https://editon-humboldt.de/H0017145">Río
+                                Chamaya</placeName> abwärts bis zur Einmündung in den <placeName ref="https://editon-humboldt.de/H0008689">Río Marañón</placeName>, den Oberlauf des <placeName ref="https://editon-humboldt.de/H0010499 https://www.geonames.org/3407729"> Amazonas</placeName>. Nachdem Humboldt mit seinen
+                            Reisegefährten <placeName ref="https://editon-humboldt.de/H0011478 https://www.geonames.org/3654667">Loja</placeName> (die letzte
                             Station des geplanten 37. Kapitels) am 28.7.1802 verlässt, überquert er
-                            am 10. August bei <placeName ref="https://www.geonames.org/8350619">Huancabamba</placeName> den
-                                <placeName ref="https://edition-humboldt.de/v8/H0011006">Páramo de Guamaní</placeName> und damit
-                            die Wasserscheide zwischen dem <placeName ref="https://www.geonames.org/2363254">Pazifischen</placeName> und dem <placeName ref="https://www.geonames.org/3373405">Atlantischen Ozean</placeName>. Die Entscheidung, dem
+                            am 10. August bei <placeName ref="https://editon-humboldt.de/H0006914 https://www.geonames.org/8350619">Huancabamba</placeName> den
+                                <placeName ref="https://editon-humboldt.de/H0011006">Páramo de Guamaní</placeName> und damit
+                            die Wasserscheide zwischen dem <placeName ref="https://editon-humboldt.de/H0008175 https://www.geonames.org/2363254">Pazifischen</placeName> und dem <placeName ref="https://editon-humboldt.de/H0002602 https://www.geonames.org/3373405">Atlantischen Ozean</placeName>. Die Entscheidung, dem
                             Amazonas-Gebiet ein ganzes Kapitel zu widmen, kann demnach auch als Idee
-                            für eine größere hydrographische Abhandlung zur Geologie der <placeName ref="https://edition-humboldt.de/v8/H0002454">Andenkette</placeName> verstanden werden.</note>.</p>
+                            für eine größere hydrographische Abhandlung zur Geologie der <placeName ref="https://editon-humboldt.de/H0002454">Andenkette</placeName> verstanden werden.</note>.</p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
@@ -599,30 +618,30 @@
                     </choice> 39 <choice>
                         <abbr>Stat</abbr>
                         <expan>Statistique</expan>
-                    </choice> de <placeName ref="https://edition-humboldt.de/v8/H0001610">
+                    </choice> de <placeName ref="https://editon-humboldt.de/H0001610">
                         <choice>
                             <abbr>Nouv.</abbr>
                             <expan>Nouvelle</expan>
                         </choice>
-                        <lb/>Grenade</placeName> et <placeName ref="https://www.geonames.org/3652462">Quito</placeName>
+                        <lb/>Grenade</placeName> et <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName>
                 </p>
                 <p>Livre XIII</p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 40 <placeName ref="https://www.geonames.org/3699088">Caxamarca</placeName>
-                    <placeName ref="https://www.geonames.org/3696537">Hualagayoc</placeName>
+                    </choice> 40 <placeName ref="https://editon-humboldt.de/H0007010 https://www.geonames.org/3699088">Caxamarca</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0006903 https://www.geonames.org/3696537">Hualagayoc</placeName>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 41 <placeName ref="https://www.geonames.org/3936456">Lima</placeName>. <choice>
+                    </choice> 41 <placeName ref="https://editon-humboldt.de/H0011439 https://www.geonames.org/3936456">Lima</placeName>. <choice>
                         <abbr>Stat</abbr>
                         <expan>Statistique</expan>
                     </choice> de <lb/>
-                    <placeName ref="https://www.geonames.org/3932488">Perou</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Perou</placeName>
                 </p>
                 <milestone rendition="#hr" unit="section"/>
             </div>
@@ -651,26 +670,26 @@
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 42 <placeName ref="https://www.geonames.org/2363254">
+                    </choice> 42 <placeName ref="https://editon-humboldt.de/H0008175 https://www.geonames.org/2363254">
                         <add place="superlinear">Mer du</add>
-                        Sud</placeName>. <placeName ref="https://www.geonames.org/3657509">Guayuaquil</placeName>.
-                        <placeName ref="https://www.geonames.org/3533462">Aca<lb/>pulco</placeName>
+                        Sud</placeName>. <placeName ref="https://editon-humboldt.de/H0011115 https://www.geonames.org/3657509">Guayuaquil</placeName>.
+                        <placeName ref="https://editon-humboldt.de/H0002309 https://www.geonames.org/3533462">Aca<lb break="no"/>pulco</placeName>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 43. <placeName ref="https://www.geonames.org/8858716">Tasco</placeName>
-                    <placeName ref="https://www.geonames.org/3530597">México</placeName>
+                    </choice> 43. <placeName ref="https://editon-humboldt.de/H0009280 https://www.geonames.org/8858716">Tasco</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008845 https://www.geonames.org/3530597">México</placeName>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3533389">Actopan</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0002321 https://www.geonames.org/3533389">Actopan</placeName>
                 </p>
                 <p>
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 44 <placeName ref="https://www.geonames.org/3988214">Salamanca</placeName>
-                    <placeName ref="https://www.geonames.org/3973657">
+                    </choice> 44 <placeName ref="https://editon-humboldt.de/H0009748 https://www.geonames.org/3988214">Salamanca</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0011027 https://www.geonames.org/3973657">
                         <choice>
                             <abbr>Guanax.</abbr>
                             <expan>Guanaxuato</expan>
@@ -682,18 +701,19 @@
                     <choice>
                         <abbr>Chap</abbr>
                         <expan>Chapitre</expan>
-                    </choice> 45. <placeName ref="https://www.geonames.org/3980820">Valladolid</placeName>
-                    <placeName ref="https://www.geonames.org/3515302">To-<lb/>luca</placeName>
+                    </choice> 45. <placeName ref="https://editon-humboldt.de/H0009622 https://www.geonames.org/3980820">Valladolid</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0009458 https://www.geonames.org/3515302">To<g ref="#typoHyphen"/>
+                        <lb break="no"/>luca</placeName>
                     <add place="left">
                         <lb/>
                         <choice>
                             <abbr>Chap</abbr>
                             <expan>Chapitre</expan>
                         </choice> 46 <lb/>Descente <lb/>
-                        <placeName ref="https://www.geonames.org/3521081">Puebla</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0008418 https://www.geonames.org/3521081">Puebla</placeName>
                         <lb/>
-                        <placeName ref="https://www.geonames.org/8583732">Xalapa</placeName>
-                        <placeName ref="https://www.geonames.org/3514783">Veracruz</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0006762 https://www.geonames.org/8583732">Xalapa</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0009125 https://www.geonames.org/3514783">Veracruz</placeName>
                         <lb/>Livre XVI. <lb/>
                         <choice>
                             <abbr>Chap</abbr>

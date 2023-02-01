@@ -1,13 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019078">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>La
-                        Concepción</title>
+                Concepción</title>
             </titleStmt>
+            <editionStmt>
+                <p>La
+                Concepción [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019078.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -17,26 +22,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019078.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019078.xml">
-                    <p>La
-                        Concepción [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019078.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019078">
-                    <placeName type="reg"><?oxy_comment_start author="lkirsten" timestamp="20191015T140911+0200" comment="möglicherweise https://www.geonames.org/3638379"?>La
-                        Concepción<?oxy_comment_end?>
-                    </placeName>
-                    <note>Ort zwischen <placeName key="H0011401">La Victoria</placeName> und dem <placeName key="H0009086">Lago de Valencia</placeName> im Bundesstaat Aragua (Venezuela)</note>
-                </place>
+                <place>
+            <placeName type="reg">La
+                Concepción</placeName>
+            <note>Ort zwischen <placeName ref="https://editon-humboldt.de/H0011401 https://www.geonames.org/3634922">La Victoria</placeName> und dem <placeName ref="https://editon-humboldt.de/H0009086 https://www.geonames.org/3481447">Lago de Valencia</placeName> im Bundesstaat Aragua
+                (Venezuela)</note>
+        </place>
             </listPlace>
         </body>
     </text>

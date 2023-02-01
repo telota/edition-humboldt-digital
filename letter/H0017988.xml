@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017988">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -36,32 +36,53 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an
+                    Hermann
+                    Schlaginweit. [Berlin], 5. März 1858, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0017988">https://edition-humboldt.de/v8/H0017988</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0017988</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0017988</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017988.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an
-                    author="lmartin" timestamp="20190819T100651+0200" comment="oder mehrere Adressaten?"Hermann
-                    Schlaginweit. [Berlin], 5. März 1858. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0017988</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                        <repository/>
+                        <collection>I. HA Rep. 89, Geheimes Zivilkabinett, jüngere
+                            Periode</collection>
+                        <idno>
+                            <idno type="shelfmark">Nr. 19767, Bl. 1r,1v</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     <date when="1858-03-05" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
+                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
                         (1833-1885)</persName>
-                    <persName ref="http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
                 </correspAction>
             </correspDesc>
@@ -73,31 +94,34 @@
                 <pb n="1r"/>
                 <opener> Meine theuren Freund<supplied cert="high">e</supplied>!</opener>
                 <p>Keiner kann mit so trüber <lb/>
-                    <ref xml:id="bd45991e-7fe5-4899-8599-1e7fe51899e5" corresp="#e27d5a80-3652-4f7f-bd5a-8036524f7ff1">Bekümmerniss die drückende Lage fühlen in der Sie <lb/>Sich befinden,
+                    <ref xml:id="dbb1977a-a56d-4630-b197-7aa56d1630f3" corresp="#cb2e5efc-2921-4863-ae5e-fc2921a86329">Bekümmerniss die drückende Lage fühlen in der Sie <lb/>Sich befinden,
                             als der älteste aller Reisenden <lb/>unter den Zeitgenossen<supplied cert="high">.</supplied> Ich wünsche innigst, dass <lb/>dem
                                 edle<supplied cert="high">n</supplied>, immer so gern hülfreichen
-                                <persName ref="http://d-nb.info/gnd/118632884">Prinz von <lb/>Preussen</persName> in
+                                <persName ref="https://editon-humboldt.de/H0002173 http://d-nb.info/gnd/118632884">Prinz von <lb/>Preussen</persName> in
                             seinem Gesundheitszustande <del rendition="#s">
                             <gap reason="illegible" quantity="1" unit="words"/>
                         </del>
                             <lb/>ermöglicht sei, Ihnen eine Audienz zu geben.</ref>
-                    <note xml:id="e27d5a80-3652-4f7f-bd5a-8036524f7ff1" corresp="#bd45991e-7fe5-4899-8599-1e7fe51899e5">Hermann und Robert Schlagintweit
+                    <note xml:id="cb2e5efc-2921-4863-ae5e-fc2921a86329" corresp="#dbb1977a-a56d-4630-b197-7aa56d1630f3" resp="#UP">Hermann und Robert Schlagintweit
                             planten, ihre Sammlungen in Berlin in einem neu einzurichtenden
-                            „Indischen Museum“ auszustellen. Nach der Erkrankung des <persName ref="http://d-nb.info/gnd/118535994">Königs</persName> wandten sich die Brüder mit ihrem
-                            Anliegen an dessen <persName ref="http://d-nb.info/gnd/118632884">Stellvertreter</persName>:
-                            <ref target="H0019143">Hermann und Robert Schlagintweit an
+                            „Indischen Museum“ auszustellen. Nach der Erkrankung des <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Königs</persName> wandten sich die Brüder mit ihrem
+                            Anliegen an dessen <persName ref="https://editon-humboldt.de/H0002173 http://d-nb.info/gnd/118632884">Stellvertreter</persName>:
+                            <ref target="https://edition-humboldt.de/H0019143">Hermann und Robert Schlagintweit an
                                 Wilhelm Prinz von Preußen. Berlin, 12. März 1858</ref>.</note>
                 </p>
                 <p>Das Rühmliche Ihres grossen und gefahrenvollen <lb/>Unternehmens beruht auf den
                     reichen Sammlungen<supplied cert="high">,</supplied>
                     <lb/>die Sie heimgebracht, auf den geographischen <lb/>Aufschlüssen die durch
-                    astronomische Ortsbestimm-<lb/>ungen unterstüzt
-                    sind; <ref xml:id="bf5816ed-de2c-4f15-9816-edde2c3f1550" corresp="#b78d0d0f-a868-4f0f-8d0d-0fa868ff0fd5">auf der Zahl magne<lb/>tischer, in <placeName ref="https://www.geonames.org/1269750">Indien</placeName> selbst publicirter Beobachtun<lb/>gen</ref>
-                    <note xml:id="b78d0d0f-a868-4f0f-8d0d-0fa868ff0fd5" corresp="#bf5816ed-de2c-4f15-9816-edde2c3f1550">Vgl. <bibl corresp="https://edition-humboldt.de/v8/AJWFZ4J7">Schlagintweit, H.
-                            1856</bibl>.</note>, auf den HöhenMessungen und meteorolo-<lb/>gischen Arbeiten, die Sie vollbracht und gesamlet<supplied cert="high">,</supplied>
-                    <lb/>auf der Bereicherung unserer botanischen, zoo-<lb/>logischen<supplied cert="high">,</supplied>
+                    astronomische Ortsbestimm<g ref="#typoHyphen"/>
+                    <lb break="no"/>ungen unterstüzt
+                    sind; <ref xml:id="f93cd6dc-a3a6-411e-bcd6-dca3a6111e4a" corresp="#db128710-bdb3-41f6-9287-10bdb341f6aa">auf der Zahl magne<lb break="no"/>tischer, in <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> selbst publicirter Beobachtun<lb break="no"/>gen</ref>
+                    <note xml:id="db128710-bdb3-41f6-9287-10bdb341f6aa" corresp="#f93cd6dc-a3a6-411e-bcd6-dca3a6111e4a" resp="#LM">Vgl. <bibl corresp="https://edition-humboldt.de/AJWFZ4J7">Schlagintweit, H.
+                            1856</bibl>.</note>, auf den HöhenMessungen und meteorolo<g ref="#typoHyphen"/>
+                    <lb break="no"/>gischen Arbeiten, die Sie vollbracht und gesamlet<supplied cert="high">,</supplied>
+                    <lb/>auf der Bereicherung unserer botanischen, zoo<g ref="#typoHyphen"/>
+                    <lb break="no"/>logischen<supplied cert="high">,</supplied>
                     <del rendition="#s">und</del> geologischen und et<supplied cert="high">h</supplied>nographischen <lb/>Sammlungen. Sie haben in jener fernen Zone
-                    <lb/>mehr geleistet als das was <persName ref="http://d-nb.info/gnd/116817569">Leopold von
+                    <lb/>mehr geleistet als das was <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Leopold von
                         Buch</persName>
                     <supplied cert="high">,</supplied>
                     <lb/>
@@ -106,15 +130,15 @@
                         <abbr>Prof.</abbr>
                         <expan>Professor</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/11860130X">Ritter</persName>
-                    <add place="superlinear">und ich</add> auf Ihre <ref xml:id="f06d520d-ae46-4a64-ad52-0dae46ca64e9" corresp="#f5697677-1e8c-46d2-a976-771e8cc6d2cf">zwei grossen Werke <lb/>über die westlichen und östlichen <placeName ref="https://www.geonames.org/2661786">Alpen</placeName>
+                    <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Ritter</persName>
+                    <add place="superlinear">und ich</add> auf Ihre <ref xml:id="d6e2f3ee-fdbb-4646-a2f3-eefdbb2646f6" corresp="#cd1e64eb-7131-4b91-9e64-eb71318b911b">zwei grossen Werke <lb/>über die westlichen und östlichen <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
                     </ref>
-                    <note xml:id="f5697677-1e8c-46d2-a976-771e8cc6d2cf" corresp="#f06d520d-ae46-4a64-ad52-0dae46ca64e9"> Die von Hermann und Adolph
+                    <note xml:id="cd1e64eb-7131-4b91-9e64-eb71318b911b" corresp="#d6e2f3ee-fdbb-4646-a2f3-eefdbb2646f6" resp="#UP"> Die von Hermann und Adolph
                             Schlagintweit verfassten <hi rendition="#i">Untersuchungen über die
-                                physicalische Geographie der Alpen</hi> (<bibl corresp="https://edition-humboldt.de/v8/CU8W2N3I">Schlagintweit, H./Schlagintweit, A.
+                                physicalische Geographie der Alpen</hi> (<bibl corresp="https://edition-humboldt.de/CU8W2N3I">Schlagintweit, H./Schlagintweit, A.
                                 1850</bibl>) war vor allem den Ostalpen gewidmet, während sich die
                                 <hi rendition="#i">Neue[n] Untersuchungen über die physicalische
-                                Geographie und Geologie der Alpen</hi> (<bibl corresp="https://edition-humboldt.de/v8/IFS9SC2H">Schlagintweit, A./Schlagintweit, H.
+                                Geographie und Geologie der Alpen</hi> (<bibl corresp="https://edition-humboldt.de/IFS9SC2H">Schlagintweit, A./Schlagintweit, H.
                                 1854</bibl>)auf die Westalpen konzentrierten.</note> gestüzt <lb/>von Ihnen erwarten konnten! Ich habe noch vor <lb/>wenigen
                     Tagen in die Hände des <choice>
                         <abbr>G.O.R.</abbr>
@@ -124,34 +148,35 @@
                         <sic> Raths</sic>
                         <corr type="deleted"/>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/118860283">Schulze</persName>
-                    <lb/>einen eigenhändigen Brief <persName ref="http://d-nb.info/gnd/118535994">
+                    <persName ref="https://editon-humboldt.de/H0015716 http://d-nb.info/gnd/118860283">Schulze</persName>
+                    <lb/>einen eigenhändigen Brief <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">
                         <choice>
                             <abbr>Sr</abbr>
                             <expan>Seiner</expan>
-                        </choice> Majestät</persName> an mich <lb/>von <placeName ref="https://www.geonames.org/3071024">Marienbad</placeName> gerichtet, gelegt in der Hofnung<supplied cert="high">,</supplied>
+                        </choice> Majestät</persName> an mich <lb/>von <placeName ref="https://editon-humboldt.de/H0017429 https://www.geonames.org/3071024">Marienbad</placeName> gerichtet, gelegt in der Hofnung<supplied cert="high">,</supplied>
                     <lb/>dass durch Vorlegung desselben der Herr Minister <lb/>
-                    <persName ref="http://d-nb.info/gnd/11636503X">von Raumer</persName> seine Antwort beschleunigen
-                        <lb/>werde<supplied cert="high">.</supplied> Als <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName> von <placeName ref="https://www.geonames.org/357994">Aegypten</placeName>
+                    <persName ref="https://editon-humboldt.de/H0000753 http://d-nb.info/gnd/11636503X">von Raumer</persName> seine Antwort beschleunigen
+                        <lb/>werde<supplied cert="high">.</supplied> Als <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName> von <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Aegypten</placeName>
                         zurükkam<supplied cert="high">,</supplied>
                     <lb/>wurde ihm auf Antrag einer akademischen <lb/>
                     <pb n="1v"/>
-                    <ref xml:id="fab1307b-22db-4900-b130-7b22db8900a0" corresp="#a351b079-4719-49a7-91b0-79471929a78f">Commission, deren Mitglied ich war, zur Heraus-<lb/>gabe seines Werkes und für das
+                    <ref xml:id="a9593fec-555f-419b-993f-ec555fc19bd0" corresp="#f8bbc3e0-dfc0-450a-bbc3-e0dfc0050add">Commission, deren Mitglied ich war, zur Heraus<g ref="#typoHyphen"/>
+                        <lb break="no"/>gabe seines Werkes und für das
                                 Mitgebrachte<supplied cert="high">,</supplied>
                             <lb/>die Sammlungen bereichernde Material <lb/>von des <choice>
                                 <abbr>hochsel</abbr>
                                 <expan>hochseligen</expan>
                             </choice>
-                            <persName ref="http://d-nb.info/gnd/118535986">Königs Majestät</persName> eine Summe <lb/>von
+                            <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">Königs Majestät</persName> eine Summe <lb/>von
                                 <measure quantity="20000" unit="reichsthaler">20000
                                 Thalern</measure> bewilligt.</ref>
-                    <note xml:id="a351b079-4719-49a7-91b0-79471929a78f" corresp="#fab1307b-22db-4900-b130-7b22db8900a0">Humboldt empfahl im Namen einer
-                            Kommission der <orgName ref="http://d-nb.info/gnd/35495-8">Königlich Preußischen Akademie
+                    <note xml:id="f8bbc3e0-dfc0-450a-bbc3-e0dfc0050add" corresp="#a9593fec-555f-419b-993f-ec555fc19bd0" resp="#LM">Humboldt empfahl im Namen einer
+                            Kommission der <orgName ref="https://editon-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Königlich Preußischen Akademie
                                 der Wissenschaften zu Berlin</orgName> die Finanzierung eines
-                            Werkes, das die wissenschaftlichen Ergebnisse der Reise <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>s und
-                                <persName ref="http://d-nb.info/gnd/117516376">Wilhelm Hemprich</persName>s durch Teile
+                            Werkes, das die wissenschaftlichen Ergebnisse der Reise <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>s und
+                                <persName ref="https://editon-humboldt.de/H0011778 http://d-nb.info/gnd/117516376">Wilhelm Hemprich</persName>s durch Teile
                             Nordafrikas und Vorderasiens enthalten sollte, durch den preußischen
-                            Staat. Vgl. <bibl corresp="https://edition-humboldt.de/v8/Y3MBCB48">Humboldt 1826d</bibl>,
+                            Staat. Vgl. <bibl corresp="https://edition-humboldt.de/Y3MBCB48">Humboldt 1826d</bibl>,
                             133f.</note> Für solche <lb/>Comissionen und Berichte <choice>
                         <sic>und </sic>
                         <corr type="deleted"/>
@@ -159,7 +184,7 @@
                     <subst>
                         <del rendition="#s">Commissionen</del>
                         <add place="intralinear">
-                            <lb/>einer <orgName ref="http://d-nb.info/gnd/35495-8">Akademie</orgName>
+                            <lb/>einer <orgName ref="https://editon-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Akademie</orgName>
                         </add>
                     </subst> ist jezt, um Gefahr abzuwenden, <lb/>keine Zeit, aber die auf einmale
                     Bewilligung <lb/>von <measure quantity="10000" unit="reichsthaler">10.000</measure> bis <measure quantity="12000" unit="reichsthaler">12000
@@ -174,7 +199,7 @@
                     </signed>
                 </closer>
                 <postscript>
-                    <p>Der <persName ref="http://d-nb.info/gnd/118632884">
+                    <p>Der <persName ref="https://editon-humboldt.de/H0002173 http://d-nb.info/gnd/118632884">
                             <choice>
                                 <abbr>Pr.</abbr>
                                 <expan>Prinz</expan>
@@ -187,41 +212,41 @@
                             <abbr>Kön.</abbr>
                             <expan>Königliche</expan>
                         </choice> Hoheit <lb/>wird auch mit Freuden durch <lb/>mich vernehmen dass
-                        der <lb/>Herr <persName ref="http://d-nb.info/gnd/119418134">Grossherzog von Weimar</persName>
-                        <lb/>erstaunt über den Reichthum <lb/>Ihrer Samlungen in <placeName ref="https://edition-humboldt.de/v8/H0008934">Monbijou</placeName>
+                        der <lb/>Herr <persName ref="https://editon-humboldt.de/H0015371 http://d-nb.info/gnd/119418134">Grossherzog von Weimar</persName>
+                        <lb/>erstaunt über den Reichthum <lb/>Ihrer Samlungen in <placeName ref="https://editon-humboldt.de/H0008934">Monbijou</placeName>
                         <lb/>
-                        <ref xml:id="ff8410ba-f370-403a-8410-baf370503a9c" corresp="#a2a7836a-7ed1-4d02-a783-6a7ed15d02bc">Ihnen beiden
+                        <ref xml:id="ef3b88ee-9521-481b-bb88-ee9521581b73" corresp="#cb6cae54-25e6-4dcc-acae-5425e64dcc93">Ihnen beiden
                                 seinen
                                 Orden <lb/>verliehen hat.</ref>
-                        <note xml:id="a2a7836a-7ed1-4d02-a783-6a7ed15d02bc" corresp="#ff8410ba-f370-403a-8410-baf370503a9c">
-                            <persName ref="http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="http://d-nb.info/gnd/118795090">Robert
+                        <note xml:id="cb6cae54-25e6-4dcc-acae-5425e64dcc93" corresp="#ef3b88ee-9521-481b-bb88-ee9521581b73" resp="#LM">
+                            <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert
                                     Schlagintweit</persName> hatten vom Großherzog von
                                 Sachsen-Weimar-Eisenach Carl Alexander den <hi rendition="#i">Hausorden der Wachsamkeit oder vom Weißen Falken</hi> des
-                                Großherzogtums Sachsen-Weimar verliehen bekommen. Vgl. <bibl corresp="https://edition-humboldt.de/v8/2E43XT2Z">Königreich Bayern 1867</bibl>,
-                                141. Siehe auch: <ref target="H0016449">Robert Schlagintweit an
+                                Großherzogtums Sachsen-Weimar verliehen bekommen. Vgl. <bibl corresp="https://edition-humboldt.de/2E43XT2Z">Königreich Bayern 1867</bibl>,
+                                141. Siehe auch: <ref target="https://edition-humboldt.de/H0016449">Robert Schlagintweit an
                                     Alexander von Humboldt, [Berlin, 12. Februar 1858].</ref>
                         </note>
                     </p>
-                    <p>Die <ref xml:id="c7dbcc24-413a-4fc8-9bcc-24413a6fc889" corresp="#cbfa07ec-766e-4a2f-ba07-ec766eca2f0d">Sammlung von <persName ref="http://d-nb.info/gnd/116817569">
+                    <p>Die <ref xml:id="b94d6172-e3fe-46c6-8d61-72e3fef6c6c1" corresp="#acd6c255-ab73-4ae0-96c2-55ab734ae0e9">Sammlung von <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">
                                 <choice>
                                         <abbr>Leop.</abbr>
                                         <expan>Leopold</expan>
                                     </choice> von <lb/>Buch</persName>
                         </ref>
-                        <note xml:id="cbfa07ec-766e-4a2f-ba07-ec766eca2f0d" corresp="#c7dbcc24-413a-4fc8-9bcc-24413a6fc889">Vgl. <bibl corresp="https://edition-humboldt.de/v8/TMUVA6FB">Buch 1825</bibl>.</note> ist mit <measure quantity="16000" unit="reichsthaler">16000</measure>, <ref xml:id="fb606e39-fb08-4797-a06e-39fb083797d5" corresp="#d27a8658-104d-4414-ba86-58104d1414d9">
+                        <note xml:id="acd6c255-ab73-4ae0-96c2-55ab734ae0e9" corresp="#b94d6172-e3fe-46c6-8d61-72e3fef6c6c1" resp="#LM">Vgl. <bibl corresp="https://edition-humboldt.de/TMUVA6FB">Buch 1825</bibl>.</note> ist mit <measure quantity="16000" unit="reichsthaler">16000</measure>, <ref xml:id="ec1a993e-8964-4a46-9a99-3e89640a4689" corresp="#b934a76b-f9b9-4a59-b4a7-6bf9b9aa59ef">
                             <lb/>die orientalische von <lb/>
-                            <persName ref="http://d-nb.info/gnd/119278294">Sprenger</persName> voriges Jahr <lb/>mit <measure quantity="32000" unit="reichsthaler">32000 Thalern</measure>
+                            <persName ref="https://editon-humboldt.de/H0016020 http://d-nb.info/gnd/119278294">Sprenger</persName> voriges Jahr <lb/>mit <measure quantity="32000" unit="reichsthaler">32000 Thalern</measure>
                                 <lb/>erkauft worden<supplied cert="high">.</supplied>
                         </ref>
-                        <note xml:id="d27a8658-104d-4414-ba86-58104d1414d9" corresp="#fb606e39-fb08-4797-a06e-39fb083797d5">Aloys Sprenger sammelte
-                                Handschriften in Arabisch, Persisch und Urdu, die <persName ref="http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV.</persName> 1857 für die
-                                    <orgName ref="http://d-nb.info/gnd/37101-4">Königliche Bibliothek</orgName>
+                        <note xml:id="b934a76b-f9b9-4a59-b4a7-6bf9b9aa59ef" corresp="#ec1a993e-8964-4a46-9a99-3e89640a4689" resp="#LM">Aloys Sprenger sammelte
+                                Handschriften in Arabisch, Persisch und Urdu, die <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV.</persName> 1857 für die
+                                    <orgName ref="https://editon-humboldt.de/H0000561 http://d-nb.info/gnd/37101-4">Königliche Bibliothek</orgName>
                                 erwarb.</note>
                         <lb/>Die
-                        Herausgabe <ref xml:id="f1b01317-707a-47c9-b013-17707aa7c983" corresp="#e1bf9186-e4a6-4377-bf91-86e4a6037727">des <lb/>vortreflichen Werkes <lb/>von <persName ref="http://d-nb.info/gnd/118727699">Lepsius</persName> über <lb/>
-                            <placeName ref="https://www.geonames.org/357994">Aegypten</placeName>
+                        Herausgabe <ref xml:id="a19b3432-edde-420f-9b34-32eddea20f65" corresp="#f6f3ccbb-0211-469f-b3cc-bb0211569f89">des <lb/>vortreflichen Werkes <lb/>von <persName ref="https://editon-humboldt.de/H0004470 http://d-nb.info/gnd/118727699">Lepsius</persName> über <lb/>
+                            <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Aegypten</placeName>
                         </ref>
-                        <note xml:id="e1bf9186-e4a6-4377-bf91-86e4a6037727" corresp="#f1b01317-707a-47c9-b013-17707aa7c983">Vgl. <bibl corresp="https://edition-humboldt.de/v8/3CCTFIZV">Lepsius 1849–1859</bibl>.</note> übersteigt <measure quantity="60000" unit="reichsthaler">
+                        <note xml:id="f6f3ccbb-0211-469f-b3cc-bb0211569f89" corresp="#a19b3432-edde-420f-9b34-32eddea20f65" resp="#LM">Vgl. <bibl corresp="https://edition-humboldt.de/3CCTFIZV">Lepsius 1849–1859</bibl>.</note> übersteigt <measure quantity="60000" unit="reichsthaler">
                             <lb/>60.000
                             Thaler</measure>.</p>
                 </postscript>

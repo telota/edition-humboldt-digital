@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015189">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,15 +28,20 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von; Klaproth, Heinrich Julius: A – Sur le mays, hg. v. Ulrich Päßler unter Mitarbeit von Abdurishid Yakup. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015189">https://edition-humboldt.de/v8/H0015189</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015189</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015189</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015189.xml</idno>
             </publicationStmt>
             <notesStmt>
@@ -52,31 +57,45 @@
                             <quote>Aurez vous l'extrême bonté pour moi de faire dans ces mêmes vues
                             quelques recherches sur le nom actuel de maïs en chinois, mantchoux,
                             Japonais ou quelque autre langue de l'Asie orientale.</quote>
-                        (undatiertes Schreiben in: <bibl corresp="https://edition-humboldt.de/v8/5VJRG3EF">Walravens
+                        (undatiertes Schreiben in: <bibl corresp="https://edition-humboldt.de/5VJRG3EF">Walravens
                             2002</bibl>, 122). Klaproth zeigt, dass es sich bei den Benennungen für
                         Mais in den Sprachen Ostasiens lediglich um Umschreibungen handelt. Im
                         westlichen Asien hingegen ließen sich Eigennamen nachweisen. Humboldt
                         veröffentlichte Klaproths Angaben zur Etymologie des Mais im Chinesischen in
                         Band 2 der zweiten Auflage seines <hi rendition="#i">Essai politique sur le Royaume de la
-                        Nouvelle-Espagne</hi>, der Ende 1826 erschien (<bibl corresp="https://edition-humboldt.de/v8/SUIPEAN3">Humboldt 1825–1827</bibl>, II, 409; vgl.
-                            <bibl corresp="https://edition-humboldt.de/v8/384RP7BM">Fiedler/Leitner 2000</bibl>, 192).
+                        Nouvelle-Espagne</hi>, der Ende 1826 erschien (<bibl corresp="https://edition-humboldt.de/SUIPEAN3">Humboldt 1825–1827</bibl>, II, 409; vgl.
+                            <bibl corresp="https://edition-humboldt.de/384RP7BM">Fiedler/Leitner 2000</bibl>, 192).
                         In Carl Sigismund Kunths
-                            <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der
+                            <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe der Geographie der
                             Pflanzen</ref> wird auf das Manuskript unter „No. 11
                         Kultivirte Pflanzen Mays u. Musa s. Klaproth“ (Sigle <ref xml:id="ed_hfr_5vr_z1b" type="siglum" target="#Geographie_der_Pflanzen_A">A</ref>) verwiesen. </p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>A – Sur le mays. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015189</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 13, Nr. 31, Bl. 1–3</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1448777</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                <persName ref="http://d-nb.info/gnd/10082451X">Klaproth, Heinrich Julius (1783–1835)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <persName ref="https://editon-humboldt.de/H0001337 http://d-nb.info/gnd/10082451X">Klaproth, Heinrich Julius (1783–1835)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date notBefore="1820-01-01" notAfter="1826-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -91,20 +110,20 @@
                     </p>
                     <p>Sur le mays.</p>
                     <p>
-                        <bibl corresp="https://edition-humboldt.de/v8/EX5JIDMV">Crawford <subst>
+                        <bibl corresp="https://edition-humboldt.de/EX5JIDMV">Crawford <subst>
                                 <del rendition="#s">III</del>
                                 <add place="intralinear">I</add>
                             </subst>366</bibl>
                     </p>
                     <p>
-                        <ref xml:id="c7f7a627-4713-4662-b7a6-274713d662e4" corresp="#efc03e1e-a85a-4f89-803e-1ea85a1f890d">
-                            <hi rendition="#u">bananes</hi> gegen <lb/>mich <bibl corresp="https://edition-humboldt.de/v8/EX5JIDMV">Crawford I <choice>
+                        <ref xml:id="f0577854-1de0-46d5-9778-541de0c6d576" corresp="#e9ac5a2f-0be1-430a-ac5a-2f0be1c30a68">
+                            <hi rendition="#u">bananes</hi> gegen <lb/>mich <bibl corresp="https://edition-humboldt.de/EX5JIDMV">Crawford I <choice>
                                         <abbr>p</abbr>
                                         <expan>page</expan>
                                     </choice>
                                     4"</bibl>
                         </ref>
-                        <note xml:id="efc03e1e-a85a-4f89-803e-1ea85a1f890d" corresp="#c7f7a627-4713-4662-b7a6-274713d662e4">
+                        <note xml:id="e9ac5a2f-0be1-430a-ac5a-2f0be1c30a68" corresp="#f0577854-1de0-46d5-9778-541de0c6d576">
                             <quote>‚The banana,‘ says the Baron
                             Humboldt, ‚is for all the inhabitants of the torrid zone what
                                     the cereal gramina, wheat, barley, and rye, are for the western
@@ -122,7 +141,7 @@
                         <unclear reason="illegible" cert="low">Abdallith</unclear>
                     </p>
                     <p>phalam</p>
-                    <p>palam de <persName ref="http://d-nb.info/gnd/118595083">Plinius</persName>
+                    <p>palam de <persName ref="https://editon-humboldt.de/H0002035 http://d-nb.info/gnd/118595083">Plinius</persName>
                         <supplied cert="high">,</supplied>
                         <lb/>san<supplied cert="high">s</supplied> doute fruit</p>
                     <p>Musa de موز</p>
@@ -132,7 +151,7 @@
                     <p>banana de barana</p>
                     <p>pisang Malay.</p>
                     <p>
-                        <bibl corresp="https://edition-humboldt.de/v8/EX5JIDMV">
+                        <bibl corresp="https://edition-humboldt.de/EX5JIDMV">
                             <choice>
                                 <abbr>Crawf.</abbr>
                                 <expan>Crawfurd</expan>
@@ -147,7 +166,7 @@
                         <hi rendition="#u">pandang</hi>
                     </p>
                     <p>
-                        <bibl corresp="https://edition-humboldt.de/v8/EX5JIDMV">
+                        <bibl corresp="https://edition-humboldt.de/EX5JIDMV">
                             <choice>
                                 <abbr>Crawf.</abbr>
                                 <expan>Crawfurd</expan>
@@ -161,7 +180,7 @@
                     </choice> en Chinois 黍蜀玉 <hi rendition="#u">Yu-chu-chu</hi>, ou grain de <hi rendition="#u">Chu</hi>
                     <lb/>qui ressemble à des pierres précieuses. (C’est le <hi rendition="#u">Yu</hi> dont on a tant parlé, <lb/>ou la jade orientale). <supplied cert="high">Le</supplied>
                     <hi rendition="#u">Grain de chu</hi> est <hi rendition="#u">l’épeautre</hi>. <hi rendition="#u">Chu</hi> est l’ancien <lb/>nom de la province de <hi rendition="#u">
-                        <placeName ref="https://www.geonames.org/1794299">Szu-tchhouan</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0018191 https://www.geonames.org/1794299">Szu-tchhouan</placeName>
                     </hi>. Dans
                     le grand herbier qui porte <lb/>le titre Pen-thsao-kang-mon, et qui fut composé
                     vers le milieu <lb/>du XVII<hi rendition="#sup">e</hi>. siècle, il est dit <subst>
@@ -206,7 +225,7 @@
                             <sic>fromment</sic>
                             <corr cert="high">froment</corr>
                         </choice> étranger</hi>.</p>
-                <p>En <placeName ref="https://edition-humboldt.de/v8/H0008643">Mandchou</placeName>
+                <p>En <placeName ref="https://editon-humboldt.de/H0008643">Mandchou</placeName>
                     <supplied cert="high">,</supplied> le nom du Mays est <hi rendition="#u">Aikha-chouchou</hi>,
                     c’est-à-dire grains <lb/>de <choice>
                         <sic>ver</sic>
@@ -216,7 +235,7 @@
                         <add place="across">a</add>
                     </subst> la même signification. <lb/>Tous ces noms ne permettent pas de supposer
                     que cette céréale <lb/>soit connu<supplied cert="high">e</supplied> depuis
-                    longtems dans <placeName ref="https://www.geonames.org/7729894">l’Asie orientale</placeName>.</p>
+                    longtems dans <placeName ref="https://editon-humboldt.de/H0007869 https://www.geonames.org/7729894">l’Asie orientale</placeName>.</p>
                 <p>Cependant une chose bien frappante est qu’en Chinois le <choice>
                         <sic>fromment</sic>
                         <corr cert="high">froment</corr>
@@ -229,7 +248,7 @@
                 </p>
                 <pb n="2v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243568/1200/0/00000004.jpg"/>
                 <p>Autant qu’on doit être surpris que le Mays n’ait pas un nom propre <lb/>dans
-                    <placeName ref="https://www.geonames.org/7729894">l’Asie orientale</placeName>, autant on est étonné
+                    <placeName ref="https://editon-humboldt.de/H0007869 https://www.geonames.org/7729894">l’Asie orientale</placeName>, autant on est étonné
                     d’en trouver plusieurs dans <lb/>la partie occidentale. <table rows="0" cols="2">
                         <row>
                             <cell>En Russe</cell>
@@ -345,7 +364,7 @@
                 </table>
                 <table rows="1" cols="2">
                     <row>
-                        <cell>Turc dans la <placeName ref="https://www.geonames.org/614540">Géorgie</placeName>
+                        <cell>Turc dans la <placeName ref="https://editon-humboldt.de/H0010843 https://www.geonames.org/614540">Géorgie</placeName>
                             <lb/>méridionale}</cell>
                         <cell>
                             <hi rendition="#u">Pegh</hi>ambar-boudari, <choice>
@@ -364,15 +383,16 @@
                 <pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243568/1200/0/00000005.jpg"/>
                 <p>Ich erfahre so eben dass <hi rendition="#u">Kukurus</hi> der gewöhnliche Name des
                         <hi rendition="#u">Mays</hi>
-                    <lb/>im <placeName ref="https://www.geonames.org/2782113">Östreichischen</placeName>, in <placeName ref="https://edition-humboldt.de/v8/H0008517">Mähren</placeName> und anderen Gegenden des <placeName ref="https://edition-humboldt.de/v8/H0010381">südlichen <lb/>Deutschlandes</placeName> ist. </p>
+                    <lb/>im <placeName ref="https://editon-humboldt.de/H0007871 https://www.geonames.org/2782113">Östreichischen</placeName>, in <placeName ref="https://editon-humboldt.de/H0008517">Mähren</placeName> und anderen Gegenden des <placeName ref="https://editon-humboldt.de/H0010381">südlichen <lb/>Deutschlandes</placeName> ist. </p>
                 <p>
                     <hi rendition="#u">Erdäpfel</hi> hat hervorgebracht Ardoffeln,
                         Kartoffeln<supplied cert="high">.</supplied>
                     <lb/>Was das Wort <hi rendition="#u">Trüffeln</hi> anbelangt so ist es neu im
-                        Ita-<lb/>liänischen, und ich glaube es
+                        Ita<g ref="#typoHyphen"/>
+                    <lb break="no"/>liänischen, und ich glaube es
                     stammt von dem Deutschen <lb/>
                     <hi rendition="#u">Erdäpfel</hi> her; denn Gothen
-                    und Langobarden können es <lb/>schon nach <placeName ref="https://www.geonames.org/3175395">Italien</placeName> gebracht haben. </p>
+                    und Langobarden können es <lb/>schon nach <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName> gebracht haben. </p>
                 <p>Tartufi neri oder <hi rendition="#u">tartufoli</hi> sind Trüffeln <lb/>und
                     <lb/>Tartufi bianchi — Kartoffeln<supplied cert="high">.</supplied>
                 </p>
@@ -384,9 +404,9 @@
                     <lb/>Boleti lethi causa fuere tui.<supplied cert="high">“</supplied>
                 </p>
                 <p>
-                    <persName ref="http://d-nb.info/gnd/11857826X">Martial</persName>
+                    <persName ref="https://editon-humboldt.de/H0016392 http://d-nb.info/gnd/11857826X">Martial</persName>
                 </p>
-                <p>Grundbirne (Erdbirne) im <placeName ref="https://www.geonames.org/3038033">Elsas</placeName> hat erzeugt
+                <p>Grundbirne (Erdbirne) im <placeName ref="https://editon-humboldt.de/H0005633 https://www.geonames.org/3038033">Elsas</placeName> hat erzeugt
                     das französische <lb/>Crompire. (<choice>
                         <abbr>Acad</abbr>
                         <expan>Académie</expan>
@@ -411,12 +431,13 @@
                 <pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243568/1200/0/00000006.jpg"/>
                 <p>Bei den Trüffeln muss ich noch den besonderen Umstand <lb/>bemerken, dass die
                     Chinesen dieselben 丸雷 <hi rendition="#u">Luy-huon</hi>,<add place="right"> 實雷
-                            Donner-<lb/>kugel</add>
+                            Donner<g ref="#typoHyphen"/>
+                        <lb break="no"/>kugel</add>
                     <add place="left">
                         <hi rendition="#u">Luy-schy</hi>
                     </add>Donnerfrucht, und 矢雷 <hi rendition="#u">Luy-chy</hi> Donnerkeil nennen,
                     und zu <lb/>glauben scheinen, sie entstünden durch das Einschlagen des
-                    <lb/>Blitzes in den Erdboden.<lb/>
+                    <lb/>Blitzes in den Erdboden.<lb break="no"/>
                 </p>
             </div>
         </body>

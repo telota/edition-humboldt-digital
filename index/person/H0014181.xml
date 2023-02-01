@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014181">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Meyen, Franz Julius Ferdinand</title>
             </titleStmt>
+            <editionStmt>
+                <p>Meyen, Franz Julius Ferdinand [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0014181.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014181.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0014181.xml">
-                    <p>Meyen, Franz Julius Ferdinand [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0014181.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0014181">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/116962437</idno>
                     <persName type="reg">
                         <surname>Meyen</surname>
@@ -44,7 +49,7 @@
                     <note>preußischer Mediziner, Botaniker und Forschungsreisender; nahm auf
                         Alexander von Humboldts Empfehlung als Schiffsarzt der „Princess Louise“ an
                         der preußischen Weltumseglung 1830–1832 teil; ab 1834 außerordentlicher
-                        Professor der Zoologie und Naturgeschichte an der <orgName key="H0000603">Universität zu Berlin</orgName>
+                        Professor der Zoologie und Naturgeschichte an der <orgName ref="https://editon-humboldt.de/H0000603 http://d-nb.info/gnd/1220138-8">Universität zu Berlin</orgName>
                     </note>
                     <linkGrp>
                         <ptr target="27#89" type="page"/>

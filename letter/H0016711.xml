@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016711">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [23. Januar
+               1844] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016711">https://edition-humboldt.de/v8/H0016711</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016711</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016711</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016711.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [23. Januar
-               1844] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016711</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">143</idno>
+                     <idno type="shelfmark">421, Bl. 256r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1844-01-23">1844-01-23</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Briefe Nr. 142, 145; E. hat in der öffentlichen Sitzung zur
                Feier des Jahrestages Friedrichs II. vom Donnerstag, 25.1.1844 über den
@@ -70,13 +88,14 @@
                <lb/>nach Gefallen abkürzen können. <lb/>Ich bitte die Note abschreiben zu lassen
                <lb/>weil sie Ihnen gewiss Schwierigkeit <lb/>zum Verlesen machen wird<supplied cert="high">.</supplied>
                 </p>
-            <p>Ich habe Ihnen aber die <lb/>unfreudige Nachricht zu geben, <lb/>dass der <persName>König</persName> höchst wahrschein<lb/>lich (wenn nicht etwa
+            <p>Ich habe Ihnen aber die <lb/>unfreudige Nachricht zu geben, <lb/>dass der <persName ref="https://editon-humboldt.de/">König</persName> höchst wahrschein<lb break="no"/>lich (wenn nicht etwa
                plözlich <lb/>Thauwetter eintritt), unserer <lb/>feierlichen, hundertjährigen Sizung
-               <lb/>nicht beiwohnen wird. Er ist <lb/>gestern in grosse Klagen ausge<lb/>brochen; er hat die Feier <lb/>vergessen, ob gleich man ihn <lb/>vorige Woche noch
+               <lb/>nicht beiwohnen wird. Er ist <lb/>gestern in grosse Klagen ausge<lb break="no"/>brochen; er hat die Feier <lb/>vergessen, ob gleich man ihn <lb/>vorige Woche noch
                daran erinnerte. <lb/>Er hätte Sie gern gehört, auch <lb/>der Neu Platonismus von
-                  <persName ref="http://d-nb.info/gnd/118738240">Neander</persName>
+                  <persName ref="https://editon-humboldt.de/H0004925 http://d-nb.info/gnd/118738240">Neander</persName>
                <lb/>– aber, aber das schöne <lb/>Wetter, er geht mit allen Prinzen <lb/>auf drei
-               Tage nach <placeName ref="https://www.geonames.org/2953458">Freyen-<lb/>walde</placeName> auf die Jagd. Cosi va <lb/>il mondo.</p>
+               Tage nach <placeName ref="https://editon-humboldt.de/H0017542 https://www.geonames.org/2953458">Freyen<g ref="#typoHyphen"/>
+                        <lb break="no"/>walde</placeName> auf die Jagd. Cosi va <lb/>il mondo.</p>
             <closer rend="paragraph">
                     <salute>Dankbarst</salute>
                 <lb/>
@@ -85,12 +104,12 @@
             </closer>
             <postscript>
                <p>Ich hatte keine <lb/>Ahnung von dieser <lb/>Jagd da wegen Krankheit <lb/>des
-                     <persName>Königs</persName> es so <lb/>unwahrscheinlich war<supplied cert="high">.</supplied>
+                     <persName ref="https://editon-humboldt.de/">Königs</persName> es so <lb/>unwahrscheinlich war<supplied cert="high">.</supplied>
                   <lb/>Möge es thauen! <lb/>Den Stein <choice>
                      <abbr>u</abbr>
                      <expan>und</expan>
                   </choice> die <lb/>Acten übergeben Sie <lb/>theurer Freund, an <lb/>
-                        <persName ref="http://d-nb.info/gnd/118806556">Weiss</persName>.</p>
+                        <persName ref="https://editon-humboldt.de/H0006306 http://d-nb.info/gnd/118806556">Weiss</persName>.</p>
             </postscript>
          </div>
       </body>

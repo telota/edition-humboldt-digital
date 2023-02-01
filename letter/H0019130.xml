@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019130">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -31,30 +31,50 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Adolph Schlagintweit an Alexander von Humboldt. Sangor, 15. Dezember 1855, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019130">https://edition-humboldt.de/v8/H0019130</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019130</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019130</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019130.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Adolph Schlagintweit an Alexander von Humboldt. Sangor, 15. Dezember 1855. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019130</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Bayerische Staatsbibliothek</institution>
+                        <repository>Abteilung Handschriften und Alte Drucke</repository>
+                        <collection>Schlagintweitiana</collection>
+                        <idno>
+                            <idno type="shelfmark">II.1.43, 209r–214v</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118755234">Schlagintweit, Adolph von (1829-1857)</persName>
-                    <placeName ref="https://www.geonames.org/11625639">Sangor (Dorf in der Provinz in der Provinz
+                    <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Schlagintweit, Adolph von (1829-1857)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0018748 https://www.geonames.org/11625639">Sangor (Dorf in der Provinz in der Provinz
                         Jharkand (Indien))</placeName>
                     <date when="1855-12-15" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -69,32 +89,32 @@
                 <opener>
                     <salute>Euere Exzellenz!</salute>
                 </opener>
-                <p>Wir hatten von <placeName ref="https://www.geonames.org/1279259">Agra</placeName> aus die Ehre einen<lb/>
-                    ausführlicheren Bericht über den Fortgang unserer<lb/> Reise an <persName ref="http://d-nb.info/gnd/118535994">
+                <p>Wir hatten von <placeName ref="https://editon-humboldt.de/H0017272 https://www.geonames.org/1279259">Agra</placeName> aus die Ehre einen<lb/>
+                    ausführlicheren Bericht über den Fortgang unserer<lb/> Reise an <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">
                         <choice>
                             <abbr>S.</abbr>
                             <expan>Seine</expan>
                         </choice> Majestät den König</persName> abzusenden. Wir<lb/> waren in
-                        <placeName ref="https://www.geonames.org/1279259">Agra</placeName> so sehr mit Geschäften überhäuft,
+                        <placeName ref="https://editon-humboldt.de/H0017272 https://www.geonames.org/1279259">Agra</placeName> so sehr mit Geschäften überhäuft,
                     daß<lb/> wir uns damals das Vergnügen versagen mußten<lb/> mit der eben
                     abgesandten Post einige Zeilen an<lb/> Euere Exzellenz zu senden.</p>
-                <p>Wir verließen <placeName ref="https://www.geonames.org/1262374">Muhsoorie</placeName> am 9<supplied cert="high">.</supplied> November, blieben<lb/> einige Tage in <placeName ref="https://www.geonames.org/6954188">Dehra</placeName> am Fuße des <placeName ref="https://www.geonames.org/1252558">Gebirges</placeName> und gingen<lb/> von hier über <placeName ref="https://www.geonames.org/1258044">Rurki</placeName>, <ref xml:id="d7109575-dbbc-4dc1-9095-75dbbcddc16b" corresp="#cf3c9fe5-badf-4f95-bc9f-e5badfcf95be">wo der große <subst>
+                <p>Wir verließen <placeName ref="https://editon-humboldt.de/H0018712 https://www.geonames.org/1262374">Muhsoorie</placeName> am 9<supplied cert="high">.</supplied> November, blieben<lb/> einige Tage in <placeName ref="https://editon-humboldt.de/H0018822 https://www.geonames.org/6954188">Dehra</placeName> am Fuße des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Gebirges</placeName> und gingen<lb/> von hier über <placeName ref="https://editon-humboldt.de/H0018473 https://www.geonames.org/1258044">Rurki</placeName>, <ref xml:id="f456c4ab-984b-4e11-96c4-ab984b2e11e1" corresp="#fa6e652f-fd2a-41b4-ae65-2ffd2af1b405">wo der große <subst>
                                 <del rendition="#s">Ganges Tha</del>
                                 <add place="intralinear">
-                                <placeName ref="https://www.geonames.org/1202950">Ganges</placeName>canal</add>
+                                <placeName ref="https://editon-humboldt.de/H0010808 https://www.geonames.org/1202950">Ganges</placeName>canal</add>
                             </subst>
                         <lb/> uns manche gute Durchschnitte zu geologischen
                             Beobachtungen<lb/> darbot</ref>
-                    <note xml:id="cf3c9fe5-badf-4f95-bc9f-e5badfcf95be" corresp="#d7109575-dbbc-4dc1-9095-75dbbcddc16b">Der Bau eines Kanalsystems in den
+                    <note xml:id="fa6e652f-fd2a-41b4-ae65-2ffd2af1b405" corresp="#f456c4ab-984b-4e11-96c4-ab984b2e11e1">Der Bau eines Kanalsystems in den
                             Jahren 1848–1854 diente der Bewässerung der Region zwischen den Flüssen
-                                <placeName ref="https://www.geonames.org/1202950">Ganges</placeName> und <placeName ref="https://www.geonames.org/1252798">Yamuna</placeName>. Vgl. <bibl corresp="https://edition-humboldt.de/v8/LZSLPV2X">Vernon-Harcourt 2015</bibl>,
-                            439.</note>, nach <placeName ref="https://www.geonames.org/1279259">Agra</placeName>. Wir verließen
-                        <placeName ref="https://www.geonames.org/1279259">Agra</placeName> am 29<hi rendition="#sup">
+                                <placeName ref="https://editon-humboldt.de/H0010808 https://www.geonames.org/1202950">Ganges</placeName> und <placeName ref="https://editon-humboldt.de/H0016350 https://www.geonames.org/1252798">Yamuna</placeName>. Vgl. <bibl corresp="https://edition-humboldt.de/LZSLPV2X">Vernon-Harcourt 2015</bibl>,
+                            439.</note>, nach <placeName ref="https://editon-humboldt.de/H0017272 https://www.geonames.org/1279259">Agra</placeName>. Wir verließen
+                        <placeName ref="https://editon-humboldt.de/H0017272 https://www.geonames.org/1279259">Agra</placeName> am 29<hi rendition="#sup">
                         <hi rendition="#u">sten</hi>
                     </hi>
                     <lb/> November um während der kalten
                     Jahreszeit unsere<lb/> Beobachtungen in den Gebirgszügen von Central-<lb/>
-                    <placeName ref="https://www.geonames.org/1269750">Indien</placeName> fortzusetzen. Wie im vergangenen
+                    <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> fortzusetzen. Wie im vergangenen
                     Jahre<lb/> haben wir wieder Camele zum Transport der Zelte und<lb/> des Gepäckes
                     genom̅en, <subst>
                         <del rendition="#s">währ</del>
@@ -107,7 +127,7 @@
                             <expan>englische</expan>
                         </choice> Meilen</measure> in einem Tage zu machen,<lb/> eine bei der
                     indischen Art zu reisen, ziemlich<lb/> bedeutende Distanz.</p>
-                <p>In diesem Theile von <placeName ref="https://www.geonames.org/1269750">Indien</placeName> kann man
+                <p>In diesem Theile von <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> kann man
                     wirklich von<lb/> einer kalten Jahreszeit sprechen; die Nächte<lb/> und Morgen
                     bei +6 bis 7° <choice>
                         <abbr>Cels.</abbr>
@@ -119,15 +139,16 @@
                     <add place="superlinear">im Schatten</add> wird die indische<lb/> Sonne kräftig
                     genug, um den Europäer, der sich zu viel<lb/> im Freien bewegt, daran zu
                     erinnern, daß er sich in<lb/> einem fremden, tropischen Clima befindet.<lb/>
-                    Mein Bruder <persName ref="http://d-nb.info/gnd/118795090">Robert</persName> und ich trafen im
+                    Mein Bruder <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> und ich trafen im
                     beßten<lb/> Wohlsein am 7<supplied cert="high">.</supplied>
                     <choice>
                         <abbr>Dec.</abbr>
                         <expan>December</expan>
-                    </choice> in <placeName ref="https://www.geonames.org/1269006">C̡hia͡nsi</placeName>
+                    </choice> in <placeName ref="https://editon-humboldt.de/H0018627 https://www.geonames.org/1269006">C̡hia͡nsi</placeName>
                     ein. Wir fanden<lb/> unterwegs manche geologische Erscheinungen, die<lb/> uns
-                    durch ihre große Ähnlichkeit mit den<lb/> Verhältnissen in Süd-<placeName ref="https://www.geonames.org/1269750">Indien</placeName> sehr überraschten.<lb/> In beiden Fällen
-                    tritt eine ausgedehnte Granit-<lb/>formation mit
+                    durch ihre große Ähnlichkeit mit den<lb/> Verhältnissen in Süd-<placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> sehr überraschten.<lb/> In beiden Fällen
+                    tritt eine ausgedehnte Granit<g ref="#typoHyphen"/>
+                    <lb break="no"/>formation mit
                     zahlreichen Granitkuppen von<lb/> concentrisch-schaliger Absonderung auf;
                     rings<lb/> um diese <hi rendition="#u" resp="#addressee">Granitplateaus</hi>
                     breiten sich horizontale<lb/>
@@ -139,7 +160,7 @@
                     <figure facs="TS2/H_Schlagintweits/Bundelkhand.jpg" hand="#H0012069">
                         <list>
                             <head>
-                                <placeName ref="https://www.geonames.org/1275105">Bundelkund</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0018619 https://www.geonames.org/1275105">Bundelkund</placeName>
                             </head>
                             <item>Tertiär <lb/>Steinkohle</item>
                             <item>
@@ -156,11 +177,11 @@
                                 <lb/> des Jura</item>
                             <item>Granit</item>
                         </list>
-                        <figDesc>Humboldts Schnittdarstellung der Gesteinsschichten bei <placeName ref="https://www.geonames.org/1275105">Bundelkhand</placeName> nach den brieflichen
+                        <figDesc>Humboldts Schnittdarstellung der Gesteinsschichten bei <placeName ref="https://editon-humboldt.de/H0018619 https://www.geonames.org/1275105">Bundelkhand</placeName> nach den brieflichen
                             Angaben von Adolph Schlagintweit</figDesc>
                     </figure>
                     <lb/>
-                    <pb n="210r"/>hier in <placeName ref="https://www.geonames.org/1275105">Bundelcund</placeName> als
+                    <pb n="210r"/>hier in <placeName ref="https://editon-humboldt.de/H0018619 https://www.geonames.org/1275105">Bundelcund</placeName> als
                     in Südindien<lb/> das diamantenführende Gestein, und in<lb/> beiden Localitäten
                     ruhen sie in übergreifender<lb/> Lagerung auf (gestörten) <choice>
                         <abbr>u</abbr>
@@ -175,30 +196,30 @@
                     <choice>
                         <abbr>Dec.</abbr>
                         <expan>December</expan>
-                    </choice> die Station <placeName ref="https://www.geonames.org/1257845">Sager</placeName>
+                    </choice> die Station <placeName ref="https://editon-humboldt.de/H0018737 https://www.geonames.org/1257845">Sager</placeName>
                     <lb/> zu
                     erreichen; von dort aus werden mein Bruder<lb/>
-                    <persName ref="http://d-nb.info/gnd/118795090">Robert</persName> und ich verschiedene Wege verfolgen.<lb/>
-                    <persName ref="http://d-nb.info/gnd/118795090">Robert</persName> beabsichtiget von <placeName ref="https://www.geonames.org/1257845">Sager</placeName> über <placeName ref="https://www.geonames.org/1269939">Hosungabad</placeName>
-                    <lb/> nach <placeName ref="https://www.geonames.org/1276389">Baitul</placeName> zu gehen um ein Profil der<lb/>
-                    <placeName ref="https://www.geonames.org/1257009">Satpura Berge</placeName> am Südufer der
-                        <placeName ref="https://www.geonames.org/1261774">Nerbudda</placeName> zu<lb/> erhalten, von
-                    dort wird er nach <placeName ref="https://edition-humboldt.de/v8/H0018624">Jubulpoor</placeName>
+                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> und ich verschiedene Wege verfolgen.<lb/>
+                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> beabsichtiget von <placeName ref="https://editon-humboldt.de/H0018737 https://www.geonames.org/1257845">Sager</placeName> über <placeName ref="https://editon-humboldt.de/H0018813 https://www.geonames.org/1269939">Hosungabad</placeName>
+                    <lb/> nach <placeName ref="https://editon-humboldt.de/H0018599 https://www.geonames.org/1276389">Baitul</placeName> zu gehen um ein Profil der<lb/>
+                    <placeName ref="https://editon-humboldt.de/H0018761 https://www.geonames.org/1257009">Satpura Berge</placeName> am Südufer der
+                        <placeName ref="https://editon-humboldt.de/H0019106 https://www.geonames.org/1261774">Nerbudda</placeName> zu<lb/> erhalten, von
+                    dort wird er nach <placeName ref="https://editon-humboldt.de/H0018624">Jubulpoor</placeName>
                     <lb/> und
                     nach dem kleinen Plateau von<lb/>
-                    <placeName ref="https://www.geonames.org/1278905">Umercuntuk</placeName> gehen, welches die
-                    Central Wasserscheide<lb/> zwischen der <placeName ref="https://www.geonames.org/1261774">Nerbudda</placeName> und <placeName ref="https://www.geonames.org/1255729">Sone</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0019058 https://www.geonames.org/1278905">Umercuntuk</placeName> gehen, welches die
+                    Central Wasserscheide<lb/> zwischen der <placeName ref="https://editon-humboldt.de/H0019106 https://www.geonames.org/1261774">Nerbudda</placeName> und <placeName ref="https://editon-humboldt.de/H0018784 https://www.geonames.org/1255729">Sone</placeName>
                     bildet, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> dan̅<lb/> nach <placeName ref="https://www.geonames.org/1279259">Agra</placeName>
+                    </choice> dan̅<lb/> nach <placeName ref="https://editon-humboldt.de/H0017272 https://www.geonames.org/1279259">Agra</placeName>
                     zurückkehren. Ich selbst gehe<lb/>
-                    <pb n="210v"/>direct nach <placeName ref="https://edition-humboldt.de/v8/H0018624">Jubulpoor</placeName>
-                    und <placeName ref="https://www.geonames.org/8131500">Nagpoor</placeName> und<lb/> von da noch
-                    etwas südlicher in die Richtung<lb/> gegen <placeName ref="https://www.geonames.org/1269843">Hyderabad</placeName> im <placeName ref="https://www.geonames.org/1273342">Deccan</placeName>.</p>
+                    <pb n="210v"/>direct nach <placeName ref="https://editon-humboldt.de/H0018624">Jubulpoor</placeName>
+                    und <placeName ref="https://editon-humboldt.de/H0019102 https://www.geonames.org/8131500">Nagpoor</placeName> und<lb/> von da noch
+                    etwas südlicher in die Richtung<lb/> gegen <placeName ref="https://editon-humboldt.de/H0018819 https://www.geonames.org/1269843">Hyderabad</placeName> im <placeName ref="https://editon-humboldt.de/H0005497 https://www.geonames.org/1273342">Deccan</placeName>.</p>
                 <p rendition="#mMM" resp="addressee">Ich erlaube mir zum Schlusse Sie noch<lb/> mit einer Bitte zu
                     belästigen. Es wäre<lb/> uns besonders für die Beobachtungen im<lb/>
-                    <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -206,10 +227,10 @@
                     <del rendition="#s">
                         <gap reason="illegible" quantity="2" unit="chars"/>
                     </del> in
-                        <placeName ref="https://www.geonames.org/1279685">Tibet</placeName> von sehr großem<lb/> Nutzen wenn
-                    wir 3 kleine gut getheilte<lb/> Theodoliten aus <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> erhalten könnten.<lb/> Wir besitzen zwei große
+                        <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> von sehr großem<lb/> Nutzen wenn
+                    wir 3 kleine gut getheilte<lb/> Theodoliten aus <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> erhalten könnten.<lb/> Wir besitzen zwei große
                     Theodoliten von<lb/>
-                    <persName ref="http://d-nb.info/gnd/116568372">Ertel</persName> und von <persName ref="http://d-nb.info/gnd/104226056">
+                    <persName ref="https://editon-humboldt.de/H0005979 http://d-nb.info/gnd/116568372">Ertel</persName> und von <persName ref="https://editon-humboldt.de/H0002002 http://d-nb.info/gnd/104226056">
                         <hi rendition="#u">Pistor</hi>
                     </persName>, die uns an allen größeren<lb/>
                     Stationen vortreffliche Dienste leisten; aber<lb/> sie sind etwas zu groß um im
@@ -224,25 +245,25 @@
                         <expan>und</expan>
                     </choice> mit möglichst wenig<lb/> Gepäck reisen muß, ist es bei manchen<lb/>
                     Excursionen ganz unmöglich andere als<lb/> sehr compendische Instrumente
-                    mitzunehmen.<lb/> Die kleineren <placeName ref="https://www.geonames.org/6269131">englischen</placeName>
-                    Theodoliten, welche wir<lb/> uns hier in <placeName ref="https://www.geonames.org/1269750">Indien</placeName> zu verschaffen suchten, sind<lb/> wirklich schlecht <choice>
+                    mitzunehmen.<lb/> Die kleineren <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">englischen</placeName>
+                    Theodoliten, welche wir<lb/> uns hier in <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> zu verschaffen suchten, sind<lb/> wirklich schlecht <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> von verhältnißmäßig sehr grober Theilung, und von<lb/> der <orgName ref="https://edition-humboldt.de/v8/H0016794">ostindischen Compagnie</orgName> können wir jetzt, nach<lb/>
+                    </choice> von verhältnißmäßig sehr grober Theilung, und von<lb/> der <orgName ref="https://editon-humboldt.de/H0016794">ostindischen Compagnie</orgName> können wir jetzt, nach<lb/>
                     den großen Auslagen die sie für unsere Instrumente<lb/> gehabt hat, wie wir
                     kürzlich erfahren haben, auf keinen<lb/> Fall mehr neue kleinere Theodoliten
                     erhalten.<lb/> Euer Excellenz würden uns daher in der That einen<lb/> sehr
                     großen Dienst erweisen, wenn Sie bei dem<lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">Könige</persName> die Erlaubniß zur Absendung der<lb/>
-                    Instrumente von <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> aus für uns<lb/>
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Könige</persName> die Erlaubniß zur Absendung der<lb/>
+                    Instrumente von <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> aus für uns<lb/>
                     mit Ihrer gewohnten Güte, erhalten könnten.<lb/> Ich habe mir erlaubt, ein Blatt
                     mit einigen<lb/> Bemerkungen über die Theodoliten für den<lb/> Mechaniker diesem
                     Briefe beizufügen<supplied cert="high">.</supplied>
                 </p>
                     <pb n="211v"/>
-                <p>Die <placeName ref="https://www.geonames.org/2921044">deutschen</placeName> Theodoliten
-                    sind jetzt weit<lb/> besser getheilt als die <placeName ref="https://www.geonames.org/6269131">englischen</placeName>, ich glaube<lb/>
-                    <persName ref="http://d-nb.info/gnd/104226056">Pistor</persName>, oder <persName ref="http://d-nb.info/gnd/117522627">Repsold</persName> oder Andere werden wohl<lb/>
+                <p>Die <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">deutschen</placeName> Theodoliten
+                    sind jetzt weit<lb/> besser getheilt als die <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">englischen</placeName>, ich glaube<lb/>
+                    <persName ref="https://editon-humboldt.de/H0002002 http://d-nb.info/gnd/104226056">Pistor</persName>, oder <persName ref="https://editon-humboldt.de/H0000841 http://d-nb.info/gnd/117522627">Repsold</persName> oder Andere werden wohl<lb/>
                     <add place="intralinear">kleine</add> Theodoliten ungefähr von der
                     gewünschten<lb/> Größe <choice>
                         <abbr>u</abbr>
@@ -256,17 +277,17 @@
                     <lb/> Ich fürchte Eure Excellenz werden<lb/> mich in der That sehr
                     unbescheiden finden[,]<lb/> wenn ich mir erlaube zu bemerken, daß<lb/> uns die
                     Instrumente doppelt werthvoll<lb/> wären, wenn wir sie möglichst rasch<lb/>
-                    erhalten könnten, um sie noch im<lb/> nächsten Som̅er im <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> benützen<lb/> zu kön̅en. Wir
-                    würden bitten<lb/> dieselben <hi rendition="#u">über <placeName ref="https://www.geonames.org/3165185">Triest</placeName>
+                    erhalten könnten, um sie noch im<lb/> nächsten Som̅er im <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> benützen<lb/> zu kön̅en. Wir
+                    würden bitten<lb/> dieselben <hi rendition="#u">über <placeName ref="https://editon-humboldt.de/H0009514 https://www.geonames.org/3165185">Triest</placeName>
                     </hi>
-                    <del rendition="#s">(</del>per Overland Mail<lb/> nach <placeName ref="https://www.geonames.org/1275339">Bombay</placeName> zu senden; sie brauchen von<lb/>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> aus auf diesem Wege circa 5
-                    Wochen<lb/> bis <placeName ref="https://www.geonames.org/1275339">Bombay</placeName>, <subst>
+                    <del rendition="#s">(</del>per Overland Mail<lb/> nach <placeName ref="https://editon-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName> zu senden; sie brauchen von<lb/>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> aus auf diesem Wege circa 5
+                    Wochen<lb/> bis <placeName ref="https://editon-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName>, <subst>
                         <del rendition="#s">w</del>
                         <add place="intralinear">von</add>
                     </subst> wo sie in 9–14 Tagen<lb/>
-                    <pb n="212r"/> nach <placeName ref="https://www.geonames.org/1256237">Simla</placeName> kom̅en.
-                    Wenn vielleicht<lb/> Herr Profeßor <persName ref="http://d-nb.info/gnd/116471727">Enke</persName> die
+                    <pb n="212r"/> nach <placeName ref="https://editon-humboldt.de/H0017393 https://www.geonames.org/1256237">Simla</placeName> kom̅en.
+                    Wenn vielleicht<lb/> Herr Profeßor <persName ref="https://editon-humboldt.de/H0005930 http://d-nb.info/gnd/116471727">Enke</persName> die
                     große Güte<lb/> haben wollte die Instrumente sobald <del rendition="#s">(</del>
                     <lb/> als möglich auszuwählen <choice>
                         <abbr>u</abbr>
@@ -275,18 +296,18 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> absenden zu lassen, so könnten<lb/> sie noch ganz gut bis Anfang Mai
-                    oder Ende April<lb/> in <placeName ref="https://www.geonames.org/1256237">Simla</placeName> eintreffen.
-                    Sie würden gewiß<lb/> im <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> nicht
+                    oder Ende April<lb/> in <placeName ref="https://editon-humboldt.de/H0017393 https://www.geonames.org/1256237">Simla</placeName> eintreffen.
+                    Sie würden gewiß<lb/> im <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> nicht
                     unbenutzt bleiben.<lb/> Ich erlaube mir ferner noch um 3 kleine<lb/>
-                    Taschensextanten (vielleicht <placeName ref="https://www.geonames.org/3017382">französische</placeName>
-                    <lb/> oder <placeName ref="https://www.geonames.org/6269131">englische</placeName> wen̅ in <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    Taschensextanten (vielleicht <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">französische</placeName>
+                    <lb/> oder <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">englische</placeName> wen̅ in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     keine<lb/> vorräthig sein sollten,) zu bitten; sie<lb/> wären uns von höchstem
                     Nutzen; wir besitzen<lb/> jetzt gar keinen; ein englischer<supplied cert="high">,</supplied> den wir<lb/> hatten, ging leider durch das <unclear reason="illegible" cert="high">Erstürzen</unclear>
                     <lb/> des Trägers während
                     der zweiten<lb/> tibbetanischen Reise ganz zu<lb/> Grunde.</p>
-                <closer>Unser Bruder <persName ref="http://d-nb.info/gnd/119074117">Hermann</persName>
+                <closer>Unser Bruder <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName>
                     <lb/> befindet sich
-                    jetzt in <placeName ref="https://www.geonames.org/1278253">Ober Assam</placeName>;<lb/>
+                    jetzt in <placeName ref="https://editon-humboldt.de/H0002582 https://www.geonames.org/1278253">Ober Assam</placeName>;<lb/>
                     <pb n="212v"/>
                     <salute>Ich verbleibe in<lb/> größter Verehrung <choice>
                             <abbr>u</abbr>
@@ -296,16 +317,16 @@
                     <signed>Adolph Schlagintweit<lb/>
                     </signed>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/11625639">Sangor</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0018748 https://www.geonames.org/11625639">Sangor</placeName>
                             15<supplied cert="high">.</supplied> December 1855</dateline>
                     <lb/>
                     <note place="mBottom" hand="#adressee">
-                        <placeName ref="https://www.geonames.org/11625639">Sangor</placeName>?<lb/>
+                        <placeName ref="https://editon-humboldt.de/H0018748 https://www.geonames.org/11625639">Sangor</placeName>?<lb/>
                         <choice>
                             <abbr>p.</abbr>
                             <expan>page</expan>
                         </choice> 3 steht <lb/>
-                        <placeName ref="https://www.geonames.org/1257845">Sager</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0018737 https://www.geonames.org/1257845">Sager</placeName>
                     </note>
                 </closer>
                 <lb/>
@@ -451,15 +472,15 @@
                         </choice> Durchmesser bitten<lb/> von den Sextanten
                         beizupacken.</p>
                     <p>
-                        <hi rendition="#u">Adresse</hi>. <persName ref="http://d-nb.info/gnd/118755234">Adolphe
+                        <hi rendition="#u">Adresse</hi>. <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolphe
                             Schlagintweit</persName>
                         <choice>
                             <abbr>Esq.</abbr>
                             <expan>Esquire</expan>
-                        </choice> In Charge<lb/> Magnetic Survey of <placeName ref="https://www.geonames.org/1269750">India</placeName>
-                        <lb/> at <placeName ref="https://www.geonames.org/1275339">Bombay</placeName>
+                        </choice> In Charge<lb/> Magnetic Survey of <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">India</placeName>
+                        <lb/> at <placeName ref="https://editon-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName>
                         <lb/>
-                        <hi rendition="#u">Care of <persName ref="https://edition-humboldt.de/v8/H0018977">
+                        <hi rendition="#u">Care of <persName ref="https://editon-humboldt.de/H0018977">
                                 <choice>
                                     <abbr>A.</abbr>
                                     <expan>August</expan>
@@ -468,9 +489,9 @@
                                 <expan>Company</expan>
                             </choice>
                         </hi>
-                        <lb/> the Consul for <placeName ref="https://www.geonames.org/2911298">Hamburgh</placeName>
+                        <lb/> the Consul for <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburgh</placeName>
                         <lb/> at <hi rendition="#u">
-                            <placeName ref="https://www.geonames.org/1275339">Bombay</placeName>. Fort</hi>
+                            <placeName ref="https://editon-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName>. Fort</hi>
                         <lb/>
                         <note hand="#author" place="left">
                             <hi rendition="#u">Glass</hi>
@@ -483,9 +504,9 @@
                             <del rendition="#s">Via</del>
                             <add place="intralinear">Per</add>
                         </subst>
-                        <hi rendition="#u">Overland Mail</hi>, <hi rendition="#u">via <placeName ref="https://www.geonames.org/3165185">Triest</placeName>
+                        <hi rendition="#u">Overland Mail</hi>, <hi rendition="#u">via <placeName ref="https://editon-humboldt.de/H0009514 https://www.geonames.org/3165185">Triest</placeName>
                         </hi>.<lb/> Die Overland Mail ist
-                        bei weitem der rascheste Weg, um<lb/> das <placeName ref="https://www.geonames.org/3367577">Cap</placeName> brauchen die Instrumente 4 Monate länger. Adresse<lb/>
+                        bei weitem der rascheste Weg, um<lb/> das <placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">Cap</placeName> brauchen die Instrumente 4 Monate länger. Adresse<lb/>
                         in Kiste sehr deutlich einzuschneiden <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
@@ -493,8 +514,8 @@
                         Eisenreifen nöthig; da die Kisten<lb/> für die Overland Mail nicht zu groß
                         sein dürfen, wäre eine<lb/> Verpackung säm̅tlicher Instrumente in 2
                         Kisten sehr<lb/> vortheilhaft. Ein <hi rendition="#u">Agent</hi> in
-                            <placeName ref="https://www.geonames.org/3165185">Triest</placeName> wird nöthig sein, da
-                        erst<lb/> von <placeName ref="https://www.geonames.org/361058">Alexandria</placeName> aus die
+                            <placeName ref="https://editon-humboldt.de/H0009514 https://www.geonames.org/3165185">Triest</placeName> wird nöthig sein, da
+                        erst<lb/> von <placeName ref="https://editon-humboldt.de/H0002379 https://www.geonames.org/361058">Alexandria</placeName> aus die
                         Overland Mail das Gepäckstück<lb/> in Empfang nim̅t. Eine Declaration
                         mit Angabe des<lb/> Werthes <choice>
                             <abbr>u.</abbr>

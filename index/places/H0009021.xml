@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0009021">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Mramorskoe</title>
             </titleStmt>
+            <editionStmt>
+                <p>Mramorskoe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0009021.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,36 +20,37 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0009021.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0009021.xml">
-                    <p>Mramorskoe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009021.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0009021">
+                <place>
                     <idno type="uri">https://www.geonames.org/1498300</idno>
                     <placeName type="reg">Mramorskoe</placeName>
                     <placeName type="alt">Мраморское</placeName>
                     <placeName type="alt">Mramorskoje</placeName>
                     <placeName type="alt">Mramorskij</placeName>
                     <placeName type="alt">Mramorskoi</placeName>
-                    <!-- Rose 1837/1842, I, 246 -->
+                    
                     <placeName type="alt">Мраморский</placeName>
                     <placeName type="alt">Mramorskaya</placeName>
                     <placeName type="alt">Мраморная ломка</placeName>
                     <placeName type="alt">Mramorsk</placeName>
-                    <!-- Rose 1837/1842, I, 247 -->
+                    
                     <placeName type="alt">Mramornaja Lomka</placeName>
-                    <!-- RST I, Bl. 51r -->
-                    <note>Dorf südlich von <placeName key="H0005599">Jekaterinburg</placeName>, in dessen Nähe sich ein
-                            <orgName key="H0018019">Marmorsteinbruch</orgName> und eine Steinschleiferei befanden</note>
+                    
+                    <note>Dorf südlich von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>, in dessen Nähe sich ein
+                            <orgName ref="https://editon-humboldt.de/H0018019">Marmorsteinbruch</orgName> und eine Steinschleiferei befanden</note>
                     <linkGrp>
                         <ptr target="30#37" type="letter"/>
                     </linkGrp>
@@ -56,10 +61,10 @@
                             <placeName type="alt">Gornoščitskij Mramornyi Zavod</placeName>
                             <placeName type="alt">Marmorwerk Gornoschtschitski</placeName>
                             <placeName type="alt">Gorna Schizkaya Savod</placeName>
-                            <!-- RST, I, 51r -->
+                            
                             <placeName type="alt">Gornoschitsche Brüche</placeName>
-                            <!-- Rose 1837/1842, I, 247 -->
-                            <note>historische Marmorschleiferei südlich von <placeName key="H0005599">Jekaterinburg</placeName>
+                            
+                            <note>historische Marmorschleiferei südlich von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>
                             </note>
                         </place>
                     </listPlace>

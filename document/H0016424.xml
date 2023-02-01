@@ -1,33 +1,62 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016424">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Verlagsvertrag zur „Géographie des plantes dans les deux hémisphères“
                     (1825)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Gide, Théophile-Étienne; Humboldt, Alexander von; Kunth, Carl Sigismund; Smith, James: Verlagsvertrag zur „Géographie des plantes dans les deux hémisphères“
+                    (1825). In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016424">https://edition-humboldt.de/v8/H0016424</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016424</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016424</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016424.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Verlagsvertrag zur „Géographie des plantes dans les deux hémisphères“
-                    (1825). In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016424</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 41.42, Bl. 3–4</idno> (Vorlage)
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2833000</idno>
+                            <idno type="URN">http://resolver.staatsbibliothek-berlin.de/SBB00019F5400000000</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/KGM28M3V">Humboldt 2009</bibl>, 640–641.
+                    </witness>
+                    
+                        <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 208–210.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/1037584171">Gide, Théophile Étienne (1768–1837)</persName>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                <persName ref="https://edition-humboldt.de/v8/H0015909">Smith, James (-1847)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0013466 http://d-nb.info/gnd/1037584171">Gide, Théophile Étienne (1768–1837)</persName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                <persName ref="https://editon-humboldt.de/H0015909">Smith, James (-1847)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date from="1826-02-01" to="1826-02-28" cert="high"/>
             </creation>
         </profileDesc>
@@ -75,7 +104,9 @@
                     paroît utile à conserver de l’ancien, surtout <lb/>le tableau physique des
                     régions équinoxiales, qui en <lb/>constituera même une partie essentielle. Ce
                     tableau ne <lb/>doit pas être confondu avec l’<hi rendition="#u">Essai sur les
-                        climats, con</hi>-<lb/>
+                        climats, con</hi>
+                    <g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <hi rendition="#u">sidérés d’après les inflexions des lignes isothermes</hi>, qui <pb n="3v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00019F5400000002"/>forme
                     un ouvrage à part, et que M. de Humboldt publiera séparément.</p>
                 <p>2.) La nouvelle Géographie des plantes formera un volume <lb/>in folio d’environ
@@ -113,7 +144,8 @@
                     </choice> Gide et Smith s’engangent à payer à <choice>
                         <abbr>MM.</abbr>
                         <expan>Messieurs</expan>
-                    </choice> de Hum-<lb/>boldt et Kunth pour
+                    </choice> de Hum<g ref="#typoHyphen"/>
+                    <lb break="no"/>boldt et Kunth pour
                     honoraire du travail donc il s’agit, <lb/>la Somme de Douze Mille Francs,
                     savoir</p>
                 <p>6000 francs à <choice>
@@ -203,7 +235,7 @@
             <div>
                         <p>Le present traité fait quadruple à Paris, le <lb/>
                     <space dim="horizontal" quantity="1" unit="chars"/>Février Mille huit Cent Vingt Cinq.</p>
-                        <signed>CKunth</signed> <signed>ap<supplied cert="high">p</supplied>rouvé l’<lb/>écriture Alexandre de
+                        <signed>CKunth</signed> <signed>ap<supplied cert="high">p</supplied>rouvé l’<lb break="no"/>écriture Alexandre de
                     Humboldt.</signed> <signed>approuvé l’écriture, <lb/>JSmith</signed>
                         <signed>approuvé l’écriture <lb/>Th. É. Gide</signed>
                 <pb n="4v"/>

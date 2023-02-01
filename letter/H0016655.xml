@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016655">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,31 +29,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juni 1836]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016655">https://edition-humboldt.de/v8/H0016655</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016655</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016655</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016655.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juni 1836]
-            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016655</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">87</idno>
+                     <idno type="shelfmark">421, Bl. 160r</idno>, 161v </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1836-06" notAfter="1836-06">1836-06-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur
         Datierung: H. bis zum 25.5.1836 in Potsdam beim König, ab Mitte Juli in Teplitz</note>
@@ -77,7 +95,7 @@
                 </opener>
             <pb n="1v"/>
                <p>Ich habe, mein theurester Freund, <lb/>alles richtig erhalten in <lb/>
-                    <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -85,14 +103,14 @@
                   <abbr>Pol.</abbr>
                   <expan>Polier</expan>
                </choice> Schiefer mit dem <lb/>Biliner gern vergleichen. Die <lb/>vollständige
-               Uebersezung schikke <lb/>ich erst von <placeName ref="https://www.geonames.org/3064288">Teplitz</placeName>
+               Uebersezung schikke <lb/>ich erst von <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName>
                aus an <lb/>
-                    <persName ref="http://d-nb.info/gnd/118847767">Arago</persName>
-                    <ref xml:id="d608fe60-3e75-4c2a-88fe-603e75cc2a4b" corresp="#c432b2e1-e691-4ee0-b2b2-e1e6910ee05d"/>
-                    <note xml:id="c432b2e1-e691-4ee0-b2b2-e1e6910ee05d" corresp="#d608fe60-3e75-4c2a-88fe-603e75cc2a4b">
-                     <bibl corresp="https://edition-humboldt.de/v8/ZWD8LI94">l'Académie des sciences 1835-1965</bibl>
+                    <persName ref="https://editon-humboldt.de/H0012670 http://d-nb.info/gnd/118847767">Arago</persName>
+                    <ref xml:id="b892996f-afa6-4967-9299-6fafa6d96734" corresp="#baecb94a-5213-41d6-acb9-4a521381d615"/>
+                    <note xml:id="baecb94a-5213-41d6-acb9-4a521381d615" corresp="#b892996f-afa6-4967-9299-6fafa6d96734">
+                     <bibl corresp="https://edition-humboldt.de/ZWD8LI94">l'Académie des sciences 1835-1965</bibl>
                   </note>; aber eine kurze <lb/>französische Notiz habe <lb/>ich heute schon (dem
-               <lb/>Schächtelchen beigelegt) <lb/>durch <persName ref="http://d-nb.info/gnd/116492252">Bresson</persName>
+               <lb/>Schächtelchen beigelegt) <lb/>durch <persName ref="https://editon-humboldt.de/H0003641 http://d-nb.info/gnd/116492252">Bresson</persName>
                an die pariser <lb/>Académie gesandt.</p>
                 <closer rend="paragraph">
                     <salute>Dankbarst Ihnen <lb/>ergeben</salute>

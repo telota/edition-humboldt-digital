@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016770">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Oktober 1833] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016770">https://edition-humboldt.de/v8/H0016770</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016770</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016770</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016770.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Oktober 1833] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016770</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">42</idno>
+                     <idno type="shelfmark">421, Bl. 77r, 78v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1833-10" notAfter="1833-10">1833-10-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Ehrenbergs Abhandlung, gelesen am 24.Oktober 1833</note>
          </correspDesc>
@@ -76,26 +94,27 @@
                </address>
                 </opener>
             <pb n="1v"/>
-                <p>Ich habe mich noch nicht von <lb/>dem einzigen Exemplar Ihrer <ref xml:id="fefcdf7f-1aee-4d30-bcdf-7f1aeecd30e5" corresp="#bf56faee-1dbe-4cc3-96fa-ee1dbe4cc358">
+                <p>Ich habe mich noch nicht von <lb/>dem einzigen Exemplar Ihrer <ref xml:id="dd1b1bdf-a5e7-409e-9b1b-dfa5e7a09e22" corresp="#dc630419-cb6c-42f6-a304-19cb6cf2f6cb">
                         <choice>
                         <abbr>Abh</abbr>
                         <expan>Abhandlung</expan>
                      </choice>
                     </ref>
-                    <note xml:id="bf56faee-1dbe-4cc3-96fa-ee1dbe4cc358" corresp="#fefcdf7f-1aee-4d30-bcdf-7f1aeecd30e5">
-                     <bibl corresp="https://edition-humboldt.de/v8/XM8RULED">Ehrenberg 1836</bibl>, 665—722 </note>
-               <lb/>trennen mögen, die grosses Auf<lb/>sehen in <placeName ref="https://www.geonames.org/2988507">Paris</placeName> und <placeName ref="https://www.geonames.org/2643743">London</placeName> erre<lb/>gen wird. Zeichnung und Raisonne<lb/>ment sind gleich
+                    <note xml:id="dc630419-cb6c-42f6-a304-19cb6cf2f6cb" corresp="#dd1b1bdf-a5e7-409e-9b1b-dfa5e7a09e22">
+                     <bibl corresp="https://edition-humboldt.de/XM8RULED">Ehrenberg 1836</bibl>, 665—722 </note>
+               <lb/>trennen mögen, die grosses Auf<lb break="no"/>sehen in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> und <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName> erre<lb break="no"/>gen wird. Zeichnung und Raisonne<lb break="no"/>ment sind gleich
                bewundernswürdig <lb/>besonders <choice>
                   <abbr>fig</abbr>
                   <expan>figura</expan>
                </choice> 11 der deutliche <lb/>Uebergang des geperleten zum <lb/>röhrigen. Schaffen
-               Sie mir doch <lb/>2–3 Exemplare fürs Ausland <lb/>zu künftigem Donnerstag<supplied cert="high">.</supplied> An-<lb/>
+               Sie mir doch <lb/>2–3 Exemplare fürs Ausland <lb/>zu künftigem Donnerstag<supplied cert="high">.</supplied> An<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <subst>
                   <del rendition="#s">
                             <gap reason="illegible" unit="chars" quantity="3"/>
                         </del>
                   <add place="intralinear">bei</add>
-               </subst> einige <persName ref="http://d-nb.info/gnd/11859852X">Radzeburgiana</persName>
+               </subst> einige <persName ref="https://editon-humboldt.de/H0000745 http://d-nb.info/gnd/11859852X">Radzeburgiana</persName>
                     <supplied cert="high">,</supplied>
                <lb/>die Sie gütigst behalten<supplied cert="high">.</supplied>
                <lb/>Der <hi rendition="#u">wiederkehrende</hi> Saugrüssel <lb/>ist ja sehr

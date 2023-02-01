@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019064">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ačit</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ačit [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019064.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,36 +20,37 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019064.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019064.xml">
-                    <p>Ačit [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019064.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019064">
+                <place>
                     <idno type="uri">https://www.geonames.org/584308</idno>
                     <placeName type="reg">Ačit</placeName>
                     <placeName type="alt">Ачит</placeName>
                     <placeName type="alt">Atschit</placeName>
                     <placeName type="alt">Achit</placeName>
                     <placeName type="alt">Atschitska</placeName>
-                    <!-- Karte vom Ural-Gebirge -->
+                    
                     <placeName type="alt">Atschitskaya Krepost</placeName>
                     <placeName type="alt">Atschitskoya Krepost</placeName>
-                    <!-- RST, 5v, 60r -->
+                    
                     <placeName type="alt">Atchitskaia</placeName>
-                    <!-- Geograficheskii atlas Rossiiskoi Imperii/ Gouvernement Perm -->
+                    
                     <placeName type="alt">Ачишская</placeName>
-                    <!-- Geograficheskii atlas Rossiiskoi Imperii/ Gouvernement Perm -->
-                    <note>Ortschaft und historische Festung an der Westflanke des <placeName key="H0020291">Mittleren Ural</placeName> zwischen <placeName key="H0008223">Perm</placeName> und
-                            <placeName key="H0005599">Jekaterinburg</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    
+                    <note>Ortschaft und historische Festung an der Westflanke des <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren Ural</placeName> zwischen <placeName ref="https://editon-humboldt.de/H0008223 https://www.geonames.org/511196">Perm</placeName> und
+                            <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0012104">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,40 +29,56 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Dienstag, [vor 14.
+                    August 1838.], hg. v. Ulrich Päßler unter Mitarbeit von Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0012104">https://edition-humboldt.de/v8/H0012104</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0012104</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0012104</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0012104.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Dienstag, [vor 14.
-                    August 1838.]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0012104</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date from="1838-01-01" to="1838-08-14" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
                 <note>Zur Datierung: Humboldt bittet im vorliegenden Brief um Auskünfte von Kunth
-                    und <persName ref="http://d-nb.info/gnd/117196134">Friedrich Otto</persName> zur Einführung der Dahlie
+                    und <persName ref="https://editon-humboldt.de/H0011286 http://d-nb.info/gnd/117196134">Friedrich Otto</persName> zur Einführung der Dahlie
                     in Europa. In einem am 10. Oktober 1838 in Paris verfassten Schreiben an die
                     französische Übersetzerin der Broschüre „Traité pratique de la Culture du
-                    Dahlia“ von <persName ref="http://d-nb.info/gnd/118790021">Joseph Paxton</persName> (<bibl corresp="https://edition-humboldt.de/v8/IKS65V7B">Paxton 1839</bibl>) äußert sich Humboldt
+                    Dahlia“ von <persName ref="https://editon-humboldt.de/H0001820 http://d-nb.info/gnd/118790021">Joseph Paxton</persName> (<bibl corresp="https://edition-humboldt.de/IKS65V7B">Paxton 1839</bibl>) äußert sich Humboldt
                     eingehend zu dieser Frage und bezieht sich auf „lettres publiées par M. Otto, en
                     Allemagne, sur l'histoire du dahlia“. Es wird angenommen, dass Humboldt den
                     vorliegenden Brief an Kunth vor dem eben zitierten Schreiben noch in Berlin
@@ -83,30 +99,30 @@
                         <orig>Einfuhrung</orig>
                         <reg>Einführung</reg>
                     </choice> der Dahlien <lb/>gequält. Senden Sie mir <lb/>theurer Kunth, deshalb
-                    <lb/>doch den Theil des <bibl corresp="https://edition-humboldt.de/v8/PWKG8XVT">Hortus
+                    <lb/>doch den Theil des <bibl corresp="https://edition-humboldt.de/PWKG8XVT">Hortus
                         <lb/>Kewensis</bibl>, wo die <choice>
-                        <orig>Einfuhrungs<lb/>epoche</orig>
+                        <orig>Einfuhrungs<lb break="no"/>epoche</orig>
                         <reg>Einführungsepoche</reg>
-                    </choice> durch <persName ref="https://edition-humboldt.de/v8/H0011963">Lady Holland</persName>
+                    </choice> durch <persName ref="https://editon-humboldt.de/H0011963">Lady Holland</persName>
                     <lb/>(die die Pflanze von <lb/>
-                    <persName ref="http://d-nb.info/gnd/116478101">Cavanilles</persName> in
-                        <placeName ref="https://www.geonames.org/3117735">Madrid</placeName> erhielt) <lb/>steht<supplied cert="high">.</supplied>
+                    <persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName> in
+                        <placeName ref="https://editon-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName> erhielt) <lb/>steht<supplied cert="high">.</supplied>
                 </p>
                 <p>Ich weiss dass als ich <lb/>
                     <choice>
                         <orig>zurukkam</orig>
                         <reg>zurükkam</reg>
                     </choice> 1804 violette <lb/>Dahlien, bloss diese in <lb/>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName> existirten; ich <lb/>glaube aber dass die
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> existirten; ich <lb/>glaube aber dass die
                     <lb/>gelben <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> orangenen auf dem <lb/>
-                    <pb n="1v"/> ganzen <placeName ref="https://www.geonames.org/6255148">Continent</placeName> von <lb/>unseren Saamen sind <lb/>ja auch dass
+                    <pb n="1v"/> ganzen <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Continent</placeName> von <lb/>unseren Saamen sind <lb/>ja auch dass
                     alle <lb/>Dahlien (violette <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> gelbe) <lb/>in <placeName ref="https://www.geonames.org/2921044">Deutschland</placeName> von
+                    </choice> gelbe) <lb/>in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName> von
                     <lb/>uns sind.</p>
                 <p>Sie <choice>
                         <orig>konnen</orig>
@@ -124,25 +140,25 @@
                         <reg>gütigst</reg>
                     </choice>
                     <lb/>bitten, ehe Sie mir <lb/>die Anlage <choice>
-                        <orig>zuruksen<lb/>den</orig>
+                        <orig>zuruksen<lb break="no"/>den</orig>
                         <reg>zurüksenden</reg>
-                    </choice> an Herrn <persName ref="http://d-nb.info/gnd/117196134">Director <lb/>Otto</persName> der
-                    meine Hierogly<lb/>phen nicht lesen <lb/>
+                    </choice> an Herrn <persName ref="https://editon-humboldt.de/H0011286 http://d-nb.info/gnd/117196134">Director <lb/>Otto</persName> der
+                    meine Hierogly<lb break="no"/>phen nicht lesen <lb/>
                     <pb n="2r"/>würde Abschrift
                     dieses <lb/>Briefchens zu senden und <lb/>ihn zu bitten frei von <lb/>allem
                     Wunsch mir <choice>
                         <orig>gefallig</orig>
                         <reg>gefällig</reg>
                     </choice>
-                    <lb/>zu sein, bestimmt auszu<lb/>sprechen ob ich recht <lb/>habe <choice>
+                    <lb/>zu sein, bestimmt auszu<lb break="no"/>sprechen ob ich recht <lb/>habe <choice>
                         <abbr>od</abbr>
                         <expan>oder</expan>
-                    </choice> ob auch in <lb/>Deutschland (<placeName ref="https://www.geonames.org/2935022">Dresden</placeName>
+                    </choice> ob auch in <lb/>Deutschland (<placeName ref="https://editon-humboldt.de/H0005565 https://www.geonames.org/2935022">Dresden</placeName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <placeName ref="https://www.geonames.org/2950159">
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">
                         <lb/>Berlin</placeName>) vor unserer <choice>
                         <orig>Rukkunft</orig>
                         <reg>Rükkunft</reg>
@@ -159,8 +175,8 @@
                     <lb/>Freund, zur Stärkung <lb/>ein Duzend <choice>
                         <abbr>bout.</abbr>
                         <expan>bouteilles</expan>
-                    </choice> Port<lb/>wein an den ich aus <lb/>
-                    <placeName ref="https://www.geonames.org/2944388">Bremen</placeName> habe kommen lassen<supplied cert="high">.</supplied>
+                    </choice> Port<lb break="no"/>wein an den ich aus <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0005351 https://www.geonames.org/2944388">Bremen</placeName> habe kommen lassen<supplied cert="high">.</supplied>
                 </p>
                 <signed>A Humboldt</signed>
             </div>

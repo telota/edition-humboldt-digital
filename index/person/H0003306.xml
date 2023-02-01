@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003306">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bessel, Moritz Carl August</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bessel, Moritz Carl August [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003306.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003306.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003306.xml">
-                    <p>Bessel, Moritz Carl August [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003306.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003306">
+                <person>
                     <persName type="reg">
                         <surname>Bessel</surname>
                         <forename>Moritz Carl August</forename>
                     </persName>
                     <birth>1783</birth>
                     <death>1874</death>
-                    <note>Landgerichtspräsident, Bruder von <persName key="H0003304">Friedrich
+                    <note>Landgerichtspräsident, Bruder von <persName ref="https://editon-humboldt.de/H0003304 http://d-nb.info/gnd/118510215">Friedrich
                             Wilhelm Bessel</persName>
                     </note>
                     <linkGrp>

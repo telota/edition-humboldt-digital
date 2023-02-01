@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005458">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,36 +28,53 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach 16. Mai 1832, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0005458">https://edition-humboldt.de/v8/H0005458</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0005458</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0005458</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005458.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], nach 16. Mai 1832. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0005458</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1832-05-16" notAfter="1832-12-31" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
-                <note> Zur Datierung: Der im Brief erwähnte <persName ref="http://d-nb.info/gnd/117547743">Charles-Henri
+                <note> Zur Datierung: Der im Brief erwähnte <persName ref="https://editon-humboldt.de/H0013524 http://d-nb.info/gnd/117547743">Charles-Henri
                         Godet</persName> hielt sich 1832 als Privatlehrer und zu
-                    naturwissenschaftlichen Studien in Berlin auf (Vgl. <bibl corresp="https://edition-humboldt.de/v8/58IUCSTB">HLS 2016</bibl>). Humboldt war am 16. Mai
+                    naturwissenschaftlichen Studien in Berlin auf (Vgl. <bibl corresp="https://edition-humboldt.de/58IUCSTB">HLS 2016</bibl>). Humboldt war am 16. Mai
                     1832 von einem über einjährigen Parisaufenthalt zurückgekehrt. </note>
             </correspDesc>
         </profileDesc>
@@ -74,8 +91,8 @@
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/117547743">Godet</persName> de <lb/>
-                    <placeName ref="https://www.geonames.org/2659496">
+                    <persName ref="https://editon-humboldt.de/H0013524 http://d-nb.info/gnd/117547743">Godet</persName> de <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0001607 https://www.geonames.org/2659496">
                         <choice>
                             <orig>Neuchatel</orig>
                             <reg>Neuchâtel</reg>
@@ -85,13 +102,13 @@
                         <reg>élèves</reg>
                     </choice>
                     <lb/>
-                    <ref xml:id="f5caba55-f564-48cc-8aba-55f564b8cc76" corresp="#c54e2577-0254-484d-8e25-770254a84db9">les jeunes <choice>
+                    <ref xml:id="ae46371e-6ba7-48a5-8637-1e6ba738a5f0" corresp="#bb6147f0-702e-4c6a-a147-f0702ecc6a40">les jeunes <choice>
                                 <abbr>Mr</abbr>
                                 <expan>Messieurs</expan>
                             </choice> de Pourtalès</ref>
-                    <note xml:id="c54e2577-0254-484d-8e25-770254a84db9" corresp="#f5caba55-f564-48cc-8aba-55f564b8cc76">wohl die Brüder <persName ref="http://d-nb.info/gnd/118792954">Albert</persName> und <persName ref="https://edition-humboldt.de/v8/H0017943">Wilhelm von
+                    <note xml:id="bb6147f0-702e-4c6a-a147-f0702ecc6a40" corresp="#ae46371e-6ba7-48a5-8637-1e6ba738a5f0">wohl die Brüder <persName ref="https://editon-humboldt.de/H0002115 http://d-nb.info/gnd/118792954">Albert</persName> und <persName ref="https://editon-humboldt.de/H0017943">Wilhelm von
                                 Pourtalès</persName>.</note>
-                    <lb/>de <placeName ref="https://www.geonames.org/2988507">Paris</placeName>. <lb/>Humboldt<lb/>
+                    <lb/>de <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>. <lb/>Humboldt<lb/>
                     <pb n="1v"/>
                     <address>
                         <addrLine>à Monsieur</addrLine>

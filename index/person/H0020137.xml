@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020137">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schleneff, </title>
             </titleStmt>
+            <editionStmt>
+                <p>Schleneff,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020137.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020137.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020137.xml">
-                    <p>Schleneff,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020137.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0020137">
+                <person>
                     <persName type="reg">
                         <surname>Schleneff</surname>
                         <forename/>
                     </persName>
                     <floruit notBefore="1813-01-01" notAfter="1818-12-31">1813-1818</floruit>
-                    <note>Berghauptmann und Militär in <placeName key="H0005599">Jekaterinburg</placeName>, der im
-                        Zusammenhang mit dem Beginn der Goldgewinnnung im <placeName key="H0009659">Ural</placeName> um
+                    <note>Berghauptmann und Militär in <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>, der im
+                        Zusammenhang mit dem Beginn der Goldgewinnnung im <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName> um
                         1814-1818 von Bedeutung ist</note>
                 </person>
             </listPerson>

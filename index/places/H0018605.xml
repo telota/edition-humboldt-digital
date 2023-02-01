@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018605">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Boca del Serpiente</title>
             </titleStmt>
+            <editionStmt>
+                <p>Boca del Serpiente [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018605.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018605.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018605.xml">
-                    <p>Boca del Serpiente [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018605.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018605">
+                <place>
                     <idno type="uri">https://www.geonames.org/3573694</idno>
                     <placeName type="reg">Boca del Serpiente</placeName>
                     <placeName type="alt">Serpent's Mouth</placeName>
-                    <note>Meerenge zwischen <placeName key="H0009117">Venezuela</placeName> und Trinidad und Tobago,
-                        grenzt <placeName key="H0008115">Golf von Paria</placeName> im Südosten vom Atlantischen Ozean
+                    <note>Meerenge zwischen <placeName ref="https://editon-humboldt.de/H0009117 https://www.geonames.org/3625428">Venezuela</placeName> und Trinidad und Tobago,
+                        grenzt <placeName ref="https://editon-humboldt.de/H0008115 https://www.geonames.org/3630695">Golf von Paria</placeName> im Südosten vom Atlantischen Ozean
                         ab</note>
                 </place>
             </listPlace>

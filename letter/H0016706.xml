@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016706">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, [30. August
+               1856] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016706">https://edition-humboldt.de/v8/H0016706</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016706</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016706</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016706.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, [30. August
-               1856] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016706</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">138</idno>
+                     <idno type="shelfmark">420, Bl. 8r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1856-08-30">1856-08-30</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Rede E.s am 3.8.1856; Ernennung Friedrich Graf von Wrangels zum
                Generalfeldmarschall am 15.8.1856; H. bis 29.8.1856 in Potsdam, vgl. Brief an
@@ -66,18 +84,18 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-                <p>Ich war am <persName ref="http://d-nb.info/gnd/117426059">Wrangel</persName> – Tage nur so wenige <lb/>Stunden in
-                  <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>, dass ich den Vorsaz <lb/>nicht
+                <p>Ich war am <persName ref="https://editon-humboldt.de/H0006482 http://d-nb.info/gnd/117426059">Wrangel</persName> – Tage nur so wenige <lb/>Stunden in
+                  <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>, dass ich den Vorsaz <lb/>nicht
                ausführen konnte, theurer Freund, <lb/>Ihnen zu danken für das Viele geistreich
                <lb/>Ausgedrükte was ich Ihnen verdanke für <lb/>mich, meinen Bruder und der Mythe
-               des <lb/>Rhodischen Genius. <ref xml:id="ed87db14-5178-42d5-87db-145178c2d531" corresp="#f7c63b9f-cd62-4618-863b-9fcd62f6181e">Trefliches und Freies <lb/>haben Sie gesagt</ref>
-                    <note xml:id="f7c63b9f-cd62-4618-863b-9fcd62f6181e" corresp="#ed87db14-5178-42d5-87db-145178c2d531">
-                     <bibl corresp="https://edition-humboldt.de/v8/8ASA4PLY">Ehrenberg 1856</bibl>
+               des <lb/>Rhodischen Genius. <ref xml:id="cf96321b-2db3-492b-9632-1b2db3e92b72" corresp="#f2f05053-b3c3-4f08-b050-53b3c37f08ea">Trefliches und Freies <lb/>haben Sie gesagt</ref>
+                    <note xml:id="f2f05053-b3c3-4f08-b050-53b3c37f08ea" corresp="#cf96321b-2db3-492b-9632-1b2db3e92b72">
+                     <bibl corresp="https://edition-humboldt.de/8ASA4PLY">Ehrenberg 1856</bibl>
                   </note> was ich im weiten Kreis <lb/>schon habe rühmen hören, politisches <lb/>und
                über die That des Betens. Die welche <lb/>es nur mit den Lippen heuchelnd thun
                <lb/>könnten freilich Sie verleumden, aber <lb/>bisher habe ich noch nichts
                   vernommen<supplied cert="high">.</supplied>
-               <lb/>Die Art wie Sie Ihres <persName ref="http://d-nb.info/gnd/117516376">Begleiters</persName> Tod <lb/>
+               <lb/>Die Art wie Sie Ihres <persName ref="https://editon-humboldt.de/H0011778 http://d-nb.info/gnd/117516376">Begleiters</persName> Tod <lb/>
                     <choice>
                   <sic>behandelt</sic>
                   <corr cert="high">behandeln</corr>

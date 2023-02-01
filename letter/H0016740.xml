@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016740">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1829] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016740">https://edition-humboldt.de/v8/H0016740</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016740</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016740</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016740.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1829] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016740</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">15</idno>
+                     <idno type="shelfmark">421, Bl. 26r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1829" notAfter="1829" cert="low">1829-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Publikation E.s, vgl. Briefe 6, 11</note>
          </correspDesc>
@@ -63,16 +81,16 @@
          <div type="writingSession">
             <pb n="1r"/>
                 <p>Wenn Sie nicht <lb/>durchdringen <lb/>rathe ich Ihnen <lb/>mein Theurer,
-               den <lb/>Brief beim <persName ref="http://d-nb.info/gnd/11862783X">Minis<lb/>ter</persName> zu
+               den <lb/>Brief beim <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Minis<lb break="no"/>ter</persName> zu
                   lassen<supplied cert="high">.</supplied> Ihre <lb/>
-                    <ref xml:id="a1181926-7e3d-4aa6-9819-267e3d4aa6d3" corresp="#c794b7ce-20ea-4cdf-94b7-ce20eafcdf4d">
+                    <ref xml:id="b9f08182-9dd4-428c-b081-829dd4b28cad" corresp="#f99c9fd6-1b89-4285-9c9f-d61b89a2852b">
                         <choice>
                         <abbr>Abhandl</abbr>
                         <expan>Abhandlung</expan>
                      </choice>
                     </ref>
-                    <note xml:id="c794b7ce-20ea-4cdf-94b7-ce20eafcdf4d" corresp="#a1181926-7e3d-4aa6-9819-267e3d4aa6d3">
-                        <bibl corresp="https://edition-humboldt.de/v8/NGTMX7L7">Ehrenberg
+                    <note xml:id="f99c9fd6-1b89-4285-9c9f-d61b89a2852b" corresp="#b9f08182-9dd4-428c-b081-829dd4b28cad">
+                        <bibl corresp="https://edition-humboldt.de/NGTMX7L7">Ehrenberg
                         1829</bibl>
                     </note> sollten <lb/>Sie der <choice>
                   <abbr>Linn</abbr>
@@ -82,12 +100,12 @@
                   <abbr>Soc</abbr>
                   <expan>Society</expan>
                </choice>
-               <lb/>in <placeName ref="https://www.geonames.org/2643743">London</placeName> (<choice>
+               <lb/>in <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName> (<choice>
                   <abbr>Rob</abbr>
                   <expan>Robert</expan>
                </choice>
                <lb/>
-                    <persName ref="http://d-nb.info/gnd/118674455">Brown</persName>) senden<supplied cert="high">.</supplied>
+                    <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Brown</persName>) senden<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
                     <signed>Ht</signed>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019719">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,30 +11,57 @@
                     </persName>
                 </editor>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Freitag, [vor 30. März 1831], hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019719">https://edition-humboldt.de/v8/H0019719</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019719</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019719</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019719.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Freitag, [vor 30. März 1831]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019719</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>
+                            <idno type="shelfmark">Autogr. I/530/13</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051319</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        51.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 28.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     <date notBefore="1830-10-03" notAfter="1831-03-29" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
-                <note>Zur Datierung vgl. <ref target="H0019587">den folgenden
+                <note>Zur Datierung vgl. <ref target="https://edition-humboldt.de/H0019587">den folgenden
                     Brief</ref>.</note>
             </correspDesc>
         </profileDesc>
@@ -48,30 +75,30 @@
                 </opener>
 				<pb n="1r"/>
                 <p>Je dois ajouter quelques
-                        éclair<lb/>cissemens par écrit que je <lb/>n’ai pas cru <choice>
+                        éclair<lb break="no"/>cissemens par écrit que je <lb/>n’ai pas cru <choice>
                         <sic>convenable</sic>
                         <corr cert="high">convenables</corr>
                     </choice>
-                    <lb/>de Vous donner de bouche, <lb/>mon cher Monsieur <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>
+                    <lb/>de Vous donner de bouche, <lb/>mon cher Monsieur <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>
                     <supplied cert="high">.</supplied>
-                    <lb/>Il n’est sérieusement ques<lb/>tion d’aucun achât de
+                    <lb/>Il n’est sérieusement ques<lb break="no"/>tion d’aucun achât de
                     <lb/>Vos
                     4 tableaux dont Vous <lb/>restez le maître ici et à <lb/>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>. Cette
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>. Cette
                     phrase n’étoit <lb/>que pour <choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116918241">Léo</persName>. <ref xml:id="e0eed66a-4a1e-4c90-aed6-6a4a1efc9092" corresp="#d2aeea1d-0e1c-45eb-aeea-1d0e1cd5eb06">J’ai voulu <lb/>tout simplement m’acquitter <lb/>d’une ancienne dette
+                    <persName ref="https://editon-humboldt.de/H0004453 http://d-nb.info/gnd/116918241">Léo</persName>. <ref xml:id="e3060897-7cd8-42c8-8608-977cd892c8c0" corresp="#d9f31166-b864-4db6-b311-66b864bdb69c">J’ai voulu <lb/>tout simplement m’acquitter <lb/>d’une ancienne dette
                             pour <lb/>les dessins que Vous avez eu <lb/>la bonté de m’envoyer</ref>
-                    <note xml:id="d2aeea1d-0e1c-45eb-aeea-1d0e1cd5eb06" corresp="#e0eed66a-4a1e-4c90-aed6-6a4a1efc9092">Humboldt bezieht sich hier wahrscheinlich auf
+                    <note xml:id="d9f31166-b864-4db6-b311-66b864bdb69c" corresp="#e3060897-7cd8-42c8-8608-977cd892c8c0">Humboldt bezieht sich hier wahrscheinlich auf
                             die Pflanzenzeichnungen für die Neuausgabe der Ideen zu einer Geographie
                             der Pflanzen, die er 1825 und 1826 bei Rugendas in Auftrag gegeben
-                            hatte. Vgl. unter anderem die <ref target="H0017850">Vereinbarung vom
-                                24. Oktober 1825</ref> sowie <ref target="H0017855">Humboldts Brief an
+                            hatte. Vgl. unter anderem die <ref target="https://edition-humboldt.de/H0017850">Vereinbarung vom
+                                24. Oktober 1825</ref> sowie <ref target="https://edition-humboldt.de/H0017855">Humboldts Brief an
                                 Rugendas, Paris, 1. Februar 1826</ref>.</note>. Je <lb/>ne m’en intéresserai pas <lb/>avec moins de chaleur à <lb/>la
                     sortie de Vos 4 jolis <lb/>tableaux. Je Vous prie en <lb/>grâce de ne pas me
-                        répon<lb/>dre à ces lignes dictées <lb/>par la plus haute estime
+                        répon<lb break="no"/>dre à ces lignes dictées <lb/>par la plus haute estime
                     pour <lb/>votre talent<supplied cert="high">.</supplied>
                 </p>
 				<closer>

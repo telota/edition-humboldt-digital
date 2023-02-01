@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002730">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,65 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 6. Februar
+                    1794, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002730">https://edition-humboldt.de/v8/H0002730</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002730</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002730</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002730.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 6. Februar
-                    1794. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002730</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <repository/>
+                        <collection>Humboldt Sammlung</collection>
+                        <idno>
+                            <idno type="shelfmark">HU 99/01 QA</idno>
+                            <idno type="uri">https://sammlung-online.stadtmuseum.de/Details/Index/335132</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Büttenpapier, Maße: H: 20,7 cm B: 16,6 cm </p>
+                    </physDesc>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/QDTWES7F">Hein 1985,
+                            34</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/ERRZUGRJ">Soemmerring 2001,
+                            167–168</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2951825">Bayreuth</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0005176 https://www.geonames.org/2951825">Bayreuth</placeName>
                     <date when="1794-02-06" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830) </persName>
-                    <placeName ref="https://www.geonames.org/2874225">Mainz</placeName>
+                    <persName ref="https://editon-humboldt.de/H0015944 http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0008587 https://www.geonames.org/2874225">Mainz</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -71,7 +102,7 @@
                         <abbr>v.</abbr>
                         <expan>von</expan>
                     </choice>
-                    <persName ref="https://edition-humboldt.de/v8/H0001999">Pirch</persName> aus <placeName ref="https://www.geonames.org/2951825">Bayreuth</placeName>, ein Offizier, <lb/>nicht wie Tausende, sondern von
+                    <persName ref="https://editon-humboldt.de/H0001999">Pirch</persName> aus <placeName ref="https://editon-humboldt.de/H0005176 https://www.geonames.org/2951825">Bayreuth</placeName>, ein Offizier, <lb/>nicht wie Tausende, sondern von
                     vorzüglichem <lb/>Kopfe <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -85,9 +116,10 @@
                     </choice> ich verdanke ihm meine jezige Genesung, <lb/>die er durch
                     freundschaftliche Pflege beförderte. <lb/>So ein Mann ist schon werth, von Ihnen
                     gütig <lb/>aufgenommen zu werden, werth, Sie zu sehen, <lb/>wie ich Sie sahe.
-                    Könnte ich in diesem Augen<lb/>blick seine Stelle einnehmen und Sie
-                    recht herz-<lb/>lich umarmen. Ach, aber unser
-                        <persName ref="http://d-nb.info/gnd/118534416">Forster</persName>, ist <lb/>er denn nicht mehr?
+                    Könnte ich in diesem Augen<lb break="no"/>blick seine Stelle einnehmen und Sie
+                    recht herz<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich umarmen. Ach, aber unser
+                        <persName ref="https://editon-humboldt.de/H0000177 http://d-nb.info/gnd/118534416">Forster</persName>, ist <lb/>er denn nicht mehr?
                     Das waren doch schöne Zeiten <lb/>
                     <hi rendition="#u">unseres</hi>
                     Lebens, die wir mit ihm waren! Aber jetzt — </p>

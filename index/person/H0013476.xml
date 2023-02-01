@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0013476">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Gil de Taboada Lemus y Villamarín, Francisco</title>
             </titleStmt>
+            <editionStmt>
+                <p>Gil de Taboada Lemus y Villamarín, Francisco [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0013476.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0013476.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0013476.xml">
-                    <p>Gil de Taboada Lemus y Villamarín, Francisco [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0013476.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0013476">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/73114532/</idno>
                     <persName type="reg">
                         <surname>Gil de Taboada Lemus y Villamarín</surname>
@@ -41,8 +46,8 @@
                     <birth>1736</birth>
                     <death>1810</death>
                     <note>spanischer Marineoffizier und Kolonialverwalter;
-                        <?oxy_comment_start author="goetz" timestamp="20200915T103314+0200" comment="Faak: ab der ersten Hälfte des Jahres 1789 Vizekönig von Neu-Granada und danach bis 1796 Vizekönig von Peru"?>ab
-                        1789 als Vizekönig von Neu-Granada und Peru<?oxy_comment_end?> amtierte;
+                        ab
+                        1789 als Vizekönig von Neu-Granada und Peru amtierte;
                         führte Verbesserungen in Wirtschaft und Finanzwesen durch; später
                         Finanzminister in Spanien</note>
                 </person>

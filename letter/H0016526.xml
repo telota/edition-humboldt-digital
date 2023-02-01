@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016526">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [1833] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016526">https://edition-humboldt.de/v8/H0016526</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016526</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016526</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016526.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [1833] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016526</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">276E14[Archiv Nr.676 Bl.5-6]</idno>
+                     <idno type="shelfmark">676, Bl. 5r-6r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1833" notAfter="1833">1833</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Humboldt an Ehrenberg, NL Ehrenberg Nr. 39, 40, 45, sowie
                Altenstein an Humboldt vom 5.8.1833, NL Ehrenberg 36A.1. vgl.auch Humboldt an
@@ -73,9 +91,11 @@
                   </choice>
                     </add> viel auf Ihre Nachsicht <lb/>gerechnet seyn, wenn ich Ihnen
                zumuthen <lb/>wollte, daß Sie beygehenden Bericht <lb/>den ich gern morgen an das
-                  Ministe-<lb/>rium absenden möchte, durchlesen
+                  Ministe<g ref="#typoHyphen"/>
+                    <lb break="no"/>rium absenden möchte, durchlesen
                sollten. <lb/>Vielleicht aber, da ich entschlossen bin, <lb/>lieber Berlin <add place="superlinear">und Preußen</add> zu verlassen, als mich so <lb/>unterdrücken
-               und außer Thätigkeit brin-<lb/>gen zu lassen,
+               und außer Thätigkeit brin<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen zu lassen,
                gewähren Sie mir <lb/>die Bitte die lezten 2 Bogen durch zu <lb/>sehen. <choice>
                   <sic>Herr Lichtenstein hat sich bey</sic>
                   <corr type="deleted"/>
@@ -83,10 +103,13 @@
                <lb/>
                     <pb n="1v"/>
                     <del rendition="#s">dieser Sache ein Denkmal gesezt. Alle
-                  <lb/>Verwirrung, Unwissenschaftlich-<lb/>keit und
+                  <lb/>Verwirrung, Unwissenschaftlich<g ref="#typoHyphen"/>
+                        <lb break="no"/>keit und
                   Erbärmlichkeit geht von <lb/>ihm aus und.</del> Der Bericht ist zu <lb/>lang aber
                ich bin müde noch einen <lb/>vierten zu machen und mein <lb/>elender Zustand wird
-               nicht ge-<lb/>bessert auch wenn mir alles zu-<lb/>gestanden wird. Sollte der <lb/>Herr <persName ref="http://d-nb.info/gnd/11862783X">Minister</persName> meine <choice>
+               nicht ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>bessert auch wenn mir alles zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>gestanden wird. Sollte der <lb/>Herr <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Minister</persName> meine <choice>
                   <abbr>Darstellg.</abbr>
                   <expan>Darstellung</expan>
                </choice>
@@ -103,14 +126,15 @@
                     </del> die Mittel <lb/>welche <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
-               <add place="superlinear">das aus Mangel an Schutz</add> verkümmerte Un-<lb/>ternehmen braucht gewährt <lb/>werden können.
-               Ich sehe fast <lb/>nur das Ausland, vielleicht Göttin<lb/>gen, als eine
-               Rettung. Hier <lb/>bin ich unter <persName ref="http://d-nb.info/gnd/100190014">Lichtensteins</persName>
+               <add place="superlinear">das aus Mangel an Schutz</add> verkümmerte Un<g ref="#typoHyphen"/>
+                    <lb break="no"/>ternehmen braucht gewährt <lb/>werden können.
+               Ich sehe fast <lb/>nur das Ausland, vielleicht Göttin<lb break="no"/>gen, als eine
+               Rettung. Hier <lb/>bin ich unter <persName ref="https://editon-humboldt.de/H0004521 http://d-nb.info/gnd/100190014">Lichtensteins</persName>
                und <choice>
                   <abbr>Joh</abbr>
                   <expan>Johannes</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118585053">
+               <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">
                         <choice>
                      <abbr>M</abbr>
                      <expan>Müller</expan>
@@ -140,7 +164,7 @@
                   <add place="superlinear">mit glatten Worten gestreichelt und dann <lb/>getreten.
                      Mich verlangt es nach Rache. <gap reason="illegible" unit="words" quantity="1"/>
                         </add>
-               </subst> Gegen<lb/>gewicht kann ich Ihnen nicht halten. Sie
+               </subst> Gegen<lb break="no"/>gewicht kann ich Ihnen nicht halten. Sie
                <lb/>in diese <choice>
                   <sic>Angelegenheit <add place="superlinear">widerige</add>
                         </sic>
@@ -149,7 +173,7 @@
                mit enthalten. Ihren gütigen <lb/>Privatrath aber erbitte ich mir.</p>
             <p> Schelten Sie auch nicht daß ich noch nicht <lb/>die russische Reise kenne. Ich muß
                <lb/>mich zum practischen wenden, weil ich <lb/>sonst nicht leben kann und der
-                  Gnaden<lb/>stellung überdrüssig bin. </p>
+                  Gnaden<lb break="no"/>stellung überdrüssig bin. </p>
             <p>
                     <add type="">ohne Achtung</add>
                <subst>

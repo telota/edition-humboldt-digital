@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019287">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Krukowskij</title>
             </titleStmt>
+            <editionStmt>
+                <p>Krukowskij [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019287.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019287.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019287.xml">
-                    <p>Krukowskij [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019287.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019287">
+                <place>
                     <placeName type="reg">Krukowskij</placeName>
                     <placeName type="alt">Krukofski</placeName>
                     <placeName type="alt">Gruckowski</placeName>
-                    <note>Ort und Silbergrube am Gebirgskamm <placeName key="H0018299">Prochodnoj Belok</placeName> im
-                            <placeName key="H0002407">Altai</placeName>, südlich von <placeName key="H0010485">Ridder</placeName> (Kasachstan)</note>
+                    <note>Ort und Silbergrube am Gebirgskamm <placeName ref="https://editon-humboldt.de/H0018299 https://www.geonames.org/12199988">Prochodnoj Belok</placeName> im
+                            <placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altai</placeName>, südlich von <placeName ref="https://editon-humboldt.de/H0010485 https://www.geonames.org/1521370">Ridder</placeName> (Kasachstan)</note>
                 </place>
             </listPlace>
         </body>

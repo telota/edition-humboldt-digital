@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017606">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Černovka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Černovka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017606.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,33 +20,34 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017606.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017606.xml">
-                    <p>Černovka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017606.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017606">
+                <place>
                     <idno type="uri">https://www.geonames.org/12166006</idno>
                     <placeName type="reg">Černovka</placeName>
                     <placeName type="alt">Черновка</placeName>
                     <placeName type="alt">Černovka rečuška</placeName>
                     <placeName type="alt">Tschernowka</placeName>
-                    <!-- Erdmann 1822-1826, II.1, Tafel IV-->
+                    
                     <placeName type="alt">Chernovka</placeName>
                     <placeName type="alt">Tchernovka</placeName>
                     <placeName type="alt">Tschornä räschka</placeName>
                     <placeName type="alt">Tschornä reschka</placeName>
                     <placeName type="alt">Tschernowka Reschka</placeName>
                     <placeName type="alt">Chernovka Reczka</placeName>
-                    <note>Zufluss zum <placeName key="H0005636">Elton-See</placeName>
+                    <note>Zufluss zum <placeName ref="https://editon-humboldt.de/H0005636 https://www.geonames.org/563493">Elton-See</placeName>
                         (Russland)</note>
                 </place>
             </listPlace>

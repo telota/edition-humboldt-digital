@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020341">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Nechoroschkowa</title>
             </titleStmt>
+            <editionStmt>
+                <p>Nechoroschkowa [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020341.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,30 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020341.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020341.xml">
-                    <p>Nechoroschkowa [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020341.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0020341">
-                    <!--<idno type="uri">XXX</idno>-->
+                <place>
+                    
                     <placeName type="reg">Nechoroschkowa</placeName>
-                    <!--<placeName type="alt">Нехороšкова</placeName>???-->
+                    
                     <placeName type="alt">Nechoroschiova</placeName>
                     <placeName type="alt">Nechorschcova</placeName>
-                    <placeName type="alt">Nigaroschkowa</placeName><!-- ERST 33v -->
-                    <note>historischer Ort im <placeName key="H0020290">Nördlichen Ural</placeName> westlich
-                        von <placeName key="H0009131">Werchoturje</placeName> nahe der Mündung der <placeName key="H0019950">Shaytanka</placeName> in die <placeName key="H0017607">Tura</placeName>
-                            (<placeName key="H0010689">Russland</placeName>)</note>
+                    <placeName type="alt">Nigaroschkowa</placeName>
+                    <note>historischer Ort im <placeName ref="https://editon-humboldt.de/H0020290 https://www.geonames.org/1492575">Nördlichen Ural</placeName> westlich
+                        von <placeName ref="https://editon-humboldt.de/H0009131 https://www.geonames.org/1487219">Werchoturje</placeName> nahe der Mündung der <placeName ref="https://editon-humboldt.de/H0019950 https://www.geonames.org/7500476">Shaytanka</placeName> in die <placeName ref="https://editon-humboldt.de/H0017607 https://www.geonames.org/1488955">Tura</placeName>
+                            (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

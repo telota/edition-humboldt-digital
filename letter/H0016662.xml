@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016662">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016662">https://edition-humboldt.de/v8/H0016662</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016662</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016662</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016662.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016662</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">94</idno>
+                     <idno type="shelfmark">421, Bl. 174r-175r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1836" notAfter="1836" cert="low">1836-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Ehrenbergs Publikation von 1836</note>
          </correspDesc>
@@ -63,7 +81,7 @@
          <div type="writingSession">
             <pb n="1r"/>
             <p>Ich kann Ihnen, theurer Freund, leider keinen <lb/>französischen Abschreiber
-               zuweisen, da ich <lb/>nie habe in <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> etwas
+               zuweisen, da ich <lb/>nie habe in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> etwas
                französisches <lb/>abschreiben lassen: aber die Notice <lb/>scheint mir recht schön
                und deutlich<supplied cert="high">.</supplied>
                <lb/>Nur die erste Phrase da sie im <lb/>Institut gelesen werden soll, würde <lb/>des
@@ -96,27 +114,28 @@
                   <del rendition="#s">Textproben</del>
                   <add place="intralinear">Correcturbogen</add>
                </subst>) <lb/>sezen Sie 38 espèces. <lb/>Ich dachte Sie strichen bloss aus <lb/>und
-               schrieben darüber. Ich hoffe <lb/>dass die vielen Hoffeten und Abwe<lb/>senheiten mir nicht die Freude <lb/>rauben werden, Ihre feinen anatomi-<lb/>
+               schrieben darüber. Ich hoffe <lb/>dass die vielen Hoffeten und Abwe<lb break="no"/>senheiten mir nicht die Freude <lb/>rauben werden, Ihre feinen anatomi<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="1v"/>schen und physiologischen
                Entdekkungen <lb/>zu bewundern.</p>
-            <p>Hier, mein theurer Freund, <lb/>das lezte <ref xml:id="d4914148-fce7-421b-9141-48fce7021b3b" corresp="#dac84d64-3664-4843-884d-643664684373">Heft von <persName ref="http://d-nb.info/gnd/118643967">Agassiz</persName>
+            <p>Hier, mein theurer Freund, <lb/>das lezte <ref xml:id="d9f6afce-d724-439c-b6af-ced724039c48" corresp="#bd3e9938-5725-4108-be99-385725d10829">Heft von <persName ref="https://editon-humboldt.de/H0012520 http://d-nb.info/gnd/118643967">Agassiz</persName>
                     </ref>
-                    <note xml:id="dac84d64-3664-4843-884d-643664684373" corresp="#d4914148-fce7-421b-9141-48fce7021b3b">
-                     <bibl corresp="https://edition-humboldt.de/v8/DKMFAISF">Agassiz 1833-1843</bibl>
+                    <note xml:id="bd3e9938-5725-4108-be99-385725d10829" corresp="#d9f6afce-d724-439c-b6af-ced724039c48">
+                     <bibl corresp="https://edition-humboldt.de/DKMFAISF">Agassiz 1833-1843</bibl>
                     </note> das <lb/>schöner als die vorigen ist. <lb/>Gerade die Blätter die man
                <lb/>wahrscheinlich Ihnen hat <lb/>mit Gehässigkeit bezeichnen <lb/>wollen <choice>
                   <abbr>p</abbr>
                   <expan>pagina</expan>
                </choice> 59–64 haben mir <lb/>von dem grössten Interesse <lb/>geschienen und das
-               seit <persName ref="http://d-nb.info/gnd/118650130">Aristo<lb/>teles</persName> gebrauchte Wort
-                  Natur<lb/>philosophie, das man auf <lb/>alle Aufsuchung des Gesezlichen
+               seit <persName ref="https://editon-humboldt.de/H0012718 http://d-nb.info/gnd/118650130">Aristo<lb break="no"/>teles</persName> gebrauchte Wort
+                  Natur<lb break="no"/>philosophie, das man auf <lb/>alle Aufsuchung des Gesezlichen
                <lb/>in dem Organismus anwenden <lb/>kann hat mich wie es <choice>
                   <abbr>p</abbr>
                   <expan>pagina</expan>
                </choice> 63. <lb/>steht nicht erschrekt. Wenn <lb/>man vorher eine Masse
-                  isolir<lb/>ter Beobachtungen über das <lb/>allmälige Erscheinen der
+                  isolir<lb break="no"/>ter Beobachtungen über das <lb/>allmälige Erscheinen der
                <lb/>Organismen nüchtern gegeben <lb/>kann man sich ja wohl <lb/>eine allgemeine
-               Vermuthung <lb/>erlauben, <persName ref="http://d-nb.info/gnd/118643967">Agassiz</persName> sagt <lb/>ja
+               Vermuthung <lb/>erlauben, <persName ref="https://editon-humboldt.de/H0012520 http://d-nb.info/gnd/118643967">Agassiz</persName> sagt <lb/>ja
                nicht dass ein <name type="animal" key="Fisch">Fisch</name>
                <lb/>zum <name type="animal" key="Pachydermata">Pachydermen</name> wird, er
                <lb/>macht bloss auf die Epochen <lb/>des Erscheinens aufmerksam<supplied cert="high">.</supplied>
@@ -130,33 +149,34 @@
                <lb/>Worte durch bessere Anwendung <lb/>der Vernunft zu Ehren helfen<supplied cert="high">.</supplied>
                <lb/>
                     <pb n="2r"/>Das Anordnen des Empirischen <lb/>nach Ideen ist eine erlaubte
-               <lb/>Naturphilosophie, das Schaffen <lb/>aus blossen Ideen, ohne empi<lb/>risches Substrat, ist eine <lb/>verderbliche. Ihre schöne <lb/>
-                    <ref xml:id="ac847eac-d5e4-4785-847e-acd5e43785b2" corresp="#e6f2965b-900a-42ed-b296-5b900aa2ed9e">philosophische Aufstellung <lb/>der schaligen <choice>
+               <lb/>Naturphilosophie, das Schaffen <lb/>aus blossen Ideen, ohne empi<lb break="no"/>risches Substrat, ist eine <lb/>verderbliche. Ihre schöne <lb/>
+                    <ref xml:id="b27b29f4-0792-4eb1-bb29-f40792feb12c" corresp="#b0807671-3149-436d-8076-713149c36d33">philosophische Aufstellung <lb/>der schaligen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                      </choice> nakten <lb/>ähnlichen Organismen</ref>
-                    <note xml:id="e6f2965b-900a-42ed-b296-5b900aa2ed9e" corresp="#ac847eac-d5e4-4785-847e-acd5e43785b2">
-                     <bibl corresp="https://edition-humboldt.de/v8/QCI6353C">Ehrenberg 1836a</bibl>
-                  </note> nenne <lb/>ich Naturphilosophie und <lb/>erfreue mich derselben. Geo<lb/>gnosie führt auf Zeitfolge <lb/>und also auf die gefährlichen
+                    <note xml:id="b0807671-3149-436d-8076-713149c36d33" corresp="#b27b29f4-0792-4eb1-bb29-f40792feb12c">
+                     <bibl corresp="https://edition-humboldt.de/QCI6353C">Ehrenberg 1836a</bibl>
+                  </note> nenne <lb/>ich Naturphilosophie und <lb/>erfreue mich derselben. Geo<lb break="no"/>gnosie führt auf Zeitfolge <lb/>und also auf die gefährlichen
                <lb/>Wege des Grübelns <subst>
                   <del rendition="#s">auf</del>
                   <add place="intralinear">über</add>
                </subst>
                <lb/>das <hi rendition="#u">Werden</hi>, <hi rendition="#u">Entstehen</hi>
                <lb/>die Christen sagen Schaffen<supplied cert="high">.</supplied>
-               <lb/>Das ist die <ref xml:id="af96e300-ebf3-4cec-96e3-00ebf38cec16" corresp="#cfebbde7-45b8-40ac-abbd-e745b830ac06">Nachtseite <lb/>unseres Wissens</ref>
-                    <note xml:id="cfebbde7-45b8-40ac-abbd-e745b830ac06" corresp="#af96e300-ebf3-4cec-96e3-00ebf38cec16">
-                     <bibl corresp="https://edition-humboldt.de/v8/QU44IQWN">Schubert 1808</bibl>
+               <lb/>Das ist die <ref xml:id="b97a7c8f-4d4b-4429-ba7c-8f4d4bc429a4" corresp="#dbfe9a5d-ebfb-498f-be9a-5debfbf98f24">Nachtseite <lb/>unseres Wissens</ref>
+                    <note xml:id="dbfe9a5d-ebfb-498f-be9a-5debfbf98f24" corresp="#b97a7c8f-4d4b-4429-ba7c-8f4d4bc429a4">
+                     <bibl corresp="https://edition-humboldt.de/QU44IQWN">Schubert 1808</bibl>
                   </note> aber ein <lb/>träumerisches Wort darüber <lb/>ist neben vielen nicht
                <lb/>erträumten factis wohl <lb/>zu entschuldigen<supplied cert="high">.</supplied>
-               Ich <lb/>glaube also dass <persName ref="http://d-nb.info/gnd/118643967">Agassiz</persName> in <lb/>diesem
-               Hefte sehr philoso-<lb/>phische Betrachtungen
+               Ich <lb/>glaube also dass <persName ref="https://editon-humboldt.de/H0012520 http://d-nb.info/gnd/118643967">Agassiz</persName> in <lb/>diesem
+               Hefte sehr philoso<g ref="#typoHyphen"/>
+                    <lb break="no"/>phische Betrachtungen
                geliefert <lb/>hat, aber in vorigen Heften <lb/>misfiel mir die Idee <lb/>„der
-               Gebirgsarten die sich <lb/>organisch aus einander ent<lb/>wikkelten“ und
+               Gebirgsarten die sich <lb/>organisch aus einander ent<lb break="no"/>wikkelten“ und
                ein <hi rendition="#u">Traum</hi>
                <lb/>in dem er ein Fischsquelett <lb/>verstehen lernte. Ich habe <lb/>ihm
                geschrieben, es misfalle <lb/>mir und solche Krankheit <lb/>komme ihm von seinem
-               <lb/>Schwager <ref xml:id="f429856f-7832-48c7-a985-6f783218c7a4" corresp="#b35aa839-64b8-4872-9aa8-3964b8687270">Alexander <persName ref="http://d-nb.info/gnd/116415576">Braun</persName>
+               <lb/>Schwager <ref xml:id="d56f29f4-2b31-440f-af29-f42b31b40f8d" corresp="#c6192b46-9fef-4f1a-992b-469fefef1a95">Alexander <persName ref="https://editon-humboldt.de/H0003603 http://d-nb.info/gnd/116415576">Braun</persName>
                      <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -166,11 +186,11 @@
                         <abbr>Dr</abbr>
                         <expan>Doktor</expan>
                      </choice>
-                     <persName ref="http://d-nb.info/gnd/118607723">Schimper</persName> die so langweilig <lb/>über
+                     <persName ref="https://editon-humboldt.de/H0015542 http://d-nb.info/gnd/118607723">Schimper</persName> die so langweilig <lb/>über
                      Schuppen und Wirtel der <lb/>
                         <name type="plant" key="Coniferen">Coniferen</name> geschrieben</ref>
-                    <note xml:id="b35aa839-64b8-4872-9aa8-3964b8687270" corresp="#f429856f-7832-48c7-a985-6f783218c7a4">
-                     <bibl corresp="https://edition-humboldt.de/v8/UI852GYW">Braun 1831</bibl>
+                    <note xml:id="c6192b46-9fef-4f1a-992b-469fefef1a95" corresp="#d56f29f4-2b31-440f-af29-f42b31b40f8d">
+                     <bibl corresp="https://edition-humboldt.de/UI852GYW">Braun 1831</bibl>
                   </note> haben<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
@@ -182,13 +202,13 @@
                 </closer>
             <postscript>
                <p>Ich
-                  lege Ihnen <lb/>ein Memoir und <lb/>einen breiten Brief <lb/>von <persName ref="http://d-nb.info/gnd/118505831">Baer</persName> bei. <lb/>Kann man sich etwas
+                  lege Ihnen <lb/>ein Memoir und <lb/>einen breiten Brief <lb/>von <persName ref="https://editon-humboldt.de/H0003028 http://d-nb.info/gnd/118505831">Baer</persName> bei. <lb/>Kann man sich etwas
                   <lb/>Lächerlicheres denken <lb/>als dass (wie das! <lb/>Gefolge der Großfürsten
                      <lb/>
-                        <persName ref="http://d-nb.info/gnd/131883119">Michael</persName> versichert<supplied cert="high">)</supplied>
+                        <persName ref="https://editon-humboldt.de/H0001164 http://d-nb.info/gnd/131883119">Michael</persName> versichert<supplied cert="high">)</supplied>
                   <lb/>
-                        <persName ref="http://d-nb.info/gnd/118505831">Baer</persName> jetzt an <persName ref="http://d-nb.info/gnd/116337591">Rathke’ <lb/>s</persName> Stelle nach <lb/>
-                        <placeName ref="https://www.geonames.org/588335">Dorpat</placeName> will. <lb/>Beide also tauschen<supplied cert="high">.</supplied>
+                        <persName ref="https://editon-humboldt.de/H0003028 http://d-nb.info/gnd/118505831">Baer</persName> jetzt an <persName ref="https://editon-humboldt.de/H0016801 http://d-nb.info/gnd/116337591">Rathke’ <lb/>s</persName> Stelle nach <lb/>
+                        <placeName ref="https://editon-humboldt.de/H0005552 https://www.geonames.org/588335">Dorpat</placeName> will. <lb/>Beide also tauschen<supplied cert="high">.</supplied>
                     </p>
             </postscript>
          </div>

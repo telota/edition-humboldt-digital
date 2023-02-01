@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018665">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Isserstedt</title>
             </titleStmt>
+            <editionStmt>
+                <p>Isserstedt [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018665.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018665.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018665.xml">
-                    <p>Isserstedt [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018665.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018665">
+                <place>
                     <placeName type="reg">Isserstedt</placeName>
                     <placeName type="alt">Itterstädt</placeName>
                     <placeName type="alt">Isterstädt</placeName>
-                    <note><?oxy_comment_start author="schnee" timestamp="20210311T130724+0100" comment="Überarbeiten! wenn heute Ortsteil von Jena, warum dann Ort bei Weimar?" flag="done"?>Ort
-                        zwischen <placeName key="H0007930">Weimar</placeName> und <placeName key="H0006574">Jena</placeName>; heute Stadtteil von Jena<?oxy_comment_end?> (<placeName key="H0005517">Deutschland</placeName>)</note>
+                    <note>Ort
+                        zwischen <placeName ref="https://editon-humboldt.de/H0007930 https://www.geonames.org/2812482">Weimar</placeName> und <placeName ref="https://editon-humboldt.de/H0006574 https://www.geonames.org/2895044">Jena</placeName>; heute Stadtteil von Jena (<placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

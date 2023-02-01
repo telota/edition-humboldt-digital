@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018835">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Berliner Börse</title>
             </titleStmt>
+            <editionStmt>
+                <p>Berliner Börse [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018835.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018835.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018835.xml">
-                    <p>Berliner Börse [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018835.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018835">
+                <org>
                     <idno type="uri">https://d-nb.info/gnd/11934792X</idno>
                     <orgName type="reg">Berliner Börse</orgName>
                     <desc>Berliner Wertpapierbörse, zunächst im Lustgarten, ab 1863 in der Burgstraße 25–26</desc>
                     <location from="1863" to="1943">
                         <address>
                             <idno type="uri">https://www.geonames.org/6698678</idno>
-                            <settlement key="H0005221">Berlin</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005221">Berlin</settlement>
                             <note>Burgstraße 25–26</note>
                         </address>
                     </location>

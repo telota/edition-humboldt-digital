@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003759">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bulgakov, Konstantin Jakovlevič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bulgakov, Konstantin Jakovlevič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003759.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003759.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003759.xml">
-                    <p>Bulgakov, Konstantin Jakovlevič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003759.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003759">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/142086320</idno>
                     <persName type="reg">
                         <surname>Bulgakov</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1782</birth>
                     <death>1835</death>
-                    <note>russischer Beamter; Postdirektor von <placeName key="H0008236">Sankt Petersburg</placeName>, 1831–1835 Direktor
+                    <note>russischer Beamter; Postdirektor von <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt Petersburg</placeName>, 1831–1835 Direktor
                         des russischen Postdepartements</note>
                     <linkGrp>
                         <ptr target="30#115" type="page"/>

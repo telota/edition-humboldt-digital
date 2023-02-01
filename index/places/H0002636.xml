@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002636">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Avačinskaja-Bucht</title>
             </titleStmt>
+            <editionStmt>
+                <p>Avačinskaja-Bucht [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0002636.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002636.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0002636.xml">
-                    <p>Avačinskaja-Bucht [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0002636.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0002636">
+                <place>
                     <idno type="uri">https://www.geonames.org/2126968</idno>
                     <placeName type="reg">Avačinskaja-Bucht</placeName>
                     <placeName type="alt">Авачинская бухта</placeName>
@@ -37,9 +42,9 @@
                     <placeName type="alt">Awatscha-Bucht</placeName>
                     <placeName type="alt">Avacha Bay</placeName>
                     <placeName type="alt">Baie d'Avatcha</placeName>
-                    <note>Bucht im Südosten der Halbinsel <placeName key="H0000343">Kamtschakta</placeName>
+                    <note>Bucht im Südosten der Halbinsel <placeName ref="https://editon-humboldt.de/H0000343 https://www.geonames.org/2125072">Kamtschakta</placeName>
                         (Russland)</note>
-                    <!-- vgl. Gemälde von Weitsch 1806: https://en.wikipedia.org/wiki/Avacha_Bay#/media/File:Weitsch_Adam_Johann_von_Krusenstern_in_Avacha_Bay.jpg -->
+                    
                 </place>
             </listPlace>
         </body>

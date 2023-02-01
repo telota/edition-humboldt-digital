@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005568">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Dschambu Karagai</title>
             </titleStmt>
+            <editionStmt>
+                <p>Dschambu Karagai [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0005568.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005568.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0005568.xml">
-                    <p>Dschambu Karagai [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0005568.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0005568">
+                <place>
                     <placeName type="reg">Dschambu Karagai</placeName>
                     <placeName type="alt">Djambu-Karagan</placeName>
                     <placeName type="alt">Djambouk Karagay</placeName>
-                    <note>ältere Bezeichnung für einen Abschnitt der dem <placeName key="H0020292">Südlichen
-                            Ural</placeName> im Osten vorgelagerten Schwelle, zwischen <placeName key="H0006673">Ilmengebirge</placeName> im Norden und <placeName key="H0009035">Mugodschar-Gebirge</placeName> im Süden; bildet vermutlich mit dem Gebirgszug <placeName key="H0017783">Kara Aygur</placeName> die Gebirgskette <placeName key="H0000361">Kara
-                            Adyr</placeName><!-- Vgl. AC, I, 275-278.  -->
+                    <note>ältere Bezeichnung für einen Abschnitt der dem <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen
+                            Ural</placeName> im Osten vorgelagerten Schwelle, zwischen <placeName ref="https://editon-humboldt.de/H0006673 https://www.geonames.org/1505865/">Ilmengebirge</placeName> im Norden und <placeName ref="https://editon-humboldt.de/H0009035 https://www.geonames.org/608797">Mugodschar-Gebirge</placeName> im Süden; bildet vermutlich mit dem Gebirgszug <placeName ref="https://editon-humboldt.de/H0017783">Kara Aygur</placeName> die Gebirgskette <placeName ref="https://editon-humboldt.de/H0000361">Kara
+                            Adyr</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="30#60" type="letter"/>

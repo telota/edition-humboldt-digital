@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016436">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,30 +17,51 @@
                 </editor>
                 
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Friedrich Wilhelm IV. Berlin, 20. Juni 1857, hg. v. Linda Martin und Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016436">https://edition-humboldt.de/v8/H0016436</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016436</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016436</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016436.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Friedrich Wilhelm IV. Berlin, 20. Juni 1857. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016436</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Geheimes Staatsarchiv Preußischer Kulturbesitz</institution>
+                        <repository/>
+                        <collection>I. HA Rep. 89, Geheimes Zivilkabinett, jüngere
+                            Periode</collection>
+                        <idno>
+                            <idno type="shelfmark">Nr. 19767, Bl. 51r–52v</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
                         Deutschland)</placeName>
                     <date when="1857-06-20" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118535994">Preußen, Friedrich Wilhelm IV., König von
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Preußen, Friedrich Wilhelm IV., König von
                         (1795-1861)</persName>
                 </correspAction>
             </correspDesc>
@@ -60,7 +81,7 @@
                 <lb/>
                 <note place="left" hand="#unknown">
                     <p>
-                        <persName ref="http://d-nb.info/gnd/118535994">
+                        <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">
                             <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seine</expan>
@@ -87,7 +108,7 @@
                             <expan>Jahres</expan>
                         </choice>
                         <lb/>zahlbar.</p>
-                    <p>Ordre an p. <persName ref="http://d-nb.info/gnd/1030010897">Schöning</persName>
+                    <p>Ordre an p. <persName ref="https://editon-humboldt.de/H0015653 http://d-nb.info/gnd/1030010897">Schöning</persName>
                         <supplied cert="high">.</supplied>
                     </p>
                     <p>Nachricht an p<supplied cert="high">.</supplied>
@@ -98,7 +119,7 @@
                     </p>
                     <note place="mBottom" hand="#H0015288">
                         <unclear reason="illegible" cert="high">
-                            <persName ref="http://d-nb.info/gnd/121466787">
+                            <persName ref="https://editon-humboldt.de/H0015288 http://d-nb.info/gnd/121466787">
                                 <choice>
                                     <abbr>Ill</abbr>
                                     <expan>Illaire</expan>
@@ -112,7 +133,7 @@
                             <choice>
                                 <abbr>v G.</abbr>
                                 <expan>
-                                    <persName ref="http://d-nb.info/gnd/118538705">von
+                                    <persName ref="https://editon-humboldt.de/H0013429 http://d-nb.info/gnd/118538705">von
                                         Gerlach</persName>
                                 </expan>
                             </choice>
@@ -129,46 +150,46 @@
                 <lb/>
                 <p>haben,
                     als ich Sie auf der Eisenbahn verliess, mir nicht bloss erlaubt, Sie haben
-                    <lb/>wie die herrliche <persName ref="http://d-nb.info/gnd/118688634">Königin</persName>, mit der
+                    <lb/>wie die herrliche <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634">Königin</persName>, mit der
                     unaussprechbaren Huld, die das Glück <lb/>und der Trost meines greisen Alters
                     ist, mir befohlen, von Zeit zu <lb/>Zeit Nachricht von mir und der langsam
                     fortschreitenden, mich aber <lb/>keineswegs beunruhigenden oder im Arbeiten
                     stöhrenden Abnahme <lb/>meiner Kräfte zu geben. Die <hi rendition="#u">Löwen</hi> des Tages sind ⅔ der Schlagintweits,
                         <lb/>
-                    <persName ref="http://d-nb.info/gnd/119074117">
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">
                         <hi rendition="#u" hand="#unknown">Hermann</hi>
-                    </persName> und <persName ref="http://d-nb.info/gnd/118795090">
+                    </persName> und <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">
                         <hi rendition="#u" hand="#unknown">Robert</hi>
                     </persName>,
-                    die über <placeName ref="https://www.geonames.org/357994">Aegypten</placeName>
+                    die über <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Aegypten</placeName>
                     <hi rendition="#u" hand="#unknown">hier angekommen</hi> sind, <lb/>gerade die,
-                    welche in <placeName ref="https://www.geonames.org/1440268">Kaschmir</placeName>, <placeName ref="https://www.geonames.org/12096464">Ladak</placeName>, West-<placeName ref="https://www.geonames.org/1279685">Tibet</placeName> und jenseits <lb/>der <placeName ref="https://www.geonames.org/1279685">Tibet</placeName> und <placeName ref="https://www.geonames.org/1517945">Turkestan</placeName>
-                        (<placeName ref="https://www.geonames.org/1281307">Yarkand</placeName> und <placeName ref="https://edition-humboldt.de/v8/H0000412">Khotan</placeName>) scheidenden <placeName ref="https://www.geonames.org/1280792">Kuenlün</placeName>
+                    welche in <placeName ref="https://editon-humboldt.de/H0000378 https://www.geonames.org/1440268">Kaschmir</placeName>, <placeName ref="https://editon-humboldt.de/H0011319 https://www.geonames.org/12096464">Ladak</placeName>, West-<placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> und jenseits <lb/>der <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> und <placeName ref="https://editon-humboldt.de/H0009597 https://www.geonames.org/1517945">Turkestan</placeName>
+                        (<placeName ref="https://editon-humboldt.de/H0010713 https://www.geonames.org/1281307">Yarkand</placeName> und <placeName ref="https://editon-humboldt.de/H0000412">Khotan</placeName>) scheidenden <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenlün</placeName>
                     <lb/>-Kette waren, da wo jenseits des <measure quantity="18000" unit="foot">18000 <choice>
                             <abbr>engl.</abbr>
                             <expan>englische</expan>
-                        </choice> Fuss</measure> hohen <placeName ref="https://www.geonames.org/7449791">Karakorum</placeName>-<lb/>
+                        </choice> Fuss</measure> hohen <placeName ref="https://editon-humboldt.de/H0017455 https://www.geonames.org/7449791">Karakorum</placeName>-<lb break="no"/>
                     <pb n="51v"/>Alpenpasses noch kein
                     Europäer von Süden her gelangt war, nach dem Zeugniss <lb/>der neuesten
                     Reisenden <add place="superlinear">in dieser Gegend,</add> des Botanikers
-                        <persName ref="http://d-nb.info/gnd/117351946">Thomson</persName>, <persName ref="http://d-nb.info/gnd/118774891">Joseph
+                        <persName ref="https://editon-humboldt.de/H0003944 http://d-nb.info/gnd/117351946">Thomson</persName>, <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Joseph
                         Hooker</persName>s Reisebegleiter<supplied cert="high">,</supplied>
-                    <lb/>der in der geographischen Einleitung zur <bibl corresp="https://edition-humboldt.de/v8/VNWTINB4">
+                    <lb/>der in der geographischen Einleitung zur <bibl corresp="https://edition-humboldt.de/VNWTINB4">
                         <hi rendition="#u">Flora</hi>
                         <hi rendition="#u">Indica</hi>
-                    </bibl> (1856) sehr bestimmt sagt: <ref xml:id="a580214c-4b65-4371-8021-4c4b65b3715b" corresp="#cab95be5-32ce-44d6-b95b-e532ce14d670">
+                    </bibl> (1856) sehr bestimmt sagt: <ref xml:id="d99cb134-f660-47a3-9cb1-34f66027a383" corresp="#a8a3d4c5-142c-414f-a3d4-c5142c614f4f">
                         <lb/>
                         <quote>
-                            <foreign xml:lang="eng">the axis of the <placeName ref="https://www.geonames.org/1280792">Kouenlun</placeName>, forming the northern
-                                    boundary of <placeName ref="https://www.geonames.org/1279685">Tibet</placeName> and
-                                    <lb/>not less elevated than the <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName>, has not been crossed by any
+                            <foreign xml:lang="eng">the axis of the <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kouenlun</placeName>, forming the northern
+                                    boundary of <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> and
+                                    <lb/>not less elevated than the <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>, has not been crossed by any
                                     <lb/>European traveller.</foreign>
                         </quote>
                     </ref>
-                    <note xml:id="cab95be5-32ce-44d6-b95b-e532ce14d670" corresp="#a580214c-4b65-4371-8021-4c4b65b3715b">
-                        <bibl corresp="https://edition-humboldt.de/v8/VNWTINB4">Hooker/Thomson 1855</bibl>, 215.</note>
-                    <persName ref="http://d-nb.info/gnd/131576178">Moorcroft</persName> war nur südlich vom <placeName ref="https://www.geonames.org/1280792">Kuenlun</placeName> bei <lb/>den heiligen Seen. Diese grosse
-                    Ausdehnung des geographischen Wissens <lb/>verdanken wir, wie schon <persName ref="http://d-nb.info/gnd/11860130X">Ritter</persName> ausgesprochen hat, allein <choice>
+                    <note xml:id="a8a3d4c5-142c-414f-a3d4-c5142c614f4f" corresp="#d99cb134-f660-47a3-9cb1-34f66027a383">
+                        <bibl corresp="https://edition-humboldt.de/VNWTINB4">Hooker/Thomson 1855</bibl>, 215.</note>
+                    <persName ref="https://editon-humboldt.de/H0014336 http://d-nb.info/gnd/131576178">Moorcroft</persName> war nur südlich vom <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenlun</placeName> bei <lb/>den heiligen Seen. Diese grosse
+                    Ausdehnung des geographischen Wissens <lb/>verdanken wir, wie schon <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Ritter</persName> ausgesprochen hat, allein <choice>
                         <abbr>Ew.</abbr>
                         <expan>Eurer</expan>
                     </choice> Majestät <lb/>da <hi rendition="#u">Sie</hi> den ersten grossen
@@ -176,24 +197,25 @@
                         <gap reason="covered" quantity="2" unit="words"/>
                     </del>
                     <add place="superlinear">Reise auf</add>gefasst und <lb/>dem englischen
-                    Gouvernment zur Mithülfe vorgeschlagen <lb/>haben, wie wir <hi rendition="#u">Ihrer</hi> Liebe zur Erdkunde die aegyptischen Ent-<lb/>deckungen von <persName ref="http://d-nb.info/gnd/118727699">Lepsius</persName> und
-                        <persName ref="http://d-nb.info/gnd/118674676">Brugsch</persName>; die Kenntniss der
-                    altgermanischen <lb/>Sprachstamm-Districte des <placeName ref="https://www.geonames.org/573081">Kaukasus</placeName> durch <persName ref="http://d-nb.info/gnd/116621257">Rosen</persName>
-                    verdanken. Ich lobe <lb/>nicht, ich erzähle: <persName ref="http://d-nb.info/gnd/119074117">
+                    Gouvernment zur Mithülfe vorgeschlagen <lb/>haben, wie wir <hi rendition="#u">Ihrer</hi> Liebe zur Erdkunde die aegyptischen Ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>deckungen von <persName ref="https://editon-humboldt.de/H0004470 http://d-nb.info/gnd/118727699">Lepsius</persName> und
+                        <persName ref="https://editon-humboldt.de/H0003705 http://d-nb.info/gnd/118674676">Brugsch</persName>; die Kenntniss der
+                    altgermanischen <lb/>Sprachstamm-Districte des <placeName ref="https://editon-humboldt.de/H0000394 https://www.geonames.org/573081">Kaukasus</placeName> durch <persName ref="https://editon-humboldt.de/H0001046 http://d-nb.info/gnd/116621257">Rosen</persName>
+                    verdanken. Ich lobe <lb/>nicht, ich erzähle: <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">
                         <hi rendition="#u" hand="#unknown">Hermann</hi>
                     </persName>
                     und
                     der jüngste, herangewachsene Schlagintweit, <lb/>
-                    <persName ref="http://d-nb.info/gnd/118795090">
+                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">
                         <hi rendition="#u" hand="#unknown">Robert</hi>
                     </persName>, haben sich in
-                        <placeName ref="https://www.geonames.org/361058">Alexandrien</placeName> getroffen, wohin der eine
-                    von <placeName ref="https://www.geonames.org/1275004">Calcutta</placeName>, <lb/>der andere von
-                        <placeName ref="https://www.geonames.org/1275339">Bombay</placeName>, in wenigen Wochen Unterschied,
-                    ankam. Ein <lb/>Drittel Schlagintweit, <persName ref="http://d-nb.info/gnd/118755234">
+                        <placeName ref="https://editon-humboldt.de/H0002379 https://www.geonames.org/361058">Alexandrien</placeName> getroffen, wohin der eine
+                    von <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName>, <lb/>der andere von
+                        <placeName ref="https://editon-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName>, in wenigen Wochen Unterschied,
+                    ankam. Ein <lb/>Drittel Schlagintweit, <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">
                         <hi rendition="#u" hand="#unknown">Adolf</hi>
                     </persName> ist noch in
-                        <placeName ref="https://www.geonames.org/1269750">Indien</placeName> bis November <lb/>geblieben.
+                        <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> bis November <lb/>geblieben.
                     Wundersam ist es dass alle 3, so jung und daher noch viel <lb/>empfänglicher für
                     klimatische Einflüsse in den brennend heissen Diamanten <lb/>Districten, wie in
                         <add place="superlinear">den</add> verpesteten hohen Bergthälern immerfort
@@ -201,13 +223,13 @@
                     und 3 Monate lang. Es <lb/>ist von den edelsten Gefühlen tiefer Dankbarkeit
                     getrieben dass <lb/>
                     <hi rendition="#u" hand="#unknown">die beiden Reisenden</hi>
-                    von <placeName ref="https://www.geonames.org/3165185">Triest</placeName> aus, (ehe sie nach <placeName ref="https://www.geonames.org/2867714">München</placeName> zur <lb/>Mutter und zur dortigen <subst>
+                    von <placeName ref="https://editon-humboldt.de/H0009514 https://www.geonames.org/3165185">Triest</placeName> aus, (ehe sie nach <placeName ref="https://editon-humboldt.de/H0009046 https://www.geonames.org/2867714">München</placeName> zur <lb/>Mutter und zur dortigen <subst>
                         <del rendition="#s">nach</del>
                         <add place="superlinear">noch</add>
                     </subst> fünfköpfigen kleinen Schlagintweitbrut eilten) <lb/>geraden Weges sich
-                    nach <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> begaben, da wo sie die
-                    Dankbarkeit <lb/>hinrief. Sie wollen in <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> nur 4 Tage noch verweilen, um einen sie
-                    <lb/>begleitenden, auf Kosten der <orgName ref="https://edition-humboldt.de/v8/H0016794">ostindischen
+                    nach <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> begaben, da wo sie die
+                    Dankbarkeit <lb/>hinrief. Sie wollen in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> nur 4 Tage noch verweilen, um einen sie
+                    <lb/>begleitenden, auf Kosten der <orgName ref="https://editon-humboldt.de/H0016794">ostindischen
                         Compagnie</orgName> ihnen mitgegebenen
                     <lb/>jungen
                     Inder, einen <hi rendition="#u">Munschi</hi> (Art
@@ -223,14 +245,15 @@
                         <corr cert="high">sie</corr>
                     </choice> das <lb/>lezte Jahr ohne alle Dolmetscher reisen konnten. Die
                         Sammlungen<supplied cert="high">,</supplied>
-                    <lb/>die sie bringen und die im <orgName ref="https://edition-humboldt.de/v8/H0016795">ostindischen
+                    <lb/>die sie bringen und die im <orgName ref="https://editon-humboldt.de/H0016795">ostindischen
                         Hause</orgName> jezt liegen aber zur <lb/>Hälfte hieher kommen sollen,
-                    werden unsere Museen auf das Glän-<lb/>zendste
+                    werden unsere Museen auf das Glän<g ref="#typoHyphen"/>
+                    <lb break="no"/>zendste
                     bereichern:</p>
                 <list>
-                    <item>Herbarien von der Meeresküste bis zu <measure quantity="21000" unit="foot">21000 Fuss</measure> Höhe am <placeName ref="https://edition-humboldt.de/v8/H0000338">Ibi
+                    <item>Herbarien von der Meeresküste bis zu <measure quantity="21000" unit="foot">21000 Fuss</measure> Höhe am <placeName ref="https://editon-humboldt.de/H0000338">Ibi
                             Gamin</placeName> in <lb/>
-                        <placeName ref="https://www.geonames.org/1279685">Thibet</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Thibet</placeName>
                         gesammlet, mit allen Angaben der Höhen<supplied cert="high">,</supplied>
                         3000 Arten; <lb/>in 12000 Exemplaren. </item>
                     <item>Fünf bis sechs hundert Baumschnitte von prachtvollen Hölzern<choice>
@@ -255,15 +278,15 @@
                         <lb/>Lichtbildern; 50 bis 60 Abgüsse von Händen und Füssen <lb/>(also Gyps,
                         viel Gyps, aber von der lebenden Creatur genom̅en)<supplied cert="high">.</supplied>
                     </item>
-                    <item>20 complete Skelette von Menschen im <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName>, <placeName ref="https://www.geonames.org/1279685">Thibet</placeName>,
+                    <item>20 complete Skelette von Menschen im <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>, <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Thibet</placeName>,
                         schwer <lb/>zu erlangen<supplied cert="high">.</supplied>
                     </item>
                     <item>Die wichtigsten geologischen Sammlungen, umfassend alle Gebirgsarten
                         <lb/>vom 5<hi rendition="#sup">ten </hi>bis 37<hi rendition="#sup">sten</hi>
-                        Grad der Breite von der Insel <placeName ref="https://www.geonames.org/1227603">Ceylon</placeName>
-                        <lb/>bis <placeName ref="https://edition-humboldt.de/v8/H0000412">Khotan</placeName> am nördlichen Abfall
-                        des <placeName ref="https://www.geonames.org/1280792">Kuenlun</placeName>, wohl 20,000 <lb/>Stücke
-                        Gebirgsarten, von denen <placeName ref="https://www.geonames.org/2921044">Deutschland</placeName>
+                        Grad der Breite von der Insel <placeName ref="https://editon-humboldt.de/H0007287 https://www.geonames.org/1227603">Ceylon</placeName>
+                        <lb/>bis <placeName ref="https://editon-humboldt.de/H0000412">Khotan</placeName> am nördlichen Abfall
+                        des <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenlun</placeName>, wohl 20,000 <lb/>Stücke
+                        Gebirgsarten, von denen <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName>
                         bisher kein einziges <lb/>besizt<supplied cert="high">.</supplied> Ein Schaz
                         von Versteinerungen in Kreide und Tertiärgebirgen<supplied cert="high">.</supplied>
                     </item>
@@ -277,7 +300,7 @@
                     </item>
                 </list>
                 <lb/>
-                <p> Es sind dazu schon auf dem Wege, <add place="superlinear">um </add>nach <placeName ref="https://www.geonames.org/2944388">Bremen</placeName>
+                <p> Es sind dazu schon auf dem Wege, <add place="superlinear">um </add>nach <placeName ref="https://editon-humboldt.de/H0005351 https://www.geonames.org/2944388">Bremen</placeName>
                     <choice>
                         <sic>auszuschiffen</sic>
                         <corr cert="high">ausgeschifft </corr>
@@ -288,7 +311,7 @@
                     </subst> werden, <lb/> von <hi rendition="#u">lebendigen</hi> grossen
                     Thieren:</p>
                 <list>
-                    <item>Zwei wilde eingefangene Esel aus <placeName ref="https://edition-humboldt.de/v8/H0017197">Gorka</placeName>
+                    <item>Zwei wilde eingefangene Esel aus <placeName ref="https://editon-humboldt.de/H0017197">Gorka</placeName>
                         <supplied cert="high">.</supplied>
                     </item>
                     <item>Zwei turkestanische<supplied cert="high">,</supplied> zwei buklige Kamele,
@@ -297,22 +320,22 @@
                     <item>
                         <del rendition="#s">Dazu</del> Bestimmung der magnetischen Curven,
                         Beobachtungen über <lb/>den jezigen Zustand des Erdmagnetismus in ganz
-                            <placeName ref="https://www.geonames.org/1114958">Hindostan</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0006867 https://www.geonames.org/1114958">Hindostan</placeName>
                         <lb/>im Auftrage des magnetischen Instituts unter der <lb/>Direction des
-                            <persName ref="http://d-nb.info/gnd/11671350X">Major General Edward Sabine</persName> dessen
+                            <persName ref="https://editon-humboldt.de/H0015345 http://d-nb.info/gnd/11671350X">Major General Edward Sabine</persName> dessen
                         rötliche <lb/>Nordpol-Nase (es war dieselbe in den zwei ersten
-                        <lb/>arctischen Entdeckungsreisen unter <persName ref="http://d-nb.info/gnd/11935439X">Ross</persName> und <persName ref="http://d-nb.info/gnd/116048166">Parry</persName>) <choice>
+                        <lb/>arctischen Entdeckungsreisen unter <persName ref="https://editon-humboldt.de/H0001064 http://d-nb.info/gnd/11935439X">Ross</persName> und <persName ref="https://editon-humboldt.de/H0001796 http://d-nb.info/gnd/116048166">Parry</persName>) <choice>
                             <abbr>Ew.</abbr>
                             <expan>Eure</expan>
-                        </choice> Majestät <lb/>zu <placeName ref="https://www.geonames.org/2940177">Charlottenhoff</placeName> vor 8–10 Jahren in der Abenddämerung
+                        </choice> Majestät <lb/>zu <placeName ref="https://editon-humboldt.de/H0007342 https://www.geonames.org/2940177">Charlottenhoff</placeName> vor 8–10 Jahren in der Abenddämerung
                         <lb/>gesehen haben. Um sich dem Gouvernment zu einer <lb/>Zeit angenehm zu
                         machen, wo das Parlament über die so lange <lb/>geduldeten, etwas
                         unzüchtigen <unclear reason="illegible" cert="high">Zangenkneiff</unclear>-Mittel zu <lb/>schnellerem Einziehen der Abgaben zu
-                        moralisiren beginnt, <lb/>hat die <orgName ref="https://edition-humboldt.de/v8/H0016794">Ostindische
+                        moralisiren beginnt, <lb/>hat die <orgName ref="https://editon-humboldt.de/H0016794">Ostindische
                             Company</orgName> die dreijährige grosse <lb/>magnetische Arbeit auf
-                        ihre Kosten in <placeName ref="https://www.geonames.org/1275004">Calcutta</placeName> drucken
+                        ihre Kosten in <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName> drucken
                         <lb/>lassen. Zehn Hefte (Reports on the proceedings of the <lb/>Officers
-                            (<persName ref="http://d-nb.info/gnd/119074117">Hermann</persName>, <persName ref="http://d-nb.info/gnd/118755234">Adolphus</persName> and <persName ref="http://d-nb.info/gnd/118795090">Robert
+                            (<persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName>, <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolphus</persName> and <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert
                             Schlagintweit</persName>, <choice>
                             <abbr>Esq.</abbr>
                             <expan>Esquire</expan>
@@ -324,7 +347,7 @@
                         die lezten <lb/>
                         <subst>
                             <del rendition="#s">den Titeln)</del>
-                            <add place="intralinear">in <placeName ref="https://www.geonames.org/1172451">Lahore</placeName>
+                            <add place="intralinear">in <placeName ref="https://editon-humboldt.de/H0011337 https://www.geonames.org/1172451">Lahore</placeName>
                             </add>
                         </subst> gedruckt sind. <lb/>
                     </item>
@@ -335,10 +358,10 @@
                     </subst> Drange, sich <choice>
                         <abbr>Ew</abbr>
                         <expan>Eurer</expan>
-                    </choice> Majestät in <placeName ref="https://www.geonames.org/3071024">
+                    </choice> Majestät in <placeName ref="https://editon-humboldt.de/H0017429 https://www.geonames.org/3071024">
                         <lb/>Marienbad</placeName>
-                    vorzustellen und über <placeName ref="https://www.geonames.org/3071024">Marienbad</placeName> nach
-                        <placeName ref="https://www.geonames.org/2867714">München</placeName> zur Mutter <lb/>(<foreign xml:lang="lat">il dolce nido</foreign>) zu gehen, nicht abhalten wollen. Ich
+                    vorzustellen und über <placeName ref="https://editon-humboldt.de/H0017429 https://www.geonames.org/3071024">Marienbad</placeName> nach
+                        <placeName ref="https://editon-humboldt.de/H0009046 https://www.geonames.org/2867714">München</placeName> zur Mutter <lb/>(<foreign xml:lang="lat">il dolce nido</foreign>) zu gehen, nicht abhalten wollen. Ich
                     habe eher dazu <lb/>gerathen, weil <subst>
                         <del rendition="#ow">sie finden</del>
                         <add place="across">ich ahnen</add>
@@ -358,13 +381,14 @@
                         </choice>Majestät ihnen noch auf ein Jahr von jezt <lb/>an, die bisherige
                         Unterstüzung huldreichst schenken <lb/>mögen.</hi>
                 </p>
-                <p>Von der <orgName ref="https://edition-humboldt.de/v8/H0016794">ostindischen Company</orgName>, die (wie der Sohn
-                    meines Freundes, des berühmten <lb/>Staatsmannes <persName ref="http://d-nb.info/gnd/118668234">Canning</persName>, der jezige General Gouverneur) den daurendsten <lb/>und
+                <p>Von der <orgName ref="https://editon-humboldt.de/H0016794">ostindischen Company</orgName>, die (wie der Sohn
+                    meines Freundes, des berühmten <lb/>Staatsmannes <persName ref="https://editon-humboldt.de/H0012876 http://d-nb.info/gnd/118668234">Canning</persName>, der jezige General Gouverneur) den daurendsten <lb/>und
                     wohlthätigsten Antheil an der Expedition genommen hat, hört <lb/>alle
                     persönliche Geldunterstüzung auf, von dem Augenblick, wo die <lb/>Reisenden in
-                        <placeName ref="https://www.geonames.org/3165185">Triest</placeName> landen. Die <orgName ref="https://edition-humboldt.de/v8/H0016794">Company</orgName> wird <del rendition="#s">
+                        <placeName ref="https://editon-humboldt.de/H0009514 https://www.geonames.org/3165185">Triest</placeName> landen. Die <orgName ref="https://editon-humboldt.de/H0016794">Company</orgName> wird <del rendition="#s">
                         <unclear reason="covered" cert="high">aber</unclear>
-                    </del> höchst-wahr-<lb/>scheinlich das Reisewerk<supplied cert="high">,</supplied> englisch von ihnen geschrieben, und mit <lb/>vielen
+                    </del> höchst-wahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlich das Reisewerk<supplied cert="high">,</supplied> englisch von ihnen geschrieben, und mit <lb/>vielen
                     Karten und Kupfern versehen, auf öffentliche Kosten drucken <lb/>lassen. <hi rendition="#u" hand="#unknown">
                         <subst>
                             <del rendition="#s">Für</del>
@@ -375,13 +399,16 @@
                         <abbr>Ew</abbr>
                         <expan>Eurer</expan>
                     </choice> Majestät, ganz wissenschaftlichen Reise<supplied cert="high">,</supplied> sind nicht Vorschüsse <lb/>von deutschen Buchhändlern zu
-                    hoffen. <placeName ref="https://www.geonames.org/1279685">Tibet</placeName> und der <lb/>
-                    <placeName ref="https://www.geonames.org/1280792">Kuenlün</placeName> (mein Demant) intressiren in <placeName ref="https://www.geonames.org/2921044">Deutschland</placeName> nicht <lb/>wie <placeName ref="https://www.geonames.org/2449067">Timbuctu</placeName>. Niemals totgeglaubte Reisende sind
-                    keine erstan-<lb/>denen Leichen; sie sind
+                    hoffen. <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> und der <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenlün</placeName> (mein Demant) intressiren in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName> nicht <lb/>wie <placeName ref="https://editon-humboldt.de/H0009392 https://www.geonames.org/2449067">Timbuctu</placeName>. Niemals totgeglaubte Reisende sind
+                    keine erstan<g ref="#typoHyphen"/>
+                    <lb break="no"/>denen Leichen; sie sind
                     geologisch, magnetisch, Schädel abformend, <lb/>skelettirend; sie sind alles nur
                     nicht dramatisch in den Augen <lb/>der Menge.<figure facs="TS2/H_FWIV/heilige_Seen.jpg" hand="#author">
-                        <p>Die bei-<lb/>den heili-<lb/>gen Seen <lb/>
-                            <placeName ref="https://www.geonames.org/1280615">Manasaro<lb/>var</placeName>
+                        <p>Die bei<g ref="#typoHyphen"/>
+                            <lb break="no"/>den heili<g ref="#typoHyphen"/>
+                            <lb break="no"/>gen Seen <lb/>
+                            <placeName ref="https://editon-humboldt.de/H0018705 https://www.geonames.org/1280615">Manasaro<lb break="no"/>var</placeName>
                         </p>
                         <figDesc>Zwei Tintenflecke am rechten Seitenrand</figDesc>
                     </figure>
@@ -420,25 +447,25 @@
                     ist Vollendung von dem <lb/>was Sie ins Leben gerufen<supplied cert="high">,</supplied> zu Ehre und zum Glanze Ihrer Epoche! Ich <lb/>verzage
                     nicht…</p>
                 <p>
-                    <pb n="52v"/>Nach <placeName ref="https://www.geonames.org/1440268">Kaschmir</placeName> und den
+                    <pb n="52v"/>Nach <placeName ref="https://editon-humboldt.de/H0000378 https://www.geonames.org/1440268">Kaschmir</placeName> und den
                     Interessen der jungen Reisenden, die mich <add place="superlinear">sehr
                         </add>beunruhigen<supplied cert="high">,</supplied>
                     <lb/>darf ich wohl noch zwei Curiosa berühren in denen der Imperialismus
                     <lb/>sich wenigstens mit grosser delicatesse für mich benommen hat. Der Brief
-                    <lb/>des Grafen <persName ref="https://d-nb.info/gnd/11877106X">Walewski</persName> ist in so fern der
-                    ausgezeichnetste, da er von <lb/>der Beschäftigung des <persName ref="http://d-nb.info/gnd/118586408">Kaisers Napoleons</persName> mit einigen meiner Werke <lb/>und von einer
+                    <lb/>des Grafen <persName ref="https://editon-humboldt.de/H0016925 https://d-nb.info/gnd/11877106X">Walewski</persName> ist in so fern der
+                    ausgezeichnetste, da er von <lb/>der Beschäftigung des <persName ref="https://editon-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Kaisers Napoleons</persName> mit einigen meiner Werke <lb/>und von einer
                     gewissen Vorliebe für meinen Character spricht. Ich darf <lb/>
                     <choice>
                         <abbr>Ew</abbr>
                         <expan>Eure</expan>
-                    </choice> Königliche Majestät wohl um die Gnade bitten mir <ref xml:id="f93045f7-f451-420f-b045-f7f451420ff9" corresp="#ff868f30-6130-4c1d-868f-3061306c1df0">die beiden <lb/>Briefe</ref>
-                    <note xml:id="ff868f30-6130-4c1d-868f-3061306c1df0" corresp="#f93045f7-f451-420f-b045-f7f451420ff9">Humboldt war durch ein Schreiben des Prinzen
-                                <persName ref="http://d-nb.info/gnd/101921632">Napoléon</persName> sowie durch eines des
-                            französischen Außenministers <persName ref="https://d-nb.info/gnd/11877106X">Alexandre
+                    </choice> Königliche Majestät wohl um die Gnade bitten mir <ref xml:id="c1263811-f57a-4b6b-a638-11f57a7b6b9e" corresp="#a410521f-3dce-4cd3-9052-1f3dceccd312">die beiden <lb/>Briefe</ref>
+                    <note xml:id="a410521f-3dce-4cd3-9052-1f3dceccd312" corresp="#c1263811-f57a-4b6b-a638-11f57a7b6b9e" resp="#UP">Humboldt war durch ein Schreiben des Prinzen
+                                <persName ref="https://editon-humboldt.de/H0000249 http://d-nb.info/gnd/101921632">Napoléon</persName> sowie durch eines des
+                            französischen Außenministers <persName ref="https://editon-humboldt.de/H0016925 https://d-nb.info/gnd/11877106X">Alexandre
                                 Colonna-Walewski</persName> über die Verleihung des Großkreuzes des
-                            Ordens der Ehrenlegion durch Kaiser <persName ref="http://d-nb.info/gnd/118586416">Napoléon
+                            Ordens der Ehrenlegion durch Kaiser <persName ref="https://editon-humboldt.de/H0000228 http://d-nb.info/gnd/118586416">Napoléon
                                 III</persName>. in Kenntnis gesetzt worden. Die beiden Schreiben
-                            sind nicht überliefert. Vgl. Humboldt an <persName ref="http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV</persName>., Berlin, 19. Juni 1857, <bibl corresp="https://edition-humboldt.de/v8/RIEI5QKW">Humboldt 2013</bibl>, 523f.</note> wieder zufertigen zu lassen<supplied cert="high">.</supplied> Ich habe
+                            sind nicht überliefert. Vgl. Humboldt an <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV</persName>., Berlin, 19. Juni 1857, <bibl corresp="https://edition-humboldt.de/RIEI5QKW">Humboldt 2013</bibl>, 523f.</note> wieder zufertigen zu lassen<supplied cert="high">.</supplied> Ich habe
                     eine grosse, grosse Freude <lb/>über die Wiederkehr der warmen Tage, welche den
                     Genuss der Bewegung im <lb/>Freien so sehr begünstigen, Ihrer Constitution eine
                     nothwendige Lebensbedingung.</p>

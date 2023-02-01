@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003827">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7,35 +7,44 @@
                     </title>
                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (9. Mai 1851) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0003827">https://edition-humboldt.de/v8/H0003827</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0003827</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0003827</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003827.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1851. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0003827</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> 15 Uhr: H. gibt zu Ehren <persName ref="http://d-nb.info/gnd/117339385">A. Valenciennes</persName> ein
-                    Essen in seiner Wohnung; eingeladen sind <persName ref="http://d-nb.info/gnd/116003383">Hermann
-                        Abich</persName>, <persName ref="http://d-nb.info/gnd/118808850">August Boeckh</persName>,
-                        <persName ref="http://d-nb.info/gnd/118527665">Emil du Bois-Reymond</persName>, <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried
-                            Ehrenberg</persName>, <persName ref="http://d-nb.info/gnd/116876956">Alexander
-                        Mendelssohn</persName>, <persName ref="http://d-nb.info/gnd/11858281X">Eilhard
-                        Mitscherlich</persName>, <persName ref="http://d-nb.info/gnd/118585053">Johannes
-                    Müller</persName>, <persName ref="http://d-nb.info/gnd/104356480">Wilhelm Peters</persName>. </p>
+                <p> 15 Uhr: H. gibt zu Ehren <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">A. Valenciennes</persName> ein
+                    Essen in seiner Wohnung; eingeladen sind <persName ref="https://editon-humboldt.de/H0012479 http://d-nb.info/gnd/116003383">Hermann
+                        Abich</persName>, <persName ref="https://editon-humboldt.de/H0003413 http://d-nb.info/gnd/118808850">August Boeckh</persName>,
+                        <persName ref="https://editon-humboldt.de/H0012401 http://d-nb.info/gnd/118527665">Emil du Bois-Reymond</persName>, <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried
+                            Ehrenberg</persName>, <persName ref="https://editon-humboldt.de/H0014098 http://d-nb.info/gnd/116876956">Alexander
+                        Mendelssohn</persName>, <persName ref="https://editon-humboldt.de/H0014251 http://d-nb.info/gnd/11858281X">Eilhard
+                        Mitscherlich</persName>, <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Johannes
+                    Müller</persName>, <persName ref="https://editon-humboldt.de/H0001905 http://d-nb.info/gnd/104356480">Wilhelm Peters</persName>. </p>
             </body>
         </text>
     </TEI>

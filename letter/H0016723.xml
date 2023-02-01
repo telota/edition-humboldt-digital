@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016723">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [30. Mai 1847] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016723">https://edition-humboldt.de/v8/H0016723</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016723</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016723</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016723.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [30. Mai 1847] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016723</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">156</idno>
+                     <idno type="shelfmark">421, Bl. 279r, 280v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1847-05-30">1847-05-30</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: E. reiste Mitte Juni 1847 zum Naturforscherkongress nach Oxford; H.
                stand auf der Leseliste der Akademie am 14.6. 1847</note>
@@ -80,15 +98,16 @@
             <pb n="1v"/>
                 <p>Ich schreibe mein theurer Freund, diese <lb/>wenigen Zeilen bettlegrig.
                Ich leide <lb/>wieder seit 8–10 Tagen an einem <lb/>gewöhnlichen aber schmerzhaften
-                  Blut-<lb/>geschwür (am Gesäss) das sich lang<lb/>sam öffnet. Ich <supplied>kann</supplied> also Ihnen kaum <lb/>nur
-               meine Freude über die Ankunft <lb/>Ihrer <persName ref="https://edition-humboldt.de/v8/H0016962">Gattin</persName>
+                  Blut<g ref="#typoHyphen"/>
+                    <lb break="no"/>geschwür (am Gesäss) das sich lang<lb break="no"/>sam öffnet. Ich <supplied>kann</supplied> also Ihnen kaum <lb/>nur
+               meine Freude über die Ankunft <lb/>Ihrer <persName ref="https://editon-humboldt.de/H0016962">Gattin</persName>
                   ausdrücken<supplied cert="high">.</supplied> Ich hoffe <lb/>ich werde Sie besuchen
                können, <lb/>wenn Sie <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> uns heimkehren<supplied cert="high">.</supplied> Darf
                <lb/>ich Sie aber mit der inständigen <lb/>Bitte quälen, ob Sie mir einen
                <lb/>unserer Freunde finden können, <lb/>der für mich am 14ten Juni lesen
-               <lb/>könnte, die <persName>2 Rose</persName>, <persName ref="http://d-nb.info/gnd/118576178">Magnus</persName>, <persName ref="http://d-nb.info/gnd/118806556">Weiss</persName>
+               <lb/>könnte, die <persName ref="https://editon-humboldt.de/">2 Rose</persName>, <persName ref="https://editon-humboldt.de/H0013863 http://d-nb.info/gnd/118576178">Magnus</persName>, <persName ref="https://editon-humboldt.de/H0006306 http://d-nb.info/gnd/118806556">Weiss</persName>
                <lb/>... Schreiben Sie mir ehe Sie <lb/>abreisen einige Worte zur Beruhigung <lb/>und
                geben Sie mir Rath an wen <lb/>ich mich bittend wenden kann. <lb/>Steinsalz das aus
                einem nicht <lb/>gesalzen See wie Bimstein <lb/>ausgeworfen wird ist gar wundersam.
@@ -99,10 +118,10 @@
                <dateline>Potsdam, Sontag <lb/>Früh.</dateline>
             </closer>
             <postscript>
-               <p>Der arme <persName ref="http://d-nb.info/gnd/118643967">Agassiz</persName>! Der König <lb/>hat
-                  eigenhändig an <persName ref="http://d-nb.info/gnd/116817569">Buch</persName> einen <lb/>scherzhaften
-                  Brief nach <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
-                  <lb/>geschrieben: „er solle ja fort<lb/>fahren die Eistheorie zu
+               <p>Der arme <persName ref="https://editon-humboldt.de/H0012520 http://d-nb.info/gnd/118643967">Agassiz</persName>! Der König <lb/>hat
+                  eigenhändig an <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> einen <lb/>scherzhaften
+                  Brief nach <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
+                  <lb/>geschrieben: „er solle ja fort<lb break="no"/>fahren die Eistheorie zu
                   bekämpfen <lb/>damit die schwedischen Gletscher <lb/>Schwänze uns nicht nahe
                   kommen <lb/>und die Kartoffeln erfrieren.<supplied cert="high">“</supplied>
                   <lb/>Wird er nun erst grob <lb/>werden!</p>

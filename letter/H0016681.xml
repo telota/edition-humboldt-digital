@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016681">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1839] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016681">https://edition-humboldt.de/v8/H0016681</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016681</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016681</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016681.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1839] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016681</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">114</idno>
+                     <idno type="shelfmark">421, Bl. 211r, 212v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1839" notAfter="1839" cert="low">1839-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: betrifft die Übersendung von E.s „Infusorienwerk“ an den russischen
                Kaiser, vgl. Briefe Nr. 111, 112, wohl nach Wiedereinsetzen der Schiffahrt im
@@ -79,19 +97,20 @@
             </opener>
             <pb n="1v"/>
                 <p>Ich bin vollkommen der <lb/>Meinung, mein Theurer, <lb/>dass Sie dem
-                  <persName ref="http://d-nb.info/gnd/118588079">Kaiser</persName>
-               <lb/>Ihr herrliches <ref xml:id="a6f14065-13e1-4a77-b140-6513e17a7799" corresp="#d2436a4f-bed3-4387-836a-4fbed343874c">Buch</ref>
-                    <note xml:id="d2436a4f-bed3-4387-836a-4fbed343874c" corresp="#a6f14065-13e1-4a77-b140-6513e17a7799">
-                     <bibl corresp="https://edition-humboldt.de/v8/X7KZUS33">Ehrenberg 1838</bibl>
+                  <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Kaiser</persName>
+               <lb/>Ihr herrliches <ref xml:id="ba16682e-8ff1-4f06-9668-2e8ff13f06a5" corresp="#aa8b733a-c517-42fa-8b73-3ac51722fa10">Buch</ref>
+                    <note xml:id="aa8b733a-c517-42fa-8b73-3ac51722fa10" corresp="#ba16682e-8ff1-4f06-9668-2e8ff13f06a5">
+                     <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>
                   </note>
-               <lb/>schikken. Der <persName ref="http://d-nb.info/gnd/118535994">Thronfolger</persName>
-               <lb/>ist wegen seiner Krank-<lb/>heit mit niemand in
+               <lb/>schikken. Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Thronfolger</persName>
+               <lb/>ist wegen seiner Krank<g ref="#typoHyphen"/>
+                    <lb break="no"/>heit mit niemand in
                <lb/>Contact gekommen und <lb/>mit ihm ist niemand <lb/>der mir irgend ein
                <lb/>Vertrauen einflösst<supplied cert="high">.</supplied>
                <lb/>Ich bin immer der <lb/>Meinung: Sie geben <lb/>mir Buch und <lb/>Brief alles <hi rendition="#u">versiegelt</hi>
                <add place="left">
                         <metamark/>an den <lb/>
-                        <persName ref="http://d-nb.info/gnd/118588079">Kaiser</persName>
+                        <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Kaiser</persName>
                   adressirt</add>
                <lb/>und ich mache <lb/>einen neuen Umschlag <lb/>darüber und <del rendition="#s">
                         <gap reason="illegible" unit="chars" quantity="2"/>
@@ -101,30 +120,31 @@
                   <orig>Bn</orig>
                   <reg>Baron</reg>
                </choice>
-               <persName ref="http://d-nb.info/gnd/117671754">Liebermann</persName>
+               <persName ref="https://editon-humboldt.de/H0004528 http://d-nb.info/gnd/117671754">Liebermann</persName>
                <choice>
                   <abbr>Preuss</abbr>
                   <expan>Preussischen</expan>
                </choice>
-               <lb/>Gesandten in <placeName ref="https://www.geonames.org/498817">
+               <lb/>Gesandten in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                         <choice>
                      <abbr>Petersb.</abbr>
                      <expan>Petersburg</expan>
                   </choice>
                     </placeName>
-               <lb/>als eine mich be-<lb/>treffende Sache. <add place="left">
+               <lb/>als eine mich be<g ref="#typoHyphen"/>
+                    <lb break="no"/>treffende Sache. <add place="left">
                         <metamark/>
                         <choice>
                      <abbr>Bn.</abbr>
                      <expan>Baron</expan>
                   </choice>
-                  <persName ref="http://d-nb.info/gnd/12059207X">Werther</persName>
+                  <persName ref="https://editon-humboldt.de/H0006335 http://d-nb.info/gnd/12059207X">Werther</persName>
                   <lb/>soll für <lb/>das Dampfschiff <lb/>sein Siegel <lb/>darauf drükken.</add>
                <lb/>Alle 14 Tage geht <lb/>ein Dampfbot. Ich <lb/>werde kommen mit <lb/>Ihnen davon
                zu <lb/>reden und Ihre
-                  <ref xml:id="fc7bf3af-8217-443f-bbf3-af8217e43f80" corresp="#f72ca055-239b-48fb-aca0-55239b28fbdc">Corallen <lb/>Tapete</ref>
-                    <note xml:id="f72ca055-239b-48fb-aca0-55239b28fbdc" corresp="#fc7bf3af-8217-443f-bbf3-af8217e43f80">
-                     <bibl corresp="https://edition-humboldt.de/v8/NULBP69J">Ehrenberg 1839b</bibl>
+                  <ref xml:id="fcdb5d69-1edb-4e30-9b5d-691edb4e3004" corresp="#d2e09355-5fb6-4759-a093-555fb61759d6">Corallen <lb/>Tapete</ref>
+                    <note xml:id="d2e09355-5fb6-4759-a093-555fb61759d6" corresp="#fcdb5d69-1edb-4e30-9b5d-691edb4e3004">
+                     <bibl corresp="https://edition-humboldt.de/NULBP69J">Ehrenberg 1839b</bibl>
                   </note> bewundern<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
@@ -133,8 +153,9 @@
                <dateline>Donnerstags</dateline>
             </closer>
             <postscript>
-               <p>Und <persName ref="http://d-nb.info/gnd/11862783X">Altenstein</persName>
-                  <lb/>altum silen-<lb/>tium? Das <lb/>ist ja ganz
+               <p>Und <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Altenstein</persName>
+                  <lb/>altum silen<g ref="#typoHyphen"/>
+                        <lb break="no"/>tium? Das <lb/>ist ja ganz
                      <lb/>toll<supplied cert="high">.</supplied>
                     </p>
             </postscript>

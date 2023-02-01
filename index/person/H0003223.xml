@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003223">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Beljavskij, Franc Osipovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Beljavskij, Franc Osipovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003223.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003223.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003223.xml">
-                    <p>Beljavskij, Franc Osipovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003223.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003223">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/10043228X</idno>
                     <persName type="reg">
                         <surname>Beljavskij</surname>
@@ -48,8 +53,7 @@
                     <birth/>
                     <death>1859</death>
                     <note>russischer Mediziner und wissenschaftlicher Autor; seit 1824 Dienst in
-                        Tobol'sk <!-- vgl. Aranda/Förster/Suckow 2014, 35 mit Anm. 21 -->
-                    </note>
+                        Tobol'sk </note>
                     <linkGrp>
                         <ptr subtype="comment" target="30#[263]" type="page"/>
                     </linkGrp>

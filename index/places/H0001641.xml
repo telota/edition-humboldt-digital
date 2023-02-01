@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001641">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>New York</title>
             </titleStmt>
+            <editionStmt>
+                <p>New York [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001641.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001641.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001641.xml">
-                    <p>New York [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001641.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0001641">
+                <place>
                     <idno type="uri">https://www.geonames.org/5128638</idno>
                     <placeName type="reg">New York</placeName>
                     <placeName type="alt">New Yorck</placeName>
-                    <note><?oxy_comment_start author="thomas" timestamp="20220101T165018+0100" comment="finde ich nicht ideal, dass hier Stadt und Bundesstaat zusammengefasst werden. Sollten wir differenzieren (das dürfte, auch nachträglich/rückwirkend nicht allzu schwierig sein)."?>Stadt
-                        und Bundesstaat<?oxy_comment_end?> der USA</note>
+                    <note>Stadt
+                        und Bundesstaat der USA</note>
                     <linkGrp>
                         <ptr target="04#33" type="letter"/>
                         <ptr target="16#94" type="letter"/>

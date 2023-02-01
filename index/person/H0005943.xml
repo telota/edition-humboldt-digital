@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005943">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Engelhardt, Moritz von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Engelhardt, Moritz von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0005943.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005943.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0005943.xml">
-                    <p>Engelhardt, Moritz von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0005943.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0005943">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/17577635</idno>
                     <persName type="reg">
                         <surname>Engelhardt</surname>
@@ -42,10 +47,8 @@
                     <birth>1779</birth>
                     <death>1842</death>
                     <note>russischer Mineraloge, Geologe und Forschungsreisender deutsch-baltischer
-                        Herkunft; 1820 Professor der Mineralogie an der <orgName key="H0018041">Universität Dorpat</orgName>
-                        <!-- Das Folgende gehört nicht hierher in das Personenregister, sondern in das Institutionenregister bei der Uni Dorpat: die 1802 mit Hilfe von Zar Alexander als einzige deutschsprachige
-                        Universität des russischen Zarenreiches neu gegründet wurde -->
-                    </note>
+                        Herkunft; 1820 Professor der Mineralogie an der <orgName ref="https://editon-humboldt.de/H0018041 http://d-nb.info/gnd/3019725-9">Universität Dorpat</orgName>
+                        </note>
                     <linkGrp>
                         <ptr target="30#86" type="page"/>
                         <ptr target="30#103" type="page"/>

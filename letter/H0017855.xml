@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017855">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,30 +29,60 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. Paris, 1. Februar
+                    1826, hg. v. Ulrich Päßler unter Mitarbeit von Lisa Poggel und Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0017855">https://edition-humboldt.de/v8/H0017855</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0017855</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0017855</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017855.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. Paris, 1. Februar
-                    1826. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0017855</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno>
+                            <idno type="shelfmark">I/530/2</idno>, Bl. 1r–2r<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051296</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        25–26.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 14.</witness>
+                <witness>
+                        <bibl type="print" n="3" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 289–290.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <date when="1826-02-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -69,20 +99,22 @@
                         <expan>Januar</expan>
                     </choice> liegen vor mir und ich antworte auf <lb/>beide zugleich. Grenzenlose
                     Stöhrungen des hiesigen <lb/>Lebens und ein kleines Schnupfenfieber, welches
-                    <lb/>mich, während der <placeName ref="https://www.geonames.org/2125072">kamtschadalischen</placeName>
+                    <lb/>mich, während der <placeName ref="https://editon-humboldt.de/H0000343 https://www.geonames.org/2125072">kamtschadalischen</placeName>
                     Kälte, sogar <lb/>bettlägrig gehalten, haben mich allein abhalten <lb/>können,
-                    Ihnen früher meinen herzlichsten Dank <lb/>für <ref xml:id="fb83f63f-c08b-4298-83f6-3fc08b6298a3" corresp="#e9498338-491d-4c06-8983-38491d7c06b6">die zwei treflichen, geistreichen Zeichnun<lb/>gen</ref>
-                    <note xml:id="e9498338-491d-4c06-8983-38491d7c06b6" corresp="#fb83f63f-c08b-4298-83f6-3fc08b6298a3">
+                    Ihnen früher meinen herzlichsten Dank <lb/>für <ref xml:id="f284d9f9-5bd4-4150-84d9-f95bd47150e0" corresp="#da7638f5-d5ec-4cda-b638-f5d5ec4cda17">die zwei treflichen, geistreichen Zeichnun<lb break="no"/>gen</ref>
+                    <note xml:id="da7638f5-d5ec-4cda-b638-f5d5ec4cda17" corresp="#f284d9f9-5bd4-4150-84d9-f95bd47150e0">
                         <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000010">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 4</ref> und
-                                <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">Bl. 5</ref>.</note> abzustatten, die ich durch Herrn <orgName ref="http://d-nb.info/gnd/16114819-0">Tessari</orgName>
+                                <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">Bl. 5</ref>.</note> abzustatten, die ich durch Herrn <orgName ref="https://editon-humboldt.de/H0018039 http://d-nb.info/gnd/16114819-0">Tessari</orgName>
                     <lb/>richtig empfangen. Sie haben, mein Lieber, meine <lb/>Wünsche übertroffen;
-                    das ist mein Geständniss und <lb/>das des Herrn <persName ref="http://d-nb.info/gnd/119284936">Gérard</persName>, der bei jeder Gelegenheit <lb/>Ihrer Arbeiten mit Ruhm
-                    erwähnt. Die Arau-<lb/>carien haben wir
-                    weggelassen und <ref xml:id="b216419c-c219-4975-9641-9cc2194975e8" corresp="#a9a07f30-deaf-4c87-a07f-30deafcc8752">das Blatt</ref>
-                    <note xml:id="a9a07f30-deaf-4c87-a07f-30deafcc8752" corresp="#b216419c-c219-4975-9641-9cc2194975e8">
+                    das ist mein Geständniss und <lb/>das des Herrn <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">Gérard</persName>, der bei jeder Gelegenheit <lb/>Ihrer Arbeiten mit Ruhm
+                    erwähnt. Die Arau<g ref="#typoHyphen"/>
+                    <lb break="no"/>carien haben wir
+                    weggelassen und <ref xml:id="e7d7b8e3-f00a-4437-97b8-e3f00ac4370d" corresp="#a25c4c5c-5e2b-4674-9c4c-5c5e2b7674ba">das Blatt</ref>
+                    <note xml:id="a25c4c5c-5e2b-4674-9c4c-5c5e2b7674ba" corresp="#e7d7b8e3-f00a-4437-97b8-e3f00ac4370d">
                         <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 5</ref>.</note>
                     <lb/>ist zum Stich schon in den Händen des <lb/>Kupferstechers, der hier für
-                    grosse Landschaften den <lb/>ausgezeichnetsten Ruf hat, Herr <persName ref="http://viaf.org/viaf/211861">Fortier</persName>. Ihr ges-<lb/>triges Schreiben kündigt mir die, am 17ten <choice>
+                    grosse Landschaften den <lb/>ausgezeichnetsten Ruf hat, Herr <persName ref="https://editon-humboldt.de/H0000183 http://viaf.org/viaf/211861">Fortier</persName>. Ihr ges<g ref="#typoHyphen"/>
+                    <lb break="no"/>triges Schreiben kündigt mir die, am 17ten <choice>
                                 <abbr>Jan</abbr>
                                 <expan>Januar</expan>
                             </choice>
@@ -102,12 +134,12 @@
                                     <abbr>bot.</abbr>
                                     <expan>botanische</expan>
                                 </choice>
-                            </add> Bestimmung der <lb/>Palmen von <persName ref="http://d-nb.info/gnd/118731416">
+                            </add> Bestimmung der <lb/>Palmen von <persName ref="https://editon-humboldt.de/H0013985 http://d-nb.info/gnd/118731416">
                                 <hi rendition="#u">Martius</hi>
                             </persName>, aber
                             <lb/>recht sicher. Sie könnten ihm <lb/>ja schreiben; der portugiesische
                             <lb/>Name wird ihn schon leiten</item>
-                        <item>3) der Ort wo Sie etwa das <lb/>Original in <placeName ref="https://www.geonames.org/3469034">Brasilien</placeName> gezeichnet</item>
+                        <item>3) der Ort wo Sie etwa das <lb/>Original in <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">Brasilien</placeName> gezeichnet</item>
                     </list>
                 </p>
                 <p>Damit wir uns verstehen, sagen <choice>
@@ -123,7 +155,7 @@
                     Titulaturen weg; unter Reisenden <lb/>muss ein freierer Ton her<supplied cert="high">r</supplied>schen; es wird <lb/>mich sehr freuen, wenn Sie im
                     Frühjahr <lb/>hieher zurükkommen. Rechnen Sie auf <lb/>meine Freundschaft und
                     die Aufnahme die <lb/>Ihr schönes Talent und Ihre Bescheidenheit <lb/>Ihnen
-                    zusichern. Den <bibl corresp="https://edition-humboldt.de/v8/EUSFRJ4Z">
+                    zusichern. Den <bibl corresp="https://edition-humboldt.de/EUSFRJ4Z">
                         <hi rendition="#u">Prospectus</hi>
                     </bibl> meines Werkes <lb/>drukt man jezt. Ich hoffe ihn
                     Ihnen <lb/>bald zu senden: ich hoffe <add place="superlinear">auch</add> Sie
@@ -142,14 +174,14 @@
                         <expan>Februar</expan>
                     </choice> 1826. </dateline>
                 <postscript>
-                    <p>Haben Sie die Güte uns von <ref xml:id="dc618704-25f5-454f-a187-0425f5754f07" corresp="#f8ff0d1a-1e2d-497a-bf0d-1a1e2dc97acc">a</ref>
-                        <note xml:id="f8ff0d1a-1e2d-497a-bf0d-1a1e2dc97acc" corresp="#dc618704-25f5-454f-a187-0425f5754f07">
+                    <p>Haben Sie die Güte uns von <ref xml:id="ab8d17a1-2394-4913-8d17-a123948913b6" corresp="#e6a95a44-3cc1-4580-a95a-443cc1458061">a</ref>
+                        <note xml:id="e6a95a44-3cc1-4580-a95a-443cc1458061" corresp="#ab8d17a1-2394-4913-8d17-a123948913b6">
                             <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 5</ref>.</note>
-                        <lb/>und <ref xml:id="ccb62208-3e13-4404-b622-083e13b4040d" corresp="#e93d9c94-c0bb-48b5-bd9c-94c0bb58b564">b</ref>
-                        <note xml:id="e93d9c94-c0bb-48b5-bd9c-94c0bb58b564" corresp="#ccb62208-3e13-4404-b622-083e13b4040d">
+                        <lb/>und <ref xml:id="fc08d0a6-ba72-48aa-88d0-a6ba72d8aa3b" corresp="#f5f44e01-6efc-49f4-b44e-016efcb9f42f">b</ref>
+                        <note xml:id="f5f44e01-6efc-49f4-b44e-016efcb9f42f" corresp="#fc08d0a6-ba72-48aa-88d0-a6ba72d8aa3b">
                             <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000010">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 4</ref>.</note> (dem Blüthenstande) eine <lb/>etwas deutlichere <hi rendition="#u">im
                             Umrisse festere</hi>
-                        <lb/>Zeichnung zu senden, damit der Kupfer<lb/>stecher sicherer
+                        <lb/>Zeichnung zu senden, damit der Kupfer<lb break="no"/>stecher sicherer
                         verfahre und nicht <lb/>ins vague <subst>
                             <del rendition="#s">verf</del>
                             <add place="intralinear">falle</add>
@@ -175,7 +207,7 @@
                                 <abbr>Mr</abbr>
                                 <expan>Monsieur</expan>
                             </choice>
-                            <persName ref="https://d-nb.info/gnd/116702176">
+                            <persName ref="https://editon-humboldt.de/H0017952 https://d-nb.info/gnd/116702176">
                                 <choice>
                                     <abbr>J.</abbr>
                                     <expan>Jean</expan>

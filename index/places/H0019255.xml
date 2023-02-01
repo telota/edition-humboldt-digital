@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019255">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Uspenskij sobor</title>
             </titleStmt>
+            <editionStmt>
+                <p>Uspenskij sobor [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019255.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019255.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019255.xml">
-                    <p>Uspenskij sobor [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019255.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place type="building" xml:id="H0019255">
+                <place>
                             <placeName type="reg">Uspenskij sobor</placeName>
                             <placeName type="alt">Успенский собор</placeName>
                             <placeName type="alt">Собор в честь Успения Пресвятой Богородицы</placeName>
@@ -38,8 +43,8 @@
                             <placeName type="alt">Uspenski-Kirche</placeName>
                             <placeName type="alt">Uspenskij-Kathedrale</placeName>
                             <placeName type="alt">église d'Uspenski</placeName>
-                            <!-- RST I, Bl. 27r, 60v -->
-                            <note>Kirche nahe dem <placeName key="H0017509">Iset</placeName>
+                            
+                            <note>Kirche nahe dem <placeName ref="https://editon-humboldt.de/H0017509 https://www.geonames.org/1495641">Iset</placeName>
                     </note>
                         </place>
             </listPlace>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001879">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Perny de Villeneuve, Jean</title>
             </titleStmt>
+            <editionStmt>
+                <p>Perny de Villeneuve, Jean [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001879.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001879.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001879.xml">
-                    <p>Perny de Villeneuve, Jean [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001879.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001879">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/1055296069</idno>
                     <persName type="reg">
                         <surname>Perny de Villeneuve</surname>
                         <forename>Jean</forename>
                     </persName>
                     <floruit notBefore="1700" notAfter="1800">18. Jh</floruit>
-                    <note>französischer Astronom; zeitweise Direktor des <orgName key="H0000567">Observatoriums in
+                    <note>französischer Astronom; zeitweise Direktor des <orgName ref="https://editon-humboldt.de/H0000567 http://d-nb.info/gnd/82800-2">Observatoriums in
                             Paris</orgName>; Mitglied der Société royale de Vergara; 1789 bis 1809 astronomische
                         Veröffentlichungen in Paris</note>
                 </person>

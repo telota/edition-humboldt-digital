@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015188">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,27 +38,33 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Brown, Robert: Answers to Baron A. Humboldt’s queries on Botanical Geography (London, Ende
+                    1816 oder Anfang 1817), hg. v. Ulrich Päßler unter Mitarbeit von Eberhard Knobloch, Ingo Schwarz und Anne Greenwood MacKinney. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015188">https://edition-humboldt.de/v8/H0015188</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015188</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015188</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015188.xml</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p>Das Dokument enthält die Antworten des Botanikers und Forschungsreisenden
-                            <persName ref="http://d-nb.info/gnd/118674455">Robert Brown</persName> auf einen im Spätsommer
-                        1816 in <placeName ref="https://www.geonames.org/2988507">Paris</placeName> verfassten Fragenkatalog
+                            <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Robert Brown</persName> auf einen im Spätsommer
+                        1816 in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> verfassten Fragenkatalog
                         Humboldts zur Pflanzengeographie. In seinem Dankschreiben (Paris, 18. April
                         1817, British Library, Correspondence and Papers of Robert Brown, Add MS
                         32440, fol. 144) geht Humboldt insbesondere auf die ausführliche Liste in
                         Antwort Nummer 14 ein, in der Brown Pflanzen aufführt, die sowohl in den
-                            <placeName ref="http://d-nb.info/gnd/4060997-2">Tropen</placeName> der Alten als auch der
+                            <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">Tropen</placeName> der Alten als auch der
                         Neuen Welt heimisch sind. Die zahlreichen Bearbeitungsspuren Humboldts in
                         Form von Notizen und angeklebten Zetteln belegen eine immer wieder
                         aufgenommene, mindestens bis in die späten 1840er Jahre reichende
@@ -66,15 +72,32 @@
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Answers to Baron A. Humboldt’s queries on Botanical Geography (London, Ende
-                    1816 oder Anfang 1817). In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015188</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 12, Nr. 103, Bl. 6r-11v</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1447612</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 63–71.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118674455">Brown, Robert (1773–1858)</persName>
+                <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Brown, Robert (1773–1858)</persName>
                 <date notBefore="1816-08-01" notAfter="1817-04-18" cert="high"/>
             </creation>
         </profileDesc>
@@ -85,8 +108,8 @@
                 <p>
                     <note hand="#addressee" place="left" rend="sticked">
                         <pb n="5r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001A59A00000007"/>
-                        <persName ref="http://d-nb.info/gnd/118674455">Brown</persName> m’a dit que le <name type="plant">Goodenia littoralis</name>
-                        <lb/>de la <placeName ref="https://www.geonames.org/2077456">
+                        <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Brown</persName> m’a dit que le <name type="plant">Goodenia littoralis</name>
+                        <lb/>de la <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">
                             <choice>
                                 <abbr>Nouv</abbr>
                                 <expan>Nouvelle</expan>
@@ -95,14 +118,14 @@
                                 <abbr>Holl.</abbr>
                                 <expan>Hollande</expan>
                             </choice>
-                        </placeName> a été décrit <lb/>par <persName ref="http://d-nb.info/gnd/116478101">Cavanilles</persName> (<persName ref="http://d-nb.info/gnd/12473099X">Sellière</persName>) de
-                            <placeName ref="https://www.geonames.org/6255150">l’Amérique <lb/>
+                        </placeName> a été décrit <lb/>par <persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName> (<persName ref="https://editon-humboldt.de/H0015800 http://d-nb.info/gnd/12473099X">Sellière</persName>) de
+                            <placeName ref="https://editon-humboldt.de/H0010380 https://www.geonames.org/6255150">l’Amérique <lb/>
                             <choice>
                                 <abbr>mérid.</abbr>
                                 <expan>méridionale</expan>
                             </choice>
                         </placeName> (la même espèce)<supplied cert="high">.</supplied>
-                        Il y a de <lb/>vrais <name type="plant">Wintera</name> à la <placeName ref="https://www.geonames.org/2186224">
+                        Il y a de <lb/>vrais <name type="plant">Wintera</name> à la <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">
                             <choice>
                                 <abbr>Nouv</abbr>
                                 <expan>Nouvelle</expan>
@@ -113,7 +136,7 @@
                             </choice>
                         </placeName>
                         <supplied cert="high">.</supplied>
-                        <lb/>Voyez <bibl corresp="https://edition-humboldt.de/v8/N7T4FN2H">Remarks <choice>
+                        <lb/>Voyez <bibl corresp="https://edition-humboldt.de/N7T4FN2H">Remarks <choice>
                                 <abbr>p</abbr>
                                 <expan>page</expan>
                             </choice> 57</bibl>.<p>
@@ -139,11 +162,11 @@
                     <lb/>hemisphere.</p>
                 <p>– 2<supplied cert="high">.</supplied> The <hi rendition="#u">
                         <name type="plant">Araucaria</name>
-                    </hi> of <placeName ref="https://www.geonames.org/3469034">Brazil</placeName>
+                    </hi> of <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">Brazil</placeName>
                     (no doubt the <lb/>
                     <hi rendition="#u">Pino</hi> of the inhabitants) of which we
                     have <lb/>seeds and specimens with young female aments, <lb/>appears to be the
-                    same as that of <placeName ref="https://www.geonames.org/3895114">Chili</placeName>
+                    same as that of <placeName ref="https://editon-humboldt.de/H0007374 https://www.geonames.org/3895114">Chili</placeName>
                     <choice>
                         <orig>..</orig>
                         <reg>.</reg>
@@ -152,7 +175,7 @@
                 <p>– 3<supplied cert="high">.</supplied> There are at least two species of <hi rendition="#u">
                         <name type="plant">Pinus</name>
                     </hi>
-                    <lb/>in <placeName ref="https://www.geonames.org/1269750">India</placeName>. <name type="plant">
+                    <lb/>in <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">India</placeName>. <name type="plant">
                         <hi rendition="#u">
                             <choice>
                                 <abbr>P.</abbr>
@@ -160,27 +183,27 @@
                             </choice>
                         </hi>
                         <hi rendition="#u">longifolia</hi>
-                    </name> of<persName ref="http://d-nb.info/gnd/117598275">
+                    </name> of<persName ref="https://editon-humboldt.de/H0001103 http://d-nb.info/gnd/117598275">
                         <choice>
                             <abbr>Roxb.</abbr>
                             <expan>Roxburgh</expan>
                         </choice>
-                    </persName> &amp; <persName ref="http://d-nb.info/gnd/116652292">Lambert</persName>,
+                    </persName> &amp; <persName ref="https://editon-humboldt.de/H0004278 http://d-nb.info/gnd/116652292">Lambert</persName>,
                     <lb/>and <name type="plant">
                         <hi rendition="#u">
                             <choice>
                                 <abbr>P.</abbr>
                                 <expan>Pinus</expan>
                             </choice> Deodwara</hi>
-                    </name> of <ref xml:id="d5703665-9809-4fbd-b036-6598095fbd90" corresp="#f307bb6f-0d07-42a9-87bb-6f0d0772a926">
-                        <persName ref="http://d-nb.info/gnd/117598275">
+                    </name> of <ref xml:id="a8e002b9-f9d2-40de-a002-b9f9d2d0decc" corresp="#aa68014d-b41e-47c4-a801-4db41e47c47c">
+                        <persName ref="https://editon-humboldt.de/H0001103 http://d-nb.info/gnd/117598275">
                             <choice>
                                     <abbr>Roxb<hi rendition="#sup">s</hi>.</abbr>
                                     <expan>Roxburgh’s</expan>
                                 </choice>
                         </persName> unpublished flora indica</ref>
-                    <note xml:id="f307bb6f-0d07-42a9-87bb-6f0d0772a926" corresp="#d5703665-9809-4fbd-b036-6598095fbd90">Eine erste Edition der Flora Indica gab <persName ref="http://d-nb.info/gnd/118667106">William Carey</persName> zwischen 1820 und 1824
-                            heraus (<bibl corresp="https://edition-humboldt.de/v8/27S27K84">Roxburgh/Carey/Wallich
+                    <note xml:id="aa68014d-b41e-47c4-a801-4db41e47c47c" corresp="#a8e002b9-f9d2-40de-a002-b9f9d2d0decc">Eine erste Edition der Flora Indica gab <persName ref="https://editon-humboldt.de/H0012895 http://d-nb.info/gnd/118667106">William Carey</persName> zwischen 1820 und 1824
+                            heraus (<bibl corresp="https://edition-humboldt.de/27S27K84">Roxburgh/Carey/Wallich
                                 1820–1824</bibl>).</note>, <lb/>which is nearly allied to <name type="plant">
                         <choice>
                             <abbr>P.</abbr>
@@ -192,7 +215,7 @@
                     </choice>
                 </p>
                 <p>Neither of them are known to grow within the <lb/>
-                    <placeName ref="http://d-nb.info/gnd/4060997-2">tropic</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">tropic</placeName>
                     <choice>
                         <orig>..</orig>
                         <reg>.</reg>
@@ -207,53 +230,53 @@
                             <expan>Pinus</expan>
                         </choice> longifolia</name>
                     <supplied cert="high">.</supplied>
-                    <persName ref="http://d-nb.info/gnd/117598275">Roxburgh</persName> says that it <lb/>is found among
-                    the mountains of <placeName ref="https://www.geonames.org/1282988">Nepaul</placeName> and <lb/>on those
-                    north of the plains of <placeName ref="https://www.geonames.org/1252881">Bengal</placeName>, <placeName ref="https://www.geonames.org/1278131">Oude</placeName> &amp;c<supplied cert="high">.</supplied>
+                    <persName ref="https://editon-humboldt.de/H0001103 http://d-nb.info/gnd/117598275">Roxburgh</persName> says that it <lb/>is found among
+                    the mountains of <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepaul</placeName> and <lb/>on those
+                    north of the plains of <placeName ref="https://editon-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, <placeName ref="https://editon-humboldt.de/H0002634 https://www.geonames.org/1278131">Oude</placeName> &amp;c<supplied cert="high">.</supplied>
                     <name type="plant">
                         <lb/>
                         <choice>
                             <abbr>P.</abbr>
                             <expan>Pinus</expan>
                         </choice> Deodwara</name> is a native of the mountains <lb/>North of
-                        <placeName ref="https://edition-humboldt.de/v8/H0010650">Rohilcund</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0010650">Rohilcund</placeName>
                     <supplied cert="high">.</supplied>
                 </p>
                 <p>– 4<supplied cert="high">.</supplied> I possess no correct information concerning
-                    <lb/>the Pines of <placeName ref="https://www.geonames.org/1279685">Thibet</placeName> nor even of those
-                    of <placeName ref="https://www.geonames.org/1814991">China</placeName>
+                    <lb/>the Pines of <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Thibet</placeName> nor even of those
+                    of <placeName ref="https://editon-humboldt.de/H0007396 https://www.geonames.org/1814991">China</placeName>
                     <lb/>except <name type="plant">
                         <hi rendition="#u">Pinus Massoniana</hi>
                     </name>
-                    of <persName ref="http://d-nb.info/gnd/116652292">Lambert</persName>, of which</p>
+                    of <persName ref="https://editon-humboldt.de/H0004278 http://d-nb.info/gnd/116652292">Lambert</persName>, of which</p>
                 <p>
                     <pb n="6v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001A59A00000010"/>
                     <choice>
                         <orig>there</orig>
                         <reg>There</reg>
-                    </choice> are specimens in <persName ref="http://d-nb.info/gnd/118808818">Sir Joseph
-                        Banks’s</persName> Herbarium <lb/>from <placeName ref="https://www.geonames.org/1815459">Danes
-                        Island</placeName> near <placeName ref="https://www.geonames.org/1809935">Canton</placeName>.</p>
+                    </choice> are specimens in <persName ref="https://editon-humboldt.de/H0003061 http://d-nb.info/gnd/118808818">Sir Joseph
+                        Banks’s</persName> Herbarium <lb/>from <placeName ref="https://editon-humboldt.de/H0005475 https://www.geonames.org/1815459">Danes
+                        Island</placeName> near <placeName ref="https://editon-humboldt.de/H0000352 https://www.geonames.org/1809935">Canton</placeName>.</p>
                 <p>– 5<supplied cert="high">.</supplied>
                     <name type="plant">
                         <hi rendition="#u">Pinus occidentalis</hi>
                     </name> is not
-                    native of <placeName ref="https://www.geonames.org/3489940">Jamaica</placeName>. <choice>
+                    native of <placeName ref="https://editon-humboldt.de/H0006552 https://www.geonames.org/3489940">Jamaica</placeName>. <choice>
                         <orig>
                             <lb/>the</orig>
                         <reg>The</reg>
-                    </choice> only specimens in<persName ref="http://d-nb.info/gnd/118808818"> Sir Joseph
+                    </choice> only specimens in<persName ref="https://editon-humboldt.de/H0003061 http://d-nb.info/gnd/118808818"> Sir Joseph
                     Banks</persName>’s <choice>
                         <orig>herbarium</orig>
                         <reg>Herbarium</reg>
                     </choice>
-                    <lb/>are a branch without fructification from <persName ref="http://d-nb.info/gnd/117384836">
+                    <lb/>are a branch without fructification from <persName ref="https://editon-humboldt.de/H0016188 http://d-nb.info/gnd/117384836">
                         <choice>
                             <abbr>D<hi rendition="#sup">r</hi>.</abbr>
                             <expan>Doctor</expan>
                         </choice> Swadtz</persName>
-                    <lb/>and two cones lately received from <placeName ref="https://www.geonames.org/3504558">Hispaniola</placeName>. <lb/>
-                    <ref xml:id="a7537abc-2604-44c4-937a-bc2604a4c494" corresp="#f8640106-271f-4a48-a401-06271f2a4860">
+                    <lb/>and two cones lately received from <placeName ref="https://editon-humboldt.de/H0006870 https://www.geonames.org/3504558">Hispaniola</placeName>. <lb/>
+                    <ref xml:id="d9eded00-6a77-4d40-aded-006a775d40b1" corresp="#f5541b9b-78ce-4ece-941b-9b78cefece6d">
                         <choice>
                                 <orig>of</orig>
                                 <reg>Of</reg>
@@ -262,21 +285,21 @@
                                 <abbr>M.</abbr>
                                 <expan>Mister</expan>
                             </choice>
-                            <persName ref="http://d-nb.info/gnd/116817569">Von Buch</persName>
+                            <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Von Buch</persName>
                     </ref>
-                    <note xml:id="f8640106-271f-4a48-a401-06271f2a4860" corresp="#a7537abc-2604-44c4-937a-bc2604a4c494">Vgl. Humboldt an Brown, Paris, 18. April 1817:
-                            „Le cône de Pinus occidentalis ressemble beaucoup à celui du <placeName ref="https://www.geonames.org/3996063">Mexique</placeName>, mais il me paroît bien singulier
-                            que ce Pin ne se trouve pas sur les hautes montagnes de la <placeName ref="https://www.geonames.org/3489940">Jamaïque</placeName>, tandis qu’il est si commun à
-                                l’<placeName ref="https://www.geonames.org/3556608">Île des <hi rendition="#u">Pinos</hi>
-                        </placeName> au Sud de la <placeName ref="https://www.geonames.org/3553478">Havane</placeName> presque au niveau de la mer.“ British Library,
+                    <note xml:id="f5541b9b-78ce-4ece-941b-9b78cefece6d" corresp="#d9eded00-6a77-4d40-aded-006a775d40b1">Vgl. Humboldt an Brown, Paris, 18. April 1817:
+                            „Le cône de Pinus occidentalis ressemble beaucoup à celui du <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexique</placeName>, mais il me paroît bien singulier
+                            que ce Pin ne se trouve pas sur les hautes montagnes de la <placeName ref="https://editon-humboldt.de/H0006552 https://www.geonames.org/3489940">Jamaïque</placeName>, tandis qu’il est si commun à
+                                l’<placeName ref="https://editon-humboldt.de/H0006736 https://www.geonames.org/3556608">Île des <hi rendition="#u">Pinos</hi>
+                        </placeName> au Sud de la <placeName ref="https://editon-humboldt.de/H0006819 https://www.geonames.org/3553478">Havane</placeName> presque au niveau de la mer.“ British Library,
                             Correspondence and Papers of Robert Brown, Add MS 32440, fol.
                             144.</note>.</p>
-                <p>6. I have no means of answering this query there <lb/>being no <placeName ref="https://www.geonames.org/1861060">Japanese</placeName> specimens of the genus <name type="plant">Pinus</name>
+                <p>6. I have no means of answering this query there <lb/>being no <placeName ref="https://editon-humboldt.de/H0006559 https://www.geonames.org/1861060">Japanese</placeName> specimens of the genus <name type="plant">Pinus</name>
                     <lb/>here. <choice>
                         <orig>it</orig>
                         <reg>It</reg>
                     </choice> is however I think quite as likely that <lb/>
-                    <persName ref="http://d-nb.info/gnd/119036495">Thunberg</persName> may be mistaken as correct on this <lb/>subject<choice>
+                    <persName ref="https://editon-humboldt.de/H0003962 http://d-nb.info/gnd/119036495">Thunberg</persName> may be mistaken as correct on this <lb/>subject<choice>
                         <orig>..</orig>
                         <reg type="deleted"/>
                     </choice> &amp; it is not unlikely that <name type="plant">
@@ -288,7 +311,7 @@
                         <supplied cert="high">Pinus</supplied>
                         sylvestris</name>.</p>
                 <p>– 7<supplied cert="high">.</supplied>
-                    <persName ref="http://d-nb.info/gnd/117598275">
+                    <persName ref="https://editon-humboldt.de/H0001103 http://d-nb.info/gnd/117598275">
                         <choice>
                             <abbr>D<hi rendition="#sup">r</hi>
                             </abbr>
@@ -296,22 +319,23 @@
                         </choice> Roxburgh</persName> (in flora indica inedita) regards his
                         <lb/>
                     <name type="plant">Cactus indicus</name> as distinct from <name type="plant">
-                        <supplied cert="high">Cactus</supplied> cochinelli-<lb/>fer</name> and <name type="plant">
+                        <supplied cert="high">Cactus</supplied> cochinelli<g ref="#typoHyphen"/>
+                        <lb break="no"/>fer</name> and <name type="plant">
                         <supplied cert="high">Cactus</supplied> Opuntia</name> and believes it
                     (chiefly from <lb/>information of its being very general, and from <lb/>its
-                    having a native name) to be indigenous <lb/>in <placeName ref="https://www.geonames.org/1269750">India</placeName>: of the probability of this I have <lb/>no good means of
+                    having a native name) to be indigenous <lb/>in <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">India</placeName>: of the probability of this I have <lb/>no good means of
                     judging. <choice>
                         <orig>but</orig>
                         <reg>But</reg>
                     </choice> it appears <lb/>somewhat unfavourable to the opinion that <lb/>there
                     is no Sanscrit name for the plant<supplied cert="high">.</supplied>
                 </p>
-                <p>In the same work <persName ref="http://d-nb.info/gnd/117598275">
+                <p>In the same work <persName ref="https://editon-humboldt.de/H0001103 http://d-nb.info/gnd/117598275">
                         <choice>
                             <abbr>D<hi rendition="#sup">r</hi>
                             </abbr>
                             <expan>Doctor</expan>
-                        </choice> Roxburgh</persName> has also <lb/>a second species from <placeName ref="https://www.geonames.org/1814991">China</placeName> which he considers <lb/>new and which
+                        </choice> Roxburgh</persName> has also <lb/>a second species from <placeName ref="https://editon-humboldt.de/H0007396 https://www.geonames.org/1814991">China</placeName> which he considers <lb/>new and which
                     indeed both from his description <lb/>and figure may very well be distinct from
                         <note hand="#addressee" place="left" rend="sticked">
                         <p>
@@ -324,8 +348,8 @@
                             <choice>
                                 <abbr>M</abbr>
                                 <expan>Monsieur</expan>
-                            </choice> Brown dans un célèbre mémoire sur <lb/>les Protéacées <ref xml:id="fe6efd73-34a6-47ae-aefd-7334a6a7aefd" corresp="#ee56f349-7fdc-4676-96f3-497fdcd67675">
-                                <bibl corresp="https://edition-humboldt.de/v8/5N8MJH5H">(<choice>
+                            </choice> Brown dans un célèbre mémoire sur <lb/>les Protéacées <ref xml:id="d6e46c88-9c7b-4542-a46c-889c7b954228" corresp="#d2cadd9e-868b-40da-8add-9e868b80da5b">
+                                <bibl corresp="https://edition-humboldt.de/5N8MJH5H">(<choice>
                                             <abbr>Tr.</abbr>
                                             <expan>Transactions</expan>
                                         </choice> of the <choice>
@@ -348,8 +372,8 @@
                                             <expan>page</expan>
                                         </choice> 20 </bibl>
                             </ref>
-                            <note xml:id="ee56f349-7fdc-4676-96f3-497fdcd67675" corresp="#fe6efd73-34a6-47ae-aefd-7334a6a7aefd">
-                                <bibl corresp="https://edition-humboldt.de/v8/5N8MJH5H">Brown 1810</bibl>, 23: „The celebrated traveller Humboldt
+                            <note xml:id="d2cadd9e-868b-40da-8add-9e868b80da5b" corresp="#d6e46c88-9c7b-4542-a46c-889c7b954228">
+                                <bibl corresp="https://edition-humboldt.de/5N8MJH5H">Brown 1810</bibl>, 23: „The celebrated traveller Humboldt
                                     is the first who has expressly pointed out a remarkable
                                     difference in the distribution of the species of plants. He
                                     observes that, while the greater number grow irregularly
@@ -358,7 +382,7 @@
                                     absolute exclusion of other species.“</note> adopte mon idée des <add place="mBottom">
                                 <metamark/>plantes
                                 sociales et ajoute que celles que <lb/>l’on trouve sous les
-                                    <placeName ref="http://d-nb.info/gnd/4060997-2">tropiques</placeName> ne se trouvent
+                                    <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">tropiques</placeName> ne se trouvent
                                 <lb/>presque qu’à de grandes <choice>
                                     <abbr>haut.</abbr>
                                     <expan>hauteurs</expan>
@@ -366,12 +390,12 @@
                                     <choice>
                                         <abbr>P</abbr>
                                         <expan>Protea</expan>
-                                    </choice> mellifera</name> (<placeName ref="https://www.geonames.org/6255146">Afrika</placeName>) <choice>
+                                    </choice> mellifera</name> (<placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">Afrika</placeName>) <choice>
                                     <abbr>u</abbr>
                                     <expan>und</expan>
                                 </choice>
                                 <lb/>
-                                <name type="plant">Banksia speciosa</name> (<placeName ref="https://www.geonames.org/2077456">New <choice>
+                                <name type="plant">Banksia speciosa</name> (<placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">New <choice>
                                         <abbr>Holl</abbr>
                                         <expan>Holland</expan>
                                     </choice>
@@ -385,7 +409,7 @@
                                 <abbr>l’hémisph</abbr>
                                 <expan>l’hémisphère</expan>
                             </choice>
-                            <lb/>austral surtout aux grandes îles (<placeName ref="https://www.geonames.org/2077456">
+                            <lb/>austral surtout aux grandes îles (<placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">
                                 <choice>
                                     <abbr>Nouv.</abbr>
                                     <expan>Nouvelle</expan>
@@ -396,7 +420,7 @@
                                 </choice>
                             </placeName>
                             <lb/>
-                            <placeName ref="https://www.geonames.org/2186224">
+                            <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">
                                 <choice>
                                     <abbr>Nouv</abbr>
                                     <expan>Nouvelle</expan>
@@ -412,17 +436,17 @@
                                     <add place="across">à</add>
                                 </subst>
                                 <lb/>
-                                <placeName ref="https://www.geonames.org/1062947">Madagas<lb/>car</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0008555 https://www.geonames.org/1062947">Madagas<lb break="no"/>car</placeName>
                             </add>
                             <supplied cert="high">,</supplied> moins
                             les Continens<supplied cert="high">,</supplied>
-                            <lb/>ceux de <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                            <lb/>ceux de <placeName ref="https://editon-humboldt.de/H0002429">
                                 <choice>
                                     <abbr>l’Amér</abbr>
                                     <expan>l’Amérique</expan>
                                 </choice>
                             </placeName> ressemblans plus à celles <lb/>de la
-                                <placeName ref="https://www.geonames.org/2077456">
+                                <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">
                                 <choice>
                                     <abbr>Nou.</abbr>
                                     <expan>Nouvelle</expan>
@@ -431,7 +455,7 @@
                                     <abbr>Holl</abbr>
                                     <expan>Hollande</expan>
                                 </choice>
-                            </placeName> qu’à celles de <placeName ref="https://www.geonames.org/6255146">l’Afrique</placeName>
+                            </placeName> qu’à celles de <placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">l’Afrique</placeName>
                             <supplied cert="high">.</supplied>
                             <lb/>
                             <choice>
@@ -444,7 +468,7 @@
                             <supplied cert="high">,</supplied>
                             <note hand="#addressee" place="left">
                                 <metamark/>
-                                <name type="plant">Banksia inte<lb/>grifolia</name> Seepflan<lb/>ze bis 40 <choice>
+                                <name type="plant">Banksia inte<lb break="no"/>grifolia</name> Seepflan<lb break="no"/>ze bis 40 <choice>
                                     <abbr>lat</abbr>
                                     <expan>latitudo</expan>
                                 </choice>
@@ -461,7 +485,7 @@
                                 </subst>
                             </name>
                             <supplied cert="high">.</supplied>
-                            <lb/>À la <placeName ref="https://www.geonames.org/2077456">
+                            <lb/>À la <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">
                                 <choice>
                                     <abbr>Nouv.</abbr>
                                     <expan>Nouvelle</expan>
@@ -475,7 +499,7 @@
                                 <expan>Östlich</expan>
                             </choice> mehr <del rendition="#s">Afrika</del>
                             <add place="sublinear">
-                                <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                                <placeName ref="https://editon-humboldt.de/H0002429">
                                     <choice>
                                         <abbr>Amerik</abbr>
                                         <expan>Amerika</expan>
@@ -488,7 +512,7 @@
                                 <abbr>afrik</abbr>
                                 <expan>afrika</expan>
                             </choice>
-                            <lb/>ähnlich. Gehen in <placeName ref="http://d-nb.info/gnd/4060997-2">Tropen</placeName> bis
+                            <lb/>ähnlich. Gehen in <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">Tropen</placeName> bis
                             höchste Berge<supplied cert="high">.</supplied>
                         </p>
                         <p>tournez </p>
@@ -509,8 +533,8 @@
                                         <abbr>grandifl.</abbr>
                                         <expan>grandiflora</expan>
                                     </choice>
-                                </name>)</add> bei <placeName ref="https://www.geonames.org/3658666">Cuenca</placeName>
-                            <lb/>so hoch gefunden, so auch er in <placeName ref="https://www.geonames.org/2147292">Van
+                                </name>)</add> bei <placeName ref="https://editon-humboldt.de/H0007658 https://www.geonames.org/3658666">Cuenca</placeName>
+                            <lb/>so hoch gefunden, so auch er in <placeName ref="https://editon-humboldt.de/H0009100 https://www.geonames.org/2147292">Van
                                 Diemen</placeName>
                             <name type="plant">
                                 <name type="plant">
@@ -532,20 +556,20 @@
                             <choice>
                                 <abbr>gemeinschaftl</abbr>
                                 <expan>gemeinschaftlich</expan>
-                            </choice> den Continenten, ein <lb/>nördliches Genus <name type="plant">Rhopala</name> in<placeName ref="https://edition-humboldt.de/v8/H0002429">
+                            </choice> den Continenten, ein <lb/>nördliches Genus <name type="plant">Rhopala</name> in<placeName ref="https://editon-humboldt.de/H0002429">
                                 <choice>
                                     <abbr>Am.</abbr>
                                     <expan>Amerika</expan>
                                 </choice>
                             </placeName>
                             <supplied cert="high">,</supplied>
-                            <placeName ref="https://www.geonames.org/1573261">Cochinchine</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0007496 https://www.geonames.org/1573261">Cochinchine</placeName>
                             <choice>
                                 <abbr>u</abbr>
                                 <expan>und</expan>
                             </choice>
                             <lb/>
-                            <placeName ref="https://www.geonames.org/1636682">Malayisches Archipel</placeName>. <choice>
+                            <placeName ref="https://editon-humboldt.de/H0008556 https://www.geonames.org/1636682">Malayisches Archipel</placeName>. <choice>
                                 <abbr>u</abbr>
                                 <expan>und</expan>
                             </choice>
@@ -558,7 +582,7 @@
                             <subst>
                                 <del rendition="#s">der</del>
                                 <add place="intralinear">das</add>
-                            </subst> südlichste <lb/>genus <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                            </subst> südlichste <lb/>genus <placeName ref="https://editon-humboldt.de/H0002429">
                                 <choice>
                                     <abbr>Am.</abbr>
                                     <expan>Amerika</expan>
@@ -568,9 +592,9 @@
                                 <abbr>u</abbr>
                                 <expan>und</expan>
                             </choice>
-                            <placeName ref="https://www.geonames.org/2077456">Neu Holland</placeName>. </p>
+                            <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Neu Holland</placeName>. </p>
                         <p>Lieben Seenähe, trokne sandige Klippen<supplied cert="high">,</supplied>
-                            <lb/>daher wohl selten <placeName ref="https://www.geonames.org/3631298">Orinoco</placeName>.
+                            <lb/>daher wohl selten <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orinoco</placeName>.
                             wenige Salzige Sümpfe von <lb/>
                             <name type="plant">
                                 <choice>
@@ -582,8 +606,8 @@
                                     <expan>ferrugineum</expan>
                                 </choice>
                             </name>
-                            <persName ref="http://d-nb.info/gnd/116478101">Cavanilles</persName>. </p>
-                        <p>Nach Brown in <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                            <persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName>. </p>
+                        <p>Nach Brown in <placeName ref="https://editon-humboldt.de/H0002429">
                                 <choice>
                                     <abbr>Amer</abbr>
                                     <expan>Amerika</expan>
@@ -599,13 +623,13 @@
                                     <abbr>E.</abbr>
                                     <expan>Embothrium</expan>
                                 </choice> coccineum</name>
-                            <persName ref="http://d-nb.info/gnd/118534432">
+                            <persName ref="https://editon-humboldt.de/H0000178 http://d-nb.info/gnd/118534432">
                                 <choice>
                                     <abbr>Forst</abbr>
                                     <expan>Forster</expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3834448">tierra del fuego</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0004770 https://www.geonames.org/3834448">tierra del fuego</placeName>
                             <choice>
                                 <abbr>u</abbr>
                                 <expan>und</expan>
@@ -614,8 +638,8 @@
                                 <choice>
                                     <abbr>E</abbr>
                                     <expan>Embothrium</expan>
-                                </choice> lan<lb/>ceolatum</name>
-                            <ref xml:id="c16646bb-fc3e-4dac-a646-bbfc3ebdac27" corresp="#e16e344a-6964-48fe-ae34-4a696498febb">
+                                </choice> lan<lb break="no"/>ceolatum</name>
+                            <ref xml:id="fb76abeb-bc3e-4e8a-b6ab-ebbc3e0e8a1e" corresp="#c201795b-a67b-457d-8179-5ba67b357d9f">
                                 <choice>
                                         <abbr>Flor</abbr>
                                         <expan>Flora</expan>
@@ -625,8 +649,8 @@
                                         <expan>Peruviana</expan>
                                     </choice>
                             </ref>
-                            <note xml:id="e16e344a-6964-48fe-ae34-4a696498febb" corresp="#c16646bb-fc3e-4dac-a646-bbfc3ebdac27">Ruiz/Pavón 1798–1802, I, 62.</note>
-                            <placeName ref="https://www.geonames.org/3893894">Concepcion de Chili</placeName>
+                            <note xml:id="c201795b-a67b-457d-8179-5ba67b357d9f" corresp="#fb76abeb-bc3e-4e8a-b6ab-ebbc3e0e8a1e">Ruiz/Pavón 1798–1802, I, 62.</note>
+                            <placeName ref="https://editon-humboldt.de/H0007552 https://www.geonames.org/3893894">Concepcion de Chili</placeName>
                             <choice>
                                 <abbr>u</abbr>
                                 <expan>und</expan>
@@ -642,7 +666,7 @@
                             </subst>
                             <name type="plant">
                                 <choice>
-                                    <orig>Oreo<lb/>callides</orig>
+                                    <orig>Oreo<lb break="no"/>callides</orig>
                                     <reg>Oreocallis</reg>
                                 </choice>
                             </name> nemlich: <name type="plant">
@@ -659,7 +683,7 @@
                                     <expan>grandiflorum</expan>
                                 </choice>
                             </name>
-                            <persName ref="http://d-nb.info/gnd/118726048">Lamarck</persName>) <lb/>ou <name type="plant">
+                            <persName ref="https://editon-humboldt.de/H0004274 http://d-nb.info/gnd/118726048">Lamarck</persName>) <lb/>ou <name type="plant">
                                 <choice>
                                     <abbr>Emb.</abbr>
                                     <expan>Embothrium</expan>
@@ -669,7 +693,7 @@
                                     <expan>emarginatum</expan>
                                 </choice>
                             </name>
-                            <ref xml:id="ff3e1d7e-a4a9-425f-be1d-7ea4a9d25fb3" corresp="#c24253e4-d8c5-4c53-8253-e4d8c56c538e">
+                            <ref xml:id="c34173bb-4046-4202-8173-bb404662028e" corresp="#e1e2b201-aa8a-4973-a2b2-01aa8a397337">
                                 <choice>
                                         <abbr>Flor.</abbr>
                                         <expan>Flora</expan>
@@ -679,7 +703,7 @@
                                         <expan>Peruviana</expan>
                                     </choice>
                             </ref>
-                            <note xml:id="c24253e4-d8c5-4c53-8253-e4d8c56c538e" corresp="#ff3e1d7e-a4a9-425f-be1d-7ea4a9d25fb3">Ruiz/Pavón 1798–1802, I, 62.</note> in <supplied cert="high">collibus</supplied> frigidis<placeName ref="https://www.geonames.org/3927758">
+                            <note xml:id="e1e2b201-aa8a-4973-a2b2-01aa8a397337" corresp="#c34173bb-4046-4202-8173-bb404662028e">Ruiz/Pavón 1798–1802, I, 62.</note> in <supplied cert="high">collibus</supplied> frigidis<placeName ref="https://editon-humboldt.de/H0009260 https://www.geonames.org/3927758">
                                 <choice>
                                     <sic>Tarmi</sic>
                                     <corr cert="high">Tarmae</corr>
@@ -701,7 +725,7 @@
                             </name>
                             <subst>
                                 <del rendition="#s">Amer. R.</del>
-                                <add place="intralinear">in <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                                <add place="intralinear">in <placeName ref="https://editon-humboldt.de/H0002429">
                                         <choice>
                                             <abbr>Amer.</abbr>
                                             <expan>Amerika</expan>
@@ -734,7 +758,7 @@
                                     <choice>
                                         <abbr>R.</abbr>
                                         <expan>Roupala</expan>
-                                    </choice> peru<lb/>viana</name> (<name type="plant">
+                                    </choice> peru<lb break="no"/>viana</name> (<name type="plant">
                                     <choice>
                                         <abbr>Emb</abbr>
                                         <expan>Embothrium</expan>
@@ -745,7 +769,7 @@
                                         <expan>monospermum</expan>
                                     </choice>
                                 </name>. <lb/>
-                                <ref xml:id="f8b77421-5f35-42f6-b774-215f35c2f6d5" corresp="#a7fe00fc-46da-4ca3-be00-fc46daaca3f8">
+                                <ref xml:id="ae2d2e90-b5ae-4f6a-ad2e-90b5ae5f6a1a" corresp="#ee2655d8-af0f-421c-a655-d8af0fb21cdb">
                                     <choice>
                                             <abbr>Flor</abbr>
                                             <expan>Flora</expan>
@@ -755,7 +779,7 @@
                                             <expan>Peruviana</expan>
                                         </choice>
                                 </ref>
-                                <note xml:id="a7fe00fc-46da-4ca3-be00-fc46daaca3f8" corresp="#f8b77421-5f35-42f6-b774-215f35c2f6d5">Ruiz/Pávon, I, 63.</note>) <lb/>lezte in <choice>
+                                <note xml:id="ee2655d8-af0f-421c-a655-d8af0fb21cdb" corresp="#ae2d2e90-b5ae-4f6a-ad2e-90b5ae5f6a1a">Ruiz/Pávon, I, 63.</note>) <lb/>lezte in <choice>
                                     <abbr>mont</abbr>
                                     <expan>montibus</expan>
                                 </choice>
@@ -764,9 +788,9 @@
                                     <expan>frigidis</expan>
                                 </choice>
                                 <lb/>
-                                <placeName ref="https://www.geonames.org/3932488">Peruviae</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peruviae</placeName>
                             </add>: in
-                                <placeName ref="https://www.geonames.org/1636629">Molukken</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0008926 https://www.geonames.org/1636629">Molukken</placeName>
                             <name type="plant">
                                 <choice>
                                     <abbr>Rh.</abbr>
@@ -780,7 +804,7 @@
                                         <abbr>R</abbr>
                                         <expan>Roupala</expan>
                                     </choice> serrata</name>
-                            </add>: in <placeName ref="https://www.geonames.org/1573261">Cochin<lb/>chine</placeName>
+                            </add>: in <placeName ref="https://editon-humboldt.de/H0007496 https://www.geonames.org/1573261">Cochin<lb break="no"/>chine</placeName>
                             <name type="plant">
                                 <choice>
                                     <abbr>Rh.</abbr>
@@ -801,30 +825,30 @@
                     and <name type="plant">
                         <supplied cert="high">Cactus</supplied> opuntia</name> to
                     which it most <lb/>nearly approaches. This plant it appears <lb/>is now growing
-                    in the <placeName ref="https://www.geonames.org/3370750">Island of <choice>
+                    in the <placeName ref="https://editon-humboldt.de/H0009941 https://www.geonames.org/3370750">Island of <choice>
                             <abbr>S<hi rendition="#sup">t</hi>.</abbr>
                             <expan>Saint</expan>
                         </choice> Helena</placeName>.</p>
-                <p>– 8<supplied cert="high">.</supplied> I know of no approach to <placeName ref="https://edition-humboldt.de/v8/H0002429">American</placeName>
-                    <lb/>vegetation in the <placeName ref="https://www.geonames.org/3373385">Azores</placeName>. <choice>
+                <p>– 8<supplied cert="high">.</supplied> I know of no approach to <placeName ref="https://editon-humboldt.de/H0002429">American</placeName>
+                    <lb/>vegetation in the <placeName ref="https://editon-humboldt.de/H0002641 https://www.geonames.org/3373385">Azores</placeName>. <choice>
                         <orig>but</orig>
                         <reg>But</reg>
-                    </choice> we know <lb/>very little of the Botany of these <placeName ref="https://www.geonames.org/3373385">Islands</placeName>
+                    </choice> we know <lb/>very little of the Botany of these <placeName ref="https://editon-humboldt.de/H0002641 https://www.geonames.org/3373385">Islands</placeName>
                     <supplied cert="high">.</supplied>
                     <lb/>It is remarkable that <name type="plant">Erica vulgaris</name> should
-                    <lb/>be a common plant on the hills of <placeName ref="https://www.geonames.org/3372598">
+                    <lb/>be a common plant on the hills of <placeName ref="https://editon-humboldt.de/H0010109 https://www.geonames.org/3372598">
                         <choice>
                             <abbr>S<hi rendition="#sup">t</hi>.</abbr>
                             <expan>Saint</expan>
                         </choice> Miguel</placeName>.</p>
                 <p>– 9<supplied cert="high">.</supplied> On the subject of the taste of recent
-                    Tabasheer <lb/>I may refer you to <bibl corresp="https://edition-humboldt.de/v8/ZSI2G9AV">
+                    Tabasheer <lb/>I may refer you to <bibl corresp="https://edition-humboldt.de/ZSI2G9AV">
                         <choice>
                                 <abbr>D<hi rendition="#sup">r</hi>
                             </abbr>
                                 <expan>Doctor</expan>
                             </choice>
-                            <persName ref="http://d-nb.info/gnd/11759928X">
+                            <persName ref="https://editon-humboldt.de/H0001152 http://d-nb.info/gnd/11759928X">
                             <choice>
                                 <orig>Russels</orig>
                                 <reg>Russell’s</reg>
@@ -848,7 +872,8 @@
                     it had a <lb/>slight saline <choice>
                         <sic>subastringent</sic>
                         <corr cert="high">sub-astringent</corr>
-                    </choice> taste: that the resi-<lb/>duum had a
+                    </choice> taste: that the resi<g ref="#typoHyphen"/>
+                    <lb break="no"/>duum had a
                     pretty strong saline taste with less <lb/>astringency. <choice>
                         <orig>the</orig>
                         <reg>The</reg>
@@ -856,7 +881,7 @@
                     which it loses in
                     a
                     great <lb/>degree by keeping.</p>
-                <p>Tabasheer was produced in the Hothouse of <persName ref="http://viaf.org/viaf/84818534">
+                <p>Tabasheer was produced in the Hothouse of <persName ref="https://editon-humboldt.de/H0002003 http://viaf.org/viaf/84818534">
                         <choice>
                             <abbr>D<hi rendition="#sup">r</hi>
                             </abbr>
@@ -869,12 +894,12 @@
                 <p>– 10<supplied cert="high">.</supplied> I have no correct information to give on
                     <lb/>the subject of this query.</p>
                 <p>– 11. None of the plants mention’d in this query <lb/>are known to me as natives
-                    of Northern <placeName ref="https://www.geonames.org/1269750">India</placeName>. <lb/>In <bibl corresp="https://edition-humboldt.de/v8/Z9RPQF8V">
+                    of Northern <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">India</placeName>. <lb/>In <bibl corresp="https://edition-humboldt.de/Z9RPQF8V">
                         <choice>
                             <abbr>Mr</abbr>
                             <expan>Mister</expan>
                         </choice>
-                        <persName ref="https://edition-humboldt.de/v8/H0015467">Saunders’s</persName> Journal published in <choice>
+                        <persName ref="https://editon-humboldt.de/H0015467">Saunders’s</persName> Journal published in <choice>
                             <abbr>Philos:</abbr>
                             <expan>Philosophical</expan>
                         </choice>
@@ -895,11 +920,11 @@
                         <choice>
                             <abbr>Vol.</abbr>
                             <expan>volume</expan>
-                        </choice> 79</bibl> and in the appendix to <bibl corresp="https://edition-humboldt.de/v8/I2HHUVE2">
-                        <persName ref="http://d-nb.info/gnd/129956252">Turner’s</persName>
-                        <placeName ref="https://www.geonames.org/1279685">Tibet</placeName>
+                        </choice> 79</bibl> and in the appendix to <bibl corresp="https://edition-humboldt.de/I2HHUVE2">
+                        <persName ref="https://editon-humboldt.de/H0004092 http://d-nb.info/gnd/129956252">Turner’s</persName>
+                        <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName>
                     </bibl>
-                    <lb/>many <placeName ref="https://www.geonames.org/6255148">European</placeName> plants are mention’d as
+                    <lb/>many <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">European</placeName> plants are mention’d as
                     natives <lb/>of that country. <choice>
                         <orig>among</orig>
                         <reg>Among</reg>
@@ -923,51 +948,51 @@
                     </hi>
                     <lb/>of which the specific name is not given but <lb/>he can hardly have been
                     mistaken in the genus.</p>
-                <p>– 12<supplied cert="high">.</supplied> Many<placeName ref="https://www.geonames.org/6255148">
+                <p>– 12<supplied cert="high">.</supplied> Many<placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">
                         <choice>
                             <orig>european</orig>
                             <reg>European</reg>
                         </choice>
-                    </placeName> plants are noticed <lb/>by <persName ref="http://d-nb.info/gnd/119036495">Thunberg</persName> as natives of <placeName ref="https://www.geonames.org/9406051">South
+                    </placeName> plants are noticed <lb/>by <persName ref="https://editon-humboldt.de/H0003962 http://d-nb.info/gnd/119036495">Thunberg</persName> as natives of <placeName ref="https://editon-humboldt.de/H0010379 https://www.geonames.org/9406051">South
                         Africa</placeName> and <lb/>of several of these, at least, there seems to be
-                    no <lb/>reason to doubt. I have myself found at <lb/>the <placeName ref="https://www.geonames.org/3367577">Cape</placeName>
+                    no <lb/>reason to doubt. I have myself found at <lb/>the <placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">Cape</placeName>
                     <name type="plant">Samolus Valerandi</name> and <name type="plant">Corrigiola
                         littoralis</name>.</p>
                 <p>– 13. There appears to me no reason to doubt <lb/>
-                    <persName ref="http://d-nb.info/gnd/119258064">Rumph’s</persName>
+                    <persName ref="https://editon-humboldt.de/H0001140 http://d-nb.info/gnd/119258064">Rumph’s</persName>
                     <name type="plant">Quercus molucca</name>’s from which the <lb/>
-                    <persName ref="http://d-nb.info/gnd/118573349">Linnean</persName> species so called was established, being
+                    <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Linnean</persName> species so called was established, being
                     <lb/>really a <name type="plant">Quercus</name>. <choice>
                         <orig>altho’</orig>
                         <reg>Altho’</reg>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/117696757">Commerson</persName> has consider’d <lb/>it as more
+                    <persName ref="https://editon-humboldt.de/H0013146 http://d-nb.info/gnd/117696757">Commerson</persName> has consider’d <lb/>it as more
                     probably a Laurus<choice>
                         <orig>..</orig>
                         <reg>.</reg>
-                    </choice> In <persName ref="http://d-nb.info/gnd/118808818">Sir Joseph <lb/>Banks’</persName>s
-                    Herbarium there is more than one <lb/>species of the genus from <placeName ref="https://www.geonames.org/1626198">Sumatra</placeName>, and one <lb/>from <placeName ref="https://www.geonames.org/1642673">Java</placeName>.</p>
-                <p>– <ref xml:id="a0a859b8-c46c-4d93-a859-b8c46ced93c3" corresp="#afab6076-f5b0-4565-ab60-76f5b065653d">14<supplied cert="high">.</supplied>
+                    </choice> In <persName ref="https://editon-humboldt.de/H0003061 http://d-nb.info/gnd/118808818">Sir Joseph <lb/>Banks’</persName>s
+                    Herbarium there is more than one <lb/>species of the genus from <placeName ref="https://editon-humboldt.de/H0010400 https://www.geonames.org/1626198">Sumatra</placeName>, and one <lb/>from <placeName ref="https://editon-humboldt.de/H0006568 https://www.geonames.org/1642673">Java</placeName>.</p>
+                <p>– <ref xml:id="abd28e62-e816-4e97-928e-62e8168e9746" corresp="#e5015964-325a-46a5-8159-64325af6a52a">14<supplied cert="high">.</supplied>
                         </ref>
-                    <note xml:id="afab6076-f5b0-4565-ab60-76f5b065653d" corresp="#a0a859b8-c46c-4d93-a859-b8c46ced93c3">Humboldt vergibt die Nummer 13 in seinem
+                    <note xml:id="e5015964-325a-46a5-8159-64325af6a52a" corresp="#abd28e62-e816-4e97-928e-62e8168e9746">Humboldt vergibt die Nummer 13 in seinem
                             Fragenkatalog versehentlich doppelt. Brown führt die Zählung in seinen
                             Antworten allerdings lückenlos fort. Im Folgenden beziehen sich also
                             Browns Antwort 14 auf Humboldts Frage 13[b] („Plantes communes aux
-                                <placeName ref="http://d-nb.info/gnd/4060997-2">tropiques</placeName>...“), Browns Antwort
+                                <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">tropiques</placeName>...“), Browns Antwort
                             15 auf Humboldts Frage 14 usf.</note> I entertain myself no doubt that there are <lb/>many plants common to the
                     aequinoctial <lb/>regions of both Continents: with respect <lb/>to the plants
                     mention’d in your query <lb/>
                     <note hand="#addressee" place="left" rend="sticked">
                         <pb n="9r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001A59A00000000"/>
-                        Ausser <placeName ref="https://www.geonames.org/3834448">Tierra del Fuego</placeName> wo 33 <choice>
+                        Ausser <placeName ref="https://editon-humboldt.de/H0004770 https://www.geonames.org/3834448">Tierra del Fuego</placeName> wo 33 <choice>
                             <abbr>engl</abbr>
                             <expan>englische</expan>
                         </choice>
                         <lb/>Pflanzen sind<supplied cert="high">,</supplied> ist es falsch dass
-                        <lb/>analoge Klimate gleiche Pflanzen <lb/>hervorbringen<supplied cert="high">,</supplied> lies <ref xml:id="daa63321-9272-4060-a633-2192721060a0" corresp="#a3f53ad0-2025-49dd-b53a-d02025e9dd31">
-                            <bibl corresp="https://edition-humboldt.de/v8/9DTHXVKU">
-                                <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName>
-                                    <lb/>in <persName ref="http://d-nb.info/gnd/119384523">Ross</persName>
+                        <lb/>analoge Klimate gleiche Pflanzen <lb/>hervorbringen<supplied cert="high">,</supplied> lies <ref xml:id="ae510db1-36bb-4864-910d-b136bb1864fe" corresp="#f9ef7acf-48ac-435a-af7a-cf48acc35a6f">
+                            <bibl corresp="https://edition-humboldt.de/9DTHXVKU">
+                                <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName>
+                                    <lb/>in <persName ref="https://editon-humboldt.de/H0001063 http://d-nb.info/gnd/119384523">Ross</persName>
                                     <subst>
                                         <del rendition="#s">Reise</del>
                                         <add place="intralinear">Voyage</add>
@@ -980,8 +1005,8 @@
                                         <expan>page</expan>
                                     </choice> 302</bibl>
                         </ref>
-                        <note xml:id="a3f53ad0-2025-49dd-b53a-d02025e9dd31" corresp="#daa63321-9272-4060-a633-2192721060a0">
-                            <bibl corresp="https://edition-humboldt.de/v8/9DTHXVKU">Ross
+                        <note xml:id="f9ef7acf-48ac-435a-af7a-cf48acc35a6f" corresp="#ae510db1-36bb-4864-910d-b136bb1864fe">
+                            <bibl corresp="https://edition-humboldt.de/9DTHXVKU">Ross
                                     1847</bibl>, II, 302: „The naturalist who first visited the
                                 Fuegian shores felt probably only disappointment when recognising
                                 the familiar genera and representative species of his European home:
@@ -990,7 +1015,7 @@
                                 in opposite hemispheres. Experience has proved the fallacy of such a
                                 conclusion; and accordingly the Flora of Fuegia claims an additional
                                 and peculiar charm, in its being the only region south of the
-                                    <placeName ref="http://d-nb.info/gnd/4060997-2">tropics</placeName> where the botany
+                                    <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">tropics</placeName> where the botany
                                 of our temperate zone is, as it were, repeated to a very
                                 considerable extent.“</note>.<p>
                             <pb n="9v"/>
@@ -1008,8 +1033,8 @@
                             <abbr>Rég.</abbr>
                             <expan>Régions</expan>
                         </choice>
-                        <placeName ref="http://d-nb.info/gnd/4060997-2">tropicales</placeName>
-                        <lb/>de l’ancien et <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                        <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">tropicales</placeName>
+                        <lb/>de l’ancien et <placeName ref="https://editon-humboldt.de/H0002429">
                             <choice>
                                 <abbr>nouv.</abbr>
                                 <expan>nouveau</expan>
@@ -1033,7 +1058,7 @@
                                 <orig>.</orig>
                                 <reg type="deleted"/>
                             </choice>
-                            <persName ref="http://d-nb.info/gnd/118573349">
+                            <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                                 <choice>
                                     <abbr>
                                         <hi rendition="#u">Linn.</hi>
@@ -1051,7 +1076,7 @@
                                 </subst>
                             </name>
                             <hi rendition="#u">
-                                <persName ref="http://d-nb.info/gnd/117384836">Swadtz.</persName>
+                                <persName ref="https://editon-humboldt.de/H0016188 http://d-nb.info/gnd/117384836">Swadtz.</persName>
                             </hi>
                         </item>
                         <item>
@@ -1060,7 +1085,7 @@
                                 <orig>.</orig>
                                 <reg type="deleted"/>
                             </choice>
-                            <persName ref="http://d-nb.info/gnd/118573349">
+                            <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                                 <hi rendition="#u">
                                     <choice>
                                         <abbr>Linn.</abbr>
@@ -1078,7 +1103,7 @@
                     <list>
                         <item>
                             <name type="plant">Milium punctatum</name>
-                            <persName ref="http://d-nb.info/gnd/118573349">
+                            <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                                 <hi rendition="#u">
                                     <choice>
                                         <abbr>Linn.</abbr>
@@ -1093,7 +1118,7 @@
                                 <orig>.</orig>
                                 <reg type="deleted"/>
                             </choice>
-                            <persName ref="http://d-nb.info/gnd/118573349">
+                            <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                                 <hi rendition="#u">
                                     <choice>
                                         <abbr>Linn.</abbr>
@@ -1114,8 +1139,8 @@
                                 <orig>.</orig>
                                 <reg type="deleted"/>
                             </choice>
-                            <ref xml:id="c625d7fd-f2d0-4733-a5d7-fdf2d05733cc" corresp="#c8fd15ab-128d-47b2-bd15-ab128dd7b25c">
-                                <bibl corresp="https://edition-humboldt.de/v8/6AWI6XHF">
+                            <ref xml:id="ed81a572-c382-41b1-81a5-72c38251b1dc" corresp="#b1d573dd-26a1-42f9-9573-dd26a132f9cf">
+                                <bibl corresp="https://edition-humboldt.de/6AWI6XHF">
                                     <choice>
                                             <abbr>Br.</abbr>
                                             <expan>Brown</expan>
@@ -1126,8 +1151,8 @@
                                         </choice>
                                 </bibl>
                             </ref>
-                            <note xml:id="c8fd15ab-128d-47b2-bd15-ab128dd7b25c" corresp="#c625d7fd-f2d0-4733-a5d7-fdf2d05733cc">
-                                <bibl corresp="https://edition-humboldt.de/v8/6AWI6XHF">Brown 1810a</bibl>, 236.</note>
+                            <note xml:id="b1d573dd-26a1-42f9-9573-dd26a132f9cf" corresp="#ed81a572-c382-41b1-81a5-72c38251b1dc">
+                                <bibl corresp="https://edition-humboldt.de/6AWI6XHF">Brown 1810a</bibl>, 236.</note>
                         </item>
                         
                         <item>
@@ -1139,8 +1164,8 @@
                         </item>
                         <item>
                             <name type="plant">Eleocharis capitata</name>
-                            <ref xml:id="d9a39b2b-b6f1-4242-a39b-2bb6f17242c1" corresp="#e1016c93-635a-4e81-816c-93635ade812d">
-                                <bibl corresp="https://edition-humboldt.de/v8/6AWI6XHF">
+                            <ref xml:id="cfb79b1d-8470-4da7-b79b-1d84701da79e" corresp="#c8405b46-4c3a-4001-805b-464c3a700165">
+                                <bibl corresp="https://edition-humboldt.de/6AWI6XHF">
                                     <hi rendition="#u">
                                         <choice>
                                                 <abbr>prodr.</abbr>
@@ -1149,8 +1174,8 @@
                                     </hi>
                                 </bibl>
                             </ref>
-                            <note xml:id="e1016c93-635a-4e81-816c-93635ade812d" corresp="#d9a39b2b-b6f1-4242-a39b-2bb6f17242c1">
-                                <bibl corresp="https://edition-humboldt.de/v8/6AWI6XHF">Brown 1810a</bibl>, 225.</note>
+                            <note xml:id="c8405b46-4c3a-4001-805b-464c3a700165" corresp="#cfb79b1d-8470-4da7-b79b-1d84701da79e">
+                                <bibl corresp="https://edition-humboldt.de/6AWI6XHF">Brown 1810a</bibl>, 225.</note>
                         </item>
                         <item>
                             <name type="plant">Rhynchospora aurea</name>
@@ -1158,16 +1183,16 @@
                                 <orig>.</orig>
                                 <reg type="deleted"/>
                             </choice>
-                            <ref xml:id="bcbc61e3-c4aa-4204-bc61-e3c4aad204ff" corresp="#e96e4766-904f-43b4-ae47-66904fe3b436">
-                                <bibl corresp="https://edition-humboldt.de/v8/6AWI6XHF">
+                            <ref xml:id="cbf17146-6ab4-410d-b171-466ab4510d35" corresp="#c2aa85c6-c2f3-4550-aa85-c6c2f3355032">
+                                <bibl corresp="https://edition-humboldt.de/6AWI6XHF">
                                     <choice>
                                             <abbr>prodr.</abbr>
                                             <expan>prodromus</expan>
                                         </choice>
                                 </bibl>
                             </ref>
-                            <note xml:id="e96e4766-904f-43b4-ae47-66904fe3b436" corresp="#bcbc61e3-c4aa-4204-bc61-e3c4aad204ff">
-                                <bibl corresp="https://edition-humboldt.de/v8/6AWI6XHF">Brown 1810a</bibl>, 230.</note>
+                            <note xml:id="c2aa85c6-c2f3-4550-aa85-c6c2f3355032" corresp="#cbf17146-6ab4-410d-b171-466ab4510d35">
+                                <bibl corresp="https://edition-humboldt.de/6AWI6XHF">Brown 1810a</bibl>, 230.</note>
                         </item>
                     </list>
                 </p>
@@ -1225,7 +1250,8 @@
                                     <abbr>u</abbr>
                                     <expan>und</expan>
                                 </choice>
-                                <name type="plant">Corri-<lb/>giola <choice>
+                                <name type="plant">Corri<g ref="#typoHyphen"/>
+                                    <lb break="no"/>giola <choice>
                                         <abbr>litt</abbr>
                                         <expan>littoralis</expan>
                                     </choice>
@@ -1233,13 +1259,14 @@
                                 <lb/>(<choice>
                                     <abbr>europ.</abbr>
                                     <expan>europäisch</expan>
-                                </choice>) <lb/>fand Brown <lb/>am <placeName ref="https://www.geonames.org/3367577">Cap</placeName>. <lb/>MSS <choice>
+                                </choice>) <lb/>fand Brown <lb/>am <placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">Cap</placeName>. <lb/>MSS <choice>
                                     <abbr>n</abbr>
                                     <expan>numero</expan>
                                 </choice> 12<supplied cert="high">,</supplied>
                                 <lb/>auch <name type="plant">
                                     <choice>
-                                        <sic>Gou-<lb/>denia</sic>
+                                        <sic>Gou<g ref="#typoHyphen"/>
+                                            <lb break="no"/>denia</sic>
                                         <corr cert="high">Goodenia</corr>
                                     </choice>
                                     <choice>
@@ -1248,7 +1275,7 @@
                                     </choice>
                                 </name>
                                 <lb/>
-                                <placeName ref="https://www.geonames.org/2077456">Neu <choice>
+                                <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Neu <choice>
                                         <abbr>Holl</abbr>
                                         <expan>Holland</expan>
                                     </choice>
@@ -1258,19 +1285,20 @@
                                     <abbr>ident</abbr>
                                     <expan>identisch</expan>
                                 </choice>
-                                <lb/>mit <placeName ref="https://www.geonames.org/6255150">
+                                <lb/>mit <placeName ref="https://editon-humboldt.de/H0010380 https://www.geonames.org/6255150">
                                     <choice>
-                                        <abbr>süd-<lb/>amerikan</abbr>
+                                        <abbr>süd<g ref="#typoHyphen"/>
+                                            <lb break="no"/>amerikan</abbr>
                                         <expan>südamerikanischer</expan>
                                     </choice>
                                 </placeName>
-                                <lb/>von <persName ref="http://d-nb.info/gnd/116478101">
+                                <lb/>von <persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">
                                     <choice>
                                         <abbr>Cavan</abbr>
                                         <expan>Cavanilles</expan>
                                     </choice>
                                 </persName>
-                                <lb/>beschrie<lb/>ben<supplied cert="high">.</supplied>
+                                <lb/>beschrie<lb break="no"/>ben<supplied cert="high">.</supplied>
                             </note>
                         </item>
                     </list>
@@ -1279,7 +1307,7 @@
                     <pb n="10v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001A59A00000020"/>– 15. To answer this query it is necessary to go <lb/>a little into the
                     history of the two plants mention’d <lb/>in it.</p>
                 <p>1<hi rendition="#sup">st</hi>
-                    <name type="plant">Asplenium monanthemum</name>. <persName ref="http://d-nb.info/gnd/118573349">
+                    <name type="plant">Asplenium monanthemum</name>. <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                         <hi rendition="#u">
                             <choice>
                                 <abbr>Linn</abbr>
@@ -1287,8 +1315,8 @@
                             </choice>.</hi>
                     </persName>
                     <lb/>
-                    <persName ref="http://d-nb.info/gnd/118573349">Linneus</persName> by whom the species was
-                    established had his <lb/>plant from<placeName ref="https://www.geonames.org/3367577">
+                    <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Linneus</persName> by whom the species was
+                    established had his <lb/>plant from<placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">
                         <choice>
                             <abbr>Prom.</abbr>
                             <expan>Promontorio</expan>
@@ -1296,44 +1324,44 @@
                         <choice>
                             <abbr>b.</abbr>
                             <expan>bonae</expan>
-                        </choice> spei</placeName> and it is figur’d in<ref xml:id="ac72519e-7b30-4f32-b251-9e7b304f3284" corresp="#a5e37c25-78b6-48e1-a37c-2578b6b8e15e">
-                        <bibl corresp="https://edition-humboldt.de/v8/44VS7W25">
-                            <persName ref="http://d-nb.info/gnd/117436615">
+                        </choice> spei</placeName> and it is figur’d in<ref xml:id="d50253b5-2496-456e-8253-b52496156eb8" corresp="#c58798a5-569e-40fe-8798-a5569ec0febd">
+                        <bibl corresp="https://edition-humboldt.de/44VS7W25">
+                            <persName ref="https://editon-humboldt.de/H0015910 http://d-nb.info/gnd/117436615">
                                     Smith’s</persName>
                                 <lb/>icones <choice>
                                     <abbr>ined.</abbr>
                                     <expan>ineditae</expan>
                                 </choice> 73</bibl>
                     </ref>
-                    <note xml:id="a5e37c25-78b6-48e1-a37c-2578b6b8e15e" corresp="#ac72519e-7b30-4f32-b251-9e7b304f3284">
-                        <bibl corresp="https://edition-humboldt.de/v8/44VS7W25">Smith
+                    <note xml:id="c58798a5-569e-40fe-8798-a5569ec0febd" corresp="#d50253b5-2496-456e-8253-b52496156eb8">
+                        <bibl corresp="https://edition-humboldt.de/44VS7W25">Smith
                                 1789–1791, Fasciculus III, 73.</bibl>
                     </note>.<choice>
                         <orig>.</orig>
                         <reg type="deleted"/>
                     </choice> This plant I have gather’d at the <lb/>
-                    <placeName ref="https://www.geonames.org/3367577">Cape
+                    <placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">Cape
                         of Good Hope</placeName>. <choice>
                         <orig>the</orig>
                         <reg>The</reg>
-                    </choice> additional loci natales <lb/>of „<placeName ref="https://www.geonames.org/1694008">Insulae
+                    </choice> additional loci natales <lb/>of „<placeName ref="https://editon-humboldt.de/H0008248 https://www.geonames.org/1694008">Insulae
                         Philipp.</placeName>
-                    <placeName ref="https://www.geonames.org/7839121">Marian.</placeName>
-                    <placeName ref="https://www.geonames.org/3932488">Peru</placeName> &amp; <placeName ref="https://edition-humboldt.de/v8/H0001618">Nova
-                        Hispania</placeName>“ <lb/>in <ref xml:id="fb535808-4fa3-43e1-9358-084fa3b3e1ed" corresp="#c6db2905-d53a-4b54-9b29-05d53a0b54ea">
-                        <bibl corresp="https://edition-humboldt.de/v8/PMQM5ZGS">
-                            <persName ref="http://d-nb.info/gnd/117384836">Swadtz’s</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008710 https://www.geonames.org/7839121">Marian.</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName> &amp; <placeName ref="https://editon-humboldt.de/H0001618">Nova
+                        Hispania</placeName>“ <lb/>in <ref xml:id="b536af37-123c-40fb-b6af-37123ce0fb8a" corresp="#a305d007-4e5c-4052-85d0-074e5ce052ac">
+                        <bibl corresp="https://edition-humboldt.de/PMQM5ZGS">
+                            <persName ref="https://editon-humboldt.de/H0016188 http://d-nb.info/gnd/117384836">Swadtz’s</persName>
                                 <choice>
                                     <abbr>syn.</abbr>
                                     <expan>synopsis</expan>
                                 </choice>
                             </bibl>
                     </ref>
-                    <note xml:id="c6db2905-d53a-4b54-9b29-05d53a0b54ea" corresp="#fb535808-4fa3-43e1-9358-084fa3b3e1ed">
-                        <bibl corresp="https://edition-humboldt.de/v8/PMQM5ZGS">Swartz
-                                1806</bibl>, 80.</note> &amp; <ref xml:id="f5c115d2-35ba-461a-8115-d235ba961a28" corresp="#cc9f7ec2-851c-4e49-9f7e-c2851cee494f">
-                        <bibl corresp="https://edition-humboldt.de/v8/QSKKF2NJ">
-                            <persName ref="http://d-nb.info/gnd/117387436">
+                    <note xml:id="a305d007-4e5c-4052-85d0-074e5ce052ac" corresp="#b536af37-123c-40fb-b6af-37123ce0fb8a">
+                        <bibl corresp="https://edition-humboldt.de/PMQM5ZGS">Swartz
+                                1806</bibl>, 80.</note> &amp; <ref xml:id="d609f055-d7f2-4da9-89f0-55d7f2bda990" corresp="#e35c6333-271e-4fa3-9c63-33271eefa3c8">
+                        <bibl corresp="https://edition-humboldt.de/QSKKF2NJ">
+                            <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">
                                 <choice>
                                         <abbr>Willd.</abbr>
                                         <expan>Willdenow’s</expan>
@@ -1345,10 +1373,10 @@
                                 </choice>
                             </bibl>
                     </ref>
-                    <note xml:id="cc9f7ec2-851c-4e49-9f7e-c2851cee494f" corresp="#f5c115d2-35ba-461a-8115-d235ba961a28">
-                        <bibl corresp="https://edition-humboldt.de/v8/QSKKF2NJ">Linné/Willdenow/Link 1797–1830</bibl>, 322–323.</note> are first given by <lb/>
-                    <bibl corresp="https://edition-humboldt.de/v8/IT4U8G5C">
-                        <persName ref="http://d-nb.info/gnd/116478101">Cavanilles</persName> in his <choice>
+                    <note xml:id="e35c6333-271e-4fa3-9c63-33271eefa3c8" corresp="#d609f055-d7f2-4da9-89f0-55d7f2bda990">
+                        <bibl corresp="https://edition-humboldt.de/QSKKF2NJ">Linné/Willdenow/Link 1797–1830</bibl>, 322–323.</note> are first given by <lb/>
+                    <bibl corresp="https://edition-humboldt.de/IT4U8G5C">
+                        <persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName> in his <choice>
                             <abbr>demonst.</abbr>
                             <expan>demonstrations</expan>
                         </choice>
@@ -1362,7 +1390,7 @@
                         <orig>258.</orig>
                         <reg>258</reg>
                     </choice>
-                    </bibl> on the authority <lb/>of <persName ref="http://d-nb.info/gnd/1053299877">Nee</persName>’s
+                    </bibl> on the authority <lb/>of <persName ref="https://editon-humboldt.de/H0004935 http://d-nb.info/gnd/1053299877">Nee</persName>’s
                     Herbarium and probably adopted by these <lb/>authors without consideration.</p>
                 <p>In <choice>
                         <abbr>Herb.</abbr>
@@ -1371,7 +1399,7 @@
                     <choice>
                         <abbr>Banks.</abbr>
                         <expan>Banksiano</expan>
-                    </choice> there is no <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                    </choice> there is no <placeName ref="https://editon-humboldt.de/H0002429">
                         <choice>
                             <orig>american</orig>
                             <reg>American</reg>
@@ -1379,10 +1407,11 @@
                     </placeName> species <lb/>approaching to <hi rendition="#u">monanthemum</hi>. <choice>
                         <orig>there</orig>
                         <reg>There</reg>
-                    </choice> is one however <lb/>from the <placeName ref="https://www.geonames.org/5855797">Sandwich
+                    </choice> is one however <lb/>from the <placeName ref="https://editon-humboldt.de/H0009852 https://www.geonames.org/5855797">Sandwich
                         Islands</placeName> nearly related to it which <lb/>may very likely be the
-                    plant of the <placeName ref="https://www.geonames.org/1694008">Phillippine</placeName> &amp; <placeName ref="https://www.geonames.org/7839121">Mariane <lb/>Islands</placeName>. The evidence of either this
-                    or of true <hi rendition="#u">monan-<lb/>themum</hi> being <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                    plant of the <placeName ref="https://editon-humboldt.de/H0008248 https://www.geonames.org/1694008">Phillippine</placeName> &amp; <placeName ref="https://editon-humboldt.de/H0008710 https://www.geonames.org/7839121">Mariane <lb/>Islands</placeName>. The evidence of either this
+                    or of true <hi rendition="#u">monan<g ref="#typoHyphen"/>
+                        <lb break="no"/>themum</hi> being <placeName ref="https://editon-humboldt.de/H0002429">
                         <choice>
                             <orig>american</orig>
                             <reg>American</reg>
@@ -1395,8 +1424,8 @@
                             <corr cert="high">Aspidium</corr>
                         </choice> punctulatum</name>
                     <hi rendition="#u">
-                        <bibl corresp="https://edition-humboldt.de/v8/QSKKF2NJ">
-                            <persName ref="http://d-nb.info/gnd/117387436">
+                        <bibl corresp="https://edition-humboldt.de/QSKKF2NJ">
+                            <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">
                                 <choice>
                                     <abbr>Willd.</abbr>
                                     <expan>Willdenow</expan>
@@ -1415,9 +1444,9 @@
                             </choice>
                         </bibl>
                     </hi>
-                    <lb/>is first established by <ref xml:id="e2e92952-3c2e-4886-a929-523c2e2886a5" corresp="#e3520d23-906d-45ff-920d-23906df5ff22">
-                        <bibl corresp="https://edition-humboldt.de/v8/PMQM5ZGS">
-                            <persName ref="http://d-nb.info/gnd/117384836">Swadtz</persName> in <choice>
+                    <lb/>is first established by <ref xml:id="b6f59779-1203-409b-b597-791203609bf3" corresp="#f45213d3-b005-4af0-9213-d3b0055af0b2">
+                        <bibl corresp="https://edition-humboldt.de/PMQM5ZGS">
+                            <persName ref="https://editon-humboldt.de/H0016188 http://d-nb.info/gnd/117384836">Swadtz</persName> in <choice>
                                     <abbr>syn.</abbr>
                                     <expan>synopsis</expan>
                                 </choice>
@@ -1427,10 +1456,10 @@
                                 </choice>
                             </bibl>
                     </ref>
-                    <note xml:id="e3520d23-906d-45ff-920d-23906df5ff22" corresp="#e2e92952-3c2e-4886-a929-523c2e2886a5">
-                        <bibl corresp="https://edition-humboldt.de/v8/PMQM5ZGS">Swartz
-                                1806</bibl>, 46; 245.</note> probably <lb/>from the <placeName ref="https://www.geonames.org/2403846">Sierra Leone</placeName>
-                    plant which it appears he had <lb/>from <persName ref="http://d-nb.info/gnd/116256559">Afzelius</persName>
+                    <note xml:id="f45213d3-b005-4af0-9213-d3b0055af0b2" corresp="#b6f59779-1203-409b-b597-791203609bf3">
+                        <bibl corresp="https://edition-humboldt.de/PMQM5ZGS">Swartz
+                                1806</bibl>, 46; 245.</note> probably <lb/>from the <placeName ref="https://editon-humboldt.de/H0010229 https://www.geonames.org/2403846">Sierra Leone</placeName>
+                    plant which it appears he had <lb/>from <persName ref="https://editon-humboldt.de/H0012513 http://d-nb.info/gnd/116256559">Afzelius</persName>
                     <choice>
                         <orig>.</orig>
                         <reg>,</reg>
@@ -1438,7 +1467,7 @@
                     <choice>
                         <orig>Though</orig>
                         <reg>though</reg>
-                    </choice> the specific name be taken <lb/>from <persName ref="http://d-nb.info/gnd/100259022">Plumier</persName>: <ref xml:id="b7702369-d5dc-43f3-b023-69d5dcf3f3b2" corresp="#b4800ac3-a92e-481b-800a-c3a92e781ba6">
+                    </choice> the specific name be taken <lb/>from <persName ref="https://editon-humboldt.de/H0002041 http://d-nb.info/gnd/100259022">Plumier</persName>: <ref xml:id="f1e1c835-6c51-43d9-a1c8-356c51d3d925" corresp="#d0ade9f6-8214-46b1-ade9-f6821436b127">
                         <choice>
                                 <abbr>l.</abbr>
                                 <expan>loco</expan>
@@ -1448,30 +1477,32 @@
                                 <expan>citato</expan>
                             </choice>
                     </ref>
-                    <note xml:id="b4800ac3-a92e-481b-800a-c3a92e781ba6" corresp="#b7702369-d5dc-43f3-b023-69d5dcf3f3b2">
-                        <bibl corresp="https://edition-humboldt.de/v8/PMQM5ZGS">Swartz
+                    <note xml:id="d0ade9f6-8214-46b1-ade9-f6821436b127" corresp="#f1e1c835-6c51-43d9-a1c8-356c51d3d925">
+                        <bibl corresp="https://edition-humboldt.de/PMQM5ZGS">Swartz
                                 1806</bibl>, 245.</note>
-                    <supplied cert="high">.</supplied> I am inclin’d to think <persName ref="http://d-nb.info/gnd/117384836">Swadtz</persName>
-                    <lb/>has no <placeName ref="https://www.geonames.org/3571219">
+                    <supplied cert="high">.</supplied> I am inclin’d to think <persName ref="https://editon-humboldt.de/H0016188 http://d-nb.info/gnd/117384836">Swadtz</persName>
+                    <lb/>has no <placeName ref="https://editon-humboldt.de/H0007952 https://www.geonames.org/3571219">
                         <choice>
                             <orig>west india</orig>
                             <reg>West India</reg>
                         </choice>
                     </placeName> specimen of his punctulatum &amp; if so <lb/>its being
-                        <placeName ref="https://edition-humboldt.de/v8/H0002429">
+                        <placeName ref="https://editon-humboldt.de/H0002429">
                         <choice>
                             <orig>american</orig>
                             <reg>American</reg>
                         </choice>
                     </placeName>
-                    <del rendition="#s">therefore</del> will depend on the correct-<lb/>ness of his reference. <choice>
+                    <del rendition="#s">therefore</del> will depend on the correct<g ref="#typoHyphen"/>
+                    <lb break="no"/>ness of his reference. <choice>
                         <orig>in</orig>
                         <reg>In</reg>
                     </choice> my opinion a very slender <lb/>foundation for identity of species in
                     that tribe or <lb/>
                     <pb n="11r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001A59A00000021"/>
                     section of <name type="plant">Nephrodium</name> to which it belongs.</p>
-                <p>–16<supplied cert="high">.</supplied> I have not yet looked into <persName ref="http://d-nb.info/gnd/118618806">Strabo</persName> for <name type="plant">Rhizo-<lb/>phora Mangle</name>.</p>
+                <p>–16<supplied cert="high">.</supplied> I have not yet looked into <persName ref="https://editon-humboldt.de/H0016115 http://d-nb.info/gnd/118618806">Strabo</persName> for <name type="plant">Rhizo<g ref="#typoHyphen"/>
+                        <lb break="no"/>phora Mangle</name>.</p>
                 <p>–17<supplied cert="high">.</supplied> No <hi rendition="#u">
                         <name type="plant">Rosa</name>
                     </hi> I believe is known to exist in <lb/>the Southern
@@ -1481,9 +1512,9 @@
                 <p>–18<supplied cert="high">.</supplied> I have nothing satisfactory to say on this
                     <lb/>subject.</p>
                 <p>–19<supplied cert="high">.</supplied> I have nothing to add to what I have
-                    <lb/>formerly said on this subject in my <bibl corresp="https://edition-humboldt.de/v8/N7T4FN2H">General <lb/>remarks &amp;c</bibl>. </p>
+                    <lb/>formerly said on this subject in my <bibl corresp="https://edition-humboldt.de/N7T4FN2H">General <lb/>remarks &amp;c</bibl>. </p>
                 <p>–20<supplied cert="high">.</supplied> At present we know little or nothing of the
-                    <lb/>vegetation of the <placeName ref="https://www.geonames.org/3658931">Galapagoes</placeName>.</p>
+                    <lb/>vegetation of the <placeName ref="https://editon-humboldt.de/H0010791 https://www.geonames.org/3658931">Galapagoes</placeName>.</p>
                 <p>–21. To this I have only to repeat what I have <lb/>said respecting 19.</p>
                 <p>–22<supplied cert="high">.</supplied> In answer to this query I subjoin a
                     <lb/>list of plants common to the temperate and <lb/>torrid zones of both hemispheres<choice>
@@ -1511,21 +1542,21 @@
                         <item>
                             <name type="plant">Sticta
                             crocata</name>        }
-                                 <ref xml:id="cb67e957-fcc9-4b47-a7e9-57fcc9cb477a" corresp="#ff56b6d4-aeac-4936-96b6-d4aeaca9364d">
-                                <persName ref="http://d-nb.info/gnd/128995211">
+                                 <ref xml:id="b8110808-5433-4a66-9108-0854331a6672" corresp="#c6541088-fd73-401d-9410-88fd73801da7">
+                                <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                     <choice>
                                             <abbr>Achar.</abbr>
                                             <expan>Acharius</expan>
                                         </choice>
                                 </persName>
-                                    <bibl corresp="https://edition-humboldt.de/v8/J56TX4H4">
+                                    <bibl corresp="https://edition-humboldt.de/J56TX4H4">
                                     <choice>
                                             <abbr>lichenogr.</abbr>
                                             <expan>lichenographia</expan>
                                         </choice>
                                 </bibl>
                             </ref>
-                            <note xml:id="ff56b6d4-aeac-4936-96b6-d4aeaca9364d" corresp="#cb67e957-fcc9-4b47-a7e9-57fcc9cb477a">Vgl. <bibl corresp="https://edition-humboldt.de/v8/J56TX4H4">Acharius 1810</bibl>, 115;
+                            <note xml:id="c6541088-fd73-401d-9410-88fd73801da7" corresp="#b8110808-5433-4a66-9108-0854331a6672">Vgl. <bibl corresp="https://edition-humboldt.de/J56TX4H4">Acharius 1810</bibl>, 115;
                                     440; 447f.</note>
                         </item>
                         <item>
@@ -1562,7 +1593,7 @@
                         <abbr>S.</abbr>
                         <expan>Siehe</expan>
                     </choice> in meiner <lb/>
-                    <bibl corresp="https://edition-humboldt.de/v8/N4P8GVQH">
+                    <bibl corresp="https://edition-humboldt.de/N4P8GVQH">
                         <choice>
                             <abbr>Rel.</abbr>
                             <expan>Relation</expan>
@@ -1589,7 +1620,7 @@
                         </choice> 4 <choice>
                             <abbr>p.</abbr>
                             <expan>page</expan>
-                        </choice> 226–<lb/>243</bibl>
+                        </choice> 226–<lb break="no"/>243</bibl>
                     <supplied cert="high">.</supplied>
                 </note>
                 <p>
@@ -1627,38 +1658,38 @@
                                 <reg type="deleted"/>
                             </choice>
                             <note hand="#addressee" place="right">
-                                <metamark/>in <placeName ref="https://www.geonames.org/2186224">Neu Zeeland</placeName>
+                                <metamark/>in <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">Neu Zeeland</placeName>
                                 <lb/>(Nord Insel) <name type="plant">Avicennia <lb/>tomentosa</name>
-                                wie <lb/>bei <placeName ref="https://www.geonames.org/3644768">Cumaná</placeName>
+                                wie <lb/>bei <placeName ref="https://editon-humboldt.de/H0007693 https://www.geonames.org/3644768">Cumaná</placeName>
                                 <supplied cert="high">,</supplied>
-                                <placeName ref="https://www.geonames.org/3996063">Mexico</placeName>
-                                <lb/>und <placeName ref="https://www.geonames.org/3657509">Guayaquil</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName>
+                                <lb/>und <placeName ref="https://editon-humboldt.de/H0011115 https://www.geonames.org/3657509">Guayaquil</placeName>
                                 <choice>
                                     <abbr>u</abbr>
                                     <expan>und</expan>
                                 </choice>
                                 <lb/>
-                                <placeName ref="https://www.geonames.org/7729885">West Afrika</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0007948 https://www.geonames.org/7729885">West Afrika</placeName>
                                 <supplied cert="high">.</supplied>
                                 <lb/>
-                                <bibl corresp="https://edition-humboldt.de/v8/F35ISNB4">
-                                    <persName ref="http://d-nb.info/gnd/115674667">Kunth</persName>
+                                <bibl corresp="https://edition-humboldt.de/F35ISNB4">
+                                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth</persName>
                                     <choice>
                                         <abbr>Syn.</abbr>
                                         <expan>Synopsis</expan>
                                     </choice> II 67</bibl>
-                                <lb/>und in <placeName ref="https://www.geonames.org/2186224">Neu <choice>
+                                <lb/>und in <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">Neu <choice>
                                         <abbr>Zeel</abbr>
                                         <expan>Zeeland</expan>
                                     </choice>
                                 </placeName>
                                 <lb/>häufig <name type="plant">Typha <lb/>angustifolia</name> von
                                     <lb/>
-                                <placeName ref="https://www.geonames.org/6255148">Europa</placeName>
-                                <supplied cert="high">,</supplied> vielleicht <lb/>auch <placeName ref="https://www.geonames.org/3481447">Tacarigua</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName>
+                                <supplied cert="high">,</supplied> vielleicht <lb/>auch <placeName ref="https://editon-humboldt.de/H0009086 https://www.geonames.org/3481447">Tacarigua</placeName>
                                 <lb/>
-                                <bibl corresp="https://edition-humboldt.de/v8/F35ISNB4">
-                                    <persName ref="http://d-nb.info/gnd/115674667">Kunth</persName>
+                                <bibl corresp="https://edition-humboldt.de/F35ISNB4">
+                                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth</persName>
                                     <choice>
                                         <abbr>Syn</abbr>
                                         <expan>Synopsis</expan>
@@ -1699,22 +1730,22 @@
                 <p>
                     <note hand="#addressee" place="left">
                         <name type="plant">Potentilla
-                            anserina</name> fast <lb/>in der ganzen <lb/>Welt <ref xml:id="ce27fef8-2ad9-4198-a7fe-f82ad9219828" corresp="#dc5e9bda-d8af-4a93-9e9b-dad8af9a9302">
-                            <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">
-                                <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName> <choice>
+                            anserina</name> fast <lb/>in der ganzen <lb/>Welt <ref xml:id="b15f0117-6fa8-4337-9f01-176fa81337d0" corresp="#c3598d8e-702a-4a8f-998d-8e702a9a8fad">
+                            <bibl corresp="https://edition-humboldt.de/T5SDE24E">
+                                <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName> <choice>
                                         <abbr>p</abbr>
                                         <expan>pagina</expan>
                                     </choice> 264</bibl>
                         </ref>
-                        <note xml:id="dc5e9bda-d8af-4a93-9e9b-dad8af9a9302" corresp="#ce27fef8-2ad9-4198-a7fe-f82ad9219828">
-                            <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">Hooker,
+                        <note xml:id="c3598d8e-702a-4a8f-998d-8e702a9a8fad" corresp="#b15f0117-6fa8-4337-9f01-176fa81337d0">
+                            <bibl corresp="https://edition-humboldt.de/T5SDE24E">Hooker,
                                     J. D. 1840–1860</bibl>, I.1.</note>
                         <supplied cert="high">.</supplied>
                         <lb/>
-                        <persName ref="http://d-nb.info/gnd/118852116">Schleiden</persName> nennt <lb/>Gänseblumen
+                        <persName ref="https://editon-humboldt.de/H0015567 http://d-nb.info/gnd/118852116">Schleiden</persName> nennt <lb/>Gänseblumen
                             <lb/>
                         <name type="plant">Bellis perennis</name>
-                        <lb/>(<bibl corresp="https://edition-humboldt.de/v8/MJ2VIM76">Pflanze <choice>
+                        <lb/>(<bibl corresp="https://edition-humboldt.de/MJ2VIM76">Pflanze <choice>
                                 <abbr>p</abbr>
                                 <expan>pagina</expan>
                             </choice> 91</bibl>) und 237<lb/>
@@ -1731,16 +1762,16 @@
                             <abbr>Pfl.</abbr>
                             <expan>Pflanzen</expan>
                         </choice> die <lb/>sich ersezen <lb/>
-                        <ref xml:id="d6959fd8-cd85-4463-959f-d8cd85b46319" corresp="#c9c03372-e71a-4055-8033-72e71ad0558f">
-                            <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">
-                                <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName>
+                        <ref xml:id="ece37fd6-c14b-4368-a37f-d6c14b3368fa" corresp="#b4c8fa27-8f6e-4bcf-88fa-278f6e7bcf54">
+                            <bibl corresp="https://edition-humboldt.de/T5SDE24E">
+                                <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName>
                                     <choice>
                                         <abbr>p</abbr>
                                         <expan>pagina</expan>
                                     </choice> 230</bibl>
                         </ref>
-                        <note xml:id="c9c03372-e71a-4055-8033-72e71ad0558f" corresp="#d6959fd8-cd85-4463-959f-d8cd85b46319">
-                            <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">Hooker,
+                        <note xml:id="b4c8fa27-8f6e-4bcf-88fa-278f6e7bcf54" corresp="#ece37fd6-c14b-4368-a37f-d6c14b3368fa">
+                            <bibl corresp="https://edition-humboldt.de/T5SDE24E">Hooker,
                                     J. D. 1844–1860</bibl>, I.1: „There are many instances of genera
                                 having representatives in those three botanical regions [Südamerika,
                                 Australien, Neuseeland, UP], the species being in general mutually
@@ -1758,12 +1789,12 @@
                     <note hand="#addressee" place="mBottom">
                     <list>
                             <item>a) Pflanzen die gemein sind <lb/>
-                            <placeName ref="https://www.geonames.org/2077456">Neu <choice>
+                            <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Neu <choice>
                                         <abbr>Holl.</abbr>
                                         <expan>Holland</expan>
                                     </choice>
                             </placeName>
-                                <placeName ref="https://www.geonames.org/2921044">
+                                <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">
                                 <choice>
                                         <abbr>Deutschl.</abbr>
                                         <expan>Deutschland</expan>
@@ -1774,7 +1805,7 @@
                                     <abbr>u</abbr>
                                     <expan>und</expan>
                                 </choice>
-                                <placeName ref="https://www.geonames.org/7729890">Nord America</placeName> nach <lb/>Brown
+                                <placeName ref="https://editon-humboldt.de/H0001698 https://www.geonames.org/7729890">Nord America</placeName> nach <lb/>Brown
                                 <hi rendition="#u">also <choice>
                                         <abbr>nördl</abbr>
                                         <expan>nördliche</expan>
@@ -1792,7 +1823,7 @@
                                         <abbr>temper.</abbr>
                                         <expan>temperierte</expan>
                                     </choice> Zonen</hi>. <lb/>
-                            <bibl corresp="https://edition-humboldt.de/v8/5BIJ6MM2">
+                            <bibl corresp="https://edition-humboldt.de/5BIJ6MM2">
                                 <choice>
                                         <abbr>Humb</abbr>
                                         <expan>Humboldt</expan>
@@ -1805,14 +1836,14 @@
                                         <expan>pagina</expan>
                                     </choice> 57. 63.</bibl>
                         </item>
-                            <item>b) Alles gemeinsame <lb/>behandelt <ref xml:id="f52a6ec5-7cda-432f-aa6e-c57cdac32f98" corresp="#b54604aa-7c82-4ee6-8604-aa7c821ee6e6">
+                            <item>b) Alles gemeinsame <lb/>behandelt <ref xml:id="bcff40b2-ea10-450f-bf40-b2ea10750fd1" corresp="#ce1fc5c3-cd87-45c2-9fc5-c3cd8735c224">
                                 <choice>
                                             <abbr>Ibid</abbr>
                                             <expan>Ibidum</expan>
                                         </choice>
                             </ref>
-                            <note xml:id="b54604aa-7c82-4ee6-8604-aa7c821ee6e6" corresp="#f52a6ec5-7cda-432f-aa6e-c57cdac32f98">
-                                <bibl corresp="https://edition-humboldt.de/v8/5BIJ6MM2">Humboldt 1817</bibl>.</note>
+                            <note xml:id="ce1fc5c3-cd87-45c2-9fc5-c3cd8735c224" corresp="#bcff40b2-ea10-450f-bf40-b2ea10750fd1">
+                                <bibl corresp="https://edition-humboldt.de/5BIJ6MM2">Humboldt 1817</bibl>.</note>
                                 <choice>
                                     <abbr>p</abbr>
                                     <expan>pagina</expan>
@@ -1825,15 +1856,15 @@
                                     <abbr>u</abbr>
                                     <expan>und</expan>
                                 </choice>
-                                <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName>
+                                <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName>
                                 <lb/>
-                            <persName ref="http://d-nb.info/gnd/100526616">Montagne</persName>
+                            <persName ref="https://editon-humboldt.de/H0014302 http://d-nb.info/gnd/100526616">Montagne</persName>
                                 <lb/>
-                            <persName ref="http://d-nb.info/gnd/116042664">DeCaisne</persName>
+                            <persName ref="https://editon-humboldt.de/H0012170 http://d-nb.info/gnd/116042664">DeCaisne</persName>
                             <supplied cert="high">.</supplied>
                             </item>
-                            <item>d) in <placeName ref="https://www.geonames.org/2077456">Neu Holland</placeName> und
-                                    <placeName ref="https://www.geonames.org/6255148">Europa</placeName>
+                            <item>d) in <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Neu Holland</placeName> und
+                                    <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName>
                                 <name type="plant">
                                 <lb/>Prunella vulgaris</name>, <name type="plant">Lemna minor</name>
                             <supplied cert="high">,</supplied>
@@ -1842,10 +1873,10 @@
                                         <abbr>phragmit.</abbr>
                                         <expan>phragmites</expan>
                                     </choice>
-                            </name> <bibl corresp="https://edition-humboldt.de/v8/MJ2VIM76">Schleiden <choice>
+                            </name> <bibl corresp="https://edition-humboldt.de/MJ2VIM76">Schleiden <choice>
                                         <abbr>p</abbr>
                                         <expan>pagina</expan>
-                                    </choice> 237</bibl> alles <bibl corresp="https://edition-humboldt.de/v8/5BIJ6MM2">De <choice>
+                                    </choice> 237</bibl> alles <bibl corresp="https://edition-humboldt.de/5BIJ6MM2">De <choice>
                                         <abbr>distrib</abbr>
                                         <expan>distributione</expan>
                                     </choice>
@@ -1853,20 +1884,20 @@
                                         <abbr>p</abbr>
                                         <expan>pagina</expan>
                                     </choice> 57</bibl>. </item>
-                            <item>e) <placeName ref="https://www.geonames.org/7729883">Nord Europa</placeName>
+                            <item>e) <placeName ref="https://editon-humboldt.de/H0001700 https://www.geonames.org/7729883">Nord Europa</placeName>
                                 <choice>
                                     <abbr>u</abbr>
                                     <expan>und</expan>
                                 </choice>
-                                <placeName ref="https://www.geonames.org/7729890">Nord Amerika</placeName> gemein <lb/>
-                            <bibl corresp="https://edition-humboldt.de/v8/5BIJ6MM2">de <choice>
+                                <placeName ref="https://editon-humboldt.de/H0001698 https://www.geonames.org/7729890">Nord Amerika</placeName> gemein <lb/>
+                            <bibl corresp="https://edition-humboldt.de/5BIJ6MM2">de <choice>
                                         <abbr>distribut</abbr>
                                         <expan>distributione</expan>
                                     </choice>
                                     <choice>
                                         <abbr>p</abbr>
                                         <expan>pagina</expan>
-                                    </choice> 55</bibl> im Ganzen 385 <bibl corresp="https://edition-humboldt.de/v8/5BIJ6MM2">
+                                    </choice> 55</bibl> im Ganzen 385 <bibl corresp="https://edition-humboldt.de/5BIJ6MM2">
                                 <choice>
                                         <abbr>Spec</abbr>
                                         <expan>Species</expan>
@@ -1886,10 +1917,10 @@
                                         <abbr>angustifol.</abbr>
                                         <expan>angustifolia</expan>
                                     </choice>
-                            </name> gewiss in <placeName ref="https://www.geonames.org/2186224">Neu
+                            </name> gewiss in <placeName ref="https://editon-humboldt.de/H0001615 https://www.geonames.org/2186224">Neu
                                     Zeeland</placeName>
                                 <lb/>
-                            <bibl corresp="https://edition-humboldt.de/v8/M4IGIWUQ">
+                            <bibl corresp="https://edition-humboldt.de/M4IGIWUQ">
                                     <choice>
                                         <abbr>Dieffenb</abbr>
                                         <expan>Dieffenbach</expan>
@@ -1904,13 +1935,13 @@
                             <item>3) <choice>
                                     <abbr>Gemeinschaftl.</abbr>
                                     <expan>Gemeinschaftliche</expan>
-                                </choice> Gräser <placeName ref="https://www.geonames.org/6255148">Europa</placeName>
+                                </choice> Gräser <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName>
                                 <choice>
                                     <abbr>u</abbr>
                                     <expan>und</expan>
                                 </choice>
-                                <placeName ref="https://www.geonames.org/2077456">Neu Holland</placeName>
-                                <bibl corresp="https://edition-humboldt.de/v8/5BIJ6MM2">De <choice>
+                                <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Neu Holland</placeName>
+                                <bibl corresp="https://edition-humboldt.de/5BIJ6MM2">De <choice>
                                         <abbr>distr.</abbr>
                                         <expan>distributione</expan>
                                     </choice>
@@ -1919,12 +1950,12 @@
                                         <expan>pagina</expan>
                                     </choice> 202</bibl>.</item>
                             <item>4) <name type="plant">Gentiana andicola</name>
-                                <persName ref="http://d-nb.info/gnd/116855517">
+                                <persName ref="https://editon-humboldt.de/H0013643 http://d-nb.info/gnd/116855517">
                                 <choice>
                                         <abbr>Griseb.</abbr>
                                         <expan>Grisebach</expan>
                                     </choice>
-                            </persName> in <placeName ref="https://www.geonames.org/3932488">Peru</placeName> und <placeName ref="https://www.geonames.org/2192678">Campbell <choice>
+                            </persName> in <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName> und <placeName ref="https://editon-humboldt.de/H0007062 https://www.geonames.org/2192678">Campbell <choice>
                                         <abbr>Isl.</abbr>
                                         <expan>Island</expan>
                                     </choice>
@@ -1934,14 +1965,14 @@
                             <item>— <name type="plant">
                                 <supplied cert="high">Gentiana</supplied>
                                     prostrata</name>
-                                <placeName ref="https://www.geonames.org/2774686">Cärnther Alpen</placeName>, <placeName ref="https://www.geonames.org/3367577">Cap de <choice>
+                                <placeName ref="https://editon-humboldt.de/H0000370 https://www.geonames.org/2774686">Cärnther Alpen</placeName>, <placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">Cap de <choice>
                                         <abbr>l’Esp</abbr>
                                         <expan>l’Espérance</expan>
                                     </choice>
                                 </placeName>
                             <supplied cert="high">,</supplied>
                                 <lb/>
-                            <placeName ref="https://www.geonames.org/2192678">Campbell <choice>
+                            <placeName ref="https://editon-humboldt.de/H0007062 https://www.geonames.org/2192678">Campbell <choice>
                                         <abbr>Isl</abbr>
                                         <expan>Island</expan>
                                     </choice>
@@ -1949,17 +1980,17 @@
                                 <choice>
                                     <abbr>u</abbr>
                                     <expan>und</expan>
-                                </choice> Süd <placeName ref="https://www.geonames.org/3895114">Chili</placeName>
-                                <ref xml:id="b6c5c376-0550-4a38-85c3-7605506a386b" corresp="#f496cb78-4c79-4592-96cb-784c794592e9">
-                                <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">
-                                    <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName>
+                                </choice> Süd <placeName ref="https://editon-humboldt.de/H0007374 https://www.geonames.org/3895114">Chili</placeName>
+                                <ref xml:id="c1aa5d70-1e00-498e-aa5d-701e00698edc" corresp="#cf31b787-b7ce-498f-b1b7-87b7ce998f29">
+                                <bibl corresp="https://edition-humboldt.de/T5SDE24E">
+                                    <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName>
                                             <choice>
                                                 <abbr>p</abbr>
                                                 <expan>pagina</expan>
                                             </choice> 56</bibl>
                             </ref>
-                            <note xml:id="f496cb78-4c79-4592-96cb-784c794592e9" corresp="#b6c5c376-0550-4a38-85c3-7605506a386b">
-                                <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">Hooker, J. D. 1844–1866</bibl>, I.1.</note>!! <lb/>geht wie <name type="plant">Trisetum <choice>
+                            <note xml:id="cf31b787-b7ce-498f-b1b7-87b7ce998f29" corresp="#c1aa5d70-1e00-498e-aa5d-701e00698edc">
+                                <bibl corresp="https://edition-humboldt.de/T5SDE24E">Hooker, J. D. 1844–1866</bibl>, I.1.</note>!! <lb/>geht wie <name type="plant">Trisetum <choice>
                                         <abbr>subspicat.</abbr>
                                         <expan>subspicatum</expan>
                                     </choice>
@@ -1967,31 +1998,31 @@
                             <choice>
                                     <abbr>N</abbr>
                                     <expan>North</expan>
-                                </choice> East über <placeName ref="https://edition-humboldt.de/v8/H0002454">Andes</placeName> von
-                                    <placeName ref="https://www.geonames.org/10941926">Pol</placeName> zu <placeName ref="https://www.geonames.org/6255152">Polarland</placeName>
+                                </choice> East über <placeName ref="https://editon-humboldt.de/H0002454">Andes</placeName> von
+                                    <placeName ref="https://editon-humboldt.de/H0002555 https://www.geonames.org/10941926">Pol</placeName> zu <placeName ref="https://editon-humboldt.de/H0002469 https://www.geonames.org/6255152">Polarland</placeName>
                                 <lb/>
-                            <ref xml:id="d27a0316-d51c-4530-ba03-16d51ca53052" corresp="#e2c05b8d-3556-4588-805b-8d3556858859">
-                                <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">
-                                    <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName>
+                            <ref xml:id="ce2c0bdd-4703-4b77-ac0b-dd4703bb77fc" corresp="#f758abbb-8f4a-4c2b-98ab-bb8f4a2c2b8b">
+                                <bibl corresp="https://edition-humboldt.de/T5SDE24E">
+                                    <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName>
                                             <choice>
                                                 <abbr>p</abbr>
                                                 <expan>pagina</expan>
                                             </choice> 230<supplied cert="high">.</supplied>
                                         </bibl>
                             </ref>
-                            <note xml:id="e2c05b8d-3556-4588-805b-8d3556858859" corresp="#d27a0316-d51c-4530-ba03-16d51ca53052">
-                                <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">Hooker 1844–1860</bibl>, I.1.</note>
+                            <note xml:id="f758abbb-8f4a-4c2b-98ab-bb8f4a2c2b8b" corresp="#ce2c0bdd-4703-4b77-ac0b-dd4703bb77fc">
+                                <bibl corresp="https://edition-humboldt.de/T5SDE24E">Hooker 1844–1860</bibl>, I.1.</note>
                         </item>
                         </list>
                         <add place="right">
                             <list>
                                 <item>5) <name type="plant">Drimys Winteri</name>
-                                    <lb/>von <placeName ref="https://edition-humboldt.de/v8/H0001610">Neu <choice>
+                                    <lb/>von <placeName ref="https://editon-humboldt.de/H0001610">Neu <choice>
                                             <sic>Granda</sic>
                                             <corr cert="high">Granada</corr>
                                         </choice>
                                 </placeName>
-                                    <lb/>bis <placeName ref="https://www.geonames.org/3834448">
+                                    <lb/>bis <placeName ref="https://editon-humboldt.de/H0004770 https://www.geonames.org/3834448">
                                     <choice>
                                             <abbr>T.</abbr>
                                             <expan>Tierra</expan>
@@ -2001,31 +2032,31 @@
                                         <expan>latitudo</expan>
                                     </choice>
                                     <lb/>
-                                <ref xml:id="ac78d5b1-da9e-4b1c-b8d5-b1da9eeb1c48" corresp="#c94e8f87-cff8-4054-8e8f-87cff860549c">
-                                    <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">
-                                        <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName>
+                                <ref xml:id="a487a9c5-2281-48c7-87a9-c5228198c744" corresp="#ced2ad7d-061a-407e-92ad-7d061a807e89">
+                                    <bibl corresp="https://edition-humboldt.de/T5SDE24E">
+                                        <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName>
                                                 <choice>
                                                   <abbr>p</abbr>
                                                   <expan>pagina</expan>
                                                 </choice> 230</bibl>
                                 </ref>
-                                <note xml:id="c94e8f87-cff8-4054-8e8f-87cff860549c" corresp="#ac78d5b1-da9e-4b1c-b8d5-b1da9eeb1c48">
-                                    <bibl corresp="https://edition-humboldt.de/v8/T5SDE24E">Hooker
+                                <note xml:id="ced2ad7d-061a-407e-92ad-7d061a807e89" corresp="#a487a9c5-2281-48c7-87a9-c5228198c744">
+                                    <bibl corresp="https://edition-humboldt.de/T5SDE24E">Hooker
                                                 1844–1866</bibl>, I.1.</note>
                                 <supplied cert="high">.</supplied>
                                 </item>
                                 <item>6) <name type="plant">Viola cheirantifolia</name>
-                                    <lb/>vom <placeName ref="https://www.geonames.org/2510569">Pic <choice>
+                                    <lb/>vom <placeName ref="https://editon-humboldt.de/H0009297 https://www.geonames.org/2510569">Pic <choice>
                                             <abbr>Tener.</abbr>
                                             <expan>Tenerife</expan>
                                         </choice>
-                                </placeName> gehört <lb/>den <placeName ref="https://www.geonames.org/3112616">
+                                </placeName> gehört <lb/>den <placeName ref="https://editon-humboldt.de/H0008509 https://www.geonames.org/3112616">
                                     <choice>
                                             <abbr>Pyren.</abbr>
                                             <expan>Pyrenäen</expan>
                                         </choice>
                                 </placeName>
-                                <bibl corresp="https://edition-humboldt.de/v8/N4P8GVQH">
+                                <bibl corresp="https://edition-humboldt.de/N4P8GVQH">
                                         <choice>
                                             <abbr>Relat</abbr>
                                             <expan>Relation</expan>
@@ -2050,15 +2081,15 @@
                                 <supplied cert="high">.</supplied>
                                     <p>
                                     <name type="plant">Phleum alpinum</name>
-                                        <placeName ref="https://www.geonames.org/2658434">Schweiz</placeName> und <placeName ref="https://www.geonames.org/3834448">
+                                        <placeName ref="https://editon-humboldt.de/H0010179 https://www.geonames.org/2658434">Schweiz</placeName> und <placeName ref="https://editon-humboldt.de/H0004770 https://www.geonames.org/3834448">
                                         <choice>
                                                 <abbr>Magellan</abbr>
                                                 <expan>Magellanica</expan>
                                             </choice>
                                     </placeName>
-                                        <lb/>nach <persName ref="http://d-nb.info/gnd/118674455">Brown</persName>
-                                        <ref xml:id="d737231e-6b3e-4ce2-b723-1e6b3e3ce2da" corresp="#f2a21ae4-f18a-4731-a21a-e4f18ae73177">
-                                        <bibl corresp="https://edition-humboldt.de/v8/N4P8GVQH">
+                                        <lb/>nach <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Brown</persName>
+                                        <ref xml:id="a4ab7b42-e140-4371-ab7b-42e140637192" corresp="#dcd61d60-0359-456c-961d-600359556c8d">
+                                        <bibl corresp="https://edition-humboldt.de/N4P8GVQH">
                                             <choice>
                                                   <abbr>l.</abbr>
                                                   <expan>loco</expan>
@@ -2072,8 +2103,8 @@
                                                   <expan>pagina</expan>
                                                   </choice> 229</bibl>
                                     </ref>
-                                    <note xml:id="f2a21ae4-f18a-4731-a21a-e4f18ae73177" corresp="#d737231e-6b3e-4ce2-b723-1e6b3e3ce2da">
-                                                <bibl corresp="https://edition-humboldt.de/v8/N4P8GVQH">Humboldt
+                                    <note xml:id="dcd61d60-0359-456c-961d-600359556c8d" corresp="#a4ab7b42-e140-4371-ab7b-42e140637192">
+                                                <bibl corresp="https://edition-humboldt.de/N4P8GVQH">Humboldt
                                                   1816–1833</bibl>, IV.</note>
                                     <supplied cert="high">.</supplied>
                                     </p>

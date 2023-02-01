@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019416">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -20,31 +20,40 @@
                         </resp>
                     </respStmt>
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (13. Oktober 1829) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019416">https://edition-humboldt.de/v8/H0019416</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019416</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019416</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019416.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1829. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0019416</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2021-01-05"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
                 <p>H. <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/312">empfängt lokale
-                        Würdenträger</ref> und Abgesandte der in <placeName ref="https://www.geonames.org/580497">Astrachan</placeName>
-                    ansässigen Ethnien. Mit dem Gouverneur <persName ref="https://edition-humboldt.de/v8/H0011259">Aleksandr Stepanovič
-                        Osipov</persName> unternimmt er eine Stadtrundfahrt in der Kutsche und <ref target="H0016785/#62v">besichtigt ein außerhalb gelegenes Weinbaugebiet</ref>.</p>
+                        Würdenträger</ref> und Abgesandte der in <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName>
+                    ansässigen Ethnien. Mit dem Gouverneur <persName ref="https://editon-humboldt.de/H0011259">Aleksandr Stepanovič
+                        Osipov</persName> unternimmt er eine Stadtrundfahrt in der Kutsche und <ref target="https://edition-humboldt.de/H0016785/62v">besichtigt ein außerhalb gelegenes Weinbaugebiet</ref>.</p>
             </body>
         </text>
     </TEI>

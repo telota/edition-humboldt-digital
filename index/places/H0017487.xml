@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017487">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Iremel' (Fluss)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Iremel' (Fluss) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017487.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017487.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017487.xml">
-                    <p>Iremel' (Fluss) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017487.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017487">
+                <place>
                     <idno type="uri">https://www.geonames.org/8059475</idno>
                     <placeName type="reg">Iremel' (Fluss)</placeName>
                     <placeName type="alt">Иремель</placeName>
@@ -40,8 +45,8 @@
                     <placeName type="alt">Нижний Иремель</placeName>
                     <placeName type="alt">Großer Iremel</placeName>
                     <placeName type="alt">Bolschoi Iremel</placeName>
-                    <note>Nebenfluss des <placeName key="H0008854">Miass</placeName> im <placeName key="H0020292">Südlichen Ural</placeName>. Auf <bibl sameAs="zotero-667230-C3I558FD">Mahlmanns Karte der Hüttenbezirke von Miask und
-                            Slatoust</bibl> (vgl. <bibl sameAs="zotero-667230-BH8W3QPH">Rose 1837/1842</bibl>, II, Tafel
+                    <note>Nebenfluss des <placeName ref="https://editon-humboldt.de/H0008854 https://www.geonames.org/1498893">Miass</placeName> im <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName>. Auf <bibl corresp="https://edition-humboldt.de/C3I558FD">Mahlmanns Karte der Hüttenbezirke von Miask und
+                            Slatoust</bibl> (vgl. <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, II, Tafel
                         V) wird der südlichste Flussarm als Großer Iremel (Bolschoi Iremel) bezeichnet, in den der
                         Mittlere (südlich von Muldaschewa) und der Kleine Iremel (nahe dem Dorf Ailina) münden.</note>
                 </place>

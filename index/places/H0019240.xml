@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019240">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bisert'</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bisert' [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019240.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019240.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019240.xml">
-                    <p>Bisert' [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019240.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019240">
+                <place>
                     <idno type="uri">https://www.geonames.org/576259</idno>
                     <placeName type="reg">Bisert'</placeName>
                     <placeName type="alt">Бисерть</placeName>
                     <placeName type="alt">Bissert</placeName>
-                    <!-- Geograficheskii atlas Rossiiskoi Imperii/ Gouvernement Perm -->
+                    
                     <placeName type="alt">Reka Bisert</placeName>
-                    <note>rechter Nebenfluss der <placeName key="H0017299">Ufa</placeName> nordöstlich von <placeName key="H0000480">Krasnoufimsk</placeName> (<placeName key="H0010689">Russland</placeName>)
+                    <note>rechter Nebenfluss der <placeName ref="https://editon-humboldt.de/H0017299 https://www.geonames.org/479560">Ufa</placeName> nordöstlich von <placeName ref="https://editon-humboldt.de/H0000480">Krasnoufimsk</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)
                     </note>
                 </place>
             </listPlace>

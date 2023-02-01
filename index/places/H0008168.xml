@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0008168">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Pavdinskij</title>
             </titleStmt>
+            <editionStmt>
+                <p>Pavdinskij [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0008168.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0008168.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0008168.xml">
-                    <p>Pavdinskij [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0008168.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0008168">
+                <place>
                     <idno type="uri">https://www.geonames.org/512259</idno>
                     <placeName type="reg">Pavdinskij</placeName>
                     <placeName type="alt">Pawdinski</placeName>
@@ -37,16 +42,15 @@
                     <placeName type="alt">Pavda</placeName>
                     <placeName type="alt">Павда</placeName>
                     <placeName type="alt">Nicolajepawdinsk</placeName>
-                    <!-- Karte vom Ural -->
+                    
                     <placeName type="alt">Nicolaye-Pavdinskoe</placeName>
                     <placeName type="alt">Pawdinskaja</placeName>
-                    <!-- RST I, 2v -->
+                    
                     <placeName type="alt">Pavdinskoe</placeName>
                     <placeName type="alt">Pavdinski Zavod</placeName>
-                    <note>das historische Hüttenwerk Nicolaje-Pawdinsk im <placeName key="H0020290">Nördlichen Ural</placeName> südöstlich des <placeName key="H0019197">Pavdinskij
-                            Kamen</placeName> an der Staße von <placeName key="H0009131">Verchotur’e</placeName> nach
-                            <placeName key="H0010300">Solikamsk</placeName>, heute in der Ortslage von Pavda (<placeName key="H0010689">Russland</placeName>)<!-- nach der Erwähnung im Brief nicht näher zu lokalisieren -->
-                    </note>
+                    <note>das historische Hüttenwerk Nicolaje-Pawdinsk im <placeName ref="https://editon-humboldt.de/H0020290 https://www.geonames.org/1492575">Nördlichen Ural</placeName> südöstlich des <placeName ref="https://editon-humboldt.de/H0019197 https://www.geonames.org/512257">Pavdinskij
+                            Kamen</placeName> an der Staße von <placeName ref="https://editon-humboldt.de/H0009131 https://www.geonames.org/1487219">Verchotur’e</placeName> nach
+                            <placeName ref="https://editon-humboldt.de/H0010300">Solikamsk</placeName>, heute in der Ortslage von Pavda (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                     <linkGrp>
                         <ptr target="30#43" type="letter"/>
                     </linkGrp>

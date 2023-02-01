@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001804">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Passalacqua, Josef</title>
             </titleStmt>
+            <editionStmt>
+                <p>Passalacqua, Josef [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001804.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001804.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001804.xml">
-                    <p>Passalacqua, Josef [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001804.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001804">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/11768693X</idno>
                     <persName type="reg">
                         <surname>Passalacqua</surname>
@@ -46,7 +51,7 @@
                     <birth>1797</birth>
                     <death>1865</death>
                     <note>italienischer Kaufmann aus Triest; als Ägyptologe (Autodidakt) in Berlin, auf Empfehlung
-                        Alexander von Humboldts erster Leiter der <orgName key="H0000523">Ägyptischen
+                        Alexander von Humboldts erster Leiter der <orgName ref="https://editon-humboldt.de/H0000523 http://d-nb.info/gnd/7580725-7">Ägyptischen
                             Abteilung</orgName> in Berlin</note>
                     <linkGrp>
                         <ptr target="14#155" type="letter"/>

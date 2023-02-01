@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016583">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 7. September
+               1848, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016583">https://edition-humboldt.de/v8/H0016583</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016583</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016583</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016583.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 7. September
-               1848. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016583</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">175</idno>
+                     <idno type="shelfmark">421, Bl. 316r-316v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1848-09-07">1848-09-07</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -69,19 +87,20 @@
                      <expan>September</expan>
                   </choice> 1848</dateline>
             </opener>
-            <p>Ich danke Ihnen herzlich, theurer College <lb/>für <ref xml:id="b10fd673-f9a0-4e5d-8fd6-73f9a0ce5da5" corresp="#e93dac1a-2899-4d95-bdac-1a28994d9578">
-                        <persName ref="http://d-nb.info/gnd/118523813">Darwin’s</persName> Corallenbuch</ref>
-                    <note xml:id="e93dac1a-2899-4d95-bdac-1a28994d9578" corresp="#b10fd673-f9a0-4e5d-8fd6-73f9a0ce5da5">
-                     <bibl corresp="https://edition-humboldt.de/v8/9WQFLU8M">Darwin 1842</bibl>
+            <p>Ich danke Ihnen herzlich, theurer College <lb/>für <ref xml:id="eff0864e-c547-445c-b086-4ec547f45cb0" corresp="#b2161733-8757-4db6-9617-3387573db619">
+                        <persName ref="https://editon-humboldt.de/H0012148 http://d-nb.info/gnd/118523813">Darwin’s</persName> Corallenbuch</ref>
+                    <note xml:id="b2161733-8757-4db6-9617-3387573db619" corresp="#eff0864e-c547-445c-b086-4ec547f45cb0">
+                     <bibl corresp="https://edition-humboldt.de/9WQFLU8M">Darwin 1842</bibl>
                   </note> was ich <lb/>noch nicht zurükschicken kann und <lb/>vor allem für Ihre
-               herrliche Zu<lb/>sammenstellung dessen, was wir Ihnen <lb/>über einen
-               neuen so wichtigen <lb/>Bestandtheil der Atmosphäre<ref xml:id="d58f64c5-563f-4429-8f64-c5563f0429c5" corresp="#dd584fab-d8a3-45ca-984f-abd8a325ca81"/>
-                    <note xml:id="dd584fab-d8a3-45ca-984f-abd8a325ca81" corresp="#d58f64c5-563f-4429-8f64-c5563f0429c5">ABBAW, NL Ehrenberg E1.</note> ver-<lb/>danken<supplied cert="high">.</supplied> Die <hi rendition="#u">Möglichkeit</hi> bleibt <lb/>immer (und
-                  <persName ref="http://d-nb.info/gnd/118867865">Valisnieri’s</persName> Erfahrung von <lb/>1689 scheint
+               herrliche Zu<lb break="no"/>sammenstellung dessen, was wir Ihnen <lb/>über einen
+               neuen so wichtigen <lb/>Bestandtheil der Atmosphäre<ref xml:id="c92fa327-64dd-46be-afa3-2764dd86beaf" corresp="#e54e5b50-2959-44a2-8e5b-50295944a2e8"/>
+                    <note xml:id="e54e5b50-2959-44a2-8e5b-50295944a2e8" corresp="#c92fa327-64dd-46be-afa3-2764dd86beaf">ABBAW, NL Ehrenberg E1.</note> ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>danken<supplied cert="high">.</supplied> Die <hi rendition="#u">Möglichkeit</hi> bleibt <lb/>immer (und
+                  <persName ref="https://editon-humboldt.de/H0016876 http://d-nb.info/gnd/118867865">Valisnieri’s</persName> Erfahrung von <lb/>1689 scheint
                darauf hinzudeuten) <lb/>dass der organische Luftstaub <lb/>zu gewissen Perioden von
                grösserer <lb/>Menge aus der Oberwelt herabkommend <lb/>Krankheit erregt! Ehe ich
                Ihren <lb/>lieben Brief vom 4ten empfing <lb/>hatte ich, durch Ihre Ideen, geleitet
-               <lb/>schon oft beim <persName ref="http://d-nb.info/gnd/118535994">König</persName> gesagt “Sie
+               <lb/>schon oft beim <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> gesagt “Sie
                <lb/>besässen das wahre Geheimniss <lb/>der Cholerafliege.“ 1) Wenn Sie <choice>
                   <abbr>n°</abbr>
                   <expan>numero</expan>
@@ -89,8 +108,9 @@
                     <add place="intralinear">auf</add> 21 thierisch <choice>
                   <sic>gallerartige</sic>
                   <corr>gallertartige</corr>
-               </choice> weichhäu-<lb/>tige neben den 26 Plantarum
-               <lb/>Fragmenta, eine Wichtigkeit auf<lb/>legen, so frage ich wie Sie diese
+               </choice> weichhäu<g ref="#typoHyphen"/>
+                    <lb break="no"/>tige neben den 26 Plantarum
+               <lb/>Fragmenta, eine Wichtigkeit auf<lb break="no"/>legen, so frage ich wie Sie diese
                <lb/>21 <choice>
                   <abbr>p.</abbr>
                   <expan>pro</expan>
@@ -103,7 +123,7 @@
                   <expan>numero</expan>
                </choice> 1 zusammenzählen<supplied cert="high">.</supplied>
                <lb/>
-                    <name type="animal" key="Räderthierchen">Rotatorien</name> sind ja nur 5, <name type="animal" key="Tardigraden">Tardigra<lb/>den</name> 2, die <name type="animal|plant" key="Polygastren">Polygastrica</name> zählen <lb/>Sie ja wohl
+                    <name type="animal" key="Räderthierchen">Rotatorien</name> sind ja nur 5, <name type="animal" key="Tardigraden">Tardigra<lb break="no"/>den</name> 2, die <name type="animal|plant" key="Polygastren">Polygastrica</name> zählen <lb/>Sie ja wohl
                nicht, deren allein <lb/>sind ja 26, aber wohl leere <lb/>Schaalen. Ich quäle Sie, um
                <lb/>Ihnen zu beweisen dass ich Sie <lb/>verstehen will. Diese weichen <lb/>Theile
                sind die verdächtigen<supplied cert="high">.</supplied>
@@ -116,7 +136,7 @@
                   <corr type="deleted"/>
                </choice>
                <name type="animal|plant" key="Phytocorallia">Phytocorallia</name> einzutheilen.
-                  Al<lb/>lerdings sind unter den lezteren <lb/>nur Polypenstöcke,
+                  Al<lb break="no"/>lerdings sind unter den lezteren <lb/>nur Polypenstöcke,
                Thieraggregate <lb/>nicht einzeln lebende wie die <lb/>
                     <name type="animal" key="Hydra">Hydren</name> die sich losreissen und <lb/>einzeln frei bewegen. Aber
                unter <lb/>Ihren Thiercorallen sind ja auch <lb/>Pilz, Pfeiffen und Röhren-Corallen,
@@ -126,10 +146,11 @@
                   <expan>Mistress</expan>
                </choice>
                <lb/>
-                    <persName ref="https://d-nb.info/gnd/117476560">Somerville</persName> in ihrer neuen sonst
-               <lb/>vortreflichen <bibl corresp="https://edition-humboldt.de/v8/T9XMSD7S">Physical Geography</bibl> (2
+                    <persName ref="https://editon-humboldt.de/H0015945 https://d-nb.info/gnd/117476560">Somerville</persName> in ihrer neuen sonst
+               <lb/>vortreflichen <bibl corresp="https://edition-humboldt.de/T9XMSD7S">Physical Geography</bibl> (2
                <lb/>Bände, die ich mir gekauft) immer <lb/>die Corallenthiere als <hi rendition="#u">Coral-Insects</hi>
-               <lb/>bezeichnet! Der Mund der <name type="animal" key="Anthozoa">Antho-<lb/>zoen</name> (Pfeiffen- und <name type="animal" key="Madreporen">Madreporen</name>
+               <lb/>bezeichnet! Der Mund der <name type="animal" key="Anthozoa">Antho<g ref="#typoHyphen"/>
+                        <lb break="no"/>zoen</name> (Pfeiffen- und <name type="animal" key="Madreporen">Madreporen</name>
                <lb/>Corallen) ist ja wohl immer <lb/>mit Tentaclen besezt, haben Sie <lb/>aber etwas
                eigentlich <hi rendition="#u">Wirbelndes</hi>
                <lb/>wie die <name type="animal" key="Cristatella">Cristateller</name> in den
@@ -141,16 +162,16 @@
                   <abbr>Joh.</abbr>
                   <expan>Johannes</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118585053">Müller</persName> auch <lb/>den <name type="animal" key="Echinodermen">Echinodermlarven</name>
+               <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName> auch <lb/>den <name type="animal" key="Echinodermen">Echinodermlarven</name>
                <supplied>eigen</supplied> was er <lb/>Epauletten nennt.</p>
             <p>Gott erhalte Ihre kleine <lb/>Familie und bewahre Sie vor <lb/>neuer Trübniss. Und
                der an <lb/>Cholera gestorbene vortrefliche <lb/>Coptiker <choice>
                   <abbr>Prof</abbr>
                   <expan>Professor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/117653470">Schwartze</persName>. Wie <lb/>
-                    <del rendition="#s">viel</del> viel in England gesam<lb/>melte Arbeit geht da wieder
-               <lb/>verloren: <persName ref="http://d-nb.info/gnd/11854568X">Hansemann</persName>
+               <persName ref="https://editon-humboldt.de/H0015733 http://d-nb.info/gnd/117653470">Schwartze</persName>. Wie <lb/>
+                    <del rendition="#s">viel</del> viel in England gesam<lb break="no"/>melte Arbeit geht da wieder
+               <lb/>verloren: <persName ref="https://editon-humboldt.de/H0011646 http://d-nb.info/gnd/11854568X">Hansemann</persName>
                <subst>
                   <del rendition="#s">will</del>
                   <add place="intralinear">wird</add>
@@ -169,16 +190,16 @@
                      <abbr>Prof.</abbr>
                      <expan>Professor</expan>
                   </choice>
-                  <persName ref="http://d-nb.info/gnd/116453060">Räuschle</persName>
-                  <lb/>in <placeName ref="https://www.geonames.org/2825297">Stuttgart</placeName> hat <lb/>einem kleinen
+                  <persName ref="https://editon-humboldt.de/H0000853 http://d-nb.info/gnd/116453060">Räuschle</persName>
+                  <lb/>in <placeName ref="https://editon-humboldt.de/H0010371 https://www.geonames.org/2825297">Stuttgart</placeName> hat <lb/>einem kleinen
                   harmlosen <lb/>
                         <choice>
                      <abbr>astron.</abbr>
                      <expan>astronomischen</expan>
                   </choice>
-                  <ref xml:id="af54924a-00f4-4105-9492-4a00f46105dc" corresp="#dd696fc7-18ad-4745-a96f-c718ade745b8">Lehrbuche</ref>
-                        <note xml:id="dd696fc7-18ad-4745-a96f-c718ade745b8" corresp="#af54924a-00f4-4105-9492-4a00f46105dc">
-                        <bibl corresp="https://edition-humboldt.de/v8/">Karl G. Reuschle. Kosmos für Schulen und
+                  <ref xml:id="a721a5a6-6c54-416b-a1a5-a66c54116bbf" corresp="#d666f4a6-9eee-48c7-a6f4-a69eee48c7c4">Lehrbuche</ref>
+                        <note xml:id="d666f4a6-9eee-48c7-a6f4-a69eee48c7c4" corresp="#a721a5a6-6c54-416b-a1a5-a66c54116bbf">
+                        <bibl corresp="https://edition-humboldt.de/">Karl G. Reuschle. Kosmos für Schulen und
                            Laien. gemeinfaßl. Abriß d. phys. Weltbeschreibung nach Alexander von
                            Humboldts Gesichtspunkten. Stuttgart, Hallberger. 1848</bibl>
                      </note> den <lb/>Titel „Kosmos für Schüler <lb/>
@@ -188,17 +209,17 @@
                   </choice> Laien“ gegeben „Abriss <lb/>der <choice>
                      <abbr>phys.</abbr>
                      <expan>physikalischen</expan>
-                  </choice> Weltbeschrei<lb/>bung“ offenbar um <lb/>Täuschung zu
+                  </choice> Weltbeschrei<lb break="no"/>bung“ offenbar um <lb/>Täuschung zu
                      erregen<supplied cert="high">.</supplied>
                   <lb/>
-                        <persName ref="http://d-nb.info/gnd/11852240X">Cotta</persName> wüthet, aber <lb/>wer kann
-                     processi<lb/>ren<supplied cert="high">.</supplied> Der Titel sagt
+                        <persName ref="https://editon-humboldt.de/H0013206 http://d-nb.info/gnd/11852240X">Cotta</persName> wüthet, aber <lb/>wer kann
+                     processi<lb break="no"/>ren<supplied cert="high">.</supplied> Der Titel sagt
                   <lb/>nicht <lb/>
                         <metamark/>Auszug aus <lb/>
-                        <ref xml:id="ca2c2aec-3005-40b2-ac2a-ec300570b29c" corresp="#dc436398-bf5d-4194-8363-98bf5d4194ce">
-                            <persName ref="http://d-nb.info/gnd/118554700">Humboldts</persName> Cosmos</ref>
-                        <note xml:id="dc436398-bf5d-4194-8363-98bf5d4194ce" corresp="#ca2c2aec-3005-40b2-ac2a-ec300570b29c">
-                        <bibl corresp="https://edition-humboldt.de/v8/">Alexander von Humboldt. Kosmos. Entwurf einer
+                        <ref xml:id="f4c24579-00dd-42e3-8245-7900ddc2e355" corresp="#c44ae65c-ff57-40fd-8ae6-5cff5760fd3f">
+                            <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldts</persName> Cosmos</ref>
+                        <note xml:id="c44ae65c-ff57-40fd-8ae6-5cff5760fd3f" corresp="#f4c24579-00dd-42e3-8245-7900ddc2e355">
+                        <bibl corresp="https://edition-humboldt.de/">Alexander von Humboldt. Kosmos. Entwurf einer
                            physischen Weltbeschreibung. Stuttgart, Augsburg: Cotta, 1845</bibl>
                      </note>
                   <lb/>sondern <hi rendition="#u">nach <lb/>Humboldts <lb/>Gesichtspunkten</hi>
@@ -212,22 +233,22 @@
                      <abbr>v</abbr>
                      <expan>von</expan>
                   </choice>
-                  <persName ref="http://d-nb.info/gnd/118554700">Humboldt</persName>
+                  <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt</persName>
                         <supplied cert="high">.</supplied>
                     </p>
-               <p>Sollten Sie vielleicht die <ref xml:id="ff488663-6f7b-43e4-8886-636f7b43e4c0" corresp="#d55802ad-3d67-4749-9802-ad3d67174969">Proceedings <lb/>der British Association</ref>
-                        <note xml:id="d55802ad-3d67-4749-9802-ad3d67174969" corresp="#ff488663-6f7b-43e4-8886-636f7b43e4c0">
-                        <bibl corresp="https://edition-humboldt.de/v8/">British Association for the Advancement of
+               <p>Sollten Sie vielleicht die <ref xml:id="ed517763-f11c-493f-9177-63f11c093f0a" corresp="#de72a17e-24ca-46fd-b2a1-7e24ca26fdb9">Proceedings <lb/>der British Association</ref>
+                        <note xml:id="de72a17e-24ca-46fd-b2a1-7e24ca26fdb9" corresp="#ed517763-f11c-493f-9177-63f11c093f0a">
+                        <bibl corresp="https://edition-humboldt.de/">British Association for the Advancement of
                            Science: Report of the proceedings, recommendations and transactions of
                            the British Association for the Advancement of Science London,
                            1833-1931</bibl>
-                     </note> von <lb/>1837 <placeName ref="https://www.geonames.org/2644210">Liverpool</placeName>
-                  <lb/>1843 <placeName ref="https://www.geonames.org/2965140">Cork</placeName>
-                  <lb/>1844 <placeName ref="https://www.geonames.org/2633352">York</placeName>
-                  <lb/>1846 <placeName>Southhampton</placeName>
+                     </note> von <lb/>1837 <placeName ref="https://editon-humboldt.de/H0011458 https://www.geonames.org/2644210">Liverpool</placeName>
+                  <lb/>1843 <placeName ref="https://editon-humboldt.de/H0017333 https://www.geonames.org/2965140">Cork</placeName>
+                  <lb/>1844 <placeName ref="https://editon-humboldt.de/H0017207 https://www.geonames.org/2633352">York</placeName>
+                  <lb/>1846 <placeName ref="https://editon-humboldt.de/">Southhampton</placeName>
                   <lb/>besizen so schicken Sie gütigst <lb/>in <hi rendition="#u">mein</hi> Haus was
                   <lb/>Sie haben nach <lb/>
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>. </p>
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>. </p>
             </postscript>
          </div>
       </body>

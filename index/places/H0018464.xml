@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018464">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Rata Dak</title>
             </titleStmt>
+            <editionStmt>
+                <p>Rata Dak [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018464.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,23 +20,24 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018464.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018464.xml">
-                    <p>Rata Dak [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018464.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018464">
+                <place>
                     <idno type="uri">https://www.geonames.org/1263048</idno>
                     <placeName type="reg">Rata Dak</placeName>
-                    <note>Bergrücken am <placeName key="H0018719">Milamgletscher</placeName> (Indien)</note>
+                    <note>Bergrücken am <placeName ref="https://editon-humboldt.de/H0018719 https://www.geonames.org/1263049">Milamgletscher</placeName> (Indien)</note>
                 </place>
             </listPlace>
         </body>

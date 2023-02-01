@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004238">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>La Cépède, Bernard Germain Etienne de Laville, Comte de</title>
             </titleStmt>
+            <editionStmt>
+                <p>La Cépède, Bernard Germain Etienne de Laville, Comte de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004238.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004238.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004238.xml">
-                    <p>La Cépède, Bernard Germain Etienne de Laville, Comte de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004238.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004238">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/11909813X</idno>
                     <persName type="reg">
                         <surname>La Cépède</surname>
@@ -41,7 +46,7 @@
                     </persName>
                     <birth>1756</birth>
                     <death>1825</death>
-                    <note>französischer Naturforscher und Staatsmann; Professor der Naturgeschichte am <orgName key="H0000553">Jardin des Plantes</orgName> in Paris; später Direktor des <orgName key="H0000565">Muséum national d'histoire naturelle</orgName>; bekleidete nach der
+                    <note>französischer Naturforscher und Staatsmann; Professor der Naturgeschichte am <orgName ref="https://editon-humboldt.de/H0000553 http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName> in Paris; später Direktor des <orgName ref="https://editon-humboldt.de/H0000565 http://d-nb.info/gnd/37583-4">Muséum national d'histoire naturelle</orgName>; bekleidete nach der
                         Französichen Revolution zahlreiche Ämter, wurde 1809 Staatsminister; nach der Rückkehr der
                         Bourbonen 1814 Pair von Frankreich; verfaßte zahlreiche zoologische und naturhistorische
                         Werke</note>

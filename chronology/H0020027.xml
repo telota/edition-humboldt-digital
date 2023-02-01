@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020027">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -6,29 +6,38 @@
                     <date when="1829-07-27">27. Juli 1829</date>
                 </title>
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (27. Juli 1829) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0020027">https://edition-humboldt.de/v8/H0020027</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0020027</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0020027</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020027.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1829. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0020027</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2022-03-30" resp="#FS"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p>H. ist <ref target="H0016785/#39r">am Morgen</ref> in <placeName ref="https://www.geonames.org/1492835">Sekmenovo</placeName>, folgt dem <placeName ref="https://www.geonames.org/1524297">Irtisch</placeName> in südlicher
-                    Richtung. <ref target="H0016785/#39r">Am Abend</ref> erreicht er <placeName ref="https://edition-humboldt.de/v8/H0018227">Kop'eva</placeName>. </p>
+                <p>H. ist <ref target="https://edition-humboldt.de/H0016785/39r">am Morgen</ref> in <placeName ref="https://editon-humboldt.de/H0017388 https://www.geonames.org/1492835">Sekmenovo</placeName>, folgt dem <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtisch</placeName> in südlicher
+                    Richtung. <ref target="https://edition-humboldt.de/H0016785/39r">Am Abend</ref> erreicht er <placeName ref="https://editon-humboldt.de/H0018227">Kop'eva</placeName>. </p>
             </body>
         </text>
     </TEI>

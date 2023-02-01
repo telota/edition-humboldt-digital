@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001180">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,55 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
+                    [Anfang 1830] , hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0001180">https://edition-humboldt.de/v8/H0001180</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0001180</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0001180</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001180.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch,
-                    [Anfang 1830] . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0001180</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 814 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 24,90 cm , B: 19,00 cm; Wasserzeichen: J. Whatman, Turkey Mill
+                            1828</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1830-01-01" notAfter="1830-03-31" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -72,15 +93,15 @@
                     <pb n="1r"/>Ich bin sehr geschmeichelt durch das freundliche <lb/>Anerbieten
                     Ihrer Zueignung, theurester Herr <lb/>Doctor. Meine Wünsche begleiten Sie auf
                     <lb/>Ihre vorhabende Reise. Ist die Ausführung <lb/>sicher? Kann ich durch
-                    irgend eine Empfehlung <lb/>auf der <ref xml:id="a9851589-2729-413b-8515-892729a13bbf" corresp="#b2f92e88-49b1-4c59-b92e-8849b1fc59ab">
-                            <orgName ref="http://d-nb.info/gnd/4031532-0">Seehandlung</orgName>
+                    irgend eine Empfehlung <lb/>auf der <ref xml:id="c9d73a81-4af5-4243-973a-814af522434c" corresp="#a67e45a7-091a-487e-be45-a7091a587eb2">
+                            <orgName ref="https://editon-humboldt.de/H0000586 http://d-nb.info/gnd/4031532-0">Seehandlung</orgName>
                         </ref>
-                    <note xml:id="b2f92e88-49b1-4c59-b92e-8849b1fc59ab" corresp="#a9851589-2729-413b-8515-892729a13bbf">Präsident der <orgName ref="http://d-nb.info/gnd/4031532-0">Seehandlungsgesellschaft</orgName> war <persName ref="http://d-nb.info/gnd/118603256">Christian
+                    <note xml:id="a67e45a7-091a-487e-be45-a7091a587eb2" corresp="#c9d73a81-4af5-4243-973a-814af522434c">Präsident der <orgName ref="https://editon-humboldt.de/H0000586 http://d-nb.info/gnd/4031532-0">Seehandlungsgesellschaft</orgName> war <persName ref="https://editon-humboldt.de/H0001077 http://d-nb.info/gnd/118603256">Christian
                                 Rother</persName>. Die Korrespondenz mit Rother zwischen 1821–1846
                             ist jedoch nicht erhalten geblieben. Offensichtlich war Humboldts Hilfe
                             erfolgreich, denn Meyen schrieb in einem Brief im Jahre 1833, dass er
                             auf dem Schiff der Königlich Preußischen Seehandlung „Prinzeß Louise“
-                            auf Kosten des Staates gereist sei. Vgl. <bibl corresp="https://edition-humboldt.de/v8/KFUASNT8">Meyen [1833]</bibl>
+                            auf Kosten des Staates gereist sei. Vgl. <bibl corresp="https://edition-humboldt.de/KFUASNT8">Meyen [1833]</bibl>
                             
                         </note> dazu beitragen<supplied cert="high">?</supplied> Kommen <lb/>Sie gütigst
                     einen dieser Tage von 12 ½ – <lb/>1 ½ Uhr zu mir. </p>

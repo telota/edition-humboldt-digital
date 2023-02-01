@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000361">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kara Edir</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kara Edir [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000361.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,30 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000361.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000361.xml">
-                    <p>Kara Edir [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000361.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0000361">
+                <place>
                     <placeName type="reg">Kara Edir</placeName>
                     <placeName type="alt">Kara Edir-Tau</placeName>
                     <placeName type="alt">Kara Edyr Tau</placeName>
                     <placeName type="alt">Kara Edyr</placeName>
                     <placeName type="alt">Kara Adyr</placeName>
                     <placeName type="alt">Kara Adir</placeName>
-                    <note>historische Bezeichnung für einen Abschnitt der dem <placeName key="H0020292">Südlichen Ural</placeName> im Osten vorgelagerten, in nord-südlicher Richtung verlaufenden
-                        Schwelle, zwischen <placeName key="H0006673">Ilmengebirge</placeName> im Norden und <placeName key="H0009035">Mugodschargebirge</placeName>im Süden; vermutlich untergliedert in die
-                        Gebirgszüge <placeName key="H0017783">Kara Aygur</placeName> und <placeName key="H0005568">Dschambu Karagai</placeName><!-- vgl. Humboldt 1844 = AC I, 278 -->
+                    <note>historische Bezeichnung für einen Abschnitt der dem <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName> im Osten vorgelagerten, in nord-südlicher Richtung verlaufenden
+                        Schwelle, zwischen <placeName ref="https://editon-humboldt.de/H0006673 https://www.geonames.org/1505865/">Ilmengebirge</placeName> im Norden und <placeName ref="https://editon-humboldt.de/H0009035 https://www.geonames.org/608797">Mugodschargebirge</placeName>im Süden; vermutlich untergliedert in die
+                        Gebirgszüge <placeName ref="https://editon-humboldt.de/H0017783">Kara Aygur</placeName> und <placeName ref="https://editon-humboldt.de/H0005568">Dschambu Karagai</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="30#60" type="letter"/>

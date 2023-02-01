@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014186">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Meyer, Carl Anton von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Meyer, Carl Anton von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0014186.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014186.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0014186.xml">
-                    <p>Meyer, Carl Anton von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0014186.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0014186">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/172642272</idno>
                     <persName type="reg">
                         <surname>Meyer</surname>
@@ -41,7 +46,7 @@
                     </persName>
                     <birth>1795</birth>
                     <death>1855</death>
-                    <note>deutsch-russischer Botaniker; Direktor des Botanischen Gartens in <placeName key="H0008236">Sankt Petersburg</placeName>; begleitete 1826 <persName key="H0004400">Ledebour</persName> auf
+                    <note>deutsch-russischer Botaniker; Direktor des Botanischen Gartens in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt Petersburg</placeName>; begleitete 1826 <persName ref="https://editon-humboldt.de/H0004400 http://d-nb.info/gnd/116851376">Ledebour</persName> auf
                         einer Reise in den Altai</note>
                     <linkGrp>
                         <ptr target="30#270" type="page"/>

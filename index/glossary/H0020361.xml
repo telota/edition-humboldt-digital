@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020361">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Scarpellino</title>
             </titleStmt>
+            <editionStmt>
+                <p>Scarpellino [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020361.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,21 +20,22 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020361.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020361.xml">
-                    <p>Scarpellino [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020361.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>glossary</textClass>
+            <textClass>
+                <keywords>
+                    <term>glossary</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <list>
-                <item xml:id="H0020361">
-                    <label type="reg"><?oxy_comment_start author="thomas" timestamp="20220420T141841+0200" comment="hier u.ö. Sprachbezeichnung fehlt, da nicht im Schema sowie der Transformation vorgesehen, vgl. https://redmine.bbaw.de/issues/15694#note-12"?>Scarpellino<?oxy_comment_end?></label>
+                <item>
+                    <label type="reg">Scarpellino</label>
                     <label type="alt">Scarpelino</label>
                     <note resp="#CT">Steinmetz</note>
                 </item>

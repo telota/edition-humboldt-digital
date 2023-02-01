@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0008511">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,31 +28,58 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 8. Mai 1796, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0008511">https://edition-humboldt.de/v8/H0008511</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0008511</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0008511</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0008511.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 8. Mai 1796. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0008511</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift / Frankfurter Goethe-Museum</institution>
+                        <repository>Handschriftensammlung</repository>
+                        <idno>
+                            <idno type="shelfmark">Hs-5057</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/WFDJIWK6">Humboldt 1973,
+                            510–511</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/DW4AA88T">Soemmerring 2001,
+                            310–313</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2951825">Bayreuth</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0005176 https://www.geonames.org/2951825">Bayreuth</placeName>
                     <date when="1796-05-08" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830)
+                    <persName ref="https://editon-humboldt.de/H0015944 http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830)
                     </persName>
                 </correspAction>
             </correspDesc>
@@ -71,18 +98,21 @@
                         <add place="intralinear">
                             <lb/>Hofrath</add>
                     </subst>, daß ich über einen Gegenstand an Sie schreibe, <lb/>der Ihnen gewiß
-                    sehr <hi rendition="#u">trivial</hi> ist, mir aber unend-<lb/>liche Schwierigkeiten macht aus tausend Büchern
-                        zusammen<lb/>zusuchen. Ich arbeite seit 2 Jahren in allen Stunden
+                    sehr <hi rendition="#u">trivial</hi> ist, mir aber unend<g ref="#typoHyphen"/>
+                    <lb break="no"/>liche Schwierigkeiten macht aus tausend Büchern
+                        zusammen<lb break="no"/>zusuchen. Ich arbeite seit 2 Jahren in allen Stunden
                     <lb/>der Muße an <choice>
                         <abbr>microscop.</abbr>
                         <expan>microscopischen</expan>
-                    </choice> Zeichnungen von den respirations-<lb/>gefäßen der Pflanzen. Ich habe
+                    </choice> Zeichnungen von den respirations<g ref="#typoHyphen"/>
+                    <lb break="no"/>gefäßen der Pflanzen. Ich habe
                     ein
                     40 Platten bereits <lb/>gezeichnet <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> zwar nach einer 312,400 maligen Vergröße-<lb/>rung der Fläche. Sie werden einige dieser Gefäße aus <lb/>
-                    <persName ref="http://d-nb.info/gnd/130652865">Hedwigs
+                    </choice> zwar nach einer 312,400 maligen Vergröße<g ref="#typoHyphen"/>
+                    <lb break="no"/>rung der Fläche. Sie werden einige dieser Gefäße aus <lb/>
+                    <persName ref="https://editon-humboldt.de/H0011729 http://d-nb.info/gnd/130652865">Hedwigs
                     </persName> Sammlung zerstreuter <choice>
                         <abbr>Abhandl.</abbr>
                         <expan>Abhandlungen</expan>
@@ -95,14 +125,14 @@
                         <expan>tabula</expan>
                     </choice> 5 kennen, <figure facs="Soemmerring/1796_05_08_1r.jpg" hand="#author">
                         <figDesc>Vergrößerte Darstellung der Spaltöffnung eines Blattes</figDesc>
-                    </figure> aber <lb/>ich habe die Entdekkung viel weiter getrieben. <persName ref="http://d-nb.info/gnd/116239808">Abernettys</persName>
+                    </figure> aber <lb/>ich habe die Entdekkung viel weiter getrieben. <persName ref="https://editon-humboldt.de/H0012476 http://d-nb.info/gnd/116239808">Abernettys</persName>
                     <lb/>
-                    <ref xml:id="b29739c1-60c1-41c9-9739-c160c1c1c94d" corresp="#d5a66d99-cfcf-42ff-a66d-99cfcff2ff8b">Versuche über <choice>
+                    <ref xml:id="f15250e0-e5f1-46f6-9250-e0e5f1e6f651" corresp="#df7e9e35-df90-4c65-be9e-35df90ec65f4">Versuche über <choice>
                                 <abbr>thier</abbr>
                                 <expan>thierische</expan>
                             </choice> Hautrespiration</ref>
-                    <note xml:id="d5a66d99-cfcf-42ff-a66d-99cfcff2ff8b" corresp="#b29739c1-60c1-41c9-9739-c160c1c1c94d">
-                            <bibl corresp="https://edition-humboldt.de/v8/DUNJ7BSM">Abernethy 1793.</bibl>
+                    <note xml:id="df7e9e35-df90-4c65-be9e-35df90ec65f4" corresp="#f15250e0-e5f1-46f6-9250-e0e5f1e6f651">
+                            <bibl corresp="https://edition-humboldt.de/DUNJ7BSM">Abernethy 1793.</bibl>
                     </note> brachten mich endlich <lb/>auch auf das was man cuticula <choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
@@ -120,8 +150,8 @@
                     <figDesc>Vergrößerte Darstellung der Epidermis der menschlichen Haut</figDesc>
                 </figure>
                 <p>
-                    <bibl corresp="https://edition-humboldt.de/v8/27Q9SUGB">
-                        <persName ref="http://d-nb.info/gnd/117519669">Fontana</persName> vom Viperngift <note xml:id="naf4_3sg_dx"> Fontana
+                    <bibl corresp="https://edition-humboldt.de/27Q9SUGB">
+                        <persName ref="https://editon-humboldt.de/H0000163 http://d-nb.info/gnd/117519669">Fontana</persName> vom Viperngift <note xml:id="naf4_3sg_dx"> Fontana
                             1787.</note>
                         <choice>
                             <abbr>p</abbr>
@@ -136,7 +166,8 @@
                     Kügelchen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> geschlängel-<lb/>ten Gefäßen. Die
+                    </choice> geschlängel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten Gefäßen. Die
                     Kügelchen sind Staub, man muß <lb/>die <add place="intralinear">Ober</add>Haut
                     unter Wasser sehen <choice>
                         <abbr>u</abbr>
@@ -145,12 +176,14 @@
                     <lb/>Falten. Sie sind viel zu hoch erhaben, theilen <lb/>die cuticula in
                     unregelmäßige globulos u endigen <lb/>in <hi rendition="#u">voller</hi>
                     <hi rendition="#u">Dikke</hi>, was Gefäße wohl nie thun. <lb/>Dagegen könnten
-                    die ganz feinen geschlängelten, dun-<lb/>kel
+                    die ganz feinen geschlängelten, dun<g ref="#typoHyphen"/>
+                    <lb break="no"/>kel
                     rothen Strichelchen, welche man in der membran <lb/>selbst, in den arcolis
-                    sieht, deren anastomo-<lb/>sen aber nicht zu
+                    sieht, deren anastomo<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen aber nicht zu
                     verfolgen sind, wohl <hi rendition="#u">wahre</hi>
                     <lb/>Gefäße sein. Dagegen sagt
-                        <persName ref="http://d-nb.info/gnd/116208503">Blumenbach</persName> de <lb/>generis humani <choice>
+                        <persName ref="https://editon-humboldt.de/H0003404 http://d-nb.info/gnd/116208503">Blumenbach</persName> de <lb/>generis humani <choice>
                         <abbr>var.</abbr>
                         <expan>varietate</expan>
                     </choice> 95 <choice>
@@ -177,7 +210,7 @@
                     </choice> Gefäße auf der Oberhaut. Die Poren die <lb/>mir das Microscop zeigt
                     sind Löcher wo Haare saßen.</p>
                 <p>
-                    <pb n="2r"/>Im <persName ref="http://d-nb.info/gnd/117640816">Haas</persName>, <persName ref="http://d-nb.info/gnd/119500396">Mascagni</persName> auch bei Ihnen, lieber <choice>
+                    <pb n="2r"/>Im <persName ref="https://editon-humboldt.de/H0011563 http://d-nb.info/gnd/117640816">Haas</persName>, <persName ref="https://editon-humboldt.de/H0013991 http://d-nb.info/gnd/119500396">Mascagni</persName> auch bei Ihnen, lieber <choice>
                         <abbr>S</abbr>
                         <expan>Soemmerring</expan>
                     </choice>, <lb/>lese ich von sinnlicher Darstellung der Saugadern in der
@@ -185,25 +218,26 @@
                         <sic>sie</sic>
                         <corr cert="high">Sie</corr>
                     </choice> (<hi rendition="#u">
-                        <ref xml:id="ab510bfa-1e2e-43ab-910b-fa1e2ee3ab37" corresp="#b35e41aa-7bca-43db-9e41-aa7bcad3dbef">
-                            <bibl corresp="https://edition-humboldt.de/v8/6WKSXFU3">Gefäßlehre <choice>
+                        <ref xml:id="a05a7340-736f-4422-9a73-40736f4422c6" corresp="#ffa279be-6aea-45af-a279-be6aea95af93">
+                            <bibl corresp="https://edition-humboldt.de/6WKSXFU3">Gefäßlehre <choice>
                                         <abbr>p</abbr>
                                         <expan>pagina</expan>
                                     </choice> 428</bibl>
                         </ref>
-                        <note xml:id="b35e41aa-7bca-43db-9e41-aa7bcad3dbef" corresp="#ab510bfa-1e2e-43ab-910b-fa1e2ee3ab37">
-                                <bibl corresp="https://edition-humboldt.de/v8/6WKSXFU3">Soemmerring 1791–1796</bibl>,
+                        <note xml:id="ffa279be-6aea-45af-a279-be6aea95af93" corresp="#a05a7340-736f-4422-9a73-40736f4422c6">
+                                <bibl corresp="https://edition-humboldt.de/6WKSXFU3">Soemmerring 1791–1796</bibl>,
                                 Teil 4 (Gefäßlehre, oder vom Herzen, von den Arterien, Venen und
                                 Saugadern).</note>
-                    </hi>) von dem <lb/>schönen Netze reden, meinen Sie doch wohl das Co-<lb/>rium <choice>
+                    </hi>) von dem <lb/>schönen Netze reden, meinen Sie doch wohl das Co<g ref="#typoHyphen"/>
+                    <lb break="no"/>rium <choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
                     </choice> wirklich <hi rendition="#u">die</hi> Cuticula, die man sich mit
                     <lb/>dem Rasirmesser abzieht? Sind die <hi rendition="#u">ausdünstenden
                         Gefäße</hi>
-                    <lb/>welche <persName ref="http://d-nb.info/gnd/117070076">Hunter</persName>
-                    <ref xml:id="d8cca283-cc4d-45cf-8ca2-83cc4dd5cf0d" corresp="#dfd4abd0-617e-4ef6-94ab-d0617e4ef63f">
-                        <bibl corresp="https://edition-humboldt.de/v8/H2RWBXGH">
+                    <lb/>welche <persName ref="https://editon-humboldt.de/H0012081 http://d-nb.info/gnd/117070076">Hunter</persName>
+                    <ref xml:id="a360bb9b-0208-416d-a0bb-9b0208b16d74" corresp="#e8e2339f-d65d-4d28-a233-9fd65d2d281b">
+                        <bibl corresp="https://edition-humboldt.de/H2RWBXGH">
                                 <choice>
                                     <abbr>Med.</abbr>
                                     <expan>Medical</expan>
@@ -217,16 +251,18 @@
                                     <expan>Volume</expan>
                                 </choice> II</bibl>
                     </ref>
-                    <note xml:id="dfd4abd0-617e-4ef6-94ab-d0617e4ef63f" corresp="#d8cca283-cc4d-45cf-8ca2-83cc4dd5cf0d">
-                            <bibl corresp="https://edition-humboldt.de/v8/H2RWBXGH">Hunter
+                    <note xml:id="e8e2339f-d65d-4d28-a233-9fd65d2d281b" corresp="#a360bb9b-0208-416d-a0bb-9b0208b16d74">
+                            <bibl corresp="https://edition-humboldt.de/H2RWBXGH">Hunter
                                 1762–1764, I</bibl>.</note> abbildet, denn <lb/>noch in der Cuticula sichtbar. Ich erinnere mich
-                    <lb/>daß <persName ref="http://d-nb.info/gnd/117640816">Haas</persName> die ganze Haut prächtig roth
-                    ausgesprizt <lb/>hat, das läßt doch Gefäße in der Cuticula ver-<lb/>muthen. Woher also<persName ref="http://d-nb.info/gnd/116208503"> Blumenbachs</persName>
+                    <lb/>daß <persName ref="https://editon-humboldt.de/H0011563 http://d-nb.info/gnd/117640816">Haas</persName> die ganze Haut prächtig roth
+                    ausgesprizt <lb/>hat, das läßt doch Gefäße in der Cuticula ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>muthen. Woher also<persName ref="https://editon-humboldt.de/H0003404 http://d-nb.info/gnd/116208503"> Blumenbachs</persName>
                     <choice>
                         <abbr>apodict.</abbr>
                         <expan>apodictische</expan>
-                    </choice> Be-<lb/>hauptung. </p>
-                <p>Die Haut athmet (wie uns <persName ref="http://d-nb.info/gnd/116239808"> Abernetty</persName>
+                    </choice> Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>hauptung. </p>
+                <p>Die Haut athmet (wie uns <persName ref="https://editon-humboldt.de/H0012476 http://d-nb.info/gnd/116239808"> Abernetty</persName>
                     gelehrt) <lb/>wie die Lungen, <choice>
                         <abbr>oxyg.</abbr>
                         <expan>oxygen</expan>
@@ -252,7 +288,8 @@
                 <p>Ich beschwöre Sie, theuerster <choice>
                         <abbr>S.</abbr>
                         <expan>Soemmerring</expan>
-                    </choice> mir ein <lb/>Paar Zeilen hierüber recht bald zu schrei-<lb/>ben. Ich bin sehr erpicht darauf.</p>
+                    </choice> mir ein <lb/>Paar Zeilen hierüber recht bald zu schrei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben. Ich bin sehr erpicht darauf.</p>
                 <closer rend="paragraph">
                     <signed>Humboldt</signed>
                     <dateline>Bayreuth den 8<supplied cert="high">.</supplied> Mai 96. </dateline>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0009303">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Telezkoje Osero</title>
             </titleStmt>
+            <editionStmt>
+                <p>Telezkoje Osero [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0009303.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0009303.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0009303.xml">
-                    <p>Telezkoje Osero [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009303.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0009303">
+                <place>
                     <placeName type="reg">Telezkoje Osero</placeName>
                     <placeName type="alt">Altyn-Köl</placeName>
                     <placeName type="alt">Телецкое озеро</placeName>
@@ -38,7 +43,7 @@
                     <placeName type="alt">Artai See</placeName>
                     <placeName type="alt">Telezkischer See</placeName>
                     <placeName type="alt">Uhrtaï See</placeName>
-                    <note>der größte See im <placeName key="H0002407">Altai</placeName>
+                    <note>der größte See im <placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altai</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="32#5" type="letter"/>

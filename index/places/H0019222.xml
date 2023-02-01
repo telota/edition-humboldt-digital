@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019222">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Togliatti</title>
             </titleStmt>
+            <editionStmt>
+                <p>Togliatti [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019222.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019222.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019222.xml">
-                    <p>Togliatti [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019222.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019222">
+                <place>
                     <idno type="uri">https://www.geonames.org/482283</idno>
                     <placeName type="reg">Togliatti</placeName>
                     <placeName type="alt">Тольятти</placeName>
@@ -40,7 +45,7 @@
                     <placeName type="alt">Toliatti</placeName>
                     <placeName type="alt">Ставрополь-Волжский</placeName>
                     <placeName type="alt">Stawropol-Wolschskij</placeName>
-                    <note>Stadt an der <placeName key="H0007984">Wolga</placeName> nordwestlich von <placeName key="H0009771">Samara</placeName>, bis 1964 Stawropol (Russland)</note>
+                    <note>Stadt an der <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> nordwestlich von <placeName ref="https://editon-humboldt.de/H0009771 https://www.geonames.org/499099">Samara</placeName>, bis 1964 Stawropol (Russland)</note>
                 </place>
             </listPlace>
         </body>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001880">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Péron, François</title>
             </titleStmt>
+            <editionStmt>
+                <p>Péron, François [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001880.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001880.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001880.xml">
-                    <p>Péron, François [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001880.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001880">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118936530</idno>
                     <persName type="reg">
                         <surname>Péron</surname>
@@ -37,8 +42,8 @@
                     </persName>
                     <birth>1775</birth>
                     <death>1810</death>
-                    <note>französischer Botaniker; Teilnehmer an der Expedition <persName key="H0003136">Baudin</persName>s zur Vermessung der australischen Küste, sammelte ca. 100000 Pflanzen und
-                        veröffentlichte mit <persName key="H0000272">Claude Louis Desaulses de Freycinet</persName> den
+                    <note>französischer Botaniker; Teilnehmer an der Expedition <persName ref="https://editon-humboldt.de/H0003136 http://d-nb.info/gnd/119227568">Baudin</persName>s zur Vermessung der australischen Küste, sammelte ca. 100000 Pflanzen und
+                        veröffentlichte mit <persName ref="https://editon-humboldt.de/H0000272 http://d-nb.info/gnd/124760295">Claude Louis Desaulses de Freycinet</persName> den
                         Bericht über die Reise</note>
                     <linkGrp>
                         <ptr target="16#12" type="letter"/>

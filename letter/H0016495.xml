@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016495">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,56 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [2. Oktober
+               1857] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016495">https://edition-humboldt.de/v8/H0016495</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016495</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016495</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016495.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [2. Oktober
-               1857] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016495</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">244a</idno>
+                     <idno type="shelfmark">421, Bl. 437r-438v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+            <listWit>
+               <witness>
+                  <bibl type="print" n="1" corresp="https://edition-humboldt.de/">TD: Zeitschrift für Allgemeine
+                     Erdkunde. Neue Folge dritter Band. Berlin 1857 S.374f.</bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1857-10-02">1857-10-02</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Teildruck dieses Briefes in: Zeitschrift für Allgemeine Erdkunde.
                Neue Folge dritter Band. Berlin 1857 S.374f.</note>
@@ -66,17 +90,17 @@
          <div type="writingSession">
             <pb n="1r"/>
             <p>Ich besize nichts, theurer Freund, was Sie <lb/>wünschen: ich habe nie eine deutsche
-               <lb/>Zeitung von <placeName ref="https://www.geonames.org/2158177">Melbourne</placeName> gehabt, <lb/>wohl
-               aber von <placeName ref="https://www.geonames.org/5391959">S. Francisco</placeName> zugleich mit
+               <lb/>Zeitung von <placeName ref="https://editon-humboldt.de/H0017434 https://www.geonames.org/2158177">Melbourne</placeName> gehabt, <lb/>wohl
+               aber von <placeName ref="https://editon-humboldt.de/H0009868 https://www.geonames.org/5391959">S. Francisco</placeName> zugleich mit
                <lb/>anglo-chinesischen auch 2 deutsche <lb/>
-                    <placeName ref="https://www.geonames.org/4273857">Kansas</placeName> Blätter die ich beilege in denen <lb/>eine Nachricht von einer
+                    <placeName ref="https://editon-humboldt.de/H0000350 https://www.geonames.org/4273857">Kansas</placeName> Blätter die ich beilege in denen <lb/>eine Nachricht von einer
                neu gegründeten <lb/>Humboldtstadt enthalten ist nicht <lb/>zu verwechseln: mit der
                älteren Stadt <lb/>
-                    <placeName ref="https://edition-humboldt.de/v8/H0017356">Humboldt</placeName> etwas nördlich vom
+                    <placeName ref="https://editon-humboldt.de/H0017356">Humboldt</placeName> etwas nördlich vom
                   <lb/>
-                    <placeName ref="https://www.geonames.org/5372153">Cap Mendocino</placeName> in der seit
+                    <placeName ref="https://editon-humboldt.de/H0017436 https://www.geonames.org/5372153">Cap Mendocino</placeName> in der seit
                   mehre<supplied cert="high">n</supplied>
-               <lb/>Jahren ein in <placeName ref="https://www.geonames.org/5332921">California</placeName> viel gelesenes
+               <lb/>Jahren ein in <placeName ref="https://editon-humboldt.de/H0000330 https://www.geonames.org/5332921">California</placeName> viel gelesenes
                <lb/>Blatt unter dem Titel Humboldt- <lb/>Times <choice>
                   <orig>herauskomt</orig>
                   <reg>herauskommt</reg>
@@ -89,19 +113,19 @@
                   <expan>Professor</expan>
                </choice>
                <lb/>
-                    <persName ref="http://d-nb.info/gnd/119387123">Burmeister</persName>’s Aufnahme <choice>
+                    <persName ref="https://editon-humboldt.de/H0003796 http://d-nb.info/gnd/119387123">Burmeister</persName>’s Aufnahme <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Ansicht <lb/>der Cordillere von <placeName ref="https://www.geonames.org/3895114">Chile</placeName>
-               interessiren <lb/>von <placeName ref="https://www.geonames.org/3844421">
+               </choice> Ansicht <lb/>der Cordillere von <placeName ref="https://editon-humboldt.de/H0007374 https://www.geonames.org/3895114">Chile</placeName>
+               interessiren <lb/>von <placeName ref="https://editon-humboldt.de/H0008813 https://www.geonames.org/3844421">
                         <subst>
                      <del rendition="#s">Mendoza</del>
                      <add place="intralinear">Mendoza</add>
                   </subst>
-                    </placeName> aus also <lb/>von Osten gesehen<supplied cert="high">.</supplied> ich habe die <lb/>Rolle über <placeName ref="https://www.geonames.org/3435910">Buenos
+                    </placeName> aus also <lb/>von Osten gesehen<supplied cert="high">.</supplied> ich habe die <lb/>Rolle über <placeName ref="https://editon-humboldt.de/H0005384 https://www.geonames.org/3435910">Buenos
                   Ayres</placeName> erhalten <lb/>ohne weitere Beschreibung. Es ist <lb/>ein Werk
                rühmlichen Fleisses und <lb/>grosser Genauigkeit in den Umrissen<supplied cert="high">.</supplied>
-               <lb/>Da ich das Bild dem <persName ref="http://d-nb.info/gnd/118535994">König</persName> vorlegen <lb/>soll
+               <lb/>Da ich das Bild dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> vorlegen <lb/>soll
                so bitte ich es mir wieder <lb/>
                     <pb n="1v"/>von neuem sorgfältig gerollt<supplied cert="high">.</supplied>
                <lb/>Später werde ich die Zeichnung den <lb/>Archiven der <choice>
@@ -115,35 +139,35 @@
                   <abbr>Prof.</abbr>
                   <expan>Professor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/119387123">Burmeister</persName>
+               <persName ref="https://editon-humboldt.de/H0003796 http://d-nb.info/gnd/119387123">Burmeister</persName>
                <lb/>selbst nach seiner Rückunft <lb/>darüber disponiren kann<supplied cert="high">.</supplied>
                 </p>
-            <p>Von meinem theuren <lb/>Freunde <persName ref="http://d-nb.info/gnd/118661604">Bonpland</persName> der in
+            <p>Von meinem theuren <lb/>Freunde <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName> der in
                <lb/>der besten Gesundheit den <lb/>28sten August seinen <lb/>84sten Geburtstag zu
                <lb/>feiern gedachte habe ich <lb/>durch Herrn <choice>
                   <abbr>Gener.</abbr>
                   <expan>General</expan>
-               </choice> Consul <lb/>von <persName ref="http://d-nb.info/gnd/116909404">Gülich</persName> angenehme <choice>
+               </choice> Consul <lb/>von <persName ref="https://editon-humboldt.de/H0016912 http://d-nb.info/gnd/116909404">Gülich</persName> angenehme <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
                <lb/>lehrreiche Briefe aus <lb/>
-                    <placeName ref="https://www.geonames.org/3435217">Corrientes</placeName> vom
+                    <placeName ref="https://editon-humboldt.de/H0017334 https://www.geonames.org/3435217">Corrientes</placeName> vom
                   7<hi rendition="#sup">ten</hi> Juni <lb/>1857<supplied cert="high">.</supplied> Er
                hätte <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
                ganz <lb/>mit wissenschaftlichen <lb/>Untersuchungen noch lebhaft <lb/>beschäftigt
-               einem jungen <lb/>deutschen Reisenden Herrn <lb/>Julius <persName ref="https://edition-humboldt.de/v8/H0016890">Fischer</persName> seine <lb/>Herbarien zu zeigen<supplied cert="high">.</supplied>
-               <lb/>Er suchte alle Dek<lb/>blätter zusammen für <lb/>das neue Museum
-               <lb/>der Naturgeschichte <lb/>zu <placeName ref="https://www.geonames.org/3435217">Corrientes</placeName>
+               einem jungen <lb/>deutschen Reisenden Herrn <lb/>Julius <persName ref="https://editon-humboldt.de/H0016890">Fischer</persName> seine <lb/>Herbarien zu zeigen<supplied cert="high">.</supplied>
+               <lb/>Er suchte alle Dek<lb break="no"/>blätter zusammen für <lb/>das neue Museum
+               <lb/>der Naturgeschichte <lb/>zu <placeName ref="https://editon-humboldt.de/H0017334 https://www.geonames.org/3435217">Corrientes</placeName>
                dessen <lb/>Direction ihm von der <lb/>Regierung übertragen <lb/>ist<supplied cert="high">.</supplied> J’ai promis heisst <lb/>es in dem Briefe <foreign xml:lang="fra">„ <lb/>
                         <choice>
                      <abbr>Mr</abbr>
                      <expan>Monsieur</expan>
                   </choice> le Gouverneur actuel <lb/>de la Provence de <lb/>Corrientes, Don Juan
                      <lb/>
-                        <persName ref="http://d-nb.info/gnd/141658118">Pujol</persName>, homme très <lb/>colaire, les
+                        <persName ref="https://editon-humboldt.de/H0017100 http://d-nb.info/gnd/141658118">Pujol</persName>, homme très <lb/>colaire, les
                      <lb/>
                         <pb n="2r"/>doubles de toutes mes Collections <lb/>pour le Musée public et
                   je remplirai <lb/>ma promesse. Ce travail terminé, je <lb/>devrais parcourir les
@@ -156,7 +180,7 @@
                   <hi rendition="#u">même</hi>
                   <lb/>
                         <hi rendition="#u">mes Collections</hi> à <hi rendition="#u">
-                            <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                         </hi>
                   <hi rendition="#u">pour les déposer</hi>
                   <lb/>
@@ -170,7 +194,7 @@
                      d’avoir</hi>
                   <hi rendition="#u">de l’interêt</hi>
                         <supplied cert="high">.</supplied>
-                  <lb/>Mon voyage <hi rendition="#u">en <placeName>Europe</placeName> doit
+                  <lb/>Mon voyage <hi rendition="#u">en <placeName ref="https://editon-humboldt.de/">Europe</placeName> doit
                      être de <lb/>courte</hi>
                   <subst>
                      <del rendition="#s">
@@ -181,7 +205,7 @@
                             </add>
                   </subst>, <hi rendition="#u">car je veux <lb/>revenir à</hi>
                   <hi rendition="#u">
-                            <placeName ref="https://edition-humboldt.de/v8/H0017373">
+                            <placeName ref="https://editon-humboldt.de/H0017373">
                                 <choice>
                            <abbr>St</abbr>
                            <expan>Saint</expan>
@@ -200,25 +224,26 @@
                     </foreign>
                 </p>
             <p>Diese Stelle des Briefes ist sehr <lb/>beruhigend. Sie giebt die Gewissheit <lb/>dass
-               mein <persName ref="http://d-nb.info/gnd/118661604">Freund</persName> nie daran gedacht <lb/>hat seine
+               mein <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Freund</persName> nie daran gedacht <lb/>hat seine
                botanischen, <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
                <lb/>unedirten Schäze in einem unbesuchten <lb/>Provinzial-Museum zu vergraben
-               <lb/>sondern dass er diese Schäze <lb/>noch immer den Botanikern <placeName ref="https://www.geonames.org/6255148">Europa’s</placeName>
+               <lb/>sondern dass er diese Schäze <lb/>noch immer den Botanikern <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa’s</placeName>
                <lb/>bestimmt. Sollte er die Reise nach <lb/>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName> und <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> von der er oft
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> und <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> von der er oft
                in frühern <lb/>Briefen gesprochen nicht selbst <lb/>ausführen können, so wird er
-                  Vorkehr-<lb/>ungen treffen seine Herbarien und
+                  Vorkehr<g ref="#typoHyphen"/>
+                    <lb break="no"/>ungen treffen seine Herbarien und
                <lb/>Manuskripte (leztere sind von grosser <lb/>Wichtigkeit für die Geographie
                <lb/>der Pflanzen!) auf sicherem <lb/>Wege an die Proffessoren des <lb/>Jardin des
-               Plantes zu <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+               Plantes zu <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                <lb/>zu senden. Dort im Jardin <lb/>des Plantes werden schon <lb/>aufbewahrt alle
                botanischen <lb/>Tagebücher welche <lb/>in <choice>
                   <sic>mehren</sic>
                   <corr>mehreren</corr>
                </choice> Bänden <lb/>
-                    <persName ref="http://d-nb.info/gnd/118661604">
+                    <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">
                         <choice>
                      <orig>Bopland</orig>
                      <reg>Bonpland</reg>
@@ -240,20 +265,20 @@
                         <subst>
                      <del rendition="#s">je pense</del>
                      <add place="intralinear">Je compte</add>
-                  </subst> bientôt <lb/>aller d’ici à <placeName ref="https://edition-humboldt.de/v8/H0009832">San
-                     Borja</placeName> et <lb/>je serai de retour à <placeName ref="https://www.geonames.org/3435217">Corientes</placeName>
+                  </subst> bientôt <lb/>aller d’ici à <placeName ref="https://editon-humboldt.de/H0009832">San
+                     Borja</placeName> et <lb/>je serai de retour à <placeName ref="https://editon-humboldt.de/H0017334 https://www.geonames.org/3435217">Corientes</placeName>
                   <lb/>dans le courant de Septembre. <lb/>Je travaillerai <subst>
                      <del rendition="#s">
                                 <gap reason="illegible" unit="words" quantity="1"/>
                             </del>
                      <add place="intralinear">alors</add>
                   </subst> de <lb/>nouveau sans relâche aux <lb/>herbiers et je mettrai à <lb/>part
-                  pour la Prusse et <lb/>de préférence pour l’ Université <lb/>de <placeName ref="https://www.geonames.org/2917788">Greifswalde</placeName> qui m’a <lb/>donné tant de marques de
+                  pour la Prusse et <lb/>de préférence pour l’ Université <lb/>de <placeName ref="https://editon-humboldt.de/H0010918 https://www.geonames.org/2917788">Greifswalde</placeName> qui m’a <lb/>donné tant de marques de
                   son <lb/>souvenir bienveillant le <lb/>plus de plantes possibles <del rendition="#s">
                             <gap reason="illegible" quantity="1" unit="words"/>
                         </del>
                   <lb/>propres à cette partie de <lb/>
-                        <placeName ref="https://edition-humboldt.de/v8/H0002429">l’Amérique</placeName>, si peu visitée <lb/>
+                        <placeName ref="https://editon-humboldt.de/H0002429">l’Amérique</placeName>, si peu visitée <lb/>
                         <subst>
                      <del rendition="#s">
                                 <gap reason="illegible" unit="words" quantity="1"/>
@@ -263,7 +288,8 @@
                         <supplied cert="high">.</supplied>
                     </foreign>
                 </p>
-            <p>Ich darf wohl hoffen, <lb/>theurer Freund, dass mir <lb/>vom Journal nach <placeName ref="https://www.geonames.org/2852458">Pots-<lb/>dam</placeName> geschikt,
+            <p>Ich darf wohl hoffen, <lb/>theurer Freund, dass mir <lb/>vom Journal nach <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Pots<g ref="#typoHyphen"/>
+                        <lb break="no"/>dam</placeName> geschikt,
                wohin <lb/>ich Sonnabend leider! <lb/>überziehe, nur die <lb/>Correctur für alles
                <lb/>französische <lb/>vorgelegt wird. </p>
             <closer rend="paragraph">

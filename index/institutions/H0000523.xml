@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000523">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ägyptisches Museum Berlin</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ägyptisches Museum Berlin [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000523.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000523.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000523.xml">
-                    <p>Ägyptisches Museum Berlin [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000523.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0000523">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/7580725-7</idno>
                     <orgName type="reg">Ägyptisches Museum Berlin</orgName>
                     <orgName type="alt">Königliche Museen zu Berlin, Ägyptische Abteilung</orgName>
@@ -37,7 +42,7 @@
                         Kunstsammlungen gegründet und war zunächst im Schloss Monbijou untergebracht. 1855 zog die
                         Sammlung ins Neue Museum, wo sie sich bis zum Ausbruch des Zweiten Weltkrieges befand und
                         schließlich 2009 nach dem Wiederaufbau des Gebäudes hin zurückkehrte.
-                        <!-- Die Daten im Kommentar stimmen nicht mit den Daten bei der Unterorten überein: 1850 vs. 1855-->
+                        
                     </desc>
                     <linkGrp>
                         <ptr subtype="comment" target="14#17" type="letter"/>
@@ -45,14 +50,14 @@
                     <location from="1828" to="1850">
                         <address>
                             <idno type="uri">https://www.geonames.org/11524568</idno>
-                            <settlement key="H0005221">Berlin</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005221">Berlin</settlement>
                             <note>Schloss Monbijou</note>
                         </address>
                     </location>
                     <location from="1850" to="1939">
                         <address>
                             <idno type="uri">https://www.geonames.org/7911196</idno>
-                            <settlement key="H0005221">Berlin</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005221">Berlin</settlement>
                             <note>Neues Museum</note>
                         </address>
                     </location>

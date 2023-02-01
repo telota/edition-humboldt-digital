@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005459">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,42 +20,66 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Kunth, Carl Sigismund: Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur, 3. Auflage
+                    (Frühjahr 1849), hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0005459">https://edition-humboldt.de/v8/H0005459</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0005459</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0005459</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005459.xml</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="editorial">
-                    <p>In einem <ref target="H0002924">wohl im
+                    <p>In einem <ref target="https://edition-humboldt.de/H0002924">wohl im
                             Frühjahr
                             1849 verfassten Schreiben</ref> bat Humboldt Carl
                         Sigismund Kunth, ein Exemplar des bereits gedruckten (aber noch nicht
                         veröffentlichten) zweiten Bandes der dritten Auflage der Ansichten der Natur
-                            (<bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>)
+                            (<bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>)
                         durchzusehen. Humboldt beabsichtigte offenbar, Kunths Kommentare,
-                        Korrekturen und Zusätze in einer geplanten englischen Übersetzung (<bibl corresp="https://edition-humboldt.de/v8/MU3FGUXF">Humboldt 1849a</bibl>) zu
+                        Korrekturen und Zusätze in einer geplanten englischen Übersetzung (<bibl corresp="https://edition-humboldt.de/MU3FGUXF">Humboldt 1849a</bibl>) zu
                         berücksichtigen. Die hier dokumentierten Anmerkungen Kunths gingen jedoch
                         nicht in die englische Ausgabe oder eine andere Ausgabe der Ansichten
                         ein.</p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur, 3. Auflage
-                    (Frühjahr 1849). In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0005459</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 8, Nr. 21, Bl. 3r-8v</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1288911</idno>
+                            <idno type="URN">http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000001</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 150–154.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund</persName>
+                <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund</persName>
             </creation>
         </profileDesc>
     </teiHeader>
@@ -64,15 +88,15 @@
             <div>
                 <pb n="3r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000005"/>
                 <p>
-                    <ref xml:id="ccd7c6ff-663f-4d68-97c6-ff663fad6859" corresp="#e1261387-d0cb-4489-a613-87d0cb54891f">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="cd0601a7-008a-4f53-8601-a7008abf5375" corresp="#ee13b07b-58e2-4793-93b0-7b58e2a79345">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 145.</bibl>
                     </ref>
-                    <note xml:id="e1261387-d0cb-4489-a613-87d0cb54891f" corresp="#ccd7c6ff-663f-4d68-97c6-ff663fad6859">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
+                    <note xml:id="ee13b07b-58e2-4793-93b0-7b58e2a79345" corresp="#cd0601a7-008a-4f53-8601-a7008abf5375">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
                 </p>
                 <p>Wieviel Pflanzenarten es überhaupt auf
                     <lb/>der Erde giebt, und wieviel davon auf jede
@@ -86,17 +110,20 @@
                     <lb/>Kriterium dafür, die gemeinschaftliche <lb/>Abstammung von ein und
                     demselben <lb/>Individuum, läßt sich nur in sehr seltenen <lb/>Fällen und dann
                     jederzeit nur bis auf <lb/>einen gewissen Punkt nachweisen. Sie <lb/>wird daher
-                    blos aus Gründen der Wahr-<lb/>scheinlichkeit,
+                    blos aus Gründen der Wahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlichkeit,
                     wegen der <subst>
                         <del rendition="#s">größern oder</del>
                         <lb/>
                         <add place="intralinear">großen</add>
-                    </subst> Uebereinstimmung aller Merk-<lb/>male,
+                    </subst> Uebereinstimmung aller Merk<g ref="#typoHyphen"/>
+                    <lb break="no"/>male,
                     vorausgesetzt, wobei <subst>
                         <del rendition="#s">Nothwendig</del>
-                        <add place="intralinear">noth-<lb/>wendig</add>
+                        <add place="intralinear">noth<g ref="#typoHyphen"/>
+                            <lb break="no"/>wendig</add>
                     </subst> die Individualität des Botanikers <lb/>in Betracht kommt. So machen
-                        <persName ref="http://d-nb.info/gnd/115358471">Reichenbach</persName>
+                        <persName ref="https://editon-humboldt.de/H0000795 http://d-nb.info/gnd/115358471">Reichenbach</persName>
                     <lb/>und <space dim="horizontal" unit="words" quantity="1"/> offenbar zu viel,
                     andere <lb/>zu wenig Arten. Aber auch die Familien <lb/>
                     <pb n="3v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000006"/>selbst <subst>
@@ -124,11 +151,14 @@
                         <expan>Beispiel</expan>
                     </choice> den Orchideen, auf wichtigere <lb/>und beständigere Merkmale Rücksicht
                     <lb/>genommen. Eine Ausgleichung der hierbei <lb/>stattfindenden Irrthümer ist
-                    aber nicht an-<lb/>zunehmen. Blos in dem Falle, da<subst>
+                    aber nicht an<g ref="#typoHyphen"/>
+                    <lb break="no"/>zunehmen. Blos in dem Falle, da<subst>
                         <del rendition="#ow">s</del>
                         <add place="across">ß</add>
-                    </subst> sämmt-<lb/>liche Pflanzenarten von
-                    einem und demselben <lb/>Botaniker und nach demselben Princip unter-<lb/>sucht und bearbeitet worden wären, würde
+                    </subst> sämmt<g ref="#typoHyphen"/>
+                    <lb break="no"/>liche Pflanzenarten von
+                    einem und demselben <lb/>Botaniker und nach demselben Princip unter<g ref="#typoHyphen"/>
+                    <lb break="no"/>sucht und bearbeitet worden wären, würde
                     <lb/>sich vielleicht ein richtigeres <hi rendition="#u">relatives</hi>
                     <lb/>Zahlenverhältniß zwischen den Familien <lb/>herausstellen, aber nie die <hi rendition="#u">absolute</hi>
                     <lb/>Zahl <add place="superlinear">weder</add> aller bekannten Arten <subst>
@@ -143,26 +173,28 @@
                     </subst> ergeben.</p>
                 <pb n="4r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000007"/>
                 <p>
-                    <ref xml:id="fe0d8556-8b49-479f-8d85-568b49b79fa1" corresp="#faba43b4-4fd5-4b73-ba43-b44fd53b7335">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="ec5218c2-f03a-4e9c-9218-c2f03a8e9c0d" corresp="#ceca3cd3-62d4-4dd8-8a3c-d362d46dd8a9">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 182.</bibl>
                     </ref>
-                    <note xml:id="faba43b4-4fd5-4b73-ba43-b44fd53b7335" corresp="#fe0d8556-8b49-479f-8d85-568b49b79fa1">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
+                    <note xml:id="ceca3cd3-62d4-4dd8-8a3c-d362d46dd8a9" corresp="#ec5218c2-f03a-4e9c-9218-c2f03a8e9c0d">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
                 </p>
                 <p>Daß der Stamm der Coniferen eine so bedeutende <lb/>Höhe erreicht, kann
                     vielleicht darin seinen <lb/>Grund haben, daß hier die respectiven <lb/>Aeste
                     (Triebe) nicht in <add place="superlinear">ihren</add>
-                    <hi rendition="#u">sämmtlichen</hi> Blatt-<lb/>achseln, sondern <hi rendition="#u">nur in <add place="superlinear">
+                    <hi rendition="#u">sämmtlichen</hi> Blatt<g ref="#typoHyphen"/>
+                    <lb break="no"/>achseln, sondern <hi rendition="#u">nur in <add place="superlinear">
                             <del rendition="#s">
                                 <gap quantity="1" unit="words"/>
                             </del>
                         </add>
                         einigen</hi> der <lb/>obern Knospen ausbilden, wodurch <choice>
-                        <sic>noth-<lb/>wenig</sic>
+                        <sic>noth<g ref="#typoHyphen"/>
+                            <lb break="no"/>wenig</sic>
                         <corr cert="high">nothwendig</corr>
                     </choice> jene weniger erschöpft werden, <lb/>sich also kräftiger ausbilden <add place="superlinear">können</add>, als bei <lb/>den Laubhölzern (<choice>
                         <abbr>z.</abbr>
@@ -175,7 +207,7 @@
                     <hi rendition="#u">in allen Blattachseln</hi>
                     Knospen erzeugen.</p>
                 <p>
-                    <persName ref="http://d-nb.info/gnd/100122434">Endlicher</persName> theilt die Coniferen, welche
+                    <persName ref="https://editon-humboldt.de/H0005935 http://d-nb.info/gnd/100122434">Endlicher</persName> theilt die Coniferen, welche
                     <lb/>er als eine <hi rendition="#u">Klasse</hi> betrachtet wissen will, <lb/>in
                     vier <hi rendition="#u">Familien</hi>: die Cupressineen, <lb/>Abietineen,
                     Taxineen und Gneteen <lb/>(Ephedra, Gnetum). Für andere Botaniker <lb/>
@@ -189,30 +221,31 @@
                 <pb n="4v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000008"/>
 
                 <p>
-                    <ref xml:id="c55e484d-bfdb-4bfa-9e48-4dbfdb3bfad0" corresp="#c579caf1-0d4e-42cf-b9ca-f10d4ed2cf64">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="c4c9b092-e504-48d6-89b0-92e50478d6c1" corresp="#f503339b-199e-4dbe-8333-9b199e7dbe78">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 201.</bibl>
                     </ref>
-                    <note xml:id="c579caf1-0d4e-42cf-b9ca-f10d4ed2cf64" corresp="#c55e484d-bfdb-4bfa-9e48-4dbfdb3bfad0">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
+                    <note xml:id="f503339b-199e-4dbe-8333-9b199e7dbe78" corresp="#c4c9b092-e504-48d6-89b0-92e50478d6c1">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
                 </p>
                 <p>Sehr große Verschiedenheiten in der Länge <lb/>der Nadeln (<measure quantity="1" unit="zoll_preussisch">1</measure>–<measure quantity="3" unit="zoll_preussisch">3 Zoll</measure>) und in der Größe <lb/>der Zapfen
-                        (<measure quantity="1" unit="zoll_preussisch">1</measure>–<measure quantity="3" unit="zoll_preussisch">3 Zoll</measure>) habe ich an <name type="plant">Pinus <lb/>Sylvestris</name> in <placeName ref="https://www.geonames.org/6614002">Morfontaines</placeName> bei <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
-                        beo-<lb/>bachtet, so daß man hier leicht in
+                        (<measure quantity="1" unit="zoll_preussisch">1</measure>–<measure quantity="3" unit="zoll_preussisch">3 Zoll</measure>) habe ich an <name type="plant">Pinus <lb/>Sylvestris</name> in <placeName ref="https://editon-humboldt.de/H0009002 https://www.geonames.org/6614002">Morfontaines</placeName> bei <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
+                        beo<g ref="#typoHyphen"/>
+                    <lb break="no"/>bachtet, so daß man hier leicht in
                     Versuchung <lb/>kommen könnte, verschiedene Arten zu <lb/>unterscheiden.</p>
                 <p>
-                    <ref xml:id="a84218c9-4d9d-40ae-8218-c94d9db0aecb" corresp="#da085cde-f6b4-4cff-885c-def6b4ccff1b">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="a2f02c95-17ca-4eb8-b02c-9517caeeb8e5" corresp="#f54a2814-3fd3-4e97-8a28-143fd33e976e">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 203.</bibl>
                     </ref>
-                    <note xml:id="da085cde-f6b4-4cff-885c-def6b4ccff1b" corresp="#a84218c9-4d9d-40ae-8218-c94d9db0aecb">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Ich kann in meiner Ansicht <lb/>über das sogenannte Umwallen <subst>
+                    <note xml:id="f54a2814-3fd3-4e97-8a28-143fd33e976e" corresp="#a2f02c95-17ca-4eb8-b02c-9517caeeb8e5">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Ich kann in meiner Ansicht <lb/>über das sogenannte Umwallen <subst>
                         <del rendition="#s">des</del>
                         <add place="intralinear">der</add>
                     </subst>
@@ -227,11 +260,11 @@
                     </note>
                 </p>
                 <p>
-                    <ref xml:id="dd8cce5b-74eb-4c9d-8cce-5b74eb5c9dfc" corresp="#e92bdbd4-cedf-4e20-abdb-d4cedfae20cf">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Pag. 206.</bibl>
+                    <ref xml:id="b51aba8d-7220-408c-9aba-8d7220408cfb" corresp="#d7c36ae5-7fe1-44ae-836a-e57fe124ae27">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Pag. 206.</bibl>
                     </ref>
-                    <note xml:id="e92bdbd4-cedf-4e20-abdb-d4cedfae20cf" corresp="#dd8cce5b-74eb-4c9d-8cce-5b74eb5c9dfc">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
+                    <note xml:id="d7c36ae5-7fe1-44ae-836a-e57fe124ae27" corresp="#b51aba8d-7220-408c-9aba-8d7220408cfb">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
                 </p>
                 <p>Die Blätter von <name type="plant">
                         <choice>
@@ -239,14 +272,14 @@
                             <corr cert="high">Ginkgo</corr>
                         </choice>
                     </name> sind nicht kurz <lb/>sondern ziemlich (<measure quantity="1" unit="zoll_preussisch">1</measure>–<measure quantity="2" unit="zoll_preussisch">2 Zoll</measure>) lang gestielt, <lb/>
-                    <persName ref="http://d-nb.info/gnd/100122434">Endlicher</persName> nennt sie selbst
+                    <persName ref="https://editon-humboldt.de/H0005935 http://d-nb.info/gnd/100122434">Endlicher</persName> nennt sie selbst
                     longe
                     petiolata.</p>
                 
                     <pb n="5r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000009"/>
                     <p>
-                    <ref xml:id="e05d3bde-42c9-4d16-9d3b-de42c93d1639" corresp="#f529b808-4778-4324-a9b8-084778d324b4">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="e0f4c99c-cda8-4cd9-b4c9-9ccda8ecd914" corresp="#b502496c-008b-4142-8249-6c008b5142b5">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
@@ -255,8 +288,8 @@
                                     <expan>Anmerkung</expan>
                                 </choice> 24.</bibl>
                     </ref>
-                    <note xml:id="f529b808-4778-4324-a9b8-084778d324b4" corresp="#e05d3bde-42c9-4d16-9d3b-de42c93d1639">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
+                    <note xml:id="b502496c-008b-4142-8249-6c008b5142b5" corresp="#e0f4c99c-cda8-4cd9-b4c9-9ccda8ecd914">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
                 </p>
                 <p>Die beiden Gattungen <name type="plant">
                         <choice>
@@ -268,7 +301,7 @@
                         <del rendition="#s">ist <lb/>giebt es außer</del>
                         <add place="intralinear">besteht</add>
                     </subst> die letztere <del rendition="#s">jetzt</del> blos noch <lb/>aus <name type="plant">Pothos scandens</name>
-                    <persName ref="http://d-nb.info/gnd/118573349">
+                    <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                         <choice>
                             <abbr>L.</abbr>
                             <expan>Linné</expan>
@@ -276,10 +309,11 @@
                     </persName> und <subst>
                         <del rendition="#s">3</del>
                         <add place="intralinear">vier</add>
-                    </subst> zweifel-<lb/>haften <persName ref="http://d-nb.info/gnd/117598275">Roxburghschen</persName> Arten, und kommt blos <lb/>in
-                        <placeName ref="https://www.geonames.org/1643084">Ostindien</placeName> vor. Die sehr zahlreichen
+                    </subst> zweifel<g ref="#typoHyphen"/>
+                    <lb break="no"/>haften <persName ref="https://editon-humboldt.de/H0001103 http://d-nb.info/gnd/117598275">Roxburghschen</persName> Arten, und kommt blos <lb/>in
+                        <placeName ref="https://editon-humboldt.de/H0007873 https://www.geonames.org/1643084">Ostindien</placeName> vor. Die sehr zahlreichen
                         <lb/>
-                    <placeName ref="https://edition-humboldt.de/v8/H0002429">amerikanischen</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0002429">amerikanischen</placeName>
                     <add place="superlinear">
                         <name type="plant">Pothos</name>-</add>Arten bilden <subst>
                         <del rendition="#s">jetzt die</del>
@@ -298,7 +332,8 @@
                         <lb/>
                     <name type="plant">Arisaema</name>, <name type="plant">Sauromat<del rendition="#s">
                             <unclear reason="illegible" cert="low">r</unclear>
-                        </del>um</name>, <name type="plant">Amorpho-<lb/>phallus</name>, <name type="plant">
+                        </del>um</name>, <name type="plant">Amorpho<g ref="#typoHyphen"/>
+                        <lb break="no"/>phallus</name>, <name type="plant">
                         <subst>
                             <del rendition="#s">Colcas</del>
                             <add place="intralinear">Colocasia</add>
@@ -315,13 +350,13 @@
                 <p>
                     <name type="plant">Caladium arboreum</name> ist jetzt ein <lb/>
                     <name type="plant">Philodendrum</name>; diese letztere Gattung <lb/>ist blos
-                        <placeName ref="https://edition-humboldt.de/v8/H0002429">amerikanisch</placeName> und ziemlich <lb/>reich
+                        <placeName ref="https://editon-humboldt.de/H0002429">amerikanisch</placeName> und ziemlich <lb/>reich
                     an Arten.</p>
                 <p>
                     <name type="plant">Arum Dracunculus</name> jetzt <name type="plant">Dracunculus
                         vulgaris</name>
                     <add place="sublinear">
-                        <persName ref="http://d-nb.info/gnd/104197099">Schott</persName>
+                        <persName ref="https://editon-humboldt.de/H0015663 http://d-nb.info/gnd/104197099">Schott</persName>
                     </add>.</p>
                 <p>
                     <name type="plant">
@@ -330,7 +365,7 @@
                             <reg>Arum</reg>
                         </choice> tenuifolium</name> = <name type="plant">Biarum tenuifolium</name>
                     <add place="intralinear">
-                        <persName ref="http://d-nb.info/gnd/104197099">Schott</persName>.</add>
+                        <persName ref="https://editon-humboldt.de/H0015663 http://d-nb.info/gnd/104197099">Schott</persName>.</add>
                 </p>
                 <p>
                     <name type="plant">
@@ -338,9 +373,9 @@
                             <orig>—</orig>
                             <reg>Arum</reg>
                         </choice> cordifolium</name>
-                    <persName ref="http://d-nb.info/gnd/100050395">Bory</persName> = <name type="plant">Colocasia<metamark>?</metamark> Boryi</name>
+                    <persName ref="https://editon-humboldt.de/H0003511 http://d-nb.info/gnd/100050395">Bory</persName> = <name type="plant">Colocasia<metamark>?</metamark> Boryi</name>
                     <add place="intralinear">
-                        <persName ref="http://d-nb.info/gnd/115674667">
+                        <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">
                             <choice>
                                 <abbr>Kth</abbr>
                                 <expan>Kunth</expan>
@@ -349,12 +384,12 @@
                 </p>
                 <p>
                     <name type="plant">Dracontium</name> (<name type="plant">Calla</name>
-                    <persName ref="http://d-nb.info/gnd/115674667">
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">
                         <choice>
                             <abbr>Kth.</abbr>
                             <expan>Kunth</expan>
                         </choice>
-                    </persName>) pertusum<persName ref="http://d-nb.info/gnd/118573349">
+                    </persName>) pertusum<persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                         <choice>
                             <abbr>Linn</abbr>
                             <expan>Linné</expan>
@@ -364,26 +399,26 @@
                         <add place="intralinear">heißt</add>
                         <del rendition="#s">ist</del>
                     </subst> jetzt <name type="plant">Monstera Adansonii</name>
-                    <persName ref="http://d-nb.info/gnd/104197099">Schott</persName>.</p>
+                    <persName ref="https://editon-humboldt.de/H0015663 http://d-nb.info/gnd/104197099">Schott</persName>.</p>
                 <p>
-                    <del rendition="#s">Von Aletris arborea <persName ref="http://d-nb.info/gnd/117387436">Willd.</persName> (Dracaena <lb/>arborea <persName ref="http://d-nb.info/gnd/104268190">Link</persName>) ist spa wird späte</del>
+                    <del rendition="#s">Von Aletris arborea <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willd.</persName> (Dracaena <lb/>arborea <persName ref="https://editon-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">Link</persName>) ist spa wird späte</del>
                     <del rendition="#s">r <lb/>in
                         der Note zu pag. 247 die Rede sein.</del>
                 </p>
                 <p>
-                    <ref xml:id="aca47e9f-3231-4ee1-a47e-9f32315ee1d9" corresp="#fb1a0d8a-0a20-4add-9a0d-8a0a20badd1e">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="d8ae8dee-ffa6-47f5-ae8d-eeffa6f7f5bc" corresp="#f6f887f6-39c9-457e-b887-f639c9157e33">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 213.</bibl>
                     </ref>
-                    <note xml:id="fb1a0d8a-0a20-4add-9a0d-8a0a20badd1e" corresp="#aca47e9f-3231-4ee1-a47e-9f32315ee1d9">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Die <subst>
+                    <note xml:id="f6f887f6-39c9-457e-b887-f639c9157e33" corresp="#d8ae8dee-ffa6-47f5-ae8d-eeffa6f7f5bc">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Die <subst>
                         <del rendition="#s">bei</del>
                         <add place="intralinear">beiden</add>
                     </subst>
-                    <name type="plant">Dracaena</name>-Arten <lb/>aus <placeName ref="https://www.geonames.org/2077456">Neuholland</placeName> heißen jetzt <name type="plant">Cordyline
+                    <name type="plant">Dracaena</name>-Arten <lb/>aus <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Neuholland</placeName> heißen jetzt <name type="plant">Cordyline
                         <lb/>terminalis</name> und <name type="plant">
                         <supplied cert="high">Cordyline</supplied> indivisa</name>. Es giebt <lb/>aber außerdem <del rendition="#s">ja</del>
                     <add place="superlinear">
@@ -398,17 +433,17 @@
                 
                     <pb n="6r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000011"/>
                     <p>
-                    <ref xml:id="a5deca58-b6a7-4cfa-9eca-58b6a74cfad1" corresp="#c0d65d23-7065-4b0e-965d-2370653b0ed6">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="cc29d24a-22cf-4055-a9d2-4a22cf5055ee" corresp="#af123dca-05f3-4423-923d-ca05f3942300">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 213.</bibl>
                     </ref>
-                    <note xml:id="c0d65d23-7065-4b0e-965d-2370653b0ed6" corresp="#a5deca58-b6a7-4cfa-9eca-58b6a74cfad1">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Da das Genus <name type="plant">Rhipidodendrum</name>
+                    <note xml:id="af123dca-05f3-4423-923d-ca05f3942300" corresp="#cc29d24a-22cf-4055-a9d2-4a22cf5055ee">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Da das Genus <name type="plant">Rhipidodendrum</name>
                     <lb/>
-                    <persName ref="http://d-nb.info/gnd/117387436">
+                    <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">
                         <choice>
                             <abbr>Willd.</abbr>
                             <expan>Willdenow</expan>
@@ -417,38 +452,38 @@
                     <name type="plant">Aloe</name> beibehalten wird, so dürfte vielleicht das <lb/>
                     <hi rendition="#u">einst</hi> zu streichen sein.</p>
                 <p>
-                    <ref xml:id="d981f697-e538-40e7-81f6-97e53880e768" corresp="#d473798e-9b9e-4db1-b379-8e9b9eddb1fc">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="ba46b23d-cbf7-4017-86b2-3dcbf760173b" corresp="#c5031a74-cead-4efb-831a-74cead4efb11">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 214.</bibl>
                     </ref>
-                    <note xml:id="d473798e-9b9e-4db1-b379-8e9b9eddb1fc" corresp="#d981f697-e538-40e7-81f6-97e53880e768">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Würde es auf jeden Fall heißen <lb/>müssen: <name type="plant">Phytelephas macrocarpa</name> (aus <lb/>
-                    <placeName ref="https://www.geonames.org/3932488">Peru</placeName>
+                    <note xml:id="c5031a74-cead-4efb-831a-74cead4efb11" corresp="#ba46b23d-cbf7-4017-86b2-3dcbf760173b">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Würde es auf jeden Fall heißen <lb/>müssen: <name type="plant">Phytelephas macrocarpa</name> (aus <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName>
                     <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice>
-                    <placeName ref="https://edition-humboldt.de/v8/H0001610">
+                    <placeName ref="https://editon-humboldt.de/H0001610">
                         <choice>
                             <sic>Neu-Granata</sic>
                             <corr cert="high">Neu-Granada</corr>
                         </choice>
                     </placeName>) und <name type="plant">
                         <supplied cert="high">Phytelephas</supplied> microcarpa</name>
-                    <lb/>(aus <placeName ref="https://www.geonames.org/3932488">Peru</placeName>) <persName ref="http://d-nb.info/gnd/141829850">Ruiz.</persName> et<persName ref="http://d-nb.info/gnd/12476021X">
+                    <lb/>(aus <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName>) <persName ref="https://editon-humboldt.de/H0001131 http://d-nb.info/gnd/141829850">Ruiz.</persName> et<persName ref="https://editon-humboldt.de/H0001818 http://d-nb.info/gnd/12476021X">
                         <choice>
                             <abbr>Pav.</abbr>
                             <expan>Pavón</expan>
                         </choice>
                     </persName> sind daher die <hi rendition="#u">beiden</hi>
-                    <lb/>einzigen Pandaneen des <placeName ref="https://edition-humboldt.de/v8/H0002429">neuen
+                    <lb/>einzigen Pandaneen des <placeName ref="https://editon-humboldt.de/H0002429">neuen
                         Continents</placeName>. <lb/>Dies ist aber nicht richtig, denn <name type="plant">Phytelephas</name>
-                    <lb/>ist blos ein genus Pandaneis affine, ächte <lb/>Pandaneen des <placeName ref="https://edition-humboldt.de/v8/H0002429">neuen Continents</placeName> dagegen sind: <lb/>
+                    <lb/>ist blos ein genus Pandaneis affine, ächte <lb/>Pandaneen des <placeName ref="https://editon-humboldt.de/H0002429">neuen Continents</placeName> dagegen sind: <lb/>
                     <name type="plant">Carludovica</name>
-                    <persName ref="http://d-nb.info/gnd/141829850">Ruiz</persName>. et<persName ref="http://d-nb.info/gnd/12476021X">
+                    <persName ref="https://editon-humboldt.de/H0001131 http://d-nb.info/gnd/141829850">Ruiz</persName>. et<persName ref="https://editon-humboldt.de/H0001818 http://d-nb.info/gnd/12476021X">
                         <choice>
                             <abbr>Pav.</abbr>
                             <expan>Pavón</expan>
@@ -456,29 +491,29 @@
                     </persName> (mit 9 Arten)<supplied cert="high">,</supplied>
                     <lb/>
                     <name type="plant">Cyclanthus</name>
-                    <persName ref="http://d-nb.info/gnd/1018524282">
+                    <persName ref="https://editon-humboldt.de/H0002054 http://d-nb.info/gnd/1018524282">
                         <choice>
                             <abbr>Poit.</abbr>
                             <expan>Poiteau</expan>
                         </choice>
                     </persName> (mit 2 Arten) und <name type="plant">Wettinia</name>
                     <lb/>
-                    <persName ref="http://d-nb.info/gnd/119551853">
+                    <persName ref="https://editon-humboldt.de/H0002046 http://d-nb.info/gnd/119551853">
                         <choice>
                             <abbr>Poepp.</abbr>
                             <expan>Poeppig</expan>
                         </choice>
                     </persName> (mit 1 Art.)</p>
                 <p>
-                    <ref xml:id="b8a0e6fb-ace4-4c14-a0e6-fbace41c148e" corresp="#fd900c41-e8ae-415f-900c-41e8aed15f9c">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="f0dff6ef-a3bc-4e93-9ff6-efa3bc0e93aa" corresp="#c963ab5c-04b8-422d-a3ab-5c04b8522dd7">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 228.</bibl>
                     </ref>
-                    <note xml:id="fd900c41-e8ae-415f-900c-41e8aed15f9c" corresp="#b8a0e6fb-ace4-4c14-a0e6-fbace41c148e">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note> <hi rendition="#u">Liliengewächse</hi>. <subst>
+                    <note xml:id="c963ab5c-04b8-422d-a3ab-5c04b8522dd7" corresp="#f0dff6ef-a3bc-4e93-9ff6-efa3bc0e93aa">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note> <hi rendition="#u">Liliengewächse</hi>. <subst>
                         <del rendition="#s">Hierunter</del>
                         <add place="intralinear">Hiermit</add>
                     </subst>
@@ -487,7 +522,7 @@
                     <lb/>
                     <name type="plant">Crinum</name>) die Amaryllideen gemeint <lb/>zu sein.
                         <del rendition="#s">Das Haupt Vaterland der <lb/>einzi ächten Amaryllis ist
-                            <placeName ref="https://www.geonames.org/6255146">Afrika</placeName>.</del>
+                            <placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">Afrika</placeName>.</del>
                 </p>
                 
                     <pb n="6v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000012"/>
@@ -497,8 +532,9 @@
                         <del rendition="#s">die</del>
                     </subst> Gattung<del rendition="#s">en</del>
                     <name type="plant">Amaryllis</name>, in der jetzigen <lb/>engern Begrenzung, ist
-                    das <placeName ref="https://www.geonames.org/3367577">Vorgebirge <lb/>der guten Hoffnung</placeName>;
-                        <name type="plant">Zephyranthes</name>, <name type="plant">Ha-<lb/>branthus</name>, <name type="plant">Hippeastrum</name> und mehrere <lb/>andere auf Unkosten von <name type="plant">Amaryllis</name>
+                    das <placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">Vorgebirge <lb/>der guten Hoffnung</placeName>;
+                        <name type="plant">Zephyranthes</name>, <name type="plant">Ha<g ref="#typoHyphen"/>
+                        <lb break="no"/>branthus</name>, <name type="plant">Hippeastrum</name> und mehrere <lb/>andere auf Unkosten von <name type="plant">Amaryllis</name>
                     <lb/>
                     <subst>
                         <del rendition="#s">be</del>
@@ -507,15 +543,15 @@
                         <sic>gehören</sic>
                         <corr cert="high">sind</corr>
                     </choice>
-                    <add place="superlinear">dagegen</add> in <placeName ref="https://edition-humboldt.de/v8/H0002429">Amerika</placeName>
+                    <add place="superlinear">dagegen</add> in <placeName ref="https://editon-humboldt.de/H0002429">Amerika</placeName>
                     <lb/>zu Hause. <name type="plant">Haemanthus</name> kommt <del rendition="#s">fast</del>
-                    <lb/>nur in <placeName ref="https://www.geonames.org/6255146">Afrika</placeName> vor. Unser <name type="plant">Haemanthus
+                    <lb/>nur in <placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">Afrika</placeName> vor. Unser <name type="plant">Haemanthus
                     <lb/>dubius</name> gehört einer andern Gattung <lb/>(<name type="plant">Phaed<del rendition="#s">e</del>ranassa <choice>
                             <sic>chloracea</sic>
                             <corr cert="high">chloracra</corr>
                         </choice>
                     </name>
-                    <persName ref="http://d-nb.info/gnd/11751778X">
+                    <persName ref="https://editon-humboldt.de/H0011799 http://d-nb.info/gnd/11751778X">
                         <add place="superlinear">
                             <choice>
                                 <abbr>Herb.</abbr>
@@ -524,7 +560,7 @@
                         </add>
                     </persName>) an.</p>
                 <p>Die eigentlichen Liliaceen (Tulipaceen <lb/>
-                    <persName ref="http://d-nb.info/gnd/116442921">
+                    <persName ref="https://editon-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">
                         <choice>
                             <abbr>DC.</abbr>
                             <expan>de Candolle</expan>
@@ -543,11 +579,11 @@
                     <name type="plant">Lilium</name>, <name type="plant">Fritillaria</name>, <name type="plant">Tulipa</name>, <name type="plant">Gagea</name>, <lb/>
                     <del rendition="#s">f</del>
                     <name type="plant">Yucca</name>) fehlen meines Wissens am <lb/>
-                    <placeName ref="https://www.geonames.org/3367577">Cap</placeName> gänzlich<supplied cert="high">.</supplied>
+                    <placeName ref="https://editon-humboldt.de/H0000355 https://www.geonames.org/3367577">Cap</placeName> gänzlich<supplied cert="high">.</supplied>
                 </p>
                 <p>
-                    <ref xml:id="ffb65e96-ce91-47b2-b65e-96ce9147b27c" corresp="#bc1815b9-047e-4210-9815-b9047ed21087">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="ca348139-b382-4f26-b481-39b3829f2656" corresp="#fb656c28-9371-41e9-a56c-28937161e93a">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
@@ -556,48 +592,50 @@
                                     <expan>note</expan>
                                 </choice> 29.</bibl>
                     </ref>
-                    <note xml:id="bc1815b9-047e-4210-9815-b9047ed21087" corresp="#ffb65e96-ce91-47b2-b65e-96ce9147b27c">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Wenn das am Ende des Satzes <lb/>
+                    <note xml:id="fb656c28-9371-41e9-a56c-28937161e93a" corresp="#ca348139-b382-4f26-b481-39b3829f2656">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note> Wenn das am Ende des Satzes <lb/>
                     <subst>
                         <del rendition="#ow">g</del>
                         <add place="across">G</add>
                     </subst>esagte überhaupt behauptet werden kann, so <lb/>gilt es alsdann von <hi rendition="#u">sämmtlichen</hi> Irideen. </p>
                 <p>
-                    <ref xml:id="be9b2681-1c35-495b-9b26-811c35395bd8" corresp="#b6bff19f-2c2f-4536-bff1-9f2c2f153645">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="b6a1fe91-935d-4899-a1fe-91935d689934" corresp="#d411d98c-c5ee-46b4-91d9-8cc5ee16b42e">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 236.</bibl>
                     </ref>
-                    <note xml:id="b6bff19f-2c2f-4536-bff1-9f2c2f153645" corresp="#be9b2681-1c35-495b-9b26-811c35395bd8">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>Ich würde setzen: Die Gruppe begreift <lb/>die beiden großen <persName ref="http://d-nb.info/gnd/118573349">Linnéischen</persName> Geschlechter <name type="plant">Melastoma</name>
+                    <note xml:id="d411d98c-c5ee-46b4-91d9-8cc5ee16b42e" corresp="#b6a1fe91-935d-4899-a1fe-91935d689934">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>Ich würde setzen: Die Gruppe begreift <lb/>die beiden großen <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Linnéischen</persName> Geschlechter <name type="plant">Melastoma</name>
                     <lb/>und <name type="plant">Rhexia</name> in sich, welche von spätern Botanikern
-                    <lb/>namentlich <persName ref="http://d-nb.info/gnd/116442921">Decandolle</persName> in zahlreiche
-                    kleinere zer-<lb/>theilt worden sind und zwar
+                    <lb/>namentlich <persName ref="https://editon-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">Decandolle</persName> in zahlreiche
+                    kleinere zer<g ref="#typoHyphen"/>
+                    <lb break="no"/>theilt worden sind und zwar
                     mit Recht. </p>
                 
                     <pb n="7r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000013"/>
                     <p>
-                    <ref xml:id="c07710f9-939a-4e7a-b710-f9939aee7aba" corresp="#fbc33013-05e0-48b6-8330-1305e018b6bb">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="e4a40a7d-8e0b-4a9c-a40a-7d8e0b4a9c7a" corresp="#afb0a03e-8d28-49ac-b0a0-3e8d2879acf4">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 227.</bibl>
                     </ref>
-                    <note xml:id="fbc33013-05e0-48b6-8330-1305e018b6bb" corresp="#c07710f9-939a-4e7a-b710-f9939aee7aba">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
+                    <note xml:id="afb0a03e-8d28-49ac-b0a0-3e8d2879acf4" corresp="#e4a40a7d-8e0b-4a9c-a40a-7d8e0b4a9c7a">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
                 </p>
                 <p>
-                    <ref xml:id="b350c89e-a2c7-4e21-90c8-9ea2c78e21c3" corresp="#e7a6dd8d-7bbe-424b-a6dd-8d7bbe524b70">
-                        <persName ref="http://d-nb.info/gnd/102640122">Graf Suminski</persName>
+                    <ref xml:id="efb9bcff-86ae-41eb-b9bc-ff86ae61ebbd" corresp="#b824098d-98e2-4c7d-a409-8d98e2dc7de9">
+                        <persName ref="https://editon-humboldt.de/H0004485 http://d-nb.info/gnd/102640122">Graf Suminski</persName>
                         </ref>
-                    <note xml:id="e7a6dd8d-7bbe-424b-a6dd-8d7bbe524b70" corresp="#b350c89e-a2c7-4e21-90c8-9ea2c78e21c3">
-                        <bibl corresp="https://edition-humboldt.de/v8/BHXBR3K8">Leszczyc-Sumiński 1848</bibl>, 10–14.</note> erklärt das was <lb/>
-                    <persName ref="http://d-nb.info/gnd/115774874">Nägeli</persName> bei den
+                    <note xml:id="b824098d-98e2-4c7d-a409-8d98e2dc7de9" corresp="#efb9bcff-86ae-41eb-b9bc-ff86ae61ebbd">
+                        <bibl corresp="https://edition-humboldt.de/BHXBR3K8">Leszczyc-Sumiński 1848</bibl>, 10–14.</note> erklärt das was <lb/>
+                    <persName ref="https://editon-humboldt.de/H0004894 http://d-nb.info/gnd/115774874">Nägeli</persName> bei den
                     Farrn für zwei verschiedne <lb/>Entwicklungsstufen der Antheridien
-                    <lb/>(Spiralfaserorgane, <del rendition="#s">deren eigentliche Func-<lb/>tionen noch unbekannt sind) erklärt
+                    <lb/>(Spiralfaserorgane, <del rendition="#s">deren eigentliche Func<g ref="#typoHyphen"/>
+                        <lb break="no"/>tionen noch unbekannt sind) erklärt
                         sie <lb/>und</del> wovon Analoga bei den Moosen<del rendition="#s">)</del>
                     <lb/>
                     <del rendition="#s">hält für</del> vorkommen, deren eigentliche
@@ -613,18 +651,19 @@
                 
                     <pb n="8r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000015"/>
                     <p>
-                    <ref xml:id="fde9625f-5e2d-406e-a962-5f5e2d506e5d" corresp="#c6a0ef72-f0f3-4fc0-a0ef-72f0f32fc08f">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="e0c0c153-237a-4487-80c1-53237a3487a6" corresp="#f482a932-6530-4c11-82a9-326530dc1173">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 242–248.</bibl>
                     </ref>
-                    <note xml:id="c6a0ef72-f0f3-4fc0-a0ef-72f0f32fc08f" corresp="#fde9625f-5e2d-406e-a962-5f5e2d506e5d">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
+                    <note xml:id="f482a932-6530-4c11-82a9-326530dc1173" corresp="#e0c0c153-237a-4487-80c1-53237a3487a6">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
                 </p>
                 <p>Der Systematiker berücksichtigt gleichzeitig <lb/>die (beständigern)
-                    Fruktifications- und <lb/>die (weniger beständigen) Vegetations-<lb/>organe; der Physiognomiker dagegen legt <subst>
+                    Fruktifications- und <lb/>die (weniger beständigen) Vegetations<g ref="#typoHyphen"/>
+                    <lb break="no"/>organe; der Physiognomiker dagegen legt <subst>
                         <add place="intralinear">eine größere</add>
                         <lb/>
                         <del rendition="#s">eine zu große</del>
@@ -640,7 +679,7 @@
                         <add place="intralinear">nähert auf <lb/>diese Weise</add>
                     </subst>
                     <name type="plant">Ephedra</name> der Gattung <lb/>
-                    <name type="plant">Equisetum</name>, die <placeName ref="https://www.geonames.org/2077456">neuholländischen</placeName> Acacien<note place="right" hand="#author">
+                    <name type="plant">Equisetum</name>, die <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">neuholländischen</placeName> Acacien<note place="right" hand="#author">
                         <p>
                             <del rendition="#erased">
                                 <gap unit="words" quantity="9" reason="illegible"/>
@@ -648,7 +687,8 @@
                         </p>
                     </note>
                     <lb/>den Weiden<note hand="#author" place="right">
-                        <metamark/>Die Fruktifica-<lb/>tionsorgane <lb/>zeigen auch nicht
+                        <metamark/>Die Fruktifica<g ref="#typoHyphen"/>
+                        <lb break="no"/>tionsorgane <lb/>zeigen auch nicht
                         <lb/>die geringste <lb/>
                         <choice>
                             <orig>Uebereinstim̅ung</orig>
@@ -670,21 +710,22 @@
                 
                     <pb n="8v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001677E00000016"/>
                     <p>
-                    <ref xml:id="c7072313-9a46-4b52-8723-139a466b52d8" corresp="#be9142e3-951c-4fa0-9142-e3951c3fa0fc">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">
+                    <ref xml:id="adc35a4c-9e3b-421c-835a-4c9e3b721cf9" corresp="#e44f6309-8d2a-4f97-8f63-098d2a4f9738">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">
                             <choice>
                                     <abbr>Pag.</abbr>
                                     <expan>Pagina</expan>
                                 </choice> 247.</bibl>
                     </ref>
-                    <note xml:id="be9142e3-951c-4fa0-9142-e3951c3fa0fc" corresp="#c7072313-9a46-4b52-8723-139a466b52d8">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
+                    <note xml:id="e44f6309-8d2a-4f97-8f63-098d2a4f9738" corresp="#adc35a4c-9e3b-421c-835a-4c9e3b721cf9">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>, II.</note>
                 </p>
                 <p>Die Gattung <name type="plant">Aletris</name> gegenwärtig<del rendition="#s">e</del>
                     <lb/>blos auf drei Arten beschränkt <lb/>(<name type="plant">Aletris
                         farinosa</name> und <name type="plant">
-                        <supplied cert="high">Aletris</supplied> aurea</name> aus <placeName ref="https://www.geonames.org/7729890">Nord-<lb/>amerika</placeName> und <name type="plant">Aletris japonica</name>
-                    <persName ref="http://d-nb.info/gnd/116652292">Lambert</persName>) <lb/>und <subst>
+                        <supplied cert="high">Aletris</supplied> aurea</name> aus <placeName ref="https://editon-humboldt.de/H0001698 https://www.geonames.org/7729890">Nord<g ref="#typoHyphen"/>
+                        <lb break="no"/>amerika</placeName> und <name type="plant">Aletris japonica</name>
+                    <persName ref="https://editon-humboldt.de/H0004278 http://d-nb.info/gnd/116652292">Lambert</persName>) <lb/>und <subst>
                         <del rendition="#s">de</del>
                         <add place="intralinear">zu den</add>
                     </subst>
@@ -696,35 +737,35 @@
                     <subst>
                         <add place="left">gehörig,</add>
                         <del rendition="#s">gehört,</del>
-                    </subst> dürfte hier nicht gemeint <lb/>sein, eben so wenig (obgleich sie <ref xml:id="c1f04042-3dbe-4772-b040-423dbe177299" corresp="#aa462e12-e16a-4b62-862e-12e16a0b627b">
+                    </subst> dürfte hier nicht gemeint <lb/>sein, eben so wenig (obgleich sie <ref xml:id="b4cb3a95-f649-441c-8b3a-95f649e41c60" corresp="#ae24e7a9-35e1-4d83-a4e7-a935e14d83de">
                         <choice>
                                 <abbr>pag.</abbr>
                                 <expan>pagina</expan>
                             </choice> 213</ref>
-                    <note xml:id="aa462e12-e16a-4b62-862e-12e16a0b627b" corresp="#c1f04042-3dbe-4772-b040-423dbe177299">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt
+                    <note xml:id="ae24e7a9-35e1-4d83-a4e7-a935e14d83de" corresp="#b4cb3a95-f649-441c-8b3a-95f649e41c60">
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt
                                 1849</bibl>, II.</note>
                     <lb/>ausdrücklich genannt wird) <name type="plant">Aletris
                         <lb/>arborea</name>
-                    <persName ref="https://edition-humboldt.de/v8/H0006402">
+                    <persName ref="https://editon-humboldt.de/H0006402">
                         <choice>
                             <abbr>Willd.</abbr>
                             <expan>Willdenow</expan>
                         </choice>
                     </persName> (<name type="plant">Dracaena arborea</name>
-                    <persName ref="http://d-nb.info/gnd/104268190">Link</persName>.) <lb/>eine <hi rendition="#u">blos in
+                    <persName ref="https://editon-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">Link</persName>.) <lb/>eine <hi rendition="#u">blos in
                         den Gärten vorkommende</hi>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/6255146">afrikanische</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">afrikanische</placeName>
                     <metamark>?</metamark>
-                    Pflanze, die noch nicht geblüht <lb/>hat. Wahrscheinlich ist <add place="superlinear">(<ref xml:id="a2427625-f05e-4af4-8276-25f05e2af419" corresp="#a1184dc5-30c0-4e45-984d-c530c0de454a">
-                            <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">p. 247.</bibl>
+                    Pflanze, die noch nicht geblüht <lb/>hat. Wahrscheinlich ist <add place="superlinear">(<ref xml:id="f3789ee7-77f0-4c08-b89e-e777f0ac08e0" corresp="#eacac847-9b0a-4124-8ac8-479b0a012450">
+                            <bibl corresp="https://edition-humboldt.de/2WVKCKG3">p. 247.</bibl>
                         </ref>
-                        <note xml:id="a1184dc5-30c0-4e45-984d-c530c0de454a" corresp="#a2427625-f05e-4af4-8276-25f05e2af419">
-                                <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl>,
+                        <note xml:id="eacac847-9b0a-4124-8ac8-479b0a012450" corresp="#f3789ee7-77f0-4c08-b89e-e777f0ac08e0">
+                                <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>,
                                 II.</note>)</add> damit <name type="plant">Aletris
                         <lb/>guineensis</name>
-                    <persName ref="http://d-nb.info/gnd/118556452">
+                    <persName ref="https://editon-humboldt.de/H0004125 http://d-nb.info/gnd/118556452">
                         <choice>
                             <abbr>Jacq.</abbr>
                             <expan>Jacquin</expan>
@@ -737,25 +778,25 @@
                         <metamark/>Diese
                         Namen sind die richtigen <lb/>und beizubehalten.</note> guineensis
                         <lb/>
-                    <persName ref="https://edition-humboldt.de/v8/H0006402">
+                    <persName ref="https://editon-humboldt.de/H0006402">
                         <choice>
                             <abbr>Willd.</abbr>
                             <expan>Willdenow</expan>
                         </choice>
                     </persName>) oder <name type="plant">Aletris fragrans</name>
-                    <persName ref="http://d-nb.info/gnd/118573349">
+                    <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                         <choice>
                             <abbr>Linn.</abbr>
                             <expan>Linné</expan>
                         </choice>
                     </persName> (<name type="plant">Dracaena <lb/>fragrans</name>
-                    <persName ref="http://d-nb.info/gnd/1055218041">
+                    <persName ref="https://editon-humboldt.de/H0001298 http://d-nb.info/gnd/1055218041">
                         <choice>
                             <abbr>Gawl.</abbr>
                             <expan>Gawler</expan>
                         </choice>
-                    </persName>) gemeint, beide in <placeName ref="https://www.geonames.org/2420477">Guinea</placeName>
-                    <lb/>und <placeName ref="https://www.geonames.org/2403846">Sierra Leone</placeName> einheimisch.</p>
+                    </persName>) gemeint, beide in <placeName ref="https://editon-humboldt.de/H0011142 https://www.geonames.org/2420477">Guinea</placeName>
+                    <lb/>und <placeName ref="https://editon-humboldt.de/H0010229 https://www.geonames.org/2403846">Sierra Leone</placeName> einheimisch.</p>
             </div>
         </body>
     </text>

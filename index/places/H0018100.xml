@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018100">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Wassiljewski-Insel</title>
             </titleStmt>
+            <editionStmt>
+                <p>Wassiljewski-Insel [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018100.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018100.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018100.xml">
-                    <p>Wassiljewski-Insel [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018100.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018100">
+                <place>
                     <idno type="uri">https://www.geonames.org/8504949</idno>
                     <placeName type="reg">Wassiljewski-Insel</placeName>
                     <placeName type="alt">Васильевский остров</placeName>
                     <placeName type="alt">Vasil'evskij ostrov</placeName>
-                    <note>Insel im Delta der <placeName key="H0001621">Neva</placeName>; <placeName key="H0008236">Sankt
+                    <note>Insel im Delta der <placeName ref="https://editon-humboldt.de/H0001621 https://www.geonames.org/522422">Neva</placeName>; <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt
                             Petersburg</placeName> (Russland)</note>
                 </place>
             </listPlace>

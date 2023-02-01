@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003413">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Böckh, August</title>
             </titleStmt>
+            <editionStmt>
+                <p>Böckh, August [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003413.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003413.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003413.xml">
-                    <p>Böckh, August [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003413.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003413">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118808850</idno>
                     <persName type="reg">
                         <surname>Böckh</surname>
@@ -42,9 +47,9 @@
                     <birth>1785</birth>
                     <death>1867</death>
                     <note>klassischer Philologe und Altertumsforscher in Berlin, Sekretar der Philosophisch-historischen
-                        Klasse der <orgName key="H0000569">Königlich Preußischen Akademie der
+                        Klasse der <orgName ref="https://editon-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Königlich Preußischen Akademie der
                             Wissenschaften</orgName>; Professor für Klassische Philologie an
-                            der <orgName key="H0000603">Berliner Universität</orgName>
+                            der <orgName ref="https://editon-humboldt.de/H0000603 http://d-nb.info/gnd/1220138-8">Berliner Universität</orgName>
                     </note>
                     <linkGrp>
                         <ptr subtype="comment" target="04#25" type="letter"/>

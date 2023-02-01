@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016641">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,51 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Teplitz, 28. Juli
+               1836, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016641">https://edition-humboldt.de/v8/H0016641</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016641</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016641</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016641.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Teplitz, 28. Juli
-               1836. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016641</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">73</idno>
+                     <idno type="shelfmark">421,
+                        Bl. 134r, 135r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/3064288">Teplitz</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName>
                <date when="1836-07-28">1836-07-28</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -92,16 +111,17 @@
                 </opener>
             <p>Ich habe gerade nur so viel Zeit, um <lb/>Ihnen zu sagen, dass ich Ihnen mit heutiger
                <lb/>Post zwei Pakete übersende, eines mit <lb/>
-                    <placeName ref="https://www.geonames.org/3064288">Teplitzer</placeName> Wasser an den Seitenrändern <lb/>zu 20° wohl nicht sehr
-               reich an Infu-<lb/>sorien; ein zweites mit vielen
+                    <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitzer</placeName> Wasser an den Seitenrändern <lb/>zu 20° wohl nicht sehr
+               reich an Infu<g ref="#typoHyphen"/>
+                    <lb break="no"/>sorien; ein zweites mit vielen
                Proben <lb/>von Polirschiefern. Die Proben, die Sie <lb/>mir mit gaben, theurer
                Freund, waren <lb/>unbezweifelt nach <choice>
                   <abbr>D<hi rendition="#sup">r</hi>
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/1030515301">Stolz</persName> von dem <lb/>
-                    <placeName ref="https://edition-humboldt.de/v8/H0017469">Kritschelberge</placeName> bei <placeName ref="https://www.geonames.org/3079348">Bilin</placeName>. Dort
+               <persName ref="https://editon-humboldt.de/H0016865 http://d-nb.info/gnd/1030515301">Stolz</persName> von dem <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0017469">Kritschelberge</placeName> bei <placeName ref="https://editon-humboldt.de/H0005241 https://www.geonames.org/3079348">Bilin</placeName>. Dort
                ist das <lb/>Lager des eigentlichen Polirschiefers (der <lb/>nicht mehr bebaut wird
                und sich seitwärts <lb/>an Basalt anlegt) 12–14 Fuss dik. Nach <lb/>unten geht es
                deutlich in Halb Opal über <lb/>in dem sich dieselben versteinten <name type="animal" key="Fische">Fische</name>
@@ -109,13 +129,14 @@
                Uebergängen <lb/>auch Ihre Infusions Panzer fänden. Sie <lb/>finden diese Uebergänge <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> andere Vari-<lb/>täten, von <choice>
+               </choice> andere Vari<g ref="#typoHyphen"/>
+                    <lb break="no"/>täten, von <choice>
                   <abbr>D<hi rendition="#sup">r</hi>
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/1030515301">Stolz</persName> etiquettirt, im <lb/>Päkchen. Zu jeder
-               weiteren Auskunft <lb/>stehe ich bereit. <persName ref="http://d-nb.info/gnd/11667153X">Corda</persName>
+               <persName ref="https://editon-humboldt.de/H0016865 http://d-nb.info/gnd/1030515301">Stolz</persName> etiquettirt, im <lb/>Päkchen. Zu jeder
+               weiteren Auskunft <lb/>stehe ich bereit. <persName ref="https://editon-humboldt.de/H0013170 http://d-nb.info/gnd/11667153X">Corda</persName>
                war einige Tage <lb/>hier: er ist bescheidener, stiller und <lb/>angenehmer geworden
                und versichert Ihnen <lb/>seine Verehrung<supplied cert="high">.</supplied>
                 </p>
@@ -127,21 +148,22 @@
                 </closer>
             <postscript>
                <p>
-                        <ref xml:id="df32f179-44c3-47af-b2f1-7944c347af07" corresp="#f0a4567b-996f-499a-a456-7b996f799a7b">Die Entdekkung die <persName ref="http://d-nb.info/gnd/102517266">Mateucci</persName>
+                        <ref xml:id="dbd267dd-8b16-45c2-9267-dd8b16a5c270" corresp="#ea0d8cc8-4bdf-4937-8d8c-c84bdfc9377a">Die Entdekkung die <persName ref="https://editon-humboldt.de/H0014016 http://d-nb.info/gnd/102517266">Mateucci</persName>
                         <lb/>gemacht (electrische Funken <lb/>der
                         Torpille)</ref>
-                        <note xml:id="f0a4567b-996f-499a-a456-7b996f799a7b" corresp="#df32f179-44c3-47af-b2f1-7944c347af07">
-                        <bibl corresp="https://edition-humboldt.de/v8/">Recherches physiques, chimiques et
+                        <note xml:id="ea0d8cc8-4bdf-4937-8d8c-c84bdfc9377a" corresp="#dbd267dd-8b16-45c2-9267-dd8b16a5c270">
+                        <bibl corresp="https://edition-humboldt.de/">Recherches physiques, chimiques et
                            physiologiques sur la torpille. C. R. Acad. Sci. 1837 ; 5 :
                            788-792</bibl>
-                     </note> bestätigen Ihre <lb/>schönen von mir vertheidig<lb/>ten (<choice>
+                     </note> bestätigen Ihre <lb/>schönen von mir vertheidig<lb break="no"/>ten (<choice>
                      <abbr>s.</abbr>
                      <expan>siehe</expan>
-                  </choice> mein gedrukter Brief <lb/>an <persName ref="http://d-nb.info/gnd/116250836">Poggendorf</persName>) <supplied>Beobachtungen</supplied> über <choice>
+                  </choice> mein gedrukter Brief <lb/>an <persName ref="https://editon-humboldt.de/H0002047 http://d-nb.info/gnd/116250836">Poggendorf</persName>) <supplied>Beobachtungen</supplied> über <choice>
                      <abbr>elektr.</abbr>
                      <expan>elektrisches</expan>
                   </choice>
-                  <lb/>Leuchten der See-In-<lb/>fusorien! </p>
+                  <lb/>Leuchten der See-In<g ref="#typoHyphen"/>
+                        <lb break="no"/>fusorien! </p>
             </postscript>
          </div>
       </body>

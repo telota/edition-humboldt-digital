@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016615">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [13. November
+               1854] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016615">https://edition-humboldt.de/v8/H0016615</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016615</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016615</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016615.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [13. November
-               1854] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016615</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">207</idno>
+                     <idno type="shelfmark">421, Bl. 380r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1854-11-13">1854-11-13</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Geburtstag der Königin: 13.11.1801</note>
          </correspDesc>
@@ -64,21 +82,21 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Die Uebersiedelung nach <placeName ref="https://www.geonames.org/2940187">Charlottenburg</placeName> und
-               <lb/>der Geburtstag der <persName>Königin</persName> haben mich <lb/>theurer
+            <p>Die Uebersiedelung nach <placeName ref="https://editon-humboldt.de/H0007341 https://www.geonames.org/2940187">Charlottenburg</placeName> und
+               <lb/>der Geburtstag der <persName ref="https://editon-humboldt.de/">Königin</persName> haben mich <lb/>theurer
                Freund <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> College gehindert Ihnen <lb/>etwas Bestimmtes zu schreiben. Gestern
-               <lb/>Abend hat mir der <persName ref="http://d-nb.info/gnd/118535994">König</persName> mit grosser
-               <lb/>Freundlichkeit gesagt, dass ihn nichts <lb/>hindern werde ihr grosses <ref xml:id="fece32a8-3571-485b-8e32-a83571d85bae" corresp="#fb86c7ae-2c47-4f5c-86c7-ae2c473f5c9e">Werk</ref>
-                    <note xml:id="fb86c7ae-2c47-4f5c-86c7-ae2c473f5c9e" corresp="#fece32a8-3571-485b-8e32-a83571d85bae">
-                     <bibl corresp="https://edition-humboldt.de/v8/6RPSFGPB">Ehrenberg 1854</bibl>
+               <lb/>Abend hat mir der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> mit grosser
+               <lb/>Freundlichkeit gesagt, dass ihn nichts <lb/>hindern werde ihr grosses <ref xml:id="f09cffb3-e8fc-477d-9cff-b3e8fc677d66" corresp="#ead0f7c6-fca8-4ffb-90f7-c6fca8effbbb">Werk</ref>
+                    <note xml:id="ead0f7c6-fca8-4ffb-90f7-c6fca8effbbb" corresp="#f09cffb3-e8fc-477d-9cff-b3e8fc677d66">
+                     <bibl corresp="https://edition-humboldt.de/6RPSFGPB">Ehrenberg 1854</bibl>
                   </note> aus <lb/>Ihren Händen zu empfangen „er zöge <lb/>vor sie zu Mittag zu sehen, damit
-               <lb/>die <persName>Königin</persName> auch Freude an dem <lb/>Werke <choice>
+               <lb/>die <persName ref="https://editon-humboldt.de/">Königin</persName> auch Freude an dem <lb/>Werke <choice>
                   <sic>zu nehmen</sic>
                   <corr cert="high">nehme</corr>
-               </choice>, ich solle zugleich <lb/>Graf <persName ref="http://d-nb.info/gnd/111248051X">Keller</persName>
+               </choice>, ich solle zugleich <lb/>Graf <persName ref="https://editon-humboldt.de/H0001283 http://d-nb.info/gnd/111248051X">Keller</persName>
                daran erinnern, da dieser <lb/>jeden Morgen die Vorschläge erneuert.“</p>
             <closer rend="paragraph">
                <salute>Dankbarst <lb/>Ihr <lb/>treuer</salute>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006056">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,31 +28,56 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Karl Ludwig Willdenow. Mexiko, 29. April 1803, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006056">https://edition-humboldt.de/v8/H0006056</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006056</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006056</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006056.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Karl Ludwig Willdenow. Mexiko, 29. April 1803. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006056</bibl>
+                <listWit>
+                    <witness select="#this">  <bibl type="print" n="2" corresp="https://edition-humboldt.de/92B5WPMB">Humboldt 1803</bibl>, 268–272 (Vorlage)</witness>
+                    
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/9GG8HK3N">Humboldt 1905</bibl>,
+                            154–156 (französische Übersetzung)
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="3" corresp="https://edition-humboldt.de/5T7RQ9E4">Humboldt 1980</bibl>,
+                            112–113 (spanische Übersetzung)
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="4" corresp="https://edition-humboldt.de/CD8ZDJ5R">Humboldt 1993</bibl>,
+                            229–230
+                    </witness>
+                    
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/3996063">Mexiko</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexiko</placeName>
                     <date when="1803-04-29" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
+                    <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -67,32 +92,32 @@
                 </opener>
                 <p>
                     <pb n="268"/>Wenige Tage nach meiner Ankunft in dieser großen und schönen
-                        <placeName ref="https://www.geonames.org/3530597">Hauptstadt</placeName>
-                    <placeName ref="https://www.geonames.org/3996063">Neuspaniens</placeName>, erhielt ich Deinen lieben
+                        <placeName ref="https://editon-humboldt.de/H0008845 https://www.geonames.org/3530597">Hauptstadt</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Neuspaniens</placeName>, erhielt ich Deinen lieben
                     Brief vom I Oktober 1802. Die Freude darüber war um so größer, da, seitdem ich
-                        <placeName ref="https://www.geonames.org/6255148">Europa</placeName> verlassen habe, dies das <pb n="269"/> erste- und einzigemal ist daß ich etwas von Dir lese, obgleich ich
-                    überzeugt bin daß du mir oft geschrieben hast. Auch von meinem <persName ref="http://d-nb.info/gnd/118554727">Bruder</persName> habe ich, seit meiner Abreise aus
-                        <placeName ref="https://www.geonames.org/3119841">Corunna</placeName>, höchstens 5 bis 6 Briefe
+                        <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> verlassen habe, dies das <pb n="269"/> erste- und einzigemal ist daß ich etwas von Dir lese, obgleich ich
+                    überzeugt bin daß du mir oft geschrieben hast. Auch von meinem <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Bruder</persName> habe ich, seit meiner Abreise aus
+                        <placeName ref="https://editon-humboldt.de/H0011312 https://www.geonames.org/3119841">Corunna</placeName>, höchstens 5 bis 6 Briefe
                     innerhalb vier Jahre bekommen. Es scheint als wenn ein feindlicher Unstern, mehr
                     in Absicht der Briefe, als der Schiffe, hier über uns waltet. Doch ich will
                     nicht klagen, da mir nun bald die Freude bevorsteht, Euch alle wieder zu
                     umarmen. – – </p>
                 <p>Wir haben schon über zehn- oder zwölfmal große Sendungen frischer Sämereien von
-                    hier abgeschickt: an den Botanischen Garten in <placeName ref="https://www.geonames.org/3117735">Madrid</placeName>, wo <persName ref="http://d-nb.info/gnd/116478101">Cavanilles</persName>, wie ich
+                    hier abgeschickt: an den Botanischen Garten in <placeName ref="https://editon-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>, wo <persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName>, wie ich
                     sehe, in den
-                    <ref xml:id="e9258328-081b-4289-a583-28081bd2898b" corresp="#cb218391-bd1c-489e-a183-91bd1c589e73">Anales de Historia natural</ref>
-                    <note xml:id="cb218391-bd1c-489e-a183-91bd1c589e73" corresp="#e9258328-081b-4289-a583-28081bd2898b">
-                        <bibl corresp="https://edition-humboldt.de/v8/KUTVIMH2">Cavanilles
+                    <ref xml:id="efc3c93e-1a94-4478-83c9-3e1a946478e4" corresp="#c7bec1f5-c7d3-426c-bec1-f5c7d3626ced">Anales de Historia natural</ref>
+                    <note xml:id="c7bec1f5-c7d3-426c-bec1-f5c7d3626ced" corresp="#efc3c93e-1a94-4478-83c9-3e1a946478e4">
+                        <bibl corresp="https://edition-humboldt.de/KUTVIMH2">Cavanilles
                                 1800</bibl>.</note> bereits einige neue Spezies aus diesen Samen
-                    beschrieben hat; an den <orgName ref="http://d-nb.info/gnd/16130288-9">Garten</orgName> in <placeName ref="https://www.geonames.org/2988507">Paris</placeName>; und, über <placeName ref="https://www.geonames.org/3534915">Trinidad</placeName>, an Sir <persName ref="http://d-nb.info/gnd/118808818">Josef
-                        Banks</persName> in <placeName ref="https://www.geonames.org/2643743">London</placeName>. Allein, denke
-                    darum nicht, daß mein Reichthum erschöpft sei, oder daß ich <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> vergessen werde. Ich besitze eine
-                    ausgezeichnete Sammlung, die ich zu <placeName ref="https://www.geonames.org/3652462">Quito</placeName>,
-                    zu <placeName ref="https://www.geonames.org/3654667">Loxa</placeName>, am <placeName ref="https://www.geonames.org/3407729">Amazonenfluße</placeName> bei <placeName ref="https://www.geonames.org/3696150">Jaen</placeName>, auf den
-                        <placeName ref="https://edition-humboldt.de/v8/H0002454">Anden</placeName> von <placeName ref="https://www.geonames.org/3932488">Peru</placeName>, und auf dem Wege von <placeName ref="https://www.geonames.org/3533462">Akapulko</placeName> nach <placeName ref="https://www.geonames.org/3530870">Chilpensingo</placeName> und
-                        <placeName ref="https://www.geonames.org/3530597">Mexiko</placeName>, zusammengebracht habe. Diesen
+                    beschrieben hat; an den <orgName ref="https://editon-humboldt.de/H0000553 http://d-nb.info/gnd/16130288-9">Garten</orgName> in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>; und, über <placeName ref="https://editon-humboldt.de/H0009519 https://www.geonames.org/3534915">Trinidad</placeName>, an Sir <persName ref="https://editon-humboldt.de/H0003061 http://d-nb.info/gnd/118808818">Josef
+                        Banks</persName> in <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>. Allein, denke
+                    darum nicht, daß mein Reichthum erschöpft sei, oder daß ich <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> vergessen werde. Ich besitze eine
+                    ausgezeichnete Sammlung, die ich zu <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName>,
+                    zu <placeName ref="https://editon-humboldt.de/H0011478 https://www.geonames.org/3654667">Loxa</placeName>, am <placeName ref="https://editon-humboldt.de/H0010499 https://www.geonames.org/3407729">Amazonenfluße</placeName> bei <placeName ref="https://editon-humboldt.de/H0006541 https://www.geonames.org/3696150">Jaen</placeName>, auf den
+                        <placeName ref="https://editon-humboldt.de/H0002454">Anden</placeName> von <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName>, und auf dem Wege von <placeName ref="https://editon-humboldt.de/H0002309 https://www.geonames.org/3533462">Akapulko</placeName> nach <placeName ref="https://editon-humboldt.de/H0007383 https://www.geonames.org/3530870">Chilpensingo</placeName> und
+                        <placeName ref="https://editon-humboldt.de/H0008845 https://www.geonames.org/3530597">Mexiko</placeName>, zusammengebracht habe. Diesen
                     Schatz will ich nicht dem Zufall der Posten, die unglaublich nachläßig sind,
-                    anvertrauen; sondern, da ich nun <pb n="270"/> im Begrif stehe selbst nach <placeName ref="https://www.geonames.org/3553478">Havanah</placeName> und <placeName ref="https://www.geonames.org/6255148">Europa</placeName> abzureisen, Dir selber überbringen. Ich habe Alles höchst
+                    anvertrauen; sondern, da ich nun <pb n="270"/> im Begrif stehe selbst nach <placeName ref="https://editon-humboldt.de/H0006819 https://www.geonames.org/3553478">Havanah</placeName> und <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> abzureisen, Dir selber überbringen. Ich habe Alles höchst
                     sorgfältig getrocknet. Was ich Dir bringe, sind viele Samen von Melastoma,
                     Psychotria, Kassia, Bignonia, Mimosa (ohne Zahl!), Solanum, Jacquinia,
                     Embothrium, Ruellia, Gyrokarpus <choice>
@@ -101,43 +126,43 @@
                     </choice>,
                     Bornadesia,
                     Achras, Lukuma, Bugainvillea, Lobelia, und ein halbes Hundert Pakete unbekannter
-                    Arten aus den <placeName ref="https://edition-humboldt.de/v8/H0002454">Andes</placeName>, aus dem <placeName ref="https://www.geonames.org/3407729">Amazonenlande</placeName>,
+                    Arten aus den <placeName ref="https://editon-humboldt.de/H0002454">Andes</placeName>, aus dem <placeName ref="https://editon-humboldt.de/H0010499 https://www.geonames.org/3407729">Amazonenlande</placeName>,
                     u.
-                    s. w. .... Ferner werden meine Freunde in <placeName ref="https://edition-humboldt.de/v8/H0002429">Amerika</placeName> immer bereit sein, Dir auf mein Ersuchen recht
+                    s. w. .... Ferner werden meine Freunde in <placeName ref="https://editon-humboldt.de/H0002429">Amerika</placeName> immer bereit sein, Dir auf mein Ersuchen recht
                     häufig ganz frische Samen zu schicken. Ich nenne Dir itzt nur gleich als die
-                    thätigsten Männer: <persName ref="http://viaf.org/viaf/24685523">Tafalla</persName> zu <placeName ref="https://www.geonames.org/3657509">Guayaquil</placeName>; <persName ref="https://edition-humboldt.de/v8/H0011206">Olivedo</persName> zu <placeName ref="https://www.geonames.org/3654667">Loxa</placeName>, <persName ref="http://d-nb.info/gnd/287232757">Matis</persName>, der erste Pflanzenmaler in der Welt und ein
-                    treflicher Botaniker, zu <placeName ref="https://www.geonames.org/3688689">Santa Fe</placeName>, ein
-                    Schüler von <persName ref="http://d-nb.info/gnd/119559668">Mutis</persName>; imgleichen einige
-                    Kapuziner in <placeName ref="https://edition-humboldt.de/v8/H0001732">Neuandalusien</placeName> und <placeName ref="https://www.geonames.org/3648106">Guayana</placeName>. Auch ist ein vortreflicher und eifriger
+                    thätigsten Männer: <persName ref="https://editon-humboldt.de/H0003845 http://viaf.org/viaf/24685523">Tafalla</persName> zu <placeName ref="https://editon-humboldt.de/H0011115 https://www.geonames.org/3657509">Guayaquil</placeName>; <persName ref="https://editon-humboldt.de/H0011206">Olivedo</persName> zu <placeName ref="https://editon-humboldt.de/H0011478 https://www.geonames.org/3654667">Loxa</placeName>, <persName ref="https://editon-humboldt.de/H0014014 http://d-nb.info/gnd/287232757">Matis</persName>, der erste Pflanzenmaler in der Welt und ein
+                    treflicher Botaniker, zu <placeName ref="https://editon-humboldt.de/H0005282 https://www.geonames.org/3688689">Santa Fe</placeName>, ein
+                    Schüler von <persName ref="https://editon-humboldt.de/H0014464 http://d-nb.info/gnd/119559668">Mutis</persName>; imgleichen einige
+                    Kapuziner in <placeName ref="https://editon-humboldt.de/H0001732">Neuandalusien</placeName> und <placeName ref="https://editon-humboldt.de/H0011109 https://www.geonames.org/3648106">Guayana</placeName>. Auch ist ein vortreflicher und eifriger
                     Naturforscher Hr
-                    <persName ref="http://d-nb.info/gnd/119212609">Caldas</persName> zu <placeName ref="https://www.geonames.org/3671916">Popayan</placeName>.</p>
+                    <persName ref="https://editon-humboldt.de/H0012842 http://d-nb.info/gnd/119212609">Caldas</persName> zu <placeName ref="https://editon-humboldt.de/H0008357 https://www.geonames.org/3671916">Popayan</placeName>.</p>
                 <p>Es freut mich sehr, daß meine Pflanzen durch Hrn
-                    <persName ref="http://d-nb.info/gnd/117536628">Fraser</persName> endlich bei Dir angekommen
+                    <persName ref="https://editon-humboldt.de/H0000256 http://d-nb.info/gnd/117536628">Fraser</persName> endlich bei Dir angekommen
                     sind.</p>
                 <p>Du wirst aus meinen älteren Briefen wissen, daß, nachdem wir ein halbes Jahr in
-                    den Volkanen zu <placeName ref="https://www.geonames.org/3652462">Quito</placeName> zugebracht, und fast die <pb n="271"/> Spitze des <placeName ref="https://www.geonames.org/3659238">Tschimborasso</placeName> erstiegen haben, wir
-                    zu <placeName ref="https://www.geonames.org/3658666">Kuenka</placeName> und <placeName ref="https://www.geonames.org/3654667">Loxa</placeName> gewesen sind, um dort die Cinchona-Arten zu
-                    studieren. Von <placeName ref="https://www.geonames.org/3654667">Loxa</placeName> gingen wir, über
-                    fürchterliche Wege, nach der Provinz <placeName ref="https://www.geonames.org/3696150">Jaen
-                        de Bracamoros</placeName>, und nach dem <placeName ref="https://www.geonames.org/3407729">Amazonenfluß</placeName>; von da, über die Kordillere, durch die großen Bergwerke
-                    von <placeName ref="https://www.geonames.org/3698141">Chota</placeName>, nach <placeName ref="https://www.geonames.org/3691175">Truxillo</placeName>, und längs der Küste des <placeName ref="https://www.geonames.org/4030483">Südmeers</placeName> nach <placeName ref="https://www.geonames.org/3936456">Lima</placeName>: wo ich den Durchgang des Merkurs
-                    beobachtet habe. Von <placeName ref="https://www.geonames.org/3936456">Lima</placeName> machten
-                    wir die Reise nach <placeName ref="https://www.geonames.org/3657509">Guayaquil</placeName> zur
-                    See, blieben dort einen Monat, und schiften nach <placeName ref="https://www.geonames.org/3533462">Akapulko</placeName>, auf welcher letzten Fahrt wir 35 Tage
-                    zubrachten, und einen grausamen Sturm dem <placeName ref="https://www.geonames.org/3622714">Golf von Nicoya</placeName> gegenüber auszustehn hatten.</p>
-                <p>Daß ich seit lange die Reise nach den <placeName ref="https://www.geonames.org/1694008">Philippinen</placeName> aufgegeben habe, weißt Du. Ich würde einen ungeheuren
+                    den Volkanen zu <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName> zugebracht, und fast die <pb n="271"/> Spitze des <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">Tschimborasso</placeName> erstiegen haben, wir
+                    zu <placeName ref="https://editon-humboldt.de/H0007658 https://www.geonames.org/3658666">Kuenka</placeName> und <placeName ref="https://editon-humboldt.de/H0011478 https://www.geonames.org/3654667">Loxa</placeName> gewesen sind, um dort die Cinchona-Arten zu
+                    studieren. Von <placeName ref="https://editon-humboldt.de/H0011478 https://www.geonames.org/3654667">Loxa</placeName> gingen wir, über
+                    fürchterliche Wege, nach der Provinz <placeName ref="https://editon-humboldt.de/H0006541 https://www.geonames.org/3696150">Jaen
+                        de Bracamoros</placeName>, und nach dem <placeName ref="https://editon-humboldt.de/H0010499 https://www.geonames.org/3407729">Amazonenfluß</placeName>; von da, über die Kordillere, durch die großen Bergwerke
+                    von <placeName ref="https://editon-humboldt.de/H0007445 https://www.geonames.org/3698141">Chota</placeName>, nach <placeName ref="https://editon-humboldt.de/H0009534 https://www.geonames.org/3691175">Truxillo</placeName>, und längs der Küste des <placeName ref="https://editon-humboldt.de/H0010384 https://www.geonames.org/4030483">Südmeers</placeName> nach <placeName ref="https://editon-humboldt.de/H0011439 https://www.geonames.org/3936456">Lima</placeName>: wo ich den Durchgang des Merkurs
+                    beobachtet habe. Von <placeName ref="https://editon-humboldt.de/H0011439 https://www.geonames.org/3936456">Lima</placeName> machten
+                    wir die Reise nach <placeName ref="https://editon-humboldt.de/H0011115 https://www.geonames.org/3657509">Guayaquil</placeName> zur
+                    See, blieben dort einen Monat, und schiften nach <placeName ref="https://editon-humboldt.de/H0002309 https://www.geonames.org/3533462">Akapulko</placeName>, auf welcher letzten Fahrt wir 35 Tage
+                    zubrachten, und einen grausamen Sturm dem <placeName ref="https://editon-humboldt.de/H0010885 https://www.geonames.org/3622714">Golf von Nicoya</placeName> gegenüber auszustehn hatten.</p>
+                <p>Daß ich seit lange die Reise nach den <placeName ref="https://editon-humboldt.de/H0008248 https://www.geonames.org/1694008">Philippinen</placeName> aufgegeben habe, weißt Du. Ich würde einen ungeheuren
                     Seeweg machen, bloß um eine einzige Inselgruppe zu sehen. Auch erlaubt der
                     gegenwärtige Zustand meiner Instrumente mir nicht die Reise zu verlängern, die
                     schon vier Jahre dauert; und es ist mir unmöglich gewesen, mir neue Instrumente
-                    aus <placeName ref="https://www.geonames.org/6269131">England</placeName> zu verschaffen. Man ist
+                    aus <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName> zu verschaffen. Man ist
                     hier fast ganz abgeschnitten von der übrigen Welt, wie im Monde.</p>
                 <p>Ich wünschte gegen Ende dieses Jahres in Europa zu sein. Allein, das schwarze
-                    Erbrechen, <pb n="272"/> welches schon zu <placeName ref="https://www.geonames.org/3514783">Vera Cruz</placeName> und in
-                        <placeName ref="https://www.geonames.org/3553478">Havanah</placeName> herrscht, und die
+                    Erbrechen, <pb n="272"/> welches schon zu <placeName ref="https://editon-humboldt.de/H0009125 https://www.geonames.org/3514783">Vera Cruz</placeName> und in
+                        <placeName ref="https://editon-humboldt.de/H0006819 https://www.geonames.org/3553478">Havanah</placeName> herrscht, und die
                     Furcht vor der üblen Schiffahrt im Oktober, müssen mich zurückhalten. Ich will
                     nicht mit einer Tragödie endigen. Weil ich nun aber den sicherern Weg wähle, so
-                    werde ich wahrscheinlich erst im April oder Mai 1804 in <placeName ref="https://www.geonames.org/6255148">Europa</placeName> anlangen.</p>
-                <p>Ich weiß nicht, ob ich heute Zeit haben werde meinem <persName ref="http://d-nb.info/gnd/118554727">Bruder</persName> zu schreiben. Sei so gut, ihm diesen
+                    werde ich wahrscheinlich erst im April oder Mai 1804 in <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> anlangen.</p>
+                <p>Ich weiß nicht, ob ich heute Zeit haben werde meinem <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Bruder</persName> zu schreiben. Sei so gut, ihm diesen
                     Brief mitzutheilen, und ihm zu sagen, daß ich vollkommen gesund bin, und daß mir
                     nichts fehlt, als seine Briefe. –</p>
             </div>

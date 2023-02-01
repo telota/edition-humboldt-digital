@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016627">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,51 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Paris, 17. September
+               1835, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016627">https://edition-humboldt.de/v8/H0016627</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016627</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016627</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016627.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Paris, 17. September
-               1835. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016627</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>Nachlass Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">58</idno>
+                     <idno type="shelfmark">421,
+                        Bl. 105r-106r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                <date when="1835-09-17">1835-09-17</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -83,9 +102,9 @@
                Lebenszeichen vom 12 ten <choice>
                   <abbr>Aug.</abbr>
                   <expan>August</expan>
-               </choice> mit einigen <lb/>Exemplaren Ihrer <ref xml:id="ff9c0773-a06f-43ca-9c07-73a06f23caca" corresp="#f58f4915-1bed-4198-8f49-151bed5198a8">philosophischen Uebersicht der organi<lb/>schen Natur</ref>
-                    <note xml:id="f58f4915-1bed-4198-8f49-151bed5198a8" corresp="#ff9c0773-a06f-43ca-9c07-73a06f23caca">
-                     <bibl corresp="https://edition-humboldt.de/v8/QCI6353C">Ehrenberg 1836a</bibl>
+               </choice> mit einigen <lb/>Exemplaren Ihrer <ref xml:id="dcff710f-e0fb-4abe-bf71-0fe0fbeabe49" corresp="#f0d1e9ef-99fe-4034-91e9-ef99fe203494">philosophischen Uebersicht der organi<lb break="no"/>schen Natur</ref>
+                    <note xml:id="f0d1e9ef-99fe-4034-91e9-ef99fe203494" corresp="#dcff710f-e0fb-4abe-bf71-0fe0fbeabe49">
+                     <bibl corresp="https://edition-humboldt.de/QCI6353C">Ehrenberg 1836a</bibl>
                   </note>. Solcher Schematismus wird von grosser <lb/>Wichtigkeit wenn die Anordnung von
                einem Manne <lb/>ausgeht der mehr, als ein jezt Lebender, von der Natur <lb/>
                     <hi rendition="#u">gesehen</hi> und <hi rendition="#u">gedacht</hi> hat. Die
@@ -101,13 +120,13 @@
                könnte man Ihnen darüber schreiben <choice>
                   <abbr>od.</abbr>
                   <expan>oder</expan>
-               </choice> viel<lb/>mehr von Ihnen darüber erwarten. Wenn Sie doch
+               </choice> viel<lb break="no"/>mehr von Ihnen darüber erwarten. Wenn Sie doch
                <lb/>bald es über sich gewinnen könnten einen kleinen <lb/>
                     <choice>
                   <orig>Comentar</orig>
                   <reg>Commentar</reg>
                </choice> zu geben. Ich werde alles zur Verbreitung <lb/>beitragen, beim Institut,
-               bei <persName>Edward</persName>, und <persName ref="http://d-nb.info/gnd/116685271">
+               bei <persName ref="https://editon-humboldt.de/">Edward</persName>, und <persName ref="https://editon-humboldt.de/H0003679 http://d-nb.info/gnd/116685271">
                   <choice>
                      
                      
@@ -116,7 +135,7 @@
                   </choice>
                     </persName>
                     <supplied cert="high">.</supplied>
-               <lb/>Ich habe für <persName ref="http://d-nb.info/gnd/117339385">Valenciennes</persName> einen Theil
+               <lb/>Ich habe für <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName> einen Theil
                übersezt. Das <lb/>Ganze wird es gewiss bald werden. Verzeihen Sie es <lb/>meiner
                bedrängten hiesigen Lage, theurer liebenswürdiger <lb/>Freund, dass ich so flüchtig
                   schreibe<supplied cert="high">.</supplied> Die etwas <lb/>lange Seereise hat mir
@@ -130,18 +149,18 @@
                   <expan>Jardin</expan>
                </choice> des Plantes <lb/>sind prächtig, aber die Dampfheizung ist schlecht
                <lb/>gelungen. Die neue Galerie des Museums ist ein <lb/>plumpes Festungswerk.
-                  <persName ref="http://d-nb.info/gnd/118510185">Berzelius</persName> war lange hier, fast <lb/>immer
-               unfreundlich, <persName ref="http://d-nb.info/gnd/118519352">Carus</persName> hat sehr gefallen. Wie
+                  <persName ref="https://editon-humboldt.de/H0003302 http://d-nb.info/gnd/118510185">Berzelius</persName> war lange hier, fast <lb/>immer
+               unfreundlich, <persName ref="https://editon-humboldt.de/H0012918 http://d-nb.info/gnd/118519352">Carus</persName> hat sehr gefallen. Wie
                   <lb/>
                     <pb n="2r"/>wohlthätig würden Sie den hiesigen Sumpf <lb/>aufregen bei der
                hohen Achtung die man <lb/>allgemein für Sie hat, wenn Sie sich endlich <lb/>einmal
                entschliessen könnten wenn auch nur <lb/>auf 3 Wochen nach Paris zu gehen. Im Sommer
                <lb/>ist die Reise über
-                  <placeName ref="https://www.geonames.org/3003796">Havre</placeName> so
-               schnell und wohl<lb/>feil<supplied cert="high">.</supplied> Empfehlen Sie
+                  <placeName ref="https://editon-humboldt.de/H0011407 https://www.geonames.org/3003796">Havre</placeName> so
+               schnell und wohl<lb break="no"/>feil<supplied cert="high">.</supplied> Empfehlen Sie
                mich Ihrer liebenswürdigen <lb/>
-                    <persName ref="https://edition-humboldt.de/v8/H0016962">Gattin</persName> unserem
-                  <persName ref="http://d-nb.info/gnd/116609036">Gustav</persName>, dem theuren <persName ref="http://d-nb.info/gnd/116471727">Encke</persName>..</p>
+                    <persName ref="https://editon-humboldt.de/H0016962">Gattin</persName> unserem
+                  <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Gustav</persName>, dem theuren <persName ref="https://editon-humboldt.de/H0005930 http://d-nb.info/gnd/116471727">Encke</persName>..</p>
             <closer rend="within the line">
                     <salute>Mit alter Freundschaft</salute>
                 <lb/>
@@ -153,7 +172,7 @@
                   </choice> 1835</dateline>
                 </closer>
             <postscript>
-               <p>Sonderbar dass <persName ref="http://d-nb.info/gnd/118519352">Carus</persName> in <lb/>den <choice>
+               <p>Sonderbar dass <persName ref="https://editon-humboldt.de/H0012918 http://d-nb.info/gnd/118519352">Carus</persName> in <lb/>den <choice>
                      <abbr>Hildb.</abbr>
                      <expan>Hildburghausener</expan>
                   </choice> Fusstritten <lb/>doch einen Saurier, Riesen- <lb/> Salamander sehen will.
@@ -162,11 +181,11 @@
                   ja mehr <lb/>nach aussen. Der Gang des <lb/>räthselhaften Thieres fast <lb/>wie
                   ein <hi rendition="#u">kreuzender</hi> Papaguey <lb/>(den Daumen immer vom Wege
                   <lb/>abwärts gerichtet) ist <lb/>doch sehr sonderbar. Ich <lb/>glaube immer, es
-                  ist ein <lb/>Säugthier. Es ist sehr zu <lb/>wünschen dass unser gemein<lb/>schaftlicher Freund, <choice>
+                  ist ein <lb/>Säugthier. Es ist sehr zu <lb/>wünschen dass unser gemein<lb break="no"/>schaftlicher Freund, <choice>
                      <abbr>Prof</abbr>
                      <expan>Professor</expan>
                   </choice>
-                  <persName ref="http://d-nb.info/gnd/118806556">Weiss</persName>
+                  <persName ref="https://editon-humboldt.de/H0006306 http://d-nb.info/gnd/118806556">Weiss</persName>
                   <lb/>recht bald die ganze bespurte <lb/>Steinplatte beschreibe.</p>
             </postscript>
          </div>

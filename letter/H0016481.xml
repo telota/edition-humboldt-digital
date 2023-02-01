@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016481">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1857] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016481">https://edition-humboldt.de/v8/H0016481</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016481</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016481</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016481.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1857] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016481</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">231</idno>
+                     <idno type="shelfmark">421, Bl. 425r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1857" notAfter="1857" cert="low">1857-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. die Publikation von Schaffgotsch</note>
          </correspDesc>
@@ -63,42 +81,42 @@
          <div type="writingSession">
             <pb n="1r"/>
             <p>Ich danke Ihnen innigst, theurer Feund, für Ihren <lb/>so angenehmen Vorschlag bei
-               Ihnen die <lb/>wunderbare <ref xml:id="d8edda89-036d-4290-adda-89036d029075" corresp="#bcda8fbd-9d93-4ae7-9a8f-bd9d93fae762">Entdeckung an der Feuerharmonica</ref>
-                    <note xml:id="bcda8fbd-9d93-4ae7-9a8f-bd9d93fae762" corresp="#d8edda89-036d-4290-adda-89036d029075">
-                     <bibl corresp="https://edition-humboldt.de/v8/EYJK29UI">Schaffgotsch 1857</bibl>
+               Ihnen die <lb/>wunderbare <ref xml:id="ffe457fc-a44c-48a0-a457-fca44c28a0ab" corresp="#dfb54d78-7fd9-4ec6-b54d-787fd9cec658">Entdeckung an der Feuerharmonica</ref>
+                    <note xml:id="dfb54d78-7fd9-4ec6-b54d-787fd9cec658" corresp="#ffe457fc-a44c-48a0-a457-fca44c28a0ab">
+                     <bibl corresp="https://edition-humboldt.de/EYJK29UI">Schaffgotsch 1857</bibl>
                   </note>
-               <lb/>des Grafen <persName ref="http://d-nb.info/gnd/117620025">Schafgotsch</persName> zu hören<supplied cert="high">.</supplied> Darf <lb/>ich <subst>
+               <lb/>des Grafen <persName ref="https://editon-humboldt.de/H0016839 http://d-nb.info/gnd/117620025">Schafgotsch</persName> zu hören<supplied cert="high">.</supplied> Darf <lb/>ich <subst>
                   <del rendition="#ow">
                             <gap reason="covered" unit="words" quantity="1"/>
                         </del>
                   <add place="intralinear">theurer</add>
                </subst>
-               <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>
                <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> Ihnen
                Donnerstag <lb/>vorschlagen um 1 Uhr<supplied cert="high">.</supplied>
                 </p>
-            <p>Wegen Ihres Bildes, das der <persName ref="http://d-nb.info/gnd/118535994">König</persName>
-               <lb/>gar nicht aufgegeben, habe ich mit <lb/>Oscar <persName ref="http://d-nb.info/gnd/11610905X">Begas</persName>
+            <p>Wegen Ihres Bildes, das der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
+               <lb/>gar nicht aufgegeben, habe ich mit <lb/>Oscar <persName ref="https://editon-humboldt.de/H0003207 http://d-nb.info/gnd/11610905X">Begas</persName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/11712110X">Olfers</persName> verhandelt. Ich habe <lb/>ergründet dass
-                  <persName ref="http://d-nb.info/gnd/11610905X">Oscar</persName> selbst das Bild des <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">Königs</persName> in Ornat zu mahlen vorgezogen <lb/>weil
-               vielleicht der <persName ref="http://d-nb.info/gnd/118535994">König</persName> selbst <del rendition="#s">zu</del>
+               <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">Olfers</persName> verhandelt. Ich habe <lb/>ergründet dass
+                  <persName ref="https://editon-humboldt.de/H0003207 http://d-nb.info/gnd/11610905X">Oscar</persName> selbst das Bild des <lb/>
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Königs</persName> in Ornat zu mahlen vorgezogen <lb/>weil
+               vielleicht der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> selbst <del rendition="#s">zu</del>
                <lb/>
                     <subst>
                   <del rendition="#s">siz</del>
                   <add place="intralinear">der Copie zu sizen</add>
                </subst> Hofnung <lb/>gebe und das Cumuliren beider Arbeiten <lb/>ihm nicht erlaubt
                   werde<supplied cert="high">.</supplied>
-               <persName ref="http://d-nb.info/gnd/11712110X">Olfers</persName>
+               <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">Olfers</persName>
                <lb/>verspricht ihn für Sie gut zu ersezen <lb/>und die Sache eifrig zu
                   betreiben<supplied cert="high">.</supplied>
-               <lb/>Der durch Basalt gerostete Schlam<lb/>auswurf ist sehr
+               <lb/>Der durch Basalt gerostete Schlam<lb break="no"/>auswurf ist sehr
                   interessant<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
@@ -109,12 +127,12 @@
                   Nachts </dateline>
                 </closer>
             <postscript>
-               <p>Ich leide wieder <lb/>sehr von meinem <add place="intralinear">un<lb/>sichtbaren</add> Hautübel. Vor <lb/>dem 4ten Bande <lb/>des <ref xml:id="b743bc08-c68d-4c4d-83bc-08c68dcc4da3" corresp="#af95c7f5-e61e-4285-95c7-f5e61ec28592">Kosmos</ref>
-                        <note xml:id="af95c7f5-e61e-4285-95c7-f5e61ec28592" corresp="#b743bc08-c68d-4c4d-83bc-08c68dcc4da3">
-                        <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>, IV </note> ist <lb/>das Kratzen mein <lb/>Hauptgeschäfte<supplied cert="high">.</supplied>
+               <p>Ich leide wieder <lb/>sehr von meinem <add place="intralinear">un<lb break="no"/>sichtbaren</add> Hautübel. Vor <lb/>dem 4ten Bande <lb/>des <ref xml:id="e572e512-95a4-4acf-b2e5-1295a42acf9c" corresp="#f2c9eb7b-656f-47c8-89eb-7b656fe7c89e">Kosmos</ref>
+                        <note xml:id="f2c9eb7b-656f-47c8-89eb-7b656fe7c89e" corresp="#e572e512-95a4-4acf-b2e5-1295a42acf9c">
+                        <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862</bibl>, IV </note> ist <lb/>das Kratzen mein <lb/>Hauptgeschäfte<supplied cert="high">.</supplied>
                   <lb/>Ich möchte mir bald <lb/>den so luftdichten <lb/>Sarg wünschen, dass
                   <lb/>wenn man etwa <lb/>erwachte man <lb/>bald erstikt wird<supplied cert="high">.</supplied>
-                  <lb/>Ein Mann in <lb/>Ostpreussen kün<lb/>digt mir die Er<lb/>findung an und <lb/>will mir dafür <lb/>200 Reichsthaler ableihen<supplied cert="high">.</supplied>
+                  <lb/>Ein Mann in <lb/>Ostpreussen kün<lb break="no"/>digt mir die Er<lb break="no"/>findung an und <lb/>will mir dafür <lb/>200 Reichsthaler ableihen<supplied cert="high">.</supplied>
                </p>
             </postscript>
          </div>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016626">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [August 1838] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016626">https://edition-humboldt.de/v8/H0016626</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016626</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016626</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016626.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [August 1838] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016626</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>Nachlass Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">57</idno>
+                     <idno type="shelfmark">421, Bl. 103r, 104v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1838-08" notAfter="1838-08">1838-08-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Laue 1895, S.188 E. reiste zu Beginn der Sommerferien 1838
                nach England über Paris; H. reiste am 13.8. von Berlin nach Paris</note>
@@ -86,24 +104,24 @@
                   <abbr>Ehrenb.</abbr>
                   <expan>Ehrenberg</expan>
                </choice>
-               <lb/>und wenn man sein Fell gemein<lb/>schaftlich in <placeName ref="https://www.geonames.org/2016590">Sibirien</placeName> daran <lb/>gesezt, darf man hoffen, dass
+               <lb/>und wenn man sein Fell gemein<lb break="no"/>schaftlich in <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibirien</placeName> daran <lb/>gesezt, darf man hoffen, dass
                <lb/>diese Zeilen nicht misgedeutet <lb/>werden<supplied cert="high">.</supplied> Ich
-               habe Ihnen angebo<lb/>ten, was ich nicht halten <lb/>kann. <persName>Seyffert</persName> hat so eben <lb/>den mir von der Post gelie<lb/>henen Wagen untersucht: er <lb/>hat hinten einen verdekten <lb/>Kasten
+               habe Ihnen angebo<lb break="no"/>ten, was ich nicht halten <lb/>kann. <persName ref="https://editon-humboldt.de/">Seyffert</persName> hat so eben <lb/>den mir von der Post gelie<lb break="no"/>henen Wagen untersucht: er <lb/>hat hinten einen verdekten <lb/>Kasten
                in den mein Koffer <lb/>nicht hinein passt; dieser <lb/>muss daher leider! im Wagen
                <lb/>stehen worin ich also (wegen <lb/>der Undurchdringlichkeit <lb/>der Körper) Sie
-               nicht aufneh<lb/>men kann. Ich betrübe <lb/>mich minder, da ich glaube
-               <lb/>Sie hätten ohnedies meine <lb/>Bitte nicht erfüllen können. Ver<lb/>gessen Sie, theurer Freund, <lb/>nicht mir Ankündigungen <lb/>Ihres herrlichen
-               Werkes (<ref xml:id="eb1cd8a0-5d50-42bb-9cd8-a05d5022bb9e" corresp="#eb722d45-26ab-4e9a-b22d-4526ab0e9ad5">
+               nicht aufneh<lb break="no"/>men kann. Ich betrübe <lb/>mich minder, da ich glaube
+               <lb/>Sie hätten ohnedies meine <lb/>Bitte nicht erfüllen können. Ver<lb break="no"/>gessen Sie, theurer Freund, <lb/>nicht mir Ankündigungen <lb/>Ihres herrlichen
+               Werkes (<ref xml:id="bcef736f-0488-4cf2-af73-6f04889cf2e3" corresp="#e43a70d5-022b-4b70-ba70-d5022bdb7014">
                         <choice>
                         <abbr>Infus</abbr>
                         <expan>Infusionstierchen</expan>
                      </choice>
                     </ref>
-                    <note xml:id="eb722d45-26ab-4e9a-b22d-4526ab0e9ad5" corresp="#eb1cd8a0-5d50-42bb-9cd8-a05d5022bb9e">
-                     <bibl corresp="https://edition-humboldt.de/v8/X7KZUS33">Ehrenberg 1838</bibl>,
+                    <note xml:id="e43a70d5-022b-4b70-ba70-d5022bdb7014" corresp="#bcef736f-0488-4cf2-af73-6f04889cf2e3">
+                     <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>,
                      -57,
-                     62, 86, 101, 103 </note>) <lb/>mit nach <ref xml:id="eaa7e3f3-347a-4947-a7e3-f3347ad94736" corresp="#ca9c3636-c37b-4701-9c36-36c37b3701d1">Babel</ref>
-                    <note xml:id="ca9c3636-c37b-4701-9c36-36c37b3701d1" corresp="#eaa7e3f3-347a-4947-a7e3-f3347ad94736">Babel=Paris</note> zu <lb/>geben<supplied cert="high">.</supplied>
+                     62, 86, 101, 103 </note>) <lb/>mit nach <ref xml:id="e9380c6f-1e9d-4ce4-b80c-6f1e9dace464" corresp="#f17a3385-9ffd-4efc-ba33-859ffd9efc88">Babel</ref>
+                    <note xml:id="f17a3385-9ffd-4efc-ba33-859ffd9efc88" corresp="#e9380c6f-1e9d-4ce4-b80c-6f1e9dace464">Babel=Paris</note> zu <lb/>geben<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
                     <signed>AHumboldt</signed>

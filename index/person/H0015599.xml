@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015599">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schmidt, Johann Friedrich Julius</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schmidt, Johann Friedrich Julius [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015599.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015599.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015599.xml">
-                    <p>Schmidt, Johann Friedrich Julius [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015599.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015599">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/115825916</idno>
                     <persName type="reg">
                         <surname>Schmidt</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1825</birth>
                     <death>1884</death>
-                    <note>deutscher Geophysiker, Geograph und Astronom an den Sternwarten in <placeName key="H0005309">Bonn</placeName>, <placeName key="H0007817">Olmütz</placeName> und <placeName key="H0002593">Athen</placeName>
+                    <note>deutscher Geophysiker, Geograph und Astronom an den Sternwarten in <placeName ref="https://editon-humboldt.de/H0005309 https://www.geonames.org/2946447">Bonn</placeName>, <placeName ref="https://editon-humboldt.de/H0007817">Olmütz</placeName> und <placeName ref="https://editon-humboldt.de/H0002593 https://www.geonames.org/264371">Athen</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="37#429" type="page"/>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016782">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [25. Juni
+               1835] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016782">https://edition-humboldt.de/v8/H0016782</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016782</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016782</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016782.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [25. Juni
-               1835] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016782</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>Nachlass Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">54</idno>
+                     <idno type="shelfmark">421, Bl. 96r</idno>, 97v </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1835-06-25">1835-06-25</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Ehrenbergs Vortrag am 18.6.1835, vor Humboldts Abreise nach
                Teplitz am 1.7.1835; Geburt von E.s Tochter Mathilde</note>
@@ -81,26 +98,26 @@
             <pb n="1v"/>
             <p>Ich sehe aus Ihrem geistreichen Briefe mein theurer <lb/>Freund, wie viel ich
                verloren habe, Ihre lezte <lb/>
-                    <ref xml:id="f6dd5999-07d9-4cd1-9d59-9907d96cd14f" corresp="#e6e749f9-e8ed-4ed9-a749-f9e8ed1ed91e">philosophische Vorlesung</ref>
-                    <note xml:id="e6e749f9-e8ed-4ed9-a749-f9e8ed1ed91e" corresp="#f6dd5999-07d9-4cd1-9d59-9907d96cd14f">
-                     <bibl corresp="https://edition-humboldt.de/v8/QCI6353C">Ehrenberg 1836a</bibl>
+                    <ref xml:id="f9f3db33-5c17-49ab-b3db-335c1729ab9e" corresp="#ae28033b-33e7-4965-a803-3b33e7396524">philosophische Vorlesung</ref>
+                    <note xml:id="ae28033b-33e7-4965-a803-3b33e7396524" corresp="#f9f3db33-5c17-49ab-b3db-335c1729ab9e">
+                     <bibl corresp="https://edition-humboldt.de/QCI6353C">Ehrenberg 1836a</bibl>
                   </note> über die sogenannten <lb/>Organisations-Stufen nicht gehört zu <lb/>haben.
                Lassen Sie ja bald einen Auszug <lb/>davon drukken und machen Sie mir damit <lb/>eine
-               Freude in <placeName ref="https://www.geonames.org/3064288">Teplitz</placeName>
+               Freude in <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName>
                     <supplied cert="high">.</supplied> Sie haben gerade <lb/>den Gesichtspunkt herausgehoben, <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> nach
                <lb/>dem Ihre Entdekkungen der Organisation <lb/>in den niederen? Thierklassen mir
                <lb/>am wichtigsten zu sein schienen. <lb/>Wie Sie gebe ich auf<supplied>,</supplied>
                was ich selbst <lb/>lange glaubte, Subordination der Thier <lb/>Klassen nach
-               Verschwinden ganzer Syste<lb/>me. Die Unterschiede scheinen mehr in
+               Verschwinden ganzer Syste<lb break="no"/>me. Die Unterschiede scheinen mehr in
                <lb/>Entwikkelung von Gliedmassen (Fische <lb/>und Vierfüsser) von Absonderung des
                Kopfes, <lb/>in <hi rendition="#u">Formen</hi> als in Mangel von Systemen
-               <lb/>(Gefässen, Nerven) zu ligen und <lb/>doch sind vielfüssig, vielarmig, gleich<lb/>sam Maul-fingrig gerade Insecten <lb/>und mit Cehen versehene <name type="animal|plant" key="Polygastren">Polygastren</name>. <lb/>In den ältesten
+               <lb/>(Gefässen, Nerven) zu ligen und <lb/>doch sind vielfüssig, vielarmig, gleich<lb break="no"/>sam Maul-fingrig gerade Insecten <lb/>und mit Cehen versehene <name type="animal|plant" key="Polygastren">Polygastren</name>. <lb/>In den ältesten
                Schichten finden <lb/>wir <name type="animal" key="Trilobiten">Trilobiten</name>,
                   <name type="animal" key="Ogygien">Ogygien</name>, welche <lb/>schöne Augen, wie
                viel Füsse, welche <lb/>zusammengesezte Organisation<supplied cert="high">.</supplied> Ich hebe <lb/>Ihren schönen Brief auf. Ich muss <lb/>Herrn von
-                  <persName ref="http://d-nb.info/gnd/11862783X">
+                  <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">
                         <choice>
                      <abbr>Altenst.</abbr>
                      <expan>Altenstein</expan>
@@ -110,11 +127,11 @@
                   <expan>und</expan>
                </choice>
                <lb/>werde ihn für Sie beeilen<supplied cert="high">.</supplied>
-               <lb/>Ich komme 23 Juli von <placeName ref="https://www.geonames.org/3064288">Tepliz</placeName> zurük
-               <lb/>gehe nicht nach <placeName ref="https://www.geonames.org/3096880">Kalisch</placeName> und <lb/>mache
-               meine Reise nach <placeName ref="https://www.geonames.org/2988507">Paris</placeName> wohl <lb/>erst im
+               <lb/>Ich komme 23 Juli von <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Tepliz</placeName> zurük
+               <lb/>gehe nicht nach <placeName ref="https://editon-humboldt.de/H0017452 https://www.geonames.org/3096880">Kalisch</placeName> und <lb/>mache
+               meine Reise nach <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> wohl <lb/>erst im
                September. Wie freue ich <lb/>mich Ihres häuslichen Glükkes. Ich <lb/>hoffe Sie noch
-               vor meiner Abreise <lb/>zu umarmen. Behalten Sie Hei<lb/>terkeit des
+               vor meiner Abreise <lb/>zu umarmen. Behalten Sie Hei<lb break="no"/>terkeit des
                Geistes, alles andere <lb/>ist Ihnen reichlich gespendet<supplied cert="high">.</supplied>
                <lb/>Seien Sie versichert, das Umfassende <lb/>Ihrer Entdekkungen im organischen
                <lb/>Weltall wird mit der Zeit allgemein <lb/>bewundert werden. Man dringt <lb/>nur

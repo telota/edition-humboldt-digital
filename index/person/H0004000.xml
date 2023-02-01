@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004000">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Toaldo, Giuseppe</title>
             </titleStmt>
+            <editionStmt>
+                <p>Toaldo, Giuseppe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004000.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004000.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004000.xml">
-                    <p>Toaldo, Giuseppe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004000.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004000">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117628204</idno>
                     <persName type="reg">
                         <surname>Toaldo</surname>
@@ -41,7 +46,7 @@
                     </persName>
                     <birth>1719</birth>
                     <death>1789</death>
-                    <note>Physiker, Meteorologe und Astronom in <placeName key="H0008018">Padua</placeName> (Italien)</note>
+                    <note>Physiker, Meteorologe und Astronom in <placeName ref="https://editon-humboldt.de/H0008018 https://www.geonames.org/3171727">Padua</placeName> (Italien)</note>
                     <linkGrp>
                         <ptr target="16#57" type="letter"/>
                     </linkGrp>

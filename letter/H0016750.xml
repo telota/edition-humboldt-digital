@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016750">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,33 +29,51 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], um
+               Juli–Oktober 1827, hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016750">https://edition-humboldt.de/v8/H0016750</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016750</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016750</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016750.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], um
-               Juli–Oktober 1827. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016750</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">25</idno>
+                     <idno type="shelfmark">421, Bl. 44r-44v, 45v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1827-07-01" notAfter="1827-10-31" cert="high"/>
               
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Passalacqua traf im Juli 1827 in Berlin ein. Die Kisten, die seine
                ägyptischen Sammlungen enthielten und die Humboldt im vorliegenden Schreiben erwähnt,
@@ -79,27 +97,28 @@
                </address>
             </opener>
             <pb n="1v"/>
-                <p>Tausend Dank für Ihre Theil<lb/>nahme, mein theurer College!
-               <lb/>Mein Blutgeschwür ist <lb/>fast geheilt. Ich besize <lb/>selbst <ref xml:id="bd07508a-637c-4620-8750-8a637c5620ee" corresp="#c04a2662-5ff3-406f-8a26-625ff3306fc0">
-                        <persName ref="http://d-nb.info/gnd/104340738">Dobeney’s</persName> kleines <lb/>Werk über die
+                <p>Tausend Dank für Ihre Theil<lb break="no"/>nahme, mein theurer College!
+               <lb/>Mein Blutgeschwür ist <lb/>fast geheilt. Ich besize <lb/>selbst <ref xml:id="cda0b64e-1508-4b06-a0b6-4e15080b06a3" corresp="#c5cd6541-7372-4c93-8d65-4173727c9396">
+                        <persName ref="https://editon-humboldt.de/H0017040 http://d-nb.info/gnd/104340738">Dobeney’s</persName> kleines <lb/>Werk über die
                      Vulkane</ref>
-                    <note xml:id="c04a2662-5ff3-406f-8a26-625ff3306fc0" corresp="#bd07508a-637c-4620-8750-8a637c5620ee">
-                     <bibl corresp="https://edition-humboldt.de/v8/9TVIPI3B">Daubeny 1826</bibl>
+                    <note xml:id="c5cd6541-7372-4c93-8d65-4173727c9396" corresp="#cda0b64e-1508-4b06-a0b6-4e15080b06a3">
+                     <bibl corresp="https://edition-humboldt.de/9TVIPI3B">Daubeny 1826</bibl>
                   </note>
                     <supplied cert="high">.</supplied>
                <lb/>Herr <choice>
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116817569">Buch</persName> hat es <lb/>auch. Mein Exemplar <lb/>kommt
-               in <persName ref="http://d-nb.info/gnd/11768693X">Passalaqua’s</persName>
+               <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> hat es <lb/>auch. Mein Exemplar <lb/>kommt
+               in <persName ref="https://editon-humboldt.de/H0001804 http://d-nb.info/gnd/11768693X">Passalaqua’s</persName>
                <lb/>Kisten <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> ich werde <lb/>es Ihnen in wenigen <lb/>Tagen bringen. Ich <lb/>glaube aber
                daß es <lb/>
                     <hi rendition="#u">Ihnen</hi> wenig nuzen wird<supplied cert="high">.</supplied>
-               <lb/>Sie sollten wohl <persName ref="http://d-nb.info/gnd/11768693X">Passa-<lb/>
+               <lb/>Sie sollten wohl <persName ref="https://editon-humboldt.de/H0001804 http://d-nb.info/gnd/11768693X">Passa<g ref="#typoHyphen"/>
+                        <lb break="no"/>
                         <pb n="2r"/>laqua</persName> in der Stadt Rom <lb/>besuchen. Er
                würde sich <lb/>sehr freuen.</p>
             <closer rend="within the line">

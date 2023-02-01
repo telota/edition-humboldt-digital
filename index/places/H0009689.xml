@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0009689">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ust'-Buchtarma</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ust'-Buchtarma [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0009689.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0009689.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0009689.xml">
-                    <p>Ust'-Buchtarma [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009689.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0009689">
+                <place>
                     <idno type="uri">https://www.geonames.org/1517617</idno>
                     <placeName type="reg">Ust'-Buchtarma</placeName>
                     <placeName type="alt">Buchtarminsk</placeName>
@@ -39,9 +44,9 @@
                     <placeName type="alt">Buchtarminsker Stausee</placeName>
                     <placeName type="alt">Buchtorma</placeName>
                     <placeName type="alt">Buchtorminsk</placeName>
-                    <note>Stadt und histor. Festung an der Mündung der <placeName key="H0018617">Buchtarma</placeName> in
-                        den <placeName key="H0006725">Irtysch</placeName>, seit 1960 vom Buchtarminsker Stausee
-                        überflutet (Kasachstan)</note><!-- Rose I, 585 -->
+                    <note>Stadt und histor. Festung an der Mündung der <placeName ref="https://editon-humboldt.de/H0018617 https://www.geonames.org/1525032">Buchtarma</placeName> in
+                        den <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtysch</placeName>, seit 1960 vom Buchtarminsker Stausee
+                        überflutet (Kasachstan)</note>
                     <linkGrp>
                         <ptr target="32#164" type="letter"/>
                         <ptr target="30#38" type="letter"/>
@@ -57,7 +62,7 @@
                         <place type="others" oldID="ediarum_dvw_3gy_wsb" xml:id="H0020294">
                             <placeName type="reg">Kupfergrube Buchtarminsk</placeName>
                             <note>östlich der Stadt und histor. Festung Buchtarminsk gelegene histor. Kupfergrube, Rose
-                                zufolge betrieben ab 1790</note><!-- Rose I, 588 -->
+                                zufolge betrieben ab 1790</note>
                         </place>
                     </listPlace>
                 </place>

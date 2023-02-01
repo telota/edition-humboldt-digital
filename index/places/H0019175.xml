@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019175">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Železinskoe</title>
             </titleStmt>
+            <editionStmt>
+                <p>Železinskoe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019175.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019175.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019175.xml">
-                    <p>Železinskoe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019175.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019175">
+                <place>
                     <placeName type="reg">Železinskoe</placeName>
                     <placeName type="alt">Железинскoе</placeName>
                     <placeName type="alt">Zhelezinskoye</placeName>
                     <placeName type="alt">Schelesinskoe</placeName>
                     <placeName type="alt">Schelesinskoi</placeName>
-                    <!-- Rose 1837/1842, I, 258 -->
-                    <note>Laut <bibl sameAs="zotero-667230-BH8W3QPH">Rose</bibl> (<ref target="https://www.deutschestextarchiv.de/rose_ural01_1837/292">I, 258 f.</ref>, <ref target="https://www.deutschestextarchiv.de/rose_ural01_1837/295">261</ref>) eine am Bach
-                            <placeName key="H0019174">Železenka</placeName> und dem Berg <placeName key="H0019525">Azov</placeName> nahe <placeName key="H0008343">Polevskoj</placeName> gelegene historische
-                        Goldwäsche (<placeName key="H0010689">Russland</placeName>)</note>
-                    <!-- Rose 1837/1842, I, 258 f., 261 -->
+                    
+                    <note>Laut <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose</bibl> (<ref target="https://www.deutschestextarchiv.de/rose_ural01_1837/292">I, 258 f.</ref>, <ref target="https://www.deutschestextarchiv.de/rose_ural01_1837/295">261</ref>) eine am Bach
+                            <placeName ref="https://editon-humboldt.de/H0019174 https://www.geonames.org/1485195">Železenka</placeName> und dem Berg <placeName ref="https://editon-humboldt.de/H0019525 https://www.geonames.org/1511136">Azov</placeName> nahe <placeName ref="https://editon-humboldt.de/H0008343 https://www.geonames.org/1494573">Polevskoj</placeName> gelegene historische
+                        Goldwäsche (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
+                    
                 </place>
             </listPlace>
         </body>

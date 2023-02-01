@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016448">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,31 +34,51 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Hermann Schlagintweit. [Berlin], Freitag, [19. März
+                    1852], hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016448">https://edition-humboldt.de/v8/H0016448</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016448</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016448</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016448.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Hermann Schlagintweit. [Berlin], Freitag, [19. März
-                    1852]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016448</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Sammlung Runge</collection>
+                        <idno>
+                            <idno type="shelfmark">IV, 584 und 586</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     <date notBefore="1852-03-19" notAfter="1852-04-19" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
                         Deutschland)</placeName>
                 </correspAction>
             </correspDesc>
@@ -72,13 +92,13 @@
                 <p>Es wird mir eine Freude sein, mein
                         <lb/>theurer
                     Schlagintweit Sie wieder <lb/>zu sehen Montag um 1 Uhr und <lb/>Ihnen und Ihrem
-                        <persName ref="http://d-nb.info/gnd/118755234">Bruder</persName> zu danken <lb/>für <ref xml:id="a9e42a6d-45fa-4c7e-a42a-6d45fa4c7ed2" corresp="#dddeebd2-e21c-43c8-9eeb-d2e21c43c854">das schöne Alpenbild</ref>
-                    <note xml:id="dddeebd2-e21c-43c8-9eeb-d2e21c43c854" corresp="#a9e42a6d-45fa-4c7e-a42a-6d45fa4c7ed2">
-                        <persName ref="http://d-nb.info/gnd/119074117">Hermann
+                        <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruder</persName> zu danken <lb/>für <ref xml:id="a1a56400-73f3-4497-a564-0073f3549799" corresp="#e1c6d3de-c417-44ce-86d3-dec41764ceb1">das schöne Alpenbild</ref>
+                    <note xml:id="e1c6d3de-c417-44ce-86d3-dec41764ceb1" corresp="#a1a56400-73f3-4497-a564-0073f3549799" resp="#UP">
+                        <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann
                                 Schlagintweit</persName> hatte Humboldt am selben Tag eine
-                            kolorierte Tafel gesandt, die sein <persName ref="http://d-nb.info/gnd/118755234">Bruder</persName> in einem Vortrag über den geologischen Bau der
-                                <placeName ref="https://www.geonames.org/2661786">Alpen</placeName> vorgestellt hatte. Vgl.
-                                <ref target="H0016443">Hermann Schlagintweit an Alexander von
+                            kolorierte Tafel gesandt, die sein <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruder</persName> in einem Vortrag über den geologischen Bau der
+                                <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName> vorgestellt hatte. Vgl.
+                                <ref target="https://edition-humboldt.de/H0016443">Hermann Schlagintweit an Alexander von
                                 Humboldt, Berlin 19. März 1852</ref>, SBB-PK,
                             Handschriftenabteilung, Nachlass Alexander von Humboldt ,gr. Kasten 11,
                             Nr. 50.51, 1r.</note>. </p>

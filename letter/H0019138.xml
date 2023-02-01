@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019138">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,34 +34,54 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Adolphe de Polier. Sarkau, 18. April 1829, hg. v. Ulrich Päßler und Florian Schnee unter Mitarbeit von Kathrin Kraller und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019138">https://edition-humboldt.de/v8/H0019138</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019138</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019138</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019138.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Adolphe de Polier. Sarkau, 18. April 1829. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019138</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Rossijskij Gosudarstvennyj Archiv Drevnich Aktov (RGADA,
+                            Russisches Staatsarchiv Alter Akten, Moskau)</institution>
+                        <idno>
+                            <idno type="shelfmark">f. 1288, op. 1. g. II, № 2774, l.
+                            1–2</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/535730">Lesnoi [Šarkuva, Лесной, Sarkau, Lesnoe] (Kleine
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0011422 https://www.geonames.org/535730">Lesnoi [Šarkuva, Лесной, Sarkau, Lesnoe] (Kleine
                         Ortschaft am schmalsten Grad der Nehrung)</placeName>
                     <date when="1829-04-18" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://edition-humboldt.de/v8/H0002056">Polier, Adolphe, Graf von (1795-1830)</persName>
+                    <persName ref="https://editon-humboldt.de/H0002056">Polier, Adolphe, Graf von (1795-1830)</persName>
                 </correspAction>
-                <note>Die Briefe <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldts</persName> an
-                        <persName ref="https://edition-humboldt.de/v8/H0002056">Adolphe de Polier</persName> wurden von <persName ref="https://edition-humboldt.de/v8/H0019459">Boris G. Šadrin</persName> im Russischen Staatsarchiv
-                    Alter Akten, Moskau entdeckt. Die Herausgeber danken ihm sowie <persName ref="http://viaf.org/viaf/305685650">Svetlana Kamzolova</persName> und <persName ref="https://d-nb.info/gnd/124857698">Ulrich Stottmeister</persName> für die Überlassung
+                <note>Die Briefe <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldts</persName> an
+                        <persName ref="https://editon-humboldt.de/H0002056">Adolphe de Polier</persName> wurden von <persName ref="https://editon-humboldt.de/H0019459">Boris G. Šadrin</persName> im Russischen Staatsarchiv
+                    Alter Akten, Moskau entdeckt. Die Herausgeber danken ihm sowie <persName ref="https://editon-humboldt.de/H0019477 http://viaf.org/viaf/305685650">Svetlana Kamzolova</persName> und <persName ref="https://editon-humboldt.de/H0019462 https://d-nb.info/gnd/124857698">Ulrich Stottmeister</persName> für die Überlassung
                     einer Kopie der Handschriften und die Möglichkeit zur Erstveröffentlichung in
                     der edition humboldt digital.</note>
             </correspDesc>
@@ -76,13 +96,13 @@
                 </opener>
                 <p>
                     <pb n="1r"/> Monsieur le Comte! Vous m’avez donné <lb/> des marques si aimables
-                    d’intérêt et <lb/> de bienveillance à <placeName ref="https://www.geonames.org/9843867">
+                    d’intérêt et <lb/> de bienveillance à <placeName ref="https://editon-humboldt.de/H0009730 https://www.geonames.org/9843867">
                         <choice>
                             <abbr>St</abbr>
                             <expan>Saint</expan>
                         </choice>
                         <supplied cert="high">-</supplied>Germain</placeName>, à <lb/>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>, à <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> (à Votre passage <lb/> avec <persName ref="https://edition-humboldt.de/v8/H0002057">Madame la Comtesse</persName>), j’ajoute <lb/> de <placeName ref="https://www.geonames.org/498817">Pétersbourg</placeName> même, que je me <lb/> fais une fête de Vous donner
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>, à <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> (à Votre passage <lb/> avec <persName ref="https://editon-humboldt.de/H0002057">Madame la Comtesse</persName>), j’ajoute <lb/> de <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Pétersbourg</placeName> même, que je me <lb/> fais une fête de Vous donner
                     ce <lb/> signe de vie, de me rapeller <choice>
                         <sic>à</sic>
                         <corr cert="high" type="deleted"/>
@@ -92,29 +112,30 @@
                     <date when="1829-04-27" calendar="#gregorian">27</date> de ce mois) j’aurai le
                     plaisir <lb/> de Vous revoir et de jouir d’une <lb/> société dans laquelle Votre
                     talent <lb/> et la noble simplicité de Votre <lb/> caractère répandoit tant de
-                        char-<lb/>me. Vous voyez que j’aime <choice>
+                        char<g ref="#typoHyphen"/>
+                    <lb break="no"/>me. Vous voyez que j’aime <choice>
                         <sic>à</sic>
                         <corr cert="high" type="deleted"/>
                     </choice>
-                    <lb/> faire revivre des souvenirs d’un <lb/> tems qui nous étoit si cher. <ref xml:id="e8356d9c-4912-4167-b56d-9c4912116701" corresp="#c5fca3f5-8304-43e5-bca3-f58304a3e516">Les <lb/> neiges, les inondations</ref>
-                    <note xml:id="c5fca3f5-8304-43e5-bca3-f58304a3e516" corresp="#e8356d9c-4912-4167-b56d-9c4912116701">Die <placeName ref="https://www.geonames.org/594825">Memel</placeName>
-                            war infolge der Schneeschmelze zwischen <placeName ref="https://www.geonames.org/490068">Tilsit</placeName> und ihrer Mündung ins <placeName ref="https://www.geonames.org/538562/">Kurische Haff</placeName> über die Ufer getreten und hatte die
-                            Straße von <placeName ref="https://www.geonames.org/554234">Königsberg</placeName> über
-                                <placeName ref="https://www.geonames.org/490068">Tilsit</placeName> nach <placeName ref="https://www.geonames.org/498817">Petersburg</placeName> unpassierbar gemacht. Auch die
-                            alternative Route über die <placeName ref="https://www.geonames.org/538563/">Kurische
+                    <lb/> faire revivre des souvenirs d’un <lb/> tems qui nous étoit si cher. <ref xml:id="f0a08792-d266-4ddb-a087-92d2664ddb94" corresp="#a985bf3f-86c6-4dc7-85bf-3f86c69dc778">Les <lb/> neiges, les inondations</ref>
+                    <note xml:id="a985bf3f-86c6-4dc7-85bf-3f86c69dc778" corresp="#f0a08792-d266-4ddb-a087-92d2664ddb94">Die <placeName ref="https://editon-humboldt.de/H0008810 https://www.geonames.org/594825">Memel</placeName>
+                            war infolge der Schneeschmelze zwischen <placeName ref="https://editon-humboldt.de/H0018785 https://www.geonames.org/490068">Tilsit</placeName> und ihrer Mündung ins <placeName ref="https://editon-humboldt.de/H0000507 https://www.geonames.org/538562/">Kurische Haff</placeName> über die Ufer getreten und hatte die
+                            Straße von <placeName ref="https://editon-humboldt.de/H0000331 https://www.geonames.org/554234">Königsberg</placeName> über
+                                <placeName ref="https://editon-humboldt.de/H0018785 https://www.geonames.org/490068">Tilsit</placeName> nach <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Petersburg</placeName> unpassierbar gemacht. Auch die
+                            alternative Route über die <placeName ref="https://editon-humboldt.de/H0000506 https://www.geonames.org/538563/">Kurische
                                 Nehrung</placeName> war <quote>noch schlechter</quote> zu befahren
-                            als erwartet (<bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose
+                            als erwartet (<bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose
                                 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/43">9</ref>f.). Bereits auf der Fahrt nach Königsberg hatte Humboldt
-                            die Gegend jenseits von Marienburg und <placeName ref="https://www.geonames.org/3099759">Elbing</placeName>
+                            die Gegend jenseits von Marienburg und <placeName ref="https://editon-humboldt.de/H0005608 https://www.geonames.org/3099759">Elbing</placeName>
                             <quote>zu beiden Seiten der Straße so überschwemmt [vorgefunden], dass
                                 diese nur wenig aus der alles bedeckenden Wassermasse
-                                hervorragte</quote>(<bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose
+                                hervorragte</quote>(<bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose
                                 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/36">2</ref>).</note>, tout ce <lb/>
                     <pb n="1v"/> qui pourroit faire peur à <lb/> d’autres voyageurs qu’à ceux <lb/>
-                    de l’<placeName ref="https://www.geonames.org/3631298">Orénoque</placeName>, <ref xml:id="e83f260e-19d2-4466-bf26-0e19d264662d" corresp="#c6bddb5c-8fab-401a-bddb-5c8fab601a64">me retiennent <lb/>
-                            dans les sables de la <placeName ref="https://www.geonames.org/538563/">Nährung</placeName>
+                    de l’<placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orénoque</placeName>, <ref xml:id="bcb051b4-359f-43fa-b051-b4359f23fa2e" corresp="#f615189a-99a6-4ff0-9518-9a99a6aff0ed">me retiennent <lb/>
+                            dans les sables de la <placeName ref="https://editon-humboldt.de/H0000506 https://www.geonames.org/538563/">Nährung</placeName>
                         </ref>
-                    <note xml:id="c6bddb5c-8fab-401a-bddb-5c8fab601a64" corresp="#e83f260e-19d2-4466-bf26-0e19d264662d">Auf dem Weg von <placeName ref="https://www.geonames.org/554234">Königsberg</placeName> nach <placeName ref="https://www.geonames.org/598098">Memel</placeName> über die <placeName ref="https://www.geonames.org/538563/">Kurische
+                    <note xml:id="f615189a-99a6-4ff0-9518-9a99a6aff0ed" corresp="#bcb051b4-359f-43fa-b051-b4359f23fa2e">Auf dem Weg von <placeName ref="https://editon-humboldt.de/H0000331 https://www.geonames.org/554234">Königsberg</placeName> nach <placeName ref="https://editon-humboldt.de/H0000424 https://www.geonames.org/598098">Memel</placeName> über die <placeName ref="https://editon-humboldt.de/H0000506 https://www.geonames.org/538563/">Kurische
                                 Nehrung</placeName> waren die Räder eines Reisewagens <quote>bis
                                 über die Axen in den erweichten Boden</quote> eingesunken, als einer
                             der Postillons versucht hatte, <quote>auf dem Lande neben der Strasse zu
@@ -123,38 +144,39 @@
                             einbrachen. Erst nach <quote>mehrere[n] Stunden Aufenthalt</quote>
                             konnte die Reise dank der <quote>Hülfe vieler Menschen, die aus einem
                                 benachbarten Dorfe [...] mit Hebebäumen und Brettern
-                                herbeieilten</quote>, fortgesetzt werden (<bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/44">10</ref>).</note>
-                    <lb/> [,] <ref xml:id="d5bf11e8-6534-4cae-bf11-e865341cae21" corresp="#c774ca0e-ef58-4661-b4ca-0eef5876613d">incertain si dans 2 jours, je <lb/> pourrai atteindre <placeName ref="https://www.geonames.org/596238">Polangen</placeName>
+                                herbeieilten</quote>, fortgesetzt werden (<bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/44">10</ref>).</note>
+                    <lb/> [,] <ref xml:id="c7a8c27a-ae7a-4747-a8c2-7aae7ad747aa" corresp="#e9608da1-ea31-479d-a08d-a1ea31479de3">incertain si dans 2 jours, je <lb/> pourrai atteindre <placeName ref="https://editon-humboldt.de/H0008339 https://www.geonames.org/596238">Polangen</placeName>
                     </ref>
-                    <note xml:id="c774ca0e-ef58-4661-b4ca-0eef5876613d" corresp="#d5bf11e8-6534-4cae-bf11-e865341cae21">Humboldt erreichte den russischen Grenzposten
-                                <placeName ref="https://www.geonames.org/596238">Polangen</placeName> erst vier Tage
+                    <note xml:id="e9608da1-ea31-479d-a08d-a1ea31479de3" corresp="#c7a8c27a-ae7a-4747-a8c2-7aae7ad747aa">Humboldt erreichte den russischen Grenzposten
+                                <placeName ref="https://editon-humboldt.de/H0008339 https://www.geonames.org/596238">Polangen</placeName> erst vier Tage
                             später, am <date when="1829-04-22" calendar="#gregorian">22. April
                                 1829</date>. Er traf zwar bereits am Abend des <date when="1829-04-19" calendar="#gregorian">19. April</date> auf der
-                                <placeName ref="https://www.geonames.org/598098">Memel</placeName> gegenüber liegenden
-                            Spitze der <placeName ref="https://www.geonames.org/538563/">Kurischen Nehrung</placeName> ein,
-                            musste aber im dortigen Gasthaus „<placeName ref="https://www.geonames.org/594398">Sandkrug</placeName>“ Quartier nehmen, da die Meerenge zwischen
-                                <placeName ref="https://www.geonames.org/538562/">Haff</placeName> und <placeName ref="https://www.geonames.org/2633321">Ostsee</placeName> wegen Eisganges unpassierbar war
-                            (vgl. <bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, I,
+                                <placeName ref="https://editon-humboldt.de/H0000424 https://www.geonames.org/598098">Memel</placeName> gegenüber liegenden
+                            Spitze der <placeName ref="https://editon-humboldt.de/H0000506 https://www.geonames.org/538563/">Kurischen Nehrung</placeName> ein,
+                            musste aber im dortigen Gasthaus „<placeName ref="https://editon-humboldt.de/H0009850 https://www.geonames.org/594398">Sandkrug</placeName>“ Quartier nehmen, da die Meerenge zwischen
+                                <placeName ref="https://editon-humboldt.de/H0000507 https://www.geonames.org/538562/">Haff</placeName> und <placeName ref="https://editon-humboldt.de/H0016252 https://www.geonames.org/2633321">Ostsee</placeName> wegen Eisganges unpassierbar war
+                            (vgl. <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, I,
                                 <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/45">11</ref>). Humboldt wartete <quote>zwei volle Tage vergeblich auf
                                 die Ueberfahrt</quote>, ehe diese am Morgen des 22. April
-                                <quote>bewerkstelligt werden konnte</quote> (<bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/49">15</ref>).</note>
+                                <quote>bewerkstelligt werden konnte</quote> (<bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/49">15</ref>).</note>
                     <supplied cert="high">,</supplied>
                     <lb/> je profite de ce tems pour <lb/> Vous offrir, mon cher Comte<supplied cert="high">,</supplied>
                     <lb/> l’expression de ma haute <lb/> et affectueuse considération<supplied cert="high">.</supplied>
-                    <lb/> Daignez offrir mes respectueux <lb/> hommages à <persName ref="https://edition-humboldt.de/v8/H0002057">Madame la <lb/> Comtesse de Polier</persName> et <lb/> soyez assez habile
-                    pour <lb/> déchiffrer cet affreux bar-<lb/>bouillage.</p>
+                    <lb/> Daignez offrir mes respectueux <lb/> hommages à <persName ref="https://editon-humboldt.de/H0002057">Madame la <lb/> Comtesse de Polier</persName> et <lb/> soyez assez habile
+                    pour <lb/> déchiffrer cet affreux bar<g ref="#typoHyphen"/>
+                    <lb break="no"/>bouillage.</p>
                 <signed>Al. Humboldt</signed>
                     <postscript>
                     <p>
-                        <ref xml:id="f5761aac-1d47-4444-b61a-ac1d47544450" corresp="#f8b996e9-8b50-44d4-b996-e98b5084d431">
-                            <placeName ref="https://www.geonames.org/535730">Sarkau</placeName> à 7 miles de <placeName ref="https://www.geonames.org/554234">Königsberg</placeName>
+                        <ref xml:id="cb9e4dea-bdb4-420d-9e4d-eabdb4d20d7f" corresp="#bb3d5555-e41f-4f98-bd55-55e41fbf985f">
+                            <placeName ref="https://editon-humboldt.de/H0011422 https://www.geonames.org/535730">Sarkau</placeName> à 7 miles de <placeName ref="https://editon-humboldt.de/H0000331 https://www.geonames.org/554234">Königsberg</placeName>
                         </ref>
-                        <note xml:id="f8b996e9-8b50-44d4-b996-e98b5084d431" corresp="#f5761aac-1d47-4444-b61a-ac1d47544450">Humboldt war am Morgen des 18. April von
-                                <placeName ref="https://www.geonames.org/554234">Königsberg</placeName> abgereist, auf der
+                        <note xml:id="bb3d5555-e41f-4f98-bd55-55e41fbf985f" corresp="#cb9e4dea-bdb4-420d-9e4d-eabdb4d20d7f">Humboldt war am Morgen des 18. April von
+                                <placeName ref="https://editon-humboldt.de/H0000331 https://www.geonames.org/554234">Königsberg</placeName> abgereist, auf der
                             infolge von Schnee, Eis und Schmelzwasser unwegsamen Straße bis zum
                             Abend desselben Tages aber <quote>nicht weiter als bis Sarkau, dem
                                 ersten Dorfe auf der Nehrung und der zweiten Station von
-                                Königsberg</quote> gekommen (<bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/44">10</ref>).</note> ce <date when="1829-04-18" calendar="#gregorian">18 Avril 1829</date>. </p>
+                                Königsberg</quote> gekommen (<bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/44">10</ref>).</note> ce <date when="1829-04-18" calendar="#gregorian">18 Avril 1829</date>. </p>
                 </postscript>
                 <pb n="2r"/>
                 <gap unit="pages" quantity="1" reason="empty"/>
@@ -183,7 +205,7 @@
                     <address>
                     <addrLine>
                             <note hand="#unknown" place="mTop">
-                                <placeName ref="https://www.geonames.org/535730">Sarkau</placeName> den <subst>
+                                <placeName ref="https://editon-humboldt.de/H0011422 https://www.geonames.org/535730">Sarkau</placeName> den <subst>
                                     <del rendition="#ow">
                                         <date when="1829-04-18" calendar="#gregorian">18</date>
                                     </del>
@@ -193,7 +215,7 @@
                                 </subst>
                                 <supplied cert="high">.</supplied> April 29.</note>
                         </addrLine>
-                    <addrLine>Monsieur <persName ref="https://edition-humboldt.de/v8/H0002056">
+                    <addrLine>Monsieur <persName ref="https://editon-humboldt.de/H0002056">
                                 <choice>
                                     <abbr>Ad.</abbr>
                                     <expan>Adolphe</expan>
@@ -202,7 +224,7 @@
                         <addrLine>à</addrLine>
                         <addrLine>
                             <hi rendition="#u">
-                                <placeName ref="https://www.geonames.org/498817">
+                                <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                                     <choice>
                                         <abbr>St</abbr>
                                         <expan>Saint</expan>
@@ -215,7 +237,7 @@
                         <addrLine>
                             <note hand="#unknown" place="left">
                                 <hi rendition="#u">franco bis
-                                        <placeName ref="https://www.geonames.org/598098">Memel</placeName>.</hi>
+                                        <placeName ref="https://editon-humboldt.de/H0000424 https://www.geonames.org/598098">Memel</placeName>.</hi>
                             </note>
                         </addrLine>
                 </address>

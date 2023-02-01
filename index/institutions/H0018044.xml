@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018044">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title/>
             </titleStmt>
+            <editionStmt>
+                <p> [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018044.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018044.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018044.xml">
-                    <p> [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018044.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018044">
+                <org>
                     <orgName type="reg">Zyrjanovskij rudnik</orgName>
                     <orgName type="alt">Зыряновский рудник</orgName>
                     <orgName type="alt">Zyrjanovskoe mestoroždenie</orgName>
                     <orgName type="alt">Зыряновыское месторождение</orgName>
-                    <desc>1789 gegründetes historisches Silberbergwerk in <placeName key="H0018111">Altaj</placeName>
+                    <desc>1789 gegründetes historisches Silberbergwerk in <placeName ref="https://editon-humboldt.de/H0018111">Altaj</placeName>
                         (ehemals Zyrjanovsk) im Osten Kasachstans</desc>
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/1516438</idno>
-                            <settlement key="H0018111">Altaj [Алтай]</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0018111">Altaj [Алтай]</settlement>
                             <note>1791 gegründete Stadt; heute im Osten Kasachstans an der Grenze zu Russland.</note>
                         </address>
                     </location>

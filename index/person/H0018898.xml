@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018898">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Allaja, Manuel</title>
             </titleStmt>
+            <editionStmt>
+                <p>Allaja, Manuel [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018898.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018898.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018898.xml">
-                    <p>Allaja, Manuel [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018898.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0018898">
+                <person>
                     <persName type="reg">
                         <surname>Allaja</surname>
                         <forename>Manuel</forename>
                     </persName>
                     <floruit notBefore="1800" notAfter="1800">um 1800</floruit>
                     <note>Besitzer einer Hacienda, die auch den Brotfruchtbaum (Artocarpus)
-                        <?oxy_comment_start author="goetz" timestamp="20200925T104556+0200" comment="Die Textstelle legt Chorony nahe; lässt aber auch Caraccas denkbar sein, was mit Humboldt 2000, 184 kompatibel wäre"?>anbaut<?oxy_comment_end?>
-                    </note>
+                        anbaut</note>
                 </person>
             </listPerson>
         </body>

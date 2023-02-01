@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004729">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -20,29 +20,38 @@
                         </resp>
                     </respStmt>
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (23. März 1827) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0004729">https://edition-humboldt.de/v8/H0004729</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0004729</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0004729</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004729.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1827. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0004729</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> H. wird „président honoraire“ der <orgName ref="http://d-nb.info/gnd/1010376-4">Société de
-                        géographie</orgName> zu <placeName ref="https://www.geonames.org/2988507">Paris</placeName>. </p>
+                <p> H. wird „président honoraire“ der <orgName ref="https://editon-humboldt.de/H0000588 http://d-nb.info/gnd/1010376-4">Société de
+                        géographie</orgName> zu <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>. </p>
             </body>
         </text>
     </TEI>

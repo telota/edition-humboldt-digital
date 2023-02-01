@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018292">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Podolien</title>
             </titleStmt>
+            <editionStmt>
+                <p>Podolien [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018292.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018292.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018292.xml">
-                    <p>Podolien [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018292.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018292">
+                <place>
                     <placeName type="reg">Podolien</placeName>
                     <placeName type="alt">Podolia</placeName>
                     <placeName type="alt">Подолье</placeName>
                     <placeName type="alt">Podolje</placeName>
                     <placeName type="alt">Поділля</placeName>
                     <placeName type="alt">Podillja</placeName>
-                    <note>Östlich der <placeName key="H0000371">Karpaten</placeName> gelegene historische Landschaft in
-                            <placeName key="H0007872">Osteuropa</placeName>; 1793–1925 Gouvernement des <placeName key="H0010689">russ.</placeName> Kaiserreichs (<placeName key="H0009637">Ukraine</placeName>, Republik Moldau) </note>
+                    <note>Östlich der <placeName ref="https://editon-humboldt.de/H0000371 https://www.geonames.org/682674">Karpaten</placeName> gelegene historische Landschaft in
+                            <placeName ref="https://editon-humboldt.de/H0007872 https://www.geonames.org/7729884">Osteuropa</placeName>; 1793–1925 Gouvernement des <placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">russ.</placeName> Kaiserreichs (<placeName ref="https://editon-humboldt.de/H0009637 https://www.geonames.org/690791">Ukraine</placeName>, Republik Moldau) </note>
                 </place>
             </listPlace>
         </body>

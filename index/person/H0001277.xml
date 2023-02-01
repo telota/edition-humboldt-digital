@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001277">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kayser, August Friedrich Wilhelm</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kayser, August Friedrich Wilhelm [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001277.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001277.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001277.xml">
-                    <p>Kayser, August Friedrich Wilhelm [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001277.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001277">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/1071658158</idno>
                     <persName type="reg">
                         <surname>Kayser</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1782</birth>
                     <death>1855</death>
-                    <note>Geheimer Oberfinanzrat; 1820–1848 Direktor der <orgName key="H0000586">Preußischen Seehandlung</orgName>
+                    <note>Geheimer Oberfinanzrat; 1820–1848 Direktor der <orgName ref="https://editon-humboldt.de/H0000586 http://d-nb.info/gnd/4031532-0">Preußischen Seehandlung</orgName>
                     </note>
                     <linkGrp>
                         <ptr target="34#372" type="page"/>

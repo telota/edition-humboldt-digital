@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001450">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kortüm, Karl Wilhelm Christian</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kortüm, Karl Wilhelm Christian [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001450.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001450.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001450.xml">
-                    <p>Kortüm, Karl Wilhelm Christian [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001450.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001450">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117537969</idno>
                     <persName type="reg">
                         <surname>Kortüm</surname>
@@ -38,7 +43,7 @@
                     <birth>1787</birth>
                     <death>1859</death>
                     <note>preußischer Beamter; 1831–1852 Vortragender Rat im Kultusministerium;
-                        1841–1842 interimistisch oberster Leiter der <orgName key="H0000561">Königlichen Bibliothek</orgName> in Berlin</note>
+                        1841–1842 interimistisch oberster Leiter der <orgName ref="https://editon-humboldt.de/H0000561 http://d-nb.info/gnd/37101-4">Königlichen Bibliothek</orgName> in Berlin</note>
                     <linkGrp>
                         <ptr target="27#18" type="page"/>
                         <ptr subtype="comment" target="27#[19]" type="page"/>

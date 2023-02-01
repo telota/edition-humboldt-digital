@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006053">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,33 +29,59 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Karl Ludwig Willdenow. Havanna, 4. März
+                    1801, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006053">https://edition-humboldt.de/v8/H0006053</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006053</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006053</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006053.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Karl Ludwig Willdenow. Havanna, 4. März
-                    1801. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006053</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>American Philosophical Society Library</institution>
+                        <repository>Manuscript Department</repository>
+                        <collection>Alexander von Humboldt Papers</collection>
+                        <idno>
+                            <idno type="shelfmark">B.H88</idno>
+                            <idno type="URLCatalogue">https://search.amphilsoc.org/collections/view?docId=ead/Mss.B.H88-ead.xml</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/CD8ZDJ5R">Humboldt 1993</bibl>,
+                            131–134.
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 123–124.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/3553478">Havanna</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0006819 https://www.geonames.org/3553478">Havanna</placeName>
                     <date when="1801-03-04" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
+                    <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -67,7 +93,8 @@
                 <opener>
                     <salute>Liebster Freund,</salute>
                 </opener>
-                <p>In meinem lezten Briefe versprach ich Dir eine Samlung aus-<lb/>erlesener Pflanzen (250 <choice>
+                <p>In meinem lezten Briefe versprach ich Dir eine Samlung aus<g ref="#typoHyphen"/>
+                    <lb break="no"/>erlesener Pflanzen (250 <choice>
                         <abbr>Spec</abbr>
                         <expan>Species</expan>
                     </choice>) welche ich Dir zum Geschenk <lb/>
@@ -84,7 +111,8 @@
                     <lb/>die Eil mit der ich <choice>
                         <sic>Sie</sic>
                         <corr cert="high">sie</corr>
-                    </choice> einpakke hindert mich die Be-<lb/>schreibungen zu copiren. Bewahre die <choice>
+                    </choice> einpakke hindert mich die Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>schreibungen zu copiren. Bewahre die <choice>
                         <abbr>n<hi rendition="#sup">
                                 <hi rendition="#u">o</hi>
                             </hi>
@@ -98,12 +126,12 @@
                 <p>1700 <choice>
                         <abbr>Spec.</abbr>
                         <expan>Species</expan>
-                    </choice> ebenfalls Früchte unsrer Reise am <placeName ref="https://www.geonames.org/3631298">Orinoco</placeName>, <lb/>
-                    <placeName ref="https://www.geonames.org/3631536">Río Negro</placeName>
+                    </choice> ebenfalls Früchte unsrer Reise am <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orinoco</placeName>, <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0010589 https://www.geonames.org/3631536">Río Negro</placeName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> der <placeName ref="https://www.geonames.org/3630678">Parime</placeName>, 1700 <choice>
+                    </choice> der <placeName ref="https://editon-humboldt.de/H0008124 https://www.geonames.org/3630678">Parime</placeName>, 1700 <choice>
                         <abbr>Spec</abbr>
                         <expan>Species</expan>
                     </choice> (die doubletten <lb/>abgerechnet) sind Dir ebenfalls zum Geschenk <choice>
@@ -114,16 +142,17 @@
                         <abbr>Mr.</abbr>
                         <expan>Mister</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/117536628">John Fraser</persName>
-                    <lb/>den Du aus <bibl corresp="https://edition-humboldt.de/v8/U3V7FR3N">
-                        <persName ref="http://d-nb.info/gnd/1055363823">Walters</persName> Flora</bibl> kennst, bringt sie nach <placeName ref="https://www.geonames.org/6269131">Eng-<lb/>land</placeName>.
+                    <persName ref="https://editon-humboldt.de/H0000256 http://d-nb.info/gnd/117536628">John Fraser</persName>
+                    <lb/>den Du aus <bibl corresp="https://edition-humboldt.de/U3V7FR3N">
+                        <persName ref="https://editon-humboldt.de/H0006233 http://d-nb.info/gnd/1055363823">Walters</persName> Flora</bibl> kennst, bringt sie nach <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">Eng<g ref="#typoHyphen"/>
+                        <lb break="no"/>land</placeName>.
                     Diese 1700 <choice>
                         <abbr>Spec.</abbr>
                         <expan>Species</expan>
                     </choice> bitte ich Dich, da ich meine <lb/>Pflanzen selbst zu ediren gedenke,
                     vor meiner Rükkunft <lb/>
                     <pb n="1v"/>noch <hi rendition="#u">nicht</hi> in Dein Herbarium einzurangiren,
-                        da<lb/>mit mir die Arbeit leichter ist. <persName ref="http://d-nb.info/gnd/117536628">Fraser</persName> wird <lb/>Dir schreiben, so bald er mit dem Pflanzenschaz <lb/>
+                        da<lb break="no"/>mit mir die Arbeit leichter ist. <persName ref="https://editon-humboldt.de/H0000256 http://d-nb.info/gnd/117536628">Fraser</persName> wird <lb/>Dir schreiben, so bald er mit dem Pflanzenschaz <lb/>
                     <choice>
                         <orig>ankom̅t</orig>
                         <reg>ankommt</reg>
@@ -131,30 +160,30 @@
                     <lb/>halte <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> daß wir auf einer Reise, die nicht eigent<lb/>lich
+                    </choice> daß wir auf einer Reise, die nicht eigent<lb break="no"/>lich
                     botanische Zwekke hat, nicht faul sind.</p>
-                <p>Ich reise morgen von hier nach <placeName ref="https://www.geonames.org/3687247">Carthagena</placeName>
+                <p>Ich reise morgen von hier nach <placeName ref="https://editon-humboldt.de/H0007180 https://www.geonames.org/3687247">Carthagena</placeName>
                     <supplied cert="high">,</supplied>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/3703430">Panamá</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008052 https://www.geonames.org/3703430">Panamá</placeName>
                     <supplied cert="high">,</supplied>
-                    <placeName ref="https://www.geonames.org/3657509">Guajaquil</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0011115 https://www.geonames.org/3657509">Guajaquil</placeName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <placeName ref="https://www.geonames.org/3652462">Quito</placeName> ab, von da <lb/>nach <placeName ref="https://www.geonames.org/3936456">Lima</placeName>, dann <placeName ref="https://www.geonames.org/3533462">Acapulco</placeName>, <placeName ref="https://www.geonames.org/3996063">Mexico</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName> ab, von da <lb/>nach <placeName ref="https://editon-humboldt.de/H0011439 https://www.geonames.org/3936456">Lima</placeName>, dann <placeName ref="https://editon-humboldt.de/H0002309 https://www.geonames.org/3533462">Acapulco</placeName>, <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <placeName ref="https://www.geonames.org/1694008">Phi<lb/>lippinen</placeName>. So ist mein
+                    <placeName ref="https://editon-humboldt.de/H0008248 https://www.geonames.org/1694008">Phi<lb break="no"/>lippinen</placeName>. So ist mein
                     Plan. Meine Gesundheit <lb/>ist eisern fest. </p>
                 <p>Ich umarme Dich herzlich. Mein Begleiter <lb/>
-                    <persName ref="http://d-nb.info/gnd/118661604">Bonpland</persName>
+                    <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>
                     <supplied cert="high">,</supplied> ein sehr wakkerer
                     Botanist, grüßt <lb/>Dich unbekannter Weise. Tausend Empfehlungen <lb/>an Dein
-                    liebes <persName ref="https://edition-humboldt.de/v8/H0006401">Weib</persName>
+                    liebes <persName ref="https://editon-humboldt.de/H0006401">Weib</persName>
                     <supplied cert="high">.</supplied>
                 </p>
                 <signed>A Humboldt.</signed>

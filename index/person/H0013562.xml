@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0013562">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>González Pola, Felipe</title>
             </titleStmt>
+            <editionStmt>
+                <p>González Pola, Felipe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0013562.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0013562.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0013562.xml">
-                    <p>González Pola, Felipe [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0013562.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0013562">
+                <person>
                     <persName type="reg">
                         <surname>González Pola</surname>
                         <forename>Felipe</forename>
                     </persName>
                     <floruit notBefore="1799" notAfter="1799">um 1799</floruit>
                     <note>Bekannter von
-                        <?oxy_comment_start author="Christian Thomas" timestamp="20210821T153600+0200" comment="welcher Pombo?! Es gibt mehrere Personen dieses Namens im Register. @AG: erschließt sich vielleicht aus der hier verlinkten Briefausgabe https://edition-humboldt.de/H0013562. Bitte prüfen und dann hier &quot;Pombo&quot; mit (Vornamen,) &lt;persName&gt; und @key versehen. Danke!"?>Pombo<?oxy_comment_end?>
+                        Pombo
                         in La Coruña</note>
                     <linkGrp>
                         <ptr target="16#109" type="letter"/>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002657">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,33 +29,59 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Samuel Thomas Soemmerring. Goldkronach, 29. Juni
+                    1795, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002657">https://edition-humboldt.de/v8/H0002657</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002657</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002657</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002657.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Samuel Thomas Soemmerring. Goldkronach, 29. Juni
-                    1795. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002657</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift / Frankfurter Goethe-Museum</institution>
+                        <repository>Handschriftensammlung</repository>
+                        <idno>
+                            <idno type="shelfmark">Hs-5054</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/WFDJIWK6">Humboldt 1973,
+                            438–440</bibl>
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/DW4AA88T">Soemmerring 2001,
+                            226–229</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2919290">Goldkronach</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0010878 https://www.geonames.org/2919290">Goldkronach</placeName>
                     <date when="1795-06-29" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118805193">Sömmering, Samuel Thomas (1755–1830) </persName>
+                    <persName ref="https://editon-humboldt.de/H0015944 http://d-nb.info/gnd/118805193">Sömmering, Samuel Thomas (1755–1830) </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -65,21 +91,22 @@
             <div type="writingSession" n="1">
                 <p>
                     <pb n="1r"/>
-                    <ref xml:id="f09d7ce9-0f62-4f14-9d7c-e90f629f14be" corresp="#ef5b5933-b376-42e2-9b59-33b37602e2c3">Wie innig, theurer, Verehrungswerther Mann! freue ich mich über den
+                    <ref xml:id="b442319d-3cad-4c06-8231-9d3cad9c06ee" corresp="#ef7f8876-47a2-44fc-bf88-7647a2a4fc68">Wie innig, theurer, Verehrungswerther Mann! freue ich mich über den
                             <lb/>Beifall, den sie meiner Arbeit schenken. Dieser Beifall <choice>
                                 <abbr>u</abbr>
                                 <expan>und</expan>
                             </choice> Ihr <lb/>Nahme, der dem Buche vorsteht, reizt mich zur
-                            genaueren Ausarbei-<lb/>tung
+                            genaueren Ausarbei<g ref="#typoHyphen"/>
+                        <lb break="no"/>tung
                             desselben.</ref>
-                    <note xml:id="ef5b5933-b376-42e2-9b59-33b37602e2c3" corresp="#f09d7ce9-0f62-4f14-9d7c-e90f629f14be">Vgl. <bibl corresp="https://edition-humboldt.de/v8/9S4VPTFP">Humboldt 1795</bibl> sowie <ref target="H0002729">Humboldts
+                    <note xml:id="ef7f8876-47a2-44fc-bf88-7647a2a4fc68" corresp="#b442319d-3cad-4c06-8231-9d3cad9c06ee">Vgl. <bibl corresp="https://edition-humboldt.de/9S4VPTFP">Humboldt 1795</bibl> sowie <ref target="https://edition-humboldt.de/H0002729">Humboldts
                                 Brief an Sömmerring, Bayreuth, 7. Juni 1795.</ref>
                         </note> Ich stelle noch täglich Versuche an, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> ich zweifle <lb/>daß man mit mehr Gewissenhaftigkeit zu Werke gehen
-                    kann, als <lb/>ich es thue. Herrn <bibl corresp="https://edition-humboldt.de/v8/R4WNEASK">
-                        <persName ref="http://d-nb.info/gnd/116139935">Pfaffs</persName> neue Schrift Ueber <choice>
+                    kann, als <lb/>ich es thue. Herrn <bibl corresp="https://edition-humboldt.de/R4WNEASK">
+                        <persName ref="https://editon-humboldt.de/H0001918 http://d-nb.info/gnd/116139935">Pfaffs</persName> neue Schrift Ueber <choice>
                             <abbr>thier</abbr>
                             <expan>thierische</expan>
                         </choice>
@@ -93,18 +120,21 @@
                     </choice> umzuarbeiten. Ich will <lb/>nur neue Versuche bekannt machen, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> wir sind uns so oft be-<lb/>gegnet.
+                    </choice> wir sind uns so oft be<g ref="#typoHyphen"/>
+                    <lb break="no"/>gegnet.
                     Das wichtigste, was ich entdekt zu haben glaube, ist der <lb/>Versuch mit dem
                     Hauch. Es ist der Kardinalversuch, den ich Sie <lb/>ja zu wiederholen bitte.
                     Legen Sie den Crural Nerv auf Zink <lb/>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> armiren Sie den Muskel mit Zink, so erfolgt bei Berüh-<lb/>rührung von Zink und Zink keine Zukkung.
+                    </choice> armiren Sie den Muskel mit Zink, so erfolgt bei Berüh<g ref="#typoHyphen"/>
+                    <lb break="no"/>rührung von Zink und Zink keine Zukkung.
                     Legen Sie Gold auf <lb/>die Zinkarmatur <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> berühren Sie nun den Zink am Mus-<lb/>kel mit dem Golde so zukt es auch nicht, wenn das <lb/>Gold vollkommen trokken
+                    </choice> berühren Sie nun den Zink am Mus<g ref="#typoHyphen"/>
+                    <lb break="no"/>kel mit dem Golde so zukt es auch nicht, wenn das <lb/>Gold vollkommen trokken
                     ist. Befeuchten Sie aber das Gold <lb/>a zwischen dem Zink b und dem Zink <subst>
                         <del rendition="#s">b</del>
                         <add place="intralinear">c</add>
@@ -126,11 +156,12 @@
                     <choice>
                         <abbr>Galvan</abbr>
                         <expan>Galvanischen</expan>
-                    </choice> Entdekkung um vieles näher? Muskelfleisch, Hauch, Alko-<lb/>hol, Wassertropfen auf a wirken alle
+                    </choice> Entdekkung um vieles näher? Muskelfleisch, Hauch, Alko<g ref="#typoHyphen"/>
+                    <lb break="no"/>hol, Wassertropfen auf a wirken alle
                     gleich! Können Sie aber <lb/>nun noch glauben daß jene 4 Stoffe als <hi rendition="#u">bloße Leiter</hi> wirken, <lb/>da von ihnen das Zukken <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Nicht Zukken unbedingt ab<lb/>hängt? Nein! sie sind die
+                    </choice> Nicht Zukken unbedingt ab<lb break="no"/>hängt? Nein! sie sind die
                     wahren excitateurs. Homogene Metalle <lb/>
                     <pb n="1v"/>stehen in Berührung mit einer <hi rendition="#u">feuchten</hi>
                     <subst>
@@ -138,7 +169,7 @@
                         <add place="intralinear">ausdünstenden</add>
                     </subst> Substanz. <lb/>Es entsteht kein Reiz.<note hand="#author" place="left">
                         <orig>Der Versuch, Licht zu sehen, ohne das Auge zu berühren, ist ja von
-                                <persName ref="http://viaf.org/viaf/76668363">Fowler</persName> früher entdekt!</orig>
+                                <persName ref="https://editon-humboldt.de/H0000202 http://viaf.org/viaf/76668363">Fowler</persName> früher entdekt!</orig>
                     </note> Eine tote ausdünstende Flüssigkeit Wasser, <lb/>Alkohol tritt mit einem
                     heterogenen Metalle in die Kette <lb/>
                     <choice>
@@ -178,7 +209,8 @@
                     </choice> warum kehren die Erscheinungen nicht öfter wieder. So habe <lb/>ich <choice>
                         <abbr>nun</abbr>
                         <expan>zu</expan>
-                    </choice> mehrern Malen vor Zeugen mit aller Aufmerk-<lb/>samkeit auf Täuschung, Zukkungen gesehen, als ich die mit
+                    </choice> mehrern Malen vor Zeugen mit aller Aufmerk<g ref="#typoHyphen"/>
+                    <lb break="no"/>samkeit auf Täuschung, Zukkungen gesehen, als ich die mit
                     <lb/>Muskelfleisch umwikkelte Pincette dem Schenkel auf 1–2 <choice>
                         <abbr>Lin.</abbr>
                         <expan>Linien</expan>
@@ -189,41 +221,47 @@
                     ich <lb/>habe zerschnittene Nerven (auch vor Zeugen) leiten sehen, als <lb/>sie
                     ganz auf troknem Glase lagen, als ein Nervenmedium <lb/>aufgehoben wurde. Warum
                     kehrt das nicht immer wieder. <lb/>Aber das Ausbleiben ist eben der Charakter
-                    lebendiger Kräf-<lb/>te. <bibl corresp="https://edition-humboldt.de/v8/GHNGH9KN">
-                        <persName ref="http://d-nb.info/gnd/118599224">Reil’s</persName>
+                    lebendiger Kräf<g ref="#typoHyphen"/>
+                    <lb break="no"/>te. <bibl corresp="https://edition-humboldt.de/GHNGH9KN">
+                        <persName ref="https://editon-humboldt.de/H0000801 http://d-nb.info/gnd/118599224">Reil’s</persName>
                         Buch de irritabilitate</bibl>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> die <ref xml:id="d714559f-515c-4089-9455-9f515c00892f" corresp="#a496638e-9eac-4b7a-9663-8e9eac3b7a34">
-                        <bibl corresp="https://edition-humboldt.de/v8/KMHVDNQ2">Zoonomie <lb/>von <persName ref="http://d-nb.info/gnd/118671049">Darwin</persName>
+                    </choice> die <ref xml:id="fee445e5-4a85-4b8d-a445-e54a85fb8ddd" corresp="#cee787ef-a9ec-4672-a787-efa9ec6672b0">
+                        <bibl corresp="https://edition-humboldt.de/KMHVDNQ2">Zoonomie <lb/>von <persName ref="https://editon-humboldt.de/H0012149 http://d-nb.info/gnd/118671049">Darwin</persName>
                         </bibl>
                     </ref>
-                    <note xml:id="a496638e-9eac-4b7a-9663-8e9eac3b7a34" corresp="#d714559f-515c-4089-9455-9f515c00892f">
-                            <bibl corresp="https://edition-humboldt.de/v8/KMHVDNQ2">Darwin, R. 1794–1796</bibl>,
+                    <note xml:id="cee787ef-a9ec-4672-a787-efa9ec6672b0" corresp="#fee445e5-4a85-4b8d-a445-e54a85fb8ddd">
+                            <bibl corresp="https://edition-humboldt.de/KMHVDNQ2">Darwin, R. 1794–1796</bibl>,
                             I.</note> beschäftigen mich noch Monathe lang. Das erste <lb/>sah ich leider erst
-                    spät. Aber welche Fülle von Ide-<lb/>en, auch in
-                    der <ref xml:id="ec49f90f-28af-4e21-89f9-0f28afee210e" corresp="#d35ade9e-468d-4291-9ade-9e468d52911a">
+                    spät. Aber welche Fülle von Ide<g ref="#typoHyphen"/>
+                    <lb break="no"/>en, auch in
+                    der <ref xml:id="b89b8902-29e4-4598-9b89-0229e4c598d4" corresp="#f823546f-361f-45a5-a354-6f361f55a5bf">
                             <choice>
                                 <abbr>Diss</abbr>
                                 <expan>Dissertatio</expan>
                             </choice> de caenesthesi</ref>
-                    <note xml:id="d35ade9e-468d-4291-9ade-9e468d52911a" corresp="#ec49f90f-28af-4e21-89f9-0f28afee210e">
-                            <bibl corresp="https://edition-humboldt.de/v8/RINAJX9N">Hübner
-                            1794</bibl>.</note>. Ich weiß nicht, wo-<lb/>
-                    <pb n="2r"/>ran es liegt, daß Ihnen die Versuche mit dem Me-<lb/>tallkalche nicht glükken wollen, da sie doch <lb/>
-                    <persName ref="http://d-nb.info/gnd/118723367">Klaproth</persName> und andern glükken und mit dem
+                    <note xml:id="f823546f-361f-45a5-a354-6f361f55a5bf" corresp="#b89b8902-29e4-4598-9b89-0229e4c598d4">
+                            <bibl corresp="https://edition-humboldt.de/RINAJX9N">Hübner
+                            1794</bibl>.</note>. Ich weiß nicht, wo<g ref="#typoHyphen"/>
+                    <lb break="no"/>
+                    <pb n="2r"/>ran es liegt, daß Ihnen die Versuche mit dem Me<g ref="#typoHyphen"/>
+                    <lb break="no"/>tallkalche nicht glükken wollen, da sie doch <lb/>
+                    <persName ref="https://editon-humboldt.de/H0001338 http://d-nb.info/gnd/118723367">Klaproth</persName> und andern glükken und mit dem
                     freilich viel <lb/>deutlicheren der <choice>
                         <abbr>oxygen.</abbr>
                         <expan>oxygenirten</expan>
-                    </choice> Kochsalzsäure in so naher <lb/>Verbindung stehen. Lesen Sie <bibl corresp="https://edition-humboldt.de/v8/8JA672NA">
-                        <persName ref="http://d-nb.info/gnd/120175622">Uslars</persName>
+                    </choice> Kochsalzsäure in so naher <lb/>Verbindung stehen. Lesen Sie <bibl corresp="https://edition-humboldt.de/8JA672NA">
+                        <persName ref="https://editon-humboldt.de/H0002281 http://d-nb.info/gnd/120175622">Uslars</persName>
                         <choice>
                             <abbr>Fragm.</abbr>
                             <expan>Fragmente</expan>
-                        </choice> neu-<lb/>erer
-                    Pflanzenkunde</bibl>, Sie werden meine Ideen und Ver-<lb/>suche darin sehr erweitert finden. Der <persName ref="http://d-nb.info/gnd/120175622">Uslar</persName> ist <lb/>ein sonderbar Gemisch von Scharfsinn und
-                    Unwissenheit. <lb/>Auch <persName ref="http://d-nb.info/gnd/116139935">Pfaffs</persName> Versuch, daß
+                        </choice> neu<g ref="#typoHyphen"/>
+                        <lb break="no"/>erer
+                    Pflanzenkunde</bibl>, Sie werden meine Ideen und Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>suche darin sehr erweitert finden. Der <persName ref="https://editon-humboldt.de/H0002281 http://d-nb.info/gnd/120175622">Uslar</persName> ist <lb/>ein sonderbar Gemisch von Scharfsinn und
+                    Unwissenheit. <lb/>Auch <persName ref="https://editon-humboldt.de/H0001918 http://d-nb.info/gnd/116139935">Pfaffs</persName> Versuch, daß
                     Frösche in <choice>
                         <abbr>dephlog.</abbr>
                         <expan>dephlogistirter</expan>
@@ -236,16 +274,18 @@
                     <choice>
                         <abbr>p</abbr>
                         <expan>pagina</expan>
-                    </choice> 126 und 292, sezt mei-<lb/>ne Versuche über das Keimen ins gehörige Licht. Mein <lb/>Buch
-                    wird im Herbst erscheinen, da ich in we-<lb/>nigen Tagen nach der Schweiz abgehe. Bis zum <lb/>14ten <choice>
+                    </choice> 126 und 292, sezt mei<g ref="#typoHyphen"/>
+                    <lb break="no"/>ne Versuche über das Keimen ins gehörige Licht. Mein <lb/>Buch
+                    wird im Herbst erscheinen, da ich in we<g ref="#typoHyphen"/>
+                    <lb break="no"/>nigen Tagen nach der Schweiz abgehe. Bis zum <lb/>14ten <choice>
                         <abbr>Jul</abbr>
                         <expan>Julius</expan>
-                    </choice> treffen mich Ihre Briefe noch hier, nach<lb/>mals schikken
-                    Sie sie (falls Sie mir schreiben <lb/>wollen) an <persName ref="http://d-nb.info/gnd/118554727">Wilhelm</persName>, der jetzt in <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> ist<choice>
+                    </choice> treffen mich Ihre Briefe noch hier, nach<lb break="no"/>mals schikken
+                    Sie sie (falls Sie mir schreiben <lb/>wollen) an <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm</persName>, der jetzt in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> ist<choice>
                         <sic>.</sic>
                         <corr cert="high">,</corr>
                     </choice>
-                    <lb/>an<persName ref="http://d-nb.info/gnd/118554727">
+                    <lb/>an<persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">
                         <choice>
                             <abbr>Legat.</abbr>
                             <expan>Legations</expan>
@@ -257,32 +297,33 @@
                             <abbr>H</abbr>
                             <expan>Humboldt</expan>
                         </choice>
-                    </persName> nach <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>. <persName ref="http://d-nb.info/gnd/118554727">Wil-<lb/>helm</persName>
+                    </persName> nach <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>. <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wil<g ref="#typoHyphen"/>
+                        <lb break="no"/>helm</persName>
                     treibt fast nichts als <lb/>
                     <choice>
                         <abbr>prakt</abbr>
                         <expan>praktische</expan>
-                    </choice> Anatomie und (wie <persName ref="http://d-nb.info/gnd/119008017">Loder</persName>
+                    </choice> Anatomie und (wie <persName ref="https://editon-humboldt.de/H0004586 http://d-nb.info/gnd/119008017">Loder</persName>
                     <lb/>meint) secirt und präparirt er <lb/>sehr geschikt. Er treibt es <lb/>um zu
-                    sehen, was man daraus <lb/>für Psychologie nicht ler<lb/>nen könne.
+                    sehen, was man daraus <lb/>für Psychologie nicht ler<lb break="no"/>nen könne.
                     Das hätte er kürzer <lb/>
-                    <ref xml:id="ce26eb1f-0848-466d-a6eb-1f0848166dbf" corresp="#af73435a-7054-4579-b343-5a705405793f">in Ihrem treflichen
+                    <ref xml:id="d6361cd6-ebe1-4654-b61c-d6ebe10654d0" corresp="#f92b75e6-55a2-4d3e-ab75-e655a2cd3e9e">in Ihrem treflichen
                             Abschnitt
                             <lb/>übers Hirn im 5ten Bande</ref>
-                    <note xml:id="af73435a-7054-4579-b343-5a705405793f" corresp="#ce26eb1f-0848-466d-a6eb-1f0848166dbf">
-                        <bibl corresp="https://edition-humboldt.de/v8/6WKSXFU3">Soemmerring
+                    <note xml:id="f92b75e6-55a2-4d3e-ab75-e655a2cd3e9e" corresp="#d6361cd6-ebe1-4654-b61c-d6ebe10654d0">
+                        <bibl corresp="https://edition-humboldt.de/6WKSXFU3">Soemmerring
                                 1791–1796</bibl>, V/1.</note>, den ich <lb/>unaufhörlich studire, gehabt. Könnte ich
                     Sie doch sprechen<supplied cert="high">,</supplied>
                     <lb/>ich habe so viel gesammlet, so viel zu fragen. Ich komme <lb/>im <choice>
                         <abbr>Nov.</abbr>
                         <expan>November</expan>
-                    </choice> aus der <placeName ref="https://www.geonames.org/2658434">Schweiz</placeName> zurük. Ich sehe
+                    </choice> aus der <placeName ref="https://editon-humboldt.de/H0010179 https://www.geonames.org/2658434">Schweiz</placeName> zurük. Ich sehe
                     Sie wohl dann.</p>
                 <p>Vergessen Sie nicht Ihren alten Alexander, der jezt <lb/>viel solider ist, als <subst>
                         <del rendition="#s">jezt</del>
                         <add place="intralinear">sonst.</add>
-                    </subst> Sie würden ge<lb/>wiß zufriedner mit mir sein<supplied cert="high">.</supplied>
-                    <lb/>Empfehlen Sie mich Ihrer liebenwürdigen <persName ref="https://edition-humboldt.de/v8/H0015925">Gattin</persName>!</p>
+                    </subst> Sie würden ge<lb break="no"/>wiß zufriedner mit mir sein<supplied cert="high">.</supplied>
+                    <lb/>Empfehlen Sie mich Ihrer liebenwürdigen <persName ref="https://editon-humboldt.de/H0015925">Gattin</persName>!</p>
                 <closer rend="paragraph">
                     <signed>Humboldt.</signed>
                     <dateline>Goldkronach, den 29<supplied cert="high">.</supplied>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016721">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [März 1846] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016721">https://edition-humboldt.de/v8/H0016721</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016721</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016721</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016721.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [März 1846] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016721</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">154</idno>
+                     <idno type="shelfmark">421, Bl. 275r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date notBefore="1846-03" notAfter="1846-03">1846-03-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: E.s Vortrag in der Akademie über die Asche des Hecla: 14.5.1845; H.
                im April 1846 in Potsdam</note>
@@ -64,31 +82,31 @@
          <div type="writingSession">
             <pb n="1r"/>
                 <p>Verzeihen Sie, mein theurer Freund, dass ich Ihnen <lb/>vor wenigen Tagen, von der Eisenbahn
-               beeilt <lb/>die <placeName ref="https://www.geonames.org/2630594">Hecla</placeName> Asche (lezter noch
+               beeilt <lb/>die <placeName ref="https://editon-humboldt.de/H0006822 https://www.geonames.org/2630594">Hecla</placeName> Asche (lezter noch
                fortdauernder <lb/>Ausbruch) sandte ohne dabei zu schreiben. <lb/>Ich erhielt die
-               Asche vom Etatsrath <lb/>Fin <persName ref="http://d-nb.info/gnd/116679115">Magnussen</persName> aus
-                  <placeName ref="https://www.geonames.org/2618425">Koppenhagen</placeName> ohne weitere <lb/>Bezeichnung.
+               Asche vom Etatsrath <lb/>Fin <persName ref="https://editon-humboldt.de/H0017058 http://d-nb.info/gnd/116679115">Magnussen</persName> aus
+                  <placeName ref="https://editon-humboldt.de/H0000460 https://www.geonames.org/2618425">Koppenhagen</placeName> ohne weitere <lb/>Bezeichnung.
                Sie könnten wohl an ihn selbst <lb/>schreiben er wird aber wohl wenig über <lb/>den
                Ursprung zu sagen haben, da die <lb/>Aschen nie in der Luft aufgefangen werden
                <lb/>und also auf etwas gefallen sind<supplied cert="high">.</supplied> Ich
-               <lb/>glaube diese Asche ist nicht von einem <lb/>Schiff sondern aus <placeName ref="https://www.geonames.org/2629691">Island</placeName> selbst, dem <lb/>Geburtslande des
+               <lb/>glaube diese Asche ist nicht von einem <lb/>Schiff sondern aus <placeName ref="https://editon-humboldt.de/H0006739 https://www.geonames.org/2629691">Island</placeName> selbst, dem <lb/>Geburtslande des
                   Mannes<supplied cert="high">.</supplied> Sein Brief an <lb/>mich enthielt bloss
-                  <del rendition="#s">alte</del> Nachrichten <lb/>von alten Ausbrüchen.<ref xml:id="bb8aa758-aadc-4a37-8aa7-58aadcca37e0" corresp="#ff430a69-6d08-4f14-830a-696d082f1425"/>
-                    <note xml:id="ff430a69-6d08-4f14-830a-696d082f1425" corresp="#bb8aa758-aadc-4a37-8aa7-58aadcca37e0">
-                        <bibl corresp="https://edition-humboldt.de/v8/NGTMX7L7">Ehrenberg
+                  <del rendition="#s">alte</del> Nachrichten <lb/>von alten Ausbrüchen.<ref xml:id="c41239dc-aa81-4cb2-9239-dcaa81dcb291" corresp="#d7bede17-a3bf-444b-bede-17a3bfd44b8b"/>
+                    <note xml:id="d7bede17-a3bf-444b-bede-17a3bfd44b8b" corresp="#c41239dc-aa81-4cb2-9239-dcaa81dcb291">
+                        <bibl corresp="https://edition-humboldt.de/NGTMX7L7">Ehrenberg
                         1829</bibl>
                     </note> Herr <choice>
                   <abbr>v.</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116817569">Buch</persName> wird <lb/>an der unheilbaren Krankheit des
+               <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> wird <lb/>an der unheilbaren Krankheit des
                   <hi rendition="#u">Neides</hi>
                <lb/>noch lange leiden<supplied cert="high">.</supplied> Er ist
-                  <supplied>ein</supplied> durch Schmeiche<lb/>lei und Isolirtheit
+                  <supplied>ein</supplied> durch Schmeiche<lb break="no"/>lei und Isolirtheit
                verzogener Despot, <lb/>wir sind Freie. Sein Hauptfeind ist aber <lb/>jezt der
-               scharfsinnige <persName ref="http://d-nb.info/gnd/118523813">Darwin</persName>
+               scharfsinnige <persName ref="https://editon-humboldt.de/H0012148 http://d-nb.info/gnd/118523813">Darwin</persName>
                     <supplied cert="high">.</supplied> Wie herrlich <lb/>ist die Nachricht die Sie mir von <lb/>der
-               zunehmenden Genesung Ihrer <persName ref="https://edition-humboldt.de/v8/H0016962">Gattin</persName>
+               zunehmenden Genesung Ihrer <persName ref="https://editon-humboldt.de/H0016962">Gattin</persName>
                <lb/>geben!</p>
             <closer rend="paragraph">
                     <salute>Ihr <lb/>Sie innigst verehrender</salute>

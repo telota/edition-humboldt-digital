@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016506">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,31 +19,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juli 1843] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016506">https://edition-humboldt.de/v8/H0016506</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016506</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016506</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016506.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juli 1843] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016506</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">256</idno>
+                     <idno type="shelfmark">421, Bl. 480r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1843-07" notAfter="1843-07">1843-07-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Brief an FW IV. von H. v. 1843-07, in dem der Besuch
                Murchisons erwähnt wird</note>
@@ -53,9 +71,9 @@
    <text>
       <body>
          <div type="writingSession">
-            <p>Ich weiss, daß <persName ref="http://d-nb.info/gnd/119297345">Murchison</persName> schon Mittwoch
-                  <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> verlässt und da es ihm eine grosse
-               grosse Freude ist, Sie, theurer <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName>, einige
+            <p>Ich weiss, daß <persName ref="https://editon-humboldt.de/H0014452 http://d-nb.info/gnd/119297345">Murchison</persName> schon Mittwoch
+                  <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> verlässt und da es ihm eine grosse
+               grosse Freude ist, Sie, theurer <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>, einige
                Stunden zu sehen <subst>
                   <del rendition="">Sie zu sehen </del>
                   <add place="">Sie, theurer Ehrenberg, einige Stunden zu sehen</add>
@@ -65,7 +83,7 @@
                   Ihr </salute>
                 <lb/>
                     <signed>AlHumboldt</signed>
-               <dateline>Sontag Abend <lb/> in Eile eben von <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName> kommend.</dateline>
+               <dateline>Sontag Abend <lb/> in Eile eben von <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName> kommend.</dateline>
             </closer>
          </div>
       </body>

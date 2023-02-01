@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000761">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Raynal, Guillaume Thomas François, S. J.</title>
             </titleStmt>
+            <editionStmt>
+                <p>Raynal, Guillaume Thomas François, S. J. [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000761.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000761.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000761.xml">
-                    <p>Raynal, Guillaume Thomas François, S. J. [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000761.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0000761">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118969420</idno>
                     <persName type="reg">
                         <surname>Raynal</surname>
@@ -39,7 +44,7 @@
                     <death>1796</death>
                     <note>französischer Historiker; kämpfte in seinen Werken gegen Kolonialismus und
                         Inquisition; floh aus Frankreich und lebte von 1770–1787 in Preußen und
-                        Rußland; 1793 Mitglied im <orgName key="H0000552">Institut de
+                        Rußland; 1793 Mitglied im <orgName ref="https://editon-humboldt.de/H0000552 http://d-nb.info/gnd/35015-1">Institut de
                             France</orgName>; 1787 Rückkehr nach Frankreich; zum Deputierten der
                         Generalstände gewählt, trat er diese Stellung aus Altersgründen ab</note>
                     <linkGrp>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019668">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Mitternacht</title>
             </titleStmt>
+            <editionStmt>
+                <p>Mitternacht [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019668.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019668.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019668.xml">
-                    <p>Mitternacht [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019668.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>glossary</textClass>
+            <textClass>
+                <keywords>
+                    <term>glossary</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <list>
-                <item xml:id="H0019668">
+                <item>
                             <label type="reg">Mitternacht</label>
                             <label type="alt">Septentrio</label>
-                            <interp id="#geoBerg"/>
+                            <interp xml:id="#geoBerg"/>
                             <note resp="#FS">
                                 <p>auf den historischen Berg- oder Grubenkompass bezogener Begriff für ein Streichen
-                                    bzw. eine Ausrichtung nach Norden, in Richtung der 24. Stunde oder Null-<ref target="H0019652">Hora</ref>
+                                    bzw. eine Ausrichtung nach Norden, in Richtung der 24. Stunde oder Null-<ref target="https://edition-humboldt.de/H0019652">Hora</ref>
                         </p>
                             </note>
                         </item>

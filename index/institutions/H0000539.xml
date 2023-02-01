@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000539">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>École des Mines de Saint-Étienne</title>
             </titleStmt>
+            <editionStmt>
+                <p>École des Mines de Saint-Étienne [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000539.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000539.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000539.xml">
-                    <p>École des Mines de Saint-Étienne [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000539.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0000539">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/5534432-X</idno>
                     <orgName type="reg">École des Mines de Saint-Étienne</orgName>
                     <linkGrp>
@@ -46,7 +51,7 @@
                     <location from="1816" to="1848">
                         <address>
                             <idno type="uri">https://www.geonames.org/6614010</idno>
-                            <settlement key="H0009727">Saint-Étienne</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0009727">Saint-Étienne</settlement>
                             <note>place Marengo</note>
                         </address>
                     </location>

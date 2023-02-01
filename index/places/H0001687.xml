@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001687">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Nižnij Novgorod</title>
             </titleStmt>
+            <editionStmt>
+                <p>Nižnij Novgorod [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001687.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001687.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001687.xml">
-                    <p>Nižnij Novgorod [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001687.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0001687">
+                <place>
                     <idno type="uri">https://www.geonames.org/520555</idno>
                     <placeName type="reg">Nižnij Novgorod</placeName>
                     <placeName type="alt">Nischni Nowgorod</placeName>
@@ -42,7 +47,7 @@
                     <placeName type="alt">Нижний Новгород</placeName>
                     <placeName type="alt">Горький (1932–1991)</placeName>
                     <placeName type="alt">Gor'kij (1932–1991)</placeName>
-                    <note>Stadt an der Einmündung der <placeName key="H0016251">Oka</placeName> in die <placeName key="H0007984">Wolga</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    <note>Stadt an der Einmündung der <placeName ref="https://editon-humboldt.de/H0016251 https://www.geonames.org/516091">Oka</placeName> in die <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                     <linkGrp>
                         <ptr target="30#9" type="letter"/>
                         <ptr target="30#34" type="letter"/>

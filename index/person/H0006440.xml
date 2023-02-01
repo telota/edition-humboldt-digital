@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006440">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Witkiewicz, Jan Prosper</title>
             </titleStmt>
+            <editionStmt>
+                <p>Witkiewicz, Jan Prosper [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0006440.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006440.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0006440.xml">
-                    <p>Witkiewicz, Jan Prosper [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0006440.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0006440">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/97161072</idno>
                     <persName type="reg">
                         <surname>Witkiewicz</surname>
@@ -46,14 +51,14 @@
                     <persName type="alt">
                         <surname>Witkiewicz</surname>
                         <forename>Jean</forename>
-                        <!-- RST I, 75r -->
+                        
                     </persName>
                     <birth>1808</birth>
                     <death>1839</death>
                     <note>russ. Orientalist, Forschungsreisender und Diplomat polnisch-litauischer Herkunft; 1824 als
-                        Gymnasiast des <orgName key="H0018837">Collegium Crozensis</orgName> der antirussischen
-                        Verschwörung verdächtigt und zum Dienst als einfacher Soldat in die Festung <placeName key="H0007860">Orsk</placeName> verbannt; auf Humboldts Fürsprache hin in den russischen
-                        Militärdienst übernommen; 1836–1838 russischer Agent in <placeName key="H0002330">Afghanistan</placeName>
+                        Gymnasiast des <orgName ref="https://editon-humboldt.de/H0018837 http://www.geonames.org/12175927">Collegium Crozensis</orgName> der antirussischen
+                        Verschwörung verdächtigt und zum Dienst als einfacher Soldat in die Festung <placeName ref="https://editon-humboldt.de/H0007860 https://www.geonames.org/514734">Orsk</placeName> verbannt; auf Humboldts Fürsprache hin in den russischen
+                        Militärdienst übernommen; 1836–1838 russischer Agent in <placeName ref="https://editon-humboldt.de/H0002330 https://www.geonames.org/1149361">Afghanistan</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="30#24" type="page"/>

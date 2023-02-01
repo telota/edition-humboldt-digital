@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016713">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [Oktober 1844] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016713">https://edition-humboldt.de/v8/H0016713</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016713</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016713</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016713.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [Oktober 1844] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016713</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">146</idno>
+                     <idno type="shelfmark">421, Bl. 260r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date notBefore="1844-10" notAfter="1844-10">1844-10-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: E.s Vortrag über die „Bimsstein-Entdeckung“ in der Akademie war am
                24.10. 1844</note>
@@ -63,17 +81,18 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Ich habe leider keinen Augenblik <lb/>Zeit da wir eben nach <placeName ref="https://www.geonames.org/2855433">Paretz</placeName>
-               <lb/>abgehen, um Ihnen, theurer Ehrenberg, <lb/>meine Freude über Ihre wich-<lb/>tige <ref xml:id="a935a75b-1694-4b2d-b5a7-5b1694cb2d5e" corresp="#dd94d5cc-f894-4366-94d5-ccf894236638">
+            <p>Ich habe leider keinen Augenblik <lb/>Zeit da wir eben nach <placeName ref="https://editon-humboldt.de/H0008113 https://www.geonames.org/2855433">Paretz</placeName>
+               <lb/>abgehen, um Ihnen, theurer Ehrenberg, <lb/>meine Freude über Ihre wich<g ref="#typoHyphen"/>
+                    <lb break="no"/>tige <ref xml:id="cb6e2aca-25d5-4878-ae2a-ca25d5787804" corresp="#d14f8877-1323-48c8-8f88-77132308c82d">
                         <name type="mineral" key="Bimsstein">Bimstein</name>-Entdekkung</ref>
-                    <note xml:id="dd94d5cc-f894-4366-94d5-ccf894236638" corresp="#a935a75b-1694-4b2d-b5a7-5b1694cb2d5e">
-                     <bibl corresp="https://edition-humboldt.de/v8/498U358U">Ehrenberg 1844c</bibl>
+                    <note xml:id="d14f8877-1323-48c8-8f88-77132308c82d" corresp="#cb6e2aca-25d5-4878-ae2a-ca25d5787804">
+                     <bibl corresp="https://edition-humboldt.de/498U358U">Ehrenberg 1844c</bibl>
                   </note> zu <lb/>machen<supplied cert="high">.</supplied> Ich bin neugierig diese
                <lb/>Bimsteinform zu sehen, denn der <lb/>eigentliche Bimstein enthält <lb/>Glimmer
                und bisweilen Feldspath <lb/>Kristalle<supplied cert="high">.</supplied> Bimstein,
                Perlstein <lb/>und Obsidian den man in wahren <lb/>Bimstein verwandeln kann tief
-               <lb/>aus dem Inneren der Erde auf<lb/>steigend – sollten diese
-                  kieselpan<lb/>zrige Thiere gewesen sein. Davor <lb/>schaudert
+               <lb/>aus dem Inneren der Erde auf<lb break="no"/>steigend – sollten diese
+                  kieselpan<lb break="no"/>zrige Thiere gewesen sein. Davor <lb/>schaudert
                   <supplied>mir</supplied>, doch bin ich geneigt <lb/>Ihnen jede belebende
                Zauberkraft <lb/>zuzutrauen. Die Bimsteine die <lb/>Sie behandelt, sind wohl nicht
                <lb/>ausgeworfen, sondern in Gluthize <lb/>als ganze Erdschichten durch <lb/>
@@ -83,15 +102,15 @@
                </choice> Kräfte durchgewärmt <lb/>worden, gefrittet, geschmolzen<supplied cert="high">.</supplied>
                <lb/>Aber wie schwer schmilzt reine <lb/>Kieselerde<supplied cert="high">.</supplied>
                Sie lassen wohl Herrn <lb/>
-                    <persName ref="http://d-nb.info/gnd/118602640">Rose</persName> den Stoff
-               chemisch <lb/>untersuchen. <persName ref="http://d-nb.info/gnd/115754016">Schulze’s</persName> Brief
+                    <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">Rose</persName> den Stoff
+               chemisch <lb/>untersuchen. <persName ref="https://editon-humboldt.de/H0016849 http://d-nb.info/gnd/115754016">Schulze’s</persName> Brief
                <lb/>steht ganz zu Ihrem Befehl. <lb/>
-                    <ref xml:id="ebeeee3c-7a40-4d2f-aeee-3c7a40ed2f55" corresp="#ec97ed98-0fbe-485a-97ed-980fbe585a59">Sie sollten den <del rendition="#s">
+                    <ref xml:id="e4b5d1ad-5b70-4509-b5d1-ad5b70450987" corresp="#bf45aa4b-02c0-4982-85aa-4b02c039827a">Sie sollten den <del rendition="#s">
                             <gap reason="illegible" quantity="1" unit="words"/>
                         </del> braven <lb/>jungen Mann wohl durch <lb/>ein Paar
                      Zeilen aufmuntern</ref>
-                    <note xml:id="ec97ed98-0fbe-485a-97ed-980fbe585a59" corresp="#ebeeee3c-7a40-4d2f-aeee-3c7a40ed2f55">
-                     <bibl corresp="https://edition-humboldt.de/v8/74ITSVFR">Ehrenberg 1844</bibl>
+                    <note xml:id="bf45aa4b-02c0-4982-85aa-4b02c039827a" corresp="#e4b5d1ad-5b70-4509-b5d1-ad5b70450987">
+                     <bibl corresp="https://edition-humboldt.de/74ITSVFR">Ehrenberg 1844</bibl>
                   </note>
                     <supplied cert="high">.</supplied>
                <lb/>So wäre also in den Steinkohlen <lb/>ausser dem <name type="plant" key="Coniferen">Coniferen</name>, <name type="plant" key="Palme">Palmen</name>

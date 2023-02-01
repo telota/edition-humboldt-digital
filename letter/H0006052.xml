@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006052">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,30 +28,43 @@
                         </resp>
                     </respStmt>
                 </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Karl Ludwig Willdenow. [1795], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006052">https://edition-humboldt.de/v8/H0006052</ref>
+                </p>
+            </editionStmt>
                 
                 <publicationStmt>
                 <publisher>
-                        
-                    </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006052</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006052</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006052.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Karl Ludwig Willdenow. [1795]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006052</bibl>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/9PZUBNH7">Bruhns 1872</bibl>,
+                        I , 38 (Teildruck) Vorlage </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
                     <date to="1795-12-31" cert="high" from="1795-01-01"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
+                    <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>

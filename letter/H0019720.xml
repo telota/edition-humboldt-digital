@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019720">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,29 +20,57 @@
                         </resp>
                     </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Johann Moritz Rugendas an Alexander von Humboldt. Berlin, 26. Februar
+                    1854, hg. v. Ulrich Päßler unter Mitarbeit von Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019720">https://edition-humboldt.de/v8/H0019720</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019720</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019720</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019720.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Johann Moritz Rugendas an Alexander von Humboldt. Berlin, 26. Februar
-                    1854. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019720</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>
+                            <idno type="shelfmark">Slg. Darmstaedter Amerika 1834: Rugendas, Moritz</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1462744</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        120.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert
+                            1959</bibl>, 692.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                     <date when="1854-02-26" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -68,17 +96,17 @@
                     welche ich <lb/>wohl vollständig zu würdigen weiß – <lb/>hiermit in wenigen
                     Zeilen niederzulegen<supplied cert="high">.</supplied>
                 </p>
-                <p>Die Mittheilung daß <ref xml:id="c95b0b88-6d9e-4421-9b0b-886d9e042101" corresp="#ebb9e463-c4c9-4481-b9e4-63c4c9f481d5">die Majestäten</ref>
-                    <note xml:id="ebb9e463-c4c9-4481-b9e4-63c4c9f481d5" corresp="#c95b0b88-6d9e-4421-9b0b-886d9e042101">
-                        <persName ref="http://d-nb.info/gnd/118535994">Friedrich Wilhelm
-                                IV.</persName> und <persName ref="http://d-nb.info/gnd/118688634">Elisabeth von
+                <p>Die Mittheilung daß <ref xml:id="cd6ee80e-605e-4878-aee8-0e605ea87862" corresp="#ee6b8343-f06a-44a4-ab83-43f06ac4a41d">die Majestäten</ref>
+                    <note xml:id="ee6b8343-f06a-44a4-ab83-43f06ac4a41d" corresp="#cd6ee80e-605e-4878-aee8-0e605ea87862">
+                        <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelm
+                                IV.</persName> und <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634">Elisabeth von
                                 Preußen</persName>.</note> mit <lb/>so vielem Interesse meiner Arbeiten gedachten<supplied cert="high">,</supplied>
                     <lb/>macht mich glücklich – obwohl ich fühle daß <lb/>die königliche Gnade über
                     meine Verdienste <lb/>geht und <choice>
                         <abbr>Ew.</abbr>
                         <expan>Eurer</expan>
-                    </choice> Excellenz <ref xml:id="c4884369-7963-4a4d-8843-6979636a4d4c" corresp="#b2707333-a7f6-4cb4-b073-33a7f61cb4dc">Vorwort</ref>
-                    <note xml:id="b2707333-a7f6-4cb4-b073-33a7f61cb4dc" corresp="#c4884369-7963-4a4d-8843-6979636a4d4c">Hier im Sinne von Fürsprache, Empfehlung. Vgl.
+                    </choice> Excellenz <ref xml:id="e0b7e6ce-d0a0-4c84-b7e6-ced0a0ec84b6" corresp="#d80ae81a-ad7b-4da6-8ae8-1aad7bdda6ba">Vorwort</ref>
+                    <note xml:id="d80ae81a-ad7b-4da6-8ae8-1aad7bdda6ba" corresp="#e0b7e6ce-d0a0-4c84-b7e6-ced0a0ec84b6">Hier im Sinne von Fürsprache, Empfehlung. Vgl.
                             Deutsches Wörterbuch von Jacob und Wilhelm Grimm, <ref target="https://www.woerterbuchnetz.de/DWB/vorwort">www.woerterbuchnetz.de/DWB/vorwort</ref>.</note> hierbey <lb/>in besonderer Betrachtung gegen mich nicht zu verken̅en
                     <lb/>ist.</p>
                 <p>
@@ -91,7 +119,7 @@
                         <abbr>v</abbr>
                         <expan>von</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/11712110X">Olfers</persName> getrost <lb/>gewärtig – sehe ich den
+                    <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">Olfers</persName> getrost <lb/>gewärtig – sehe ich den
                     kommenden Tagen <lb/>heiter entgegen – und so auch dem <lb/>Vergnügen Euer
                     Excellenz nocheinmal <lb/>aufwarten zu können und mich deren <lb/>fernerm
                     Wohlwollen zu empfehlen<supplied cert="high">.</supplied>
@@ -99,10 +127,10 @@
 				<closer>
                     <salute>Mit größter Verehrung <lb/>Euer Excellenz <lb/>ergebenster</salute>
                     <signed>
-                        <persName ref="http://d-nb.info/gnd/118750321">Moriz Rugendas</persName>
+                        <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Moriz Rugendas</persName>
                     </signed>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                         <supplied cert="high">,</supplied> den 26sten Februar <lb/>1854</dateline>
                 </closer>
             </div>

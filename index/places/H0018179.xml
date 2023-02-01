@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018179">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Samarowo</title>
             </titleStmt>
+            <editionStmt>
+                <p>Samarowo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018179.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018179.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018179.xml">
-                    <p>Samarowo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018179.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018179">
+                <place>
                     <idno type="uri">https://www.geonames.org/1493146</idno>
                     <placeName type="reg">Samarowo</placeName>
                     <placeName type="alt">Samarovo</placeName>
@@ -37,8 +42,8 @@
                     <placeName type="alt">Самарово</placeName>
                     <placeName type="alt">Ssamarowo</placeName>
                     <placeName type="alt">Saamarowo</placeName>
-                    <note>Seit etwa 1500 bestehende Ortschaft in <placeName key="H0010218">Westsibirien</placeName>
-                            (<placeName key="H0010689">Russland</placeName>) südlich des Zusammenflusses von <placeName key="H0006725">Irtysch</placeName> und <placeName key="H0007780">Ob</placeName>; heute
+                    <note>Seit etwa 1500 bestehende Ortschaft in <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Westsibirien</placeName>
+                            (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>) südlich des Zusammenflusses von <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtysch</placeName> und <placeName ref="https://editon-humboldt.de/H0007780 https://www.geonames.org/1496420">Ob</placeName>; heute
                         Stadtteil von Chanty-Mansijsk.</note>
                 </place>
             </listPlace>

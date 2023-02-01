@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019587">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,30 +20,58 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], 30. März
+                    [1831], hg. v. Ulrich Päßler unter Mitarbeit von Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019587">https://edition-humboldt.de/v8/H0019587</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019587</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019587</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019587.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], 30. März
-                    [1831]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019587</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno>
+                            <idno type="shelfmark">I/530/14</idno>, Bl. 1r–1v<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051322</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        52.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 28–29.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <date when="1831-03-30" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -58,12 +86,12 @@
                 <pb n="1r"/>
                 <p>Ich freue mich, mein theurester Herr
                         <lb/>
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>, Ihnen nun noch bestim̅ter <lb/>sagen zu
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>, Ihnen nun noch bestim̅ter <lb/>sagen zu
                     können, was Sie vielleicht <lb/>schon durch Herrn Maler Schulz
-                    <lb/>wissen, daß es mir endlich ge<lb/>glükt ist, durch <persName ref="http://d-nb.info/gnd/118607782">Schinkel</persName>, <lb/>Ihre schönen 4 Landschaften dem
+                    <lb/>wissen, daß es mir endlich ge<lb break="no"/>glükt ist, durch <persName ref="https://editon-humboldt.de/H0015546 http://d-nb.info/gnd/118607782">Schinkel</persName>, <lb/>Ihre schönen 4 Landschaften dem
                         <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535986">König</persName> selbst für die Summe <lb/>von
-                    70 Stük Friedrichs d’or <lb/>kaufen zu lassen. Bei der<lb/>maligen
+                    <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">König</persName> selbst für die Summe <lb/>von
+                    70 Stük Friedrichs d’or <lb/>kaufen zu lassen. Bei der<lb break="no"/>maligen
                     Geldverhältnissen war <lb/>nicht mehr zu erhalten <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -76,16 +104,16 @@
                         <abbr>Fr</abbr>
                         <expan>Friedrichs</expan>
                     </choice> d’or bei Herrn <lb/>
-                    <persName ref="http://d-nb.info/gnd/116918241">Leo</persName> auszahlen
+                    <persName ref="https://editon-humboldt.de/H0004453 http://d-nb.info/gnd/116918241">Leo</persName> auszahlen
                         lassen<supplied cert="high">,</supplied>
                     <lb/>bitte Sie aber mir selbst <lb/>ein Paar Zeilen des Dankes <lb/>an <choice>
                         <abbr>Geh</abbr>
                         <expan>Geheim</expan>
-                    </choice> Rath <persName ref="http://d-nb.info/gnd/118607782">Schinckel</persName>
+                    </choice> Rath <persName ref="https://editon-humboldt.de/H0015546 http://d-nb.info/gnd/118607782">Schinckel</persName>
                     <lb/>zu schreiben, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> mir beiligen<lb/>de Quittung ganz von Ihrer <pb n="1v"/>
+                    </choice> mir beiligen<lb break="no"/>de Quittung ganz von Ihrer <pb n="1v"/>
                     <lb/>Hand geschrieben mit <lb/>dem Briefe recht bald <lb/>zu übermachen</p>
 				<closer>
 					<salute>Ihr</salute>
@@ -108,7 +136,7 @@
                     <p>
                         <note place="mTop" hand="#author">auf einem Quartblatt</note>Dass ich von dem Wirklichen
                         <lb/>Herrn Geheimen Rath von <lb/>
-                        <persName ref="http://d-nb.info/gnd/118554700">Humboldt</persName>
+                        <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt</persName>
                         <note place="left" hand="#author">70 <choice>
                                 <abbr>St.</abbr>
                                 <expan>Stück</expan>
@@ -117,7 +145,8 @@
                                 <abbr>Fr.</abbr>
                                 <expan>Friedrichs</expan>
                             </choice>
-                            <lb/>d’or</note> für vier Land-<lb/>schaften, welche <persName ref="http://d-nb.info/gnd/118535986">
+                            <lb/>d’or</note> für vier Land<g ref="#typoHyphen"/>
+                        <lb break="no"/>schaften, welche <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">
                             <choice>
                                 <abbr>Se.</abbr>
                                 <expan>Seine</expan>
@@ -130,13 +159,14 @@
                         <lb/>allergnädigst zu kaufen <lb/>geruht haben, (Namens <lb/>des <choice>
                             <abbr>kön.</abbr>
                             <expan>königlichen</expan>
-                        </choice> Herrn Geheimen <lb/>Kamerier <persName ref="https://edition-humboldt.de/v8/H0001309">Kienast</persName>) sieben-<lb/>zig
-                        Stück Friedrichs-<lb/>d’or richtig empfangen<supplied cert="high">,</supplied>
+                        </choice> Herrn Geheimen <lb/>Kamerier <persName ref="https://editon-humboldt.de/H0001309">Kienast</persName>) sieben<g ref="#typoHyphen"/>
+                        <lb break="no"/>zig
+                        Stück Friedrichs-<lb break="no"/>d’or richtig empfangen<supplied cert="high">,</supplied>
                         <lb/>bescheinige ich hiermit<supplied cert="high">.</supplied>
                     </p>
                     <closer>
                         <signed>
-                            <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>
+                            <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>
                         </signed>
                         <dateline>Paris <lb/>den 30<supplied cert="high">.</supplied> März <lb/>1831.</dateline>
                     </closer>

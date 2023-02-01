@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016514">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 19. Oktober
+               1848, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016514">https://edition-humboldt.de/v8/H0016514</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016514</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016514</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016514.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 19. Oktober
-               1848. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016514</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                            <idno type="legacy">264 E2</idno>
+                  <idno type="shelfmark">676, Bl. 41r-43r</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1848-10-19">1848-10-19</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -69,73 +87,89 @@
                      <expan>October</expan>
                   </choice> 1848.</dateline>
                 </opener>
-            <p>In Erwiederung Ihres gestern <lb/>Abend angekommenen <ref xml:id="fee099db-0fe1-4533-a099-db0fe1a533ab" corresp="#d73afee8-a1f8-4452-bafe-e8a1f8a4521f">Briefes</ref>
-                    <note xml:id="d73afee8-a1f8-4452-bafe-e8a1f8a4521f" corresp="#fee099db-0fe1-4533-a099-db0fe1a533ab">Brief 253</note> wo-<lb/>rinn Sie Nachrichten über den wil-<lb/>den Weitzen im <placeName ref="https://www.geonames.org/515003">Orenburger</placeName>
+            <p>In Erwiederung Ihres gestern <lb/>Abend angekommenen <ref xml:id="cfe363e2-8cd4-4703-a363-e28cd4770315" corresp="#c5567a37-e51a-4206-967a-37e51a6206a9">Briefes</ref>
+                    <note xml:id="c5567a37-e51a-4206-967a-37e51a6206a9" corresp="#cfe363e2-8cd4-4703-a363-e28cd4770315">Brief 253</note> wo<g ref="#typoHyphen"/>
+                    <lb break="no"/>rinn Sie Nachrichten über den wil<g ref="#typoHyphen"/>
+                    <lb break="no"/>den Weitzen im <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburger</placeName>
                <lb/>District wünschen, kann ich Ihnen <lb/>nur melden, daß ich auf jener <lb/>Route
                zwar öfter Pflanzen von <lb/>
                     <name type="plant" key="Triticum">Waitzen</name> und
                   <name type="plant" key="Roggen">Roggen</name> ohne Cultur <lb/>gesehen habe, aber
                es war immer <lb/>nur am Wege, so daß ich in den <lb/>damals niedergeschriebenen
-                  Ver-<lb/>zeichnissen der wilden Pflanzen <lb/>sie
-               nicht erwähnt habe. Auch wa-<lb/>ren jene
+                  Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>zeichnissen der wilden Pflanzen <lb/>sie
+               nicht erwähnt habe. Auch wa<g ref="#typoHyphen"/>
+                    <lb break="no"/>ren jene
                Getraidepflanzen wie <lb/>ich mich recht wohl erinnere den <lb/>gewöhnlichen
                Cultur-Pflanzen <lb/>im Habitus völlig gleich. Wäre <lb/>die Identität erst durch
                Detail– <lb/>
                     <pb n="1v"/>Studium zu ermitteln gewesen und <lb/>der Habitus
-               abweichend, so läge die <lb/>Gleichheit näher. Von <persName ref="https://edition-humboldt.de/v8/H0016916">
+               abweichend, so läge die <lb/>Gleichheit näher. Von <persName ref="https://editon-humboldt.de/H0016916">
                         <subst>
                      <del rendition="#s">
                                 <gap reason="illegible" unit="words" quantity="1"/>
                             </del>
                      <add place="superlinear">Carotin</add>
                   </subst>
-                    </persName> er-<lb/>hielt ich ein <name type="plant" key="Roggen">Secale</name> aus der <placeName ref="https://www.geonames.org/1519671">Kirgisen-<lb/>steppe</placeName>, es ist aber
-                  <name type="plant" key="Roggen">Secale fragile</name> wel-<lb/>ches einen niedrigen Schaft hat und <lb/>von Marschall <persName ref="http://d-nb.info/gnd/113110014">Bieberstein</persName> als Mut-<lb/>terpflanze des <name type="plant" key="Secale fragile">
+                    </persName> er<g ref="#typoHyphen"/>
+                    <lb break="no"/>hielt ich ein <name type="plant" key="Roggen">Secale</name> aus der <placeName ref="https://editon-humboldt.de/H0000374 https://www.geonames.org/1519671">Kirgisen<g ref="#typoHyphen"/>
+                        <lb break="no"/>steppe</placeName>, es ist aber
+                  <name type="plant" key="Roggen">Secale fragile</name> wel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ches einen niedrigen Schaft hat und <lb/>von Marschall <persName ref="https://editon-humboldt.de/H0013953 http://d-nb.info/gnd/113110014">Bieberstein</persName> als Mut<g ref="#typoHyphen"/>
+                    <lb break="no"/>terpflanze des <name type="plant" key="Secale fragile">
                   <choice>
                      <abbr>S.</abbr>
                      <expan>Secale</expan>
-                  </choice> cereale</name> früher ange-<lb/>sprochen
+                  </choice> cereale</name> früher ange<g ref="#typoHyphen"/>
+                    <lb break="no"/>sprochen
                dann verworfen wurde. <lb/>
-                    <persName ref="http://d-nb.info/gnd/104268190">Link</persName> hat zwar, weil
-                  <persName ref="http://d-nb.info/gnd/117594245">Olivier</persName> und <lb/>
-                    <persName ref="http://d-nb.info/gnd/104292369">Michaux</persName> darinn übereinstimmen, <lb/>daß <name type="plant" key="Triticum Spelta">Spelt</name> in <placeName ref="https://www.geonames.org/130758">Persien</placeName> wild wachse <lb/>dieses Vaterland neuerlich als das
-               <lb/>wahrscheinlichere anerkannt, allein <lb/>ich weiß daß Achille <persName>Richard</persName> die <lb/>
-                    <persName ref="http://d-nb.info/gnd/104292369">Michaux’sche</persName>
+                    <persName ref="https://editon-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">Link</persName> hat zwar, weil
+                  <persName ref="https://editon-humboldt.de/H0016939 http://d-nb.info/gnd/117594245">Olivier</persName> und <lb/>
+                    <persName ref="https://editon-humboldt.de/H0014205 http://d-nb.info/gnd/104292369">Michaux</persName> darinn übereinstimmen, <lb/>daß <name type="plant" key="Triticum Spelta">Spelt</name> in <placeName ref="https://editon-humboldt.de/H0006712 https://www.geonames.org/130758">Persien</placeName> wild wachse <lb/>dieses Vaterland neuerlich als das
+               <lb/>wahrscheinlichere anerkannt, allein <lb/>ich weiß daß Achille <persName ref="https://editon-humboldt.de/">Richard</persName> die <lb/>
+                    <persName ref="https://editon-humboldt.de/H0014205 http://d-nb.info/gnd/104292369">Michaux’sche</persName>
                Pflanze deshalb nicht <lb/>für beweisend hält, weil kein <lb/>Zettel dabey liegt, der
-                  ausdrück-<lb/>lich sagt, daß sie wild gefunden
+                  ausdrück<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich sagt, daß sie wild gefunden
                <lb/>sey.</p>
                 <pb n="2v"/>
-            <p>Ich fürchte, daß dieses schwierige <lb/>Kapitel nicht zu lösen ist. <name type="plant" key="Oenothera biennis">Oenothe-<lb/>ra biennis</name>, <name type="plant" key="Erigeron canadensis">Erigeron
+            <p>Ich fürchte, daß dieses schwierige <lb/>Kapitel nicht zu lösen ist. <name type="plant" key="Oenothera biennis">Oenothe<g ref="#typoHyphen"/>
+                        <lb break="no"/>ra biennis</name>, <name type="plant" key="Erigeron canadensis">Erigeron
                   canadensis</name> und die <lb/>durch Herrn Alexander <choice>
                   <abbr>v.</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118554700">Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt</persName>
                <lb/>mitgebrachte <name type="plant" key="Galinsogea parviflora">Galinsogea
                   parviflora</name>
-               <lb/>der <placeName ref="https://www.geonames.org/2950159">berliner</placeName> Äcker sehen so ächt
-               <lb/>einheimisch aus, daß ohne geschicht-<lb/>liche
-               Mahnung, das Urtheil unrett-<lb/>bar in ein
+               <lb/>der <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">berliner</placeName> Äcker sehen so ächt
+               <lb/>einheimisch aus, daß ohne geschicht<g ref="#typoHyphen"/>
+                    <lb break="no"/>liche
+               Mahnung, das Urtheil unrett<g ref="#typoHyphen"/>
+                    <lb break="no"/>bar in ein
                unrichtiges Geleis <lb/>kommt.</p>
-            <p>Dieß ist es was ich in der ge-<lb/>wünschten Eile
+            <p>Dieß ist es was ich in der ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>wünschten Eile
                Ihnen darüber sagen <lb/>könnte.</p>
-            <p>Reinhold <persName>Forster’s</persName> Notiz ist mir <lb/>bisher nicht
+            <p>Reinhold <persName ref="https://editon-humboldt.de/">Forster’s</persName> Notiz ist mir <lb/>bisher nicht
                bekannt gewesen<supplied cert="high">.</supplied> Sollte <lb/>sie sich wohl auf <name type="plant" key="Hordeum distichon">Hordeum distichon</name>
-               <lb/>beziehen? Bei <persName ref="http://d-nb.info/gnd/117387436">Wildenow</persName> steht ha-<lb/>bitat ad <placeName ref="https://www.geonames.org/499099">Samaram</placeName>.</p>
+               <lb/>beziehen? Bei <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Wildenow</persName> steht ha<g ref="#typoHyphen"/>
+                    <lb break="no"/>bitat ad <placeName ref="https://editon-humboldt.de/H0009771 https://www.geonames.org/499099">Samaram</placeName>.</p>
             <p>Eben fällt mir noch ein, daß <lb/>
-                    <ref xml:id="cfe41a48-dd40-4b88-a41a-48dd40fb883f" corresp="#e738ad57-db89-4b88-b8ad-57db897b8812">
-                        <persName ref="http://d-nb.info/gnd/117527483">Koch</persName> der Caucasier in den lezten
+                    <ref xml:id="c4d45c1b-a6ac-4016-945c-1ba6aca016ae" corresp="#ac9f66bd-1a8c-4e96-9f66-bd1a8cbe966e">
+                        <persName ref="https://editon-humboldt.de/H0001393 http://d-nb.info/gnd/117527483">Koch</persName> der Caucasier in den lezten
                      <lb/>Heften der Linnaea</ref>
-                    <note xml:id="e738ad57-db89-4b88-b8ad-57db897b8812" corresp="#cfe41a48-dd40-4b88-a41a-48dd40fb883f">
-                     <bibl corresp="https://edition-humboldt.de/v8/NZMI8448">Schlechtendal
+                    <note xml:id="ac9f66bd-1a8c-4e96-9f66-bd1a8cbe966e" corresp="#c4d45c1b-a6ac-4016-945c-1ba6aca016ae">
+                     <bibl corresp="https://edition-humboldt.de/NZMI8448">Schlechtendal
                         1828-1882</bibl>
                   </note> die Gräser am <lb/>
                     <pb n="3r"/>
-                    <placeName ref="https://www.geonames.org/305419">Kur</placeName> und
-                  <placeName ref="https://www.geonames.org/315147">Euphrat</placeName> verzeichnet hat und <lb/>daß er auch
+                    <placeName ref="https://editon-humboldt.de/H0017472 https://www.geonames.org/305419">Kur</placeName> und
+                  <placeName ref="https://editon-humboldt.de/H0005695 https://www.geonames.org/315147">Euphrat</placeName> verzeichnet hat und <lb/>daß er auch
                die Hoffnung tödtet <lb/>
                     <name type="plant" key="Hordeum vulgare">Hordeum
-                  vulgare</name> sey dort einheimisch. <lb/>Er nennt eine dort vorkom-<lb/>mende Gerste <name type="plant" key="Hordeum spontaneum">
+                  vulgare</name> sey dort einheimisch. <lb/>Er nennt eine dort vorkom<g ref="#typoHyphen"/>
+                    <lb break="no"/>mende Gerste <name type="plant" key="Hordeum spontaneum">
                         <choice>
                      <abbr>Hord.</abbr>
                      <expan>Hordeum</expan>
@@ -149,7 +183,8 @@
                <choice>
                   <abbr>L.</abbr>
                   <expan>Linnaeus</expan>
-               </choice> wie <name type="plant" key="Roggen">Secale fra-<lb/>gile</name> von <name type="plant" key="Roggen">
+               </choice> wie <name type="plant" key="Roggen">Secale fra<g ref="#typoHyphen"/>
+                        <lb break="no"/>gile</name> von <name type="plant" key="Roggen">
                         <choice>
                      <abbr>Sec.</abbr>
                      <expan>Secale</expan>
@@ -160,11 +195,12 @@
                   <expan>Professor</expan>
                </choice>
                <lb/>
-                    <persName ref="http://d-nb.info/gnd/117527483">Koch</persName> im <placeName ref="https://www.geonames.org/747963">pontischen
+                    <persName ref="https://editon-humboldt.de/H0001393 http://d-nb.info/gnd/117527483">Koch</persName> im <placeName ref="https://editon-humboldt.de/H0017631 https://www.geonames.org/747963">pontischen
                   Gebirge</placeName> 5000–6000’ <lb/>hoch in dürftigen Formen <lb/>wirklich
-               gefunden haben an Feld-<lb/>rändern in einer Gegend
+               gefunden haben an Feld<g ref="#typoHyphen"/>
+                    <lb break="no"/>rändern in einer Gegend
                wo <lb/>man den <name type="plant" key="Roggen">Roggen</name> als Getreide <lb/>nicht
-               kennt. <persName>Waitzen</persName> sah er nur <lb/>cultivirt. </p>
+               kennt. <persName ref="https://editon-humboldt.de/">Waitzen</persName> sah er nur <lb/>cultivirt. </p>
             <closer rend="paragraph">
                     <salute>In herzlicher Verehrung <lb/>Ihr <lb/>dankbar ergebenster</salute>
                <signed>Ehrenberg.</signed>
@@ -172,18 +208,18 @@
             <postscript>
                <p>Wenn
                   man <name type="plant" key="Roggen">Secale fragile</name> in der Steppe bei
-                     <placeName ref="https://www.geonames.org/515003">Orenburg</placeName>, <name type="plant" key="Triticum Spelta">Triticum Spelta</name>
-                  <lb/>aus <placeName ref="https://www.geonames.org/130758">Persien</placeName> und <name type="plant" key="Hordeum spontaneum">Hordeum spontaneum</name> im <placeName ref="https://www.geonames.org/585018">Schirwanschen Caucasus</placeName> als nächste <lb/>Formen tiefer kennt, so
+                     <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburg</placeName>, <name type="plant" key="Triticum Spelta">Triticum Spelta</name>
+                  <lb/>aus <placeName ref="https://editon-humboldt.de/H0006712 https://www.geonames.org/130758">Persien</placeName> und <name type="plant" key="Hordeum spontaneum">Hordeum spontaneum</name> im <placeName ref="https://editon-humboldt.de/H0017394 https://www.geonames.org/585018">Schirwanschen Caucasus</placeName> als nächste <lb/>Formen tiefer kennt, so
                   kann man <subst>
                      <del rendition="#s">fraglich</del>
                      <add place="sublinear">freilich</add>
                   </subst> wohl alles Übrige der Cultur <lb/>überlassen.</p>
                <pb n="3v"/>
                <p>Schade,
-                  daß <persName ref="http://d-nb.info/gnd/117527483">Koch</persName> dazu sagt: <lb/>Ganz dieselben dünnen
-                  und kleinen Ährchen <lb/>erhielt ich auch von <persName ref="https://edition-humboldt.de/v8/H0017103">Thiele</persName> in <placeName ref="https://www.geonames.org/750269">Brussa</placeName>, <lb/>der
+                  daß <persName ref="https://editon-humboldt.de/H0001393 http://d-nb.info/gnd/117527483">Koch</persName> dazu sagt: <lb/>Ganz dieselben dünnen
+                  und kleinen Ährchen <lb/>erhielt ich auch von <persName ref="https://editon-humboldt.de/H0017103">Thiele</persName> in <placeName ref="https://editon-humboldt.de/H0017576 https://www.geonames.org/750269">Brussa</placeName>, <lb/>der
                   ihn wenn ich nicht irre, auf dem <lb/>
-                        <placeName ref="https://edition-humboldt.de/v8/H0007818">Olymp</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0007818">Olymp</placeName>
                   gesammelt hat.</p>
                <closer rend="paragraph">
                   <dateline>

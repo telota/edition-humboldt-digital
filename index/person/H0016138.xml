@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016138">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Struve, Friedrich Georg Wilhelm von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Struve, Friedrich Georg Wilhelm von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016138.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016138.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016138.xml">
-                    <p>Struve, Friedrich Georg Wilhelm von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016138.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0016138">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118988255</idno>
                     <persName type="reg">
                         <surname>Struve</surname>
@@ -41,8 +46,8 @@
                     </persName>
                     <birth>1793</birth>
                     <death>1864</death>
-                    <note>russischer Geodät und Astronom deutscher Herkunft; 1813 a. o. Professor an der <orgName key="H0018041">Universität Dorpat</orgName>, 1820 Professor und Direktor der <orgName key="H0000589">Sternwarte in Dorpat</orgName>, 1839 Direktor der <orgName key="H0000572">Zentralsternwarte Pulkowo</orgName> bei <placeName key="H0008236">Sankt
-                            Petersburg</placeName>; Vater <persName key="H0016140">Otto Wilhelm von
+                    <note>russischer Geodät und Astronom deutscher Herkunft; 1813 a. o. Professor an der <orgName ref="https://editon-humboldt.de/H0018041 http://d-nb.info/gnd/3019725-9">Universität Dorpat</orgName>, 1820 Professor und Direktor der <orgName ref="https://editon-humboldt.de/H0000589 http://d-nb.info/gnd/1029589194">Sternwarte in Dorpat</orgName>, 1839 Direktor der <orgName ref="https://editon-humboldt.de/H0000572 http://d-nb.info/gnd/4394733-5">Zentralsternwarte Pulkowo</orgName> bei <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt
+                            Petersburg</placeName>; Vater <persName ref="https://editon-humboldt.de/H0016140 http://d-nb.info/gnd/119007541">Otto Wilhelm von
                         Struves</persName>
                     </note>
                     <linkGrp>

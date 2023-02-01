@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000543">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Georg-August-Universität Göttingen</title>
             </titleStmt>
+            <editionStmt>
+                <p>Georg-August-Universität Göttingen [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000543.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000543.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000543.xml">
-                    <p>Georg-August-Universität Göttingen [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000543.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0000543">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/2024315-7</idno>
                     <orgName type="reg">Georg-August-Universität Göttingen</orgName>
                     <linkGrp>
@@ -41,7 +46,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/2918632</idno>
-                            <settlement key="H0010897">Göttingen</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0010897">Göttingen</settlement>
                         </address>
                     </location>
                 </org>

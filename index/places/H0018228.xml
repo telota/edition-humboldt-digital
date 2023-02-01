@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018228">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kopanovka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kopanovka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018228.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018228.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018228.xml">
-                    <p>Kopanovka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018228.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018228">
+                <place>
                     <idno type="uri">https://www.geonames.org/545170</idno>
                     <placeName type="reg">Kopanovka</placeName>
                     <placeName type="alt">Копановка</placeName>
                     <placeName type="alt">Kopanovskaja</placeName>
                     <placeName type="alt">Копановская</placeName>
-                    <note>Ort am rechten Ufer der <placeName key="H0007984">Wolga</placeName> nordwestlich von
-                            <placeName key="H0002585">Astrachan</placeName>
+                    <note>Ort am rechten Ufer der <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> nordwestlich von
+                            <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName>
                     </note>
                 </place>
             </listPlace>

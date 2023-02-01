@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019584">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,33 +20,61 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin], Freitag, [2. oder
+                    9. Juli 1830], hg. v. Ulrich Päßler unter Mitarbeit von Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019584">https://edition-humboldt.de/v8/H0019584</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019584</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019584</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019584.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin], Freitag, [2. oder
-                    9. Juli 1830]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019584</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno>
+                            <idno type="shelfmark">I/530/8</idno>, Bl. 1r, 2v<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051309</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        46–47.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 25.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     <date notBefore="1830-07-02" notAfter="1830-07-09" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
                 <note>Zur Datierung: Das vorliegende Schreiben, in dem Humboldt Rugendas über den
-                    Ankauf eines Bildes durch den Prinzen <persName ref="http://d-nb.info/gnd/118632884">Wilhelm von
-                        Preußen</persName> informiert, muss zeitlich vor einem <ref target="H0019717">Brief Humboldts an Karl Friedrich Schinkel,
+                    Ankauf eines Bildes durch den Prinzen <persName ref="https://editon-humboldt.de/H0002173 http://d-nb.info/gnd/118632884">Wilhelm von
+                        Preußen</persName> informiert, muss zeitlich vor einem <ref target="https://edition-humboldt.de/H0019717">Brief Humboldts an Karl Friedrich Schinkel,
                         Potsdam, wohl 12. Juli 1830</ref>, angesetzt werden. </note>
             </correspDesc>
         </profileDesc>
@@ -57,17 +85,18 @@
 				<pb n="1r"/>
                 <p>Schelten Sie nicht, mein lieber
                         <lb/>
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>: ich habe schon ei<lb/>nes
-                    Ihrer schönen Bilder <lb/>verkauft, an <persName ref="http://d-nb.info/gnd/118632884">
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>: ich habe schon ei<lb break="no"/>nes
+                    Ihrer schönen Bilder <lb/>verkauft, an <persName ref="https://editon-humboldt.de/H0002173 http://d-nb.info/gnd/118632884">
                         <choice>
                             <abbr>Pr</abbr>
                             <expan>Prinz</expan>
-                        </choice> Wilhelm</persName>, <lb/>Sohn des <persName ref="http://d-nb.info/gnd/118535986">König</persName>s; aber <lb/>nur für den von Ih-<lb/>nen bestimmten Preis, <lb/>für 30 <choice>
+                        </choice> Wilhelm</persName>, <lb/>Sohn des <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">König</persName>s; aber <lb/>nur für den von Ih<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen bestimmten Preis, <lb/>für 30 <choice>
                         <abbr>Fr.</abbr>
                         <expan>Friedrich</expan>
                     </choice> d’or. Ich <lb/>kenne den Hof, mehr <lb/>war nicht zu erlangen<supplied cert="high">.</supplied>
                     <lb/>Die meisten Ihrer Briefe <lb/>sind geschrieben. Ich werde <lb/>Ihnen das
-                    andere Bild hof<lb/>fentlich auch verkaufen<supplied cert="high">.</supplied>
+                    andere Bild hof<lb break="no"/>fentlich auch verkaufen<supplied cert="high">.</supplied>
                 </p>
 				<closer>
 					<salute>Ihr</salute>
@@ -89,7 +118,7 @@
                             <abbr>Se</abbr>
                             <expan>Seiner</expan>
                         </choice> Wohlgeboren</addrLine>
-                    <addrLine>Herrn <persName ref="http://d-nb.info/gnd/118750321">Moritz Rugendas</persName>
+                    <addrLine>Herrn <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Moritz Rugendas</persName>
                         </addrLine>
                                 </address>
                 </closer>

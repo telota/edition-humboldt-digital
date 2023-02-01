@@ -1,13 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019346">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Sternwarte
                         Göttingen</title>
             </titleStmt>
+            <editionStmt>
+                <p>Sternwarte
+                        Göttingen [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019346.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -17,28 +22,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019346.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019346.xml">
-                    <p>Sternwarte
-                        Göttingen [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019346.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0019346">
-                    <orgName type="reg"><?oxy_comment_start author="thomas" timestamp="20210526T090448+0200" comment="sollte gelegentlich noch ein &lt;desc&gt; bekommen und mit der Uni Göttingen vernetzt werden."?>Sternwarte
-                        Göttingen<?oxy_comment_end?>
-                    </orgName>
+                <org>
+                    <orgName type="reg">Sternwarte
+                        Göttingen</orgName>
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/2918632</idno>
-                            <settlement key="H0010897">Göttingen</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0010897">Göttingen</settlement>
                         </address>
                     </location>
                 </org>

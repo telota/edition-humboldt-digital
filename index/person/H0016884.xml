@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016884">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Fiandt, Carl August Friedrich</title>
             </titleStmt>
+            <editionStmt>
+                <p>Fiandt, Carl August Friedrich [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016884.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,31 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016884.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016884.xml">
-                    <p>Fiandt, Carl August Friedrich [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016884.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0016884">
+                <person>
                     <persName type="reg">
                         <surname>Fiandt</surname>
                         <forename>Carl August Friedrich</forename>
                     </persName>
                     <birth>1798</birth>
                     <death>1830?
-                        <!-- Neuer Nekrolog: 1830; abweichendes Sterbedatum 1831 in: Album Academicum Dorpat 1852, S. 42, Matr.-Nr. 1750, dort im Namensverzeichnis abweichend dritter Vorname Gottfried; in Hasselblatt 1889 (= Album Academicum Dorpat), S. 123, Matr.-Nr. 1750: Sterbedatum 1841) -->
-                    </death>
-                    <note>geb. in <placeName key="H0008392">Potsdam</placeName>; 1823-1827 Studium
+                        </death>
+                    <note>geb. in <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>; 1823-1827 Studium
                         der Medizin in Dorpat; Arzt und Mitglied der Medizinalverwaltung in
-                            <placeName key="H0009435">Tobolsk</placeName><!-- Vgl. Kletke 1855, II, 173; Steiner 1961, 121 -->
+                            <placeName ref="https://editon-humboldt.de/H0009435 https://www.geonames.org/1489530">Tobolsk</placeName>
                     </note>
                 </person>
             </listPerson>

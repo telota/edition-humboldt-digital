@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016599">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [17. Oktober
+               1850] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016599">https://edition-humboldt.de/v8/H0016599</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016599</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016599</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016599.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [17. Oktober
-               1850] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016599</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">191</idno>
+                     <idno type="shelfmark">421, Bl. 348r-348v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1850-10-17">1850-10-17</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. die erwähnte Rede E.s vom 17.10.1850</note>
          </correspDesc>
@@ -64,8 +82,9 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Sie sind mir durch eine verdoppelte Liebens-<lb/>würdigkeit, theurer Freund, zuvorgekommen<supplied cert="high">.</supplied>
-               <lb/>Ich wollte Ihnen aber diesen Nachmittag <lb/>schreiben um Ihne<supplied cert="high">n</supplied> für die Liebenswür<lb/>digkeit zu danken, mit
+            <p>Sie sind mir durch eine verdoppelte Liebens<g ref="#typoHyphen"/>
+                    <lb break="no"/>würdigkeit, theurer Freund, zuvorgekommen<supplied cert="high">.</supplied>
+               <lb/>Ich wollte Ihnen aber diesen Nachmittag <lb/>schreiben um Ihne<supplied cert="high">n</supplied> für die Liebenswür<lb break="no"/>digkeit zu danken, mit
                der Sie auf <lb/>feindlichem mit Urnebel verdektem <subst>
                   <del rendition="#ow">
                             <gap reason="covered" unit="words" quantity="1"/>
@@ -77,27 +96,29 @@
                             <gap reason="covered" unit="words" quantity="1"/>
                         </del>
                   <add place="across">behandelt</add>
-               </subst> <lb/> haben. Ihre <ref xml:id="f6a0328f-2b3d-439a-a032-8f2b3d739afe" corresp="#b1a5e36a-0704-48b2-a5e3-6a070458b242">Rede</ref>
-                    <note xml:id="b1a5e36a-0704-48b2-a5e3-6a070458b242" corresp="#f6a0328f-2b3d-439a-a032-8f2b3d739afe">
-                     <bibl corresp="https://edition-humboldt.de/v8/DS2UG2FS">Ehrenberg 1850</bibl>
+               </subst> <lb/> haben. Ihre <ref xml:id="d2e59117-6aac-4293-a591-176aac129344" corresp="#b994a5f7-d4b1-4706-94a5-f7d4b1370693">Rede</ref>
+                    <note xml:id="b994a5f7-d4b1-4706-94a5-f7d4b1370693" corresp="#d2e59117-6aac-4293-a591-176aac129344">
+                     <bibl corresp="https://edition-humboldt.de/DS2UG2FS">Ehrenberg 1850</bibl>
                   </note>, habe ich vielfach <lb/>erfahren, hat sehr gefallen<supplied cert="high">.</supplied> Es ist gut <lb/>dass ein Mann Ihres Gewichts sich einmal <lb/>zornig
                zeige, über die wilde <choice>
-                  <sic>Naturphi<lb/>lophie</sic>
+                  <sic>Naturphi<lb break="no"/>lophie</sic>
                   <corr>Naturphilosophie</corr>
                </choice>, die mit verkalkten (oxidirten) <lb/>Gedanken Schweiss und mit im Gehirn
                   <supplied cert="high">uno</supplied>rganisch <lb/>ausgesonderten Vorstellungen
-               (wie Steine <lb/>von Nieren) wieder einbricht. Solche Extrava-<lb/>ganzen, das Abläugnen alles Unkörperlichen <lb/>(Geistigen)
-               werden dann auf der ent<lb/>gegen gesezten Seite zu Christenverfolgung
-               <lb/>der Naturforscher benuzt, währen<supplied cert="high">d</supplied> ein Erz-<lb/>bischof <choice>
+               (wie Steine <lb/>von Nieren) wieder einbricht. Solche Extrava<g ref="#typoHyphen"/>
+                    <lb break="no"/>ganzen, das Abläugnen alles Unkörperlichen <lb/>(Geistigen)
+               werden dann auf der ent<lb break="no"/>gegen gesezten Seite zu Christenverfolgung
+               <lb/>der Naturforscher benuzt, währen<supplied cert="high">d</supplied> ein Erz<g ref="#typoHyphen"/>
+                    <lb break="no"/>bischof <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Kurfürst von Mainz <persName ref="http://d-nb.info/gnd/118805193">Sömmering</persName>
+               </choice> Kurfürst von Mainz <persName ref="https://editon-humboldt.de/H0015944 http://d-nb.info/gnd/118805193">Sömmering</persName>
                <lb/>seinen Universitäts Professor ruhig über <lb/>die sandige Drüse faseln liess in
-               der <lb/>die Seele ihre einsame Wohnung hat. <lb/>In <placeName ref="https://www.geonames.org/2800866">Brüssel</placeName> discutirt ein <choice>
+               der <lb/>die Seele ihre einsame Wohnung hat. <lb/>In <placeName ref="https://editon-humboldt.de/H0005371 https://www.geonames.org/2800866">Brüssel</placeName> discutirt ein <choice>
                   <abbr>Mr</abbr>
                   <expan>Monsieur</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/104139706">Foster</persName> ob <lb/>die Seelen der <subst>
+               <persName ref="https://editon-humboldt.de/H0016896 http://d-nb.info/gnd/104139706">Foster</persName> ob <lb/>die Seelen der <subst>
                   <del rendition="#s">Mücken</del>
                   <add place="intralinear">Mücken</add>
                </subst> selig werden <lb/>können.</p>

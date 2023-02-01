@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016779">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1834] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016779">https://edition-humboldt.de/v8/H0016779</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016779</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016779</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016779.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1834] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016779</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">51</idno>
+                     <idno type="shelfmark">421, Bl. 92r, 93v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1834" notAfter="1834">1834-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: 1834 von fremder Hand</note>
          </correspDesc>
@@ -76,20 +94,20 @@
                </address>
             </opener>
             <pb n="1v"/>
-            <p>In dem ich mit dem <persName ref="http://d-nb.info/gnd/118535986">Könige</persName>
-               <lb/>diesen Augenblik nach <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+            <p>In dem ich mit dem <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">Könige</persName>
+               <lb/>diesen Augenblik nach <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <lb/>gehe, will ich doch vorher mit <lb/>wenigen Zeilen, Ihnen, theurer <lb/>Freund,
-               meinen innigsten Dank für <lb/>das herrliche <ref xml:id="a76f466b-b536-4ff8-af46-6bb536dff8a3" corresp="#ae82d9b6-ca94-48b8-82d9-b6ca94a8b8be">Heft der <hi rendition="#u">Mammalia</hi>
+               meinen innigsten Dank für <lb/>das herrliche <ref xml:id="e014c946-f27d-4b2c-94c9-46f27d2b2c56" corresp="#abea8d2d-f9ea-425e-aa8d-2df9ea725e43">Heft der <hi rendition="#u">Mammalia</hi>
                      <lb/>nebst den Insecten</ref>
-                    <note xml:id="ae82d9b6-ca94-48b8-82d9-b6ca94a8b8be" corresp="#a76f466b-b536-4ff8-af46-6bb536dff8a3">
-                     <bibl corresp="https://edition-humboldt.de/v8/968XL827">Ehrenberg 1828</bibl>
+                    <note xml:id="abea8d2d-f9ea-425e-aa8d-2df9ea725e43" corresp="#e014c946-f27d-4b2c-94c9-46f27d2b2c56">
+                     <bibl corresp="https://edition-humboldt.de/968XL827">Ehrenberg 1828</bibl>
                   </note> abzustatten<supplied cert="high">.</supplied>
-               <lb/>Sie wissen dass <persName ref="http://d-nb.info/gnd/117339385">Valenciennes</persName>
-               <lb/>und ich wir Sie seit <persName>Cuviers</persName>
+               <lb/>Sie wissen dass <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName>
+               <lb/>und ich wir Sie seit <persName ref="https://editon-humboldt.de/">Cuviers</persName>
                <lb/>Tod (und wie viel <choice>
                   <abbr>philolog.</abbr>
                   <expan>philologische</expan>
-               </choice> Kennt<lb/>nisse besizen Sie nicht mehr als <lb/>er besass) Sie
+               </choice> Kennt<lb break="no"/>nisse besizen Sie nicht mehr als <lb/>er besass) Sie
                zweifelsohne für <lb/>den ersten Zoologen der Lebenden <lb/>halten! <choice>
                   <abbr>Geh.</abbr>
                   <expan>Geheim</expan>
@@ -98,7 +116,7 @@
                   <abbr>R.</abbr>
                   <expan>Rat</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118860283">Schulze</persName> hatte <lb/>wahrscheinlich dem <persName ref="http://d-nb.info/gnd/104295139">Blutschul<lb/>zen</persName> Vorwürfe gemacht: dieser
+               <persName ref="https://editon-humboldt.de/H0015716 http://d-nb.info/gnd/118860283">Schulze</persName> hatte <lb/>wahrscheinlich dem <persName ref="https://editon-humboldt.de/H0015709 http://d-nb.info/gnd/104295139">Blutschul<lb break="no"/>zen</persName> Vorwürfe gemacht: dieser
                hat <lb/>mir die <choice>
                   <abbr>Krit</abbr>
                   <expan>Kritischen</expan>
@@ -106,7 +124,7 @@
                <choice>
                   <abbr>Bl.</abbr>
                   <expan>Blätter</expan>
-               </choice> mit einem Ent<lb/>schuldigungsbriefe geschrieben. Ich <lb/>habe
+               </choice> mit einem Ent<lb break="no"/>schuldigungsbriefe geschrieben. Ich <lb/>habe
                die <choice>
                   <abbr>Kr.</abbr>
                   <expan>Kritischen</expan>
@@ -114,12 +132,12 @@
                <choice>
                   <abbr>B.l</abbr>
                   <expan>Blätter</expan>
-               </choice> zurükge<lb/>schikt und ihm trokken geant<lb/>wortet
-               „ich hatte sie mir schon <lb/>auf anderem Wege verschaft.“ Grob <lb/>ist das <ref xml:id="e6932f53-8b11-4f87-932f-538b115f871b" corresp="#cf4d0f52-6545-4649-8d0f-526545964903">Opus</ref>
-                    <note xml:id="cf4d0f52-6545-4649-8d0f-526545964903" corresp="#e6932f53-8b11-4f87-932f-538b115f871b">
-                     <bibl corresp="https://edition-humboldt.de/v8/C3XEAYKC">Schultz-Schultzenstein 1833</bibl>
-                  </note> nicht, aber hä<lb/>misch und vornehm thuend als <lb/>habe man mit
-               dem ungemähn<lb/>ten <hi rendition="#u">Löwen</hi> alles längst
+               </choice> zurükge<lb break="no"/>schikt und ihm trokken geant<lb break="no"/>wortet
+               „ich hatte sie mir schon <lb/>auf anderem Wege verschaft.“ Grob <lb/>ist das <ref xml:id="fdc3837c-7350-4bcf-8383-7c73509bcfa8" corresp="#c99673d0-a15e-402a-9673-d0a15ee02a8c">Opus</ref>
+                    <note xml:id="c99673d0-a15e-402a-9673-d0a15ee02a8c" corresp="#fdc3837c-7350-4bcf-8383-7c73509bcfa8">
+                     <bibl corresp="https://edition-humboldt.de/C3XEAYKC">Schultz-Schultzenstein 1833</bibl>
+                  </note> nicht, aber hä<lb break="no"/>misch und vornehm thuend als <lb/>habe man mit
+               dem ungemähn<lb break="no"/>ten <hi rendition="#u">Löwen</hi> alles längst
                gesehen.</p>
             <closer rend="paragraph">
                     <salute>Dankbarst</salute>

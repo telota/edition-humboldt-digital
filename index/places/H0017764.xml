@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017764">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Serebrjanka (Tschussowaja)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Serebrjanka (Tschussowaja) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017764.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017764.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017764.xml">
-                    <p>Serebrjanka (Tschussowaja) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017764.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017764">
+                <place>
                     <idno type="uri">https://www.geonames.org/496897</idno>
                     <placeName type="reg">Serebrjanka (Tschussowaja)</placeName>
                     <placeName type="alt">Серебряная</placeName>
                     <placeName type="alt">Серебря́нка</placeName>
                     <placeName type="alt">Serebrjanaja</placeName>
                     <placeName type="alt">Sserebrjanka</placeName>
-                    <note>Nebenfluss der <placeName key="H0009538">Tschussowaja</placeName> im <placeName key="H0020291">Mittleren Ural</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    <note>Nebenfluss der <placeName ref="https://editon-humboldt.de/H0009538 https://www.geonames.org/8070292">Tschussowaja</placeName> im <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren Ural</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

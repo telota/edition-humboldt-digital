@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018075">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Nejvo-Rudjanka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Nejvo-Rudjanka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018075.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018075.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018075.xml">
-                    <p>Nejvo-Rudjanka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018075.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018075">
+                <place>
                     <idno type="uri">https://www.geonames.org/1497780</idno>
                     <placeName type="reg">Nejvo-Rudjanka</placeName>
                     <placeName type="alt">Нейво-Рудянка</placeName>
@@ -39,10 +44,10 @@
                     <placeName type="alt">Нейво-Рудянцы</placeName>
                     <placeName type="alt">Nejvo-Rudjancy</placeName>
                     <placeName type="alt">Neiwinski Rudianski</placeName>
-                    <!-- RST I, 22v -->
-                    <note>Ort und historische Kupferhütte an der <placeName key="H0017212">Neiwa</placeName> im
-                            <placeName key="H0020291">Mittleren Ural</placeName> zwischen <placeName key="H0005599">Jekaterinburg</placeName> und <placeName key="H0001626">Nev'jansk</placeName>
-                            (<placeName key="H0010689">Russland</placeName>)</note>
+                    
+                    <note>Ort und historische Kupferhütte an der <placeName ref="https://editon-humboldt.de/H0017212 https://www.geonames.org/1497782">Neiwa</placeName> im
+                            <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren Ural</placeName> zwischen <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName> und <placeName ref="https://editon-humboldt.de/H0001626 https://www.geonames.org/1497795">Nev'jansk</placeName>
+                            (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

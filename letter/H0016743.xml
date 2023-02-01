@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016743">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], 25. März
+               1829, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016743">https://edition-humboldt.de/v8/H0016743</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016743</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016743</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016743.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], 25. März
-               1829. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016743</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">18</idno>
+                     <idno type="shelfmark">421, Bl. 30r-30v, 31v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1829-03-25">1829-03-25</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -79,11 +97,11 @@
                     <dateline rend="align(right)">25 März.
                   1829</dateline>
             </opener>
-            <p>Ich habe die sehr freund<lb/>liche Antwort von <choice>
+            <p>Ich habe die sehr freund<lb break="no"/>liche Antwort von <choice>
                   <abbr>Min</abbr>
                   <expan>Minister</expan>
-               </choice> <lb/> <persName ref="http://d-nb.info/gnd/118666878">
-                  Cancrin</persName> erhalten „ich <lb/>habe dem <persName ref="http://d-nb.info/gnd/118588079">Kaiser</persName> ihren <lb/>Brief gezeigt <choice>
+               </choice> <lb/> <persName ref="https://editon-humboldt.de/H0012872 http://d-nb.info/gnd/118666878">
+                  Cancrin</persName> erhalten „ich <lb/>habe dem <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Kaiser</persName> ihren <lb/>Brief gezeigt <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> es <lb/>wird genehmigt, dass ein <lb/>so würdiger Mann, als <lb/>
@@ -91,26 +109,26 @@
                   <abbr>Prof</abbr>
                   <expan>Professor</expan>
                </choice> Ehrenberg Sie auch <lb/>begleite.“ Ich rüste <lb/>mich noch immer zum
-               <lb/>12–14 April obgleich <lb/>dumpfe Gerüchte gehen <lb/>der <persName ref="http://d-nb.info/gnd/118588079">Kaiser</persName> bleibe <lb/>länger (bis
+               <lb/>12–14 April obgleich <lb/>dumpfe Gerüchte gehen <lb/>der <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Kaiser</persName> bleibe <lb/>länger (bis
                14
-               ten Mai?) <lb/>in <placeName ref="https://www.geonames.org/498817">Petersburg</placeName>
+               ten Mai?) <lb/>in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Petersburg</placeName>
                     <supplied cert="high">.</supplied> Ich <lb/>gehe auf 2 Tage
-               mit <lb/>dem <persName ref="http://d-nb.info/gnd/118535986">König</persName> nach <placeName ref="https://www.geonames.org/2852458">Pots<lb/>dam</placeName>. Sehen Sie Sich <lb/>doch ja, mein
+               mit <lb/>dem <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">König</persName> nach <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Pots<lb break="no"/>dam</placeName>. Sehen Sie Sich <lb/>doch ja, mein
                Verehrter <lb/>Freund, im Museum an <lb/>
                     <pb n="2r"/>1°
-               die Sibirischen Pelz<lb/>thiere die man schon <lb/>besizt <choice>
+               die Sibirischen Pelz<lb break="no"/>thiere die man schon <lb/>besizt <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> welche fehlen <lb/>2° die Fische die <lb/>
-                    <persName ref="http://d-nb.info/gnd/118591371">Pallas</persName> geschikt hat aus <lb/>
-                    <placeName ref="https://www.geonames.org/2016590">Sibirien</placeName>, bloß die <lb/>größeren, damit Sie <lb/>allenfalls die
-               Facies <lb/>der Fische wiedererkennen <lb/>die man vom <placeName ref="https://www.geonames.org/1524297">Irtysch</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001770 http://d-nb.info/gnd/118591371">Pallas</persName> geschikt hat aus <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibirien</placeName>, bloß die <lb/>größeren, damit Sie <lb/>allenfalls die
+               Facies <lb/>der Fische wiedererkennen <lb/>die man vom <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtysch</placeName>
                <lb/>
                     <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <placeName ref="https://www.geonames.org/1496420">Obi</placeName> hat<supplied cert="high">.</supplied>
+               <placeName ref="https://editon-humboldt.de/H0007780 https://www.geonames.org/1496420">Obi</placeName> hat<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
                     <signed>Ihr <lb/>AlHumboldt</signed>

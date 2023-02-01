@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011325">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>La Guaira</title>
             </titleStmt>
+            <editionStmt>
+                <p>La Guaira [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011325.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,57 +20,58 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011325.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011325.xml">
-                    <p>La Guaira [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011325.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0011325">
-                    <idno type="uri">https://www.geonames.org/3637721</idno>
-                    <placeName type="reg">La Guaira</placeName>
-                    <placeName type="alt">La Guayra</placeName>
-                    <note>Hafen von Caracas (Venezuela)</note>
-                    <linkGrp>
-                        <ptr target="16#15" type="letter"/>
-                        <ptr target="16#23" type="letter"/>
-                        <ptr target="16#26" type="letter"/>
-                        <ptr target="16#32" type="letter"/>
-                        <ptr target="16#37" type="letter"/>
-                        <ptr target="16#39" type="letter"/>
-                        <ptr target="16#41" type="letter"/>
-                        <ptr target="16#61" type="letter"/>
-                        <ptr target="16#116" type="letter"/>
-                        <ptr target="16#128" type="letter"/>
-                        <ptr target="41#2" type="letter"/>
-                        <ptr target="41#14" type="letter"/>
-                        <ptr target="41#15" type="letter"/>
-                        <ptr target="41#16" type="letter"/>
-                        <ptr target="41#17" type="letter"/>
-                        <ptr target="41#19" type="letter"/>
-                        <ptr target="41#20" type="letter"/>
-                        <ptr target="41#21" type="letter"/>
-                        <ptr target="41#22" type="letter"/>
-                        <ptr target="41#24" type="letter"/>
-                        <ptr target="41#29" type="letter"/>
-                        <ptr subtype="comment" target="41#29" type="letter"/>
-                        <ptr target="41#42" type="letter"/>
-                        <ptr target="41#43" type="letter"/>
-                        <ptr target="41#95" type="letter"/>
-                        <ptr target="41#113" type="letter"/>
-                        <ptr target="41#121" type="letter"/>
-                        <ptr target="41#123" type="letter"/>
-                        <ptr target="41#3" type="document"/>
-                        <ptr target="41#4" type="document"/>
-                    </linkGrp>
-                </place>
+                <place>
+            <idno type="uri">https://www.geonames.org/3637721</idno>
+            <placeName type="reg">La Guaira</placeName>
+            <placeName type="alt">La Guayra</placeName>
+            <note>Hafen von Caracas (Venezuela)</note>
+            <linkGrp>
+                <ptr target="16#15" type="letter"/>
+                <ptr target="16#23" type="letter"/>
+                <ptr target="16#26" type="letter"/>
+                <ptr target="16#32" type="letter"/>
+                <ptr target="16#37" type="letter"/>
+                <ptr target="16#39" type="letter"/>
+                <ptr target="16#41" type="letter"/>
+                <ptr target="16#61" type="letter"/>
+                <ptr target="16#116" type="letter"/>
+                <ptr target="16#128" type="letter"/>
+                <ptr target="41#2" type="letter"/>
+                <ptr target="41#14" type="letter"/>
+                <ptr target="41#15" type="letter"/>
+                <ptr target="41#16" type="letter"/>
+                <ptr target="41#17" type="letter"/>
+                <ptr target="41#19" type="letter"/>
+                <ptr target="41#20" type="letter"/>
+                <ptr target="41#21" type="letter"/>
+                <ptr target="41#22" type="letter"/>
+                <ptr target="41#24" type="letter"/>
+                <ptr target="41#29" type="letter"/>
+                <ptr subtype="comment" target="41#29" type="letter"/>
+                <ptr target="41#42" type="letter"/>
+                <ptr target="41#43" type="letter"/>
+                <ptr target="41#95" type="letter"/>
+                <ptr target="41#113" type="letter"/>
+                <ptr target="41#121" type="letter"/>
+                <ptr target="41#123" type="letter"/>
+                <ptr target="41#3" type="document"/>
+                <ptr target="41#4" type="document"/>
+            </linkGrp>
+        </place>
             </listPlace>
         </body>
     </text>

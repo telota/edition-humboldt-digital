@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002649">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,55 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach
+                    1834, hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002649">https://edition-humboldt.de/v8/H0002649</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002649</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002649</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002649.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], nach
-                    1834. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002649</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 817 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 16,50 cm , B: 13,60 cm; Wasserzeichen: J. Whatman, Angabe nur
+                            z. T. erhalten</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1835-01-01" notAfter="1835-12-31" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -72,13 +93,14 @@
                     <pb n="1r"/>Ich erhalte <gap reason="lost"/>
                     <lb/>Sie, theurester <gap reason="lost"/>
                     <supplied cert="high">sol</supplied>lten <lb/>Sie früher schreiben, so bitte ich
-                    <lb/>Sie 1) ihm <persName ref="http://d-nb.info/gnd/100123848">Ermans</persName> 2 Theil der er-<lb/>schienen ist, anzumelden <choice>
+                    <lb/>Sie 1) ihm <persName ref="https://editon-humboldt.de/H0005973 http://d-nb.info/gnd/100123848">Ermans</persName> 2 Theil der er<g ref="#typoHyphen"/>
+                    <lb break="no"/>schienen ist, anzumelden <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> 2) ihm <lb/>zu sagen, dass es einen eigenen <lb/>Buchhändler in <subst>
                         <del rendition="#s">Berl</del>
                         <add place="intralinear">
-                            <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                         </add>
                     </subst> giebt, <lb/>der alle meine Werke in <choice>
                         <abbr>fol.</abbr>
@@ -93,7 +115,7 @@
                     8<hi rendition="#sup">vo</hi> liefert auch unvollständige
                     <lb/>Exemplare completirt. Es ist </p>
                 <p>
-                    <note hand="#author" place="left">Mr Maze libraire</note> Mr Maze à <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <note hand="#author" place="left">Mr Maze libraire</note> Mr Maze à <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <lb/>Rue de Seine (<choice>
                         <abbr>fb</abbr>
                         <expan>faubourg</expan>
@@ -110,9 +132,9 @@
             </div>
             <postscript>
                 <p>Sie sagen mir wohl <lb/>mündlich wer Herr <lb/>
-                    <ref xml:id="fa9aa440-00fb-4631-9aa4-4000fba63196" corresp="#ac7401fe-7291-4f5e-b401-fe72915f5e96">Lloyd</ref>
-                    <note xml:id="ac7401fe-7291-4f5e-b401-fe72915f5e96" corresp="#fa9aa440-00fb-4631-9aa4-4000fba63196">Es ist möglich, dass Humboldt hier nach dem ihm
-                            damals noch unbekannten, irischen Physiker <persName ref="http://d-nb.info/gnd/101002149">Humphrey Lloyd</persName>
+                    <ref xml:id="a090f831-52e0-4469-90f8-3152e0546906" corresp="#dbc389c5-ff7b-4ad7-8389-c5ff7b8ad787">Lloyd</ref>
+                    <note xml:id="dbc389c5-ff7b-4ad7-8389-c5ff7b8ad787" corresp="#a090f831-52e0-4469-90f8-3152e0546906">Es ist möglich, dass Humboldt hier nach dem ihm
+                            damals noch unbekannten, irischen Physiker <persName ref="https://editon-humboldt.de/H0004576 http://d-nb.info/gnd/101002149">Humphrey Lloyd</persName>
                             fragt, der 1839 Humboldt in Berlin zu geomagnetischen Studien aufsuchte.
                         </note> ist?</p>
             </postscript>

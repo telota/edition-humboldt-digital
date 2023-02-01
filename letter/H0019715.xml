@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019715">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -7,28 +7,47 @@
                 <title>. Berlin, </title>
                 <title>28. Februar 1853</title>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Hermann Schlagintweit. Berlin, 28. Februar 1853. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019715">https://edition-humboldt.de/v8/H0019715</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019715</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019715</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019715.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Hermann Schlagintweit. Berlin, 28. Februar 1853. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019715</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Archiv der Berlin-Brandenburgischen Akademie der
+                            Wissenschaften, Berlin</institution>
+                        <collection>NL Alexander von Humboldt</collection>
+                        
+                        <idno/>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     <date when="1853-02-28" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
                 </correspAction>
             </correspDesc>
@@ -43,27 +62,27 @@
 				<p>
                     <pb n="1r"/>Ich will
                     Sie
-                    und Ihren theuren <persName ref="http://d-nb.info/gnd/118755234">Bruder</persName>
+                    und Ihren theuren <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruder</persName>
                     <lb/>nicht
                     zu allzugrosser Sicherheit <choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
-                    </choice> allzu <lb/>nahen Hofnungen aufregen aber die <ref xml:id="e621bfab-0cea-481e-a1bf-ab0cea081ef6" corresp="#a6c93f40-3ecd-4914-893f-403ecd591430">
+                    </choice> allzu <lb/>nahen Hofnungen aufregen aber die <ref xml:id="fe05d598-3b45-4ef4-85d5-983b454ef4d7" corresp="#c57f446c-6247-47e9-bf44-6c6247e7e978">
                         <lb/>Anlage</ref>
-                    <note xml:id="a6c93f40-3ecd-4914-893f-403ecd591430" corresp="#e621bfab-0cea-481e-a1bf-ab0cea081ef6">Um welches Dokument es sich handelt, konnte
+                    <note xml:id="c57f446c-6247-47e9-bf44-6c6247e7e978" corresp="#fe05d598-3b45-4ef4-85d5-983b454ef4d7">Um welches Dokument es sich handelt, konnte
                             bislang nicht ermittelt werden.</note>, die Sie mir gütigst wieder <lb/>bringen Mittwochs 1 Uhr soll Ihnen
                     <lb/>nur beweisen, dass ich ununterbrochen <lb/>(seitdem <add place="superlinear">ich</add>
-                    <ref xml:id="ab986f24-44dc-46c7-986f-2444dcb6c77e" corresp="#c7c2ebc1-4451-4a46-82eb-c14451ea46a1">Ihr dem Minister <persName ref="http://d-nb.info/gnd/118749250">
+                    <ref xml:id="bf566f25-039c-4e7a-966f-25039cce7a0a" corresp="#ea7a1484-3be3-4d65-ba14-843be37d6512">Ihr dem Minister <persName ref="https://editon-humboldt.de/H0000752 http://d-nb.info/gnd/118749250">
                             <choice>
                                     <abbr>R.</abbr>
                                     <expan>Raumer</expan>
                                 </choice>
                         </persName> gewiss <lb/>sehr misfälliges <hi rendition="#u">Elogium</hi>
                     </ref>
-                    <note xml:id="c7c2ebc1-4451-4a46-82eb-c14451ea46a1" corresp="#ab986f24-44dc-46c7-986f-2444dcb6c77e">Vgl. Humboldts Gutachten über die Reisepläne
-                                <persName ref="http://d-nb.info/gnd/118755234">Adolph</persName> und <persName ref="http://d-nb.info/gnd/119074117">Hermann Schlagintweits</persName> für Kultusminister
-                                <persName ref="http://d-nb.info/gnd/11636503X">Karl Otto von Raumer</persName>: Potsdam,
-                            27. November 1852 (<bibl corresp="https://edition-humboldt.de/v8/GH6TSSSN">Humboldt
+                    <note xml:id="ea7a1484-3be3-4d65-ba14-843be37d6512" corresp="#bf566f25-039c-4e7a-966f-25039cce7a0a">Vgl. Humboldts Gutachten über die Reisepläne
+                                <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph</persName> und <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann Schlagintweits</persName> für Kultusminister
+                                <persName ref="https://editon-humboldt.de/H0000753 http://d-nb.info/gnd/11636503X">Karl Otto von Raumer</persName>: Potsdam,
+                            27. November 1852 (<bibl corresp="https://edition-humboldt.de/GH6TSSSN">Humboldt
                                 1985</bibl>, 158–159).</note> am 27<supplied cert="high">.</supplied>
                     <choice>
                         <abbr>Nov</abbr>
@@ -77,24 +96,27 @@
                         <del rendition="#s">beschäft</del>
                         <add place="intralinear">
                             <lb/>beschäftigt</add>
-                    </subst> bin. Das Wort „der <persName ref="http://d-nb.info/gnd/118535994">König</persName>
+                    </subst> bin. Das Wort „der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
                     <note place="inline" hand="#unknown">
-                        <persName ref="http://d-nb.info/gnd/118535994">König</persName>
+                        <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
                     </note>
                     <lb/>giebt den Gedanken nicht auf …<supplied cert="high">“</supplied> bezieht
-                    <lb/>sich auf den lezten Rath den ich gegeben <lb/>(da <persName ref="http://d-nb.info/gnd/118668005">Bunsen</persName> von der Gehässigkeit ge-<lb/>schrieben, die bei Gelegenheit von <lb/>
-                    <persName ref="http://d-nb.info/gnd/118627406">Vogel</persName>’s Sendung in der <orgName ref="http://d-nb.info/gnd/1009629-2">
+                    <lb/>sich auf den lezten Rath den ich gegeben <lb/>(da <persName ref="https://editon-humboldt.de/H0003776 http://d-nb.info/gnd/118668005">Bunsen</persName> von der Gehässigkeit ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>schrieben, die bei Gelegenheit von <lb/>
+                    <persName ref="https://editon-humboldt.de/H0002881 http://d-nb.info/gnd/118627406">Vogel</persName>’s Sendung in der <orgName ref="https://editon-humboldt.de/H0000581 http://d-nb.info/gnd/1009629-2">
                         <choice>
                             <abbr>geogr.</abbr>
                             <expan>geographischen</expan>
-                        </choice> Gesell-<lb/>schaft</orgName>
+                        </choice> Gesell<g ref="#typoHyphen"/>
+                        <lb break="no"/>schaft</orgName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> auch bei <persName ref="http://d-nb.info/gnd/119297345">Murchisson</persName> gegen <lb/>die
+                    </choice> auch bei <persName ref="https://editon-humboldt.de/H0014452 http://d-nb.info/gnd/119297345">Murchisson</persName> gegen <lb/>die
                     bevorzugten Deutschen ausgebrochen)<supplied cert="high">,</supplied>
                     <lb/>etwas zu warten<supplied cert="high">,</supplied> um ihn<supplied cert="high">,</supplied> der immer <lb/>besten Willen hat, nicht in
-                        Verlegen-<lb/>heit zu sezen.<choice>
+                        Verlegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>heit zu sezen.<choice>
                         <sic>)</sic>
                         <corr type="deleted"/>
                     </choice> Da man gestern zum <lb/>ersten Mal das <add place="left">
@@ -106,15 +128,17 @@
                             <expan>gemeinschaftliche</expan>
                         </choice>
                         <lb/>Expedition</note> ausspricht, so werde ich <lb/>nicht aufschieben,
-                    sondern im Gegen-<lb/>theil fördern<supplied cert="high">.</supplied> Das Ding spielt man <lb/>seit <hi rendition="#u" hand="#unknown">Mai 52</hi>
+                    sondern im Gegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>theil fördern<supplied cert="high">.</supplied> Das Ding spielt man <lb/>seit <hi rendition="#u" hand="#unknown">Mai 52</hi>
                     <note place="left" hand="#unknown">mai
                         1852</note> und <choice>
                         <abbr>Fbr.</abbr>
                         <expan>Februar</expan>
-                    </choice> 53<supplied cert="high">,</supplied> rathet, was <lb/>dem <persName ref="http://d-nb.info/gnd/118535994">König</persName> gehässig scheint, alles ab-<lb/>zuschlagen, worin der <persName ref="http://d-nb.info/gnd/118535994">König</persName> persönliche <lb/>Abneigung gegen Fremde
-                    erkennt. <lb/>Sagen Sie davon gegen niemand <lb/>als Ihrem <persName ref="http://d-nb.info/gnd/118755234">Bruder</persName>, denn es <lb/>giebt thätige Neider!
+                    </choice> 53<supplied cert="high">,</supplied> rathet, was <lb/>dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> gehässig scheint, alles ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>zuschlagen, worin der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> persönliche <lb/>Abneigung gegen Fremde
+                    erkennt. <lb/>Sagen Sie davon gegen niemand <lb/>als Ihrem <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruder</persName>, denn es <lb/>giebt thätige Neider!
                     <lb/>Ich glaube wegen <pb n="1v"/>
-                    <lb/>der in <placeName ref="https://www.geonames.org/6269131">England</placeName> herrschenden Liebhaberei <lb/>für <choice>
+                    <lb/>der in <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName> herrschenden Liebhaberei <lb/>für <choice>
                         <abbr>magnet.</abbr>
                         <expan>magnetische</expan>
                     </choice>
@@ -126,15 +150,15 @@
                     wird, auf <lb/>diese <supplied cert="high">zu</supplied>
                     appuyiren,
                     was auch bei <lb/>
-                    <persName ref="http://d-nb.info/gnd/118627406">Vogel</persName>s Sendung zum
-                        <placeName ref="https://www.geonames.org/2233372">Tschad</placeName> geholfen<supplied cert="high">.</supplied>
-                    <lb/>Es wird <persName ref="http://d-nb.info/gnd/11671350X">Sabine</persName>
+                    <persName ref="https://editon-humboldt.de/H0002881 http://d-nb.info/gnd/118627406">Vogel</persName>s Sendung zum
+                        <placeName ref="https://editon-humboldt.de/H0009536 https://www.geonames.org/2233372">Tschad</placeName> geholfen<supplied cert="high">.</supplied>
+                    <lb/>Es wird <persName ref="https://editon-humboldt.de/H0015345 http://d-nb.info/gnd/11671350X">Sabine</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/118703897">Herschel</persName> gewiss <lb/>daran liegen, die von
-                        <persName ref="http://d-nb.info/gnd/100123848">Erman</persName>, <persName ref="http://d-nb.info/gnd/116461357">
+                    <persName ref="https://editon-humboldt.de/H0011831 http://d-nb.info/gnd/118703897">Herschel</persName> gewiss <lb/>daran liegen, die von
+                        <persName ref="https://editon-humboldt.de/H0005973 http://d-nb.info/gnd/100123848">Erman</persName>, <persName ref="https://editon-humboldt.de/H0011649 http://d-nb.info/gnd/116461357">
                         <choice>
                             <abbr>Hanst</abbr>
                             <expan>Hansteen</expan>
@@ -144,14 +168,15 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116615168">Kupfer</persName> nur <choice>
+                    <persName ref="https://editon-humboldt.de/H0001522 http://d-nb.info/gnd/116615168">Kupfer</persName> nur <choice>
                         <abbr>südl.</abbr>
                         <expan>südlich</expan>
                     </choice> bis 50° <choice>
                         <abbr>Br</abbr>
                         <expan>Breite</expan>
                     </choice>
-                    <lb/>bestimmen Magnetlinien durch Kennt-<lb/>niss ihrer Richtungen von <placeName ref="https://www.geonames.org/1273845">Cap<choice>
+                    <lb/>bestimmen Magnetlinien durch Kennt<g ref="#typoHyphen"/>
+                    <lb break="no"/>niss ihrer Richtungen von <placeName ref="https://editon-humboldt.de/H0000357 https://www.geonames.org/1273845">Cap<choice>
                             <sic>.</sic>
                             <corr type="deleted"/>
                         </choice> Comorin</placeName>
@@ -166,18 +191,19 @@
                         <abbr>nördl.</abbr>
                         <expan>nördlicher</expan>
                     </choice>
-                    <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>
                     <lb/>alles zugänglich erläutert zu sehen<supplied cert="high">.</supplied>
                     <lb/>Besuchen Sie mich gütigst Mittwoch<supplied cert="high">.</supplied>
-                    <lb/>Ihr <placeName ref="https://www.geonames.org/2867714">Münchner</placeName> Plateau hat mich
-                    <lb/>sehr befriedigt. Mit alter An-<lb/>hänglichkeit und Freundschaft<lb/>
+                    <lb/>Ihr <placeName ref="https://editon-humboldt.de/H0009046 https://www.geonames.org/2867714">Münchner</placeName> Plateau hat mich
+                    <lb/>sehr befriedigt. Mit alter An<g ref="#typoHyphen"/>
+                    <lb break="no"/>hänglichkeit und Freundschaft<lb/>
                     <lb/>
                 </p>
 				<closer>
                     <salute>Ihr</salute>
                     <signed>AlHumboldt</signed>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/2950159">
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">
                             <choice>
                                 <abbr>B.</abbr>
                                 <expan>Berlin</expan>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019604">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>or d’alluvion</title>
             </titleStmt>
+            <editionStmt>
+                <p>or d’alluvion [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019604.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,30 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019604.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019604.xml">
-                    <p>or d’alluvion [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019604.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>glossary</textClass>
+            <textClass>
+                <keywords>
+                    <term>glossary</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <list>
-                <item xml:id="H0019604">
+                <item>
                     <label type="reg" xml:lang="fra">or d’alluvion</label>
-                    <interp id="#geoBerg"/>
+                    <interp xml:id="#geoBerg"/>
                     <note resp="#FS">
                         <p>Waschgold; in Schwemmböden (Alluvialböden, von lat. alluvio:
                             ‚Anschwemmung‛) enthaltenes Gold, das in Goldseifen oder -wäschen aus
                             der Seifenlagerstätte gewonnen wird; im Gegensatz zu dem in
-                            Ganglagerstätten aus <rs type="glossar" key="H0019613">anstehendem</rs>
+                            Ganglagerstätten aus anstehendem
                             Gestein bergmännisch abgebauten
-                            ‚Berggold‛.<!-- Sachanmerkungstext aus RST überarbeiten und ggf. anpassen -->
-                        </p>
+                            ‚Berggold‛.</p>
                     </note>
                 </item>
             </list>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017856">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,29 +28,56 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Johann Moritz Rugendas an Alexander von Humboldt. Augsburg, 20. Januar 1826, hg. v. Ulrich Päßler unter Mitarbeit von Lisa Poggel und Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0017856">https://edition-humboldt.de/v8/H0017856</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0017856</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0017856</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017856.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Johann Moritz Rugendas an Alexander von Humboldt. Augsburg, 20. Januar 1826. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0017856</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 40</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1035688</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/QHMIHAVB">Löschner 1976</bibl>, 174–175.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 288–289.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
-                    <placeName ref="https://www.geonames.org/2954172">Augsburg (Stadt in Bayern (Deutschland))</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0002622 https://www.geonames.org/2954172">Augsburg (Stadt in Bayern (Deutschland))</placeName>
                     <date when="1826-01-20" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -61,7 +88,7 @@
                 <opener>
                     <dateline>
                         <pb n="1r" facs="http://resolver.staatsbibliothek-berlin.de/SBB00019EEF00000001"/>
-                        <placeName ref="https://www.geonames.org/2954172">Augsburg</placeName>. <choice>
+                        <placeName ref="https://editon-humboldt.de/H0002622 https://www.geonames.org/2954172">Augsburg</placeName>. <choice>
                             <abbr>d.</abbr>
                             <expan>den</expan>
                         </choice> 20. Jänner 1826.</dateline>
@@ -71,25 +98,25 @@
 				<p>Nachdem ich mir die Freyheit <choice>
                         <orig>genom̅en</orig>
                         <reg>genommen</reg>
-                    </choice> unter dem 17ten dießes <lb/>Monats <ref xml:id="d79f7c53-fbc7-4d1c-9f7c-53fbc75d1c82" corresp="#d6c922a2-83bb-43b6-8922-a283bbb3b6f4">4 Zeichnungen</ref>
-                    <note xml:id="d6c922a2-83bb-43b6-8922-a283bbb3b6f4" corresp="#d79f7c53-fbc7-4d1c-9f7c-53fbc75d1c82">Rugendas hatte wohl unter anderem die
+                    </choice> unter dem 17ten dießes <lb/>Monats <ref xml:id="d76b5d99-d07e-4c87-ab5d-99d07e7c87db" corresp="#eff0949a-6eaa-46da-b094-9a6eaa46da6a">4 Zeichnungen</ref>
+                    <note xml:id="eff0949a-6eaa-46da-b094-9a6eaa46da6a" corresp="#d76b5d99-d07e-4c87-ab5d-99d07e7c87db">Rugendas hatte wohl unter anderem die
                             Zeichnungen <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000006">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 2</ref> und
                                 <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000008">3</ref> gesandt. Die beiden anderen Zeichnungen konnten bislang
                             nicht ermittelt werden.</note> für Euer Hochwohlgebohren durch die <lb/>
-                    <orgName ref="http://d-nb.info/gnd/16114819-0">Kunsthandlung Thessari</orgName> – allhier <choice>
+                    <orgName ref="https://editon-humboldt.de/H0018039 http://d-nb.info/gnd/16114819-0">Kunsthandlung Thessari</orgName> – allhier <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
-                    </choice> in <placeName ref="https://www.geonames.org/2988507">Paris</placeName> – zu addressiren – so
+                    </choice> in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> – zu addressiren – so
                     mache <lb/>ich hiervon die Anzeige – <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> verbinde die Bitte damit mir deren Empfang <lb/>gefälligst anzeigen zu
-                    lassen, da ich schon wegen den <ref xml:id="f8a699a9-3309-4050-a699-a9330970506a" corresp="#b48c03bf-8cf4-4a69-8c03-bf8cf41a69b2">2, früher — unter <lb/>dem 10<supplied cert="high">.</supplied>
+                    lassen, da ich schon wegen den <ref xml:id="f12a8e38-82fe-4d33-aa8e-3882fe2d3355" corresp="#cb10168b-2454-4001-9016-8b2454c00119">2, früher — unter <lb/>dem 10<supplied cert="high">.</supplied>
                             <choice>
                                 <abbr>Dec.</abbr>
                                 <expan>December</expan>
                             </choice> – laut Postschein – abgesendeten Blätter’n</ref>
-                    <note xml:id="b48c03bf-8cf4-4a69-8c03-bf8cf41a69b2" corresp="#f8a699a9-3309-4050-a699-a9330970506a">
+                    <note xml:id="cb10168b-2454-4001-9016-8b2454c00119" corresp="#f12a8e38-82fe-4d33-aa8e-3882fe2d3355">
                         <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000010">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 4</ref> und
                                 <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">5</ref>.</note> in Sorge über <lb/>ihre richtige Ankunft <choice>
                         <sic>in Sorge </sic>
@@ -122,7 +149,7 @@
                         <expan>Euer</expan>
                     </choice> Hochwohlgeboren noch<pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00019EEF00000002"/> zu
                     haben wünschen – so werden Sie solche – mit stellenweiser Ausführung <lb/>zu
-                    Beurtheilung ihrer Behandlungsart – durch daselbe Hauß – <orgName ref="http://d-nb.info/gnd/16114819-0">Tessari</orgName>
+                    Beurtheilung ihrer Behandlungsart – durch daselbe Hauß – <orgName ref="https://editon-humboldt.de/H0018039 http://d-nb.info/gnd/16114819-0">Tessari</orgName>
                     <lb/>empfangen. Sehr würde es mich freuen – Ihre fernern ehrenvollen
                     <lb/>Aufträge zu empfangen <choice>
                         <abbr>u.</abbr>
@@ -140,7 +167,8 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Ergebenheit <lb/>zu bezeugen, da ich die Ausarbeitung meiner Scizzen
-                    in <placeName ref="https://www.geonames.org/2988507">Paris</placeName> vor-<lb/>nehmen werde – <choice>
+                    in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>nehmen werde – <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice>
@@ -150,7 +178,8 @@
                     </choice> ich auch die Bitte nicht wage – Ihnen mit <lb/>der Durchsicht meiner
                     Aufsätze beschwerlich zu fallen – so giebt mir <lb/>Ihre zuvorkommende Güte –
                     von welcher ich Beweise empfing, die <lb/>Hoffnung daß dieselben mir Ihren
-                    gütigen Rath nicht vorent-<lb/>halten
+                    gütigen Rath nicht vorent<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten
                     würden.</p>
 				<closer>
                     <salute>Mit der tiefsten Hochachtung verharrt <lb/>Euer Hochwohlgebohren
@@ -184,7 +213,7 @@
                                     </choice>
                                 </abbr>
                                 <expan>Majesté</expan>
-                            </choice> le <persName ref="http://d-nb.info/gnd/118535986">Roi de
+                            </choice> le <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">Roi de
                             Prusse</persName>
                         </addrLine>
                         <addrLine>Chevalier des plusieurs ordres. etc. etc.</addrLine>

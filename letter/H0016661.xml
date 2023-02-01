@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016661">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Dezember
+               1837] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016661">https://edition-humboldt.de/v8/H0016661</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016661</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016661</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016661.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Dezember
-               1837] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016661</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">93</idno>
+                     <idno type="shelfmark">421, Bl. 172r-172v, 173v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1837-12" notAfter="1837-12">1837-12-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. E.s</note>
          </correspDesc>
@@ -81,11 +99,11 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Ihr herrliches <ref xml:id="b068477b-7619-43b5-a847-7b761983b5c1" corresp="#ddee9aa2-0901-4371-ae9a-a209015371f0">Heft</ref>
-                    <note xml:id="ddee9aa2-0901-4371-ae9a-a209015371f0" corresp="#b068477b-7619-43b5-a847-7b761983b5c1">
-                     <bibl corresp="https://edition-humboldt.de/v8/4KW6Y7FW">Ehrenberg 1837a</bibl>
+            <p>Ihr herrliches <ref xml:id="a7f17285-5229-48c6-b172-85522938c60f" corresp="#e47c96b9-0097-47a3-bc96-b9009777a3cd">Heft</ref>
+                    <note xml:id="e47c96b9-0097-47a3-bc96-b9009777a3cd" corresp="#a7f17285-5229-48c6-b172-85522938c60f">
+                     <bibl corresp="https://edition-humboldt.de/4KW6Y7FW">Ehrenberg 1837a</bibl>
                   </note>, mein theurer <lb/>Freund habe ich vorgestern, den <lb/>interessanten Brief
-               aber der es be<lb/>gleiten <subst>
+               aber der es be<lb break="no"/>gleiten <subst>
                   <del rendition="#ow">
                             <gap reason="covered" unit="words" quantity="1"/>
                         </del>
@@ -96,7 +114,7 @@
                     <choice>
                   <abbr>Hermaphrod.</abbr>
                   <expan>Hermaphroditismus</expan>
-               </choice> bei so einfach <lb/>gefabelten Geschöpfen, die Ana<lb/>logien
+               </choice> bei so einfach <lb/>gefabelten Geschöpfen, die Ana<lb break="no"/>logien
                mit <name type="animal" key="Distomen">Distomen</name> sind grosse <lb/>Fortschritte <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -111,7 +129,7 @@
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/103086005">Poenitz</persName> schrekt <lb/>mich, er kommt gewiss weil
+               <persName ref="https://editon-humboldt.de/H0017093 http://d-nb.info/gnd/103086005">Poenitz</persName> schrekt <lb/>mich, er kommt gewiss weil
                <lb/>ich mir sehr ernst alle <lb/>
                     <hi rendition="#u">Briefe</hi> verbeten habe. Es
                ist <lb/>eine langweilige <hi rendition="#u">Verliebtheit</hi>. <lb/>Ich glaube es
@@ -119,22 +137,22 @@
                   <del rendition="#s">nicht</del>
                   <lb/>
                   <add place="intralinear">nie</add>
-               </subst> vom Wasser leiden das <lb/>beim Einpakken des gebrauch<lb/>ten <choice>
+               </subst> vom Wasser leiden das <lb/>beim Einpakken des gebrauch<lb break="no"/>ten <choice>
                   <abbr>Microsc.</abbr>
                   <expan>Microscops</expan>
-               </choice> so leicht ver<lb/>schüttet wird besser, dass ich <lb/>sie
+               </choice> so leicht ver<lb break="no"/>schüttet wird besser, dass ich <lb/>sie
                besonders an <choice>
                   <abbr>F.</abbr>
                   <expan>Fürst</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118581465">Metter<lb/>nich</persName> schikke<supplied cert="high">.</supplied> Die Präparate <lb/>kann ich auch besorgen, doch <lb/>für
+               <persName ref="https://editon-humboldt.de/H0014166 http://d-nb.info/gnd/118581465">Metter<lb break="no"/>nich</persName> schikke<supplied cert="high">.</supplied> Die Präparate <lb/>kann ich auch besorgen, doch <lb/>für
                diese wäre eher ein <lb/>Raum im Microscop zu <lb/>wünschen. Das Wort das <lb/>Sie
-               über die <name type="plant" key="Confervae conjugatae">Confervae conjuga<lb/>tae</name> und <choice>
+               über die <name type="plant" key="Confervae conjugatae">Confervae conjuga<lb break="no"/>tae</name> und <choice>
                   <abbr>Oscillat.</abbr>
                   <expan>Oscillation</expan>
                </choice> ausgesprochen <lb/>geht mir sehr an das Herz<supplied cert="high">.</supplied>
                <lb/>
-                    <pb n="2r"/>Die Kupfertafel ist über <lb/>allen Ausdruk schön. Frei<lb/>lich wünschte ich dass im <lb/>Institut ein <choice>
+                    <pb n="2r"/>Die Kupfertafel ist über <lb/>allen Ausdruk schön. Frei<lb break="no"/>lich wünschte ich dass im <lb/>Institut ein <choice>
                   <abbr>Exempl.</abbr>
                   <expan>Exemplar</expan>
                </choice> in <lb/>folio <choice>
@@ -142,10 +160,11 @@
                   <corr>liege</corr>
                </choice>. Ich gebe gern <lb/>mein gebundenes, aber gebunden <lb/>können Sie es nur
                durch <lb/>Buchhändler senden. Folio <lb/>weich gerollt nimmt <lb/>
-                    <persName ref="http://d-nb.info/gnd/116492252">Bresson</persName>, aber seltene Gelegen<lb/>heit in 3–4
+                    <persName ref="https://editon-humboldt.de/H0003641 http://d-nb.info/gnd/116492252">Bresson</persName>, aber seltene Gelegen<lb break="no"/>heit in 3–4
                Wochen <lb/>wenn besonderer Courier<supplied cert="high">.</supplied>
                <lb/>Wollen Sie früher dass <lb/>es ans Institut komme <lb/>so kann ich durch
-                  <persName ref="http://d-nb.info/gnd/118645110">An-<lb/>cillon</persName>
+                  <persName ref="https://editon-humboldt.de/H0012625 http://d-nb.info/gnd/118645110">An<g ref="#typoHyphen"/>
+                        <lb break="no"/>cillon</persName>
                ein geheftetes <lb/>4<hi rendition="#sup">
                         <choice>
                   <abbr>t.</abbr>
@@ -157,15 +176,15 @@
                </choice> mit <hi rendition="#u">gefalteter</hi>
                <lb/>Tafel vorläufig schikken<supplied cert="high">.</supplied>
                <lb/>
-                    <ref xml:id="d5e59c2d-a9c8-4898-a59c-2da9c878982c" corresp="#a0a83977-1cc0-4b45-a839-771cc0fb45ff">Von den in <placeName ref="https://www.geonames.org/830603">Lapland</placeName>
+                    <ref xml:id="c60bd387-a06b-4e41-8bd3-87a06bbe41db" corresp="#d7137f6e-1cf2-43f7-937f-6e1cf2e3f764">Von den in <placeName ref="https://editon-humboldt.de/H0011377 https://www.geonames.org/830603">Lapland</placeName>
                      <lb/>gegessenen <choice>
                         <abbr>Infus.</abbr>
                         <expan>Infusorien</expan>
                      </choice>
                     </ref>
-                    <note xml:id="a0a83977-1cc0-4b45-a839-771cc0fb45ff" corresp="#d5e59c2d-a9c8-4898-a59c-2da9c878982c">
-                     <bibl corresp="https://edition-humboldt.de/v8/WSJSE3HQ">Ehrenberg 1838a</bibl>
-                  </note> habe <lb/>ich schon an <persName ref="http://d-nb.info/gnd/118847767">Arago</persName>
+                    <note xml:id="d7137f6e-1cf2-43f7-937f-6e1cf2e3f764" corresp="#c60bd387-a06b-4e41-8bd3-87a06bbe41db">
+                     <bibl corresp="https://edition-humboldt.de/WSJSE3HQ">Ehrenberg 1838a</bibl>
+                  </note> habe <lb/>ich schon an <persName ref="https://editon-humboldt.de/H0012670 http://d-nb.info/gnd/118847767">Arago</persName>
                <lb/>geschrieben, denn ich <lb/>gehöre zu denen die <lb/>den Ruhm meiner Freunde
                <lb/>und eines mir so <lb/>theuren, wie Sie, gern <lb/>verherrlichen, und nicht <lb/>
                     <subst>
@@ -179,7 +198,7 @@
                             <gap reason="covered" unit="words" quantity="1"/>
                         </del>
                   <add place="across">manche</add>
-               </subst> Akademiker <lb/>in <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> Leibweh
+               </subst> Akademiker <lb/>in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> Leibweh
                <lb/>bei den Fortschritten <lb/>anderer fühlen<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">

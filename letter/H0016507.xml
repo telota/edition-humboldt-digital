@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016507">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,31 +19,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1833] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016507">https://edition-humboldt.de/v8/H0016507</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016507</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016507</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016507.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1833] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016507</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">257</idno>
+                     <idno type="shelfmark">421, Bl. 482r, 483v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1833" notAfter="1833">1833-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: 1833 ist die Chinareise der “Lord Amherst” beendet, die
                Reisebeschreibung erscheint 1834</note>
@@ -73,13 +91,13 @@
                   <figDesc/>
                </figure>
                <lb/>Darf ich Sie um die Freundschaft bitten, morgen Mittwochs gegen neun Uhr mit den
-               beiden Engländern <persName ref="http://d-nb.info/gnd/1077755953">Lindsay</persName> und <persName ref="https://edition-humboldt.de/v8/H0017085">Pearson</persName> die <choice>
+               beiden Engländern <persName ref="https://editon-humboldt.de/H0017030 http://d-nb.info/gnd/1077755953">Lindsay</persName> und <persName ref="https://editon-humboldt.de/H0017085">Pearson</persName> die <choice>
                   <abbr>franz</abbr>
                   <expan>französisch</expan>
                </choice> und <hi rendition="#u">deutsch</hi> sprechen <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> durch Ihr <placeName ref="https://www.geonames.org/350155">Rothes Meer</placeName> über <placeName ref="https://www.geonames.org/361058">Alexandrien</placeName> aus <placeName ref="https://www.geonames.org/1814991">China</placeName> kommen bei mir zu frühstükken. </p>
+               </choice> durch Ihr <placeName ref="https://editon-humboldt.de/H0010666 https://www.geonames.org/350155">Rothes Meer</placeName> über <placeName ref="https://editon-humboldt.de/H0002379 https://www.geonames.org/361058">Alexandrien</placeName> aus <placeName ref="https://editon-humboldt.de/H0007396 https://www.geonames.org/1814991">China</placeName> kommen bei mir zu frühstükken. </p>
             <closer>
                     <salute>Dankbarst <lb/>Ihr</salute>
                <signed>Al Humboldt</signed>

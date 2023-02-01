@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017472">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kura</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kura [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017472.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,30 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017472.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017472.xml">
-                    <p>Kura [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017472.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017472">
+                <place>
                     <idno type="uri">https://www.geonames.org/305419</idno>
                     <placeName type="reg">Kura</placeName>
                     <placeName type="alt">Kur</placeName>
                     <placeName type="alt">Cyrus</placeName>
                     <placeName type="alt">Kyros</placeName>
                     <placeName type="alt">Kura Nehri</placeName>
-                    <note>größter Fluss des <placeName key="H0000394">Kaukasus</placeName>; in der Antike Kyros genannt;
+                    <note>größter Fluss des <placeName ref="https://editon-humboldt.de/H0000394 https://www.geonames.org/573081">Kaukasus</placeName>; in der Antike Kyros genannt;
                         entspringt in der Türkei, fließt durch Georgien und Aserbaidschan und mündet südlich von
-                            <placeName key="H0018742">Sal'jan</placeName> ins <placeName key="H0000384">Kaspische
+                            <placeName ref="https://editon-humboldt.de/H0018742 https://www.geonames.org/147271">Sal'jan</placeName> ins <placeName ref="https://editon-humboldt.de/H0000384 https://www.geonames.org/630671">Kaspische
                             Meer</placeName>
                     </note>
                 </place>

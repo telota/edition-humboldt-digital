@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019754">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Río Aponguao</title>
             </titleStmt>
+            <editionStmt>
+                <p>Río Aponguao [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019754.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,23 +20,24 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019754.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019754.xml">
-                    <p>Río Aponguao [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019754.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019754">
+                <place>
                     <idno type="uri">https://www.geonames.org/3649159</idno>
                     <placeName type="reg">Río Aponguao</placeName>
-                    <note>Zufluss des <placeName key="H0017130">Río Caroní</placeName> in der Gran Sabana
+                    <note>Zufluss des <placeName ref="https://editon-humboldt.de/H0017130 https://www.geonames.org/3646489">Río Caroní</placeName> in der Gran Sabana
                         (Venezuela)</note>
                 </place>
             </listPlace>

@@ -1,12 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004072">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>, </title>
+                <title>
+                    <name>Tschin-Fu</name>
+                </title>
             </titleStmt>
+            <editionStmt>
+                <p>Tschin-Fu [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004072.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +22,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004072.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004072.xml">
-                    <p>,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004072.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004072">
+                <person>
                     <persName type="reg">
                         <name>Tschin-Fu</name>
                     </persName>
@@ -40,7 +47,7 @@
                         <name>Tsingfu</name>
                     </persName>
                     <floruit notBefore="1829" notAfter="1829">1829</floruit>
-                    <note>Kommandant des chinesischen Grenzpostens <placeName key="H0005171">Baty</placeName> am <placeName key="H0006725">Irtysch</placeName>
+                    <note>Kommandant des chinesischen Grenzpostens <placeName ref="https://editon-humboldt.de/H0005171 https://www.geonames.org/1517617">Baty</placeName> am <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtysch</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="32#113" type="page"/>

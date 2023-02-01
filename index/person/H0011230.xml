@@ -1,13 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011230">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>O'Reilly, María Francisca Calvo de la Puerta y del Manzano, III Condesa de
                             Buenavista</title>
             </titleStmt>
+            <editionStmt>
+                <p>O'Reilly, María Francisca Calvo de la Puerta y del Manzano, III Condesa de
+                            Buenavista [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011230.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -17,29 +22,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011230.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011230.xml">
-                    <p>O'Reilly, María Francisca Calvo de la Puerta y del Manzano, III Condesa de
-                            Buenavista [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011230.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0011230">
+                <person>
                     <persName type="reg">
                         <surname>O'Reilly</surname>
                         <forename>María Francisca Calvo de la Puerta y del Manzano, III Condesa de
                             Buenavista</forename>
                     </persName>
                     <floruit notBefore="1792" notAfter="1792">um 1792</floruit>
-                    <?oxy_comment_start author="lkirsten" timestamp="20170706T131514+0200" comment="wahrscheinlich Ehefrau seines Sohnes Pedro Pablo O&apos;Reilly y de las Casas"?>
-                    <note>Ehefrau von Alejandro O'Reilly<?oxy_comment_end?></note>
+                    
+                    <note>Ehefrau von Alejandro O'Reilly</note>
                 </person>
             </listPerson>
         </body>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019134">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -34,38 +34,56 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Adolphe de Polier. Moskau, 8. November 1829, hg. v. Ulrich Päßler und Florian Schnee unter Mitarbeit von Kathrin Kraller und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019134">https://edition-humboldt.de/v8/H0019134</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019134</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019134</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019134.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Adolphe de Polier. Moskau, 8. November 1829. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019134</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Rossijskij Gosudarstvennyj Archiv Drevnich Aktov (RGADA,
+                            Russisches Staatsarchiv Alter Akten, Moskau)</institution>
+                        <idno>
+                            <idno type="shelfmark">f. 1288, op. 1. g. II, № 2774, l.
+                            5–6</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/524901">Moskau [Moscau, Moscou, Moskva, Москва]</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0009006 https://www.geonames.org/524901">Moskau [Moscau, Moscou, Moskva, Москва]</placeName>
                     <date when="1829-11-27" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://edition-humboldt.de/v8/H0002056">Polier, Adolphe, Graf von (1795-1830)</persName>
-                    <placeName ref="https://www.geonames.org/498817">Sankt Petersburg [Petersburg, St. Petersburg,
+                    <persName ref="https://editon-humboldt.de/H0002056">Polier, Adolphe, Graf von (1795-1830)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt Petersburg [Petersburg, St. Petersburg,
                         Pétersbourg, Санкт-Петербу́рг] (Ehemalige Residenzstadt des Zaren
                         (Russland))</placeName>
                 </correspAction>
-                <note>Die Briefe <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldts</persName> an
-                    <persName ref="https://edition-humboldt.de/v8/H0002056">Adolphe de Polier</persName> wurden von <persName ref="https://edition-humboldt.de/v8/H0019459">Boris G. Šadrin</persName> im Russischen Staatsarchiv
-                    Alter Akten, Moskau entdeckt. Die Herausgeber danken ihm sowie <persName ref="http://viaf.org/viaf/305685650">Svetlana Kamzolova</persName> und <persName ref="https://d-nb.info/gnd/124857698">Ulrich Stottmeister</persName> für die Überlassung
+                <note>Die Briefe <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldts</persName> an
+                    <persName ref="https://editon-humboldt.de/H0002056">Adolphe de Polier</persName> wurden von <persName ref="https://editon-humboldt.de/H0019459">Boris G. Šadrin</persName> im Russischen Staatsarchiv
+                    Alter Akten, Moskau entdeckt. Die Herausgeber danken ihm sowie <persName ref="https://editon-humboldt.de/H0019477 http://viaf.org/viaf/305685650">Svetlana Kamzolova</persName> und <persName ref="https://editon-humboldt.de/H0019462 https://d-nb.info/gnd/124857698">Ulrich Stottmeister</persName> für die Überlassung
                     einer Kopie der Handschriften und die Möglichkeit zur Erstveröffentlichung in
                     der edition humboldt digital.</note>
             </correspDesc>
@@ -79,7 +97,7 @@
                     attristé des nouvelles que j’ai recueillies <lb/>ici dès mon arrivée, sur l’état
                     de Votre santé. Hélas! <lb/>mon cher Comte, dois-je me livrer à la pensée que
                     notre <lb/>voyage Vous a trop fatigué, que Votre poitrine a <choice>
-                        <sic>souffer<lb/>te</sic>
+                        <sic>souffer<lb break="no"/>te</sic>
                         <corr>souffert</corr>
                     </choice> en remontant du fond des mines? Encore quelques jours <lb/>et je serai
                     assez heureux pour Vous embrasser, pour Vous <lb/>réitérer l’expression de mon
@@ -87,20 +105,20 @@
                         <abbr>Mrs</abbr>
                         <expan>Messieurs</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName>
-                    <lb/>et <persName ref="http://d-nb.info/gnd/116609036">Rose</persName>, partagent avec moi pour celui,
+                    <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>
+                    <lb/>et <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName>, partagent avec moi pour celui,
                     dont l’amabilité <lb/>de caractère ne se dément pas un instant. Depuis que
                     <lb/>nous nous sommes quittés, nous avons fait un beau voyage de <measure quantity="8000" unit="versta">8</measure>-<measure quantity="9000" unit="versta">9000</measure>
-                    <lb/>werstes de plus à l’<placeName ref="https://www.geonames.org/1516401">Altai</placeName> et aux
-                    confins de la <placeName ref="https://edition-humboldt.de/v8/H0005570">Songarie</placeName>
+                    <lb/>werstes de plus à l’<placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altai</placeName> et aux
+                    confins de la <placeName ref="https://editon-humboldt.de/H0005570">Songarie</placeName>
                     <lb/>chinoise. C’est là premièrement que le pays commence à <lb/>avoir de la
                     physionomie, un aspect individuel. Aussi<supplied cert="high">,</supplied> le
-                    <lb/>contact avec les peuples asiatiques depuis <ref xml:id="ebbc4e55-524b-4466-bc4e-55524b0466a4" corresp="#ce0a0dc8-7471-4509-8a0d-c87471b509f8">Buchtarma</ref>
-                    <note xml:id="ce0a0dc8-7471-4509-8a0d-c87471b509f8" corresp="#ebbc4e55-524b-4466-bc4e-55524b0466a4">Vermutlich ist hier nicht der Fluss <placeName ref="https://www.geonames.org/1525032">Buchtarma</placeName>, sondern der
-                            gleichnamige, auch als Buchtarminsk oder <placeName ref="https://www.geonames.org/1517617">Ust'-Buchtarma</placeName> bezeichnete Ort gemeint, in dem Humboldt
+                    <lb/>contact avec les peuples asiatiques depuis <ref xml:id="ff1ea27d-88bd-4c48-9ea2-7d88bd9c4882" corresp="#b18a3415-5c50-432e-8a34-155c50c32e30">Buchtarma</ref>
+                    <note xml:id="b18a3415-5c50-432e-8a34-155c50c32e30" corresp="#ff1ea27d-88bd-4c48-9ea2-7d88bd9c4882">Vermutlich ist hier nicht der Fluss <placeName ref="https://editon-humboldt.de/H0018617 https://www.geonames.org/1525032">Buchtarma</placeName>, sondern der
+                            gleichnamige, auch als Buchtarminsk oder <placeName ref="https://editon-humboldt.de/H0009689 https://www.geonames.org/1517617">Ust'-Buchtarma</placeName> bezeichnete Ort gemeint, in dem Humboldt
                             sich am <date when="1829-08-15" calendar="#gregorian">15.</date> und dem
-                            18./19. August 1829 aufgehalten hatte (vgl. <bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/614">580</ref>-<ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/642">608</ref>).</note> à <lb/>la <placeName ref="https://www.geonames.org/630671">Mer Caspienne</placeName> (où même
-                    nous avons vu <ref xml:id="dbd3c378-5795-487c-93c3-785795f87c02" corresp="#d13aedad-39c6-4776-baed-ad39c66776ec">un Faquir
+                            18./19. August 1829 aufgehalten hatte (vgl. <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, I, <ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/614">580</ref>-<ref target="http://www.deutschestextarchiv.de/rose_ural01_1837/642">608</ref>).</note> à <lb/>la <placeName ref="https://editon-humboldt.de/H0000384 https://www.geonames.org/630671">Mer Caspienne</placeName> (où même
+                    nous avons vu <ref xml:id="e0f7bd17-eda1-4c14-b7bd-17eda12c14f8" corresp="#a584ff82-d3db-434d-84ff-82d3db634d9f">un Faquir
                             <lb/>
                             <choice>
                                 <orig>nud</orig>
@@ -108,22 +126,22 @@
                             </choice> jetté dans la cour d’un petite temple de
                             Bramah)
                             <lb/>est d’un vif intérêt </ref>
-                    <note xml:id="d13aedad-39c6-4776-baed-ad39c66776ec" corresp="#dbd3c378-5795-487c-93c3-785795f87c02">Humboldt und seine Begleiter waren am <date when="1829-10-18" calendar="#gregorian">18.</date> (oder 19.)
+                    <note xml:id="a584ff82-d3db-434d-84ff-82d3db634d9f" corresp="#e0f7bd17-eda1-4c14-b7bd-17eda12c14f8">Humboldt und seine Begleiter waren am <date when="1829-10-18" calendar="#gregorian">18.</date> (oder 19.)
                             Oktober 1829 im Anschluss an den Besuch eines hinduistischen
-                            Gottesdienstes in <placeName ref="https://www.geonames.org/580497">Astrachan</placeName> einem
+                            Gottesdienstes in <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName> einem
                                 <quote>indischen büßenden Faquir</quote> begegnet, der in einem
                             Holzverschlag <quote>im Hofe des Indischen Tempels nackend (blos mit
-                                einer Schafdecke)</quote> bekleidet, hauste (Brief an <persName ref="http://d-nb.info/gnd/118554727">Wilhelm</persName> vom <date when="1829-10-21" calendar="#gregorian">21. Oktober 1829</date>, vgl. <bibl corresp="https://edition-humboldt.de/v8/K7T6THCG">Humboldt 2009a</bibl>, 199, Nr. 64;
-                                <bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, II,
-                                <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/321">303</ref>f.; ERST, Bl. <ref target="H0016785/#64v">64v</ref>).</note>. Tout le monde demande s’il <lb/>y a des diamans dans l’<placeName ref="https://www.geonames.org/1488441">Ural</placeName>: nous répondons toujours <lb/>„que nous
+                                einer Schafdecke)</quote> bekleidet, hauste (Brief an <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm</persName> vom <date when="1829-10-21" calendar="#gregorian">21. Oktober 1829</date>, vgl. <bibl corresp="https://edition-humboldt.de/K7T6THCG">Humboldt 2009a</bibl>, 199, Nr. 64;
+                                <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, II,
+                                <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/321">303</ref>f.; ERST, Bl. <ref target="https://edition-humboldt.de/H0016785/64v">64v</ref>).</note>. Tout le monde demande s’il <lb/>y a des diamans dans l’<placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>: nous répondons toujours <lb/>„que nous
                     sommes sûrs que sous peu <choice>
                         <sic>elles</sic>
                         <corr cert="high">ils</corr>
                     </choice> seront connus<supplied cert="high">.</supplied>“ <lb/>Vous ne nous
-                    avez pas dégagé<supplied cert="high">s</supplied> de notre parole encore. Ce<lb/>pendant je vois, et avec peine, que cette grande nouvelle
+                    avez pas dégagé<supplied cert="high">s</supplied> de notre parole encore. Ce<lb break="no"/>pendant je vois, et avec peine, que cette grande nouvelle
                         <lb/>qui<supplied cert="high">,</supplied> ça me semble<supplied cert="high">,</supplied> auroit dû être annoncé<supplied cert="high">e</supplied> par
-                    les jour<lb/>naux et de la manière la plus positive, est répandue
-                    <lb/>ici comme un bruit vague. On dit, en fait <supplied cert="high">„</supplied>que le <persName ref="https://edition-humboldt.de/v8/H0002056">
+                    les jour<lb break="no"/>naux et de la manière la plus positive, est répandue
+                    <lb/>ici comme un bruit vague. On dit, en fait <supplied cert="high">„</supplied>que le <persName ref="https://editon-humboldt.de/H0002056">
                         <lb/>
                         <choice>
                             <abbr>C<hi rendition="#sup">te</hi>
@@ -136,7 +154,7 @@
                         </choice>
                     </persName> a trouvé 3
                     diamans
-                    ou plutôt seulement quel<lb/>que chose qui <del rendition="#s">
+                    ou plutôt seulement quel<lb break="no"/>que chose qui <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="chars"/>
                     </del> en approche.“
                     D’autres ajoutent, „il paroit qu’il a été <lb/>trompé, et qu’il n’y croit plus
@@ -149,23 +167,25 @@
                     <lb/>la découverte et qui excluent <choice>
                         <sic>toute</sic>
                         <corr cert="high">tout</corr>
-                    </choice> espace d’in<lb/>certitude. Ce n’est qu'à <choice>
+                    </choice> espace d’in<lb break="no"/>certitude. Ce n’est qu'à <choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
-                    </choice> de <persName ref="http://d-nb.info/gnd/118666878">Cancrin</persName> que j’ai <lb/>écrit
+                    </choice> de <persName ref="https://editon-humboldt.de/H0012872 http://d-nb.info/gnd/118666878">Cancrin</persName> que j’ai <lb/>écrit
                     d’ici combien la chose étoit moralement sûre, <lb/>j’ai dû le faire, parce qu'il
                     m’en parle le <lb/>premier <subst>
                         <del rendition="#s">
                             <unclear reason="covered" cert="high">sans</unclear>
                             doute</del>
                         <add place="intralinear">dans le ton</add>
-                    </subst> de la bien-<lb/>veillance qu’il a pour
+                    </subst> de la bien<g ref="#typoHyphen"/>
+                    <lb break="no"/>veillance qu’il a pour
                     Vous, mon cher Comte, <lb/>mais malheureusement aussi plein de doute<supplied cert="high">s</supplied> sur <lb/>la sincérité des <unclear reason="illegible" cert="low">
-                        <ref xml:id="b38202aa-e472-4084-8202-aae472408420" corresp="#a929b860-dbc6-4b7d-a9b8-60dbc62b7d81">precashiki</ref>
-                        <note xml:id="a929b860-dbc6-4b7d-a9b8-60dbc62b7d81" corresp="#b38202aa-e472-4084-8202-aae472408420">Humboldt verwendet hier möglicherweise das
+                        <ref xml:id="fff30895-7b52-436f-b308-957b52b36f85" corresp="#d8ebb02f-c46a-4316-abb0-2fc46ab31690">precashiki</ref>
+                        <note xml:id="d8ebb02f-c46a-4316-abb0-2fc46ab31690" corresp="#fff30895-7b52-436f-b308-957b52b36f85">Humboldt verwendet hier möglicherweise das
                                 Wort Prokazniki (проказники – Schelme, Bösewichter) als ironische
                                 Bezeichnung für sich und seine Reisebegleiter. </note>
-                    </unclear> ... Une annonce fran-<lb/>che et positive dans les journaux „<choice>
+                    </unclear> ... Une annonce fran<g ref="#typoHyphen"/>
+                    <lb break="no"/>che et positive dans les journaux „<choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice> le <choice>
@@ -183,19 +203,19 @@
                     voir
                     ébruiter la découverte d’une <lb/>manière désavantageuse.
                     Vous voyez combien je tiens <lb/>à Vos intérêts et comment<supplied cert="high">,</supplied> depuis Votre départ de <lb/>
-                    <placeName ref="https://www.geonames.org/520494">Nishney</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0001688 https://www.geonames.org/520494">Nishney</placeName>
                     <supplied cert="high">,</supplied> j’ai <choice>
                         <sic>feuillé</sic>
                         <corr cert="high">feuilleté</corr>
                     </choice>
                     toutes
                     les gazettes avec <lb/>la plus vive impatience. Comblés des
-                    politesses des <lb/>habitans d’ici <ref xml:id="c49fc7bc-78de-4fab-9fc7-bc78de7fab37" corresp="#dda2c323-eb92-489e-a2c3-23eb92289e67">nous partons demain lundi dans la <lb/>soirée</ref>
-                    <note xml:id="dda2c323-eb92-489e-a2c3-23eb92289e67" corresp="#c49fc7bc-78de-4fab-9fc7-bc78de7fab37">Im Brief an <persName ref="http://d-nb.info/gnd/11635772X">Graf
+                    politesses des <lb/>habitans d’ici <ref xml:id="bae66b48-0c87-4f9a-a66b-480c875f9abb" corresp="#ad255248-f4a9-4358-a552-48f4a92358da">nous partons demain lundi dans la <lb/>soirée</ref>
+                    <note xml:id="ad255248-f4a9-4358-a552-48f4a92358da" corresp="#bae66b48-0c87-4f9a-a66b-480c875f9abb">Im Brief an <persName ref="https://editon-humboldt.de/H0013291 http://d-nb.info/gnd/11635772X">Graf
                                 Ferdinand von Galen</persName> nannte Humboldt als Zeitpunkt der
-                            Abreise aus <placeName ref="https://www.geonames.org/524901">Moskau</placeName> den <date calendar="#gregorian" when="1829-11-09">9. November 1829</date> um 8
-                            Uhr morgens (<bibl corresp="https://edition-humboldt.de/v8/K7T6THCG">Humboldt
-                            2009a</bibl>, 207, Nr. 70); vgl. ERST, Bl. <ref target="H0016785/#71v">71v</ref>.</note>
+                            Abreise aus <placeName ref="https://editon-humboldt.de/H0009006 https://www.geonames.org/524901">Moskau</placeName> den <date calendar="#gregorian" when="1829-11-09">9. November 1829</date> um 8
+                            Uhr morgens (<bibl corresp="https://edition-humboldt.de/K7T6THCG">Humboldt
+                            2009a</bibl>, 207, Nr. 70); vgl. ERST, Bl. <ref target="https://edition-humboldt.de/H0016785/71v">71v</ref>.</note>
                     <hi rendition="#sup">28 <choice>
                             <abbr>Oct</abbr>
                             <expan>Octobre</expan>
@@ -206,12 +226,12 @@
                         </choice>
                     </hi>
                     <supplied cert="high">.</supplied> Daignez offrir l’hommage de
-                    mon <lb/>admiration à l’aimable <persName ref="https://edition-humboldt.de/v8/H0002057">Comtesse</persName>, et
+                    mon <lb/>admiration à l’aimable <persName ref="https://editon-humboldt.de/H0002057">Comtesse</persName>, et
                     saluez bien <lb/>cordialement l’excellent <choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/137520409">Göthe</persName>. <lb/>
+                    <persName ref="https://editon-humboldt.de/H0018332 http://d-nb.info/137520409">Göthe</persName>. <lb/>
                 </p>
 				<closer>
                     <signed>A<subst>
@@ -219,7 +239,7 @@
                             <add place="intralinear">de</add>
                         </subst> Humboldt</signed>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/524901">Moscou</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0009006 https://www.geonames.org/524901">Moscou</placeName>
                         <lb/>ce <hi rendition="#sup">27 <choice>
                             <abbr>Oct</abbr>
                             <expan>Octobre</expan>
@@ -235,9 +255,9 @@
                     <pb n="6v"/>
                     <address>
                         <addrLine>à Monsieur, </addrLine>
-                        <addrLine>Monsieur <persName ref="https://edition-humboldt.de/v8/H0002056">le Comte de
+                        <addrLine>Monsieur <persName ref="https://editon-humboldt.de/H0002056">le Comte de
                             Polier</persName>,</addrLine>
-                        <addrLine>Chambellan de <persName ref="http://d-nb.info/gnd/118588079">
+                        <addrLine>Chambellan de <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">
                                 <choice>
                                     <abbr>S.</abbr>
                                     <expan>Sa</expan>
@@ -249,10 +269,10 @@
                                 </choice> l’</persName>
                         </addrLine>
                         <addrLine>
-                            <persName ref="http://d-nb.info/gnd/118588079">Empereur</persName> ect ect</addrLine>
+                            <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Empereur</persName> ect ect</addrLine>
                         <addrLine>à</addrLine>
                         <addrLine>
-                            <placeName ref="https://www.geonames.org/498817">
+                            <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                                 <choice>
                                     <abbr>St</abbr>
                                     <expan>Saint</expan>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002241">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,54 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
+                    1833?, hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002241">https://edition-humboldt.de/v8/H0002241</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002241</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002241</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002241.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin],
-                    1833?. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002241</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 819 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 12,10 cm , B: 10,00 cm</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1833-01-01" notAfter="1833-12-31" cert="low"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -71,19 +91,19 @@
                 <p>
                     <pb n="1r"/>Ich theile Ihnen gern<supplied cert="high">,</supplied>
                     <lb/>mein theurer Meyen, mit, <lb/>was ich in Zahlen von <lb/>
-                    <persName ref="http://d-nb.info/gnd/116077468">Pentlands</persName> Beobachtungen<lb/>
+                    <persName ref="https://editon-humboldt.de/H0001850 http://d-nb.info/gnd/116077468">Pentlands</persName> Beobachtungen<lb/>
                     <choice>
                         <sic>mit</sic>
                         <corr type="deleted"/>
-                    </choice>, doch unter der Bedin<lb/>gung dass Sie ihn <hi rendition="#u">lobend</hi>
-                    <lb/>citiren. Ich lege <persName ref="http://d-nb.info/gnd/118847767">Arago</persName>’s <lb/>Auszug
-                    bei. Von Carten <lb/>von <ref xml:id="e49e604a-4b47-4e30-9e60-4a4b47be30b6" corresp="#aeb8a340-ce85-4176-b8a3-40ce85a17668">
-                            <persName ref="http://d-nb.info/gnd/116077468">Pentland</persName>
+                    </choice>, doch unter der Bedin<lb break="no"/>gung dass Sie ihn <hi rendition="#u">lobend</hi>
+                    <lb/>citiren. Ich lege <persName ref="https://editon-humboldt.de/H0012670 http://d-nb.info/gnd/118847767">Arago</persName>’s <lb/>Auszug
+                    bei. Von Carten <lb/>von <ref xml:id="cd5a9454-ab95-4540-9a94-54ab9555407a" corresp="#ac4605a8-e7d3-4f6d-8605-a8e7d3cf6da6">
+                            <persName ref="https://editon-humboldt.de/H0001850 http://d-nb.info/gnd/116077468">Pentland</persName>
                     </ref>
-                    <note xml:id="aeb8a340-ce85-4176-b8a3-40ce85a17668" corresp="#e49e604a-4b47-4e30-9e60-4a4b47be30b6">Im Berliner Nachlass Alexander von Humboldts
-                            finden sich zahlreiche Briefe und Dokumente von <persName ref="http://d-nb.info/gnd/116077468">Pentland</persName>, u. a. eine <ref target="http://kalliope-verbund.info/DE-611-HS-1034804">geologische
+                    <note xml:id="ac4605a8-e7d3-4f6d-8605-a8e7d3cf6da6" corresp="#cd5a9454-ab95-4540-9a94-54ab9555407a">Im Berliner Nachlass Alexander von Humboldts
+                            finden sich zahlreiche Briefe und Dokumente von <persName ref="https://editon-humboldt.de/H0001850 http://d-nb.info/gnd/116077468">Pentland</persName>, u. a. eine <ref target="http://kalliope-verbund.info/DE-611-HS-1034804">geologische
                                 Skizze</ref>.</note> ja selbst von <lb/>Angaben<supplied cert="high">,</supplied> die die so
-                        ver<lb/>schieden gezeichneten <lb/>Contouren der <placeName ref="https://www.geonames.org/3927364">Laguna <lb/>
+                        ver<lb break="no"/>schieden gezeichneten <lb/>Contouren der <placeName ref="https://editon-humboldt.de/H0009410 https://www.geonames.org/3927364">Laguna <lb/>
                         <choice>
                             <abbr>v.</abbr>
                             <expan>von</expan>
@@ -92,7 +112,7 @@
                     <choice>
                         <abbr>Südamerik.</abbr>
                         <expan>Südamerikanische</expan>
-                    </choice> Schneegrenze <lb/>in den <ref xml:id="bc7e8748-750e-4513-be87-48750e5513ee" corresp="#b7d5e121-82ad-44c9-95e1-2182ade4c9bd">
+                    </choice> Schneegrenze <lb/>in den <ref xml:id="fd6f7156-9a5d-4b21-af71-569a5d4b21fd" corresp="#eb34658f-1756-496e-b465-8f1756596e6e">
                             <hi rendition="#u">
                                 <choice>
                                     <abbr>Fragm</abbr>
@@ -103,32 +123,32 @@
                                 </choice>
                         </hi>
                     </ref>
-                    <note xml:id="b7d5e121-82ad-44c9-95e1-2182ade4c9bd" corresp="#bc7e8748-750e-4513-be87-48750e5513ee">Gemeint ist vermutlich <bibl corresp="https://edition-humboldt.de/v8/2HSW6UG4">Humboldt 1831</bibl>, II, 547ff.
+                    <note xml:id="eb34658f-1756-496e-b465-8f1756596e6e" corresp="#fd6f7156-9a5d-4b21-af71-569a5d4b21fd">Gemeint ist vermutlich <bibl corresp="https://edition-humboldt.de/2HSW6UG4">Humboldt 1831</bibl>, II, 547ff.
                         </note>
-                    <lb/>entwikkelt. <persName ref="http://d-nb.info/gnd/116077468">Pentlands</persName>
+                    <lb/>entwikkelt. <persName ref="https://editon-humboldt.de/H0001850 http://d-nb.info/gnd/116077468">Pentlands</persName>
                     <choice>
                         <abbr>astr</abbr>
                         <expan>astronomische</expan>
                     </choice>
-                    <lb/>Bestimmungen finden Sie <lb/>in der <ref xml:id="ecb34a49-f7cf-4c23-b34a-49f7cfec235f" corresp="#d8c8e6e6-8780-4cfb-88e6-e687807cfb38">Hertha</ref>
-                    <note xml:id="d8c8e6e6-8780-4cfb-88e6-e687807cfb38" corresp="#ecb34a49-f7cf-4c23-b34a-49f7cfec235f">Vgl. <bibl corresp="https://edition-humboldt.de/v8/SX42NBC7">Humboldt 1829</bibl>
+                    <lb/>Bestimmungen finden Sie <lb/>in der <ref xml:id="d9d2ca23-272b-4c03-92ca-23272b0c03ac" corresp="#cf0b14bc-0292-4cf6-8b14-bc02922cf671">Hertha</ref>
+                    <note xml:id="cf0b14bc-0292-4cf6-8b14-bc02922cf671" corresp="#d9d2ca23-272b-4c03-92ca-23272b0c03ac">Vgl. <bibl corresp="https://edition-humboldt.de/SX42NBC7">Humboldt 1829</bibl>
                         </note>, aber für Sie <lb/>
                     <pb n="1v"/> von wenig Interesse. Ich <lb/>lege Ihnen auch einiges <lb/>über
-                        <placeName ref="https://www.geonames.org/3947322">Arequipa</placeName> und <lb/>den <placeName ref="https://www.geonames.org/3934830">Vulcan</placeName> von <choice>
+                        <placeName ref="https://editon-humboldt.de/H0002539 https://www.geonames.org/3947322">Arequipa</placeName> und <lb/>den <placeName ref="https://editon-humboldt.de/H0008890 https://www.geonames.org/3934830">Vulcan</placeName> von <choice>
                         <abbr>Mr</abbr>
                         <expan>Mister</expan>
                     </choice>
-                    <lb/>de <ref xml:id="f6965d7d-4ed2-47d7-965d-7d4ed2c7d7ea" corresp="#cbfebf1b-4543-4423-bebf-1b45437423b6">
-                            <persName ref="https://edition-humboldt.de/v8/H0014260">Moges</persName>
+                    <lb/>de <ref xml:id="d34f071a-d7d5-43aa-8f07-1ad7d513aa7d" corresp="#cc76ef22-c267-4f24-b6ef-22c2675f241c">
+                            <persName ref="https://editon-humboldt.de/H0014260">Moges</persName>
                     </ref>
-                    <note xml:id="cbfebf1b-4543-4423-bebf-1b45437423b6" corresp="#f6965d7d-4ed2-47d7-965d-7d4ed2c7d7ea">Die hier erwähnte Mitteilung von <persName ref="https://edition-humboldt.de/v8/H0014260">Moges</persName> zur Höhe des <placeName ref="https://www.geonames.org/3934830">Vulkans von Arequipa</placeName> befindet sich heute
+                    <note xml:id="cc76ef22-c267-4f24-b6ef-22c2675f241c" corresp="#d34f071a-d7d5-43aa-8f07-1ad7d513aa7d">Die hier erwähnte Mitteilung von <persName ref="https://editon-humboldt.de/H0014260">Moges</persName> zur Höhe des <placeName ref="https://editon-humboldt.de/H0008890 https://www.geonames.org/3934830">Vulkans von Arequipa</placeName> befindet sich heute
                             im Krakauer Nachlass zusammen mit Briefen von Moges und anderen Notizen
                             in einem <ref target="http://kalliope-verbund.info/DE-611-HS-2991843">Umschlag mit der Aufschrift <quote>Volcan d’Arequipa</quote>
                         </ref>.
                             Die Materialien waren offenbar für die weitere Ausarbeitung von
-                            Humboldts großem Reiseatlas (<bibl corresp="https://edition-humboldt.de/v8/RKBBPG4A">Humboldt 1814–1834</bibl>) geplant. Später erwähnt Humboldt Moges
-                            auch im Kosmos (<bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt
-                                1845–1862</bibl>, IV, 528–529).</note> bei. Auf <lb/>die von mir dabei geschrie<lb/>benen Zahlen (<choice>
+                            Humboldts großem Reiseatlas (<bibl corresp="https://edition-humboldt.de/RKBBPG4A">Humboldt 1814–1834</bibl>) geplant. Später erwähnt Humboldt Moges
+                            auch im Kosmos (<bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt
+                                1845–1862</bibl>, IV, 528–529).</note> bei. Auf <lb/>die von mir dabei geschrie<lb break="no"/>benen Zahlen (<choice>
                         <abbr>latit.</abbr>
                         <expan>latitudo</expan>
                     </choice> et <lb/>
@@ -136,13 +156,13 @@
                         <abbr>long</abbr>
                         <expan>longitudo</expan>
                     </choice>) rechnen Sie wenig<supplied cert="high">.</supplied>
-                    <lb/>In Ihrem Briefe <lb/>steht <ref xml:id="d0f98a4e-a711-4df5-b98a-4ea7117df5a6" corresp="#a6b62e4d-e0a0-41fc-b62e-4de0a061fce4">Wendtsche</ref>
-                    <note xml:id="a6b62e4d-e0a0-41fc-b62e-4de0a061fce4" corresp="#d0f98a4e-a711-4df5-b98a-4ea7117df5a6">Die Wendtsche Gegenströmung (benannt nach
-                                <persName ref="http://d-nb.info/gnd/128387432">Johann Wilhelm Wendt</persName>),
-                            beobachtet während der 3. Weltumsegelung, wird erwähnt in <bibl corresp="https://edition-humboldt.de/v8/7BETSW9C">Meyen 1834–1835</bibl>.</note>
+                    <lb/>In Ihrem Briefe <lb/>steht <ref xml:id="e5960554-451f-497a-9605-54451fa97a68" corresp="#e3af16f8-297f-4b0c-af16-f8297fdb0cdb">Wendtsche</ref>
+                    <note xml:id="e3af16f8-297f-4b0c-af16-f8297fdb0cdb" corresp="#e5960554-451f-497a-9605-54451fa97a68">Die Wendtsche Gegenströmung (benannt nach
+                                <persName ref="https://editon-humboldt.de/H0006321 http://d-nb.info/gnd/128387432">Johann Wilhelm Wendt</persName>),
+                            beobachtet während der 3. Weltumsegelung, wird erwähnt in <bibl corresp="https://edition-humboldt.de/7BETSW9C">Meyen 1834–1835</bibl>.</note>
                     <hi rendition="#u">Gegen</hi>
-                    <lb/>ströhmung <hi rendition="#u">nördlich</hi>
-                    <lb/>vom <placeName ref="https://edition-humboldt.de/v8/H0002500">
+                    <lb break="no"/>ströhmung <hi rendition="#u">nördlich</hi>
+                    <lb/>vom <placeName ref="https://editon-humboldt.de/H0002500">
                         <choice>
                             <abbr>Aeq.</abbr>
                             <expan>Aequator</expan>
@@ -150,9 +170,9 @@
                     </placeName>. Ich <lb/>glaube Sie hatten <lb/>die <choice>
                         <abbr>Ströhm.</abbr>
                         <expan>Ströhmung</expan>
-                    </choice> gegen <lb/>West wie <persName ref="http://d-nb.info/gnd/117663476">Duperrey</persName>
+                    </choice> gegen <lb/>West wie <persName ref="https://editon-humboldt.de/H0012442 http://d-nb.info/gnd/117663476">Duperrey</persName>
                     <lb/>auch <hi rendition="#u">südlich</hi> vom <lb/>
-                    <placeName ref="https://edition-humboldt.de/v8/H0002500">
+                    <placeName ref="https://editon-humboldt.de/H0002500">
                         <choice>
                             <abbr>Aeq.</abbr>
                             <expan>Aequator</expan>
@@ -164,7 +184,7 @@
                     dass Seefahrende <lb/>Nazionen (<choice>
                         <abbr>Engl.</abbr>
                         <expan>Engländer</expan>
-                    </choice> und <lb/>Franzosen) einen deutschen <lb/>Namen in ihrem Eigen<lb/>sinne je nachsprechen<supplied cert="high">.</supplied>
+                    </choice> und <lb/>Franzosen) einen deutschen <lb/>Namen in ihrem Eigen<lb break="no"/>sinne je nachsprechen<supplied cert="high">.</supplied>
                 </p>
                 <closer>
                     <dateline> Mittwochs. </dateline>
@@ -176,16 +196,16 @@
                 <p>Die Auszüge im <lb/>
                     <hi rendition="#u">Tems</hi>
                     <supplied cert="high">,</supplied> obgleich von <lb/>
-                    <ref xml:id="e8e56543-dae5-42f2-a565-43dae5e2f2bf" corresp="#cb58fdd8-7e41-4b04-98fd-d87e41cb04aa">
-                            <persName ref="http://d-nb.info/gnd/117597074">Roulin</persName>
+                    <ref xml:id="f9394816-9ac7-4e37-b948-169ac77e3714" corresp="#c85ab2a9-63b4-4e72-9ab2-a963b49e721f">
+                            <persName ref="https://editon-humboldt.de/H0001095 http://d-nb.info/gnd/117597074">Roulin</persName>
                     </ref>
-                    <note xml:id="cb58fdd8-7e41-4b04-98fd-d87e41cb04aa" corresp="#e8e56543-dae5-42f2-a565-43dae5e2f2bf">Mit <persName ref="http://d-nb.info/gnd/117597074">Roulin</persName>
-                            korrespondierte Humboldt zwischen 1830–1843 (6 Briefe belegt).</note>, sind oft <lb/>falsch, aber das Memoire <lb/>war ja von <persName ref="http://d-nb.info/gnd/118690426">Geoffroy</persName>
+                    <note xml:id="c85ab2a9-63b4-4e72-9ab2-a963b49e721f" corresp="#f9394816-9ac7-4e37-b948-169ac77e3714">Mit <persName ref="https://editon-humboldt.de/H0001095 http://d-nb.info/gnd/117597074">Roulin</persName>
+                            korrespondierte Humboldt zwischen 1830–1843 (6 Briefe belegt).</note>, sind oft <lb/>falsch, aber das Memoire <lb/>war ja von <persName ref="https://editon-humboldt.de/H0013410 http://d-nb.info/gnd/118690426">Geoffroy</persName>
                     <supplied cert="high">,</supplied>
-                    <lb/>nicht von <ref xml:id="ad4f7898-c20a-49aa-8f78-98c20a59aa41" corresp="#d4f89a71-cd73-424e-b89a-71cd73024e8d">
-                            <persName ref="http://d-nb.info/gnd/117616249">Tessan</persName>
+                    <lb/>nicht von <ref xml:id="eaef1cb7-f922-48f4-af1c-b7f922f8f420" corresp="#a690dc25-8226-4608-90dc-25822666086b">
+                            <persName ref="https://editon-humboldt.de/H0003900 http://d-nb.info/gnd/117616249">Tessan</persName>
                     </ref>
-                    <note xml:id="d4f89a71-cd73-424e-b89a-71cd73024e8d" corresp="#ad4f7898-c20a-49aa-8f78-98c20a59aa41">Mit <persName ref="http://d-nb.info/gnd/117616249">Tessan</persName>
+                    <note xml:id="a690dc25-8226-4608-90dc-25822666086b" corresp="#eaef1cb7-f922-48f4-af1c-b7f922f8f420">Mit <persName ref="https://editon-humboldt.de/H0003900 http://d-nb.info/gnd/117616249">Tessan</persName>
                             korrespondierte Humboldt mindestens einmal, wie ein <ref target="http://kalliope-verbund.info/DE-611-HS-1316545">Brief von
                                 1845</ref> aus dem Berliner Nachlass belegt. Dort liegen ebenfalls
                             vier meteorologische und hydrographische Tabellen, offenbar von Tessan

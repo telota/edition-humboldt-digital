@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017972">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Timašev, Egor Nikolaevič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Timašev, Egor Nikolaevič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017972.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017972.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017972.xml">
-                    <p>Timašev, Egor Nikolaevič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017972.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0017972">
+                <person>
                     <persName type="reg">
                         <surname>Timašev</surname> <forename>Egor Nikolaevič</forename>
                     </persName>
@@ -50,7 +55,7 @@
                     <death/>
                     <note>russischer Generalmajor, Kommandeur der Orenburger Kosaken; Ende September
                         1829 Humboldts Gastgeber in Orenburg
-                        <!-- Rose 1837/1842, II, 197; vgl. Hof- und Staats-Schematismus des österreichischen Kaiserthums, Th. I, Wien 1837, 38 -->
+                        
                     </note>
                 </person>
             </listPerson>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018441">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Golowyn</title>
             </titleStmt>
+            <editionStmt>
+                <p>Golowyn [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018441.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,32 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018441.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018441.xml">
-                    <p>Golowyn [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018441.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018441">
+                <place>
                     <placeName type="reg">Golowyn</placeName>
                     <placeName type="alt">Galowin Hutor</placeName>
                     <placeName type="alt">Golovin Chutor</placeName>
                     <placeName type="alt">Golowin-chutor</placeName>
-                    <note>histor. Meierhof auf dem  Weg von <placeName key="H0017343">Dubovka</placeName> zum
-                            <placeName key="H0005636">Elton-See</placeName>; erste Station ca. 30 Werst östlich von
-                            <placeName key="H0018461">Rakhinka</placeName>, laut Humboldt 37 Werst
-                        östlich der <placeName key="H0007984">Wolga</placeName>
+                    <note>histor. Meierhof auf dem  Weg von <placeName ref="https://editon-humboldt.de/H0017343 https://www.geonames.org/564654">Dubovka</placeName> zum
+                            <placeName ref="https://editon-humboldt.de/H0005636 https://www.geonames.org/563493">Elton-See</placeName>; erste Station ca. 30 Werst östlich von
+                            <placeName ref="https://editon-humboldt.de/H0018461 https://www.geonames.org/503128">Rakhinka</placeName>, laut Humboldt 37 Werst
+                        östlich der <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName>
                     </note>
-                        <!-- vgl. Central-Asien II, 414, Nr 63; vgl. RST I, Bl. 103r; <bibl sameAs="zotero-667230-BH8W3QPH">Rose 1837/1842</bibl>,
-                            <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/277">II, 259</ref>; Bl. <ref
-                            target="H0005449/#103r">103r</ref>-->
+                        
                 </place>
             </listPlace>
         </body>

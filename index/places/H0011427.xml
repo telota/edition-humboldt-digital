@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011427">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Lhasa</title>
             </titleStmt>
+            <editionStmt>
+                <p>Lhasa [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011427.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,32 +20,33 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011427.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011427.xml">
-                    <p>Lhasa [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011427.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0011427">
-                    <idno type="uri">http://www.geonames.org/1280737</idno>
-                    <placeName type="reg">Lhasa</placeName>
-                    <placeName type="alt">H'lassa</placeName>
-                    <placeName type="alt">Hlassa</placeName>
-                    <placeName type="alt">Lassa</placeName>
-                    <placeName type="alt">Klhasa</placeName>
-                    <note>tibetische Hauptstadt (Tibet/China)</note>
-                    <linkGrp>
-                        <ptr target="30#1" type="letter"/>
-                        <ptr target="32#1" type="letter"/>
-                    </linkGrp>
-                </place>
+                <place>
+            <idno type="uri">http://www.geonames.org/1280737</idno>
+            <placeName type="reg">Lhasa</placeName>
+            <placeName type="alt">H'lassa</placeName>
+            <placeName type="alt">Hlassa</placeName>
+            <placeName type="alt">Lassa</placeName>
+            <placeName type="alt">Klhasa</placeName>
+            <note>tibetische Hauptstadt (Tibet/China)</note>
+            <linkGrp>
+                <ptr target="30#1" type="letter"/>
+                <ptr target="32#1" type="letter"/>
+            </linkGrp>
+        </place>
             </listPlace>
         </body>
     </text>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0009538">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Čusovaja</title>
             </titleStmt>
+            <editionStmt>
+                <p>Čusovaja [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0009538.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0009538.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0009538.xml">
-                    <p>Čusovaja [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009538.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0009538">
+                <place>
                     <idno type="uri">https://www.geonames.org/8070292</idno>
                     <placeName type="reg">Čusovaja</placeName>
                     <placeName type="alt">Чусовая</placeName>
@@ -37,13 +42,13 @@
                     <placeName type="alt">Chusovaja</placeName>
                     <placeName type="alt">Chusovaya</placeName>
                     <placeName type="alt">Tschusowaja</placeName>
-                    <!-- Karte von Ural, 1837 -->
+                    
                     <placeName type="alt">Tschussuwaja</placeName>
                     <placeName type="alt">Tschussuwaya</placeName>
-                    <!-- RST I, 51r -->
+                    
                     <placeName type="alt">Tschuswa</placeName>
                     <placeName type="alt">Чусовая</placeName>
-                    <note>Nebenfluss der <placeName key="H0000337">Kama</placeName> im <placeName key="H0020291">Mittleren Ural</placeName> (Russland)</note>
+                    <note>Nebenfluss der <placeName ref="https://editon-humboldt.de/H0000337 https://www.geonames.org/553875">Kama</placeName> im <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren Ural</placeName> (Russland)</note>
                 </place>
             </listPlace>
         </body>

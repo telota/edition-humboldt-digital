@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016483">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1. Januar
+               1858] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016483">https://edition-humboldt.de/v8/H0016483</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016483</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016483</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016483.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1. Januar
-               1858] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016483</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">233</idno>
+                     <idno type="shelfmark">421, Bl. 429r</idno>, 430v </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1858-01-01">1858-01-01</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Neujahr 1858 war ein Freitag</note>
          </correspDesc>
@@ -72,48 +89,49 @@
                         <expan>Seiner</expan>
                      </choice> Wohlgeboren </addrLine>
                   <addrLine>Herrn Professor D<hi rendition="#sup">r</hi>
-                     <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName>
+                     <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>
                         </addrLine>
-                  <addrLine>mit<ref xml:id="bdd9e4a6-adfb-4f5e-99e4-a6adfbaf5ead" corresp="#eb99e189-1621-41f0-99e1-89162111f0b9"> 3 Bänden <placeName ref="https://www.geonames.org/1642673">Java</placeName>
+                  <addrLine>mit<ref xml:id="bcf3b130-d211-4ce6-b3b1-30d2111ce69a" corresp="#c0b759e2-a941-4d75-b759-e2a9415d754e"> 3 Bänden <placeName ref="https://editon-humboldt.de/H0006568 https://www.geonames.org/1642673">Java</placeName>
                             </ref>
-                            <note xml:id="eb99e189-1621-41f0-99e1-89162111f0b9" corresp="#bdd9e4a6-adfb-4f5e-99e4-a6adfbaf5ead">
-                           <bibl corresp="https://edition-humboldt.de/v8/3XVWMRAC"> Junghuhn 1854</bibl>
+                            <note xml:id="c0b759e2-a941-4d75-b759-e2a9415d754e" corresp="#bcf3b130-d211-4ce6-b3b1-30d2111ce69a">
+                           <bibl corresp="https://edition-humboldt.de/3XVWMRAC"> Junghuhn 1854</bibl>
                         </note>
                         </addrLine>
                   <addrLine>AlHumboldt</addrLine>
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Ihre herzlichen Wünsche und die Nachricht von <lb/>den wunderbaren <ref xml:id="b06d9691-3668-43f8-ad96-913668f3f87b" corresp="#ac1f0bb9-7b56-40cb-9f0b-b97b5670cbd5">magnetischen Meteorkugeln</ref>
-                    <note xml:id="ac1f0bb9-7b56-40cb-9f0b-b97b5670cbd5" corresp="#b06d9691-3668-43f8-ad96-913668f3f87b">
-                     <bibl corresp="https://edition-humboldt.de/v8/3BBE6L87">Ehrenberg 1858</bibl>
-                  </note> ver-<lb/>pflichten mich zu freundlichstem
-               Danke: aber <lb/>leider! weiss ich in meinem eigenen Buche <lb/>(<ref xml:id="d1c86716-fb34-4e29-8867-16fb34ce29ec" corresp="#afebd89a-e7b5-4285-abd8-9ae7b5c2856b">
+            <p>Ihre herzlichen Wünsche und die Nachricht von <lb/>den wunderbaren <ref xml:id="f71ca17d-ac69-4c69-9ca1-7dac69ec6939" corresp="#adebf35e-6de9-4a26-abf3-5e6de92a26cb">magnetischen Meteorkugeln</ref>
+                    <note xml:id="adebf35e-6de9-4a26-abf3-5e6de92a26cb" corresp="#f71ca17d-ac69-4c69-9ca1-7dac69ec6939">
+                     <bibl corresp="https://edition-humboldt.de/3BBE6L87">Ehrenberg 1858</bibl>
+                  </note> ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>pflichten mich zu freundlichstem
+               Danke: aber <lb/>leider! weiss ich in meinem eigenen Buche <lb/>(<ref xml:id="ea0bfc64-f553-4c06-8bfc-64f553dc06c4" corresp="#d49cd73b-38c8-4022-9cd7-3b38c89022fa">
                         <choice>
                         <abbr>B</abbr>
                         <expan>Band</expan>
                      </choice> IV des Kosmos</ref>
-                    <note xml:id="afebd89a-e7b5-4285-abd8-9ae7b5c2856b" corresp="#d1c86716-fb34-4e29-8867-16fb34ce29ec">
-                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>, IV </note>) die von mir aus <persName ref="http://d-nb.info/gnd/100826857">Junghuhn</persName>
+                    <note xml:id="d49cd73b-38c8-4022-9cd7-3b38c89022fa" corresp="#ea0bfc64-f553-4c06-8bfc-64f553dc06c4">
+                     <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862</bibl>, IV </note>) die von mir aus <persName ref="https://editon-humboldt.de/H0004216 http://d-nb.info/gnd/100826857">Junghuhn</persName>
                <lb/>citirte Stelle nicht <choice>
                   <sic>auffinden</sic>
                   <corr>aufzufinden</corr>
                </choice>
                     <supplied cert="high">.</supplied> Alles von <lb/>
-                    <ref xml:id="bee98476-3717-4a54-a984-7637177a5459" corresp="#d7899270-7a7e-4c63-8992-707a7e6c63fb">
-                        <persName ref="http://d-nb.info/gnd/100826857">Junghuhn</persName> über Java ist in 3
+                    <ref xml:id="b8e89bbb-7406-4b76-a89b-bb74060b762e" corresp="#e37c2757-503e-4bf3-bc27-57503e2bf3f6">
+                        <persName ref="https://editon-humboldt.de/H0004216 http://d-nb.info/gnd/100826857">Junghuhn</persName> über Java ist in 3
                      Bänden</ref>
-                    <note xml:id="d7899270-7a7e-4c63-8992-707a7e6c63fb" corresp="#bee98476-3717-4a54-a984-7637177a5459">
-                     <bibl corresp="https://edition-humboldt.de/v8/3XVWMRAC"> Junghuhn 1854</bibl>
+                    <note xml:id="e37c2757-503e-4bf3-bc27-57503e2bf3f6" corresp="#b8e89bbb-7406-4b76-a89b-bb74060b762e">
+                     <bibl corresp="https://edition-humboldt.de/3XVWMRAC"> Junghuhn 1854</bibl>
                   </note> von <lb/>sehr ungleicher Dicke herausgekommen, die ich <lb/>Ihnen (der <hi rendition="#u">Privat</hi>
                <choice>
                   <abbr>Bibl.</abbr>
                   <expan>Bibliothek</expan>
-               </choice> des <persName ref="http://d-nb.info/gnd/118535994">Königs</persName> gehörig) <lb/>heute schicke.
+               </choice> des <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Königs</persName> gehörig) <lb/>heute schicke.
                Geben Sie die Bücher an <lb/>mich zurük. Empfangen Sie und Ihre theure <lb/>Familie
                den <hi rendition="#u">grossen</hi>
                <hi rendition="#u">
-                        <persName ref="https://edition-humboldt.de/v8/H0016960">Infanten</persName>
+                        <persName ref="https://editon-humboldt.de/H0016960">Infanten</persName>
                     </hi> eingerechnet
                <lb/>auch meine besten Wünsche für das böse mit <lb/>einem Freitag beginnende Jahr.</p>
             <closer rend="paragraph">

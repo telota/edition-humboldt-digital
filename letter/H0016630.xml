@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016630">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,31 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Paris, [1841|1842|1843]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016630">https://edition-humboldt.de/v8/H0016630</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016630</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016630</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016630.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Paris, [1841|1842|1843]
-            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016630</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">62</idno>
+                     <idno type="shelfmark">421, Bl. 113r-113v, 114v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                <date notBefore="1841" notAfter="1842|1843">1841|1842|1843</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: H. in Paris: Mai u. Nov. 1841, Sept. 1842 bis
                         1843</note>
@@ -78,14 +97,15 @@
             <pb n="1v"/>
                <p>Theurer Freund und Gefährte! Muss <lb/>ich doch fast glauben in Ihre <lb/>Ungnade
                durch Mittheilung der <lb/>
-                    <ref xml:id="e733a0d5-555e-4720-b3a0-d5555eb7200e" corresp="#a8643cd1-ceae-4465-a43c-d1ceae146558">
-                        <persName ref="http://d-nb.info/gnd/115780831X">Doyèrenschen</persName> Schrift</ref>
-                    <note xml:id="a8643cd1-ceae-4465-a43c-d1ceae146558" corresp="#e733a0d5-555e-4720-b3a0-d5555eb7200e">
-                     <bibl corresp="https://edition-humboldt.de/v8/UK2CG9YL">Doyere 1840</bibl>
-                  </note> gefallen zu <lb/>sein. Ich muss nur wiederholen <lb/>dass <persName>Quatrefages</persName> und <persName ref="http://d-nb.info/gnd/115780831X">Doyère</persName>
+                    <ref xml:id="e4d7752d-8b42-4b62-9775-2d8b429b622b" corresp="#aba23046-7f24-4b3c-a230-467f246b3ce2">
+                        <persName ref="https://editon-humboldt.de/H0017047 http://d-nb.info/gnd/115780831X">Doyèrenschen</persName> Schrift</ref>
+                    <note xml:id="aba23046-7f24-4b3c-a230-467f246b3ce2" corresp="#e4d7752d-8b42-4b62-9775-2d8b429b622b">
+                     <bibl corresp="https://edition-humboldt.de/UK2CG9YL">Doyere 1840</bibl>
+                  </note> gefallen zu <lb/>sein. Ich muss nur wiederholen <lb/>dass <persName ref="https://editon-humboldt.de/">Quatrefages</persName> und <persName ref="https://editon-humboldt.de/H0017047 http://d-nb.info/gnd/115780831X">Doyère</persName>
                <lb/>mir beide mit enthusiastischer <lb/>Bewunderung von Ihnen gesprochen, <lb/>dass
-               mir aber <persName>Quatrefage</persName> weit <lb/>besser als <persName ref="http://d-nb.info/gnd/115780831X">Doyère</persName> gefallen, ob-<lb/>gleich lezterer als physikalischer <lb/>Experimentator mehr gerühmt <lb/>wird. Die
-               Klage die Sie littera<lb/>risch über <persName ref="http://d-nb.info/gnd/115780831X">
+               mir aber <persName ref="https://editon-humboldt.de/">Quatrefage</persName> weit <lb/>besser als <persName ref="https://editon-humboldt.de/H0017047 http://d-nb.info/gnd/115780831X">Doyère</persName> gefallen, ob<g ref="#typoHyphen"/>
+                    <lb break="no"/>gleich lezterer als physikalischer <lb/>Experimentator mehr gerühmt <lb/>wird. Die
+               Klage die Sie littera<lb break="no"/>risch über <persName ref="https://editon-humboldt.de/H0017047 http://d-nb.info/gnd/115780831X">
                         <choice>
                      <abbr>D.</abbr>
                      <expan>Doyère</expan>
@@ -94,28 +114,28 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> ein Engländer ziehen <lb/>nie ihre National-Haut <lb/>aus. Ihre herrliche
-                  Zusammen<lb/>stellung gegen das latente <lb/>Leben <del rendition="#s">I</del> und ihr <ref xml:id="eaf60ff3-ea34-444d-b60f-f3ea34c44de0" corresp="#bbf9fa8c-fa1c-4343-b9fa-8cfa1c234379">Endresultat <lb/>
+                  Zusammen<lb break="no"/>stellung gegen das latente <lb/>Leben <del rendition="#s">I</del> und ihr <ref xml:id="d977cf72-f9f0-4803-b7cf-72f9f07803d4" corresp="#ad9382bd-b94f-49c3-9382-bdb94f79c303">Endresultat <lb/>
                         <choice>
                         <abbr>p</abbr>
                         <expan>pagina</expan>
                      </choice> 496</ref>
-                    <note xml:id="bbf9fa8c-fa1c-4343-b9fa-8cfa1c234379" corresp="#eaf60ff3-ea34-444d-b60f-f3ea34c44de0">
-                     <bibl corresp="https://edition-humboldt.de/v8/X7KZUS33">Ehrenberg 1838</bibl>
-                  </note> sind mir aller dings gegen<lb/>wärtig. „Kein Leben ohne <lb/>
+                    <note xml:id="ad9382bd-b94f-49c3-9382-bdb94f79c303" corresp="#d977cf72-f9f0-4803-b7cf-72f9f07803d4">
+                     <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>
+                  </note> sind mir aller dings gegen<lb break="no"/>wärtig. „Kein Leben ohne <lb/>
                     <choice>
                   <orig>ein</orig>
                   <reg>einen</reg>
                </choice> Rest von Organisations- <lb/>Flüssigkeit.“ Das schliesst Ihnen
                   <lb/>
-                    <persName ref="http://d-nb.info/gnd/115780831X">
+                    <persName ref="https://editon-humboldt.de/H0017047 http://d-nb.info/gnd/115780831X">
                         <choice>
                      <abbr>D.</abbr>
                      <expan>Doyère</expan>
                   </choice>
                     </persName> auch nach: aber das <lb/>Austroknungsexperiment bei 120°
-               <lb/>unter <persName ref="http://d-nb.info/gnd/100828051">Dumas<supplied cert="high">’</supplied>
+               <lb/>unter <persName ref="https://editon-humboldt.de/H0012421 http://d-nb.info/gnd/100828051">Dumas<supplied cert="high">’</supplied>
                     </persName> Augen, hat die <lb/>Lebenstenacität (ich bediene
-               <lb/>mich des Ausdruks von <persName ref="http://d-nb.info/gnd/117416959">Trevi<lb/>ranus</persName>) auf eine harte Probe <lb/>gestellt. Ich kannte das Citat
+               <lb/>mich des Ausdruks von <persName ref="https://editon-humboldt.de/H0017106 http://d-nb.info/gnd/117416959">Trevi<lb break="no"/>ranus</persName>) auf eine harte Probe <lb/>gestellt. Ich kannte das Citat
                <lb/>der <choice>
                   <abbr>Allg</abbr>
                   <expan>Allgemeinen</expan>
@@ -123,7 +143,7 @@
                <choice>
                   <abbr>Zeit.</abbr>
                   <expan>Zeitung</expan>
-               </choice> und freue <lb/>mich zu hören dass La<lb/>guera <persName ref="https://edition-humboldt.de/v8/H0016814">Rodriguez</persName> seit 1804 <lb/>
+               </choice> und freue <lb/>mich zu hören dass La<lb break="no"/>guera <persName ref="https://editon-humboldt.de/H0016814">Rodriguez</persName> seit 1804 <lb/>
                     <pb n="2r"/>alle <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> die Zähne

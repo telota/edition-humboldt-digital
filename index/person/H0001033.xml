@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001033">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Rosario Sucre, María del</title>
             </titleStmt>
+            <editionStmt>
+                <p>Rosario Sucre, María del [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001033.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001033.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001033.xml">
-                    <p>Rosario Sucre, María del [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001033.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001033">
+                <person>
                     <persName type="reg">
                         <surname>Rosario Sucre</surname>
                         <forename>María del</forename>
                     </persName>
-                    <floruit notBefore="1799" notAfter="1799"><?oxy_comment_start author="goetz" timestamp="20210716T182213+0200" comment="Internet: Stammbaum, vollst. Name: &quot;María-del-rosario De Sucre Y García  De Urbaneja; Leda: 1767-Unknown&quot;"?>um
-                        1799</floruit><?oxy_comment_end?>
+                    <floruit notBefore="1799" notAfter="1799">um
+                        1799</floruit>
                     <note>Ehefrau von Manuel de Navarrete</note>
                     <linkGrp>
                         <ptr target="16#16" type="letter"/>

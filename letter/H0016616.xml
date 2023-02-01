@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016616">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1855] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016616">https://edition-humboldt.de/v8/H0016616</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016616</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016616</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016616.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1855] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016616</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">208</idno>
+                     <idno type="shelfmark">421, Bl. 382r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1855" notAfter="1855" cert="low">1855-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: nach dem Erscheinen des Buches von Mayer 1855</note>
          </correspDesc>
@@ -65,9 +83,9 @@
             <opener>
                     <dateline>Mittwochs.</dateline>
                 </opener>
-            <p>Ein <ref xml:id="f86e924f-be87-4dd0-ae92-4fbe875dd0b6" corresp="#de0c50c3-70b4-46c4-8c50-c370b496c435">Lehrgedicht</ref>
-                    <note xml:id="de0c50c3-70b4-46c4-8c50-c370b496c435" corresp="#f86e924f-be87-4dd0-ae92-4fbe875dd0b6">
-                     <bibl corresp="https://edition-humboldt.de/v8/Y2C68NVQ">Mayer 1855</bibl>
+            <p>Ein <ref xml:id="cf1fd608-00e4-495e-9fd6-0800e4095eab" corresp="#bc32be9d-b139-4b3c-b2be-9db139ab3c3f">Lehrgedicht</ref>
+                    <note xml:id="bc32be9d-b139-4b3c-b2be-9db139ab3c3f" corresp="#cf1fd608-00e4-495e-9fd6-0800e4095eab">
+                     <bibl corresp="https://edition-humboldt.de/Y2C68NVQ">Mayer 1855</bibl>
                   </note> das vom „Nebelbild <lb/>der Trias<supplied>“</supplied> zum Bachus-Christus <lb/>
                     <choice>
                   <abbr>p</abbr>
@@ -95,13 +113,13 @@
                   <abbr>Prof.</abbr>
                   <expan>Professor</expan>
                </choice> in <lb/>
-                    <placeName ref="https://www.geonames.org/2946447">Bonn</placeName>. Der Mann hat <lb/>wie
+                    <placeName ref="https://editon-humboldt.de/H0005309 https://www.geonames.org/2946447">Bonn</placeName>. Der Mann hat <lb/>wie
                Sie aus dem Briefe <lb/>sehen noch sehr viel <lb/>Neigung künftig gröber <lb/>zu
-               werden. Ist denn <lb/>das der Schlangen- <lb/>Anatom <persName ref="http://d-nb.info/gnd/117542547">Mayer</persName>? <lb/>Wo mag er wohl <lb/>die schöne lateinische <lb/>Stelle im
+               werden. Ist denn <lb/>das der Schlangen- <lb/>Anatom <persName ref="https://editon-humboldt.de/H0017067 http://d-nb.info/gnd/117542547">Mayer</persName>? <lb/>Wo mag er wohl <lb/>die schöne lateinische <lb/>Stelle im
                Briefe her <lb/>haben?</p>
-            <p>Wenn Sie das Büch<lb/>lein schon besizen, <lb/>so schicken Sie <lb/>es mir
+            <p>Wenn Sie das Büch<lb break="no"/>lein schon besizen, <lb/>so schicken Sie <lb/>es mir
                freundlichst <lb/>bald wieder. Nach <lb/>
-                    <placeName ref="https://www.geonames.org/2940187">
+                    <placeName ref="https://editon-humboldt.de/H0007341 https://www.geonames.org/2940187">
                         <choice>
                      <abbr>Charlott.</abbr>
                      <expan>Charlottenburg</expan>

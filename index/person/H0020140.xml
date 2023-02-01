@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020140">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schomburgk, Maria</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schomburgk, Maria [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020140.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020140.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020140.xml">
-                    <p>Schomburgk, Maria [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020140.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0020140">
+                <person>
                     <persName type="reg">
                         <surname>Schomburgk</surname>
                         <forename>Maria</forename>
@@ -39,8 +44,8 @@
                     </persName>
                     <birth/>
                     <death/>
-                    <note>Ehefrau von <persName key="H0015644">Otto Alfred Schomburgk</persName>, seit 1849 in
-                            <placeName key="H0002625">Australien</placeName>
+                    <note>Ehefrau von <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto Alfred Schomburgk</persName>, seit 1849 in
+                            <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australien</placeName>
                     </note>
                 </person>
             </listPerson>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016564">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, 10. März
+               1857, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016564">https://edition-humboldt.de/v8/H0016564</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016564</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016564</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016564.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, 10. März
-               1857. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016564</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                            <idno type="shelfmark">gr. Kasten 2, Mappe 4, Nr. 24</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1011147</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1857-03-10"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -71,20 +89,22 @@
             <p>Ihr kräftiger Organismus hat, <lb/>uns zum Glück, den Feind so <lb/>entschieden
                abgewiesen, daß Sie <lb/>uns heißen können sorglos zu <lb/>seyn. Auf Ihr Geheiß ist
                man <lb/>es gern. Möchten Sie sich nur <lb/>noch etwas langweilen können <lb/>in der
-               Zeit des raschen Tempera-<lb/>turwechsels, denn die
+               Zeit des raschen Tempera<g ref="#typoHyphen"/>
+                    <lb break="no"/>turwechsels, denn die
                Medicinal <lb/>Gesetze verlangen dergleichen.</p>
             <p>Um Sie langweilen zu helfen <lb/>
                     <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00016A1100000002"/>sende ich Ihnen zweyerley und <lb/>halte
                ein drittes zurück.</p>
-            <p>Zuerst steht das vom Kayser-<lb/>lichen
+            <p>Zuerst steht das vom Kayser<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen
                National-Museum in <lb/>Innsbruck schon vom Februar <lb/>angekommene beigehende Blatt
-               <lb/>des <persName>Radetzki</persName> Albums, welches <lb/>der Vorstand mit
+               <lb/>des <persName ref="https://editon-humboldt.de/">Radetzki</persName> Albums, welches <lb/>der Vorstand mit
                der Bitte an <lb/>
                     <choice>
                   <abbr>Prof.</abbr>
                   <expan>Professor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118602640">
+               <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">
                         <choice>
                      <abbr>Heinr.</abbr>
                      <expan>Heinrich</expan>
@@ -96,14 +116,16 @@
                Linie zwischen <lb/>England und Amerika. Ich habe <lb/>es in der Akademie vorgetragen
                <lb/>und davon eine Übersicht des <lb/>Verhaltens aller bisher untersuchten
                <lb/>Tiefgründe geschlossen.</p>
-            <p>Alle Theilchen der gehobenen Erden <lb/>sind so vorherrschend <add place="superlinear">organisch</add>, daß das Anaor-<lb/>ganische kaum 1 <choice>
+            <p>Alle Theilchen der gehobenen Erden <lb/>sind so vorherrschend <add place="superlinear">organisch</add>, daß das Anaor<g ref="#typoHyphen"/>
+                    <lb break="no"/>ganische kaum 1 <choice>
                   <abbr>p</abbr>
                   <expan>pro</expan>
                </choice>
                <choice>
                   <abbr>C</abbr>
                   <expan>Cent</expan>
-               </choice> der Masse ist und <lb/>das Organische ist vorherrschend wohl er-<lb/>halten. </p>
+               </choice> der Masse ist und <lb/>das Organische ist vorherrschend wohl er<g ref="#typoHyphen"/>
+                    <lb break="no"/>halten. </p>
             <p>
                <table rows="9" cols="7">
                   <head>I <lb/>Telegraphen Plateau.</head>
@@ -192,7 +214,7 @@
                      <cell>1</cell>
                      <cell>1</cell>
                      <cell>1</cell>
-                     <cell>Quarz<lb/>sand</cell>
+                     <cell>Quarz<lb break="no"/>sand</cell>
                   </row>
                   <row>
                      <cell/>
@@ -364,7 +386,7 @@
                   <cell>-</cell>
                </row>
                <row>
-                  <cell>Quarz<lb/>sand</cell>
+                  <cell>Quarz<lb break="no"/>sand</cell>
                   <cell>11 Anorganisches</cell>
                   <cell>3</cell>
                   <cell>3</cell>
@@ -376,15 +398,19 @@
             </table>
             <pb n="2v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00016A1100000004"/>
                 <p>Die letzte Reihe in der II<hi rendition="#sup">ten</hi> Rubrik <lb/>ist
-               nicht von mir, sondern von <persName ref="http://viaf.org/viaf/43213806/">Bailey</persName>
-               <lb/>analysirt und aus 16200’ Tiefe im Kamt-<lb/>schatkischen Meere.</p>
+               nicht von mir, sondern von <persName ref="https://editon-humboldt.de/H0003036 http://viaf.org/viaf/43213806/">Bailey</persName>
+               <lb/>analysirt und aus 16200’ Tiefe im Kamt<g ref="#typoHyphen"/>
+                    <lb break="no"/>schatkischen Meere.</p>
             <p>Nirgends ist Kreidemischung <lb/>aus Polythalamien ohne Polygastern. <lb/>Überall ist
-               Mergel, die lezte Tiefe <lb/>ist offenbar wohl ein lokales Tri-<lb/>pel-Verhältnis. <name type="animal|plant" key="Polythalamien">Polythalamien</name>
+               Mergel, die lezte Tiefe <lb/>ist offenbar wohl ein lokales Tri<g ref="#typoHyphen"/>
+                    <lb break="no"/>pel-Verhältnis. <name type="animal|plant" key="Polythalamien">Polythalamien</name>
                <lb/>und <name type="animal|plant" key="Polygastren">Polygastern</name> sind die
                überwiegenden <lb/>Formen; <name type="animal|plant" key="Polycystinen">Polycystinen</name> erscheinen <lb/>in der Tiefe von 5000 Fuß an überall
-               <lb/>sehr massenhaft. Die meisten <name type="animal|plant" key="Phytolitharien">Phyto-<lb/>litharien</name> sind <name type="mineral" key="Spongolithen">Spongolithen</name>, deren For-<lb/>men den 3<hi rendition="#sup">ten</hi> oder
+               <lb/>sehr massenhaft. Die meisten <name type="animal|plant" key="Phytolitharien">Phyto<g ref="#typoHyphen"/>
+                        <lb break="no"/>litharien</name> sind <name type="mineral" key="Spongolithen">Spongolithen</name>, deren For<g ref="#typoHyphen"/>
+                    <lb break="no"/>men den 3<hi rendition="#sup">ten</hi> oder
                   4<hi rendition="#sup">ten</hi> Rang einzunehmen <lb/>pflegen.</p>
-            <p>Das was ich zurückhalte ist die <lb/>Beurtheilung des <persName ref="http://d-nb.info/gnd/118643967">Agassiz</persName> schen Werkes <lb/>welches Sie mir sandten. Davon <lb/>ein
+            <p>Das was ich zurückhalte ist die <lb/>Beurtheilung des <persName ref="https://editon-humboldt.de/H0012520 http://d-nb.info/gnd/118643967">Agassiz</persName> schen Werkes <lb/>welches Sie mir sandten. Davon <lb/>ein
                andermal. </p>
             <closer rend="paragraph">
                <salute>Gott erhalte Sie in frischem Muthe</salute>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0008887">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Mississippi</title>
             </titleStmt>
+            <editionStmt>
+                <p>Mississippi [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0008887.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,21 +20,22 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0008887.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0008887.xml">
-                    <p>Mississippi [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0008887.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0008887">
-                    <idno type="uri"><?oxy_comment_start author="lkirsten" timestamp="20180719T175606+0200" comment="Fluss oder Staat?"?>https://www.geonames.org/7932547</idno>
+                <place>
+                    <idno type="uri">https://www.geonames.org/7932547</idno>
                     <placeName type="reg">Mississippi</placeName>
                     <linkGrp>
                         <ptr target="32#33" type="letter"/>
@@ -40,7 +45,7 @@
                         <ptr target="16#143" type="letter"/>
                         <ptr target="16#157" type="letter"/>
                         <ptr target="25#19" type="page"/>
-                    </linkGrp><?oxy_comment_end?>
+                    </linkGrp>
                 </place>
             </listPlace>
         </body>

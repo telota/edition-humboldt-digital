@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019910">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kokšaisk</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kokšaisk [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019910.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019910.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019910.xml">
-                    <p>Kokšaisk [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019910.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019910">
+                <place>
                     <idno type="uri">https://www.geonames.org/546587</idno>
                     <placeName type="reg">Kokšaisk</placeName>
                     <placeName type="alt">Кокшайск</placeName>
                     <placeName type="alt">Kokshaysk</placeName>
                     <placeName type="alt">Kokshayskoye</placeName>
                     <placeName type="alt">Kokschaisk</placeName>
-                    <!-- RST, 6v; 59r -->
-                    <note>Ort an der <placeName key="H0007984">Wolga</placeName> nordwestlich von <placeName key="H0000396">Kasan</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    
+                    <note>Ort an der <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> nordwestlich von <placeName ref="https://editon-humboldt.de/H0000396 https://www.geonames.org/551487">Kasan</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

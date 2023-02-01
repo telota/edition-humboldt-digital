@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018692">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Krasnojarsk (Nikolajewsk)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Krasnojarsk (Nikolajewsk) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018692.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018692.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018692.xml">
-                    <p>Krasnojarsk (Nikolajewsk) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018692.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018692">
+                <place>
                     <idno type="uri">https://www.geonames.org/1520061</idno>
                     <placeName type="reg">Krasnojarsk (Nikolajewsk)</placeName>
                     <placeName type="alt">Предгорное</placeName>
@@ -37,7 +42,7 @@
                     <placeName type="alt">Krasnoyarskoye</placeName>
                     <placeName type="alt">Predgornoye</placeName>
                     <placeName type="alt">Krasnoiarsk</placeName>
-                    <note>hist. Kosakenposten am <placeName key="H0006725">Irtysch</placeName> zwischen <placeName key="H0010196">Semipalatinsk</placeName> und <placeName key="H0009692">Ust-Kamenogorsk</placeName>, heute Predgornoye (Kasachstan) </note>
+                    <note>hist. Kosakenposten am <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtysch</placeName> zwischen <placeName ref="https://editon-humboldt.de/H0010196 https://www.geonames.org/1519422">Semipalatinsk</placeName> und <placeName ref="https://editon-humboldt.de/H0009692 https://www.geonames.org/1520316">Ust-Kamenogorsk</placeName>, heute Predgornoye (Kasachstan) </note>
                     <linkGrp>
                         <ptr target="30#50" type="letter"/>
                         <ptr target="30#55" type="letter"/>

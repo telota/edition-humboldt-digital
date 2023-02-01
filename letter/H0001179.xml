@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001179">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,54 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonnabend
+                    [wohl um 1828], hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0001179">https://edition-humboldt.de/v8/H0001179</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0001179</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0001179</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001179.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonnabend
-                    [wohl um 1828]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0001179</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 824 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 20,10 cm, B: 12,70 cm; Wasserzeichen: J. Whatman, Turkey Mill 1828</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1828-01-01" notAfter="1828-12-31" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -72,31 +92,31 @@
                     <pb n="1r"/>Es gereicht mir zu einem ganz <lb/>besonderen Vergnügen <choice>
                         <abbr>Ew.</abbr>
                         <expan>Euer</expan>
-                    </choice> Wohlgeboren <lb/>zu der <ref xml:id="ea7f53f8-e072-47b7-bf53-f8e07207b7c6" corresp="#ac4dbf8d-85d0-4b96-8dbf-8d85d03b9660">Erfüllung Ihrer Wünsche</ref>
-                    <note xml:id="ac4dbf8d-85d0-4b96-8dbf-8d85d03b9660" corresp="#ea7f53f8-e072-47b7-bf53-f8e07207b7c6">Vermutlich betraf dies die Genehmigung der
+                    </choice> Wohlgeboren <lb/>zu der <ref xml:id="fac34034-9126-4318-8340-349126831887" corresp="#fcc139d6-c38c-4d55-8139-d6c38c8d5555">Erfüllung Ihrer Wünsche</ref>
+                    <note xml:id="fcc139d6-c38c-4d55-8139-d6c38c8d5555" corresp="#fac34034-9126-4318-8340-349126831887">Vermutlich betraf dies die Genehmigung der
                                 Forschungsreise
                             durch das Kultusministerium.</note>
                     <lb/>Glück wünschen zu können<supplied cert="high">.</supplied>
                     <lb/>Nehmen Sie zugleich meinen <lb/>freundlichsten Dank für Ihre
-                    <lb/>interessante <ref xml:id="f782a0f2-f3eb-402f-82a0-f2f3eb802fb6" corresp="#b078d432-10b5-4299-b8d4-3210b5f29960">
-                        <bibl corresp="https://edition-humboldt.de/v8/8FP7K584">
+                    <lb/>interessante <ref xml:id="dc118d93-b392-4c8e-918d-93b3924c8e40" corresp="#bdecbec5-7f9f-4daa-acbe-c57f9ffdaa1d">
+                        <bibl corresp="https://edition-humboldt.de/8FP7K584">
                             <choice>
                                     <abbr>Abhandl.</abbr>
                                     <expan>Abhandlung</expan>
                                 </choice> über die <lb/>niederen Formen der Algen</bibl>
                     </ref>
-                    <note xml:id="b078d432-10b5-4299-b8d4-3210b5f29960" corresp="#f782a0f2-f3eb-402f-82a0-f2f3eb802fb6">Vgl. <bibl corresp="https://edition-humboldt.de/v8/8FP7K584">Meyen
+                    <note xml:id="bdecbec5-7f9f-4daa-acbe-c57f9ffdaa1d" corresp="#dc118d93-b392-4c8e-918d-93b3924c8e40">Vgl. <bibl corresp="https://edition-humboldt.de/8FP7K584">Meyen
                                 1829b</bibl>, aufgeführt im Verzeichnis von Humboldts Bibliothek
-                            unter Nr. 6604. Vgl. <bibl corresp="https://edition-humboldt.de/v8/8ZURHD9U">Stevens
+                            unter Nr. 6604. Vgl. <bibl corresp="https://edition-humboldt.de/8ZURHD9U">Stevens
                                 1967</bibl>, 477.</note>
                     <supplied cert="high">.</supplied>
-                    <lb/> Ueber das Wort <ref xml:id="fc6987ea-0bd6-46d7-a987-ea0bd6a6d7e5" corresp="#c93dccea-89aa-4c52-bdcc-ea89aabc524b">„Spielereien <lb/>der Natur“</ref>
-                    <note xml:id="c93dccea-89aa-4c52-bdcc-ea89aabc524b" corresp="#fc6987ea-0bd6-46d7-a987-ea0bd6a6d7e5">Die Bemerkung bezieht sich auf folgende Stelle
+                    <lb/> Ueber das Wort <ref xml:id="f3ca3c9c-c819-4e47-8a3c-9cc819fe47d6" corresp="#e8667856-7bfc-4fb7-a678-567bfcffb7a4">„Spielereien <lb/>der Natur“</ref>
+                    <note xml:id="e8667856-7bfc-4fb7-a678-567bfcffb7a4" corresp="#f3ca3c9c-c819-4e47-8a3c-9cc819fe47d6">Die Bemerkung bezieht sich auf folgende Stelle
                             der Arbeit Meyens: <quote>Es schien mir überhaupt, als wenn diese Algen
                                 als Producte von Bildungsversuchen des vegetativen Lebens angesehen
                                 werden müssten, als wenn sie gleichsam Spielereien der Natur
                                 seyen.</quote>
-                            <bibl corresp="https://edition-humboldt.de/v8/8FP7K584">Meyen 1829b</bibl>, 772.</note> möchte ich aber <lb/>fast mit Ihnen hadern. </p>
+                            <bibl corresp="https://edition-humboldt.de/8FP7K584">Meyen 1829b</bibl>, 772.</note> möchte ich aber <lb/>fast mit Ihnen hadern. </p>
                 <closer>
                     <salute>Mit <lb/>freundschaftlichster Hochachtung</salute>
                     <signed>Ihr <lb/>gehorsamster <lb/>AHumboldt</signed>

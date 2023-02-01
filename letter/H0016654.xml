@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016654">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [August 1836] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016654">https://edition-humboldt.de/v8/H0016654</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016654</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016654</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016654.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [August 1836] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016654</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">86</idno>
+                     <idno type="shelfmark">421, Bl. 158r-158v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1836-08" notAfter="1836-08">1836-08-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Rückkehr aus Teplitz 15.8.1836, Artikel im Comptes rendus v. Juli
                1836</note>
@@ -64,39 +82,40 @@
          <div type="writingSession">
             <pb n="1r"/>
             <p>Ihr inhaltreicher Brief <lb/>mein Theurer, den ich hier <lb/>gefunden, hat mich
-               <lb/>innigst erfreut. Ich bin <lb/>noch in den lezten <lb/>Tagen selbst in <placeName ref="https://www.geonames.org/3079348">Bilin</placeName>
+               <lb/>innigst erfreut. Ich bin <lb/>noch in den lezten <lb/>Tagen selbst in <placeName ref="https://editon-humboldt.de/H0005241 https://www.geonames.org/3079348">Bilin</placeName>
                <lb/>gewesen und habe mit <lb/>
                     <choice>
                   <abbr>D<hi rendition="#sup">r</hi>
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/11645363X">Reuss</persName> den Trippel <lb/>Berg genau
+               <persName ref="https://editon-humboldt.de/H0000854 http://d-nb.info/gnd/11645363X">Reuss</persName> den Trippel <lb/>Berg genau
                   untersucht<supplied cert="high">.</supplied>
-               <lb/>Sie erhalten nun eine <lb/>ganze Fuhre der Sub-<lb/>stanzen. Am <placeName ref="https://edition-humboldt.de/v8/H0017469">Kritschel<lb/>berg</placeName> ist kein Polir<lb/>schiefer: es ist ein <lb/>Fehler
+               <lb/>Sie erhalten nun eine <lb/>ganze Fuhre der Sub<g ref="#typoHyphen"/>
+                    <lb break="no"/>stanzen. Am <placeName ref="https://editon-humboldt.de/H0017469">Kritschel<lb break="no"/>berg</placeName> ist kein Polir<lb break="no"/>schiefer: es ist ein <lb/>Fehler
                älterer Angaben, <lb/>aber am Trippel-berg <lb/>wird noch gegraben <lb/>und
                Polirschiefer nach <lb/>
-                    <placeName ref="https://www.geonames.org/2935022">Dresden</placeName> Fuhrenweise
-               <lb/>geschikt. Die geognosti<lb/>schen Profile sind von <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0005565 https://www.geonames.org/2935022">Dresden</placeName> Fuhrenweise
+               <lb/>geschikt. Die geognosti<lb break="no"/>schen Profile sind von <lb/>
                     <choice>
                   <abbr>D.</abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/11645363X">Reuss</persName>
+               <persName ref="https://editon-humboldt.de/H0000854 http://d-nb.info/gnd/11645363X">Reuss</persName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> sehr genau. <lb/>Der Halbopal liegt <lb/>
                     <pb n="1v"/>keineswegs unter dem
                <lb/>Polirschiefer, sondern <lb/>bildet Verhärtungen <lb/>in ihm, ganz in den
-               <lb/>oberen Lagen. Das Ganze <lb/>ist jezt ein dürrer <lb/>Berg, an Basalt ange<lb/>legt wohl 300 Fuss über <lb/>dem Spiegel des Flusses <lb/>(der
-                  <placeName ref="https://www.geonames.org/3079347">Biela</placeName>). Das Kästchen <lb/>ist von <choice>
+               <lb/>oberen Lagen. Das Ganze <lb/>ist jezt ein dürrer <lb/>Berg, an Basalt ange<lb break="no"/>legt wohl 300 Fuss über <lb/>dem Spiegel des Flusses <lb/>(der
+                  <placeName ref="https://editon-humboldt.de/H0017558 https://www.geonames.org/3079347">Biela</placeName>). Das Kästchen <lb/>ist von <choice>
                   <abbr>D</abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/11645363X">Reuss</persName>, die <lb/>freien Stükke haben
+               <persName ref="https://editon-humboldt.de/H0000854 http://d-nb.info/gnd/11645363X">Reuss</persName>, die <lb/>freien Stükke haben
                   <lb/>
-                    <persName>Seyffert</persName>
+                    <persName ref="https://editon-humboldt.de/">Seyffert</persName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -108,12 +127,12 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> Porzellan <lb/>Erde bald bekannt, <lb/>am besten als Anhang <lb/>zu Ihren
-                  <ref xml:id="e28bdace-643e-424e-8bda-ce643ec24ea6" corresp="#bfa70e17-89ca-4d90-a70e-1789cafd902b">Infusorien</ref>
-                    <note xml:id="bfa70e17-89ca-4d90-a70e-1789cafd902b" corresp="#e28bdace-643e-424e-8bda-ce643ec24ea6">
-                     <bibl corresp="https://edition-humboldt.de/v8/X7KZUS33">Ehrenberg 1838</bibl>
+                  <ref xml:id="e579ecde-8cc2-4f23-b9ec-de8cc21f2329" corresp="#e9abf348-88e7-4845-abf3-4888e7884589">Infusorien</ref>
+                    <note xml:id="e9abf348-88e7-4845-abf3-4888e7884589" corresp="#e579ecde-8cc2-4f23-b9ec-de8cc21f2329">
+                     <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>
                   </note>
                     <supplied cert="high">.</supplied>
-               <lb/>Sie könnten ja den <lb/>Anhang besonders pa<lb/>ginirt schon jetzt
+               <lb/>Sie könnten ja den <lb/>Anhang besonders pa<lb break="no"/>ginirt schon jetzt
                <lb/>drukken lassen <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -125,38 +144,39 @@
             </closer>
             <postscript>
                <p>
-                        <ref xml:id="e452f27d-c7c4-42a6-92f2-7dc7c4a2a668" corresp="#f9d6effe-a128-4dfa-96ef-fea128bdfac2">
+                        <ref xml:id="d9e081d7-2dba-4b4a-a081-d72dba9b4ac3" corresp="#a87f5ba0-f9cb-419b-bf5b-a0f9cbf19b47">
                             <choice>
                            <abbr>p</abbr>
                            <expan>pagina</expan>
                         </choice> 31</ref>
-                        <note xml:id="f9d6effe-a128-4dfa-96ef-fea128bdfac2" corresp="#e452f27d-c7c4-42a6-92f2-7dc7c4a2a668">
-                        <bibl corresp="https://edition-humboldt.de/v8/AKBFKAR7">l'Académie des sciences 1836</bibl>
+                        <note xml:id="a87f5ba0-f9cb-419b-bf5b-a0f9cbf19b47" corresp="#d9e081d7-2dba-4b4a-a081-d72dba9b4ac3">
+                        <bibl corresp="https://edition-humboldt.de/AKBFKAR7">l'Académie des sciences 1836</bibl>
                      </note>
                   <choice>
                      <abbr>u</abbr>
                      <expan>und</expan>
-                  </choice> <ref xml:id="f340207a-6255-4864-8020-7a6255f86453" corresp="#c2780de1-34ed-4f57-b80d-e134ed6f57a7">61</ref>
-                        <note xml:id="c2780de1-34ed-4f57-b80d-e134ed6f57a7" corresp="#f340207a-6255-4864-8020-7a6255f86453">
-                        <bibl corresp="https://edition-humboldt.de/v8/QZQWHZEJ">Serres de Mesplès 1836</bibl>
-                     </note> der <ref xml:id="e13c3ec6-fcb7-463c-bc3e-c6fcb7663ca6" corresp="#b0c2afd6-ad91-45b3-82af-d6ad9165b31e">Comptes rendus</ref>
-                        <note xml:id="b0c2afd6-ad91-45b3-82af-d6ad9165b31e" corresp="#e13c3ec6-fcb7-463c-bc3e-c6fcb7663ca6">
-                        <bibl corresp="https://edition-humboldt.de/v8/ZWD8LI94">l'Académie
+                  </choice> <ref xml:id="f4045242-bd27-4440-8452-42bd2734403a" corresp="#e7fd37eb-2809-4d7c-bd37-eb28094d7c57">61</ref>
+                        <note xml:id="e7fd37eb-2809-4d7c-bd37-eb28094d7c57" corresp="#f4045242-bd27-4440-8452-42bd2734403a">
+                        <bibl corresp="https://edition-humboldt.de/QZQWHZEJ">Serres de Mesplès 1836</bibl>
+                     </note> der <ref xml:id="bf4f775a-94ad-44c3-8f77-5a94adf4c3b9" corresp="#d33e703c-9518-4e68-be70-3c95189e6864">Comptes rendus</ref>
+                        <note xml:id="d33e703c-9518-4e68-be70-3c95189e6864" corresp="#bf4f775a-94ad-44c3-8f77-5a94adf4c3b9">
+                        <bibl corresp="https://edition-humboldt.de/ZWD8LI94">l'Académie
                            des
                            sciences 1835-1965</bibl>
                      </note> finden Sie Sich <lb/>selbst <choice>
                      <abbr>u.</abbr>
                      <expan>und</expan>
                   </choice> eine unbestimmte Nachricht von <lb/>
-                        <persName ref="http://d-nb.info/gnd/11765700X">Serres</persName>. Meine Uebersezung Ihrer eigenen <lb/>Note muss längst in
-                     <persName ref="http://d-nb.info/gnd/118847767">Arago’s</persName> Händen <lb/>sein. Ich bitte Sie <hi rendition="#u">spätestens</hi>
-                  <hi rendition="#u">über-</hi>
-                        <lb/>morgen beide
+                        <persName ref="https://editon-humboldt.de/H0016855 http://d-nb.info/gnd/11765700X">Serres</persName>. Meine Uebersezung Ihrer eigenen <lb/>Note muss längst in
+                     <persName ref="https://editon-humboldt.de/H0012670 http://d-nb.info/gnd/118847767">Arago’s</persName> Händen <lb/>sein. Ich bitte Sie <hi rendition="#u">spätestens</hi>
+                  <hi rendition="#u">über<g ref="#typoHyphen"/>
+                        </hi>
+                        <lb break="no"/>morgen beide
                   Stükke <choice>
                      <abbr>n</abbr>
                      <expan>numero</expan>
                   </choice> 2 et 3 <lb/>
-                        <hi rendition="#uu">an <persName>Poggendorf</persName>
+                        <hi rendition="#uu">an <persName ref="https://editon-humboldt.de/">Poggendorf</persName>
                         </hi> zu schikken<supplied cert="high">.</supplied>
                     </p>
             </postscript>

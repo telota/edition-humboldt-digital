@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011401">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>La Victoria</title>
             </titleStmt>
+            <editionStmt>
+                <p>La Victoria [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011401.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011401.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011401.xml">
-                    <p>La Victoria [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011401.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0011401">
-                    <idno type="uri">https://www.geonames.org/3634922</idno>
-                    <placeName type="reg">La Victoria</placeName>
-                    <note>Stadt nahe des Lago de Valencia im Bundesstaat Aragua (Venezuela)</note>
-                    <linkGrp>
-                        <ptr target="41#16" type="letter"/>
-                        <ptr target="41#17" type="letter"/>
-                        <ptr target="41#20" type="letter"/>
-                        <ptr target="41#21" type="letter"/>
-                    </linkGrp>
-                </place>
+                <place>
+            <idno type="uri">https://www.geonames.org/3634922</idno>
+            <placeName type="reg">La Victoria</placeName>
+            <note>Stadt nahe des Lago de Valencia im Bundesstaat Aragua (Venezuela)</note>
+            <linkGrp>
+                <ptr target="41#16" type="letter"/>
+                <ptr target="41#17" type="letter"/>
+                <ptr target="41#20" type="letter"/>
+                <ptr target="41#21" type="letter"/>
+            </linkGrp>
+        </place>
             </listPlace>
         </body>
     </text>

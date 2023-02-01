@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019860">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bakšeevo</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bakšeevo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019860.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,33 +20,34 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019860.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019860.xml">
-                    <p>Bakšeevo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019860.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019860">
+                <place>
                     <idno type="uri">https://www.geonames.org/1511019</idno>
                     <placeName type="reg">Bakšeevo</placeName>
                     <placeName type="alt">Бакшеево</placeName>
                     <placeName type="alt">Baksheyevo</placeName>
                     <placeName type="alt">Bakschewa</placeName>
-                    <!-- RST I, Bl. 39r -->
+                    
                     <placeName type="alt">Bakschejewa</placeName>
-                    <!-- Karte vom Ural 1837 -->
+                    
                     <placeName type="alt">Bakcheewa</placeName>
-                    <!-- Generalnaja Karta Tobolskoi Gubernii -->
+                    
                     <placeName type="alt">Бакшеева</placeName>
-                    <!-- Generalnaja Karta Tobolskoi Gubernii -->
-                    <note>Ort am <placeName key="H0006725">Irtys</placeName> südöstlich von <placeName key="H0009435">Tobolsk</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    
+                    <note>Ort am <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtys</placeName> südöstlich von <placeName ref="https://editon-humboldt.de/H0009435 https://www.geonames.org/1489530">Tobolsk</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

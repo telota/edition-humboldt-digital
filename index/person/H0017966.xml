@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017966">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Zotov, Tit Polikarpovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Zotov, Tit Polikarpovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017966.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017966.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017966.xml">
-                    <p>Zotov, Tit Polikarpovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017966.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0017966">
+                <person>
                     <persName type="reg">
                         <surname>Zotov</surname>
                         <forename>Tit Polikarpovič</forename>
@@ -53,7 +58,7 @@
                     </persName>
                     <birth>1793</birth>
                     <death>1857</death>
-                    <note>Verwalter der Eisen- und Goldwerke von <placeName key="H0000518">Kyštym</placeName>, Neffe von <persName key="H0017965">Gregorij
+                    <note>Verwalter der Eisen- und Goldwerke von <placeName ref="https://editon-humboldt.de/H0000518 https://www.geonames.org/1500997">Kyštym</placeName>, Neffe von <persName ref="https://editon-humboldt.de/H0017965">Gregorij
                             Fëdorovič Zotov</persName>
                     </note>
                 </person>

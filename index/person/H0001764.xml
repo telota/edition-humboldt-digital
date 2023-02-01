@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001764">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Palacio Fajardo, Manuel</title>
             </titleStmt>
+            <editionStmt>
+                <p>Palacio Fajardo, Manuel [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001764.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001764.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001764.xml">
-                    <p>Palacio Fajardo, Manuel [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001764.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001764">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/176181560</idno>
                     <persName type="reg">
                         <surname>Palacio Fajardo</surname>
@@ -38,14 +43,13 @@
                     <birth>1784</birth>
                     <death>1819</death>
                     <note>Jurist und Mediziner; Studium in Mérida; 1810 als Arzt in Barinas (Venezuela);
-                        <?oxy_comment_start author="goetz" timestamp="20200826T134337+0200" comment="eingefügt von CG"?>ging
+                        ging
                         1813 nach Frankreich und 1815 nach London, um Unterstützung für den Unabhängigkeitskampf zu
-                        erhalten; <?oxy_comment_end?>nahm am bewaffneten Unabhängigkeitskampf teil; wurde in den ersten
+                        erhalten; nahm am bewaffneten Unabhängigkeitskampf teil; wurde in den ersten
                         und zweiten Congreso Constituyente von Caracas delegiert für die Provinz Barinas; publizierte
                         1817 in London ein Buch über die Revolution;
-                        <?oxy_comment_start author="goetz" timestamp="20200826T134144+0200" comment="entstammt der Edition von Faak, stimmt mindestens am Ende nicht mit span. Wikipedia-Eintrag überein - danach sollte er Außenminister werden, trat aber das Amt krankheitsbedingt nie an"?>1819
-                        erster Finanzminister der Republik<?oxy_comment_end?>
-                    </note>
+                        1819
+                        erster Finanzminister der Republik</note>
                 </person>
             </listPerson>
         </body>

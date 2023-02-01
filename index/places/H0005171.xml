@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005171">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Baty</title>
             </titleStmt>
+            <editionStmt>
+                <p>Baty [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0005171.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005171.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0005171.xml">
-                    <p>Baty [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0005171.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0005171">
+                <place>
                     <idno type="uri">https://www.geonames.org/1517617</idno>
                     <placeName type="reg">Baty</placeName>
                     <placeName type="alt">Баты</placeName>
@@ -41,7 +46,7 @@
                     <placeName type="alt">Honimaili-hou</placeName>
                     <placeName type="alt">Khunimailächen</placeName>
                     <placeName type="alt">Koschtuba</placeName>
-                    <note>histor. Wachtposten an der russisch-chinesischen Grenze südöstlich von <placeName key="H0009692">Ust'-Kamenogorsk</placeName>, auch Choni mailachu (mongol.) bzw. Koschtuba
+                    <note>histor. Wachtposten an der russisch-chinesischen Grenze südöstlich von <placeName ref="https://editon-humboldt.de/H0009692 https://www.geonames.org/1520316">Ust'-Kamenogorsk</placeName>, auch Choni mailachu (mongol.) bzw. Koschtuba
                         (kirgis.) genannt</note>
                     <linkGrp>
                         <ptr subtype="comment" target="30#50" type="letter"/>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016577">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [31. Mai 1848] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016577">https://edition-humboldt.de/v8/H0016577</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016577</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016577</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016577.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [31. Mai 1848] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016577</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">169</idno>
+                     <idno type="shelfmark">421, Bl. 304r-304v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1848-05-31">1848-05-31</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: erwähnte Sitzung der Akademie vom 26.5.1848</note>
          </correspDesc>
@@ -62,10 +80,10 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Verzeihen Sie, innigstgeliebter Freund und Reise<lb/>gefährte, dass ich so
-               spät erst Ihnen für <lb/>so viele überaus erfreuliche und wichtige <lb/> <ref xml:id="a3282f18-2f99-4523-a82f-182f99552378" corresp="#c4bf67a5-1cf6-4aec-bf67-a51cf66aecf2">organische und geognostische Mittheilungen</ref>
-                    <note xml:id="c4bf67a5-1cf6-4aec-bf67-a51cf66aecf2" corresp="#a3282f18-2f99-4523-a82f-182f99552378">
-                     <bibl corresp="https://edition-humboldt.de/v8/DC4NNNSC">Ehrenberg 1839a</bibl>
+            <p>Verzeihen Sie, innigstgeliebter Freund und Reise<lb break="no"/>gefährte, dass ich so
+               spät erst Ihnen für <lb/>so viele überaus erfreuliche und wichtige <lb/> <ref xml:id="d6b460a1-211c-4972-b460-a1211cd972f8" corresp="#a71e03eb-88fc-4b43-9e03-eb88fc8b4302">organische und geognostische Mittheilungen</ref>
+                    <note xml:id="a71e03eb-88fc-4b43-9e03-eb88fc8b4302" corresp="#d6b460a1-211c-4972-b460-a1211cd972f8">
+                     <bibl corresp="https://edition-humboldt.de/DC4NNNSC">Ehrenberg 1839a</bibl>
                   </note>
                <lb/>
                     <choice>
@@ -78,16 +96,17 @@
                darin einzig da. Ich arbeite <lb/>allerdings ungestöhrter hier, aber die <lb/>Arbeit
                geht doch nicht wie sonst, <lb/>es hat sich oft einer Art Trübheit <lb/>meiner
                bemächtigt die ich gern verberge<supplied cert="high">.</supplied>
-               <lb/>Die nahe Umgebung des <persName ref="http://d-nb.info/gnd/118535994">Königs</persName> wirkt <lb/>wie
+               <lb/>Die nahe Umgebung des <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Königs</persName> wirkt <lb/>wie
                die Furcht vor anziehendem <lb/>Ungewitter<supplied cert="high">.</supplied> Die
                Zukunft und für mich <lb/>ist <supplied>es</supplied> doch nur eine ganz nahe, liegt
                <lb/>tief verhüllt. Ist äusserer Krieg <lb/>für jezt unwahrscheinlich, so ist
-               <lb/>das innere Treiben um so unverstän-<lb/>diger,
-               dazu nüchtern, nachahmungs<lb/>süchtig, dramatisch ohne Helden<lb/>thum. Man sieht nur immer schon <lb/>längst gespielte Stücke<supplied cert="high">.</supplied> Die kindische <lb/>Bewegung zu <add place="superlinear">der</add>
+               <lb/>das innere Treiben um so unverstän<g ref="#typoHyphen"/>
+                    <lb break="no"/>diger,
+               dazu nüchtern, nachahmungs<lb break="no"/>süchtig, dramatisch ohne Helden<lb break="no"/>thum. Man sieht nur immer schon <lb/>längst gespielte Stücke<supplied cert="high">.</supplied> Die kindische <lb/>Bewegung zu <add place="superlinear">der</add>
                <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
-               <persName ref="http://d-nb.info/gnd/118808850">Böckh</persName>’s Eitelkeit <lb/>die Akademie hat verleiten
+               <persName ref="https://editon-humboldt.de/H0003413 http://d-nb.info/gnd/118808850">Böckh</persName>’s Eitelkeit <lb/>die Akademie hat verleiten
                wollen, <lb/>kannte ich durch <choice>
                   <abbr>L.</abbr>
                   <expan>Leopold</expan>
@@ -96,32 +115,32 @@
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116817569">Buch</persName>. Andere <lb/>Körperschaften bevormunden ..
+               <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName>. Andere <lb/>Körperschaften bevormunden ..
                und <lb/>dann ehe es noch im Geringsten <lb/>entschieden ist ob es eine Erste
                <lb/>Kammer geben wird, Vorschläge zur <lb/>Erweiterung des nicht Existirenden
                   <lb/>
-                    <pb n="1v"/>zu machen, wäre unserer Klubgesell<lb/>schaften
+                    <pb n="1v"/>zu machen, wäre unserer Klubgesell<lb break="no"/>schaften
                würdig. Es riecht nach <lb/>
-                    <persName ref="http://d-nb.info/gnd/118775766">Jacobi</persName>
+                    <persName ref="https://editon-humboldt.de/H0004108 http://d-nb.info/gnd/118775766">Jacobi</persName>
                <note place="left" hand="#author">
                         <metamark/>miles
-                  <lb/>gloriosus <lb/>Mathema<lb/>ticorum <lb/>Princeps <lb/>wie er sich
-                  <lb/>nennt, wenn <lb/>er das Unglük <lb/>gehabt bei <lb/>seinem <persName ref="http://d-nb.info/gnd/118535994">König</persName>
+                  <lb/>gloriosus <lb/>Mathema<lb break="no"/>ticorum <lb/>Princeps <lb/>wie er sich
+                  <lb/>nennt, wenn <lb/>er das Unglük <lb/>gehabt bei <lb/>seinem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
                   <lb/>zu essen, nach</note>
-               <persName ref="http://d-nb.info/gnd/100123848">Erman</persName> filius und nach <lb/>
-                    <persName ref="http://d-nb.info/gnd/118808850">Böckh</persName>’s Kakodämon dem <lb/>
+               <persName ref="https://editon-humboldt.de/H0005973 http://d-nb.info/gnd/100123848">Erman</persName> filius und nach <lb/>
+                    <persName ref="https://editon-humboldt.de/H0003413 http://d-nb.info/gnd/118808850">Böckh</persName>’s Kakodämon dem <lb/>
                     <choice>
                   <abbr>D<hi rendition="#sup">r</hi>
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116659807">Merker</persName>. .. </p>
+               <persName ref="https://editon-humboldt.de/H0013919 http://d-nb.info/gnd/116659807">Merker</persName>. .. </p>
             <p>Was Sie mir heute, theurer <lb/>Freund, über das plözliche <lb/>Erscheinen neuer
                Formen <lb/>melden, hat mich sehr <lb/>bewegt. Ich werde dem <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">König</persName> heute Abend ihre hüpsche <lb/>Wirtebeere und den
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> heute Abend ihre hüpsche <lb/>Wirtebeere und den
                einäugigen <lb/>Stern zeigen: er ist auch jezt <lb/>für solche Dinge mehr als je
                <lb/>empfänglich. Da wir durch <lb/>Sie wissen dass der Luftstaub <lb/>nicht bloss
-               abgestorbene Orga<lb/>nisationen, sondern noch <choice>
+               abgestorbene Orga<lb break="no"/>nisationen, sondern noch <choice>
                   <sic>friche</sic>
                   <corr>frische</corr>
                </choice>
@@ -138,7 +157,7 @@
                bisher wohl <lb/>nichts bestimmtes angenommen<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
-                    <salute>Mit alter Liebe und wachsen<lb/>der Bewunderung</salute>
+                    <salute>Mit alter Liebe und wachsen<lb break="no"/>der Bewunderung</salute>
                <signed>Ihr <lb/>dankbarster <lb/>AlHumboldt</signed>
                <dateline>Potsdam <lb/>Mittwochs.</dateline>
                 </closer>

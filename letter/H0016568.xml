@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016568">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Johann Franz Encke an Christian Gottfried Ehrenberg. [Berlin], 16. Januar
+               1847, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016568">https://edition-humboldt.de/v8/H0016568</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016568</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016568</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016568.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Johann Franz Encke an Christian Gottfried Ehrenberg. [Berlin], 16. Januar
-               1847. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016568</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">161</idno>
+                     <idno type="shelfmark">421, Bl. 289r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/116471727">Encke, Johann Franz</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005930 http://d-nb.info/gnd/116471727">Encke, Johann Franz</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1847-01-16">1847-01-16</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -75,11 +93,11 @@
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116817569">Buch</persName>
+               <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName>
                <lb/>ersucht ein Paar Zeilen an den Moskauer <lb/>
-                    <persName ref="http://d-nb.info/gnd/118691449">Fischer</persName> aufzusetzen; heute schreibt er mir <lb/>die beigehenden. Der
+                    <persName ref="https://editon-humboldt.de/H0000117 http://d-nb.info/gnd/118691449">Fischer</persName> aufzusetzen; heute schreibt er mir <lb/>die beigehenden. Der
                Umschlag enthält <lb/>ebenfalls Einiges von ihm und bitte <lb/>ich deswegen ihn
-               anzusehen. Es kann recht <lb/>gut seyn daß der Buchsche Styl den <persName ref="http://d-nb.info/gnd/118691449">Fischer</persName>
+               anzusehen. Es kann recht <lb/>gut seyn daß der Buchsche Styl den <persName ref="https://editon-humboldt.de/H0000117 http://d-nb.info/gnd/118691449">Fischer</persName>
                <lb/>gewiß kennt, einen Reiz für diesen hat <lb/>und deshalb stelle ich Ihnen <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -92,7 +110,7 @@
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118554700">Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt</persName>
                <lb/>es ganz ergebenst anheim wie Sie diese <lb/>Sache einrichten wollen.</p>
             <closer rend="paragraph">
                <salute>Ihr <lb/>ganz eigener</salute>

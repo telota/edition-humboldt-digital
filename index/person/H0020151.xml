@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020151">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Stakemann, Hermann C.</title>
             </titleStmt>
+            <editionStmt>
+                <p>Stakemann, Hermann C. [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020151.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020151.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020151.xml">
-                    <p>Stakemann, Hermann C. [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020151.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0020151">
+                <person>
                     <persName type="reg">
                         <surname>Stakemann</surname>
                         <forename>Hermann C.</forename>
                     </persName>
                     <floruit notBefore="1846-01-01" notAfter="1857-12-31">1846–1857</floruit>
-                    <note>1846–1852 Konsul <placeName key="H0006791">Hamburgs</placeName> sowie 1849–1852 Konsul
-                            <placeName key="H0008406">Preußens</placeName> und 1855–1857 Konsul <placeName key="H0005351">Bremens</placeName> in <placeName key="H0020300">Adelaide</placeName>
+                    <note>1846–1852 Konsul <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburgs</placeName> sowie 1849–1852 Konsul
+                            <placeName ref="https://editon-humboldt.de/H0008406">Preußens</placeName> und 1855–1857 Konsul <placeName ref="https://editon-humboldt.de/H0005351 https://www.geonames.org/2944388">Bremens</placeName> in <placeName ref="https://editon-humboldt.de/H0020300 https://www.geonames.org/11523825">Adelaide</placeName>
                     </note>
 
                 </person>

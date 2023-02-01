@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020302">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ajangcatsibang</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ajangcatsibang [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020302.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020302.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020302.xml">
-                    <p>Ajangcatsibang [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020302.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0020302">
+                <place>
                     <idno type="uri">https://www.geonames.org/3631191</idno>
                     <placeName type="reg">Ajangcatsibang</placeName>
                     <placeName type="alt">Ayang Catsibang</placeName>
-                    <note>von Robert Schomburgk in seiner Reisebeschreibung <bibl sameAs="zotero-667230-RBVDVQ5T">Schomburgk, R. H. 1840f</bibl> erwähnter sowie auf der „Map of Guayana“ (<bibl sameAs="zotero-667230-JWV9EW66">Schomburgk, R. H./Arrowsmith 1840</bibl>) eingetragener
-                        Tafelberg im <placeName key="H0008000">Pacaraima</placeName>-Gebirge (Guyana)</note>
+                    <note>von Robert Schomburgk in seiner Reisebeschreibung <bibl corresp="https://edition-humboldt.de/RBVDVQ5T">Schomburgk, R. H. 1840f</bibl> erwähnter sowie auf der „Map of Guayana“ (<bibl corresp="https://edition-humboldt.de/JWV9EW66">Schomburgk, R. H./Arrowsmith 1840</bibl>) eingetragener
+                        Tafelberg im <placeName ref="https://editon-humboldt.de/H0008000 https://www.geonames.org/3631191">Pacaraima</placeName>-Gebirge (Guyana)</note>
                 </place>
             </listPlace>
         </body>

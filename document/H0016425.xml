@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016425">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -10,27 +10,45 @@
                     </persName>
                 </editor>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: R – Auszüge aus E. G. Fischers „Untersuchung über den eigentlichen Sinn der höheren Analysis“, hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016425">https://edition-humboldt.de/v8/H0016425</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016425</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016425</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016425.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>R – Auszüge aus E. G. Fischers „Untersuchung über den eigentlichen Sinn der höheren Analysis“. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016425</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 12, Nr. 99b, Bl. 80</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1447588</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -42,7 +60,7 @@
                 <p>
                     <ref xml:id="ed_rzx_mr5_lcb" type="siglum" target="#Geographie_der_Pflanzen_R">R.</ref> Espèces</p>
                 <p>
-                    <persName ref="http://d-nb.info/gnd/116551445">Fischer</persName> dit avec raison <add place="superlinear">(<bibl corresp="https://edition-humboldt.de/v8/3IKQ9VKQ">
+                    <persName ref="https://editon-humboldt.de/H0000107 http://d-nb.info/gnd/116551445">Fischer</persName> dit avec raison <add place="superlinear">(<bibl corresp="https://edition-humboldt.de/3IKQ9VKQ">
                             <choice>
                                 <abbr>Unters.</abbr>
                                 <expan>Untersuchung</expan>

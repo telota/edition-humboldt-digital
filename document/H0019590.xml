@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019590">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,26 +29,43 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: Gutachten zu Richard Schomburgks Werk „Reisen in Britisch-Guiana“. Potsdam,
+                    6. Januar 1846, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019590">https://edition-humboldt.de/v8/H0019590</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019590</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019590</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019590.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Gutachten zu Richard Schomburgks Werk „Reisen in Britisch-Guiana“. Potsdam,
-                    6. Januar 1846. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019590</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz,
+                            Berlin</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Autogr. I/184</idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                 <date when="1846-01-06" cert="high"/>
             </creation>
         </profileDesc>
@@ -60,9 +77,9 @@
                 <p>Ich gebe durch diese Zeilen sehr gern
                     <lb/>das Zeugniss, dass nach dem beträchtlichen <lb/>Theile des Manuscripts, das
                     ich von <lb/>der geographisch und naturhistorisch <lb/>wichtigen Reise des Herrn
-                        <persName ref="http://d-nb.info/gnd/118759078">Richard <lb/>Schomburgk</persName> durch die
-                    unbekanntesten Theile <lb/>der <placeName ref="https://www.geonames.org/3378535">Guyana</placeName>
-                    gesehen, <bibl corresp="https://edition-humboldt.de/v8/M8GB3R59">dieses Werk</bibl> ein
+                        <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Richard <lb/>Schomburgk</persName> durch die
+                    unbekanntesten Theile <lb/>der <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">Guyana</placeName>
+                    gesehen, <bibl corresp="https://edition-humboldt.de/M8GB3R59">dieses Werk</bibl> ein
                     <lb/>grosses Interesse zu erregen verdient. <lb/>Um demselben aber einen
                     daurenden <lb/>Verkauf zuzusichern, müssen, meiner <lb/>Ansicht nach, nicht
                     bloss anmuthige <lb/>Beschreibungen der Gegend und der <lb/>sonderbaren Sitten
@@ -73,7 +90,7 @@
                     Gelehrten <lb/>bereits erworben hat.</p>
                 <signed>Alexander vHumboldt</signed>
                 <dateline>
-                    <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>, den 6. Januar
+                    <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>, den 6. Januar
                         <lb/>1846.</dateline>
                 <pb n="1v"/>
                 <gap reason="empty" unit="pages" quantity="1"/>

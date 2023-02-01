@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016720">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1. Juli
+               1846] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016720">https://edition-humboldt.de/v8/H0016720</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016720</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016720</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016720.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1. Juli
-               1846] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016720</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">153</idno>
+                     <idno type="shelfmark">421, Bl. 273r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1846-07-01">1846-07-01</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: erwähnte Sitzung der Akademie am 6.7.1846</note>
          </correspDesc>
@@ -64,18 +82,19 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-                <p>Bei dem Wirrwarr, in welchem ich durch <lb/>des <persName ref="http://d-nb.info/gnd/118535994">Königs</persName> Rückehr gerathen bin, <lb/>habe ich, theurer Reisegefährte und
+                <p>Bei dem Wirrwarr, in welchem ich durch <lb/>des <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Königs</persName> Rückehr gerathen bin, <lb/>habe ich, theurer Reisegefährte und
                <lb/>College, kaum so viel Musse Ihnen <lb/>die recht interessanten Notizen des
-               <lb/>Briefes von <persName ref="http://d-nb.info/gnd/104263148">Brandt</persName> mitzutheilen<supplied cert="high">.</supplied>
+               <lb/>Briefes von <persName ref="https://editon-humboldt.de/H0016987 http://d-nb.info/gnd/104263148">Brandt</persName> mitzutheilen<supplied cert="high">.</supplied>
                <lb/>
-                    <ref xml:id="dbf7b01f-c8a0-4a4d-b7b0-1fc8a08a4de8" corresp="#a018792f-3464-44e0-9879-2f346454e009">Könnten Sie nicht einiges davon <lb/>der Akademie mittheilen</ref>
-                    <note xml:id="a018792f-3464-44e0-9879-2f346454e009" corresp="#dbf7b01f-c8a0-4a4d-b7b0-1fc8a08a4de8">
-                     <bibl corresp="https://edition-humboldt.de/v8/J73U6QLZ">Ehrenberg 1846e</bibl>
+                    <ref xml:id="eea3bdcb-8b00-48f9-a3bd-cb8b0018f9ba" corresp="#a9b15d53-7a1d-4b53-b15d-537a1d3b531d">Könnten Sie nicht einiges davon <lb/>der Akademie mittheilen</ref>
+                    <note xml:id="a9b15d53-7a1d-4b53-b15d-537a1d3b531d" corresp="#eea3bdcb-8b00-48f9-a3bd-cb8b0018f9ba">
+                     <bibl corresp="https://edition-humboldt.de/J73U6QLZ">Ehrenberg 1846e</bibl>
                   </note> damit es <lb/>mit einigen Zeilen in dem <lb/>
                     <hi rendition="#u">Bulletin</hi>
                erwähnt würde. Es ist <lb/>
-                    <persName ref="http://d-nb.info/gnd/104263148">Brandt</persName> angenehm. Das
-               factum <lb/>der Kiefernadeln in den <lb/>fossilen Backenzähnen ist beson<lb/>ders merkwürdig „wenn die <lb/>Nadeln nicht aus der vegeta-<lb/>bilische Reste enthaltenden <lb/>Schlammerde in
+                    <persName ref="https://editon-humboldt.de/H0016987 http://d-nb.info/gnd/104263148">Brandt</persName> angenehm. Das
+               factum <lb/>der Kiefernadeln in den <lb/>fossilen Backenzähnen ist beson<lb break="no"/>ders merkwürdig „wenn die <lb/>Nadeln nicht aus der vegeta<g ref="#typoHyphen"/>
+                    <lb break="no"/>bilische Reste enthaltenden <lb/>Schlammerde in
                die Bakzähne <lb/>gerathen sind.“ Dass ein <lb/>
                     <name type="animal" key="Mammut">Mamuth</name>
                <choice>
@@ -91,7 +110,7 @@
                   <abbr>attmosph.</abbr>
                   <expan>attmosphärischer</expan>
                </choice> Infusionsstaub ist <lb/>von ungeheurer Wichtigkeit und <lb/>hat den
-                  <persName ref="http://d-nb.info/gnd/118535994">König</persName> unendlich <lb/>interessirt<supplied cert="high">.</supplied>
+                  <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> unendlich <lb/>interessirt<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
                     <salute>Mit alter Liebe <choice>
@@ -104,7 +123,7 @@
             </closer>
             <postscript>
                <p>Ich fürchte <lb/>unendlich <lb/>
-                        <persName ref="http://d-nb.info/gnd/119211963">Middendorf</persName>
+                        <persName ref="https://editon-humboldt.de/H0014212 http://d-nb.info/gnd/119211963">Middendorf</persName>
                   <lb/>nicht zu <lb/>sehen. <lb/>Behalten Sie <lb/>die Brandtiana!</p>
             </postscript>
          </div>

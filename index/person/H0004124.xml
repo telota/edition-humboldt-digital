@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004124">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Jacquin, Joseph Franz Edler von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Jacquin, Joseph Franz Edler von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004124.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004124.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004124.xml">
-                    <p>Jacquin, Joseph Franz Edler von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004124.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004124">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117050199</idno>
                     <persName type="reg">
                         <surname>Jacquin</surname>
@@ -40,7 +45,7 @@
                     <note>in der heutigen Slowakei geborener Arzt und Naturforscher; 1788–1791
                         Forschungsreisen nach Deutschland, Frankreich und England, 1791 Professor
                         der Chemie und Botanik, 1793 Adjunkt, 1797 Nachfolger seines Vaters als
-                        Professor an der <orgName key="H0000602">Universität Wien</orgName>
+                        Professor an der <orgName ref="https://editon-humboldt.de/H0000602 http://d-nb.info/gnd/2024703-5">Universität Wien</orgName>
                     </note>
                     <linkGrp>
                         <ptr subtype="sentFrom" target="02#421" type="letter"/>

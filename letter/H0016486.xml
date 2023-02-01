@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016486">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Dezember
+               1857] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016486">https://edition-humboldt.de/v8/H0016486</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016486</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016486</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016486.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Dezember
-               1857] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016486</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">236</idno>
+                     <idno type="shelfmark">421, Bl. 435r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1857-12" notAfter="1857-12">1857-12-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Am 3.12.1857 trägt Klotzsch der Akademie eine Mittheilung von
                Schacht vor: Monatsberichte der Königlich Preußischen Akademie der Wissenschaften zu
@@ -67,13 +85,13 @@
          <div type="writingSession">
             <pb n="1r"/>
             <p>Vielen Dank für die Erläuterungen über die <lb/>Dichter die in Bonn aufstehen. Hier
-               <lb/>ist ein Brief von <persName ref="http://d-nb.info/gnd/117091219">Schacht</persName> aus <placeName ref="https://www.geonames.org/2266874">Madera</placeName>
+               <lb/>ist ein Brief von <persName ref="https://editon-humboldt.de/H0015485 http://d-nb.info/gnd/117091219">Schacht</persName> aus <placeName ref="https://editon-humboldt.de/H0008558 https://www.geonames.org/2266874">Madera</placeName>
                <lb/>der Sie freuen wird. Sie haben wohl <lb/>die Güte, mein edler Freund den Theil
                <lb/>des Briefes <hi rendition="#u">der von</hi>
                <hi rendition="#u">der</hi>
                <hi rendition="#u">Gesundheit</hi>
                <hi rendition="#u">handelt</hi>
-               <lb/>der Akademie vorzulesen, und <supplied>von</supplied> den be<lb/>gonnen<supplied cert="high">en</supplied> Arbeiten nur die Gegenstände <lb/>zu
+               <lb/>der Akademie vorzulesen, und <supplied>von</supplied> den be<lb break="no"/>gonnen<supplied cert="high">en</supplied> Arbeiten nur die Gegenstände <lb/>zu
                   nennen<supplied cert="high">.</supplied> Man muss vermeiden <lb/>Vorurtheile zu
                erregen. Der Zweck <lb/>der Reise ist vollständig erreicht <lb/>wenn die Reise ihn am
                Leben erhält<supplied cert="high">.</supplied>
@@ -82,13 +100,14 @@
                     <signed>Ihr <lb/>AlHumboldt</signed>
                 </closer>
             <postscript>
-               <p>Der <persName ref="http://d-nb.info/gnd/118535994">König</persName> quält <lb/>mich zu wissen was
+               <p>Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> quält <lb/>mich zu wissen was
                   <lb/>die Anatomen von den <lb/>Vogelgesichtern der <lb/>kleinen Azteken (vor
                   <lb/>5 Jahren zusammengekaufte <lb/>monstra durch thörichte <lb/>Fabeln
                   verherrlicht) halten <lb/>ob die Anatomen darin <lb/>eine Analogie mit schon
                   <lb/>in geringerem Grade <lb/>aufgefundenen abnormen <lb/>Bildungen sehen<supplied cert="high">.</supplied>
                     </p>
-               <p>Freitag Nacht! Ich wün-<lb/>sche wohl einst
+               <p>Freitag Nacht! Ich wün<g ref="#typoHyphen"/>
+                        <lb break="no"/>sche wohl einst
                   <lb/>den Brief des <lb/>guten Schacht <lb/>zurük. </p>
             </postscript>
          </div>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016766">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Teplitz], [August 1833] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016766">https://edition-humboldt.de/v8/H0016766</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016766</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016766</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016766.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Teplitz], [August 1833] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016766</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">39</idno>
+                     <idno type="shelfmark">421, Bl. 69r-70r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/3064288">Teplitz</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName>
                <date notBefore="1833-08" notAfter="1833-08">1833-08-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: 1833 von fremder Hand, vgl. Brief H. an Altenstein
                1833-07-00</note>
@@ -64,7 +82,7 @@
          <div type="writingSession">
             <pb n="1r"/>
                 <p>Wenn von Ihnen, mein theurer <lb/>Ehrenberg, der Sie nach <lb/>
-                    <persName ref="http://d-nb.info/gnd/118677578">Cuviers</persName> Tod die erste Stelle in <lb/>Europa einnehmen,
+                    <persName ref="https://editon-humboldt.de/H0013277 http://d-nb.info/gnd/118677578">Cuviers</persName> Tod die erste Stelle in <lb/>Europa einnehmen,
                von einem <lb/>Freunde und lieben Reisegenossen <lb/>die Rede ist, habe ich
                <lb/>immer Zeit zu lesen <choice>
                   <abbr>u</abbr>
@@ -72,26 +90,26 @@
                </choice>
                <lb/>wären es 40 Bogen. Auch <lb/>ich halte es für nüzlich <lb/>dass Sie sich lebhaft
                regen <lb/>ob ich gleich glaube dass <lb/>jene reizenden Worte nur <lb/>rein aus
-               Unbedacht in <lb/> <persName ref="http://d-nb.info/gnd/118585053">
+               Unbedacht in <lb/> <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">
                   <choice>
                      <abbr>M</abbr>
                      <expan>Müller</expan>
                   </choice>'s</persName> Antwort gekommen <lb/>sind. Ich bin überzeugt <lb/>der
-                  <persName ref="http://d-nb.info/gnd/11862783X">
+                  <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">
                         <choice>
                      <abbr>Min.</abbr>
                      <expan>Minister</expan>
                   </choice>
-                    </persName> wird Ihnen Gerech<lb/>tigkeit widerfahren lassen.
+                    </persName> wird Ihnen Gerech<lb break="no"/>tigkeit widerfahren lassen.
                   <lb/>
                     <pb n="1v"/>Er muss klar fühlen <lb/>lassen was Ihr volles <lb/>Recht ist,
                und sollte <lb/>auch die eigene Aufstellung <lb/>eines <choice>
                   <abbr>african.</abbr>
                   <expan>africanischen</expan>
-               </choice> Museums <lb/>die bei Ihrer Rükkunft <lb/>gleich hätte statt fin<lb/>den sollen, durch viele <lb/>gegenseitige Interessen <lb/>jezt
-               gehindert werden, <lb/>so bin ich doch über<lb/>zeugt, dass man Ihre
+               </choice> Museums <lb/>die bei Ihrer Rükkunft <lb/>gleich hätte statt fin<lb break="no"/>den sollen, durch viele <lb/>gegenseitige Interessen <lb/>jezt
+               gehindert werden, <lb/>so bin ich doch über<lb break="no"/>zeugt, dass man Ihre
                <lb/>Lage sichern und bessern <lb/>wird. Sie haben, theurer <lb/>Freund, das sehr
-                  tadel<lb/>hafte Benehmen mit den <lb/>Scorpionen im Leibe <lb/>
+                  tadel<lb break="no"/>hafte Benehmen mit den <lb/>Scorpionen im Leibe <lb/>
                     <choice>
                   <abbr>u.</abbr>
                   <expan>und</expan>

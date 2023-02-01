@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016594">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Mai 1849] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016594">https://edition-humboldt.de/v8/H0016594</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016594</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016594</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016594.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Mai 1849] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016594</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">185</idno>
+                     <idno type="shelfmark">421, Bl. 336r, 337v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1849-05" notAfter="1849-05">1849-05-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. E.s Abhandlung vom 22.2.1849, E. wohnte seit etwa Mai 1848 in
                der Zimmerstraße</note>
@@ -78,14 +96,14 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Ihre <ref xml:id="c9c6f975-d88e-438c-86f9-75d88e938c63" corresp="#f5074063-9fc7-4055-8740-639fc7c05593">
+            <p>Ihre <ref xml:id="a56715c5-6c35-4fa6-a715-c56c355fa66c" corresp="#f3e34323-b507-4bca-a343-23b5072bcad4">
                         <choice>
                         <abbr>Abh.</abbr>
                         <expan>Abhandlung</expan>
                      </choice>
                     </ref>
-                    <note xml:id="f5074063-9fc7-4055-8740-639fc7c05593" corresp="#c9c6f975-d88e-438c-86f9-75d88e938c63">
-                     <bibl corresp="https://edition-humboldt.de/v8/H8P8747Z">Ehrenberg 1849</bibl>
+                    <note xml:id="f3e34323-b507-4bca-a343-23b5072bcad4" corresp="#a56715c5-6c35-4fa6-a715-c56c355fa66c">
+                     <bibl corresp="https://edition-humboldt.de/H8P8747Z">Ehrenberg 1849</bibl>
                   </note> vom 22 <choice>
                   <abbr>Febr</abbr>
                   <expan>Februar</expan>
@@ -94,14 +112,14 @@
                <lb/>Infusorien in der Atmosphäre und wie Viscum <lb/>im Baummoos, Infusorien in
                frischem <lb/>Schnee sind wundersame Erscheinungen. Dazu <lb/>die Blicke auf das was
                zu den <lb/>Mythen der Generatio spontanea hat <lb/>leiten können! Ich werde Ihre
-               Pariser <lb/>Sendung durch die französische Gesand<lb/>schaft besorgen,
+               Pariser <lb/>Sendung durch die französische Gesand<lb break="no"/>schaft besorgen,
                mein theurer Freund <lb/>aber es muss ein einziges <hi rendition="#u">weiches</hi>
                <lb/>Paket, ja nicht gebundene Exemplare <lb/>das Ganze versiegelt mit Adresse
                <lb/>an <choice>
                   <abbr>Mr</abbr>
                   <expan>Monsieur</expan>
-               </choice> le <persName ref="http://d-nb.info/gnd/11765700X">Président</persName> de l’ Académie <lb/>des
-               Sciences à <placeName ref="https://www.geonames.org/2988507">Paris</placeName>. Das <choice>
+               </choice> le <persName ref="https://editon-humboldt.de/H0016855 http://d-nb.info/gnd/11765700X">Président</persName> de l’ Académie <lb/>des
+               Sciences à <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>. Das <choice>
                   <abbr>Pak</abbr>
                   <expan>Paket</expan>
                </choice> muss <lb/>ein Exemplar für das Institut enthalten <lb/>auf die anderen
@@ -110,13 +128,13 @@
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                      </choice>
-                     <persName ref="http://d-nb.info/gnd/117339385">Valenciennes</persName>
+                     <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName>
                   </item>
                   <item>— à <choice>
                         <abbr>M</abbr>
                         <expan>Monsieur</expan>
                      </choice>
-                     <persName ref="http://d-nb.info/gnd/116356839">Milne Eduards</persName>
+                     <persName ref="https://editon-humboldt.de/H0014233 http://d-nb.info/gnd/116356839">Milne Eduards</persName>
                         </item>
                   <item>— à l’ Académie de <lb/>Médicine</item>
                </list>

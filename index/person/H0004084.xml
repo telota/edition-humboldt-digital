@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004084">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Turčaninov, Aleksej Fëdorovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Turčaninov, Aleksej Fëdorovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004084.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004084.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004084.xml">
-                    <p>Turčaninov, Aleksej Fëdorovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004084.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004084">
+                <person>
                     <persName type="reg">
                         <surname>Turčaninov</surname>
                         <forename>Aleksej Fëdorovič</forename>
@@ -46,7 +51,7 @@
                         <name>Turschaninof</name>
                     </persName>
                     <persName type="alt">
-                        <name>Turtschaninoff</name> <!-- Rose 1837/1842, I, 243 -->
+                        <name>Turtschaninoff</name> 
                     </persName>
                     <persName type="alt">
                         <surname>Turchaninov</surname>
@@ -54,10 +59,9 @@
                     </persName>
                     <birth>1704</birth>
                     <death>1787</death>
-                    <note>russ. Unternehmer; Besitzer des Kupferbergwerks <placeName key="H0008343">Polevskoj</placeName> und mehrerer Eisenhütten bei <placeName key="H0018796">Sysert</placeName> im Ural; Ehemann von <persName key="H0004086">Filiciata Stefanovna Turčaninova</persName>; Großvater
-                        von <persName key="H0018925">Pavel Dmitrievič Solomirskij</persName>
-                        [?]<!-- FS, 23.04.2020 -->
-                    </note>
+                    <note>russ. Unternehmer; Besitzer des Kupferbergwerks <placeName ref="https://editon-humboldt.de/H0008343 https://www.geonames.org/1494573">Polevskoj</placeName> und mehrerer Eisenhütten bei <placeName ref="https://editon-humboldt.de/H0018796 https://www.geonames.org/1490402">Sysert</placeName> im Ural; Ehemann von <persName ref="https://editon-humboldt.de/H0004086">Filiciata Stefanovna Turčaninova</persName>; Großvater
+                        von <persName ref="https://editon-humboldt.de/H0018925">Pavel Dmitrievič Solomirskij</persName>
+                        [?]</note>
                     <linkGrp>
                         <ptr subtype="comment" target="30#[137]" type="page"/>
                         <ptr target="30#148" type="page"/>

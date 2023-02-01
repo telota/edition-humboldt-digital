@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017101">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Terletzky, </title>
             </titleStmt>
+            <editionStmt>
+                <p>Terletzky,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017101.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017101.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017101.xml">
-                    <p>Terletzky,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017101.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0017101">
+                <person>
                     <persName type="reg">
                         <surname>Terletzky</surname>
                         <forename/>
@@ -43,10 +48,9 @@
                     <birth/>
                     <death/>
                     <note> russischer
-                        <?oxy_comment_start author="schnee" timestamp="20180604T172818+0200" comment="Vermaß offenbar als Erster die Gipfel des Südlichen Ural (vgl. New Monthly Magazine 27, 1829, 401). Publizierte vermutlich Messergebnisse in der von Faddei Bulgarin und Nikolai Gretsch hrsg. Zeitschrift „Nordische Biene“ (Sewernaja ptschela, Северная пчела) 84 (1830), vgl. den Hinweis in Pansner 1836, 10 sowie im New Monthly Magazine 27, Nr 3 (1829), 401."?>Obrist,
-                        Colonel aus <?oxy_comment_end?>
-                        <placeName key="H0005599">Jekaterinburg</placeName>; Teilnehmer an Forschungsreisen im Südlichen
-                            <placeName key="H0009659">Ural</placeName>
+                        Obrist,
+                        Colonel aus <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>; Teilnehmer an Forschungsreisen im Südlichen
+                            <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>
                     </note>
                 </person>
             </listPerson>

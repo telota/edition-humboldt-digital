@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0009131">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Verchotur’e</title>
             </titleStmt>
+            <editionStmt>
+                <p>Verchotur’e [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0009131.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0009131.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0009131.xml">
-                    <p>Verchotur’e [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009131.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0009131">
+                <place>
                     <idno type="uri">https://www.geonames.org/1487219</idno>
                     <placeName type="reg">Verchotur’e</placeName>
                     <placeName type="alt">Verkhotur’ye</placeName>
@@ -37,7 +42,7 @@
                     <placeName type="alt">Werchoturje</placeName>
                     <placeName type="alt">Werchoturie</placeName>
                     <placeName type="alt">Верхотурье</placeName>
-                    <note>Kleinstadt am Ostrand des <placeName key="H0009659">Ural</placeName>, nördlich von <placeName key="H0005599">Jekaterinburg</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    <note>Kleinstadt am Ostrand des <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>, nördlich von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                     <linkGrp>
                         <ptr target="30#39" type="letter"/>
                         <ptr target="30#41" type="letter"/>

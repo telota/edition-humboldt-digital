@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016693">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [März 1841] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016693">https://edition-humboldt.de/v8/H0016693</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016693</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016693</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016693.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [März 1841] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016693</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">126</idno>
+                     <idno type="shelfmark">421, Bl. 234r-234v, 235v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1841-03" notAfter="1841-03">1841-03-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Brief Nr. 121, 122</note>
          </correspDesc>
@@ -79,32 +97,34 @@
                 <p>Ich fürchte sehr die grosse <lb/>Freude entbehren zu <lb/>müssen, Sie theurer Freund
                <lb/>Donnerstag zu hören. Ich <lb/>bin leidend an Grippe, zwar <lb/>etwas besser,
                aber doch noch <lb/>sehr heiser und werde nicht <lb/>ausgehen dürfen<supplied cert="high">.</supplied>
-               <ref xml:id="b31d5dee-3d2d-40f3-9d5d-ee3d2da0f338" corresp="#f7c275f0-b6e1-4ced-8275-f0b6e1cced3e">Ihre geognosti<lb/>schen Betrachtungen über <lb/>diese
-                     Kieselschöpfung <lb/>vor Ihnen unbemerkt fort<lb/>schreitend unter
-                     unseren <lb/>Augen sind sehr gross-<lb/>artig<supplied cert="high">.</supplied> Die Deltas entstehen
+               <ref xml:id="d069a708-16db-4e6d-a9a7-0816db7e6db2" corresp="#ad5ad274-c7b8-4f96-9ad2-74c7b83f96d6">Ihre geognosti<lb break="no"/>schen Betrachtungen über <lb/>diese
+                     Kieselschöpfung <lb/>vor Ihnen unbemerkt fort<lb break="no"/>schreitend unter
+                     unseren <lb/>Augen sind sehr gross<g ref="#typoHyphen"/>
+                        <lb break="no"/>artig<supplied cert="high">.</supplied> Die Deltas entstehen
                      <lb/>so!</ref>
-                    <note xml:id="f7c275f0-b6e1-4ced-8275-f0b6e1cced3e" corresp="#b31d5dee-3d2d-40f3-9d5d-ee3d2da0f338">
-                     <bibl corresp="https://edition-humboldt.de/v8/3B45NY3F">Ehrenberg 1841</bibl>
+                    <note xml:id="ad5ad274-c7b8-4f96-9ad2-74c7b83f96d6" corresp="#d069a708-16db-4e6d-a9a7-0816db7e6db2">
+                     <bibl corresp="https://edition-humboldt.de/3B45NY3F">Ehrenberg 1841</bibl>
                   </note>
                <note hand="#author" place="left">Würden
                   die <lb/>numerischen Angaben <lb/>nicht mehr <lb/>Effect machen <lb/>wenn sie
                   zugleich <lb/>räumlich, <lb/> cubisch in <lb/>Schichten <lb/>ausgedrükt
-                  <lb/>würden.</note> Was würde <persName ref="http://d-nb.info/gnd/118549855">Herodot</persName>
-               <lb/>dazu sagen!! Das Zurük-<lb/>weisen von <persName ref="http://d-nb.info/gnd/117450812">Voss</persName> der <lb/>
-                    <ref xml:id="c79d1b8b-c995-4836-9d1b-8bc9956836ee" corresp="#c8b3e46e-8179-440e-b3e4-6e8179340e7e">Aegyptiaca</ref>
-                    <note xml:id="c8b3e46e-8179-440e-b3e4-6e8179340e7e" corresp="#c79d1b8b-c995-4836-9d1b-8bc9956836ee">wohl <bibl corresp="https://edition-humboldt.de/v8/636QSHFU">Ehrenberg
+                  <lb/>würden.</note> Was würde <persName ref="https://editon-humboldt.de/H0011818 http://d-nb.info/gnd/118549855">Herodot</persName>
+               <lb/>dazu sagen!! Das Zurük<g ref="#typoHyphen"/>
+                    <lb break="no"/>weisen von <persName ref="https://editon-humboldt.de/H0016880 http://d-nb.info/gnd/117450812">Voss</persName> der <lb/>
+                    <ref xml:id="cc9a8e74-55a6-4c38-9a8e-7455a60c38b3" corresp="#ef1ba6c4-867e-4007-9ba6-c4867e6007f9">Aegyptiaca</ref>
+                    <note xml:id="ef1ba6c4-867e-4007-9ba6-c4867e6007f9" corresp="#cc9a8e74-55a6-4c38-9a8e-7455a60c38b3">wohl <bibl corresp="https://edition-humboldt.de/636QSHFU">Ehrenberg
                         1841a</bibl>
                   </note> ist lamentabel, <lb/>die Ihnen aber <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
                <lb/>verheissene Pension habe ich <lb/>Ursach für sicher zu halten<supplied cert="high">.</supplied>
-               <lb/>Alle Mittwoch im Staats<lb/>rathe spricht nun <persName ref="http://d-nb.info/gnd/104335262">Eichhorn</persName>
+               <lb/>Alle Mittwoch im Staats<lb break="no"/>rathe spricht nun <persName ref="https://editon-humboldt.de/H0005881 http://d-nb.info/gnd/104335262">Eichhorn</persName>
                <lb/>von seinen Kämpfen mit dem <lb/>
-                    <persName ref="http://d-nb.info/gnd/116296143">Finanz
+                    <persName ref="https://editon-humboldt.de/H0012602 http://d-nb.info/gnd/116296143">Finanz
                   Minister</persName> und verkündet <lb/>
-                    <pb n="2r"/>ihr nahes Ende. Der <persName ref="http://d-nb.info/gnd/118535994">König</persName>
+                    <pb n="2r"/>ihr nahes Ende. Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
                <lb/>hatte die 20.000 Thaler auf <lb/>einen Antrag von mir und <lb/>
-                    <persName ref="http://d-nb.info/gnd/117227617">Lottum</persName> im August <choice>
+                    <persName ref="https://editon-humboldt.de/H0004645 http://d-nb.info/gnd/117227617">Lottum</persName> im August <choice>
                   <sic>deretirt</sic>
                   <corr>decretirt</corr>
                </choice>

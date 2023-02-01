@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004319">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Lapérouse, Jean-François de Galaup Comte de</title>
             </titleStmt>
+            <editionStmt>
+                <p>Lapérouse, Jean-François de Galaup Comte de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004319.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004319.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004319.xml">
-                    <p>Lapérouse, Jean-François de Galaup Comte de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004319.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004319">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/2472934</idno>
                     <persName type="reg">
                         <surname>Lapérouse</surname>
@@ -57,7 +62,7 @@
                         getötet; seinen letzten Brief schrieb La Pérouse aus der Botanybay in Australien. Er war seither
                         verschollen. Eine franz. Suchaktion unter Leitung von J. J. Labilladière blieb ohne Erfolg. Erst
                         der engl. Kapitän Peter Dillon fand 1826 im Norden der Neuen Hebriden zwischen den Klippen der
-                        Insel Vanikoro die Überreste der beiden Schiffe, die heute im <orgName key="H0000564">Louvre</orgName> zu besichtigen sind</note>
+                        Insel Vanikoro die Überreste der beiden Schiffe, die heute im <orgName ref="https://editon-humboldt.de/H0000564 http://d-nb.info/gnd/1006837-5">Louvre</orgName> zu besichtigen sind</note>
                     <linkGrp>
                         <ptr target="27#61" type="page"/>
                         <ptr target="16#22" type="letter"/>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016484">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 14. November
+               1857, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016484">https://edition-humboldt.de/v8/H0016484</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016484</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016484</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016484.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 14. November
-               1857. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016484</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">234</idno>
+                     <idno type="shelfmark">421, Bl. 431r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1857-11-14">1857-11-14</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -65,31 +83,31 @@
             <pb n="1r"/>
             <p>Sie haben, theurer Freund und College bei mir <lb/>grosse Freude über das nicht bloss
                kleine <lb/>sondern tiefe Leben (nicht entseelte <lb/>tote Reste wie der einseitige
-                  <persName ref="http://d-nb.info/gnd/116857986">Maury</persName>
-               <lb/>will), in ganz <placeName ref="https://www.geonames.org/6295638">Sanssouci</placeName> die Hofdamen
+                  <persName ref="https://editon-humboldt.de/H0014024 http://d-nb.info/gnd/116857986">Maury</persName>
+               <lb/>will), in ganz <placeName ref="https://editon-humboldt.de/H0010019 https://www.geonames.org/6295638">Sanssouci</placeName> die Hofdamen
                <lb/>besonders mitgerechnet über die behaarte <lb/>mexicanische Miss erregt. Es ist
                erst <lb/>die erste rationale Beschreibung die <lb/>wir von meiner Landsmännin
                erhalten <lb/>haben<supplied cert="high">.</supplied> Nehmen Sie meinen innigen Dank
                <lb/>dafür freundlichst an<supplied cert="high">.</supplied> Ich habe durch
                   <lb/>
-                    <persName ref="http://d-nb.info/gnd/11862380X">Trendelenburg</persName> heute eine Bitte für
+                    <persName ref="https://editon-humboldt.de/H0004048 http://d-nb.info/gnd/11862380X">Trendelenburg</persName> heute eine Bitte für
                   <lb/>
-                    <persName ref="http://d-nb.info/gnd/10148772X">Buschmann</persName> an den Ausschuss gerichtet
+                    <persName ref="https://editon-humboldt.de/H0003808 http://d-nb.info/gnd/10148772X">Buschmann</persName> an den Ausschuss gerichtet
                <lb/>dessen mächtiges Mitglied Sie sind<supplied cert="high">.</supplied>
                <lb/>Es handelt sich um Bewilligung von <lb/>mehr Bogen<supplied cert="high">.</supplied> Es wäre doch innigst zu <lb/>bedauern wenn <choice>
                   <sic>eine</sic>
                   <corr>ein</corr>
-               </choice> viel Neues enthal<lb/>tende<supplied cert="high">s</supplied>
+               </choice> viel Neues enthal<lb break="no"/>tende<supplied cert="high">s</supplied>
                   nüzliche<supplied cert="high">s</supplied>, schon in <choice>
                   <abbr>MSS</abbr>
                   <expan>Manuskript</expan>
                </choice> ganz <lb/>vollendete<supplied cert="high">s</supplied>
-               <ref xml:id="af9f6c7a-97df-4a96-9f6c-7a97df1a96bc" corresp="#a1f7b6c3-6be6-4235-b7b6-c36be6c2353b">Werk</ref>
-                    <note xml:id="a1f7b6c3-6be6-4235-b7b6-c36be6c2353b" corresp="#af9f6c7a-97df-4a96-9f6c-7a97df1a96bc">
-                     <bibl corresp="https://edition-humboldt.de/v8/INKDFUJE">Buschmann 1859</bibl>
-                  </note> das einzige über <hi rendition="#u">ame<lb/>rikanische</hi>
-               Sprachfamilien, nach den <lb/>neueren Ansichten von <persName ref="http://d-nb.info/gnd/118659332">Bopp</persName>, <persName ref="http://d-nb.info/gnd/118542257">Grimm</persName> und <lb/>Wilhelm von
-                  <persName ref="http://d-nb.info/gnd/118554727">Humboldt</persName> über grammatischen <lb/>Sprach
+               <ref xml:id="c93a9970-f4be-4a2d-ba99-70f4be1a2de4" corresp="#bc329825-bb4e-4d0a-b298-25bb4ead0acf">Werk</ref>
+                    <note xml:id="bc329825-bb4e-4d0a-b298-25bb4ead0acf" corresp="#c93a9970-f4be-4a2d-ba99-70f4be1a2de4">
+                     <bibl corresp="https://edition-humboldt.de/INKDFUJE">Buschmann 1859</bibl>
+                  </note> das einzige über <hi rendition="#u">ame<lb break="no"/>rikanische</hi>
+               Sprachfamilien, nach den <lb/>neueren Ansichten von <persName ref="https://editon-humboldt.de/H0003485 http://d-nb.info/gnd/118659332">Bopp</persName>, <persName ref="https://editon-humboldt.de/H0013638 http://d-nb.info/gnd/118542257">Grimm</persName> und <lb/>Wilhelm von
+                  <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Humboldt</persName> über grammatischen <lb/>Sprach
                Organismus abgefasst, nicht <lb/>veröffentlicht werden könnte. Helfen <lb/>Sie dem
                Jugendgreise in den trüben <lb/>Tagen der verhüllten Sternschnuppen<supplied cert="high">.</supplied>
                 </p>

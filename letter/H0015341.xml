@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015341">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -6,44 +6,60 @@
                 <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
                 
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 3. November 1844], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015341">https://edition-humboldt.de/v8/H0015341</ref>
+                </p>
+            </editionStmt>
             
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015341</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015341</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015341.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, vor 3. November 1844]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015341</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von
                         (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1844-11-03" notAfter="1844-12-10" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
                         (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
-                <note>Zur Datierung: In einem auf den 3. November 1844 datierten Schreiben an <persName ref="http://d-nb.info/gnd/13604784X">Eduard
+                <note>Zur Datierung: In einem auf den 3. November 1844 datierten Schreiben an <persName ref="https://editon-humboldt.de/H0013541 http://d-nb.info/gnd/13604784X">Eduard
                         Goldschmidt</persName>
                     (Staatsbibliothek zu Berlin - Preußischer Kulturbesitz,
                     Handschriftenabteilung) berichtet Humboldt über seinen
                     Versuch, die im vorliegenden Brief erwähnte Pfropfmaschine - eine Erfindung
-                        <persName ref="https://edition-humboldt.de/v8/H0001515">Adalbert Kunths</persName> - dem Geheimen
-                    Zivilkabinett, dem der ebenfalls erwähnte <persName ref="http://d-nb.info/gnd/117267864">Alexander von
+                        <persName ref="https://editon-humboldt.de/H0001515">Adalbert Kunths</persName> - dem Geheimen
+                    Zivilkabinett, dem der ebenfalls erwähnte <persName ref="https://editon-humboldt.de/H0002248 http://d-nb.info/gnd/117267864">Alexander von
                         Uhden</persName> angehörte, zu empfehlen. </note>
             </correspDesc>
         </profileDesc>
@@ -57,17 +73,17 @@
                 </opener>
                 <p>
                     <pb n="1r"/>Ich habe unendlich bedauert dass wir <lb/>uns immer verfehlt, ich
-                    komme gewiss noch <lb/>zu Ihnen um Ihre trefliche <persName ref="https://edition-humboldt.de/v8/H0001516">Gattin</persName>
+                    komme gewiss noch <lb/>zu Ihnen um Ihre trefliche <persName ref="https://editon-humboldt.de/H0001516">Gattin</persName>
                     <lb/>zu sehen. Des
                     Wittsacker
-                    Mair’s <lb/>Angelegenheit empfehle ich warm <lb/>an <persName ref="http://d-nb.info/gnd/117267864">Uhden</persName>, auch suche ich die <ref xml:id="aa42e0e4-f164-4d78-82e0-e4f1645d78ba" corresp="#be7c5dc4-f9d4-44d5-bc5d-c4f9d4a4d545">
+                    Mair’s <lb/>Angelegenheit empfehle ich warm <lb/>an <persName ref="https://editon-humboldt.de/H0002248 http://d-nb.info/gnd/117267864">Uhden</persName>, auch suche ich die <ref xml:id="f9bff415-1287-402e-bff4-151287702e51" corresp="#efb1dc3f-92fb-43f0-b1dc-3f92fba3f045">
                         <lb/>
                         <choice>
                                 <sic>Pfopfenmaschine</sic>
                                 <corr cert="high">Propfenmaschine</corr>
                             </choice>
                     </ref>
-                    <note xml:id="be7c5dc4-f9d4-44d5-bc5d-c4f9d4a4d545" corresp="#aa42e0e4-f164-4d78-82e0-e4f1645d78ba">Eine Erfindung <persName ref="https://edition-humboldt.de/v8/H0001515">Adalbert
+                    <note xml:id="efb1dc3f-92fb-43f0-b1dc-3f92fba3f045" corresp="#f9bff415-1287-402e-bff4-151287702e51">Eine Erfindung <persName ref="https://editon-humboldt.de/H0001515">Adalbert
                                 Kunths</persName>.</note> zu verkaufen<supplied cert="high">.</supplied>
                 </p>
                 <closer>Ihr dankbarster </closer>

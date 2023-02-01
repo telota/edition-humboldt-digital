@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016676">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [November
+               1839] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016676">https://edition-humboldt.de/v8/H0016676</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016676</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016676</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016676.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [November
-               1839] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016676</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">109</idno>
+                     <idno type="shelfmark">421, Bl. 201r-201v, 202v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1839-11" notAfter="1839-11">1839-11-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Humboldt trägt am 23.11.1839 in der Akademie u.a. über die
                Ergebnisse von Ehrenbergs Analyse der Moya vor</note>
@@ -80,34 +98,36 @@
                </address>
             </opener>
             <p>Sie haben mir, theurer Freund, <lb/>ein wichtiges Geschenk durch Ihre <lb/>
-                    <ref xml:id="e6141f5d-a701-4ab8-941f-5da7015ab844" corresp="#a3ece8e9-520a-4bc2-ace8-e9520a1bc21c">Ansicht
+                    <ref xml:id="e32b6b71-8a02-4ef2-ab6b-718a026ef2a0" corresp="#ec413ece-3726-4569-813e-ce3726c5699b">Ansicht
                der Zoologie</ref>
-                    <note xml:id="a3ece8e9-520a-4bc2-ace8-e9520a1bc21c" corresp="#e6141f5d-a701-4ab8-941f-5da7015ab844">
-                     <bibl corresp="https://edition-humboldt.de/v8/92ANRD2J">Ehrenberg 1839d</bibl>, 81—174 </note>, in grossartigen <lb/>Zügen, gemacht. Diese Blätter <lb/>werden mich oft nach
-                  <placeName ref="https://www.geonames.org/2823708">Tegel</placeName>
-               <lb/>und <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName> begleiten und zu
+                    <note xml:id="ec413ece-3726-4569-813e-ce3726c5699b" corresp="#e32b6b71-8a02-4ef2-ab6b-718a026ef2a0">
+                     <bibl corresp="https://edition-humboldt.de/92ANRD2J">Ehrenberg 1839d</bibl>, 81—174 </note>, in grossartigen <lb/>Zügen, gemacht. Diese Blätter <lb/>werden mich oft nach
+                  <placeName ref="https://editon-humboldt.de/H0009287 https://www.geonames.org/2823708">Tegel</placeName>
+               <lb/>und <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName> begleiten und zu
                <lb/>genussreichen Betrachtungen aufregen<supplied cert="high">.</supplied>
                 </p>
-               <p>Heute nun eine andere Bitte. Ich <lb/>lese an <persName ref="http://d-nb.info/gnd/118659332">Bopp’s</persName> Stelle den 28sten <lb/>dieses Monats. Ich muss von der
+               <p>Heute nun eine andere Bitte. Ich <lb/>lese an <persName ref="https://editon-humboldt.de/H0003485 http://d-nb.info/gnd/118659332">Bopp’s</persName> Stelle den 28sten <lb/>dieses Monats. Ich muss von der
                <lb/>sonderbaren vulkanisirten? Substanz <lb/>Moya reden welche bei dem <lb/>grossen
-               Erdbeben in <placeName ref="https://edition-humboldt.de/v8/H0010511">Riobamba</placeName>
+               Erdbeben in <placeName ref="https://editon-humboldt.de/H0010511">Riobamba</placeName>
                <lb/>an einer mit Rasen bedekten <lb/>feuchten Ebene als kleine <lb/>Pyramiden
                hervorquoll <figure facs="Ehrenberg-Briefwechsel/1839_11_00_1.jpg" hand="#author">
                   <figDesc/>
                </figure>
-               <lb/>sich bewegte, Häuser wegriss... <lb/>Nach <persName ref="http://d-nb.info/gnd/118723367">Klaproth</persName> verhält sie <lb/>sich hydrogen und
-                  kohlenstoff<lb/>haltig fast wie eine organische <lb/>Substanz: aber
+               <lb/>sich bewegte, Häuser wegriss... <lb/>Nach <persName ref="https://editon-humboldt.de/H0001338 http://d-nb.info/gnd/118723367">Klaproth</persName> verhält sie <lb/>sich hydrogen und
+                  kohlenstoff<lb break="no"/>haltig fast wie eine organische <lb/>Substanz: aber
                ich habe <lb/>ehemals deutliche
-                  feldspath-<lb/>artige zertrümmerte
+                  feldspath<g ref="#typoHyphen"/>
+                    <lb break="no"/>artige zertrümmerte
                Kristalle, <lb/>Bimsstein, darin gesehen. <lb/>Von Torf weiss man ohnedies <lb/>dort
                nichts. Die Indianer <lb/>kochten aber bei der <lb/>Moya noch zu meiner Zeit.
                <lb/>Sie schwelte ohne Flamme <lb/>wenn man sie entzündete. <lb/>Sollte es nothwendig
                sein <lb/>anzunehmen, dass die aus <lb/>der Tiefe aufquellende <lb/>Substanz sich an
                der <lb/>Oberfläche mit vegetabilischen <lb/>Theilen gemischt habe<supplied cert="high">.</supplied>
                <lb/>Dubito, die Mischung <lb/>ist zu innig wie ein <lb/>Pyrophor. Meine Bitte
-               <lb/>ist nun dass Sie das Kügel<lb/>chen Moya (sie ist sehr <lb/>selten)
-               microscopisch <lb/>untersuchen, ob Sie kris-<lb/>tallinische Theile und <lb/>organische? Fasern (die <lb/>kohlenstoffhaltigen!)
-               darin <lb/>erkennen. Heben Sie das <lb/>zermalmte ja auf damit <lb/>es <persName ref="http://d-nb.info/gnd/118602640">Rose</persName> auch sehen kann.
+               <lb/>ist nun dass Sie das Kügel<lb break="no"/>chen Moya (sie ist sehr <lb/>selten)
+               microscopisch <lb/>untersuchen, ob Sie kris<g ref="#typoHyphen"/>
+                    <lb break="no"/>tallinische Theile und <lb/>organische? Fasern (die <lb/>kohlenstoffhaltigen!)
+               darin <lb/>erkennen. Heben Sie das <lb/>zermalmte ja auf damit <lb/>es <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">Rose</persName> auch sehen kann.
                <lb/>Es muss übrigens noch ein Säkchen <lb/>Moya auf der <choice>
                   <abbr>kn.</abbr>
                   <expan>königlichen</expan>

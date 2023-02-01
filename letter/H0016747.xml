@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016747">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,31 +29,51 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1830]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016747">https://edition-humboldt.de/v8/H0016747</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016747</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016747</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016747.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1830]
-            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016747</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">22</idno>
+                     <idno type="shelfmark">421,
+                        Bl. 38r, 41v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1830" notAfter="1830" cert="low">1830-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: von fremder Hand datiert; lat. Schrift</note>
          </correspDesc>
@@ -75,24 +95,24 @@
                </address>
             </opener>
             <pb n="1v"/>
-                <p>Vielen Dank, mein lieber, <lb/>für den lustigen <ref xml:id="a92fe2c8-dbc5-4988-afe2-c8dbc599884f" corresp="#da1b6924-8e26-484b-9b69-248e26c84b9d">
-                        <persName ref="http://d-nb.info/gnd/118547739">Hegel</persName>
+                <p>Vielen Dank, mein lieber, <lb/>für den lustigen <ref xml:id="bf27dea7-bb8c-48e0-a7de-a7bb8c88e04d" corresp="#b1dd9107-16bb-4202-9d91-0716bb0202bf">
+                        <persName ref="https://editon-humboldt.de/H0011733 http://d-nb.info/gnd/118547739">Hegel</persName>
                     </ref>
-                    <note xml:id="da1b6924-8e26-484b-9b69-248e26c84b9d" corresp="#a92fe2c8-dbc5-4988-afe2-c8dbc599884f">Vgl. <bibl corresp="https://edition-humboldt.de/v8/R42W5BGL">Hegel
+                    <note xml:id="b1dd9107-16bb-4202-9d91-0716bb0202bf" corresp="#bf27dea7-bb8c-48e0-a7de-a7bb8c88e04d">Vgl. <bibl corresp="https://edition-humboldt.de/R42W5BGL">Hegel
                         1801</bibl>, MDCCCI</note>
-               <lb/>der zu einer Zeit wo Ceres <lb/>ihm unbewußt schon ent<lb/>dekt war,
+               <lb/>der zu einer Zeit wo Ceres <lb/>ihm unbewußt schon ent<lb break="no"/>dekt war,
                beweißt, daß <lb/>es keine Ceres geben kann. <lb/>
-                    <persName ref="http://d-nb.info/gnd/100050395">Bory <choice>
+                    <persName ref="https://editon-humboldt.de/H0003511 http://d-nb.info/gnd/100050395">Bory <choice>
                      <abbr>St</abbr>
                      <expan>Saint</expan>
                   </choice> Vincent</persName> ist nicht <lb/>gefährlich <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> niemand achtet <lb/>auf ihn in <placeName ref="https://www.geonames.org/2988507">Paris</placeName>,
-               nicht <lb/>mehr als jezt auf <persName ref="http://d-nb.info/gnd/119026015">Dutrochet</persName>, <lb/>und
-               ihre Entdekkungen <lb/>werden durch solche <ref xml:id="c14b6f4d-f10d-4014-8b6f-4df10de014b6" corresp="#d8f5bfad-efbb-4af4-b5bf-adefbb7af483">An<lb/>griffe wie durch <persName ref="http://d-nb.info/gnd/11669811X">Rüppel</persName>
+               </choice> niemand achtet <lb/>auf ihn in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>,
+               nicht <lb/>mehr als jezt auf <persName ref="https://editon-humboldt.de/H0012453 http://d-nb.info/gnd/119026015">Dutrochet</persName>, <lb/>und
+               ihre Entdekkungen <lb/>werden durch solche <ref xml:id="a8680cc3-e456-470b-a80c-c3e456f70bf6" corresp="#bc79db77-c70f-405f-b9db-77c70f505f95">An<lb break="no"/>griffe wie durch <persName ref="https://editon-humboldt.de/H0001143 http://d-nb.info/gnd/11669811X">Rüppel</persName>
                     </ref>
-                    <note xml:id="d8f5bfad-efbb-4af4-b5bf-adefbb7af483" corresp="#c14b6f4d-f10d-4014-8b6f-4df10de014b6">Vgl. <bibl corresp="https://edition-humboldt.de/v8/3SZBRX8V">Rüppell 1829</bibl>
+                    <note xml:id="bc79db77-c70f-405f-b9db-77c70f505f95" corresp="#a8680cc3-e456-470b-a80c-c3e456f70bf6">Vgl. <bibl corresp="https://edition-humboldt.de/3SZBRX8V">Rüppell 1829</bibl>
                   </note>, <lb/>ihren Glanz nicht verlieren<supplied cert="high">.</supplied>
                <lb/>Verzeihen <subst>
                   <del rendition="#ow">
@@ -102,7 +122,7 @@
                         </del>
                   <add place="across">Sie</add>
                </subst> daß meine <lb/>Potsdamer Reise mich <lb/>so spät erst von Ihrem
-               <lb/>freundlichen Anerbieten Ge<lb/>brauch machen
+               <lb/>freundlichen Anerbieten Ge<lb break="no"/>brauch machen
                   <supplied>lässt</supplied>, den rothen Schnee <lb/>zu sehen. Darf ich morgen
                <lb/>Freitags um 1. Uhr <note place="left" hand="#author">ein Uhr</note> kommen?</p>
               <closer rend="paragraph">

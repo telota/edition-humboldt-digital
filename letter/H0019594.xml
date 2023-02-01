@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019594">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,29 +28,46 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Otto Schomburgk. [Berlin, 7. Dezember 1848], hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019594">https://edition-humboldt.de/v8/H0019594</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019594</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019594</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019594.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Otto Schomburgk. [Berlin, 7. Dezember 1848]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019594</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Wellcome Library, London</institution>
+                        <collection/>
+                        <idno>MS.64689</idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1848-12-07" cert="low"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
+                    <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -63,7 +80,7 @@
                 <p>Wollen Sie mich gütigst besuchen<supplied cert="high">,</supplied>
                     <lb/>morgen Sonnabend um 1 Uhr. Man <lb/>ist sehr, sehr zufrieden mit den
                     <lb/>treflichen Sendungen Ihres jungen <lb/>
-                    <persName ref="http://d-nb.info/gnd/118759078">Bruders</persName>.</p>
+                    <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Bruders</persName>.</p>
                 <closer>AlHumboldt<dateline>Donnerstag</dateline>
                     <pb n="1v"/>
                     <gap reason="empty" unit="pages" quantity="1"/>

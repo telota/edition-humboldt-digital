@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004748">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -20,33 +20,42 @@
                         </resp>
                     </respStmt>
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (3. November 1827) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0004748">https://edition-humboldt.de/v8/H0004748</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0004748</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0004748</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004748.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1827. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0004748</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> H. beginnt an der <orgName ref="http://d-nb.info/gnd/1220138-8">Universität in Berlin</orgName> seine
+                <p> H. beginnt an der <orgName ref="https://editon-humboldt.de/H0000603 http://d-nb.info/gnd/1220138-8">Universität in Berlin</orgName> seine
                     Vorlesungen über physikalische Erdbeschreibung (später ‚Kosmos-Vorlesungen‘
                     genannt). Er hält insgesamt 62 Vorlesungen. Als Assistent fungiert der Physiker
-                        <persName ref="http://d-nb.info/gnd/117524832">Ernst Knorr</persName>. </p>
-                <p>Zu H.s Vorträgen an der Berliner Universität vgl. z. B. <persName ref="http://d-nb.info/gnd/104366508">Gustav Parthey</persName>s
-                    Nachschrift dieses Vortragszyklus: <bibl corresp="https://edition-humboldt.de/v8/W9WHBUGV">Parthey
+                        <persName ref="https://editon-humboldt.de/H0001388 http://d-nb.info/gnd/117524832">Ernst Knorr</persName>. </p>
+                <p>Zu H.s Vorträgen an der Berliner Universität vgl. z. B. <persName ref="https://editon-humboldt.de/H0001797 http://d-nb.info/gnd/104366508">Gustav Parthey</persName>s
+                    Nachschrift dieses Vortragszyklus: <bibl corresp="https://edition-humboldt.de/W9WHBUGV">Parthey
                         1827/1828</bibl>, online verfügbar <ref target="http://www.deutschestextarchiv.de/parthey_msgermqu1711_1828">im <hi rendition="#i">Deutschen Textarchiv</hi>
                 </ref>.</p>
             </body>

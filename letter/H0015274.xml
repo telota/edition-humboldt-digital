@@ -1,44 +1,61 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015274">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Dienstag, [26. März 1833]</title>
                 <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Dienstag, [26. März 1833], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015274">https://edition-humboldt.de/v8/H0015274</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015274</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015274</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015274.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Dienstag, [26. März 1833]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015274</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von
                         (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1833-03-26" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
                         (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
                 <note>Zur Datierung: Humboldt kündigt in einem auf Montag, 25. März 1833 datierten
-                    Schreiben an den Bibliothekar der Königlichen Bibliothek <persName ref="http://d-nb.info/gnd/10148772X">Eduard Buschmann</persName> an, sich bei Kunth über den
-                    Verbleib des im Brief erwähnten Werkes von <persName ref="http://d-nb.info/gnd/11698094X">William
+                    Schreiben an den Bibliothekar der Königlichen Bibliothek <persName ref="https://editon-humboldt.de/H0003808 http://d-nb.info/gnd/10148772X">Eduard Buschmann</persName> an, sich bei Kunth über den
+                    Verbleib des im Brief erwähnten Werkes von <persName ref="https://editon-humboldt.de/H0011993 http://d-nb.info/gnd/11698094X">William
                         Jackson Hooker</persName> zu erkundigen (Biblioteka Jagiellónska, Krakau,
-                    Nachlass Alexander von Humboldt Bd. 13/1 Bl. 9–10). Vgl. auch den <ref target="H0016422">Antwortbrief
+                    Nachlass Alexander von Humboldt Bd. 13/1 Bl. 9–10). Vgl. auch den <ref target="https://edition-humboldt.de/H0016422">Antwortbrief
                     Kunths vom 26. März 1833</ref>.</note>
             </correspDesc>
         </profileDesc>
@@ -56,20 +73,20 @@
                         <orig>uber</orig>
                         <reg>über</reg>
                     </choice>
-                    <bibl corresp="https://edition-humboldt.de/v8/NCV7AXGT">
-                        <persName ref="http://d-nb.info/gnd/11698094X">
+                    <bibl corresp="https://edition-humboldt.de/NCV7AXGT">
+                        <persName ref="https://editon-humboldt.de/H0011993 http://d-nb.info/gnd/11698094X">
                             <lb/>Hoockers</persName>
                    Botany of <lb/>
                         <choice>
                                 <abbr>Cap.</abbr>
                                 <expan>Captain</expan>
-                   </choice> <persName ref="http://d-nb.info/gnd/116107170">Beecheys</persName> Reise <lb/>um die Welt</bibl>
-                    <lb/>die mir die <orgName ref="http://d-nb.info/gnd/37101-4">
+                   </choice> <persName ref="https://editon-humboldt.de/H0003197 http://d-nb.info/gnd/116107170">Beecheys</persName> Reise <lb/>um die Welt</bibl>
+                    <lb/>die mir die <orgName ref="https://editon-humboldt.de/H0000561 http://d-nb.info/gnd/37101-4">
                         <choice>
                             <orig>Bibl.</orig>
                             <reg>Bibliothek</reg>
                         </choice>
-                    </orgName> ab<lb/>fordert. Hätte ich <lb/>das Buch nicht
+                    </orgName> ab<lb break="no"/>fordert. Hätte ich <lb/>das Buch nicht
                     Ihnen <lb/>geliehen? Dankbarst <lb/>Ihr </p>
             </div>
             <div type="writingSession">
@@ -84,13 +101,13 @@
                     <choice>
                         <abbr>B</abbr>
                         <expan>Band</expan>
-                    </choice> 8. <ref xml:id="ad8dffdb-9bb0-4eab-8dff-db9bb09eab1a" corresp="#e47a502d-9abe-4e31-ba50-2d9abe6e3155">Ein elender <lb/>Aufsaz</ref>
-                    <note xml:id="e47a502d-9abe-4e31-ba50-2d9abe6e3155" corresp="#ad8dffdb-9bb0-4eab-8dff-db9bb09eab1a">Wohl <bibl corresp="https://edition-humboldt.de/v8/IIR7MPHB">Dumortier 1832.</bibl>
+                    </choice> 8. <ref xml:id="be836a4b-b171-4c36-836a-4bb1711c36c4" corresp="#a6658da8-be38-43e1-a58d-a8be3823e1d2">Ein elender <lb/>Aufsaz</ref>
+                    <note xml:id="a6658da8-be38-43e1-a58d-a8be3823e1d2" corresp="#be836a4b-b171-4c36-836a-4bb1711c36c4">Wohl <bibl corresp="https://edition-humboldt.de/IIR7MPHB">Dumortier 1832.</bibl>
                     </note> sehr <choice>
                         <orig>unfranzosisch</orig>
                         <reg>unfranzösisch</reg>
                     </choice>
-                    <lb/>(<hi rendition="#u">motilité</hi>) von <persName ref="http://d-nb.info/gnd/116250992">Dumor<lb/>tier</persName>.</p>
+                    <lb/>(<hi rendition="#u">motilité</hi>) von <persName ref="https://editon-humboldt.de/H0012428 http://d-nb.info/gnd/116250992">Dumor<lb break="no"/>tier</persName>.</p>
                 <p>
                     <address>
                         <addrLine>

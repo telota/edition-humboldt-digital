@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019452">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Timkovskij, Egor Fedorovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Timkovskij, Egor Fedorovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019452.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019452.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019452.xml">
-                    <p>Timkovskij, Egor Fedorovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019452.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0019452">
+                <person>
                     <idno type="uri">https://d-nb.info/gnd/1158242948</idno>
                     <persName type="reg">
                         <surname>Timkovskij</surname>
@@ -50,7 +55,7 @@
                     <birth>1790</birth>
                     <death>1875</death>
                     <note>Russischer Diplomat und Forschungsreisender; 1820–1821 Reise nach
-                            <placeName key="H0007396">China</placeName> durch die <placeName key="H0008937">Mongolei</placeName>, veröffentlichte seinen Bericht 1824
+                            <placeName ref="https://editon-humboldt.de/H0007396 https://www.geonames.org/1814991">China</placeName> durch die <placeName ref="https://editon-humboldt.de/H0008937 https://www.geonames.org/2029969">Mongolei</placeName>, veröffentlichte seinen Bericht 1824
                         in zwei Bänden</note>
                 </person>
             </listPerson>

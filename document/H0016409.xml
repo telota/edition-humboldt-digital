@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016409">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,15 +28,20 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von; Kunth, Carl Sigismund: F – Énumération des Plantes de la Province de Quito, hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016409">https://edition-humboldt.de/v8/H0016409</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016409</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016409</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016409.xml</idno>
             </publicationStmt>
             <notesStmt>
@@ -49,9 +54,9 @@
                         gemäßigte Region von 1100 bis 1600 Toisen (circa 2100 bis 3100 Meter) und
                         kalte Region von 1600 bis 2460 Toisen (circa 3100 bis 4800 Meter). Die Arten
                         und Höhenangaben entnahm Humboldt den Bänden der „Nova genera et species
-                        plantarum“ (<bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth
+                        plantarum“ (<bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth
                             1815–1825</bibl>) bis zur 29. Lieferung (Schluss des 6. Bandes), die im
-                        September/Oktober 1824 erschien (vgl. <bibl corresp="https://edition-humboldt.de/v8/384RP7BM">Fiedler/Leitner 2000</bibl>, 313). Möglicherweise bildet diese
+                        September/Oktober 1824 erschien (vgl. <bibl corresp="https://edition-humboldt.de/384RP7BM">Fiedler/Leitner 2000</bibl>, 313). Möglicherweise bildet diese
                         Zusammenstellung eine Vorstufe zur „Distributio Geographica Plantarum
                         Aequinoctialium Orbis Novi“, dem letzten, den Regionalfloren gewidmeten
                         Abschnitt des 7. Bandes der „Nova genera“. Dort findet sich die Flora
@@ -62,23 +67,37 @@
                         hatten, konnten sie dort auch nur entsprechend wenig Arten aufnehmen.
                         Ähnlich verhielt es sich mit der kalten Region. Aussagen über die
                         Verhältnisse der Pflanzenfamilien ließen sich daher höchstens für die
-                        gemäßigte Region treffen (siehe dazu auch <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth
-                        1815–1825</bibl>, VII, 379). In der <ref target="H0000005">Ideensammlung zur
+                        gemäßigte Region treffen (siehe dazu auch <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth
+                        1815–1825</bibl>, VII, 379). In der <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur
                             Neuausgabe der Geographie der Pflanzen</ref> trägt das vorliegende
                         Dokument die Nummer 15 und die Bezeichnung „Flor von Quito“ (Sigle <ref type="siglum" xml:id="ed_fwx_l5b_bbb" target="#Geographie_der_Pflanzen_F">F</ref>).</p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>F – Énumération des Plantes de la Province de Quito. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016409</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 33, Bl. 1–6</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1035563</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date cert="high" notAfter="1824-11-30" notBefore="1824-09-30"/>
             </creation>
         </profileDesc>
@@ -90,7 +109,7 @@
                 <p>
                     <ref type="siglum" xml:id="ed_g4z_xll_j1b" target="#Geographie_der_Pflanzen_F">F</ref>
                 </p>
-                <p>Énumération <lb/>des <lb/>Plantes de la <placeName ref="https://www.geonames.org/3653224">
+                <p>Énumération <lb/>des <lb/>Plantes de la <placeName ref="https://editon-humboldt.de/H0010784 https://www.geonames.org/3653224">
                         <choice>
                             <abbr>Prov.</abbr>
                             <expan>Province</expan>
@@ -103,16 +122,17 @@
                 <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000001.jpg" n="1r"/>
                 <p>Relevé de nos plantas de
                         <lb/>la
-                        <placeName ref="https://www.geonames.org/3653224">
+                        <placeName ref="https://editon-humboldt.de/H0010784 https://www.geonames.org/3653224">
                         <choice>
                             <abbr>Prov.</abbr>
                             <expan>Province</expan>
-                        </choice> de Quito</placeName> sans la <placeName ref="https://www.geonames.org/3696150">
+                        </choice> de Quito</placeName> sans la <placeName ref="https://editon-humboldt.de/H0006541 https://www.geonames.org/3696150">
                         <lb/>
                         <choice>
                             <abbr>Prov.</abbr>
                             <expan>Province</expan>
-                        </choice> de Jaén de Braca-<lb/>moros</placeName>.</p>
+                        </choice> de Jaén de Braca<g ref="#typoHyphen"/>
+                        <lb break="no"/>moros</placeName>.</p>
                 <milestone rendition="#hr" unit="section"/>
                 <p>
                     <choice>
@@ -128,7 +148,7 @@
                         <supplied cert="high">,</supplied>
                         <lb/>
                     </measure>dont 61 seules au<supplied cert="high">-</supplied>
-                    <lb/>dessus de <measure quantity="2000" unit="toise">2000 <choice>
+                    <lb break="no"/>dessus de <measure quantity="2000" unit="toise">2000 <choice>
                             <abbr>t</abbr>
                             <expan>toises</expan>
                         </choice>
@@ -167,10 +187,10 @@
                     </choice> voit combien les <lb/>chances inégales, nous <lb/>n’avons fait aucun
                     <lb/>séjour dans les Plaines, <lb/>on n’a pas recueilli <lb/>ce que l’on avoit
                     de <lb/>
-                    <placeName ref="https://www.geonames.org/3652462">Quito</placeName>, presque pas <lb/>recueilli
+                    <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName>, presque pas <lb/>recueilli
                     de Mimoses<supplied cert="high">,</supplied>
-                    <lb/>presque pas de Melas<lb/>tomacées! Donc il <lb/>seroit faux de
-                    tirer <lb/>des conclusions sur propor<lb/>tions des familles<supplied cert="high">,</supplied> on <lb/>ne pourroit le faire que <lb/>pour la <hi rendition="#u">zone tempérée</hi>
+                    <lb/>presque pas de Melas<lb break="no"/>tomacées! Donc il <lb/>seroit faux de
+                    tirer <lb/>des conclusions sur propor<lb break="no"/>tions des familles<supplied cert="high">,</supplied> on <lb/>ne pourroit le faire que <lb/>pour la <hi rendition="#u">zone tempérée</hi>
                     <lb/>au plus<supplied cert="high">.</supplied> Nous n’avons <lb/>pas ⅓ des
                     plantes <choice>
                         <abbr>temp</abbr>
@@ -217,9 +237,9 @@
                     <hi rendition="#u">minimum</hi>
                 </p>
                 <p>
-                    <placeName ref="https://www.geonames.org/3017382">France</placeName> 3400 <lb/>phanérogames</p>
+                    <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">France</placeName> 3400 <lb/>phanérogames</p>
                 <p>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName> 1500 <choice>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> 1500 <choice>
                         <abbr>phan</abbr>
                         <expan>phanérogames</expan>
                     </choice>
@@ -249,21 +269,21 @@
                             <lb/>ne</orig>
                         <reg>Ne</reg>
                     </choice> doivent<supplied cert="high">-</supplied>elles pas <lb/>être
-                    nombreuses lorsqu’<lb/>on réfléchit que nous <lb/>en avons ramassé 60
+                    nombreuses lorsqu’<lb break="no"/>on réfléchit que nous <lb/>en avons ramassé 60
                     <lb/>espèces dans les peu <lb/>d’heures que nous <lb/>avons été à cette
                     <lb/>hauteur.</p>
                 <p>Demandez à <hi rendition="#u">
-                        <persName ref="http://d-nb.info/gnd/116505575">Richard</persName>
+                        <persName ref="https://editon-humboldt.de/H0016229 http://d-nb.info/gnd/116505575">Richard</persName>
                     </hi>
                     <lb/>combien une seule <lb/>personne ramasse<supplied cert="high">,</supplied>
                     la <lb/>première année des <lb/>1500<supplied cert="high">,</supplied>
-                    phanérogames <lb/>de<placeName ref="https://www.geonames.org/2988507"> Paris</placeName>?</p>
+                    phanérogames <lb/>de<placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507"> Paris</placeName>?</p>
                 <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000003.jpg" n="2r"/>
                 <p>
                     <list>
                         <item>
                             <name type="plant">Galactia glaucescens</name>
-                            <lb/>prope <placeName ref="https://www.geonames.org/3653275">Penipe</placeName>
+                            <lb/>prope <placeName ref="https://editon-humboldt.de/H0008205 https://www.geonames.org/3653275">Penipe</placeName>
                             <measure quantity="1240" unit="toise">1240 <choice>
                                     <abbr>hex</abbr>
                                     <expan>hexapodes</expan>
@@ -277,7 +297,7 @@
                                 <p>– L
                                     Leci</p>
                             </note>
-                            <lb/>prope <placeName ref="https://www.geonames.org/3658666">Cuenca</placeName>
+                            <lb/>prope <placeName ref="https://editon-humboldt.de/H0007658 https://www.geonames.org/3658666">Cuenca</placeName>
                             <measure quantity="1350" unit="toise">1350 <choice>
                                     <abbr>hex.</abbr>
                                     <expan>hexapodes</expan>
@@ -287,7 +307,7 @@
                         <item>
                             <name type="plant">Tephrosia astragalina</name>
                             <lb/>
-                            <placeName ref="https://www.geonames.org/3653275">Penipe</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008205 https://www.geonames.org/3653275">Penipe</placeName>
                             <measure quantity="1308" unit="toise">1308 <choice>
                                     <abbr>hex</abbr>
                                     <expan>hexapodes</expan>
@@ -301,7 +321,7 @@
                                 <expan>Lamarck</expan>
                             </choice>
                             <lb/>
-                            <placeName ref="https://www.geonames.org/3660594">Antisana</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">Antisana</placeName>
                             <choice>
                                 <abbr>alt.</abbr>
                                 <expan>altitudine</expan>
@@ -349,14 +369,14 @@
                     <list>
                         <item>
                             <name type="plant">Polypodium tenuifolium</name>
-                            <placeName ref="https://www.geonames.org/3754871">Tunguragua</placeName> I 9. (<measure quantity="1658" unit="toise">1658 <choice>
+                            <placeName ref="https://editon-humboldt.de/H0009574 https://www.geonames.org/3754871">Tunguragua</placeName> I 9. (<measure quantity="1658" unit="toise">1658 <choice>
                                     <abbr>t.</abbr>
                                     <expan>toises</expan>
                                 </choice>
                             </measure>)</item>
                         <item>
                             <name type="plant">Gleichenia revoluta</name>
-                            <placeName ref="https://www.geonames.org/3653224">Quito</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0010784 https://www.geonames.org/3653224">Quito</placeName>
                             <measure quantity="1560" unit="toise">1560 <choice>
                                     <abbr>t.</abbr>
                                     <expan>toises</expan>
@@ -369,7 +389,7 @@
                                     <add place="intralinear">crassum</add>
                                 </subst>
                             </name>
-                            <placeName ref="https://www.geonames.org/3660594">Antisana</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">Antisana</placeName>
                             <measure quantity="2218" unit="toise">2218 <choice>
                                     <abbr>t</abbr>
                                     <expan>toises</expan>
@@ -671,7 +691,8 @@
                                 <choice>
                                     <orig>—</orig>
                                     <reg>Calceoloaria</reg>
-                                </choice> rosmarinifo-<lb/>lia</name>
+                                </choice> rosmarinifo<g ref="#typoHyphen"/>
+                                <lb break="no"/>lia</name>
                             <measure quantity="1800" unit="toise">1800 <choice>
                                     <abbr>t</abbr>
                                     <expan>toises</expan>
@@ -699,7 +720,7 @@
                             </measure>
                         </item>
                         <item>
-                            <name type="plant">Sibthorpia pichin<lb/>chensis</name>
+                            <name type="plant">Sibthorpia pichin<lb break="no"/>chensis</name>
                             <measure quantity="1800" unit="toise">1800 <choice>
                                     <abbr>t</abbr>
                                     <expan>toises</expan>
@@ -709,13 +730,13 @@
                     </list>
                 </p>
                 <p>
-                    <ref xml:id="e916dd40-000e-4850-96dd-40000ea850ac" corresp="#b856b5ff-72c7-4830-96b5-ff72c77830d3">
+                    <ref xml:id="be72e217-7bc2-4daf-b2e2-177bc26dafbc" corresp="#f99af762-550e-4c8d-9af7-62550e0c8d17">
                         <choice>
                                 <abbr>T</abbr>
                                 <expan>Tome</expan>
                             </choice> III</ref>
-                    <note xml:id="b856b5ff-72c7-4830-96b5-ff72c77830d3" corresp="#e916dd40-000e-4850-96dd-40000ea850ac">
-                        <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, III. </note>
+                    <note xml:id="f99af762-550e-4c8d-9af7-62550e0c8d17" corresp="#be72e217-7bc2-4daf-b2e2-177bc26dafbc">
+                        <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, III. </note>
                 </p>
                 <p>
                     <list>
@@ -974,13 +995,13 @@
                     </list>
                 </p>
                 <p>Composées <lb/>
-                    <ref xml:id="afa1b8a0-a007-4f5a-a1b8-a0a0074f5a33" corresp="#e2b7e516-4966-426f-b7e5-164966726f5f">
+                    <ref xml:id="bcd9d27f-1bce-4d8b-99d2-7f1bce9d8b88" corresp="#cda46432-4dad-43da-a464-324dad93da35">
                         <choice>
                                 <abbr>T</abbr>
                                 <expan>Tome</expan>
                             </choice> IV</ref>
-                    <note xml:id="e2b7e516-4966-426f-b7e5-164966726f5f" corresp="#afa1b8a0-a007-4f5a-a1b8-a0a0074f5a33">
-                        <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, IV.</note>
+                    <note xml:id="cda46432-4dad-43da-a464-324dad93da35" corresp="#bcd9d27f-1bce-4d8b-99d2-7f1bce9d8b88">
+                        <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, IV.</note>
                 </p>
                 <p>
                     <list>
@@ -1058,7 +1079,7 @@
                             <measure quantity="1800" unit="toise">1800</measure>
                         </item>
                         <item>
-                            <name type="plant">Diplostephium lavand<lb/>dulifolium</name>
+                            <name type="plant">Diplostephium lavand<lb break="no"/>dulifolium</name>
                             <measure quantity="1600" unit="toise">1600.</measure>
                         </item>
                         <item>
@@ -1160,8 +1181,8 @@
                             <measure quantity="1700" unit="toise">1700</measure>
                         </item>
                         <item>
-                            <name type="plant">Culcitium ledifo<lb/>lium</name>
-                            <measure quantity="2300" unit="toise">2300</measure>–<lb/>
+                            <name type="plant">Culcitium ledifo<lb break="no"/>lium</name>
+                            <measure quantity="2300" unit="toise">2300</measure>–<lb break="no"/>
                             <measure quantity="2400" unit="toise">2400</measure>
                         </item>
                         <item>
@@ -1290,7 +1311,8 @@
                             </measure>
                         </item>
                         <item>
-                            <name type="plant">Wiborgia urti-<lb/>caefolia</name>
+                            <name type="plant">Wiborgia urti<g ref="#typoHyphen"/>
+                                <lb break="no"/>caefolia</name>
                             <measure quantity="1700" unit="toise">
                                 <lb/>1700</measure>
                         </item>
@@ -1298,11 +1320,11 @@
                             <name type="plant">Cacosmia <lb/>rugosa</name>
                             <measure quantity="1700" unit="toise">1700 <lb/>
                             </measure>
-                            <name type="plant">Hippia peduncu<lb/>laris</name>
+                            <name type="plant">Hippia peduncu<lb break="no"/>laris</name>
                             <measure quantity="1800" unit="toise">1800</measure>
                         </item>
                         <item>
-                            <name type="plant">Homanthis pinna<lb/>tifidus</name>
+                            <name type="plant">Homanthis pinna<lb break="no"/>tifidus</name>
                             <measure quantity="1970" unit="toise">1970 <choice>
                                     <abbr>t</abbr>
                                     <expan>toises</expan>
@@ -1316,7 +1338,8 @@
                             <measure quantity="2100" unit="toise">2100</measure>
                         </item>
                         <item>
-                            <name type="plant">Fragosa aretioi-<lb/>des</name>
+                            <name type="plant">Fragosa aretioi<g ref="#typoHyphen"/>
+                                <lb break="no"/>des</name>
                             <measure quantity="2100" unit="toise">2100.</measure>
                         </item>
                         <item>
@@ -1333,7 +1356,8 @@
                             </measure>
                         </item>
                         <item>
-                            <name type="plant">Ranunculus nu-<lb/>bigenus</name>
+                            <name type="plant">Ranunculus nu<g ref="#typoHyphen"/>
+                                <lb break="no"/>bigenus</name>
                             <measure quantity="2100" unit="toise">2100 <choice>
                                     <abbr>t</abbr>
                                     <expan>toises</expan>
@@ -1512,7 +1536,8 @@
                             </measure>
                         </item>
                         <item>
-                            <name type="plant">Arenaria tetra-<lb/>gyna</name>
+                            <name type="plant">Arenaria tetra<g ref="#typoHyphen"/>
+                                <lb break="no"/>gyna</name>
                             <measure quantity="2200" unit="toise">2200</measure>
                         </item>
                         <item>
@@ -1521,7 +1546,7 @@
                                     <orig>—</orig>
                                     <reg>Arenaria</reg>
                                 </choice> serpens</name>
-                            <placeName ref="https://www.geonames.org/3659238">
+                            <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">
                                 <lb/>
                                 <choice>
                                     <abbr>Chimb.</abbr>
@@ -1587,7 +1612,7 @@
                             <measure quantity="1700" unit="toise">1700</measure>
                         </item>
                         <item>
-                            <name type="plant">Osteomeles ferru<lb/>ginea</name>
+                            <name type="plant">Osteomeles ferru<lb break="no"/>ginea</name>
                             <lb/>
                             <measure quantity="1600" unit="toise">1600</measure>
                         </item>
@@ -1618,7 +1643,7 @@
                         </item>
                         <item>
                             <name type="plant">Polylepis lanuginosa</name>
-                            <lb/>(<placeName ref="https://www.geonames.org/3659238">
+                            <lb/>(<placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">
                                 <hi rendition="#u">
                                     <choice>
                                         <abbr>Chimb</abbr>
@@ -1630,12 +1655,12 @@
                         <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000017.jpg" n="3f-r"/>
                         <item>
                             <name type="plant">Racodium rupestre</name>
-                            <persName ref="http://d-nb.info/gnd/116091509">
+                            <persName ref="https://editon-humboldt.de/H0001891 http://d-nb.info/gnd/116091509">
                                 <choice>
                                     <abbr>Pers. </abbr>
                                     <expan>Persoon</expan>
                                 </choice>
-                            </persName>(<placeName ref="https://www.geonames.org/3660594">Antisana</placeName>). <measure quantity="2250" unit="toise">2250 <choice>
+                            </persName>(<placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">Antisana</placeName>). <measure quantity="2250" unit="toise">2250 <choice>
                                     <abbr>hex</abbr>
                                     <expan>hexapodes</expan>
                                 </choice>
@@ -1643,21 +1668,21 @@
                         </item>
                         <item>
                             <name type="plant">Gyrophora tessellata</name>. <add place="sublinear">
-                                <persName ref="http://d-nb.info/gnd/128995211">
+                                <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                     <choice>
                                         <abbr>ach.</abbr>
                                         <expan>Acharius</expan>
                                     </choice>
                                 </persName>
                             </add>
-                            <placeName ref="https://www.geonames.org/3754875">Cotopaxi</placeName> prope <placeName ref="https://www.geonames.org/3658769">Suniguaicu</placeName>)</item>
+                            <placeName ref="https://editon-humboldt.de/H0007607 https://www.geonames.org/3754875">Cotopaxi</placeName> prope <placeName ref="https://editon-humboldt.de/H0010402 https://www.geonames.org/3658769">Suniguaicu</placeName>)</item>
                         <item>
                             <name type="plant">
                                 <choice>
                                     <abbr>G.</abbr>
                                     <expan>Gyrophora </expan>
                                 </choice>cylindrica</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>ach.</abbr>
                                     <expan>Acharius</expan>
@@ -1695,13 +1720,13 @@
                                     <sic>flavescens</sic>
                                     <corr cert="high">flavicans</corr>
                                 </choice>
-                            </name>. <persName ref="http://d-nb.info/gnd/128995211">
+                            </name>. <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>ach.</abbr>
                                     <expan>Acharius</expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3657683">Pichincha</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008253 https://www.geonames.org/3657683">Pichincha</placeName>
                             <choice>
                                 <abbr>alt.</abbr>
                                 <expan>altitudo</expan>
@@ -1710,13 +1735,13 @@
                         </item>
                         <item>
                             <name type="plant">Sticta fuliginosa</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>ach.</abbr>
                                     <expan>Acharius</expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3657683">Pichincha </placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008253 https://www.geonames.org/3657683">Pichincha </placeName>
                             <choice>
                                 <abbr>alt.</abbr>
                                 <expan>altitudo</expan>
@@ -1737,35 +1762,35 @@
                                     <del rendition="#s">Cenomyce</del>
                                     <add place="superlinear">Cenomyce</add>
                                 </subst> vermicularis</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>ach.</abbr>
                                     <expan>Acharius</expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3660594">Antisana</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">Antisana</placeName>
                             <measure quantity="2490" unit="toise">2490</measure>
                         </item>
                         <item>
                             <name type="plant">Baeomyces fungoides</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>ach.</abbr>
                                     <expan>Acharius</expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3657621">Guamote</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0011013 https://www.geonames.org/3657621">Guamote</placeName>
                             <measure quantity="1600" unit="toise">1600</measure>
                         </item>
                         <item>
                             <name type="plant">Stereocaulon botryosum</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>ach.</abbr>
                                     <expan>Acharius</expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3660594">Antisana</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">Antisana</placeName>
                             <measure quantity="2490" unit="toise">2490</measure>
                         </item>
                         <item rendition="#s">
@@ -1774,22 +1799,22 @@
                         </item>
                         <item>
                             <name type="plant">Usnea melaxantha</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>ach.</abbr>
                                     <expan>Acharius</expan>
                                 </choice>
-                            </persName> (<placeName ref="https://www.geonames.org/3660594">Antisana</placeName>
+                            </persName> (<placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">Antisana</placeName>
                             <measure quantity="1880" unit="toise">1880</measure>)</item>
                         <item>
                             <name type="plant">Collema spongiosum</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>ach.</abbr>
                                     <expan>Acharius</expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3657683">Pichincha</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008253 https://www.geonames.org/3657683">Pichincha</placeName>
                             <measure quantity="2402" unit="toise">2402</measure>
                         </item>
                         <item rendition="#s">
@@ -1806,14 +1831,14 @@
                             <subst>
                                 <del rendition="#s">ach</del>
                                 <add place="superlinear">
-                                    <persName ref="http://d-nb.info/gnd/11698094X">
+                                    <persName ref="https://editon-humboldt.de/H0011993 http://d-nb.info/gnd/11698094X">
                                         <choice>
                                             <abbr>Hook.</abbr>
                                             <expan>Hooker</expan>
                                         </choice>
                                     </persName>
                                 </add>
-                            </subst> (<placeName ref="https://www.geonames.org/3657683">Pichincha</placeName>
+                            </subst> (<placeName ref="https://editon-humboldt.de/H0008253 https://www.geonames.org/3657683">Pichincha</placeName>
                             <choice>
                                 <abbr>alt.</abbr>
                                 <expan>altitudo</expan>
@@ -1829,13 +1854,13 @@
                                     <add place="intralinear">juniperinum</add>
                                 </subst>
                             </name>
-                            <persName ref="http://d-nb.info/gnd/130652865">
+                            <persName ref="https://editon-humboldt.de/H0011729 http://d-nb.info/gnd/130652865">
                                 <choice>
                                     <abbr>Hedw.</abbr>
                                     <expan>Hedwig</expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3660594">Antisana</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">Antisana</placeName>
                             <measure quantity="2350" unit="toise">2350 <choice>
                                     <abbr>hex.</abbr>
                                     <expan>hexapodes</expan>
@@ -1868,7 +1893,7 @@
                 <p>
                     <list>
                         <item rendition="#s">
-                            <del rendition="#s">Bryum megalocarpum inter <placeName ref="https://www.geonames.org/3650472">Tulcans</placeName> et <placeName ref="https://www.geonames.org/3652462">Quito</placeName>
+                            <del rendition="#s">Bryum megalocarpum inter <placeName ref="https://editon-humboldt.de/H0009554 https://www.geonames.org/3650472">Tulcans</placeName> et <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName>
                             </del>
                         </item>
                         <item rendition="#s">
@@ -1887,7 +1912,7 @@
                                     <del rendition="#s">angustifolium</del>
                                 </expan>
                             </choice>
-                            <persName ref="http://d-nb.info/gnd/117384836">
+                            <persName ref="https://editon-humboldt.de/H0016188 http://d-nb.info/gnd/117384836">
                                 <choice>
                                     <abbr>
                                         <del rendition="#s">Sw.</del>
@@ -1897,11 +1922,11 @@
                                     </expan>
                                 </choice>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3660798">
+                            <placeName ref="https://editon-humboldt.de/H0002368 https://www.geonames.org/3660798">
                                 <del rendition="#s">Alausí</del>
                             </placeName>
                             <del rendition="#s">
-                                <placeName ref="https://www.geonames.org/3652665">Pumallacta</placeName> 1450</del>
+                                <placeName ref="https://editon-humboldt.de/H0008469 https://www.geonames.org/3652665">Pumallacta</placeName> 1450</del>
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Polypodium </del>
@@ -1914,7 +1939,7 @@
                                 </expan>
                             </choice>
                             <del rendition="#s"> </del>
-                            <persName ref="http://d-nb.info/gnd/117387436">
+                            <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">
                                 <choice>
                                     <abbr>
                                         <del rendition="#s">W.</del>
@@ -1925,14 +1950,14 @@
                                 </choice>
                             </persName>
                             <del rendition="#s"> (</del>
-                            <placeName ref="https://www.geonames.org/3754871">
+                            <placeName ref="https://editon-humboldt.de/H0009574 https://www.geonames.org/3754871">
                                 <del rendition="#s">Tunguragua </del>
                             </placeName>
                             <del rendition="#s">1658)</del>
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Pteris sagittata </del>
-                            <persName ref="http://d-nb.info/gnd/117384836">
+                            <persName ref="https://editon-humboldt.de/H0016188 http://d-nb.info/gnd/117384836">
                                 <choice>
                                     <abbr>
                                         <del rendition="#s">Sw.</del>
@@ -1943,7 +1968,7 @@
                                 </choice>
                             </persName>
                             <del rendition="#s"> </del>
-                            <placeName ref="https://www.geonames.org/3659251">
+                            <placeName ref="https://editon-humboldt.de/H0007379 https://www.geonames.org/3659251">
                                 <choice>
                                     <sic>
                                         <del rendition="#s">Chilo</del>
@@ -1973,7 +1998,7 @@
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Lomaria angustifolia </del>
-                            <placeName ref="https://www.geonames.org/3655673">
+                            <placeName ref="https://editon-humboldt.de/H0006637 https://www.geonames.org/3655673">
                                 <del rendition="#s">Ibarra</del>
                             </placeName>
                             <del rendition="#s"> 1184</del>
@@ -1984,17 +2009,17 @@
                                     <expan>altitudo</expan>
                                 </choice>
                             </del>
-                            <placeName ref="https://www.geonames.org/3653275">
+                            <placeName ref="https://editon-humboldt.de/H0008205 https://www.geonames.org/3653275">
                                 <del rendition="#s">Penipe</del>
                             </placeName>
                             <del rendition="#s"> 1300</del>
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Gleichenia revoluta (</del>
-                            <placeName ref="https://www.geonames.org/3651245">
+                            <placeName ref="https://editon-humboldt.de/H0010116 https://www.geonames.org/3651245">
                                 <del rendition="#s">Saraguru</del>
                             </placeName>
-                            <del rendition="#s"> et <placeName ref="https://edition-humboldt.de/v8/H0008465">Pulla</placeName> 1560 </del>
+                            <del rendition="#s"> et <placeName ref="https://editon-humboldt.de/H0008465">Pulla</placeName> 1560 </del>
                             <choice>
                                 <abbr>
                                     <del rendition="#s">hex</del>
@@ -2007,7 +2032,7 @@
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Lycopodium crassum ( </del>
-                            <placeName ref="https://edition-humboldt.de/v8/H0007462">
+                            <placeName ref="https://editon-humboldt.de/H0007462">
                                 <del rendition="#s">Chussulongo</del>
                             </placeName>
                             <del rendition="#s"> 2218 </del>
@@ -2023,7 +2048,7 @@
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Lycopodium linifolium </del>
-                            <persName ref="http://d-nb.info/gnd/118573349">
+                            <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                                 <choice>
                                     <abbr>
                                         <del rendition="#s">L.</del>
@@ -2034,7 +2059,7 @@
                                 </choice>
                                 <del rendition="#s"> </del>
                             </persName>
-                            <placeName ref="https://www.geonames.org/3655673">
+                            <placeName ref="https://editon-humboldt.de/H0006637 https://www.geonames.org/3655673">
                                 <del rendition="#s">Ibarra </del>
                             </placeName>
                             <del rendition="#s">980 </del>
@@ -2049,7 +2074,7 @@
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Piper tumidum in montanis </del>
-                            <placeName ref="https://www.geonames.org/3653224">
+                            <placeName ref="https://editon-humboldt.de/H0010784 https://www.geonames.org/3653224">
                                 <del rendition="#s">Regni Quitensis</del>
                             </placeName>
                             <del rendition="#s"> </del>
@@ -2073,7 +2098,7 @@
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Piper piluliferum </del>
-                            <placeName ref="https://www.geonames.org/3658666">
+                            <placeName ref="https://editon-humboldt.de/H0007658 https://www.geonames.org/3658666">
                                 <del rendition="#s">Cuenca</del>
                             </placeName>
                             <del rendition="#s"> </del>
@@ -2097,18 +2122,18 @@
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Piper barbatum inter </del>
-                            <placeName ref="https://edition-humboldt.de/v8/H0011466">
+                            <placeName ref="https://editon-humboldt.de/H0011466">
                                 <del rendition="#s">Lloa</del>
                             </placeName>
                             <del rendition="#s"> et </del>
-                            <placeName ref="https://www.geonames.org/3652462">
+                            <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">
                                 <del rendition="#s">Quito</del>
                             </placeName>
                             <del rendition="#s"> 1492</del>
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Peperomia peploides </del>
-                            <placeName ref="https://www.geonames.org/3653962">
+                            <placeName ref="https://editon-humboldt.de/H0009038 https://www.geonames.org/3653962">
                                 <del rendition="#s">Mulalo </del>
                             </placeName>
                             <del rendition="#s">1590</del>
@@ -2116,20 +2141,20 @@
                         <item rendition="#s">
                             <del rendition="#s">
                                 <gap quantity="1" unit="words"/> Cyperus aureus </del>
-                            <placeName ref="https://www.geonames.org/3657509">
+                            <placeName ref="https://editon-humboldt.de/H0011115 https://www.geonames.org/3657509">
                                 <del rendition="#s">Guayaquil</del>
                             </placeName>
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Mariscus polyphyllus </del>
-                            <placeName ref="https://www.geonames.org/3659251">
+                            <placeName ref="https://editon-humboldt.de/H0007379 https://www.geonames.org/3659251">
                                 <del rendition="#s">Chillo</del>
                             </placeName>
                             <del rendition="#s"> 1350</del>
                         </item>
                         <item rendition="#s">
                             <del rendition="#s">Papyrus comosa </del>
-                            <placeName ref="https://www.geonames.org/3657509">
+                            <placeName ref="https://editon-humboldt.de/H0011115 https://www.geonames.org/3657509">
                                 <del rendition="#s">Guayaquil</del>
                             </placeName>
                         </item>
@@ -2400,13 +2425,13 @@
                 </p>
                 <p>
                     <pb facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366236/1200/0/00000023.jpg" n="4b-r"/>
-                    <ref xml:id="a98590c7-445b-4acb-8590-c7445b0acbce" corresp="#a64d58bf-79fb-4335-8d58-bf79fb233500">
+                    <ref xml:id="b27a3d93-33e8-45b8-ba3d-9333e8a5b8b0" corresp="#e6dcdff7-e944-411f-9cdf-f7e944b11fb5">
                         <choice>
                                 <abbr>T</abbr>
                                 <expan>Tome</expan>
                             </choice> III</ref>
-                    <note xml:id="a64d58bf-79fb-4335-8d58-bf79fb233500" corresp="#a98590c7-445b-4acb-8590-c7445b0acbce">
-                        <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, III.</note>
+                    <note xml:id="e6dcdff7-e944-411f-9cdf-f7e944b11fb5" corresp="#b27a3d93-33e8-45b8-ba3d-9333e8a5b8b0">
+                        <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, III.</note>
                 </p>
                 <p>
                     <list>
@@ -2642,7 +2667,8 @@
                                 <subst>
                                     <del rendition="#s">Ac</del>
                                     <add place="intralinear">Acacia</add>
-                                </subst> macra-<lb/>cantha</name>
+                                </subst> macra<g ref="#typoHyphen"/>
+                                <lb break="no"/>cantha</name>
                             <measure quantity="20" unit="toise">20 <choice>
                                     <abbr>t</abbr>
                                     <expan>toises</expan>
@@ -2697,24 +2723,24 @@
                             <expan>toises</expan>
                         </choice>
                     </measure>
-                    <note hand="#author" place="right">pas <placeName ref="https://www.geonames.org/3659238">
+                    <note hand="#author" place="right">pas <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">
                             <choice>
                                 <abbr>Chimboraz</abbr>
                                 <expan>Chimborazo</expan>
                             </choice>
                         </placeName>
                         <lb/>seul mais <lb/>
-                        <placeName ref="https://www.geonames.org/3754875">Cotopaxi</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0007607 https://www.geonames.org/3754875">Cotopaxi</placeName>
                         <supplied cert="high">,</supplied>
                         <lb/>
-                        <placeName ref="https://www.geonames.org/3754871">
+                        <placeName ref="https://editon-humboldt.de/H0009574 https://www.geonames.org/3754871">
                             <choice>
                                 <abbr>Tungurag</abbr>
                                 <expan>Tunguragua</expan>
                             </choice>
                         </placeName>
                         <supplied cert="high">,</supplied>
-                        <placeName ref="https://www.geonames.org/3657683">
+                        <placeName ref="https://editon-humboldt.de/H0008253 https://www.geonames.org/3657683">
                             <choice>
                                 <abbr>Pich</abbr>
                                 <expan>Pichincha</expan>
@@ -2722,13 +2748,13 @@
                         </placeName>
                         <supplied cert="high">,</supplied>
                         <lb/>
-                        <placeName ref="https://www.geonames.org/3660594">
+                        <placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">
                             <choice>
                                 <abbr>Antisan</abbr>
                                 <expan>Antisana</expan>
                             </choice>
-                        </placeName> et <placeName ref="https://edition-humboldt.de/v8/H0002454">Andes</placeName>
-                        <lb/>de <placeName ref="https://www.geonames.org/3652462">Quito</placeName>
+                        </placeName> et <placeName ref="https://editon-humboldt.de/H0002454">Andes</placeName>
+                        <lb/>de <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName>
                         <lb/>en <del rendition="#s">
                             <gap quantity="1" unit="words"/>
                         </del>
@@ -2736,7 +2762,7 @@
                     </note>
                 </p>
                 <p>
-                    <ref xml:id="db993469-9248-48e7-9934-69924818e7b8" corresp="#da8f81ad-e87f-4f47-8f81-ade87f4f4712">
+                    <ref xml:id="ebbfccad-12a8-4b04-bfcc-ad12a8eb042a" corresp="#bdc84c84-0a58-48ab-884c-840a5888abe5">
                         <note hand="#author" place="right">
                             <choice>
                                     <abbr>H</abbr>
@@ -2754,8 +2780,8 @@
                                     <corr cert="high">voyez</corr>
                                 </choice> Kunth.</note>
                         </ref>
-                    <note xml:id="da8f81ad-e87f-4f47-8f81-ade87f4f4712" corresp="#db993469-9248-48e7-9934-69924818e7b8">
-                        <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>.</note>
+                    <note xml:id="bdc84c84-0a58-48ab-884c-840a5888abe5" corresp="#ebbfccad-12a8-4b04-bfcc-ad12a8eb042a">
+                        <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>.</note>
                 </p>
                 <p>
                 <list>
@@ -2783,7 +2809,7 @@
                     </item>
                     <item>
                             <name type="plant">Pteris sagittata</name>
-                        <placeName ref="https://www.geonames.org/3659251">Chillo</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0007379 https://www.geonames.org/3659251">Chillo</placeName>
                         <measure quantity="1370" unit="toise">1370 <choice>
                                 <abbr>t</abbr>
                                 <expan>toises</expan>
@@ -2792,7 +2818,7 @@
                         </item>
                     <item>
                             <name type="plant">Lomaria angustifolia</name>
-                        <placeName ref="https://www.geonames.org/3655673">Villa Ibarra</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0006637 https://www.geonames.org/3655673">Villa Ibarra</placeName>
                         <measure quantity="1184" unit="toise">1184 <choice>
                                 <abbr>t</abbr>
                                 <expan>toises</expan>
@@ -2801,7 +2827,7 @@
                         </item>
                     <item>
                             <name type="plant">Cheilanthes marginata</name>
-                        <placeName ref="https://www.geonames.org/3653275">Penipe</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0008205 https://www.geonames.org/3653275">Penipe</placeName>
                             <measure quantity="1300" unit="toise">1300.</measure>
                         </item>
                     <item>
@@ -2839,7 +2865,7 @@
                         </item>
                     <item>
                             <name type="plant">Peperomia peploides</name>
-                        <placeName ref="https://www.geonames.org/3754875">Cotopaxi </placeName>
+                        <placeName ref="https://editon-humboldt.de/H0007607 https://www.geonames.org/3754875">Cotopaxi </placeName>
                             <measure quantity="1590" unit="toise">1590 <choice>
                                 <abbr>t</abbr>
                                 <expan>toises</expan>
@@ -4061,7 +4087,7 @@
                                 <choice>
                                 <sic>Castileja</sic>
                                 <corr cert="high">Castilleja</corr>
-                            </choice> lithospermoi<lb/>des</name>
+                            </choice> lithospermoi<lb break="no"/>des</name>
                         <measure quantity="1300" unit="toise">1300 <choice>
                                 <abbr>t</abbr>
                                 <expan>toises</expan>
@@ -4894,15 +4920,15 @@
                 </list>
                 </p>
                 <p>
-                    <ref xml:id="b9ad5661-c6b8-4406-ad56-61c6b8140648" corresp="#d190e556-5650-4f80-90e5-5656501f8058">
+                    <ref xml:id="d98fb36d-3e43-446f-8fb3-6d3e43946fae" corresp="#f2191fa6-e2b8-4399-991f-a6e2b82399f9">
                         <add place="left">
                             <choice>
                                     <abbr>T</abbr>
                                     <expan>Tome</expan>
                                 </choice> IV</add>
                     </ref>
-                    <note xml:id="d190e556-5650-4f80-90e5-5656501f8058" corresp="#b9ad5661-c6b8-4406-ad56-61c6b8140648">
-                        <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth 1825</bibl>, IV.</note>
+                    <note xml:id="f2191fa6-e2b8-4399-991f-a6e2b82399f9" corresp="#d98fb36d-3e43-446f-8fb3-6d3e43946fae">
+                        <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth 1825</bibl>, IV.</note>
                     <lb/>composées</p>
                 <list>
                     <item>
@@ -5373,7 +5399,7 @@
                         <measure quantity="1100" unit="toise">1100</measure>. </item>
                     <item>
                         <name type="plant">Wedelia <choice>
-                                <sic>helianthioi<lb/>des </sic>
+                                <sic>helianthioi<lb break="no"/>des </sic>
                                 <corr cert="high">helianthoides</corr>
                             </choice>
                         </name>
@@ -5429,7 +5455,7 @@
                         </measure>
                     </item>
                     <item>
-                        <name type="plant">Heterospermum diver<lb/>sifolium</name>
+                        <name type="plant">Heterospermum diver<lb break="no"/>sifolium</name>
                         <measure quantity="1400" unit="toise">1400</measure>.</item>
                     <item>
                         <name type="plant">Xanthium catharticum</name>
@@ -5450,13 +5476,13 @@
                     </item>
                 </list>
                 <p>
-                    <ref xml:id="e658b73c-19c9-4c8d-98b7-3c19c98c8de2" corresp="#dd996434-e5ef-4e6c-9964-34e5efbe6cea">
+                    <ref xml:id="a8a12879-1fa3-4ca8-a128-791fa3fca80b" corresp="#fed4ad1b-b2f4-4f6a-94ad-1bb2f4bf6ac4">
                         <choice>
                                 <abbr>T</abbr>
                                 <expan>Tome</expan>
                             </choice> V</ref>
-                    <note xml:id="dd996434-e5ef-4e6c-9964-34e5efbe6cea" corresp="#e658b73c-19c9-4c8d-98b7-3c19c98c8de2">
-                        <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, V.</note>
+                    <note xml:id="fed4ad1b-b2f4-4f6a-94ad-1bb2f4bf6ac4" corresp="#a8a12879-1fa3-4ca8-a128-791fa3fca80b">
+                        <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, V.</note>
                 </p>
                 <list>
                     <item>
@@ -5746,13 +5772,13 @@
                     </item>
                 </list>
                 <p>
-                    <ref xml:id="b5986bbf-c3a9-4d47-986b-bfc3a91d47f7" corresp="#a2db2c5d-7e2e-42f6-9b2c-5d7e2ec2f6a7">
+                    <ref xml:id="bb418e2f-61ee-4e51-818e-2f61eefe51e7" corresp="#d12729b8-3318-409b-a729-b83318f09b94">
                         <choice>
                                 <abbr>T</abbr>
                                 <expan>Tome</expan>
                             </choice>VI</ref>
-                    <note xml:id="a2db2c5d-7e2e-42f6-9b2c-5d7e2ec2f6a7" corresp="#b5986bbf-c3a9-4d47-986b-bfc3a91d47f7">
-                        <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, VI.</note>
+                    <note xml:id="d12729b8-3318-409b-a729-b83318f09b94" corresp="#bb418e2f-61ee-4e51-818e-2f61eefe51e7">
+                        <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, VI.</note>
                 </p>
                 <list>
                     <item>
@@ -5793,7 +5819,7 @@
                             <lb/>1500</measure>
                     </item>
                     <item>
-                        <name type="plant">Weinmannia ellip<lb/>tica</name>
+                        <name type="plant">Weinmannia ellip<lb break="no"/>tica</name>
                         <measure quantity="1100 " unit="toise">1100 </measure>
                     </item>
                     <item>
@@ -5985,7 +6011,7 @@
                             <lb/>1400</measure>
                     </item>
                     <item>
-                        <name type="plant">Ancistrum argen<lb/>teum</name>
+                        <name type="plant">Ancistrum argen<lb break="no"/>teum</name>
                         <measure quantity="1600" unit="toise">1600.</measure>
                     </item>
                     <item>
@@ -6137,7 +6163,7 @@
                         </measure>
                     </item>
                     <item>
-                        <name type="plant">Cornicularia bi<lb/>color</name>
+                        <name type="plant">Cornicularia bi<lb break="no"/>color</name>
                         <measure quantity="1300" unit="toise">1300 <choice>
                                 <abbr>t</abbr>
                                 <expan>toises</expan>

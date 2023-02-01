@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004117">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Jacobi, Susanne Helene</title>
             </titleStmt>
+            <editionStmt>
+                <p>Jacobi, Susanne Helene [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004117.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004117.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004117.xml">
-                    <p>Jacobi, Susanne Helene [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004117.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004117">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/35223666</idno>
                     <persName type="reg">
                         <surname>Jacobi</surname>
@@ -39,10 +44,10 @@
                         <surname>Jacobi</surname>
                         <forename>Lene</forename>
                     </persName>
-                    <!--<persName type="alt"><name>Tante Lenchen</name></persName>-->
+                    
                     <birth>1753</birth>
                     <death>1838</death>
-                    <note>jüngste Tochter von <persName key="H0019480">Johann Conrad Jacobi</persName>, Schwester von <persName key="H0004107">Anna Katharina Charlotte Jacobi</persName>, Halbschwester von <persName key="H0004109">Friedrich Heinrich Jacobi</persName><!-- genannt Tante Lenchen,  -->
+                    <note>jüngste Tochter von <persName ref="https://editon-humboldt.de/H0019480 http://d-nb.info/gnd/117038091">Johann Conrad Jacobi</persName>, Schwester von <persName ref="https://editon-humboldt.de/H0004107 http://viaf.org/viaf/35223553">Anna Katharina Charlotte Jacobi</persName>, Halbschwester von <persName ref="https://editon-humboldt.de/H0004109 http://d-nb.info/gnd/118556312">Friedrich Heinrich Jacobi</persName>
                     </note>
                     <linkGrp>
                         <ptr target="26#376" type="page"/>

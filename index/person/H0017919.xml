@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017919">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Lesueur, Charles-Alexandre</title>
             </titleStmt>
+            <editionStmt>
+                <p>Lesueur, Charles-Alexandre [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017919.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017919.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017919.xml">
-                    <p>Lesueur, Charles-Alexandre [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017919.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0017919">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/119227711</idno>
                     <persName type="reg">
                         <surname>Lesueur</surname>
@@ -42,7 +47,7 @@
                     <birth>1778</birth>
                     <death>1846</death>
                     <note>französischer Naturforscher, Zoologe, wissenschaftlicher Zeichner und Maler; nahm an der
-                        Expedition von <persName key="H0003136">Nicolas Baudin</persName> nach <placeName key="H0002625">Australien</placeName> teil und verfasste mit <persName key="H0017938">Nicolas-Martin
+                        Expedition von <persName ref="https://editon-humboldt.de/H0003136 http://d-nb.info/gnd/119227568">Nicolas Baudin</persName> nach <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australien</placeName> teil und verfasste mit <persName ref="https://editon-humboldt.de/H0017938 http://d-nb.info/gnd/119234424">Nicolas-Martin
                             Petit</persName> den Bericht über die Reise</note>
                 </person>
             </listPerson>

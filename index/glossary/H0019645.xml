@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019645">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Gerölle</title>
             </titleStmt>
+            <editionStmt>
+                <p>Gerölle [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019645.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,23 +20,24 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019645.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019645.xml">
-                    <p>Gerölle [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019645.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>glossary</textClass>
+            <textClass>
+                <keywords>
+                    <term>glossary</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <list>
-                <item xml:id="H0019645">
+                <item>
                     <label type="reg">Gerölle</label>
                     <label type="alt">Geröll</label>
-                    <interp id="#geoBerg"/>
+                    <interp xml:id="#geoBerg"/>
                     <note resp="#FS">
                         <p>oberflächennahe, bewegliche Schicht brüchigen Gesteins an Berghängen, in Bach- oder
                             Flussbetten, infolge von Verwitterung oder Bewegung oft aus abgerundeten Gesteinstrümmern

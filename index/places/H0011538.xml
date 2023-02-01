@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011538">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Lyon</title>
             </titleStmt>
+            <editionStmt>
+                <p>Lyon [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011538.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,52 +20,53 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011538.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011538.xml">
-                    <p>Lyon [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011538.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0011538">
-                    <idno type="uri">https://www.geonames.org/2996944</idno>
-                    <placeName type="reg">Lyon</placeName>
-                    <linkGrp>
-                        <ptr target="06#25" type="letter"/>
-                        <ptr target="41#72" type="letter"/>
-                        <ptr target="41#74" type="letter"/>
-                        <ptr target="41#75" type="letter"/>
-                        <ptr target="41#76" type="letter"/>
-                        <ptr target="41#77" type="letter"/>
-                        <ptr target="41#80" type="letter"/>
-                        <ptr target="41#82" type="letter"/>
-                        <ptr target="41#83" type="letter"/>
-                        <ptr target="41#86" type="letter"/>
-                    </linkGrp>
-                    <listPlace>
-                        <place type="building" oldID="ediarum_zxn_yv5_fsb" xml:id="H0020335">
-                            <idno type="uri">https://www.geonames.org/8015555</idno>
-                            <placeName type="reg">Notre-Dame de Fourvière</placeName>
-                            <note>römisch-katholische Kirche auf dem Fourvière-Hügel in Lyon</note>
-                        </place>
-                        <place type="street" oldID="ediarum_tly_mw5_fsb" xml:id="H0020336">
-                            <idno type="uri">https://d-nb.info/gnd/1231758392</idno>
-                            <placeName type="reg">Place Bellecour</placeName>
-                            <note>größter Platz von Lyon</note>
-                        </place>
-                        <place type="street" oldID="ediarum_chg_jv5_fsb" xml:id="H0020337">
-                            <idno type="uri">https://d-nb.info/gnd/4525167-8</idno>
-                            <placeName type="reg">Place des Terreaux</placeName>
-                            <note>Platz im Zentrum von Lyon</note>
-                        </place>
-                    </listPlace>
+                <place>
+            <idno type="uri">https://www.geonames.org/2996944</idno>
+            <placeName type="reg">Lyon</placeName>
+            <linkGrp>
+                <ptr target="06#25" type="letter"/>
+                <ptr target="41#72" type="letter"/>
+                <ptr target="41#74" type="letter"/>
+                <ptr target="41#75" type="letter"/>
+                <ptr target="41#76" type="letter"/>
+                <ptr target="41#77" type="letter"/>
+                <ptr target="41#80" type="letter"/>
+                <ptr target="41#82" type="letter"/>
+                <ptr target="41#83" type="letter"/>
+                <ptr target="41#86" type="letter"/>
+            </linkGrp>
+            <listPlace>
+                <place type="building" oldID="ediarum_zxn_yv5_fsb" xml:id="H0020335">
+                    <idno type="uri">https://www.geonames.org/8015555</idno>
+                    <placeName type="reg">Notre-Dame de Fourvière</placeName>
+                    <note>römisch-katholische Kirche auf dem Fourvière-Hügel in Lyon</note>
                 </place>
+                <place type="street" oldID="ediarum_tly_mw5_fsb" xml:id="H0020336">
+                    <idno type="uri">https://d-nb.info/gnd/1231758392</idno>
+                    <placeName type="reg">Place Bellecour</placeName>
+                    <note>größter Platz von Lyon</note>
+                </place>
+                <place type="street" oldID="ediarum_chg_jv5_fsb" xml:id="H0020337">
+                    <idno type="uri">https://d-nb.info/gnd/4525167-8</idno>
+                    <placeName type="reg">Place des Terreaux</placeName>
+                    <note>Platz im Zentrum von Lyon</note>
+                </place>
+            </listPlace>
+        </place>
             </listPlace>
         </body>
     </text>

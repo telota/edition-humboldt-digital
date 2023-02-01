@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019356">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -6,30 +6,39 @@
                     <date from="1829-04-27" to="1829-04-28">27. bis 28. April 1829</date>
                 </title>
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (27. bis 28. April 1829) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019356">https://edition-humboldt.de/v8/H0019356</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019356</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019356</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019356.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1829. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0019356</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2020-11-11"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p>Aufenthalt in <placeName ref="https://www.geonames.org/588335">Dorpat (Tartu)</placeName>, Besuch wissenschaftlicher
-                    Einrichtungen, Besprechungen mit Professoren der <orgName ref="http://d-nb.info/gnd/3019725-9">Universität</orgName>,
-                    Diner des Rektors <persName ref="http://d-nb.info/gnd/11661305X">Gustav Ewers</persName>.</p>
+                <p>Aufenthalt in <placeName ref="https://editon-humboldt.de/H0005552 https://www.geonames.org/588335">Dorpat (Tartu)</placeName>, Besuch wissenschaftlicher
+                    Einrichtungen, Besprechungen mit Professoren der <orgName ref="https://editon-humboldt.de/H0018041 http://d-nb.info/gnd/3019725-9">Universität</orgName>,
+                    Diner des Rektors <persName ref="https://editon-humboldt.de/H0006038 http://d-nb.info/gnd/11661305X">Gustav Ewers</persName>.</p>
             </body>
         </text>
     </TEI>

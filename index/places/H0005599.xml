@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005599">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Jekaterinburg</title>
             </titleStmt>
+            <editionStmt>
+                <p>Jekaterinburg [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0005599.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005599.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0005599.xml">
-                    <p>Jekaterinburg [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0005599.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0005599">
+                <place>
                     <idno type="uri">https://www.geonames.org/1486209</idno>
                     <placeName type="reg">Jekaterinburg</placeName>
                     <placeName type="alt">Ekaterinburg</placeName>
@@ -45,13 +50,13 @@
                     <placeName type="alt">Jécathérinbourg</placeName>
                     <placeName type="alt">Iekaterinbourg</placeName>
                     <placeName type="alt">Jecatherinburg</placeName>
-                    <!-- RST I, 51v -->
+                    
                     <placeName type="alt">Jekatherinenburg</placeName>
                     <placeName type="alt">Katharinenburg</placeName>
                     <placeName type="alt">Katherinburg</placeName>
                     <placeName type="alt">Kathérinenbourg</placeName>
                     <placeName type="alt">Sverdlovsk</placeName>
-                    <note>Stadt im <placeName key="H0020291">Mittleren Ural</placeName> (<placeName key="H0010689">Russland</placeName>); ab 1840 Zentrum der Metallverarbeitung </note>
+                    <note>Stadt im <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren Ural</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>); ab 1840 Zentrum der Metallverarbeitung </note>
                     <linkGrp>
                         <ptr target="30#1" type="letter"/>
                         <ptr target="30#5" type="letter"/>
@@ -90,7 +95,7 @@
                             <placeName type="alt">Химмаш</placeName>
                             <placeName type="alt">Khimmash</placeName>
                             <note>Stadtbezirk im Südosten von Jektarinburg, Standort des historischen Eisenwerks
-                                    <placeName key="H0017716">Nižne-Isetskij Zavod</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0017716 https://www.geonames.org/1497573">Nižne-Isetskij Zavod</placeName>
                             </note>
                         </place>
                         <place type="sea" oldID="ediarum_xst_bvy_x4b" xml:id="H0019254">
@@ -102,9 +107,9 @@
                             <placeName type="alt">Nižneisetskoe</placeName>
                             <placeName type="alt">Nizhneisetskiy Prud</placeName>
                             <placeName type="alt">Nischne-Isetskij-Hüttenteich</placeName>
-                            <note>Stausee im Südosten von <placeName key="H0005599">Jekaterinburg</placeName>, Ende des
-                                18. Jhs. als Hüttenteich der Eisenhütte <placeName key="H0017716">Nižne-Isetskij
-                                    Zavod</placeName> angelegt (<placeName key="H0010689">Russland</placeName>)</note>
+                            <note>Stausee im Südosten von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>, Ende des
+                                18. Jhs. als Hüttenteich der Eisenhütte <placeName ref="https://editon-humboldt.de/H0017716 https://www.geonames.org/1497573">Nižne-Isetskij
+                                    Zavod</placeName> angelegt (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                         </place>
                         <place type="building" oldID="ediarum_jl3_34w_spb" xml:id="H0019255">
                             <placeName type="reg">Uspenskij sobor</placeName>
@@ -115,8 +120,8 @@
                             <placeName type="alt">Uspenski-Kirche</placeName>
                             <placeName type="alt">Uspenskij-Kathedrale</placeName>
                             <placeName type="alt">église d'Uspenski</placeName>
-                            <!-- RST I, Bl. 27r, 60v -->
-                            <note>Kirche nahe dem <placeName key="H0017509">Iset</placeName>
+                            
+                            <note>Kirche nahe dem <placeName ref="https://editon-humboldt.de/H0017509 https://www.geonames.org/1495641">Iset</placeName>
                             </note>
                         </place>
                     </listPlace>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006403">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Willdenow, Karl Ludwig</title>
             </titleStmt>
+            <editionStmt>
+                <p>Willdenow, Karl Ludwig [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0006403.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006403.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0006403.xml">
-                    <p>Willdenow, Karl Ludwig [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0006403.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0006403">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117387436</idno>
                     <persName type="reg">
                         <surname>Willdenow</surname>
@@ -42,9 +47,9 @@
                     <birth>1765</birth>
                     <death>1812</death>
                     <note>deutscher Botaniker und Naturhistoriker in Berlin; Lehrer Alexander von Humboldts und
-                        Mitarbeiter am botanischen Teil des amerikanischen Reisewerks; 1794 Mitglied der <orgName key="H0000569">Preußischen Akademie der Wissenschaften</orgName>; 1798 Professor der
+                        Mitarbeiter am botanischen Teil des amerikanischen Reisewerks; 1794 Mitglied der <orgName ref="https://editon-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Preußischen Akademie der Wissenschaften</orgName>; 1798 Professor der
                         Naturgeschichte am Collegium medico-chirurgicum in Berlin, 1806 Professor der Medizin; 1810
-                        erster Professor der Botanik an der neu gegründeten <orgName key="H0000603">Universität</orgName> und Direktor des <orgName key="H0000532">Botanischen
+                        erster Professor der Botanik an der neu gegründeten <orgName ref="https://editon-humboldt.de/H0000603 http://d-nb.info/gnd/1220138-8">Universität</orgName> und Direktor des <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">Botanischen
                             Gartens</orgName>
                     </note>
                     <linkGrp>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016593">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [15. August
+               1849] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016593">https://edition-humboldt.de/v8/H0016593</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016593</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016593</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016593.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [15. August
-               1849] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016593</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">184</idno>
+                     <idno type="shelfmark">421, Bl. 334r, 335v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1849-08-15">1849-08-15</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Am 13.8.1849 starb E.s Bruder Carl August an Cholera.</note>
          </correspDesc>
@@ -78,7 +96,7 @@
                      </choice> Ehrenberg</addrLine>
                   <addrLine>in </addrLine>
                   <addrLine>
-                            <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                         </addrLine>
                   <addrLine>
                             <choice>
@@ -92,23 +110,23 @@
                 </opener>
             <pb n="1v"/>
             <p>Wie tief bedaure ich, mein theurer Freund <lb/>dass Sie wieder einen so schmerzlichen
-               <lb/>Verlust in Ihrer Familie gehabt. <lb/>Und Ihr verdienstvoller <persName ref="http://d-nb.info/gnd/135745098">Bruder</persName> dem <lb/>wir so vieles Interessante aus
-                  <placeName ref="https://www.geonames.org/3996063">Mexico</placeName>
+               <lb/>Verlust in Ihrer Familie gehabt. <lb/>Und Ihr verdienstvoller <persName ref="https://editon-humboldt.de/H0016957 http://d-nb.info/gnd/135745098">Bruder</persName> dem <lb/>wir so vieles Interessante aus
+                  <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName>
                <lb/>verdanken, hatte gewiss das Uebel sich <lb/>nicht durch Unvorsicht
                   zugezogen<supplied cert="high">.</supplied>
                <lb/>Dazu ist die Krankheit so perfide, <lb/>dass nach scheinbarer Heilung so oft
                <lb/>Typhus <choice>
                   <abbr>od.</abbr>
                   <expan>oder</expan>
-               </choice> Lungenschlag eintreten. <lb/>Ihre neuen <ref xml:id="a8d9132a-e840-4742-9913-2ae840274259" corresp="#b02d86de-47ec-44cc-ad86-de47ec84cc70">Forschungen über das <lb/>
-                        <placeName ref="https://www.geonames.org/295347">Tote
+               </choice> Lungenschlag eintreten. <lb/>Ihre neuen <ref xml:id="b96807a5-ae06-478c-a807-a5ae06d78c9f" corresp="#caed0df9-b2e9-4914-ad0d-f9b2e9b914bb">Forschungen über das <lb/>
+                        <placeName ref="https://editon-humboldt.de/H0009494 https://www.geonames.org/295347">Tote
                      Meer</placeName>
                     </ref>
-                    <note xml:id="b02d86de-47ec-44cc-ad86-de47ec84cc70" corresp="#a8d9132a-e840-4742-9913-2ae840274259">
-                     <bibl corresp="https://edition-humboldt.de/v8/9CCVWBKT">Ehrenberg 1849b</bibl>
+                    <note xml:id="caed0df9-b2e9-4914-ad0d-f9b2e9b914bb" corresp="#b96807a5-ae06-478c-a807-a5ae06d78c9f">
+                     <bibl corresp="https://edition-humboldt.de/9CCVWBKT">Ehrenberg 1849b</bibl>
                   </note> sind voll unerwarteter <lb/>Thatsachen und zeigen wie Leben <lb/>überall
                verbreitet ist<supplied cert="high">.</supplied> Sehr wichtig <lb/>ist Ihre
-               Unterscheidung dessen was <lb/>dem <placeName ref="https://www.geonames.org/295347">Toten Meere</placeName>
+               Unterscheidung dessen was <lb/>dem <placeName ref="https://editon-humboldt.de/H0009494 https://www.geonames.org/295347">Toten Meere</placeName>
                lebend <choice>
                   <sic>gehrt</sic>
                   <corr>gehört</corr>
@@ -120,9 +138,9 @@
                      <abbr>Lam.</abbr>
                      <expan>Lamellibranchiata</expan>
                   </choice>
-                    </name> das <lb/>der <persName ref="http://d-nb.info/gnd/14270900X">Marquis de
+                    </name> das <lb/>der <persName ref="https://editon-humboldt.de/H0017080 http://d-nb.info/gnd/14270900X">Marquis de
                   l’Escalopier</persName> auf den Ufer<supplied cert="high">n</supplied>
-               <lb/>des toten Meeres gesammlet. Lesen <lb/>Sie <persName ref="http://d-nb.info/gnd/117339385">Valenciennes</persName> in meiner <bibl corresp="https://edition-humboldt.de/v8/TKGUVJEV">Asie
+               <lb/>des toten Meeres gesammlet. Lesen <lb/>Sie <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName> in meiner <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Asie
                   centrale <lb/>
                         <choice>
                      <abbr>T</abbr>
@@ -139,14 +157,16 @@
                   <abbr>mittelländ.</abbr>
                   <expan>mittelländischen</expan>
                </choice>
-               <placeName ref="https://www.geonames.org/295347">Meeres</placeName>, über das <lb/>niemand besser, als Sie,
-               entscheiden <lb/>kann. Ihre <bibl corresp="https://edition-humboldt.de/v8/ENTGWTQG">phrygischen
+               <placeName ref="https://editon-humboldt.de/H0009494 https://www.geonames.org/295347">Meeres</placeName>, über das <lb/>niemand besser, als Sie,
+               entscheiden <lb/>kann. Ihre <bibl corresp="https://edition-humboldt.de/ENTGWTQG">phrygischen
                   Infusorien <choice>
                      <abbr>S</abbr>
                      <expan>Seite</expan>
                   </choice> 193</bibl>
-               <lb/>sind ja doch wohl nicht eigent-<lb/>lich in Gyps
-               sondern in Kreide <lb/>die wie in Pohlen Gyps ein-<lb/>schiesst.</p>
+               <lb/>sind ja doch wohl nicht eigent<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich in Gyps
+               sondern in Kreide <lb/>die wie in Pohlen Gyps ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>schiesst.</p>
             <closer rend="paragraph">
                     <salute>Mit alter Verehrung <lb/>Ihr </salute>
                 <lb/>

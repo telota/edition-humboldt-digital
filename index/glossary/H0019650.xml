@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019650">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Hangendes</title>
             </titleStmt>
+            <editionStmt>
+                <p>Hangendes [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019650.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,22 +20,23 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019650.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019650.xml">
-                    <p>Hangendes [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019650.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>glossary</textClass>
+            <textClass>
+                <keywords>
+                    <term>glossary</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <list>
-                <item xml:id="H0019650">
+                <item>
                     <label type="reg">Hangendes</label>
-                    <interp id="#geoBerg"/>
+                    <interp xml:id="#geoBerg"/>
                     <note resp="#FS">
                         <p>in Bergbau und Geologie Bezeichnung für das Gestein, das eine bergbaulich interessierende
                             Schicht überlagert bzw. die oberhalb dieser Schicht vorfindliche Gesteinsabfolge</p>

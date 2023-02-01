@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016529">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 27. November
+               1839, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016529">https://edition-humboldt.de/v8/H0016529</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016529</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016529</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016529.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 27. November
-               1839. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016529</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">279E17</idno>
+                     <idno type="shelfmark">676, Bl. 14r-15v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1839-11-27">1839-11-27</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -75,14 +93,17 @@
                die Hauptmasse der <lb/>Kohle bildenden Fragmente zerstörten <lb/>
                     <name type="plant" key="Gräser">Gräsern</name> angehören. Ich habe nemlich <lb/>noch solche Fragmente
                gefunden, welche <lb/>deutliche <add place="superlinear">lange</add> Spaltöffnungen
-               führen und <lb/>da die langen Spaltöffnungen der <name type="plant" key="Gramineen">Grami-<lb/>neen</name> fast characteristisch
+               führen und <lb/>da die langen Spaltöffnungen der <name type="plant" key="Gramineen">Grami<g ref="#typoHyphen"/>
+                        <lb break="no"/>neen</name> fast characteristisch
                genannt werden <lb/>können, auch die wellenförmigen Zellwände <lb/>aus den Stengeln
                und Blättern der Gräser <lb/>mir sonst nicht bekannt sind, in diesen <lb/>Fragmenten
                aber die Schlangenlinien <add place="superlinear">deutlich</add> bilden <lb/>so würde
                ich es gerechtfertigt glauben <lb/>
                     <pb n="1v"/>diese Fragmente als überwiegend aus
-               <lb/>Gräsern gebildet zu bezeichnen. Viel-<lb/>leicht
-               haben Sie auch Eindrücke am <lb/>Orte selbst aufgenommen, welche hier-<lb/>bey weiter leitend sind. Ich habe <lb/>mir aus
+               <lb/>Gräsern gebildet zu bezeichnen. Viel<g ref="#typoHyphen"/>
+                    <lb break="no"/>leicht
+               haben Sie auch Eindrücke am <lb/>Orte selbst aufgenommen, welche hier<g ref="#typoHyphen"/>
+                    <lb break="no"/>bey weiter leitend sind. Ich habe <lb/>mir aus
                Waitzenstroh so ähnliche <lb/>Präparate gemacht, daß <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> mir die <lb/>Ähnlichkeit
@@ -91,11 +112,12 @@
                <lb/>eine Epidermis von Kieselerde haben <lb/>mag wohl der Fall <subst>
                   <del rendition="#s">seyn</del>
                   <add place="intralinear">in natura <lb/>seyn</add>
-               </subst>. Ich besitze ein solches ausländi-<lb/>sches
-                  Gras<add place="superlinear">blatt</add>, welches mir Robert <persName ref="http://d-nb.info/gnd/118674455">Brown</persName>
+               </subst>. Ich besitze ein solches ausländi<g ref="#typoHyphen"/>
+                    <lb break="no"/>sches
+                  Gras<add place="superlinear">blatt</add>, welches mir Robert <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Brown</persName>
                <lb/>einmal gab, das unverbrennlich ist <add place="superlinear">wie <name type="plant" key="Equisetaceae">Equisetum</name>
                     </add>. Ich <lb/>weiß aber
-               nicht ob es aus <placeName ref="https://edition-humboldt.de/v8/H0002429">Amerika</placeName>
+               nicht ob es aus <placeName ref="https://editon-humboldt.de/H0002429">Amerika</placeName>
                <lb/>stammt, auch habe ich keinen Namen dafür von <lb/>ihm erhalten.</p>
             <p>Was die animalischen Theile anlangt, <lb/>so bleiben sie mir systematisch unklar
                <lb/>obwohl ich sie noch immer dafür erkenne.</p>
@@ -110,14 +132,16 @@
                   von <lb/>
                         <name type="plant" key="Anthoceros laevis">Anthoceros laevis</name>, dem
                   Lebermoose. ( <name type="animal|plant" key="Chaetotyphla">Chaetotyphla</name>
-                  würde zur Familie der Kranz-<lb/>thierchen (<name type="animal|plant" key="Peridinaea">Peridinaea</name>) <name type="animal|plant" key="Chaetomonas">Chaetomonas</name> zur Familie der
+                  würde zur Familie der Kranz<g ref="#typoHyphen"/>
+                        <lb break="no"/>thierchen (<name type="animal|plant" key="Peridinaea">Peridinaea</name>) <name type="animal|plant" key="Chaetomonas">Chaetomonas</name> zur Familie der
                   Panzermonaden (<name type="animal|plant" key="Cryptomonades">Cryptomonades</name>)
                   gehören, <lb/>
                         <name type="animal|plant" key="Navicula">Navicula</name> oder <name type="animal|plant" key="Fragilaria">Fragilaria</name> zur Familie der <name type="animal|plant" key="Bacillarien">Bacillarien</name>.)</note> Die <name type="animal|plant" key="Navicula">Navicula</name> ist mir nicht <lb/>deutlich
                wieder vorgekommen, die 2 runden <lb/>und glatten Formen (<name type="animal|plant" key="Trachelomonas">Trachelomonas</name>?) sind <lb/>aber häufig. Daß es
-               Pflanzensamen sehr <lb/>kleiner Pflanzen sind ist deshalb unwahr-<lb/>scheinlich, weil sie eine Kieselschale haben und <lb/>also durch
+               Pflanzensamen sehr <lb/>kleiner Pflanzen sind ist deshalb unwahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlich, weil sie eine Kieselschale haben und <lb/>also durch
                Glühen <add place="superlinear">und Säuren</add> nicht zerstört werden.  </p>
-            <p>Von <persName ref="http://d-nb.info/gnd/118723367">Klaproths</persName> Analyse würde <lb/>sich, scheint
+            <p>Von <persName ref="https://editon-humboldt.de/H0001338 http://d-nb.info/gnd/118723367">Klaproths</persName> Analyse würde <lb/>sich, scheint
                es, <lb/>Alaunerde 11 ½ Gran <choice>
                   <abbr>pl.</abbr>
                   <expan>plus</expan>
@@ -126,7 +150,8 @@
                <lb/>Hälfte <lb/>= 50 Gran <lb/>auf die Bestandtheile der verschiedenen Formen
                <lb/>des Feldspaths in der Porphyrmasse rechnen <lb/>lassen, während die andere
                Hälfte <lb/>der Kieselerde, Kohle, brandiges Öl, <lb/>Ammonium und die Gase dem
-                  Organi-<lb/>schen angehören. Vielleicht gehört
+                  Organi<g ref="#typoHyphen"/>
+                    <lb break="no"/>schen angehören. Vielleicht gehört
                aber auch <lb/>vom Eisen <add place="superlinear">etwas</add> und von der Kieselerde
                   <lb/>
                     <pb n="2v"/>noch mehr dem Organischen an und jedenfalls <lb/>scheint dem
@@ -136,8 +161,9 @@
                   <abbr>H.</abbr>
                   <expan>Herrn</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118602640">Rose</persName> angegangen, allein <lb/>er fürchtet, daß sie
-               im Wasser zerfällt <lb/>und ohne Wasser kein brauchbares Resul-<lb/>tat giebt.</p>
+               <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">Rose</persName> angegangen, allein <lb/>er fürchtet, daß sie
+               im Wasser zerfällt <lb/>und ohne Wasser kein brauchbares Resul<g ref="#typoHyphen"/>
+                    <lb break="no"/>tat giebt.</p>
             <p>Wünschen Sie daß ich die Fragmente <lb/>mit Spaltöffnungen die ich aufbewahrt
                <lb/>habe noch zu den übrigen hinzuziehe <lb/>so kann ich das leicht. </p>
             <closer rend="paragraph">

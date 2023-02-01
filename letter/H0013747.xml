@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0013747">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -6,43 +6,60 @@
                     November 1845]</title>
                 <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Montag, [24.
+                    November 1845], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0013747">https://edition-humboldt.de/v8/H0013747</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0013747</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0013747</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0013747.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Montag, [24.
-                    November 1845]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0013747</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von
                         (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1845-11-24" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund
                         (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
-                <note>Zur Datierung vergleiche das Schreiben Humboldts an König <persName ref="http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV</persName>. vom 25.
-                    November 1845 ( <bibl corresp="https://edition-humboldt.de/v8/RIEI5QKW">Humboldt 2013</bibl>, 315). Siehe auch das Journal des Débats vom11.
+                <note>Zur Datierung vergleiche das Schreiben Humboldts an König <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV</persName>. vom 25.
+                    November 1845 ( <bibl corresp="https://edition-humboldt.de/RIEI5QKW">Humboldt 2013</bibl>, 315). Siehe auch das Journal des Débats vom11.
                     November 1845, S. 1. Das im Brief erwähnte Exemplar des Journal des Débats
-                    benötigte Humboldt demzufolge, um seinen Freund <persName ref="http://d-nb.info/gnd/118581945">Giacomo Meyerbeer</persName> in <placeName ref="https://www.geonames.org/2988507">Paris</placeName> gegenüber dem <persName ref="http://d-nb.info/gnd/118535994">König</persName> vor dem Vorwurf der Indiskretion in Schutz zu nehmen. der
-                    Artikel thematisierte die Streitigkeiten zwischen <persName ref="http://d-nb.info/gnd/118581945">Meyerbeer</persName> und dem General-Intendanten
-                        <persName ref="http://d-nb.info/gnd/116611316">Küstner</persName>, <persName ref="http://d-nb.info/gnd/118581945">Meyerbeers</persName> Demisionsangebot sowie die
-                    Modalitäten der stattdessen erfolgten Beurlaubung durch den <persName ref="http://d-nb.info/gnd/118535994">Monarchen</persName>. </note>
+                    benötigte Humboldt demzufolge, um seinen Freund <persName ref="https://editon-humboldt.de/H0014192 http://d-nb.info/gnd/118581945">Giacomo Meyerbeer</persName> in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> gegenüber dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> vor dem Vorwurf der Indiskretion in Schutz zu nehmen. der
+                    Artikel thematisierte die Streitigkeiten zwischen <persName ref="https://editon-humboldt.de/H0014192 http://d-nb.info/gnd/118581945">Meyerbeer</persName> und dem General-Intendanten
+                        <persName ref="https://editon-humboldt.de/H0001529 http://d-nb.info/gnd/116611316">Küstner</persName>, <persName ref="https://editon-humboldt.de/H0014192 http://d-nb.info/gnd/118581945">Meyerbeers</persName> Demisionsangebot sowie die
+                    Modalitäten der stattdessen erfolgten Beurlaubung durch den <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Monarchen</persName>. </note>
             </correspDesc>
         </profileDesc>
     </teiHeader>
@@ -62,12 +79,12 @@
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice> Kunth et le prie <lb/>de me renvoyer le <lb/>
-                    <bibl corresp="https://edition-humboldt.de/v8/BPPC9U22">Journal des <choice>
+                    <bibl corresp="https://edition-humboldt.de/BPPC9U22">Journal des <choice>
                             <orig>Debats</orig>
                             <reg>Débats</reg>
                         </choice>
                         <lb/>de mardi 11 Novembre</bibl>
-                    <lb/>renfermant une notice de <persName ref="http://d-nb.info/gnd/118581945">
+                    <lb/>renfermant une notice de <persName ref="https://editon-humboldt.de/H0014192 http://d-nb.info/gnd/118581945">
                         <lb/>Meyerbeer</persName>
                     <supplied cert="high">.</supplied> J’<choice>
                         <orig>espere</orig>

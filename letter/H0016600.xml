@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016600">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [18. Oktober
+               1850] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016600">https://edition-humboldt.de/v8/H0016600</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016600</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016600</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016600.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [18. Oktober
-               1850] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016600</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">192</idno>
+                     <idno type="shelfmark">421, Bl. 350r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1850-10-18">1850-10-18</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. die Rede E.s vom 17.10.1850</note>
          </correspDesc>
@@ -67,16 +85,16 @@
             <opener>
                     <dateline>Potsdam Freitag </dateline>
                 </opener>
-            <p>Ich habe auf das freundlichste Ihren <persName ref="http://d-nb.info/gnd/139561935">Prenzlauer
+            <p>Ich habe auf das freundlichste Ihren <persName ref="https://editon-humboldt.de/H0016840 http://d-nb.info/gnd/139561935">Prenzlauer
                   Hippocrates</persName>
                <lb/>aufgenommen, wie jeden der mir von einem so lieben <lb/>und geistreichen
                Freunde, wie Sie, gesandt wird: aber <lb/>ich kann mir auch die grosse Freude nicht
-               <lb/>versagen die Ihnen für Ihre freisinnige, überaus <lb/>schön geschriebene <ref xml:id="fbf66dd7-d73f-4008-b66d-d7d73f6008dc" corresp="#d1c044be-c8a6-402e-8044-bec8a6f02e5b">Rede</ref>
-                    <note xml:id="d1c044be-c8a6-402e-8044-bec8a6f02e5b" corresp="#fbf66dd7-d73f-4008-b66d-d7d73f6008dc">
-                     <bibl corresp="https://edition-humboldt.de/v8/DS2UG2FS">Ehrenberg 1850</bibl>
+               <lb/>versagen die Ihnen für Ihre freisinnige, überaus <lb/>schön geschriebene <ref xml:id="f6271407-d2b4-4752-a714-07d2b4c75298" corresp="#c7bd3505-60b6-4e99-bd35-0560b69e9914">Rede</ref>
+                    <note xml:id="c7bd3505-60b6-4e99-bd35-0560b69e9914" corresp="#f6271407-d2b4-4752-a714-07d2b4c75298">
+                     <bibl corresp="https://edition-humboldt.de/DS2UG2FS">Ehrenberg 1850</bibl>
                   </note> gebührt. Es war ein <lb/>Wort zur rechten Zeit und die einleitenden
                <lb/>Betrachtungen über das grosse Problem des Schuzes <lb/>den die Fortschritte der
-               Civilisation gegen <lb/>Ausbrüche roher Leidenschaft und unsinniger Bestre<lb/>bungen gewähren, haben mich eben so ange<lb/>sprochen als
+               Civilisation gegen <lb/>Ausbrüche roher Leidenschaft und unsinniger Bestre<lb break="no"/>bungen gewähren, haben mich eben so ange<lb break="no"/>sprochen als
                die Nicht Identität des Lebens <lb/>mit der Kohle, dem Sauerstoff und dem
                <lb/>Gewitterstoff. Dass in Ihrer treflichen Rede <lb/>die 2 Worte Mysticismus <choice>
                   <abbr>u</abbr>
@@ -86,12 +104,12 @@
                   <corr cert="high">als</corr>
                </choice>
                <lb/>Vogelscheuchen panierartig aufgepflanzt sind, <lb/>wird Ihnen Hoffentlich die
-               heilige Kreuz<lb/>zeitung, <persName ref="http://d-nb.info/gnd/116999489">Niebuhr II</persName>
+               heilige Kreuz<lb break="no"/>zeitung, <persName ref="https://editon-humboldt.de/H0004983 http://d-nb.info/gnd/116999489">Niebuhr II</persName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Consorten nicht <lb/>verzeihen. Die gestrigen politischen Nach<lb/>richten aus <placeName ref="https://www.geonames.org/2905330">Hessen</placeName> waren
-               friedlicher. <lb/>Dass man dem Gott<supplied>-</supplied> und <persName ref="http://d-nb.info/gnd/118703250">
+               </choice> Consorten nicht <lb/>verzeihen. Die gestrigen politischen Nach<lb break="no"/>richten aus <placeName ref="https://editon-humboldt.de/H0006847 https://www.geonames.org/2905330">Hessen</placeName> waren
+               friedlicher. <lb/>Dass man dem Gott<supplied>-</supplied> und <persName ref="https://editon-humboldt.de/H0011861 http://d-nb.info/gnd/118703250">
                         <hi rendition="#u">Seelen</hi>losen</persName> Geld gegeben
                <lb/>und ihm geschmeichelt hat, um ihn in <lb/>der Opposition los zu werden und in
                der <lb/>Hofnung dass er sich den <subst>
@@ -110,17 +128,18 @@
                     <signed>Ihr <lb/>AlHumboldt</signed>
                 </closer>
             <postscript>
-               <p>Der sogenannte freigesinnte <persName ref="http://d-nb.info/gnd/118594729">Pio nono</persName> hat
+               <p>Der sogenannte freigesinnte <persName ref="https://editon-humboldt.de/H0002010 http://d-nb.info/gnd/118594729">Pio nono</persName> hat
                   <lb/>durch <choice>
                      <sic>Monsigner</sic>
                      <corr>Monsigneur</corr>
                   </choice>
-                  <persName ref="http://d-nb.info/gnd/116781386">Marini</persName> ein schädliches <ref xml:id="ac7215de-aca1-4b9f-b215-deaca1fb9ff0" corresp="#ce2eea68-14f7-44fa-aeea-6814f7f4fa77">Buch</ref>
-                        <note xml:id="ce2eea68-14f7-44fa-aeea-6814f7f4fa77" corresp="#ac7215de-aca1-4b9f-b215-deaca1fb9ff0">
-                        <bibl corresp="https://edition-humboldt.de/v8/VMKBI83E">Marini 1850</bibl>
+                  <persName ref="https://editon-humboldt.de/H0017062 http://d-nb.info/gnd/116781386">Marini</persName> ein schädliches <ref xml:id="f5f1a10f-3ad5-4636-b1a1-0f3ad506368f" corresp="#e62e43a1-9f15-47f2-ae43-a19f15c7f285">Buch</ref>
+                        <note xml:id="e62e43a1-9f15-47f2-ae43-a19f15c7f285" corresp="#f5f1a10f-3ad5-4636-b1a1-0f3ad506368f">
+                        <bibl corresp="https://edition-humboldt.de/VMKBI83E">Marini 1850</bibl>
                      </note>
                   <lb/>zum Lobe der Inquisition im Benehmen gegen <lb/>
-                        <persName ref="http://d-nb.info/gnd/118537229">Galilei</persName> herausgeben lassen, nichts neues ent<lb/>haltend, alles versüssend und von den Dun-<lb/>kelmännern am Hofe vergöt<lb/>tert<supplied cert="high">.</supplied>
+                        <persName ref="https://editon-humboldt.de/H0013294 http://d-nb.info/gnd/118537229">Galilei</persName> herausgeben lassen, nichts neues ent<lb break="no"/>haltend, alles versüssend und von den Dun<g ref="#typoHyphen"/>
+                        <lb break="no"/>kelmännern am Hofe vergöt<lb break="no"/>tert<supplied cert="high">.</supplied>
                </p>
             </postscript>
          </div>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016228">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Smithsonian Institution</title>
             </titleStmt>
+            <editionStmt>
+                <p>Smithsonian Institution [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016228.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016228.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016228.xml">
-                    <p>Smithsonian Institution [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016228.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0016228">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/38076-3</idno>
                     <orgName type="reg">Smithsonian Institution</orgName>
                     <desc>1846 in Washington D.C. gegründete Forschungs- und Bildungseinrichtung</desc>
@@ -46,7 +51,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/10377022</idno>
-                            <settlement key="H0007920">Washington, D. C. </settlement>
+                            <settlement ref="https://edition-humboldt.de/H0007920">Washington, D. C. </settlement>
                             <note>Smithsonian Institution Building</note>
                         </address>
                     </location>

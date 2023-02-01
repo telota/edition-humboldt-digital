@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019716">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,30 +20,61 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. Berlin, 20. Juli
+                    1855, hg. v. Ulrich Päßler unter Mitarbeit von Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019716">https://edition-humboldt.de/v8/H0019716</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019716</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019716</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019716.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. Berlin, 20. Juli
-                    1855. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019716</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno>
+                            <idno type="shelfmark">Autogr. I/530/15</idno>, Bl. 1,3v<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051324</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert
+                            1952</bibl>, 122–123</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert
+                            1959</bibl>, 70</witness>
+                    <witness>
+                        <bibl type="print" corresp="https://edition-humboldt.de/PE652NCX">Achenbach 2009</bibl>, 64 (Teildruck)</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1855-07-20" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -56,11 +87,12 @@
 					<salute/>
                 </opener>
 				<p>
-                    <pb n="1r"/>Mit inniger Betrübniss erfahre ich aus <ref xml:id="eab8ab3a-3fec-4de5-b8ab-3a3fec2de581" corresp="#be33d727-e368-4291-b3d7-27e368d291b9">Ihrem lieben
+                    <pb n="1r"/>Mit inniger Betrübniss erfahre ich aus <ref xml:id="a509f030-e978-4cf8-89f0-30e9781cf85c" corresp="#b7e6cb10-023e-45af-a6cb-10023e35afd5">Ihrem lieben
                                 <lb/>Briefe</ref>
-                    <note xml:id="be33d727-e368-4291-b3d7-27e368d291b9" corresp="#eab8ab3a-3fec-4de5-b8ab-3a3fec2de581">Dieses Schreiben konnte bislang nicht ermittelt
-                            werden.</note>, theurer <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>, dass, was so
-                    vielen Zu-<lb/>fälligkeiten eines bewegten
+                    <note xml:id="b7e6cb10-023e-45af-a6cb-10023e35afd5" corresp="#a509f030-e978-4cf8-89f0-30e9781cf85c">Dieses Schreiben konnte bislang nicht ermittelt
+                            werden.</note>, theurer <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>, dass, was so
+                    vielen Zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>fälligkeiten eines bewegten
                     Lebens <subst>
                         <del rendition="#s">entgegen</del>
                         <add place="superlinear">entgangen</add>
@@ -74,14 +106,18 @@
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
                     <add place="superlinear">auch</add> davon wieder restaurirt hat<supplied cert="high">.</supplied>
-                    <lb/>Leider<metamark>!</metamark> habe ich, der (wie Sie aus 30jähriger Erfah-<lb/>rung wissen) so gern jedem Ihrer Wünsche
-                        zu-<lb/>vorkomme, seit schon 9 Monaten nicht
-                    mehr die <lb/>Macht Ihnen durch Herrn von <persName ref="http://d-nb.info/gnd/118560751">Kaulbach</persName> zuzu-<lb/>senden, was
+                    <lb/>Leider<metamark>!</metamark> habe ich, der (wie Sie aus 30jähriger Erfah<g ref="#typoHyphen"/>
+                    <lb break="no"/>rung wissen) so gern jedem Ihrer Wünsche
+                        zu<g ref="#typoHyphen"/>
+                    <lb break="no"/>vorkomme, seit schon 9 Monaten nicht
+                    mehr die <lb/>Macht Ihnen durch Herrn von <persName ref="https://editon-humboldt.de/H0001275 http://d-nb.info/gnd/118560751">Kaulbach</persName> zuzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>senden, was
                     Sie auf eine so liebenswürdige Weise <lb/>erbitten. Die 4<choice>
                         <sic>.</sic>
                         <corr type="deleted"/>
-                    </choice> so herrlich unter <persName ref="http://d-nb.info/gnd/119284936">Gérard</persName>’s Auf-<lb/>sicht 1826 von <persName ref="http://viaf.org/viaf/211861">Fortier</persName> (nicht von dem <lb/>
-                    <persName ref="http://d-nb.info/gnd/118597787">Raphael</persName>esken <persName ref="https://d-nb.info/gnd/117520896">Forster</persName>
+                    </choice> so herrlich unter <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">Gérard</persName>’s Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>sicht 1826 von <persName ref="https://editon-humboldt.de/H0000183 http://viaf.org/viaf/211861">Fortier</persName> (nicht von dem <lb/>
+                    <persName ref="https://editon-humboldt.de/H0000738 http://d-nb.info/gnd/118597787">Raphael</persName>esken <persName ref="https://editon-humboldt.de/H0019490 https://d-nb.info/gnd/117520896">Forster</persName>
                     <supplied cert="high">)</supplied> gestochenen
                     Kupfertafeln
                         <lb/>unter
@@ -98,22 +134,24 @@
                     </subst> anderen Materialien, <add place="left">
                         <metamark/>nicht mehr <lb/>bei
                         mir in <lb/>
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>, wo <lb/>Sie sie
-                        sahen, <lb/>sondern</add> bei meinem Freunde <lb/>Herrn von <persName ref="http://d-nb.info/gnd/11879972X">Cotta</persName> in <placeName ref="https://www.geonames.org/2825297">Stuttgart</placeName>. Es wird in
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>, wo <lb/>Sie sie
+                        sahen, <lb/>sondern</add> bei meinem Freunde <lb/>Herrn von <persName ref="https://editon-humboldt.de/H0013205 http://d-nb.info/gnd/11879972X">Cotta</persName> in <placeName ref="https://editon-humboldt.de/H0010371 https://www.geonames.org/2825297">Stuttgart</placeName>. Es wird in
                         <lb/>weniger
                     als in Jahresfrist eine neue Ausgabe <lb/>von meinem <hi rendition="#u">Naturgemälde</hi>
                     <hi rendition="#u">der</hi>
                     <hi rendition="#u">Tropenwelt</hi> mit <lb/>
                     <pb n="1v"/>einem Atlas in folio
-                    erscheinen, der <add place="intralinear">neben</add> jenen 4 <persName ref="http://viaf.org/viaf/211861">For-<lb/>tier</persName>schen
-                    Kupfern, 6–8 andere botanische Profil<lb/>zeichnungen des Pics von
-                        <placeName ref="https://www.geonames.org/2510529">Teneriffa</placeName>, <placeName ref="https://www.geonames.org/3659238">Chimborazo</placeName>, <lb/>der Ackerbaugrenzen … enthält.</p>
+                    erscheinen, der <add place="intralinear">neben</add> jenen 4 <persName ref="https://editon-humboldt.de/H0000183 http://viaf.org/viaf/211861">For<g ref="#typoHyphen"/>
+                        <lb break="no"/>tier</persName>schen
+                    Kupfern, 6–8 andere botanische Profil<lb break="no"/>zeichnungen des Pics von
+                        <placeName ref="https://editon-humboldt.de/H0009313 https://www.geonames.org/2510529">Teneriffa</placeName>, <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">Chimborazo</placeName>, <lb/>der Ackerbaugrenzen … enthält.</p>
                 <p>Der Stich der 4 Kupferplatten hatte <choice>
                         <sic>mir</sic>
                         <corr cert="high">mich</corr>
                     </choice> 1650 francs <lb/>gekostet, die mit den 1500 francs, dem wohlfeilen
                     <lb/>Preise der von Ihnen acquirirten schönen <lb/>Originale ein mir nicht ganz
-                    unwichtiges Geld-<lb/>object waren<supplied cert="high">.</supplied> Ich kann nicht disponiren <subst>
+                    unwichtiges Geld<g ref="#typoHyphen"/>
+                    <lb break="no"/>object waren<supplied cert="high">.</supplied> Ich kann nicht disponiren <subst>
                         <del rendition="#ow">was</del>
                         <add place="across">über</add>
                     </subst>
@@ -125,7 +163,7 @@
                     <salute>Ihr</salute>
                     <signed>ergebenster <lb/>AlHumboldt</signed>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                         <supplied cert="high">,</supplied>
                         <choice>
                             <abbr>d.</abbr>
@@ -137,7 +175,7 @@
                     <gap reason="empty" unit="pages" quantity="1"/>
                     <pb n="3r"/>
                     <address>
-                        <addrLine>An Herrn Maler <persName ref="http://d-nb.info/gnd/118750321">Moriz
+                        <addrLine>An Herrn Maler <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Moriz
                             Rugendas</persName>,</addrLine>
                         <addrLine>Ritter des <choice>
                                 <abbr>Kön.</abbr>
@@ -151,7 +189,7 @@
                         <addrLine>Ordens, dritter Classe</addrLine>
                         <addrLine>zu</addrLine>
                         <addrLine>
-                            <placeName ref="https://www.geonames.org/2867714">München</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0009046 https://www.geonames.org/2867714">München</placeName>
                         </addrLine>
                         <addrLine>frei</addrLine>
                         <addrLine>AlHumboldt <pb n="3v"/>

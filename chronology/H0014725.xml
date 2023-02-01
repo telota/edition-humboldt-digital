@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014725">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7,31 +7,40 @@
                     </title>
                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (25. Dezember 1807) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0014725">https://edition-humboldt.de/v8/H0014725</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0014725</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0014725</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014725.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1807. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0014725</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> H. isst zu Mittag bei dem russischen Gesandten <persName ref="http://viaf.org/viaf/288700510">Petr Aleksandrovič Graf Tolstoi</persName> in <placeName ref="https://www.geonames.org/2988507">Paris</placeName>, anwesend: <persName ref="http://d-nb.info/gnd/118768956">Voght</persName>,
+                <p> H. isst zu Mittag bei dem russischen Gesandten <persName ref="https://editon-humboldt.de/H0018917 http://viaf.org/viaf/288700510">Petr Aleksandrovič Graf Tolstoi</persName> in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>, anwesend: <persName ref="https://editon-humboldt.de/H0002885 http://d-nb.info/gnd/118768956">Voght</persName>,
                     mehrere deutsche Prinzen, der
                     österreichische
-                    u.a. Gesandte. H. will nach <placeName ref="https://www.geonames.org/1279685">Tibet</placeName> und zu den <placeName ref="https://www.geonames.org/1115007">Indus</placeName>-Quellen reisen. </p>
+                    u.a. Gesandte. H. will nach <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> und zu den <placeName ref="https://editon-humboldt.de/H0006690 https://www.geonames.org/1115007">Indus</placeName>-Quellen reisen. </p>
             </body>
         </text>
     </TEI>

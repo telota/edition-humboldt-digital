@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006178">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,54 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [Frühjahr
+                    1849], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006178">https://edition-humboldt.de/v8/H0006178</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006178</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006178</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006178.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [Frühjahr
-                    1849]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006178</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 146–147.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1849-02-19" notAfter="1849-05-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -72,9 +92,9 @@
                         <reg>für</reg>
                     </choice> mich gearbeitet haben<supplied cert="high">.</supplied>
                     <lb/>
-                    <ref xml:id="aa085a69-30aa-4d9a-885a-6930aa9d9a1d" corresp="#b8a28fe5-012e-4dcf-a28f-e5012e6dcf42">Ihre Berichtigungen und Zusäze</ref>
-                    <note xml:id="b8a28fe5-012e-4dcf-a28f-e5012e6dcf42" corresp="#aa085a69-30aa-4d9a-885a-6930aa9d9a1d">Siehe <ref target="H0002924">das vorausgehende
-                                Schreiben Humboldts</ref> sowie <ref target="H0005459">Kunths
+                    <ref xml:id="af471305-dcb4-4754-8713-05dcb457546b" corresp="#ce32100f-da13-49df-b210-0fda1349df82">Ihre Berichtigungen und Zusäze</ref>
+                    <note xml:id="ce32100f-da13-49df-b210-0fda1349df82" corresp="#af471305-dcb4-4754-8713-05dcb457546b">Siehe <ref target="https://edition-humboldt.de/H0002924">das vorausgehende
+                                Schreiben Humboldts</ref> sowie <ref target="https://edition-humboldt.de/H0005459">Kunths
                                 Berichtigungen und Ergänzungen zu Band 2 der Ansichten der Natur, 3.
                                 Auflage</ref>.</note> sind <lb/>wie immer es bei Ihnen
                             der Fall <lb/>war, voller gründlicher Klarheit <lb/>und
@@ -87,10 +107,10 @@
                         <reg>für</reg>
                     </choice> Sie <lb/>um so daurender und inniger<supplied cert="high">.</supplied>
                     <lb/>Sie haben meine <hi rendition="#u">
-                        <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Ansichten der Natur</bibl>
+                        <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Ansichten der Natur</bibl>
                     </hi>
-                    <lb/>mehr bereichert als Sie Selbst <lb/>glauben und in der <ref xml:id="cc39231e-6196-4df0-b923-1e61966df0ba" corresp="#e7751d7d-4a85-4f85-b51d-7d4a857f8595">neuen vierten <lb/>Auflage</ref>
-                    <note xml:id="e7751d7d-4a85-4f85-b51d-7d4a857f8595" corresp="#cc39231e-6196-4df0-b923-1e61966df0ba">Eine vierte Auflage von <bibl corresp="https://edition-humboldt.de/v8/2WVKCKG3">Humboldt 1849</bibl> ist nicht mehr
+                    <lb/>mehr bereichert als Sie Selbst <lb/>glauben und in der <ref xml:id="d135b2ca-7f24-42b7-b5b2-ca7f2482b7ec" corresp="#d0ae47b1-ddd9-43c7-ae47-b1ddd9f3c75b">neuen vierten <lb/>Auflage</ref>
+                    <note xml:id="d0ae47b1-ddd9-43c7-ae47-b1ddd9f3c75b" corresp="#d135b2ca-7f24-42b7-b5b2-ca7f2482b7ec">Eine vierte Auflage von <bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl> ist nicht mehr
                             erschienen.</note> werde <supplied cert="high">ich</supplied> von diesen
                     schönen <lb/>und <unclear reason="illegible" resp="#UP" cert="high">lieben</unclear> <choice>
                         <orig>Blattern</orig>
@@ -125,7 +145,7 @@
                         <add place="across">G</add>
                     </subst>efühlen sind: aber ich kann mir
                     <lb/>den Trost nicht versagen <add place="left">
-                        <metamark/>klar auszu<lb/>sprechen,<lb/> dass</add>
+                        <metamark/>klar auszu<lb break="no"/>sprechen,<lb/> dass</add>
                     nach <lb/>Durchlesung der Blätter die Sie <lb/>mir geschenkt, ich <choice>
                         <orig>uber</orig>
                         <reg>über</reg>
@@ -136,22 +156,24 @@
                         <orig>vermogen</orig>
                         <reg>vermögen</reg>
                     </choice>, erstaune <lb/>und heiterer für Sie in die <lb/>Zukunft sehe. Nur die
-                        grim-<lb/>mige <choice>
+                        grim<g ref="#typoHyphen"/>
+                    <lb break="no"/>mige <choice>
                         <orig>Kalte</orig>
                         <reg>Kälte</reg>
                     </choice> und die politischen <lb/>Minister Crisen, die ganz und <lb/>Sicherung
                     gewährend vorüber sind, <lb/>haben mich so lange abhalten <lb/>können. Ich
-                    werde, da jezt <lb/>mildere Lüfte wehen, Sie und <lb/>Ihre edle, gemüthliche <persName ref="https://edition-humboldt.de/v8/H0001516">Gattinn</persName>
+                    werde, da jezt <lb/>mildere Lüfte wehen, Sie und <lb/>Ihre edle, gemüthliche <persName ref="https://editon-humboldt.de/H0001516">Gattinn</persName>
                     <lb/>in den nächsten Tagen besuchen <lb/>und <hi rendition="#u">beiden</hi>
                     danken, <hi rendition="#u">Ihnen</hi>
                     <choice>
                         <orig>fur</orig>
                         <reg>für</reg>
                     </choice>
-                    <lb/>Ihre sich aufopfernde Freund-<lb/>schaft <choice>
+                    <lb/>Ihre sich aufopfernde Freund<g ref="#typoHyphen"/>
+                    <lb break="no"/>schaft <choice>
                         <orig>fur</orig>
                         <reg>für</reg>
-                    </choice> mich, der <persName ref="https://edition-humboldt.de/v8/H0001516">Gattin</persName>
+                    </choice> mich, der <persName ref="https://editon-humboldt.de/H0001516">Gattin</persName>
                     <lb/>
                     <choice>
                         <orig>fur</orig>

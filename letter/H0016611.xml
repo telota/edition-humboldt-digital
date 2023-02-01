@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016611">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [2. Juli 1853] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016611">https://edition-humboldt.de/v8/H0016611</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016611</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016611</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016611.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [2. Juli 1853] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016611</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">203</idno>
+                     <idno type="shelfmark">421, Bl. 372r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1853-07-02">1853-07-02</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: H.E. Beyrich und J. Ewald wurden am 20.6.1853 als ordentliche
                Mitglieder der Akademie in der Klasse gewählt</note>
@@ -64,22 +82,22 @@
          <div type="writingSession">
             <pb n="1r"/>
             <p>Sie haben mir, theurer Ehrenberg, einen herrlichen <lb/>
-                    <ref xml:id="c0d284f9-e19b-4d85-9284-f9e19bfd852c" corresp="#fa103eb6-004d-491d-903e-b6004dd91d6c">Brief</ref>
-                    <note xml:id="fa103eb6-004d-491d-903e-b6004dd91d6c" corresp="#c0d284f9-e19b-4d85-9284-f9e19bfd852c">vgl. 266 E4</note> geschrieben über das Leben in Luftschichten <lb/>von 10 bis 15 000 Fuss Höhe,
+                    <ref xml:id="b5cc5177-ac98-4b4a-8c51-77ac981b4a8e" corresp="#d78faaf2-78e5-4611-8faa-f278e59611ad">Brief</ref>
+                    <note xml:id="d78faaf2-78e5-4611-8faa-f278e59611ad" corresp="#b5cc5177-ac98-4b4a-8c51-77ac981b4a8e">vgl. 266 E4</note> geschrieben über das Leben in Luftschichten <lb/>von 10 bis 15 000 Fuss Höhe,
                voll <choice>
                   <abbr>Beob.</abbr>
                   <expan>Beobachtungen</expan>
                </choice>
-               <lb/>die ich noch für den <ref xml:id="e950ad6d-29b3-4fbb-90ad-6d29b3efbbd6" corresp="#fe2e1751-568c-4c92-ae17-51568c1c9213">Kosmos</ref>
-                    <note xml:id="fe2e1751-568c-4c92-ae17-51568c1c9213" corresp="#e950ad6d-29b3-4fbb-90ad-6d29b3efbbd6">
-                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>
+               <lb/>die ich noch für den <ref xml:id="e682c872-afa9-4bd1-82c8-72afa97bd129" corresp="#a9f0fec6-44d8-407e-b0fe-c644d8507e08">Kosmos</ref>
+                    <note xml:id="a9f0fec6-44d8-407e-b0fe-c644d8507e08" corresp="#e682c872-afa9-4bd1-82c8-72afa97bd129">
+                     <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862</bibl>
                   </note> benuzen <lb/>kann! Sie kennen zu sehr meine jezt <lb/>so bedrängte Lage um mir
                zu zürnen dass <lb/>ich Ihnen nicht gedankt habe! Ihr heutiges <lb/>liebes Schreiben
-               giebt ausser der fröhlichen <lb/>Nachricht des <ref xml:id="fdbb1147-9658-478d-bb11-479658a78d1e" corresp="#ee84fdbe-6bcd-4592-84fd-be6bcde5925b">
-                        <persName ref="http://d-nb.info/gnd/118591371">Pallas</persName> Denkmals</ref>
-                    <note xml:id="ee84fdbe-6bcd-4592-84fd-be6bcde5925b" corresp="#fdbb1147-9658-478d-bb11-479658a78d1e">
-                     <bibl corresp="https://edition-humboldt.de/v8/MKPRGXRZ">Biermann 1960 </bibl>
-                  </note> und der von <lb/>mir so erwünschten Wahl von <persName ref="http://d-nb.info/gnd/120170906">
+               giebt ausser der fröhlichen <lb/>Nachricht des <ref xml:id="ca155536-5c84-4a71-9555-365c844a7104" corresp="#e12af7f4-bfbe-49be-aaf7-f4bfbe79be7e">
+                        <persName ref="https://editon-humboldt.de/H0001770 http://d-nb.info/gnd/118591371">Pallas</persName> Denkmals</ref>
+                    <note xml:id="e12af7f4-bfbe-49be-aaf7-f4bfbe79be7e" corresp="#ca155536-5c84-4a71-9555-365c844a7104">
+                     <bibl corresp="https://edition-humboldt.de/MKPRGXRZ">Biermann 1960 </bibl>
+                  </note> und der von <lb/>mir so erwünschten Wahl von <persName ref="https://editon-humboldt.de/H0016979 http://d-nb.info/gnd/120170906">
                         <choice>
                      <abbr>B.</abbr>
                      <expan>Beyrich</expan>
@@ -89,7 +107,7 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116612789">Ewald</persName>
+               <persName ref="https://editon-humboldt.de/H0006034 http://d-nb.info/gnd/116612789">Ewald</persName>
                <lb/>die Erzählung einer Anecdote die ein <lb/>neuer Beweis von der anmaassenden
                <lb/>Frechheit der <choice>
                   <abbr>franz.</abbr>
@@ -97,12 +115,12 @@
                </choice> Chargé d’Affaires <lb/>(wahrscheinlich <choice>
                   <abbr>Mr</abbr>
                   <expan>Monsieur</expan>
-               </choice> de <persName ref="http://viaf.org/viaf/49374414">Gabriac</persName>) über dessen
+               </choice> de <persName ref="https://editon-humboldt.de/H0016901 http://viaf.org/viaf/49374414">Gabriac</persName>) über dessen
                <lb/>Anmaassungen Herr <choice>
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116735996">Manteuffel</persName> schon Klage <lb/>geführt. Der Mann
+               <persName ref="https://editon-humboldt.de/H0013902 http://d-nb.info/gnd/116735996">Manteuffel</persName> schon Klage <lb/>geführt. Der Mann
                scheint <choice>
                   <abbr>franz.</abbr>
                   <expan>französische</expan>
@@ -118,7 +136,7 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116735996">Manteufel</persName> erzählen und wissen durch <lb/>Spott
+               <persName ref="https://editon-humboldt.de/H0013902 http://d-nb.info/gnd/116735996">Manteufel</persName> erzählen und wissen durch <lb/>Spott
                Rache zu <subst>
                   <del rendition="#s">haben</del>
                   <add place="intralinear">üben</add>
@@ -130,7 +148,7 @@
                   <hi rendition="#u">rothes</hi> Abzeichen (Legion d’ <lb/>Honneur) trug. </p>
             <closer rend="within the line">
                     <salute>Empfangen Sie und
-               Ihre liebens<lb/>würdige <persName ref="https://edition-humboldt.de/v8/H0016958">Gattin</persName> den Ausdruk
+               Ihre liebens<lb break="no"/>würdige <persName ref="https://editon-humboldt.de/H0016958">Gattin</persName> den Ausdruk
                meiner innigen <lb/>Anhänglichkeit <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -146,7 +164,7 @@
             <postscript>
                <p>Auch den Stier ärgert die <lb/>rothe Farbe. </p>
                <p>Was für ein schönes Augenpaar hat <lb/>
-                        <persName ref="http://d-nb.info/gnd/116615168">Kupffer</persName>
+                        <persName ref="https://editon-humboldt.de/H0001522 http://d-nb.info/gnd/116615168">Kupffer</persName>
                      aufgefunden<supplied cert="high">.</supplied> Die Dame hat <lb/>viel Lindigkeit
                   aber etwas <lb/>Apretur.</p>
             </postscript>

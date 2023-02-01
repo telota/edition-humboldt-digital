@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0010457">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Pongo de Rentema</title>
             </titleStmt>
+            <editionStmt>
+                <p>Pongo de Rentema [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0010457.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,23 +20,24 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0010457.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0010457.xml">
-                    <p>Pongo de Rentema [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0010457.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0010457">
+                <place>
                     <placeName type="reg">Pongo de Rentema</placeName>
-                    <note>Stromenge des <placeName key="H0008689">Río Marañón</placeName>, unterhalb der Mündung des
-                            <placeName key="H0010533">Río Chamaya</placeName> (<placeName key="H0008229">Peru</placeName>)</note>
+                    <note>Stromenge des <placeName ref="https://editon-humboldt.de/H0008689">Río Marañón</placeName>, unterhalb der Mündung des
+                            <placeName ref="https://editon-humboldt.de/H0010533 https://www.geonames.org/3698496">Río Chamaya</placeName> (<placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName>)</note>
                 </place>
             </listPlace>
         </body>

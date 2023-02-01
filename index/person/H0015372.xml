@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015372">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Sachsen-Weimar-Eisenach, Carl August, Großherzog von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Sachsen-Weimar-Eisenach, Carl August, Großherzog von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015372.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015372.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015372.xml">
-                    <p>Sachsen-Weimar-Eisenach, Carl August, Großherzog von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015372.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015372">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/11856014X</idno>
                     <persName type="reg">
                         <surname>Sachsen-Weimar-Eisenach</surname>
@@ -38,7 +43,7 @@
                     <birth>1757</birth>
                     <death>1828</death>
                     <note>Sohn von Herzog Ernst August II. Constantin und Herzogin Anna Amalia; 1758 Herzog, 1775
-                        Übernahme der Regentschaft, Heirat mit Luise von Hessen–Darmstadt und Einladung <persName key="H0013530">Goethes</persName> an den Weimarer Hof; 1787-1794 und 1798-1806 in preuß.
+                        Übernahme der Regentschaft, Heirat mit Luise von Hessen–Darmstadt und Einladung <persName ref="https://editon-humboldt.de/H0013530 http://d-nb.info/gnd/118540238">Goethes</persName> an den Weimarer Hof; 1787-1794 und 1798-1806 in preuß.
                         Militärdiensten, 1802 Kavalleriegeneral, 1813-1814 Oberbefehl über das 3. deutsche Armeekorps,
                         1815 Großherzog, 1822 Chef des 8. Kürassierregiments in Magdeburg</note>
                     <linkGrp>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006511">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,54 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch
+                    [1837], hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006511">https://edition-humboldt.de/v8/H0006511</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006511</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006511</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006511.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch
-                    [1837]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006511</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 831 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 21,60 cm , B: 13,80 cm</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1837-01-01" notAfter="1837-12-31" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -69,27 +89,27 @@
                     <salute/>
                 </opener>
                 <p>
-                    <pb n="1r"/> Ich schikke so eben an <persName ref="http://d-nb.info/gnd/11879972X">Cotta</persName> zum
-                    <lb/>Druk in das <ref xml:id="ead1b640-6562-4319-91b6-4065622319a8" corresp="#fbb91b3e-ccfc-4849-b91b-3eccfcd84927">
-                        <bibl corresp="https://edition-humboldt.de/v8/SJ7RKVCJ">
+                    <pb n="1r"/> Ich schikke so eben an <persName ref="https://editon-humboldt.de/H0013205 http://d-nb.info/gnd/11879972X">Cotta</persName> zum
+                    <lb/>Druk in das <ref xml:id="d8a758bd-fd90-4215-a758-bdfd90c21549" corresp="#c257be26-453a-475f-97be-26453a475f0f">
+                        <bibl corresp="https://edition-humboldt.de/SJ7RKVCJ">
                             <choice>
                                     <abbr>astr</abbr>
                                     <expan>astronomische</expan>
-                                </choice> Jahrbuch 1837 <lb/>meinen Aufsaz über den <placeName ref="https://www.geonames.org/3659238">Chimborazo</placeName>
+                                </choice> Jahrbuch 1837 <lb/>meinen Aufsaz über den <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">Chimborazo</placeName>
                         </bibl>
                     </ref>
-                    <note xml:id="fbb91b3e-ccfc-4849-b91b-3eccfcd84927" corresp="#ead1b640-6562-4319-91b6-4065622319a8">Vgl. <bibl corresp="https://edition-humboldt.de/v8/SJ7RKVCJ">Humboldt 1837</bibl>. Einzelheiten zur Drucklegung durch den
+                    <note xml:id="c257be26-453a-475f-97be-26453a475f0f" corresp="#d8a758bd-fd90-4215-a758-bdfd90c21549">Vgl. <bibl corresp="https://edition-humboldt.de/SJ7RKVCJ">Humboldt 1837</bibl>. Einzelheiten zur Drucklegung durch den
                             Cotta-Verlag vgl. Brief A. v. Humboldt an J. G. von Cotta vom 17.
-                            November 1836. In: <bibl corresp="https://edition-humboldt.de/v8/KGM28M3V">Humboldt
+                            November 1836. In: <bibl corresp="https://edition-humboldt.de/KGM28M3V">Humboldt
                                 2009</bibl>, 191. Der Aufsatz wurde 2006 neu herausgegeben von
-                            Ottmar Ette und Oliver Lubrich (<bibl corresp="https://edition-humboldt.de/v8/WAUMJCXE">Humboldt 2006</bibl>).</note>
+                            Ottmar Ette und Oliver Lubrich (<bibl corresp="https://edition-humboldt.de/WAUMJCXE">Humboldt 2006</bibl>).</note>
                     <supplied cert="high">.</supplied>
                     <lb/>Bei dieser Gelegenheit las ich <lb/>von neuem Ihren sehr <hi rendition="#u">schönen</hi>
-                    <lb/>Aufsaz über <bibl corresp="https://edition-humboldt.de/v8/FHSXM53H">
+                    <lb/>Aufsaz über <bibl corresp="https://edition-humboldt.de/FHSXM53H">
                         <choice>
                             <abbr>Veg.</abbr>
                             <expan>Vegetation</expan>
-                        </choice> von <placeName ref="https://www.geonames.org/1252558">Himalya</placeName>
+                        </choice> von <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalya</placeName>
                         <choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
@@ -103,16 +123,16 @@
                             <abbr>F.</abbr>
                             <expan>Fuss</expan>
                         </choice>
-                    </measure> Höhe fand <lb/>Oberst <persName ref="http://d-nb.info/gnd/117415065">Hall</persName> am <placeName ref="https://www.geonames.org/3659238">Chimborazo</placeName>
-                    <lb/>schöne <ref xml:id="d1353bb6-2232-4d41-b53b-b62232fd4184" corresp="#bc2a8ac5-c19b-405a-aa8a-c5c19bd05a9c">Alpenpflanzen in <lb/>Blüthe</ref>
-                    <note xml:id="bc2a8ac5-c19b-405a-aa8a-c5c19bd05a9c" corresp="#d1353bb6-2232-4d41-b53b-b62232fd4184">Francis <persName ref="http://d-nb.info/gnd/117415065">Hall</persName> (ermordet
-                            1833), ehemaliger Offizier, hatte <persName ref="http://d-nb.info/gnd/101165250">Boussingault</persName>
+                    </measure> Höhe fand <lb/>Oberst <persName ref="https://editon-humboldt.de/H0011603 http://d-nb.info/gnd/117415065">Hall</persName> am <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">Chimborazo</placeName>
+                    <lb/>schöne <ref xml:id="ea78aded-f600-4ea2-b8ad-edf6006ea232" corresp="#b51e540b-bd07-4f5e-9e54-0bbd074f5e7c">Alpenpflanzen in <lb/>Blüthe</ref>
+                    <note xml:id="b51e540b-bd07-4f5e-9e54-0bbd074f5e7c" corresp="#ea78aded-f600-4ea2-b8ad-edf6006ea232">Francis <persName ref="https://editon-humboldt.de/H0011603 http://d-nb.info/gnd/117415065">Hall</persName> (ermordet
+                            1833), ehemaliger Offizier, hatte <persName ref="https://editon-humboldt.de/H0003550 http://d-nb.info/gnd/101165250">Boussingault</persName>
                             auf Reisen begleitet. Mit Schreiben vom 20. November 1831 gab Hall bei
-                            Gelegenheit der Rückkehr <persName ref="http://d-nb.info/gnd/101165250">Boussingaults</persName>
+                            Gelegenheit der Rückkehr <persName ref="https://editon-humboldt.de/H0003550 http://d-nb.info/gnd/101165250">Boussingaults</persName>
                             nach Frankreich für Humboldt Pflanzen mit, die er auf Reisen gesammelt
-                            hatte. Einzelheiten vgl. <bibl corresp="https://edition-humboldt.de/v8/KEF2HXXC">Humboldt 2015</bibl>, 23, 510–512. Es handelte sich u. a. um
-                            die Flora der <placeName ref="https://edition-humboldt.de/v8/H0002454">Anden</placeName>, der
-                                <placeName ref="https://www.geonames.org/3659238">Chimborazo</placeName> wird nicht
+                            hatte. Einzelheiten vgl. <bibl corresp="https://edition-humboldt.de/KEF2HXXC">Humboldt 2015</bibl>, 23, 510–512. Es handelte sich u. a. um
+                            die Flora der <placeName ref="https://editon-humboldt.de/H0002454">Anden</placeName>, der
+                                <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">Chimborazo</placeName> wird nicht
                             explizit erwähnt.</note>. </p>
                 <p>Wenn auch die <measure quantity="17000" unit="foot">17000 <choice>
                             <abbr>F.</abbr>
@@ -129,11 +149,11 @@
                             <expan>toises</expan>
                         </choice>
                     </measure>. </p>
-                <p>Nun ist nach <persName ref="http://d-nb.info/gnd/101165250">Boussingault</persName>
+                <p>Nun ist nach <persName ref="https://editon-humboldt.de/H0003550 http://d-nb.info/gnd/101165250">Boussingault</persName>
                     <supplied cert="high">,</supplied> den Oberst <lb/>
-                    <persName ref="http://d-nb.info/gnd/117415065">Hall</persName> begleitete<supplied cert="high">,</supplied> die untere
+                    <persName ref="https://editon-humboldt.de/H0011603 http://d-nb.info/gnd/117415065">Hall</persName> begleitete<supplied cert="high">,</supplied> die untere
                     <lb/>Schneegrenze sehr sicher am <lb/>
-                    <placeName ref="https://www.geonames.org/3659238">Chimborazo</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">Chimborazo</placeName>
                     <measure quantity="2470" unit="toise">2470 toises</measure>. Wo, <lb/>mein
                     theurer Meyen<supplied cert="high">,</supplied> haben<choice>
                         <sic>,</sic>
@@ -141,13 +161,13 @@
                     </choice> Sie dieses <lb/>sonderbare <del rendition="#s">
                         <gap quantity="1" unit="words"/>
                     </del> Resultat hergenommen<supplied cert="high">?</supplied>
-                    <lb/>In <persName ref="http://d-nb.info/gnd/101165250">Boussingault</persName>
+                    <lb/>In <persName ref="https://editon-humboldt.de/H0003550 http://d-nb.info/gnd/101165250">Boussingault</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/117415065">Hall</persName>’s Bestei<lb/>gung des
-                        <placeName ref="https://www.geonames.org/3659238">
+                    <persName ref="https://editon-humboldt.de/H0011603 http://d-nb.info/gnd/117415065">Hall</persName>’s Bestei<lb break="no"/>gung des
+                        <placeName ref="https://editon-humboldt.de/H0007391 https://www.geonames.org/3659238">
                         <choice>
                             <abbr>Chimb.</abbr>
                             <expan>Chimborazo</expan>
@@ -155,10 +175,10 @@
                     </placeName>
                     <supplied cert="high">,</supplied> die ich selbst
                     <lb/>bekannt gemacht habe<supplied cert="high">,</supplied> steht <lb/>nichts
-                    davon, eben so wenig <lb/>in dem <ref xml:id="a88925e2-2bbf-4258-8925-e22bbf925844" corresp="#fde44977-45f0-4661-a449-7745f086619a">Briefe von <persName ref="http://d-nb.info/gnd/117415065">Hall</persName> den <lb/>ich
+                    davon, eben so wenig <lb/>in dem <ref xml:id="d8ada400-58b8-4000-ada4-0058b8f0003f" corresp="#fb8242d0-0896-42fb-8242-d0089662fb26">Briefe von <persName ref="https://editon-humboldt.de/H0011603 http://d-nb.info/gnd/117415065">Hall</persName> den <lb/>ich
                             besize</ref>
-                    <note xml:id="fde44977-45f0-4661-a449-7745f086619a" corresp="#a88925e2-2bbf-4258-8925-e22bbf925844">
-                        <persName ref="http://d-nb.info/gnd/117415065">Halls</persName> Brief
+                    <note xml:id="fb8242d0-0896-42fb-8242-d0089662fb26" corresp="#d8ada400-58b8-4000-ada4-0058b8f0003f">
+                        <persName ref="https://editon-humboldt.de/H0011603 http://d-nb.info/gnd/117415065">Halls</persName> Brief
                             an Alexander von Humboldt vom 20. November 1831 befindet sich im
                             Berliner Nachlass Alexander von Humboldts (<ref target="http://kalliope-verbund.info/DE-611-HS-1308253">SBB-PK,
                                 Nachl. Alexander von Humboldt, gr. Kasten 8, Nr.
@@ -171,11 +191,11 @@
                                 <expan>dicotylen</expan>
                             </choice>
                         </add>
-                    </subst> Pflanzen <ref xml:id="df8e6b2b-92c5-478f-8e6b-2b92c5478f77" corresp="#fe2283ef-08e1-4123-a283-ef08e1b1235a">Werneria <lb/>nubigena</ref>
-                    <note xml:id="fe2283ef-08e1-4123-a283-ef08e1b1235a" corresp="#df8e6b2b-92c5-478f-8e6b-2b92c5478f77">
+                    </subst> Pflanzen <ref xml:id="e608e1bf-c273-4995-88e1-bfc2733995f9" corresp="#bb044a61-2052-4386-844a-612052338675">Werneria <lb/>nubigena</ref>
+                    <note xml:id="bb044a61-2052-4386-844a-612052338675" corresp="#e608e1bf-c273-4995-88e1-bfc2733995f9">
                         <name type="plant">Werneria nubigena
-                            Kunth</name>, noch heute akzeptierter Name.</note>, <ref xml:id="ee6b9236-0e63-4eed-ab92-360e630eed50" corresp="#cb636c07-4763-4b83-a36c-0747630b83c4">Dumerilia paniculata</ref>
-                    <note xml:id="cb636c07-4763-4b83-a36c-0747630b83c4" corresp="#ee6b9236-0e63-4eed-ab92-360e630eed50">
+                            Kunth</name>, noch heute akzeptierter Name.</note>, <ref xml:id="c6a42568-d0a2-4b75-a425-68d0a2bb7597" corresp="#a8757929-cc5c-4aeb-b579-29cc5ccaeb63">Dumerilia paniculata</ref>
+                    <note xml:id="a8757929-cc5c-4aeb-b579-29cc5ccaeb63" corresp="#c6a42568-d0a2-4b75-a425-68d0a2bb7597">
                         <name type="plant">Dumerilia paniculata</name>
                             (=Dumérilie paniculée).</note>
                     <lb/>hören in der Grassflur bei <lb/>
@@ -186,24 +206,24 @@
                     </measure> Höhe ja schon auf. </p>
                 <p>Haben Sie vielleicht <lb/>
                     <pb n="1v"/>einen besonderen Abdruk <lb/>von Ihren
-                    gehaltvollen <lb/>Jahresberichten in <ref xml:id="dce48cf9-da53-4d67-a48c-f9da532d67f9" corresp="#aaf18a90-eb5a-4fac-b18a-90eb5a9facda">
+                    gehaltvollen <lb/>Jahresberichten in <ref xml:id="e5113b92-a5b9-4cea-913b-92a5b9bcea56" corresp="#c3ddce90-7b67-42f8-9dce-907b6772f8f4">
                         <choice>
                                 <abbr>Wiegm</abbr>
                                 <expan>Wiegmanns</expan>
                             </choice>
                             <lb/> Journal</ref>
-                    <note xml:id="aaf18a90-eb5a-4fac-b18a-90eb5a9facda" corresp="#dce48cf9-da53-4d67-a48c-f9da532d67f9">Vgl. <bibl corresp="https://edition-humboldt.de/v8/P5SD3J6W">Meyen
-                                1837</bibl>. Die Arbeit wurde ins Englische übersetzt. Vgl. <bibl corresp="https://edition-humboldt.de/v8/6M7J8ZD9">Meyen
+                    <note xml:id="c3ddce90-7b67-42f8-9dce-907b6772f8f4" corresp="#e5113b92-a5b9-4cea-913b-92a5b9bcea56">Vgl. <bibl corresp="https://edition-humboldt.de/P5SD3J6W">Meyen
+                                1837</bibl>. Die Arbeit wurde ins Englische übersetzt. Vgl. <bibl corresp="https://edition-humboldt.de/6M7J8ZD9">Meyen
                             1837a</bibl>.</note>, so schenken Sie <lb/>mir eines. Ich habe das <lb/>
                     <choice>
                         <abbr>Journ.</abbr>
                         <expan>Journal</expan>
-                    </choice> selbst nach <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    </choice> selbst nach <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <lb/>geschikt mit einem (ich <lb/>glaube dritten) Exemplare <lb/>Ihrer nicht
                     genug zu <lb/>lobenden kleinen Pflanzen <lb/>Geographie. Ich hoffe <lb/>
-                    <ref xml:id="e7d87c02-6718-4a0f-987c-026718ca0fa0" corresp="#fa2e0651-e01c-4d0c-ae06-51e01c7d0c88">Herr <persName ref="http://d-nb.info/gnd/117049840">Jacquemont</persName>
+                    <ref xml:id="daa1cde1-371e-4cc4-a1cd-e1371edcc4a2" corresp="#e5b2e187-9160-4b61-b2e1-8791605b6161">Herr <persName ref="https://editon-humboldt.de/H0004122 http://d-nb.info/gnd/117049840">Jacquemont</persName>
                     </ref>
-                    <note xml:id="fa2e0651-e01c-4d0c-ae06-51e01c7d0c88" corresp="#e7d87c02-6718-4a0f-987c-026718ca0fa0">Zu diesem Zeitpunkt war der Indienreisende, mit
+                    <note xml:id="e5b2e187-9160-4b61-b2e1-8791605b6161" corresp="#daa1cde1-371e-4cc4-a1cd-e1371edcc4a2">Zu diesem Zeitpunkt war der Indienreisende, mit
                             dem Humboldt 1828–1829 korrespondiert hatte, schon verstorben.</note> soll sie <lb/>endlich <hi rendition="#u">ganz</hi> übersezen. </p>
                 <closer>
                     <salute/>
@@ -212,7 +232,7 @@
                 </closer>
 
             <postscript>
-                <p> Ich habe viele <lb/>Abzüge von <persName ref="http://d-nb.info/gnd/101165250">
+                <p> Ich habe viele <lb/>Abzüge von <persName ref="https://editon-humboldt.de/H0003550 http://d-nb.info/gnd/101165250">
                             <choice>
                             <abbr>Bouss</abbr>
                             <expan>Boussingault</expan>

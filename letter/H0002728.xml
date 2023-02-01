@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002728">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,31 +29,48 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Samuel Thomas Soemmerring. [Frankfurt am Main, 17.
+                    Dezember 1826], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002728">https://edition-humboldt.de/v8/H0002728</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002728</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002728</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002728.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Samuel Thomas Soemmerring. [Frankfurt am Main, 17.
-                    Dezember 1826]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002728</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Freies Deutsches Hochstift / Frankfurter Goethe-Museum</institution>
+                        <repository>Handschriftensammlung</repository>
+                        <idno>
+                            <idno type="shelfmark">Hs-5050</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
                     <date when="1826-12-17" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830)
+                    <persName ref="https://editon-humboldt.de/H0015944 http://d-nb.info/gnd/118805193">Soemmerring, Samuel Thomas Ritter von (1755–1830)
                     </persName>
                 </correspAction>
                 <note>Die Datierung richtet sich nach Humboldts Aufenthalt in Frankfurt am Main auf
@@ -69,17 +86,18 @@
                     <salute/>
                 </opener>
                 <p>
-                    <pb n="1r"/>Ein Hauptzwek meines Aufenthalts <lb/>in <placeName ref="https://www.geonames.org/2925533">Francfurth</placeName>, ich möchte sagen der einzige,
+                    <pb n="1r"/>Ein Hauptzwek meines Aufenthalts <lb/>in <placeName ref="https://editon-humboldt.de/H0004798 https://www.geonames.org/2925533">Francfurth</placeName>, ich möchte sagen der einzige,
                     <lb/>ist der Wunsch, <hi rendition="#uu">Ihnen</hi>
                     <lb/>Verehrungswerther Freund, einmal <choice>
                         <sic>wider</sic>
                         <corr cert="high">wieder</corr>
                     </choice>
-                    <lb/>persönlich den Ausdruk meiner Be-<lb/>wunderung und Anhänglichkeit dar<lb/>zubringen.
+                    <lb/>persönlich den Ausdruk meiner Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>wunderung und Anhänglichkeit dar<lb break="no"/>zubringen.
                     Erlauben Sie mir dass <lb/>ich um zwölf Uhr (<choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
-                    </choice> zwi<lb/>schen 12–1 Uhr) Sie auf einige <lb/>Stunden besuche
+                    </choice> zwi<lb break="no"/>schen 12–1 Uhr) Sie auf einige <lb/>Stunden besuche
                     und bei Ihnen <lb/>fern von allem Eisen, im <lb/>Garten <choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
@@ -88,10 +106,10 @@
                         <expan>Magnetische</expan>
                     </choice>
                     <lb/>Inclination bestimme. Ich stelle <lb/>Ihnen dann auch meinen <lb/>braven
-                    jungen Freund, <persName ref="http://d-nb.info/gnd/117339385">Valenciennes</persName>, Aide
-                    <lb/>naturaliste au <orgName ref="http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName>
+                    jungen Freund, <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName>, Aide
+                    <lb/>naturaliste au <orgName ref="https://editon-humboldt.de/H0000553 http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName>
                     <lb/>
-                    <pb n="1v"/>vor, der mit <persName ref="http://d-nb.info/gnd/118677578">Cuvier</persName> ein grosses <lb/>Fischwerk herausgiebt und <lb/>sehr angenehm
+                    <pb n="1v"/>vor, der mit <persName ref="https://editon-humboldt.de/H0013277 http://d-nb.info/gnd/118677578">Cuvier</persName> ein grosses <lb/>Fischwerk herausgiebt und <lb/>sehr angenehm
                     und bescheiden <lb/>ist. Werden Sie mich noch <lb/>widerkennen?</p>
                 <signed>Al. Humboldt</signed>
                 <postscript>

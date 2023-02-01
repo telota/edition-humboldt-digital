@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019296">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Mariinsk</title>
             </titleStmt>
+            <editionStmt>
+                <p>Mariinsk [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019296.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019296.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019296.xml">
-                    <p>Mariinsk [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019296.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019296">
+                <place>
                     <placeName type="reg">Mariinsk</placeName>
                     <placeName type="alt">Mariinskoi</placeName>
-                    <!-- ROSE I, 3v  -->
+                    
                     <placeName type="alt">Marinski</placeName>
-                    <!-- RST I, 3v  -->
+                    
                     <placeName type="alt">Narinski</placeName>
-                    <!-- ERST 22r -->
-                    <note>Historisches Goldseifenwerk nördlich von <placeName key="H0005211">Berezovskij</placeName> am
-                        linken Ufer der <placeName key="H0017654">Pyšma</placeName> im Umland von <placeName key="H0005599">Jekaterinburg</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
-                    <!-- vgl. Rose 1827/1842, I, 229f., 258, 262, 288 -->
+                    
+                    <note>Historisches Goldseifenwerk nördlich von <placeName ref="https://editon-humboldt.de/H0005211 https://www.geonames.org/1510203">Berezovskij</placeName> am
+                        linken Ufer der <placeName ref="https://editon-humboldt.de/H0017654 https://www.geonames.org/1493869">Pyšma</placeName> im Umland von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
+                    
                 </place>
             </listPlace>
         </body>

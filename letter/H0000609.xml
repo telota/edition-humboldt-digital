@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000609">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -6,35 +6,52 @@
                     [1843–1848] </title>
                 <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend,
+                    [1843–1848] , hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0000609">https://edition-humboldt.de/v8/H0000609</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0000609</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0000609</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000609.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Sonnabend,
-                    [1843–1848] . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0000609</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1843-01-01" notAfter="1848-01-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
-                <note>Zur Datierung: Der Brief geht auf eine Anfrage des <persName ref="http://d-nb.info/gnd/117648396">Duc de Dalmatie</persName> zurück. Dieser war von 1843
+                <note>Zur Datierung: Der Brief geht auf eine Anfrage des <persName ref="https://editon-humboldt.de/H0015957 http://d-nb.info/gnd/117648396">Duc de Dalmatie</persName> zurück. Dieser war von 1843
                     bis 1848 französischer Gesandter in Preußen.</note>
             </correspDesc>
         </profileDesc>
@@ -46,11 +63,11 @@
                 <p>
                     <note hand="#addressee" place="mTop">
                         Graf
-                        Stollberg zu <placeName ref="https://www.geonames.org/2810808">Wernigerode</placeName>
+                        Stollberg zu <placeName ref="https://editon-humboldt.de/H0007945 https://www.geonames.org/2810808">Wernigerode</placeName>
                         <unclear reason="illegible" cert="high">hat eine solche</unclear>
-                        Kastanienallee</note>Eine Bitte: Es ist dem <persName ref="http://d-nb.info/gnd/117648396">Marquis
+                        Kastanienallee</note>Eine Bitte: Es ist dem <persName ref="https://editon-humboldt.de/H0015957 http://d-nb.info/gnd/117648396">Marquis
                         de Dalmatie</persName>
-                    <lb/>von <placeName ref="https://www.geonames.org/2988507">Paris</placeName> aus die Frage vorgelegt
+                    <lb/>von <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> aus die Frage vorgelegt
                     worden <lb/>ob es wahr sei dass man in Deutschland <lb/>auf Eichstämmen habe
                         <name type="plant">Fagus castanea</name>
                     <lb/>mit Erfolg propfen können? Schreiben <lb/>Sie mir theurer Freund zwei Worte

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006492">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Württemberg, Alexander Friedrich Karl, Herzog von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Württemberg, Alexander Friedrich Karl, Herzog von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0006492.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006492.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0006492.xml">
-                    <p>Württemberg, Alexander Friedrich Karl, Herzog von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0006492.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0006492">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/104183454</idno>
                     <persName type="reg">
                         <surname>Württemberg</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1771</birth>
                     <death>1833</death>
-                    <note>russischer Politiker und General; Sohn des Herzogs <persName key="H0006496">Friedrich Eugen
+                    <note>russischer Politiker und General; Sohn des Herzogs <persName ref="https://editon-humboldt.de/H0006496 http://d-nb.info/gnd/117753416">Friedrich Eugen
                             von Württemberg</persName> und Bruder des Königs Friedrich Wilhelm Karl von Württemberg;
                         Begründer der herzoglichen Linie des Hauses Württemberg</note>
                     <linkGrp>

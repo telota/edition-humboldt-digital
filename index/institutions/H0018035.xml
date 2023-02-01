@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018035">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title/>
             </titleStmt>
+            <editionStmt>
+                <p> [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018035.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,38 +20,38 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018035.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018035.xml">
-                    <p> [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018035.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018035">
+                <org>
                     <orgName type="reg">Suchoj priisk</orgName>
                     <orgName type="alt">Сухой прииск</orgName>
                     <orgName type="alt">Сухой</orgName>
                     <orgName type="alt">Suchoilot</orgName>
-                    <!-- ERST 32v -->
+                    
                     <orgName type="alt">Sukhoi Log</orgName>
-                    <!-- RST, I, 52v -->
+                    
                     <orgName type="alt">Suchoi</orgName>
-                    <!-- Rose 1837/1842, I, 327-335 -->
-                    <desc>Platingrube in der Nähe des heutigen Ortes <placeName key="H0018124">Uralec</placeName>
-                        zwischen <placeName key="H0018314">Visim</placeName> und <placeName key="H0001688">Nižnij
-                            Tagil</placeName>.<!-- Die Platinförderung
-                        wurde 1828 aufgenommen.-->
+                    
+                    <desc>Platingrube in der Nähe des heutigen Ortes <placeName ref="https://editon-humboldt.de/H0018124 https://www.geonames.org/478849">Uralec</placeName>
+                        zwischen <placeName ref="https://editon-humboldt.de/H0018314 https://www.geonames.org/473378">Visim</placeName> und <placeName ref="https://editon-humboldt.de/H0001688 https://www.geonames.org/520494">Nižnij
+                            Tagil</placeName>.
                     </desc>
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/478849</idno>
-                            <settlement key="H0018124">Uralec [Уралец]</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0018124">Uralec [Уралец]</settlement>
                             <note/>
                         </address>
                     </location>

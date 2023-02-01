@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004064">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Troughton, Edward</title>
             </titleStmt>
+            <editionStmt>
+                <p>Troughton, Edward [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004064.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,21 +20,22 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004064.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004064.xml">
-                    <p>Troughton, Edward [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004064.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004064">
-                    <idno type="uri">http://viaf.org/viaf/222145424570286831489</idno><!-- ct: prüfen! Ist das die richtige Person? Hat der wirklich keine GND-Nr.? -->
+                <person>
+                    <idno type="uri">http://viaf.org/viaf/222145424570286831489</idno>
                     <persName type="reg">
                         <surname>Troughton</surname>
                         <forename>Edward</forename>
@@ -40,7 +45,7 @@
                     </persName>
                     <birth>1753</birth>
                     <death>1835</death>
-                    <note>Mechaniker in London, seit 1782 mit seinem Bruder John Troughton<!-- ct: sollte diese Person auch einen eigenen Eintrag bekommen? Hat der eine GND-Nr.? --> Inhaber
+                    <note>Mechaniker in London, seit 1782 mit seinem Bruder John Troughton Inhaber
                         einer mechanischen Werkstatt</note>
                     <linkGrp>
                         <ptr target="02#475" type="letter"/>

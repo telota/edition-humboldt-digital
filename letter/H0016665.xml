@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016665">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,48 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1838] , hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016665">https://edition-humboldt.de/v8/H0016665</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016665</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016665</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016665.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1838] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016665</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>Nachlass Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">97</idno>
+                     <idno type="shelfmark">421, Bl. 179r</idno>, 180v </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1838" notAfter="1838" cert="low">1838-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: 1838 von fremder Hand</note>
          </correspDesc>
@@ -79,9 +96,9 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Herr von <persName ref="http://d-nb.info/gnd/116817569">Buch</persName> bringt mir <lb/>diese
-               rogensteinartige Masse <lb/>aus der neuesten Tertiär<lb/>formation von
-                  <placeName ref="https://www.geonames.org/689067">Volhynien</placeName>
+            <p>Herr von <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> bringt mir <lb/>diese
+               rogensteinartige Masse <lb/>aus der neuesten Tertiär<lb break="no"/>formation von
+                  <placeName ref="https://editon-humboldt.de/H0017267 https://www.geonames.org/689067">Volhynien</placeName>
                     <supplied cert="high">.</supplied>
                <lb/>Er bittet Sie, theurer <lb/>Freund, zu untersuchen <lb/>ob der <hi rendition="#u">Stein lebt</hi>. Sie <lb/>sehen: er scheint endlich <lb/>auch das
                Bedürfniss <lb/>zu fühlen, sich <hi rendition="#u">auf <lb/>einem Umwege</hi> mit

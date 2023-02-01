@@ -1,12 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015527">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>, </title>
+                <title>
+                    <name>Schickler, Bankhaus</name>
+                </title>
             </titleStmt>
+            <editionStmt>
+                <p>Schickler, Bankhaus [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015527.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,23 +22,22 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015527.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015527.xml">
-                    <p>,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015527.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015527">
-                    <idno type="uri"><?oxy_comment_start author="lkirsten" timestamp="20180713T124728+0200" comment="1. Aufteilen in Familie Schickler (http://d-nb.info/gnd/139797513) und Bankhaus Schickler (Einrichtungen.xml)
-2.Refrenzen prüfen und gegebenenfalls einen von beiden zuordnen
-3. Referenzen im Korpus prüfen und gegebenenfalls mit der richtigen ID (Familie oder Institution) versehen"?>http://d-nb.info/gnd/10111713-9</idno>
+                <person>
+                    <idno type="uri">http://d-nb.info/gnd/10111713-9</idno>
                     <persName type="reg">
                         <name>Schickler, Bankhaus</name>
                     </persName>
@@ -41,7 +46,7 @@
                         <ptr target="34#68" type="page"/>
                         <ptr target="34#{374}" type="page"/>
                         <ptr target="34#374" type="page"/>
-                        <ptr subtype="comment" target="34#[375]" type="page"/><?oxy_comment_end?>
+                        <ptr subtype="comment" target="34#[375]" type="page"/>
                     </linkGrp>
                 </person>
             </listPerson>

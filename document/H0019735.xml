@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019735">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -17,36 +17,53 @@
                     </persName>
                 </editor>
             </titleStmt>
+            <editionStmt>
+                <p>: Antike Marmorarten nach Zoega’s Bestimmungen[,] bearbeitet in Rom im Sommer
+                    1805, hg. v. Cettina Rapisarda und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019735">https://edition-humboldt.de/v8/H0019735</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019735</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019735</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019735.xml</idno>
             </publicationStmt>
 
             <sourceDesc>
-                <bibl>Antike Marmorarten nach Zoega’s Bestimmungen[,] bearbeitet in Rom im Sommer
-                    1805. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019735</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Museum für Naturkunde Berlin</institution>
+                        <collection>Mineralogische und Petrographisch-lagerstättenkundliche
+                            Sammlung</collection>
+                        <idno>
+                            <idno type="shelfmark">Archivmaterial
+                                Inv.-Nr.
+                                240-4, Bl. 1–4</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
                 
-                <placeName ref="https://www.geonames.org/3169070">Rom</placeName>
+                <placeName ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName>
                 <date when="1805">(Sommer)
                     1805</date>
             </creation>
         </profileDesc>
-        <revisionDesc status="basis">
-            <listChange>
-                <change when="2022-04-12" who="thomas">Editionsstufe „Basis“ vergeben</change>
-            </listChange>
-        </revisionDesc>
+        
     </teiHeader>
     <text>
         <body>
@@ -54,11 +71,11 @@
             <div>
                 <head>
                     <hi rendition="#u">Antike Marmorarten</hi>
-                    <lb/>nach <persName resp="#CT" ref="http://d-nb.info/gnd/117009229">Zoega</persName>’s Bestimmungen
+                    <lb/>nach <persName resp="#CT" ref="https://editon-humboldt.de/H0019445 http://d-nb.info/gnd/117009229">Zoega</persName>’s Bestimmungen
                     <lb/>bearbeitet <subst>
                         <del rendition="#ow">a</del>
                         <add place="across">i</add>
-                    </subst>n <placeName resp="#CT" ref="https://www.geonames.org/3169070">Rom</placeName> im <lb/>Sommer
+                    </subst>n <placeName resp="#CT" ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName> im <lb/>Sommer
                         <date when="1805">1805</date>
                     <lb/>
                     <space dim="vertical"/>
@@ -73,7 +90,8 @@
                     </head>
                     <item>
                         <hi rendition="#u">Cipolo</hi>,
-                        Penthelischer Marmor vom <placeName resp="#CT" ref="http://www.geonames.org/255609">Mons Pen-<lb/>thelius</placeName>, nicht mit dem Caristischen Marmor
+                        Penthelischer Marmor vom <placeName resp="#CT" ref="https://editon-humboldt.de/H0019817 http://www.geonames.org/255609">Mons Pen<g ref="#typoHyphen"/>
+                            <lb break="no"/>thelius</placeName>, nicht mit dem Caristischen Marmor
                         <lb/>aus Euboea<supplied cert="high">,</supplied> dem Cipollino der
                         Antiquarier zu <lb/>verwechseln. Der Penthelische Marmor ist ein
                         <lb/>schneeweißer, ziemlich grobkörniger mit etwas <lb/>silberweißem
@@ -86,25 +104,26 @@
                         die <lb/>Glim<unclear reason="illegible" cert="high" resp="#CT">m</unclear>erblättchen schuld sind. Große Muse<unclear reason="illegible" cert="high" resp="#CT">n</unclear>
                         
                         <lb/>in
-                        <placeName resp="#CT" ref="https://www.geonames.org/2988507">Paris</placeName>.</item>
+                        <placeName resp="#CT" ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>.</item>
                     <item>
-                        <hi rendition="#u">Cipollino</hi>, Caristischer Marmor, vom <placeName resp="#CT" ref="http://www.geonames.org/260935">Mons <lb/>Caristius</placeName> in
-                            <placeName resp="#CT" ref="https://www.geonames.org/262565">Euboea</placeName> dieselbe
+                        <hi rendition="#u">Cipollino</hi>, Caristischer Marmor, vom <placeName resp="#CT" ref="https://editon-humboldt.de/H0019903 http://www.geonames.org/260935">Mons <lb/>Caristius</placeName> in
+                            <placeName resp="#CT" ref="https://editon-humboldt.de/H0019889 https://www.geonames.org/262565">Euboea</placeName> dieselbe
                         Formation mit <lb/>
                         <unclear reason="illegible" cert="low" resp="#CT">dem</unclear> Penthelischen Marmor, da beide Gebirge <lb/>nur durch das
                         Meer getrennt sind. Cipollino
                         <lb/>ein sehr großkörniger stets grünlichweißer Kalkstein, <lb/>mit vielem
                         ebenfalls grünlichgrauem Glimmer. Diese <lb/>Glimmerblätter liegen so daß
-                        die aufgeschnitte-<lb/>nen Säulen davon wie
+                        die aufgeschnitte<g ref="#typoHyphen"/>
+                        <lb break="no"/>nen Säulen davon wie
                         Tannenbretter geflammt <lb/>erscheinen. Vortrefliche Säulen vo<unclear reason="illegible" cert="high" resp="#CT">m</unclear>
-                        Cipollino <lb/>im <orgName resp="#CT" ref="https://www.geonames.org/8015030">Museo
+                        Cipollino <lb/>im <orgName resp="#CT" ref="https://editon-humboldt.de/H0019989 https://www.geonames.org/8015030">Museo
                             Capitolino</orgName>
-                        <add place="right">am porticus <lb/>des <placeName ref="https://d-nb.info/gnd/7544711-3">Tempels der <lb/>Faustina</placeName> im <lb/>
-                            <placeName resp="#CT" ref="https://www.geonames.org/6269259">Campo Vaccino</placeName>,</add> und in
-                        der <placeName resp="#CT" ref="https://d-nb.info/gnd/4262377-7">Kirche <lb/>von <choice>
+                        <add place="right">am porticus <lb/>des <placeName ref="https://editon-humboldt.de/H0019793 https://d-nb.info/gnd/7544711-3">Tempels der <lb/>Faustina</placeName> im <lb/>
+                            <placeName resp="#CT" ref="https://editon-humboldt.de/H0004790 https://www.geonames.org/6269259">Campo Vaccino</placeName>,</add> und in
+                        der <placeName resp="#CT" ref="https://editon-humboldt.de/H0019789 https://d-nb.info/gnd/4262377-7">Kirche <lb/>von <choice>
                                 <abbr>S.</abbr>
                                 <expan>San</expan>
-                            </choice> Paolo</placeName> in <placeName resp="#CT" ref="https://www.geonames.org/3169070">Rom</placeName>. Für den schönsten <lb/>caristischen Marmor hält man
+                            </choice> Paolo</placeName> in <placeName resp="#CT" ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName>. Für den schönsten <lb/>caristischen Marmor hält man
                         den, in welchem <lb/>rothe Streifen (mit Eisenoxid gefärbt?) de<unclear reason="illegible" cert="low" resp="#CT">m</unclear>
                         <lb/>
                         <subst>
@@ -112,7 +131,7 @@
                             <add place="intralinear">gräulichweißen</add>
                         </subst> Glimmer beigemengt sind <lb/>wie in den Säulen des
                         räthselhaften
-                            <placeName resp="#CT" ref="https://d-nb.info/gnd/7682039-7">Bachus<lb/>tempel</placeName>s bei dem <placeName resp="#CT" ref="https://d-nb.info/gnd/7510487-8">Grabmal der Caecilia Metella</placeName>
+                            <placeName resp="#CT" ref="https://editon-humboldt.de/H0019794 https://d-nb.info/gnd/7682039-7">Bachus<lb break="no"/>tempel</placeName>s bei dem <placeName resp="#CT" ref="https://editon-humboldt.de/H0019780 https://d-nb.info/gnd/7510487-8">Grabmal der Caecilia Metella</placeName>
                         <lb/>ein Tempel<supplied cert="high">,</supplied> den man sehr willkührlich
                             <foreign xml:lang="Lat">Honoris <pb n="2v"/>
                             <fw type="folNum">2</fw>
@@ -122,13 +141,16 @@
                             <expan>und</expan>
                         </choice> mehr als der Cipolo, da er <lb/>weit glimerreicher ist.</item>
                     <item>
-                        <hi rendition="#u">Himettio</hi>, vom Berg <placeName resp="#CT" ref="https://www.geonames.org/261786">Himettus</placeName>, wegen der <lb/>vielen
+                        <hi rendition="#u">Himettio</hi>, vom Berg <placeName resp="#CT" ref="https://editon-humboldt.de/H0006938 https://www.geonames.org/261786">Himettus</placeName>, wegen der <lb/>vielen
                         Glimmerstreifen auch leicht mit Cipollino <lb/>zu verwechseln. Himettio ein
-                        weißer, grob-<lb/>körniger Kalkstein mit
-                        gräulichweißem oft gräulich-<lb/>blauem
+                        weißer, grob<g ref="#typoHyphen"/>
+                        <lb break="no"/>körniger Kalkstein mit
+                        gräulichweißem oft gräulich<g ref="#typoHyphen"/>
+                        <lb break="no"/>blauem
                             Glimmer<supplied cert="high">.</supplied> Die Glimerblättchen liegen
                         stets <subst>
-                            <add place="right superlinear">gleich-<lb/>laufend</add>
+                            <add place="right superlinear">gleich<g ref="#typoHyphen"/>
+                                <lb break="no"/>laufend</add>
                             <del rendition="#s">parallell</del>
                         </subst>
                         <choice>
@@ -136,8 +158,10 @@
                             <expan>und</expan>
                         </choice> der Durchschnitt der Säulen bildet <lb/>parallelle <add place="left">
                             <unclear reason="illegible" cert="low" resp="#CT">B</unclear>änder oder</add> Streifen, aber nichts bretterartig
-                            Geflam-<lb/>tes wie im Cipollino. Auch
-                        ist in diesem <lb/>Grundfarbe und Glimer stets etwas grünlich. Schön-<lb/>ster Himettischer Marmor <unclear reason="illegible" cert="high">
+                            Geflam<g ref="#typoHyphen"/>
+                        <lb break="no"/>tes wie im Cipollino. Auch
+                        ist in diesem <lb/>Grundfarbe und Glimer stets etwas grünlich. Schön<g ref="#typoHyphen"/>
+                        <lb break="no"/>ster Himettischer Marmor <unclear reason="illegible" cert="high">
                             <subst>
                                 <del rendition="#ow">an</del>
                                 <add place="across">in</add>
@@ -159,10 +183,10 @@
                         </subst> auffallend <lb/>daß <del rendition="#s">
                             <unclear reason="covered" cert="low" resp="#CT">von</unclear>
                         </del>
-                        <ref xml:id="b9603877-47cd-47f0-a038-7747cd27f096" corresp="#cba48a51-6014-4289-a48a-5160144289b9">
-                            <persName resp="#CT" ref="http://d-nb.info/gnd/118633600">Winkelmann</persName>
+                        <ref xml:id="b6c7b977-aab1-49fe-87b9-77aab1f9fe03" corresp="#d3a2699c-4843-46bd-a269-9c4843e6bdc7">
+                            <persName resp="#CT" ref="https://editon-humboldt.de/H0006426 http://d-nb.info/gnd/118633600">Winkelmann</persName>
                         </ref>
-                        <note xml:id="cba48a51-6014-4289-a48a-5160144289b9" corresp="#b9603877-47cd-47f0-a038-7747cd27f096">Vgl. <bibl corresp="https://edition-humboldt.de/v8/JG9CDW4T">Winckelmann 1764</bibl>, <ref target="https://doi.org/10.11588/diglit.1343#0302">250</ref>.</note>
+                        <note xml:id="d3a2699c-4843-46bd-a269-9c4843e6bdc7" corresp="#b6c7b977-aab1-49fe-87b9-77aab1f9fe03" resp="#CR">Vgl. <bibl corresp="https://edition-humboldt.de/JG9CDW4T">Winckelmann 1764</bibl>, <ref target="https://doi.org/10.11588/diglit.1343#0302">250</ref>.</note>
                         <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
@@ -171,12 +195,12 @@
                                 <unclear reason="covered" cert="low" resp="#CT">wenigen</unclear>
                             </del>
                             <add place="superlinear">20</add>
-                        </subst> Jahren den Parischen Mar<lb/>mor für den feinkörnigen
+                        </subst> Jahren den Parischen Mar<lb break="no"/>mor für den feinkörnigen
                         Kalkstein, <subst>
                             <del rendition="#s">fast</del>
                             <add place="superlinear">ja</add>
                         </subst>
-                        <add place="right left">für ei<lb/>nen hielten<supplied cert="high">,</supplied> der <add place="superlinear">aus dem
+                        <add place="right left">für ei<lb break="no"/>nen hielten<supplied cert="high">,</supplied> der <add place="superlinear">aus dem
                                 feinkörnigen</add>
                         </add> ins dichte übergeh<subst>
                             <del rendition="#ow">e</del>
@@ -191,7 +215,8 @@
                                     <expan>und</expan>
                                 </choice>
                                 <lb/>der Umstand</del>
-                            <add place="right left">die Erfah-<lb/>rung</add>
+                            <add place="right left">die Erfah<g ref="#typoHyphen"/>
+                                <lb break="no"/>rung</add>
                         </subst>
                         <supplied cert="high">,</supplied> daß feinkörniger Marmor überhaupt
                         <lb/>unter den Statuen der Alten seltener <subst>
@@ -230,28 +255,30 @@
                         <subst>
                             <del rendition="#s">hielt</del>
                             <add place="superlinear">sein müsse</add>
-                        </subst>, veranlaßten diesen <add place="right left">tief einge-<lb/>wurzelten</add> Irthum. Als der
+                        </subst>, veranlaßten diesen <add place="right left">tief einge<g ref="#typoHyphen"/>
+                            <lb break="no"/>wurzelten</add> Irthum. Als der
                         Zweifel aufkam, daß <lb/>der Apoll eine spätere Copie <subst>
                             <add place="left">
                                 <metamark/>eines griechischen Kunstwerks sei, wünschte
                                 man zu den <subst>
-                                    <del rendition="#s">Ur-<lb/>sachen</del>
+                                    <del rendition="#s">Ur<g ref="#typoHyphen"/>
+                                        <lb break="no"/>sachen</del>
                                     <add place="left">Gründen</add>
                                 </subst>
                                 <supplied cert="high">,</supplied> die in der Ausführung
-                                selbst zu liegen scheinen, ande<lb/>re aus der Natur des
+                                selbst zu liegen scheinen, ande<lb break="no"/>re aus der Natur des
                                 Materials <del rendition="#s">
                                     <gap reason="illegible" quantity="3" unit="chars"/>
                                 </del> hergenommene<supplied cert="high">,</supplied> hinzufügen zu können. <lb/>
-                                <ref xml:id="c9af2346-c961-45e1-af23-46c961b5e191" corresp="#f6c683bc-8f49-4d7e-8683-bc8f49cd7ec1">
-                                    <persName resp="#CT" ref="http://d-nb.info/gnd/129069574">Dolomieu</persName>
+                                <ref xml:id="cb60b87f-835d-4046-a0b8-7f835d50462b" corresp="#f4510383-540a-4830-9103-83540a18307d">
+                                    <persName resp="#CT" ref="https://editon-humboldt.de/H0012338 http://d-nb.info/gnd/129069574">Dolomieu</persName>
                                         <subst>
                                             <del rendition="#ow">
                                             <gap reason="illegible" quantity="1" unit="words"/>
                                         </del>
                                             <add place="across">widmete</add>
                                         </subst> sich dieser Untersuchung</ref>
-                                <note xml:id="f6c683bc-8f49-4d7e-8683-bc8f49cd7ec1" corresp="#c9af2346-c961-45e1-af23-46c961b5e191">Vgl. <bibl corresp="https://edition-humboldt.de/v8/MBC6H4G2">Dolomieu
+                                <note xml:id="f4510383-540a-4830-9103-83540a18307d" corresp="#cb60b87f-835d-4046-a0b8-7f835d50462b" resp="#CR">Vgl. <bibl corresp="https://edition-humboldt.de/MBC6H4G2">Dolomieu
                                         1790</bibl>.</note>
                                 <choice>
                                     <abbr>u</abbr>
@@ -263,8 +290,10 @@
                                     <expan>und</expan>
                                 </choice>
                                 Lunensischen
-                                Brüche erst seit <persName resp="#CT" ref="https://d-nb.info/gnd/118544373">Hadrian</persName>s Zeiten zu benu-<lb/>zen angefangen. Wir haben hier ein merkwürdiges
-                                    Beispiel<supplied cert="high">,</supplied> wie die orykto-<lb/>gnostische Untersuchung eines
+                                Brüche erst seit <persName resp="#CT" ref="https://editon-humboldt.de/H0020227 https://d-nb.info/gnd/118544373">Hadrian</persName>s Zeiten zu benu<g ref="#typoHyphen"/>
+                                <lb break="no"/>zen angefangen. Wir haben hier ein merkwürdiges
+                                    Beispiel<supplied cert="high">,</supplied> wie die orykto<g ref="#typoHyphen"/>
+                                <lb break="no"/>gnostische Untersuchung eines
                                 Kunstwerks auf die Bestimmung seines Alters leiten <lb/>kann. Indeß
                                 bleiben diejenigen <subst>
                                     <del rendition="#s">zweifelhaft</del>
@@ -273,34 +302,38 @@
                                 <supplied cert="high">,</supplied> welche auch <choice>
                                     <abbr>d.</abbr>
                                     <expan>den</expan>
-                                </choice> Parischen Mar-<lb/>mor für
+                                </choice> Parischen Mar<g ref="#typoHyphen"/>
+                                <lb break="no"/>mor für
                                 feinkörnig hielten,</add>
                             <del rendition="#s">
                                 <gap reason="covered" unit="words" quantity="16"/>
                             </del>
-                        </subst> der Cardinal <persName resp="#CT" ref="https://d-nb.info/gnd/119454866">Borgia</persName>
+                        </subst> der Cardinal <persName resp="#CT" ref="https://editon-humboldt.de/H0020074 https://d-nb.info/gnd/119454866">Borgia</persName>
                         <supplied cert="high">,</supplied>
                         <add place="right">
                             <metamark/>
                             <subst>
                                 <del rendition="#s">der</del>
                                 <add place="superlinear">welcher</add>
-                            </subst> die Propa<lb/>ganda<supplied cert="high">,</supplied> die er <lb/>v<unclear reason="illegible" cert="low" resp="#CT">e</unclear>rstand, stets <lb/>zu wissenschaftlichen
-                            <lb/>Zwekken zu be-<lb/>nuzen
+                            </subst> die Propa<lb break="no"/>ganda<supplied cert="high">,</supplied> die er <lb/>v<unclear reason="illegible" cert="low" resp="#CT">e</unclear>rstand, stets <lb/>zu wissenschaftlichen
+                            <lb/>Zwekken zu be<g ref="#typoHyphen"/>
+                            <lb break="no"/>nuzen
                                 wußte<supplied cert="high">,</supplied>
-                            <lb/>ließ durch sei<lb/>ne Mönche<supplied cert="high">,</supplied>
+                            <lb/>ließ durch sei<lb break="no"/>ne Mönche<supplied cert="high">,</supplied>
                         </add> um den Streit <lb/>zu schlichten, Parischen
-                        Marmor aus <placeName resp="#CT" ref="https://www.geonames.org/255720">Paros</placeName>
-                        selbst <lb/>kommen. Diese Probestükke, welche noch in dem<ref xml:id="eb7b99c3-64c7-4898-bb99-c364c7489856" corresp="#e61bdbc1-d728-40aa-9bdb-c1d72860aae9">
-                            <add place="right left">, von <persName resp="#CR" ref="https://d-nb.info/gnd/1157494919">Petrini</persName> be-<lb/>schriebenen</add>
+                        Marmor aus <placeName resp="#CT" ref="https://editon-humboldt.de/H0019815 https://www.geonames.org/255720">Paros</placeName>
+                        selbst <lb/>kommen. Diese Probestükke, welche noch in dem<ref xml:id="fedd0dc1-a771-4b47-9d0d-c1a7710b4718" corresp="#a3e497f0-3d65-4855-a497-f03d654855a6">
+                            <add place="right left">, von <persName resp="#CR" ref="https://editon-humboldt.de/H0020175 https://d-nb.info/gnd/1157494919">Petrini</persName> be<g ref="#typoHyphen"/>
+                                <lb break="no"/>schriebenen</add>
                                     Mineralien<supplied cert="high">-</supplied>Kabinett des
-                                    <orgName resp="#CT" ref="https://d-nb.info/gnd/16114832-3">Coleggio
+                                    <orgName resp="#CT" ref="https://editon-humboldt.de/H0019990 https://d-nb.info/gnd/16114832-3">Coleggio
                                     Nazareno</orgName> zu <lb/>
-                            <placeName resp="#CT" ref="https://www.geonames.org/3169070">Rom</placeName>
+                            <placeName resp="#CT" ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName>
                         </ref>
-                        <note xml:id="e61bdbc1-d728-40aa-9bdb-c1d72860aae9" corresp="#eb7b99c3-64c7-4898-bb99-c364c7489856"> Vgl. <bibl corresp="https://edition-humboldt.de/v8/STX59Z7Q">Petrini 1761</bibl>, <ref target="https://www.digitale-sammlungen.de/de/view/bsb10283486?page=206">I, 146</ref>ff.</note> aufbewahrt werden, beweisen<supplied cert="high">,</supplied> daß der
+                        <note xml:id="a3e497f0-3d65-4855-a497-f03d654855a6" corresp="#fedd0dc1-a771-4b47-9d0d-c1a7710b4718"> Vgl. <bibl corresp="https://edition-humboldt.de/STX59Z7Q">Petrini 1761</bibl>, <ref target="https://www.digitale-sammlungen.de/de/view/bsb10283486?page=206">I, 146</ref>ff.</note> aufbewahrt werden, beweisen<supplied cert="high">,</supplied> daß der
                         <lb/>Apoll nicht Parischer Marmor sei und daß man <lb/>über die Natur des
-                        letzteren <add place="superlinear">bisher</add> ganz falsche Mei-<lb/>nungen gehabt hatte. Er ist ein ganz
+                        letzteren <add place="superlinear">bisher</add> ganz falsche Mei<g ref="#typoHyphen"/>
+                        <lb break="no"/>nungen gehabt hatte. Er ist ein ganz
                         ungemengter <lb/>schneeweißer, sehr
                         großkörniger <subst>
                             <del rendition="#s">Marmor</del>
@@ -333,7 +366,8 @@
                         </choice>
                         <lb/>ohne blaue Adern, welche letzteren<supplied cert="high">,</supplied>
                         <add place="right">
-                            <metamark/> wie <persName resp="#CT" ref="http://d-nb.info/gnd/129069574">Dolo-<lb/>mieu</persName>
+                            <metamark/> wie <persName resp="#CT" ref="https://editon-humboldt.de/H0012338 http://d-nb.info/gnd/129069574">Dolo<g ref="#typoHyphen"/>
+                                <lb break="no"/>mieu</persName>
                             <subst>
                                 <del rendition="#s">will</del>
                                 <add place="sublinear">behauptet<supplied cert="high">,</supplied>
@@ -348,15 +382,15 @@
                                     <unclear reason="covered" cert="high" resp="#CT">vollkommenen</unclear>
                                 </del>
                                 <add place="intralinear">gerichtlichen</add>
-                            </subst> Urkunde, die der <ref xml:id="b83caa27-7e53-4162-bcaa-277e53816232" corresp="#f9286add-90cb-4868-a86a-dd90cb3868b3">ältere <lb/>
-                                <persName resp="#CR" ref="https://d-nb.info/gnd/10404974X">Visconti</persName>
+                            </subst> Urkunde, die der <ref xml:id="b7837ecc-1d80-414d-837e-cc1d80e14d21" corresp="#e9431e37-fb3b-4393-831e-37fb3bd393a2">ältere <lb/>
+                                <persName resp="#CR" ref="https://editon-humboldt.de/H0020115 https://d-nb.info/gnd/10404974X">Visconti</persName>
                                 <supplied cert="high">,</supplied> der
                                     Notar des
                                     großen
-                                    Antiquariers zu <placeName resp="#CT" ref="https://www.geonames.org/2988507">Paris</placeName>, in den 1<choice>
+                                    Antiquariers zu <placeName resp="#CT" ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>, in den 1<choice>
                                         <abbr>st</abbr>
                                         <expan>sten</expan>
-                                    </choice> Theil des <bibl resp="#CR" corresp="https://edition-humboldt.de/v8/XBZUSIXX">
+                                    </choice> Theil des <bibl resp="#CR" corresp="https://edition-humboldt.de/XBZUSIXX">
                                     <choice>
                                             <abbr>Mus<supplied cert="high">.</supplied>
                                         </abbr>
@@ -389,7 +423,7 @@
                                         <abbr>lunens.</abbr>
                                         <expan>lunensischer</expan>
                                     </choice> Marmor.</ref>
-                            <note xml:id="f9286add-90cb-4868-a86a-dd90cb3868b3" corresp="#b83caa27-7e53-4162-bcaa-277e53816232">Vgl. <bibl corresp="https://edition-humboldt.de/v8/XBZUSIXX">Visconti 1782</bibl>, <ref target="https://doi.org/10.11588/diglit.3451#0104">I,
+                            <note xml:id="e9431e37-fb3b-4393-831e-37fb3bd393a2" corresp="#b7837ecc-1d80-414d-837e-cc1d80e14d21" resp="#CR">Vgl. <bibl corresp="https://edition-humboldt.de/XBZUSIXX">Visconti 1782</bibl>, <ref target="https://doi.org/10.11588/diglit.3451#0104">I,
                                         92</ref>f.</note>
                             <lb/>
                             <unclear reason="illegible" cert="high">E</unclear>in solches
@@ -397,7 +431,7 @@
                             entscheidend als die
                                 Gef<unclear reason="illegible" cert="low">ä</unclear>lligkeit sie
                             sicher zu der unwahren <lb/>Behauptung verleitet hat, der Apoll sei von <choice>
-                                <abbr>grobkör<lb/>nig.</abbr>
+                                <abbr>grobkör<lb break="no"/>nig.</abbr>
                                 <expan>grobkörnigem</expan>
                             </choice>
                             <choice>
@@ -445,12 +479,12 @@
                             <corr type="deleted"/>
                         </choice>
                         <lb/>Nach den<add place="right">
-                            <metamark/> aus <placeName resp="#CT" ref="https://www.geonames.org/255720">Paros</placeName> durch
+                            <metamark/> aus <placeName resp="#CT" ref="https://editon-humboldt.de/H0019815 https://www.geonames.org/255720">Paros</placeName> durch
                                 <lb/>
-                            <persName resp="#CT" ref="https://d-nb.info/gnd/119454866">Borgia</persName>
+                            <persName resp="#CT" ref="https://editon-humboldt.de/H0020074 https://d-nb.info/gnd/119454866">Borgia</persName>
                                 erhalte<unclear reason="illegible" cert="high">nen</unclear>
                         </add>
-                        Probestükken des <orgName resp="#CT" ref="https://d-nb.info/gnd/16114832-3">Coleggio
+                        Probestükken des <orgName resp="#CT" ref="https://editon-humboldt.de/H0019990 https://d-nb.info/gnd/16114832-3">Coleggio
                             Nazareno</orgName>
                         <lb/>
                         <choice>
@@ -462,14 +496,14 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> welcher beim <lb/>Einpakken der Gruppe zum <unclear reason="illegible" cert="high">T</unclear>ransport nach <lb/>
-                        <placeName resp="#CT" ref="https://www.geonames.org/2988507">Paris</placeName> abfiel, ist der Laocoon <del rendition="#s">
+                        <placeName resp="#CT" ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> abfiel, ist der Laocoon <del rendition="#s">
                             <gap reason="illegible" quantity="2" unit="chars"/>
                         </del>
                         bestimmt <pb n="3v"/>
                         <fw type="folNum">4.</fw>
-                        <lb/>Parischer Marmor. Was <persName resp="#CT" ref="http://d-nb.info/gnd/118595083">Plinius</persName>
+                        <lb/>Parischer Marmor. Was <persName resp="#CT" ref="https://editon-humboldt.de/H0002035 http://d-nb.info/gnd/118595083">Plinius</persName>
                         <note place="mTop" hand="#unknown" rend="pencil">
-                            <persName resp="#CT" ref="http://d-nb.info/gnd/118555995">Isidor</persName>
+                            <persName resp="#CT" ref="https://editon-humboldt.de/H0015321 http://d-nb.info/gnd/118555995">Isidor</persName>
                         </note> von diesem <add place="right">Steine</add>
                         <lb/>
                         <subst>
@@ -479,15 +513,15 @@
                         <supplied cert="high">,</supplied> macht dies doppelt
                             wahrscheinlich<supplied cert="high">.</supplied>
                         <note place="left" hand="#unknown" rendition="#pencil">
-                            <persName resp="#CT" ref="http://d-nb.info/gnd/118595083">
+                            <persName resp="#CT" ref="https://editon-humboldt.de/H0002035 http://d-nb.info/gnd/118595083">
                                 <choice>
                                     <abbr>Plin.</abbr>
                                     <expan>Plinius</expan>
                                 </choice>
                             </persName> nicht<supplied cert="high">,</supplied> aber
                                 <lb/>
-                            <ref xml:id="a9e5fb86-3e20-4ba3-a5fb-863e207ba354" corresp="#af899eda-3d63-4ca4-899e-da3d631ca44c">
-                                <persName resp="#CT" ref="http://d-nb.info/gnd/118555995">Isidor</persName>. <bibl corresp="">
+                            <ref xml:id="b3fa53d4-5d35-4de0-ba53-d45d35cde046" corresp="#bcfe100b-51aa-44ba-be10-0b51aa04baf9">
+                                <persName resp="#CT" ref="https://editon-humboldt.de/H0015321 http://d-nb.info/gnd/118555995">Isidor</persName>. <bibl>
                                     <choice>
                                             <abbr>Orig.</abbr>
                                             <expan>Origines</expan>
@@ -513,8 +547,8 @@
                                         <unclear reason="illegible" cert="low">1714</unclear>
                                 </bibl>
                             </ref>
-                            <note xml:id="af899eda-3d63-4ca4-899e-da3d631ca44c" corresp="#a9e5fb86-3e20-4ba3-a5fb-863e207ba354">Vgl. dazu
-                                        <bibl resp="#CR" corresp="https://edition-humboldt.de/v8/DJVXKMJJ">Isidorus
+                            <note xml:id="bcfe100b-51aa-44ba-be10-0b51aa04baf9" corresp="#b3fa53d4-5d35-4de0-ba53-d45d35cde046" resp="#CR">Vgl. dazu
+                                        <bibl resp="#CR" corresp="https://edition-humboldt.de/DJVXKMJJ">Isidorus
                                         1801</bibl>, <ref target="https://archive.org/details/IsidorusHispalensisOperaOmniaTom.IV1801/page/n277">261<lb/>
                                 </ref>, Stichwort <quote>
                                     <hi rendition="#i">Parius</hi>
@@ -528,11 +562,11 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> die Laocoon<supplied cert="low">-</supplied>Gruppe <lb/>besteht in
-                        der That aus fünf Blökken. <lb/>Aus der <ref xml:id="c28896e6-852f-4934-8896-e6852ff934ff" corresp="#a349ce8e-4f93-4e5d-89ce-8e4f936e5d57">Beschreibung<supplied cert="high">,</supplied> die <persName resp="#CT" ref="http://d-nb.info/gnd/118595083">Plinius</persName>
+                        der That aus fünf Blökken. <lb/>Aus der <ref xml:id="ec638b83-d33b-4054-a38b-83d33b705413" corresp="#e9ff8ca1-f1e9-4443-bf8c-a1f1e9e443c2">Beschreibung<supplied cert="high">,</supplied> die <persName resp="#CT" ref="https://editon-humboldt.de/H0002035 http://d-nb.info/gnd/118595083">Plinius</persName>
                                 <del rendition="#s">übrigens selbst</del>
                                 <lb/>vo<unclear reason="illegible" cert="high">m</unclear> Laocoon
                                     <foreign xml:lang="Lat">ex domo <unclear reason="illegible" cert="high">T</unclear>iti</foreign> giebt</ref>
-                        <note xml:id="a349ce8e-4f93-4e5d-89ce-8e4f936e5d57" corresp="#c28896e6-852f-4934-8896-e6852ff934ff">Vgl. <bibl resp="#CR" corresp="https://edition-humboldt.de/v8/CDSACQCH">Plinius
+                        <note xml:id="e9ff8ca1-f1e9-4443-bf8c-a1f1e9e443c2" corresp="#ec638b83-d33b-4054-a38b-83d33b705413" resp="#CR">Vgl. <bibl resp="#CR" corresp="https://edition-humboldt.de/CDSACQCH">Plinius
                                     1778-1791</bibl>, <ref target="https://www.biodiversitylibrary.org/page/58342033">IX,
                                     635</ref>
                         </note>
@@ -552,15 +586,16 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> unserer grauen<supplied cert="high">,</supplied> in <lb/>den
-                            <placeName resp="#CT" ref="https://d-nb.info/gnd/7530876-9">
+                            <placeName resp="#CT" ref="https://editon-humboldt.de/H0019796 https://d-nb.info/gnd/7530876-9">
                             <unclear reason="illegible" cert="high">T</unclear>itusbädern</placeName>
                         gefundenen Statue schließen <lb/>muß. <space dim="horizontal"/> Aus den
                             neuesten<supplied cert="high">,</supplied> auf Befehl des
                             <lb/>
-                        <persName resp="#CT" ref="https://d-nb.info/gnd/118638033">Lord Elgin</persName>
-                        in <placeName resp="#CT" ref="https://www.geonames.org/255720">Paros</placeName> angestellten
-                            Unter-<lb/>suchungen weiß man, daß der
-                        alte griechische <lb/>Steinbruch in <placeName resp="#CT" ref="https://www.geonames.org/255720">Paros</placeName> ohne ungeheure Kosten <lb/>wohl nicht
+                        <persName resp="#CT" ref="https://editon-humboldt.de/H0020259 https://d-nb.info/gnd/118638033">Lord Elgin</persName>
+                        in <placeName resp="#CT" ref="https://editon-humboldt.de/H0019815 https://www.geonames.org/255720">Paros</placeName> angestellten
+                            Unter<g ref="#typoHyphen"/>
+                        <lb break="no"/>suchungen weiß man, daß der
+                        alte griechische <lb/>Steinbruch in <placeName resp="#CT" ref="https://editon-humboldt.de/H0019815 https://www.geonames.org/255720">Paros</placeName> ohne ungeheure Kosten <lb/>wohl nicht
                         wieder aufzuräumen <subst>
                             <del rendition="#s">ist</del>
                             <add place="superlinear">ist</add>
@@ -581,12 +616,14 @@
                             <add place="across">D</add>
                         </subst>er alte Bruch<add place="left">
                             <metamark/> besteht laut <lb/>den
-                                Nachrich-<lb/>ten<supplied cert="high">,</supplied> die wir <lb/>dies<subst>
+                                Nachrich<g ref="#typoHyphen"/>
+                            <lb break="no"/>ten<supplied cert="high">,</supplied> die wir <lb/>dies<subst>
                                 <del rendition="#ow">
                                     <gap reason="covered" unit="chars" quantity="2"/>
                                 </del>
                                 <add place="across">em</add>
-                            </subst> englischen <lb/>Reisenden ver-<lb/>danken<supplied cert="high">,</supplied>
+                            </subst> englischen <lb/>Reisenden ver<g ref="#typoHyphen"/>
+                            <lb break="no"/>danken<supplied cert="high">,</supplied>
                         </add> aus sehr
                         großkörnigem, <del rendition="#s">
                             <unclear reason="illegible" cert="low">perl</unclear>
@@ -610,18 +647,19 @@
                                 <gap reason="covered" unit="words" quantity="1"/>
                             </del>
                             <add place="intralinear">Lager</add>
-                        </subst> von sehr schönem<supplied cert="low">,</supplied> fein-<lb/>körnigem Marmor <del rendition="#s">
+                        </subst> von sehr schönem<supplied cert="low">,</supplied> fein<g ref="#typoHyphen"/>
+                        <lb break="no"/>körnigem Marmor <del rendition="#s">
                             <unclear reason="illegible" cert="high">vorkomme</unclear>
                         </del>,
                         so daß es <lb/>
-                        <del rendition="#s">(wie <persName resp="#CT" ref="http://d-nb.info/gnd/118633600">Winkelmann</persName> nur zu allgemein behauptete)</del>
+                        <del rendition="#s">(wie <persName resp="#CT" ref="https://editon-humboldt.de/H0006426 http://d-nb.info/gnd/118633600">Winkelmann</persName> nur zu allgemein behauptete)</del>
                         <lb/>doch einzelne Kunstwerke von fein körnigem <lb/>Marmor geben kann,
                         welche Parisch sind. <add place="right left">
-                            <persName resp="#CT" ref="http://d-nb.info/gnd/118633600">Winkelmann</persName>s Behauptung <lb/>war daher <subst>
+                            <persName resp="#CT" ref="https://editon-humboldt.de/H0006426 http://d-nb.info/gnd/118633600">Winkelmann</persName>s Behauptung <lb/>war daher <subst>
                                 <del rendition="#s">nicht</del>
-                                <add place="intralinear">viel<lb/>leicht nicht</add>
-                            </subst> ganz grund<lb/>los<supplied cert="high">,</supplied>
-                            <del rendition="#s"> und</del> nur zu all<lb/>gemein ausgedrückt.</add>
+                                <add place="intralinear">viel<lb break="no"/>leicht nicht</add>
+                            </subst> ganz grund<lb break="no"/>los<supplied cert="high">,</supplied>
+                            <del rendition="#s"> und</del> nur zu all<lb break="no"/>gemein ausgedrückt.</add>
                         <lb/>
                         <choice>
                             <orig>die</orig>
@@ -630,21 +668,23 @@
                         <add place="left">ungelehrten</add> Römischen Steinmezler <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> Bildhauer (<foreign xml:lang="ita">Scar<lb/>
+                        </choice> Bildhauer (<foreign xml:lang="ita">Scar<lb break="no"/>
                             <pb n="4r"/>
                             <fw type="folNum">5</fw> pell<unclear reason="illegible" cert="low">i</unclear>ni</foreign>)
                             bl<unclear reason="illegible" cert="high">ei</unclear>ben <add place="superlinear">übrigens</add> noch im̅er der <del rendition="#s">im
-                                Allge-<lb/>meinen</del> falschen
+                                Allge<g ref="#typoHyphen"/>
+                            <lb break="no"/>meinen</del> falschen
                             <del rendition="#s">
-                            <persName resp="#CT" ref="http://d-nb.info/gnd/118633600">Winkelmann</persName>schen</del> Meinung <lb/>von der
+                            <persName resp="#CT" ref="https://editon-humboldt.de/H0006426 http://d-nb.info/gnd/118633600">Winkelmann</persName>schen</del> Meinung <lb/>von der
                         Feinkörnigkeit <subst>
                             <add place="superlinear">alles</add>
                             <del rendition="#s">des</del>
-                        </subst> Parischen Mar-<lb/>mors getreu.
+                        </subst> Parischen Mar<g ref="#typoHyphen"/>
+                        <lb break="no"/>mors getreu.
                         Diese Meinung wäre nie <lb/>aufgekommen<supplied cert="high">,</supplied>
                         hätte man den Blok <del rendition="#s">des <lb/>Laocoon mehr als <unclear reason="covered" cert="low">den</unclear>
                         </del> des Apoll <add place="superlinear">weniger</add> studirt <add place="right">als so
-                            viele andere Statu<lb/>en<supplied cert="high">,</supplied>
+                            viele andere Statu<lb break="no"/>en<supplied cert="high">,</supplied>
                             die aus der Epoche <lb/>hoher Vollendung <lb/>griechischer Kunst
                             <lb/>auf uns gekom̅en <lb/>sind<subst>
                                 <add place="intralinear">.</add>
@@ -660,14 +700,14 @@
                         <note place="right" hand="#unknown" rendition="#pencil">
                             <gap reason="illegible" unit="lines" quantity="14"/>
                         </note>
-                        <lb/>In <placeName resp="#CT" ref="https://www.geonames.org/6255148">Europa</placeName> kommt der
+                        <lb/>In <placeName resp="#CT" ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> kommt der
                         Norwegische
                         Marmor <lb/>dem Parischen am nächsten<supplied cert="high">,</supplied> doch
                         macht ihn <lb/>seine Brüchigkeit fast unbrauchbar.</item>
                     <item>
-                        <hi rendition="#u">Giallo</hi> aus <placeName resp="#CT" ref="https://www.geonames.org/8378522">Numidien</placeName>, doch
+                        <hi rendition="#u">Giallo</hi> aus <placeName resp="#CT" ref="https://editon-humboldt.de/H0020345 https://www.geonames.org/8378522">Numidien</placeName>, doch
                         findet man ihn <lb/>in neueren Zeiten auch sehr schön bei
-                        <placeName resp="#CT" ref="https://www.geonames.org/3166548">Siena</placeName>
+                        <placeName resp="#CT" ref="https://editon-humboldt.de/H0019964 https://www.geonames.org/3166548">Siena</placeName>
                         <lb/>im Florentinischen.</item>
                     <item>
                         <hi rendition="#u">Cararischer Marmor</hi>, <foreign xml:lang="Lat">marmor
@@ -681,8 +721,8 @@
                         <hi rendition="#u">Memphitischer Marmor</hi>, <foreign xml:lang="Lat">alabastro orientale</foreign>
                         <supplied cert="high">,</supplied>
                         <lb/>ein durchscheinender kohlensaurer Kalkstein aus <lb/>
-                        <placeName resp="#CT" ref="https://www.geonames.org/357994">Egypten</placeName>. <persName resp="#CT" ref="http://d-nb.info/gnd/117009229">Zoega</persName> behauptet<supplied cert="high">,</supplied>
-                        daß es fast gar <lb/>keine Marmorstauen in <placeName resp="#CT" ref="https://www.geonames.org/357994">Egypten</placeName>
+                        <placeName resp="#CT" ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Egypten</placeName>. <persName resp="#CT" ref="https://editon-humboldt.de/H0019445 http://d-nb.info/gnd/117009229">Zoega</persName> behauptet<supplied cert="high">,</supplied>
+                        daß es fast gar <lb/>keine Marmorstauen in <placeName resp="#CT" ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Egypten</placeName>
                         gebe <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
@@ -696,9 +736,9 @@
                         </hi>
                         <supplied cert="high">,</supplied> ein
                             bräunlichrother<supplied cert="high">,</supplied> sehr harter<supplied cert="high">,</supplied>
-                        <lb/>dichter Kalkstein. Der fünf Fuß hohe <lb/>in der <placeName resp="#CT" ref="https://www.geonames.org/7506720">Villa Adriani</placeName> gefundene Faun
+                        <lb/>dichter Kalkstein. Der fünf Fuß hohe <lb/>in der <placeName resp="#CT" ref="https://editon-humboldt.de/H0019844 https://www.geonames.org/7506720">Villa Adriani</placeName> gefundene Faun
                         des <lb/>
-                        <orgName resp="#CT" ref="https://www.geonames.org/8015030">Museo Capitolino</orgName> ist das größte Stük<supplied cert="high">,</supplied>
+                        <orgName resp="#CT" ref="https://editon-humboldt.de/H0019989 https://www.geonames.org/8015030">Museo Capitolino</orgName> ist das größte Stük<supplied cert="high">,</supplied>
                         <lb/>welches von <foreign xml:lang="Lat">Rosso antico</foreign>
                             existirt<supplied cert="high">.</supplied>
                     </item>
@@ -711,7 +751,8 @@
                             dunkelschwarzer<supplied cert="high">,</supplied> dichter
                             Kalkstein<supplied cert="high">,</supplied>
                         <lb/>wie der <foreign xml:lang="Lat">rosso</foreign> den Steinmezlern wegen
-                        seiner <lb/>großen Härte bekannt. Woher beide Flöz-<lb/>kalkarten? In <placeName resp="#CT" ref="https://www.geonames.org/6255148">Europa</placeName> kennen wir
+                        seiner <lb/>großen Härte bekannt. Woher beide Flöz<g ref="#typoHyphen"/>
+                        <lb break="no"/>kalkarten? In <placeName resp="#CT" ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> kennen wir
                         nichts dem <lb/>
                         <foreign xml:lang="Lat">rosso</foreign>
                         <choice>
@@ -725,7 +766,7 @@
                             <del rendition="#ow">r</del>
                             <add place="across">s</add>
                         </subst>
-                        <orgName resp="#CT" ref="https://d-nb.info/gnd/1236682-1">Museo Pio Clementino</orgName>
+                        <orgName resp="#CT" ref="https://editon-humboldt.de/H0019992 https://d-nb.info/gnd/1236682-1">Museo Pio Clementino</orgName>
                         <lb/>ist von nero antico.</item>
                     <item>
                         <hi rendition="#u">Dolomit</hi>

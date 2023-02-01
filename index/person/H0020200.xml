@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020200">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>McVaugh, Rogers</title>
             </titleStmt>
+            <editionStmt>
+                <p>McVaugh, Rogers [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020200.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020200.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020200.xml">
-                    <p>McVaugh, Rogers [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020200.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0020200">
+                <person>
                     <persName type="reg">
                         <surname>McVaugh</surname>
                         <forename>Rogers</forename>
@@ -37,8 +42,8 @@
                     <birth>1909</birth>
                     <death>2009</death>
                     <note>Botaniker, ab 1951 Prof. für Botanik an der University of Michigan, Ann
-                        Arbor, <placeName key="H0009136">USA</placeName>, unternahm zahlreiche
-                        botanische Exkursionen nach <placeName key="H0008847">Mexiko</placeName>
+                        Arbor, <placeName ref="https://editon-humboldt.de/H0009136 https://www.geonames.org/6252001">USA</placeName>, unternahm zahlreiche
+                        botanische Exkursionen nach <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexiko</placeName>
                     </note>
                 </person>
             </listPerson>

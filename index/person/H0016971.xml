@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016971">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bazaine, Pierre-Dominique</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bazaine, Pierre-Dominique [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016971.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016971.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016971.xml">
-                    <p>Bazaine, Pierre-Dominique [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016971.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0016971">
+                <person>
                     <idno type="uri">https://d-nb.info/gnd/132754320</idno>
                     <persName type="reg">
                         <surname>Bazaine</surname>
@@ -50,7 +55,7 @@
                     <birth>1786</birth>
                     <death>1838</death>
                     <note>französischer Ingenieur-Generalleutnant und Stadtplaner in Sankt
-                        Petersburg; Mitglied der <orgName key="H0016798">Russisch-Kaiserlichen
+                        Petersburg; Mitglied der <orgName ref="https://editon-humboldt.de/H0016798 http://d-nb.info/gnd/254613-9">Russisch-Kaiserlichen
                             Mineralogischen Gesellschaft</orgName>
                     </note>
                 </person>

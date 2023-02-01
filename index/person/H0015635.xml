@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015635">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schöler, Friedrich von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schöler, Friedrich von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015635.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015635.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015635.xml">
-                    <p>Schöler, Friedrich von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015635.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015635">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/116853433</idno>
                     <persName type="reg">
                         <surname>Schöler</surname>
@@ -42,7 +47,7 @@
                     <birth>1772</birth>
                     <death>1840</death>
                     <note>preußischer Offizier und Diplomat; 1808 Flügeladjutant des Königs, 1817 Generalleutnant und
-                        Gesandter in <placeName key="H0008236">Sankt Petersburg</placeName>, 1832 General, 1835
+                        Gesandter in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt Petersburg</placeName>, 1832 General, 1835
                         Gesandter am Deutschen Bundestag; Jugendfreund Alexander von Humboldts</note>
                     <linkGrp>
                         <ptr target="30#29" type="page"/>

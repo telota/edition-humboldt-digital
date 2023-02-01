@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017977">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Trinius, Carl Bernhard</title>
             </titleStmt>
+            <editionStmt>
+                <p>Trinius, Carl Bernhard [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017977.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017977.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017977.xml">
-                    <p>Trinius, Carl Bernhard [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017977.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0017977">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/100657214</idno>
                     <persName type="reg">
                         <surname>Trinius</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1778</birth>
                     <death>1844</death>
-                    <note>Arzt und Botaniker, Gründer des Botanischen Museums in <placeName key="H0008236">St. Petersburg</placeName> und Leibarzt <persName key="H0001154">Aleksandr II.</persName>
+                    <note>Arzt und Botaniker, Gründer des Botanischen Museums in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">St. Petersburg</placeName> und Leibarzt <persName ref="https://editon-humboldt.de/H0001154 http://d-nb.info/gnd/118501860">Aleksandr II.</persName>
                     </note>
                 </person>
             </listPerson>

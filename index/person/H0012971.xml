@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0012971">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Centurión Guerrero de Torres, Manuel</title>
             </titleStmt>
+            <editionStmt>
+                <p>Centurión Guerrero de Torres, Manuel [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0012971.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0012971.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0012971.xml">
-                    <p>Centurión Guerrero de Torres, Manuel [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0012971.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0012971">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/30982466</idno>
                     <persName type="reg">
                         <surname>Centurión Guerrero de Torres</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1732</birth>
                     <death>1802</death>
-                    <!-- (CT:) Sterbejahr geändert nach http://dbe.rah.es/biografias/34266/manuel-centurion-guerrero-de-torres -->
+                    
                     <note>bekannt als einer der fortschrittlichsten Gobernadores der Kolonialzeit;
                         Studium an der Real Academia de Matemáticas in Cádiz; 1761–64 Gobernador und
                         Capitán General der Provinz Caracas; Gründung einer Mathematik-Schule in

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018533">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Tajo</title>
             </titleStmt>
+            <editionStmt>
+                <p>Tajo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018533.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,22 +20,23 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018533.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018533.xml">
-                    <p>Tajo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018533.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018533">
+                <place>
                     <idno type="uri">https://www.geonames.org/3108400</idno>
-                    <!-- @AG: Hier war ein WP-Link, "https://www.geonames.org/maps/wikipedia_40.3197_-1.6975", der bringt natürlich nichts. -->
+                    
                     <placeName type="reg">Tajo</placeName>
                     <note>Fluss auf der Iberischen Halbinsel. Fließt in Ost-West-Richtung durch Spanien und
                         Portugal.</note>

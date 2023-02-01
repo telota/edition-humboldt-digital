@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006176">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,55 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p> Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, Sonnabend,
+                    [Anfang 1830] , hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006176">https://edition-humboldt.de/v8/H0006176</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006176</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006176</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006176.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl> Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, Sonnabend,
-                    [Anfang 1830] . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006176</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 829 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 20,20 cm , B: 12,60 cm; Wasserzeichen: J. Whatman, Turkey Mill
+                            1828</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1830-01-01" notAfter="1830-03-31" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -71,7 +92,7 @@
                     
                 </opener>
                 <p>
-                    <pb n="1r"/>Ich freue mich, daß die Reise<lb/>bedingungen zu Ihrer
+                    <pb n="1r"/>Ich freue mich, daß die Reise<lb break="no"/>bedingungen zu Ihrer
                     Zufriedenheit <lb/>ausgefallen sind. Meine in <lb/>dem Voyage erwähnte <choice>
                         <abbr>physik</abbr>
                         <expan>physikalische</expan>
@@ -80,8 +101,8 @@
                         <abbr>Atlant.</abbr>
                         <expan>Atlantischen</expan>
                     </choice> Ozeans <lb/>ist nie erschienen. Vergessen <lb/>Sie nicht auf der
-                    ganzen <lb/>Reise täglich 2 mal und bis<lb/>weilen auch Nachts mit
-                        Bemer<lb/>kungen der <choice>
+                    ganzen <lb/>Reise täglich 2 mal und bis<lb break="no"/>weilen auch Nachts mit
+                        Bemer<lb break="no"/>kungen der <choice>
                         <abbr>lat.</abbr>
                         <expan>latitudo</expan>
                     </choice> und <choice>
@@ -94,9 +115,9 @@
                     <choice>
                         <sic>der</sic>
                         <corr cert="high">die</corr>
-                    </choice> Temperatur <lb/>des Wassers an der Ober<lb/>fläche zu
+                    </choice> Temperatur <lb/>des Wassers an der Ober<lb break="no"/>fläche zu
                     beobachten. Sie <lb/>lassen <add place="superlinear">See</add>-Wasser an der
-                        Ober<lb/>fläche schöpfen <choice>
+                        Ober<lb break="no"/>fläche schöpfen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> sezen <lb/>schnell ihr Thermometer hinein <lb/>
@@ -108,26 +129,26 @@
                         <expan>Instrument</expan>
                     </choice>
                     <lb/>noch im Wasser steht, <lb/>weil Verdünstung Kälte erregt. <lb/>
-                    <pb n="1v"/> Auf Untiefen und nahe <lb/>an Untiefen ist ge<lb/>wöhnlich das Meer kälter<supplied cert="high">.</supplied>
+                    <pb n="1v"/> Auf Untiefen und nahe <lb/>an Untiefen ist ge<lb break="no"/>wöhnlich das Meer kälter<supplied cert="high">.</supplied>
                     <lb/>Wenn Sie Sich meiner <lb/>freundlichst erinnern wollen <lb/>so sammeln Sie
                     mir <lb/>Pflanzen die ich in <lb/>Ihrem Namen an <lb/>
                     <choice>
                         <abbr>Prof</abbr>
                         <expan>Professor</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth</persName> geben werde<supplied cert="high">.</supplied>
-                    <lb/>Ich wünsche Ihnen Gesund<lb/>heit, mein theurer Herr <lb/>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth</persName> geben werde<supplied cert="high">.</supplied>
+                    <lb/>Ich wünsche Ihnen Gesund<lb break="no"/>heit, mein theurer Herr <lb/>
                     <choice>
                         <abbr>D.</abbr>
                         <expan>Doctor</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen</persName>
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Zufrieden<lb/>heit wie <hi rendition="#u">Sie</hi> sie in
-                    <lb/>so hohem Maaße ver<lb/>dienen. Sehen Sie zu <lb/>ob nicht das
-                    Meer an <lb/>der Küste von <placeName ref="https://www.geonames.org/3895114">Chili</placeName>
+                    </choice> Zufrieden<lb break="no"/>heit wie <hi rendition="#u">Sie</hi> sie in
+                    <lb/>so hohem Maaße ver<lb break="no"/>dienen. Sehen Sie zu <lb/>ob nicht das
+                    Meer an <lb/>der Küste von <placeName ref="https://editon-humboldt.de/H0007374 https://www.geonames.org/3895114">Chili</placeName>
                     <lb/>wegen der Ströhmung von <lb/>Süden her sehr kalt <lb/>sein wird? </p>
                 <closer rend="within the line">
                     <salute>Mit freundschaftlichster Hochachtung</salute>
@@ -137,13 +158,13 @@
             </div>
             <postscript>
                 <p> Lassen Sie Ihre <lb/>Thermometer bei <lb/>
-                    <persName ref="http://d-nb.info/gnd/11858281X">Mitscherlich</persName>
+                    <persName ref="https://editon-humboldt.de/H0014251 http://d-nb.info/gnd/11858281X">Mitscherlich</persName>
                     <choice>
                         <abbr>od</abbr>
                         <expan>oder</expan>
                     </choice>
                     <lb/>
-                    <persName ref="http://d-nb.info/gnd/100123848">Erman</persName>
+                    <persName ref="https://editon-humboldt.de/H0005973 http://d-nb.info/gnd/100123848">Erman</persName>
                     vergleichen. </p>
             </postscript>
             <pb n="2r"/>

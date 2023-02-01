@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014699">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -20,33 +20,42 @@
                         </resp>
                     </respStmt>
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (17. Mai 1808) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0014699">https://edition-humboldt.de/v8/H0014699</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0014699</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0014699</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014699.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1808. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0014699</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> H. speist um 17 Uhr bei <persName ref="http://d-nb.info/gnd/116051264">Baron Dégérando</persName>.
-                    Anwesend u.a.: <persName ref="http://d-nb.info/gnd/118768956">Voght</persName>, der französische
-                    Naturforscher <persName ref="http://d-nb.info/gnd/117631523">Joseph Philippe François
-                        Deleuze</persName>, der französische Historienmaler <persName ref="http://d-nb.info/gnd/119475804">François-André Vincent</persName>, das
+                <p> H. speist um 17 Uhr bei <persName ref="https://editon-humboldt.de/H0012182 http://d-nb.info/gnd/116051264">Baron Dégérando</persName>.
+                    Anwesend u.a.: <persName ref="https://editon-humboldt.de/H0002885 http://d-nb.info/gnd/118768956">Voght</persName>, der französische
+                    Naturforscher <persName ref="https://editon-humboldt.de/H0012205 http://d-nb.info/gnd/117631523">Joseph Philippe François
+                        Deleuze</persName>, der französische Historienmaler <persName ref="https://editon-humboldt.de/H0018910 http://d-nb.info/gnd/119475804">François-André Vincent</persName>, das
                     Ehepaar
-                    Montbrisson sowie die englische Schriftstellerin <persName ref="http://d-nb.info/gnd/118638106">Frances d’Arbly, geb. Burney</persName>. </p>
+                    Montbrisson sowie die englische Schriftstellerin <persName ref="https://editon-humboldt.de/H0018896 http://d-nb.info/gnd/118638106">Frances d’Arbly, geb. Burney</persName>. </p>
             </body>
         </text>
     </TEI>

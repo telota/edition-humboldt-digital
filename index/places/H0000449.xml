@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000449">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kolyma</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kolyma [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000449.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,23 +20,24 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000449.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000449.xml">
-                    <p>Kolyma [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000449.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0000449">
+                <place>
                     <idno type="uri">https://www.geonames.org/2124398</idno>
                     <placeName type="reg">Kolyma</placeName>
-                    <note>Fluss in <placeName key="H0006546">Jakutien</placeName> (Nordost-<placeName key="H0010218">Sibirien</placeName>), mündet in die <placeName key="H0017823">Ostsibirische
+                    <note>Fluss in <placeName ref="https://editon-humboldt.de/H0006546 https://www.geonames.org/2013161">Jakutien</placeName> (Nordost-<placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibirien</placeName>), mündet in die <placeName ref="https://editon-humboldt.de/H0017823 https://www.geonames.org/2127381">Ostsibirische
                             See</placeName>
                     </note>
                     <linkGrp>

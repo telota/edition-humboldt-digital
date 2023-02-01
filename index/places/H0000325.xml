@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000325">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kačkanar</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kačkanar [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000325.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000325.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000325.xml">
-                    <p>Kačkanar [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000325.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0000325">
+                <place>
                     <idno type="uri">https://www.geonames.org/554598</idno>
                     <placeName type="reg">Kačkanar</placeName>
                     <placeName type="alt">Catschcanar</placeName>
@@ -42,9 +47,8 @@
                     <placeName type="alt">Kascanar</placeName>
                     <placeName type="alt">Kachkanar</placeName>
                     <placeName type="alt">Katchkanar</placeName>
-                    <note>Eisenhaltiger Berg (Magnetberg) und gleichnamiges Bergmassiv nordöstlich von <placeName key="H0017219">Nižnaja Tura</placeName>, höchste Erhebung des <placeName key="H0020291">Mittleren Ural</placeName>
-                        <!-- vgl. Rose 1837/1842, I, 379 -->
-                    </note>
+                    <note>Eisenhaltiger Berg (Magnetberg) und gleichnamiges Bergmassiv nordöstlich von <placeName ref="https://editon-humboldt.de/H0017219 https://www.geonames.org/520204">Nižnaja Tura</placeName>, höchste Erhebung des <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren Ural</placeName>
+                        </note>
                     <linkGrp>
                         <ptr target="30#68" type="letter"/>
                     </linkGrp>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015939">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Solomirskij, Pavel Dmitrievič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Solomirskij, Pavel Dmitrievič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015939.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015939.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015939.xml">
-                    <p>Solomirskij, Pavel Dmitrievič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015939.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015939">
+                <person>
                     <persName type="reg">
                         <surname>Solomirskij</surname>
                         <forename>Pavel Dmitrievič</forename>
@@ -37,8 +42,7 @@
                     <birth/>
                     <death>1833</death>
                     <note>seit 1832 Miteigentümer der Fabriken aus dem Erbe von Aleksej Fëdorovič Turčaninov
-                        <!-- FS, 23.04.2020: Sind Identität und Lebensdaten gesichert? Ich finde einen Pawel Dmitrijewitsch Solomirski (Павел Дмитриевич Соломирский) mit den Lebendaten 1798-1870 und noch einmal abweichende Lebensdaten 1801-1860 oder 1861. Im Fall des ersten geht es auch im die Polevskoj und das Erbe von Turčaninov. Zunächst lege ich einen separaten Registereintrag an. Kuenftig muss die Identität beider geprüft werden. Um hier seriöse biographische Daten anbieten zu können, brauchen wir dringend Hilfe von jemandem mit Russischkenntnissen sowie Erfahrung mit biographischen Recherchen.  -->
-                    </note>
+                        </note>
                     <linkGrp>
                         <ptr target="30#148" type="page"/>
                         <ptr subtype="comment" target="30#[150]" type="page"/>

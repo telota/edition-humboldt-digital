@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0009518">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Las Trincheras</title>
             </titleStmt>
+            <editionStmt>
+                <p>Las Trincheras [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0009518.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,33 +20,34 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0009518.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0009518.xml">
-                    <p>Las Trincheras [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009518.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0009518">
-                    <idno type="uri">https://www.geonames.org/3635296</idno>
-                    <placeName type="reg">Las Trincheras</placeName>
-                    <placeName type="alt">Las Trincheras de Aguas Calientes</placeName>
-                    <placeName type="alt">Trincheras</placeName>
-                    <note>Ort mit Thermalquellen zwischen Puerto Cabello und Valencia (Venezuela)</note>
-                    <linkGrp>
-                        <ptr target="41#17" type="letter"/>
-                        <ptr target="41#20" type="letter"/>
-                        <ptr target="41#124" type="letter"/>
-                        <ptr subtype="comment" target="41#124" type="letter"/>
-                        <ptr target="41#125" type="letter"/>
-                    </linkGrp>
-                </place>
+                <place>
+            <idno type="uri">https://www.geonames.org/3635296</idno>
+            <placeName type="reg">Las Trincheras</placeName>
+            <placeName type="alt">Las Trincheras de Aguas Calientes</placeName>
+            <placeName type="alt">Trincheras</placeName>
+            <note>Ort mit Thermalquellen zwischen Puerto Cabello und Valencia (Venezuela)</note>
+            <linkGrp>
+                <ptr target="41#17" type="letter"/>
+                <ptr target="41#20" type="letter"/>
+                <ptr target="41#124" type="letter"/>
+                <ptr subtype="comment" target="41#124" type="letter"/>
+                <ptr target="41#125" type="letter"/>
+            </linkGrp>
+        </place>
             </listPlace>
         </body>
     </text>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019657">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Längental</title>
             </titleStmt>
+            <editionStmt>
+                <p>Längental [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019657.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019657.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019657.xml">
-                    <p>Längental [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019657.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>glossary</textClass>
+            <textClass>
+                <keywords>
+                    <term>glossary</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <list>
-                <item xml:id="H0019657">
+                <item>
                     <label type="reg">Längental</label>
                     <label type="alt">Längenthal</label>
                     <label type="alt">vallée longitudinale</label>
-                    <interp id="#geographie"/>
+                    <interp xml:id="#geographie"/>
                     <note resp="#FS">
                         <p>ein etwa parallel zu den umgebenden Bergketten und zur Streichrichtung der Gesteinsschichten
-                            verlaufendes Tal; im Gegensatz zum <ref target="H0019696">Quertal</ref>
+                            verlaufendes Tal; im Gegensatz zum <ref target="https://edition-humboldt.de/H0019696">Quertal</ref>
                         </p>
                     </note>
                 </item>

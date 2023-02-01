@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019152">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Viel’gorskij, Matvej Jur’evič, Graf</title>
             </titleStmt>
+            <editionStmt>
+                <p>Viel’gorskij, Matvej Jur’evič, Graf [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019152.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019152.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019152.xml">
-                    <p>Viel’gorskij, Matvej Jur’evič, Graf [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019152.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0019152">
+                <person>
                     <idno type="uri">https://d-nb.info/gnd/1162233869</idno>
                     <persName type="reg">
                         <surname>Viel’gorskij</surname>
@@ -57,7 +62,7 @@
                     </persName>
                     <birth>1794</birth>
                     <death>1866</death>
-                    <note>Violoncellist, Oberhofmarschall und Kammerherr am Kaiserhof von <persName key="H0001165">Nikolaj I.</persName> und <persName key="H0001156">Alexandra Fjodorowna</persName>
+                    <note>Violoncellist, Oberhofmarschall und Kammerherr am Kaiserhof von <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Nikolaj I.</persName> und <persName ref="https://editon-humboldt.de/H0001156 http://d-nb.info/gnd/119092085">Alexandra Fjodorowna</persName>
                     </note>
                 </person>
             </listPerson>

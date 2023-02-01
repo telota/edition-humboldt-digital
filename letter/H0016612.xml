@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016612">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,34 +29,52 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [25. September
+               1856] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016612">https://edition-humboldt.de/v8/H0016612</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016612</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016612</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016612.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [25. September
-               1856] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016612</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">204</idno>
+                     <idno type="shelfmark">421, Bl. 374r-374v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1856-09-25">1856-09-25</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
-            <note>Zur Datierung: vgl. Brief H.s an W. <persName ref="http://d-nb.info/gnd/116087994">Baum</persName> vom
+            <note>Zur Datierung: vgl. Brief H.s an W. <persName ref="https://editon-humboldt.de/H0003147 http://d-nb.info/gnd/116087994">Baum</persName> vom
                selben Tag</note>
          </correspDesc>
       </profileDesc>
@@ -67,47 +85,48 @@
             <pb n="1r"/>
             <p>Ich habe mir, weil man wissen muss unter <lb/>welchem frechen Gesindel man lebt,
                Herrn <lb/>
-                    <persName ref="http://d-nb.info/gnd/118667939">Büchner</persName>’s <bibl corresp="https://edition-humboldt.de/v8/D3H7QB9H">Krafft <choice>
+                    <persName ref="https://editon-humboldt.de/H0016989 http://d-nb.info/gnd/118667939">Büchner</persName>’s <bibl corresp="https://edition-humboldt.de/D3H7QB9H">Krafft <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                     </choice> Stoff</bibl>, zugleich <lb/>die Verherrlichung <persName ref="http://d-nb.info/gnd/119387123">Burmeister</persName>s <persName ref="http://d-nb.info/gnd/118769014">Karl Voigt</persName>s, <lb/>
-                    <persName ref="http://d-nb.info/gnd/118734547">Moleschott</persName>s und
-                  <persName ref="http://d-nb.info/gnd/118627198">Wirchow</persName> (der zu uns kommt) <lb/>geliehen. Ich
+                     </choice> Stoff</bibl>, zugleich <lb/>die Verherrlichung <persName ref="https://editon-humboldt.de/H0003796 http://d-nb.info/gnd/119387123">Burmeister</persName>s <persName ref="https://editon-humboldt.de/H0002888 http://d-nb.info/gnd/118769014">Karl Voigt</persName>s, <lb/>
+                    <persName ref="https://editon-humboldt.de/H0014271 http://d-nb.info/gnd/118734547">Moleschott</persName>s und
+                  <persName ref="https://editon-humboldt.de/H0002869 http://d-nb.info/gnd/118627198">Wirchow</persName> (der zu uns kommt) <lb/>geliehen. Ich
                habe es Zeile für Zeile <lb/>gelesen und wenn Sie das Buch noch nicht <lb/>gesehen,
                so lesen Sie es auch in der <lb/>
                     <hi rendition="#u">dritten</hi> Auflage.</p>
             <p>Politisch ist sehr merkwürdig dass ein <lb/>Buch 3 mal hat erscheinen können <lb/>in
                dem Gott officieller geläugnet wird <lb/>als ich je in Deutschland gesehen, <lb/>auch
-               beweist ein Capitel dass das <lb/>Christenthum den Fortschritten der Mensch<lb/>heit geschadet, ja dass der Zwek des <lb/>Naturstudiums sei diese
+               beweist ein Capitel dass das <lb/>Christenthum den Fortschritten der Mensch<lb break="no"/>heit geschadet, ja dass der Zwek des <lb/>Naturstudiums sei diese
                beiden Punkte <lb/>(sammt der Mythe von ein bischen <lb/>Unsterblichkeit) ins klare
                zu sezen<supplied cert="high">.</supplied>
-               <lb/>Behauptungen die freilich Herrn <persName ref="http://d-nb.info/gnd/117368210">Wiese</persName>
+               <lb/>Behauptungen die freilich Herrn <persName ref="https://editon-humboldt.de/H0016828 http://d-nb.info/gnd/117368210">Wiese</persName>
                <lb/>und <choice>
                   <abbr>Min.</abbr>
                   <expan>Minister</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/11636503X">Raumer</persName> bedenklich machen <lb/>müssen.</p>
+               <persName ref="https://editon-humboldt.de/H0000753 http://d-nb.info/gnd/11636503X">Raumer</persName> bedenklich machen <lb/>müssen.</p>
             <p>Dass die Neger ungeschwänzte <lb/>
                     <name type="animal" key="Affen">Affen</name> sind
-               wissen wir längst <lb/>durch <persName ref="http://d-nb.info/gnd/119387123">Burmeister</persName>, weniger
-               <lb/>durch <ref xml:id="beaea508-ca2f-48a4-aea5-08ca2f18a4e4" corresp="#d77f90fe-f43d-4abd-bf90-fef43d2abdb5">
-                        <persName ref="http://d-nb.info/gnd/118868705">Bibra</persName>
+               wissen wir längst <lb/>durch <persName ref="https://editon-humboldt.de/H0003796 http://d-nb.info/gnd/119387123">Burmeister</persName>, weniger
+               <lb/>durch <ref xml:id="ae756201-ab06-4d08-b562-01ab061d0815" corresp="#fdb1045a-e2d2-4748-b104-5ae2d2574808">
+                        <persName ref="https://editon-humboldt.de/H0016980 http://d-nb.info/gnd/118868705">Bibra</persName>
                     </ref>
-                    <note xml:id="d77f90fe-f43d-4abd-bf90-fef43d2abdb5" corresp="#beaea508-ca2f-48a4-aea5-08ca2f18a4e4">
-                     <bibl corresp="https://edition-humboldt.de/v8/HISBFRZ5">Bibra 1854 </bibl>
-                  </note> (wo?) dass die Demoi<lb/>selles ein kleineres Gehirn haben <lb/>als
+                    <note xml:id="fdb1045a-e2d2-4748-b104-5ae2d2574808" corresp="#ae756201-ab06-4d08-b562-01ab061d0815">
+                     <bibl corresp="https://edition-humboldt.de/HISBFRZ5">Bibra 1854 </bibl>
+                  </note> (wo?) dass die Demoi<lb break="no"/>selles ein kleineres Gehirn haben <lb/>als
                die Männer, dass das Gehirn <lb/>vom 50<choice>
                   <abbr>st</abbr>
                   <expan>sten</expan>
-               </choice> Jahre an mit zuneh-<lb/>mender Imbecilität
-               des Jugend<lb/>greises, an Gewicht ansehnlich <lb/>abnimmt und dass da die
-               Natur <lb/>fortfährt höhere organische Poten<lb/>zen zu entwickeln auch
+               </choice> Jahre an mit zuneh<g ref="#typoHyphen"/>
+                    <lb break="no"/>mender Imbecilität
+               des Jugend<lb break="no"/>greises, an Gewicht ansehnlich <lb/>abnimmt und dass da die
+               Natur <lb/>fortfährt höhere organische Poten<lb break="no"/>zen zu entwickeln auch
                höhere <lb/>Wesen als die jezigen Menschen <lb/>entstehen müssen zu denen wir
                <lb/>uns verhalten werden wie <lb/>der jezige Mensch zum <lb/>Affen-Neger.</p>
                 <pb n="1v"/>
-            <p>Ich muss heute zur <persName ref="http://d-nb.info/gnd/118688634">Königin</persName> nach
+            <p>Ich muss heute zur <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634">Königin</persName> nach
                   <lb/>
-                    <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName> wo ich bis Dienstag bleibe.
+                    <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName> wo ich bis Dienstag bleibe.
                <lb/>Geben Sie dem theuren Freund <lb/>nur eine neue Naturbiebel <lb/>zurük.
                Vielleicht aber haben <lb/>Sie dieselbe längst gelesen, wie <lb/>ich aus Ihrer lezten
                schönen <lb/>Rede vermuthen möchte<supplied cert="high">.</supplied>
@@ -126,11 +145,11 @@
                             </abbr>
                      <expan>Doktor</expan>
                   </choice>
-                  <persName ref="http://d-nb.info/gnd/116112085">Weigel</persName>
+                  <persName ref="https://editon-humboldt.de/H0016974 http://d-nb.info/gnd/116112085">Weigel</persName>
                   <lb/>
-                        <hi rendition="#u">aus <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                        <hi rendition="#u">aus <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                         </hi> sein
-                  der <lb/>die <placeName ref="https://www.geonames.org/2761369">Wiener</placeName> Naturforscher <lb/>zu
+                  der <lb/>die <placeName ref="https://editon-humboldt.de/H0007962 https://www.geonames.org/2761369">Wiener</placeName> Naturforscher <lb/>zu
                   Telegraphie Ausgaben <lb/>veranlasst. </p>
             </postscript>
          </div>

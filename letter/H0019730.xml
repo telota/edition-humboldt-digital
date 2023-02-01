@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019730">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,41 +11,56 @@
                     </persName>
                 </editor>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin, Februar–März
+                    1854?], hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019730">https://edition-humboldt.de/v8/H0019730</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019730</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019730</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019730.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin, Februar–März
-                    1854?]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019730</bibl>
+               <listWit>
+                    <witness>
+                        <bibl type="print" corresp="https://edition-humboldt.de/PZCJV7ZX">Stargardt
+                            1988</bibl> (Teildruck)</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1854-02-01" notAfter="1854-03-15" cert="low"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName cert="low" ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName cert="low" ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
-                <note>Der Brief ist nach einem Teildruck in <bibl corresp="https://edition-humboldt.de/v8/PZCJV7ZX">Stargardt 1988</bibl> wiedergegeben. In der Beschreibung des Autographs
-                    wird kein Empfänger angegeben. Der Adressat könnte <persName ref="http://d-nb.info/gnd/118750321">Johann Moritz Rugendas</persName> sein. Dieser hielt sich im Februar und
-                    März 1854 in <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> auf, wo er <persName ref="http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV.</persName> in <placeName ref="https://www.geonames.org/3996063">Mexiko</placeName> entstandene Ölskizzen präsentierte. Dank der Vermittlung
-                        <persName ref="http://d-nb.info/gnd/118554700">Humboldt</persName>s kaufte der Generaldirektor der
-                    Königlichen Museen <persName ref="http://d-nb.info/gnd/11712110X">Ignaz von Olfers</persName> die
-                    Skizzen für die <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>er Sammlungen an.
-                    Rugendas bereitete zudem seit 1852 gemeinsam mit <persName ref="https://d-nb.info/gnd/124018629">Christian Sartorius</persName> ein Werk über <placeName ref="https://www.geonames.org/3996063">Mexiko</placeName> vor, das lithographische Reproduktionen seiner
-                    Zeichnungen enthielt (<bibl corresp="https://edition-humboldt.de/v8/HJK79E2Q">Sartorius
-                        1855</bibl>, vgl. <bibl corresp="https://edition-humboldt.de/v8/FABVFKH5">Richert 1959</bibl>,
-                    66–67). Bei den im vorliegenden Schreiben erwähnten Ansichten von <placeName ref="https://www.geonames.org/3996063">Mexiko</placeName> könnte es sich um diese Lithographien
+                <note>Der Brief ist nach einem Teildruck in <bibl corresp="https://edition-humboldt.de/PZCJV7ZX">Stargardt 1988</bibl> wiedergegeben. In der Beschreibung des Autographs
+                    wird kein Empfänger angegeben. Der Adressat könnte <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Johann Moritz Rugendas</persName> sein. Dieser hielt sich im Februar und
+                    März 1854 in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> auf, wo er <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV.</persName> in <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexiko</placeName> entstandene Ölskizzen präsentierte. Dank der Vermittlung
+                        <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt</persName>s kaufte der Generaldirektor der
+                    Königlichen Museen <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">Ignaz von Olfers</persName> die
+                    Skizzen für die <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>er Sammlungen an.
+                    Rugendas bereitete zudem seit 1852 gemeinsam mit <persName ref="https://editon-humboldt.de/H0019453 https://d-nb.info/gnd/124018629">Christian Sartorius</persName> ein Werk über <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexiko</placeName> vor, das lithographische Reproduktionen seiner
+                    Zeichnungen enthielt (<bibl corresp="https://edition-humboldt.de/HJK79E2Q">Sartorius
+                        1855</bibl>, vgl. <bibl corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>,
+                    66–67). Bei den im vorliegenden Schreiben erwähnten Ansichten von <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexiko</placeName> könnte es sich um diese Lithographien
                     handeln.</note>
             </correspDesc>
         </profileDesc>
@@ -54,20 +69,20 @@
         <body>
             <div type="writingSession">
                 <pb n="176"/>
-				<p>Es hat <persName ref="http://d-nb.info/gnd/11712110X">Olfers</persName> heute beim <persName ref="http://d-nb.info/gnd/118535994">König</persName> gegessen und als ich dem <persName ref="http://d-nb.info/gnd/118535994">König</persName> gesagt ich wollte die Ansichten von <placeName ref="https://www.geonames.org/3996063">Mexico</placeName> nun diesem heute für das Museum mitgeben,
-                    hat der <persName ref="http://d-nb.info/gnd/118535994">König</persName> sehr lamentirt und behauptet,
+				<p>Es hat <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">Olfers</persName> heute beim <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> gegessen und als ich dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> gesagt ich wollte die Ansichten von <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName> nun diesem heute für das Museum mitgeben,
+                    hat der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> sehr lamentirt und behauptet,
                     Sie … hätten sie ihm für seine Sammlung geschenkt, keinesweges für das Museum, <choice>
                         <sic>wen</sic>
                         <corr cert="high">wenn</corr>
                     </choice> Sie aber wünschten daß jetzt das Museum dieselben besizt, so solle ich
-                    sie an <persName ref="http://d-nb.info/gnd/11712110X">Olfers</persName> geben, Sie aber bitten ihm
-                    (dem <persName ref="http://d-nb.info/gnd/118535994">König</persName>) gleich zwei andere Exemplare
+                    sie an <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">Olfers</persName> geben, Sie aber bitten ihm
+                    (dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>) gleich zwei andere Exemplare
                     kommen zu lassen.</p>
                 <p>Ich werde gewiß in Ihrem Sinne gehandelt haben, in dem ich mich als die Ursache
-                    der ganzen Verwirrung ausgegeben u. dem <persName ref="http://d-nb.info/gnd/118535994">König</persName> die Ansichten als Sein Eigenthum, ihm von Ihnen geschenkt,
-                    überlassen habe … Der <persName ref="http://d-nb.info/gnd/118535994">König</persName> ist nun ganz
+                    der ganzen Verwirrung ausgegeben u. dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> die Ansichten als Sein Eigenthum, ihm von Ihnen geschenkt,
+                    überlassen habe … Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> ist nun ganz
                     befriedigt und Ihnen dankbar.</p>
-                <p>In den Nôticias von <placeName ref="https://www.geonames.org/3996063">Mexico</placeName> ist mir das
+                <p>In den Nôticias von <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName> ist mir das
                     Total p. 360 sehr wahrscheinlich aber die Tabelle p<supplied cert="high">.</supplied> 339 recht unverständlich …</p>
             </div>
         </body>

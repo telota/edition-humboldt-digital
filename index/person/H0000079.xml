@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000079">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ferrer y Cafranga, José Joaquin</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ferrer y Cafranga, José Joaquin [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000079.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000079.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000079.xml">
-                    <p>Ferrer y Cafranga, José Joaquin [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000079.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0000079">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/87148656</idno>
                     <persName type="reg">
                         <surname>Ferrer y Cafranga</surname>
@@ -44,13 +49,13 @@
                     <note>spanischer Astronom; 1780–1786 in englischer Gefangenschaft, wo er sich
                         mathematisch-astronomischen Studien widmete; dann von Spanien nach Lima, wo
                         er erfolgreich als Kaufmann arbeitete; von dort nach Mexiko, wo er
-                        Höhenmessungen durchführte; in Spanien im <orgName key="H0000538">Depósito
-                            hidrográfico</orgName>; 1801 in Nordamerika Mitglied der <orgName key="H0000527">Philosophical Society</orgName>. Von hier aus
+                        Höhenmessungen durchführte; in Spanien im <orgName ref="https://editon-humboldt.de/H0000538 http://viaf.org/viaf/135437659">Depósito
+                            hidrográfico</orgName>; 1801 in Nordamerika Mitglied der <orgName ref="https://editon-humboldt.de/H0000527 http://d-nb.info/gnd/35311-5">Philosophical Society</orgName>. Von hier aus
                         wissenschaftliche Korrespondenz mit den französischen Astronomen, Humboldt
                         und Zach; später astronomische Arbeiten in Cádiz, in Greenwich, in Spanien,
                         wo er in Bilbao starb; Veröffentlichungen ab 1804 in den Transactions of the
                         American Philosophical Society, in Connaissance des temps, von 1776 bis 1807
-                        im <orgName key="H0000538">Depósito Hidrográfico de Madrid</orgName>
+                        im <orgName ref="https://editon-humboldt.de/H0000538 http://viaf.org/viaf/135437659">Depósito Hidrográfico de Madrid</orgName>
                     </note>
                     <linkGrp>
                         <ptr target="19#485" type="page"/>

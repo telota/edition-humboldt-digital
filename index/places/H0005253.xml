@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005253">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Blagodat'</title>
             </titleStmt>
+            <editionStmt>
+                <p>Blagodat' [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0005253.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005253.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0005253.xml">
-                    <p>Blagodat' [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0005253.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0005253">
+                <place>
                     <idno type="uri">https://www.geonames.org/576159</idno>
                     <placeName type="reg">Blagodat'</placeName>
                     <placeName type="alt">Gora Blagodad</placeName>
@@ -39,12 +44,9 @@
                     <placeName type="alt">Blagodat</placeName>
                     <placeName type="alt">Gnadenberg</placeName>
                     <placeName type="alt">gesegneter Berg</placeName>
-                    <note>Berg (heute abgetragen) und historische Eisenerzlagerstätte nahe <placeName key="H0000512">Kušva</placeName> am Ostrand des <placeName key="H0009659">Ural</placeName> (Russland)
-                        nördlich von <placeName key="H0001688">Nižnij
-                            Tagil<!-- Der Blagodat bildet einen einzeln dastehenden durch 2 Vertiefungen gleichsam in 3
-                                Berge getheilten Bergrücken [...]. (Rose 1837/1842, I, 342). Auf der Bergspitze befand
-                                sich ein Denkmal für Stephan Tschumpin (Pamyatnik Stepanu Chumpinu) und eine Kapelle mit
-                                Aussichtsplattform. Vgl. Humboldt 2009a, 148, Brief 43--><!-- Rose I, 341 -->
+                    <note>Berg (heute abgetragen) und historische Eisenerzlagerstätte nahe <placeName ref="https://editon-humboldt.de/H0000512 https://www.geonames.org/538340">Kušva</placeName> am Ostrand des <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName> (Russland)
+                        nördlich von <placeName ref="https://editon-humboldt.de/H0001688 https://www.geonames.org/520494">Nižnij
+                            Tagil
                         </placeName>
                     </note>
                     <linkGrp>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006509">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,33 +29,45 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Karl Ludwig Willdenow. [Paris], 1. Februar
+                    1805, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006509">https://edition-humboldt.de/v8/H0006509</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006509</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006509</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006509.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Karl Ludwig Willdenow. [Paris], 1. Februar
-                    1805. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006509</bibl>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/9PZUBNH7">Bruhns 1872</bibl>, I,
+                            407 (Teildruck). Vorlage.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <date when="1805-02-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
+                    <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -64,23 +76,23 @@
         <body>
             <div type="writingSession" n="1">
                 <p>So gross auch der Wirrwarr meiner eigenen Geschäfte ist, so werde ich doch Zeit
-                    finden, Deine Aufträge zu besorgen. Zu <persName ref="http://d-nb.info/gnd/120562324">Dupetit-Thouard</persName>, der ein gar hölzerner Mensch ist, gehe ich
+                    finden, Deine Aufträge zu besorgen. Zu <persName ref="https://editon-humboldt.de/H0012784 http://d-nb.info/gnd/120562324">Dupetit-Thouard</persName>, der ein gar hölzerner Mensch ist, gehe ich
                     heute selbst. Es ist unendlich schade, dass Dein guter Genius Dich nicht dieses
-                    Jahr statt nach <placeName ref="https://www.geonames.org/3165185">Triest</placeName> nach <placeName ref="https://www.geonames.org/2988507">Paris</placeName> geführt hat. Du hättest hier mein und
-                        <persName ref="http://d-nb.info/gnd/118661604">Bonpland</persName>’s grosses Herbarium, <persName ref="http://d-nb.info/gnd/118726048">La Marque</persName>’s und <persName ref="http://d-nb.info/gnd/119273624">Jussieu</persName>’s zu Gebote gehabt. Du hättest selbst ausgelesen, was
-                    Dir nützlich ist. So hat es <persName ref="http://d-nb.info/gnd/117680842">Vahl</persName> gemacht,
+                    Jahr statt nach <placeName ref="https://editon-humboldt.de/H0009514 https://www.geonames.org/3165185">Triest</placeName> nach <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> geführt hat. Du hättest hier mein und
+                        <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>’s grosses Herbarium, <persName ref="https://editon-humboldt.de/H0004274 http://d-nb.info/gnd/118726048">La Marque</persName>’s und <persName ref="https://editon-humboldt.de/H0004222 http://d-nb.info/gnd/119273624">Jussieu</persName>’s zu Gebote gehabt. Du hättest selbst ausgelesen, was
+                    Dir nützlich ist. So hat es <persName ref="https://editon-humboldt.de/H0002737 http://d-nb.info/gnd/117680842">Vahl</persName> gemacht,
                     denn durch Correspondenz ist von den hiesigen Menschen nichts zu erlangen.</p>
                 <p>Mit diesem Briefe, guter Willdenow, geht ein Kistchen unserer südamerikanischen
-                    und mexicanischen Samen ab. In <placeName ref="https://www.geonames.org/11205525">Malmaison</placeName>
-                    haben viele davon gekeimt, und ich hoffe, sie sollen es in <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> ebenfalls.</p>
-                <p>Ich lasse jetzt hier drucken: 1) <ref xml:id="d27fd624-57fe-4f89-bfd6-2457feff8989" corresp="#e84dbdd0-28c1-43cb-8dbd-d028c1a3cb3d">
-                        <bibl corresp="https://edition-humboldt.de/v8/NDEPCZEJ">„Tableau physique des régions
+                    und mexicanischen Samen ab. In <placeName ref="https://editon-humboldt.de/H0008617 https://www.geonames.org/11205525">Malmaison</placeName>
+                    haben viele davon gekeimt, und ich hoffe, sie sollen es in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> ebenfalls.</p>
+                <p>Ich lasse jetzt hier drucken: 1) <ref xml:id="a0a61684-3a8f-43e2-a616-843a8f53e2c3" corresp="#bc2026f3-8208-4803-a026-f382085803b3">
+                        <bibl corresp="https://edition-humboldt.de/NDEPCZEJ">„Tableau physique des régions
                                 équinoxiales“;</bibl>
                     </ref>
-                    <note xml:id="e84dbdd0-28c1-43cb-8dbd-d028c1a3cb3d" corresp="#d27fd624-57fe-4f89-bfd6-2457feff8989">Der Essai sur la Géographie des Plantes
-                            accompagné d’un tableau physique des régions équinoxiales (<bibl corresp="https://edition-humboldt.de/v8/NDEPCZEJ">Humboldt 1805</bibl>).</note> 2) das erste Fascikel der <bibl corresp="https://edition-humboldt.de/v8/TVIRV8EB">„Plantae
-                        aequinoctiales“</bibl> mit prächtigen Kupfern; 3) <bibl corresp="https://edition-humboldt.de/v8/4NTN2HVH">„Observations de Zoologie et d’Anatomie
-                        comparée“</bibl>; 4) <bibl corresp="https://edition-humboldt.de/v8/JUIGPC3H">„Observations
+                    <note xml:id="bc2026f3-8208-4803-a026-f382085803b3" corresp="#a0a61684-3a8f-43e2-a616-843a8f53e2c3">Der Essai sur la Géographie des Plantes
+                            accompagné d’un tableau physique des régions équinoxiales (<bibl corresp="https://edition-humboldt.de/NDEPCZEJ">Humboldt 1805</bibl>).</note> 2) das erste Fascikel der <bibl corresp="https://edition-humboldt.de/TVIRV8EB">„Plantae
+                        aequinoctiales“</bibl> mit prächtigen Kupfern; 3) <bibl corresp="https://edition-humboldt.de/4NTN2HVH">„Observations de Zoologie et d’Anatomie
+                        comparée“</bibl>; 4) <bibl corresp="https://edition-humboldt.de/JUIGPC3H">„Observations
                         astronomiques et Mesures exécutées dans un voyage aux Tropiques.“</bibl>
                     Alle erscheinen deutsch zugleich.</p>
             </div>

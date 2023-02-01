@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016790">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Cotta'sche Verlagsbuchhandlung</title>
             </titleStmt>
+            <editionStmt>
+                <p>Cotta'sche Verlagsbuchhandlung [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016790.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016790.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016790.xml">
-                    <p>Cotta'sche Verlagsbuchhandlung [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016790.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0016790">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/5056474-2</idno>
                     <orgName type="reg">Cotta'sche Verlagsbuchhandlung</orgName>
                     <desc>Ein 1659 in Tübingen gegründeter Verlag, der sich bis 1889 im Besitz der Verlegerfamilie Cotta
@@ -37,13 +42,13 @@
                     <location from="1810" to="1889">
                         <address>
                             <idno type="uri">https://www.geonames.org/2825297</idno>
-                            <settlement key="H0010371">Stuttgart</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0010371">Stuttgart</settlement>
                         </address>
                     </location>
                     <location from="1659" to="1816">
                         <address>
                             <idno type="uri">https://www.geonames.org/2820860</idno>
-                            <settlement key="H0009545">Tübingen</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0009545">Tübingen</settlement>
                         </address>
                     </location>
                 </org>

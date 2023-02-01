@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018796">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Sysert</title>
             </titleStmt>
+            <editionStmt>
+                <p>Sysert [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018796.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018796.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018796.xml">
-                    <p>Sysert [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018796.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018796">
+                <place>
                     <idno type="uri">https://www.geonames.org/1490402</idno>
                     <idno type="uri">http://d-nb.info/gnd/7544192-5</idno>
                     <placeName type="reg">Sysert</placeName>
@@ -39,8 +44,8 @@
                     <placeName type="alt">Сысерть</placeName>
                     <placeName type="alt">Sysserskoi</placeName>
                     <placeName type="alt">Сысерской</placeName>
-                    <note>Ort an der östlichen Flanke des <placeName key="H0020291">Mittleren
-                            Ural</placeName>, südlich von <placeName key="H0005599">Jekaterinburg</placeName>; 1732
+                    <note>Ort an der östlichen Flanke des <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren
+                            Ural</placeName>, südlich von <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>; 1732
                         gegründet im Zuge der Errichtung eines Eisenwerks (Sysertskij Zavod)</note>
                 </place>
             </listPlace>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011319">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ladakh</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ladakh [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011319.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,34 +20,35 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011319.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011319.xml">
-                    <p>Ladakh [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011319.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0011319">
-                    <idno type="uri">https://www.geonames.org/12096464</idno>
-                    <placeName type="reg">Ladakh</placeName>
-                    <placeName type="alt">Laddākh</placeName>
-                    <placeName type="alt">Ladak</placeName>
-                    <note>Region im Süden Kaschmirs</note>
-                    <linkGrp>
-                        <ptr target="32#38" type="letter"/>
-                        <ptr target="32#141" type="letter"/>
-                        <ptr target="32#144" type="letter"/>
-                        <ptr target="32#145" type="letter"/>
-                        <ptr target="32#146" type="letter"/>
-                        <ptr target="32#159" type="letter"/>
-                    </linkGrp>
-                </place>
+                <place>
+            <idno type="uri">https://www.geonames.org/12096464</idno>
+            <placeName type="reg">Ladakh</placeName>
+            <placeName type="alt">Laddākh</placeName>
+            <placeName type="alt">Ladak</placeName>
+            <note>Region im Süden Kaschmirs</note>
+            <linkGrp>
+                <ptr target="32#38" type="letter"/>
+                <ptr target="32#141" type="letter"/>
+                <ptr target="32#144" type="letter"/>
+                <ptr target="32#145" type="letter"/>
+                <ptr target="32#146" type="letter"/>
+                <ptr target="32#159" type="letter"/>
+            </linkGrp>
+        </place>
             </listPlace>
         </body>
     </text>

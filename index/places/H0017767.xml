@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017767">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Silair</title>
             </titleStmt>
+            <editionStmt>
+                <p>Silair [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017767.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017767.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017767.xml">
-                    <p>Silair [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017767.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017767">
+                <place>
                     <idno type="uri">https://www.geonames.org/462625</idno>
                     <placeName type="reg">Silair</placeName>
                     <placeName type="alt">Urman Silaïr</placeName>
@@ -39,7 +44,7 @@
                     <placeName type="alt">Зилаир</placeName>
                     <placeName type="alt">Zilair</placeName>
                     <placeName type="alt">Reka Zilair</placeName>
-                    <note>Rechter Nebenfluss der <placeName key="H0017754">Sakmara</placeName> im <placeName key="H0020292">Südlichen Ural</placeName>.</note>
+                    <note>Rechter Nebenfluss der <placeName ref="https://editon-humboldt.de/H0017754 https://www.geonames.org/499341">Sakmara</placeName> im <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName>.</note>
                 </place>
             </listPlace>
         </body>

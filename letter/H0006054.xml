@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006054">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,50 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Karl Ludwig Willdenow. Paris, 10. Oktober
+                    1811, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006054">https://edition-humboldt.de/v8/H0006054</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0006054</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006054</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006054.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Karl Ludwig Willdenow. Paris, 10. Oktober
-                    1811. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0006054</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118661604">Bonpland, Aimé Jacques (1773–1858) </persName>
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland, Aimé Jacques (1773–1858) </persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <date when="1811-10-10" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
+                    <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow, Karl Ludwig (1765–1812) </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -77,23 +93,23 @@
                         <expan>und</expan>
                     </choice> die theuren Deinen. Es ist unmöglich Euch lange <lb/>nahe gewesen zu
                     sein, ohne mit Zärtlichkeit an die Tage <lb/>des Zusammenlebens zu denken. Ich
-                    darf wohl <persName ref="http://d-nb.info/gnd/104130717">Desfontaines</persName>, <lb/>
-                    <persName ref="http://d-nb.info/gnd/102050511">Corea</persName> , <persName ref="http://d-nb.info/gnd/118661604">Bonpland</persName>, <persName ref="http://d-nb.info/gnd/120562324">Dupetit Thouars</persName>, <persName ref="http://d-nb.info/gnd/142837660">Turpin</persName>, <add place="superlinear">Gay</add>
+                    darf wohl <persName ref="https://editon-humboldt.de/H0012241 http://d-nb.info/gnd/104130717">Desfontaines</persName>, <lb/>
+                    <persName ref="https://editon-humboldt.de/H0013183 http://d-nb.info/gnd/102050511">Corea</persName> , <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>, <persName ref="https://editon-humboldt.de/H0012784 http://d-nb.info/gnd/120562324">Dupetit Thouars</persName>, <persName ref="https://editon-humboldt.de/H0004093 http://d-nb.info/gnd/142837660">Turpin</persName>, <add place="superlinear">Gay</add>
                     <supplied cert="high">,</supplied>
-                    <persName ref="http://d-nb.info/gnd/118726048">Lamarck</persName>, <persName ref="http://d-nb.info/gnd/119273624">Jussieu</persName>
+                    <persName ref="https://editon-humboldt.de/H0004274 http://d-nb.info/gnd/118726048">Lamarck</persName>, <persName ref="https://editon-humboldt.de/H0004222 http://d-nb.info/gnd/119273624">Jussieu</persName>
                     <supplied cert="high">,</supplied>
                     <add place="left">Berthollet, Malus..</add>
-                    <lb/>....nennen. Nie hat ein Reisender solche Theilnahme zu<lb/>rükgelassen, nie hat er sie aber auch so verdient. Mit <lb/>Wehmut, theurer
-                    Willdenow, denke ich an die Lage Deiner <lb/>guten, lieben <persName ref="https://edition-humboldt.de/v8/H0006401">Gattin</persName>
+                    <lb/>....nennen. Nie hat ein Reisender solche Theilnahme zu<lb break="no"/>rükgelassen, nie hat er sie aber auch so verdient. Mit <lb/>Wehmut, theurer
+                    Willdenow, denke ich an die Lage Deiner <lb/>guten, lieben <persName ref="https://editon-humboldt.de/H0006401">Gattin</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> des treflichen <persName ref="https://edition-humboldt.de/v8/H0006404">Wilhelms</persName>. Doch Du
+                    </choice> des treflichen <persName ref="https://editon-humboldt.de/H0006404">Wilhelms</persName>. Doch Du
                     <lb/>bist genesen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> wir können uns alle Glükwünschen. <lb/>Ich lebe mein altes, treibendes
-                    Wesen fort, viel Be<lb/>wegung <choice>
+                    Wesen fort, viel Be<lb break="no"/>wegung <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> guter Wille und wenig Genuß. Der Arm <lb/>ist gar schlimm <choice>
@@ -101,16 +117,16 @@
                         <expan>und</expan>
                     </choice> stumpf. Ich bewohne jezt oft <lb/>die vieille Estrapade, die kleine
                     Wohnung unten. Das <lb/>Zimmer, die Treppe – alles erinnert an Euch. Ich reise
-                    <lb/>diese Nacht nach <placeName ref="https://www.geonames.org/2761369">Wien</placeName>; eine Reise von
+                    <lb/>diese Nacht nach <placeName ref="https://editon-humboldt.de/H0007962 https://www.geonames.org/2761369">Wien</placeName>; eine Reise von
                     6 Wochen. <lb/>Die Buchhändler sind des Teufels über meine Abwesenheiten
-                    <lb/>aber ich habe in 6 Jahren <persName ref="http://d-nb.info/gnd/118554727">meinen
+                    <lb/>aber ich habe in 6 Jahren <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">meinen
                         Bruder</persName> nicht gesehen<supplied cert="high">,</supplied>
                     <lb/>
                     <pb n="1v"/>ich bin Anfang Dezember wieder hier. Auch fürchte <lb/>ich die
                     bald eintretende Kälte. Deine Comissionen <lb/>von Büchern habe ich auf zwei
                     Wegen gemacht, <lb/>aber harre noch immer. Aber, überböser, der Du <lb/>den
-                        <bibl corresp="https://edition-humboldt.de/v8/6AWI6XHF">
-                        <persName ref="http://d-nb.info/gnd/118674455">Brown</persName>
+                        <bibl corresp="https://edition-humboldt.de/6AWI6XHF">
+                        <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Brown</persName>
                         <choice>
                             <abbr>Nov</abbr>
                             <expan>Nova</expan>
@@ -121,40 +137,41 @@
                         </choice>
                     </bibl> entführt hast, ohne es mir <lb/>zu sagen. Es wäre ja besser
                     gewesen, ich hätte <lb/>
-                    <persName ref="http://d-nb.info/gnd/118661604">Bonpland</persName>
+                    <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>
                     vorbereiten können. Ich habe alles auf <lb/>Zufall geschoben. Schikke uns ja
-                    bald den <ref xml:id="f6ac2f0f-9d92-433f-ac2f-0f9d92933faf" corresp="#a4564ae6-9351-413e-964a-e69351813eca">
-                        <persName ref="http://d-nb.info/gnd/118674455">Brown</persName>
+                    bald den <ref xml:id="c0cc2f09-5698-4530-8c2f-095698e53088" corresp="#a6dd420c-23c9-4eb9-9d42-0c23c9beb9f0">
+                        <persName ref="https://editon-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Brown</persName>
                         </ref>
-                    <note xml:id="a4564ae6-9351-413e-964a-e69351813eca" corresp="#f6ac2f0f-9d92-433f-ac2f-0f9d92933faf">
-                            <bibl corresp="https://edition-humboldt.de/v8/6AWI6XHF">Brown 1810a</bibl>.</note>
+                    <note xml:id="a6dd420c-23c9-4eb9-9d42-0c23c9beb9f0" corresp="#c0cc2f09-5698-4530-8c2f-095698e53088">
+                            <bibl corresp="https://edition-humboldt.de/6AWI6XHF">Brown 1810a</bibl>.</note>
                     <lb/>zurük: ich habe hier keinen erhaschen können. <lb/>Deine Krankheit wird
-                    Deine Arbeiten unterbro<lb/>chen haben. Ich eile nie, aber dankbar
-                        wer<lb/>de ich im Winter etwas von Dir empfangen<supplied cert="high">.</supplied>
+                    Deine Arbeiten unterbro<lb break="no"/>chen haben. Ich eile nie, aber dankbar
+                        wer<lb break="no"/>de ich im Winter etwas von Dir empfangen<supplied cert="high">.</supplied>
                     <lb/>Schreibe nur hieher <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> nicht nach <placeName ref="https://www.geonames.org/2761369">Wien</placeName>, denn <lb/>kein
-                    Brief trift mich dort. Innigen Dank <lb/>für die schöne <bibl corresp="https://edition-humboldt.de/v8/EGT4G9ND">Baumzucht</bibl>. Die Vignette ist <lb/>gar
-                    hüpsch, das Buch bedarf meines Lobes nicht. <lb/>Der Mann zu Pferde<supplied cert="high">,</supplied> der <persName ref="http://d-nb.info/gnd/118586408">Kaiser</persName>
+                    </choice> nicht nach <placeName ref="https://editon-humboldt.de/H0007962 https://www.geonames.org/2761369">Wien</placeName>, denn <lb/>kein
+                    Brief trift mich dort. Innigen Dank <lb/>für die schöne <bibl corresp="https://edition-humboldt.de/EGT4G9ND">Baumzucht</bibl>. Die Vignette ist <lb/>gar
+                    hüpsch, das Buch bedarf meines Lobes nicht. <lb/>Der Mann zu Pferde<supplied cert="high">,</supplied> der <persName ref="https://editon-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Kaiser</persName>
                     <supplied cert="high">,</supplied>
-                    <persName ref="http://d-nb.info/gnd/116553774">Hayne</persName>? <persName ref="http://d-nb.info/gnd/116129654">Frau<lb/>von Berg</persName>, die reitende Mutter, hätte sich besser
-                    <lb/>ausgenommen. Die <ref xml:id="b772ccfe-19de-4bcf-b2cc-fe19debbcfdc" corresp="#cc69ade0-c46b-42c1-a9ad-e0c46b22c169">Dedication</ref>
-                    <note xml:id="cc69ade0-c46b-42c1-a9ad-e0c46b22c169" corresp="#b772ccfe-19de-4bcf-b2cc-fe19debbcfdc">“Dem Herrn Freiherrn F. A. von Humboldt. Ritter
+                    <persName ref="https://editon-humboldt.de/H0011719 http://d-nb.info/gnd/116553774">Hayne</persName>? <persName ref="https://editon-humboldt.de/H0003260 http://d-nb.info/gnd/116129654">Frau<lb/>von Berg</persName>, die reitende Mutter, hätte sich besser
+                    <lb/>ausgenommen. Die <ref xml:id="fd282f8b-55bc-426e-a82f-8b55bcb26e4d" corresp="#f35700c7-9aa7-44d6-9700-c79aa774d612">Dedication</ref>
+                    <note xml:id="f35700c7-9aa7-44d6-9700-c79aa774d612" corresp="#fd282f8b-55bc-426e-a82f-8b55bcb26e4d">“Dem Herrn Freiherrn F. A. von Humboldt. Ritter
                             des grossen rothen Adler-Ordens dritter Klasse, Königl. Preussischem
                             Kammerherrn, mehrerer Akademien und Societäten Mitglied, zum Beweise
-                            seiner unbegrenzten Hochachtung zugeignet.“</note> macht mir immer <lb/>neue Freude. <persName ref="http://d-nb.info/gnd/118716581">Gay</persName>
+                            seiner unbegrenzten Hochachtung zugeignet.“</note> macht mir immer <lb/>neue Freude. <persName ref="https://editon-humboldt.de/H0013386 http://d-nb.info/gnd/118716581">Gay</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> seine <persName ref="https://edition-humboldt.de/v8/H0013385">Frau</persName> grüßen Euch
+                    </choice> seine <persName ref="https://editon-humboldt.de/H0013385">Frau</persName> grüßen Euch
                     <lb/>innigst. Wir sind immer schwanger <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> haben wieder <lb/>ein Mädchen gehabt. Jezt fühlen wir nichts. <lb/>Mit
                     alter, dankbarster, innigster Liebe<supplied cert="high">.</supplied>
                 </p>
-                <p>Dein Dich brüderlich lie-<lb/>bender</p>
+                <p>Dein Dich brüderlich lie<g ref="#typoHyphen"/>
+                    <lb break="no"/>bender</p>
                 <signed>Alex Humboldt</signed>
                 <dateline>Paris</dateline>
                 <dateline>den 10<supplied cert="high">.</supplied>
@@ -168,7 +185,7 @@
             <postscript>
                 <p>
                     <add place="intralinear">Innige</add> Umarmungen (so ist es erlaubt) <lb/>an die
-                    theure <persName ref="https://edition-humboldt.de/v8/H0006401">Gattin</persName>
+                    theure <persName ref="https://editon-humboldt.de/H0006401">Gattin</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -176,7 +193,7 @@
                     <subst>
                         <del rendition="#s">Alexan</del>
                         <add place="intralinear">
-                            <persName ref="https://edition-humboldt.de/v8/H0006404">Wilhelm</persName>
+                            <persName ref="https://editon-humboldt.de/H0006404">Wilhelm</persName>
                         </add>
                     </subst>
                     <lb/>
@@ -184,7 +201,7 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/117282995">Schlechtenthal</persName>.</p>
+                    <persName ref="https://editon-humboldt.de/H0015558 http://d-nb.info/gnd/117282995">Schlechtenthal</persName>.</p>
             </postscript>
             <postscript>
                 <p>J’ai appris avec une peine extrême que vous avez fait une maladie
@@ -196,7 +213,7 @@
                     pas <choice>
                         <sic>exister</sic>
                         <corr cert="high">existent</corr>
-                    </choice> à <placeName ref="https://www.geonames.org/11205525">Malmaison</placeName>. L’<persName ref="http://d-nb.info/gnd/118558420">Impératrice</persName>
+                    </choice> à <placeName ref="https://editon-humboldt.de/H0008617 https://www.geonames.org/11205525">Malmaison</placeName>. L’<persName ref="https://editon-humboldt.de/H0003174 http://d-nb.info/gnd/118558420">Impératrice</persName>
                     <lb/>qui voit souvent votre nom sur les listes de ceux à qui elle donne la
                     Malmaison <lb/>et les liliacées <subst>
                         <del rendition="#ow">seraient</del>
@@ -210,9 +227,9 @@
                         <sic>logneur</sic>
                         <corr cert="high">longeur</corr>
                     </choice> et qui ait une largeur et une hauteur proportionée <lb/>et envoyez-la
-                    par la poste – au Directeur des postes de <placeName ref="https://www.geonames.org/2973783">Strasbourg</placeName>. Vous Mettrez <lb/>sur l’adresse</p>
-                <p>À Monsieur le <persName ref="http://d-nb.info/gnd/119001063">Comte de la Valette</persName>
-                    <lb/>Directeur général des postes de l’<persName ref="http://d-nb.info/gnd/118586408">Empereur
+                    par la poste – au Directeur des postes de <placeName ref="https://editon-humboldt.de/H0010365 https://www.geonames.org/2973783">Strasbourg</placeName>. Vous Mettrez <lb/>sur l’adresse</p>
+                <p>À Monsieur le <persName ref="https://editon-humboldt.de/H0012989 http://d-nb.info/gnd/119001063">Comte de la Valette</persName>
+                    <lb/>Directeur général des postes de l’<persName ref="https://editon-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Empereur
                         français</persName>
                     <lb/>à Paris</p>
                 <p>Plantes vivantes pour <choice>
@@ -222,24 +239,25 @@
                     <choice>
                         <abbr>M.</abbr>
                         <expan>Majesté</expan>
-                    </choice> <persName ref="http://d-nb.info/gnd/118558420">
+                    </choice> <persName ref="https://editon-humboldt.de/H0003174 http://d-nb.info/gnd/118558420">
                         <choice>
                             <abbr>L’Imp.</abbr>
                             <expan>L’Impératrice</expan>
-                        </choice> Josép-<lb/>hine</persName>
+                        </choice> Josép<g ref="#typoHyphen"/>
+                        <lb break="no"/>hine</persName>
                 </p>
-                <p>Si parmi les plantes que vous avez vues à <placeName ref="https://www.geonames.org/11205525">Malmaison</placeName> il en est quelques unes <lb/>que vous deseriez marquez-les
+                <p>Si parmi les plantes que vous avez vues à <placeName ref="https://editon-humboldt.de/H0008617 https://www.geonames.org/11205525">Malmaison</placeName> il en est quelques unes <lb/>que vous deseriez marquez-les
                     moi et je verrai à vous en faire l’envoi. <choice>
                         <sic>Assé</sic>
                         <corr cert="high">Assez</corr>
                     </choice>
                     <lb/>parlé de plantes<supplied cert="high">,</supplied> rapellez-moi au souvenir
-                    de <persName ref="https://edition-humboldt.de/v8/H0006401">Madame Willdenow</persName> et <lb/>du grand
-                        <persName ref="https://edition-humboldt.de/v8/H0006404">William</persName> ainsi qu’à celui de <choice>
+                    de <persName ref="https://editon-humboldt.de/H0006401">Madame Willdenow</persName> et <lb/>du grand
+                        <persName ref="https://editon-humboldt.de/H0006404">William</persName> ainsi qu’à celui de <choice>
                         <abbr>M.Mess.</abbr>
                         <expan>Messieurs</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/117282995">Schlechtendalia</persName> et à l’aimable <lb/>
+                    <persName ref="https://editon-humboldt.de/H0015558 http://d-nb.info/gnd/117282995">Schlechtendalia</persName> et à l’aimable <lb/>
                     <choice>
                         <abbr>M<hi rendition="#sup">r.</hi>
                         </abbr>

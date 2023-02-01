@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016767">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Teplitz], [August 1833] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016767">https://edition-humboldt.de/v8/H0016767</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016767</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016767</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016767.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Teplitz], [August 1833] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016767</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">40</idno>
+                     <idno type="shelfmark">421, Bl. 71r-72v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/3064288">Teplitz</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName>
                <date notBefore="1833-08" notAfter="1833-08">1833-08-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: 1833 von fremder Hand, vgl. Brief Nr. 36</note>
          </correspDesc>
@@ -65,24 +83,26 @@
                 <opener>
                     <dateline rend="align(right)">Sonntag</dateline>
             </opener>
-            <p>Ihre Briefe, theurer Ehrenberg, die <lb/>einzig belehrenden, die man aus <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
-               <lb/>empfängt, anhaltend ein Fortschrei<lb/>ten bezeichnend, erregen immer
+            <p>Ihre Briefe, theurer Ehrenberg, die <lb/>einzig belehrenden, die man aus <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+               <lb/>empfängt, anhaltend ein Fortschrei<lb break="no"/>ten bezeichnend, erregen immer
                Freude <lb/>
                     <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Schmerz zugleich. Neben dem <lb/>Gange glänzender physiologischer Ent-<lb/>dekkungen, die Sie zu unterbrechen <lb/>drohen
-               durch Umstürzung Ihrer <lb/>ganzen Lage, steht die Nacht-<lb/>seite Ihrer trüben Ahndungen, <lb/>das gerechte Gefühl erlittenen
+               </choice> Schmerz zugleich. Neben dem <lb/>Gange glänzender physiologischer Ent<g ref="#typoHyphen"/>
+                    <lb break="no"/>dekkungen, die Sie zu unterbrechen <lb/>drohen
+               durch Umstürzung Ihrer <lb/>ganzen Lage, steht die Nacht<g ref="#typoHyphen"/>
+                    <lb break="no"/>seite Ihrer trüben Ahndungen, <lb/>das gerechte Gefühl erlittenen
                   <lb/>Unbills<supplied cert="high">.</supplied> Ich beschwöre Sie, <lb/>sich
                täglich zu sagen, was <lb/>Sie sind, was Sie selbst, unter <lb/>hindernden
                Verhältnissen, grosses <lb/>geleistet, sich nicht in solch <lb/>einer Laufbahn durch
-               die klein<lb/>lichen Zufälle dass Sie mit <lb/>Menschen in Conflict kommen
-                  <lb/>die<persName ref="http://d-nb.info/gnd/100190014">
+               die klein<lb break="no"/>lichen Zufälle dass Sie mit <lb/>Menschen in Conflict kommen
+                  <lb/>die<persName ref="https://editon-humboldt.de/H0004521 http://d-nb.info/gnd/100190014">
                   <choice>
                      <abbr>L.</abbr>
                      <expan>Lichtenstein</expan>
                   </choice>
-                    </persName> oder <persName ref="http://d-nb.info/gnd/118585053">Müller</persName> heissen von
+                    </persName> oder <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName> heissen von
                <lb/>der Ihnen vorgestrekten Bahn <lb/>ableiten zu lassen! Ich rede <lb/>Ihnen daher
                heute nicht von <lb/>den Lichtpuncten des lezteren <lb/>Theils Ihres schönen Briefes,
                <lb/>von dem Auffinden eines Criteriums <lb/>der <hi rendition="#u">vorderen</hi> und
@@ -97,20 +117,22 @@
                     <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> allerdings für
-                  wahrschein-<lb/>lich <add place="superlinear">halte</add>, aber durch meine Ver<lb/>suche nicht als begründet <lb/>
+                  wahrschein<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich <add place="superlinear">halte</add>, aber durch meine Ver<lb break="no"/>suche nicht als begründet <lb/>
                     <subst>
                   <del rendition="#s">annehme</del>
                   <add place="intralinear">glaube</add>
-               </subst> da mich leicht da-<lb/>zwischen liegende,
+               </subst> da mich leicht da<g ref="#typoHyphen"/>
+                    <lb break="no"/>zwischen liegende,
                leitende <lb/>Feuchtigkeit kann getäuscht <lb/>haben – nein ich beschäftige <lb/>mich
                allein mit dem was <lb/>Ihr Gemüth beängstigt.</p>
-            <p>Ich verspreche Ihnen wenn <lb/>ich den <persName ref="http://d-nb.info/gnd/11862783X">Minister</persName>,
+            <p>Ich verspreche Ihnen wenn <lb/>ich den <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Minister</persName>,
                vor meiner <lb/>Abreise sehe, ganz ohne <lb/>Restriction in dem Sinne <lb/>Ihres
                Anschreibens an den <lb/>
-                    <persName ref="http://d-nb.info/gnd/11862783X">Minister</persName> zu reden und
+                    <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Minister</persName> zu reden und
                <lb/>zu rathen; aber ich <lb/>würde schlecht gegen <lb/>Sie handeln wenn ich
-               <lb/>Ihnen nicht frei <hi rendition="#u">gestän<lb/>de</hi> : dass
-                  <persName ref="http://d-nb.info/gnd/118585053">Müllers</persName> Brief <lb/>mir alles zu enthalten
+               <lb/>Ihnen nicht frei <hi rendition="#u">gestän<lb break="no"/>de</hi> : dass
+                  <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müllers</persName> Brief <lb/>mir alles zu enthalten
                <lb/>scheint, was Sie vor <lb/>der Besorgniss des Zankes <lb/>schüzen kann<supplied cert="high">.</supplied>
                 </p>
             <p>
@@ -123,8 +145,9 @@
                <hi rendition="#u">nicht beabsichtige</hi>
                <lb/>und <hi rendition="#u">erkläre auch gegenwärtig <lb/>
                         <pb n="2r"/>dass ich schon
-                  aus Delicatesse <lb/>von dem Rechte, diese Materia<lb/>lien
-                  wissenschaftlich</hi> zu <hi rendition="#u">benu-<lb/>zen</hi>
+                  aus Delicatesse <lb/>von dem Rechte, diese Materia<lb break="no"/>lien
+                  wissenschaftlich</hi> zu <hi rendition="#u">benu<g ref="#typoHyphen"/>
+                        <lb break="no"/>zen</hi>
                <hi rendition="#u">in keinem Falle Gebrauch <lb/>machen werde</hi>
                     <supplied cert="high">.</supplied>
                 </p>
@@ -133,12 +156,15 @@
                   <expan>Ehrenberg</expan>
                </choice> kann <lb/>klarer ausgesprochen sein<supplied cert="high">.</supplied>
                <lb/>Ob er ein <hi rendition="#u">Recht</hi> zu <lb/>haben glaubt und darauf
-               <lb/>Verzicht thut, sind ab-<lb/>stracte Fragen, die
+               <lb/>Verzicht thut, sind ab<g ref="#typoHyphen"/>
+                    <lb break="no"/>stracte Fragen, die
                ja <lb/>kein practisches Interesse <lb/>haben. Man kann tadeln <lb/>dass hier das
                Wort Recht <lb/>steht, aber da das <hi rendition="#u">Nicht <lb/>Gebrauch machen
-                     feier-<lb/>lich versprochen</hi>, hier allein
+                     feier<g ref="#typoHyphen"/>
+                        <lb break="no"/>lich versprochen</hi>, hier allein
                <lb/>interessirt, so sehe ich <lb/>nicht dass von dieser Seite <lb/>etwas Scorpion
-               und Marder-<lb/>artiges zu befürchten sei<supplied cert="high">.</supplied>
+               und Marder<g ref="#typoHyphen"/>
+                    <lb break="no"/>artiges zu befürchten sei<supplied cert="high">.</supplied>
                <lb/>Wenn er in diesem Puncte <lb/>nachgiebt so sträubt er <lb/>
                     <choice>
                   <sic>er</sic>
@@ -148,10 +174,10 @@
                <hi rendition="#u">aller von Ihnen <lb/>mitgebrachten Gegenstände</hi>
                     <supplied cert="high">.</supplied>
                <lb/>Aber gegen diese allgemeine <lb/>Remotion war ich ja <lb/>auch und Sie Selbst
-                  ver<lb/>sicherten, es sei ein Mis<lb/>verständniss, Sie
+                  ver<lb break="no"/>sicherten, es sei ein Mis<lb break="no"/>verständniss, Sie
                wollten <lb/>nur <hi rendition="#u">Remotion</hi> der zur <lb/>Erhaltung zu
                pflegenden <lb/>
-                    <pb n="2v"/>Sachen. In diesem Sinne <lb/>wird <persName>Müller</persName> sich nicht <lb/>widersezen, da Sie nicht anzu<lb/>geben brauchen, ob zum <lb/>Studium <choice>
+                    <pb n="2v"/>Sachen. In diesem Sinne <lb/>wird <persName ref="https://editon-humboldt.de/">Müller</persName> sich nicht <lb/>widersezen, da Sie nicht anzu<lb break="no"/>geben brauchen, ob zum <lb/>Studium <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
                </choice> zum Reinigen <lb/>und Alcohol Aufgiessen <del rendition="#s">
@@ -160,14 +186,16 @@
                <lb/>Gegenstände <add place="superlinear">temporär</add> abgesondert <add place="superlinear">werden</add>. Es <lb/>kommt <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> also bloß darauf <lb/>an:
-               daß der <persName ref="http://d-nb.info/gnd/11862783X">Minister</persName>
+               daß der <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Minister</persName>
                <list>
-                  <item>1) die factisch befrie<lb/>digende Erklärung <lb/>
-                            <persName ref="http://d-nb.info/gnd/118585053">
+                  <item>1) die factisch befrie<lb break="no"/>digende Erklärung <lb/>
+                            <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">
                                 <choice>
                            <abbr>M</abbr>
                            <expan>Müller</expan>
-                        </choice>'s</persName> über Ihr wissen<lb/>schaftliches Eigen-<lb/>thum, dahin be-<lb/>stärkt und <hi rendition="#u">rectificirt</hi>
+                        </choice>'s</persName> über Ihr wissen<lb break="no"/>schaftliches Eigen<g ref="#typoHyphen"/>
+                            <lb break="no"/>thum, dahin be<g ref="#typoHyphen"/>
+                            <lb break="no"/>stärkt und <hi rendition="#u">rectificirt</hi>
                      <lb/>dass er ausspricht <lb/>das
                      <del rendition="#s">
                                 <gap reason="illegible" unit="chars" quantity="1"/>
@@ -180,7 +208,7 @@
                                 </del>
                         <add place="across">besizen</add>
                      </subst> können</item>
-                  <item>2) der <persName ref="http://d-nb.info/gnd/11862783X">Minister</persName> muß <lb/>die Anstalt
+                  <item>2) der <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Minister</persName> muß <lb/>die Anstalt
                      zur <lb/>partiellen remotion <lb/>
                             <choice>
                         <abbr>u</abbr>
@@ -192,20 +220,22 @@
                      </choice> bestätigen.</item>
                </list>
                 </p>
-            <p>Dabei ist aber meine prac<lb/>tische Ahnung, dass alles häufige
+            <p>Dabei ist aber meine prac<lb break="no"/>tische Ahnung, dass alles häufige
                <lb/>Schreiben wie bei Congressen, alle <lb/>Dinge (die einfachsten) verwikkelt;
                <lb/>dass ein Bericht <add place="left">
                         <metamark/>durch den <lb/>wohlwollendsten
-                  <lb/>Rath des Mi-<lb/>nisteriums </add>über Ihren
-               Bericht <lb/>der Anfang eines interminablen Kam<lb/>pfes werden wird <add place="left">
+                  <lb/>Rath des Mi<g ref="#typoHyphen"/>
+                        <lb break="no"/>nisteriums </add>über Ihren
+               Bericht <lb/>der Anfang eines interminablen Kam<lb break="no"/>pfes werden wird <add place="left">
                         <metamark/>dass Altensteins <lb/>dualistischer <lb/>Character jedes
-                  <lb/>Festsezen all-<lb/>gemeiner Norm
+                  <lb/>Festsezen all<g ref="#typoHyphen"/>
+                        <lb break="no"/>gemeiner Norm
                   <lb/>hindert,</add>
                     <choice>
                   <sic>,</sic>
                   <corr type="deleted"/>
                </choice> dass in menschlichen <lb/>Dingen man nichts absolut begrenzen <lb/>kann,
-               sondern das Einzelne einzeln sieg<lb/>reich durchkämpfen muß und im kurzen
+               sondern das Einzelne einzeln sieg<lb break="no"/>reich durchkämpfen muß und im kurzen
                <lb/>Leben Zeit <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -217,7 +247,7 @@
                     <signed>Ht</signed>
                 </closer>
             <postscript>
-               <p>Ich sende heute Abend durch <lb/>unseren <persName ref="http://d-nb.info/gnd/118667955">Gesandten</persName> Ihre <choice>
+               <p>Ich sende heute Abend durch <lb/>unseren <persName ref="https://editon-humboldt.de/H0003770 http://d-nb.info/gnd/118667955">Gesandten</persName> Ihre <choice>
                      <abbr>Abh</abbr>
                      <expan>Abhandlung</expan>
                   </choice>
@@ -237,7 +267,7 @@
                      <abbr>Soc.</abbr>
                      <expan>Society</expan>
                   </choice> nach <lb/>
-                        <placeName ref="https://www.geonames.org/2643743">London</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>
                         <supplied cert="high">.</supplied> Ich habe <hi rendition="#u">französische</hi> Titel
                   <lb/>darauf geschrieben.</p>
             </postscript>

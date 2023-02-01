@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005456">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,35 +28,56 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Kunth, Carl Sigismund: D – Himalaya, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0005456">https://edition-humboldt.de/v8/H0005456</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0005456</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0005456</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005456.xml</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p>Das Blatt enthält Exzerpte aus einem Aufsatz des englischen Botanikers George Govan über die
-                        Flora Nordindiens und der Himalajaregion (<bibl corresp="https://edition-humboldt.de/v8/VWSWNKTG">Govan 1825</bibl>). Karl Sigismund Kunth
+                        Flora Nordindiens und der Himalajaregion (<bibl corresp="https://edition-humboldt.de/VWSWNKTG">Govan 1825</bibl>). Karl Sigismund Kunth
                         notierte insbesondere Govans Vergleich der trockenen Ebene Nordindiens mit
                         der afrikanischen Savanne. In seiner
-                            <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der
+                            <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe der Geographie der
                             Pflanzen</ref> tragen diese Aufzeichnungen die Nummer
                         12 (“Himalaya. Siehe Gowan“) und die Sigle <ref xml:id="ed_hvr_k1d_bbb" type="siglum" target="#Geographie_der_Pflanzen_D">D</ref>. </p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>D – Himalaya. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0005456</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 13, Nr. 33.34, Bl. 26–27</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1448800</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
                 <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -67,7 +88,7 @@
                 <p>
                     <pb n="27r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243592/1200/0/00000055.jpg"/>
                     <hi rendition="#uu">
-                        <placeName ref="https://www.geonames.org/1252558">Himalaya.</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya.</placeName>
                     </hi>
                     <note place="right" hand="#author">
                         <ref xml:id="ed_ytm_3mg_hy" type="siglum" target="#Geographie_der_Pflanzen_D">D.</ref>
@@ -76,16 +97,16 @@
                 <p>Observations <subst>
                         <del rendition="#s">de</del>
                         <add place="intralinear">sur</add>
-                    </subst> la géographie des plantes <lb/>par le <persName ref="https://edition-humboldt.de/v8/H0013583">Docteur
+                    </subst> la géographie des plantes <lb/>par le <persName ref="https://editon-humboldt.de/H0013583">Docteur
                             <hi rendition="#uu">George Govan</hi>
                     </persName> (entre les
-                    <lb/>rivières <placeName ref="https://www.geonames.org/1252798">Jumna</placeName> et <subst>
+                    <lb/>rivières <placeName ref="https://editon-humboldt.de/H0016350 https://www.geonames.org/1252798">Jumna</placeName> et <subst>
                         <del rendition="#s">Sutledge</del>
                         <add place="intralinear">
-                            <placeName ref="https://www.geonames.org/1115006">Sutledge</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0018184 https://www.geonames.org/1115006">Sutledge</placeName>
                         </add>
                     </subst>.)<supplied cert="high">.</supplied>
-                    <bibl corresp="https://edition-humboldt.de/v8/VWSWNKTG">
+                    <bibl corresp="https://edition-humboldt.de/VWSWNKTG">
                         <lb/>
                         <choice>
                             <abbr>
@@ -128,8 +149,8 @@
                 <note place="right" hand="#author" rend="sticked">
                     <pb n="26r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243592/1200/0/00000053.jpg"/>Le cryptogame que l’on croit <supplied cert="high">être</supplied>
                     <lb/>la cause de la neige rouge <lb/>a été découvert récemment <lb/>aussi en
-                        <placeName ref="https://www.geonames.org/2661886">Suède</placeName>
-                    <lb/>par <persName ref="http://d-nb.info/gnd/118643959">Agardh</persName>
+                        <placeName ref="https://editon-humboldt.de/H0010177 https://www.geonames.org/2661886">Suède</placeName>
+                    <lb/>par <persName ref="https://editon-humboldt.de/H0012515 http://d-nb.info/gnd/118643959">Agardh</persName>
                     <supplied cert="high">.</supplied>
                     <pb n="26v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243592/1200/0/00000054.jpg"/>
                     <gap unit="pages" quantity="1" reason="empty"/>
@@ -137,26 +158,26 @@
                 <p>Les <choice>
                         <sic>pleines</sic>
                         <corr cert="high">plaines</corr>
-                </choice> de la partie Nord<supplied cert="high">-</supplied>ouest de <placeName ref="https://www.geonames.org/1114958">l’Indostan</placeName>
+                </choice> de la partie Nord<supplied cert="high">-</supplied>ouest de <placeName ref="https://editon-humboldt.de/H0006867 https://www.geonames.org/1114958">l’Indostan</placeName>
                     <lb/>ne <choice>
                         <sic>s’ébuent</sic>
                         <corr cert="high">s’ébouent</corr>
-                    </choice> jusqu’à <placeName ref="https://www.geonames.org/1257806">Saharanpore</placeName> encore
+                    </choice> jusqu’à <placeName ref="https://editon-humboldt.de/H0009719 https://www.geonames.org/1257806">Saharanpore</placeName> encore
                     <lb/>que de <measure quantity="800" unit="foot">800</measure> ou <measure quantity="1000" unit="foot">1000 pieds anglais</measure>.</p>
                 <p>Les parties humides sont couvertes d’espèces <lb/>gigantesques de
                         Saccharum<supplied cert="high">,</supplied> dans lesquelles <lb/>les
                     éléphans se tiennent pendant la <lb/>saison des pluies<supplied cert="high">,</supplied> surtout autour de <lb/>
-                    <placeName ref="https://www.geonames.org/1257806">Padshahmuhul</placeName>, jadis séjour <choice>
+                    <placeName ref="https://editon-humboldt.de/H0008017 https://www.geonames.org/1257806">Padshahmuhul</placeName>, jadis séjour <choice>
                         <sic>favorit</sic>
                         <corr cert="high">favori</corr>
                     </choice>
-                    <lb/>des Empereurs de <placeName ref="https://www.geonames.org/1273294">Delhi</placeName>.</p>
+                    <lb/>des Empereurs de <placeName ref="https://editon-humboldt.de/H0005507 https://www.geonames.org/1273294">Delhi</placeName>.</p>
                 <p>Les <choice>
                         <sic>pleines</sic>
                         <corr cert="high">plaines</corr>
                     </choice> plus sèches (toujours au<supplied cert="high">-</supplied>dessous
                     <lb/>de <measure quantity="1000" unit="foot">1000 pieds</measure>) ont une
-                    physionomie <lb/>africaine. En <placeName ref="https://www.geonames.org/6255146">Afrique</placeName>
+                    physionomie <lb/>africaine. En <placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">Afrique</placeName>
                     <supplied cert="high">,</supplied> c’est l’asclepias
                     <lb/>gigantea et Rhamnus Lotus, ici<supplied cert="high">,</supplied> c’est
                     <lb/>l’asclepias syriaca et Ziziphus <lb/>jujuba, qui <choice>
@@ -192,7 +213,7 @@
                         <sic>Capparis</sic>
                         <corr cert="high">Caparis</corr>
                     </choice> aphylla, <lb/>et le superbe Pergularia odoratissima. <lb/>Le Pinus
-                    longifolia de <persName ref="http://d-nb.info/gnd/117598275">
+                    longifolia de <persName ref="https://editon-humboldt.de/H0001103 http://d-nb.info/gnd/117598275">
                         <choice>
                             <abbr>Roxb.</abbr>
                             <expan>Roxburgh</expan>
@@ -227,7 +248,7 @@
                     <choice>
                         <abbr>e.</abbr>
                         <expan>exemple</expan>
-                    </choice> près de <placeName ref="https://www.geonames.org/1262151">la ville de
+                    </choice> près de <placeName ref="https://editon-humboldt.de/H0001539 https://www.geonames.org/1262151">la ville de
                         Nahn</placeName>
                     <supplied cert="high">,</supplied>
                     <lb/>le Pinus longifolia, <add place="left">
@@ -251,17 +272,18 @@
                     </subst> là que <choice>
                         <sic>végète</sic>
                         <corr cert="high">végètent</corr>
-                    </choice> Andromeda <lb/>ovalifolia <persName ref="http://d-nb.info/gnd/117126314">
+                    </choice> Andromeda <lb/>ovalifolia <persName ref="https://editon-humboldt.de/H0006224 http://d-nb.info/gnd/117126314">
                         <choice>
                             <abbr>Wall.</abbr>
                             <expan>Wallich</expan>
                         </choice>
                     </persName>
-                    <supplied cert="high">,</supplied> Morus serrata, Rho-<lb/>dodendron puniceum, Rubia <choice>
+                    <supplied cert="high">,</supplied> Morus serrata, Rho<g ref="#typoHyphen"/>
+                    <lb break="no"/>dodendron puniceum, Rubia <choice>
                         <sic>munjet</sic>
                         <corr cert="high">munjeet</corr>
                     </choice>, <lb/>des Berberis et des Crataegus à <lb/>forme entièrement
-                        <placeName ref="https://www.geonames.org/6255148">européenne</placeName>. Le <lb/>Pinus deodora ne
+                        <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">européenne</placeName>. Le <lb/>Pinus deodora ne
                     se montre que sur des <lb/>
                     <del rendition="#s">plus hauts</del> sommets de
                         <measure quantity="7000" unit="foot">7000</measure> à <measure quantity="8000" unit="foot">8000 pieds</measure>. </p>
@@ -271,7 +293,8 @@
                             <orig>dans</orig>
                             <reg>Dans</reg>
                         </choice> les ravins<supplied cert="high">,</supplied> on trouve <lb/>encore
-                        Habenaria gi-<lb/>gantea et pectinata.</add>
+                        Habenaria gi<g ref="#typoHyphen"/>
+                        <lb break="no"/>gantea et pectinata.</add>
                 </p>
             </div>
         </body>

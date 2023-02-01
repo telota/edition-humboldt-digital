@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019217">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Tatiščevo</title>
             </titleStmt>
+            <editionStmt>
+                <p>Tatiščevo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019217.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019217.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019217.xml">
-                    <p>Tatiščevo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019217.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019217">
+                <place>
                     <idno type="uri">https://www.geonames.org/484033</idno>
                     <placeName type="reg">Tatiščevo</placeName>
                     <placeName type="alt">Татищево</placeName>
                     <placeName type="alt">Tatischjewa</placeName>
-                    <!-- Karte vom Ural -->
+                    
                     <placeName type="alt">Tatishchevo</placeName>
                     <placeName type="alt">Tatistscheva Krepost</placeName>
-                    <!-- RST I, Bl. 101r -->
-                    <note>Ortschaft am <placeName key="H0009660">Ural</placeName> westlich von <placeName key="H0007842">Orenburg</placeName>; zweite Station (Redoute) an der Straße nach <placeName key="H0009661">Uralsk</placeName> über <placeName key="H0018081">Nischne Osernaja</placeName> und
-                            <placeName key="H0018234">Iletzkoi Gorodok</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    
+                    <note>Ortschaft am <placeName ref="https://editon-humboldt.de/H0009660 https://www.geonames.org/478869">Ural</placeName> westlich von <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburg</placeName>; zweite Station (Redoute) an der Straße nach <placeName ref="https://editon-humboldt.de/H0009661 https://www.geonames.org/608668">Uralsk</placeName> über <placeName ref="https://editon-humboldt.de/H0018081 https://www.geonames.org/521069">Nischne Osernaja</placeName> und
+                            <placeName ref="https://editon-humboldt.de/H0018234 https://www.geonames.org/557340">Iletzkoi Gorodok</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

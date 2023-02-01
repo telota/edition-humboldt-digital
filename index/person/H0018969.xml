@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018969">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Hamel, Johann Christian Friedrich</title>
             </titleStmt>
+            <editionStmt>
+                <p>Hamel, Johann Christian Friedrich [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018969.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018969.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018969.xml">
-                    <p>Hamel, Johann Christian Friedrich [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018969.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0018969">
+                <person>
                     <persName type="reg">
                         <surname>Hamel</surname>
                         <forename>Johann Christian Friedrich</forename>
@@ -41,11 +46,10 @@
                     <birth>1741</birth>
                     <death>1819</death>
                     <note>russ. Kaufmann und Missionar deutscher Herkunft; 1766 Übersiedlung aus der
-                        Herrnhuter Brüdergemeinde Neudietendorf bei <placeName key="H0010896">Gotha</placeName> in die Herrnhuter Siedlung <placeName key="H0010125">Sarepta</placeName>; 1768 Missionstätigkeit bei den Kalmücken; ab 1788
-                        Tätigkeit als Aufseher (Polizist); Vater von <persName key="H0011623">Joseph
+                        Herrnhuter Brüdergemeinde Neudietendorf bei <placeName ref="https://editon-humboldt.de/H0010896 https://www.geonames.org/2918752">Gotha</placeName> in die Herrnhuter Siedlung <placeName ref="https://editon-humboldt.de/H0010125 https://www.geonames.org/542462">Sarepta</placeName>; 1768 Missionstätigkeit bei den Kalmücken; ab 1788
+                        Tätigkeit als Aufseher (Polizist); Vater von <persName ref="https://editon-humboldt.de/H0011623 http://d-nb.info/gnd/116423536">Joseph
                             Christian Hamel</persName> und dessen Bruder
-                        N.N.<!-- Vgl. Tiegler: Die Herrnhuter in Russland, 415 ff. -->
-                    </note>
+                        N.N.</note>
                 </person>
             </listPerson>
         </body>

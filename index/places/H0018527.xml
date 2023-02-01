@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018527">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Preobražensk</title>
             </titleStmt>
+            <editionStmt>
+                <p>Preobražensk [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018527.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018527.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018527.xml">
-                    <p>Preobražensk [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018527.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018527">
+                <place>
                     <placeName type="reg">Preobražensk</placeName>
                     <placeName type="alt">Preobraschensk</placeName>
                     <placeName type="alt">Preobraschenskoi</placeName>
                     <placeName type="alt">Preobrashenskoi</placeName>
-                    <!-- Hofmann/Helmersen 1831, Karte "Das südliche Ural-Gebirge" -->
-                    <note>Ortschaft und historische Kupferhütte am Fluss <placeName key="H0017767">Silair</placeName> im
-                            <placeName key="H0020292">Südlichen Ural</placeName> nordwestlich von <placeName key="H0007860">Orsk</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    
+                    <note>Ortschaft und historische Kupferhütte am Fluss <placeName ref="https://editon-humboldt.de/H0017767 https://www.geonames.org/462625">Silair</placeName> im
+                            <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName> nordwestlich von <placeName ref="https://editon-humboldt.de/H0007860 https://www.geonames.org/514734">Orsk</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

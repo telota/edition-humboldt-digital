@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016788">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Board of Control</title>
             </titleStmt>
+            <editionStmt>
+                <p>Board of Control [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016788.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016788.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016788.xml">
-                    <p>Board of Control [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016788.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0016788">
+                <org>
                     <orgName type="reg">Board of Control</orgName>
                     <desc>Right Honourable Board of Commissioners for the Affairs of India, auch bekannt als the India
                         Board oder the Board of Control. Von 1784 bis 1858 regulierende Instanz der Regierung in British
@@ -37,7 +42,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/2643743</idno>
-                            <settlement key="H0011492">London</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0011492">London</settlement>
                             <note>Leadenhall Street</note>
                         </address>
                     </location>

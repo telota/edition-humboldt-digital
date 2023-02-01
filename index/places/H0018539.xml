@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018539">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Talica (Pervoural’sk)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Talica (Pervoural’sk) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018539.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018539.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018539.xml">
-                    <p>Talica (Pervoural’sk) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018539.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018539">
+                <place>
                     <idno type="uri">https://www.geonames.org/1490277</idno>
                     <placeName type="reg">Talica (Pervoural’sk)</placeName>
                     <placeName type="alt">Талица</placeName>
                     <placeName type="alt">Talitsa</placeName>
                     <placeName type="alt">Taliza</placeName>
-                    <note>Ortschaft bei <placeName key="H0001686">Nižne-Šajtanskij</placeName>, heute Stadtteil von
-                            <placeName key="H0019204">Pervoural’sk</placeName> (<placeName key="H0010689">Russland</placeName>)
-                        <!-- [Rose 1837/1842, I, 126; Humboldt 1844, I, 282. Vgl. aber auch den gleichnamigen historischen (heute aufgegebenen) Ort mit https://www.geonames.org/6818376 südlich von Karpinsk (Bogoslowsk), dort auch ein Fluss oder Flüsschen namens Reka Taliča/ Taliza/ Talitsa (https://www.geonames.org/6818367)] -->
-                    </note>
+                    <note>Ortschaft bei <placeName ref="https://editon-humboldt.de/H0001686">Nižne-Šajtanskij</placeName>, heute Stadtteil von
+                            <placeName ref="https://editon-humboldt.de/H0019204 https://www.geonames.org/510808">Pervoural’sk</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)
+                        </note>
                 </place>
             </listPlace>
         </body>

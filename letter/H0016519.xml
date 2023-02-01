@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016519">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, 24. Dezember
+               1854, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016519">https://edition-humboldt.de/v8/H0016519</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016519</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016519</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016519.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, 24. Dezember
-               1854. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016519</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                            <idno type="legacy">269E7</idno>
+                     <idno type="shelfmark">676, Bl. 53v-54r</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1854-12-24">1854-12-24</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
 
          </correspDesc>
@@ -64,22 +82,27 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Sie haben zum Feste auch Leo-<lb/>pold <persName ref="http://d-nb.info/gnd/117450812">Voss</persName> zu einem glücklichen <lb/>Menschen gemacht. Da ich
+            <p>Sie haben zum Feste auch Leo<g ref="#typoHyphen"/>
+                    <lb break="no"/>pold <persName ref="https://editon-humboldt.de/H0016880 http://d-nb.info/gnd/117450812">Voss</persName> zu einem glücklichen <lb/>Menschen gemacht. Da ich
                dabey <lb/>selbst betheiligt bin so danke <lb/>ich Ihnen samt dem tyran bien
                <lb/>faisant mit wärmstem Dank <lb/>und sende Ihnen seinen Brief <lb/>innliegend zu.
                Gleichzeitig erhielt <lb/>ich heut von der General-Ordens- <lb/>Commission den Rothen
-               Adler-Orden <lb/>2ter Klasse mit Eichenlaub. Die<lb/>ser letztre Zusatz
+               Adler-Orden <lb/>2ter Klasse mit Eichenlaub. Die<lb break="no"/>ser letztre Zusatz
                erhebt das <lb/>Königliche Ehrengeschenk sehr <lb/>hoch. Es wird diesen Abend noch
-               <lb/>eine Festgabe für die Meini-<lb/>gen bilden.
-               <lb/>Nach den Feyertagen wer-<lb/>de ich mündlich um
+               <lb/>eine Festgabe für die Meini<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen bilden.
+               <lb/>Nach den Feyertagen wer<g ref="#typoHyphen"/>
+                    <lb break="no"/>de ich mündlich um
                Ihre gütige <lb/>Anweisung bitten ob ich <choice>
                   <abbr>Sr.</abbr>
                   <expan>Seiner</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118535994">Maje-<lb/>
+               <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Maje<g ref="#typoHyphen"/>
+                        <lb break="no"/>
                     </persName>
                     <pb n="1v"/>stät für die Hohe Gnade selbst <lb/>schriftlich zu danken habe.</p>
-            <p>Mögen Sie zum Feste in hei-<lb/>terer Gesundheit
+            <p>Mögen Sie zum Feste in hei<g ref="#typoHyphen"/>
+                    <lb break="no"/>terer Gesundheit
                seyn. </p>
             <closer rend="within the line">
                     <salute>Ich verbleibe <lb/>in inniger Verehrung <lb/>Ihr <lb/>dankbar ergebenster</salute>

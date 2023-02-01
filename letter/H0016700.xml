@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016700">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1846–1847] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016700">https://edition-humboldt.de/v8/H0016700</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016700</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016700</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016700.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1846–1847] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016700</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">133</idno>
+                     <idno type="shelfmark">421, Bl. 246r, 247v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1846" notAfter="1847">1846|1847</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Um 1846/47 stellte A. Koch in Berlin das Skelett eines „Hydrarchus”
                aus, das vom anatomisch-zootomischen Museum angekauft wurde</note>
@@ -75,10 +93,10 @@
             </opener>
                 <pb n="1v"/>
             <p>
-                    <persName ref="http://d-nb.info/gnd/118585053">Müller</persName> hat wahrscheinlich weder
+                    <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName> hat wahrscheinlich weder
                   <lb/>
                     <hi rendition="#u">Zeit</hi> noch Lust selbst nach <lb/>
-                    <placeName ref="https://www.geonames.org/2911298">
+                    <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">
                         <choice>
                      <abbr>Hamb.</abbr>
                      <expan>Hamburg</expan>
@@ -88,33 +106,33 @@
                     <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> über die Möglichkeit des <lb/>Ankaufs vorzubereiten, da wir <lb/>beide
-               keine Idee von der nöthi<lb/>gen Summe haben. Ich werde <lb/>gern an den
-                  <persName ref="http://d-nb.info/gnd/104335262">
+               keine Idee von der nöthi<lb break="no"/>gen Summe haben. Ich werde <lb/>gern an den
+                  <persName ref="https://editon-humboldt.de/H0005881 http://d-nb.info/gnd/104335262">
                         <choice>
                      <abbr>Min.</abbr>
                      <expan>Minister</expan>
                   </choice>
                     </persName> auch an den <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">König</persName>
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
                schreiben, aber es fehlen <lb/>ja alle Daten dazu. Da der <lb/>
-                    <persName ref="http://d-nb.info/gnd/11626425X">Koch</persName> Sohn eines Domänen Amtmanns <lb/>ist so wird der
-                  <persName ref="http://d-nb.info/gnd/118535994">König</persName> wohl <lb/>etwas gewiss nicht über 5-
-               <lb/>600 Thaler geben. Vom <persName ref="http://d-nb.info/gnd/104335262">
+                    <persName ref="https://editon-humboldt.de/H0017007 http://d-nb.info/gnd/11626425X">Koch</persName> Sohn eines Domänen Amtmanns <lb/>ist so wird der
+                  <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> wohl <lb/>etwas gewiss nicht über 5-
+               <lb/>600 Thaler geben. Vom <persName ref="https://editon-humboldt.de/H0005881 http://d-nb.info/gnd/104335262">
                         <choice>
                      <abbr>Min.</abbr>
                      <expan>ister</expan>
                   </choice>
                     </persName>
-               <lb/>erhält man höchstens die <lb/>Reisekosten nach <placeName ref="https://www.geonames.org/2911298">Hamburg</placeName>
+               <lb/>erhält man höchstens die <lb/>Reisekosten nach <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName>
                     <supplied cert="high">.</supplied>
                <lb/>
                     <hi rendition="#u">
-                        <persName ref="http://d-nb.info/gnd/118585053">Müller</persName>
+                        <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName>
                     </hi> allein kann
                wegen der <lb/>Besichtigung (durch wen?) <lb/>entscheiden<supplied cert="high">.</supplied>
                 </p>
             <p>Es thut mir unendlich <lb/>leid dass Sie mich 2 mal <lb/>verfehlt haben. Ich thue
-               <lb/>alles was <persName ref="http://d-nb.info/gnd/118585053">Müller</persName> will. Wenn <lb/>Sie bis
+               <lb/>alles was <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName> will. Wenn <lb/>Sie bis
                morgen darüber etwas <lb/>bestimmtes wissen können, so <lb/>machen Sie mir die Freude
                <lb/>mich morgen Dienstag 1<hi rendition="#sup">h</hi>
                <lb/>zu besuchen<supplied cert="high">.</supplied>

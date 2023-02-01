@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018839">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Imperatorskoe Vol'noe Ėkonomičeskoe Obščestvo</title>
             </titleStmt>
+            <editionStmt>
+                <p>Imperatorskoe Vol'noe Ėkonomičeskoe Obščestvo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018839.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018839.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018839.xml">
-                    <p>Imperatorskoe Vol'noe Ėkonomičeskoe Obščestvo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018839.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018839">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/54597-1</idno>
                     <orgName type="reg">Imperatorskoe Vol'noe Ėkonomičeskoe Obščestvo</orgName>
                     <orgName type="alt">Kaiserliche Freie Ökonomische Gesellschaft zu Sankt Petersburg</orgName>
@@ -38,7 +43,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/498817</idno>
-                            <settlement key="H0008236">Sankt Petersburg</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0008236">Sankt Petersburg</settlement>
                             <note/>
                         </address>
                     </location>

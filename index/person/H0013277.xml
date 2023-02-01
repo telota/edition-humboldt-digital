@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0013277">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Cuvier, Georges Baron de</title>
             </titleStmt>
+            <editionStmt>
+                <p>Cuvier, Georges Baron de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0013277.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0013277.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0013277.xml">
-                    <p>Cuvier, Georges Baron de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0013277.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0013277">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118677578</idno>
                     <persName type="reg">
                         <surname>Cuvier</surname>
@@ -47,7 +52,7 @@
                     <birth>1769</birth>
                     <death>1832</death>
                     <note>französischer Anatom, Paläontologe und Zoologe, Professor der
-                        vergleichenden Anatomie am <orgName key="H0000553">Jardin des
+                        vergleichenden Anatomie am <orgName ref="https://editon-humboldt.de/H0000553 http://d-nb.info/gnd/16130288-9">Jardin des
                             Plantes</orgName> Paris seit 1798</note>
                     <linkGrp>
                         <ptr subtype="sentFrom" target="02#450" type="letter"/>

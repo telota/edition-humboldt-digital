@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016755">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1830] , hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016755">https://edition-humboldt.de/v8/H0016755</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016755</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016755</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016755.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1830] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016755</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">30</idno>
+                     <idno type="shelfmark">421, Bl. 53r-53v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1830" notAfter="1830" cert="low">1830-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: 1830 von fremder Hand</note>
          </correspDesc>
@@ -65,10 +83,10 @@
                 <p>Ich bin ganz beschämt, mein <lb/>theuerster Freund <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Reisege<lb/>fährte <ref xml:id="e5bb7ec0-6e98-4ec8-bb7e-c06e981ec80e" corresp="#a659c1dd-eb0b-430a-99c1-ddeb0bd30a95">ein dreifaches und <lb/>so herrliches Geschenk von <lb/>Ihnen
+               </choice> Reisege<lb break="no"/>fährte <ref xml:id="d5105ce5-84ba-425f-905c-e584ba125f95" corresp="#abe8d229-9abf-4b94-a8d2-299abf2b9438">ein dreifaches und <lb/>so herrliches Geschenk von <lb/>Ihnen
                      anzunehmen</ref>
-                    <note xml:id="a659c1dd-eb0b-430a-99c1-ddeb0bd30a95" corresp="#e5bb7ec0-6e98-4ec8-bb7e-c06e981ec80e">
-                     <bibl corresp="https://edition-humboldt.de/v8/968XL827">Ehrenberg 1828</bibl>, IV—VIII </note>. Wenn <lb/>man die Wissenschaften so <lb/>zu berechnen weiß, kann <lb/>man
+                    <note xml:id="abe8d229-9abf-4b94-a8d2-299abf2b9438" corresp="#d5105ce5-84ba-425f-905c-e584ba125f95">
+                     <bibl corresp="https://edition-humboldt.de/968XL827">Ehrenberg 1828</bibl>, IV—VIII </note>. Wenn <lb/>man die Wissenschaften so <lb/>zu berechnen weiß, kann <lb/>man
                sich über die elenden <lb/>Angriffe des Neides leicht <lb/>beruhigen<supplied cert="high">.</supplied> Es ist ein großes <lb/>Denkmal das Sie Sich Selbst,
                <lb/>Ihrem treflichen Freunde <lb/>
                     <choice>
@@ -76,11 +94,12 @@
                   <expan>und</expan>
                </choice> dem Vaterlande sezen, <lb/>in dem die Künste so <lb/>naturwissenschaftlich
                   aufblühen<supplied cert="high">.</supplied>
-               <lb/>Die Kupfer besonders die Anti-<lb/>
+               <lb/>Die Kupfer besonders die Anti<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="1v"/>lopen sind meisterhaft<supplied cert="high">.</supplied>
-               <lb/>Von Herrn <persName ref="http://d-nb.info/gnd/116240792">Klug</persName> erwarte <lb/>ich eine Vorrede
-               in <lb/>der er Ihren Ver<lb/>diensten um die Ento<lb/>mologie
-               Gerechtigkeit wie<lb/>derfahren läßt<supplied cert="high">.</supplied>
+               <lb/>Von Herrn <persName ref="https://editon-humboldt.de/H0001378 http://d-nb.info/gnd/116240792">Klug</persName> erwarte <lb/>ich eine Vorrede
+               in <lb/>der er Ihren Ver<lb break="no"/>diensten um die Ento<lb break="no"/>mologie
+               Gerechtigkeit wie<lb break="no"/>derfahren läßt<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
                     <signed>Ihr <lb/>AHumboldt</signed>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016175">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Suškov, Nikolaj Vasil’evič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Suškov, Nikolaj Vasil’evič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016175.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016175.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016175.xml">
-                    <p>Suškov, Nikolaj Vasil’evič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016175.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0016175">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/141869143</idno>
                     <persName type="reg">
                         <surname>Suškov</surname>
@@ -40,13 +45,13 @@
                         <forename>Николай Васильевич</forename>
                     </persName>
                     <persName type="alt">
-                        <name>Souschkof <!-- RST I, 127r --></name>
+                        <name>Souschkof </name>
                     </persName>
                     <persName type="alt">
                         <name>Souschkoff</name>
                     </persName>
                     <persName type="alt">
-                        <name>Suschkoff</name><!-- Rose 1837/1842, II, 200 -->
+                        <name>Suschkoff</name>
                     </persName>
                     <persName type="alt">
                         <name>Sushkov</name>
@@ -59,10 +64,9 @@
                     <death>1871</death>
                     <note>russischer Schriftsteller, Dramaturg und Beamter im Bergbau- und Salinenwesen; seit 1836
                         Wirklicher Staatsrat (Действительный статский
-                        советник)<!-- Prüfen: Humboldt bezeichnet ihn auf Bl. 127r als Cons. d'Etat, falls Suskov erst 1836 Staatsrat geworden sein sollte, wäre dies für die Datierung des Blattes sehr relevant. Cons.d'Etat könnte sich auf Suskovs Mitgliedschaft im "Obersten Rat der Krone von Bessarabien" (1825) beziehen -->;
-                        Zolldirektor in <placeName key="H0007842">Orenburg</placeName>
-                        <!-- Schwager von Paschkof [?] vgl. RST I 127r -->
-                    </note>
+                        советник);
+                        Zolldirektor in <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburg</placeName>
+                        </note>
                     <linkGrp>
                         <ptr target="30#50" type="page"/>
                         <ptr target="30#190" type="page"/>

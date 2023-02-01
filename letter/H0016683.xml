@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016683">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [26. Juni
+               1840] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016683">https://edition-humboldt.de/v8/H0016683</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016683</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016683</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016683.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [26. Juni
-               1840] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016683</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">116</idno>
+                     <idno type="shelfmark">421, Bl. 215r, 216v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1840-06-26">1840-06-26</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Bericht über die zur Bekanntmachung geeigneten Verhandlungen
                der Königlich Preußischen Akademie der Wissenschaften zu Berlin 1840 S. 136: E. liest
@@ -81,9 +99,9 @@
             </opener>
             <pb n="1v"/>
             <p>
-                    <ref xml:id="a11bbea8-0cf6-4455-9bbe-a80cf61455ac" corresp="#cfe5acd9-769c-48f2-a5ac-d9769c28f229">Do ut des</ref>
-                    <note xml:id="cfe5acd9-769c-48f2-a5ac-d9769c28f229" corresp="#a11bbea8-0cf6-4455-9bbe-a80cf61455ac">lat.: „ich gebe, damit du gibst</note>. Da Sie mir <lb/>die Troschken, theurer <lb/>Ehrenberg, nicht auf dem Wege <lb/>nach
-               <persName ref="http://d-nb.info/gnd/116643765">
+                    <ref xml:id="fdc190ee-23c6-4dbf-8190-ee23c62dbfb3" corresp="#bbed4582-e2d0-4448-ad45-82e2d0344822">Do ut des</ref>
+                    <note xml:id="bbed4582-e2d0-4448-ad45-82e2d0344822" corresp="#fdc190ee-23c6-4dbf-8190-ee23c62dbfb3">lat.: „ich gebe, damit du gibst</note>. Da Sie mir <lb/>die Troschken, theurer <lb/>Ehrenberg, nicht auf dem Wege <lb/>nach
+               <persName ref="https://editon-humboldt.de/H0004251 http://d-nb.info/gnd/116643765">
                         <choice>
                      <abbr>St</abbr>
                      <expan>Sankt</expan>
@@ -99,22 +117,22 @@
                   <abbr>v.</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116817569">Buch</persName> hat <lb/>für mich 25 Mai gelesen <lb/>und
+               <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> hat <lb/>für mich 25 Mai gelesen <lb/>und
                jezt soll ich seine <lb/>Stelle vertreten, fürchte <lb/>aber Montag schon in
                   <lb/>
-                    <placeName ref="https://www.geonames.org/6295638">Sanssouci</placeName> zu sein<supplied cert="high">.</supplied>
+                    <placeName ref="https://editon-humboldt.de/H0010019 https://www.geonames.org/6295638">Sanssouci</placeName> zu sein<supplied cert="high">.</supplied>
                <choice>
                   <sic>Der</sic>
                   <corr cert="high">Das</corr>
                </choice>
-               <lb/>Schreiben mit Kreidethie<lb/>ren (<placeName ref="https://www.geonames.org/2485926">Oran</placeName>
-               <placeName ref="https://www.geonames.org/357994">Egypten</placeName>) ist ja eine ganze <ref xml:id="fa41969c-d8f3-4fdb-8196-9cd8f3efdb2b" corresp="#e4c3e9f4-6238-4827-83e9-f46238c8271e">Abhan<lb/>dlung</ref>
-                    <note xml:id="e4c3e9f4-6238-4827-83e9-f46238c8271e" corresp="#fa41969c-d8f3-4fdb-8196-9cd8f3efdb2b">
-                     <bibl corresp="https://edition-humboldt.de/v8/V2LG5PAG">Ehrenberg 1840a</bibl>
+               <lb/>Schreiben mit Kreidethie<lb break="no"/>ren (<placeName ref="https://editon-humboldt.de/H0007830 https://www.geonames.org/2485926">Oran</placeName>
+               <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Egypten</placeName>) ist ja eine ganze <ref xml:id="b77e54a2-9fd7-43b5-be54-a29fd7e3b51e" corresp="#c6035911-f27a-4e7d-8359-11f27a9e7db4">Abhan<lb break="no"/>dlung</ref>
+                    <note xml:id="c6035911-f27a-4e7d-8359-11f27a9e7db4" corresp="#b77e54a2-9fd7-43b5-be54-a29fd7e3b51e">
+                     <bibl corresp="https://edition-humboldt.de/V2LG5PAG">Ehrenberg 1840a</bibl>
                   </note> – eine der grössten <lb/>Entdekkungen unserer Zeit<supplied cert="high">.</supplied>
                <lb/>Schreiben Sie mir <hi rendition="#u">nein</hi>
                <lb/>recht frei bis morgen <lb/>oder schaffen Sie mir <lb/>eine der beiden <hi rendition="#u">
-                        <persName>Rosen</persName>
+                        <persName ref="https://editon-humboldt.de/">Rosen</persName>
                     </hi>
                 </p>
             <closer rend="paragraph">

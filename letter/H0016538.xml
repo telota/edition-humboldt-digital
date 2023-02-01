@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016538">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,56 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Triest], [Januar 1826] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016538">https://edition-humboldt.de/v8/H0016538</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016538</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016538</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016538.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Triest], [Januar 1826] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016538</bibl>
-            </sourceDesc>
+            <msDesc rend="copy">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">288E26</idno>
+                     <idno type="shelfmark">676, Bl. 36r-38r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+            <listWit>
+               <witness>
+                  <bibl type="print" n="1" corresp="https://edition-humboldt.de/">Stresemann, Erwin: Hemprich und
+                     Ehrenberg. Reisen zweier naturforschender Freunde im Orient. geschildert in
+                     ihren Briefen aus den Jahren 1819-1826. Berlin 1954 S. 149-151 </bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/3165185">Triest</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0009514 https://www.geonames.org/3165185">Triest</placeName>
                <date notBefore="1826-01" notAfter="1826-01">1826-01-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
             <note>Zur Datierung: das Schreiben ist mit „1826“ datiert; E. hielt sich bei seiner
                Rückkehr nach Europa im Dezember 1825/ Januar 1826 in Triest auf. (Laue, 1895
@@ -82,18 +107,18 @@
                welchen Sie <lb/>die Gewogenheit hatten mich <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> meinen Freund <persName ref="http://d-nb.info/gnd/117516376">Hemprich</persName>
+               </choice> meinen Freund <persName ref="https://editon-humboldt.de/H0011778 http://d-nb.info/gnd/117516376">Hemprich</persName>
                <lb/>auszurüsten <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> von denen Vortheil zu ziehen wir in <placeName ref="https://www.geonames.org/163843">Syrien</placeName>
+               </choice> von denen Vortheil zu ziehen wir in <placeName ref="https://editon-humboldt.de/H0010421 https://www.geonames.org/163843">Syrien</placeName>
                <lb/>Gelegenheit fanden. Das unglückliche Geschick, welches unsere Reise <lb/>in
                ihrer ganzen Ausdehnung verfolgte ist Ihnen durch Herrn <lb/>
                     <choice>
                   <abbr>Prof.</abbr>
                   <expan>Professor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/100190014">Lichtensteins</persName> Mittheilungen hinlänglich bekannt.
+               <persName ref="https://editon-humboldt.de/H0004521 http://d-nb.info/gnd/100190014">Lichtensteins</persName> Mittheilungen hinlänglich bekannt.
                Auch <lb/>schwachen Kräften können günstige Verhältnisse reiche Ausbeute
                <lb/>gewähren, aber in ungünstigen doch etwas gethan zu haben <lb/>ist der leidige
                Trost, den ich beim Verlust von 8 Begleitern und
@@ -101,7 +126,7 @@
                   <abbr>Prof.</abbr>
                   <expan>Professor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/100190014">Lichtenstein</persName> und andere Freunde von uns
+               <persName ref="https://editon-humboldt.de/H0004521 http://d-nb.info/gnd/100190014">Lichtenstein</persName> und andere Freunde von uns
                <lb/>ausgestreut haben nahe zu kommen <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -116,8 +141,10 @@
                </choice> da <lb/>durch glücklichen Zufall artige anatomische <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> physiologische Beo-<lb/>bachtungen gemacht,
-               doch brauche ich Ihnen nicht zu sagen, daß der-<lb/>gleichen weit häufiger <choice>
+               </choice> physiologische Beo<g ref="#typoHyphen"/>
+                    <lb break="no"/>bachtungen gemacht,
+               doch brauche ich Ihnen nicht zu sagen, daß der<g ref="#typoHyphen"/>
+                    <lb break="no"/>gleichen weit häufiger <choice>
                   <abbr>ud</abbr>
                   <expan>und</expan>
                </choice> fast ausschließend bei müßiger heiterer <lb/>Anschauung der Naturkörper <choice>
@@ -128,7 +155,8 @@
                   ein<supplied cert="high">e</supplied> durch den <lb/>Transport <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> die Quarantaineanstalten halb zerstörte Naturalien-<lb/>sa<choice>
+               </choice> die Quarantaineanstalten halb zerstörte Naturalien<g ref="#typoHyphen"/>
+                    <lb break="no"/>sa<choice>
                   <orig>m̅</orig>
                   <reg cert="high">mm</reg>
                </choice>lung.</p>
@@ -137,14 +165,16 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> speciellere<supplied cert="high">n</supplied>
-               <lb/>Landeseigenthümlichkeiten, als die besonderen Verhältnisse der zusam-<lb/>mengetragenen Körper zu einander <choice>
+               <lb/>Landeseigenthümlichkeiten, als die besonderen Verhältnisse der zusam<g ref="#typoHyphen"/>
+                    <lb break="no"/>mengetragenen Körper zu einander <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> zum Lande, ihren lebenden <lb/>
                     <pb n="1v"/>Zustand, ihren inneren Bau <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> wo es anging ihre allmä-<lb/>lige
+               </choice> wo es anging ihre allmä<g ref="#typoHyphen"/>
+                    <lb break="no"/>lige
                Entwicklung beobachtet <choice>
                   <abbr>ud</abbr>
                   <expan>und</expan>
@@ -154,7 +184,8 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> Thierbeschreibungen der naturgeschichtlich wenig untersuchten <lb/>Länder
-               nothwendig manchen Stoff zu interessanten Combina-<lb/>tionen <choice>
+               nothwendig manchen Stoff zu interessanten Combina<g ref="#typoHyphen"/>
+                    <lb break="no"/>tionen <choice>
                   <abbr>ud</abbr>
                   <expan>und</expan>
                </choice> es fehlt nicht an ächt afrikanischen Neuigkeiten. <lb/>Ueberdies habe ich
@@ -163,12 +194,14 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> es schien uns <lb/>wichtig genug auf der letzten unglücklichsten Reise
-               einen <lb/>etwas im Zeichnen erfahrnen Europäer an uns anzu-<lb/>schließen, um besonders die noch so wenig gekannten Formen <lb/>der
+               einen <lb/>etwas im Zeichnen erfahrnen Europäer an uns anzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>schließen, um besonders die noch so wenig gekannten Formen <lb/>der
                Fische des rothen Meeres wohl colorirt <choice>
                   <abbr>ud</abbr>
                   <expan>und</expan>
                </choice> genau gezeichnet <lb/>in größerer Masse festzuhalten. Wir besitzen dadurch
-               allein <lb/>300 Abbildungen verschiedener Fischarten, von denen 120 colo-<lb/>rirt sind. Die Formenreihe, welche zwischen den
+               allein <lb/>300 Abbildungen verschiedener Fischarten, von denen 120 colo<g ref="#typoHyphen"/>
+                    <lb break="no"/>rirt sind. Die Formenreihe, welche zwischen den
                Mollusken <lb/>
                     <choice>
                   <abbr>u</abbr>
@@ -184,10 +217,13 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> unsere Sammlung an <lb/>
-                    <name type="animal" key="Anneliden">Anneliden</name>, so daß sie weit über <persName ref="http://d-nb.info/gnd/117619663">Savigny’s</persName> Schranken steu-<lb/>ern.
+                    <name type="animal" key="Anneliden">Anneliden</name>, so daß sie weit über <persName ref="https://editon-humboldt.de/H0016837 http://d-nb.info/gnd/117619663">Savigny’s</persName> Schranken steu<g ref="#typoHyphen"/>
+                    <lb break="no"/>ern.
                Eine merkwürdige hinlänglich große Form giebt den <lb/>handgreiflichen Beweis der
                Verwandtschaft der <name type="animal" key="Ascidien">Ascidien</name> mit <lb/>den
-                  <name type="animal" key="Acephalen">Acephalen</name>, wie sie durch <persName ref="http://d-nb.info/gnd/118677578">Cuvier</persName> festgestellt ist, andere klei-<lb/>nere zeigen deutlich die Art, wie die <persName ref="http://d-nb.info/gnd/117619663">Savigny’schen</persName> zusam-<lb/>mengesetzten
+                  <name type="animal" key="Acephalen">Acephalen</name>, wie sie durch <persName ref="https://editon-humboldt.de/H0013277 http://d-nb.info/gnd/118677578">Cuvier</persName> festgestellt ist, andere klei<g ref="#typoHyphen"/>
+                    <lb break="no"/>nere zeigen deutlich die Art, wie die <persName ref="https://editon-humboldt.de/H0016837 http://d-nb.info/gnd/117619663">Savigny’schen</persName> zusam<g ref="#typoHyphen"/>
+                    <lb break="no"/>mengesetzten
                Ascidien sich bilden <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -196,8 +232,9 @@
                   <del rendition="#s">geschienenen</del>
                   <add place="superlinear">erscheinenden</add>
                </subst>
-               <lb/>meisterhaften Zergliederungen von <persName ref="http://d-nb.info/gnd/117619663">Savigny</persName>
-               ihr Recht wider-<lb/>fahren zu lassen. Ich rechne es
+               <lb/>meisterhaften Zergliederungen von <persName ref="https://editon-humboldt.de/H0016837 http://d-nb.info/gnd/117619663">Savigny</persName>
+               ihr Recht wider<g ref="#typoHyphen"/>
+                    <lb break="no"/>fahren zu lassen. Ich rechne es
                mir zu großer Ehre zuweilen <lb/>mehr gesehen zu haben als er, doch häufiger fand ich
                was <lb/>
                     <pb n="2r"/>er sah nach vieler wiederholter Mühe, selten es anders. <lb/>Wer
@@ -224,7 +261,8 @@
                   <expan>und</expan>
                </choice>
                <name type="animal" key="Dentalium">Dentalium</name> haben wir häufig mit aller
-               <lb/>Anstrengung aber wie lebend gefunden. Fruchtbare Beobach-<lb/>tungen dieser Art wollen viel Zeit <choice>
+               <lb/>Anstrengung aber wie lebend gefunden. Fruchtbare Beobach<g ref="#typoHyphen"/>
+                    <lb break="no"/>tungen dieser Art wollen viel Zeit <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> große geistige <choice>
@@ -233,7 +271,8 @@
                </choice> körperliche <lb/>Ruhe, Dinge die uns sä<choice>
                   <orig>m̅</orig>
                   <reg cert="high">mm</reg>
-               </choice>tlich mangelten. Die Eingeweide-<lb/>würmer
+               </choice>tlich mangelten. Die Eingeweide<g ref="#typoHyphen"/>
+                    <lb break="no"/>würmer
                haben wir in allen Thieren berücksichtigt <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -243,7 +282,7 @@
                   <expan>und</expan>
                </choice> einige anatomirt.</p>
             <p>Von Spinnen habe ich über 100 Arten größtentheils <lb/>
-                    <placeName ref="https://www.geonames.org/357994">Aegyptens</placeName> mit manchem Detail gemalt. Von anatomischen <lb/>Resultaten
+                    <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Aegyptens</placeName> mit manchem Detail gemalt. Von anatomischen <lb/>Resultaten
                ist eines der merkwürdigsten, daß <name type="animal" key="Mygale">Mygale</name>
                nicht 2 <lb/>
                     <subst>
@@ -283,8 +322,10 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> hoffe zwar nicht daß die Bekanntmachung aller nöthig seien <lb/>wird, da
-               gewiß blos unsere geringen litterärischen Reisehülfs-<lb/>mittel die scheinbare Neuheit dieser Masse bedingten, hege aber
-               <lb/>doch das Vertrauen daß mir die Botanik manch neues Pflänz-<lb/>chen <choice>
+               gewiß blos unsere geringen litterärischen Reisehülfs<g ref="#typoHyphen"/>
+                    <lb break="no"/>mittel die scheinbare Neuheit dieser Masse bedingten, hege aber
+               <lb/>doch das Vertrauen daß mir die Botanik manch neues Pflänz<g ref="#typoHyphen"/>
+                    <lb break="no"/>chen <choice>
                   <abbr>ud</abbr>
                   <expan>und</expan>
                </choice> über manch altes interessante Notizen zuführte.</p>
@@ -299,7 +340,8 @@
             <p>Mögen Sie hieraus entnehmen daß wir <subst>
                   <del rendition="#s">unser</del>
                   <add place="superlinear">zum</add>
-               </subst> Haupt-<lb/>augenmerk hatten <subst>
+               </subst> Haupt<g ref="#typoHyphen"/>
+                    <lb break="no"/>augenmerk hatten <subst>
                   <del rendition="#s">inwendig</del>
                   <add place="intralinear">i<choice>
                         <orig>m̅</orig>
@@ -327,8 +369,10 @@
                Eigenthümlichkeiten <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> wichtigeren Bezie-<lb/>hungen aller
-               gesammelten Körper darzustellen, als auch das Be-<lb/>kannte von dem Unbekannten scharf zu sondern. Alles wird <lb/>ein Gegenstand meiner
+               </choice> wichtigeren Bezie<g ref="#typoHyphen"/>
+                    <lb break="no"/>hungen aller
+               gesammelten Körper darzustellen, als auch das Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>kannte von dem Unbekannten scharf zu sondern. Alles wird <lb/>ein Gegenstand meiner
                Beachtung sein aber nur das als neu <lb/>
                     <choice>
                   <abbr>u</abbr>
@@ -347,7 +391,7 @@
                   <abbr>ud</abbr>
                   <expan>und</expan>
                </choice> ich flehe darum.</p>
-            <p>Nach den neuesten Briefen Herrn Professor <persName ref="http://d-nb.info/gnd/100190014">Lichtensteins</persName>
+            <p>Nach den neuesten Briefen Herrn Professor <persName ref="https://editon-humboldt.de/H0004521 http://d-nb.info/gnd/100190014">Lichtensteins</persName>
                <lb/>
                     <pb n="3r"/>bin ich in bange Sorge versetzt über die hinterlassene <lb/>Mutter <choice>
                   <abbr>u</abbr>
@@ -356,15 +400,17 @@
                   <abbr>Dr.</abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/117516376">Hemprich</persName>, <lb/>welche zwar die Gnade <choice>
+               <persName ref="https://editon-humboldt.de/H0011778 http://d-nb.info/gnd/117516376">Hemprich</persName>, <lb/>welche zwar die Gnade <choice>
                   <abbr>Sr.</abbr>
                   <expan>Seiner</expan>
-               </choice> Majestät des <persName ref="http://d-nb.info/gnd/118535986">Königs</persName> ohne vor-<lb/>hergegangene Verwendung aus eignem Antrieb
-                  berück-<lb/>sichtigt habe, aber doch zu kärglich,
+               </choice> Majestät des <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">Königs</persName> ohne vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>hergegangene Verwendung aus eignem Antrieb
+                  berück<g ref="#typoHyphen"/>
+                    <lb break="no"/>sichtigt habe, aber doch zu kärglich,
                als daß es zu ihrer <lb/>Subsistenz hinreichend wäre. Auch haben <choice>
                   <abbr>Sr.</abbr>
                   <expan>Seiner</expan>
-               </choice> Excellenz <lb/>der Herr Minister <persName ref="http://d-nb.info/gnd/11862783X">Altenstein</persName> Bedenken getragen diesen <lb/>Gegenstand weiter zum Vortrag
+               </choice> Excellenz <lb/>der Herr Minister <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Altenstein</persName> Bedenken getragen diesen <lb/>Gegenstand weiter zum Vortrag
                zu bringen, da doch auch <lb/>für mich etwas gethan werden solle. Wenn ich es wage <lb/>
                     <choice>
                   <abbr>Ew.</abbr>
@@ -372,7 +418,7 @@
                </choice> Hochwohlgeboren um Ihr gütiges so viel vermögendes <lb/>Fürwort in dieser
                Angelegenheit zu bitten, so geschieht <lb/>es aus der Ueberzeugung, daß der
                Verstorbene hinreichend <lb/>Kraft besaß diese, durch den ebenfalls im Dienste des
-               <lb/>Staates erlittenen Verlust des <persName ref="https://edition-humboldt.de/v8/H0016948">Vaters</persName>,
+               <lb/>Staates erlittenen Verlust des <persName ref="https://editon-humboldt.de/H0016948">Vaters</persName>,
                unglückliche <lb/>Familie ehrenvoll zu erhalten <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -387,12 +433,13 @@
                <lb/>dringender empfehle ich Ihnen jene Verlassenen <choice>
                   <abbr>ud</abbr>
                   <expan>und</expan>
-               </choice> ver-<lb/>traue darauf, daß durch Ihre
+               </choice> ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>traue darauf, daß durch Ihre
                gütige Verwendung die <lb/>Gnade <choice>
                   <abbr>Sr.</abbr>
                   <expan>Seiner</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118535986">Majestät</persName> sich erweitern werde.</p>
+               <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">Majestät</persName> sich erweitern werde.</p>
             <closer rend="within the line">
                <salute>Indem
                   ich die Ehre habe <choice>
@@ -401,7 +448,8 @@
                   </choice> Hochwohlgeboren meine <lb/>innigste Hochachtung <choice>
                      <abbr>u</abbr>
                      <expan>und</expan>
-                  </choice> Verehrung an den Tag zu legen, ver-<lb/>harre ich in dankbarster Ergebenheit, mich Ihrer <lb/>hochehrenden Gewogenheit
+                  </choice> Verehrung an den Tag zu legen, ver<g ref="#typoHyphen"/>
+                        <lb break="no"/>harre ich in dankbarster Ergebenheit, mich Ihrer <lb/>hochehrenden Gewogenheit
                   empfehlend <lb/>Herrn Baron <lb/>Ihr <lb/>gehorsamster Diener</salute>
                <signed>C G Ehrenberg.</signed>
             </closer>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018028">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Porzellanmanufaktur Ansbach-Bruckberg</title>
             </titleStmt>
+            <editionStmt>
+                <p>Porzellanmanufaktur Ansbach-Bruckberg [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018028.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018028.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018028.xml">
-                    <p>Porzellanmanufaktur Ansbach-Bruckberg [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018028.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018028">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/7541959-2</idno>
                     <orgName type="reg">Porzellanmanufaktur Ansbach-Bruckberg</orgName>
                     <orgName type="alt">Ansbacher Fayencemanufaktur</orgName>
@@ -39,7 +44,7 @@
                     <location from="1763" to="1860">
                         <address>
                             <idno type="uri">https://www.geonames.org/2943500</idno>
-                            <settlement key="H0005367">Bruckberg (Mittelfranken)</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005367">Bruckberg (Mittelfranken)</settlement>
                             <note>Jagdschloss Bruckberg</note>
                         </address>
                     </location>

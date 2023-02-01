@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016494">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. B[erlin], 27. Dezember
+               1858, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016494">https://edition-humboldt.de/v8/H0016494</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016494</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016494</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016494.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. B[erlin], 27. Dezember
-               1858. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016494</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">244</idno>
+                     <idno type="shelfmark">421, Bl. 455r, 456v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">erlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">erlin</placeName>
                <date when="1858-12-27">1858-12-27</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -75,32 +93,34 @@
                 </opener>
             <pb n="1v"/>
             <p>Eine Bitte und zwar sehr unbequeme! <lb/>Sollte es Ihnen möglich sein durch
-               <lb/>Blättern etwa in <ref xml:id="f75d4682-4c81-4e92-9d46-824c81ce92f0" corresp="#e445edee-68de-4a61-85ed-ee68de8a61ba">
-                        <persName ref="http://d-nb.info/gnd/11903705X">Gmelin’s</persName> Reise</ref>
-                    <note xml:id="e445edee-68de-4a61-85ed-ee68de8a61ba" corresp="#f75d4682-4c81-4e92-9d46-824c81ce92f0">
-                     <bibl corresp="https://edition-humboldt.de/v8/F9XC989Q">Gmelin 1751-1752</bibl>
+               <lb/>Blättern etwa in <ref xml:id="f55c1e57-396f-458a-9c1e-57396f658aa2" corresp="#f98ca697-74db-4e3e-8ca6-9774dbee3e35">
+                        <persName ref="https://editon-humboldt.de/H0013514 http://d-nb.info/gnd/11903705X">Gmelin’s</persName> Reise</ref>
+                    <note xml:id="f98ca697-74db-4e3e-8ca6-9774dbee3e35" corresp="#f55c1e57-396f-458a-9c1e-57396f658aa2">
+                     <bibl corresp="https://edition-humboldt.de/F9XC989Q">Gmelin 1751-1752</bibl>
                   </note>
                <lb/>
                     <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
-               </choice> einer <ref xml:id="d17eb824-677e-4d96-beb8-24677e5d96d0" corresp="#a310e596-db27-45ae-90e5-96db2715aec4">Flora sibirica</ref>
-                    <note xml:id="a310e596-db27-45ae-90e5-96db2715aec4" corresp="#d17eb824-677e-4d96-beb8-24677e5d96d0">
-                     <bibl corresp="https://edition-humboldt.de/v8/XINX459S">Gmelin 1747-1769</bibl>
-                  </note> die <lb/>Stelle aufzufinden in der be-<lb/>hauptet wird, dass es östlich <lb/>vom <placeName ref="https://www.geonames.org/1488441">Ural</placeName>
+               </choice> einer <ref xml:id="dfc8e134-01c5-4157-88e1-3401c5215783" corresp="#a442b717-510c-443d-82b7-17510c643d8e">Flora sibirica</ref>
+                    <note xml:id="a442b717-510c-443d-82b7-17510c643d8e" corresp="#dfc8e134-01c5-4157-88e1-3401c5215783">
+                     <bibl corresp="https://edition-humboldt.de/XINX459S">Gmelin 1747-1769</bibl>
+                  </note> die <lb/>Stelle aufzufinden in der be<g ref="#typoHyphen"/>
+                    <lb break="no"/>hauptet wird, dass es östlich <lb/>vom <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>
                keine Eichen (<name type="plant" key="Quercus">Quercus</name>) <lb/>und keine
-               Flusskrebse <name type="animal" key="Cancer astacus">Cancer asta-<lb/>cus</name> gab. Eichen fangen wieder an <lb/>in <placeName ref="https://www.geonames.org/1861060">Japan</placeName>
+               Flusskrebse <name type="animal" key="Cancer astacus">Cancer asta<g ref="#typoHyphen"/>
+                        <lb break="no"/>cus</name> gab. Eichen fangen wieder an <lb/>in <placeName ref="https://editon-humboldt.de/H0006559 https://www.geonames.org/1861060">Japan</placeName>
                     <supplied cert="high">.</supplied> Welch ein
-               Prachtwerk <lb/>ist <ref xml:id="d247a075-7ea3-4517-87a0-757ea36517d4" corresp="#ffef60a2-7acc-408a-af60-a27acce08afd">
-                        <persName ref="http://d-nb.info/gnd/11634444X">Kotschy</persName> Eichen des Orients</ref>
-                    <note xml:id="ffef60a2-7acc-408a-af60-a27acce08afd" corresp="#d247a075-7ea3-4517-87a0-757ea36517d4">
-                     <bibl corresp="https://edition-humboldt.de/v8/VMITXK9G">Kotschy 1858</bibl>
+               Prachtwerk <lb/>ist <ref xml:id="d1738e72-36d0-436b-b38e-7236d0736b89" corresp="#fa0c90e3-167c-4d19-8c90-e3167c0d1926">
+                        <persName ref="https://editon-humboldt.de/H0017011 http://d-nb.info/gnd/11634444X">Kotschy</persName> Eichen des Orients</ref>
+                    <note xml:id="fa0c90e3-167c-4d19-8c90-e3167c0d1926" corresp="#d1738e72-36d0-436b-b38e-7236d0736b89">
+                     <bibl corresp="https://edition-humboldt.de/VMITXK9G">Kotschy 1858</bibl>
                   </note>
                     <supplied cert="high">.</supplied>
                <lb/>Ich kann es Ihnen zeigen<supplied cert="high">.</supplied>
             </p>
             <closer rend="paragraph">
-                    <salute>Ihr <lb/> ewig dankba<lb/>rer</salute>
+                    <salute>Ihr <lb/> ewig dankba<lb break="no"/>rer</salute>
                 <lb/>
                     <signed>AlHumboldt</signed>
                <dateline rend="align(left)">
@@ -114,7 +134,7 @@
                   <lb/>1858</dateline>
                 </closer>
             <postscript>
-               <p>Meine Ver<lb/>ehrung Ihrer <lb/>theuren Familie </p>
+               <p>Meine Ver<lb break="no"/>ehrung Ihrer <lb/>theuren Familie </p>
             </postscript>
          </div>
       </body>

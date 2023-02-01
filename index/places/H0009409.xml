@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0009409">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Tirol</title>
             </titleStmt>
+            <editionStmt>
+                <p>Tirol [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0009409.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0009409.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0009409.xml">
-                    <p>Tirol [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0009409.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0009409">
+                <place>
                     <idno type="uri">https://www.geonames.org/2763586</idno>
                     <placeName type="reg">Tirol</placeName>
                     <placeName type="alt">Tyrol</placeName>
                     <note>Bundesland Österreichs
-                        <!-- eher: Region in den Alpen (Österreich, Italien); prüfen, ob z.B. im Brief an Willdenow vom 17. Juli 1795 (https://xmledit.bbaw.de/ediarum/rest/db/projects/avhr/web/H0001183) oder Soemmering vom 7. Februar 1796 (https://xmledit.bbaw.de/ediarum/rest/db/projects/avhr/web/H0002658) Gegend des heutigen Tirol oder Südtirol oder beides gemeint ist; ggf. Auswirkungen auf heutige staatliche Zugehörigkeit (Österreich, Italien) berücksichtigen -->
+                        
                     </note>
                     <linkGrp>
                         <ptr subtype="comment" target="04#20" type="letter"/>

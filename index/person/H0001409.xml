@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001409">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kohlrausch, Henriette</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kohlrausch, Henriette [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001409.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001409.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001409.xml">
-                    <p>Kohlrausch, Henriette [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001409.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001409">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/1072699168</idno>
                     <persName type="reg">
                         <surname>Kohlrausch</surname>
@@ -40,9 +45,9 @@
                     </persName>
                     <birth>1781</birth>
                     <death>1842</death>
-                    <note>Aus <placeName key="H0006803">Hannover</placeName> stammende Ehefrau von <persName key="H0001408">Heinrich Kohlrausch</persName>; Verfasserin der einzigen derzeit bekannten
-                        <ref target="http://www.deutschestextarchiv.de/nn_msgermqu2124_1827">Nachschrift von Humboldts ‚Kosmos-Vorlesung‘</ref> in der <orgName key="H0017694">Berliner
-                            Sing-Akademie</orgName> (<bibl sameAs="zotero-667230-9ZM4CXFB">Humboldt/Kohlrausch 2019</bibl>).</note>
+                    <note>Aus <placeName ref="https://editon-humboldt.de/H0006803 https://www.geonames.org/11808389">Hannover</placeName> stammende Ehefrau von <persName ref="https://editon-humboldt.de/H0001408 http://d-nb.info/gnd/104105496">Heinrich Kohlrausch</persName>; Verfasserin der einzigen derzeit bekannten
+                        <ref target="http://www.deutschestextarchiv.de/nn_msgermqu2124_1827">Nachschrift von Humboldts ‚Kosmos-Vorlesung‘</ref> in der <orgName ref="https://editon-humboldt.de/H0017694 http://d-nb.info/gnd/2118215-2">Berliner
+                            Sing-Akademie</orgName> (<bibl corresp="https://edition-humboldt.de/9ZM4CXFB">Humboldt/Kohlrausch 2019</bibl>).</note>
                 </person>
             </listPerson>
         </body>

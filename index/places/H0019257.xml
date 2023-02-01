@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019257">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ježovaja Gora</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ježovaja Gora [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019257.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019257.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019257.xml">
-                    <p>Ježovaja Gora [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019257.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019257">
+                <place>
                     <idno type="uri">https://www.geonames.org/873071</idno>
                     <placeName type="reg">Ježovaja Gora</placeName>
                     <placeName type="alt">Ежовая гора</placeName>
                     <placeName type="alt">Gora Yezhovaya</placeName>
                     <placeName type="alt">Jedjovaya Gorà</placeName>
-                    <!-- RST I, 22r -->
+                    
                     <placeName type="alt">Jeschowaja Gora</placeName>
-                    <!-- Rose 1837/1842, I, 299 -->
-                    <note>Berg im <placeName key="H0020291">Mittleren Ural</placeName> westlich von
-                            <placeName key="H0001626">Nev'jansk</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    
+                    <note>Berg im <placeName ref="https://editon-humboldt.de/H0020291 https://www.geonames.org/489464">Mittleren Ural</placeName> westlich von
+                            <placeName ref="https://editon-humboldt.de/H0001626 https://www.geonames.org/1497795">Nev'jansk</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

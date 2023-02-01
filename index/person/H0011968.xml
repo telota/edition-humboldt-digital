@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011968">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Hollwede, Friederich Ernst von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Hollwede, Friederich Ernst von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011968.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011968.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011968.xml">
-                    <p>Hollwede, Friederich Ernst von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011968.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0011968">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/14063312X</idno>
                     <persName type="reg">
                         <surname>Hollwede</surname>
@@ -41,8 +46,8 @@
                     <birth>1723</birth>
                     <death>1765</death>
                     <note>Erb- und Gerichtsherr auf Ringenwalde, Crummecavel und Tegel, Kanonikus
-                        des Sankt Sebastian-Stifts zu Magdeburg; Erster Mann von <persName key="H0012066">Marie Elisabeth von Humboldt</persName>, der Mutter von
-                            <persName key="H0012068">Wilhelm</persName> und <persName key="H0012069">Alexander</persName> von Humboldt</note>
+                        des Sankt Sebastian-Stifts zu Magdeburg; Erster Mann von <persName ref="https://editon-humboldt.de/H0012066 http://d-nb.info/gnd/119247267">Marie Elisabeth von Humboldt</persName>, der Mutter von
+                            <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm</persName> und <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander</persName> von Humboldt</note>
                     <linkGrp>
                         <ptr target="02#10" type="letter"/>
                         <ptr target="34#357" type="page"/>

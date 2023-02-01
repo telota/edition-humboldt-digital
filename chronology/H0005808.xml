@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005808">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7,31 +7,40 @@
                     </title>
                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (6. September 1846) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0005808">https://edition-humboldt.de/v8/H0005808</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0005808</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0005808</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005808.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1846. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0005808</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
                 <p>
-                    <persName ref="http://d-nb.info/gnd/118749218">Rauch</persName> soll mit <persName ref="http://d-nb.info/gnd/129717134">Karl
-                        von Steuben</persName> und dessen Frau <persName ref="https://edition-humboldt.de/v8/H0016080">Eléonore</persName> an diesem Sonntag einige Stunden am Nachmittag nach
-                    Tegel fahren. H. muss am Abend nach <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName> zurück. </p>
+                    <persName ref="https://editon-humboldt.de/H0000746 http://d-nb.info/gnd/118749218">Rauch</persName> soll mit <persName ref="https://editon-humboldt.de/H0016082 http://d-nb.info/gnd/129717134">Karl
+                        von Steuben</persName> und dessen Frau <persName ref="https://editon-humboldt.de/H0016080">Eléonore</persName> an diesem Sonntag einige Stunden am Nachmittag nach
+                    Tegel fahren. H. muss am Abend nach <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName> zurück. </p>
             </body>
         </text>
     </TEI>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015079">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,33 +28,50 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch,
+                    [1833], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015079">https://edition-humboldt.de/v8/H0015079</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015079</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015079</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015079.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch,
-                    [1833]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015079</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
                     <date from="1833-01-01" to="1833-12-31" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
                 </correspAction>
-                <note>Die Datierung richtet sich nach dem Erscheinen des ersten Bandes der <bibl corresp="https://edition-humboldt.de/v8/7DZGI486">Enumeratio plantarum</bibl> "Agrostographia
+                <note>Die Datierung richtet sich nach dem Erscheinen des ersten Bandes der <bibl corresp="https://edition-humboldt.de/7DZGI486">Enumeratio plantarum</bibl> "Agrostographia
                     Synoptica" 1833, das im vorliegenden Brief erwähnt wird. </note>
             </correspDesc>
         </profileDesc>
@@ -64,15 +81,16 @@
             <div type="writingSession" n="1">
                 <p>
                     <pb n="1r"/>Sie sind meine Vorsehung <lb/>Theurer! Schikken Sie <lb/>mir wieder
-                    einige Fe-<lb/>dern<supplied cert="high">.</supplied> Mit welchem <lb/>Verstande <choice>
+                    einige Fe<g ref="#typoHyphen"/>
+                    <lb break="no"/>dern<supplied cert="high">.</supplied> Mit welchem <lb/>Verstande <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Fleiss ist <lb/>Ihre <ref xml:id="cd7bd2b9-2212-4926-bbd2-b922120926a9" corresp="#c190b5eb-752d-4628-90b5-eb752dd62861">
-                        <bibl corresp="https://edition-humboldt.de/v8/7DZGI486">Agrostographie</bibl>
+                    </choice> Fleiss ist <lb/>Ihre <ref xml:id="a6cd3281-28f2-4e9d-8d32-8128f24e9d3e" corresp="#f2ac7f3f-70b4-41ee-ac7f-3f70b471eea9">
+                        <bibl corresp="https://edition-humboldt.de/7DZGI486">Agrostographie</bibl>
                     </ref>
-                    <note xml:id="c190b5eb-752d-4628-90b5-eb752dd62861" corresp="#cd7bd2b9-2212-4926-bbd2-b922120926a9">Agrostographia synoptica sive enumeratio
+                    <note xml:id="f2ac7f3f-70b4-41ee-ac7f-3f70b471eea9" corresp="#a6cd3281-28f2-4e9d-8d32-8128f24e9d3e">Agrostographia synoptica sive enumeratio
                             graminearum omnium hucusque cognitarum, adjectis characteribus,
-                            differentiis et synonymis (<bibl corresp="https://edition-humboldt.de/v8/7DZGI486">Kunth
+                            differentiis et synonymis (<bibl corresp="https://edition-humboldt.de/7DZGI486">Kunth
                                 1833–1850</bibl>, I/II).</note>
                     <lb/>gemacht. Welch ein <lb/>ungeheures Opus! </p>
                 <closer rend="paragraph">

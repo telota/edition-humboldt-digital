@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0008223">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Perm</title>
             </titleStmt>
+            <editionStmt>
+                <p>Perm [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0008223.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0008223.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0008223.xml">
-                    <p>Perm [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0008223.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0008223">
+                <place>
                     <idno type="uri">https://www.geonames.org/511196</idno>
                     <placeName type="reg">Perm</placeName>
                     <placeName type="alt">Пермь</placeName>
                     <placeName type="alt">Molotov</placeName>
                     <placeName type="alt">Молотов</placeName>
-                    <note>Stadt an der <placeName key="H0000337">Kama</placeName> im westlichen Vorland des <placeName key="H0009659">Ural</placeName>; ab 1791 Hauptstadt des Gouvernements Perm; ab Ende des 18.
-                        Jhs. Zentrum des uralischen Hüttenwesens; 1940–1958 Molotov genannt (<placeName key="H0010689">Russland</placeName>)</note>
+                    <note>Stadt an der <placeName ref="https://editon-humboldt.de/H0000337 https://www.geonames.org/553875">Kama</placeName> im westlichen Vorland des <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>; ab 1791 Hauptstadt des Gouvernements Perm; ab Ende des 18.
+                        Jhs. Zentrum des uralischen Hüttenwesens; 1940–1958 Molotov genannt (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                     <linkGrp>
                         <ptr target="30#9" type="letter"/>
                         <ptr target="30#14" type="letter"/>

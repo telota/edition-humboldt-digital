@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019583">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,31 +20,59 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin], Montag, [29. Juni 1830], hg. v. Ulrich Päßler unter Mitarbeit von Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019583">https://edition-humboldt.de/v8/H0019583</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019583</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019583</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019583.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Berlin], Montag, [29. Juni 1830]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019583</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno>
+                            <idno type="shelfmark">I/530/7</idno>, Bl. 1r, 2v<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051307</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        46.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 25.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     <date when="1830-06-29" cert="high"/>
                     
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
-                <note>Zur Datierung: Am 23. Juni 1830 trat Humboldt vom <placeName ref="https://www.geonames.org/3066138">schlesischen</placeName> Gut <placeName ref="https://www.geonames.org/3089642">Ottmachau</placeName> seines Bruders <persName ref="http://d-nb.info/gnd/118554727">Wilhelm</persName> aus die Rückreise nach <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> an (vgl. Alexander von Humboldt-Chronologie, edition
+                <note>Zur Datierung: Am 23. Juni 1830 trat Humboldt vom <placeName ref="https://editon-humboldt.de/H0010152 https://www.geonames.org/3066138">schlesischen</placeName> Gut <placeName ref="https://editon-humboldt.de/H0007882 https://www.geonames.org/3089642">Ottmachau</placeName> seines Bruders <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm</persName> aus die Rückreise nach <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> an (vgl. Alexander von Humboldt-Chronologie, edition
                     humboldt digital, <ref target="https://edition-humboldt.de/H0004715">https://edition-humboldt.de/H0004715</ref>). Der vorliegende, nach der
                     Rückkehr entstandene Brief wurde somit wohl am Montag, 29. Juni 1830 verfasst. </note>
             </correspDesc>
@@ -60,12 +88,13 @@
                     
                 </opener>
                 <pb n="1r"/>
-                <p>Es ist mir eine sehr unerwar-<lb/>tete Freude<supplied cert="high">,</supplied> Sie, liebster <lb/>
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>, noch hier zu wissen<supplied cert="high">.</supplied>
+                <p>Es ist mir eine sehr unerwar<g ref="#typoHyphen"/>
+                    <lb break="no"/>tete Freude<supplied cert="high">,</supplied> Sie, liebster <lb/>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>, noch hier zu wissen<supplied cert="high">.</supplied>
                     <lb/>Wenn ich Sie jezt (ich <lb/>bringe diesen Brief selbst) <lb/>nicht finde,
                     so komme <lb/>ich heute Nachmittag (von <lb/>
-                    <placeName ref="https://www.geonames.org/2940187">Charlottenburg</placeName> zurükkehrend) <lb/>zu Ihnen zwischen 4½ <lb/>bis
-                    6 Uhr. Ich war <lb/>gestern in <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0007341 https://www.geonames.org/2940187">Charlottenburg</placeName> zurükkehrend) <lb/>zu Ihnen zwischen 4½ <lb/>bis
+                    6 Uhr. Ich war <lb/>gestern in <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                     <supplied cert="high">.</supplied>
                 </p>
                 <closer>

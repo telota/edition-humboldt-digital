@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0012060">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Humboldt, Caroline von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Caroline von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0012060.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0012060.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0012060.xml">
-                    <p>Humboldt, Caroline von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0012060.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0012060">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118554719</idno>
                     <persName type="reg">
                         <surname>Humboldt</surname>
@@ -53,8 +58,8 @@
                     </persName>
                     <birth>1766</birth>
                     <death>1829</death>
-                    <note>Tochter des preußischen Kammerpräsidenten <persName key="H0012107">Karl
-                            Friedrich von Dacheröden</persName>, Ehefrau <persName key="H0012068">Wilhelm von Humboldt</persName>s</note>
+                    <note>Tochter des preußischen Kammerpräsidenten <persName ref="https://editon-humboldt.de/H0012107 http://d-nb.info/gnd/122375157">Karl
+                            Friedrich von Dacheröden</persName>, Ehefrau <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm von Humboldt</persName>s</note>
                     <linkGrp>
                         <ptr subtype="sentFrom" target="02#31" type="letter"/>
                         <ptr subtype="sentFrom" target="02#35" type="letter"/>

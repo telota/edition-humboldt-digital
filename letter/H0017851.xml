@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017851">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,30 +29,60 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Sonnabend, [22.
+                    Oktober 1825], hg. v. Ulrich Päßler unter Mitarbeit von Lisa Poggel und Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0017851">https://edition-humboldt.de/v8/H0017851</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0017851</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0017851</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017851.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Sonnabend, [22.
-                    Oktober 1825]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0017851</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno>
+                            <idno type="shelfmark">I/530/1</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051293</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        21–22.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 12–13.</witness>
+                        <witness>
+                        <bibl type="print" n="3" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 279–280.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <date when="1825-10-22" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -66,54 +96,62 @@
                 </opener>
 				<p>Meine Einbildungskraft, mein
                         <lb/>Verehrtester,
-                    ist noch ganz <lb/>erfüllt mit den üppigen <lb/>Formen der <placeName ref="http://d-nb.info/gnd/4060997-2">Tropen</placeName>welt, wel-<lb/>che Ihre geistreichen Zeich-<lb/>nungen so herrlich und wahr <lb/>darstellen. Ich stehe auf <lb/>dem Punkt mit
+                    ist noch ganz <lb/>erfüllt mit den üppigen <lb/>Formen der <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">Tropen</placeName>welt, wel<g ref="#typoHyphen"/>
+                    <lb break="no"/>che Ihre geistreichen Zeich<g ref="#typoHyphen"/>
+                    <lb break="no"/>nungen so herrlich und wahr <lb/>darstellen. Ich stehe auf <lb/>dem Punkt mit
                     Herrn <choice>
                         <abbr>Prof</abbr>
                         <expan>Professor</expan>
                     </choice>
                     <lb/>
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth</persName>, in gross folio, eine neue
-                    <lb/>Auflage meiner <bibl corresp="https://edition-humboldt.de/v8/GZRTNNXF">Géographie des
-                        <lb/>Plantes</bibl> mit 20 Kupfern heraus-<lb/>zugeben. Für das Kapitel <lb/>Physiognomik der Gewächse,
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth</persName>, in gross folio, eine neue
+                    <lb/>Auflage meiner <bibl corresp="https://edition-humboldt.de/GZRTNNXF">Géographie des
+                        <lb/>Plantes</bibl> mit 20 Kupfern heraus<g ref="#typoHyphen"/>
+                    <lb break="no"/>zugeben. Für das Kapitel <lb/>Physiognomik der Gewächse,
                     <lb/>welches Sie vielleicht schon aus <lb/>meinen <hi rendition="#u">
-                        <bibl corresp="https://edition-humboldt.de/v8/HENFXM3G">Ansichten der Natur</bibl>
+                        <bibl corresp="https://edition-humboldt.de/HENFXM3G">Ansichten der Natur</bibl>
                     </hi>
                     <lb/>kennen, wünschten wir wenn <lb/>auch nur drei Platten, eine <lb/>Palme, ein
                     baumartiges Farrenkraut<supplied cert="high">,</supplied>
                     <lb/>eine Banane, geben zu können. <pb n="1v"/>
                     <hi rendition="#u"> Sie</hi>
                     allein scheinen mir, der <lb/>ich 6 Jahr unter diesen <lb/>Formen gelebt, den
-                    wahren <lb/>Character meisterhaft aufge-<lb/>fasst zu haben. Ich denke <lb/>dass bei der Fülle der Sachen <lb/>die Sie
+                    wahren <lb/>Character meisterhaft aufge<g ref="#typoHyphen"/>
+                    <lb break="no"/>fasst zu haben. Ich denke <lb/>dass bei der Fülle der Sachen <lb/>die Sie
                     besizen Ihr neues <lb/>Werk in dem Sie Pflanzen <lb/>zusammengruppiren, nicht
                     <lb/>leiden kann, wenn Sie uns <lb/>vorher 2–3 isolirte Bäume <lb/>für unser
-                    Prachtwerk cedirten. <lb/>Ihren Namen wird es mir <lb/>eine Freude sein zu ver-<lb/>herrlichen; das Publikum wird
+                    Prachtwerk cedirten. <lb/>Ihren Namen wird es mir <lb/>eine Freude sein zu ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>herrlichen; das Publikum wird
                     <lb/>aufmerksam auf Sie und Ihre <lb/>bald zu publicirenden grösseren
                     <lb/>Arbeiten. Ich wünsche nicht <lb/>unbescheiden Wald <choice>
                         <abbr>od</abbr>
                         <expan>oder</expan>
                     </choice> Landschaft<supplied cert="high">,</supplied>
                     <lb/>bloss einzelne Formen von einer <lb/>Palme, einem Farrenkraut, <pb n="2r"/>
-                    einer Mimose<supplied cert="high">.</supplied> Die Zeich<lb/>nungen<supplied cert="high">,</supplied> über deren Grösse <lb/>wir hier
+                    einer Mimose<supplied cert="high">.</supplied> Die Zeich<lb break="no"/>nungen<supplied cert="high">,</supplied> über deren Grösse <lb/>wir hier
                     übereinkämen, <lb/>sendeten Sie uns <hi rendition="#u">vergrössert</hi>
-                    <lb/>von <placeName ref="https://www.geonames.org/2867714">München</placeName> aus durch <lb/>unseren
-                    verehrten Freund <lb/>Graf <persName ref="https://d-nb.info/gnd/118514741">Bray</persName>. Der Stich
+                    <lb/>von <placeName ref="https://editon-humboldt.de/H0009046 https://www.geonames.org/2867714">München</placeName> aus durch <lb/>unseren
+                    verehrten Freund <lb/>Graf <persName ref="https://editon-humboldt.de/H0017867 https://d-nb.info/gnd/118514741">Bray</persName>. Der Stich
                         <lb/>
                     <hi rendition="#u">au burin</hi> wird hier von <lb/>den ersten
                     Künstlern <lb/>besorgt, alles so dass Ihre <lb/>Arbeit auf ehrenvolle Weise
-                    <lb/>in das englische und fran-<lb/>zösische
+                    <lb/>in das englische und fran<g ref="#typoHyphen"/>
+                    <lb break="no"/>zösische
                     Publikum kommt<supplied cert="high">.</supplied>
-                    <lb/>Ich denke dass dies alles <lb/>da meine Werke viel ge-<lb/>kauft werden, Ihren zu <lb/>publicirenden Arbeiten nüzlich
+                    <lb/>Ich denke dass dies alles <lb/>da meine Werke viel ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>kauft werden, Ihren zu <lb/>publicirenden Arbeiten nüzlich
                     <lb/>sein wird. Ich würde den <lb/>Titel dieser Ihrer Arbeit <lb/>welche Sie in
-                        <placeName ref="https://www.geonames.org/3169070">Rom</placeName> vollenden <lb/>wollen, in einer
+                        <placeName ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName> vollenden <lb/>wollen, in einer
                     Note ankündigen. <pb n="2v"/>
-                    <persName ref="http://d-nb.info/gnd/1037584171">Mein Buchhändler</persName> wird Ihnen <lb/>jede der
-                    Zeichnungen die Sie <lb/>uns liefern auf eine sehr an-<lb/>ständige Weise von Ihnen Selbst zu <lb/>bestimmende Weise
+                    <persName ref="https://editon-humboldt.de/H0013466 http://d-nb.info/gnd/1037584171">Mein Buchhändler</persName> wird Ihnen <lb/>jede der
+                    Zeichnungen die Sie <lb/>uns liefern auf eine sehr an<g ref="#typoHyphen"/>
+                    <lb break="no"/>ständige Weise von Ihnen Selbst zu <lb/>bestimmende Weise
                     vergüten. <lb/>Dies kann<supplied cert="high">,</supplied> sollte vorschussweise
                     <lb/>jezt geschehen. <choice>
                         <abbr>Prof</abbr>
                         <expan>Professor</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth</persName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth</persName>
                     <lb/>wird von Ihren Wünschen <lb/>mich unterrichten. Ich fürchte<supplied cert="high">,</supplied>
                     <lb/>Sie sind Ihrer Abreise nahe<supplied cert="high">.</supplied>
                     <lb/>Wollten Sie uns noch heute <lb/>Ihre grösseren Landschaften <lb/>senden und

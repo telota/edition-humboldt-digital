@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015607">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schmitt, Ralf T.</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schmitt, Ralf T. [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015607.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015607.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015607.xml">
-                    <p>Schmitt, Ralf T. [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015607.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015607">
+                <person>
                     <persName type="reg">
                         <surname>Schmitt</surname>
                         <forename>Ralf T.</forename>
                     </persName>
-                    <note>Mitarbeiter des <orgName key="H0000606">Museums für Naturkunde</orgName>, Berlin</note>
+                    <note>Mitarbeiter des <orgName ref="https://editon-humboldt.de/H0000606 http://d-nb.info/gnd/37659-0">Museums für Naturkunde</orgName>, Berlin</note>
                     <linkGrp>
                         <ptr subtype="comment" target="34#[424]" type="page"/>
                     </linkGrp>

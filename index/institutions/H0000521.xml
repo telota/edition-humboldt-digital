@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000521">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Academia de San Carlos</title>
             </titleStmt>
+            <editionStmt>
+                <p>Academia de San Carlos [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000521.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000521.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000521.xml">
-                    <p>Academia de San Carlos [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000521.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0000521">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/4912444-4</idno>
                     <orgName type="reg">Academia de San Carlos</orgName>
                     <orgName type="alt">Real Academia de San Carlos de las Nobles Artes</orgName>
@@ -42,7 +47,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/11496568</idno>
-                            <settlement key="H0008845">Mexiko-Stadt</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0008845">Mexiko-Stadt</settlement>
                             <note>La Academia 22, Cuauhtémoc</note>
                         </address>
                     </location>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018461">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Rakhinka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Rakhinka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018461.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018461.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018461.xml">
-                    <p>Rakhinka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018461.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018461">
+                <place>
                     <idno type="uri">https://www.geonames.org/503128</idno>
                     <placeName type="reg">Rakhinka</placeName>
                     <placeName type="alt">Rachinka</placeName>
@@ -37,8 +42,8 @@
                     <placeName type="alt">Roschinka</placeName>
                     <placeName type="alt">Ruchwinka</placeName>
                     <placeName type="alt">Рахинка</placeName>
-                    <note>Ortschaft am linken Ufer der <placeName key="H0007984">Wolga</placeName> bzw. des
-                        Wolgograd-Stausees gegenüber von <placeName key="H0017343">Dubovka</placeName>; das histor. Dorf
+                    <note>Ortschaft am linken Ufer der <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> bzw. des
+                        Wolgograd-Stausees gegenüber von <placeName ref="https://editon-humboldt.de/H0017343 https://www.geonames.org/564654">Dubovka</placeName>; das histor. Dorf
                         gleichen Namens lag weiter westlich</note>
                 </place>
             </listPlace>

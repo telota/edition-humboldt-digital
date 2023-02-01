@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020158">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ranke, Carl Ferdinand</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ranke, Carl Ferdinand [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020158.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020158.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020158.xml">
-                    <p>Ranke, Carl Ferdinand [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020158.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0020158">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/115643591</idno>
                     <persName type="reg">
                         <surname>Ranke</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1802</birth>
                     <death>1876</death>
-                    <note>deutscher klassischer Philologe und Gymnasiallehrer. Bruder des Historikers <persName key="H0000735">Leopold von Ranke</persName>
+                    <note>deutscher klassischer Philologe und Gymnasiallehrer. Bruder des Historikers <persName ref="https://editon-humboldt.de/H0000735 http://d-nb.info/gnd/118598279">Leopold von Ranke</persName>
                     </note>
                 </person>
             </listPerson>

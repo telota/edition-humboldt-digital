@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016613">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [wohl um 1854] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016613">https://edition-humboldt.de/v8/H0016613</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016613</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016613</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016613.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [wohl um 1854] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016613</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">205</idno>
+                     <idno type="shelfmark">421, Bl. 376r-377r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date notBefore="1854" notAfter="1854" cert="low">1854-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: E.s Werk “Mikrogeologie” erschien 1854</note>
          </correspDesc>
@@ -66,18 +84,18 @@
                ganz Deutschland giebt, der <lb/>von der geologischen Wichtigkeit Ihrer
                <lb/>Entdekkungen, neben den anatomisch- <lb/>physiologischen, so durchdrungen ist,
                als ich, <lb/>so ist auch niemand der so lebhaft <lb/>Ihre Freude über Vollendung und
-                  Erschei<lb/>nung Ihres grossen neuen <ref xml:id="de9d4900-f149-4f46-9d49-00f149bf46a9" corresp="#c8bda6e6-e0f1-4b51-bda6-e6e0f15b515d">Werkes</ref>
-                    <note xml:id="c8bda6e6-e0f1-4b51-bda6-e6e0f15b515d" corresp="#de9d4900-f149-4f46-9d49-00f149bf46a9">
-                     <bibl corresp="https://edition-humboldt.de/v8/6RPSFGPB">Ehrenberg 1854</bibl>
+                  Erschei<lb break="no"/>nung Ihres grossen neuen <ref xml:id="bf170b37-909e-4ade-970b-37909eaadef8" corresp="#cc125129-65ee-4176-9251-2965ee5176af">Werkes</ref>
+                    <note xml:id="cc125129-65ee-4176-9251-2965ee5176af" corresp="#bf170b37-909e-4ade-970b-37909eaadef8">
+                     <bibl corresp="https://edition-humboldt.de/6RPSFGPB">Ehrenberg 1854</bibl>
                   </note>
                <lb/>theilen kann. Das <choice>
                   <abbr>Dedicat.</abbr>
                   <expan>Dedications</expan>
-               </choice> Exemplar <lb/>werden Sie dem <persName ref="http://d-nb.info/gnd/118535994">König</persName>
+               </choice> Exemplar <lb/>werden Sie dem <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
                persönlich <lb/>überreichen: dafür werde ich schon <lb/>sorgen. Sie wünschen meinen
-               Rath, <lb/>theurer College über den <persName>Kaiser</persName> von
+               Rath, <lb/>theurer College über den <persName ref="https://editon-humboldt.de/">Kaiser</persName> von
                   <lb/>
-                    <placeName ref="https://www.geonames.org/2017370">Russland</placeName>. Ich bin ganz Ihrer Meinung
+                    <placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>. Ich bin ganz Ihrer Meinung
                <lb/>dass man die <subst>
                   <del rendition="#ow">
                             <gap reason="covered" unit="words" quantity="1"/>
@@ -92,50 +110,54 @@
                diesen Grund haben<supplied cert="high">.</supplied> Ich halte <lb/>viel darauf zu
                manifestiren dass <lb/>politische Beziehungen für die <supplied>ich</supplied> sehr
                   <lb/>
-                    <hi rendition="#u">warm</hi> bin, dennoch nie wissenschaft-<lb/>lichen Verkehr modificiren müssen, <lb/>so mit
-                  <persName>Nicolaus</persName> wie mit <persName ref="http://d-nb.info/gnd/118536303">Fröbel</persName>, <lb/>
-                    <persName ref="http://d-nb.info/gnd/11855073X">Heyne</persName> und <persName ref="http://d-nb.info/gnd/119263297">Esenbeck</persName>. Bei uns beiden <lb/>kommt noch der moralische
-               Grund freund-<lb/>licher Behandlung im <placeName ref="https://www.geonames.org/2017370">Russischen Reiche</placeName>
+                    <hi rendition="#u">warm</hi> bin, dennoch nie wissenschaft<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen Verkehr modificiren müssen, <lb/>so mit
+                  <persName ref="https://editon-humboldt.de/">Nicolaus</persName> wie mit <persName ref="https://editon-humboldt.de/H0000296 http://d-nb.info/gnd/118536303">Fröbel</persName>, <lb/>
+                    <persName ref="https://editon-humboldt.de/H0011881 http://d-nb.info/gnd/11855073X">Heyne</persName> und <persName ref="https://editon-humboldt.de/H0004936 http://d-nb.info/gnd/119263297">Esenbeck</persName>. Bei uns beiden <lb/>kommt noch der moralische
+               Grund freund<g ref="#typoHyphen"/>
+                    <lb break="no"/>licher Behandlung im <placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russischen Reiche</placeName>
                <lb/>
                     <pb n="1v"/>hinzu. Ich habe sehr bestimmt <lb/>befohlen, dass bei der zweiten
-               <lb/>Auflage meiner <ref xml:id="d67e53fd-0a57-432b-be53-fd0a57732b3f" corresp="#a3cd5866-caba-4d82-8d58-66cababd820e">Asie centrale</ref>
-                    <note xml:id="a3cd5866-caba-4d82-8d58-66cababd820e" corresp="#d67e53fd-0a57-432b-be53-fd0a57732b3f">
-                     <bibl corresp="https://edition-humboldt.de/v8/TKGUVJEV">Humboldt 1843</bibl>
+               <lb/>Auflage meiner <ref xml:id="a1774947-58a3-4e42-b749-4758a3be42c5" corresp="#a8f6da86-7096-43d0-b6da-867096e3d0ab">Asie centrale</ref>
+                    <note xml:id="a8f6da86-7096-43d0-b6da-867096e3d0ab" corresp="#a1774947-58a3-4e42-b749-4758a3be42c5">
+                     <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Humboldt 1843</bibl>
                   </note> von <lb/>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName> die Dedication so wenig
-               <lb/>weggelassen werde, als ich <lb/>dem Kaiser <persName ref="http://d-nb.info/gnd/118586408">Napoleon</persName> nachgegeben <lb/>habe meine Dedication des <ref xml:id="bc5846dc-b3a1-49ab-9846-dcb3a159ab0f" corresp="#e936904a-b06a-4ce1-b690-4ab06a4ce1c3">Essai <lb/>politique sur la <choice>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> die Dedication so wenig
+               <lb/>weggelassen werde, als ich <lb/>dem Kaiser <persName ref="https://editon-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Napoleon</persName> nachgegeben <lb/>habe meine Dedication des <ref xml:id="ac5614d5-64f6-4623-9614-d564f6b62301" corresp="#e0b38b61-f4ff-441d-b38b-61f4ff441d60">Essai <lb/>politique sur la <choice>
                         <abbr>Nouv.</abbr>
                         <expan>Nouvelle</expan>
                      </choice> Espagne</ref>
-                    <note xml:id="e936904a-b06a-4ce1-b690-4ab06a4ce1c3" corresp="#bc5846dc-b3a1-49ab-9846-dcb3a159ab0f">
-                     <bibl corresp="https://edition-humboldt.de/v8/C2ANAXJR">Humboldt 1811</bibl>
+                    <note xml:id="e0b38b61-f4ff-441d-b38b-61f4ff441d60" corresp="#ac5614d5-64f6-4623-9614-d564f6b62301">
+                     <bibl corresp="https://edition-humboldt.de/C2ANAXJR">Humboldt 1811</bibl>
                   </note>
                <lb/>zu <choice>
                   <sic>verichten</sic>
                   <corr>vernichten</corr>
-               </choice>, da die 2te Auf-<lb/>lage dieses Buchs zu
-               einer Zeit <lb/>erschien, als <persName ref="http://d-nb.info/gnd/118776800">Carl IV</persName> in
-                  <placeName ref="https://www.geonames.org/3018074">Fontaine<lb/>bleau</placeName> gefangen sass.
-               Ich denke <lb/>wie <supplied>Sie</supplied> meine neue „<ref xml:id="c161aa18-0fce-4142-a1aa-180fcea1429a" corresp="#ba97e2c8-7667-478f-97e2-c87667278f6d">Asie centrale</ref>
-                    <note xml:id="ba97e2c8-7667-478f-97e2-c87667278f6d" corresp="#c161aa18-0fce-4142-a1aa-180fcea1429a">
-                     <bibl corresp="https://edition-humboldt.de/v8/TKGUVJEV">Humboldt 1843</bibl>
-                  </note>“ <lb/>während des Krieges dem <persName>Kaiser</persName>
+               </choice>, da die 2te Auf<g ref="#typoHyphen"/>
+                    <lb break="no"/>lage dieses Buchs zu
+               einer Zeit <lb/>erschien, als <persName ref="https://editon-humboldt.de/H0015970 http://d-nb.info/gnd/118776800">Carl IV</persName> in
+                  <placeName ref="https://editon-humboldt.de/H0017533 https://www.geonames.org/3018074">Fontaine<lb break="no"/>bleau</placeName> gefangen sass.
+               Ich denke <lb/>wie <supplied>Sie</supplied> meine neue „<ref xml:id="feb1d52f-59ec-499a-b1d5-2f59ec599a1c" corresp="#c88e861d-a028-44eb-8e86-1da028d4ebcf">Asie centrale</ref>
+                    <note xml:id="c88e861d-a028-44eb-8e86-1da028d4ebcf" corresp="#feb1d52f-59ec-499a-b1d5-2f59ec599a1c">
+                     <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Humboldt 1843</bibl>
+                  </note>“ <lb/>während des Krieges dem <persName ref="https://editon-humboldt.de/">Kaiser</persName>
                <lb/>zu schicken<supplied cert="high">.</supplied> Man <subst>
                   <del rendition="#s">mit</del>
                   <add place="intralinear">muss</add>
                </subst>
-               <lb/>darauf halten diese Unab-<lb/>hängigkeit des
+               <lb/>darauf halten diese Unab<g ref="#typoHyphen"/>
+                    <lb break="no"/>hängigkeit des
                wissenschaftlichen <lb/>Verkehrs <subst>
                   <del rendition="#s">daran</del>
                   <add place="intralinear">als</add>
                </subst> Grundsaz zu <lb/>bekräftigen<supplied cert="high">.</supplied> Wie würden
                die <lb/>Wissenschaften selbst nicht <lb/>leiden, wenn (wie in den bösen <lb/>Zeiten
-               allgemeiner Kriegsent<lb/>zündung, an deren Folgen <choice>
+               allgemeiner Kriegsent<lb break="no"/>zündung, an deren Folgen <choice>
                   <sic>des</sic>
                   <corr cert="high">die</corr>
                </choice>
                <lb/>menschliche Freiheit <add place="left">
-                        <metamark/>und die In<lb/>stitution</add> ehrendes <lb/>nichts, gar nichts gewinnen) <lb/>einzelne Länder <subst>
+                        <metamark/>und die In<lb break="no"/>stitution</add> ehrendes <lb/>nichts, gar nichts gewinnen) <lb/>einzelne Länder <subst>
                   <del rendition="#s">sie</del>
                   <add place="intralinear">in</add>
                </subst> Bann <lb/>der Ideen gethan würden. Die <lb/>unglüklichen Folgen einer
@@ -146,15 +168,15 @@
                </choice> muss man heroisch <lb/>ertragen. Habe ich doch für <lb/>meine Dedication
                das beleidigende <lb/>Geschenk einer Dose von 300 Reichsthaler <lb/>Werth ertragen
                müssen. Wissen <lb/>
-                    <pb n="2r"/>Sie dass <persName ref="http://d-nb.info/gnd/116069236">Demidoff</persName>
+                    <pb n="2r"/>Sie dass <persName ref="https://editon-humboldt.de/H0012221 http://d-nb.info/gnd/116069236">Demidoff</persName>
                in der Hofnung <lb/>sich die Freiheit zu erkauffen, <lb/>
-                    <placeName ref="https://www.geonames.org/2017370">Russland</placeName> verlassen zu dürfen, <lb/>so lange der Krieg dauert
+                    <placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName> verlassen zu dürfen, <lb/>so lange der Krieg dauert
                <lb/>jährlich 100000 Silberrubel <lb/>zahlt und als <hi rendition="#u">junger</hi>
-               Attaché <lb/>bei der Gesandschaft in <placeName ref="https://www.geonames.org/2761369">Wien</placeName>
+               Attaché <lb/>bei der Gesandschaft in <placeName ref="https://editon-humboldt.de/H0007962 https://www.geonames.org/2761369">Wien</placeName>
                <lb/>angetreten ist, mit der Aussicht <lb/>sich schmeichelnd einst Chargé
-               <lb/>d’affaires in <placeName ref="https://www.geonames.org/3176959">Florenz</placeName> zu werden <lb/>und
+               <lb/>d’affaires in <placeName ref="https://editon-humboldt.de/H0004778 https://www.geonames.org/3176959">Florenz</placeName> zu werden <lb/>und
                dort wieder seine Villa <lb/>als Principe zu bewohnen<supplied cert="high">.</supplied>
-               <lb/>Meine innigste Verehrung Ihrer <lb/>liebenswürdigen <persName ref="https://edition-humboldt.de/v8/H0016958">Gattinn</persName>. </p>
+               <lb/>Meine innigste Verehrung Ihrer <lb/>liebenswürdigen <persName ref="https://editon-humboldt.de/H0016958">Gattinn</persName>. </p>
             <closer rend="paragraph">
                <salute>Dankbarst <lb/>Ihr</salute>
                <signed>AlHumboldt</signed>
@@ -169,15 +191,15 @@
                      <abbr>v</abbr>
                      <expan>von</expan>
                   </choice>
-                  <persName ref="http://d-nb.info/gnd/116295902">Köppen</persName>
-                  <lb/>aus <placeName ref="https://www.geonames.org/498817">
+                  <persName ref="https://editon-humboldt.de/H0017004 http://d-nb.info/gnd/116295902">Köppen</persName>
+                  <lb/>aus <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                             <choice>
                         <abbr>Pet.</abbr>
                         <expan>Petersburg</expan>
                      </choice>
                         </placeName> in meinem <lb/>Berliner Hause. </p>
                <p>Der Prospectus hat meinen <lb/>vollen Beifall, characteristisch <lb/>und nur zu
-                  bescheiden, <lb/>soll ich aber scherzweise <lb/>gegen Herrn <persName ref="http://d-nb.info/gnd/117450812">Voss</persName> rebelliren <lb/>über die dunkle Bogenzahl
+                  bescheiden, <lb/>soll ich aber scherzweise <lb/>gegen Herrn <persName ref="https://editon-humboldt.de/H0016880 http://d-nb.info/gnd/117450812">Voss</persName> rebelliren <lb/>über die dunkle Bogenzahl
                    <lb/> 100
                   ½, <lb/>32 ½ <lb/>25 – <lb/>41 Kupfer <lb/>machen 98.
                   <lb/>Ich rebellire<supplied cert="high">.</supplied>

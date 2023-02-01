@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016719">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [Dezember 1845] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016719">https://edition-humboldt.de/v8/H0016719</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016719</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016719</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016719.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [Dezember 1845] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016719</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">152</idno>
+                     <idno type="shelfmark">421, Bl. 271r, 272v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date notBefore="1845-12" notAfter="1845-12">1845-12-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: “1845” von fremder Hand; E.s Vortrag in der Akademie gehalten am
                18.12.1845</note>
@@ -86,41 +104,42 @@
                <pb n="1v"/>
                     <dateline rend="align(right)">Potsdam Sonnabend</dateline>
             </opener>
-            <p>Ich bin in Ihrer grossen Schuld, mein theurer, liebens<lb/>würdiger Freund
-               und Ihr heutiger <ref xml:id="a45fd038-fc35-4767-9fd0-38fc35b767f0" corresp="#ac78a474-b79f-482e-b8a4-74b79f982e8a">Hecla-Brief</ref>
-                    <note xml:id="ac78a474-b79f-482e-b8a4-74b79f982e8a" corresp="#a45fd038-fc35-4767-9fd0-38fc35b767f0">
-                     <bibl corresp="https://edition-humboldt.de/v8/RIDLK2IU">Ehrenberg 1845e</bibl>
+            <p>Ich bin in Ihrer grossen Schuld, mein theurer, liebens<lb break="no"/>würdiger Freund
+               und Ihr heutiger <ref xml:id="e0cee7be-1cb2-4434-8ee7-be1cb2543414" corresp="#cf9cc11e-179e-4c03-9cc1-1e179e7c033e">Hecla-Brief</ref>
+                    <note xml:id="cf9cc11e-179e-4c03-9cc1-1e179e7c033e" corresp="#e0cee7be-1cb2-4434-8ee7-be1cb2543414">
+                     <bibl corresp="https://edition-humboldt.de/RIDLK2IU">Ehrenberg 1845e</bibl>
                   </note>
-               <lb/>den ich wie <ref xml:id="a2317d47-23eb-49ae-b17d-4723eb59ae89" corresp="#ed37fc62-7932-47f4-b7fc-62793257f4bf">den vorigen über die <name type="plant" key="Kartoffel">Kartoffel</name>-
+               <lb/>den ich wie <ref xml:id="dc24f593-b2c3-4275-a4f5-93b2c36275c2" corresp="#a8ea77ad-1b21-4fad-aa77-ad1b214fad0d">den vorigen über die <name type="plant" key="Kartoffel">Kartoffel</name>-
                      <lb/>Krankheit</ref>
-                    <note xml:id="ed37fc62-7932-47f4-b7fc-62793257f4bf" corresp="#a2317d47-23eb-49ae-b17d-4723eb59ae89">
-                     <bibl corresp="https://edition-humboldt.de/v8/RIDLK2IU">Ehrenberg 1845e</bibl>
+                    <note xml:id="a8ea77ad-1b21-4fad-aa77-ad1b214fad0d" corresp="#dc24f593-b2c3-4275-a4f5-93b2c36275c2">
+                     <bibl corresp="https://edition-humboldt.de/RIDLK2IU">Ehrenberg 1845e</bibl>
                   </note> dem König mittheilen werde, lässt <lb/>mich erst recht die Grösse meiner
-               Schuld füh-<lb/>len! Ihre Untersuchung der Kartoffeln
+               Schuld füh<g ref="#typoHyphen"/>
+                    <lb break="no"/>len! Ihre Untersuchung der Kartoffeln
                war <lb/>das einzige Interessante was ich darüber gelesen. <lb/>Sie haben Zweifel
                gezeigt, dass die Krankheit <lb/>nicht von dem Kraut in die Wurzel
-                  herab<lb/>steigt, Sie haben allein scharfsinnig durch
+                  herab<lb break="no"/>steigt, Sie haben allein scharfsinnig durch
                <lb/>Jode erwiesen, dass die kranken Zellen kein <lb/>
                     <name type="mineral" key="Amylum">Amylum</name> enthalten<supplied cert="high">.</supplied> Ich dachte
                immer, Sie würden <lb/>etwas davon drucken lassen und um Ihre <lb/>Ideen zu
-               verbreiten, schikte ich Ihren wichti<lb/>gen Brief an den <choice>
+               verbreiten, schikte ich Ihren wichti<lb break="no"/>gen Brief an den <choice>
                   <abbr>Hofm.</abbr>
                   <expan>Hofmarschall</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116836482">Massow</persName> der die <choice>
+               <persName ref="https://editon-humboldt.de/H0014000 http://d-nb.info/gnd/116836482">Massow</persName> der die <choice>
                   <abbr>kön.</abbr>
                   <expan>königlichen</expan>
                </choice>
                <lb/>Kron Dominial-Güter bereiset und sich <lb/>unendlich für die Untersuchung des
                Uebels <lb/>interessirt. Wo soll ich aber Worte finden, <lb/>theurer Freund um Ihnen
                für die heutige <lb/>
-                    <placeName ref="https://www.geonames.org/2630594">Hecla</placeName> Nachricht zu danken:
+                    <placeName ref="https://editon-humboldt.de/H0006822 https://www.geonames.org/2630594">Hecla</placeName> Nachricht zu danken:
                also wieder <lb/>ein Gemisch von Obsidianpulver, Bimstein und <lb/>Süss Wasser
                Infusorien, erkennbare Arten. Ich werde <lb/>sogleich einige Zeilen aus Ihrem Briefe
                an <lb/>
-                    <persName ref="http://d-nb.info/gnd/118847767">Arago</persName> schicken, versteht sich ohne von
+                    <persName ref="https://editon-humboldt.de/H0012670 http://d-nb.info/gnd/118847767">Arago</persName> schicken, versteht sich ohne von
                <lb/>meinem dogmatischen Brei etwas hinzuzuthun<supplied cert="high">.</supplied>
-               <lb/>Dass in der hohen <placeName ref="https://www.geonames.org/2931919">Eiffel</placeName> die Bestien in
+               <lb/>Dass in der hohen <placeName ref="https://editon-humboldt.de/H0017512 https://www.geonames.org/2931919">Eiffel</placeName> die Bestien in
                <lb/>inneren Seen gelebt und da in den Bimstein <lb/>hineingekrochen ist wegen der
                Gestaltung des <lb/>Bodens und der Höhe der mit <choice>
                   <abbr>Infus.</abbr>
@@ -138,14 +157,14 @@
                <lb/>scheinen oberen Schichten <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Süsswasserschich<lb/>ten anzugehören. Sind im <placeName ref="https://www.geonames.org/2630594">Hekla</placeName> obere <lb/>Süsswasser-Infusorien Schichten in den
+               </choice> Süsswasserschich<lb break="no"/>ten anzugehören. Sind im <placeName ref="https://editon-humboldt.de/H0006822 https://www.geonames.org/2630594">Hekla</placeName> obere <lb/>Süsswasser-Infusorien Schichten in den
                Krater <lb/>gefallen und haben Sie sich dort mit Obsidian- <lb/>Pulver und
                Bimsteinbrocken vermengt um jezt <lb/>ausgeworfen zu werden? Diese Erklärung passte
                <lb/>wenn die <choice>
                   <abbr>Infus.</abbr>
                   <expan>Infusorien</expan>
                </choice> nicht in dem Bimstein stecken <lb/>sondern nur den Bimsteinbrocken
-               beigemengt <lb/>sind. Sie passt gar nicht auf die <placeName ref="https://www.geonames.org/2931919">Eiffel</placeName>. Ihre <lb/>grosse geognostische Entdeckung, die das ganze
+               beigemengt <lb/>sind. Sie passt gar nicht auf die <placeName ref="https://editon-humboldt.de/H0017512 https://www.geonames.org/2931919">Eiffel</placeName>. Ihre <lb/>grosse geognostische Entdeckung, die das ganze
                <lb/>organische Leben umfasst, wird als Problem <lb/>sich auch lösen <choice>
                   <abbr>d.</abbr>
                   <expan>das</expan>

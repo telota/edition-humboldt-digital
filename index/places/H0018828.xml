@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018828">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Doneč</title>
             </titleStmt>
+            <editionStmt>
+                <p>Doneč [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018828.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018828.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018828.xml">
-                    <p>Doneč [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018828.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018828">
+                <place>
                     <idno type="uri">https://www.geonames.org/496266</idno>
                     <placeName type="reg">Doneč</placeName>
                     <placeName type="alt">Donez</placeName>
@@ -39,9 +44,8 @@
                     <placeName type="alt">Sewerski Donez</placeName>
                     <placeName type="alt">Се́верский Доне́ц</placeName>
                     <placeName type="alt">Seversky Donets</placeName>
-                    <note>rechter Nebenfluss des <placeName key="H0005539">Don</placeName>
-                        <!-- Änderungen am Do, 20.02.2020 eingearbeitet, FS -->
-                    </note>
+                    <note>rechter Nebenfluss des <placeName ref="https://editon-humboldt.de/H0005539 https://www.geonames.org/565361">Don</placeName>
+                        </note>
                 </place>
             </listPlace>
         </body>

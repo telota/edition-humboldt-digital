@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0012935">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Cassini, Jacques</title>
             </titleStmt>
+            <editionStmt>
+                <p>Cassini, Jacques [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0012935.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0012935.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0012935.xml">
-                    <p>Cassini, Jacques [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0012935.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0012935">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117648388</idno>
                     <persName type="reg">
                         <surname>Cassini</surname>
@@ -39,7 +44,7 @@
                     <death>1756</death>
                     <note>französischer Astronom und Geodät; Sohn des Astronomen Giovanni Domenico
                         Cassini; mit 17 Jahren Mitglied der Académie royale des Sciences; seit dem
-                        Tode seines Vaters Direktor der <orgName key="H0000567">Sternwarte in
+                        Tode seines Vaters Direktor der <orgName ref="https://editon-humboldt.de/H0000567 http://d-nb.info/gnd/82800-2">Sternwarte in
                             Paris</orgName>
                     </note>
                 </person>

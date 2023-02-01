@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016589">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 29. September
+               1848, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016589">https://edition-humboldt.de/v8/H0016589</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016589</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016589</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016589.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 29. September
-               1848. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016589</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">180</idno>
+                     <idno type="shelfmark">421, Bl. 322r-323v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1848-09-29">1848-09-29</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -74,68 +92,70 @@
                <lb/>zu beantworten. Wie soll ich Ihnen <lb/>genugsam danken für die reichliche
                <lb/>Auskunft die Sie mir verschaft über <lb/>alles was mir fehlte.</p>
             <p>Ueber den Fluor der vorzüglich <lb/>die Fischknochen charakterisirt könnte <lb/>uns
-               der vortrefliche Heinrich <persName ref="http://d-nb.info/gnd/118602640">Rose</persName>
+               der vortrefliche Heinrich <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">Rose</persName>
                <lb/>wohl noch etwas schaffen, wenn er <lb/>für die Jahre 1804 <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
-               </choice> 1805 die <lb/>Namen <persName ref="http://d-nb.info/gnd/101697406">Morechini</persName>
+               </choice> 1805 die <lb/>Namen <persName ref="https://editon-humboldt.de/H0014355 http://d-nb.info/gnd/101697406">Morechini</persName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118716581">Gay Lussac</persName> in <lb/>den sehr genauen
+               <persName ref="https://editon-humboldt.de/H0013386 http://d-nb.info/gnd/118716581">Gay Lussac</persName> in <lb/>den sehr genauen
                Namensregistern <lb/>der
-                  <ref xml:id="efb8004e-0ed6-4292-b800-4e0ed6d29278" corresp="#f67422d1-e526-4fbe-b422-d1e526dfbe0d">
+                  <ref xml:id="e6ab7304-05be-48be-ab73-0405bee8bed0" corresp="#b5e04c9a-5af3-411a-a04c-9a5af3011a70">
                         <hi rendition="#u">Annales de Chimie</hi>
                     </ref>
-                    <note xml:id="f67422d1-e526-4fbe-b422-d1e526dfbe0d" corresp="#efb8004e-0ed6-4292-b800-4e0ed6d29278">
-                     <bibl corresp="https://edition-humboldt.de/v8/KMFB3VH6">Morveau/Lavoisier 1789-1815</bibl>
-                  </note> aufsuchen <lb/>wollte. <persName>Gay Lussac</persName> hat die Arbeit
-               <lb/>über das Fluor der Fischknochen <lb/>in <placeName ref="https://www.geonames.org/3169070">Rom</placeName> gemacht als er mich <lb/>dahin begleitete <choice>
+                    <note xml:id="b5e04c9a-5af3-411a-a04c-9a5af3011a70" corresp="#e6ab7304-05be-48be-ab73-0405bee8bed0">
+                     <bibl corresp="https://edition-humboldt.de/KMFB3VH6">Morveau/Lavoisier 1789-1815</bibl>
+                  </note> aufsuchen <lb/>wollte. <persName ref="https://editon-humboldt.de/">Gay Lussac</persName> hat die Arbeit
+               <lb/>über das Fluor der Fischknochen <lb/>in <placeName ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName> gemacht als er mich <lb/>dahin begleitete <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> nachher in <lb/>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> war<supplied cert="high">.</supplied> Auch wäre <hi rendition="#u">
-                        <persName ref="http://d-nb.info/gnd/116261293">Poisson</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> war<supplied cert="high">.</supplied> Auch wäre <hi rendition="#u">
+                        <persName ref="https://editon-humboldt.de/H0002053 http://d-nb.info/gnd/116261293">Poisson</persName>
                     </hi>
                <lb/>zu suchen<supplied cert="high">.</supplied>
                 </p>
             <p>Was die Kieselerde betrift so <lb/>interessirt mich die Frage <lb/>noch immer woher
-               die gepanzerten <lb/>Infusorien des Oceans und die <lb/>Fusi sie nehmen. In <ref xml:id="babc0fd7-918c-4cdb-bc0f-d7918cfcdb66" corresp="#dab7ed82-ea0f-4733-b7ed-82ea0f37336a">
-                        <persName ref="http://d-nb.info/gnd/116661658">Forchhammers</persName>
+               die gepanzerten <lb/>Infusorien des Oceans und die <lb/>Fusi sie nehmen. In <ref xml:id="c73f2a81-07ad-4f79-bf2a-8107adbf7918" corresp="#f934853b-f403-4afb-b485-3bf4035afb76">
+                        <persName ref="https://editon-humboldt.de/H0016894 http://d-nb.info/gnd/116661658">Forchhammers</persName>
                      <lb/>Analysen des Meerwassers</ref>
-                    <note xml:id="dab7ed82-ea0f-4733-b7ed-82ea0f37336a" corresp="#babc0fd7-918c-4cdb-bc0f-d7918cfcdb66">
-                     <bibl corresp="https://edition-humboldt.de/v8/BDAZQDGL">Forchhammer 1865</bibl>
+                    <note xml:id="f934853b-f403-4afb-b485-3bf4035afb76" corresp="#c73f2a81-07ad-4f79-bf2a-8107adbf7918">
+                     <bibl corresp="https://edition-humboldt.de/BDAZQDGL">Forchhammer 1865</bibl>
                   </note> kommt <lb/>troz der <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> Behauptung von <lb/>
-                    <ref xml:id="bc599df9-41a6-4d30-999d-f941a61d30b5" corresp="#af1702af-64ad-4d67-9702-af64ad2d678f">
-                        <persName ref="http://d-nb.info/gnd/116193115">Bischof</persName>
+                    <ref xml:id="b498dc19-305d-410d-98dc-19305d810d8f" corresp="#a793cb4a-2c8b-4942-93cb-4a2c8bc94246">
+                        <persName ref="https://editon-humboldt.de/H0003366 http://d-nb.info/gnd/116193115">Bischof</persName>
                     </ref>
-                    <note xml:id="af1702af-64ad-4d67-9702-af64ad2d678f" corresp="#bc599df9-41a6-4d30-999d-f941a61d30b5">
-                     <bibl corresp="https://edition-humboldt.de/v8/FBPL3J62">Bischof 1826</bibl>
+                    <note xml:id="a793cb4a-2c8b-4942-93cb-4a2c8bc94246" corresp="#b498dc19-305d-410d-98dc-19305d810d8f">
+                     <bibl corresp="https://edition-humboldt.de/FBPL3J62">Bischof 1826</bibl>
                   </note> nichts davon vor<supplied cert="high">.</supplied> Dazu <lb/>würde aber auch
-               immer Gefahr sein <lb/>dass die Chemiker in dem analysir-<lb/>ten Seewasser unbewusst lebende <lb/>Infusorien mit analysirt
+               immer Gefahr sein <lb/>dass die Chemiker in dem analysir<g ref="#typoHyphen"/>
+                    <lb break="no"/>ten Seewasser unbewusst lebende <lb/>Infusorien mit analysirt
                   <lb/>haben<supplied cert="high">.</supplied> An der Existenz der <lb/>
                     <pb n="1v"/>Kieselerde im Meerwasser als urweltliche <lb/>Beimischung wie des Fluors den die
                <lb/>Corallen zeigen, zweifeln Sie <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> ich <lb/>wohl nicht. Fragen Sie doch unseren <lb/>Heinrich <persName ref="http://d-nb.info/gnd/118602640">Rose</persName> wie er sich den <lb/>
+               </choice> ich <lb/>wohl nicht. Fragen Sie doch unseren <lb/>Heinrich <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">Rose</persName> wie er sich den <lb/>
                     <choice>
                   <sic>Zusand</sic>
                   <corr>Zustand</corr>
                </choice> der <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
-                    </del> so schwer auflös-<lb/>lichen Kieselsäure
-               im kalten <lb/>Meerwasser denke, ob er <persName ref="http://d-nb.info/gnd/116193115">Bischofs</persName>
-               <lb/>Behauptung in den etwas oberfläch<lb/>lichen <ref xml:id="de69d000-85df-42f7-a9d0-0085df92f71d" corresp="#e97e2d5f-2823-46cd-be2d-5f282316cdd0">
+                    </del> so schwer auflös<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen Kieselsäure
+               im kalten <lb/>Meerwasser denke, ob er <persName ref="https://editon-humboldt.de/H0003366 http://d-nb.info/gnd/116193115">Bischofs</persName>
+               <lb/>Behauptung in den etwas oberfläch<lb break="no"/>lichen <ref xml:id="dd6a414d-e13f-41db-aa41-4de13fb1dbcd" corresp="#de6db091-59c6-4bb0-adb0-9159c64bb09b">
                         <choice>
                         <abbr>Geol.</abbr>
                         <expan>Geologischen</expan>
                      </choice> Briefen</ref>
-                    <note xml:id="e97e2d5f-2823-46cd-be2d-5f282316cdd0" corresp="#de69d000-85df-42f7-a9d0-0085df92f71d">
-                     <bibl corresp="https://edition-humboldt.de/v8/ATLAV5AP">Bischof
+                    <note xml:id="de6db091-59c6-4bb0-adb0-9159c64bb09b" corresp="#dd6a414d-e13f-41db-aa41-4de13fb1dbcd">
+                     <bibl corresp="https://edition-humboldt.de/ATLAV5AP">Bischof
                         [1849]</bibl>
                   </note>
                <choice>
@@ -146,26 +166,28 @@
                   <expan>pagina</expan>
                </choice> 344 <lb/>„dass Kieselsäure in allen Quellwassern <lb/>enthalten sei“ für
                wahrscheinlich <lb/>halte. Wie denke er sich den <choice>
-                  <sic>Zu<lb/>sand</sic>
+                  <sic>Zu<lb break="no"/>sand</sic>
                   <corr>Zustand</corr>
                </choice> des Stoffes?</p>
-            <p>Ihr Manuscript <ref xml:id="dd2e6261-de57-4333-ae62-61de57833336" corresp="#c8b90592-72a3-417e-b905-9272a3e17e6e">Aufsaz über den Nuzen <lb/>der <choice>
+            <p>Ihr Manuscript <ref xml:id="b41cb837-23a0-4369-9cb8-3723a0c3698b" corresp="#c32e2c53-ce46-40ca-ae2c-53ce4630cae5">Aufsaz über den Nuzen <lb/>der <choice>
                         <abbr>chromat.</abbr>
                         <expan>chromatischen</expan>
                      </choice> Polarisation</ref>
-                    <note xml:id="c8b90592-72a3-417e-b905-9272a3e17e6e" corresp="#dd2e6261-de57-4333-ae62-61de57833336">
-                     <bibl corresp="https://edition-humboldt.de/v8/QBFVNXJG">Ehrenberg 1848b</bibl>
+                    <note xml:id="c32e2c53-ce46-40ca-ae2c-53ce4630cae5" corresp="#b41cb837-23a0-4369-9cb8-3723a0c3698b">
+                     <bibl corresp="https://edition-humboldt.de/QBFVNXJG">Ehrenberg 1848b</bibl>
                   </note> hat mich <lb/>sehr sehr interessirt. Ich denke <lb/>er solle Eindruk auf
-                  <persName ref="http://d-nb.info/gnd/118847767">Arago</persName> machen <lb/>der in einer <hi rendition="#u">wörtlichen</hi> Ueber-<lb/>sezung
-               von <persName ref="http://d-nb.info/gnd/116446994">Faye</persName>, des Uebersezers <lb/>meines <ref xml:id="b7e27d72-8528-4b17-a27d-7285285b172f" corresp="#d34d3c46-8a5d-4ccb-8d3c-468a5d0ccbf9">
+                  <persName ref="https://editon-humboldt.de/H0012670 http://d-nb.info/gnd/118847767">Arago</persName> machen <lb/>der in einer <hi rendition="#u">wörtlichen</hi> Ueber<g ref="#typoHyphen"/>
+                    <lb break="no"/>sezung
+               von <persName ref="https://editon-humboldt.de/H0000046 http://d-nb.info/gnd/116446994">Faye</persName>, des Uebersezers <lb/>meines <ref xml:id="d9532e51-d8b7-49bb-932e-51d8b709bb1e" corresp="#deaad392-254d-4950-aad3-92254da950f3">
                         <hi rendition="#u">Kosmos</hi>
                     </ref>
-                    <note xml:id="d34d3c46-8a5d-4ccb-8d3c-468a5d0ccbf9" corresp="#b7e27d72-8528-4b17-a27d-7285285b172f">
-                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>
-                  </note>, gewiss das fachli-<lb/>che errathen
+                    <note xml:id="deaad392-254d-4950-aad3-92254da950f3" corresp="#d9532e51-d8b7-49bb-932e-51d8b709bb1e">
+                     <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862</bibl>
+                  </note>, gewiss das fachli<g ref="#typoHyphen"/>
+                    <lb break="no"/>che errathen
                wird.
                Mögen ihn die <lb/>nahe Praesidentenwahl und die <lb/>erwartete Ankunft des
-               Stoknarren <lb/>durch seinen Namen die Armee <lb/>bethörenden Louis <persName ref="http://d-nb.info/gnd/118586416">Bonaparte</persName> nicht <lb/>abziehen<supplied cert="high">.</supplied> Unsere politischen Zu<lb/>stände sind um so trostloser,
+               Stoknarren <lb/>durch seinen Namen die Armee <lb/>bethörenden Louis <persName ref="https://editon-humboldt.de/H0000228 http://d-nb.info/gnd/118586416">Bonaparte</persName> nicht <lb/>abziehen<supplied cert="high">.</supplied> Unsere politischen Zu<lb break="no"/>stände sind um so trostloser,
                <lb/>als keine Regierung begreift, <lb/>sie müsse <hi rendition="#u">ungezwungen</hi>
                und lebendig <lb/>sich constitutionnell zeigen. <lb/>Dies Zaudern, diese Halbheit
                <lb/>rauben den Regierungen alle <lb/>Macht der Anarchie zu steuren<supplied cert="high">.</supplied>
@@ -178,31 +200,31 @@
                             <hi rendition="#u">muss</hi>
                         </add>
                </subst> daher die Eisenbahn <lb/>aus Vorsicht noch meiden und <lb/>kann der Akademie
-               nicht beiwoh<lb/>nen<supplied cert="high">.</supplied> Leider kann ich den
-               Brief <lb/>von <persName ref="http://d-nb.info/gnd/116450266">Retzius</persName> nicht auffinden!! <lb/>Ich
+               nicht beiwoh<lb break="no"/>nen<supplied cert="high">.</supplied> Leider kann ich den
+               Brief <lb/>von <persName ref="https://editon-humboldt.de/H0016803 http://d-nb.info/gnd/116450266">Retzius</persName> nicht auffinden!! <lb/>Ich
                habe 1 Stunde danach <lb/>gesucht<supplied cert="high">.</supplied> Zürnen Sie
                <lb/>mir nicht. <lb/>
                     <pb n="2r"/>Ich habe einen sehr langen, leider sehr
-               <lb/>unleserlichen meist geognostischen Brief <lb/>von dem liebenswürdigen <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName> aus <lb/>
-                    <placeName ref="https://www.geonames.org/1273467">Dorjeeling</placeName> im <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName> 25
-                  Juli<supplied cert="high">.</supplied> Er <lb/>war in <placeName ref="https://www.geonames.org/1282988">Nepaul</placeName>
+               <lb/>unleserlichen meist geognostischen Brief <lb/>von dem liebenswürdigen <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName> aus <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0005548 https://www.geonames.org/1273467">Dorjeeling</placeName> im <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> 25
+                  Juli<supplied cert="high">.</supplied> Er <lb/>war in <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepaul</placeName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <placeName ref="https://www.geonames.org/1252634">Boothan</placeName> und <lb/>meldet es sei eben zum ersten
-               Male <lb/>ein Schneeberg an der thibetischen Grenze <lb/>in <placeName ref="https://www.geonames.org/1256312">Sikim</placeName> westlich von <placeName ref="https://www.geonames.org/1252634">Bootan</placeName>
+               <placeName ref="https://editon-humboldt.de/H0005234 https://www.geonames.org/1252634">Boothan</placeName> und <lb/>meldet es sei eben zum ersten
+               Male <lb/>ein Schneeberg an der thibetischen Grenze <lb/>in <placeName ref="https://editon-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikim</placeName> westlich von <placeName ref="https://editon-humboldt.de/H0005234 https://www.geonames.org/1252634">Bootan</placeName>
                <lb/>gemessen, der <subst>
                   <del rendition="#s">Kinch</del>
                   <add place="intralinear">
-                            <placeName ref="https://www.geonames.org/1283259">Kinchinjinga</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName>
                         </add>
                </subst>
-               <lb/>heisst und nächst dem <placeName ref="https://www.geonames.org/1283457">Dhawalagiri</placeName>
+               <lb/>heisst und nächst dem <placeName ref="https://editon-humboldt.de/H0005520 https://www.geonames.org/1283457">Dhawalagiri</placeName>
                <lb/>der höchste Berg der Welt sei<supplied cert="high">.</supplied>
-               <lb/>Der <placeName ref="https://www.geonames.org/1283259">Kinchinjinga</placeName> (fragen Sie
+               <lb/>Der <placeName ref="https://editon-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName> (fragen Sie
                   <lb/>
-                    <persName ref="http://d-nb.info/gnd/118659332">Bopp</persName> nach der Etymologie!) <lb/>hat 28178
+                    <persName ref="https://editon-humboldt.de/H0003485 http://d-nb.info/gnd/118659332">Bopp</persName> nach der Etymologie!) <lb/>hat 28178
                englische Fuss <choice>
                   <abbr>d.</abbr>
                   <expan>das</expan>
@@ -212,15 +234,15 @@
                   <expan>ist</expan>
                </choice>
                <lb/>26433 pariser Fuss<supplied cert="high">.</supplied> Bisher gab <lb/>man dem
-                  <placeName ref="https://edition-humboldt.de/v8/H0017342">Djawahir</placeName> 24156 <choice>
+                  <placeName ref="https://editon-humboldt.de/H0017342">Djawahir</placeName> 24156 <choice>
                   <abbr>Par</abbr>
                   <expan>Pariser</expan>
                </choice> Fuss <lb/>den nächsten Rang nach dem <lb/>
-                    <placeName ref="https://www.geonames.org/1283457">Dhawalagiri</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005520 https://www.geonames.org/1283457">Dhawalagiri</placeName>
                     <supplied cert="high">.</supplied> Der leztere war
-               <lb/>wie ich im <ref xml:id="c9b14fd1-2dc9-4c89-b14f-d12dc9fc8916" corresp="#f995ce91-fc0a-4393-95ce-91fc0ad3933c">3ten Bande der Asie <lb/>centrale</ref>
-                    <note xml:id="f995ce91-fc0a-4393-95ce-91fc0ad3933c" corresp="#c9b14fd1-2dc9-4c89-b14f-d12dc9fc8916">
-                     <bibl corresp="https://edition-humboldt.de/v8/TKGUVJEV">Humboldt 1843</bibl>
+               <lb/>wie ich im <ref xml:id="cd667467-4dc0-49d6-a674-674dc029d64f" corresp="#c19ae58a-e0c9-4963-9ae5-8ae0c9f963c2">3ten Bande der Asie <lb/>centrale</ref>
+                    <note xml:id="c19ae58a-e0c9-4963-9ae5-8ae0c9f963c2" corresp="#cd667467-4dc0-49d6-a674-674dc029d64f">
+                     <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Humboldt 1843</bibl>
                   </note> gezeigt, nicht <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> mit <lb/>gehöriger Genauigkeit gemessen<supplied cert="high">.</supplied>
@@ -232,12 +254,12 @@
                   <abbr>F</abbr>
                   <expan>Fuss</expan>
                </choice>. <lb/>
-                    <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName> meldet dass der <placeName ref="https://www.geonames.org/1283457">Dhawalagiri</placeName>
+                    <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName> meldet dass der <placeName ref="https://editon-humboldt.de/H0005520 https://www.geonames.org/1283457">Dhawalagiri</placeName>
                <lb/>jezt mit grosser Genauigkeit <lb/>gemessen ist, er giebt leider! <lb/>das
                Resultat nicht an, da <lb/>der Berg aber
                höher
-               als der <lb/>neue <placeName ref="https://www.geonames.org/1283259">Kinchinjinga</placeName> gefunden worden
-               <lb/>ist, so muss der <placeName ref="https://www.geonames.org/1283457">Dhawalagiri</placeName>
+               als der <lb/>neue <placeName ref="https://editon-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName> gefunden worden
+               <lb/>ist, so muss der <placeName ref="https://editon-humboldt.de/H0005520 https://www.geonames.org/1283457">Dhawalagiri</placeName>
                <lb/>demnach die ältere Bestimmung <lb/>von 26340 <choice>
                   <abbr>Par.</abbr>
                   <expan>Pariser</expan>
@@ -246,42 +268,44 @@
                Freunde, <hi rendition="#uu">ins</hi>
                <lb/>
                     <hi rendition="#u">Ohr</hi> sage ist folgendes. „Ihre <lb/>
-                    <ref xml:id="fb8bec1a-99c2-48e5-8bec-1a99c2b8e544" corresp="#a630e451-1333-408c-b0e4-511333608cfd">Asie centrale</ref>
-                    <note xml:id="a630e451-1333-408c-b0e4-511333608cfd" corresp="#fb8bec1a-99c2-48e5-8bec-1a99c2b8e544">
-                     <bibl corresp="https://edition-humboldt.de/v8/TKGUVJEV">Humboldt 1843</bibl>
+                    <ref xml:id="f29ba100-ed63-40e3-9ba1-00ed6310e32f" corresp="#ccc2a97d-1e0b-4ec2-82a9-7d1e0b5ec2fe">Asie centrale</ref>
+                    <note xml:id="ccc2a97d-1e0b-4ec2-82a9-7d1e0b5ec2fe" corresp="#f29ba100-ed63-40e3-9ba1-00ed6310e32f">
+                     <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Humboldt 1843</bibl>
                   </note>, die Karte die Sie <lb/>begleitet, Ihre Bestimmung der <lb/>Schneehöhen, Ihre
                Unterscheidung <lb/>der 2 Ketten des <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
-               <placeName ref="https://www.geonames.org/1252558">Himalaya</placeName>
-               <lb/>und des <placeName ref="https://www.geonames.org/1280792">Kuenlun</placeName>, Ihre Ansicht <lb/>von der <subst>
+               <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>
+               <lb/>und des <placeName ref="https://editon-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenlun</placeName>, Ihre Ansicht <lb/>von der <subst>
                   <del rendition="#s">Do</del>
                   <add place="intralinear">Bolorkette</add>
-               </subst> als Meri-<lb/>diankette werden hier von
-               allen <lb/>die das Innere von <placeName ref="https://edition-humboldt.de/v8/H0002578">Asien</placeName> kennen,
-               <lb/>besonders von <persName ref="http://d-nb.info/gnd/118863703">Hodgson</persName>, dem <lb/>
+               </subst> als Meri<g ref="#typoHyphen"/>
+                    <lb break="no"/>diankette werden hier von
+               allen <lb/>die das Innere von <placeName ref="https://editon-humboldt.de/H0002578">Asien</placeName> kennen,
+               <lb/>besonders von <persName ref="https://editon-humboldt.de/H0011923 http://d-nb.info/gnd/118863703">Hodgson</persName>, dem <lb/>
                     <pb n="2v"/>ältesten und tiefsten Kenner des tibetischen <lb/>Hochlandes als das sicherste,
-                  vertrauens-<lb/>würdigste gehalten, was über
-                  <placeName ref="https://edition-humboldt.de/v8/H0002578">Asien</placeName>
+                  vertrauens<g ref="#typoHyphen"/>
+                    <lb break="no"/>würdigste gehalten, was über
+                  <placeName ref="https://editon-humboldt.de/H0002578">Asien</placeName>
                <lb/>erschienen ist, Ihre Karte wird allen <lb/>bisherigen vorgezogen. In diesem
                kleinen <lb/>Orte wo wir nur 30 Europaer sind, <lb/>finden sich drei Exemplare von
-                  <persName ref="http://d-nb.info/gnd/11671350X">Sabines</persName>
+                  <persName ref="https://editon-humboldt.de/H0015345 http://d-nb.info/gnd/11671350X">Sabines</persName>
                <lb/>Uebersezung Ihres Zweiten Bandes des <lb/>
-                    <ref xml:id="e048423e-0690-47ff-8842-3e069077ff43" corresp="#a82eec37-c8c0-4596-aeec-37c8c0859634">Kosmos</ref>
-                    <note xml:id="a82eec37-c8c0-4596-aeec-37c8c0859634" corresp="#e048423e-0690-47ff-8842-3e069077ff43">
-                     <bibl corresp="https://edition-humboldt.de/v8/7M2W9NSV">Humboldt 1847</bibl>
+                    <ref xml:id="ff8b2dfd-8b5d-48fd-8b2d-fd8b5da8fde7" corresp="#f4983c2d-42f5-43d3-983c-2d42f503d31b">Kosmos</ref>
+                    <note xml:id="f4983c2d-42f5-43d3-983c-2d42f503d31b" corresp="#ff8b2dfd-8b5d-48fd-8b2d-fd8b5da8fde7">
+                     <bibl corresp="https://edition-humboldt.de/7M2W9NSV">Humboldt 1847</bibl>
                   </note>. Ich erzähle Ihnen Thatsachen, <lb/>ich schmeichle nicht.“] Von <choice>
                   <abbr>Dr</abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/100826857">Junghuhn</persName>
-               <lb/>aus <placeName ref="https://www.geonames.org/1642673">Java</placeName> der bisher auf mich wüthete,
+               <persName ref="https://editon-humboldt.de/H0004216 http://d-nb.info/gnd/100826857">Junghuhn</persName>
+               <lb/>aus <placeName ref="https://editon-humboldt.de/H0006568 https://www.geonames.org/1642673">Java</placeName> der bisher auf mich wüthete,
                <lb/>weil er seine confusen Manuscriptsendungen <lb/>an mich für verloren <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
                </choice> zu meinem <lb/>eigenen Gebrauch untergeschlagen glaubte <lb/>habe ich nun
-               reuige Briefe, da ich ihm <lb/>bei dem General Gouverneur (<persName ref="http://d-nb.info/gnd/120861828">Rochussen</persName>) <lb/>3 jährigen Urlaub und alle Reisekosten <lb/>verschaft
-               habe. Möge dieser <persName ref="http://d-nb.info/gnd/100826857">Junghuhn</persName>
+               reuige Briefe, da ich ihm <lb/>bei dem General Gouverneur (<persName ref="https://editon-humboldt.de/H0016812 http://d-nb.info/gnd/120861828">Rochussen</persName>) <lb/>3 jährigen Urlaub und alle Reisekosten <lb/>verschaft
+               habe. Möge dieser <persName ref="https://editon-humboldt.de/H0004216 http://d-nb.info/gnd/100826857">Junghuhn</persName>
                <lb/>Ihnen Infusorien bringen. </p>
             <closer rend="paragraph">
                <salute>Verzeihen Sie die Länge dieses <lb/>Briefes. Mit alter Liebe <choice>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016668">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [24. Juli
+               1838] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016668">https://edition-humboldt.de/v8/H0016668</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016668</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016668</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016668.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [24. Juli
-               1838] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016668</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">101</idno>
+                     <idno type="shelfmark">421, Bl. 187r-187v, 188v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1838-07-24">1838-07-24</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Frédéric Cuvier starb am 24. Juli 1838</note>
          </correspDesc>
@@ -74,34 +92,35 @@
                   <addrLine>Herrn Professor Ehrenberg.</addrLine>
                </address>
             </opener>
-            <p>Ich freue mich mit Ihnen, für Sie <lb/>und die Naturwissenschaft die nach <persName>Cuviers</persName>
+            <p>Ich freue mich mit Ihnen, für Sie <lb/>und die Naturwissenschaft die nach <persName ref="https://editon-humboldt.de/">Cuviers</persName>
                <lb/>Tode Sie der <hi rendition="#u">Einzige</hi> in Ihrem ganzen <lb/>(und weit
                grösserem Umfang als er) <lb/>beherrschen, dass <choice>
                   <sic>ich</sic>
                   <corr cert="high">Ihr</corr>
-               </choice> grosses Infusorien <lb/>Werk<ref xml:id="f4596e94-b39b-497c-996e-94b39be97c51" corresp="#def7329d-01ec-4116-b732-9d01ec211604"/>
-                    <note xml:id="def7329d-01ec-4116-b732-9d01ec211604" corresp="#f4596e94-b39b-497c-996e-94b39be97c51">
-                     <bibl corresp="https://edition-humboldt.de/v8/X7KZUS33">Ehrenberg 1838</bibl>
-                  </note> erscheine. Es wird Epoche <lb/>machen und neben Ihren Reisefor<lb/>schungen monumental sein. Glüklich <lb/>schäze ich Sie, dass Sie eine
+               </choice> grosses Infusorien <lb/>Werk<ref xml:id="c3fc5241-5823-4f44-bc52-4158235f4466" corresp="#d9068eb4-3a30-4471-868e-b43a3094716f"/>
+                    <note xml:id="d9068eb4-3a30-4471-868e-b43a3094716f" corresp="#c3fc5241-5823-4f44-bc52-4158235f4466">
+                     <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>
+                  </note> erscheine. Es wird Epoche <lb/>machen und neben Ihren Reisefor<lb break="no"/>schungen monumental sein. Glüklich <lb/>schäze ich Sie, dass Sie eine
                <lb/>unabhängige Region dort entdekt <lb/>haben. Die Entdekkung der
-                  Aufbewah<lb/>rung der <name type="animal" key="Infusorien">Infusorien</name> wird von grossen <lb/>Folgen sein. Was wäre Botanik <lb/>wenn
+                  Aufbewah<lb break="no"/>rung der <name type="animal" key="Infusorien">Infusorien</name> wird von grossen <lb/>Folgen sein. Was wäre Botanik <lb/>wenn
                man alles nur an frischen <lb/>Pflanzen sehen könne. Ich hoffe <lb/>dass mich nichts
-               hindern soll, <lb/>Sie und unseren Heinrich <persName ref="http://d-nb.info/gnd/118602640">Rose</persName>
+               hindern soll, <lb/>Sie und unseren Heinrich <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">Rose</persName>
                <lb/>Donnerstag zu hören. Da ich suche <lb/>mich von meinem tiefen Schmerze <lb/>zu
-               heilen (Sie, als Vater ken<lb/>nen diesen pathologischen Zustand) <lb/>so
-               werde ich meine ganze Thä-<lb/>tigkeit und List
+               heilen (Sie, als Vater ken<lb break="no"/>nen diesen pathologischen Zustand) <lb/>so
+               werde ich meine ganze Thä<g ref="#typoHyphen"/>
+                    <lb break="no"/>tigkeit und List
                aufbieten, <lb/>
                     <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
-                    </del> dem vortrefflichen Manne <lb/>für den das übrige <placeName ref="https://www.geonames.org/6255148">Europa</placeName> wärmer <lb/>als ein hiesiges Ministerium ist
+                    </del> dem vortrefflichen Manne <lb/>für den das übrige <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> wärmer <lb/>als ein hiesiges Ministerium ist
                <lb/>und der die edelsten
-                  Eigenschaf<lb/>ten des Characters mit einem entschie<lb/>den
-               grossen chemischen Talente ver<lb/>bindet, ein seiner würdiges Laborato<lb/>rium zu verschaffen. Auf den <choice>
+                  Eigenschaf<lb break="no"/>ten des Characters mit einem entschie<lb break="no"/>den
+               grossen chemischen Talente ver<lb break="no"/>bindet, ein seiner würdiges Laborato<lb break="no"/>rium zu verschaffen. Auf den <choice>
                   <abbr>Gr.</abbr>
                   <expan>Graf</expan>
                </choice>
                <lb/>
-                    <persName>Lambsdorf</persName> (also wohl Graf?) in <placeName ref="https://edition-humboldt.de/v8/H0000508">Curland</placeName>
+                    <persName ref="https://editon-humboldt.de/">Lambsdorf</persName> (also wohl Graf?) in <placeName ref="https://editon-humboldt.de/H0000508">Curland</placeName>
                <lb/>
                     <pb n="1v"/>kann
                ich mich schlechterdings <lb/>nicht besinnen, ich werde aber <lb/>suchen bei der <choice>
@@ -113,8 +132,8 @@
                   <abbr>hist.</abbr>
                   <expan>historischen</expan>
                </choice> Reise zu geben<supplied cert="high">.</supplied>
-               <lb/>Ich weiss von <persName ref="http://d-nb.info/gnd/116638044">Laborde</persName> dass <lb/>man weit
-               mehr Werth da<lb/>rauf legt, als Sie in Ihrer <lb/>übergrossen
+               <lb/>Ich weiss von <persName ref="https://editon-humboldt.de/H0004234 http://d-nb.info/gnd/116638044">Laborde</persName> dass <lb/>man weit
+               mehr Werth da<lb break="no"/>rauf legt, als Sie in Ihrer <lb/>übergrossen
                Bescheidenheit ahnden<supplied cert="high">.</supplied>
                 </p>
             <closer rend="within the line">
@@ -125,23 +144,23 @@
             </closer>
             <postscript>
                <p>Ich
-                  erfahre so eben <lb/>dass Graf <persName>Lambsdorf</persName>
+                  erfahre so eben <lb/>dass Graf <persName ref="https://editon-humboldt.de/">Lambsdorf</persName>
                   <lb/>
                         <choice>
                      <abbr>Russ.</abbr>
                      <expan>Russischer</expan>
-                  </choice> General der ehemali<lb/>ge Erzieher des <choice>
+                  </choice> General der ehemali<lb break="no"/>ge Erzieher des <choice>
                      <abbr>Grossf.</abbr>
                      <expan>Grossfürsten</expan>
                   </choice>
                   <lb/>
-                        <persName ref="http://d-nb.info/gnd/131883119">Michael</persName> ist. <lb/>Ich habe ihn <lb/>in
-                     <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                        <persName ref="https://editon-humboldt.de/H0001164 http://d-nb.info/gnd/131883119">Michael</persName> ist. <lb/>Ich habe ihn <lb/>in
+                     <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                   <choice>
                      <abbr>u</abbr>
                      <expan>und</expan>
                   </choice>
-                  <placeName ref="https://www.geonames.org/498817">
+                  <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                             <choice>
                         <abbr>Petersb</abbr>
                         <expan>Petersburg</expan>

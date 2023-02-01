@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015633">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schöler, Auguste Wilhelmine von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schöler, Auguste Wilhelmine von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015633.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015633.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015633.xml">
-                    <p>Schöler, Auguste Wilhelmine von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015633.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015633">
+                <person>
                     <persName type="reg">
                         <surname>Schöler</surname>
                         <forename>Auguste Wilhelmine von</forename>
@@ -41,8 +46,7 @@
                     <birth>1776</birth>
                     <death>1858</death>
                     <note>Ehefrau Friedrich von Schölers
-                        <!-- , heiratete 1796 den preußischen Leutnant Reinhard Otto Friedrich August von Schöler (1772–1840), der „Platzmajor“, d. h. Adjutant des Kommandanten von Mainz war -->
-                    </note>
+                        </note>
                     <linkGrp>
                         <ptr target="30#111" type="page"/>
                         <ptr target="30#112" type="page"/>

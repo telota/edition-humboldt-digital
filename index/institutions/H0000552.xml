@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000552">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Institut de France</title>
             </titleStmt>
+            <editionStmt>
+                <p>Institut de France [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000552.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000552.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000552.xml">
-                    <p>Institut de France [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000552.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0000552">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/35015-1</idno>
                     <orgName type="reg">Institut de France</orgName>
                     <orgName type="alt">Académie des Sciences</orgName>
@@ -39,9 +44,9 @@
                         Akademien des Ancien Régime. Bis 1816 war es in drei, später vier, Klassen unterteilt. In die
                         erste Klasse (Classe des sciences physiques et mathématiques, Section de physique générale)
                         wurde Humboldt am 6. Februar 1804 aufgenommen. Während der Restauration erfolgte die
-                        Rückbenennung der Klassen in Akademien, aus der première classe wurde wieder die <orgName key="H0016786">Académie royale des Sciences</orgName>. Das Institut als Dachorganisaton
+                        Rückbenennung der Klassen in Akademien, aus der première classe wurde wieder die <orgName ref="https://editon-humboldt.de/H0016786 http://d-nb.info/gnd/35019-9">Académie royale des Sciences</orgName>. Das Institut als Dachorganisaton
                         blieb bestehen. Humboldt verwendet in seinen Briefen und Aufzeichnungen häufig den Ausdruck
-                        Institut, wenn er sich auf die <orgName key="H0016786">Académie des Sciences</orgName> bezieht. </desc>
+                        Institut, wenn er sich auf die <orgName ref="https://editon-humboldt.de/H0016786 http://d-nb.info/gnd/35019-9">Académie des Sciences</orgName> bezieht. </desc>
                     <linkGrp>
                         <ptr target="22#30" type="page"/>
                         <ptr target="22#50" type="page"/>
@@ -182,7 +187,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/8449460</idno>
-                            <settlement key="H0008129">Paris</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0008129">Paris</settlement>
                         </address>
                     </location>
                 </org>

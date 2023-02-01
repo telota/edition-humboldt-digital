@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019728">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,30 +20,51 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. Berlin, 25. Februar
+                    1854, hg. v. Ulrich Päßler unter Mitarbeit von Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019728">https://edition-humboldt.de/v8/H0019728</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019728</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019728</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019728.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. Berlin, 25. Februar
-                    1854. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019728</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Stadtarchiv Augsburg</institution>
+                        <collection>Archiv des Historischen Vereins für Schwaben</collection>
+                        <idno>HV H 271, Bl. 150r</idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 69.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1854-02-25" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -54,7 +75,7 @@
                 <opener>
                     <pb n="150r"/>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>, <choice>
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>, <choice>
                             <abbr>d.</abbr>
                             <expan>den</expan>
                         </choice> 25<supplied cert="high">.</supplied>
@@ -68,14 +89,14 @@
                         <lb/>einem
                         <add place="superlinear">Ihnen</add> fremden, aber geistreichen und
                     kunstgelehrten <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">Monarchen</persName> ausgeht, auch
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Monarchen</persName> ausgeht, auch
                     eine öffentliche <lb/>Anerkennung Ihres schönen, grossen Talentes ist, <lb/>
                     <subst>
                         <del rendition="#s">ist</del>
                         <add place="superlinear">wurde</add>
                     </subst> erlangt!<del rendition="#s">worden.</del> Ich habe gestern den
                         <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">König</persName> noch so voll lebhafter
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> noch so voll lebhafter
                     Erin̅erung an die <lb/>Genüsse<choice>
                         <sic>,</sic>
                         <corr type="deleted"/>
@@ -95,15 +116,15 @@
                         <del rendition="#s">mit</del>
                         <add place="intralinear">
                             <lb/>mit</add>
-                    </subst>gebrachten Zeichnungen <lb/>von <placeName ref="https://www.geonames.org/4013516">Colima</placeName> und West<lb/>
-                    <placeName ref="https://www.geonames.org/3996063">Mexico</placeName> für 104 <choice>
+                    </subst>gebrachten Zeichnungen <lb/>von <placeName ref="https://editon-humboldt.de/H0007533 https://www.geonames.org/4013516">Colima</placeName> und West<lb break="no"/>
+                    <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName> für 104 <choice>
                         <abbr>Fr.</abbr>
                         <expan>Friedrich</expan>
                     </choice> d’or<supplied cert="high">.</supplied>
                 </p>
                 <p>Mögen es Ihnen Freude machen, mögen Sie <lb/>darin den Beweis der Dauer meiner
                     <lb/>innigen Anhänglichkeit erkennen. Ueber <lb/>den <hi rendition="#u">modus</hi> der Zahlung (die gesichert <lb/>ist) muss ich erst mit Herrn
-                        <persName ref="http://d-nb.info/gnd/11712110X">
+                        <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">
                         <choice>
                             <abbr>v</abbr>
                             <expan>von</expan>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017886">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Glen, William</title>
             </titleStmt>
+            <editionStmt>
+                <p>Glen, William [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017886.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017886.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017886.xml">
-                    <p>Glen, William [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017886.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0017886">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/1089757476</idno>
                     <persName type="reg">
                         <surname>Glen</surname>
@@ -38,7 +43,7 @@
                     <birth>1779</birth>
                     <death>1849</death>
                     <note>Prediger und Missionar der Scottish Missionary Society; Übersetzer des
-                        Alten Testaments ins Persische; ab 1817 in <placeName key="H0002585">Astrachan</placeName>; 1834 Rückkehr nach <placeName key="H0010167">Schottland</placeName>; 1837-1843 und 1847-1849 in <placeName key="H0018514">Persien</placeName>.<!-- Vgl. Nancy Stevenson: Art. Glen, William, in: Anderson: Biographical Dictionary of Christian Missions, 244; Magazin für die neuester Geschichte der evangelischen Misisons und ...; vgl. Flynn: The Western Christian Presence in the Russias ..., Leiden: Brill 2017, 557 passim; Oxford Dict. of Nat. Biography;  -->
+                        Alten Testaments ins Persische; ab 1817 in <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName>; 1834 Rückkehr nach <placeName ref="https://editon-humboldt.de/H0010167 https://www.geonames.org/2638360">Schottland</placeName>; 1837-1843 und 1847-1849 in <placeName ref="https://editon-humboldt.de/H0018514">Persien</placeName>.
                     </note>
                 </person>
             </listPerson>

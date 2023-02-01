@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016466">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,32 +33,54 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Hermann und Robert Schlagintweit. [Potsdam, 1.
+                    Dezember
+                    1857], hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016466">https://edition-humboldt.de/v8/H0016466</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016466</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016466</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016466.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Hermann und Robert Schlagintweit. [Potsdam, 1.
-                    author="lmartin" timestamp="20180223T134033+0100" comment="Ort und Datum unklar, auch auf unklares Schreibdatum (u.s.) hinweisen?" id="evl_2ng_3mb" mid="1"author="paessler" timestamp="20200713T161020+0200" comment="noch unklar. Wohl nach der Rückkehr des Königs aus Marienbad. " parentID="evl_2ng_3mb"author="paessler" timestamp="20200806T091110+0200" comment="nein, &amp;quot;zum ersten Male&amp;quot; heißt, nach dem erneuten Schlaganfall, den er im Oktober in Pillnitz hatte." parentID="evl_2ng_3mb" mid="2"Dezembermid="2"mid="1"
-                    1857]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016466</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>American Philosophical Society Library</institution>
+                        <repository>Manuscript Department</repository>
+                        <collection>Alexander von Humboldt Papers</collection>
+                        <idno>
+                            <idno type="shelfmark">B: All. 3, v. </idno>
+                            <idno type="URLCatalogue">https://search.amphilsoc.org/collections/view?docId=ead/Mss.B.H88-ead.xml</idno>
+                        </idno>
+                    </msIdentifier>
+                    
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     <date when="1857-12-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <persName ref="http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
+                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
                         (1833-1885)</persName>
                 </correspAction>
             </correspDesc>
@@ -69,12 +91,12 @@
             <div type="writingSession">
                 <pb n="1r"/>
                 
-				<p>Der <persName ref="http://d-nb.info/gnd/118535994">König</persName>, der mich gestern Nachmittag zum <lb/>ersten
+				<p>Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>, der mich gestern Nachmittag zum <lb/>ersten
                     Male hatte kommen lassen<supplied cert="high">,</supplied>
                     <lb/>hat sich mit grosser Freundlichkeit <lb/>Ihrer beiden, meine theuren
                     Freunde <lb/>und mit Besorgniss Ihres abwesenden <lb/>
-                    <persName ref="http://d-nb.info/gnd/118755234">Bruders</persName> erinnert: auch lässt die <lb/>
-                    <persName ref="http://d-nb.info/gnd/118688634">Königin</persName> sehr warm für die zierlichen <lb/>Bilder auf Elfenbein
+                    <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruders</persName> erinnert: auch lässt die <lb/>
+                    <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634">Königin</persName> sehr warm für die zierlichen <lb/>Bilder auf Elfenbein
                         danken<supplied cert="high">.</supplied>
                 </p>
 				<closer>

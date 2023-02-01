@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005457">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -6,40 +6,57 @@
                     Juni 1849]</title>
                 <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [nach 20.
+                    Juni 1849], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0005457">https://edition-humboldt.de/v8/H0005457</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0005457</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0005457</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005457.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch, [nach 20.
-                    Juni 1849]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0005457</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                         <institution>Biblioteka Jagiellońska</institution>
+                         <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                         <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                     </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1849-06-20" notAfter="1849-08-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
                 <note>Die vorliegende Notiz nahm Humboldt auf einem Schreiben des bisher nicht näher
-                    identifzierten Theaterintendanten <persName ref="https://edition-humboldt.de/v8/H0013694">Alexandre de
+                    identifzierten Theaterintendanten <persName ref="https://editon-humboldt.de/H0013694">Alexandre de
                         Guédémoff</persName> vor (Guédémoff an Humboldt. St. Petersburg, 20. Juni
                     1848. Biblioteka Jagiellońska, Krakau, Sammlung Autographa). Darin kündigt
-                        <persName ref="https://edition-humboldt.de/v8/H0013694">Guédémoff</persName> an, Kunths Cousine
-                        <persName ref="https://edition-humboldt.de/v8/H0001518">Caroline Kunth</persName> zu
+                        <persName ref="https://editon-humboldt.de/H0013694">Guédémoff</persName> an, Kunths Cousine
+                        <persName ref="https://editon-humboldt.de/H0001518">Caroline Kunth</persName> zu
                     engagieren.</note>
             </correspDesc>
         </profileDesc>
@@ -49,22 +66,22 @@
             <div type="writingSession">
                 <pb n="1r"/>
                 <p>ein Brief von dem <lb/>
-                    <persName ref="https://edition-humboldt.de/v8/H0013694">Intendant des
+                    <persName ref="https://editon-humboldt.de/H0013694">Intendant des
                         Spectacles</persName>
                     <lb/>
                     <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName ref="https://www.geonames.org/498817">
+                    <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                         <choice>
                         <orig>Petersbourg</orig>
                         <reg>Pétersbourg</reg>
                     </choice>
                     </placeName> dem ich <lb/>
-                    <persName ref="https://edition-humboldt.de/v8/H0001518">die liebenswürdige Sängerin</persName>
+                    <persName ref="https://editon-humboldt.de/H0001518">die liebenswürdige Sängerin</persName>
                     <lb/>warm empfohlen. Es ist <lb/>geklükt und der Brief <lb/>macht Ihnen und
-                        <persName ref="https://edition-humboldt.de/v8/H0001516">Ihrer
+                        <persName ref="https://editon-humboldt.de/H0001516">Ihrer
                         <lb/>Gattin</persName> gewiss Freude, <lb/>mein Theurer.</p>
                 <signed>Ht</signed>
                 <postscript>

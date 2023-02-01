@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016545">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [9. September
+               1837] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016545">https://edition-humboldt.de/v8/H0016545</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016545</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016545</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016545.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [9. September
-               1837] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016545</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                            <idno type="shelfmark">gr. Kasten 12, Nr. 141</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1447876</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1837-09-09"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -74,32 +92,39 @@
                <lb/>selbst nicht ganz im Klaren bin <add place="left">
                         <metamark/>mich aber doch
                   <lb/>viel beschäftigt <lb/>habe</add>. Die <lb/>neuere Beschäftigung mit dem
-                  Gegen-<lb/>stand hat sich auf Kosten der Wissen-<lb/>schaftlichkeit von der dazu nöthigen
+                  Gegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>stand hat sich auf Kosten der Wissen<g ref="#typoHyphen"/>
+                    <lb break="no"/>schaftlichkeit von der dazu nöthigen
                <lb/>Gelehrsamkeit oder Benutzung der <lb/>Geschichte dispensiert, und was in Paris
                <lb/>verlautet wiederhallt aus alter <lb/>Gewohnheit durch unser Deutschland.
-               <lb/>Die schon <persName ref="http://d-nb.info/gnd/119188279">Leuwenhoek</persName> bekannten und <lb/>von
-               ihm vortrefflich abgehandelten Gäh-<lb/>rungs-Schimmel scheinen mir, wie <lb/>die von <persName ref="http://d-nb.info/gnd/118972375">Gruithuisen</persName> erwähnten Gäh<lb/>rungs-Infusorien, mit der
+               <lb/>Die schon <persName ref="https://editon-humboldt.de/H0004409 http://d-nb.info/gnd/119188279">Leuwenhoek</persName> bekannten und <lb/>von
+               ihm vortrefflich abgehandelten Gäh<g ref="#typoHyphen"/>
+                    <lb break="no"/>rungs-Schimmel scheinen mir, wie <lb/>die von <persName ref="https://editon-humboldt.de/H0013677 http://d-nb.info/gnd/118972375">Gruithuisen</persName> erwähnten Gäh<lb break="no"/>rungs-Infusorien, mit der
                Gährung <lb/>selbst in gar keiner Verbindung zu stehen, <lb/>
                     <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001A5C200000002"/>denn ihr
                Verhältniß ist ungefähr wie das <lb/>der Dammerde und der Wiesenkräuter, <lb/>wo das
                eine ist<supplied cert="high">,</supplied> findet sich das andere ein <lb/>und
-               gedeiht, hier zu Heu, dort zu Hefe. <lb/>Schon <persName ref="http://d-nb.info/gnd/116091509">Persoon</persName> nannte den Gährungspilz <lb/>
-                    <name type="animal|plant" key="Mycoderma">Mycoderma</name> und <persName ref="http://d-nb.info/gnd/116084138">Desmazières</persName> teilte <lb/>ihn in <name type="animal|plant" key="Mycoderma Cerevisiae">Mycoderma Cerevisiae</name>, <name type="animal|plant" key="Mycoderma Malti-Juniperini">Malti- <lb/>Juniperini</name> und <name type="animal|plant" key="Mycoderma Vini">Vini</name>, welchen lezteren
+               gedeiht, hier zu Heu, dort zu Hefe. <lb/>Schon <persName ref="https://editon-humboldt.de/H0001891 http://d-nb.info/gnd/116091509">Persoon</persName> nannte den Gährungspilz <lb/>
+                    <name type="animal|plant" key="Mycoderma">Mycoderma</name> und <persName ref="https://editon-humboldt.de/H0017043 http://d-nb.info/gnd/116084138">Desmazières</persName> teilte <lb/>ihn in <name type="animal|plant" key="Mycoderma Cerevisiae">Mycoderma Cerevisiae</name>, <name type="animal|plant" key="Mycoderma Malti-Juniperini">Malti- <lb/>Juniperini</name> und <name type="animal|plant" key="Mycoderma Vini">Vini</name>, welchen lezteren
                   <lb/>
-                    <persName ref="http://d-nb.info/gnd/116091509">Persoon</persName>
+                    <persName ref="https://editon-humboldt.de/H0001891 http://d-nb.info/gnd/116091509">Persoon</persName>
                <name type="animal|plant" key="Mycoderma Lagenae">Mycoderma Lagenae</name> genannt
                <lb/>hatte. Anstatt daß nun die Bedingungen <lb/>der Gährung und ihrer reinen
                Erscheinungen <lb/>verfolgt werden sollten<supplied cert="high">,</supplied>
                verlieren <lb/>sich die neuesten Beobachter <add place="superlinear">immer
                   wieder</add> in
                der
-               dabey <lb/>vorkommenden und reciprok mit-<lb/>wirkenden Schimmelbildung. Das <del rendition="#s">
+               dabey <lb/>vorkommenden und reciprok mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>wirkenden Schimmelbildung. Das <del rendition="#s">
                         <gap reason="illegible" unit="chars" quantity="3"/>
-                    </del>-<lb/>
+                    </del>
+                    <g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <del rendition="#s">
                         <gap reason="illegible" unit="chars" quantity="3"/>
                     </del> von Ihnen
-               gemeinte Schriftchen <lb/>hat eben diesen Fehler und der Ver-<lb/>fasser ist nicht umsichtig genug gewesen. <lb/>Auch sind die
+               gemeinte Schriftchen <lb/>hat eben diesen Fehler und der Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>fasser ist nicht umsichtig genug gewesen. <lb/>Auch sind die
                Einwirkungen der Gifte <lb/>nicht richtig erkannt. Ich habe selbst schon <lb/>
                     <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001A5C200000003"/>drucken lassen, daß die Infusorien Arsenik <lb/>und <add place="superlinear">Calomel und</add> Sublimat fressen und nur sehr langsam
                <lb/>oder gar nicht davon afficirt werden, daß <lb/>aber Strychnin sie sogleich
@@ -119,9 +144,9 @@
                   <abbr>p.</abbr>
                   <expan>pagina</expan>
                </choice> 34. <add place="left">
-                        <metamark/>Ich finde das er<lb/>stere
+                        <metamark/>Ich finde das er<lb break="no"/>stere
                   nicht gleich, <lb/>es steht aber in <lb/>
-                        <persName ref="http://d-nb.info/gnd/116250836">Poggendorff</persName> oder <lb/>den <choice>
+                        <persName ref="https://editon-humboldt.de/H0002047 http://d-nb.info/gnd/116250836">Poggendorff</persName> oder <lb/>den <choice>
                      <abbr>Abhandl.</abbr>
                      <expan>Abhandlungen</expan>
                   </choice> der <lb/>Akademie.</add> und <del rendition="#s">
@@ -130,14 +155,21 @@
                      <expan>pagina</expan>
                   </choice>?</del> Wenn man nur
                <lb/>wenig Versuche in dieser Art macht<supplied cert="high">,</supplied> so erhält
-               <lb/>man leicht falsche Resultate, weil oft Ne-<lb/>benumstände mitwirken, die nur bey öfte-<lb/>rer
+               <lb/>man leicht falsche Resultate, weil oft Ne<g ref="#typoHyphen"/>
+                    <lb break="no"/>benumstände mitwirken, die nur bey öfte<g ref="#typoHyphen"/>
+                    <lb break="no"/>rer
                Wiederholung hervortreten. <add place="left">
                         <metamark/>So versteht es <lb/>sich, daß
                   alle leicht <lb/>auflöslichen oder <lb/>schon aufgelösten <lb/>Stoffe nicht als
-                  <lb/>solche die Infuso-<lb/>rien tödten,
-                  <lb/>sondern das Ele-<lb/>ment, das Wasser,
-                  <lb/>ihnen rauben, in-<lb/>dem sie es verän-<lb/>dern. Menschen <lb/>sterben unter
-                  <lb/>Wasser, aber <lb/>Wasser ist kein <lb/>Gift für Men-<lb/>schen.</add> Gut <lb/>ist<supplied cert="high">,</supplied> daß
+                  <lb/>solche die Infuso<g ref="#typoHyphen"/>
+                        <lb break="no"/>rien tödten,
+                  <lb/>sondern das Ele<g ref="#typoHyphen"/>
+                        <lb break="no"/>ment, das Wasser,
+                  <lb/>ihnen rauben, in<g ref="#typoHyphen"/>
+                        <lb break="no"/>dem sie es verän<g ref="#typoHyphen"/>
+                        <lb break="no"/>dern. Menschen <lb/>sterben unter
+                  <lb/>Wasser, aber <lb/>Wasser ist kein <lb/>Gift für Men<g ref="#typoHyphen"/>
+                        <lb break="no"/>schen.</add> Gut <lb/>ist<supplied cert="high">,</supplied> daß
                wenigstens das allgemeine <lb/>Resultat der Abhandlung sich so stellt, daß <lb/>nicht
                eine generatio aequivoca heraus <lb/>kommt, denn von dieser bin ich durch <lb/>gar zu
                   <gap reason="illegible" unit="words" quantity="1"/> und lange Reihen <lb/>von
@@ -151,12 +183,13 @@
                   gut<supplied cert="high">,</supplied>
                <lb/>
                     <pb n="2v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001A5C200000004"/>einen solchen Fingerzeig für die zu nehmende <lb/>Richtung in der
-               Bearbeitung dieser Fragen <lb/>in <persName ref="http://d-nb.info/gnd/116250836">Poggendorff</persName>s
+               Bearbeitung dieser Fragen <lb/>in <persName ref="https://editon-humboldt.de/H0002047 http://d-nb.info/gnd/116250836">Poggendorff</persName>s
                Journal zu geben. Auch <lb/>die <name type="mineral" key="Amylum">Amylum</name>
                Angelegenheit ist in <lb/>trauriger Verwirrung und aus ihrem <lb/>unhaltbaren Boden
                erheben sich Schlösser <lb/>und Paläste, aber – ich bin selbst <lb/>auch noch
                nicht im Klaren damit und <lb/>habe viele Freunde die nur auf einen <lb/>Dienst
-               lauern und ein Infusorien-<lb/>werk im Drucke, das
+               lauern und ein Infusorien<g ref="#typoHyphen"/>
+                    <lb break="no"/>werk im Drucke, das
                mich fast zu <lb/>einer Maschine macht. Doch das soll und <lb/>muss zu Ende kommen.
                Der Himmel wird <lb/>weiter sorgen.</p>
             <closer rend="paragraph">

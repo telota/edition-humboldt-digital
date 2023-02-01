@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000525">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Allgemeine Kriegsschule Berlin</title>
             </titleStmt>
+            <editionStmt>
+                <p>Allgemeine Kriegsschule Berlin [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000525.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000525.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000525.xml">
-                    <p>Allgemeine Kriegsschule Berlin [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000525.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0000525">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/16085671-1</idno>
                     <orgName type="reg">Allgemeine Kriegsschule Berlin</orgName>
                     <desc>Eine von drei 1810 infolge der Preußischen Heeresreform gegründeten Kriegsschulen zur
@@ -50,7 +55,7 @@
                     <location from="1810" to="1883">
                         <address>
                             <idno type="uri">https://www.geonames.org/11524569</idno>
-                            <settlement key="H0005221">Berlin</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005221">Berlin</settlement>
                             <note>Burgstraße 19</note>
                         </address>
                     </location>

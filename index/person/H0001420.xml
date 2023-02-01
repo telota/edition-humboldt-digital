@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001420">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kolodkin, Aleksej Emiljanovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kolodkin, Aleksej Emiljanovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001420.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001420.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001420.xml">
-                    <p>Kolodkin, Aleksej Emiljanovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001420.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001420">
+                <person>
                     <persName type="reg">
                         <surname>Kolodkin</surname>
                         <forename>Aleksej Emiljanovič</forename>
@@ -44,8 +49,8 @@
                     <death>1851</death>
                     <note>russ. Marineoffizier, Forschungsreisender und Kartograph (Hydrograph);
                         erforschte zwischen 1809 und 1817 im Auftrag der russ. Admiralität die Küste
-                        des <placeName key="H0000384">Kaspischen Meeres</placeName>; publizierte
-                        1826 einen <bibl sameAs="zotero-667230-Z6U6M5KS">Atlas des Kaspischen
+                        des <placeName ref="https://editon-humboldt.de/H0000384 https://www.geonames.org/630671">Kaspischen Meeres</placeName>; publizierte
+                        1826 einen <bibl corresp="https://edition-humboldt.de/Z6U6M5KS">Atlas des Kaspischen
                             Meeres</bibl>
                     </note>
                     <linkGrp>

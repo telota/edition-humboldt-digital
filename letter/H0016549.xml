@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016549">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, [22. Mai 1844] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016549">https://edition-humboldt.de/v8/H0016549</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016549</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016549</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016549.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, [22. Mai 1844] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016549</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                            <idno type="shelfmark">gr. Kasten 13, Nr. 63</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1449609</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1844-05-22"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -74,7 +92,8 @@
                   <abbr>Fath.</abbr>
                   <expan>Fathmos</expan>
                </choice>
-               <lb/>Tiefe der Meeresgrund volles <hi rendition="#u">or-<lb/>ganisches</hi>
+               <lb/>Tiefe der Meeresgrund volles <hi rendition="#u">or<g ref="#typoHyphen"/>
+                        <lb break="no"/>ganisches</hi>
                <hi rendition="#u">Leben</hi> enthält, zu fester <lb/>Gewißheit gebracht. Alles was
                man über <lb/>
                     <name type="animal" key="Corallen">Corallen</name> aus großen Tiefen
@@ -87,8 +106,9 @@
                <lb/>kann. Daß alle diese Dinge <lb/>zellig sind und Luft enthalten, <lb/>mithin
                wirklich getroffen werden <lb/>von den Einflüssen des Luftdruckes <lb/>ist ebenfalls
                ohne Zweyfel.</p>
-            <p>Außerdem fand ich ein Päckchen <lb/>in <persName ref="http://d-nb.info/gnd/118523813">Darwin</persName>'s
-               oder <persName ref="http://d-nb.info/gnd/118774891">Hookers</persName> Sen-<lb/>dung, überschrieben, <hi rendition="#u">vulkanische <lb/>Asche die 380
+            <p>Außerdem fand ich ein Päckchen <lb/>in <persName ref="https://editon-humboldt.de/H0012148 http://d-nb.info/gnd/118523813">Darwin</persName>'s
+               oder <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hookers</persName> Sen<g ref="#typoHyphen"/>
+                    <lb break="no"/>dung, überschrieben, <hi rendition="#u">vulkanische <lb/>Asche die 380
                   Meilen (miles) von <lb/>Africa in der See (27 <choice>
                      <abbr>N</abbr>
                      <expan>Nördlicher</expan>
@@ -97,15 +117,20 @@
                      <abbr>B.</abbr>
                      <expan>Breite</expan>
                   </choice>) gefallen <lb/>ist.</hi> Darinn ist aber wohl doch <lb/>⅓ der Masse
-               Infusorien-Schalen. <lb/>So giebt es also doch solche atmos-<lb/>phärische Verhältnisse, wie es frey-<lb/>
+               Infusorien-Schalen. <lb/>So giebt es also doch solche atmos<g ref="#typoHyphen"/>
+                    <lb break="no"/>phärische Verhältnisse, wie es frey<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001B87400000003"/>lich nahe lag. Wirbelwinde mögen <lb/>den feinen Staub
                hoch und weit in <lb/>die Luft führen. Dieß ist aber das <lb/>erste Beispiel directer
                unzweyfelhafter <lb/>Beobachtung einer Meteor-Erde <lb/>aus Organismen.</p>
             <closer rend="within the line">
-                    <salute>In der Hoffnung, daß diese Kleinig-<lb/>keiten auch
-               bey Ihnen Interesse er-<lb/>wecken, verharre ich mit
+                    <salute>In der Hoffnung, daß diese Kleinig<g ref="#typoHyphen"/>
+                        <lb break="no"/>keiten auch
+               bey Ihnen Interesse er<g ref="#typoHyphen"/>
+                        <lb break="no"/>wecken, verharre ich mit
                den <lb/>besten Wünschen für Ihre Gesundheit <lb/>in den herrlichsten aller
-                  Frühlings-<lb/>tage
+                  Frühlings<g ref="#typoHyphen"/>
+                        <lb break="no"/>tage
             verehrungsvoll <lb/>Ihr <lb/>dankbar ergebenster</salute>
                <signed>Ehrenberg</signed>
             </closer>

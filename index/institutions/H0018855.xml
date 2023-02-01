@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018855">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title/>
             </titleStmt>
+            <editionStmt>
+                <p> [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018855.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,30 +20,31 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018855.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018855.xml">
-                    <p> [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018855.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018855">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/5025548-4</idno>
                     <orgName type="reg">Universität Bützow</orgName>
                     <orgName type="alt">Friedrichs-Universität Bützow</orgName>
                     <orgName type="alt">Academia Fridericiana Bützoviensis</orgName>
                     <orgName type="alt">Akademie zu Bützow</orgName>
-                    <desc>1760 von Herzog Friedrich zu Mecklenburg-Schwerin gegründete Universität im <placeName key="H0018622">Schloss Bützow</placeName>; 1789 vereinigt mit der Universität Rostock</desc>
+                    <desc>1760 von Herzog Friedrich zu Mecklenburg-Schwerin gegründete Universität im <placeName ref="https://editon-humboldt.de/H0018622">Schloss Bützow</placeName>; 1789 vereinigt mit der Universität Rostock</desc>
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/12175925</idno>
-                            <settlement key="H0005552">Schloss Bützow</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005552">Schloss Bützow</settlement>
                             <note>Schlossplatz 1</note>
                         </address>
                     </location>

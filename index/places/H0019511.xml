@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019511">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Upper Hulme</title>
             </titleStmt>
+            <editionStmt>
+                <p>Upper Hulme [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019511.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,23 +20,24 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019511.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019511.xml">
-                    <p>Upper Hulme [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019511.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019511">
+                <place>
                     <idno type="uri">https://www.geonames.org/2635121</idno>
                     <placeName type="reg">Upper Hulme</placeName>
-                    <note>Ortschaft im <placeName key="H0017614">Peak District</placeName> nordöstlich von <placeName key="H0019558">Leek</placeName> (<placeName key="H0005653">England</placeName>)</note>
+                    <note>Ortschaft im <placeName ref="https://editon-humboldt.de/H0017614 https://www.geonames.org/7290672">Peak District</placeName> nordöstlich von <placeName ref="https://editon-humboldt.de/H0019558 https://www.geonames.org/2644684">Leek</placeName> (<placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>)</note>
                 </place>
             </listPlace>
         </body>

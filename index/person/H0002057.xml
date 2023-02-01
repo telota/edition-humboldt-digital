@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002057">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Polier, Varvara Petrovna Gräfin von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Polier, Varvara Petrovna Gräfin von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0002057.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002057.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0002057.xml">
-                    <p>Polier, Varvara Petrovna Gräfin von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0002057.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0002057">
+                <person>
                     <persName type="reg">
                         <surname>Polier</surname>
                         <forename>Varvara Petrovna Gräfin von</forename>
@@ -61,8 +66,7 @@
                     <persName type="alt" subtype="birthname">
                         <surname>Schachowski</surname>
                         <forename>Barbara Petrowna</forename>
-                        <?oxy_comment_start author="schnee" timestamp="20181113T151733+0100" comment="Achtung: Ein weiterer Registereintrag unter dem Namen Butera-Radali liegt vor!"?>
-                    </persName><?oxy_comment_end?>
+                        </persName>
                     <persName type="alt" subtype="birthname">
                         <surname>Šachovskaja</surname>
                         <forename>Varvara Petrovna, Fürstin von</forename>
@@ -75,11 +79,11 @@
                     </persName>
                     <birth>1796</birth>
                     <death>1870</death>
-                    <note>1816 (oder 1815) Heirat mit <persName key="H0017960">Pawel Andrejewitsch Graf
-                            Schuwalow</persName> (1774-1823), 1823 verwitwet; 1826 (oder 1827) Heirat mit <persName key="H0002056">Pierre Amédée Charles Guillaume Adolphe Comte de Polier</persName>
+                    <note>1816 (oder 1815) Heirat mit <persName ref="https://editon-humboldt.de/H0017960 http://d-nb.info/gnd/1135226849">Pawel Andrejewitsch Graf
+                            Schuwalow</persName> (1774-1823), 1823 verwitwet; 1826 (oder 1827) Heirat mit <persName ref="https://editon-humboldt.de/H0002056">Pierre Amédée Charles Guillaume Adolphe Comte de Polier</persName>
                         (1795-1830), 1830 verwitwet; 1836 nach Heirat mit Georg Wilding Fürst von Butera-Radali
-                        (1791–1841), dem Gesandten von Neapel in <placeName key="H0008236">Sankt Petersburg</placeName>
-                        Fürstin von Butera-Radali; Eigentümerin u.a. der Goldwäsche Adolfskoj im Mittleren <placeName key="H0009659">Ural</placeName>
+                        (1791–1841), dem Gesandten von Neapel in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt Petersburg</placeName>
+                        Fürstin von Butera-Radali; Eigentümerin u.a. der Goldwäsche Adolfskoj im Mittleren <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="30#130" type="page"/>

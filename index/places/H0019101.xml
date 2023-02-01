@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019101">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Łęczyca</title>
             </titleStmt>
+            <editionStmt>
+                <p>Łęczyca [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019101.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019101.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019101.xml">
-                    <p>Łęczyca [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019101.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019101">
-                    <idno type="uri">https://www.geonames.org/3093726</idno>
-                    <placeName type="reg">Łęczyca</placeName>
-                    <placeName type="alt">Lenczictz</placeName>
-                    <placeName type="alt">Lenczyca</placeName>
-                    <placeName type="alt">Lentschitza</placeName>
-                    <note>Stadt in der Woiwodschaft Łódź (Polen)</note>
-                </place>
+                <place>
+            <idno type="uri">https://www.geonames.org/3093726</idno>
+            <placeName type="reg">Łęczyca</placeName>
+            <placeName type="alt">Lenczictz</placeName>
+            <placeName type="alt">Lenczyca</placeName>
+            <placeName type="alt">Lentschitza</placeName>
+            <note>Stadt in der Woiwodschaft Łódź (Polen)</note>
+        </place>
             </listPlace>
         </body>
     </text>

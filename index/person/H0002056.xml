@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002056">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Polier, Adolphe Graf von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Polier, Adolphe Graf von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0002056.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002056.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0002056.xml">
-                    <p>Polier, Adolphe Graf von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0002056.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0002056">
+                <person>
                     <persName type="reg">
                         <surname>Polier</surname>
                         <forename>Adolphe Graf von</forename>
@@ -52,15 +57,12 @@
                     </persName>
                     <birth>1795</birth>
                     <death>1830</death>
-                    <note>russischer Offizier französischer Herkunft; 1826 Heirat mit Gräfin <persName key="H0002057">Varvara Petrovna Shuvalova</persName>, geb. Prinzessin
-                        <?oxy_comment_start author="schnee" timestamp="20210922T181104+0200" comment="hier war folgendes eingebaut: 
-Prinzessin &lt;persName key=&quot;ERRORERRORERRORkey_y1m_gvr_k3b&quot;&gt;Šachovskaja&lt;/persName&gt;
-unklar?"?>Šachovskaja<?oxy_comment_end?>; seit 1827 in russischen Diensten; 1829
-                        Zeremonienmeister am kaiserlichen Hof, Kammerherr von <persName key="H0001165">Nikolaj
+                    <note>russischer Offizier französischer Herkunft; 1826 Heirat mit Gräfin <persName ref="https://editon-humboldt.de/H0002057">Varvara Petrovna Shuvalova</persName>, geb. Prinzessin
+                        Šachovskaja; seit 1827 in russischen Diensten; 1829
+                        Zeremonienmeister am kaiserlichen Hof, Kammerherr von <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Nikolaj
                             I. von Russland</persName> und Beamter im russischen Finanzministerium; begleitete Humboldt von
-                            <placeName key="H0001687">Nižnij Novgorod</placeName> (31. Mai 1829) bis nach <placeName key="H0000512">Kušva</placeName> (1. Juli 1829)
-                        <!-- Vgl. Rose 1837/1842, I, 352f. sowie Brief an Arago vom 1./13. Aug. und 8./20. Aug. 1829; vgl. Stottmeister 2022, 54ff. -->
-                    </note>
+                            <placeName ref="https://editon-humboldt.de/H0001687 https://www.geonames.org/520555">Nižnij Novgorod</placeName> (31. Mai 1829) bis nach <placeName ref="https://editon-humboldt.de/H0000512 https://www.geonames.org/538340">Kušva</placeName> (1. Juli 1829)
+                        </note>
                     <linkGrp>
                         <ptr subtype="comment" target="19#[257]" type="page"/>
                         <ptr target="30#29" type="page"/>

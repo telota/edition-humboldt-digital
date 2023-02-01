@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004108">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Jacobi, Carl Gustav Jacob</title>
             </titleStmt>
+            <editionStmt>
+                <p>Jacobi, Carl Gustav Jacob [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004108.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004108.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004108.xml">
-                    <p>Jacobi, Carl Gustav Jacob [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004108.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004108">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118775766</idno>
                     <persName type="reg">
                         <surname>Jacobi</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1804</birth>
                     <death>1851</death>
-                    <note>deutscher Mathematiker in <placeName key="H0000331">Königsberg</placeName>, ab 1844 in Berlin; Freund <persName key="H0012314">Peter Gustav Lejeune Dirichlets</persName>
+                    <note>deutscher Mathematiker in <placeName ref="https://editon-humboldt.de/H0000331 https://www.geonames.org/554234">Königsberg</placeName>, ab 1844 in Berlin; Freund <persName ref="https://editon-humboldt.de/H0012314 http://d-nb.info/gnd/11852593X">Peter Gustav Lejeune Dirichlets</persName>
                     </note>
                     <linkGrp>
                         <ptr target="04#5" type="letter"/>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002923">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,32 +28,49 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. Berlin, 17. Juli 1827, hg. v. Ulrich Päßler unter Mitarbeit von Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002923">https://edition-humboldt.de/v8/H0002923</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002923</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002923</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002923.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. Berlin, 17. Juli 1827. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002923</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1827-07-17" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -62,16 +79,16 @@
         <body>
             <div type="writingSession" n="1">
                 <pb n="1r"/>
-                <p>Indem ich Sie, theurer <lb/>Freund, um die Besor<lb/>gung
-                    dreier <placeName ref="https://www.geonames.org/2988507">Pariser</placeName>
+                <p>Indem ich Sie, theurer <lb/>Freund, um die Besor<lb break="no"/>gung
+                    dreier <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Pariser</placeName>
                     <lb/>Briefe bitte, ersuche <lb/>ich Sie zugleich den <lb/>Brief an Herrn
-                        <persName ref="http://d-nb.info/gnd/119526611">Gergonne</persName>
+                        <persName ref="https://editon-humboldt.de/H0013422 http://d-nb.info/gnd/119526611">Gergonne</persName>
                     <lb/>
-                    <hi rendition="#u">postfrei</hi> nach <placeName ref="https://www.geonames.org/2992166">Mont<lb/>peiller</placeName> zu besorgen<supplied cert="high">.</supplied>
+                    <hi rendition="#u">postfrei</hi> nach <placeName ref="https://editon-humboldt.de/H0008945 https://www.geonames.org/2992166">Mont<lb break="no"/>peiller</placeName> zu besorgen<supplied cert="high">.</supplied>
                     <lb/>Sezen Sie mir ja <lb/>für alle meine Briefe <lb/>eine runde Summe
                     <lb/>porto in Rechnung<supplied cert="high">.</supplied>
                     <lb/>Ich werde sonst <choice>
-                        <orig>auf<lb/>horen</orig>
+                        <orig>auf<lb break="no"/>horen</orig>
                         <reg>aufhören</reg>
                     </choice>
                     <choice>

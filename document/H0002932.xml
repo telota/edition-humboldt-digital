@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002932">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,39 +28,60 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Kunth, Carl Sigismund: E – Antisana, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002932">https://edition-humboldt.de/v8/H0002932</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002932</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002932</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002932.xml</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p> Das Blatt enthält eine Aufstellung von in circa 3000 bis 4000 Meter Höhe am Antisana
                         vorkommenden Pflanzen von der Hand Carl Sigismund Kunths. In seiner
-                            <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der
+                            <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe der Geographie der
                             Pflanzen</ref> trägt die Liste die Nummer 14 und die
                         Bezeichnung "Flor der Anden. Antisana (Sigle <ref xml:id="ed_vtt_1hx_1bb" type="siglum" target="#Geographie_der_Pflanzen_E">E</ref>)".
                         Möglicherweise bildet diese Zusammenstellung eine Vorstufe zur „Distributio
                         Geographica Plantarum Aequinoctialium Orbis Novi“, dem letzten, den
-                        Regionalfloren gewidmeten Abschnitt des 7. Bandes von <bibl corresp="https://edition-humboldt.de/v8/6A9ZSS73">Humboldt/Bonpland/Kunth
+                        Regionalfloren gewidmeten Abschnitt des 7. Bandes von <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth
                         1815–1825</bibl>. Dort findet sich die Flora Quitensis in der Quartausgabe
                         auf den Seiten 377–413 . Vgl. Sigle <ref xml:id="ed_w3n_xhx_1bb" type="siglum" target="#Geographie_der_Pflanzen_F">F</ref> .</p>
                 </note>
             </notesStmt> 
             <sourceDesc>
-                <bibl>E – Antisana. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002932</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 81a, Bl. 1–2</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1255570</idno>
+                            </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -73,7 +94,7 @@
                     <note place="left" hand="#author">
                         <ref xml:id="ed_l3f_s1b_fy" type="siglum" target="#Geographie_der_Pflanzen_E">E</ref>
                     </note>
-                    <placeName ref="https://www.geonames.org/3660594">
+                    <placeName ref="https://editon-humboldt.de/H0002477 https://www.geonames.org/3660594">
                         <hi rendition="#uu">Antisana</hi>
                     </placeName>
                 </p>
@@ -203,12 +224,12 @@
                             </choice>)</item>
                         <item>
                             <name type="plant">Fragosa crenata</name>
-                            <persName ref="http://d-nb.info/gnd/141829850">
+                            <persName ref="https://editon-humboldt.de/H0001131 http://d-nb.info/gnd/141829850">
                                 <choice>
                                     <abbr>R.</abbr>
                                     <expan>Ruiz</expan>
                                 </choice>
-                            </persName> &amp; <persName ref="http://d-nb.info/gnd/12476021X">
+                            </persName> &amp; <persName ref="https://editon-humboldt.de/H0001818 http://d-nb.info/gnd/12476021X">
                                 <choice>
                                     <abbr>P.</abbr>
                                     <expan>Pavón</expan>
@@ -246,7 +267,7 @@
                                     <sic>Montiana</sic>
                                     <corr cert="high">Montia</corr>
                                 </choice> fontana</name>
-                            <persName ref="http://d-nb.info/gnd/118573349">
+                            <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
                                 <choice>
                                     <abbr>L.</abbr>
                                     <expan>Linné</expan>
@@ -397,7 +418,7 @@
                             </choice>)</item>
                         <item>
                             <name type="plant">Racodium rupestre</name>
-                            <persName ref="http://d-nb.info/gnd/116091509">
+                            <persName ref="https://editon-humboldt.de/H0001891 http://d-nb.info/gnd/116091509">
                                 <choice>
                                     <abbr>Pers.</abbr>
                                     <expan>Persoon</expan>
@@ -411,7 +432,7 @@
                                 </hi>
                             </name>)</item>
                         <item>
-                            <name type="plant">Cenomyce vermicularis</name>. <persName ref="http://d-nb.info/gnd/128995211">
+                            <name type="plant">Cenomyce vermicularis</name>. <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>Ach.</abbr>
                                     <expan>Acharius</expan>
@@ -425,7 +446,7 @@
                         </item>
                         <item>
                             <name type="plant">Stereocaulon botryosum</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>Ach.</abbr>
                                     <expan>Acharius</expan>
@@ -439,7 +460,7 @@
                         </item>
                         <item>
                             <name type="plant">Usnea melanantha</name>
-                            <persName ref="http://d-nb.info/gnd/128995211">
+                            <persName ref="https://editon-humboldt.de/H0016387 http://d-nb.info/gnd/128995211">
                                 <choice>
                                     <abbr>Ach.</abbr>
                                     <expan>Acharius</expan>
@@ -454,7 +475,7 @@
                         <item>
                             <name type="plant">Polytrichum juniperinum</name>
                             <lb/>
-                            <persName ref="http://d-nb.info/gnd/130652865">
+                            <persName ref="https://editon-humboldt.de/H0011729 http://d-nb.info/gnd/130652865">
                                 <choice>
                                     <abbr>Hedw.</abbr>
                                     <expan>Hedwig</expan>
@@ -503,17 +524,17 @@
                     <note hand="#addressee" place="mBottom" rend="sticked">
                         <pb n="1r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367038/1200/0/00000003.jpg"/> neueste über <lb/>
                         <hi rendition="#u">
-                            <persName ref="http://d-nb.info/gnd/118793357">Pristleysche</persName>
+                            <persName ref="https://editon-humboldt.de/H0002189 http://d-nb.info/gnd/118793357">Pristleysche</persName>
                         </hi> materie <lb/>
-                        <persName ref="https://edition-humboldt.de/v8/H0013288">Gaillon</persName>, <persName ref="http://d-nb.info/gnd/116442921">Candolle</persName>
+                        <persName ref="https://editon-humboldt.de/H0013288">Gaillon</persName>, <persName ref="https://editon-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">Candolle</persName>
                         <unclear reason="illegible" cert="high">K</unclear>
                         <lb/>
-                        <bibl corresp="https://edition-humboldt.de/v8/AUJEUWAV">
+                        <bibl corresp="https://edition-humboldt.de/AUJEUWAV">
                             <choice>
                                 <abbr>Dict.</abbr>
                                 <expan>Dictionnaire</expan>
                             </choice> de <lb/>
-                            <persName ref="https://edition-humboldt.de/v8/H0002004">Pitois</persName>
+                            <persName ref="https://editon-humboldt.de/H0002004">Pitois</persName>
                             <choice>
                                 <abbr>T</abbr>
                                 <expan>Tome</expan>

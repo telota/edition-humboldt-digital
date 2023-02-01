@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001621">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Neva</title>
             </titleStmt>
+            <editionStmt>
+                <p>Neva [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001621.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001621.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001621.xml">
-                    <p>Neva [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001621.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0001621">
+                <place>
                     <idno type="uri">https://www.geonames.org/522422</idno>
                     <placeName type="reg">Neva</placeName>
                     <placeName type="alt">Néva</placeName>
                     <placeName type="alt">Newa</placeName>
                     <placeName type="alt">Нева</placeName>
-                    <note>Fluss, der vom <placeName key="H0011320">Ladogasee</placeName> durch <placeName key="H0008236">Sankt Petersburg</placeName> in die <placeName key="H0016252">Ostsee</placeName>
+                    <note>Fluss, der vom <placeName ref="https://editon-humboldt.de/H0011320 https://www.geonames.org/537232">Ladogasee</placeName> durch <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt Petersburg</placeName> in die <placeName ref="https://editon-humboldt.de/H0016252 https://www.geonames.org/2633321">Ostsee</placeName>
                         fließt</note>
                     <linkGrp>
                         <ptr target="30#24" type="letter"/>

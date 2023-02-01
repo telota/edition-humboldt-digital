@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015181">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -38,18 +38,25 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: O – Arbres fossiles, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015181">https://edition-humboldt.de/v8/H0015181</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015181</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015181</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015181.xml</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="editorial">
-                    <p>In der von Carl Sigismund Kunth zusammengestellten <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der Pflanzen</ref>
+                    <p>In der von Carl Sigismund Kunth zusammengestellten <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe der Geographie der Pflanzen</ref>
                         verweisen zwei Siglen auf Fragen der Vegetationsgeschichte. Das mit der
                         Sigle <ref xml:id="ed_uzr_fpw_1bb" type="siglum" target="#Geographie_der_Pflanzen_O">O</ref> markierte Blatt enthält
                         Exzerpte aus zwei russischen Veröffentlichungen über fossile Wälder in
@@ -57,15 +64,29 @@
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>O – Arbres fossiles. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0015181</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 82a, Bl. 7</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1255592</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date notBefore="1823-01-01" notAfter="1825-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -86,17 +107,17 @@
                     <choice>
                         <abbr>sept</abbr>
                         <expan>septentrionales</expan>
-                    </choice> de la <placeName ref="https://www.geonames.org/2017370">Russie</placeName>
-                    <supplied cert="high">,</supplied> surtout dans les <lb/>Gouvernements de <placeName ref="https://www.geonames.org/519336">Novogorod</placeName>, <placeName ref="https://www.geonames.org/480060">Twer</placeName>
+                    </choice> de la <placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russie</placeName>
+                    <supplied cert="high">,</supplied> surtout dans les <lb/>Gouvernements de <placeName ref="https://editon-humboldt.de/H0001718 https://www.geonames.org/519336">Novogorod</placeName>, <placeName ref="https://editon-humboldt.de/H0009614 https://www.geonames.org/480060">Twer</placeName>
                     <supplied cert="high">,</supplied>
                     <lb/>
-                    <placeName ref="https://www.geonames.org/472459">Wologda</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0007986 https://www.geonames.org/472459">Wologda</placeName>
                     <supplied cert="high">,</supplied> des masses immenses <lb/>de troncs de pins et de
                         chênes<supplied cert="high">,</supplied>
                     <lb/>généralement séparés de <choice>
                         <sic>leur</sic>
                         <corr cert="high">leurs</corr>
-                    </choice> ra<lb/>cines, quelquefois avec les raci<lb/>nes,
+                    </choice> ra<lb break="no"/>cines, quelquefois avec les raci<lb break="no"/>nes,
                     tous dirigés du <choice>
                         <abbr>N</abbr>
                         <expan>nord</expan>
@@ -118,10 +139,10 @@
                         <sic>charpentier</sic>
                         <corr cert="high">charpentiers</corr>
                     </choice>
-                    <supplied cert="high">,</supplied> mêlés d’osse<lb/>mens de
+                    <supplied cert="high">,</supplied> mêlés d’osse<lb break="no"/>mens de
                         mammouth<supplied cert="high">.</supplied>
-                    <bibl corresp="https://edition-humboldt.de/v8/HSGNEU5S">
-                        <persName ref="https://edition-humboldt.de/v8/H0001512">Kounizin</persName>
+                    <bibl corresp="https://edition-humboldt.de/HSGNEU5S">
+                        <persName ref="https://editon-humboldt.de/H0001512">Kounizin</persName>
                         <lb/>dans <choice>
                             <abbr>Bibl.</abbr>
                             <expan>Bibliothèque</expan>
@@ -139,21 +160,21 @@
                         <reg>À</reg>
                     </choice> lier avec blocs de granite <lb/>venant du Nord.</p>
                 <p>
-                    <note place="mBottom" hand="#author">et <ref xml:id="bb3d5417-dc3d-47d2-bd54-17dc3de7d254" corresp="#dae6877e-be71-491f-a687-7ebe71791f49">
-                            <persName ref="http://d-nb.info/gnd/117513601">Fleuriau</persName>
+                    <note place="mBottom" hand="#author">et <ref xml:id="f48b5b86-8733-4099-8b5b-868733f09991" corresp="#e80b3ee9-0a5a-4ec8-8b3e-e90a5a8ec842">
+                            <persName ref="https://editon-humboldt.de/H0000141 http://d-nb.info/gnd/117513601">Fleuriau</persName>
                             </ref>
-                        <note xml:id="dae6877e-be71-491f-a687-7ebe71791f49" corresp="#bb3d5417-dc3d-47d2-bd54-17dc3de7d254">vgl. <bibl corresp="https://edition-humboldt.de/v8/J64U2TSQ">Brongniart 1823</bibl>, 368–371.</note>
+                        <note xml:id="e80b3ee9-0a5a-4ec8-8b3e-e90a5a8ec842" corresp="#f48b5b86-8733-4099-8b5b-868733f09991">vgl. <bibl corresp="https://edition-humboldt.de/J64U2TSQ">Brongniart 1823</bibl>, 368–371.</note>
                     </note>
                     <lb/>
                 </p>
                 <p>
                     <pb n="7v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367062/1200/0/00000010.jpg"/>
-                    <ref xml:id="dd278034-15c6-470f-a780-3415c6870f97" corresp="#d3a6b5c5-32fd-4ef9-a6b5-c532fd1ef9b6">Punaises</ref>
-                    <note xml:id="d3a6b5c5-32fd-4ef9-a6b5-c532fd1ef9b6" corresp="#dd278034-15c6-470f-a780-3415c6870f97">Diese Notiz Humboldts bezieht sich auf eine 1821
+                    <ref xml:id="de131b1b-4c28-473f-931b-1b4c28173f7a" corresp="#b30f5edb-040c-4116-8f5e-db040c911697">Punaises</ref>
+                    <note xml:id="b30f5edb-040c-4116-8f5e-db040c911697" corresp="#de131b1b-4c28-473f-931b-1b4c28173f7a">Diese Notiz Humboldts bezieht sich auf eine 1821
                             im „Bazar Parisien“ erschienene Anzeige, die ein Mittel gegen Bettwanzen
                             (punaises) bewarb. Im Werbetext wurde behauptet, Humboldt sei der
                             Erfinder. Das Mittel wurde laut Anzeige von M. Mathieu, 5 Boulevard
-                            Bonne-Nouvelle vertrieben (vgl. <bibl corresp="https://edition-humboldt.de/v8/QBSJ3IJN">Malo 1821</bibl>, 282).</note>
+                            Bonne-Nouvelle vertrieben (vgl. <bibl corresp="https://edition-humboldt.de/QBSJ3IJN">Malo 1821</bibl>, 282).</note>
                 </p>
                 <p>
                     <choice>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014423">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Müller, Justus</title>
             </titleStmt>
+            <editionStmt>
+                <p>Müller, Justus [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0014423.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014423.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0014423.xml">
-                    <p>Müller, Justus [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0014423.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0014423">
+                <person>
                     <persName type="reg">
                         <surname>Müller</surname>
                         <forename>Justus</forename>
                     </persName>
                     <floruit notBefore="1783" notAfter="1783">1783</floruit>
                     <note>Besitzer des
-                        <?oxy_comment_start author="schnee" timestamp="20190201T114837+0100" comment="wo?"?>Hotels
-                        „Zum Einhorn“<?oxy_comment_end?>, das Hotel war auch als Poststation
+                        Hotels
+                        „Zum Einhorn“, das Hotel war auch als Poststation
                         bekannt</note>
                     <linkGrp>
                         <ptr target="26#84/85" type="page"/>

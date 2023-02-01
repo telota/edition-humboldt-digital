@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016558">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 10. Februar
+               1849, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016558">https://edition-humboldt.de/v8/H0016558</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016558</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016558</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016558.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 10. Februar
-               1849. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016558</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                            <idno type="shelfmark">gr. Kasten 11, Nr. 139</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1318547</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1849-02-10"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -67,7 +85,7 @@
                     <choice>
                   <abbr>kieselschal.</abbr>
                   <expan>kieselschaligen</expan>
-            </choice> Polygastren-<lb/>Lager da von <persName ref="http://d-nb.info/gnd/118693123">Fremont</persName>. <lb/>
+            </choice> Polygastren-<lb break="no"/>Lager da von <persName ref="https://editon-humboldt.de/H0000268 http://d-nb.info/gnd/118693123">Fremont</persName>. <lb/>
                     <choice>
                   <abbr>Aehnl.</abbr>
                   <expan>Aehnlichkeit</expan>
@@ -91,8 +109,10 @@
             <p>Die besseren Aussichten meines <lb/>Horizontes ermutigen mich <lb/>zur Hoffnung, daß
                auch morgen <lb/>ein Tag verständiger Wahlen <lb/>seyn werde. Möge es bey <lb/>Ihnen
                am weiteren Horizont <lb/>auch so seyn. Vor allem <lb/>mögen Sie gesund seyn.</p>
-            <p>Da Sie wohl des califor-<lb/>nischen Goldes halber
-               auch man-<lb/>che Unruhe durch allseitige <lb/>Fragen
+            <p>Da Sie wohl des califor<g ref="#typoHyphen"/>
+                    <lb break="no"/>nischen Goldes halber
+               auch man<g ref="#typoHyphen"/>
+                    <lb break="no"/>che Unruhe durch allseitige <lb/>Fragen
                haben, so melde ich <lb/>Ihnen das Curiosum<supplied cert="high">,</supplied> welches
                <lb/>mich seit einiger Zeit beschäftigt <lb/>hat.</p>
             <p>
@@ -100,20 +120,22 @@
                   <abbr>V</abbr>
                   <expan>Von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118749250">Raumer</persName> brachte 1844 für <lb/>
+               <persName ref="https://editon-humboldt.de/H0000752 http://d-nb.info/gnd/118749250">Raumer</persName> brachte 1844 für <lb/>
                     <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001AC3E00000002"/>mich einige
-               Erden aus Nordamer-<lb/>rika mit, unter anderen einen
+               Erden aus Nordamer<g ref="#typoHyphen"/>
+                    <lb break="no"/>rika mit, unter anderen einen
                <lb/>von Dana am Columbia River <lb/>im Oregon gefundenen Tripel. <lb/>Im Februar
                1845 (vor 4 Jahren) <lb/>theilte ich der Akademie mit, daß <lb/>dieses
                Infusorien-Gebilde nur <lb/>allein mit einem sibirischen <lb/>übereinstimmt<supplied cert="high">,</supplied> und zwar in vielen <lb/>sehr ausgezeichneten Formen.
                <lb/>Es sey eine Tertiär-Ablagerung <lb/>brakischer Natur.</p>
-            <p>Sonderbar ist es, daß Califor-<lb/>nien sammt Oregon
+            <p>Sonderbar ist es, daß Califor<g ref="#typoHyphen"/>
+                    <lb break="no"/>nien sammt Oregon
                auf der <lb/>ganzen Erde, auch im Golde, <lb/>nur mit Sibirien übereinstimmen
                <lb/>denn ich lese, daß der <choice>
                   <abbr>Lieut.</abbr>
                   <expan>Lieutnant</expan>
                </choice>
-               <persName ref="https://edition-humboldt.de/v8/H0016923">
+               <persName ref="https://editon-humboldt.de/H0016923">
                         <unclear reason="illegible" cert="low">Coeher</unclear>
                     </persName>
                <lb/>den Golddistrict bis nach Oregon <lb/>hin schon im <choice>
@@ -129,20 +151,24 @@
                <subst>
                   <del rendition="#s">9</del>
                   <add place="superlinear">10 und 11.</add>
-               </subst> ist die Ver-<lb/>gleichung mit Sibirien
+               </subst> ist die Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>gleichung mit Sibirien
                erörtert.</p>
-            <p>Außerdem erhielt ich vor <lb/>einiger Zeit durch die nordamerika-<lb/>nische Gesandtschaft (Herrn <persName ref="http://d-nb.info/gnd/134006089">Donelson</persName>) <lb/>Proben des merkwürdigsten aller <lb/>Polygastren Lager,
+            <p>Außerdem erhielt ich vor <lb/>einiger Zeit durch die nordamerika<g ref="#typoHyphen"/>
+                    <lb break="no"/>nische Gesandtschaft (Herrn <persName ref="https://editon-humboldt.de/H0012343 http://d-nb.info/gnd/134006089">Donelson</persName>) <lb/>Proben des merkwürdigsten aller <lb/>Polygastren Lager,
                welches <choice>
                   <abbr>Capit.</abbr>
                   <expan>Capitän</expan>
                </choice>
                <lb/>
-                    <persName ref="http://d-nb.info/gnd/118693123">Fremont</persName> 1845 beschrieben hat. (Re-<lb/>port of the exploring expedition to the Rocky
+                    <persName ref="https://editon-humboldt.de/H0000268 http://d-nb.info/gnd/118693123">Fremont</persName> 1845 beschrieben hat. (Re<g ref="#typoHyphen"/>
+                    <lb break="no"/>port of the exploring expedition to the Rocky
                <lb/>mountains. <choice>
                   <abbr>pag.</abbr>
                   <expan>pagina</expan>
                </choice> 200 und 302.) Es ist <lb/>500 Fuß mächtig und mit einem <lb/>200 Fuß hohen
-               Lager von dichtem Ba-<lb/>salt bedeckt. Dieses
+               Lager von dichtem Ba<g ref="#typoHyphen"/>
+                    <lb break="no"/>salt bedeckt. Dieses
                mächtigste aller <lb/>bekannten Lager von <hi rendition="#u">reinen
                   kieselschaligen</hi>
                <lb/>
@@ -157,8 +183,10 @@
                </choice>
                <lb/>Ich habe 84 Species daraus bestimmt<supplied cert="high">.</supplied>
                <lb/>Es sind meist weit verbreitete Tertiär <lb/>Formen, keine sibirischen
-                  Charakter-<lb/>formen. Daher scheint dieses Lager
-               <lb/>am oberen Columbia nicht gleichzei-<lb/>
+                  Charakter<g ref="#typoHyphen"/>
+                    <lb break="no"/>formen. Daher scheint dieses Lager
+               <lb/>am oberen Columbia nicht gleichzei<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="2v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001AC3E00000004"/>tig
                mit dem eben da unterhalb <lb/>von Dana gefundenen zu seyn.</p>
             <p>Wie ist es möglich, daß sich so <lb/>ungeheure <hi rendition="#uu">Süßwasser</hi>-<hi rendition="#u">Bildungen</hi>
@@ -167,10 +195,12 @@
                   10 – 50 <lb/>Fuß mächtig.</add>
                 </p>
             <p>
-                    <persName ref="http://viaf.org/viaf/43213806/">Bailey</persName> hat schon in <persName ref="http://d-nb.info/gnd/118693123">Fremonts</persName>
-               <lb/>Reise einige Arten (23) verzeichnet, <lb/>aber nicht richtig benannt und un-<lb/>kenntlich abgebildet.</p>
+                    <persName ref="https://editon-humboldt.de/H0003036 http://viaf.org/viaf/43213806/">Bailey</persName> hat schon in <persName ref="https://editon-humboldt.de/H0000268 http://d-nb.info/gnd/118693123">Fremonts</persName>
+               <lb/>Reise einige Arten (23) verzeichnet, <lb/>aber nicht richtig benannt und un<g ref="#typoHyphen"/>
+                    <lb break="no"/>kenntlich abgebildet.</p>
             <p>Die Formen-Mischung und <lb/>die Hauptformen, welche die Masse <lb/>bilden sind auch
-               im Biliner, Casse-<lb/>ler und Eifeler Polirschiefer
+               im Biliner, Casse<g ref="#typoHyphen"/>
+                    <lb break="no"/>ler und Eifeler Polirschiefer
                <lb/>herrschend. Einige, nicht viele <lb/>Daten sind characteristisch.
                <lb/>Vielleicht schickt man mir <lb/>aus Califorien selbst auch Erden <lb/>zu.</p>
             <closer rend="paragraph">

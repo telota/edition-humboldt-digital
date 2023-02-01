@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017682">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -25,33 +25,57 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: Reise. 1790. England. [= Tagebuch der England-Reise], hg. v. Dominik Erdmann und Christian Thomas unter Mitarbeit von Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0017682">https://edition-humboldt.de/v8/H0017682</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0017682</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0017682</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017682.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Reise. 1790. England. [= Tagebuch der England-Reise]. In: Alexander von Humboldt auf Reisen – Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0017682</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <repository/>
+                        <collection>Sammlung Autographa: Humboldt, Alexander v., Radowitz (Staatsbibliothek zu Berlin – Preußischer Kulturbesitz, derzeit in der Biblioteka Jagiellońska, Kraków)</collection>
+                        <idno>
+                            <idno type="shelfmark">Nr. 6255</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/9PZUBNH7">Bruhns 1872, I,
+                            290–292 (Teildruck).</bibl>
+                    </witness>
+                    <witness>
+                        <bibl n="2" xml:id="koelbel-et-al">
+                            <bibl corresp="https://edition-humboldt.de/6KP5C737">Kölbel et al. 2008</bibl>, 16–21 (Vorlage).</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>travel-journal</textClass>
+            <textClass>
+                <keywords>
+                    <term>travel-journal</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 <date notBefore="1790-06-07" calendar="#gregorian" cert="high"/>
             </creation>
         </profileDesc>
-        <revisionDesc status="basis+">
-            <listChange>
-                <change when="2022-04-25" who="Christian Thomas">Editionsstufe hinzugefügt:
-                    Basis+</change>
-            </listChange>
-        </revisionDesc>
+        
     </teiHeader>
     <text>
         <body>
@@ -60,12 +84,12 @@
                 
                 <head>Reise. <date when="1790" calendar="#gregorian">1790</date>. <lb/>
                     <note hand="#unknown">
-                        <ref xml:id="f902e204-0878-4d31-82e2-0408780d317a" corresp="#bd5327f3-75bf-46e9-9327-f375bf86e91e">6255</ref>
-                        <note xml:id="bd5327f3-75bf-46e9-9327-f375bf86e91e" corresp="#f902e204-0878-4d31-82e2-0408780d317a">Handschriftliche Notiz,
+                        <ref xml:id="dc89a59d-8d65-4b3a-89a5-9d8d65db3a28" corresp="#acc26160-4836-4e5a-8261-604836ee5a77">6255</ref>
+                        <note xml:id="acc26160-4836-4e5a-8261-604836ee5a77" corresp="#dc89a59d-8d65-4b3a-89a5-9d8d65db3a28" resp="#CT #DE">Handschriftliche Notiz,
                                 Bleistift v. fr. H.: Altsignatur der Sammlung
                                 Radowitz/Archivsignatur.</note>
                     </note>
-                    <placeName ref="https://www.geonames.org/6269131">England</placeName>.</head>
+                    <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>.</head>
                 <pb facs="#f0002" n="[1v]"/>
                 
                 <gap unit="pages" quantity="1" reason="empty"/>
@@ -73,24 +97,24 @@
                 <fw type="folNum">1.</fw>
                 <div type="diaryEntry">
                     <head>
-                        <ref xml:id="a21750a6-ff8d-4ca4-9750-a6ff8dcca4fe" corresp="#abcb5feb-230f-42b4-8b5f-eb230f82b4cc">
+                        <ref xml:id="ae4344e3-4dbe-4977-8344-e34dbe29776e" corresp="#e24bea15-2a20-43f1-8bea-152a2093f1a6">
                             <date when="1790-06-07" calendar="#gregorian">
                                 <hi rendition="#u">
                                     <hi rendition="#aq">
-                                        <placeName ref="https://www.geonames.org/2633868">Wiltshire</placeName>
+                                        <placeName ref="https://editon-humboldt.de/H0017265 https://www.geonames.org/2633868">Wiltshire</placeName>
                                     </hi>
                                 </hi>
                             </date>
                         </ref>
-                        <note xml:id="abcb5feb-230f-42b4-8b5f-eb230f82b4cc" corresp="#a21750a6-ff8d-4ca4-9750-a6ff8dcca4fe">Die Datierung der einzelnen
-                                Einträge des Journals folgt <bibl corresp="https://edition-humboldt.de/v8/6KP5C737">Kölbel et al. 2008</bibl>, 14. Die Daten geben den Tag an, an
-                                dem Humboldt und <persName ref="http://d-nb.info/gnd/118534416">Forster</persName> am
+                        <note xml:id="e24bea15-2a20-43f1-8bea-152a2093f1a6" corresp="#ae4344e3-4dbe-4977-8344-e34dbe29776e" resp="#CT #DE">Die Datierung der einzelnen
+                                Einträge des Journals folgt <bibl corresp="https://edition-humboldt.de/6KP5C737">Kölbel et al. 2008</bibl>, 14. Die Daten geben den Tag an, an
+                                dem Humboldt und <persName ref="https://editon-humboldt.de/H0000177 http://d-nb.info/gnd/118534416">Forster</persName> am
                                 fraglichen Ort eingetroffen sind, d. h. nicht unbedingt jenes Datum,
                                 an dem Humboldt den entsprechenden Eintrag verfasst oder begonnen
                                 hat.</note>
                     </head>
                     <p>Viel Tuchmanufakturen in <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2633868">
+                            <placeName ref="https://editon-humboldt.de/H0017265 https://www.geonames.org/2633868">
                                 <choice>
                                     <abbr>Wiltsh.</abbr>
                                     <expan>Wiltshire</expan>
@@ -116,15 +140,15 @@
                                 <lb/>
                                 <add place="left">
                                     <hi rendition="#aq">Welch
-                                        per lb. <ref xml:id="a071d8ec-e893-4931-b1d8-ece8935931a9" corresp="#dd5a7a65-c0ac-4f2c-9a7a-65c0ac7f2cef">1s. 3d.</ref>
-                                        <note xml:id="dd5a7a65-c0ac-4f2c-9a7a-65c0ac7f2cef" corresp="#a071d8ec-e893-4931-b1d8-ece8935931a9">Bis 1971 wurde für Penny die Abkürzung „d“ (lat.
+                                        per lb. <ref xml:id="edf6e47c-4c92-404b-b6e4-7c4c92404b2f" corresp="#a8b3b402-d963-41fc-b3b4-02d96321fcbe">1s. 3d.</ref>
+                                        <note xml:id="a8b3b402-d963-41fc-b3b4-02d96321fcbe" corresp="#edf6e47c-4c92-404b-b6e4-7c4c92404b2f" resp="#koelbel-et-al #CT">Bis 1971 wurde für Penny die Abkürzung „d“ (lat.
                                                 denarius) verwendet. „s.“ steht demnach für
-                                                Shilling, zur Transkription vgl. auch <bibl corresp="https://edition-humboldt.de/v8/9PZUBNH7">Bruhns
+                                                Shilling, zur Transkription vgl. auch <bibl corresp="https://edition-humboldt.de/9PZUBNH7">Bruhns
                                                   1872</bibl>, I, 290.</note>
-                                        <placeName ref="https://www.geonames.org/2637439">South Down</placeName> 1s. 2d.
+                                        <placeName ref="https://editon-humboldt.de/H0017410 https://www.geonames.org/2637439">South Down</placeName> 1s. 2d.
                                             <lb/>
-                                        <placeName ref="https://www.geonames.org/11609041">Norfolk</placeName> 1s.
-                                        <lb/>1d. <placeName ref="https://www.wikidata.org/wiki/Q1344070">West
+                                        <placeName ref="https://editon-humboldt.de/H0017223 https://www.geonames.org/11609041">Norfolk</placeName> 1s.
+                                        <lb/>1d. <placeName ref="https://editon-humboldt.de/H0017262 https://www.wikidata.org/wiki/Q1344070">West
                                             <lb/>Country</placeName> 8d<supplied>.</supplied>
                                         <lb/>halfpen̅y</hi>.</add>
                             </p>
@@ -140,8 +164,9 @@
                                     <orig>Wollene</orig>
                                     <reg>wollene</reg>
                                 </choice> Zeuge <lb/>zu <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/2633858">Winchester</placeName>
-                                </hi> ge-<lb/>macht wurden <choice>
+                                    <placeName ref="https://editon-humboldt.de/H0017266 https://www.geonames.org/2633858">Winchester</placeName>
+                                </hi> ge<g ref="#typoHyphen"/>
+                                <lb break="no"/>macht wurden <choice>
                                     <abbr>S.</abbr>
                                     <expan>Siehe</expan>
                                 </choice>
@@ -151,12 +176,14 @@
                                         <expan>Doctor</expan>
                                     </choice>
                                     <lb/>
-                                    <persName ref="http://d-nb.info/gnd/117660949">Anderson</persName>
+                                    <persName ref="https://editon-humboldt.de/H0016931 http://d-nb.info/gnd/117660949">Anderson</persName>
                                 </hi>
-                                <del rendition="#s">’s</del> im <bibl corresp="https://edition-humboldt.de/v8/7ZSC2MUP">
+                                <del rendition="#s">’s</del> im <bibl corresp="https://edition-humboldt.de/7ZSC2MUP">
                                     <hi rendition="#aq">report <lb/>of the Comittee of <lb/>the
-                                        highland Socie-<lb/>ty, to
-                                        whom the sub-<lb/>ject of
+                                        highland Socie<g ref="#typoHyphen"/>
+                                        <lb break="no"/>ty, to
+                                        whom the sub<g ref="#typoHyphen"/>
+                                        <lb break="no"/>ject of
                                         Shetland <lb/>Wool was <subst>
                                             <del rendition="#s">committed</del>
                                             <lb/>
@@ -166,53 +193,60 @@
                             </p>
                         </note>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2648402">
+                            <placeName ref="https://editon-humboldt.de/H0017194 https://www.geonames.org/2648402">
                                 <choice>
                                     <abbr>Glocestersh.</abbr>
                                     <expan>Glocestershire</expan>
                                 </choice>
                             </placeName>
                         </hi> und <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2637532">
+                            <placeName ref="https://editon-humboldt.de/H0017407 https://www.geonames.org/2637532">
                                 <choice>
                                     <abbr>Sommersetsh.</abbr>
                                     <expan>Sommersetshire</expan>
                                 </choice>
                             </placeName>
-                        </hi>, be-<lb/>sonders um <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2656173">Bath</placeName>
+                        </hi>, be<g ref="#typoHyphen"/>
+                        <lb break="no"/>sonders um <hi rendition="#aq">
+                            <placeName ref="https://editon-humboldt.de/H0005168 https://www.geonames.org/2656173">Bath</placeName>
                         </hi> in <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2635427">Trow-<lb/>bridge</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017604 https://www.geonames.org/2635427">Trow<g ref="#typoHyphen"/>
+                                <lb break="no"/>bridge</placeName>
                         </hi> und <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2654991">Bradford</placeName>
-                        </hi>. Die Schaa-<lb/>fe in diesen <choice>
+                            <placeName ref="https://editon-humboldt.de/H0017568 https://www.geonames.org/2654991">Bradford</placeName>
+                        </hi>. Die Schaa<g ref="#typoHyphen"/>
+                        <lb break="no"/>fe in diesen <choice>
                             <abbr>südwestl.</abbr>
                             <expan>südwestlichen</expan>
-                        </choice> Grafschaf-<lb/>ten sind
+                        </choice> Grafschaf<g ref="#typoHyphen"/>
+                        <lb break="no"/>ten sind
                         zweischürig, in <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2644667">Leicester-</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017244 https://www.geonames.org/2644667">Leicester-</placeName>
                         </hi>
                         <supplied>,</supplied>
                         <lb/>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2644486">Lincoln-</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017249 https://www.geonames.org/2644486">Lincoln-</placeName>
                         </hi>
                         <choice>
                             <abbr>ud</abbr>
                             <expan>und</expan>
                         </choice>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2634723">Warwickshire</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017259 https://www.geonames.org/2634723">Warwickshire</placeName>
                         </hi>
-                        aber <lb/>größtentheils einschürig. Die Fär-<lb/>ber drängen sich alle an den <lb/>
+                        aber <lb/>größtentheils einschürig. Die Fär<g ref="#typoHyphen"/>
+                        <lb break="no"/>ber drängen sich alle an den <lb/>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2656744">Avon</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017294 https://www.geonames.org/2656744">Avon</placeName>
                         </hi>, dessen reines
                         Wasser zum <lb/>Färben von vorzüglicher Güte <lb/>ist.</p>
-                    <p>Es fehlt noch immer an genau-<lb/>en <choice>
+                    <p>Es fehlt noch immer an genau<g ref="#typoHyphen"/>
+                        <lb break="no"/>en <choice>
                             <abbr>chem.</abbr>
                             <expan>chemischen</expan>
-                        </choice> Untersuchungen über <lb/>den Einfluß <add place="intralinear" hand="#author">verschiedener</add> Wasser-<lb/>arten beim Färben, Bierbrauung<supplied>.</supplied>
+                        </choice> Untersuchungen über <lb/>den Einfluß <add place="intralinear" hand="#author">verschiedener</add> Wasser<g ref="#typoHyphen"/>
+                        <lb break="no"/>arten beim Färben, Bierbrauung<supplied>.</supplied>
                         <lb/>Es ist eben so unverständig<supplied>,</supplied>
                         <lb/>den Vorzug des <choice>
                             <abbr>engl.</abbr>
@@ -230,7 +264,8 @@
                             <abbr>engl.</abbr>
                             <expan>englischen</expan>
                         </choice>
-                        <lb/>Wasser zuzuschreiben, als es vor-<lb/>eilig ist den Einfluß des Wassers, <lb/>
+                        <lb/>Wasser zuzuschreiben, als es vor<g ref="#typoHyphen"/>
+                        <lb break="no"/>eilig ist den Einfluß des Wassers, <lb/>
                         <choice>
                             <abbr>d.</abbr>
                             <expan>der</expan>
@@ -246,34 +281,35 @@
                         <lb/>für die es keine <unclear reason="illegible" cert="high" resp="#CT">Messer</unclear> giebt, <lb/>im Spiel sind, abzuleugnen.</p>
                     <p>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/7296259">Chippenham</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017326 https://www.geonames.org/7296259">Chippenham</placeName>
                         </hi> war
                             <del rendition="#s">
                             <unclear reason="illegible" cert="low" resp="#CT">fürst</unclear>
                         </del>
-                        <lb/>die Residenz <persName ref="http://d-nb.info/gnd/118637681">Alfreds <choice>
+                        <lb/>die Residenz <persName ref="https://editon-humboldt.de/H0016965 http://d-nb.info/gnd/118637681">Alfreds <choice>
                                 <abbr>d.</abbr>
                                 <expan>des</expan>
-                        </choice> Gro-<lb/>ßen.</persName>
+                        </choice> Gro<g ref="#typoHyphen"/>
+                            <lb break="no"/>ßen.</persName>
                         <note hand="#author" place="overleaf">
-                            <ref xml:id="f788e608-fefa-4775-88e6-08fefa277584" corresp="#affab511-9707-483a-bab5-119707183a87">Alfred entriß 884 <lb/>den Dänen <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/2639267">Rochester</placeName>
+                            <ref xml:id="beaf93c0-9e67-486a-af93-c09e67886a86" corresp="#fd8cff32-da8b-41ed-8cff-32da8b11edad">Alfred entriß 884 <lb/>den Dänen <hi rendition="#aq">
+                                    <placeName ref="https://editon-humboldt.de/H0017182 https://www.geonames.org/2639267">Rochester</placeName>
                                 </hi>
                                     <lb/>und <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/2643743">London</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>
                                 </hi>.</ref>
-                            <note xml:id="affab511-9707-483a-bab5-119707183a87" corresp="#f788e608-fefa-4775-88e6-08fefa277584">Die Angabe 884 ist
-                                    offensichtlich nicht korrekt, <persName ref="http://d-nb.info/gnd/118637681">Alfred</persName> eroberte 886 London.</note>
+                            <note xml:id="fd8cff32-da8b-41ed-8cff-32da8b11edad" corresp="#beaf93c0-9e67-486a-af93-c09e67886a86" resp="#koelbel-et-al">Die Angabe 884 ist
+                                    offensichtlich nicht korrekt, <persName ref="https://editon-humboldt.de/H0016965 http://d-nb.info/gnd/118637681">Alfred</persName> eroberte 886 London.</note>
                         </note> Ueberhaupt scheint damals <lb/>der <choice>
                             <abbr>westl.</abbr>
                             <expan>westliche</expan>
-                        </choice> Theil von <placeName ref="https://www.geonames.org/6269131">England</placeName>
+                        </choice> Theil von <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>
                         <lb/>der angebautere gewesen zu <lb/>sein. Jetzt hat sich die <lb/>Kultur
                         ganz gegen Osten <lb/>gezogen. War das ältere <lb/>Verhältniß nicht
                         natürlicher, <lb/>da die Einfahrt in den <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/6640393">Bristol <lb/>Channel</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017571 https://www.geonames.org/6640393">Bristol <lb/>Channel</placeName>
                         </hi> bequemer, als
-                        die in <lb/>die <placeName ref="https://www.geonames.org/2636063">Themse</placeName>, <subst>
+                        die in <lb/>die <placeName ref="https://editon-humboldt.de/H0009364 https://www.geonames.org/2636063">Themse</placeName>, <subst>
                             <del rendition="#s">ist</del>
                             <add place="superlinear">da</add>
                         </subst>
@@ -282,65 +318,71 @@
                             <expan>westliche</expan>
                         </choice>
                         <lb/>
-                        <placeName ref="https://www.geonames.org/6269131">England</placeName> an Ausfuhrprodukten
+                        <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName> an Ausfuhrprodukten
                         <lb/>reicher, die Kommunikation <lb/>mit <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2963597">Ireland</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0006720 https://www.geonames.org/2963597">Ireland</placeName>
                         </hi> näher und <lb/>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2642534">Milford</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017442 https://www.geonames.org/2642534">Milford</placeName>
                         </hi> ein
                         sicherer Hafen <lb/>für die Flotte als <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2639996">Ports-<lb/>mouth</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008381 https://www.geonames.org/2639996">Ports<g ref="#typoHyphen"/>
+                                <lb break="no"/>mouth</placeName>
                         </hi> ist? Allerdings. Aber das <lb/>auswärtige
-                        Interesse gab al-<lb/>lem eine
-                        entgegengesezte Rich<lb/>tung. Der flämische Handel <lb/>
+                        Interesse gab al<g ref="#typoHyphen"/>
+                        <lb break="no"/>lem eine
+                        entgegengesezte Rich<lb break="no"/>tung. Der flämische Handel <lb/>
                         <pb facs="#f0005" n="[3r]"/>
-                        <fw type="folNum">3.</fw> machte die Schiffarth im <placeName ref="https://www.geonames.org/2649991">Kanale</placeName>
-                        <lb/>lebhaft, das <orgName ref="http://d-nb.info/gnd/4200144-4">Contoir der Hanse <lb/>in <hi rendition="#aq">London</hi>
+                        <fw type="folNum">3.</fw> machte die Schiffarth im <placeName ref="https://editon-humboldt.de/H0002557 https://www.geonames.org/2649991">Kanale</placeName>
+                        <lb/>lebhaft, das <orgName ref="https://editon-humboldt.de/H0016796 http://d-nb.info/gnd/4200144-4">Contoir der Hanse <lb/>in <hi rendition="#aq">London</hi>
                         </orgName> brachte diese Stadt <lb/>empor, die <choice>
                             <abbr>engl.</abbr>
                             <expan>englische</expan>
-                        </choice> Wolle ging <lb/>nun von da aus, die unauf-<lb/>hörlichen Zwistigkeiten– mit <placeName ref="https://www.geonames.org/3017382">Frank-<lb/>reich</placeName>
+                        </choice> Wolle ging <lb/>nun von da aus, die unauf<g ref="#typoHyphen"/>
+                        <lb break="no"/>hörlichen Zwistigkeiten– mit <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">Frank<g ref="#typoHyphen"/>
+                            <lb break="no"/>reich</placeName>
                         machten eine Flotte und <lb/>also auch einen Hafen im <lb/>
-                        <placeName ref="https://www.geonames.org/2649991">Kanale</placeName> nothwendig, die Barbarei <lb/>in
-                        welcher <placeName ref="https://www.geonames.org/2649991">Ireland</placeName> so spät <lb/>noch lag,
+                        <placeName ref="https://editon-humboldt.de/H0002557 https://www.geonames.org/2649991">Kanale</placeName> nothwendig, die Barbarei <lb/>in
+                        welcher <placeName ref="https://editon-humboldt.de/H0002557 https://www.geonames.org/2649991">Ireland</placeName> so spät <lb/>noch lag,
                         ließ
                         das natürliche
-                        <lb/>Handelsverkehr zwischen <placeName ref="https://www.geonames.org/6269131">Eng-<lb/>land</placeName> und <placeName ref="https://www.geonames.org/2963597">Ireland</placeName> nicht auf-<lb/>blühen … … .</p>
+                        <lb/>Handelsverkehr zwischen <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">Eng<g ref="#typoHyphen"/>
+                            <lb break="no"/>land</placeName> und <placeName ref="https://editon-humboldt.de/H0006720 https://www.geonames.org/2963597">Ireland</placeName> nicht auf<g ref="#typoHyphen"/>
+                        <lb break="no"/>blühen … … .</p>
                 </div>
                 <div type="diaryEntry">
                     <head>
                         <date when="1790-06-07" calendar="#gregorian">
                             <hi rendition="#u">
                                 <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/2637532">Sommersetshire</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0017407 https://www.geonames.org/2637532">Sommersetshire</placeName>
                                 </hi>
                             </hi>
                         </date>
                     </head>
                     <p>
-                        <ref xml:id="fc18412d-923f-4c20-9841-2d923f6c20c5" corresp="#dd7c4ca7-f9d2-4be3-bc4c-a7f9d20be366">
+                        <ref xml:id="fbeb1e87-8906-41ff-ab1e-878906b1ffdc" corresp="#fb5a5ac0-4c2f-4fa4-9a5a-c04c2fdfa44c">
                             <hi rendition="#aq">
                                 <name type="plant">Dipsacus
                                     sylvestris</name>
                             </hi>
                         </ref>
-                        <note xml:id="dd7c4ca7-f9d2-4be3-bc4c-a7f9d20be366" corresp="#fc18412d-923f-4c20-9841-2d923f6c20c5">Dipsacus sylvestris:
+                        <note xml:id="fb5a5ac0-4c2f-4fa4-9a5a-c04c2fdfa44c" corresp="#fbeb1e87-8906-41ff-ab1e-878906b1ffdc" resp="#koelbel-et-al">Dipsacus sylvestris:
                                 Wilde Karde, die Art entspricht heute teilweise der Dipsacus
                                 fullonum.</note>, <hi rendition="#aq">
-                            <ref xml:id="a7301372-4a89-4dd0-b013-724a894dd028" corresp="#f504abc7-48d7-4e0a-84ab-c748d7ce0af8">
+                            <ref xml:id="ad05693f-0af4-456a-8569-3f0af4456a28" corresp="#a07f8d9a-eebc-4aea-bf8d-9aeebc9aea74">
                                 <name type="plant">
                                     <choice>
                                             <abbr>D.</abbr>
                                             <expan>Dipsacus</expan>
                                         </choice> fullonum</name>
                             </ref>
-                            <note xml:id="f504abc7-48d7-4e0a-84ab-c748d7ce0af8" corresp="#a7301372-4a89-4dd0-b013-724a894dd028">Dipsacus fullonum:
+                            <note xml:id="a07f8d9a-eebc-4aea-bf8d-9aeebc9aea74" corresp="#ad05693f-0af4-456a-8569-3f0af4456a28" resp="#koelbel-et-al">Dipsacus fullonum:
                                     Weberkarde, die Art entspricht heute teilweise der Dipsacus
                                     sativus = Weberkarde.</note>
                         </hi>
                         <lb/>und wenn ich recht gesehen, auch <lb/>
-                        <ref xml:id="cfa0a838-1aa9-46a0-a0a8-381aa956a026" corresp="#a2d5c375-b6a5-42ca-95c3-75b6a532cab8">
+                        <ref xml:id="b0858bab-6346-4de4-858b-ab6346ede4ac" corresp="#fe34594b-c1b6-4eba-b459-4bc1b6aebafa">
                             <name type="plant">
                                 <hi rendition="#aq">
                                     <choice>
@@ -349,24 +391,27 @@
                                         </choice> laciniatus</hi>
                             </name>
                         </ref>
-                        <note xml:id="a2d5c375-b6a5-42ca-95c3-75b6a532cab8" corresp="#cfa0a838-1aa9-46a0-a0a8-381aa956a026">Dipsacus
+                        <note xml:id="fe34594b-c1b6-4eba-b459-4bc1b6aebafa" corresp="#b0858bab-6346-4de4-858b-ab6346ede4ac" resp="#koelbel-et-al #DE">Dipsacus
                                 laciniatus: gelappte oder Schlitzblatt-Karde. Sie ähnelt der Wilden
                                 Karde (Dipsacus fullonum).</note> wachsen in <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2637532">
+                            <placeName ref="https://editon-humboldt.de/H0017407 https://www.geonames.org/2637532">
                                 <choice>
-                                    <abbr>Som-<lb/>mersetsh.</abbr>
-                                    <expan>Som-<lb/>mersetshire</expan>
+                                    <abbr>Som<g ref="#typoHyphen"/>
+                                        <lb break="no"/>mersetsh.</abbr>
+                                    <expan>Som<g ref="#typoHyphen"/>
+                                        <lb break="no"/>mersetshire</expan>
                                 </choice>
                             </placeName>
                         </hi> und <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2648402">
+                            <placeName ref="https://editon-humboldt.de/H0017194 https://www.geonames.org/2648402">
                                 <choice>
                                     <abbr>Glocestersh.</abbr>
                                     <expan>Glocestershire</expan>
                                 </choice>
                             </placeName>
                         </hi> wild. <lb/>
-                        <persName ref="http://d-nb.info/gnd/118573349">Linne</persName> hielt gewiß mit Un-<lb/>recht <ref xml:id="f42e1e91-a489-4237-ae1e-91a489123769" corresp="#a683b323-fd6e-4ebc-83b3-23fd6ecebca3">
+                        <persName ref="https://editon-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Linne</persName> hielt gewiß mit Un<g ref="#typoHyphen"/>
+                        <lb break="no"/>recht <ref xml:id="cad274f2-4b4b-4831-9274-f24b4b3831d5" corresp="#adeb434c-ff37-4931-ab43-4cff372931e8">
                             <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
@@ -382,11 +427,11 @@
                                     <abbr>Tuchmanufakt.</abbr>
                                     <expan>Tuchmanufaktur</expan>
                                 </choice> so wichtig ist</ref>
-                        <note xml:id="a683b323-fd6e-4ebc-83b3-23fd6ecebca3" corresp="#f42e1e91-a489-4237-ae1e-91a489123769">Die Blütenköpfe von Dipsacus
+                        <note xml:id="adeb434c-ff37-4931-ab43-4cff372931e8" corresp="#cad274f2-4b4b-4831-9274-f24b4b3831d5" resp="#FS">Die Blütenköpfe von Dipsacus
                                 fullonum wurden zum Aufrauen von Wollstoffen genutzt.</note>, für <lb/>
                         <pb facs="#f0006" n="[3v]"/>
                         <fw type="folNum">4.</fw>
-                        <ref xml:id="d11ee1da-05e0-4917-9ee1-da05e0a9179b" corresp="#da783b94-0e0a-4d1e-b83b-940e0a6d1e1d">eine bloße Abart von <hi rendition="#aq">
+                        <ref xml:id="f93d54af-8210-499b-bd54-af8210799bf0" corresp="#edf62296-f5c7-4743-b622-96f5c7e743c3">eine bloße Abart von <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
                                             <abbr>D.</abbr>
@@ -395,7 +440,7 @@
                                         <lb/>sylvestris</name>
                                 </hi>
                         </ref>
-                        <note xml:id="da783b94-0e0a-4d1e-b83b-940e0a6d1e1d" corresp="#d11ee1da-05e0-4917-9ee1-da05e0a9179b">Vgl. <bibl corresp="https://edition-humboldt.de/v8/9P4MAPB3">Linné 1753</bibl>, I, 97.</note>. S. <persName ref="http://d-nb.info/gnd/104196254">Roth</persName>s <bibl corresp="https://edition-humboldt.de/v8/DDKGXXAE">
+                        <note xml:id="edf62296-f5c7-4743-b622-96f5c7e743c3" corresp="#f93d54af-8210-499b-bd54-af8210799bf0" resp="#FS">Vgl. <bibl corresp="https://edition-humboldt.de/9P4MAPB3">Linné 1753</bibl>, I, 97.</note>. S. <persName ref="https://editon-humboldt.de/H0016820 http://d-nb.info/gnd/104196254">Roth</persName>s <bibl corresp="https://edition-humboldt.de/DDKGXXAE">
                             <choice>
                                 <abbr>Bot.</abbr>
                                 <expan>Botanische</expan>
@@ -414,7 +459,7 @@
                                 <expan>fullonum</expan>
                             </choice>
                         </name> in <lb/>
-                        <placeName ref="https://www.geonames.org/6269131">England</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>
                         einheimisch <choice>
                             <abbr>od.</abbr>
                             <expan>oder</expan>
@@ -422,73 +467,76 @@
                             <abbr>Tuchmanufakt.</abbr>
                             <expan>Tuchmanufakturen</expan>
                         </choice>
-                        <lb/>verstreut sei, entscheide ich nicht. <lb/>In <placeName ref="https://www.geonames.org/2921044">Deutschland</placeName> ist das eben <lb/>so
+                        <lb/>verstreut sei, entscheide ich nicht. <lb/>In <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName> ist das eben <lb/>so
                             zweifelhaft<supplied>.</supplied>
-                        <bibl corresp="https://edition-humboldt.de/v8/IGP4ZCEN">Roth <hi rendition="#aq">Flor. ger-<lb/>man. II</hi>
+                        <bibl corresp="https://edition-humboldt.de/IGP4ZCEN">Roth <hi rendition="#aq">Flor. ger<g ref="#typoHyphen"/>
+                                <lb break="no"/>man. II</hi>
                                 p<supplied>.</supplied> 162</bibl>.</p>
-                    <p>Die Grafschaft enthält <ref xml:id="eb8cf328-4e34-4892-8cf3-284e34689270" corresp="#cae7bf15-5db9-4382-a7bf-155db9338260">
-                            <name type="mineral">Gal-<lb/>mei</name>
+                    <p>Die Grafschaft enthält <ref xml:id="e74c416a-2aba-4a3b-8c41-6a2abaaa3b8b" corresp="#cae4307b-a6f5-4a85-a430-7ba6f53a8586">
+                            <name type="mineral">Gal<g ref="#typoHyphen"/>
+                                <lb break="no"/>mei</name>
                         </ref>
-                        <note xml:id="cae7bf15-5db9-4382-a7bf-155db9338260" corresp="#eb8cf328-4e34-4892-8cf3-284e34689270">Galmei: bergmännische
+                        <note xml:id="cae4307b-a6f5-4a85-a430-7ba6f53a8586" corresp="#e74c416a-2aba-4a3b-8c41-6a2abaaa3b8b" resp="#koelbel-et-al">Galmei: bergmännische
                                 Bezeichnung für Zinkerze, z. B. Zinkspat. Die Bezeichnung dieser
-                                Erze findet sich bereits bei <persName ref="http://d-nb.info/gnd/118767089">A. G.
-                                    Werner</persName>.</note>, <ref xml:id="d176a02b-7bc7-4dc8-b6a0-2b7bc76dc8c2" corresp="#deee1135-f916-487d-ae11-35f916e87d47">
+                                Erze findet sich bereits bei <persName ref="https://editon-humboldt.de/H0006329 http://d-nb.info/gnd/118767089">A. G.
+                                    Werner</persName>.</note>, <ref xml:id="fe18ce83-f0c5-4b84-98ce-83f0c54b849c" corresp="#ac4231ac-3e84-4212-8231-ac3e841212dc">
                             <name type="mineral">Blei</name>
                         </ref>
-                        <note xml:id="deee1135-f916-487d-ae11-35f916e87d47" corresp="#d176a02b-7bc7-4dc8-b6a0-2b7bc76dc8c2">Blei: Die hier von
+                        <note xml:id="ac4231ac-3e84-4212-8231-ac3e841212dc" corresp="#fe18ce83-f0c5-4b84-98ce-83f0c54b849c" resp="#koelbel-et-al">Blei: Die hier von
                                 Humboldt verwendete Bezeichnung kann sich nur auf Bleierze beziehen,
-                                da Blei gediegen nicht vorkommt.</note> (das nicht so bieg<lb/>sam als das <placeName ref="https://www.geonames.org/11609031">
+                                da Blei gediegen nicht vorkommt.</note> (das nicht so bieg<lb break="no"/>sam als das <placeName ref="https://editon-humboldt.de/H0005512 https://www.geonames.org/11609031">
                             <hi rendition="#aq">Derbyshir</hi>
                         </placeName>sche
-                        <lb/>ist) und <ref xml:id="cbeed957-43ee-4834-aed9-5743eec83473" corresp="#b649fd3e-bda6-4076-89fd-3ebda65076a5">
+                        <lb/>ist) und <ref xml:id="f15b79a3-aa91-4536-9b79-a3aa91d53602" corresp="#dcfa83b1-ec5e-4912-ba83-b1ec5e791207">
                             <name type="mineral">Röthel</name>
                         </ref>
-                        <note xml:id="b649fd3e-bda6-4076-89fd-3ebda65076a5" corresp="#cbeed957-43ee-4834-aed9-5743eec83473">Röthel (heute Rötel):
+                        <note xml:id="dcfa83b1-ec5e-4912-ba83-b1ec5e791207" corresp="#f15b79a3-aa91-4536-9b79-a3aa91d53602" resp="#koelbel-et-al">Röthel (heute Rötel):
                                 Rotstein, Farberde lateritischer Herkunft. Besteht aus einem Gemisch
                                 von Eisenoxiden, Eisenhydroxiden und Tonmineralien. Rötel wird auch
                                 heute noch als Anstrichfarbe, als Putz- und Poliermittel
                                 verwendet.</note>. Mit dem <lb/>
                         <name type="mineral">Röthel</name> zeichnet man die
-                            hie<lb/>sigen Schaafe und verderbt die <lb/>Wolle
+                            hie<lb break="no"/>sigen Schaafe und verderbt die <lb/>Wolle
                             <metamark/>
                         <add place="superlinear">damit</add>, wie die Spanier die
-                        <lb/>ihrige mit <ref xml:id="ed2354e2-990c-4251-a354-e2990c425162" corresp="#c6bd4665-b79c-4b9d-bd46-65b79c7b9d3b">
+                        <lb/>ihrige mit <ref xml:id="a2cb5158-4875-4f13-8b51-5848758f133d" corresp="#db501ca8-a377-4b7a-901c-a8a377ab7a9e">
                             <name type="mineral">Okker</name>
                         </ref>
-                        <note xml:id="c6bd4665-b79c-4b9d-bd46-65b79c7b9d3b" corresp="#ed2354e2-990c-4251-a354-e2990c425162">Okker (heute Ocker):
+                        <note xml:id="db501ca8-a377-4b7a-901c-a8a377ab7a9e" corresp="#a2cb5158-4875-4f13-8b51-5848758f133d" resp="#koelbel-et-al">Okker (heute Ocker):
                                 Gelblich-braunes, erdiges Brauneisenerz, meist stark mit Ton
-                                vermengt.</note> verderben. <lb/>Die neuen Vorschläge (<bibl corresp="https://edition-humboldt.de/v8/VFSRIQ5H">
+                                vermengt.</note> verderben. <lb/>Die neuen Vorschläge (<bibl corresp="https://edition-humboldt.de/VFSRIQ5H">
                             <hi rendition="#aq">Lewis</hi>
                             <lb/>Zusammenhang der Künste <hi rendition="#aq">II</hi> 76</bibl>)
-                        <lb/>mit <ref xml:id="a0be812b-eb21-4fe4-be81-2beb21ffe4ce" corresp="#eaa07d57-3176-49cb-a07d-573176f9cbed">Talg</ref>
-                        <note xml:id="eaa07d57-3176-49cb-a07d-573176f9cbed" corresp="#a0be812b-eb21-4fe4-be81-2beb21ffe4ce">Talg: Fett besonders
+                        <lb/>mit <ref xml:id="af52cf4e-b9c8-40d3-92cf-4eb9c800d397" corresp="#f0ed67c3-12d6-45b6-ad67-c312d615b66c">Talg</ref>
+                        <note xml:id="f0ed67c3-12d6-45b6-ad67-c312d615b66c" corresp="#af52cf4e-b9c8-40d3-92cf-4eb9c800d397" resp="#koelbel-et-al">Talg: Fett besonders
                                 vom Rind und Hammel, wird bei 60–65° C ausgeschmolzen. Stearin und
                                 Palmitin werden heute in der Seifenindustrie sowie für Margarine-
-                                und Salbenherstellung verwendet.</note>, <ref xml:id="ee60ec4f-2a34-45dc-a0ec-4f2a34f5dc70" corresp="#af759686-972a-4935-b596-86972a293524">Theer</ref>
-                        <note xml:id="af759686-972a-4935-b596-86972a293524" corresp="#ee60ec4f-2a34-45dc-a0ec-4f2a34f5dc70">Theer: heute Teer,
+                                und Salbenherstellung verwendet.</note>, <ref xml:id="e7fe4542-a6d7-444a-be45-42a6d7e44a94" corresp="#d63794cb-bf3d-445d-b794-cbbf3da45de8">Theer</ref>
+                        <note xml:id="d63794cb-bf3d-445d-b794-cbbf3da45de8" corresp="#e7fe4542-a6d7-444a-be45-42a6d7e44a94" resp="#koelbel-et-al">Theer: heute Teer,
                                 wird bei der Verkokung von Steinkohle gewonnen. Dabei bildet sich
                                 eine braune bis schwarze zähe Flüssigkeit. Teer wird auch heute noch
-                                zur Herstellung u. a. von Farbstoffen verwendet.</note> und <ref xml:id="bd42bf66-2529-4fa3-82bf-662529efa34b" corresp="#cc6118dd-b052-4242-a118-ddb0525242b7">Kohlenstaub</ref>
-                        <note xml:id="cc6118dd-b052-4242-a118-ddb0525242b7" corresp="#bd42bf66-2529-4fa3-82bf-662529efa34b">Kohlenstaub:
+                                zur Herstellung u. a. von Farbstoffen verwendet.</note> und <ref xml:id="c6f73987-1e72-4ddf-b739-871e728ddf78" corresp="#ae4d6688-6543-4e91-8d66-886543ce9103">Kohlenstaub</ref>
+                        <note xml:id="ae4d6688-6543-4e91-8d66-886543ce9103" corresp="#c6f73987-1e72-4ddf-b739-871e728ddf78" resp="#koelbel-et-al">Kohlenstaub:
                                 staubförmige Kohle.</note>
-                        <lb/>zu zeichnen, sind also noch im-<lb/>mer
+                        <lb/>zu zeichnen, sind also noch im<g ref="#typoHyphen"/>
+                        <lb break="no"/>mer
                         nicht befolgt.</p>
                     <p>Am <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2656744">Avon</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017294 https://www.geonames.org/2656744">Avon</placeName>
                         </hi> bei
                             <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2656173">Bath</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0005168 https://www.geonames.org/2656173">Bath</placeName>
                         </hi>
                         <unclear reason="illegible" cert="high" resp="#CT #DE">wo</unclear> die <lb/>
                         <pb facs="#f0007" n="[4r]"/>
                         <fw type="folNum">5.</fw> Erdschichten zu Tage sind, <lb/>sieht man daß ein
-                            <ref xml:id="ef4c41de-c33e-4642-8c41-dec33eb6426f" corresp="#dff26584-4c8a-4541-b265-844c8a154190">
+                            <ref xml:id="b05109b3-62fa-473f-9109-b362fa773f60" corresp="#ef7b9e3d-4180-4051-bb9e-3d41808051fe">
                             <hi rendition="#u" hand="#unknown">
                                 <name type="mineral">Pisolithen<supplied>-</supplied>
                                 </name>
                             </hi>
                         </ref>
-                        <note xml:id="dff26584-4c8a-4541-b265-844c8a154190" corresp="#ef4c41de-c33e-4642-8c41-dec33eb6426f">Pisolith, Erbsenstein, nach <bibl corresp="https://edition-humboldt.de/v8/E7KHPX85">Werner 1789a</bibl>, 378 eine
+                        <note xml:id="ef7b9e3d-4180-4051-bb9e-3d41808051fe" corresp="#b05109b3-62fa-473f-9109-b362fa773f60" resp="#DE">Pisolith, Erbsenstein, nach <bibl corresp="https://edition-humboldt.de/E7KHPX85">Werner 1789a</bibl>, 378 eine
                                 Unterart von Kalkstein. Pisolith ist ein Sedimentgestein, das
                                 überwiegend aus Pisoiden besteht. Pisoide sind rundliche,
                                 üblicherweise aus Kalk gebildete Körner, die sich konzentrisch um
@@ -511,13 +559,13 @@
                         <date when="1790-06-08" calendar="#gregorian">
                             <hi rendition="#u">
                                 <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/2648402">Gloucestershire</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0017194 https://www.geonames.org/2648402">Gloucestershire</placeName>
                                 </hi>
                             </hi>
                         </date>
                     </head>
                     <p>Der ächte <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2648402">
+                            <placeName ref="https://editon-humboldt.de/H0017194 https://www.geonames.org/2648402">
                                 <choice>
                                     <abbr>Gloc.</abbr>
                                     <expan>Glocestershire</expan>
@@ -527,10 +575,11 @@
                         <supplied>-</supplied>Käse geht nach
                             <lb/>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/3333134">Bristol</placeName>
-                        </hi> und von da nach <placeName ref="https://www.geonames.org/3571219">Westin-<lb/>dien</placeName>. Der
+                            <placeName ref="https://editon-humboldt.de/H0017570 https://www.geonames.org/3333134">Bristol</placeName>
+                        </hi> und von da nach <placeName ref="https://editon-humboldt.de/H0007952 https://www.geonames.org/3571219">Westin<g ref="#typoHyphen"/>
+                            <lb break="no"/>dien</placeName>. Der
                         meiste <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2648402">
+                            <placeName ref="https://editon-humboldt.de/H0017194 https://www.geonames.org/2648402">
                                 <choice>
                                     <abbr>Gloc.</abbr>
                                     <expan>Glocestershire</expan>
@@ -539,10 +588,10 @@
                         </hi>
                         <supplied>-</supplied>Käse <lb/>den man in
                             <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2643743">London</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>
                         </hi>
                         sieht, <lb/>kommt aus <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2633868">Wiltshire</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017265 https://www.geonames.org/2633868">Wiltshire</placeName>
                         </hi>.</p>
                 </div>
                 <div type="diaryEntry">
@@ -550,32 +599,34 @@
                         <date when="1790-06-13" calendar="#gregorian">
                             <hi rendition="#u">
                                 <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/2642910">Matlock</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0008761 https://www.geonames.org/2642910">Matlock</placeName>
                                 </hi>
                             </hi>
                         </date>
                     </head>
                     <p>An den <name type="mineral">Kalk</name>wänden der <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/7293250">Heights <lb/>of Abraham</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017349 https://www.geonames.org/7293250">Heights <lb/>of Abraham</placeName>
                         </hi>,
-                        und in dem <hi rendition="#aq">lo-<lb/>ver’s
+                        und in dem <hi rendition="#aq">lo<g ref="#typoHyphen"/>
+                            <lb break="no"/>ver’s
                             Walk</hi> an dem <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2651319">Derwent</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017339 https://www.geonames.org/2651319">Derwent</placeName>
                         </hi> (dem <lb/>
                         <hi rendition="#aq">old
-                            Bath</hi> gegenüber) sah ich mit <lb/>dem schönen <ref xml:id="e03a692e-5915-4331-ba69-2e59158331cd" corresp="#c4ee42e5-b890-43b9-ae42-e5b890e3b9ec">
+                            Bath</hi> gegenüber) sah ich mit <lb/>dem schönen <ref xml:id="c0f22546-ff7b-4f5a-b225-46ff7bcf5ab7" corresp="#a03c0333-0c6e-4c4c-bc03-330c6e0c4c57">
                             <hi rendition="#aq">
-                                <name type="plant">Hypnum crista castren-<lb/>sis</name>
+                                <name type="plant">Hypnum crista castren<g ref="#typoHyphen"/>
+                                    <lb break="no"/>sis</name>
                             </hi>
                         </ref>
-                        <note xml:id="c4ee42e5-b890-43b9-ae42-e5b890e3b9ec" corresp="#e03a692e-5915-4331-ba69-2e59158331cd">Hypnum crista
+                        <note xml:id="a03c0333-0c6e-4c4c-bc03-330c6e0c4c57" corresp="#c0f22546-ff7b-4f5a-b225-46ff7bcf5ab7" resp="#koelbel-et-al">Hypnum crista
                                 castrensis: heute Ptilium crista-castrensis (Hedw.) De Not. –
-                                Federmoos, Farnwedelmoos.</note> (womit der ganze <ref xml:id="f0862415-cdbb-4099-8624-15cdbb5099b2" corresp="#d59e54b8-3910-4e2e-9e54-b839109e2e53">Bruch bei <lb/>
-                            <placeName ref="https://www.geonames.org/2918632">Göttingen</placeName>
+                                Federmoos, Farnwedelmoos.</note> (womit der ganze <ref xml:id="c9bb4dab-ccf8-428c-bb4d-abccf8028c92" corresp="#bfc0738f-561a-4191-8073-8f561aa19195">Bruch bei <lb/>
+                            <placeName ref="https://editon-humboldt.de/H0010897 https://www.geonames.org/2918632">Göttingen</placeName>
                         </ref>
-                        <note xml:id="d59e54b8-3910-4e2e-9e54-b839109e2e53" corresp="#f0862415-cdbb-4099-8624-15cdbb5099b2">Bruch bei Göttingen:
+                        <note xml:id="bfc0738f-561a-4191-8073-8f561aa19195" corresp="#c9bb4dab-ccf8-428c-bb4d-abccf8028c92" resp="#koelbel-et-al">Bruch bei Göttingen:
                                 wahrscheinlich ist der Steilabbruch des Muschelkalkplateaus, das den
-                                Göttinger Wald nach Osten absäumt, gemeint.</note> bedekt ist)<supplied>,</supplied> dem <ref xml:id="aaff9778-03f8-4b12-bf97-7803f83b12ce" corresp="#decc8d69-e617-4ab9-8c8d-69e617eab9e4">
+                                Göttinger Wald nach Osten absäumt, gemeint.</note> bedekt ist)<supplied>,</supplied> dem <ref xml:id="b54b4600-770e-4a36-8b46-00770e1a36f0" corresp="#f465e5eb-5da5-40a9-a5e5-eb5da5c0a973">
                             <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
@@ -585,8 +636,8 @@
                                         <lb/>capperatus</name>
                             </hi>
                         </ref>
-                        <note xml:id="decc8d69-e617-4ab9-8c8d-69e617eab9e4" corresp="#aaff9778-03f8-4b12-bf97-7803f83b12ce">Lichen capperatus:
-                                heute Flavoparmelia caperata (l.) Hale – Schlüsselflechte.</note>, dem <ref xml:id="d423c405-2480-42ef-a3c4-052480a2ef82" corresp="#a30533d6-457e-4491-8533-d6457ef491fb">
+                        <note xml:id="f465e5eb-5da5-40a9-a5e5-eb5da5c0a973" corresp="#b54b4600-770e-4a36-8b46-00770e1a36f0" resp="#koelbel-et-al">Lichen capperatus:
+                                heute Flavoparmelia caperata (l.) Hale – Schlüsselflechte.</note>, dem <ref xml:id="b3434af9-f31e-4391-834a-f9f31ec39187" corresp="#e0da2377-190a-4658-9a23-77190af65879">
                             <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
@@ -595,19 +646,19 @@
                                         </choice> calcareus</name>
                             </hi>
                         </ref>
-                        <note xml:id="a30533d6-457e-4491-8533-d6457ef491fb" corresp="#d423c405-2480-42ef-a3c4-052480a2ef82">Lichen calcareus:
-                                heute Aspicilia calcarea (L.) Körb. – Kalk-Hohlschildflechte.</note>, und <lb/>der <ref xml:id="a5a4f72c-2e9e-42b7-a4f7-2c2e9ef2b7b2" corresp="#cd3433c4-eb5e-46ac-b433-c4eb5ed6ac22">
+                        <note xml:id="e0da2377-190a-4658-9a23-77190af65879" corresp="#b3434af9-f31e-4391-834a-f9f31ec39187" resp="#koelbel-et-al">Lichen calcareus:
+                                heute Aspicilia calcarea (L.) Körb. – Kalk-Hohlschildflechte.</note>, und <lb/>der <ref xml:id="d437f869-b7cd-4e42-b7f8-69b7cdfe423c" corresp="#abea0904-d454-4fb2-aa09-04d4549fb245">
                             <hi rendition="#aq">
                                 <name type="plant">Verrucaria pertusa
                                             Willd<supplied>.</supplied>
                                 </name>
                             </hi>
                         </ref>
-                        <note xml:id="cd3433c4-eb5e-46ac-b433-c4eb5ed6ac22" corresp="#a5a4f72c-2e9e-42b7-a4f7-2c2e9ef2b7b2">Verrucaria pertusa
+                        <note xml:id="abea0904-d454-4fb2-aa09-04d4549fb245" corresp="#d437f869-b7cd-4e42-b7f8-69b7cdfe423c" resp="#koelbel-et-al">Verrucaria pertusa
                                 Willd.: heute Pertusaria pertusa (Weigel) Tuck. –
                                 Lochflechte.</note> auch <lb/>
                         <pb facs="#f0008" n="[4v]"/>
-                        <fw type="folNum">6.</fw> das <ref xml:id="a19265a1-25e3-4a3f-9265-a125e35a3f98" corresp="#b22087cf-9a5c-4bf8-a087-cf9a5c7bf8e2">
+                        <fw type="folNum">6.</fw> das <ref xml:id="cf9a8795-b4d9-4ad3-9a87-95b4d9aad39d" corresp="#f9bafbdf-72a6-4a33-bafb-df72a62a336f">
                             <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
@@ -616,16 +667,16 @@
                                         </choice> tartareus</name>
                             </hi>
                         </ref>
-                        <note xml:id="b22087cf-9a5c-4bf8-a087-cf9a5c7bf8e2" corresp="#a19265a1-25e3-4a3f-9265-a125e35a3f98">Lichen tartareus:
+                        <note xml:id="f9bafbdf-72a6-4a33-bafb-df72a62a336f" corresp="#cf9a8795-b4d9-4ad3-9a87-95b4d9aad39d" resp="#koelbel-et-al">Lichen tartareus:
                                 heute Ochrolechia tartarea (L.) A. Massal. –
-                                Weinsteinflechte.</note>, dem völlig <lb/>ähnlich das ich in <placeName ref="https://www.geonames.org/2921044">Teutschland</placeName>
+                                Weinsteinflechte.</note>, dem völlig <lb/>ähnlich das ich in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Teutschland</placeName>
                         <lb/>
                         <subst>
                             <del rendition="#s">auf erdigen Standorten z. B. <lb/>
-                                <unclear reason="covered" cert="low" resp="#CT #DE">bei <placeName ref="https://www.geonames.org/281580">Waake</placeName> und <placeName ref="https://edition-humboldt.de/v8/H0017114">Rheinhausen</placeName>
+                                <unclear reason="covered" cert="low" resp="#CT #DE">bei <placeName ref="https://editon-humboldt.de/H0007904 https://www.geonames.org/281580">Waake</placeName> und <placeName ref="https://editon-humboldt.de/H0017114">Rheinhausen</placeName>
                                     <lb/>in Nieder-Sachsen bemerkt.</unclear>
                             </del>
-                            <add place="right">vor <placeName ref="https://www.geonames.org/11808389">Hannover</placeName>
+                            <add place="right">vor <placeName ref="https://editon-humboldt.de/H0006803 https://www.geonames.org/11808389">Hannover</placeName>
                                 sahe</add>
                         </subst>. <lb/>Das <hi rendition="#aq">
                             <name type="plant">
@@ -634,9 +685,9 @@
                                     <expan>Lichen</expan>
                                 </choice> tartareus</name>
                         </hi> wird häufig <lb/>in <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2641209">Yorkshire</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017208 https://www.geonames.org/2641209">Yorkshire</placeName>
                         </hi> und
-                        im <placeName ref="https://www.geonames.org/7290672">
+                        im <placeName ref="https://editon-humboldt.de/H0017614 https://www.geonames.org/7290672">
                             <hi rendition="#aq">Peak</hi>
                             <lb/>von <hi rendition="#aq">
                                 <choice>
@@ -646,7 +697,7 @@
                             </hi>
                         </placeName> gesamlet, nach <lb/>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2643123">Manchester</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0008639 https://www.geonames.org/2643123">Manchester</placeName>
                         </hi> gebracht und
                         dort <lb/>in <subst>
                             <del rendition="#ow">den</del>
@@ -654,8 +705,10 @@
                         </subst> Färbereien <subst>
                             <del rendition="#s">geb</del>
                             <add place="intralinear">ver</add>
-                        </subst>-<lb/>kauft. Es giebt mit Urin
-                        <lb/>präparirt (wie <ref xml:id="fe0716f8-a3ca-4593-8716-f8a3ca4593a3" corresp="#f6285610-5b83-407e-a856-105b83307e1b">
+                        </subst>
+                        <g ref="#typoHyphen"/>
+                        <lb break="no"/>kauft. Es giebt mit Urin
+                        <lb/>präparirt (wie <ref xml:id="f16af9b4-83ca-4cb8-aaf9-b483ca3cb82e" corresp="#ac7dbabc-eda4-494b-bdba-bceda4694b90">
                             <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
@@ -664,7 +717,7 @@
                                         </choice> saxatilis</name>
                             </hi>
                         </ref>
-                        <note xml:id="f6285610-5b83-407e-a856-105b83307e1b" corresp="#fe0716f8-a3ca-4593-8716-f8a3ca4593a3">Lichen saxatilis:
+                        <note xml:id="ac7dbabc-eda4-494b-bdba-bceda4694b90" corresp="#f16af9b4-83ca-4cb8-aaf9-b483ca3cb82e" resp="#koelbel-et-al">Lichen saxatilis:
                                 heute Parmelia saxatilis (L.) Ach.</note>
                         <supplied>,</supplied>
                         <lb/>
@@ -685,10 +738,11 @@
                                     <abbr>Verruc.</abbr>
                                     <expan>Verrucaria</expan>
                                 </choice> pertusa</name>
-                        </hi>) <lb/>eine schöne purpurrothe Far-<lb/>be, bei der man <unclear reason="illegible" cert="high" resp="#CT">den</unclear> theuren
+                        </hi>) <lb/>eine schöne purpurrothe Far<g ref="#typoHyphen"/>
+                        <lb break="no"/>be, bei der man <unclear reason="illegible" cert="high" resp="#CT">den</unclear> theuren
                             <lb/>
-                        <ref xml:id="baa5fc7e-222c-4633-a5fc-7e222c663313" corresp="#d1474b0a-9905-4a38-874b-0a99059a3887">Erd- und Kräuterorseillen</ref>
-                        <note xml:id="d1474b0a-9905-4a38-874b-0a99059a3887" corresp="#baa5fc7e-222c-4633-a5fc-7e222c663313">Orseille ist die Bezeichnung
+                        <ref xml:id="b7a4de00-18a9-4945-a4de-0018a91945a0" corresp="#ced00c9b-0893-46f2-900c-9b0893d6f2d5">Erd- und Kräuterorseillen</ref>
+                        <note xml:id="ced00c9b-0893-46f2-900c-9b0893d6f2d5" corresp="#b7a4de00-18a9-4945-a4de-0018a91945a0" resp="#DE">Orseille ist die Bezeichnung
                                 eines roten Farbstoffs, der aus Mosen und Flechten gewonnen wird.
                                 Diese stammen vornehmlich von den Kanarischen Inseln, den Azoren,
                                 aus Frankreich und Italien. Die Unterteilung in „Erd- und
@@ -696,7 +750,7 @@
                                 Rohstoffes: Während die aus Frankreich stammenden Flechten oftmals
                                 Verunreinigungen beinhalten und daher als Erdorseille bezeichnet
                                 werden, ist die von den Kanaren und Azoren stammende Kräuterorseille
-                                hochwertiger und entsprechend teurer.</note> (<ref xml:id="ff85b817-599b-4a2e-85b8-17599b1a2efc" corresp="#a2d4a19e-c831-4e3b-94a1-9ec8311e3ba3">
+                                hochwertiger und entsprechend teurer.</note> (<ref xml:id="bbf2c71e-7d35-457e-b2c7-1e7d35f57e20" corresp="#b4471194-5094-42be-8711-94509492bef9">
                             <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
@@ -705,11 +759,11 @@
                                         </choice> Roc<note place="right" hand="#unknown">
                                         <metamark>?</metamark>
                                     </note>
-                                    <lb/>cella</name>
+                                    <lb break="no"/>cella</name>
                             </hi>
                         </ref>
-                        <note xml:id="a2d4a19e-c831-4e3b-94a1-9ec8311e3ba3" corresp="#ff85b817-599b-4a2e-85b8-17599b1a2efc">Lichen rocella: heute
-                                Roccella fuciformis (L.) DC – Färberflechte.</note> und <ref xml:id="e28c7604-c7d6-4528-8c76-04c7d69528c6" corresp="#b2d48c97-e259-4b9a-948c-97e2597b9ac4">
+                        <note xml:id="b4471194-5094-42be-8711-94509492bef9" corresp="#bbf2c71e-7d35-457e-b2c7-1e7d35f57e20" resp="#koelbel-et-al">Lichen rocella: heute
+                                Roccella fuciformis (L.) DC – Färberflechte.</note> und <ref xml:id="c55e7123-a8e8-4ff6-9e71-23a8e81ff6d0" corresp="#b0b2f8a9-57b1-40d4-b2f8-a957b150d400">
                             <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
@@ -723,7 +777,7 @@
                                 </name>
                             </hi>
                         </ref>
-                        <note xml:id="b2d48c97-e259-4b9a-948c-97e2597b9ac4" corresp="#e28c7604-c7d6-4528-8c76-04c7d69528c6">Lichen parella: heute
+                        <note xml:id="b0b2f8a9-57b1-40d4-b2f8-a957b150d400" corresp="#c55e7123-a8e8-4ff6-9e71-23a8e81ff6d0" resp="#koelbel-et-al">Lichen parella: heute
                                 Ochrolechia paralla (L.) Massal. – kein gebräuchlicher deutscher
                                 Name.</note>) entbehren <lb/>kann.</p>
                     <p>
@@ -760,7 +814,8 @@
                                     <expan>Lichen</expan>
                                 </choice>
                                 <choice>
-                                    <abbr>tar-<lb/>tar.</abbr>
+                                    <abbr>tar<g ref="#typoHyphen"/>
+                                        <lb break="no"/>tar.</abbr>
                                     <expan>tartareus</expan>
                                 </choice>
                             </name>
@@ -772,40 +827,41 @@
                                 </choice> pertusa</name>
                         </hi> wachsen <lb/>fast im ganzen nördlichen
                             <lb/>
-                        <placeName ref="https://www.geonames.org/6255148">Europa</placeName> wild – aber man liest
+                        <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> wild – aber man liest
                         <lb/>die patriotischen Schriften<lb/>
                         <pb facs="#f0009" n="[5r]"/>
                         <fw type="folNum">7.</fw> von <hi rendition="#aq">
-                            <persName ref="https://edition-humboldt.de/v8/H0017039">Dambourney</persName>
-                        </hi> (<bibl corresp="https://edition-humboldt.de/v8/VRZ9P8U9">
+                            <persName ref="https://editon-humboldt.de/H0017039">Dambourney</persName>
+                        </hi> (<bibl corresp="https://edition-humboldt.de/VRZ9P8U9">
                             <hi rendition="#aq">procedés sur <lb/>les teintures solides que nos
                                 <lb/>végétaux indigenes communiquent <lb/>aux laines <choice>
                                     <orig>p</orig>
                                     <reg>p.</reg>
                                 </choice> Paris</hi> 1786</bibl>) und <lb/>
-                        <persName ref="http://d-nb.info/gnd/115589104">Hofman</persName> (<bibl corresp="https://edition-humboldt.de/v8/893N9G6S">
+                        <persName ref="https://editon-humboldt.de/H0011940 http://d-nb.info/gnd/115589104">Hofman</persName> (<bibl corresp="https://edition-humboldt.de/893N9G6S">
                             <hi rendition="#aq">de vario lichen. vsu <lb/>Erlangae</hi> 1786</bibl>)
                         – und <choice>
-                            <sic>verschrei-<lb/>ben</sic>
+                            <sic>verschrei<g ref="#typoHyphen"/>
+                                <lb break="no"/>ben</sic>
                             <corr>verschreibt</corr>
-                        </choice> noch immer Farbstoffe <lb/>aus den <placeName ref="https://www.geonames.org/2593110">
+                        </choice> noch immer Farbstoffe <lb/>aus den <placeName ref="https://editon-humboldt.de/H0000346 https://www.geonames.org/2593110">
                             <choice>
                                 <abbr>Canar.</abbr>
                                 <expan>Canarischen</expan>
                             </choice>
                         </placeName>
                         <supplied>,</supplied>
-                        <placeName ref="https://www.geonames.org/3374766">Capverdischen</placeName>
-                        <lb/>und <placeName ref="https://www.geonames.org/390903">Griechischen Inseln</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0000359 https://www.geonames.org/3374766">Capverdischen</placeName>
+                        <lb/>und <placeName ref="https://editon-humboldt.de/H0010922 https://www.geonames.org/390903">Griechischen Inseln</placeName>
                         <choice>
                             <abbr>od.</abbr>
                             <expan>oder</expan>
-                        </choice> aus <lb/>dem <placeName ref="https://www.geonames.org/3017382">südlichen
+                        </choice> aus <lb/>dem <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">südlichen
                             Frankreich</placeName>, die <lb/>unsere einheimischen
-                        Flechten <lb/>uns darbieten könnten. Wir <lb/>kaufen <ref xml:id="a2979cb2-083c-4e95-979c-b2083c9e95a3" corresp="#aad10e78-5947-4bcd-910e-7859479bcd2a">
+                        Flechten <lb/>uns darbieten könnten. Wir <lb/>kaufen <ref xml:id="dd6f9990-6514-401f-af99-906514c01fc6" corresp="#dc5e5f45-9f75-4b25-9e5f-459f751b2572">
                             <name type="plant">Lakmus</name>
                         </ref>
-                        <note xml:id="aad10e78-5947-4bcd-910e-7859479bcd2a" corresp="#a2979cb2-083c-4e95-979c-b2083c9e95a3">Lackmus: Farbstoff der
+                        <note xml:id="dc5e5f45-9f75-4b25-9e5f-459f751b2572" corresp="#dd6f9990-6514-401f-af99-906514c01fc6" resp="#koelbel-et-al">Lackmus: Farbstoff der
                                 Flechte Rocella fuciformis.</note> vom Holländer <lb/>und Engländer und vergessen <lb/>daß dieser ihn
                         von <hi rendition="#aq">
                             <name type="plant">
@@ -821,13 +877,15 @@
                         <lb/>Baum, jeder Pfahl, jeder <lb/>Stein trägt. <choice>
                             <abbr>S.</abbr>
                             <expan>Siehe</expan>
-                        </choice> von den <name type="plant">Lak-<lb/>mus</name>fabriken bei <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2644641">Leith</placeName>
+                        </choice> von den <name type="plant">Lak<g ref="#typoHyphen"/>
+                            <lb break="no"/>mus</name>fabriken bei <hi rendition="#aq">
+                            <placeName ref="https://editon-humboldt.de/H0017245 https://www.geonames.org/2644641">Leith</placeName>
                         </hi> in <lb/>
-                        <placeName ref="https://www.geonames.org/2638360">Schottland</placeName> zu <choice>
+                        <placeName ref="https://editon-humboldt.de/H0010167 https://www.geonames.org/2638360">Schottland</placeName> zu <choice>
                             <sic>der</sic>
                             <corr>den</corr>
-                        </choice> 200 Men-<lb/>schen sich mit <choice>
+                        </choice> 200 Men<g ref="#typoHyphen"/>
+                        <lb break="no"/>schen sich mit <choice>
                             <abbr>d.</abbr>
                             <expan>dem</expan>
                         </choice> Sammeln <lb/>des <hi rendition="#aq">
@@ -839,18 +897,21 @@
                         </hi> beschäftigen <lb/>
                         <pb facs="#f0010" n="[5v]"/>
                         <fw type="folNum">8.</fw>
-                        <persName ref="http://d-nb.info/gnd/118686690">Ferber</persName>s <bibl corresp="https://edition-humboldt.de/v8/SB6TR75K">neue Beiträge zur <lb/>
+                        <persName ref="https://editon-humboldt.de/H0000064 http://d-nb.info/gnd/118686690">Ferber</persName>s <bibl corresp="https://edition-humboldt.de/SB6TR75K">neue Beiträge zur <lb/>
                             <choice>
                                 <abbr>Mineralgesch.</abbr>
                                 <expan>Mineralgeschichte</expan>
                             </choice>
                             <hi rendition="#aq">I. p<supplied>.</supplied>
-                            </hi> 455</bibl>. Un-<lb/>sere Unwissenheit geht so-<lb/>gar so weit, <ref xml:id="fdb634d0-5899-41da-b634-d0589941dab0" corresp="#b7d854f3-6618-495a-9854-f36618295aa2">daß uns <persName ref="http://d-nb.info/gnd/101312628">Ja-<lb/>kobsson</persName> noch vorlügen durfte,</ref>
-                        <note xml:id="b7d854f3-6618-495a-9854-f36618295aa2" corresp="#fdb634d0-5899-41da-b634-d0589941dab0">Humboldt bezieht
-                                sich im Folgenden auf <bibl corresp="https://edition-humboldt.de/v8/HZ5MAK62">Jacobsson 1781–1795</bibl>, II (1789), 544.</note>
+                            </hi> 455</bibl>. Un<g ref="#typoHyphen"/>
+                        <lb break="no"/>sere Unwissenheit geht so<g ref="#typoHyphen"/>
+                        <lb break="no"/>gar so weit, <ref xml:id="c0d6851a-f635-49e2-9685-1af635a9e21c" corresp="#ac1e10f2-1095-4eaf-9e10-f21095beafdc">daß uns <persName ref="https://editon-humboldt.de/H0016995 http://d-nb.info/gnd/101312628">Ja<g ref="#typoHyphen"/>
+                                <lb break="no"/>kobsson</persName> noch vorlügen durfte,</ref>
+                        <note xml:id="ac1e10f2-1095-4eaf-9e10-f21095beafdc" corresp="#c0d6851a-f635-49e2-9685-1af635a9e21c" resp="#koelbel-et-al #CT">Humboldt bezieht
+                                sich im Folgenden auf <bibl corresp="https://edition-humboldt.de/HZ5MAK62">Jacobsson 1781–1795</bibl>, II (1789), 544.</note>
                         <lb/>
                         <name type="plant">Lakmus</name> werde aus <hi rendition="#aq">
-                            <ref xml:id="d1d133f5-82ff-46bf-9133-f582ff16bf86" corresp="#f1ed2397-5b2b-4998-ad23-975b2b899871">
+                            <ref xml:id="be1a42b9-f271-4391-9a42-b9f271f39182" corresp="#e3fc396f-e830-454c-bc39-6fe830d54c2e">
                                 <name type="plant">Croton <lb/>
                                     <choice>
                                             <abbr>tinctor</abbr>
@@ -858,41 +919,42 @@
                                         </choice>
                                 </name>
                             </ref>
-                            <note xml:id="f1ed2397-5b2b-4998-ad23-975b2b899871" corresp="#d1d133f5-82ff-46bf-9133-f582ff16bf86">Croton tinctorium
+                            <note xml:id="e3fc396f-e830-454c-bc39-6fe830d54c2e" corresp="#be1a42b9-f271-4391-9a42-b9f271f39182" resp="#koelbel-et-al">Croton tinctorium
                                     (Croton ti[n]ctorium): heute Chrozophora tinctoria, Familie der
                                     Wolfsmilchgewächse, Färberkroton, Lackmuspflanze.</note>
                         </hi>, aus dem <hi rendition="#aq">
-                            <ref xml:id="e54cbfc8-eb9e-45ca-8cbf-c8eb9e05ca14" corresp="#fe01516f-180c-4507-8151-6f180c75074e">
+                            <ref xml:id="c9c65e94-6c72-4ee7-865e-946c72fee731" corresp="#cd3ec172-d303-4ab7-bec1-72d3038ab712">
                                 <name type="plant">Tournesol</name>
                             </ref>
-                            <note xml:id="fe01516f-180c-4507-8151-6f180c75074e" corresp="#e54cbfc8-eb9e-45ca-8cbf-c8eb9e05ca14">Tournesol: Farbstoff aus
+                            <note xml:id="cd3ec172-d303-4ab7-bec1-72d3038ab712" corresp="#c9c65e94-6c72-4ee7-865e-946c72fee731" resp="#CT #DE">Tournesol: Farbstoff aus
                                     der Pflanze Chrozophora tinctoria, die in Südfrankreich im
                                     Umkreis der Ortschaft (Grand) Galargues gesammelt wurde.</note>
                         </hi>
                         <lb/>von <hi rendition="#aq">
-                            <ref xml:id="d1e74729-9c56-473c-a747-299c56673c6e" corresp="#fcb74757-64fe-4760-b747-5764fe2760ea">
-                                <placeName ref="https://www.geonames.org/6432513">Grand Galarques</placeName>
+                            <ref xml:id="fee50f6d-7758-4cca-a50f-6d7758bcca04" corresp="#f5bcdeb0-7605-4518-bcde-b0760555185f">
+                                <placeName ref="https://editon-humboldt.de/H0017188 https://www.geonames.org/6432513">Grand Galarques</placeName>
                             </ref>
-                            <note xml:id="fcb74757-64fe-4760-b747-5764fe2760ea" corresp="#d1e74729-9c56-473c-a747-299c56673c6e">Vermutlich ist hiermit die
+                            <note xml:id="f5bcdeb0-7605-4518-bcde-b0760555185f" corresp="#fee50f6d-7758-4cca-a50f-6d7758bcca04" resp="#DE">Vermutlich ist hiermit die
                                     Gemeinde Galargues im Département Hérault in der Region
                                     Okzitanien gemeint.</note>
-                        </hi>, nicht <lb/>aus <ref xml:id="d16b6ee2-9e26-42f6-ab6e-e29e2672f6df" corresp="#d50f4298-4bd0-4845-8f42-984bd0784551">
+                        </hi>, nicht <lb/>aus <ref xml:id="a12cb1dc-4e22-4427-acb1-dc4e221427bd" corresp="#e21ec2b0-28bc-4bf0-9ec2-b028bc7bf084">
                             <name type="plant">Orseille</name>
                         </ref>
-                        <note xml:id="d50f4298-4bd0-4845-8f42-984bd0784551" corresp="#d16b6ee2-9e26-42f6-ab6e-e29e2672f6df">Orseille: heute Lichen
+                        <note xml:id="e21ec2b0-28bc-4bf0-9ec2-b028bc7bf084" corresp="#a12cb1dc-4e22-4427-acb1-dc4e221427bd" resp="#koelbel-et-al">Orseille: heute Lichen
                                 Roccella Lin. Flechtenart, die die bekannte Columbinfarbe
                                 gibt.</note> (<choice>
                             <abbr>S.</abbr>
                             <expan>Siehe</expan>
                         </choice>
                         <hi rendition="#aq">
-                            <persName ref="http://d-nb.info/gnd/117631779">Demachy</persName>
+                            <persName ref="https://editon-humboldt.de/H0017042 http://d-nb.info/gnd/117631779">Demachy</persName>
                         </hi>
-                        <bibl corresp="https://edition-humboldt.de/v8/JJURASEE">
-                            <hi rendition="#aq">La-<lb/>borant im Großen
+                        <bibl corresp="https://edition-humboldt.de/JJURASEE">
+                            <hi rendition="#aq">La<g ref="#typoHyphen"/>
+                                <lb break="no"/>borant im Großen
                                     II<supplied>.</supplied> p<supplied>.</supplied>
                             </hi>
-                        273</bibl>) <lb/>gemacht. <bibl corresp="https://edition-humboldt.de/v8/HZ5MAK62">
+                        273</bibl>) <lb/>gemacht. <bibl corresp="https://edition-humboldt.de/HZ5MAK62">
                             <choice>
                                 <abbr>Technol.</abbr>
                                 <expan>Technologisches</expan>
@@ -901,23 +963,26 @@
                             </hi> 544.</bibl> Das <choice>
                             <abbr>crÿptogam.</abbr>
                             <expan>crÿptogamische</expan>
-                        </choice> Stu<lb/>dium ist nicht so unwichtig <lb/>als man es
-                        gewöhnlich glaubt. <lb/>Bei einer guten Staatswirth-<lb/>schaft muß auch das <ref xml:id="cf8ffaf3-2abf-488e-8ffa-f32abf188e3d" corresp="#e7d6f948-eece-473b-96f9-48eece873be1">Steinmooß</ref>
-                        <note xml:id="e7d6f948-eece-473b-96f9-48eece873be1" corresp="#cf8ffaf3-2abf-488e-8ffa-f32abf188e3d">Steinmoos: Bezeichnung
+                        </choice> Stu<lb break="no"/>dium ist nicht so unwichtig <lb/>als man es
+                        gewöhnlich glaubt. <lb/>Bei einer guten Staatswirth<g ref="#typoHyphen"/>
+                        <lb break="no"/>schaft muß auch das <ref xml:id="dae41de6-5d36-4183-a41d-e65d3621831c" corresp="#b2974fae-a95c-426f-974f-aea95cb26f7d">Steinmooß</ref>
+                        <note xml:id="b2974fae-a95c-426f-974f-aea95cb26f7d" corresp="#dae41de6-5d36-4183-a41d-e65d3621831c" resp="#koelbel-et-al">Steinmoos: Bezeichnung
                                 für die Flechte Lichen saxatilis – heute Parmelia saxatilis (L.)
                                 Ach. – Schlüsselflechte.</note>
-                        <lb/>mit zum Nationalreichthum bei-<lb/>tragen. – Im Jahr 1300 <lb/>wurde der Farbstof des <hi rendition="#aq">
+                        <lb/>mit zum Nationalreichthum bei<g ref="#typoHyphen"/>
+                        <lb break="no"/>tragen. – Im Jahr 1300 <lb/>wurde der Farbstof des <hi rendition="#aq">
                             <name type="plant">
                                 <choice>
                                     <abbr>L.</abbr>
                                     <expan>Lichen</expan>
-                                </choice> Roccel-<lb/>la</name>
+                                </choice> Roccel<g ref="#typoHyphen"/>
+                                <lb break="no"/>la</name>
                         </hi>
                         in <choice>
                             <abbr>d.</abbr>
                             <expan>der</expan>
                         </choice>
-                        <placeName ref="https://www.geonames.org/305104">Levante</placeName> dadurch <lb/>entdekt, daß ein
+                        <placeName ref="https://editon-humboldt.de/H0011424 https://www.geonames.org/305104">Levante</placeName> dadurch <lb/>entdekt, daß ein
                         florentiner <lb/>Kaufmann auf dem Felde <lb/>sein Wasser abschlug und
                         <lb/>das Moos zu seinen Füßen <lb/>
                         
@@ -925,14 +990,15 @@
                         
                         <pb facs="#f0011" n="[6r]"/>
                         <fw type="folNum">9.</fw> sich färben sahe. <hi rendition="#aq">
-                            <bibl corresp="https://edition-humboldt.de/v8/9SVCS8AA">Manni <lb/>
+                            <bibl corresp="https://edition-humboldt.de/9SVCS8AA">Manni <lb/>
                                 <choice>
                                     <abbr>Comment.</abbr>
                                     <expan>Commentario</expan>
                                 </choice> de <choice>
                                     <abbr>Florentin.</abbr>
                                     <expan>Florentinis</expan>
-                                </choice> in-<lb/>ventis c.
+                                </choice> in<g ref="#typoHyphen"/>
+                                <lb break="no"/>ventis c.
                                 20</bibl>
                         </hi>. Wir leben in <lb/>einem Zeitalter, wo wir nicht
                         <lb/>auf solche <choice>
@@ -942,7 +1008,7 @@
                             <abbr>S.</abbr>
                             <expan>Siehe</expan>
                         </choice>
-                        <ref xml:id="dccffc2a-7ac7-4842-8ffc-2a7ac758425c" corresp="#c0d0f5c5-9f7e-4ec5-90f5-c59f7eaec5e2">meine <lb/>
+                        <ref xml:id="b3b56012-a614-4d9b-b560-12a614dd9b22" corresp="#b41a1d1d-ff8b-4273-9a1d-1dff8b9273dd">meine <lb/>
                             <hi rendition="#aq">
                                 <choice>
                                         <abbr>
@@ -955,23 +1021,24 @@
                                         <abbr>Mater.</abbr>
                                         <expan>Materia</expan>
                                     </choice> technologica <lb/>plantae tinctor. n.</hi> 468</ref>
-                        <note xml:id="c0d0f5c5-9f7e-4ec5-90f5-c59f7eaec5e2" corresp="#dccffc2a-7ac7-4842-8ffc-2a7ac758425c">Die erwähnten
+                        <note xml:id="b41a1d1d-ff8b-4273-9a1d-1dff8b9273dd" corresp="#b3b56012-a614-4d9b-b560-12a614dd9b22" resp="#koelbel-et-al #DE">Die erwähnten
                                 Manuskripte Humboldts konnten bisher nicht aufgefunden
                                 werden.</note>.</p>
                     <p>
-                        <ref xml:id="a65c9894-95e8-4169-9c98-9495e8316925" corresp="#cea5f596-9132-42ed-a5f5-969132a2ed04">
+                        <ref xml:id="acd714f6-2438-4207-9714-f624385207a6" corresp="#c01629ab-93fa-4f11-9629-ab93fabf11c5">
                             <hi rendition="#aq">
-                                <persName ref="http://d-nb.info/gnd/172531209">Mohr</persName>
+                                <persName ref="https://editon-humboldt.de/H0017072 http://d-nb.info/gnd/172531209">Mohr</persName>
                             </hi>
                                 sagt noch in seinem <lb/>
-                            <bibl corresp="https://edition-humboldt.de/v8/RJAG9TK6">
-                                <hi rendition="#aq">Forsog til en Islandsk Na-<lb/>turhistorie
+                            <bibl corresp="https://edition-humboldt.de/RJAG9TK6">
+                                <hi rendition="#aq">Forsog til en Islandsk Na<g ref="#typoHyphen"/>
+                                    <lb break="no"/>turhistorie
                                             p<supplied>.</supplied>
                                 </hi> 230</bibl>
                         </ref>
-                        <note xml:id="cea5f596-9132-42ed-a5f5-969132a2ed04" corresp="#a65c9894-95e8-4169-9c98-9495e8316925">Im folgenden Absatz gibt
+                        <note xml:id="c01629ab-93fa-4f11-9629-ab93fabf11c5" corresp="#acd714f6-2438-4207-9714-f624385207a6" resp="#CT #DE">Im folgenden Absatz gibt
                                 Humboldt eine (auszugsweise) deutschsprachige Übersetzung des Lemmas
-                                „[Lichen] tartareus“ aus <bibl corresp="https://edition-humboldt.de/v8/RJAG9TK6">Mohr
+                                „[Lichen] tartareus“ aus <bibl corresp="https://edition-humboldt.de/RJAG9TK6">Mohr
                                     1786</bibl>, 230–232 wieder.</note>
                     </p>
                     <p>„<hi rendition="#aq">
@@ -980,37 +1047,37 @@
                                     <abbr>L.</abbr>
                                     <expan>Lichen</expan>
                                 </choice> tartareus</name>
-                        </hi>, <ref xml:id="bb9e5b04-55f3-4225-9e5b-0455f3f225dc" corresp="#d4fd214b-ed27-413e-bd21-4bed27713e1f">
+                        </hi>, <ref xml:id="da41eced-823a-4c32-81ec-ed823acc3218" corresp="#bb202c7f-d9b0-4307-a02c-7fd9b0a30745">
                             <hi rendition="#u" hand="#unknown">Litunar</hi>moose</ref>
-                        <note xml:id="d4fd214b-ed27-413e-bd21-4bed27713e1f" corresp="#bb9e5b04-55f3-4225-9e5b-0455f3f225dc">Litunarmoose: Übertragung aus
+                        <note xml:id="bb202c7f-d9b0-4307-a02c-7fd9b0a30745" corresp="#da41eced-823a-4c32-81ec-ed823acc3218" resp="#DE">Litunarmoose: Übertragung aus
                                 Litunarmosi, einem isländischer Trivialnamen für das Lichen
                                 tartareus.</note>,<note place="right" hand="#unknown">
                             <metamark>?</metamark>
                         </note>
                         <lb/>
-                        <ref xml:id="f2cfc819-9a4f-4828-8fc8-199a4f782822" corresp="#f793950d-4860-457b-9395-0d4860f57b59">
+                        <ref xml:id="d6180bc1-fa32-480c-980b-c1fa32f80cf6" corresp="#fb18aec5-c9a2-49db-98ae-c5c9a239db11">
                             <choice>
                                     <sic>Hviddblik</sic>
                                     <corr resp="#DE">Hvidblik</corr>
                                 </choice>
                         </ref>
-                        <note xml:id="f793950d-4860-457b-9395-0d4860f57b59" corresp="#f2cfc819-9a4f-4828-8fc8-199a4f782822">Hvidblik: Norwegischer
+                        <note xml:id="fb18aec5-c9a2-49db-98ae-c5c9a239db11" corresp="#d6180bc1-fa32-480c-980b-c1fa32f80cf6" resp="#DE">Hvidblik: Norwegischer
                                 Trivialname für das Lichen tartareus.</note>
                         <choice>
                             <abbr>od.</abbr>
                             <expan>oder</expan>
                         </choice>
-                        <ref xml:id="c7dc4e01-7c78-4d88-9c4e-017c787d8830" corresp="#bf9ae57d-fe12-49a4-9ae5-7dfe12a9a4a7">
+                        <ref xml:id="f098580b-3f90-49d5-9858-0b3f9029d5b6" corresp="#c275bc41-9281-4ea6-b5bc-4192814ea663">
                             <subst>
                                     <del rendition="#ow">
                                     <gap reason="illegible" unit="chars" quantity="1"/>
                                 </del>
                                     <add place="across">K</add>
                                 </subst>orke</ref>
-                        <note xml:id="bf9ae57d-fe12-49a4-9ae5-7dfe12a9a4a7" corresp="#c7dc4e01-7c78-4d88-9c4e-017c787d8830">Korke: In Skandinavien
-                                gebräuchlicher Trivialname für das Lichen tartareus.</note>. Dies <lb/>Moos ist seit den ältesten <lb/>Zeiten in <placeName ref="https://www.geonames.org/3144096">Norwegen</placeName>, <placeName ref="https://www.geonames.org/2661886">Schweden</placeName>
-                        <lb/>und den <placeName ref="https://www.geonames.org/2622320">Farörinseln</placeName> und
-                            <placeName ref="https://www.geonames.org/2629691">Island</placeName>
+                        <note xml:id="c275bc41-9281-4ea6-b5bc-4192814ea663" corresp="#f098580b-3f90-49d5-9858-0b3f9029d5b6" resp="#DE">Korke: In Skandinavien
+                                gebräuchlicher Trivialname für das Lichen tartareus.</note>. Dies <lb/>Moos ist seit den ältesten <lb/>Zeiten in <placeName ref="https://editon-humboldt.de/H0001715 https://www.geonames.org/3144096">Norwegen</placeName>, <placeName ref="https://editon-humboldt.de/H0010177 https://www.geonames.org/2661886">Schweden</placeName>
+                        <lb/>und den <placeName ref="https://editon-humboldt.de/H0004756 https://www.geonames.org/2622320">Farörinseln</placeName> und
+                            <placeName ref="https://editon-humboldt.de/H0006739 https://www.geonames.org/2629691">Island</placeName>
                         <lb/>zum Färben gebraucht worden. <lb/>Der Indigo und andere <choice>
                             <abbr>ausländ.</abbr>
                             <expan>ausländische</expan>
@@ -1019,16 +1086,21 @@
                         <lb/>verdrängt. Der Vorwurf, daß <lb/>die Farbe daraus nicht so <lb/>hoch,
                         glänzend und haltbar <lb/>
                         <pb facs="#f0012" n="[6v]"/>
-                        <fw type="folNum">10.</fw> als die aus ostindischen Ma-<lb/>terialien sei, ist ungegrün-<lb/>det da auch bei der elendsten <lb/>Bereitung ohne Anwendung
-                        von <lb/>Salzen und anderen Bindemit-<lb/>teln dieselbe oft so über-<lb/>aus
-                        prächtig ausfällt. <ref xml:id="c388fb25-2ff8-42d5-88fb-252ff822d545" corresp="#c1132a92-3a4d-466e-932a-923a4dc66e8c">
+                        <fw type="folNum">10.</fw> als die aus ostindischen Ma<g ref="#typoHyphen"/>
+                        <lb break="no"/>terialien sei, ist ungegrün<g ref="#typoHyphen"/>
+                        <lb break="no"/>det da auch bei der elendsten <lb/>Bereitung ohne Anwendung
+                        von <lb/>Salzen und anderen Bindemit<g ref="#typoHyphen"/>
+                        <lb break="no"/>teln dieselbe oft so über<g ref="#typoHyphen"/>
+                        <lb break="no"/>aus
+                        prächtig ausfällt. <ref xml:id="e3f7f818-762e-4d23-b7f8-18762e7d238e" corresp="#c2444297-efe6-4189-8442-97efe6e18985">
                             <choice>
                             <abbr>Prof.</abbr>
                             <expan>Professor</expan>
                         </choice>
                         <lb/>
-                            <persName ref="http://d-nb.info/gnd/1012469077">Strom</persName> versichert in der <hi rendition="#aq">
-                                <bibl corresp="">Maa-<lb/>nedsskrivt fra
+                            <persName ref="https://editon-humboldt.de/H0016868 http://d-nb.info/gnd/1012469077">Strom</persName> versichert in der <hi rendition="#aq">
+                                <bibl>Maa<g ref="#typoHyphen"/>
+                                    <lb break="no"/>nedsskrivt fra
                                         Christiania</bibl>
                             </hi>
                             <note place="right" hand="#unknown">
@@ -1056,10 +1128,10 @@
                                     <expan>tartareus</expan>
                                 </choice>
                                 </name>
-                            </hi> von <placeName ref="https://www.geonames.org/3144096">Norwegen</placeName> nach <lb/>
-                            <placeName ref="https://www.geonames.org/6269131">England</placeName> gehe, wo man ihn <lb/>zu einer rothen und blauen
+                            </hi> von <placeName ref="https://editon-humboldt.de/H0001715 https://www.geonames.org/3144096">Norwegen</placeName> nach <lb/>
+                            <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName> gehe, wo man ihn <lb/>zu einer rothen und blauen
                         <lb/>Farbe auf Wolle und Kattun <lb/>veredle.</ref>
-                        <note xml:id="c1132a92-3a4d-466e-932a-923a4dc66e8c" corresp="#c388fb25-2ff8-42d5-88fb-252ff822d545">Die hier genannte
+                        <note xml:id="c2444297-efe6-4189-8442-97efe6e18985" corresp="#e3f7f818-762e-4d23-b7f8-18762e7d238e" resp="#DE #FS #CT">Die hier genannte
                                         Publikation konnte nicht mit Sicherheit identifiziert
                                         werden.</note> 1785 gingen allein 2
                         <lb/>Schifsladungen von diesem <hi rendition="#aq">
@@ -1069,13 +1141,14 @@
                                     <expan>Lichen</expan>
                                 </choice>
                                 <lb/>tartareus</name>
-                        </hi> von <placeName ref="https://www.geonames.org/3144096">Norwegen</placeName> nach <lb/>
-                        <placeName ref="https://www.geonames.org/6269131">England</placeName>.<supplied>“</supplied>
+                        </hi> von <placeName ref="https://editon-humboldt.de/H0001715 https://www.geonames.org/3144096">Norwegen</placeName> nach <lb/>
+                        <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>.<supplied>“</supplied>
                     </p>
-                    <p>Die Schweden bereiten eine <lb/>braune Farbe, die sie <ref xml:id="f86c700e-af08-4d85-ac70-0eaf080d8527" corresp="#bec9e7bc-760c-4670-89e7-bc760cf670f5">
-                            <hi rendition="#aq">Böte-<lb/>let</hi>
+                    <p>Die Schweden bereiten eine <lb/>braune Farbe, die sie <ref xml:id="b4d83e23-d7a5-49f0-983e-23d7a5c9f0a9" corresp="#e634d39a-98b4-48cb-b4d3-9a98b448cb0d">
+                            <hi rendition="#aq">Böte<g ref="#typoHyphen"/>
+                                <lb break="no"/>let</hi>
                         </ref>
-                        <note xml:id="bec9e7bc-760c-4670-89e7-bc760cf670f5" corresp="#f86c700e-af08-4d85-ac70-0eaf080d8527">Es handelt sich um einen in
+                        <note xml:id="e634d39a-98b4-48cb-b4d3-9a98b448cb0d" corresp="#b4d83e23-d7a5-49f0-983e-23d7a5c9f0a9" resp="#DE">Es handelt sich um einen in
                                 Schweden auch „Byttelet“ genannten roten Farbstoff.</note> nennen aus dem <hi rendition="#aq">
                             <name type="plant">
                                 <choice>
@@ -1088,16 +1161,16 @@
                                     <expan>tartareus</expan>
                                 </choice>
                             </name>
-                        </hi>. <ref xml:id="a04f31c0-8c51-46fd-8f31-c08c5156fdfe" corresp="#fa57c31f-15da-46f0-97c3-1f15da36f026">
-                            <bibl corresp="https://edition-humboldt.de/v8/5JPQBINE">Fabricius Reise nach
+                        </hi>. <ref xml:id="f4811dfa-9d5c-45ed-811d-fa9d5cc5ed4d" corresp="#cdd3934c-6650-4115-9393-4c665031154e">
+                            <bibl corresp="https://edition-humboldt.de/5JPQBINE">Fabricius Reise nach
                                     <lb/>Norwegen p<supplied>.</supplied> 66</bibl>
                         </ref>
-                        <note xml:id="fa57c31f-15da-46f0-97c3-1f15da36f026" corresp="#a04f31c0-8c51-46fd-8f31-c08c5156fdfe">Die gemeinte Passage in <bibl corresp="https://edition-humboldt.de/v8/5JPQBINE">Fabricius 1779</bibl> befindet
+                        <note xml:id="cdd3934c-6650-4115-9393-4c665031154e" corresp="#f4811dfa-9d5c-45ed-811d-fa9d5cc5ed4d" resp="#FS">Die gemeinte Passage in <bibl corresp="https://edition-humboldt.de/5JPQBINE">Fabricius 1779</bibl> befindet
                                 sich, anders als Humboldt es angibt, auf S. 64.</note>.</p>
                     <pb facs="#f0013" n="[7r]"/>
                     <fw type="folNum">11.</fw>
                     <p>In <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/11609031">Derbyshire</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0005512 https://www.geonames.org/11609031">Derbyshire</placeName>
                         </hi>
                         heißt das <lb/>
                         <hi rendition="#aq">
@@ -1112,21 +1185,23 @@
                                 </choice>
                             </name>
                         </hi>
-                        <ref xml:id="ab978d88-d630-493f-978d-88d630f93f83" corresp="#cdbc817e-3fb5-4a80-bc81-7e3fb5aa8070">
+                        <ref xml:id="afc35e76-860c-4d66-835e-76860c6d669d" corresp="#fcd85558-3b5b-4f07-9855-583b5bff07f9">
                             <hi rendition="#aq">
                                 <foreign xml:lang="eng">welch liverwort[.]
                                         <lb/>It is gathered for dyers and <lb/>gives a purple
                                         colour.</foreign>
                             </hi>
                         </ref>
-                        <note xml:id="cdbc817e-3fb5-4a80-bc81-7e3fb5aa8070" corresp="#ab978d88-d630-493f-978d-88d630f93f83">Vgl. Pilkington 1789, 478:
+                        <note xml:id="fcd85558-3b5b-4f07-9855-583b5bff07f9" corresp="#afc35e76-860c-4d66-835e-76860c6d669d" resp="#CT">Vgl. Pilkington 1789, 478:
                                 „Lichen <hi rendition="#i">tartareus</hi>. <hi rendition="#i">Welch
                                     Liverwort</hi>. On rocks, common. — It is gathered for dyers,
                                 and gives a purple colour.“ </note>
-                        <bibl corresp="https://edition-humboldt.de/v8/3VJFTG7R">
+                        <bibl corresp="https://edition-humboldt.de/3VJFTG7R">
                             <foreign xml:lang="eng">
-                                <hi rendition="#aq">Pil-<lb/>kington’s</hi>
-                                <hi rendition="#aq">View of the pre-<lb/>sent state of Derbyshire <lb/>Vol. I
+                                <hi rendition="#aq">Pil<g ref="#typoHyphen"/>
+                                    <lb break="no"/>kington’s</hi>
+                                <hi rendition="#aq">View of the pre<g ref="#typoHyphen"/>
+                                    <lb break="no"/>sent state of Derbyshire <lb/>Vol. I
                                         p<supplied>.</supplied>
                                 </hi> 478</foreign>
                         </bibl>.</p>
@@ -1135,94 +1210,99 @@
                     <head>
                         <date when="1790-06-12" calendar="#gregorian">
                             <hi rendition="#u">
-                                <placeName ref="https://www.geonames.org/2640098">Poole’s hole</placeName>.</hi>
+                                <placeName ref="https://editon-humboldt.de/H0017632 https://www.geonames.org/2640098">Poole’s hole</placeName>.</hi>
                         </date>
                     </head>
                     <p>560 <hi rendition="#aq">yards</hi> lang. Sie liegt <lb/>im Südwesten von <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2654141">Buxton</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017577 https://www.geonames.org/2654141">Buxton</placeName>
                         </hi>
                         <lb/>und dem Flüßchen <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2633458">Wye</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017269 https://www.geonames.org/2633458">Wye</placeName>
                         </hi>, gegen <lb/>das hohe <name type="mineral">Kalk</name>gebirge <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2656727">Ax
+                            <placeName ref="https://editon-humboldt.de/H0017295 https://www.geonames.org/2656727">Ax
                                 edge</placeName>
                         </hi>
-                        <lb/>zu. Weil die Höle eng ist <lb/>so bilden sich hier schönere Sta-<lb/>laktiten, als die im <hi rendition="#aq">
-                            <placeName ref="https://edition-humboldt.de/v8/H0005519">Peak’s
+                        <lb/>zu. Weil die Höle eng ist <lb/>so bilden sich hier schönere Sta<g ref="#typoHyphen"/>
+                        <lb break="no"/>laktiten, als die im <hi rendition="#aq">
+                            <placeName ref="https://editon-humboldt.de/H0005519">Peak’s
                             <lb/>hole</placeName>
                         </hi>. Die größten sind der <lb/>
                         <hi rendition="#aq">flitch of Bacon</hi> und der <lb/>
-                        <hi rendition="#aq">queen of Scot’s pillar</hi> den <lb/>die unglückliche <ref xml:id="dabda458-316c-4889-bda4-58316c388990" corresp="#d4868eac-4ff2-4ae6-868e-ac4ff28ae6cc">
-                            <persName ref="http://d-nb.info/gnd/118577808">Maria</persName>
+                        <hi rendition="#aq">queen of Scot’s pillar</hi> den <lb/>die unglückliche <ref xml:id="a00cb898-1a06-4fb0-8cb8-981a063fb0cc" corresp="#ee68136c-5eb3-4129-a813-6c5eb381298c">
+                            <persName ref="https://editon-humboldt.de/H0016846 http://d-nb.info/gnd/118577808">Maria</persName>
                         </ref>
-                        <note xml:id="d4868eac-4ff2-4ae6-868e-ac4ff28ae6cc" corresp="#dabda458-316c-4889-bda4-58316c388990">Maria Stuart
+                        <note xml:id="ee68136c-5eb3-4129-a813-6c5eb381298c" corresp="#a00cb898-1a06-4fb0-8cb8-981a063fb0cc" resp="#koelbel-et-al">Maria Stuart
                                 (1542–1587), Königin von Schottland 1542–1567. Nach mehreren
                                 Auseinandersetzungen floh sie 1568 von Schottland nach England, wo
                                 sie 19 Jahre in Haft genommen wurde. Wegen angeblicher Verschwörung
                                 gegen Elisabeth I. wurde sie 1587 enthauptet.</note> während <lb/>ihrer Gefangenschaft in <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/7287963">Chats<lb/>worth</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017325 https://www.geonames.org/7287963">Chats<lb break="no"/>worth</placeName>
                         </hi> besucht
                         haben soll. <lb/>Ein kleiner Bach fließt aus <lb/>
                         <pb facs="#f0014" n="[7v]"/>
                         <fw type="folNum">12.</fw> der Höle heraus. Auf dem <lb/>Wege von <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2654141">Buxton</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017577 https://www.geonames.org/2654141">Buxton</placeName>
                         </hi> bis
-                        zur <lb/>Höle fand ich häufig <ref xml:id="a7248644-c211-49a2-a486-44c211c9a2fa" corresp="#c655e8de-e5b0-4313-95e8-dee5b0131335">
+                        zur <lb/>Höle fand ich häufig <ref xml:id="e44c44fa-815f-49c1-8c44-fa815f69c1fe" corresp="#a4fd3dc7-b1ac-4804-bd3d-c7b1ac4804af">
                             <hi rendition="#aq">
-                                <name type="plant">Saxi-<lb/>fraga granulata</name>
+                                <name type="plant">Saxi<g ref="#typoHyphen"/>
+                                    <lb break="no"/>fraga granulata</name>
                             </hi>
                         </ref>
-                        <note xml:id="c655e8de-e5b0-4313-95e8-dee5b0131335" corresp="#a7248644-c211-49a2-a486-44c211c9a2fa">Saxifraga granulata –
-                                Knöllchen-Steinbrech.</note> und <ref xml:id="fd0769cb-bea3-4dc2-8769-cbbea3edc2f8" corresp="#b54c3ced-f739-494f-8c3c-edf739b94fd1">
+                        <note xml:id="a4fd3dc7-b1ac-4804-bd3d-c7b1ac4804af" corresp="#e44c44fa-815f-49c1-8c44-fa815f69c1fe" resp="#koelbel-et-al">Saxifraga granulata –
+                                Knöllchen-Steinbrech.</note> und <ref xml:id="f50cf715-9cf4-4872-8cf7-159cf4f8729d" corresp="#f3022de2-9f1c-49eb-822d-e29f1c59eb9b">
                             <hi rendition="#aq">
                                 <name type="plant">
                                     <choice>
                                             <abbr>S.</abbr>
                                             <expan>Saxifraga</expan>
-                                        </choice> tri-<lb/>dactylites</name>
+                                        </choice> tri<g ref="#typoHyphen"/>
+                                    <lb break="no"/>dactylites</name>
                             </hi>
                         </ref>
-                        <note xml:id="b54c3ced-f739-494f-8c3c-edf739b94fd1" corresp="#fd0769cb-bea3-4dc2-8769-cbbea3edc2f8">Saxifraga
+                        <note xml:id="f3022de2-9f1c-49eb-822d-e29f1c59eb9b" corresp="#f50cf715-9cf4-4872-8cf7-159cf4f8729d" resp="#koelbel-et-al">Saxifraga
                                 tridactylites – Dreifinger-Steinbrech.</note>. An dem Eingange <choice>
                             <abbr>d.</abbr>
                             <expan>der</expan>
                         </choice>
-                        <lb/>Höle sah ich <ref xml:id="bd01a8c3-91db-4002-81a8-c391dbb0028d" corresp="#ada23169-47fd-4888-a231-6947fda888d8">
+                        <lb/>Höle sah ich <ref xml:id="a7d8f791-17e3-4889-98f7-9117e3f88915" corresp="#b45fa98e-43c9-4b74-9fa9-8e43c93b7481">
                             <hi rendition="#aq">
-                                <name type="plant">Viola monta-<lb/>na</name>
+                                <name type="plant">Viola monta<g ref="#typoHyphen"/>
+                                    <lb break="no"/>na</name>
                             </hi>
                         </ref>
-                        <note xml:id="ada23169-47fd-4888-a231-6947fda888d8" corresp="#bd01a8c3-91db-4002-81a8-c391dbb0028d">Viola montana: heute
+                        <note xml:id="b45fa98e-43c9-4b74-9fa9-8e43c93b7481" corresp="#a7d8f791-17e3-4889-98f7-9117e3f88915" resp="#koelbel-et-al">Viola montana: heute
                                 Viola canina ssp. Montana – Berg-Veilchen, Unterart vom
-                                Hunds-Veilchen.</note>, <ref xml:id="a84343ec-4f93-4593-8343-ec4f933593b6" corresp="#a1220784-65a8-47dd-a207-8465a8d7dd89">
+                                Hunds-Veilchen.</note>, <ref xml:id="c714065a-8d38-4639-9406-5a8d3806398f" corresp="#f3073ea3-51fb-4875-873e-a351fb287583">
                             <hi rendition="#aq">
                                 <name type="plant">Alchemilla
                                     vulgaris</name>
                             </hi>
                         </ref>
-                        <note xml:id="a1220784-65a8-47dd-a207-8465a8d7dd89" corresp="#a84343ec-4f93-4593-8343-ec4f933593b6">Alchemilla vulgaris –
+                        <note xml:id="f3073ea3-51fb-4875-873e-a351fb287583" corresp="#c714065a-8d38-4639-9406-5a8d3806398f" resp="#koelbel-et-al">Alchemilla vulgaris –
                                 Gewöhnlicher Frauenmantel.</note> und <lb/>
-                        <ref xml:id="a042e682-b8bc-40ae-82e6-82b8bc90aeb6" corresp="#ae645d96-b1eb-4d77-a45d-96b1eb8d77dd">
+                        <ref xml:id="a1fd5fb4-2c8e-4418-bd5f-b42c8e5418d9" corresp="#f5e3396c-9da6-43f2-a339-6c9da693f226">
                             <hi rendition="#aq">
                                 <name type="plant">Polypodium
                                     vulgare</name>
                             </hi>
                         </ref>
-                        <note xml:id="ae645d96-b1eb-4d77-a45d-96b1eb8d77dd" corresp="#a042e682-b8bc-40ae-82e6-82b8bc90aeb6">Polypodium vulgare –
+                        <note xml:id="f5e3396c-9da6-43f2-a339-6c9da693f226" corresp="#a1fd5fb4-2c8e-4418-bd5f-b42c8e5418d9" resp="#koelbel-et-al">Polypodium vulgare –
                                 Gewöhnlicher Tüpfelfarn oder Engelsüß.</note>.</p>
                     <p>Bei <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2640098">Poole’s
+                            <placeName ref="https://editon-humboldt.de/H0017632 https://www.geonames.org/2640098">Poole’s
                             hole</placeName>
                         </hi> sind viel <lb/>Kalkbrennereien im Freien. Denn
-                        <lb/>in <placeName ref="https://www.geonames.org/6269131">England</placeName> brennt man <name type="mineral">Kalk</name>
-                        <lb/>im Freien und Ziegel in <lb/>konischen Oefen, gerade um-<lb/>gekehrt, als in <placeName ref="https://www.geonames.org/2921044">Deutschland</placeName>.</p>
+                        <lb/>in <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName> brennt man <name type="mineral">Kalk</name>
+                        <lb/>im Freien und Ziegel in <lb/>konischen Oefen, gerade um<g ref="#typoHyphen"/>
+                        <lb break="no"/>gekehrt, als in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName>.</p>
                 </div>
                 <div type="diaryEntry">
                     <head>
                         <date when="1790-06-12" calendar="#gregorian">
                             <hi rendition="#u">
                                 <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/2653543">Castleton</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0007225 https://www.geonames.org/2653543">Castleton</placeName>
                                 </hi>.</hi>
                             <note place="right" hand="#unknown">
                                 <gap reason="illegible" unit="words" quantity="1"/>
@@ -1230,36 +1310,38 @@
                         </date>
                     </head>
                     <p>Bei der <name type="mineral">Flußspat</name>rinne am <lb/>holen Wege nach <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2654141">Buxton</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017577 https://www.geonames.org/2654141">Buxton</placeName>
                         </hi> zu,
-                        <lb/>der <ref xml:id="fd60040c-3b0e-4346-a004-0c3b0e03467f" corresp="#a8843de6-f266-493d-843d-e6f266693dfb">
+                        <lb/>der <ref xml:id="ec0fe3c7-d73b-4922-8fe3-c7d73b892232" corresp="#fb42e0e5-53c0-491a-82e0-e553c0591a84">
                             <hi rendition="#aq">
                                 <name type="plant">Gentiana
                                     amarella</name>
                             </hi>
                         </ref>
-                        <note xml:id="a8843de6-f266-493d-843d-e6f266693dfb" corresp="#fd60040c-3b0e-4346-a004-0c3b0e03467f">Gentiana amarella
+                        <note xml:id="fb42e0e5-53c0-491a-82e0-e553c0591a84" corresp="#ec0fe3c7-d73b-4922-8fe3-c7d73b892232" resp="#koelbel-et-al">Gentiana amarella
                                 (Bitterer Enzian): Synonym zu Gentianella amarella: Bitterer
-                                Franzenenzian.</note>, de-<lb/>ren Gelb mir hier von un-<lb/>gewöhnlicher Schönheit schien.</p>
+                                Franzenenzian.</note>, de<g ref="#typoHyphen"/>
+                        <lb break="no"/>ren Gelb mir hier von un<g ref="#typoHyphen"/>
+                        <lb break="no"/>gewöhnlicher Schönheit schien.</p>
                     <p>Im <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2636796">Middelton
+                            <placeName ref="https://editon-humboldt.de/H0017441 https://www.geonames.org/2636796">Middelton
                             dale</placeName>
                         </hi> (vor <lb/>
                         <pb facs="#f0015" n="[8r]"/>
                         <fw type="folNum">13.</fw>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2636796">Stoney-Middelton</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017415 https://www.geonames.org/2636796">Stoney-Middelton</placeName>
                         </hi>
                         <supplied>)</supplied> fand ich
-                        <lb/>in großer Menge <ref xml:id="e12a6ea5-78af-433c-aa6e-a578af833ca0" corresp="#a5381320-d171-4621-b813-20d17116217a">
+                        <lb/>in großer Menge <ref xml:id="d05acfd3-5e38-4a94-9acf-d35e381a945c" corresp="#ea28a96b-5c6b-40cc-a8a9-6b5c6b70ccc7">
                             <hi rendition="#aq">
                                 <name type="plant">Arenaria
                                         <lb/>saxatilis</name>
                             </hi>
                         </ref>
-                        <note xml:id="a5381320-d171-4621-b813-20d17116217a" corresp="#e12a6ea5-78af-433c-aa6e-a578af833ca0">Arenaria saxatilis:
-                                heute Minuartia verna – Frühlings-Miere.</note>, diese seltene Pflanze, <lb/>die in <placeName ref="https://www.geonames.org/2921044">Deutschland</placeName> nur bei <lb/>
-                        <placeName ref="https://www.geonames.org/2953449">Harzburg</placeName> am <placeName ref="https://www.geonames.org/2909965">Harze</placeName>
+                        <note xml:id="ea28a96b-5c6b-40cc-a8a9-6b5c6b70ccc7" corresp="#d05acfd3-5e38-4a94-9acf-d35e381a945c" resp="#koelbel-et-al">Arenaria saxatilis:
+                                heute Minuartia verna – Frühlings-Miere.</note>, diese seltene Pflanze, <lb/>die in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName> nur bei <lb/>
+                        <placeName ref="https://editon-humboldt.de/H0006810 https://www.geonames.org/2953449">Harzburg</placeName> am <placeName ref="https://editon-humboldt.de/H0006809 https://www.geonames.org/2909965">Harze</placeName>
                         entdekt <lb/>ist.</p>
                 </div>
                 <div type="diaryEntry">
@@ -1273,48 +1355,53 @@
                         </date>
                     </head>
                     <p>Auf der Straße nach <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2650839">Dud-<lb/>ley</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017345 https://www.geonames.org/2650839">Dud<g ref="#typoHyphen"/>
+                                <lb break="no"/>ley</placeName>
                         </hi> bei dem schönen Dorfe
                             <lb/>
                         <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2647639">Hales
+                            <placeName ref="https://editon-humboldt.de/H0017348 https://www.geonames.org/2647639">Hales
                                 owen</placeName>
                         </hi> liegt alles voll <lb/>von <hi rendition="#aq">
                             <name type="mineral">Rowly ragg</name>
                         </hi>, den <hi rendition="#aq">
-                            <persName ref="http://d-nb.info/gnd/11922139X">Kirwan</persName>
+                            <persName ref="https://editon-humboldt.de/H0001332 http://d-nb.info/gnd/11922139X">Kirwan</persName>
                         </hi>
                         <lb/>und <hi rendition="#aq">
-                            <persName ref="http://d-nb.info/gnd/116478055">Cavallo</persName>
+                            <persName ref="https://editon-humboldt.de/H0012959 http://d-nb.info/gnd/116478055">Cavallo</persName>
                         </hi> als eine eigene <lb/>Steinart aufführen. <hi rendition="#aq">
                             <name type="mineral">Rowly ragg</name>
                         </hi>
                         <lb/>ist ein bloßer Trivialnahme <lb/>für <name type="mineral">Basalt</name>, wie die deutschen <lb/>Namen
                         Unkelstein
-                        und Stolpe-<lb/>nerstein.
-                        Ich fand diese engli<lb/>sche Abänderung des <name type="mineral">Basalt</name>s <lb/>von <hi rendition="#u">schwärzlich<supplied>-</supplied>grauer Farbe</hi>, <lb/>
-                        <hi rendition="#u">im Bruche uneben</hi>, <hi rendition="#u">von scharf-<lb/>
+                        und Stolpe<g ref="#typoHyphen"/>
+                        <lb break="no"/>nerstein.
+                        Ich fand diese engli<lb break="no"/>sche Abänderung des <name type="mineral">Basalt</name>s <lb/>von <hi rendition="#u">schwärzlich<supplied>-</supplied>grauer Farbe</hi>, <lb/>
+                        <hi rendition="#u">im Bruche uneben</hi>, <hi rendition="#u">von scharf<g ref="#typoHyphen"/>
+                            <lb break="no"/>
                             <pb facs="#f0016" n="[8v]"/>
                             <fw type="folNum">14.</fw> kantigen Bruchstükken</hi>, <hi rendition="#u">hart</hi>, <lb/>
                         <hi rendition="#u">sehr schwer
                             zersprengbar</hi>, <hi rendition="#u">rauh</hi>, <lb/>
                         <hi rendition="#u">kalt</hi> und <hi rendition="#u">schwer</hi>. Er hat eben <lb/>den
-                        weißlich-grünen thonar<lb/>tigen Ueberzug, den die <name type="mineral">Ba<lb/>salte</name> vom <ref xml:id="aa44279a-1562-44e1-8427-9a1562d4e17a" corresp="#c0ce8c0a-c0ec-46d3-8e8c-0ac0ec56d3ff">
-                            <placeName ref="https://www.geonames.org/2935330">Dransberge</placeName> und <placeName ref="https://www.geonames.org/2872147">Wei<lb/>ßener</placeName>
+                        weißlich-grünen thonar<lb break="no"/>tigen Ueberzug, den die <name type="mineral">Ba<lb break="no"/>salte</name> vom <ref xml:id="c5e2d005-c7c6-40dd-a2d0-05c7c670ddf4" corresp="#be2ec814-df74-4da0-aec8-14df74dda00c">
+                            <placeName ref="https://editon-humboldt.de/H0005560 https://www.geonames.org/2935330">Dransberge</placeName> und <placeName ref="https://editon-humboldt.de/H0008800 https://www.geonames.org/2872147">Wei<lb break="no"/>ßener</placeName>
                         </ref>
-                        <note xml:id="c0ce8c0a-c0ec-46d3-8e8c-0ac0ec56d3ff" corresp="#aa44279a-1562-44e1-8427-9a1562d4e17a">Den Weißner
+                        <note xml:id="be2ec814-df74-4da0-aec8-14df74dda00c" corresp="#c5e2d005-c7c6-40dd-a2d0-05c7c670ddf4" resp="#koelbel-et-al #CT #DE">Den Weißner
                                 [heute meist (Hoher) Meißner genannt], den Dransberg und den
                                 Gleichen hatte Humboldt am 24. September 1789 auf seiner gemeinsamen
-                                Reise mit <persName ref="http://viaf.org/viaf/22430851">Steven Jan van Geuns</persName> durch Hessen, die Pfalz, längs des
+                                Reise mit <persName ref="https://editon-humboldt.de/H0013455 http://viaf.org/viaf/22430851">Steven Jan van Geuns</persName> durch Hessen, die Pfalz, längs des
                                 Rheins und durch Westfalen besucht. Der Hohe Meißner war 1789 auch
-                                durch <persName ref="http://d-nb.info/gnd/118767089">A. G. Werner</persName> beschrieben
-                                worden (<bibl corresp="https://edition-humboldt.de/v8/K8VANRF2">Faust 1784</bibl>,
-                                    <bibl corresp="https://edition-humboldt.de/v8/XE2A44BQ">Werner
-                                1789</bibl>).</note> zeigen. Er ist unge-<lb/>mein
-                        schimmernd, wegen der ihm <lb/>eingesprengten Körner von <name type="mineral">ba-<lb/>salt</name>. <ref xml:id="d88280e7-c3dc-4f21-8280-e7c3dc6f21e4" corresp="#f00474bd-72c1-4e31-8474-bd72c18e31ac">
+                                durch <persName ref="https://editon-humboldt.de/H0006329 http://d-nb.info/gnd/118767089">A. G. Werner</persName> beschrieben
+                                worden (<bibl corresp="https://edition-humboldt.de/K8VANRF2">Faust 1784</bibl>,
+                                    <bibl corresp="https://edition-humboldt.de/XE2A44BQ">Werner
+                                1789</bibl>).</note> zeigen. Er ist unge<g ref="#typoHyphen"/>
+                        <lb break="no"/>mein
+                        schimmernd, wegen der ihm <lb/>eingesprengten Körner von <name type="mineral">ba<g ref="#typoHyphen"/>
+                            <lb break="no"/>salt</name>. <ref xml:id="b11ad395-191a-4607-9ad3-95191a7607bb" corresp="#d574b376-9b80-41f5-b4b3-769b8081f546">
                             <name type="mineral">Chrysolith</name>
                         </ref>
-                        <note xml:id="f00474bd-72c1-4e31-8474-bd72c18e31ac" corresp="#d88280e7-c3dc-4f21-8280-e7c3dc6f21e4">Chrysolith:
+                        <note xml:id="d574b376-9b80-41f5-b4b3-769b8081f546" corresp="#b11ad395-191a-4607-9ad3-95191a7607bb" resp="#koelbel-et-al">Chrysolith:
                                 Silikatmineral, grüne Varietät des Olivin.</note>. Große Massen <lb/>von <name type="mineral">
                             <choice>
                                 <abbr>Chrys.</abbr>
@@ -1325,10 +1412,10 @@
                             <abbr>od.</abbr>
                             <expan>oder</expan>
                         </choice>
-                        <ref xml:id="bb66e431-26db-4e7d-a6e4-3126dbfe7de9" corresp="#a6908153-f2ac-4361-9081-53f2ace361a4">
+                        <ref xml:id="cb399572-c416-4fa6-b995-72c4160fa68a" corresp="#d4a5763b-959e-4a36-a576-3b959eda3658">
                             <name type="mineral">Olivit</name>
                         </ref>
-                        <note xml:id="a6908153-f2ac-4361-9081-53f2ace361a4" corresp="#bb66e431-26db-4e7d-a6e4-3126dbfe7de9">Olivit: nach heutiger
+                        <note xml:id="d4a5763b-959e-4a36-a576-3b959eda3658" corresp="#cb399572-c416-4fa6-b995-72c4160fa68a" resp="#koelbel-et-al">Olivit: nach heutiger
                                 Nomenklatur Olivin, oliv- bis flachsgrünes gesteinsbildendes
                                 Mineral, oft als Einsprengling im Basalt.</note>, wie die <lb/>Unkler und Rhöner <name type="mineral">Basalt</name>e
                         <lb/>enthalten, fand ich nirgends. <lb/>Ueberhaupt sind die <name type="mineral">
@@ -1343,37 +1430,39 @@
                             </del>
                             <add place="across">fest</add>
                         </subst> wie die <name type="mineral">Quarz</name>körner in <lb/>einem <name type="mineral">Sandstein</name> vertheilt. <lb/>Die Strahlige Textur,
-                            wel-<lb/>che die <ref xml:id="acda9215-a0c0-4eb2-9a92-15a0c07eb2de" corresp="#f135de1e-b4db-4093-b5de-1eb4db3093a2">Antrimmer <name type="mineral">Basalt</name>e</ref>
-                        <note xml:id="f135de1e-b4db-4093-b5de-1eb4db3093a2" corresp="#acda9215-a0c0-4eb2-9a92-15a0c07eb2de">Antrimmer Basalte:
+                            wel<g ref="#typoHyphen"/>
+                        <lb break="no"/>che die <ref xml:id="e46b709f-b1b4-4288-ab70-9fb1b472888a" corresp="#f228c95f-6fb3-4e48-a8c9-5f6fb34e48ec">Antrimmer <name type="mineral">Basalt</name>e</ref>
+                        <note xml:id="f228c95f-6fb3-4e48-a8c9-5f6fb34e48ec" corresp="#e46b709f-b1b4-4288-ab70-9fb1b472888a" resp="#koelbel-et-al">Antrimmer Basalte:
                                 korrekt ist Antrimer Basalte, gemeint sind die Basalte des Antrimer
                                 Plateaus im Nordosten von Nordirland.</note>
                         <lb/>und zum Theil auch die <lb/>
-                        <ref xml:id="c10e8d78-f953-499b-8e8d-78f953699b11" corresp="#b85fbdbd-0188-4fea-9fbd-bd01883fea98">Rheinischen</ref>
-                        <note xml:id="b85fbdbd-0188-4fea-9fbd-bd01883fea98" corresp="#c10e8d78-f953-499b-8e8d-78f953699b11">Die im Jahr der England-Reise
+                        <ref xml:id="b576355e-bd31-438b-b635-5ebd31538b65" corresp="#b8e9e5e1-075e-4698-a9e5-e1075ee69872">Rheinischen</ref>
+                        <note xml:id="b8e9e5e1-075e-4698-a9e5-e1075ee69872" corresp="#b576355e-bd31-438b-b635-5ebd31538b65" resp="#FS">Die im Jahr der England-Reise
                                 erschienene erste Monographie Humboldts war „Mineralogische[n]
-                                Beobachtungen über einige Basalte am Rhein“ gewidmet (<bibl corresp="https://edition-humboldt.de/v8/R898HHGN">Humboldt 1790a</bibl>).</note> haben und die <lb/>nie Spuren einer ordentlichen <lb/>einschießenden
+                                Beobachtungen über einige Basalte am Rhein“ gewidmet (<bibl corresp="https://edition-humboldt.de/R898HHGN">Humboldt 1790a</bibl>).</note> haben und die <lb/>nie Spuren einer ordentlichen <lb/>einschießenden
                         Chrystallisation <lb/>
                         <pb facs="#f0017" n="[9r]"/>
                         <fw type="folNum">15.</fw> anzudeuten scheinen, vermisse <lb/>ich ganz im
                             <hi rendition="#aq">
                             <name type="mineral">rowly ragg</name>
                         </hi>.</p>
-                    <p>Die Mischung der Grunder-<lb/>den der Steine
+                    <p>Die Mischung der Grunder<g ref="#typoHyphen"/>
+                        <lb break="no"/>den der Steine
                         ist überhaupt <lb/>so verschieden, daß wenn man <lb/>wie <hi rendition="#aq">
-                            <persName ref="http://d-nb.info/gnd/11922139X">Kirwan</persName>
+                            <persName ref="https://editon-humboldt.de/H0001332 http://d-nb.info/gnd/11922139X">Kirwan</persName>
                         </hi> die Arten <lb/>nach
                         zehntheiligen Brüchen <lb/>trennen wollte, es fast so <lb/>viele Arten, als
                         Individuen <lb/>geben würde. Vergleiche z. B. <lb/>die verschiedenen
                         Analysen des <lb/>
-                        <ref xml:id="d05155ff-a07a-4a5d-9155-ffa07a1a5dde" corresp="#b178c962-3c39-42d9-b8c9-623c3962d905">
+                        <ref xml:id="a83e8183-d639-46c0-be81-83d63916c024" corresp="#dc4a06ab-f9ac-4e38-8a06-abf9ac2e3875">
                             <name type="mineral">Trapp</name>
                         </ref>
-                        <note xml:id="b178c962-3c39-42d9-b8c9-623c3962d905" corresp="#d05155ff-a07a-4a5d-9155-ffa07a1a5dde">Trapp: Um 1754 für
+                        <note xml:id="dc4a06ab-f9ac-4e38-8a06-abf9ac2e3875" corresp="#a83e8183-d639-46c0-be81-83d63916c024" resp="#koelbel-et-al">Trapp: Um 1754 für
                                 Gangdiabase verwendete Bezeichnung. Heute fast ausschließlich für
                                 mächtige basaltische Flächenergüsse (Plateaubasalte, Flutbasalte)
-                                oft von erheblicher Ausdehnung gebraucht (<bibl corresp="https://edition-humboldt.de/v8/8T4VVDZ5">Murawski H. &amp; Meyer W.
+                                oft von erheblicher Ausdehnung gebraucht (<bibl corresp="https://edition-humboldt.de/8T4VVDZ5">Murawski H. &amp; Meyer W.
                                     1998</bibl>, 225).</note>s i<unclear reason="illegible" cert="high" resp="#CT #DE">n</unclear>
-                        <bibl corresp="https://edition-humboldt.de/v8/2GQJUZSF">
+                        <bibl corresp="https://edition-humboldt.de/2GQJUZSF">
                             <hi rendition="#aq">Faujas de St.
                                 Fond</hi>
                             <lb/>
@@ -1381,13 +1470,13 @@
                                 <abbr>Abhandl.</abbr>
                                 <expan>Abhandlung</expan>
                             </choice> vom Trapp p<supplied>.</supplied> 57</bibl> und <lb/>
-                        <bibl corresp="https://edition-humboldt.de/v8/T4GEJ3NH">
+                        <bibl corresp="https://edition-humboldt.de/T4GEJ3NH">
                             <hi rendition="#aq">Philos. Transactions
                                 for 1782. <lb/>p<supplied>.</supplied>
                             </hi> 333.</bibl>
                     </p>
                     <p>Bei <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2647639">Hales owen</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017348 https://www.geonames.org/2647639">Hales owen</placeName>
                         </hi>
                         erscheinen zwei <lb/>kegelförmige, zum Theil mit <lb/>Buschwerk bekränzte
                         Hügel. <lb/>Läßt ihre Form, die Nähe <lb/>der <hi rendition="#aq">Rowlyragg</hi>hügel und des <lb/>rothen <name type="mineral">Sandstein</name>s hier auf <lb/>
@@ -1395,27 +1484,28 @@
                         <fw type="folNum">16.</fw>
                         <name type="mineral">Basalt</name> schließen.</p>
                     <p>Bei <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/2647639">Hales owen</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017348 https://www.geonames.org/2647639">Hales owen</placeName>
                         </hi>
-                        viel <ref xml:id="d854e5d9-1b3b-482c-94e5-d91b3b782cd8" corresp="#f9d724de-3d26-459d-9724-de3d26c59d28">
+                        viel <ref xml:id="f56e2d36-beef-475d-ae2d-36beef575da0" corresp="#ba53d2a9-6dc2-445e-93d2-a96dc2445ea7">
                             <hi rendition="#aq">
-                                <name type="plant">Dian-<lb/>thus prolifer</name>
+                                <name type="plant">Dian<g ref="#typoHyphen"/>
+                                    <lb break="no"/>thus prolifer</name>
                             </hi>
                         </ref>
-                        <note xml:id="f9d724de-3d26-459d-9724-de3d26c59d28" corresp="#d854e5d9-1b3b-482c-94e5-d91b3b782cd8">Dianthus prolifer:
+                        <note xml:id="ba53d2a9-6dc2-445e-93d2-a96dc2445ea7" corresp="#f56e2d36-beef-475d-ae2d-36beef575da0" resp="#koelbel-et-al">Dianthus prolifer:
                                 heute Petrorhagia prolifera – Felsnelke.</note>!</p>
                 </div>
                 <div type="diaryEntry">
                     <head>
                         <date when="1790-06-15" calendar="#gregorian">
                             <hi rendition="#u">Bäder in <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/11609031">Derbyshire</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0005512 https://www.geonames.org/11609031">Derbyshire</placeName>
                                 </hi>
                             </hi>
                         </date>
                     </head>
                     <p>
-                        <ref xml:id="af250a60-07a9-4cf9-a50a-6007a9dcf92d" corresp="#f1c8387d-6e51-4683-8838-7d6e51f6832d">
+                        <ref xml:id="d9f0a516-362b-4c70-b0a5-16362bfc704c" corresp="#eeb7ab0e-b0e4-4dd6-b7ab-0eb0e4fdd685">
                             <hi rendition="#aq">
                                 <choice>
                                         <abbr>D.</abbr>
@@ -1424,11 +1514,11 @@
                                     water, <lb/>Matlockwater &amp;<unclear reason="illegible" cert="high" resp="#CT #DE">c</unclear>
                                 <supplied>.</supplied>
                                     London</hi> 1778.</ref>
-                        <note xml:id="f1c8387d-6e51-4683-8838-7d6e51f6832d" corresp="#af250a60-07a9-4cf9-a50a-6007a9dcf92d">Der genannte Titel mit
+                        <note xml:id="eeb7ab0e-b0e4-4dd6-b7ab-0eb0e4fdd685" corresp="#d9f0a516-362b-4c70-b0a5-16362bfc704c" resp="#CT #DE">Der genannte Titel mit
                                 Erscheinungsjahr 1778 konnte nicht ermittelt werden. Offenbar
-                                übernahm Humboldt die bibliographischen Angaben aus <bibl corresp="https://edition-humboldt.de/v8/2GQJUZSF">Barthélemy 1789</bibl>, 17.
-                                    <bibl corresp="https://edition-humboldt.de/v8/6KP5C737">Kölbel et al. 2008</bibl>,
-                                Anm. 78, geben an, <bibl corresp="https://edition-humboldt.de/v8/IG6P9FGZ">Pearson
+                                übernahm Humboldt die bibliographischen Angaben aus <bibl corresp="https://edition-humboldt.de/2GQJUZSF">Barthélemy 1789</bibl>, 17.
+                                    <bibl corresp="https://edition-humboldt.de/6KP5C737">Kölbel et al. 2008</bibl>,
+                                Anm. 78, geben an, <bibl corresp="https://edition-humboldt.de/IG6P9FGZ">Pearson
                                     1784</bibl> sei gemeint.</note>
                     </p>
                 </div>
@@ -1437,7 +1527,7 @@
                         <date when="1790-06-13" calendar="#gregorian">
                             <hi rendition="#u">
                                 <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/2642910">Matlock</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0008761 https://www.geonames.org/2642910">Matlock</placeName>
                                 </hi>
                                 <note place="right" hand="#unknown">
                                     <gap reason="illegible" unit="lines" quantity="2"/>
@@ -1445,19 +1535,19 @@
                             </hi>
                         </date>
                     </head>
-                    <p>Der <ref xml:id="c944aadb-25b0-4c60-84aa-db25b0fc60ab" corresp="#c5b97835-eb8e-4e53-b978-35eb8ede5318">
+                    <p>Der <ref xml:id="fc8504fd-baf9-4804-8504-fdbaf9780476" corresp="#d6ac85f1-b28b-4727-ac85-f1b28b7727e5">
                             <hi rendition="#aq">
                                 <name type="mineral">Toadstone</name>
                             </hi>
                         </ref>
-                        <note xml:id="c5b97835-eb8e-4e53-b978-35eb8ede5318" corresp="#c944aadb-25b0-4c60-84aa-db25b0fc60ab">Toadstone: Eine
-                                Gesteinsbezeichnung von <persName ref="http://d-nb.info/gnd/119509504">John Whitehurst
+                        <note xml:id="d6ac85f1-b28b-4727-ac85-f1b28b7727e5" corresp="#fc8504fd-baf9-4804-8504-fdbaf9780476" resp="#koelbel-et-al">Toadstone: Eine
+                                Gesteinsbezeichnung von <persName ref="https://editon-humboldt.de/H0016827 http://d-nb.info/gnd/119509504">John Whitehurst
                                     (1713–1788)</persName>. Im Jahre 1778 hatte Whitehurst ein Buch
                                 über den Ursprung der Erde geschrieben und im Anhang die
                                 Stratigraphie von Derbyshire erläutert. Er erklärte Toadstone als
                                 Produkte eines Vulkans, der seine Lava zwischen Kalksteinschichten
                                 ergossen hatte und sich mit den Kalkschichten vermischte hatte […
-                                vgl. <bibl corresp="https://edition-humboldt.de/v8/4DWCKBRJ">Whitehurst
+                                vgl. <bibl corresp="https://edition-humboldt.de/4DWCKBRJ">Whitehurst
                                 1778</bibl>].</note>
                         <choice>
                             <abbr>od.</abbr>
@@ -1467,33 +1557,38 @@
                             <name type="mineral">Channel</name>
                         </hi>, <lb/>den ich
                         in den hiesigen <name type="mineral">Blei</name>
-                        <lb/>gruben
+                        <lb break="no"/>gruben
                         besonders am <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/7293250">Masson-<lb/>hill</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017431 https://www.geonames.org/7293250">Masson<g ref="#typoHyphen"/>
+                                <lb break="no"/>hill</placeName>
                         </hi> und <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/7293250">Heights
-                                of Abra-<lb/>ham</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017349 https://www.geonames.org/7293250">Heights
+                                of Abra<g ref="#typoHyphen"/>
+                                <lb break="no"/>ham</placeName>
                         </hi> sahe, schien <choice>
                             <sic>mit</sic>
                             <corr>mir</corr>
-                        </choice> ein <lb/>ächter <ref xml:id="a537d911-7920-4558-b7d9-11792075585a" corresp="#c99ff6a6-3c25-440f-9ff6-a63c25740fa5">
+                        </choice> ein <lb/>ächter <ref xml:id="f9e891bc-8c18-4f28-a891-bc8c186f2814" corresp="#edc23001-74b7-4b12-8230-0174b78b12e3">
                             <name type="mineral">Mandelstein</name>
                         </ref>
-                        <note xml:id="c99ff6a6-3c25-440f-9ff6-a63c25740fa5" corresp="#a537d911-7920-4558-b7d9-11792075585a">Mandelstein: Seit
+                        <note xml:id="edc23001-74b7-4b12-8230-0174b78b12e3" corresp="#f9e891bc-8c18-4f28-a891-bc8c186f2814" resp="#koelbel-et-al">Mandelstein: Seit
                                 Mitte des 18. Jahrhunderts gebräuchliche Bezeichnung. 1787
-                                bezeichnete <persName ref="http://d-nb.info/gnd/118767089">Werner</persName> blasenreiches
+                                bezeichnete <persName ref="https://editon-humboldt.de/H0006329 http://d-nb.info/gnd/118767089">Werner</persName> blasenreiches
                                 Gestein als Mandelstein und zählte es zu den uranfänglichen
-                                Gebirgen, später kurz Urgebirge genannt (Vgl. <bibl corresp="https://edition-humboldt.de/v8/EKKND449">Werner 1787</bibl>, 7 und 13).
+                                Gebirgen, später kurz Urgebirge genannt (Vgl. <bibl corresp="https://edition-humboldt.de/EKKND449">Werner 1787</bibl>, 7 und 13).
                                 Die Hohlräume werden sekundär durch Ausscheidung mineralischer
                                 Stoffe gefüllt. Heute als Gesteinsbezeichnung nur im Zusammenhang
                                 mit einem Eruptivgesteinsnamen verwendet, z. B. Diabas-,
-                                Melaphyrmandelstein (<bibl corresp="https://edition-humboldt.de/v8/8T4VVDZ5">Murawski/Meyer 1998</bibl>, 132–133).</note> mit ein<lb/>geknetetem <name type="mineral">Kalkspat</name> zu <lb/>sein und ich kann Herrn <hi rendition="#aq">
-                            <persName ref="http://viaf.org/viaf/51732835">Fauj. <lb/>de St Fond</persName>
+                                Melaphyrmandelstein (<bibl corresp="https://edition-humboldt.de/8T4VVDZ5">Murawski/Meyer 1998</bibl>, 132–133).</note> mit ein<lb break="no"/>geknetetem <name type="mineral">Kalkspat</name> zu <lb/>sein und ich kann Herrn <hi rendition="#aq">
+                            <persName ref="https://editon-humboldt.de/H0000039 http://viaf.org/viaf/51732835">Fauj. <lb/>de St Fond</persName>
                         </hi>, der
-                        eben diese <lb/>Gegend besuchte, nicht beipflich-<lb/>ten, wenn er diesen <hi rendition="#aq">
-                            <name type="mineral">Toad-<lb/>stone</name>
+                        eben diese <lb/>Gegend besuchte, nicht beipflich<g ref="#typoHyphen"/>
+                        <lb break="no"/>ten, wenn er diesen <hi rendition="#aq">
+                            <name type="mineral">Toad<g ref="#typoHyphen"/>
+                                <lb break="no"/>stone</name>
                         </hi>,
-                        troz <persName ref="http://d-nb.info/gnd/118686690">Ferber</persName>, <name type="mineral">Trapp</name> nen-<lb/>nen will. <bibl corresp="https://edition-humboldt.de/v8/2GQJUZSF">Abh. vom Trapp <hi rendition="#aq">p<supplied>.</supplied>
+                        troz <persName ref="https://editon-humboldt.de/H0000064 http://d-nb.info/gnd/118686690">Ferber</persName>, <name type="mineral">Trapp</name> nen<g ref="#typoHyphen"/>
+                        <lb break="no"/>nen will. <bibl corresp="https://edition-humboldt.de/2GQJUZSF">Abh. vom Trapp <hi rendition="#aq">p<supplied>.</supplied>
                             </hi> 20.</bibl>
                     </p>
                 </div>
@@ -1564,30 +1659,32 @@
                         <date when="1790-06-15" calendar="#gregorian">
                             <hi rendition="#u">
                                 <hi rendition="#aq">
-                                    <placeName ref="https://www.geonames.org/11609031">Derbyshire</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0005512 https://www.geonames.org/11609031">Derbyshire</placeName>
                                 </hi>
                             </hi>
                         </date>
                     </head>
                     <p>
-                        <bibl corresp="https://edition-humboldt.de/v8/3VJFTG7R">
+                        <bibl corresp="https://edition-humboldt.de/3VJFTG7R">
                             <hi rendition="#aq">Pilckington II
                                     p<supplied>.</supplied>
                             </hi> 57</bibl> klagt schon <lb/>über die
                         rohen Sitten der <lb/>Einwohner des <hi rendition="#aq">
-                            <placeName ref="https://www.geonames.org/7290672">Peaks</placeName>
-                        </hi>. Aus den Ge-<lb/>sezen kann man auf ihren alten
-                        <lb/>Zustand schließen. <ref xml:id="bdc40a2c-9506-416d-840a-2c9506016dd9" corresp="#f55d8e4b-793f-4f09-9d8e-4b793fff0947">Unter <hi rendition="#aq">
-                                <persName ref="http://d-nb.info/gnd/118687867">Edward
+                            <placeName ref="https://editon-humboldt.de/H0017614 https://www.geonames.org/7290672">Peaks</placeName>
+                        </hi>. Aus den Ge<g ref="#typoHyphen"/>
+                        <lb break="no"/>sezen kann man auf ihren alten
+                        <lb/>Zustand schließen. <ref xml:id="ed5aa63f-eb4c-460b-9aa6-3feb4c760bff" corresp="#e76d7d79-3504-4f13-ad7d-7935043f139a">Unter <hi rendition="#aq">
+                                <persName ref="https://editon-humboldt.de/H0016966 http://d-nb.info/gnd/118687867">Edward
                                         I</persName>
                                 <supplied>.</supplied>
                             </hi>
                         </ref>
-                        <note xml:id="f55d8e4b-793f-4f09-9d8e-4b793fff0947" corresp="#bdc40a2c-9506-416d-840a-2c9506016dd9">Edward I. (1272–1307),
+                        <note xml:id="e76d7d79-3504-4f13-ad7d-7935043f139a" corresp="#ed5aa63f-eb4c-460b-9aa6-3feb4c760bff" resp="#koelbel-et-al">Edward I. (1272–1307),
                                 König, drängte den kirchlichen Einfluß zurück, erließ Reformgesetze,
                                 unterwarf Wales und wurde 1292 Oberlehnsherr von Schottland.</note>
                         <lb/>wurde ein Gesez gemacht, nach <lb/>dem jeder<supplied>,</supplied> der
-                        eine <name type="mineral">Blei</name>mine be-<lb/>stöhle mit einer Hand an einen <lb/>Tisch genagelt werden
+                        eine <name type="mineral">Blei</name>mine be<g ref="#typoHyphen"/>
+                        <lb break="no"/>stöhle mit einer Hand an einen <lb/>Tisch genagelt werden
                             <del rendition="#s">soll</del> und <lb/>entweder verhungern <choice>
                             <abbr>od.</abbr>
                             <expan>oder </expan>
@@ -1655,8 +1752,8 @@
                             <anchor type="target" xml:id="start_g4y_dgr_y2b"/>A.<anchor type="target" xml:id="stop_g4y_dgr_y2b"/>
                         </head>
                         <item>
-                            <persName ref="http://d-nb.info/gnd/118637681">Alfred</persName>. <space dim="horizontal"/>
-                            <ref target="H0017682/#[2v]">2.</ref>
+                            <persName ref="https://editon-humboldt.de/H0016965 http://d-nb.info/gnd/118637681">Alfred</persName>. <space dim="horizontal"/>
+                            <ref target="https://edition-humboldt.de/H0017682/[2v]">2.</ref>
                         </item>
                     </list>
                     <list>
@@ -1664,17 +1761,17 @@
                         <item>
                             <name type="mineral">Basalt</name>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[8r]">13.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[8r]">13.</ref>
                         </item>
                     </list>
                     <list>
                         <head>C.</head>
                         <item>
                             <hi rendition="#aq">
-                                <placeName ref="https://www.geonames.org/2653543">Castleton</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0007225 https://www.geonames.org/2653543">Castleton</placeName>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[7v]">12.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7v]">12.</ref>
                         </item>
                     </list>
                     <cb/>
@@ -1689,8 +1786,8 @@
                     <list>
                         <head>F.</head>
                         <item>Färben <space dim="horizontal"/>
-                            <ref target="H0017682/#[2r]">1.</ref>
-                            <ref target="H0017682/#[4r]">5.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[2r]">1.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[4r]">5.</ref>
                         </item>
                     </list>
                     <list>
@@ -1712,10 +1809,10 @@
                     <list>
                         <head>K.</head>
                         <item>Kultur <space dim="horizontal"/>
-                            <ref target="H0017682/#[2v]">2.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[2v]">2.</ref>
                         </item>
                         <item>Käse <space dim="horizontal"/>
-                            <ref target="H0017682/#[4r]">5.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[4r]">5.</ref>
                         </item>
                     </list>
                     <list>
@@ -1726,16 +1823,16 @@
                     <list>
                         <head>M.</head>
                         <item>Mineralien <space dim="horizontal"/>
-                            <ref target="H0017682/#[4r]">5.</ref>
-                            <ref target="H0017682/#[7r]">11.</ref>
-                            <ref target="H0017682/#[7v]">12.</ref>
-                            <ref target="H0017682/#[8r]">13.</ref>
-                            <ref target="H0017682/#[9v]">16.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[4r]">5.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7r]">11.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7v]">12.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[8r]">13.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[9v]">16.</ref>
                         </item>
                         <item>
                             <name type="mineral">Mandelstein</name>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[9v]">16.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[9v]">16.</ref>
                         </item>
                     </list>
                     <list>
@@ -1750,11 +1847,11 @@
                         <head>P.</head>
                         <item>
                             <hi rendition="#aq">
-                                <placeName ref="https://www.geonames.org/2640098">Poole’s
+                                <placeName ref="https://editon-humboldt.de/H0017632 https://www.geonames.org/2640098">Poole’s
                                 hole</placeName>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[7r]">11.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7r]">11.</ref>
                         </item>
                     </list>
                     <cb type="end"/>
@@ -1770,22 +1867,22 @@
                         <item>
                             <name type="mineral">Röthel</name>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[3v]">4.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[3v]">4.</ref>
                         </item>
                     </list>
                     <list>
                         <head>S.</head>
                         <item>Schaafe<space dim="horizontal"/>
-                            <ref target="H0017682/#[2r]">1.</ref>
-                            <ref target="H0017682/#[3v]">4.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[2r]">1.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[3v]">4.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
-                                <placeName ref="https://www.geonames.org/2636796">Stoney
+                                <placeName ref="https://editon-humboldt.de/H0017415 https://www.geonames.org/2636796">Stoney
                                     Middleton</placeName>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[8r]">13.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[8r]">13.</ref>
                         </item>
                     </list>
                     <list>
@@ -1796,7 +1893,7 @@
                                 <name type="mineral">Toadstone</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[9v]">16.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[9v]">16.</ref>
                         </item>
                     </list>
                     <cb/>
@@ -1811,8 +1908,8 @@
                     <list>
                         <head>W.</head>
                         <item>Wolle<space dim="horizontal"/>
-                            <ref target="H0017682/#[2r]">1.</ref>
-                            <ref target="H0017682/#[3r]">3.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[2r]">1.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[3r]">3.</ref>
                         </item>
                     </list>
                     <list>
@@ -1837,7 +1934,7 @@
                                 <name type="plant">Dipsacus fullonum</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[3r]">3.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[3r]">3.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
@@ -1850,7 +1947,7 @@
                                     </choice> sylvestris</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[3r]">3.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[3r]">3.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
@@ -1863,7 +1960,7 @@
                                     </choice> laciniatus</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[3r]">3.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[3r]">3.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
@@ -1871,14 +1968,14 @@
                                 castrensis</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[4r]">5.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[4r]">5.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Lichen tartareus</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[4r]">5.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[4r]">5.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
@@ -1891,7 +1988,7 @@
                                     </choice> calcareus</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[4r]">5.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[4r]">5.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
@@ -1904,21 +2001,21 @@
                                     </choice> capperatus</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[4r]">5.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[4r]">5.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Verrucaria pertusa</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[4r]">5.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[4r]">5.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Saxifraga granulata</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[7v]">12.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7v]">12.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
@@ -1931,49 +2028,49 @@
                                     </choice> tridactylites</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[7v]">12.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7v]">12.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Alchemilla vulgaris</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[7v]">12.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7v]">12.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Viola montana</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[7v]">12.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7v]">12.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Polypodium vulgare</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[7v]">12.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7v]">12.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Gentiana amarella</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[7v]">12.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[7v]">12.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Arenaria saxatilis</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[8r]">13.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[8r]">13.</ref>
                         </item>
                         <item>
                             <hi rendition="#aq">
                                 <name type="plant">Dianthus prolifer</name>
                             </hi>
                             <space dim="horizontal"/>
-                            <ref target="H0017682/#[9v]">16.</ref>
+                            <ref target="https://edition-humboldt.de/H0017682/[9v]">16.</ref>
                         </item>
                     </list>
                 </div>

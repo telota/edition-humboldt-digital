@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002573">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Aschaffenburg</title>
             </titleStmt>
+            <editionStmt>
+                <p>Aschaffenburg [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0002573.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,24 +20,25 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002573.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0002573.xml">
-                    <p>Aschaffenburg [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0002573.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0002573">
+                <place>
                     <idno type="uri">https://www.geonames.org/2955272</idno>
                     <placeName type="reg">Aschaffenburg</placeName>
-                    <note><?oxy_comment_start author="schnee" timestamp="20180620T142845+0200" comment="Wir brauchen dringend eine Übereinkunft zu formalen und inhaltlichen Kriterien für die Registereinträge (Struktur, historisch, aktuell etc.), Humboldt-Bezug." id="qjl_jll_hsb"?><?oxy_comment_start author="thomas" timestamp="20220119T115905+0100" comment="Ja; habe jetzt hier erstmal geändert aus »Sommerresidenz des Kurfürsten von Mainz«" parentID="qjl_jll_hsb" mid="6"?>Stadt
-                        in Bayern (Deutschland)<?oxy_comment_end mid="6"?><?oxy_comment_end?>
+                    <note>Stadt
+                        in Bayern (Deutschland)
                     </note>
                     <linkGrp>
                         <ptr target="26#38" type="page"/>

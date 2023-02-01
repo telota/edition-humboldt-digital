@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017788">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kizilskoye</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kizilskoye [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017788.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017788.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017788.xml">
-                    <p>Kizilskoye [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017788.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017788">
+                <place>
                     <idno type="uri">https://www.geonames.org/547853</idno>
                     <placeName type="reg">Kizilskoye</placeName>
                     <placeName type="alt">Kisilskaya</placeName>
@@ -39,10 +44,10 @@
                     <placeName type="alt">Kisilskaja</placeName>
                     <placeName type="alt">Kisylsk</placeName>
                     <placeName type="alt">Kisylskaja</placeName>
-                    <note>Ortschaft am Ostrand des <placeName key="H0020292">Südlichen Ural</placeName>,
-                        südlich von <placeName key="H0017776">Syrtinskoi</placeName> zwischen <placeName key="H0009129">Verchne-Ural'sk</placeName> und <placeName key="H0007860">Orsk</placeName> am <placeName key="H0009660">Ural</placeName> (Fluss) gelegen; zur Orenburgschen Linie gehörige
+                    <note>Ortschaft am Ostrand des <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName>,
+                        südlich von <placeName ref="https://editon-humboldt.de/H0017776 https://www.geonames.org/485148">Syrtinskoi</placeName> zwischen <placeName ref="https://editon-humboldt.de/H0009129 https://www.geonames.org/475463">Verchne-Ural'sk</placeName> und <placeName ref="https://editon-humboldt.de/H0007860 https://www.geonames.org/514734">Orsk</placeName> am <placeName ref="https://editon-humboldt.de/H0009660 https://www.geonames.org/478869">Ural</placeName> (Fluss) gelegen; zur Orenburgschen Linie gehörige
                         historische
-                        Festung.<!-- vgl. Rose 1837/1842, II, 180, 181, 198; vgl. Carte Générale du Gouvernement d'Orenbourg, 1829 -->
+                        Festung.
                     </note>
                 </place>
             </listPlace>

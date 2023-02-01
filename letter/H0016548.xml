@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016548">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, [14. Mai 1844] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016548">https://edition-humboldt.de/v8/H0016548</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016548</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016548</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016548.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, [14. Mai 1844] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016548</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                            <idno type="shelfmark">gr. Kasten 13, Nr. 62</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1449604</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1844-05-14"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -67,8 +85,8 @@
             <p>Zu der Nachricht welche ich Ihnen <lb/>gestern über das unsichtbare Leben <lb/>im
                antarctischen Oceane gab muß <lb/>ich mir die Erlaubnis erbitten <lb/>heut einen
                Nachtrag und Zusatz geben <lb/>zu dürfen. Unter den vielleicht <lb/>80 kleinen
-               Päckchen welche ich von <lb/>Herrn <persName ref="http://d-nb.info/gnd/118523813">Darwin</persName> und
-                  <persName ref="http://d-nb.info/gnd/118774891">Hooker</persName> erhalten <lb/>habe fand sich noch eins
+               Päckchen welche ich von <lb/>Herrn <persName ref="https://editon-humboldt.de/H0012148 http://d-nb.info/gnd/118523813">Darwin</persName> und
+                  <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName> erhalten <lb/>habe fand sich noch eins
                worinn die <lb/>wenigsten wichtigen Proben vom <lb/>Meeresgrunde und <choice>
                   <abbr>s.</abbr>
                   <expan>so</expan>
@@ -80,7 +98,8 @@
                     <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001B87200000002"/>des
                vollständigen Materials zu <lb/>seyn, welches die Expedition geliefert <lb/>hat. Es
                sind dabey Proben aus dem <lb/>Golf von Victoria Land, Proben <lb/>des Bodens bey 170
-               Fathoms Tiefe, <lb/>bey 107 Fathoms, filtrirtes See-<lb/>wasser, Schnee und Eis-Thierchen <add place="superlinear">aus 78° <choice>
+               Fathoms Tiefe, <lb/>bey 107 Fathoms, filtrirtes See<g ref="#typoHyphen"/>
+                    <lb break="no"/>wasser, Schnee und Eis-Thierchen <add place="superlinear">aus 78° <choice>
                      <abbr>S.</abbr>
                      <expan>Südlicher</expan>
                   </choice>
@@ -90,16 +109,20 @@
                   </choice>
                     </add>. <lb/>Alles lebet am kalten Südpol <lb/>wie bei uns! Die Thierchen
                aus <lb/>1620 Fuß Tiefe sind meist dieselben <lb/>Kieselschalen Thierchen welche man
-               von <lb/>der Oberfläche gefischt hat. Ich bin <lb/>im größten <ref xml:id="fd9424a8-4f55-45bc-9424-a84f5525bca9" corresp="#d7b580b7-6219-4705-b580-b76219e70551">Embarras de richesse</ref>
-                    <note xml:id="d7b580b7-6219-4705-b580-b76219e70551" corresp="#fd9424a8-4f55-45bc-9424-a84f5525bca9">Embarras de richesse: svw. "Qual der Wahl".</note>. <lb/>Die Gelegenheit das antarctische Leben <lb/>festzuhalten kommt mir
-               vielleicht <lb/>nicht wieder. <lb/>Auch von kalkschaligen Polytha-<lb/>
+               von <lb/>der Oberfläche gefischt hat. Ich bin <lb/>im größten <ref xml:id="f2cd94ac-b7d2-423b-8d94-acb7d2423b8d" corresp="#d31995d3-2c0c-44af-9995-d32c0c14afc1">Embarras de richesse</ref>
+                    <note xml:id="d31995d3-2c0c-44af-9995-d32c0c14afc1" corresp="#f2cd94ac-b7d2-423b-8d94-acb7d2423b8d">Embarras de richesse: svw. "Qual der Wahl".</note>. <lb/>Die Gelegenheit das antarctische Leben <lb/>festzuhalten kommt mir
+               vielleicht <lb/>nicht wieder. <lb/>Auch von kalkschaligen Polytha<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001B87200000003"/>lamien sind mancherley Formen dabey, <lb/>aber
                auffallend wenige im Verhältniß. <lb/>Doch ich kann noch nicht von Resultaten
                <lb/>sprechen, da ich erst gekostet habe. Ich <lb/>werde mich beeilen eine Übersicht
                <lb/>zu gewinnen und dazu muß alles <lb/>gezeichnet werden. Irre ich nicht<supplied cert="high">,</supplied>
                <lb/>so habe ich auch aus 207 Fathoms Tiefe <lb/>schon Formen gesehen, die lebend
-                  ein-<lb/>gesammelt gewesen seyn müssen.</p>
-            <p>Mit den im Wasser frisch verpackten <lb/>Glas Thierchen bin ich ziemlich in Ueber-<lb/>sicht, die trocken verpackten Materi-<lb/>alien habe ich aber erst heut aufgefunden.</p>
+                  ein<g ref="#typoHyphen"/>
+                    <lb break="no"/>gesammelt gewesen seyn müssen.</p>
+            <p>Mit den im Wasser frisch verpackten <lb/>Glas Thierchen bin ich ziemlich in Ueber<g ref="#typoHyphen"/>
+                    <lb break="no"/>sicht, die trocken verpackten Materi<g ref="#typoHyphen"/>
+                    <lb break="no"/>alien habe ich aber erst heut aufgefunden.</p>
             <closer rend="paragraph">
                <salute>In herzlicher Verehrung verharrend <lb/>Ihr <lb/>dankbar ergebenster</salute>
                <signed>Ehrenberg</signed>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003775">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Bunge, Alexander von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Bunge, Alexander von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003775.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003775.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003775.xml">
-                    <p>Bunge, Alexander von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003775.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003775">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117155780</idno>
                     <persName type="reg">
                         <surname>Bunge</surname>
@@ -44,8 +49,8 @@
                     <note>deutsch-baltischer Botaniker, Arzt und Forschungsreisender; 1821-1825
                         Medizinstudium in Dorpat; 1826 Reise mit Ledebour nach Sibirien; Arzt in
                         Barnaul, Forschungreisen in den Altai; im August 1829 Begleiter Humboldts
-                        bei Exkursionen im Umfeld des <placeName key="H0017758">Schlangenbergs</placeName>; 1830/31 Forschungsreise nach Peking; 1833
-                        Professur an der Universität Kazan, 1836 an der Universität Dorpat</note><!-- FS: lt. ADB hat er 1829 in Barnaul Bekanntschaft Humboldts gemacht, dann wäre der im Zusammenhang mit dem Schlagenberg genannte Dr. Bunge unser Mann ! vgl. https://www.deutsche-biographie.de/pnd117155780.html#adbcontent ; "Hier in Barnaul machte er 1829 die Bekanntschaft Alexander's v. Humboldt, der damals jene Gegenden bereiste. Auf eine Empfehlung Humboldt's erhielt B. die Weisung, sich als Arzt einer nach Peking abgesandten geistlichen Mission anzuschließen."; vgl. Rose 1837/1842, I, 528-->
+                        bei Exkursionen im Umfeld des <placeName ref="https://editon-humboldt.de/H0017758 https://www.geonames.org/12196317">Schlangenbergs</placeName>; 1830/31 Forschungsreise nach Peking; 1833
+                        Professur an der Universität Kazan, 1836 an der Universität Dorpat</note>
                     <linkGrp>
                         <ptr target="30#270" type="page"/>
                         <ptr target="30#271" type="page"/>

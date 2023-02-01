@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019251">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Jabbeke</title>
             </titleStmt>
+            <editionStmt>
+                <p>Jabbeke [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019251.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019251.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019251.xml">
-                    <p>Jabbeke [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019251.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019251">
+                <place>
                     <idno type="uri">https://www.geonames.org/2794999</idno>
                     <placeName type="reg">Jabbeke</placeName>
                     <placeName type="alt">Jabick</placeName>
-                    <!-- Forster, Niederrhein, II, 261 -->
-                    <note>Ortschaft westlich von <placeName key="H0017816">Brügge</placeName> (<placeName key="H0005189">Belgien</placeName>)</note>
+                    
+                    <note>Ortschaft westlich von <placeName ref="https://editon-humboldt.de/H0017816 https://www.geonames.org/2800931">Brügge</placeName> (<placeName ref="https://editon-humboldt.de/H0005189 https://www.geonames.org/2802361">Belgien</placeName>)</note>
                 </place>
             </listPlace>
         </body>

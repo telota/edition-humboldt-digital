@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016609">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [August 1853] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016609">https://edition-humboldt.de/v8/H0016609</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016609</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016609</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016609.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [August 1853] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016609</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">201</idno>
+                     <idno type="shelfmark">421, Bl. 368r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date notBefore="1853-08" notAfter="1853-08">1853-08-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. E.s Vortrag </note>
          </correspDesc>
@@ -63,17 +81,17 @@
          <div type="writingSession">
             <pb n="1r"/>
             <p>Ich hatte immer geglaubt, theurer Freund, <lb/>und College, Ihnen persönlich danken
-               <lb/>zu können. Ihre <ref xml:id="b87eb28b-fc6f-4d4d-beb2-8bfc6fdd4d4d" corresp="#b19df5c1-c17c-4037-9df5-c1c17c4037c1">Vorlesung am 18 <choice>
+               <lb/>zu können. Ihre <ref xml:id="fd829872-db61-4ec4-8298-72db614ec461" corresp="#bc0e9ba4-1583-4a70-8e9b-a415830a7041">Vorlesung am 18 <choice>
                         <abbr>Aug</abbr>
                         <expan>August</expan>
                      </choice>
                     </ref>
-                    <note xml:id="b19df5c1-c17c-4037-9df5-c1c17c4037c1" corresp="#b87eb28b-fc6f-4d4d-beb2-8bfc6fdd4d4d">
-                     <bibl corresp="https://edition-humboldt.de/v8/7XS8CQVT">Ehrenberg 1853a</bibl>
+                    <note xml:id="bc0e9ba4-1583-4a70-8e9b-a415830a7041" corresp="#fd829872-db61-4ec4-8298-72db614ec461">
+                     <bibl corresp="https://edition-humboldt.de/7XS8CQVT">Ehrenberg 1853a</bibl>
                   </note>
                <lb/>ist eine der reichsten, merkwürdigsten <lb/>die Sie je haben drucken
                   lassen<supplied cert="high">.</supplied>
-               <lb/>Die Rheintrübung, der chinesische Meteor<lb/>staub, die Algenerde auf
+               <lb/>Die Rheintrübung, der chinesische Meteor<lb break="no"/>staub, die Algenerde auf
                14284 <choice>
                   <abbr>F.</abbr>
                   <expan>Fuss</expan>
@@ -82,27 +100,27 @@
                <lb/>Mythe werfend,
                532
                das Kauen in <lb/>Eiform!!</p>
-            <p>Wir wünschen <persName ref="http://d-nb.info/gnd/12989432X">Tieck</persName> durch <lb/>einen Dichter und
+            <p>Wir wünschen <persName ref="https://editon-humboldt.de/H0003972 http://d-nb.info/gnd/12989432X">Tieck</persName> durch <lb/>einen Dichter und
                zwar <hi rendition="#uu">
-                        <persName ref="http://d-nb.info/gnd/118625063">Uhland</persName>
+                        <persName ref="https://editon-humboldt.de/H0002249 http://d-nb.info/gnd/118625063">Uhland</persName>
                     </hi>
                <lb/>zu ersezen. Möchten Sie sich <lb/>uns doch anschliessen damit <lb/>nicht wieder
                so viele Stimmen <lb/>
                     <add place="intralinear">unnüz</add> vereinzelt bleiben. Darf
                <lb/>ich Sie auch bitten, in meinem <lb/>Namen <hi rendition="#uu">
-                        <persName ref="http://d-nb.info/gnd/11858281X">Mitscherlich</persName>
+                        <persName ref="https://editon-humboldt.de/H0014251 http://d-nb.info/gnd/11858281X">Mitscherlich</persName>
                     </hi>, von <lb/>dessen Rückehr ich nicht
-               <lb/>weiss, für <persName ref="http://d-nb.info/gnd/118625063">Uhland</persName> anzuwerben<supplied cert="high">.</supplied>
+               <lb/>weiss, für <persName ref="https://editon-humboldt.de/H0002249 http://d-nb.info/gnd/118625063">Uhland</persName> anzuwerben<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
                <signed>Ihr <lb/> AlHumboldt</signed>
                 </closer>
             <postscript>
-               <p>Der vortrefliche <persName ref="http://d-nb.info/gnd/118806556">Weiss</persName>
+               <p>Der vortrefliche <persName ref="https://editon-humboldt.de/H0006306 http://d-nb.info/gnd/118806556">Weiss</persName>
                   <lb/>hat versprochen<supplied cert="high">.</supplied>
                   <lb/>
                         <hi rendition="#u">
-                            <persName ref="http://d-nb.info/gnd/10082708X">Steininger</persName>
+                            <persName ref="https://editon-humboldt.de/H0016863 http://d-nb.info/gnd/10082708X">Steininger</persName>
                         </hi> ist
                   ein <lb/>Querkopf!</p>
             </postscript>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0005737">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -6,31 +6,48 @@
                     1846</title>
                 <editor> 	<persName ref="http://d-nb.info/gnd/139028285"> 		<surname>Päßler</surname> 		<forename>Ulrich</forename> 	</persName> </editor> <respStmt> 	<persName ref="http://d-nb.info/gnd/120113856"> 		<surname>Gerlach</surname> 		<forename>Klaus</forename>	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt> <respStmt> 	<persName ref="http://d-nb.info/gnd/123964172"> 		<surname>Schwarz</surname> 		<forename>Ingo</forename> 	</persName> 	<resp> 		<note type="remarkResponsibility">Mitarbeit</note> 	</resp> </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 14. November
+                    1846, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0005737">https://edition-humboldt.de/v8/H0005737</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0005737</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0005737</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0005737.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 14. November
-                    1846. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0005737</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                     <date when="1846-11-14" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -40,12 +57,12 @@
             <div type="writingSession" n="1">
                 <p>
                     <pb n="1r"/>Ich habe die Freude Ihnen anzukündigen <lb/>mein theurer Freund,
-                    dass der <persName ref="http://d-nb.info/gnd/118535994">
+                    dass der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">
                         <choice>
                             <orig>Konig</orig>
                             <reg>König</reg>
                         </choice>
-                    </persName> auf <lb/>meine schriftliche Bitte befohlen hat dass <lb/>dem <orgName ref="http://d-nb.info/gnd/17434-8">Garten</orgName> extraordinaire nicht <measure quantity="680" unit="reichsthaler">680</measure>
+                    </persName> auf <lb/>meine schriftliche Bitte befohlen hat dass <lb/>dem <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">Garten</orgName> extraordinaire nicht <measure quantity="680" unit="reichsthaler">680</measure>
                     <lb/>sondern <measure quantity="600" unit="reichsthaler">600 Thaler</measure>
                     für die <choice>
                         <abbr>mexican.</abbr>
@@ -53,7 +70,7 @@
                     </choice>
                     <lb/>Pflanzen angewiesen werde<supplied cert="high">.</supplied>
                     Ich habe <lb/>keine schriftliche Antwort von Minister <lb/>
-                    <persName ref="http://d-nb.info/gnd/117341037">Thile</persName> erhalten, aber der <choice>
+                    <persName ref="https://editon-humboldt.de/H0003932 http://d-nb.info/gnd/117341037">Thile</persName> erhalten, aber der <choice>
                         <orig>Konig</orig>
                         <reg>König</reg>
                     </choice> hat <lb/>mir heute <choice>
@@ -64,8 +81,8 @@
                         <reg>könne</reg>
                     </choice>
                     <lb/>auf die Zahlung rechnen<supplied cert="high">.</supplied>
-                    <ref xml:id="b65f2b57-4dd4-46df-9f2b-574dd4f6dfe3" corresp="#ed24b003-2b02-4f03-a4b0-032b027f03e1">Ich schreibe <lb/>es heute an <persName ref="http://d-nb.info/gnd/116876956">Mendelsohn</persName>.</ref>
-                    <note xml:id="ed24b003-2b02-4f03-a4b0-032b027f03e1" corresp="#b65f2b57-4dd4-46df-9f2b-574dd4f6dfe3">Vgl. <bibl corresp="https://edition-humboldt.de/v8/69XS9XZT">Humboldt 2011</bibl>, 159.</note>
+                    <ref xml:id="a919feaa-1a45-440c-99fe-aa1a45640c6e" corresp="#df081d3d-9d36-4ee6-881d-3d9d366ee6e5">Ich schreibe <lb/>es heute an <persName ref="https://editon-humboldt.de/H0014098 http://d-nb.info/gnd/116876956">Mendelsohn</persName>.</ref>
+                    <note xml:id="df081d3d-9d36-4ee6-881d-3d9d366ee6e5" corresp="#a919feaa-1a45-440c-99fe-aa1a45640c6e">Vgl. <bibl corresp="https://edition-humboldt.de/69XS9XZT">Humboldt 2011</bibl>, 159.</note>
                     Nehmen
                     <lb/>Sie also bald die Pflanzen in <lb/>Empfang <choice>
                         <abbr>u</abbr>
@@ -76,7 +93,7 @@
                             <abbr>r</abbr>
                             <expan>Reichstaler</expan>
                         </choice>
-                    </measure> mehr von <persName ref="http://d-nb.info/gnd/104335262">
+                    </measure> mehr von <persName ref="https://editon-humboldt.de/H0005881 http://d-nb.info/gnd/104335262">
                         <choice>
                             <abbr>Min.</abbr>
                             <expan>Minister</expan>

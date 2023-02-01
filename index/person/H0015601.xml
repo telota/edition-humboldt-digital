@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015601">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schmidt, Konrad Arnold</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schmidt, Konrad Arnold [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015601.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015601.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015601.xml">
-                    <p>Schmidt, Konrad Arnold [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015601.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015601">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/1029992142</idno>
                     <persName type="reg">
                         <surname>Schmidt</surname>
@@ -39,7 +44,7 @@
                     <death>1789</death>
                     <note>deutscher Theolgoe, Hochschulehrer und Schriftsteller; 1760 Professor der Theologie und
                         römische Literatur am Collegium Carolinum in Braunschweig, 1786 Konsistorialrat, Freund
-                            <persName key="H0004483">Lessings</persName>
+                            <persName ref="https://editon-humboldt.de/H0004483 http://d-nb.info/gnd/118572121">Lessings</persName>
                     </note>
                     <linkGrp>
                         <ptr target="02#21" type="letter"/>

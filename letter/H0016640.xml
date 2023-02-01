@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016640">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,59 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [21. Februar
+               1840] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016640">https://edition-humboldt.de/v8/H0016640</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016640</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016640</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016640.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [21. Februar
-               1840] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016640</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">72</idno>
+                     <idno type="shelfmark">421, Bl. 132r, 133v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+            <listWit>
+               <witness>
+                  <bibl type="print" n="1" corresp="https://edition-humboldt.de/"> Briefwechsel zwischen Alexander
+                     von Humboldt und Carl Friedrich Gauß. zum 200. Geburtstag von C. F. Gauß / im
+                     Auftrag des Gauß-Komitees bei der Akademie der Wissenschaften der DDR neu
+                     herausgegeben durch Kurt-R. Biermann (Beiträge zur
+                     Alexander-von-Humboldt-Forschung 4) Berlin. Akad.-Verl., 1977 S.83</bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1840-02-21">1840-02-21</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: H. an Gauß am 21.2.1840: “Der junge magnetische Seeofficier Bravais
                aus Lappland hat mir sehr gefallen” </note>
@@ -87,10 +114,10 @@
                   <abbr>D</abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116811056">Martins</persName> Botaniker <lb/>und dem See Officier <add place="left">
-                        <metamark/>A. <persName ref="http://d-nb.info/gnd/119110628">Bravais</persName>
+               <persName ref="https://editon-humboldt.de/H0013984 http://d-nb.info/gnd/116811056">Martins</persName> Botaniker <lb/>und dem See Officier <add place="left">
+                        <metamark/>A. <persName ref="https://editon-humboldt.de/H0003617 http://d-nb.info/gnd/119110628">Bravais</persName>
                     </add>, die
-               <lb/>aus <placeName ref="https://www.geonames.org/7521757">Spitzbergen</placeName> kommen <lb/>etwas von
+               <lb/>aus <placeName ref="https://editon-humboldt.de/H0010336 https://www.geonames.org/7521757">Spitzbergen</placeName> kommen <lb/>etwas von
                Ihren schönen <lb/>Entdekkungen<supplied cert="high">.</supplied>
                 </p> 
              <closer rend="paragraph">

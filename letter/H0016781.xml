@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016781">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, [1835] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016781">https://edition-humboldt.de/v8/H0016781</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016781</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016781</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016781.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, [1835] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016781</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>Nachlass Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">53</idno>
+                     <idno type="shelfmark">421, Bl. 98r, 99v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1835" notAfter="1835">1835-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: W.v. Humboldt bis 8.4.1835</note>
          </correspDesc>
@@ -76,12 +94,12 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Ich finde bei meiner Rükkehr <lb/>aus <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+            <p>Ich finde bei meiner Rükkehr <lb/>aus <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                Ihren theuren <lb/>Brief <choice>
                   <abbr>u.</abbr>
                   <expan>und</expan>
-               </choice> hoffe dass Sie den <lb/>meinigen wegen des Blut <persName>Schulzen</persName>
-               <lb/>erhalten. Es ist eine unseelige <lb/>Sache dieser Verkauf noch un<lb/>beschriebener Gegenständ<supplied cert="high">e</supplied>, ein Ver<lb/>brechen gegen Reisende die Ihr <lb/>Fell auf das Spiel gesezt, sie
+               </choice> hoffe dass Sie den <lb/>meinigen wegen des Blut <persName ref="https://editon-humboldt.de/">Schulzen</persName>
+               <lb/>erhalten. Es ist eine unseelige <lb/>Sache dieser Verkauf noch un<lb break="no"/>beschriebener Gegenständ<supplied cert="high">e</supplied>, ein Ver<lb break="no"/>brechen gegen Reisende die Ihr <lb/>Fell auf das Spiel gesezt, sie
                <lb/>einzusammeln. Ich wünschte dass <lb/>ein allgemeiner Befehl erginge <lb/>„von
                Ihren Sammlungen nichts <lb/>zu verschachern bis Sie alles <lb/>beschriben.“ Ich
                werde gern <lb/>zu so einem Befehl beitragen<supplied cert="high">.</supplied>
@@ -93,7 +111,7 @@
                <dateline>Dienstags.</dateline>
                 </closer>
             <postscript>
-               <p>In <hi rendition="#u">meines <persName ref="http://d-nb.info/gnd/118554727">Bruders</persName>
+               <p>In <hi rendition="#u">meines <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Bruders</persName>
                      Namen</hi>
                   <lb/>bitte ich Sie der nächsten <lb/>Wahl günstig zu sein und <lb/>durch Ihre
                   Freunde sie <lb/>zu befördern.</p>

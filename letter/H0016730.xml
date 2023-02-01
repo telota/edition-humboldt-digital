@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016730">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,48 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1828] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016730">https://edition-humboldt.de/v8/H0016730</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016730</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016730</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016730.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1828] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016730</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">5</idno>
+                     <idno type="shelfmark">421, Bl. 7r-7v</idno>, 8v </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1828" notAfter="1828" cert="low">1828-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Zur Datierung: “etwas sagen”: wohl während der Kosmos-Vorlesungen
                im Wintersemester 1827/28; vgl. Brief 3</note>
@@ -78,21 +95,21 @@
                 </opener>
             <pb n="1v"/>
             <p>Ich möchte heute recht gern <lb/>von dem Leuchten des Meeres <lb/>etwas sagen, was
-               Ihren schö<lb/>nen Beobachtungen zugegen war<supplied cert="high">.</supplied>
+               Ihren schö<lb break="no"/>nen Beobachtungen zugegen war<supplied cert="high">.</supplied>
                <lb/>Ich glaube beobachtet zu haben <lb/>daß das Leuchten nicht <lb/>immer von
-               lebenden <name type="animal" key="Mollusken">Mollus<lb/>ken</name>
+               lebenden <name type="animal" key="Mollusken">Mollus<lb break="no"/>ken</name>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
                <name type="animal" key="Crustaceen">Crustaceen</name>, sondern <lb/>oft von
-               Theilchen her<lb/>rührt, die wohl nur <lb/>Trümmer (Membranen)
+               Theilchen her<lb break="no"/>rührt, die wohl nur <lb/>Trümmer (Membranen)
                <lb/>zerstöhrter Thierchen sind<supplied cert="high">.</supplied>
                <lb/>Oft habe ich nichts <lb/>gar nichts im leuchtenden <lb/>
                     <pb n="2r"/>Seewasser
                durch das <lb/>Microscop entdekken <lb/>können. Haben Sie <lb/>immer lebende Thiere
-               <lb/>gefunden. Infusions<lb/>thiere des Meeres <lb/>sind wohl immer
-                  leuch<lb/>tend?</p>
+               <lb/>gefunden. Infusions<lb break="no"/>thiere des Meeres <lb/>sind wohl immer
+                  leuch<lb break="no"/>tend?</p>
             <closer rend="paragraph">
                     <signed>Ihr <lb/>gehorsamster <lb/>AHumboldt</signed>
                <dateline>Sonnabends</dateline>

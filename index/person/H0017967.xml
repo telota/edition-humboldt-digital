@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017967">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Stranak, </title>
             </titleStmt>
+            <editionStmt>
+                <p>Stranak,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017967.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017967.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017967.xml">
-                    <p>Stranak,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017967.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0017967">
+                <person>
                     <persName type="reg">
                         <surname>Stranak</surname>
                         <forename/>
@@ -44,13 +49,12 @@
                         <name>Straneck</name>
                     </persName>
                     <floruit notBefore="1829" notAfter="1829">um 1829</floruit>
-                    <note>russischer Verwaltungsbeamter britischer Herkunft; laut <persName key="H0001040">Rose</persName> von <persName key="H0011259">Aleksandr Stepanovič Osipov</persName>, dem
-                        Gouverneur von <placeName key="H0002585">Astrachan</placeName>, als Dolmetscher und
-                        Reisebegleiter durch das Gouvernement nach <placeName key="H0010125">Sarepta</placeName>
-                        entsandt (vgl. <bibl sameAs="zotero-667230-BH8W3QPH">Rose 1837/1842</bibl>, II, 287, 337), wo er
+                    <note>russischer Verwaltungsbeamter britischer Herkunft; laut <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName> von <persName ref="https://editon-humboldt.de/H0011259">Aleksandr Stepanovič Osipov</persName>, dem
+                        Gouverneur von <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName>, als Dolmetscher und
+                        Reisebegleiter durch das Gouvernement nach <placeName ref="https://editon-humboldt.de/H0010125 https://www.geonames.org/542462">Sarepta</placeName>
+                        entsandt (vgl. <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, II, 287, 337), wo er
                         am 10. Oktober 1829 mit Humboldt zusammentraf; begleitete diesen vermutlich bis zum 24. Oktober
-                        1829 <!-- vgl. Rose 1837/1842, II, 287, 290, 305, 312, 337 -->
-                    </note>
+                        1829 </note>
                 </person>
             </listPerson>
         </body>

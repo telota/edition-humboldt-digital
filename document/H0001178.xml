@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001178">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,13 +20,20 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: Y / Z – Plantes maritimes, hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0001178">https://edition-humboldt.de/v8/H0001178</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0001178</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0001178</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001178.xml</idno>
             </publicationStmt>
             <notesStmt>
@@ -36,22 +43,36 @@
                         française“. Humboldt interessiert sich hier für die Verbreitung der
                         Meerespflanzen (Sigle <ref xml:id="ed_wzs_gsj_bbb" type="siglum" target="#Geographie_der_Pflanzen_Y">Y</ref>) sowie der winterharten und
                         Nutzpflanzen (Sigle <ref xml:id="ed_pqc_4sj_bbb" type="siglum" target="#Geographie_der_Pflanzen_Z">Z</ref>). In Carl Sigismund Kunths
-                            <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der
+                            <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe der Geographie der
                             Pflanzen</ref> trägt das Blatt die Nummern 25 (“Plantes marines[,]
                         Candolle“) und 26 (“Arbres résineux[,] rapport des plantes avec la
                         chaleur[,] Candolle“). </p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Y / Z – Plantes maritimes. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0001178</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 79a, Bl. 8</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2832781</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -69,17 +90,17 @@
                     <choice>
                         <orig>pas</orig>
                         <reg>Pas</reg>
-                    </choice> promiscue. <ref xml:id="a5ed39a4-5096-4621-ad39-a45096062162" corresp="#f13d4dfd-5f25-483d-bd4d-fd5f25783d3d">Toutes les maritimes <lb/>de <placeName ref="https://www.geonames.org/3373405">l’Océan</placeName> en <placeName ref="https://www.geonames.org/3017382">France</placeName>
-                            sur les bords <lb/>de <placeName ref="https://www.geonames.org/363196">la
+                    </choice> promiscue. <ref xml:id="bf406ba7-4065-4faf-806b-a740656fafaa" corresp="#f76fa09e-e245-4440-afa0-9ee245744080">Toutes les maritimes <lb/>de <placeName ref="https://editon-humboldt.de/H0002602 https://www.geonames.org/3373405">l’Océan</placeName> en <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">France</placeName>
+                            sur les bords <lb/>de <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">la
                                 Méditerranée</placeName> mais pas vice <lb/>versa</ref>
-                    <note xml:id="f13d4dfd-5f25-483d-bd4d-fd5f25783d3d" corresp="#a5ed39a4-5096-4621-ad39-a45096062162">Wohl: „En France, toutes les plantes maritimes
+                    <note xml:id="f76fa09e-e245-4440-afa0-9ee245744080" corresp="#bf406ba7-4065-4faf-806b-a740656fafaa">Wohl: „En France, toutes les plantes maritimes
                             de l’Océan sur les bords de la Méditerranée, mais pas vice
-                            versa.“</note>, la plupart de celles-ci <lb/>seulement de <placeName ref="https://www.geonames.org/3034475">Bayonne</placeName> à <choice>
+                            versa.“</note>, la plupart de celles-ci <lb/>seulement de <placeName ref="https://editon-humboldt.de/H0005175 https://www.geonames.org/3034475">Bayonne</placeName> à <choice>
                         <abbr>l’emb.</abbr>
                         <expan>l’embouchure</expan>
                     </choice>
-                    <lb/>de la <placeName ref="https://www.geonames.org/2997872">Loire</placeName>
-                    <bibl corresp="https://edition-humboldt.de/v8/IKM2DC9N">
+                    <lb/>de la <placeName ref="https://editon-humboldt.de/H0011477 https://www.geonames.org/2997872">Loire</placeName>
+                    <bibl corresp="https://edition-humboldt.de/IKM2DC9N">
                         <choice>
                             <abbr>Decand</abbr>
                             <expan>De Candolle</expan>
@@ -93,14 +114,14 @@
                         </choice> VII<supplied cert="high">.</supplied>
                 </p>
                 <p>
-                    <ref xml:id="e3933a73-9b6b-48bf-933a-739b6b58bf10" corresp="#cbc36724-4a25-41ce-8367-244a2511ce0f">
+                    <ref xml:id="f22fefcb-a09a-4dbf-afef-cba09acdbf12" corresp="#da9c58b6-30e2-4d0f-9c58-b630e2dd0fec">
                         <choice>
                                 <abbr>Div.</abbr>
                                 <expan>Division</expan>
                             </choice> par <add place="superlinear">rapport</add> Plantes au
                                 climat<supplied cert="high">.</supplied>
                     </ref>
-                    <note xml:id="cbc36724-4a25-41ce-8367-244a2511ce0f" corresp="#e3933a73-9b6b-48bf-933a-739b6b58bf10">Wohl: „Division des Plantes par rapport au
+                    <note xml:id="da9c58b6-30e2-4d0f-9c58-b630e2dd0fec" corresp="#f22fefcb-a09a-4dbf-afef-cba09acdbf12">Wohl: „Division des Plantes par rapport au
                             climat.“</note>
                 </p>
                 <p>
@@ -152,11 +173,11 @@
                     <choice>
                         <orig>plantes</orig>
                         <reg>Plantes</reg>
-                    </choice> qui ne craignent <lb/>pas les grands froids <lb/>d’hiver parce qu’<lb/>elles perdent <choice>
+                    </choice> qui ne craignent <lb/>pas les grands froids <lb/>d’hiver parce qu’<lb break="no"/>elles perdent <choice>
                         <sic>leur</sic>
                         <corr cert="high">leurs</corr>
                     </choice>
-                    <lb/>feuilles, mouvement <lb/>de la sève interrom<lb/>pu par la chute
+                    <lb/>feuilles, mouvement <lb/>de la sève interrom<lb break="no"/>pu par la chute
                     <lb/>des feuilles<supplied cert="high">.</supplied>
                 </p>
                 <p>
@@ -188,8 +209,8 @@
                         <sic>fourage</sic>
                         <corr cert="high">fourrage</corr>
                     </choice>
-                    <ref xml:id="b9044a17-9772-4472-844a-17977294723f" corresp="#ef23deac-251a-4942-a3de-ac251ae94231">
-                        <bibl corresp="https://edition-humboldt.de/v8/IKM2DC9N">
+                    <ref xml:id="c806ad21-5d29-48e6-86ad-215d2938e68c" corresp="#c7b6220a-a828-49ae-b622-0aa828b9aeeb">
+                        <bibl corresp="https://edition-humboldt.de/IKM2DC9N">
                             <choice>
                                     <abbr>De Cand</abbr>
                                     <expan>De Candolle</expan>
@@ -203,8 +224,8 @@
                                     <expan>citato</expan>
                                 </choice> XI</bibl>
                     </ref>
-                    <note xml:id="ef23deac-251a-4942-a3de-ac251ae94231" corresp="#b9044a17-9772-4472-844a-17977294723f">
-                        <bibl corresp="https://edition-humboldt.de/v8/IKM2DC9N">Lamarck/Candolle 1805–1815</bibl>, II. </note>
+                    <note xml:id="c7b6220a-a828-49ae-b622-0aa828b9aeeb" corresp="#c806ad21-5d29-48e6-86ad-215d2938e68c">
+                        <bibl corresp="https://edition-humboldt.de/IKM2DC9N">Lamarck/Candolle 1805–1815</bibl>, II. </note>
                     <supplied cert="high">.</supplied>
                 </p>
                 <p>

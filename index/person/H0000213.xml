@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000213">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Franciscus, Steffanus</title>
             </titleStmt>
+            <editionStmt>
+                <p>Franciscus, Steffanus [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000213.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000213.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000213.xml">
-                    <p>Franciscus, Steffanus [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000213.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0000213">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118692925</idno>
                     <persName type="reg">
                         <surname>Franciscus</surname>
@@ -37,11 +42,8 @@
                     </persName>
                     <birth>1708</birth>
                     <death>1765</death>
-                    <note><?oxy_comment_start author="mikosch" timestamp="20160318T142924+0100" comment="unter: Österreich
-Franz Stephan von Lothringen
-Ehemann von Maria Theresia. Er war als Franz III. Herzog von Lothringen und Bar (1729–1737), als Franz II. Großherzog der Toskana (1737–1765) sowie ab 21. November 1740 Mitregent in den Habsburgischen Erblanden und seit 1745 als Franz I. Kaiser des Heiligen Römischen Reiches"?>Franz I. (Stefan), 1729–1737 Herzog von Lothringen, 1737–1765 Großherzog
-                        der Toskana, 1745–1765 deutscher König und römischdeutscher Kaiser<?oxy_comment_end?>
-                    </note>
+                    <note>Franz I. (Stefan), 1729–1737 Herzog von Lothringen, 1737–1765 Großherzog
+                        der Toskana, 1745–1765 deutscher König und römischdeutscher Kaiser</note>
                     <linkGrp>
                         <ptr target="26#118/119" type="page"/>
                     </linkGrp>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016557">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 30. Oktober
+               1848, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016557">https://edition-humboldt.de/v8/H0016557</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016557</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016557</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016557.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 30. Oktober
-               1848. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016557</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                            <idno type="shelfmark">gr. Kasten 13, Nr. 51</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1449540</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1848-10-30"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -69,17 +87,19 @@
             <p>Wie beziehungsreich doch immer von <lb/>Neuem meine anspruchslosen Studien <lb/>sind!
                Ich scheue mich fast Ihnen schon <lb/>wieder Neues zu melden und doch sind <lb/>es
                Thatsachen, die anschaulich vorliegen, <lb/>mit ein klein Wenig Reminiscenz und
-               <lb/>Combination, wunderbar mich erre-<lb/>gende
+               <lb/>Combination, wunderbar mich erre<g ref="#typoHyphen"/>
+                    <lb break="no"/>gende
                Thatsachen.</p>
             <p>Das Blut im Brode (auf Gestein!) ist <lb/>ein noch unbenanntes <hi rendition="#uu">Lebens</hi>-Atom, das <lb/>ich <name type="animal|plant" key="Monas prodigiosa">Monas prodigiosa</name> nennen muß!</p>
             <p>Sie überblicken nun schon das ganze Gewicht <lb/>der Sache.</p>
             <p>
-                    <persName>Alexander</persName> magnasgrios debellante <lb/>sagt <persName ref="http://d-nb.info/gnd/118523074">Curtius</persName>, et milite panem in castris <lb/>frangante
-               sanguinis guttae manarunt. <lb/>Quo prodigio territus Alexander ab Arist-<lb/>ander vate est confirmatus, qui ad Tyrios
+                    <persName ref="https://editon-humboldt.de/">Alexander</persName> magnasgrios debellante <lb/>sagt <persName ref="https://editon-humboldt.de/H0016874 http://d-nb.info/gnd/118523074">Curtius</persName>, et milite panem in castris <lb/>frangante
+               sanguinis guttae manarunt. <lb/>Quo prodigio territus Alexander ab Arist<g ref="#typoHyphen"/>
+                    <lb break="no"/>ander vate est confirmatus, qui ad Tyrios
                <lb/>id pertinere ostendit, quod cruor intur <lb/>non foris fusus esset. (Polydorus
                   <add place="sublinear">et Lycosthenes</add>)</p>
             <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001B86600000002"/>
-            <p>1104 <add place="superlinear">Da</add> floß Blut aus Brod unter <persName>Pabst Johannes <lb/>XI.</persName>
+            <p>1104 <add place="superlinear">Da</add> floß Blut aus Brod unter <persName ref="https://editon-humboldt.de/">Pabst Johannes <lb/>XI.</persName>
                <lb/>1550. In Siennia minoris Poloniae pago 12 <lb/>miliaribus a Glogau sito cum
                panes cultro <lb/>dividerentum in mensu sanguineis guttis inde <lb/>manantibus tota
                mensa repleta est. <lb/>1555 ist zu Neuenburg bei Bruck Blut <lb/>zu Ostern aus Brod
@@ -92,15 +112,18 @@
                </choice> 6 am <lb/>Mühlendamm, wo auch und besonders <lb/>in der ganzen Umgegend<choice>
                   <sic>,</sic>
                   <corr type="deleted"/>
-               </choice> viel Cholera- <lb/>Fälle waren, im August vorgekommen. <note place="left" hand="#author">Die Cholera hängt <lb/>damit nicht zusam-<lb/>men aber wohl <lb/>mit feuchten <lb/>dunklen Orten.</note>
+               </choice> viel Cholera- <lb/>Fälle waren, im August vorgekommen. <note place="left" hand="#author">Die Cholera hängt <lb/>damit nicht zusam<g ref="#typoHyphen"/>
+                        <lb break="no"/>men aber wohl <lb/>mit feuchten <lb/>dunklen Orten.</note>
                <lb/>Ich erhielt Ende September ein Stückchen <lb/>trockener und verschimmelter
-               gekochter Kar-<lb/>toffel vom <choice>
+               gekochter Kar<g ref="#typoHyphen"/>
+                    <lb break="no"/>toffel vom <choice>
                   <abbr>Geh.</abbr>
                   <expan>Geheim</expan>
-               </choice> Rath <persName>Kuntzemann</persName> mit solchen <lb/>rothen
+               </choice> Rath <persName ref="https://editon-humboldt.de/">Kuntzemann</persName> mit solchen <lb/>rothen
                Flecken. Die Leute waren ausgezogen. <lb/>Vor Kurzem fiel mir ein, ob es sich auf
                <lb/>frischen gekochten Kartoffeln nicht oculiren <lb/>ließe und – es gelang.</p>
-            <p>Am Donnerstag zeigte ich die merk-<lb/>würdige
+            <p>Am Donnerstag zeigte ich die merk<g ref="#typoHyphen"/>
+                    <lb break="no"/>würdige
                Erscheinung an Brod, Kartoffeln <lb/>und Käse in der Akademie lebend vor. <lb/>
                     <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001B86600000003"/>Die
                dunkel bluthroten Flecken bilden eine <lb/>Gallerte auf den Speisen die wohl auch
@@ -108,14 +131,15 @@
                Thierchen, die einzeln <lb/>sehr blaß sind, da sie um 1/4000 Linie <lb/>im
                Durchmesser haben. Sie wimmeln im <lb/>Microscop und ich sehe zuweilen einen kleinen
                <lb/>fadenartigen Rüssel wenn ich sie antrocknen <lb/>lasse.</p>
-            <p>Diese Flecke werden bei mir gewöhn-<lb/>lich bald von
+            <p>Diese Flecke werden bei mir gewöhn<g ref="#typoHyphen"/>
+                    <lb break="no"/>lich bald von
                Schimmel überwuchert. <lb/>Ich erinnere an das Hostienblut <lb/>der Kirche zu
                Wilsnack <add place="superlinear">1383</add>. Feuchte Orte, <lb/>Mehlteig, warme Luft
                im Sommer <lb/>sind keine fremden Bedingungen bei Hostien. <lb/>Wieviel Juden haben
                sollen Hostien <lb/>gemartert haben bis zum Blute!! <lb/>Welche Ideen Assoziationen
                liegen <lb/>hier nahe! – <name type="animal|plant" key="Monas prodigiosa">Monas
                   prodigiosa</name>! <lb/>
-                    <persName ref="http://d-nb.info/gnd/118597787">Raphaëls</persName> Abendmahl
+                    <persName ref="https://editon-humboldt.de/H0000738 http://d-nb.info/gnd/118597787">Raphaëls</persName> Abendmahl
                (Miraculo di Bolsena). <lb/>Da Andere Ihnen vielleicht davon <lb/>erzählen, so melde
                ich es selbst. Schade <lb/>daß man in dieser wahnsinnigen Zeit bey <lb/>solchen
                Publicationen wissenschaftlich gehemmt <lb/>ist um nicht Oel ins Feuer zu bringen. </p>

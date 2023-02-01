@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019039">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ust'-Zolicha</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ust'-Zolicha [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019039.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,31 +20,32 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019039.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019039.xml">
-                    <p>Ust'-Zolicha [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019039.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019039">
+                <place>
                     <idno type="uri">https://www.geonames.org/477792</idno>
                     <placeName type="reg">Ust'-Zolicha</placeName>
                     <placeName type="alt">Усть-Золиха</placeName>
                     <placeName type="alt">Ust'-Zolikha</placeName>
                     <placeName type="alt">Oust-Zalikha</placeName>
                     <placeName type="alt">Ust-Salicha</placeName>
-                    <!--(Rose 1837/1842, II, 253)-->
+                    
                     <placeName type="alt">Usalicha</placeName>
-                    <!--(RST I, Bl. 100v)-->
-                    <note>Ortschaft rechts der <placeName key="H0007984">Wolga</placeName> südlich von <placeName key="H0010119">Saratov</placeName>; z. Zt. der Reise die dritte Station auf dem Weg von
-                        Saratov nach <placeName key="H0000344">Kamyšin</placeName>
+                    
+                    <note>Ortschaft rechts der <placeName ref="https://editon-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> südlich von <placeName ref="https://editon-humboldt.de/H0010119 https://www.geonames.org/498677">Saratov</placeName>; z. Zt. der Reise die dritte Station auf dem Weg von
+                        Saratov nach <placeName ref="https://editon-humboldt.de/H0000344 https://www.geonames.org/553287">Kamyšin</placeName>
                     </note>
                 </place>
             </listPlace>

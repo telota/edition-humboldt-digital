@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014332">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Montúfar y Larrea-Zurbano, Juan Pío de</title>
             </titleStmt>
+            <editionStmt>
+                <p>Montúfar y Larrea-Zurbano, Juan Pío de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0014332.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014332.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0014332.xml">
-                    <p>Montúfar y Larrea-Zurbano, Juan Pío de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0014332.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xmlns:telota="http://www.telota.de" xml:id="H0014332" telota:merge="1">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/58145857106122922438</idno>
                     <persName type="reg">
                         <surname>Montúfar y Larrea-Zurbano</surname>
@@ -40,7 +45,7 @@
                     </persName>
                     <birth>1758</birth>
                     <death>1819</death>
-                    <note>1802 Gastgeber Humboldts auf seinem Landgut in Chillo; Vater von <persName key="H0014334">Carlos Montúfar</persName>
+                    <note>1802 Gastgeber Humboldts auf seinem Landgut in Chillo; Vater von <persName ref="https://editon-humboldt.de/H0014334 http://d-nb.info/gnd/117601055">Carlos Montúfar</persName>
                     </note>
                     <linkGrp>
                         <ptr target="19#87" type="page"/>

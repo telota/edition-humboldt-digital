@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019136">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -26,35 +26,55 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Adolphe de Polier. Miask, 14. September
+                    1829, hg. v. Ulrich Päßler und Florian Schnee unter Mitarbeit von Kathrin Kraller. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019136">https://edition-humboldt.de/v8/H0019136</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019136</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019136</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019136.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Adolphe de Polier. Miask, 14. September
-                    1829. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019136</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Rossijskij Gosudarstvennyj Archiv Drevnich Aktov (RGADA,
+                            Russisches Staatsarchiv Alter Akten, Moskau)</institution>
+                        <idno>
+                            <idno type="shelfmark">f. 1288, op. 1. g. II, № 2774, l.
+                            3–4</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/1498894">Miass (Stadt) [Mjask, Миасс, Miask] (Stadt im
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008855 https://www.geonames.org/1498894">Miass (Stadt) [Mjask, Миасс, Miask] (Stadt im
                         mittleren Ural am gleichnamigen Fluss)</placeName>
                     <date when="1829-09-14" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://edition-humboldt.de/v8/H0002056">Polier, Adolphe, Graf von (1795-1830)</persName>
+                    <persName ref="https://editon-humboldt.de/H0002056">Polier, Adolphe, Graf von (1795-1830)</persName>
                 </correspAction>
-                <note>Die Briefe <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldts</persName> an
-                    <persName ref="https://edition-humboldt.de/v8/H0002056">Adolphe de Polier</persName> wurden von <persName ref="https://edition-humboldt.de/v8/H0019459">Boris G. Šadrin</persName> im Russischen Staatsarchiv
-                    Alter Akten, Moskau entdeckt. Die Herausgeber danken ihm sowie <persName ref="http://viaf.org/viaf/305685650">Svetlana Kamzolova</persName> und <persName ref="https://d-nb.info/gnd/124857698">Ulrich Stottmeister</persName> für die Überlassung
+                <note>Die Briefe <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldts</persName> an
+                    <persName ref="https://editon-humboldt.de/H0002056">Adolphe de Polier</persName> wurden von <persName ref="https://editon-humboldt.de/H0019459">Boris G. Šadrin</persName> im Russischen Staatsarchiv
+                    Alter Akten, Moskau entdeckt. Die Herausgeber danken ihm sowie <persName ref="https://editon-humboldt.de/H0019477 http://viaf.org/viaf/305685650">Svetlana Kamzolova</persName> und <persName ref="https://editon-humboldt.de/H0019462 https://d-nb.info/gnd/124857698">Ulrich Stottmeister</persName> für die Überlassung
                     einer Kopie der Handschriften und die Möglichkeit zur Erstveröffentlichung in
                     der edition humboldt digital.</note>
             </correspDesc>
@@ -65,7 +85,7 @@
             <div type="writingSession">
                 <opener>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/1498894">Miask</placeName> le <hi rendition="#sup">2</hi>/<hi rendition="#sub">14</hi> <choice>
+                        <placeName ref="https://editon-humboldt.de/H0008855 https://www.geonames.org/1498894">Miask</placeName> le <hi rendition="#sup">2</hi>/<hi rendition="#sub">14</hi> <choice>
                             <abbr>Sept</abbr>
                             <expan>Septembre</expan>
                         </choice> 1829</dateline>
@@ -74,31 +94,31 @@
                 <p>
                     <pb n="3r"/> Je saisis la première occasion que se présente<supplied cert="high">,</supplied>
                     <lb/>
-                    <persName ref="https://edition-humboldt.de/v8/H0002056">mon cher Comte</persName>, pour Vous offrir ce petit
+                    <persName ref="https://editon-humboldt.de/H0002056">mon cher Comte</persName>, pour Vous offrir ce petit
                     <lb/>signe de vie, pour Vous témoigner ma vive <lb/>reconnoissance de Votre
-                    aimable souvenir <lb/>et pour Vous féliciter, en mon nom et <lb/>au nom de <ref xml:id="ee499a30-39c9-4a03-899a-3039c9ea035d" corresp="#d591b332-bcfc-478a-91b3-32bcfcc78a6f">mes deux amis</ref>
-                    <note xml:id="d591b332-bcfc-478a-91b3-32bcfcc78a6f" corresp="#ee499a30-39c9-4a03-899a-3039c9ea035d">
-                        <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried
-                                Ehrenberg</persName> und <persName ref="http://d-nb.info/gnd/116609036">Gustav
-                                Rose</persName>.</note> (le <hi rendition="#u">troi<lb/>sième</hi> n’est pas dans le
-                    secret !) de <ref xml:id="ca48d2c8-e558-42ae-88d2-c8e55822aed2" corresp="#fd5242c3-eb7f-4a14-9242-c3eb7f0a1433">Vos <lb/>brillantes découvertes</ref>
-                    <note xml:id="fd5242c3-eb7f-4a14-9242-c3eb7f0a1433" corresp="#ca48d2c8-e558-42ae-88d2-c8e55822aed2">Auf den Besitzungen der Poliers waren im Juni
-                            1829 Diamanten entdeckt worden.</note> à <ref xml:id="bd614dff-90df-44db-a14d-ff90dfb4dbec" corresp="#a302cd0f-8b43-461c-82cd-0f8b43361cbf">Adolphski</ref>
-                    <note xml:id="a302cd0f-8b43-461c-82cd-0f8b43361cbf" corresp="#bd614dff-90df-44db-a14d-ff90dfb4dbec">Die Goldwäsche
-                            Adolfski (Adol’fskoj) nordöstlich des Hüttenwerks <placeName ref="https://www.geonames.org/576268">Bissersk</placeName> westlich von <placeName ref="https://www.geonames.org/538340">Kušva</placeName> an der Westflanke des Nördlichen
-                                <placeName ref="https://www.geonames.org/1488441">Ural</placeName> war seit dem Tod ihres
-                            ersten Ehemannes, <persName ref="http://d-nb.info/gnd/1135226849">Pawel Andrejewitsch Graf
-                                Schuwalow</persName>, im Jahr 1823 im Besitz von <persName ref="https://edition-humboldt.de/v8/H0002057">Varvara Petrovna Gräfin Polier</persName>, der Gattin
-                            des <persName ref="https://edition-humboldt.de/v8/H0002056">Grafen Adolphe von Polier</persName>. Vgl.
-                                <bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, II,
-                                <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/475">457</ref>.</note>. Jugez de <lb/>ma joye, je ne dis pas de ma surprise, lorsque <ref xml:id="a706795e-84cd-4013-8679-5e84cdc01389" corresp="#efba16c8-b796-43c4-ba16-c8b796c3c4bb">
-                        <lb/>le bon Mr <persName ref="https://edition-humboldt.de/v8/H0015596">Schmidt</persName> a ouvert la
+                    aimable souvenir <lb/>et pour Vous féliciter, en mon nom et <lb/>au nom de <ref xml:id="ec5cf0c4-1d76-4185-9cf0-c41d76e1859d" corresp="#f41e76e2-9161-4332-9e76-e29161e3327e">mes deux amis</ref>
+                    <note xml:id="f41e76e2-9161-4332-9e76-e29161e3327e" corresp="#ec5cf0c4-1d76-4185-9cf0-c41d76e1859d">
+                        <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried
+                                Ehrenberg</persName> und <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Gustav
+                                Rose</persName>.</note> (le <hi rendition="#u">troi<lb break="no"/>sième</hi> n’est pas dans le
+                    secret !) de <ref xml:id="c65559a6-c270-4a61-9559-a6c270ba6182" corresp="#ac244830-f842-4fba-a448-30f842bfba63">Vos <lb/>brillantes découvertes</ref>
+                    <note xml:id="ac244830-f842-4fba-a448-30f842bfba63" corresp="#c65559a6-c270-4a61-9559-a6c270ba6182">Auf den Besitzungen der Poliers waren im Juni
+                            1829 Diamanten entdeckt worden.</note> à <ref xml:id="ed8e8ba7-f94d-4307-8e8b-a7f94dd30739" corresp="#d4bb686f-718c-46dc-bb68-6f718c26dc0d">Adolphski</ref>
+                    <note xml:id="d4bb686f-718c-46dc-bb68-6f718c26dc0d" corresp="#ed8e8ba7-f94d-4307-8e8b-a7f94dd30739" resp="#FS">Die Goldwäsche
+                            Adolfski (Adol’fskoj) nordöstlich des Hüttenwerks <placeName ref="https://editon-humboldt.de/H0018602 https://www.geonames.org/576268">Bissersk</placeName> westlich von <placeName ref="https://editon-humboldt.de/H0000512 https://www.geonames.org/538340">Kušva</placeName> an der Westflanke des Nördlichen
+                                <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName> war seit dem Tod ihres
+                            ersten Ehemannes, <persName ref="https://editon-humboldt.de/H0017960 http://d-nb.info/gnd/1135226849">Pawel Andrejewitsch Graf
+                                Schuwalow</persName>, im Jahr 1823 im Besitz von <persName ref="https://editon-humboldt.de/H0002057">Varvara Petrovna Gräfin Polier</persName>, der Gattin
+                            des <persName ref="https://editon-humboldt.de/H0002056">Grafen Adolphe von Polier</persName>. Vgl.
+                                <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, II,
+                                <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/475">457</ref>.</note>. Jugez de <lb/>ma joye, je ne dis pas de ma surprise, lorsque <ref xml:id="fed69646-efae-4c04-9696-46efae1c04b6" corresp="#be7bdcf8-c082-4b48-bbdc-f8c0825b488a">
+                        <lb/>le bon Mr <persName ref="https://editon-humboldt.de/H0015596">Schmidt</persName> a ouvert la
                             boite du <lb/>secret</ref>
-                    <note xml:id="efba16c8-b796-43c4-ba16-c8b796c3c4bb" corresp="#a706795e-84cd-4013-8679-5e84cdc01389">Friedrich
+                    <note xml:id="be7bdcf8-c082-4b48-bbdc-f8c0825b488a" corresp="#fed69646-efae-4c04-9696-46efae1c04b6">Friedrich
                             Schmidt hatte
                             Humboldt am <date when="1829-09-03" calendar="#gregorian">3. September
-                                1829</date> in <placeName ref="https://www.geonames.org/1498894">Miass</placeName> im
-                            Auftrag von <persName ref="https://edition-humboldt.de/v8/H0002056">Polier</persName> einen Diamanten
+                                1829</date> in <placeName ref="https://editon-humboldt.de/H0008855 https://www.geonames.org/1498894">Miass</placeName> im
+                            Auftrag von <persName ref="https://editon-humboldt.de/H0002056">Polier</persName> einen Diamanten
                             überbracht.</note>: c’étoit chez moi<supplied cert="high">,</supplied> depuis deux ans, une
                     <lb/>sorte de certitude que de trouver les terrains <lb/>
                     <choice>
@@ -107,9 +127,9 @@
                     </choice> et <choice>
                         <sic>platinifers</sic>
                         <corr>platinifères</corr>
-                    </choice> de l’<placeName ref="https://www.geonames.org/1488441">Ural</placeName> et de <placeName ref="https://www.geonames.org/3457419">Matto <lb/>grosso</placeName> semblables dans tous les
+                    </choice> de l’<placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName> et de <placeName ref="https://editon-humboldt.de/H0018713 https://www.geonames.org/3457419">Matto <lb/>grosso</placeName> semblables dans tous les
                     rapports de <lb/>coexistence des fossiles. Je le disais en partant <lb/>à
-                        <persName ref="http://d-nb.info/gnd/119092085">
+                        <persName ref="https://editon-humboldt.de/H0001156 http://d-nb.info/gnd/119092085">
                         <choice>
                             <abbr>S.</abbr>
                             <expan>Sa</expan>
@@ -121,29 +141,31 @@
                         <del rendition="#ow">ai</del>
                         <add place="across">aye</add>
                     </subst>
-                    <lb/>contribué en rien au succès, je trouve pour<lb/>tant un plaisir
+                    <lb/>contribué en rien au succès, je trouve pour<lb break="no"/>tant un plaisir
                     de penser que la découverte <lb/>coïncide avec l’époque de mon voyage,
                     <lb/>qu’elle appartient à celui qui m’honore <lb/>de son amitié et qui par son
                         talent<supplied cert="high">,</supplied>
                     <lb/>par l’aménité de son caractère et la <lb/>noblesse de ses sentimens mérite
-                    plus encore <lb/>que le sort lui a accordé! J’espère que la proprié-<lb/>té du nouveau produit ne souffrira aucune
-                    <lb/>difficulté: dans l’Oblast de <placeName ref="https://www.geonames.org/1496153">Omsk</placeName> le
-                        Gouverne-<lb/>ment a accordé récemment à <choice>
+                    plus encore <lb/>que le sort lui a accordé! J’espère que la proprié<g ref="#typoHyphen"/>
+                    <lb break="no"/>té du nouveau produit ne souffrira aucune
+                    <lb/>difficulté: dans l’Oblast de <placeName ref="https://editon-humboldt.de/H0007824 https://www.geonames.org/1496153">Omsk</placeName> le
+                        Gouverne<g ref="#typoHyphen"/>
+                    <lb break="no"/>ment a accordé récemment à <choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="https://edition-humboldt.de/v8/H0002083">Popow</persName> de <lb/>
-                    <placeName ref="https://www.geonames.org/1489425">Tomsk</placeName> et <placeName ref="https://www.geonames.org/1519422">Semipalatinsk</placeName> la
+                    <persName ref="https://editon-humboldt.de/H0002083">Popow</persName> de <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0009468 https://www.geonames.org/1489425">Tomsk</placeName> et <placeName ref="https://editon-humboldt.de/H0010196 https://www.geonames.org/1519422">Semipalatinsk</placeName> la
                     propriété de nouvelles <lb/>mines d’argent, qui (Vous le savez) d’après la loi
                         <lb/>
-                    <pb n="3v"/> ne peuvent en <placeName ref="https://www.geonames.org/2016590">Sibérie</placeName> qu’être exploité<supplied cert="high">es</supplied> que
+                    <pb n="3v"/> ne peuvent en <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibérie</placeName> qu’être exploité<supplied cert="high">es</supplied> que
                     <lb/>par la Couronne. Les topazes, corindons qu’ <lb/>on trouveroit dans les
                     alluvions d’or <lb/>ne feroient certainement pas perdre la <lb/>propriété des
                         alluvions<supplied cert="high">.</supplied> Je brule de désir <lb/>de voir <choice>
                         <sic>annoncer</sic>
                         <corr cert="high">annoncé</corr>
                     </choice> Votre découverte dans <lb/>les Journaux, lorsque Vous aurez présenté
-                    <lb/>le produit d’Adolphski à <persName ref="http://d-nb.info/gnd/118588079">
+                    <lb/>le produit d’Adolphski à <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">
                         <choice>
                             <abbr>S.</abbr>
                             <expan>Sa</expan>
@@ -151,145 +173,148 @@
                         <choice>
                             <abbr>M.</abbr>
                             <expan>Majesté</expan>
-                        </choice> L’Empe<lb/>reur</persName>
+                        </choice> L’Empe<lb break="no"/>reur</persName>
                     <supplied cert="high">.</supplied> Faites aussi insérer une petite note <lb/>dans les Journaux
                     français. Hélas! cette <lb/>excellente amie, <choice>
                         <abbr>Mad</abbr>
                         <expan>Madame</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/119543338">de Duras</persName>, que ne peut<supplied cert="high">-</supplied>
-                    <lb/>elle jouir de cette nouvelle gloire que
-                    <lb/>s’attachera à Votre nom. Mr <persName ref="https://edition-humboldt.de/v8/H0015596">Schmidt</persName>
+                    <persName ref="https://editon-humboldt.de/H0012448 http://d-nb.info/gnd/119543338">de Duras</persName>, que ne peut<supplied cert="high">-</supplied>
+                    <lb break="no"/>elle jouir de cette nouvelle gloire que
+                    <lb/>s’attachera à Votre nom. Mr <persName ref="https://editon-humboldt.de/H0015596">Schmidt</persName>
                     <lb/>nous a confié le trésor que nous Vous <lb/>rapportons. L’idée que, pour se
                     rendre <lb/>agréable au nouveau maître, on se soit <lb/>mis trois fois en fraix
-                    pour se pro-<lb/>curer <del rendition="#s">trois
+                    pour se pro<g ref="#typoHyphen"/>
+                    <lb break="no"/>curer <del rendition="#s">trois
                         fois</del> le produit, ne peut se <lb/>présenter: elle est absurde parce
                     que, <lb/>dans ce cas l’Intendant auroit annoncé <lb/>la chose lui<supplied cert="high">-</supplied>même et se seroit fait <lb/>le mérite de la
                     découverte. Faites venir <lb/>bien des Schlich et examinez avec la <lb/>loupe,
-                    si l’on ne trouve pas de „la pe-<lb/>tite
-                    graine.“ <persName ref="http://d-nb.info/gnd/116609036">Rose</persName> et <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName> me char<lb/>gent de mille hommages
+                    si l’on ne trouve pas de „la pe<g ref="#typoHyphen"/>
+                    <lb break="no"/>tite
+                    graine.“ <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName> et <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName> me char<lb break="no"/>gent de mille hommages
                     affectueux. Votre <lb/>bonheur fait le nôtre: nous ne parlons <lb/>que de Votre
                     découverte entre nous trois. <lb/>
-                    <ref xml:id="e3ee05d6-d11e-49fd-ae05-d6d11e79fd9b" corresp="#f6ea4009-0e31-46c7-aa40-090e31d6c76f">
-                        <persName ref="http://d-nb.info/gnd/116609036">Rose</persName> a découvert hier de la
+                    <ref xml:id="f3bd8e35-5cc8-4388-bd8e-355cc8c388a8" corresp="#a2589571-2a00-4409-9895-712a008409e6">
+                        <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName> a découvert hier de la
                             mine d’étain
                             <lb/>
                         <supplied cert="high">(</supplied>Zinnstein<supplied cert="high">)</supplied> qu’on prenoit pour des cristaux <lb/>de rutile</ref>
-                    <note xml:id="f6ea4009-0e31-46c7-aa40-090e31d6c76f" corresp="#e3ee05d6-d11e-49fd-ae05-d6d11e79fd9b">Vgl. dazu Humboldts Brief an <persName ref="http://d-nb.info/gnd/118666878">Georg von Cancrin</persName> vom <date when="1829-09-15" calendar="#gregorian">15. September 1829</date>:
+                    <note xml:id="a2589571-2a00-4409-9895-712a008409e6" corresp="#f3bd8e35-5cc8-4388-bd8e-355cc8c388a8">Vgl. dazu Humboldts Brief an <persName ref="https://editon-humboldt.de/H0012872 http://d-nb.info/gnd/118666878">Georg von Cancrin</persName> vom <date when="1829-09-15" calendar="#gregorian">15. September 1829</date>:
                                 <quote>Das Fossil, welches in großen Kristallen vorige Woche im
-                                    <placeName ref="https://www.geonames.org/1505865/">Ilmen Gebirge</placeName> hier, bei
-                                    <placeName ref="https://www.geonames.org/1498894">Miask</placeName> entdekt ward und für
+                                    <placeName ref="https://editon-humboldt.de/H0006673 https://www.geonames.org/1505865/">Ilmen Gebirge</placeName> hier, bei
+                                    <placeName ref="https://editon-humboldt.de/H0008855 https://www.geonames.org/1498894">Miask</placeName> entdekt ward und für
                                 Rutil gehalten wurde, ist (nach der chemischen Untersuchung des
-                                Prof. <persName ref="http://d-nb.info/gnd/116609036">Rose</persName>) Zinnstein</quote>
-                                (<bibl corresp="https://edition-humboldt.de/v8/K7T6THCG">Humboldt 2009</bibl>, 185,
+                                Prof. <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName>) Zinnstein</quote>
+                                (<bibl corresp="https://edition-humboldt.de/K7T6THCG">Humboldt 2009</bibl>, 185,
                             Nr. 58).</note>. On n’en connoissoit pas jusqu’à <lb/>
                     <pb n="4r"/>
-                    <placeName ref="https://www.geonames.org/2019326">Nertschinsk</placeName>. Son gisement est dans le
-                    granite <lb/>de l’<placeName ref="https://www.geonames.org/1505863">Ilmensee</placeName> près <supplied cert="high">de</supplied>
-                    <placeName ref="https://www.geonames.org/1498894">Miask</placeName>: <ref xml:id="d76e91f4-46f3-48b3-ae91-f446f3a8b3e6" corresp="#ea14dbd1-2157-4646-94db-d121579646ac">peut<supplied cert="high">-</supplied>être découvrira<supplied cert="high">-</supplied>
-                        <lb/>t-on là minerais en
+                    <placeName ref="https://editon-humboldt.de/H0019110 https://www.geonames.org/2019326">Nertschinsk</placeName>. Son gisement est dans le
+                    granite <lb/>de l’<placeName ref="https://editon-humboldt.de/H0017479 https://www.geonames.org/1505863">Ilmensee</placeName> près <supplied cert="high">de</supplied>
+                    <placeName ref="https://editon-humboldt.de/H0008855 https://www.geonames.org/1498894">Miask</placeName>: <ref xml:id="f60b35b4-b7df-4926-8b35-b4b7df692684" corresp="#e3cecc5a-3bad-4d96-8ecc-5a3bad3d96f0">peut<supplied cert="high">-</supplied>être découvrira<supplied cert="high">-</supplied>
+                        <lb break="no"/>t-on là minerais en
                             abondance</ref>
-                    <note xml:id="ea14dbd1-2157-4646-94db-d121579646ac" corresp="#d76e91f4-46f3-48b3-ae91-f446f3a8b3e6">Vgl. Humboldts Brief an <persName ref="http://d-nb.info/gnd/118666878">Cancrin</persName> vom <date when="1829-09-15" calendar="#gregorian">15. September 1829</date>: <quote>Vielleicht
-                                findet man den Zinnstein bald in größerer Menge [...]</quote> (<bibl corresp="https://edition-humboldt.de/v8/K7T6THCG">Humboldt 2009</bibl>, 185, Nr.
-                            58).</note>. Nous avons <lb/>été par <ref xml:id="d304dc48-5775-4190-84dc-485775019069" corresp="#cc7b0b08-aa24-4452-bb0b-08aa249452ef">un tems affreux au <placeName ref="https://www.geonames.org/872699">Taganay</placeName>
+                    <note xml:id="e3cecc5a-3bad-4d96-8ecc-5a3bad3d96f0" corresp="#f60b35b4-b7df-4926-8b35-b4b7df692684">Vgl. Humboldts Brief an <persName ref="https://editon-humboldt.de/H0012872 http://d-nb.info/gnd/118666878">Cancrin</persName> vom <date when="1829-09-15" calendar="#gregorian">15. September 1829</date>: <quote>Vielleicht
+                                findet man den Zinnstein bald in größerer Menge [...]</quote> (<bibl corresp="https://edition-humboldt.de/K7T6THCG">Humboldt 2009</bibl>, 185, Nr.
+                            58).</note>. Nous avons <lb/>été par <ref xml:id="fadda6a4-f06a-40ea-9da6-a4f06a50ea4a" corresp="#eefb2184-f86a-43a0-bb21-84f86a43a0d0">un tems affreux au <placeName ref="https://editon-humboldt.de/H0017585 https://www.geonames.org/872699">Taganay</placeName>
                     </ref>
-                    <note xml:id="cc7b0b08-aa24-4452-bb0b-08aa249452ef" corresp="#d304dc48-5775-4190-84dc-485775019069">Seit dem Aufstieg zum <placeName ref="https://www.geonames.org/872699">Taganaj</placeName> am
+                    <note xml:id="eefb2184-f86a-43a0-bb21-84f86a43a0d0" corresp="#fadda6a4-f06a-40ea-9da6-a4f06a50ea4a">Seit dem Aufstieg zum <placeName ref="https://editon-humboldt.de/H0017585 https://www.geonames.org/872699">Taganaj</placeName> am
                                 <date when="1829-09-08" calendar="#gregorian">8. September</date>
                             hatte es geregnet. Bereits am Morgen der Exkursion war es Rose zufolge
                                 <quote>trüb und neblig</quote> gewesen; dann begann es <quote>zu
                                 regnen, und hörte damit, kleine Unterbrechungen abgerechnet, auch
-                                den ganzen Tag nicht wieder auf</quote> (<bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, II, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/126">108</ref>). Das Regenwetter dauerte auch die folgenden Tage an.
-                                <persName ref="http://d-nb.info/gnd/116609036">Rose</persName> vermerkte, dass es am <date when="1829-09-10" calendar="#gregorian">10. September</date>
+                                den ganzen Tag nicht wieder auf</quote> (<bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, II, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/126">108</ref>). Das Regenwetter dauerte auch die folgenden Tage an.
+                                <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName> vermerkte, dass es am <date when="1829-09-10" calendar="#gregorian">10. September</date>
                             <quote>beständig regnete</quote>, und notierte auch <date when="1829-09-10" calendar="#gregorian">tags darauf</date>, dass der
-                            Regen <quote>nicht aufhörte</quote> (<bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, II, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/162">144</ref>, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/164">146</ref>).</note>: <ref xml:id="b3e7af3c-104a-4a9c-a7af-3c104a1a9c06" corresp="#ccf1d655-36e6-4ec2-b1d6-5536e69ec2db">j’ai <lb/>brisé en tombant mon dernier baromètre.</ref>
-                    <note xml:id="ccf1d655-36e6-4ec2-b1d6-5536e69ec2db" corresp="#b3e7af3c-104a-4a9c-a7af-3c104a1a9c06"/>
-                        Heu<lb/>reusement <choice>
+                            Regen <quote>nicht aufhörte</quote> (<bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, II, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/162">144</ref>, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/164">146</ref>).</note>: <ref xml:id="de120805-1dde-4a0a-9208-051dde8a0a1c" corresp="#e6c8140c-f212-4694-8814-0cf212469429">j’ai <lb/>brisé en tombant mon dernier baromètre.</ref>
+                    <note xml:id="e6c8140c-f212-4694-8814-0cf212469429" corresp="#de120805-1dde-4a0a-9208-051dde8a0a1c"/>
+                        Heu<lb break="no"/>reusement <choice>
                         <abbr>Mrs</abbr>
                         <expan>Messieurs</expan>
                     </choice>
-                    <persName ref="http://viaf.org/viaf/5696261">Hofmann</persName> et <persName ref="http://d-nb.info/gnd/116691174">Helmersen</persName>, deux <lb/>jeunes voyageurs très aimables que <ref xml:id="d97f1e08-f81a-4bce-bf1e-08f81a5bced3" corresp="#b66f4965-3118-4654-af49-653118d65420">Mr <persName ref="http://d-nb.info/gnd/118666878">Cancrin</persName>
-                            <lb/>a envoyé visiter le Sud de l’<placeName ref="https://www.geonames.org/1488441">Oural</placeName>
+                    <persName ref="https://editon-humboldt.de/H0011946 http://viaf.org/viaf/5696261">Hofmann</persName> et <persName ref="https://editon-humboldt.de/H0011769 http://d-nb.info/gnd/116691174">Helmersen</persName>, deux <lb/>jeunes voyageurs très aimables que <ref xml:id="d10af69e-ae33-4945-8af6-9eae33a945db" corresp="#a7040860-0a4e-4f31-8408-600a4eef316a">Mr <persName ref="https://editon-humboldt.de/H0012872 http://d-nb.info/gnd/118666878">Cancrin</persName>
+                            <lb/>a envoyé visiter le Sud de l’<placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Oural</placeName>
                     </ref>
-                    <note xml:id="b66f4965-3118-4654-af49-653118d65420" corresp="#d97f1e08-f81a-4bce-bf1e-08f81a5bced3">
-                        <persName ref="http://viaf.org/viaf/5696261">Hofmann</persName> und
-                                <persName ref="http://d-nb.info/gnd/116691174">Helmersen</persName> hatten 1828/1829 im
-                            Auftrag <persName ref="http://d-nb.info/gnd/118666878">Cancrins</persName> den Südlichen
-                                <placeName ref="https://www.geonames.org/1488441">Ural </placeName>bereist und geologisch
-                            untersucht.</note> Basch<lb/>kire et dont le premier a fait le tour <lb/>
-                    <ref xml:id="e7a66103-3baa-4496-a661-033baa94961e" corresp="#bbb2ff41-105b-4319-b2ff-41105b53190f">du monde avec <persName ref="https://edition-humboldt.de/v8/H0001457">Kotzebue</persName>
+                    <note xml:id="a7040860-0a4e-4f31-8408-600a4eef316a" corresp="#d10af69e-ae33-4945-8af6-9eae33a945db">
+                        <persName ref="https://editon-humboldt.de/H0011946 http://viaf.org/viaf/5696261">Hofmann</persName> und
+                                <persName ref="https://editon-humboldt.de/H0011769 http://d-nb.info/gnd/116691174">Helmersen</persName> hatten 1828/1829 im
+                            Auftrag <persName ref="https://editon-humboldt.de/H0012872 http://d-nb.info/gnd/118666878">Cancrins</persName> den Südlichen
+                                <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural </placeName>bereist und geologisch
+                            untersucht.</note> Basch<lb break="no"/>kire et dont le premier a fait le tour <lb/>
+                    <ref xml:id="c3692103-17e6-4c1c-a921-0317e6ac1c9d" corresp="#e5e12ade-bd31-435f-a12a-debd31d35f6a">du monde avec <persName ref="https://editon-humboldt.de/H0001457">Kotzebue</persName>
                     </ref>
-                    <note xml:id="bbb2ff41-105b-4319-b2ff-41105b53190f" corresp="#e7a66103-3baa-4496-a661-033baa94961e">
-                        <persName ref="http://viaf.org/viaf/5696261">Hofmann</persName>
-                            hatte von 1823 bis 1826 auf Empfehlung <persName ref="http://viaf.org/viaf/17577635">Moritz
-                                von Engelhardts</persName> als Geologe an der von <persName ref="https://edition-humboldt.de/v8/H0001457">Otto von Kotzebue</persName> geleiteten
-                            Weltumsegelung teilgenommen.</note>, nous fourniront <lb/>un de leurs <ref xml:id="f2ba9c26-3c6f-4084-ba9c-263c6f4084e3" corresp="#c2e68f5a-73db-4203-a68f-5a73db8203b3">baromètres.</ref>
-                    <note xml:id="c2e68f5a-73db-4203-a68f-5a73db8203b3" corresp="#f2ba9c26-3c6f-4084-ba9c-263c6f4084e3">
-                        <persName ref="http://viaf.org/viaf/5696261">Hofmann</persName>, der
+                    <note xml:id="e5e12ade-bd31-435f-a12a-debd31d35f6a" corresp="#c3692103-17e6-4c1c-a921-0317e6ac1c9d">
+                        <persName ref="https://editon-humboldt.de/H0011946 http://viaf.org/viaf/5696261">Hofmann</persName>
+                            hatte von 1823 bis 1826 auf Empfehlung <persName ref="https://editon-humboldt.de/H0005943 http://viaf.org/viaf/17577635">Moritz
+                                von Engelhardts</persName> als Geologe an der von <persName ref="https://editon-humboldt.de/H0001457">Otto von Kotzebue</persName> geleiteten
+                            Weltumsegelung teilgenommen.</note>, nous fourniront <lb/>un de leurs <ref xml:id="aeba8870-7be1-4f2e-ba88-707be12f2e9d" corresp="#b117e328-0cd5-44ec-97e3-280cd5a4ecf3">baromètres.</ref>
+                    <note xml:id="b117e328-0cd5-44ec-97e3-280cd5a4ecf3" corresp="#aeba8870-7be1-4f2e-ba88-707be12f2e9d">
+                        <persName ref="https://editon-humboldt.de/H0011946 http://viaf.org/viaf/5696261">Hofmann</persName>, der
                             Humboldt vom <date when="1829-09-03" calendar="#gregorian">3.</date> bis
                             zum <date when="1829-09-27" calendar="#gregorian">27. September
                                 1829</date> begleitete, hatte diesem ein Barometer überlassen,
                             nachdem dessen eigenes am 8. September 1829
                             beim Aufstieg auf den
-                                <placeName ref="https://www.geonames.org/872699">Taganay</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0017585 https://www.geonames.org/872699">Taganay</placeName>
                             zerbrochen war. Am <date when="1829-10-27" calendar="#gregorian">27. Oktober 1829</date>, dem Tag vor der
-                            Ankunft in <placeName ref="https://www.geonames.org/472045">Voronež</placeName>,
+                            Ankunft in <placeName ref="https://editon-humboldt.de/H0009197 https://www.geonames.org/472045">Voronež</placeName>,
                             ging auch das von
-                                <persName ref="http://viaf.org/viaf/5696261">Hofmann</persName> erhaltene Instrument zu
-                            Bruch.</note> Ils nous accompagnent <lb/>à <placeName ref="https://www.geonames.org/515003">Orenbourg</placeName>; <ref xml:id="b7429dd0-3372-4f69-829d-d033727f6924" corresp="#deed9816-172a-4eac-ad98-16172a0eacb5">nous partons après<supplied cert="high">-</supplied>demain</ref>
-                    <note xml:id="deed9816-172a-4eac-ad98-16172a0eacb5" corresp="#b7429dd0-3372-4f69-829d-d033727f6924">Die Abreise von <placeName ref="https://www.geonames.org/1498894">Miask</placeName> war für den <date calendar="#gregorian" when="1829-09-16">16. September 1829</date> vorgesehen. Ursprünglich
-                            hatte Humboldt auf der Fahrt nach <placeName ref="https://www.geonames.org/515003">Orenburg</placeName> die Gesteine im Umfeld des Berges <placeName ref="https://www.geonames.org/12022341">Auškul’ </placeName>untersuchen wollen. Da die
+                                <persName ref="https://editon-humboldt.de/H0011946 http://viaf.org/viaf/5696261">Hofmann</persName> erhaltene Instrument zu
+                            Bruch.</note> Ils nous accompagnent <lb/>à <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenbourg</placeName>; <ref xml:id="f89f5d18-b8cc-4f9d-9f5d-18b8cccf9d26" corresp="#cd4dad8e-85b9-48ee-8dad-8e85b938eec8">nous partons après<supplied cert="high">-</supplied>demain</ref>
+                    <note xml:id="cd4dad8e-85b9-48ee-8dad-8e85b938eec8" corresp="#f89f5d18-b8cc-4f9d-9f5d-18b8cccf9d26">Die Abreise von <placeName ref="https://editon-humboldt.de/H0008855 https://www.geonames.org/1498894">Miask</placeName> war für den <date calendar="#gregorian" when="1829-09-16">16. September 1829</date> vorgesehen. Ursprünglich
+                            hatte Humboldt auf der Fahrt nach <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburg</placeName> die Gesteine im Umfeld des Berges <placeName ref="https://editon-humboldt.de/H0017293 https://www.geonames.org/12022341">Auškul’ </placeName>untersuchen wollen. Da die
                             kürzeste Route dorthin infolge von tagelangen Regenfällen jedoch nicht
-                            passierbar war, schlug Humboldt den direkten Weg nach <placeName ref="https://www.geonames.org/514734">Orsk</placeName> und <placeName ref="https://edition-humboldt.de/v8/H0018577">Orenburg</placeName> ein und überließ den Abstecher zum <placeName ref="https://www.geonames.org/580351">Auschkul</placeName> über <placeName ref="https://www.geonames.org/506846">Poläkowsk</placeName>
-                            <persName ref="http://d-nb.info/gnd/116609036">Rose</persName> und <persName ref="http://viaf.org/viaf/5696261">Hofmann</persName>. Diese brachen bereits in der Nacht zum <date calendar="#gregorian" when="1829-09-16">16. September</date> um 2
-                            Uhr auf; Humboldt und <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName>
-                            verließen Miask morgens um halb neun (vgl. <bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose 1837/1842</bibl>, II, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/179">161</ref>f.; ERST Bl. <ref target="H0016785/#53v">53v</ref>).</note>. Le <lb/>beau tems nous a singulièrement favorisé<supplied cert="high">s</supplied>
+                            passierbar war, schlug Humboldt den direkten Weg nach <placeName ref="https://editon-humboldt.de/H0007860 https://www.geonames.org/514734">Orsk</placeName> und <placeName ref="https://editon-humboldt.de/H0018577">Orenburg</placeName> ein und überließ den Abstecher zum <placeName ref="https://editon-humboldt.de/H0017292 https://www.geonames.org/580351">Auschkul</placeName> über <placeName ref="https://editon-humboldt.de/H0018522 https://www.geonames.org/506846">Poläkowsk</placeName>
+                            <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName> und <persName ref="https://editon-humboldt.de/H0011946 http://viaf.org/viaf/5696261">Hofmann</persName>. Diese brachen bereits in der Nacht zum <date calendar="#gregorian" when="1829-09-16">16. September</date> um 2
+                            Uhr auf; Humboldt und <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>
+                            verließen Miask morgens um halb neun (vgl. <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, II, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/179">161</ref>f.; ERST Bl. <ref target="https://edition-humboldt.de/H0016785/53v">53v</ref>).</note>. Le <lb/>beau tems nous a singulièrement favorisé<supplied cert="high">s</supplied>
                     <lb/>en Sibérie où nous avons intercalé <measure quantity="4000" unit="versta">4000 <choice>
                             <abbr>W</abbr>
                             <expan>Werst</expan>
                         </choice>
                     </measure>
-                    <lb/>pour voir les mines de <placeName ref="https://www.geonames.org/1502823">Koliwan</placeName>, le
-                        <placeName ref="https://www.geonames.org/12196317">Schlan<lb/>genberg</placeName>,
-                        <placeName ref="https://www.geonames.org/1510853">Barnaul</placeName> et Sirianofski, pour jouir
-                    <lb/>de l’aspect majestueux de quelques <lb/>sommets neigés de l’<placeName ref="https://www.geonames.org/1516401">Altaï</placeName>, pour visiter <lb/>le Vorpost chinois de la
-                        <placeName ref="https://edition-humboldt.de/v8/H0005570">Songarie</placeName> chinoise <lb/>à <placeName ref="https://www.geonames.org/1517617">Bati</placeName>, pour descendre la ligne de
-                        <lb/>l’<placeName ref="https://www.geonames.org/1524297">Irtisch</placeName> depuis <placeName ref="https://www.geonames.org/1497998">Narim</placeName>, <placeName ref="https://www.geonames.org/1520316">Ust Kameno-<lb/>gorsk</placeName> jusqu’à <placeName ref="https://www.geonames.org/1496153">Omsk</placeName> et <placeName ref="https://www.geonames.org/1489246">Troitzk</placeName>. À <lb/>
-                    <placeName ref="https://www.geonames.org/1519422">Semipalatinsk</placeName> j’ai enfin trouvé des <lb/>hommes de <placeName ref="https://www.geonames.org/1512569">Taschkend</placeName> qui ont été par <lb/>
-                    <placeName ref="https://www.geonames.org/1280849">Kashgar</placeName> et <placeName ref="https://www.geonames.org">Kotan</placeName> indubitablement <lb/>à <placeName ref="https://www.geonames.org/1440268">Kaschmyr</placeName>. Ce voyage de la <placeName ref="https://edition-humboldt.de/v8/H0005570">Songarie</placeName> et <lb/>de l’<placeName ref="https://www.geonames.org/1516401">Altai</placeName> assez fatigant sans doute et <lb/>accompagné pendant
-                        <unclear reason="illegible" cert="low">un</unclear> mois 1) d’un <ref xml:id="fc8fcce5-7260-4006-8fcc-e57260a00619" corresp="#f00a88d0-8915-44e0-8a88-d0891564e0ce">Aide de <lb/>Camp du <choice>
+                    <lb/>pour voir les mines de <placeName ref="https://editon-humboldt.de/H0000450 https://www.geonames.org/1502823">Koliwan</placeName>, le
+                        <placeName ref="https://editon-humboldt.de/H0017758 https://www.geonames.org/12196317">Schlan<lb break="no"/>genberg</placeName>,
+                        <placeName ref="https://editon-humboldt.de/H0005133 https://www.geonames.org/1510853">Barnaul</placeName> et Sirianofski, pour jouir
+                    <lb/>de l’aspect majestueux de quelques <lb/>sommets neigés de l’<placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altaï</placeName>, pour visiter <lb/>le Vorpost chinois de la
+                        <placeName ref="https://editon-humboldt.de/H0005570">Songarie</placeName> chinoise <lb/>à <placeName ref="https://editon-humboldt.de/H0005171 https://www.geonames.org/1517617">Bati</placeName>, pour descendre la ligne de
+                        <lb/>l’<placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtisch</placeName> depuis <placeName ref="https://editon-humboldt.de/H0019107 https://www.geonames.org/1497998">Narim</placeName>, <placeName ref="https://editon-humboldt.de/H0009692 https://www.geonames.org/1520316">Ust Kameno<g ref="#typoHyphen"/>
+                        <lb break="no"/>gorsk</placeName> jusqu’à <placeName ref="https://editon-humboldt.de/H0007824 https://www.geonames.org/1496153">Omsk</placeName> et <placeName ref="https://editon-humboldt.de/H0009527 https://www.geonames.org/1489246">Troitzk</placeName>. À <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0010196 https://www.geonames.org/1519422">Semipalatinsk</placeName> j’ai enfin trouvé des <lb/>hommes de <placeName ref="https://editon-humboldt.de/H0009267 https://www.geonames.org/1512569">Taschkend</placeName> qui ont été par <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0000377 https://www.geonames.org/1280849">Kashgar</placeName> et <placeName ref="https://editon-humboldt.de/H0006899 https://www.geonames.org">Kotan</placeName> indubitablement <lb/>à <placeName ref="https://editon-humboldt.de/H0000378 https://www.geonames.org/1440268">Kaschmyr</placeName>. Ce voyage de la <placeName ref="https://editon-humboldt.de/H0005570">Songarie</placeName> et <lb/>de l’<placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altai</placeName> assez fatigant sans doute et <lb/>accompagné pendant
+                        <unclear reason="illegible" cert="low">un</unclear> mois 1) d’un <ref xml:id="fe1fe190-b300-4ab5-9fe1-90b3001ab5c7" corresp="#d1a36099-9992-41bd-a360-999992a1bdc1">Aide de <lb/>Camp du <choice>
                                 <abbr>Gén</abbr>
                                 <expan>Général</expan>
                             </choice>
-                            <persName ref="https://edition-humboldt.de/v8/H0002807">Veliaminof</persName>
+                            <persName ref="https://editon-humboldt.de/H0002807">Veliaminof</persName>
                     </ref>
-                    <note xml:id="f00a88d0-8915-44e0-8a88-d0891564e0ce" corresp="#fc8fcce5-7260-4006-8fcc-e57260a00619">Der russische Offizier und Zivilbeamte <persName ref="http://viaf.org/viaf/13977521">Dmitrij Nikolaevič Ermolov</persName>, Adjutant des
-                            Generalgouverneurs von Westsibirien <persName ref="https://edition-humboldt.de/v8/H0002807">Ivan
+                    <note xml:id="d1a36099-9992-41bd-a360-999992a1bdc1" corresp="#fe1fe190-b300-4ab5-9fe1-90b3001ab5c7">Der russische Offizier und Zivilbeamte <persName ref="https://editon-humboldt.de/H0005977 http://viaf.org/viaf/13977521">Dmitrij Nikolaevič Ermolov</persName>, Adjutant des
+                            Generalgouverneurs von Westsibirien <persName ref="https://editon-humboldt.de/H0002807">Ivan
                                 Aleksandrovič Vel'jaminov</persName>, hatte Humboldt vom <date when="1829-07-24" calendar="#gregorian">24. Juli</date> bis zum
                                 <date when="1829-08-31" calendar="#gregorian">31. August
-                            1829</date>, von <placeName ref="https://www.geonames.org/1489530">Tobolsk</placeName> bis nach
-                                <placeName ref="https://www.geonames.org/1484943">Zverinogolovskoe</placeName> an der Grenze
-                            zum Gouvernement <placeName ref="https://www.geonames.org/1496153">Omsk</placeName>,
-                            begleitet.</note>, 2) du <ref xml:id="b02074d2-0c69-4bf8-a074-d20c696bf81e" corresp="#a7c414bb-16c9-4cbd-8414-bb16c9ccbd55">Général <persName ref="http://viaf.org/viaf/16424875">Litvinof</persName>
+                            1829</date>, von <placeName ref="https://editon-humboldt.de/H0009435 https://www.geonames.org/1489530">Tobolsk</placeName> bis nach
+                                <placeName ref="https://editon-humboldt.de/H0015037 https://www.geonames.org/1484943">Zverinogolovskoe</placeName> an der Grenze
+                            zum Gouvernement <placeName ref="https://editon-humboldt.de/H0007824 https://www.geonames.org/1496153">Omsk</placeName>,
+                            begleitet.</note>, 2) du <ref xml:id="ef625985-12b6-47bd-a259-8512b6e7bdbf" corresp="#d80a4689-5dbe-40f6-8a46-895dbe70f68e">Général <persName ref="https://editon-humboldt.de/H0004567 http://viaf.org/viaf/16424875">Litvinof</persName>
                     </ref>
-                    <note xml:id="a7c414bb-16c9-4cbd-8414-bb16c9ccbd55" corresp="#b02074d2-0c69-4bf8-a074-d20c696bf81e">
-                        <persName ref="http://viaf.org/viaf/16424875">Aleksandr Narkizovič
-                                Litvinov</persName>, Kommandeur der Grenzttruppen an der <placeName ref="https://www.geonames.org/1524297">Irtyš</placeName>-Linie, hatte Humboldt auf Befehl
-                            des Generalgouverneurs <persName ref="https://edition-humboldt.de/v8/H0002807">Vel'jaminov</persName>
+                    <note xml:id="d80a4689-5dbe-40f6-8a46-895dbe70f68e" corresp="#ef625985-12b6-47bd-a259-8512b6e7bdbf">
+                        <persName ref="https://editon-humboldt.de/H0004567 http://viaf.org/viaf/16424875">Aleksandr Narkizovič
+                                Litvinov</persName>, Kommandeur der Grenzttruppen an der <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtyš</placeName>-Linie, hatte Humboldt auf Befehl
+                            des Generalgouverneurs <persName ref="https://editon-humboldt.de/H0002807">Vel'jaminov</persName>
                             zwischen dem <date calendar="#gregorian" when="1829-08-04">4.</date> und
                             dem <date when="1829-08-28" calendar="#gregorian">28. August</date> von
-                                <placeName ref="https://www.geonames.org/1510853">Barnaul</placeName> bis nach <placeName ref="https://www.geonames.org/1496153">Omsk</placeName> begleitet.</note>
+                                <placeName ref="https://editon-humboldt.de/H0005133 https://www.geonames.org/1510853">Barnaul</placeName> bis nach <placeName ref="https://editon-humboldt.de/H0007824 https://www.geonames.org/1496153">Omsk</placeName> begleitet.</note>
                     <lb/>
-                    <ref xml:id="ba5d390b-ee94-4f03-9d39-0bee945f031c" corresp="#b39bcc87-242d-4851-9bcc-87242dc85166">de <placeName ref="https://www.geonames.org/1489425">Tomsk</placeName>
+                    <ref xml:id="ef427f79-ba80-456a-827f-79ba80556a7b" corresp="#eed7f44c-07e6-4e8e-97f4-4c07e6de8e9e">de <placeName ref="https://editon-humboldt.de/H0009468 https://www.geonames.org/1489425">Tomsk</placeName>
                     </ref>
-                    <note xml:id="b39bcc87-242d-4851-9bcc-87242dc85166" corresp="#ba5d390b-ee94-4f03-9d39-0bee945f031c">
-                        <persName ref="http://viaf.org/viaf/16424875">Litvinov</persName> war
-                            in <placeName ref="https://www.geonames.org/1489425">Tomsk</placeName> stationiert.</note> 3) de <ref xml:id="da3ed25f-ea3f-4fbd-bed2-5fea3fbfbd7b" corresp="#d91a7ef5-66bd-4ddd-9a7e-f566bd6ddd48">force<supplied cert="high">s</supplied> d’officiers de Cosaques
-                            <lb/>de l’<placeName ref="https://www.geonames.org/1524297">Irtisch</placeName>
+                    <note xml:id="eed7f44c-07e6-4e8e-97f4-4c07e6de8e9e" corresp="#ef427f79-ba80-456a-827f-79ba80556a7b">
+                        <persName ref="https://editon-humboldt.de/H0004567 http://viaf.org/viaf/16424875">Litvinov</persName> war
+                            in <placeName ref="https://editon-humboldt.de/H0009468 https://www.geonames.org/1489425">Tomsk</placeName> stationiert.</note> 3) de <ref xml:id="c48a34d2-de96-422d-8a34-d2de96122dad" corresp="#a82d6096-a5e0-4a70-ad60-96a5e02a7097">force<supplied cert="high">s</supplied> d’officiers de Cosaques
+                            <lb/>de l’<placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtisch</placeName>
                     </ref>
-                    <note xml:id="d91a7ef5-66bd-4ddd-9a7e-f566bd6ddd48" corresp="#da3ed25f-ea3f-4fbd-bed2-5fea3fbfbd7b">Auf Befehl des Generalgouverneurs <persName ref="https://edition-humboldt.de/v8/H0002807">Vel'jaminov</persName> wurde Humboldts
-                            Reisegesellschaft entlang der <placeName ref="https://www.geonames.org/1524297">Irtyš</placeName>-Linie von <placeName ref="https://www.geonames.org/1489530">Tobolsk</placeName> an stets <quote>von einer ganzen Abtheilung
+                    <note xml:id="a82d6096-a5e0-4a70-ad60-96a5e02a7097" corresp="#c48a34d2-de96-422d-8a34-d2de96122dad">Auf Befehl des Generalgouverneurs <persName ref="https://editon-humboldt.de/H0002807">Vel'jaminov</persName> wurde Humboldts
+                            Reisegesellschaft entlang der <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtyš</placeName>-Linie von <placeName ref="https://editon-humboldt.de/H0009435 https://www.geonames.org/1489530">Tobolsk</placeName> an stets <quote>von einer ganzen Abtheilung
                                 Kosaken begleitet, die theils unserm Wagenzuge vorausritt, theils
-                                ihm nachfolgt</quote> (<bibl corresp="https://edition-humboldt.de/v8/BH8W3QPH">Rose
+                                ihm nachfolgt</quote> (<bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose
                                 1837/1842</bibl>, II, <ref target="http://www.deutschestextarchiv.de/rose_ural02_1842/22">4</ref>).</note> et de piquets de 12 Cosaques… <lb/>
                     <pb n="4v"/> a été des plus
                         intéressant<supplied cert="high">s</supplied> et des plus <lb/>fructueux: il
@@ -299,7 +324,7 @@
                             <lb/>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="https://edition-humboldt.de/v8/H0015596">
+                    <persName ref="https://editon-humboldt.de/H0015596">
                         <choice>
                             <abbr>S.</abbr>
                             <expan>Schmidt</expan>
@@ -309,18 +334,18 @@
                     surtout marcher <lb/>et ne pas tâtonner. <subst>
                         <del rendition="#s">d’abord</del>
                         <add place="intralinear">Daignez</add>
-                    </subst>, <lb/>cher et excellent ami, faire agréer l’<lb/>expression
-                    de mon dévouement et de <lb/>mon respect à l’aimable <persName ref="https://edition-humboldt.de/v8/H0002057">Comtesse Polier</persName>
+                    </subst>, <lb/>cher et excellent ami, faire agréer l’<lb break="no"/>expression
+                    de mon dévouement et de <lb/>mon respect à l’aimable <persName ref="https://editon-humboldt.de/H0002057">Comtesse Polier</persName>
                     <lb/>et pour me rendre heureux écrivez<supplied cert="high">-</supplied>moi
-                    <lb/>quelques lignes à <ref xml:id="e099e852-bda7-466b-99e8-52bda7166b0c" corresp="#a134f592-8f6c-4b42-b4f5-928f6ceb4258">
-                        <placeName ref="https://www.geonames.org/524901">Moscou</placeName> où nous se<lb/>rons le <date when="1829-09-27" calendar="#gregorian">27 <choice>
+                    <lb/>quelques lignes à <ref xml:id="dc50050c-7240-4afc-9005-0c72407afc95" corresp="#bb8a48ba-b5de-4749-8a48-bab5de57491b">
+                        <placeName ref="https://editon-humboldt.de/H0009006 https://www.geonames.org/524901">Moscou</placeName> où nous se<lb break="no"/>rons le <date when="1829-09-27" calendar="#gregorian">27 <choice>
                                     <abbr>Sept</abbr>
                                     <expan>Septembre</expan>
                                 </choice>
                         </date> (?)</ref>
-                    <note xml:id="a134f592-8f6c-4b42-b4f5-928f6ceb4258" corresp="#e099e852-bda7-466b-99e8-52bda7166b0c">Humboldt traf erst am <date when="1829-11-03" calendar="#gregorian">3. November 1829</date> in <placeName ref="https://www.geonames.org/524901">Moskau</placeName> ein, wo er sich bis zum Morgen des
-                            9. November aufhielt. Am 27. September erreichte er von <placeName ref="https://www.geonames.org/515003">Orenburg</placeName> kommend <placeName ref="https://www.geonames.org/608668">Ural'sk</placeName>.</note> Mille tendres <lb/>amitiés. N’oubliez pas le <hi rendition="#u">
-                        <persName ref="http://d-nb.info/137520409">Docteur</persName>
+                    <note xml:id="bb8a48ba-b5de-4749-8a48-bab5de57491b" corresp="#dc50050c-7240-4afc-9005-0c72407afc95">Humboldt traf erst am <date when="1829-11-03" calendar="#gregorian">3. November 1829</date> in <placeName ref="https://editon-humboldt.de/H0009006 https://www.geonames.org/524901">Moskau</placeName> ein, wo er sich bis zum Morgen des
+                            9. November aufhielt. Am 27. September erreichte er von <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburg</placeName> kommend <placeName ref="https://editon-humboldt.de/H0009661 https://www.geonames.org/608668">Ural'sk</placeName>.</note> Mille tendres <lb/>amitiés. N’oubliez pas le <hi rendition="#u">
+                        <persName ref="https://editon-humboldt.de/H0018332 http://d-nb.info/137520409">Docteur</persName>
                     </hi>
                     <lb/>qui est d’un commerce si doux.</p>
                 <signed>Al Humboldt</signed>
@@ -332,10 +357,10 @@
                             <abbr>Mr</abbr>
                             <expan>Monsieur</expan>
                         </choice> de <lb/>
-                        <persName ref="http://d-nb.info/gnd/1053507836">Spreranski</persName> qui m’a
+                        <persName ref="https://editon-humboldt.de/H0015996 http://d-nb.info/gnd/1053507836">Spreranski</persName> qui m’a
                         honoré <lb/>de tant de bienveillance<supplied cert="high">.</supplied>
                         <lb/>Hélas! je ne suis avancé en <lb/>rien dans la langue russe, <lb/>le
-                        précepteur ne m’encourage <lb/>guère. <persName ref="http://d-nb.info/gnd/116609036">Rose</persName> et <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName> (le
+                        précepteur ne m’encourage <lb/>guère. <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName> et <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName> (le
                         premier <lb/>souf<supplied cert="high">f</supplied>le le chalumeau, le
                         second fait <lb/>des contes d’Arabie) Vous présentent <lb/>leur
                             respects<supplied cert="high">.</supplied> Dites au bon <choice>
@@ -351,10 +376,10 @@
                                 <del rendition="#s">t</del>
                                 <add place="intralinear">ami</add>
                             </subst> intime <lb/>Mr Wlase<supplied cert="high">,</supplied> notre
-                            <lb/>providence nourri<lb/>cière. Je suis assez <lb/>aisé
+                            <lb/>providence nourri<lb break="no"/>cière. Je suis assez <lb/>aisé
                             d’avoir quitté <lb/>cette partie de la <lb/>Sibérie qui est l’
                                 <lb/>
-                            <placeName ref="https://www.geonames.org/3631298">Orénoque</placeName> moins les
+                            <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orénoque</placeName> moins les
                                 <lb/>
                             <name type="plant">palmiers</name> et plus <lb/>les épaulettes
                             et les <lb/>décorations<supplied cert="high">.</supplied>

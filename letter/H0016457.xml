@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016457">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,31 +33,50 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>[Robert Schlagintweit] an Alexander von Humboldt. London, 19. Mai 1858
+                    (Fragment), hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016457">https://edition-humboldt.de/v8/H0016457</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016457</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016457</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016457.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>[Robert Schlagintweit] an Alexander von Humboldt. London, 19. Mai 1858
-                    (Fragment). In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016457</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Deutsches Literaturarchiv Marbach</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <idno>
+                            <idno type="shelfmark">A:Humboldt 62.2277</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
+                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
                         (1833-1885)</persName>
-                    <placeName ref="https://www.geonames.org/2643743">London [Londres]</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London [Londres]</placeName>
                     <date when="1858-05-19" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -84,29 +103,31 @@
                         <expan>numero</expan>
                     </choice> 117</note>
                 <salute>Hochverehrteste Excellenz,</salute>
-                <p>Obwohl unsere Arrangements <lb/>mit dem <orgName ref="https://edition-humboldt.de/v8/H0016794">India
+                <p>Obwohl unsere Arrangements <lb/>mit dem <orgName ref="https://editon-humboldt.de/H0016794">India
                         House</orgName> noch <lb/>nicht so weit vorgeschritten <lb/>sind, daß wir
                     schon jetzt <lb/>Bestim̅tes berichten könnten, <lb/>erlauben wir uns doch, Ihnen
                     <lb/>einige Mittheilungen zu <lb/>machen, da wir wie stets auf <lb/>Ihre gütige
                     Theilnahme <lb/>rechnen. </p>
                 <p>
-                    <pb n="64v"/>Wir sind erst seit 14 <lb/>Tagen in <placeName ref="https://www.geonames.org/2643743">London</placeName>, da wir in <lb/>
-                    <placeName ref="https://www.geonames.org/2800866">Brüssel</placeName> in Folge der huldvollen <lb/>Aufnahme des <persName ref="http://d-nb.info/gnd/118571842">Königs</persName> uns <lb/>mehrere Tage aufhielten.</p>
+                    <pb n="64v"/>Wir sind erst seit 14 <lb/>Tagen in <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>, da wir in <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0005371 https://www.geonames.org/2800866">Brüssel</placeName> in Folge der huldvollen <lb/>Aufnahme des <persName ref="https://editon-humboldt.de/H0003220 http://d-nb.info/gnd/118571842">Königs</persName> uns <lb/>mehrere Tage aufhielten.</p>
                 <p>Wir haben <choice>
                         <abbr>Col.</abbr>
                         <expan>Colonel</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/117679364">Sykes</persName> und <lb/>General <persName ref="http://d-nb.info/gnd/11671350X">Sabine</persName> öfters gesehen; <lb/>allein der Sturz des
-                    President <lb/>of the <orgName ref="https://edition-humboldt.de/v8/H0016788">Board of Control</orgName> (Lord
+                    <persName ref="https://editon-humboldt.de/H0016872 http://d-nb.info/gnd/117679364">Sykes</persName> und <lb/>General <persName ref="https://editon-humboldt.de/H0015345 http://d-nb.info/gnd/11671350X">Sabine</persName> öfters gesehen; <lb/>allein der Sturz des
+                    President <lb/>of the <orgName ref="https://editon-humboldt.de/H0016788">Board of Control</orgName> (Lord
                         <lb/>
-                    <persName ref="https://edition-humboldt.de/v8/H0016964">Ellenborough</persName>,) sowie die <ref xml:id="bd18a294-1f62-4ff9-98a2-941f621ff9cd" corresp="#e2fb15db-3d08-453d-bb15-db3d08c53dca">poli-<lb/>tische Unsicherheit,
-                            besonders <lb/>in Beziehung auf <placeName ref="https://www.geonames.org/1269750">Indien</placeName>
+                    <persName ref="https://editon-humboldt.de/H0016964">Ellenborough</persName>,) sowie die <ref xml:id="bd6cb955-2f27-42a5-acb9-552f2702a5c8" corresp="#e6f4261e-2484-4826-b426-1e2484582675">poli<g ref="#typoHyphen"/>
+                        <lb break="no"/>tische Unsicherheit,
+                            besonders <lb/>in Beziehung auf <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>
                     </ref>
-                    <note xml:id="e2fb15db-3d08-453d-bb15-db3d08c53dca" corresp="#bd18a294-1f62-4ff9-98a2-941f621ff9cd">In dem sogenannten Sapoy-Aufstand
-                            begehrten indische Militärs gegen die Herrschaft der <orgName ref="https://edition-humboldt.de/v8/H0016794">East India Company</orgName> und der Britischen Krone
+                    <note xml:id="e6f4261e-2484-4826-b426-1e2484582675" corresp="#bd6cb955-2f27-42a5-acb9-552f2702a5c8" resp="#LM">In dem sogenannten Sapoy-Aufstand
+                            begehrten indische Militärs gegen die Herrschaft der <orgName ref="https://editon-humboldt.de/H0016794">East India Company</orgName> und der Britischen Krone
                             auf.</note>, <lb/>haben unsere Arrangements <lb/>etwas verzögert.</p>
-                <p>Wir benützen diese Gele-<lb/>genheit, Ihnen
-                    mitzutheilen, <lb/>daß wir kürzlich von <persName ref="http://d-nb.info/gnd/116476508">Professor
+                <p>Wir benützen diese Gele<g ref="#typoHyphen"/>
+                    <lb break="no"/>genheit, Ihnen
+                    mitzutheilen, <lb/>daß wir kürzlich von <persName ref="https://editon-humboldt.de/H0011665 http://d-nb.info/gnd/116476508">Professor
                         <lb/>Harless</persName>, dem Ihnen rühmlichst<lb/>
                     <note place="mBottom" hand="#addressee" type="auxCalc"> 10
                             <unclear reason="illegible" cert="high">24</unclear>

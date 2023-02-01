@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002439">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Lake Amuku</title>
             </titleStmt>
+            <editionStmt>
+                <p>Lake Amuku [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0002439.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,34 +20,35 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002439.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0002439.xml">
-                    <p>Lake Amuku [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0002439.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0002439">
-                    <idno type="uri">https://www.geonames.org/3379844</idno>
-                    <placeName type="reg">Lake Amuku</placeName>
-                    <placeName type="alt">See Amucu</placeName>
-                    <placeName type="alt"><?oxy_comment_start author="goetz" timestamp="20220124T115030+0100" comment="vgl. ART VII bb+c, 215v"?>Lac
-                        Parime<?oxy_comment_end?>
-                    </placeName>
-                    <placeName type="alt">Laguna Parime</placeName>
-                    <placeName type="alt">Lago Parima</placeName>
-                    <note>durch jährliche Überschwemmungen gebildeter See in der Rupununi-Region Guyanas</note>
-                    <linkGrp>
-                        <ptr target="32#26" type="letter"/>
-                        <ptr target="32#36" type="letter"/>
-                    </linkGrp>
-                </place>
+                <place>
+            <idno type="uri">https://www.geonames.org/3379844</idno>
+            <placeName type="reg">Lake Amuku</placeName>
+            <placeName type="alt">See Amucu</placeName>
+            <placeName type="alt">Lac
+                Parime</placeName>
+            <placeName type="alt">Laguna Parime</placeName>
+            <placeName type="alt">Lago Parima</placeName>
+            <note>durch jährliche Überschwemmungen gebildeter See in der Rupununi-Region
+                Guyanas</note>
+            <linkGrp>
+                <ptr target="32#26" type="letter"/>
+                <ptr target="32#36" type="letter"/>
+            </linkGrp>
+        </place>
             </listPlace>
         </body>
     </text>

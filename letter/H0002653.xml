@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002653">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,35 +29,55 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch
+                    [1834], hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002653">https://edition-humboldt.de/v8/H0002653</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002653</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002653</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002653.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Mittwoch
-                    [1834]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002653</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 825 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 23,00 cm , B: 14,00 cm; Wasserzeichen: J. Whatman, Turkey Mill
+                            1833</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1834-01-01" notAfter="1834-12-31" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -71,30 +91,30 @@
                 </opener>
                 <p>
                     <pb n="1r"/>Empfangen Sie, theurester Herr Doctor, <lb/>meinen wärmsten Dank für
-                    Ihre <ref xml:id="bfe22541-0b42-4b08-a225-410b424b08f9" corresp="#c891828b-709f-4111-9182-8b709ff11133">
-                        <bibl corresp="https://edition-humboldt.de/v8/A2AU67FU">Saftbewe<lb/>gung</bibl>
+                    Ihre <ref xml:id="dbe118fb-02a7-495e-a118-fb02a7c95ecb" corresp="#ef6ceebb-8550-4661-acee-bb85504661f7">
+                        <bibl corresp="https://edition-humboldt.de/A2AU67FU">Saftbewe<lb break="no"/>gung</bibl>
                     </ref>
-                    <note xml:id="c891828b-709f-4111-9182-8b709ff11133" corresp="#bfe22541-0b42-4b08-a225-410b424b08f9">Vgl. <bibl corresp="https://edition-humboldt.de/v8/A2AU67FU">Meyen
+                    <note xml:id="ef6ceebb-8550-4661-acee-bb85504661f7" corresp="#dbe118fb-02a7-495e-a118-fb02a7c95ecb">Vgl. <bibl corresp="https://edition-humboldt.de/A2AU67FU">Meyen
                                 1834</bibl>. Das achtseitige Werk, erschienen 1834, war in Humboldts
-                            Bibliothek vorhanden. Vgl. <bibl corresp="https://edition-humboldt.de/v8/8ZURHD9U">Stevens
+                            Bibliothek vorhanden. Vgl. <bibl corresp="https://edition-humboldt.de/8ZURHD9U">Stevens
                                 1967</bibl>, Nr. 6607.</note>, den besonderen Abdruk der Carte <lb/>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> den Genuss<supplied cert="high">,</supplied> den mir (und Herrn <lb/>
-                    <persName ref="http://d-nb.info/gnd/116817569">
+                    <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">
                         <choice>
                             <abbr>v</abbr>
                             <expan>von</expan>
                         </choice> Buch</persName>: er fordert mich auf es <lb/>Ihnen zu sagen) die
                     Lesung Ihrer <lb/>gehaltvollen Reise verschaft hat<supplied cert="high">.</supplied>
                     <lb/>Ich würde allerdings mit Ihnen über <lb/>die kalte Ströhmung an der
-                        perua<lb/>nischen Küste hadern. Es giebt eine <lb/>Masse von
+                        perua<lb break="no"/>nischen Küste hadern. Es giebt eine <lb/>Masse von
                     Menschen denen mein <lb/>Name unbequem ist, daher ich jede <lb/>Verherrlichung
                     fürchten muss. Das <lb/>Geschehene ist aber zu tragen <lb/>wenn es geschehen
                     ist: nur dann<supplied cert="high">.</supplied>
-                    <lb/>Ist das Wort noch nicht <ref xml:id="a1aab0af-4de6-409b-aab0-af4de6109ba7" corresp="#aa969e64-286f-416f-969e-64286f916f25">auf dem <lb/>Stein</ref>
-                    <note xml:id="aa969e64-286f-416f-969e-64286f916f25" corresp="#a1aab0af-4de6-409b-aab0-af4de6109ba7">Gemeint ist wahrscheinlich eine lithographische
+                    <lb/>Ist das Wort noch nicht <ref xml:id="fc060bed-b61a-4aac-860b-edb61a5aacde" corresp="#c34fe438-93ac-4573-8fe4-3893aca5734f">auf dem <lb/>Stein</ref>
+                    <note xml:id="c34fe438-93ac-4573-8fe4-3893aca5734f" corresp="#fc060bed-b61a-4aac-860b-edb61a5aacde">Gemeint ist wahrscheinlich eine lithographische
                             Reproduktion der hier erwähnten Karte. Meyen kam Humboldts Bitte etwas
                             halbherzig nach. Im zweiten Band seiner <hi rendition="#i">Reise um die Welt</hi> kam er auf
                             die Beobachtung der plötzlichen Temperaturabnahme des kalten Wassers im
@@ -102,14 +122,14 @@
                                 Beobachtung, welche unsere, im Jahre 1831 daselbst angestellten
                                 Messungen ganz genau bestätigen…</quote>. <quote>Diese Erscheinung
                                 hat gegenwärtig, durch die hydrographischen Arbeiten des Admiral
-                                    <persName ref="http://d-nb.info/gnd/116252308">Duperrey</persName>, ihre Erklärung
+                                    <persName ref="https://editon-humboldt.de/H0012441 http://d-nb.info/gnd/116252308">Duperrey</persName>, ihre Erklärung
                                 gefunden; auf Veranlassung des Herrn Alexander v. Humboldt hat
                                 dieser ausgezeichnete Seefahrer seine besondere Aufmerksamkeit den
                                 Strömungen an der Westküste von Süd-Amerika gewidmet, und diese
                                 Bemühungen haben ein ausserordentliches Resultat
                                 herbeigeführt.</quote> Allerdings war auf anderen Seiten immer
                             wieder von der kalten Strömung die Rede, die Humboldt entdeckt haben
-                            soll. Vgl. <bibl corresp="https://edition-humboldt.de/v8/7BETSW9C">Meyen 1834–1835</bibl>,
+                            soll. Vgl. <bibl corresp="https://edition-humboldt.de/7BETSW9C">Meyen 1834–1835</bibl>,
                             II, 51–52.</note> so lassen Sie es ja weg<supplied cert="high">.</supplied>
                     <lb/>Ich habe allerdings zuerst jene <lb/>kalte Ströhmung<note hand="#author" place="left">
                         <metamark/> Sie schreiben mein Theurer vom <lb/>kalten Strohme
@@ -130,26 +150,26 @@
                             <abbr>W</abbr>
                             <expan>West</expan>
                         </choice>) von <lb/>
-                        <placeName ref="https://www.geonames.org/3693279">Payta</placeName> gegen
-                            <placeName ref="https://www.geonames.org/3693861">Cabo Pariña</placeName>
-                        <lb/>ab. Ich erinnere bei dieser Gele<lb/>genheit dass in <choice>
+                        <placeName ref="https://editon-humboldt.de/H0008020 https://www.geonames.org/3693279">Payta</placeName> gegen
+                            <placeName ref="https://editon-humboldt.de/H0008128 https://www.geonames.org/3693861">Cabo Pariña</placeName>
+                        <lb/>ab. Ich erinnere bei dieser Gele<lb break="no"/>genheit dass in <choice>
                             <abbr>engl.</abbr>
                             <expan>englischen</expan>
                         </choice> Büchern <lb/>
-                        <ref xml:id="d9aa0c84-5116-4eda-aa0c-845116cedaac" corresp="#d7a419a5-fa60-49ae-a419-a5fa6099ae43">
-                                <persName ref="http://d-nb.info/gnd/118788353">Renell</persName>
+                        <ref xml:id="a303e6cc-1619-495d-83e6-cc1619095d2b" corresp="#d05df13a-17db-4712-9df1-3a17db571288">
+                                <persName ref="https://editon-humboldt.de/H0000833 http://d-nb.info/gnd/118788353">Renell</persName>
                         </ref>
-                        <note xml:id="d7a419a5-fa60-49ae-a419-a5fa6099ae43" corresp="#d9aa0c84-5116-4eda-aa0c-845116cedaac">Vgl. <bibl corresp="https://edition-humboldt.de/v8/7M9DFX63">Rennell 1832</bibl>. Dieses Buch befand sich unter Nummer 8466
-                                (vgl. <bibl corresp="https://edition-humboldt.de/v8/8ZURHD9U">Stevens 1967</bibl>) in
-                                Humboldts Bibliothek.</note>, <persName ref="http://d-nb.info/gnd/100648282">Tuckey</persName> ein östlicher <lb/>Strohm
+                        <note xml:id="d05df13a-17db-4712-9df1-3a17db571288" corresp="#a303e6cc-1619-495d-83e6-cc1619095d2b">Vgl. <bibl corresp="https://edition-humboldt.de/7M9DFX63">Rennell 1832</bibl>. Dieses Buch befand sich unter Nummer 8466
+                                (vgl. <bibl corresp="https://edition-humboldt.de/8ZURHD9U">Stevens 1967</bibl>) in
+                                Humboldts Bibliothek.</note>, <persName ref="https://editon-humboldt.de/H0004078 http://d-nb.info/gnd/100648282">Tuckey</persName> ein östlicher <lb/>Strohm
                         bei Wind heiss von <choice>
                             <abbr>O</abbr>
                             <expan>Ost</expan>
                         </choice> gegen <lb/>West, bei Luft aber von <choice>
                             <abbr>W.</abbr>
                             <expan>Westen</expan>
-                        </choice> gegen <lb/>Osten <ref xml:id="a48edc02-09de-42f5-8edc-0209de22f57d" corresp="#f52a9efe-915a-400e-aa9e-fe915a800e4d">
-                            <bibl corresp="https://edition-humboldt.de/v8/6XRD63KI">Tuckey <choice>
+                        </choice> gegen <lb/>Osten <ref xml:id="ca73e7bb-0cab-49ee-b3e7-bb0cab39eeb4" corresp="#f60b5737-7c4d-4745-8b57-377c4d6745c8">
+                            <bibl corresp="https://edition-humboldt.de/6XRD63KI">Tuckey <choice>
                                     <abbr>marit</abbr>
                                     <expan>maritime</expan>
                                 </choice>
@@ -165,13 +185,13 @@
                                     <expan>page</expan>
                                 </choice> 43</bibl>
                         </ref>
-                        <note xml:id="f52a9efe-915a-400e-aa9e-fe915a800e4d" corresp="#a48edc02-09de-42f5-8edc-0209de22f57d">Vgl. <bibl corresp="https://edition-humboldt.de/v8/6XRD63KI">Tuckey 1815.</bibl> Mit Notizen Humboldts. Vgl. <bibl corresp="https://edition-humboldt.de/v8/8ZURHD9U">Stevens 1967</bibl>, Nr. 10292,
+                        <note xml:id="f60b5737-7c4d-4745-8b57-377c4d6745c8" corresp="#ca73e7bb-0cab-49ee-b3e7-bb0cab39eeb4">Vgl. <bibl corresp="https://edition-humboldt.de/6XRD63KI">Tuckey 1815.</bibl> Mit Notizen Humboldts. Vgl. <bibl corresp="https://edition-humboldt.de/8ZURHD9U">Stevens 1967</bibl>, Nr. 10292,
                                 730.</note>
                         <supplied cert="high">.</supplied>
                         <lb/>Der aequinoctial Meeresstrohm heisst <lb/>ein <hi rendition="#u">westlicher</hi> auf englisch was <lb/>man den Worten nach nicht
                         <lb/>errathen kann.</note> beobachtet und <lb/>
-                    <persName ref="http://d-nb.info/gnd/118788353">Rennels</persName> Courant ist ein Beispiel <lb/>aber
-                    ich tadle alle diese bizarr <lb/>klingenden Nomina propria, eigent<lb/>lich schiffende Nazionen, <choice>
+                    <persName ref="https://editon-humboldt.de/H0000833 http://d-nb.info/gnd/118788353">Rennels</persName> Courant ist ein Beispiel <lb/>aber
+                    ich tadle alle diese bizarr <lb/>klingenden Nomina propria, eigent<lb break="no"/>lich schiffende Nazionen, <choice>
                         <abbr>Engl.</abbr>
                         <expan>Engländer</expan>
                     </choice>
@@ -199,16 +219,16 @@
                         <expan>Strohm</expan>
                     </choice> von
                     Williams,
-                        <persName ref="http://d-nb.info/gnd/118692844">Franklin</persName>
+                        <persName ref="https://editon-humboldt.de/H0000226 http://d-nb.info/gnd/118692844">Franklin</persName>
                     <choice>
                         <abbr>od</abbr>
                         <expan>oder</expan>
                     </choice>
                     <lb/>
                     <pb n="1v"/>
-                    <persName ref="http://d-nb.info/gnd/1096250721">Blagden</persName> sagen. Auf Karten <lb/>löschen Sie
+                    <persName ref="https://editon-humboldt.de/H0003378 http://d-nb.info/gnd/1096250721">Blagden</persName> sagen. Auf Karten <lb/>löschen Sie
                     ja solche <lb/>Namen aus. Hier das <lb/>
-                    <ref xml:id="a7e4174a-9374-499d-a417-4a9374e99d98" corresp="#d2a0ee22-a035-434b-a0ee-22a035d34be7">
+                    <ref xml:id="bfe31bdb-4aac-4886-a31b-db4aac68868c" corresp="#fb6efb50-be2a-4aa1-aefb-50be2adaa1c1">
                             <choice>
                                 <abbr>Therm.</abbr>
                                 <expan>Thermometer</expan>
@@ -216,19 +236,20 @@
                                 <abbr>Psychr.</abbr>
                                 <expan>Psychrometer</expan>
                             </choice> Blatt</ref>
-                    <note xml:id="d2a0ee22-a035-434b-a0ee-22a035d34be7" corresp="#a7e4174a-9374-499d-a417-4a9374e99d98">Die Methode, mittels des Unterschiedes des
+                    <note xml:id="fb6efb50-be2a-4aa1-aefb-50be2adaa1c1" corresp="#bfe31bdb-4aac-4886-a31b-db4aac68868c">Die Methode, mittels des Unterschiedes des
                                 <quote>Thaupunctes und der Luftwärme die relative Dampfmenge oder
                                 den Feuchtigkeitszustand der Atmosphäre zu bestimmen</quote> wurde
-                            von Humboldt im <hi rendition="#i">Kosmos</hi> mehrfach erklärt. U. a. <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845–1862</bibl>, I,
+                            von Humboldt im <hi rendition="#i">Kosmos</hi> mehrfach erklärt. U. a. <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845–1862</bibl>, I,
                             358.</note>
-                    <lb/>von <placeName ref="https://www.geonames.org/3936456">Lima</placeName> mit Berechnung
-                    <lb/>Mittelzahlen von <persName ref="http://d-nb.info/gnd/117123544">Oltmann</persName>
-                    <lb/>die Sie mir wohl gü-<lb/>tigst
+                    <lb/>von <placeName ref="https://editon-humboldt.de/H0011439 https://www.geonames.org/3936456">Lima</placeName> mit Berechnung
+                    <lb/>Mittelzahlen von <persName ref="https://editon-humboldt.de/H0011210 http://d-nb.info/gnd/117123544">Oltmann</persName>
+                    <lb/>die Sie mir wohl gü<g ref="#typoHyphen"/>
+                    <lb break="no"/>tigst
                         widerschikken<supplied cert="high">.</supplied> Da <lb/>mich Ihre berufliche
-                        Un<lb/>abhängigkeit bei so vieler <lb/>schöner litterarischer
-                        Thä<lb/>tigkeit mehr, als <hi rendition="#u">alles</hi>
+                        Un<lb break="no"/>abhängigkeit bei so vieler <lb/>schöner litterarischer
+                        Thä<lb break="no"/>tigkeit mehr, als <hi rendition="#u">alles</hi>
                     <lb/>interessirt, so bitte ich <lb/>Sie zu mir zu kommen <lb/>von 9–11
-                        h<supplied cert="high">.</supplied> Ich verstehe <lb/>als wolle der <persName ref="http://d-nb.info/gnd/11862783X">Minister</persName>
+                        h<supplied cert="high">.</supplied> Ich verstehe <lb/>als wolle der <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Minister</persName>
                     <lb/>einen Anstoss aus dem <lb/>Cabinett. </p>
                 <closer>
                     <salute/>
@@ -242,17 +263,18 @@
                         <abbr>Hr</abbr>
                         <expan>Herr</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116817569">
+                    <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">
                         <choice>
                             <abbr>v.</abbr>
                             <expan>von</expan>
-                        </choice> Buch</persName> wünscht <lb/>Sie zu sehen wegen <lb/>einer <ref xml:id="d3f3c129-8bc2-48f0-b3c1-298bc288f060" corresp="#fa362a7d-fd44-4dc1-b62a-7dfd44bdc10d">Muschel (Gryphaea<supplied cert="high">)</supplied>
+                        </choice> Buch</persName> wünscht <lb/>Sie zu sehen wegen <lb/>einer <ref xml:id="c03844d1-53d9-48a1-b844-d153d998a143" corresp="#fe97fdcc-52ae-484c-97fd-cc52aef84c16">Muschel (Gryphaea<supplied cert="high">)</supplied>
                     </ref>
-                    <note xml:id="fa362a7d-fd44-4dc1-b62a-7dfd44bdc10d" corresp="#d3f3c129-8bc2-48f0-b3c1-298bc288f060">Von Lamarck
+                    <note xml:id="fe97fdcc-52ae-484c-97fd-cc52aef84c16" corresp="#c03844d1-53d9-48a1-b844-d153d998a143">Von Lamarck
                             1801
                             beschriebenes Leitfossil. Wegen ihrer Form auch als
                             „Fußnagel des Teufels“ bezeichnet.</note>
-                    <lb/>die Sie aus der <hi rendition="#u">Jura-<lb/>formation</hi> besizen<supplied cert="high">.</supplied>
+                    <lb/>die Sie aus der <hi rendition="#u">Jura<g ref="#typoHyphen"/>
+                        <lb break="no"/>formation</hi> besizen<supplied cert="high">.</supplied>
                 </p>
             </postscript>
             <pb n="2r"/>

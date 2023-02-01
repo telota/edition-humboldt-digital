@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016664">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [15. Juni
+               1837] , hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016664">https://edition-humboldt.de/v8/H0016664</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016664</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016664</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016664.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [15. Juni
-               1837] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016664</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>Nachlass Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">96</idno>
+                     <idno type="shelfmark">421, Bl. 178r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1837-06-15">1837-06-15</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Abreise nach Paretz am 15.6.1837</note>
          </correspDesc>
@@ -64,33 +82,34 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Ich bin wegen meiner heutigen Abreise <lb/>nach <placeName ref="https://www.geonames.org/2855433">Paretz</placeName> und der drohenden <lb/>Abreise nach <placeName ref="https://www.geonames.org/3064288">Teplitz</placeName> (1 Juli) mit <lb/>meinen eigenen Druksachen in sol-<lb/>cher Verlegenheit, dass ich nicht <lb/>einmal
+            <p>Ich bin wegen meiner heutigen Abreise <lb/>nach <placeName ref="https://editon-humboldt.de/H0008113 https://www.geonames.org/2855433">Paretz</placeName> und der drohenden <lb/>Abreise nach <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName> (1 Juli) mit <lb/>meinen eigenen Druksachen in sol<g ref="#typoHyphen"/>
+                    <lb break="no"/>cher Verlegenheit, dass ich nicht <lb/>einmal
                Zeit gehabt habe, Sie, <lb/>edler Freund, zu besuchen und <lb/>Ihnen meinen Dank für
                Ihr leztes <lb/>interessantes Schreiben darzubringen. <lb/>Heute eine neue Bitte!!
-               Sie wissen <lb/>dass <persName ref="http://d-nb.info/gnd/118519352">Carus</persName>
+               Sie wissen <lb/>dass <persName ref="https://editon-humboldt.de/H0012918 http://d-nb.info/gnd/118519352">Carus</persName>
                <add place="superlinear">auf</add> seine eigenen Sachen einen <lb/>grossen Werth
                legt. Wollten Sie
                 <lb/> wohl
-               die <ref xml:id="c4d8348d-4f83-4f73-9834-8d4f839f7388" corresp="#f0f2b5b9-be72-449c-b2b5-b9be72649c16">Anlage</ref>
-                    <note xml:id="f0f2b5b9-be72-449c-b2b5-b9be72649c16" corresp="#c4d8348d-4f83-4f73-9834-8d4f839f7388">
-                     <bibl corresp="https://edition-humboldt.de/v8/AKLH23LP">Carus 1837</bibl>, 91–92</note> der Akademie <lb/>vorlegen. Im bülletin kann <lb/>wohl nur Titel und
+               die <ref xml:id="dc28be1f-944e-434a-a8be-1f944e934a9f" corresp="#f09b9f22-571d-4a69-9b9f-22571d0a696c">Anlage</ref>
+                    <note xml:id="f09b9f22-571d-4a69-9b9f-22571d0a696c" corresp="#dc28be1f-944e-434a-a8be-1f944e934a9f">
+                     <bibl corresp="https://edition-humboldt.de/AKLH23LP">Carus 1837</bibl>, 91–92</note> der Akademie <lb/>vorlegen. Im bülletin kann <lb/>wohl nur Titel und
                allenfalls <lb/>ein kleiner Auszug des Inhalts <lb/>stehen. Das
                Drukken in den <lb/>Schriften ist viel zu spät, <lb/>wenn man es <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> auch concedirt.
-               <lb/>Also bleibt wohl nur <persName ref="http://d-nb.info/gnd/118585053">Müller</persName>
+               <lb/>Also bleibt wohl nur <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName>
                <lb/>
                     <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> sein <ref xml:id="db3c1f01-7c65-449a-bc1f-017c65049aab" corresp="#edd09376-4e7c-4e31-9093-764e7cfe3137">Archiv</ref>
-                    <note xml:id="edd09376-4e7c-4e31-9093-764e7cfe3137" corresp="#db3c1f01-7c65-449a-bc1f-017c65049aab">
-                     <bibl corresp="https://edition-humboldt.de/v8/7XQL9UPI">Ehrenberg 1834</bibl>
+               </choice> sein <ref xml:id="f0792399-7a79-46f0-b923-997a7956f066" corresp="#c906df92-378a-45a7-86df-92378a35a706">Archiv</ref>
+                    <note xml:id="c906df92-378a-45a7-86df-92378a35a706" corresp="#f0792399-7a79-46f0-b923-997a7956f066">
+                     <bibl corresp="https://edition-humboldt.de/7XQL9UPI">Ehrenberg 1834</bibl>
                   </note> übrig; an diesen <lb/>bitte ich also gleich nach <lb/>dem Vorlegen in der
                Akademie
                 <lb/> den
                Aufsaz sammt Brief <lb/>zu senden<supplied cert="high">.</supplied> Dieser wird dann
-               <lb/>wohl gleich an <persName ref="http://d-nb.info/gnd/118519352">Carus</persName> über
+               <lb/>wohl gleich an <persName ref="https://editon-humboldt.de/H0012918 http://d-nb.info/gnd/118519352">Carus</persName> über
                <lb/>den ganzen Hergang berichten.</p>
             <closer rend="paragraph">
                     <salute>Mit alter dankbarer <lb/>Freundschaft</salute>

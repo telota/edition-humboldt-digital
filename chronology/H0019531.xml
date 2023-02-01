@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019531">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -6,30 +6,39 @@
                     <date when="1790-06-03">3. Juni 1790</date>
                 </title>
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (3. Juni 1790) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019531">https://edition-humboldt.de/v8/H0019531</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019531</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019531</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019531.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1790. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0019531</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2021-01-05"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p>H. besucht mit <persName ref="http://d-nb.info/gnd/118534416">Forster</persName> eine Aufführung von <persName ref="http://d-nb.info/gnd/118544489">Georg
-                        Friedrich Händels</persName> „Messias“ in der <placeName ref="https://www.geonames.org/2643743">Londoner</placeName>
-                    <placeName ref="https://www.geonames.org/6618996">Westminster Abbey</placeName>.</p>
+                <p>H. besucht mit <persName ref="https://editon-humboldt.de/H0000177 http://d-nb.info/gnd/118534416">Forster</persName> eine Aufführung von <persName ref="https://editon-humboldt.de/H0011637 http://d-nb.info/gnd/118544489">Georg
+                        Friedrich Händels</persName> „Messias“ in der <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">Londoner</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0019565 https://www.geonames.org/6618996">Westminster Abbey</placeName>.</p>
             </body>
         </text>
     </TEI>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004125">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Jacquin, Nikolaus Joseph Freiherr von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Jacquin, Nikolaus Joseph Freiherr von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004125.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004125.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004125.xml">
-                    <p>Jacquin, Nikolaus Joseph Freiherr von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004125.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004125">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118556452</idno>
                     <persName type="reg">
                         <surname>Jacquin</surname>
@@ -40,7 +45,7 @@
                     <note>österreichischer Botaniker und Forschungsreisender, bereiste 1754 bis 1759
                         Westindien um Pflanzen für die kaiserlichen Gärten und Schloss Schönbrunn zu
                         sammeln; nach seiner Rückkehr Profesor für Chemie und Botanik an der
-                            <orgName key="H0000602">Universität Wien</orgName> und war maßgeblich
+                            <orgName ref="https://editon-humboldt.de/H0000602 http://d-nb.info/gnd/2024703-5">Universität Wien</orgName> und war maßgeblich
                         beteiligt an der Einführung des chemischen Ordnungsssystems (Periodensystem)
                         vin Linné;praktizierte ab 1752 in Wien als Arzt und wurde nach seinem
                         Eintritt in den Ruhestand in den Freiherrenstand erhoben.</note>

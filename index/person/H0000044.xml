@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000044">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Favrod, Abraham</title>
             </titleStmt>
+            <editionStmt>
+                <p>Favrod, Abraham [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000044.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,27 +20,28 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000044.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000044.xml">
-                    <p>Favrod, Abraham [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000044.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0000044">
+                <person>
                     <persName type="reg">
                         <surname>Favrod</surname>
                         <forename>Abraham</forename>
                     </persName>
-                    <?oxy_comment_start author="mikosch" timestamp="20160321T121549+0100" comment="evtl. 1746"?>
+                    
                     <birth/>
-                    <?oxy_comment_end?>
+                    
                     <death>1794</death>
                     <note>Schweizer Botaniker, Schullehrer in Chateau d'Oex, Erstbeschreibungen von
                         über 80 Baumarten und mehr als 20 Pflanzenarten</note>

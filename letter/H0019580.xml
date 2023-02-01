@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019580">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,30 +20,58 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. Berlin, 3. April
+                    1829, hg. v. Ulrich Päßler unter Mitarbeit von Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019580">https://edition-humboldt.de/v8/H0019580</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019580</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019580</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019580.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. Berlin, 3. April
-                    1829. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019580</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno>
+                            <idno type="shelfmark">I/530/4</idno>, Bl. 1r–1v<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051301</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        39–40.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 21.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1829-04-03" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -54,15 +82,15 @@
                 <opener>
                     <dateline>
                         <pb n="1r"/>
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> 3ter <choice>
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> 3ter <choice>
                             <abbr>Apr.</abbr>
                             <expan>April</expan>
                         </choice>
                         <lb/>1829</dateline>
                 </opener>
-				<p>Sie haben gewiß, mein guter <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>, schon
+				<p>Sie haben gewiß, mein guter <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>, schon
                     <lb/>meinen lezten Brief von hier<supplied cert="high">,</supplied> den ich vor
-                    <lb/>Herrn <persName ref="http://d-nb.info/gnd/118810596">
+                    <lb/>Herrn <persName ref="https://editon-humboldt.de/H0012736 http://d-nb.info/gnd/118810596">
                         <choice>
                             <abbr>v</abbr>
                             <expan>von</expan>
@@ -73,7 +101,7 @@
                     </choice> meine Bewunderung für <lb/>die neuen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> umgeänderten Zeichnungen aus<lb/>drükken. Sie sind
+                    </choice> umgeänderten Zeichnungen aus<lb break="no"/>drükken. Sie sind
                     herrlich, besonders <name type="plant" key="Bambusa">Bambusen</name>
                     <lb/>
                     <choice>
@@ -86,17 +114,17 @@
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> nehme Ihre <bibl corresp="https://edition-humboldt.de/v8/4M7BCH3N">Brasiliana</bibl>
+                    </choice> nehme Ihre <bibl corresp="https://edition-humboldt.de/4M7BCH3N">Brasiliana</bibl>
                     theilweise nach <lb/>
-                    <placeName ref="https://www.geonames.org/498817">Petersburg</placeName> mit, bloß
-                    um von Ihrem Talen<lb/>te zu sprechen und zu sehen ob sich <lb/>dort
-                    Aussichten für eine Welt Umseglung, <lb/>und für <placeName ref="https://www.geonames.org/573081">Caucasus</placeName> und <placeName ref="https://www.geonames.org/325164">Ararat</placeName> unter
+                    <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Petersburg</placeName> mit, bloß
+                    um von Ihrem Talen<lb break="no"/>te zu sprechen und zu sehen ob sich <lb/>dort
+                    Aussichten für eine Welt Umseglung, <lb/>und für <placeName ref="https://editon-humboldt.de/H0000394 https://www.geonames.org/573081">Caucasus</placeName> und <placeName ref="https://editon-humboldt.de/H0002518 https://www.geonames.org/325164">Ararat</placeName> unter
                     nicht
                     <lb/>mesquinen
-                    Bedingungen eröfnen. Lieber sehe <lb/>ich Sie <ref xml:id="ed7f83d6-9ce6-41c6-bf83-d69ce621c660" corresp="#d2899864-a3d5-4253-8998-64a3d5125371">mit den Franzosen in <placeName ref="https://www.geonames.org/390903">Griechenland</placeName>
+                    Bedingungen eröfnen. Lieber sehe <lb/>ich Sie <ref xml:id="c8ca9d67-958a-4bda-8a9d-67958a4bdad3" corresp="#e1ae5768-8405-4a4e-ae57-688405ca4e9a">mit den Franzosen in <placeName ref="https://editon-humboldt.de/H0010922 https://www.geonames.org/390903">Griechenland</placeName>
                     </ref>
-                    <note xml:id="d2899864-a3d5-4253-8998-64a3d5125371" corresp="#ed7f83d6-9ce6-41c6-bf83-d69ce621c660">Zwischen 1828 und 1833 führte <placeName ref="https://www.geonames.org/3017382">Frankreich</placeName> auf der <placeName ref="https://www.geonames.org/9062330">Peloponnes</placeName> (Morea)
-                            Militäroperationen gegen das <placeName ref="https://edition-humboldt.de/v8/H0007865">Osmanische
+                    <note xml:id="e1ae5768-8405-4a4e-ae57-688405ca4e9a" corresp="#c8ca9d67-958a-4bda-8a9d-67958a4bdad3">Zwischen 1828 und 1833 führte <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName> auf der <placeName ref="https://editon-humboldt.de/H0019200 https://www.geonames.org/9062330">Peloponnes</placeName> (Morea)
+                            Militäroperationen gegen das <placeName ref="https://editon-humboldt.de/H0007865">Osmanische
                                 Reich</placeName> durch. Die französische Regierung bildete 1829 im
                             Zuge dessen eine aus Gelehrten und Künstlern bestehende „Expédition
                             scientifique de Morée“, die auf der Halbinsel wissenschaftliche Arbeiten
@@ -106,36 +134,36 @@
                         <abbr>transatlant</abbr>
                         <expan>transatlantische</expan>
                     </choice>
-                    <lb/>Reisen müssen Sie nach <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
-                        zurükkeh<lb/>ren<supplied cert="high">.</supplied> Wie<supplied cert="high">,</supplied> wenn Sie an <persName ref="http://d-nb.info/gnd/119284936">Gérard</persName> dringend <lb/>schrieben<supplied cert="high">,</supplied>
+                    <lb/>Reisen müssen Sie nach <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
+                        zurükkeh<lb break="no"/>ren<supplied cert="high">.</supplied> Wie<supplied cert="high">,</supplied> wenn Sie an <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">Gérard</persName> dringend <lb/>schrieben<supplied cert="high">,</supplied>
                     Sie vorzuschlagen. Er hat großen <lb/>Einfluß und man wirkt nur in der
                         Welt<supplied cert="high">,</supplied>
                     <lb/>wenn man an Ort und Stelle ist<supplied cert="high">.</supplied>
                         Wie<supplied cert="high">,</supplied>
-                    <lb/>wenn Sie Sich anböten bei dem <persName ref="http://d-nb.info/gnd/117552380">Ministre <lb/>de <choice>
+                    <lb/>wenn Sie Sich anböten bei dem <persName ref="https://editon-humboldt.de/H0017063 http://d-nb.info/gnd/117552380">Ministre <lb/>de <choice>
                             <abbr>l’Intér.</abbr>
                             <expan>l’Intérieur</expan>
                         </choice>
                     </persName> gerade zu<supplied cert="high">,</supplied> um im
-                    Innern <lb/>von <placeName ref="https://www.geonames.org/3996063">Mexico</placeName>, <placeName ref="https://www.geonames.org/3652462">Quito</placeName>, <placeName ref="https://www.geonames.org/3686110">Colombia</placeName> zu reisen<supplied cert="high">,</supplied>
-                    <lb/>um für den <orgName ref="http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName> eine
+                    Innern <lb/>von <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName>, <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName>, <placeName ref="https://editon-humboldt.de/H0000448 https://www.geonames.org/3686110">Colombia</placeName> zu reisen<supplied cert="high">,</supplied>
+                    <lb/>um für den <orgName ref="https://editon-humboldt.de/H0000553 http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName> eine
                     <lb/>Samlung charakteristischer Zeichnungen von Gewächsen <lb/>anzufertigen! Sie
                     bewiesen in dem Antrage<supplied cert="high">,</supplied> daß <lb/>die
                         Botaniker<supplied cert="high">,</supplied> welche nur einzelne Theile
                         abbilden<supplied cert="high">,</supplied>
                     <lb/>längst dergleichen gewünscht haben. Beziehen Sie Sich <lb/>auf mein Urtheil
-                    und <persName ref="http://d-nb.info/gnd/119284936">Gérard</persName>. Lassen Sie sich <add place="left">
+                    und <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">Gérard</persName>. Lassen Sie sich <add place="left">
                         <metamark/>so einen Aufsaz von einem <lb/>geistreichen
-                        Franzosen machen, lassen <lb/>Sie ihn durch <persName ref="http://d-nb.info/gnd/119284936">Gérard</persName>
+                        Franzosen machen, lassen <lb/>Sie ihn durch <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">Gérard</persName>
                         <choice>
                             <abbr>od</abbr>
                             <expan>oder</expan>
                         </choice>
-                        <persName ref="http://d-nb.info/gnd/118677578">Cuvier</persName> übergeben<supplied cert="high">.</supplied>
+                        <persName ref="https://editon-humboldt.de/H0013277 http://d-nb.info/gnd/118677578">Cuvier</persName> übergeben<supplied cert="high">.</supplied>
                         <lb/>Sie versprechen einen jungen <choice>
                             <abbr>französ.</abbr>
                             <expan>französischen</expan>
-                        </choice> Bota<lb/>niker mitzunehmen. Vielleicht reizt die
+                        </choice> Bota<lb break="no"/>niker mitzunehmen. Vielleicht reizt die
                         <lb/>Neuheit des Vorschlages<supplied cert="high">.</supplied> Es ist ja
                         kein <lb/>Unglük es zu probiren. Legen Sie <lb/>einige Ihrer Skizzen bei
                             <foreign xml:lang="fra">pour <lb/>exprimer le port, la physionomie
@@ -153,24 +181,25 @@
             </div>
             <postscript>
                 <p>
-                    <note place="left" hand="#author">Ihren Urwald <lb/>habe ich leider <lb/>noch nicht. Schik-<lb/>ken Sie ja etwas <lb/>zur hiesigen
-                            Aus<lb/>stellung, Pflanzen<lb/>formen. Man kauft
+                    <note place="left" hand="#author">Ihren Urwald <lb/>habe ich leider <lb/>noch nicht. Schik<g ref="#typoHyphen"/>
+                        <lb break="no"/>ken Sie ja etwas <lb/>zur hiesigen
+                            Aus<lb break="no"/>stellung, Pflanzen<lb break="no"/>formen. Man kauft
                             <lb/>gern<supplied cert="high">.</supplied>
                         <add place="left">
-                            <metamark/>Der <persName ref="http://d-nb.info/gnd/118535994">Kron<lb/>prinz</persName> bewundert <lb/>sehr Ihr <lb/>Talent!
+                            <metamark/>Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Kron<lb break="no"/>prinz</persName> bewundert <lb/>sehr Ihr <lb/>Talent!
                         </add>
                     </note>
                 </p>
             </postscript>
             <postscript>
                 <p>
-                    <note place="left" hand="#author">Man müßte <lb/>Sie auf einige Jahre <lb/>reisen lassen <lb/>ins <placeName ref="https://www.geonames.org/2245662">Senegal</placeName>
+                    <note place="left" hand="#author">Man müßte <lb/>Sie auf einige Jahre <lb/>reisen lassen <lb/>ins <placeName ref="https://editon-humboldt.de/H0010198 https://www.geonames.org/2245662">Senegal</placeName>
                     <choice>
                         <abbr>od</abbr>
                         <expan>oder</expan>
                     </choice>
                     <lb/>
-                        <placeName ref="https://www.geonames.org/935316">Bourbon</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0010458 https://www.geonames.org/935316">Bourbon</placeName>
                         <supplied cert="high">.</supplied>
                     </note>
                 </p>
@@ -184,13 +213,13 @@
                                 <del rendition="#ow">Se</del>
                                 <add place="across">À</add>
                             </subst> Monsieur</addrLine>
-                    <addrLine>Monsieur <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>
+                    <addrLine>Monsieur <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>
                         </addrLine>
                     <addrLine>par les bontés de <lb/>
                             <choice>
                             <abbr>Mr</abbr>
                             <expan>Monsieur</expan>
-                        </choice> le <persName ref="http://d-nb.info/gnd/118810596">
+                        </choice> le <persName ref="https://editon-humboldt.de/H0012736 http://d-nb.info/gnd/118810596">
                                 <choice>
                                 <abbr>B<hi rendition="#sup">n</hi>
                                     </abbr>

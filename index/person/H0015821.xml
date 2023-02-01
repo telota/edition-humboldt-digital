@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015821">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Tjumenew, Sereb-Dschab</title>
             </titleStmt>
+            <editionStmt>
+                <p>Tjumenew, Sereb-Dschab [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015821.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015821.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015821.xml">
-                    <p>Tjumenew, Sereb-Dschab [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015821.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015821">
+                <person>
                     <persName type="reg">
                         <surname>Tjumenew</surname>
                         <forename>Sereb-Dschab</forename>
@@ -66,10 +71,10 @@
                     </persName>
                     <birth/>
                     <death>1848</death>
-                    <note>Oberhaupt eines Stammes <!--Ulus--> der Wolga-Kalmücken (Khoschuten, Chotosow) bis
-                        1837 (?); laut Rose zudem Anführer weiterer Horden (vgl. <bibl sameAs="zotero-667230-BH8W3QPH">Rose 1837/1842</bibl>, II, 334; <bibl sameAs="zotero-667230-ZZT4TRU2">Zwick 1827</bibl>, 161 f.); Offizier
-                        (Oberst) der russischen Armee; älterer Bruder von <persName key="H0017973">Batur-Ubaschi</persName>, <persName key="H0017974">Seren-Danduk</persName> und <persName key="H0017975">Seren-Norwa
-                            Tjumenew</persName><!-- Vgl. A. W. Popow, "Die Kalmücken an der Wolga" (Fortsetzung), in: Das Ausland. Eine Wochenschrift für Kunde [...], Bd 12, 926, 930; Humboldt 1844, I, 269, Anm.; Rose 1837/1842, II, 337. -->
+                    <note>Oberhaupt eines Stammes  der Wolga-Kalmücken (Khoschuten, Chotosow) bis
+                        1837 (?); laut Rose zudem Anführer weiterer Horden (vgl. <bibl corresp="https://edition-humboldt.de/BH8W3QPH">Rose 1837/1842</bibl>, II, 334; <bibl corresp="https://edition-humboldt.de/ZZT4TRU2">Zwick 1827</bibl>, 161 f.); Offizier
+                        (Oberst) der russischen Armee; älterer Bruder von <persName ref="https://editon-humboldt.de/H0017973">Batur-Ubaschi</persName>, <persName ref="https://editon-humboldt.de/H0017974">Seren-Danduk</persName> und <persName ref="https://editon-humboldt.de/H0017975">Seren-Norwa
+                            Tjumenew</persName>
                     </note>
                     <linkGrp>
                         <ptr target="30#51" type="page"/>

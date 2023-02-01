@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004199">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Josef, Don</title>
             </titleStmt>
+            <editionStmt>
+                <p>Josef, Don [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004199.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004199.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004199.xml">
-                    <p>Josef, Don [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004199.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004199">
+                <person>
                     <persName type="reg">
                         <surname>Josef</surname>
                         <forename>Don</forename>
                     </persName>
-                    <note><?oxy_comment_start author="Christian Thomas" timestamp="20210821T153802+0200" comment="wann, wo? Vgl. ART I, Bl. 12r, daraus müsste sich ja zumindest die Wirkungszeit dieser Person noch ergänzen lassen."?>Bekannter
-                        Humboldts<?oxy_comment_end?>, wohl aus Spanien</note>
+                    <note>Bekannter
+                        Humboldts, wohl aus Spanien</note>
                 </person>
             </listPerson>
         </body>

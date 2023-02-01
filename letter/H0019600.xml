@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019600">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,32 +33,49 @@
                 
                 
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Otto Schomburgk. [Berlin], nach 16. Januar
+                    1848, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019600">https://edition-humboldt.de/v8/H0019600</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019600</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019600</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019600.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Otto Schomburgk. [Berlin], nach 16. Januar
-                    1848. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019600</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz,
+                            Berlin</institution>
+                        <collection>Handschriftenabteilung</collection>
+                        <idno>Autogr. I/450</idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                     
                     <date notBefore="1843-12-31" notAfter="1859-05-06" cert="low"/>
                 </correspAction>
                 
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/1187590">Schomburgk, Sir Robert Hermann (1804-1865)</persName>
+                    <persName ref="https://editon-humboldt.de/H0015645 http://d-nb.info/gnd/1187590">Schomburgk, Sir Robert Hermann (1804-1865)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -72,32 +89,34 @@
                     <salute/>
                 </opener>
 				<p>Ich lege, mein theurer <lb/>
-                    <persName ref="http://d-nb.info/gnd/1187590">Schomburgk</persName>, alles
+                    <persName ref="https://editon-humboldt.de/H0015645 http://d-nb.info/gnd/1187590">Schomburgk</persName>, alles
                         zusammen<supplied cert="high">,</supplied>
-                    <lb/>was ich von <placeName ref="https://www.geonames.org/2988507">Paris</placeName> mit-<lb/>gebracht und was Ihnen <lb/>zu <ref xml:id="e253b13e-eff9-4353-93b1-3eeff9135342" corresp="#ea78c93d-d257-412a-b8c9-3dd257712a1d">Ihren Arbeiten</ref>
-                    <note xml:id="ea78c93d-d257-412a-b8c9-3dd257712a1d" corresp="#e253b13e-eff9-4353-93b1-3eeff9135342">
-                        <persName ref="http://d-nb.info/gnd/116911921">Otto
-                                Schomburgk</persName> war 1847/1848 Redakteur des von <persName ref="http://d-nb.info/gnd/118861700">Robert Froriep</persName> herausgegebenen Jahrbuches
+                    <lb/>was ich von <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>gebracht und was Ihnen <lb/>zu <ref xml:id="fa939482-d99b-42f2-9394-82d99ba2f2ea" corresp="#cc175b0b-5779-4ab8-975b-0b5779dab87b">Ihren Arbeiten</ref>
+                    <note xml:id="cc175b0b-5779-4ab8-975b-0b5779dab87b" corresp="#fa939482-d99b-42f2-9394-82d99ba2f2ea">
+                        <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto
+                                Schomburgk</persName> war 1847/1848 Redakteur des von <persName ref="https://editon-humboldt.de/H0000305 http://d-nb.info/gnd/118861700">Robert Froriep</persName> herausgegebenen Jahrbuches
                             „Fortschritte der Geographie und Naturgeschichte“. Zwei der mit diesem
                             Brief von Humboldt eingesandten Schriften fanden 1848 Eingang in das
-                            Jahrbuch.</note> viel-<lb/>leicht nüzlich sein <lb/>kann.
-                    Eine Zeitung von <lb/>der <placeName ref="https://www.geonames.org/4030483">Südsee</placeName>, das <ref xml:id="bc216444-f2d4-4f7c-a164-44f2d4ef7c72" corresp="#aae2aba8-b933-41bb-a2ab-a8b933f1bbe3">Journal <lb/>von <placeName ref="https://www.geonames.org/1880251">Singapore</placeName>
+                            Jahrbuch.</note> viel<g ref="#typoHyphen"/>
+                    <lb break="no"/>leicht nüzlich sein <lb/>kann.
+                    Eine Zeitung von <lb/>der <placeName ref="https://editon-humboldt.de/H0010384 https://www.geonames.org/4030483">Südsee</placeName>, das <ref xml:id="fa1eac9e-7e2d-4d30-9eac-9e7e2d5d30dd" corresp="#bc7bbf68-934c-4d2c-bbbf-68934c3d2c8c">Journal <lb/>von <placeName ref="https://editon-humboldt.de/H0010256 https://www.geonames.org/1880251">Singapore</placeName>
                     </ref>
-                    <note xml:id="aae2aba8-b933-41bb-a2ab-a8b933f1bbe3" corresp="#bc216444-f2d4-4f7c-a164-44f2d4ef7c72">Wahrscheinlich die Ausgabe des „Journal of the
-                            Indian Archipelago and Eastern Asia“ vom Juli 1847. Vgl. <bibl corresp="https://edition-humboldt.de/v8/7DUE46DY">Forschritte der Geographie
-                                1848</bibl>. </note>und ein <ref xml:id="e0040405-9872-4a94-8404-0598723a94b7" corresp="#aaf3ed24-68f5-4ae2-b3ed-2468f5dae2a7">
+                    <note xml:id="bc7bbf68-934c-4d2c-bbbf-68934c3d2c8c" corresp="#fa1eac9e-7e2d-4d30-9eac-9e7e2d5d30dd">Wahrscheinlich die Ausgabe des „Journal of the
+                            Indian Archipelago and Eastern Asia“ vom Juli 1847. Vgl. <bibl corresp="https://edition-humboldt.de/7DUE46DY">Forschritte der Geographie
+                                1848</bibl>. </note>und ein <ref xml:id="ed69c198-09d8-47bb-a9c1-9809d8d7bb01" corresp="#fac4a3e4-3886-440d-84a3-e43886040d86">
                         <lb/>russischer Aufsaz</ref>
-                    <note xml:id="aaf3ed24-68f5-4ae2-b3ed-2468f5dae2a7" corresp="#e0040405-9872-4a94-8404-0598723a94b7">
-                        <bibl corresp="https://edition-humboldt.de/v8/P6YRMNYA">Čichačev
+                    <note xml:id="fac4a3e4-3886-440d-84a3-e43886040d86" corresp="#ed69c198-09d8-47bb-a9c1-9809d8d7bb01">
+                        <bibl corresp="https://edition-humboldt.de/P6YRMNYA">Čichačev
                                 1848</bibl>. Vgl. die deutsche Übersetzung im Jahrbuch „Fortschritte
-                            der Geographie und Naturgeschichte“ (<bibl corresp="https://edition-humboldt.de/v8/ZT9AHY3H">Čichačev 1848a</bibl>).</note> von <lb/>
-                    <persName ref="http://d-nb.info/gnd/118871188">Tchihatschef</persName> über die
+                            der Geographie und Naturgeschichte“ (<bibl corresp="https://edition-humboldt.de/ZT9AHY3H">Čichačev 1848a</bibl>).</note> von <lb/>
+                    <persName ref="https://editon-humboldt.de/H0013064 http://d-nb.info/gnd/118871188">Tchihatschef</persName> über die
                     <lb/>leichtesten Mittel<supplied cert="high">,</supplied> von <lb/>
-                    <placeName ref="https://www.geonames.org/2016590">Sibirien</placeName> aus nach <lb/>
-                    <placeName ref="https://www.geonames.org/7729893">Central Asien</placeName> zu gelangen<supplied cert="high">.</supplied>
+                    <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibirien</placeName> aus nach <lb/>
+                    <placeName ref="https://editon-humboldt.de/H0015014 https://www.geonames.org/7729893">Central Asien</placeName> zu gelangen<supplied cert="high">.</supplied>
                     <lb/>Der
                     Aufsaz
-                    (es ist <lb/>der <persName ref="http://d-nb.info/gnd/118871188">amerikanische Reisende</persName>
+                    (es ist <lb/>der <persName ref="https://editon-humboldt.de/H0013064 http://d-nb.info/gnd/118871188">amerikanische Reisende</persName>
                     <lb/>
                     <subst>
                         <del rendition="#ow">
@@ -108,33 +127,34 @@
                         <abbr>Exp.</abbr>
                         <expan>Expedition</expan>
                     </choice>
-                    <lb/>nach <placeName ref="https://www.geonames.org/1513604">Khiwa</placeName>
+                    <lb/>nach <placeName ref="https://editon-humboldt.de/H0007431 https://www.geonames.org/1513604">Khiwa</placeName>
                     <note place="left" hand="#author">
                         <metamark/>
                         <choice>
                             <abbr>S</abbr>
                             <expan>Siehe</expan>
                         </choice> meine <lb/>
-                        <ref xml:id="d9779ffc-5e7c-4a3c-b79f-fc5e7c9a3c37" corresp="#ac0edb90-2538-4853-8edb-902538c8538b">
-                            <bibl corresp="https://edition-humboldt.de/v8/TKGUVJEV">Asie centrale</bibl>
+                        <ref xml:id="db299252-91fd-4ae8-a992-5291fd6ae8cc" corresp="#ce395c3c-fc3a-4717-b95c-3cfc3a4717c2">
+                            <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Asie centrale</bibl>
                         </ref>
-                        <note xml:id="ac0edb90-2538-4853-8edb-902538c8538b" corresp="#d9779ffc-5e7c-4a3c-b79f-fc5e7c9a3c37">Vgl. <bibl corresp="https://edition-humboldt.de/v8/TKGUVJEV">Humboldt 1843</bibl>, I. 509.</note>
+                        <note xml:id="ce395c3c-fc3a-4717-b95c-3cfc3a4717c2" corresp="#db299252-91fd-4ae8-a992-5291fd6ae8cc">Vgl. <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Humboldt 1843</bibl>, I. 509.</note>
                     </note> war<supplied cert="high">,</supplied>
-                    <lb/>nicht der <persName ref="http://d-nb.info/gnd/11887117X">Bruder</persName>
+                    <lb/>nicht der <persName ref="https://editon-humboldt.de/H0013063 http://d-nb.info/gnd/11887117X">Bruder</persName>
                     <supplied cert="high">,</supplied>
-                    <lb/>der den <placeName ref="https://www.geonames.org/1516401">Altai</placeName> beschrie-<lb/>ben <choice>
+                    <lb/>der den <placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altai</placeName> beschrie<g ref="#typoHyphen"/>
+                    <lb break="no"/>ben <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> jezt in <placeName ref="https://edition-humboldt.de/v8/H0000426">
+                    </choice> jezt in <placeName ref="https://editon-humboldt.de/H0000426">
                         <lb/>Klein Asien</placeName> ist)
-                    <lb/>hat in <placeName ref="https://www.geonames.org/498817">
+                    <lb/>hat in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                         <choice>
                             <abbr>Petersb.</abbr>
                             <expan>Petersburg</expan>
                         </choice>
                     </placeName>
                     <lb/>viel Aufsehen <lb/>gemacht<supplied cert="high">.</supplied> Vielleicht
-                    <lb/>wird ihn <persName ref="http://d-nb.info/gnd/100123848">Erman</persName>
+                    <lb/>wird ihn <persName ref="https://editon-humboldt.de/H0005973 http://d-nb.info/gnd/100123848">Erman</persName>
                     <lb/>ganz übersezt geben <lb/>
                     <choice>
                         <abbr>od</abbr>

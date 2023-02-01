@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019311">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Šartymka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Šartymka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019311.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019311.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019311.xml">
-                    <p>Šartymka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019311.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019311">
+                <place>
                     <idno type="uri">https://www.geonames.org/495629</idno>
                     <placeName type="reg">Šartymka</placeName>
                     <placeName type="alt">Шартымка</placeName>
                     <placeName type="alt">Shartymka</placeName>
                     <placeName type="alt">Schartym</placeName>
-                    <note>Bach im <placeName key="H0020292">Südlichen Ural</placeName>, Zufluss des
-                            <placeName key="H0017734">Ui</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
-                    <!-- Hofmann/Helmersen 1831, 33 -->
+                    <note>Bach im <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName>, Zufluss des
+                            <placeName ref="https://editon-humboldt.de/H0017734 https://www.geonames.org/1487926">Ui</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
+                    
                 </place>
             </listPlace>
         </body>

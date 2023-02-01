@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011768">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Helm, Gustav</title>
             </titleStmt>
+            <editionStmt>
+                <p>Helm, Gustav [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011768.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011768.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011768.xml">
-                    <p>Helm, Gustav [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011768.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0011768">
+                <person>
                     <persName type="reg">
                         <surname>Helm</surname>
                         <forename>Gustav</forename>
@@ -46,11 +51,10 @@
                     <death>nicht vor 1829</death>
                     <note>Apotheker, Chemiker, Forschungsreisender; 1805/06 Teilnehmer der
                         russischen Gesandtschaftsreise durch Sibirien nach China unter Jurij
-                        Aleksandrovič Golovkin; Besitzer einer chemischen Fabrik in <placeName key="H0005599">Jekaterinburg</placeName>
+                        Aleksandrovič Golovkin; Besitzer einer chemischen Fabrik in <placeName ref="https://editon-humboldt.de/H0005599 https://www.geonames.org/1486209">Jekaterinburg</placeName>
                     </note>
-                    <!-- vgl. Hartmut Walravens: Aufzeichnungen von Forschungsreisen –
-ein eigenes Genre von Tagebüchern. in: Jahrbuch für Internationale Germanistik 49.1, 159 mit Anm. 39 -->
-                    <!-- Rose 1837/1842, I, 174 -->
+                    
+                    
                     <linkGrp>
                         <ptr target="30#149" type="page"/>
                         <ptr subtype="comment" target="30#[150]" type="page"/>

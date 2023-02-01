@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016772">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,34 +29,52 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Teplitz], [wohl um
+               1833] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016772">https://edition-humboldt.de/v8/H0016772</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016772</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016772</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016772.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Teplitz], [wohl um
-               1833] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016772</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">44</idno>
+                     <idno type="shelfmark">421, Bl. 79r, 82v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/3064288">Teplitz</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName>
                <date notBefore="1833" notAfter="1833" cert="low">1833-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
-            <note>wohl im zusammenhang mit der Neubesetzung der Professur <persName ref="http://d-nb.info/gnd/115526641">Rudolphi</persName>s 1833 durch <persName ref="http://d-nb.info/gnd/118585053">Johannes Müller</persName>
+            <note>wohl im zusammenhang mit der Neubesetzung der Professur <persName ref="https://editon-humboldt.de/H0001121 http://d-nb.info/gnd/115526641">Rudolphi</persName>s 1833 durch <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Johannes Müller</persName>
                 </note>
          </correspDesc>
       </profileDesc>
@@ -79,12 +97,12 @@
             <p>Nehmen Sie meinen innigsten <lb/>Dank, theurester Freund, für Ihre <lb/>gar zu
                emsigen Nachsuchungen<supplied cert="high">.</supplied>
                <lb/>Es ist gar nicht wahrscheinlich, <lb/>dass die Alten etwas von den
-               <lb/>Paradiesvögeln gewusst hätten, <lb/>da sie fern von <placeName ref="https://edition-humboldt.de/v8/H0017316">Cattigora</placeName>, <lb/>bei <placeName ref="https://www.geonames.org/2088628">Neu Guinea</placeName>,
+               <lb/>Paradiesvögeln gewusst hätten, <lb/>da sie fern von <placeName ref="https://editon-humboldt.de/H0017316">Cattigora</placeName>, <lb/>bei <placeName ref="https://editon-humboldt.de/H0016243 https://www.geonames.org/2088628">Neu Guinea</placeName>,
                hausen <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> die <lb/>Apodes des <persName ref="http://d-nb.info/gnd/118650130">Aristoteles</persName> und
-                  <persName ref="http://d-nb.info/gnd/118595083">Pli<lb/>nius</persName> sind nur
+               </choice> die <lb/>Apodes des <persName ref="https://editon-humboldt.de/H0012718 http://d-nb.info/gnd/118650130">Aristoteles</persName> und
+                  <persName ref="https://editon-humboldt.de/H0002035 http://d-nb.info/gnd/118595083">Pli<lb break="no"/>nius</persName> sind nur
                Schwachfüssige <lb/>
                     <foreign xml:lang="grc">ακοποδεσ</foreign>. Es wäre gewiss
                <lb/>besser gewesen, die menschliche <lb/>Anatomie von dem zootomischen <lb/>Theile
@@ -106,10 +124,10 @@
                <choice>
                   <abbr>comp.</abbr>
                   <expan>comparata</expan>
-               </choice>, bei solcher Ver<lb/>bindung, vernachlässigt. Männer <lb/>wie
-                  <persName>Soemmerring</persName> und <persName ref="http://d-nb.info/gnd/116988703">Meckel</persName> sind <lb/>seltene Ausnahmen und konnten <lb/>doch auch nicht in
+               </choice>, bei solcher Ver<lb break="no"/>bindung, vernachlässigt. Männer <lb/>wie
+                  <persName ref="https://editon-humboldt.de/">Soemmerring</persName> und <persName ref="https://editon-humboldt.de/H0017068 http://d-nb.info/gnd/116988703">Meckel</persName> sind <lb/>seltene Ausnahmen und konnten <lb/>doch auch nicht in
                untere <lb/>Thierklassen reichen<supplied cert="high">.</supplied> Lassen <lb/>Sie
-               uns jezt aber dafür sorgen, <lb/>dass man nicht in Ihre Ent<lb/>dekkungen
+               uns jezt aber dafür sorgen, <lb/>dass man nicht in Ihre Ent<lb break="no"/>dekkungen
                eingreife. Es giebt <lb/>Mittel dagegen<supplied cert="high">.</supplied>
                 </p>
             <closer rend="within the line">
@@ -119,8 +137,8 @@
                 </closer>
          
          <postscript>
-            <p>Haben Sie gesehen <bibl corresp="https://edition-humboldt.de/v8/NQA47T5I">
-                            <persName ref="http://d-nb.info/gnd/118595083">
+            <p>Haben Sie gesehen <bibl corresp="https://edition-humboldt.de/NQA47T5I">
+                            <persName ref="https://editon-humboldt.de/H0002035 http://d-nb.info/gnd/118595083">
                                 <choice>
                            <abbr>Plin</abbr>
                            <expan>Plinius</expan>
@@ -131,7 +149,7 @@
                      </choice> 54</bibl> <lb/> wie Affen <choice>
                      <abbr>u</abbr>
                      <expan>und</expan>
-                  </choice> zwar nur <lb/>geschwänzte sich des Voll<lb/>mondes
+                  </choice> zwar nur <lb/>geschwänzte sich des Voll<lb break="no"/>mondes
                   erfreuen!</p>
          </postscript>
             </div>

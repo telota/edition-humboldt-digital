@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016811">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Rigny, Henri de</title>
             </titleStmt>
+            <editionStmt>
+                <p>Rigny, Henri de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016811.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016811.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016811.xml">
-                    <p>Rigny, Henri de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016811.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0016811">
+                <person>
                     <idno type="uri">https://viaf.org/viaf/221008836/</idno>
                     <persName type="reg">
                         <surname>Rigny</surname>
@@ -38,8 +43,8 @@
                     <birth>1782</birth>
                     <death>1835</death>
                     <note>französischer Marineoffizier, 1829-1830 Marineminister im Kabinett
-                            <persName key="H0017095">Polignac</persName> als Nachfolger von
-                            <persName key="H0016955">Jean-Guillaume Hyde de
+                            <persName ref="https://editon-humboldt.de/H0017095 http://d-nb.info/gnd/104152095">Polignac</persName> als Nachfolger von
+                            <persName ref="https://editon-humboldt.de/H0016955 http://d-nb.info/gnd/117075019">Jean-Guillaume Hyde de
                             Neuville</persName>, bis 1834 Marineminister weiterer Regierungen,
                         1834-1835 Außenminister, 1835-1836 Kriegsminister </note>
                 </person>

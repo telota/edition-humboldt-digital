@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016443">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,32 +33,53 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 19. März 1852
+                , hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016443">https://edition-humboldt.de/v8/H0016443</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016443</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016443</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016443.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 19. März 1852
-                . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016443</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 11, Nr. 50.51</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1316208</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
                         Deutschland)</placeName>
                     <date when="1852-03-19" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -72,50 +93,53 @@
                     
                     <salute>Euer Excellenz!</salute>
                 </opener>
-                <p>Erlauben Sie mir, Ihnen im Namen <lb/>meines <persName ref="http://d-nb.info/gnd/118755234">Bruders</persName> die <ref xml:id="a3392a22-bd85-477d-b92a-22bd85c77d08" corresp="#a792cb5e-cd2c-459e-92cb-5ecd2cc59ef1">Tafel mit der <lb/>Zusam̅enstellung einiger Profile <lb/>vorzulegen,
+                <p>Erlauben Sie mir, Ihnen im Namen <lb/>meines <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruders</persName> die <ref xml:id="dc565263-7dcf-4cdc-9652-637dcffcdc97" corresp="#b2809187-e2e2-4ce1-8091-87e2e24ce1f4">Tafel mit der <lb/>Zusam̅enstellung einiger Profile <lb/>vorzulegen,
                             welche sich auf seinen <lb/>Vortrag über den geologischen Bau <lb/>der
-                                <placeName ref="https://www.geonames.org/2661786">Alpen</placeName>
+                                <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
                     </ref>
-                    <note xml:id="a792cb5e-cd2c-459e-92cb-5ecd2cc59ef1" corresp="#a3392a22-bd85-477d-b92a-22bd85c77d08">Am 20. März 1852 hielt <persName ref="http://d-nb.info/gnd/118755234">Adolph Schlagintweit</persName> im <orgName ref="http://d-nb.info/gnd/5313807-7">Verein für wissenschaftliche Vorträge</orgName>
-                            in Berlin einen Vortrag über den geologischen Bau der <placeName ref="https://www.geonames.org/2661786">Alpen</placeName>. Vgl. <bibl corresp="https://edition-humboldt.de/v8/N3AC35SV">Schlagintweit, A. 1852</bibl>. Die
+                    <note xml:id="b2809187-e2e2-4ce1-8091-87e2e24ce1f4" corresp="#dc565263-7dcf-4cdc-9652-637dcffcdc97" resp="#LM">Am 20. März 1852 hielt <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph Schlagintweit</persName> im <orgName ref="https://editon-humboldt.de/H0018857 http://d-nb.info/gnd/5313807-7">Verein für wissenschaftliche Vorträge</orgName>
+                            in Berlin einen Vortrag über den geologischen Bau der <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>. Vgl. <bibl corresp="https://edition-humboldt.de/N3AC35SV">Schlagintweit, A. 1852</bibl>. Die
                             kolorierte
                             Tafel mit vier Alpenprofilen liegt dem Brief
                             bei.</note> beziehen.</p>
                 <p>Ich <add place="superlinear">weiss</add> nicht, ob er die Bitte an Sie <lb/>wagen
                     darf, ein Exemplar derselben <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">
                         <choice>
                             <abbr>S<hi rendition="#sup">r </hi>
                             </abbr>
                             <expan>Seiner</expan>
-                        </choice> Majestät dem Könige</persName> zu über-<lb/>reichen. <lb/>
-                    <pb n="1v"/>Das Profil des <placeName ref="https://www.geonames.org/3181986">
+                        </choice> Majestät dem Könige</persName> zu über<g ref="#typoHyphen"/>
+                    <lb break="no"/>reichen. <lb/>
+                    <pb n="1v"/>Das Profil des <placeName ref="https://editon-humboldt.de/H0008955 https://www.geonames.org/3181986">
                         <choice>
                             <abbr>Mt.</abbr>
                             <expan>Mont</expan>
-                        </choice> Blanc</placeName> enthält <lb/>als Höhe die Zahl, die <persName ref="http://d-nb.info/gnd/117631426">Delcros</persName> im <lb/>
-                    <bibl corresp="https://edition-humboldt.de/v8/WE9PFJJ7">Annuaire météorologique de la <lb/>France
+                        </choice> Blanc</placeName> enthält <lb/>als Höhe die Zahl, die <persName ref="https://editon-humboldt.de/H0012197 http://d-nb.info/gnd/117631426">Delcros</persName> im <lb/>
+                    <bibl corresp="https://edition-humboldt.de/WE9PFJJ7">Annuaire météorologique de la <lb/>France
                         1851</bibl> als das Mittel der bisher <lb/>ausgeführten trigonometrischen
                     und <lb/>barometrischen Bestim̅ungen gibt <lb/>= <measure quantity="14809" unit="pied_de_roi">14809 <choice>
                             <abbr>P F</abbr>
                             <expan>Pariser Fuß</expan>
                         </choice>
                     </measure>.</p>
-                <p>Die Höhe des <placeName ref="https://edition-humboldt.de/v8/H0008958">
+                <p>Die Höhe des <placeName ref="https://editon-humboldt.de/H0008958">
                         <choice>
                             <abbr>Mte</abbr>
                             <expan>Monte</expan>
-                        </choice> Rosa</placeName> ist jene <lb/>die wir selbst aus unseren 2 Beob-<lb/>achtungen, nach 6 Stationen berechnet
-                    <lb/>erhielten. Es war mir eine sehr an-<lb/>genehme Überraschung dass dieses <lb/>barometrische Mittel mit jenem aller
+                        </choice> Rosa</placeName> ist jene <lb/>die wir selbst aus unseren 2 Beob<g ref="#typoHyphen"/>
+                    <lb break="no"/>achtungen, nach 6 Stationen berechnet
+                    <lb/>erhielten. Es war mir eine sehr an<g ref="#typoHyphen"/>
+                    <lb break="no"/>genehme Überraschung dass dieses <lb/>barometrische Mittel mit jenem aller
                     <lb/>früheren (<choice>
                         <abbr>trig</abbr>
                         <expan>trigonometrischen</expan>
                     </choice>) Beobachtungen so <lb/>
                     <pb n="2r"/>gut übereinstimmt, dass es als ganz
-                    <lb/>identisch mit demselben zu betrachten <lb/>ist. <persName ref="http://d-nb.info/gnd/117631426">Delcros</persName> gibt dasselbe zu <lb/>4639,6 Meter nach den
-                    Beobachtungen <lb/>von <persName ref="http://d-nb.info/gnd/119196255">Oriani</persName>, <persName ref="http://d-nb.info/gnd/124087272">Plana</persName> und <persName ref="http://d-nb.info/gnd/117673072">Carlini</persName>, <persName ref="https://edition-humboldt.de/v8/H0006314">Welden </persName>
+                    <lb/>identisch mit demselben zu betrachten <lb/>ist. <persName ref="https://editon-humboldt.de/H0012197 http://d-nb.info/gnd/117631426">Delcros</persName> gibt dasselbe zu <lb/>4639,6 Meter nach den
+                    Beobachtungen <lb/>von <persName ref="https://editon-humboldt.de/H0011237 http://d-nb.info/gnd/119196255">Oriani</persName>, <persName ref="https://editon-humboldt.de/H0002018 http://d-nb.info/gnd/124087272">Plana</persName> und <persName ref="https://editon-humboldt.de/H0012902 http://d-nb.info/gnd/117673072">Carlini</persName>, <persName ref="https://editon-humboldt.de/H0006314">Welden </persName>
                     <lb/>und
-                        <persName ref="http://d-nb.info/gnd/100452396">Corabeauf</persName>; wir erhielten im Mittel
+                        <persName ref="https://editon-humboldt.de/H0018326 http://d-nb.info/gnd/100452396">Corabeauf</persName>; wir erhielten im Mittel
                     <lb/>aus Zahlen, die unter sich nach einigen <lb/>Stationen allerdings
                     Abweichungen <lb/>zeigten, <measure quantity="14284" unit="pied_de_roi">14284 <choice>
                             <abbr>P F</abbr>
@@ -128,17 +152,18 @@
                     <lb/>werden vielleicht, wenn Sie erlauben, <lb/>später die Ehre haben, Ihnen die
                     <lb/>Beobachtungen selbst und ihre <lb/>Berechnung nach den verschiedenen
                         <lb/>
-                    <pb n="2v"/>Stationen vorzulegen. Die <placeName ref="https://www.geonames.org/3164076">Vincentpyra-<lb/>mide</placeName> ist
+                    <pb n="2v"/>Stationen vorzulegen. Die <placeName ref="https://editon-humboldt.de/H0017666 https://www.geonames.org/3164076">Vincentpyra<g ref="#typoHyphen"/>
+                        <lb break="no"/>mide</placeName> ist
                     der südwestlichste Gipfel des <lb/>
-                    <placeName ref="https://edition-humboldt.de/v8/H0008958">Monte
+                    <placeName ref="https://editon-humboldt.de/H0008958">Monte
                         Rosa</placeName>
                     <measure quantity="13003" unit="pied_de_roi">13003 <choice>
                             <abbr>P. F</abbr>
                             <expan>Pariser Fuß</expan>
                         </choice>
-                    </measure>; das <placeName ref="https://edition-humboldt.de/v8/H0017261">Weissthor</placeName>,
+                    </measure>; das <placeName ref="https://editon-humboldt.de/H0017261">Weissthor</placeName>,
                     <lb/>der höchste bis jetzt bekannte, früher <lb/>noch nicht bestimmte Pass der
-                        <placeName ref="https://www.geonames.org/2661786">Alpen</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
                     <lb/>
                     <measure quantity="11138" unit="pied_de_roi">11138′</measure>. Die
                     Vincenthütte <measure quantity="9737" unit="pied_de_roi">9737′</measure>

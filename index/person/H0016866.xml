@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016866">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Stroganov, Grigorij Aleksandrovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Stroganov, Grigorij Aleksandrovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016866.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016866.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016866.xml">
-                    <p>Stroganov, Grigorij Aleksandrovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016866.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0016866">
+                <person>
                     <idno type="uri">https://d-nb.info/gnd/139687459</idno>
                     <persName type="reg">
                         <surname>Stroganov</surname>
@@ -54,7 +59,7 @@
                     <birth>1770</birth>
                     <death>1857</death>
                     <note>russischer Diplomat und Staatsmann, 1796 Kammerherr und Mitglied des Bergbau-Kollegiums;
-                        Gesandter in <placeName key="H0010330">Spanien</placeName> (ab 1804), <placeName key="H0010177">Schweden</placeName> (ab 1812) und im Osmanischen Reich (1816-1821); 1826 Erhebung in den
+                        Gesandter in <placeName ref="https://editon-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName> (ab 1804), <placeName ref="https://editon-humboldt.de/H0010177 https://www.geonames.org/2661886">Schweden</placeName> (ab 1812) und im Osmanischen Reich (1816-1821); 1826 Erhebung in den
                         Grafenstand, 1827 Staatsrat</note>
                 </person>
             </listPerson>

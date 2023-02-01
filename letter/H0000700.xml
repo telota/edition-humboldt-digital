@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000700">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,39 +29,60 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Donnerstag, [2.
+                    November 1848], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0000700">https://edition-humboldt.de/v8/H0000700</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0000700</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0000700</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000700.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, Donnerstag, [2.
-                    November 1848]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0000700</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek,
+                            Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 129–130.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                     <date when="1848-11-02" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 )</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 )</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
-                <note>Die Datierung richtet sich nach <persName ref="http://d-nb.info/gnd/11879972X">Johann Georg Cottas
+                <note>Die Datierung richtet sich nach <persName ref="https://editon-humboldt.de/H0013205 http://d-nb.info/gnd/11879972X">Johann Georg Cottas
                         Brief</persName> an Humboldt vom 29. Oktober und Humboldts Antwortbrief vom
                     2. November an Cotta, in denen die Kunth betreffenden Angelegenheiten
-                    thematisiert werden (Vgl. <bibl corresp="https://edition-humboldt.de/v8/KGM28M3V">Humboldt
+                    thematisiert werden (Vgl. <bibl corresp="https://edition-humboldt.de/KGM28M3V">Humboldt
                         2009</bibl>, 343–346).</note>
             </correspDesc>
         </profileDesc>
@@ -70,29 +91,30 @@
         <body>
             <div>
                 <pb n="1r"/>
-                <p>Ich freue mich, theurester Freund, dass es mir <lb/>bei <persName ref="http://d-nb.info/gnd/11879972X">Cotta</persName> geglükt ist: <ref xml:id="c3c3e21c-01a2-4052-83e2-1c01a2905213" corresp="#da088875-551f-4775-8888-75551f8775f8">er schreibt mir <lb/>so eben <placeName ref="https://www.geonames.org/2825297">Stuttgart</placeName> 29<supplied cert="high">.</supplied> October:</ref>
-                    <note xml:id="da088875-551f-4775-8888-75551f8775f8" corresp="#c3c3e21c-01a2-4052-83e2-1c01a2905213">Vgl. <bibl corresp="https://edition-humboldt.de/v8/KGM28M3V">Humboldt 2009</bibl>, 344.</note>
+                <p>Ich freue mich, theurester Freund, dass es mir <lb/>bei <persName ref="https://editon-humboldt.de/H0013205 http://d-nb.info/gnd/11879972X">Cotta</persName> geglükt ist: <ref xml:id="cc032c79-e933-4ce1-832c-79e933ace1bc" corresp="#ccd36478-f805-49e9-9364-78f80549e975">er schreibt mir <lb/>so eben <placeName ref="https://editon-humboldt.de/H0010371 https://www.geonames.org/2825297">Stuttgart</placeName> 29<supplied cert="high">.</supplied> October:</ref>
+                    <note xml:id="ccd36478-f805-49e9-9364-78f80549e975" corresp="#cc032c79-e933-4ce1-832c-79e933ace1bc">Vgl. <bibl corresp="https://edition-humboldt.de/KGM28M3V">Humboldt 2009</bibl>, 344.</note>
                 </p>
                 <p>„Ihrer Andeutung in Beziehung auf <lb/>
-                    <ref xml:id="b0bc8fee-313e-47e5-bc8f-ee313e57e55a" corresp="#e5e0efcc-ac25-4ed5-a0ef-ccac250ed5e1">
+                    <ref xml:id="b384c9d1-2be5-4a12-84c9-d12be5aa12b8" corresp="#d8ae7f9a-df08-462d-ae7f-9adf08362dac">
                         <choice>
                                 <abbr>Prof</abbr>
                                 <expan>Professor</expan>
                             </choice> Kunth’s Werk</ref>
-                    <note xml:id="e5e0efcc-ac25-4ed5-a0ef-ccac250ed5e1" corresp="#b0bc8fee-313e-47e5-bc8f-ee313e57e55a">
-                            <bibl corresp="https://edition-humboldt.de/v8/7DZGI486">Kunth 1833–1850</bibl>.</note> soll alsbald Folge <lb/>gegeben und dem Drucker der Auftrag
+                    <note xml:id="d8ae7f9a-df08-462d-ae7f-9adf08362dac" corresp="#b384c9d1-2be5-4a12-84c9-d12be5aa12b8">
+                            <bibl corresp="https://edition-humboldt.de/7DZGI486">Kunth 1833–1850</bibl>.</note> soll alsbald Folge <lb/>gegeben und dem Drucker der Auftrag
                     <lb/>zugefertigt werden mit dem Drucke <lb/>fortzufahren. Zwar ist der Druck
-                    <lb/>zu <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> sehr theuer, aber da <choice>
+                    <lb/>zu <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> sehr theuer, aber da <choice>
                         <abbr>Ew</abbr>
                         <expan>Ewro</expan>
                     </choice> … <lb/>sich <choice>
                         <orig>fur</orig>
                         <reg>für</reg>
-                    </choice> die Fortsezung dieses Druck-<lb/>werkes so lebhaft interessiren, so <lb/>soll die Sistirung desselben
-                    gleichbald <lb/>aufgehoben werden<ref xml:id="f3c5416d-a9f2-4e6d-8541-6da9f20e6dc0" corresp="#df0b597e-a63e-4c15-8b59-7ea63eec15d4">.</ref>
-                    <note xml:id="df0b597e-a63e-4c15-8b59-7ea63eec15d4" corresp="#f3c5416d-a9f2-4e6d-8541-6da9f20e6dc0">Der vierte, und vorläufig letzte, Band der <hi rendition="#i">Enumeratio plantarum</hi> Kunths (<bibl corresp="https://edition-humboldt.de/v8/7DZGI486">Kunth 1833–1850</bibl>) war 1843
+                    </choice> die Fortsezung dieses Druck<g ref="#typoHyphen"/>
+                    <lb break="no"/>werkes so lebhaft interessiren, so <lb/>soll die Sistirung desselben
+                    gleichbald <lb/>aufgehoben werden<ref xml:id="ffed0d1b-e305-4cce-ad0d-1be305ccceb3" corresp="#fc0f0d9f-2900-4d1f-8f0d-9f29002d1f47">.</ref>
+                    <note xml:id="fc0f0d9f-2900-4d1f-8f0d-9f29002d1f47" corresp="#ffed0d1b-e305-4cce-ad0d-1be305ccceb3">Der vierte, und vorläufig letzte, Band der <hi rendition="#i">Enumeratio plantarum</hi> Kunths (<bibl corresp="https://edition-humboldt.de/7DZGI486">Kunth 1833–1850</bibl>) war 1843
                             erschienen. In einem im selben Jahr für das Verlagshaus Cotta verfassten
-                            Gutachten hatte der Botaniker <persName ref="http://d-nb.info/gnd/117240125">Ernst Gottlieb
+                            Gutachten hatte der Botaniker <persName ref="https://editon-humboldt.de/H0016083 http://d-nb.info/gnd/117240125">Ernst Gottlieb
                                 von Steudel</persName> die Durchführbarkeit des Werkes grundsätzlich
                             infrage gestellt: <quote>Nach dem empfangenen Plane festgesetzt, wird
                                 das Ganze etwa 30–35 Bände geben, welche in 20 Jahren kaum
@@ -106,16 +128,17 @@
                     <lb/>wenn nicht anders die <choice>
                         <sic>Widerkehr</sic>
                         <corr>Wiederkehr</corr>
-                    </choice> einer <lb/>besseren Zeit es gestatten sollte, damit <lb/>zu <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> selbst fortzufahren<supplied cert="high">.</supplied> Wir <lb/>waren Ende August und Anfang <choice>
+                    </choice> einer <lb/>besseren Zeit es gestatten sollte, damit <lb/>zu <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> selbst fortzufahren<supplied cert="high">.</supplied> Wir <lb/>waren Ende August und Anfang <choice>
                         <abbr>Sept.</abbr>
                         <expan>September</expan>
                     </choice> hier <lb/>im <choice>
                         <abbr>sudl.</abbr>
                         <expan>südlichen</expan>
                     </choice>
-                    <placeName ref="https://www.geonames.org/2921044">Deutschlande</placeName> wieder leidlich im
-                    <lb/>Geleise: allein die <placeName ref="https://www.geonames.org/2925533">frankfurther</placeName>
-                    <lb/>September Tage die ich persönlich mit-<lb/>gemacht, <persName ref="http://d-nb.info/gnd/118799207">Struve</persName> und <placeName ref="https://www.geonames.org/2761369">Wien</placeName> haben alles <lb/>wieder erschüttert und in
+                    <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschlande</placeName> wieder leidlich im
+                    <lb/>Geleise: allein die <placeName ref="https://editon-humboldt.de/H0004798 https://www.geonames.org/2925533">frankfurther</placeName>
+                    <lb/>September Tage die ich persönlich mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>gemacht, <persName ref="https://editon-humboldt.de/H0016139 http://d-nb.info/gnd/118799207">Struve</persName> und <placeName ref="https://editon-humboldt.de/H0007962 https://www.geonames.org/2761369">Wien</placeName> haben alles <lb/>wieder erschüttert und in
                     Frage gestellt.“</p>
                 <p>Meine innige Verehrung <choice>
                         <sic>Ihr</sic>
@@ -124,7 +147,8 @@
                     <subst>
                         <del rendition="#ow">f</del>
                         <add place="across">v</add>
-                    </subst>ortref-<lb/>lichen <persName ref="https://edition-humboldt.de/v8/H0001516">Gattin</persName>. Der Belagerungszustand <lb/>in den die
+                    </subst>ortref<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen <persName ref="https://editon-humboldt.de/H0001516">Gattin</persName>. Der Belagerungszustand <lb/>in den die
                     Linke die Kammer vorgestern <lb/>Abend gesezt ist ein scheussliches
                         factum<supplied cert="high">.</supplied>
                 </p>

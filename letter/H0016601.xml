@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016601">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [13. Mai 1851] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016601">https://edition-humboldt.de/v8/H0016601</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016601</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016601</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016601.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [13. Mai 1851] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016601</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">193</idno>
+                     <idno type="shelfmark">421, Bl. 352r, 353v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1851-05-13">1851-05-13</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Wahlvorschlag für Klotzsch als Mitglied der Akademie am 10.5.1851,
                die Herzogin von Leuchtenberg starb am 13.5. 1851</note>
@@ -81,46 +99,47 @@
             <p>Ich flehe, theurer Ehrenberg, <choice>
                   <orig>das</orig>
                   <reg>dass</reg>
-               </choice> Sie <lb/>brevi manu alles was sich auf <persName ref="http://d-nb.info/gnd/104268190">Link</persName>
+               </choice> Sie <lb/>brevi manu alles was sich auf <persName ref="https://editon-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">Link</persName>
                <lb/>bezieht ausstreichen. Es ist bloss <lb/>Unwissenheit von mir dass damit
                <lb/>anderes Gehalt gemeint werden könnte <lb/>als die Hofnung auf künftige 200
                   Reichsthaler<supplied cert="high">.</supplied>
-               <lb/>Ich hatte geglaubt der Zahlenmann <lb/>sei in <persName ref="http://d-nb.info/gnd/115674667">Kunth’s</persName> Stelle getreten und <lb/>ich wollte <persName ref="http://d-nb.info/gnd/116235454">Klotzsch</persName> ganz, wie Sie, <lb/>bloss zu einem Mitglied der Akademie
+               <lb/>Ich hatte geglaubt der Zahlenmann <lb/>sei in <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth’s</persName> Stelle getreten und <lb/>ich wollte <persName ref="https://editon-humboldt.de/H0001377 http://d-nb.info/gnd/116235454">Klotzsch</persName> ganz, wie Sie, <lb/>bloss zu einem Mitglied der Akademie
                <lb/>vorschlagen. Streichen Sie also ja aus, <lb/>und wenn das nicht hinlänglich ist,
                <lb/>so schicken Sie mir die Prosa wieder <lb/>und schreiben Sie mir vor wie ich
                <lb/>ändern soll. Wie beklage ich Ihr <lb/>langes Leiden und noch mehr dass Sie
-               <lb/>kein Chloroform angewandt haben. Ich <lb/>komme eben von <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>, wo die <lb/>
-                    <persName ref="http://d-nb.info/gnd/118688634">Königin</persName> mit zunehmendem Catharr <lb/>und von der Todesnachricht ihrer
+               <lb/>kein Chloroform angewandt haben. Ich <lb/>komme eben von <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>, wo die <lb/>
+                    <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634">Königin</persName> mit zunehmendem Catharr <lb/>und von der Todesnachricht ihrer
                   <lb/>
-                    <persName ref="http://d-nb.info/gnd/118651110">Stiefschwester</persName> der <choice>
+                    <persName ref="https://editon-humboldt.de/H0004491 http://d-nb.info/gnd/118651110">Stiefschwester</persName> der <choice>
                   <abbr>verw.</abbr>
                   <expan>verwitweten</expan>
                </choice> Herzogin <lb/>
                     <choice>
                   <abbr>v.</abbr>
                   <expan>von</expan>
-               </choice> Leuchtenberg die Reise nach <placeName ref="https://www.geonames.org/756135">
+               </choice> Leuchtenberg die Reise nach <placeName ref="https://editon-humboldt.de/H0007919 https://www.geonames.org/756135">
                         <choice>
                      <abbr>W</abbr>
                      <expan>Warschau</expan>
                   </choice>
                     </placeName>
                <lb/>hat ganz aufgeben müssen. Der <lb/>
-                    <persName ref="http://d-nb.info/gnd/118535994">König</persName> den
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> den
                ich heute habe abreisen <lb/>sehen, ist darüber sehr unglüklich <lb/>und übelgelaunt.
-               Sie wissen er <lb/>steht persönlich in sehr unfreundli<lb/>chem Vernehmen
+               Sie wissen er <lb/>steht persönlich in sehr unfreundli<lb break="no"/>chem Vernehmen
                mit <choice>
                   <abbr>K.</abbr>
                   <expan>Kaiser</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118588079">Nicolaus</persName>
-               <lb/>und die <persName ref="http://d-nb.info/gnd/118688634">Königin</persName> wäre ein calmiren-<lb/>des Mittel gewesen<supplied cert="high">.</supplied> Der geistreiche <lb/>toscanische Botaniker <persName ref="http://d-nb.info/gnd/119129639">Parlatore</persName>
-               <lb/>der nach <placeName ref="https://www.geonames.org/830603">Lappland</placeName> geht ist hier <lb/>und
+               <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Nicolaus</persName>
+               <lb/>und die <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634">Königin</persName> wäre ein calmiren<g ref="#typoHyphen"/>
+                    <lb break="no"/>des Mittel gewesen<supplied cert="high">.</supplied> Der geistreiche <lb/>toscanische Botaniker <persName ref="https://editon-humboldt.de/H0017083 http://d-nb.info/gnd/119129639">Parlatore</persName>
+               <lb/>der nach <placeName ref="https://editon-humboldt.de/H0011377 https://www.geonames.org/830603">Lappland</placeName> geht ist hier <lb/>und
                sehr über <choice>
                   <abbr>Al.</abbr>
                   <expan>Alexander</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/116415576">Braun</persName> in <lb/>Verwunderung<supplied cert="high">.</supplied>
+               <persName ref="https://editon-humboldt.de/H0003603 http://d-nb.info/gnd/116415576">Braun</persName> in <lb/>Verwunderung<supplied cert="high">.</supplied>
             </p>
             <closer rend="paragraph">
                     <signed>AHt</signed>

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018834">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Archivo General de la Nación (Mexiko)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Archivo General de la Nación (Mexiko) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018834.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,22 +20,23 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018834.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018834.xml">
-                    <p>Archivo General de la Nación (Mexiko) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018834.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018834">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/121496-2</idno>
-                    <!--https://www.gob.mx/agn/articulos/el-agnmex-a-226-anos-de-ser-la-memoria-de-mexico / Standort hinzufügen-->
+                    
                     <orgName type="reg">Archivo General de la Nación (Mexiko)</orgName>
                     <orgName type="alt">Archivo General y Público de la Nación</orgName>
                     <orgName type="alt">Archivo de la Secretaría del Virreinato</orgName>
@@ -40,7 +45,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/3530597</idno>
-                            <settlement key="H0008845">Mexiko-Stadt</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0008845">Mexiko-Stadt</settlement>
                         </address>
                     </location>
                 </org>

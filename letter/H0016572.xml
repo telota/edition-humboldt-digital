@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016572">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,31 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1845]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016572">https://edition-humboldt.de/v8/H0016572</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016572</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016572</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016572.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1845]
-            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016572</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">164</idno>
+                     <idno type="shelfmark">421, Bl. 295r, 296v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1845" notAfter="1845">1845-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Eichhorn Kultusminister seit 1840; E.
                                 wohnt bis ca. 1845 in der Französischen Straße</note>
@@ -77,30 +96,31 @@
                </address>
             </opener>
             <pb n="1v"/>
-            <p>Ich war für <hi rendition="#u">Sie</hi> heute früh <lb/>bei <persName ref="http://d-nb.info/gnd/104335262">Eichhorn</persName> um ihm be-<lb/>greiflich zu
+            <p>Ich war für <hi rendition="#u">Sie</hi> heute früh <lb/>bei <persName ref="https://editon-humboldt.de/H0005881 http://d-nb.info/gnd/104335262">Eichhorn</persName> um ihm be<g ref="#typoHyphen"/>
+                    <lb break="no"/>greiflich zu
                machen, was <lb/>man in Ihnen besize, wie <lb/>an Mannichfaltigkeit tiefen
-               <lb/>Wissens Sie <persName>Cuvier</persName> weit <lb/>übertreffen: <hi rendition="#u">Botanik</hi>, philolo<lb/>gisches Wissen, Griechisch <choice>
+               <lb/>Wissens Sie <persName ref="https://editon-humboldt.de/">Cuvier</persName> weit <lb/>übertreffen: <hi rendition="#u">Botanik</hi>, philolo<lb break="no"/>gisches Wissen, Griechisch <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <lb/>Arabisch; dann <hi rendition="#u">eigene</hi> An<lb/>schauung der
+               <lb/>Arabisch; dann <hi rendition="#u">eigene</hi> An<lb break="no"/>schauung der
                Natur als <lb/>kühner Reisender von den <lb/>
-                    <placeName ref="http://d-nb.info/gnd/4060997-2">Tropen</placeName> bis 60° N; wie Sie <lb/>jezt <del rendition="#s">so</del> die
+                    <placeName ref="https://editon-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">Tropen</placeName> bis 60° N; wie Sie <lb/>jezt <del rendition="#s">so</del> die
                Geologie <lb/>bereichern <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> begründen, dass <lb/>bei solcher Begeistigung <lb/>Sie allerdings die
                hiesige <lb/>officielle Vernachlässigung <lb/>
                     <add place="intralinear">Sie</add> habe
-               unheiter machen <lb/>müssen<supplied cert="high">.</supplied> Er hat mir ver<lb/>sprochen, Ihnen volle <lb/>
+               unheiter machen <lb/>müssen<supplied cert="high">.</supplied> Er hat mir ver<lb break="no"/>sprochen, Ihnen volle <lb/>
                     <pb n="2r"/>Freiheit der Auflösung der
                <lb/>Verhältnisse in Hinsicht auf <lb/>
-                    <placeName ref="https://www.geonames.org/357994">Aegypten</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Aegypten</placeName>
                zu lassen: nur <lb/>müsse er bitten, dass <lb/>sein <choice>
                   <abbr>Dep.</abbr>
                   <expan>Departement</expan>
                </choice> nicht scharf <lb/>angegriffen würde, er <lb/>könne die Leute nicht
-               <lb/>hindern sich vertheidi<lb/>gen zu wollen<supplied cert="high">,</supplied>
+               <lb/>hindern sich vertheidi<lb break="no"/>gen zu wollen<supplied cert="high">,</supplied>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>

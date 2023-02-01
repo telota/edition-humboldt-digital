@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017693">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Museum für Naturkunde (Berlin)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Museum für Naturkunde (Berlin) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017693.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,31 +20,32 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017693.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017693.xml">
-                    <p>Museum für Naturkunde (Berlin) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017693.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0017693">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/37657-7</idno>
                     <orgName type="reg">Museum für Naturkunde (Berlin)</orgName>
                     <orgName type="alt">Berliner Museum für Naturkunde</orgName>
-                    <desc>1889 als Einrichtung der <orgName key="H0000603">Universität zu Berlin</orgName> gegründet;
-                        vereinte drei Sammlungen der Universität: das Anatomisch-Zootomische Museum, das <orgName key="H0000563">Mineralogische Museum</orgName> und das <orgName key="H0000606">Zoologische
+                    <desc>1889 als Einrichtung der <orgName ref="https://editon-humboldt.de/H0000603 http://d-nb.info/gnd/1220138-8">Universität zu Berlin</orgName> gegründet;
+                        vereinte drei Sammlungen der Universität: das Anatomisch-Zootomische Museum, das <orgName ref="https://editon-humboldt.de/H0000563 http://d-nb.info/gnd/5050593-2">Mineralogische Museum</orgName> und das <orgName ref="https://editon-humboldt.de/H0000606 http://d-nb.info/gnd/37659-0">Zoologische
                             Museum</orgName>
                     </desc>
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/6698679</idno>
-                            <settlement key="H0005221">Berlin</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005221">Berlin</settlement>
                             <note>Invalidenstraße</note>
                         </address>
                     </location>

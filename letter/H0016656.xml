@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016656">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016656">https://edition-humboldt.de/v8/H0016656</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016656</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016656</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016656.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016656</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">88</idno>
+                     <idno type="shelfmark">421, Bl. 162r, 163v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1836" notAfter="1836" cert="low">1836-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Nennung der “Sabella amphicora” in Brief 83 von 1836</note>
          </correspDesc>
@@ -72,9 +90,9 @@
                </address>
             </opener>
             <pb n="1v"/>
-            <p>Wenn Sie, theurer Freund, <lb/>in der <ref xml:id="eea0441e-b0d5-4103-a044-1eb0d5110310" corresp="#c74dbc19-1e62-4c99-8dbc-191e627c99df">heutigen Staats Zeitung</ref>
-                    <note xml:id="c74dbc19-1e62-4c99-8dbc-191e627c99df" corresp="#eea0441e-b0d5-4103-a044-1eb0d5110310">
-                     <bibl corresp="https://edition-humboldt.de/v8/JZXAVVIG">Allgemeine Preußische Staatszeitung
+            <p>Wenn Sie, theurer Freund, <lb/>in der <ref xml:id="c7f8170b-8753-4a09-b817-0b87532a094e" corresp="#dd7cc6b2-ce7e-4f34-bcc6-b2ce7e9f34a6">heutigen Staats Zeitung</ref>
+                    <note xml:id="dd7cc6b2-ce7e-4f34-bcc6-b2ce7e9f34a6" corresp="#c7f8170b-8753-4a09-b817-0b87532a094e">
+                     <bibl corresp="https://edition-humboldt.de/JZXAVVIG">Allgemeine Preußische Staatszeitung
                         1819</bibl>
                   </note>
                <lb/>Ihre grosse hinteräugige <lb/>Bestie <name type="animal" key="Sabella amphicora">
@@ -98,7 +116,7 @@
                <p>Ich hoffe wir werden <lb/>den <choice>
                      <abbr>Petersb.</abbr>
                      <expan>Petersburger</expan>
-                  </choice> Ruf <lb/>unseres Heinrich <persName ref="http://d-nb.info/gnd/118602640">Rose</persName>
+                  </choice> Ruf <lb/>unseres Heinrich <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">Rose</persName>
                   <lb/>nun endlich benuzen <lb/>können, um zum <lb/>längsterwünschten <lb/>Zwek zu
                      gelangen<supplied cert="high">.</supplied>
                     </p>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016511">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1858] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016511">https://edition-humboldt.de/v8/H0016511</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016511</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016511</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016511.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1858] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016511</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">261</idno>
+                     <idno type="shelfmark">421, Bl. 441r, 442v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1858" notAfter="1858" cert="low">1858-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: nach dem Erscheinen des vierten Bandes von Humboldts “Kosmos”,
                1858</note>
@@ -65,32 +83,32 @@
             <pb n="1r"/>
             <opener>
                     <address>
-                  <addrLine>Herrn Professor <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName>
+                  <addrLine>Herrn Professor <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>
                   </addrLine>
                   <addrLine>Wohlgeboren</addrLine>
                <addrLine>AlHumboldt</addrLine>
                     </address>
                 </opener>
             <pb n="1v"/>
-            <p>Ich bin, da ich im 5ten Bande des <ref xml:id="c658c0e7-487c-4a06-98c0-e7487c4a0602" corresp="#f3ee6ead-f781-46c1-ae6e-adf78146c11c">Kosmos</ref>
-                    <note xml:id="f3ee6ead-f781-46c1-ae6e-adf78146c11c" corresp="#c658c0e7-487c-4a06-98c0-e7487c4a0602">
-                     <bibl corresp="https://edition-humboldt.de/v8/9AHCUY5L">Humboldt 1862</bibl>
+            <p>Ich bin, da ich im 5ten Bande des <ref xml:id="c9a89d6d-df6d-471f-a89d-6ddf6de71fce" corresp="#c0560d6d-2dc1-4c53-960d-6d2dc13c539b">Kosmos</ref>
+                    <note xml:id="c0560d6d-2dc1-4c53-960d-6d2dc13c539b" corresp="#c9a89d6d-df6d-471f-a89d-6ddf6de71fce">
+                     <bibl corresp="https://edition-humboldt.de/9AHCUY5L">Humboldt 1862</bibl>
                   </note> über <lb/>die Maya schreiben muss wieder viel mit <lb/>Ihren <hi rendition="#u">
                         <choice>
                      <sic>bewunderswürdigen</sic>
                      <corr>bewundernswürdigen</corr>
                   </choice>
                     </hi>
-               <ref xml:id="e636b08b-fbe3-44dd-b6b0-8bfbe394dd51" corresp="#d840c4fb-63a7-4f52-80c4-fb63a7cf527d">5 Foliobänden</ref>
-                    <note xml:id="d840c4fb-63a7-4f52-80c4-fb63a7cf527d" corresp="#e636b08b-fbe3-44dd-b6b0-8bfbe394dd51">
-                     <bibl corresp="https://edition-humboldt.de/v8/6RPSFGPB">Ehrenberg 1854</bibl>
+               <ref xml:id="be5a195e-291b-45c0-9a19-5e291b15c035" corresp="#bc90c124-813c-44ad-90c1-24813cb4ade1">5 Foliobänden</ref>
+                    <note xml:id="bc90c124-813c-44ad-90c1-24813cb4ade1" corresp="#be5a195e-291b-45c0-9a19-5e291b15c035">
+                     <bibl corresp="https://edition-humboldt.de/6RPSFGPB">Ehrenberg 1854</bibl>
                   </note> bis <lb/>späte Nacht beschäftigt gewesen<supplied cert="high">.</supplied> Aus
                diesem <lb/>genussreichen Studium dem leider andere <lb/>Geognosten (vornehm oder
                faul sich gebahrend) <lb/>wenig nachhängen<supplied>,</supplied> entstehen bei mir
                   Bitten<supplied cert="high">.</supplied>
                <lb/>1) Alle unzweifelhafte enge Einschluss <subst>
                   <del rendition="#ow">ver</del>
-                  <add place="across">Ver<lb/>bindungen</add>
+                  <add place="across">Ver<lb break="no"/>bindungen</add>
                </subst> von Infusorien mit <hi rendition="#u">ächt</hi>
                <choice>
                   <abbr>vulkan.</abbr>
@@ -98,13 +116,13 @@
                </choice>
                <lb/>Erzeugnissen haben grosses Interesse für <lb/>mich. Ich irre mich doch
                   <supplied>nicht</supplied> dass ich in <lb/>Ihren Schriften irgendwo gelesen habe,
-               <lb/>immer <placeName ref="https://edition-humboldt.de/v8/H0000339">Kammerbühl</placeName>-Vulkan bei
+               <lb/>immer <placeName ref="https://editon-humboldt.de/H0000339">Kammerbühl</placeName>-Vulkan bei
                   <lb/>
-                    <placeName ref="https://www.geonames.org/3077834">Eger</placeName> seine Infusorien in ausgeworfenen
+                    <placeName ref="https://editon-humboldt.de/H0017580 https://www.geonames.org/3077834">Eger</placeName> seine Infusorien in ausgeworfenen
                <lb/>vulkanischen Kugeln vorhanden<supplied cert="high">.</supplied> Haben Sie
                <lb/>es wo gedrukt, ich möchte citiren<supplied cert="high">.</supplied>
                <lb/>2) Können Sie mir leihen was Sie vom <lb/>
-                    <placeName ref="https://www.geonames.org/2931919">Eifeler</placeName> Bimstein <choice>
+                    <placeName ref="https://editon-humboldt.de/H0017512 https://www.geonames.org/2931919">Eifeler</placeName> Bimstein <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> Infusorien in <hi rendition="#u">Bimstein</hi>
@@ -112,21 +130,21 @@
                     <del rendition="#s">
                         <gap reason="illegible" unit="words" quantity="2"/>
                     </del>
-               Brocken bei <placeName ref="https://www.geonames.org/2943897">Brohl</placeName>
+               Brocken bei <placeName ref="https://editon-humboldt.de/H0017572 https://www.geonames.org/2943897">Brohl</placeName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <placeName ref="https://www.geonames.org/2903027">Hochsimmer</placeName>
-               <lb/>gesagt <ref xml:id="b559b1c8-c943-4f37-99b1-c8c943df3732" corresp="#e2e18625-a3c6-4e72-a186-25a3c62e7253">
+               <placeName ref="https://editon-humboldt.de/H0017353 https://www.geonames.org/2903027">Hochsimmer</placeName>
+               <lb/>gesagt <ref xml:id="c06c8687-1142-4f4e-ac86-8711424f4ebf" corresp="#e4f728c7-e586-441f-b728-c7e586341f13">
                         <hi rendition="#u">Monatsberichte</hi> 1844 <choice>
                         <abbr>p</abbr>
                         <expan>pagina</expan>
                      </choice> 337</ref>
-                    <note xml:id="e2e18625-a3c6-4e72-a186-25a3c62e7253" corresp="#b559b1c8-c943-4f37-99b1-c8c943df3732">
-                     <bibl corresp="https://edition-humboldt.de/v8/IIIKWS2X">Königlich Preuß. Akademie der
+                    <note xml:id="e4f728c7-e586-441f-b728-c7e586341f13" corresp="#c06c8687-1142-4f4e-ac86-8711424f4ebf">
+                     <bibl corresp="https://edition-humboldt.de/IIIKWS2X">Königlich Preuß. Akademie der
                         Wissenschaften 1844</bibl>
-                  </note>; <ref xml:id="bc7b1893-07e2-426c-bb18-9307e2826cab" corresp="#a4b12fa4-2ab4-4fc8-b12f-a42ab4efc80d">1849 <lb/>
+                  </note>; <ref xml:id="ef544ea5-0dfa-4798-944e-a50dfae7983b" corresp="#de548054-630f-43b2-9480-54630ff3b2b8">1849 <lb/>
                         <choice>
                         <abbr>p</abbr>
                         <expan>pagina</expan>
@@ -134,17 +152,17 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                      </choice> 148</ref>
-                    <note xml:id="a4b12fa4-2ab4-4fc8-b12f-a42ab4efc80d" corresp="#bc7b1893-07e2-426c-bb18-9307e2826cab">
-                     <bibl corresp="https://edition-humboldt.de/v8/77CFVDBE">Königlich Preuß. Akademie der
+                    <note xml:id="de548054-630f-43b2-9480-54630ff3b2b8" corresp="#ef544ea5-0dfa-4798-944e-a50dfae7983b">
+                     <bibl corresp="https://edition-humboldt.de/77CFVDBE">Königlich Preuß. Akademie der
                         Wissenschaften 1849</bibl>
-                  </note>; <ref xml:id="fe4f9948-3107-42a4-8f99-483107b2a474" corresp="#f6503849-898f-4449-9038-49898fd449f6">1846 <choice>
+                  </note>; <ref xml:id="c2cb04b4-82bc-4056-8b04-b482bc40563f" corresp="#b4cf844e-3e74-40c0-8f84-4e3e7400c0d9">1846 <choice>
                         <abbr>S.</abbr>
                         <expan>Seite</expan>
                      </choice> 161–171</ref>
-                    <note xml:id="f6503849-898f-4449-9038-49898fd449f6" corresp="#fe4f9948-3107-42a4-8f99-483107b2a474">
-                     <bibl corresp="https://edition-humboldt.de/v8/WIHHLTX3">Königlich Preuß. Akademie der
+                    <note xml:id="b4cf844e-3e74-40c0-8f84-4e3e7400c0d9" corresp="#c2cb04b4-82bc-4056-8b04-b482bc40563f">
+                     <bibl corresp="https://edition-humboldt.de/WIHHLTX3">Königlich Preuß. Akademie der
                         Wissenschaften 1846</bibl>
-                  </note> gesagt <lb/>haben. Ich citirte dies alles <ref xml:id="f88ae128-3fa3-476e-8ae1-283fa3576e3f" corresp="#b499c962-7e06-413f-99c9-627e06a13f67">Kosmos <lb/>
+                  </note> gesagt <lb/>haben. Ich citirte dies alles <ref xml:id="d3e4e10e-5813-49b8-a4e1-0e5813e9b8e4" corresp="#bd2f1487-e9df-4d50-af14-87e9df8d5051">Kosmos <lb/>
                         <choice>
                         <abbr>B</abbr>
                         <expan>Band</expan>
@@ -152,8 +170,8 @@
                         <abbr>p</abbr>
                         <expan>pagina</expan>
                      </choice> 519</ref>
-                    <note xml:id="b499c962-7e06-413f-99c9-627e06a13f67" corresp="#f88ae128-3fa3-476e-8ae1-283fa3576e3f">
-                     <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt 1845-1862</bibl>
+                    <note xml:id="bd2f1487-e9df-4d50-af14-87e9df8d5051" corresp="#d3e4e10e-5813-49b8-a4e1-0e5813e9b8e4">
+                     <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845-1862</bibl>
                   </note>
                     <supplied cert="high">.</supplied> Es kostet mir zu viel <lb/>Zeit zu suchen
                und ich gebe bald wieder<supplied cert="high">.</supplied>

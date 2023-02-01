@@ -1,12 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0020089">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>, </title>
+                <title>
+                    <name>Almo</name>
+                </title>
             </titleStmt>
+            <editionStmt>
+                <p>Almo [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0020089.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,24 +22,25 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0020089.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0020089.xml">
-                    <p>,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0020089.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person role="mythological" xml:id="H0020089">
+                <person>
                     <persName type="reg">
                         <name>Almo</name>
                     </persName>
-                    <note>Flussgott des <placeName key="H0019884">Fosso
+                    <note>Flussgott des <placeName ref="https://editon-humboldt.de/H0019884 https://www.geonames.org/3183255">Fosso
                             dell’Almone</placeName> im antiken Rom</note>
                 </person>
             </listPerson>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016614">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Dezember
+               1854] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016614">https://edition-humboldt.de/v8/H0016614</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016614</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016614</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016614.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Dezember
-               1854] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016614</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">206</idno>
+                     <idno type="shelfmark">421, Bl. 378r, 379v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1854-12" notAfter="1854-12">1854-12-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Am 24.12.1854 teilte E. H. mit, dass ihm der rote Adlerorden mit
                Eichenlaub verliehen worden sei. (Brief Nr. 269 E7)</note>
@@ -80,28 +98,28 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Der <persName ref="http://d-nb.info/gnd/118535994">König</persName>, theurer Freund, hat sich sehr
+            <p>Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>, theurer Freund, hat sich sehr
                <lb/>warm <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> rührend über seine Zerstreut<lb/>heit entschuldigt. Er hat
+               </choice> rührend über seine Zerstreut<lb break="no"/>heit entschuldigt. Er hat
                gesehen <lb/>und will wieder bewundern. Er befahl <lb/>dem Adjutanten heute Abend den
                   <lb/>
-                    <ref xml:id="d6a39e8f-859e-4c13-a39e-8f859edc13fc" corresp="#ec534845-0bcc-47be-9348-450bcc47be8e">Schatz</ref>
-                    <note xml:id="ec534845-0bcc-47be-9348-450bcc47be8e" corresp="#d6a39e8f-859e-4c13-a39e-8f859edc13fc">
-                     <bibl corresp="https://edition-humboldt.de/v8/6RPSFGPB">Ehrenberg 1854</bibl>
-                  </note> wieder bei der <persName>Königin</persName> hinein <lb/>
-                    <add place="intralinear">legen</add> zu lassen. Der <persName ref="http://d-nb.info/gnd/118535994">König</persName> hat zum <lb/>Danke befohlen <lb/>dass Ihnen der Rothe Adler
+                    <ref xml:id="c20fda59-0779-4c78-8fda-5907793c78dd" corresp="#dac7af6d-b38c-4cd1-87af-6db38cacd1ba">Schatz</ref>
+                    <note xml:id="dac7af6d-b38c-4cd1-87af-6db38cacd1ba" corresp="#c20fda59-0779-4c78-8fda-5907793c78dd">
+                     <bibl corresp="https://edition-humboldt.de/6RPSFGPB">Ehrenberg 1854</bibl>
+                  </note> wieder bei der <persName ref="https://editon-humboldt.de/">Königin</persName> hinein <lb/>
+                    <add place="intralinear">legen</add> zu lassen. Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> hat zum <lb/>Danke befohlen <lb/>dass Ihnen der Rothe Adler
                <lb/>Orden 2ter Klasse ge- <lb/>geben werde und zwar <lb/>gleich nicht im Januar.
                <lb/>Es ist doch gewiss dass Sie diese <lb/>Klasse schon haben: es haben sie
                   <lb/>
-                    <persName ref="http://d-nb.info/gnd/100190014">Lichtenstein</persName>, <persName ref="http://d-nb.info/gnd/11712110X">Olfers</persName>
+                    <persName ref="https://editon-humboldt.de/H0004521 http://d-nb.info/gnd/100190014">Lichtenstein</persName>, <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">Olfers</persName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/11860130X">Ritter</persName>; nicht <lb/>
-                    <persName ref="http://d-nb.info/gnd/116471727">Encke</persName>
+               <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Ritter</persName>; nicht <lb/>
+                    <persName ref="https://editon-humboldt.de/H0005930 http://d-nb.info/gnd/116471727">Encke</persName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
@@ -110,7 +128,7 @@
                   <abbr>Joh.</abbr>
                   <expan>Johannes</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118585053">Müller</persName>. Nothwendig<supplied cert="high">e</supplied>
+               <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName>. Nothwendig<supplied cert="high">e</supplied>
                <lb/>Spielwerke des Lebens. <hi rendition="#u">Schreiben</hi>
                <lb/>Sie mir dass Sie die <hi rendition="#u">2<hi rendition="#sup">te</hi>
                     </hi>

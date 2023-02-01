@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004567">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Litvinov, Aleksandr Narkizovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Litvinov, Aleksandr Narkizovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004567.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004567.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004567.xml">
-                    <p>Litvinov, Aleksandr Narkizovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004567.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004567">
+                <person>
                     <idno type="uri">http://viaf.org/viaf/16424875</idno>
                     <persName type="reg">
                         <surname>Litvinov</surname>
@@ -44,10 +49,10 @@
                     </persName>
                     <birth>1796</birth>
                     <death>1839</death>
-                    <note>russischer Generalmajor; vermutlich der in <placeName key="H0009468">Tomsk</placeName>
+                    <note>russischer Generalmajor; vermutlich der in <placeName ref="https://editon-humboldt.de/H0009468 https://www.geonames.org/1489425">Tomsk</placeName>
                         stationierte Kommandeur der Grenztruppen an der Irtysch-Linie, der Humboldt auf Befehl des
-                        Generalgouverneurs <persName key="H0002807">Vel’jaminov</persName> vom 4. bis 28. August 1829
-                        von <placeName key="H0005133">Barnaul</placeName> zur chinesischen Grenze und bis <placeName key="H0007824">Omsk</placeName> begleitete <!-- Vgl. Rose 1837/1842, I, 522, 598, II, 14.-->
+                        Generalgouverneurs <persName ref="https://editon-humboldt.de/H0002807">Vel’jaminov</persName> vom 4. bis 28. August 1829
+                        von <placeName ref="https://editon-humboldt.de/H0005133 https://www.geonames.org/1510853">Barnaul</placeName> zur chinesischen Grenze und bis <placeName ref="https://editon-humboldt.de/H0007824 https://www.geonames.org/1496153">Omsk</placeName> begleitete 
                     </note>
                     <linkGrp>
                         <ptr subtype="comment" target="30#[156]" type="page"/>

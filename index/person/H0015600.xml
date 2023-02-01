@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015600">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Schmidt, Johann Friedrich Paul</title>
             </titleStmt>
+            <editionStmt>
+                <p>Schmidt, Johann Friedrich Paul [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015600.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015600.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015600.xml">
-                    <p>Schmidt, Johann Friedrich Paul [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015600.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015600">
+                <person>
                     <persName type="reg">
                         <surname>Schmidt</surname>
                         <forename>Johann Friedrich Paul</forename>
@@ -37,8 +42,7 @@
                     <floruit notBefore="1790" notAfter="1794">um 1790-1794</floruit>
                     <note>Kaufmann aus Coburg; Mitbegründer der königlich privilegierten Porzellanfabrik in Tettau in
                         Oberfranken
-                        <!--(gehört seit 1957 zur Firmengruppe Seltmannn Weiden) Soll das wirklich ins Register, FS, 30.04.2020?-->
-                    </note>
+                        </note>
                     <linkGrp>
                         <ptr subtype="sentFrom" target="02#183" type="letter"/>
                         <ptr target="02#176" type="letter"/>

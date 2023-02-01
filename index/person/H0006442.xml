@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0006442">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Witte, Samuel Simon</title>
             </titleStmt>
+            <editionStmt>
+                <p>Witte, Samuel Simon [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0006442.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0006442.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0006442.xml">
-                    <p>Witte, Samuel Simon [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0006442.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0006442">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/117420751</idno>
                     <persName type="reg">
                         <surname>Witte</surname>
@@ -38,8 +43,8 @@
                     <birth>1738</birth>
                     <death>1802</death>
                     <note>Professor für Logik und Metaphysik (1766-1772), für Natur- und Völkerrecht (1772-1789) an der
-                            <orgName key="H0018855">Universität Bützow</orgName>; 1782 Hofrat; nach der Vereinigung der
-                            <orgName key="H0018855">Akademie zu Bützow</orgName> mit der Universität Rostock 1789
+                            <orgName ref="https://editon-humboldt.de/H0018855 http://d-nb.info/gnd/5025548-4">Universität Bützow</orgName>; 1782 Hofrat; nach der Vereinigung der
+                            <orgName ref="https://editon-humboldt.de/H0018855 http://d-nb.info/gnd/5025548-4">Akademie zu Bützow</orgName> mit der Universität Rostock 1789
                         Professor in Rostock</note>
                     <linkGrp>
                         <ptr target="02#34" type="letter"/>

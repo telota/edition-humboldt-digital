@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018139">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Cherson (Stadt)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Cherson (Stadt) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018139.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018139.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018139.xml">
-                    <p>Cherson (Stadt) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018139.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018139">
+                <place>
                     <idno type="uri">https://www.geonames.org/706448</idno>
                     <placeName type="reg">Cherson (Stadt)</placeName>
                     <placeName type="alt">Kherson</placeName>
                     <placeName type="alt">Херсон</placeName>
-                    <note>Stadt im Norden des <placeName key="H0010175">Schwarzen Meeres</placeName>
-                        nahe der <placeName key="H0018156">Dnepr</placeName>-Mündung (<placeName key="H0009637">Ukraine</placeName>)</note>
+                    <note>Stadt im Norden des <placeName ref="https://editon-humboldt.de/H0010175">Schwarzen Meeres</placeName>
+                        nahe der <placeName ref="https://editon-humboldt.de/H0018156 https://www.geonames.org/565896">Dnepr</placeName>-Mündung (<placeName ref="https://editon-humboldt.de/H0009637 https://www.geonames.org/690791">Ukraine</placeName>)</note>
                 </place>
             </listPlace>
         </body>

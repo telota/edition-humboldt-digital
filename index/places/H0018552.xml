@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018552">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Tišanka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Tišanka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018552.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +20,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018552.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018552.xml">
-                    <p>Tišanka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018552.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018552">
+                <place>
                     <idno type="uri">https://www.geonames.org/482749</idno>
                     <placeName type="reg">Tišanka</placeName>
                     <placeName type="alt">Тишанка</placeName>
                     <placeName type="alt">Tishanka</placeName>
-                    <note>Zufluss des <placeName key="H0005539">Don</placeName> nordwestlich von <placeName key="H0017314">Volgograd</placeName> (<placeName key="H0010689">Russland</placeName>)</note>
+                    <note>Zufluss des <placeName ref="https://editon-humboldt.de/H0005539 https://www.geonames.org/565361">Don</placeName> nordwestlich von <placeName ref="https://editon-humboldt.de/H0017314 https://www.geonames.org/472752">Volgograd</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>)</note>
                 </place>
             </listPlace>
         </body>

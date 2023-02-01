@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016100">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Stolberg-Stolberg, Christian zu</title>
             </titleStmt>
+            <editionStmt>
+                <p>Stolberg-Stolberg, Christian zu [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0016100.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016100.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0016100.xml">
-                    <p>Stolberg-Stolberg, Christian zu [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0016100.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0016100">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118755544</idno>
                     <persName type="reg">
                         <surname>Stolberg-Stolberg</surname>
@@ -41,7 +46,7 @@
                     </persName>
                     <birth>1748</birth>
                     <death>1821</death>
-                    <note>Dichter; 1777–1800 Amtmann in Tremsbüttel; Bruder von <persName key="H0016102">Friedrich
+                    <note>Dichter; 1777–1800 Amtmann in Tremsbüttel; Bruder von <persName ref="https://editon-humboldt.de/H0016102 http://d-nb.info/gnd/118755552">Friedrich
                             Leopold Graf zu Stolberg-Stolberg</persName>
                     </note>
                     <linkGrp>

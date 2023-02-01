@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019758">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Río Kako</title>
             </titleStmt>
+            <editionStmt>
+                <p>Río Kako [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019758.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019758.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019758.xml">
-                    <p>Río Kako [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019758.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019758">
+                <place>
                     <idno type="uri">https://www.geonames.org/3661295</idno>
                     <placeName type="reg">Río Kako</placeName>
                     <placeName type="alt">Kako River</placeName>
                     <placeName type="alt">Río Cacko</placeName>
                     <placeName type="alt">Río Cako</placeName>
-                    <note>westlicher Zufluss des <placeName key="H0008782">Río Mazaruní</placeName> (vgl. <bibl sameAs="zotero-667230-JWV9EW66">Schomburgk, R. H./Arrowsmith 1840</bibl>) (Guyana)</note>
+                    <note>westlicher Zufluss des <placeName ref="https://editon-humboldt.de/H0008782 https://www.geonames.org/3376986">Río Mazaruní</placeName> (vgl. <bibl corresp="https://edition-humboldt.de/JWV9EW66">Schomburgk, R. H./Arrowsmith 1840</bibl>) (Guyana)</note>
                 </place>
             </listPlace>
         </body>

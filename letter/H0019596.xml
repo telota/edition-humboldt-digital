@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019596">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,30 +28,47 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Otto Schomburgk an Alexander von Humboldt. Hamburg, 21. März 1849, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019596">https://edition-humboldt.de/v8/H0019596</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019596</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019596</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019596.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Otto Schomburgk an Alexander von Humboldt. Hamburg, 21. März 1849. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019596</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Museum Jijón y Caamaño, Quito</institution>
+                        <collection/>
+                        <idno>Nr. 24</idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
-                    <placeName ref="https://www.geonames.org/2911298">Hamburg (freie Hansestadt an der Elbe in
+                    <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg (freie Hansestadt an der Elbe in
                         Norddeutschland)</placeName>
                     <date when="1849-03-21" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -65,7 +82,7 @@
                     <dateline/>
                     <salute>Excellenz,</salute>
                 </opener>
-				<p>Ich kann vom <placeName ref="https://www.geonames.org/2921044">Vaterland</placeName> nicht scheiden, ohne Ihnen noch
+				<p>Ich kann vom <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Vaterland</placeName> nicht scheiden, ohne Ihnen noch
                     einmal unseren innigsten,
                         <lb/>tiefsten
                     Scheidegruß zuzurufen, wenn auch unser Fuß noch auf <choice>
@@ -76,7 +93,7 @@
                         </hi> März</date> verlassen können. Die
                     wahrhaft riesigen <lb/>Massen von Gepäck können erst bis dahin verpackt werden
                     und müssen sogar <lb/>noch in Bezug auf ihr Volumen noch vielfacher Veränderung
-                    unterworfen werden. <lb/>Der Sonntag ist der Scheidetag vom <placeName ref="https://www.geonames.org/2921044">Vaterlande</placeName>, der Tag wo unser Herz <choice>
+                    unterworfen werden. <lb/>Der Sonntag ist der Scheidetag vom <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Vaterlande</placeName>, der Tag wo unser Herz <choice>
                         <sic>den</sic>
                         <corr cert="high">dem</corr>
                     </choice>
@@ -90,24 +107,25 @@
                         <del rendition="#ow">en</del>
                         <add place="across">e</add>
                     </subst> Band durchschnitten zu sehen, das <lb/>es an jenes knüpft.</p>
-                <p>Ich benutze den ersten freien Augenblick, der mir wird, um Euer Excellenz mitzu-<lb/>theilen, daß mir Herr <persName ref="http://d-nb.info/gnd/116876956">
+                <p>Ich benutze den ersten freien Augenblick, der mir wird, um Euer Excellenz mitzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>theilen, daß mir Herr <persName ref="https://editon-humboldt.de/H0014098 http://d-nb.info/gnd/116876956">
                         <choice>
                             <abbr>Alex.</abbr>
                             <expan>Alexander</expan>
-                        </choice> Mendelssohn</persName> einen Wechsel auf meinen Cousin, <persName ref="https://edition-humboldt.de/v8/H0020139">Carl <lb/>Schomburgk</persName> in <placeName ref="https://www.geonames.org/2911298">Hamburg</placeName> gegeben, den dieser auch acceptirt hat,
+                        </choice> Mendelssohn</persName> einen Wechsel auf meinen Cousin, <persName ref="https://editon-humboldt.de/H0020139">Carl <lb/>Schomburgk</persName> in <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName> gegeben, den dieser auch acceptirt hat,
                     so daß wir durch <lb/>die Güte dieser beiden Männer aus einer Verlegenheit
                     gerissen sind, die uns <lb/>gewiß manche trübe Stunde noch trüber gemacht. Dank
-                    Ihnen, edler Mann, daß <lb/>durch Ihre gütigen Zeilen Herr <persName ref="http://d-nb.info/gnd/116876956">
+                    Ihnen, edler Mann, daß <lb/>durch Ihre gütigen Zeilen Herr <persName ref="https://editon-humboldt.de/H0014098 http://d-nb.info/gnd/116876956">
                         <choice>
                             <abbr>Alex.</abbr>
                             <expan>Alexander</expan>
                         </choice> Mendelssohn</persName> bewogen worden ist, sich unser
                     <lb/>anzunehmen.</p>
                 <p>
-                    <persName ref="http://d-nb.info/gnd/118759078">Richard</persName> und die beiden <ref xml:id="e0508177-91a7-45ff-9081-7791a705ff1e" corresp="#b92d46d2-ec64-4efd-ad46-d2ec64defd50">Frauen</ref>
-                    <note xml:id="b92d46d2-ec64-4efd-ad46-d2ec64defd50" corresp="#e0508177-91a7-45ff-9081-7791a705ff1e">
-                        <persName ref="https://edition-humboldt.de/v8/H0020140">Maria</persName>
-                            und <persName ref="https://edition-humboldt.de/v8/H0020142">Pauline Henrietta
+                    <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Richard</persName> und die beiden <ref xml:id="d79763b4-e1cd-49f0-9763-b4e1cde9f067" corresp="#e1fdb2b0-a42b-4656-bdb2-b0a42ba656f7">Frauen</ref>
+                    <note xml:id="e1fdb2b0-a42b-4656-bdb2-b0a42ba656f7" corresp="#d79763b4-e1cd-49f0-9763-b4e1cde9f067">
+                        <persName ref="https://editon-humboldt.de/H0020140">Maria</persName>
+                            und <persName ref="https://editon-humboldt.de/H0020142">Pauline Henrietta
                                 Schomburgk</persName>.</note> sind eben an Bord und richten unsere kleine Coje <lb/>her, um den
                     kümmerlichen Raum, der uns geworden, wenigstens so freundlich als <lb/>möglich
                         auszustaffiren<supplied cert="high">.</supplied> Alle drei stimmen vom Grund
@@ -117,15 +135,15 @@
                     bleiben wird.</p>
                 <closer>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/2911298">Hamburg</placeName> den <date>21<hi rendition="#sup">
+                        <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName> den <date>21<hi rendition="#sup">
                                 <hi rendition="#u">sten</hi>
                             </hi> März
                         1849</date>.</dateline>
                     <signed>
-                        <persName ref="http://d-nb.info/gnd/116911921">Otto Schomburgk</persName>
+                        <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto Schomburgk</persName>
                         <lb/>(Ferdinand
-                        Blass &amp; <persName ref="https://edition-humboldt.de/v8/H0020139">Schomburgk</persName>
-                        <placeName ref="https://www.geonames.org/2911298">Hamburg</placeName>)</signed>
+                        Blass &amp; <persName ref="https://editon-humboldt.de/H0020139">Schomburgk</persName>
+                        <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName>)</signed>
                     <pb n="1v"/>
                     <address>
                         <addrLine>
@@ -136,7 +154,7 @@
                         <addrLine>dem Wirklichen Geheimen Rath Alexander</addrLine>
                         <addrLine>von Humboldt. Ritter höchster Orden etc.</addrLine>
                         <addrLine>
-                            <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                         </addrLine>
                         <addrLine>
                             <choice>

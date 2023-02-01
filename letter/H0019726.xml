@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019726">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -11,41 +11,62 @@
                         </persName>
                     </editor>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Sonnabend, [23.
+                    April 1831], hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019726">https://edition-humboldt.de/v8/H0019726</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019726</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019726</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019726.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Sonnabend, [23.
-                    April 1831]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019726</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Stadtarchiv Augsburg</institution>
+                        <collection>Archiv des Historischen Vereins für Schwaben</collection>
+                        <idno>HV H 271, Bl. 148r, 149v</idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 28.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <date when="1831-04-23" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
                 <note>Zur Datierung: Der Brief trägt den Poststempel 23. April 1823. Im April 1831
                     bemühte sich Humboldt bei französischen Regierungsstellen um eine
-                    Überfahrtmöglichkeit für <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName> nach
-                        <placeName ref="https://edition-humboldt.de/v8/H0002429">Amerika</placeName>. Am Sonntag, 24. April teilte
-                    Humboldt dem im vorliegenden Brief erwähnten Handelsminister <persName ref="http://d-nb.info/gnd/116340177">d’Argout</persName> mit, dass <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName> wider Erwarten bereits eine Schiffspassage von
-                        <placeName ref="https://www.geonames.org/3031582">Bordeaux</placeName> nach <placeName ref="https://www.geonames.org/3514783">Veracruz</placeName> gefunden habe und noch am selben Tag
-                        <placeName ref="https://www.geonames.org/2988507">Paris</placeName> verlassen werde (Alexander von
-                    Humboldt an <persName ref="http://d-nb.info/gnd/116340177">Antoine Maurice Apollinaire
-                        d’Argout</persName>, [<placeName ref="https://www.geonames.org/2988507">Paris</placeName>], 24.
-                    April [1831], Wellcome Collection London, MS. 6468.9). Vgl. auch den <ref target="H0019578">folgenden Brief Humboldts an
+                    Überfahrtmöglichkeit für <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName> nach
+                        <placeName ref="https://editon-humboldt.de/H0002429">Amerika</placeName>. Am Sonntag, 24. April teilte
+                    Humboldt dem im vorliegenden Brief erwähnten Handelsminister <persName ref="https://editon-humboldt.de/H0012705 http://d-nb.info/gnd/116340177">d’Argout</persName> mit, dass <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName> wider Erwarten bereits eine Schiffspassage von
+                        <placeName ref="https://editon-humboldt.de/H0005318 https://www.geonames.org/3031582">Bordeaux</placeName> nach <placeName ref="https://editon-humboldt.de/H0009125 https://www.geonames.org/3514783">Veracruz</placeName> gefunden habe und noch am selben Tag
+                        <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> verlassen werde (Alexander von
+                    Humboldt an <persName ref="https://editon-humboldt.de/H0012705 http://d-nb.info/gnd/116340177">Antoine Maurice Apollinaire
+                        d’Argout</persName>, [<placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>], 24.
+                    April [1831], Wellcome Collection London, MS. 6468.9). Vgl. auch den <ref target="https://edition-humboldt.de/H0019578">folgenden Brief Humboldts an
                     Rugendas</ref>.</note>
             </correspDesc>
         </profileDesc>
@@ -64,30 +85,30 @@
                         </abbr>
                         <expan>Général</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/11637554X">Athalin</persName>. Il se <lb/>souvient très bien
+                    <persName ref="https://editon-humboldt.de/H0019444 http://d-nb.info/gnd/11637554X">Athalin</persName>. Il se <lb/>souvient très bien
                     de <lb/>Votre beau travail: il <lb/>m’a dit que la chose <lb/>ne peut être
-                    proposée <lb/>au <persName ref="http://d-nb.info/gnd/11864064X">Roi</persName> que par <choice>
+                    proposée <lb/>au <persName ref="https://editon-humboldt.de/H0000238 http://d-nb.info/gnd/11864064X">Roi</persName> que par <choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
                     <lb/>
-                    <persName ref="http://d-nb.info/gnd/116340177">d’Argout</persName>, qu’il a écrit <lb/>à ce
-                        <persName ref="http://d-nb.info/gnd/116340177">Ministre</persName>
+                    <persName ref="https://editon-humboldt.de/H0012705 http://d-nb.info/gnd/116340177">d’Argout</persName>, qu’il a écrit <lb/>à ce
+                        <persName ref="https://editon-humboldt.de/H0012705 http://d-nb.info/gnd/116340177">Ministre</persName>
                     en
-                    Votre <lb/>faveur: Il m’a engagé <lb/>de le faire aussi. Voi<lb/>là,
+                    Votre <lb/>faveur: Il m’a engagé <lb/>de le faire aussi. Voi<lb break="no"/>là,
                     mon cher <choice>
                         <abbr>Mr</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/118750321">Ru<lb/>gendas</persName>, ce que j’ai fait
-                    <lb/>ce <hi rendition="#u">matin</hi> de la ma<lb/>nière la plus
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Ru<lb break="no"/>gendas</persName>, ce que j’ai fait
+                    <lb/>ce <hi rendition="#u">matin</hi> de la ma<lb break="no"/>nière la plus
                     expressive <lb/>en nommant <choice>
                         <abbr>Mr.</abbr>
                         <expan>Monsieur</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/118677578">Cuvier</persName>
-                    <lb/>et <persName ref="http://d-nb.info/gnd/119284936">Gérard</persName>. J’ai le <lb/>meilleur espoir
-                    et je n’<lb/>ai rien négligé<supplied cert="high">.</supplied>
+                    <persName ref="https://editon-humboldt.de/H0013277 http://d-nb.info/gnd/118677578">Cuvier</persName>
+                    <lb/>et <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">Gérard</persName>. J’ai le <lb/>meilleur espoir
+                    et je n’<lb break="no"/>ai rien négligé<supplied cert="high">.</supplied>
                 </p>
 				<closer>
                     <signed>A.Humboldt</signed>
@@ -99,7 +120,7 @@
 				    <pb n="149v"/>
                     <address>
 				        <addrLine>à Monsieur</addrLine>
-				        <addrLine>Monsieur <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>
+				        <addrLine>Monsieur <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>
                         </addrLine>
 				        <addrLine>quai Malaquai 15.</addrLine>
 				    </address>

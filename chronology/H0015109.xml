@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015109">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7,29 +7,38 @@
                     </title>
                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor> <persName ref="http://d-nb.info/gnd/123964172"> <surname>Schwarz</surname> <forename>Ingo</forename> </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (13. April 1790) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015109">https://edition-humboldt.de/v8/H0015109</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0015109</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015109</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015109.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1790. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0015109</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> H. und <persName ref="http://d-nb.info/gnd/118534416">Forster</persName> reisen von <placeName ref="https://www.geonames.org/2998324">Lille</placeName> über <placeName ref="https://www.geonames.org/3036903">Armentières</placeName>, <placeName ref="www.geonames.org/3035359">Bailleul</placeName>,
-                        <placeName ref="https://www.geonames.org/3028440">Cassel</placeName> und <placeName ref="https://www.geonames.org/6450061">Bergen</placeName> nach <placeName ref="https://www.geonames.org/6614519">Dünkirchen</placeName>. Am Abend besuchen
+                <p> H. und <persName ref="https://editon-humboldt.de/H0000177 http://d-nb.info/gnd/118534416">Forster</persName> reisen von <placeName ref="https://editon-humboldt.de/H0017722 https://www.geonames.org/2998324">Lille</placeName> über <placeName ref="https://editon-humboldt.de/H0017731 https://www.geonames.org/3036903">Armentières</placeName>, <placeName ref="https://editon-humboldt.de/H0017806 www.geonames.org/3035359">Bailleul</placeName>,
+                        <placeName ref="https://editon-humboldt.de/H0017742 https://www.geonames.org/3028440">Cassel</placeName> und <placeName ref="https://editon-humboldt.de/H0017808 https://www.geonames.org/6450061">Bergen</placeName> nach <placeName ref="https://editon-humboldt.de/H0005577 https://www.geonames.org/6614519">Dünkirchen</placeName>. Am Abend besuchen
                     sie eine <ref target="http://www.deutschestextarchiv.de/forster_niederrhein02_1791/243">Theateraufführung</ref>. </p>
             </body>
         </text>

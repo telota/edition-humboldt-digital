@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019585">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -20,30 +20,58 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Mittwoch, [15.
+                    Dezember 1830], hg. v. Ulrich Päßler unter Mitarbeit von Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019585">https://edition-humboldt.de/v8/H0019585</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019585</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019585</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019585.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Mittwoch, [15.
-                    Dezember 1830]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019585</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno>
+                            <idno type="shelfmark">I/530/10</idno>, Bl. 1r, 2v<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051312</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert
+                            1952</bibl>, 50.</witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 27.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                     <date when="1830-12-15" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -58,16 +86,16 @@
 				<pb n="1r"/>
                 <p>Meinen innigsten Dank für Ihre
                         <lb/>schönen
-                        <bibl corresp="https://edition-humboldt.de/v8/4M7BCH3N">Hefte</bibl>. Meine durch <lb/>
-                    <ref xml:id="d0d5b8a8-d33a-4936-95b8-a8d33ac936ea" corresp="#dc5dfad9-df9a-48f5-9dfa-d9df9aa8f5f9">die wilden Begebenheiten an <lb/>der <placeName ref="https://www.geonames.org/3081873">Weichsel</placeName>
+                        <bibl corresp="https://edition-humboldt.de/4M7BCH3N">Hefte</bibl>. Meine durch <lb/>
+                    <ref xml:id="ffe8fd80-44ec-4bbb-a8fd-8044ec3bbb25" corresp="#cf27104d-f530-4cae-a710-4df5301cae28">die wilden Begebenheiten an <lb/>der <placeName ref="https://editon-humboldt.de/H0007927 https://www.geonames.org/3081873">Weichsel</placeName>
                     </ref>
-                    <note xml:id="dc5dfad9-df9a-48f5-9dfa-d9df9aa8f5f9" corresp="#d0d5b8a8-d33a-4936-95b8-a8d33ac936ea">Humboldt bezieht sich hier auf den Verlauf des
+                    <note xml:id="cf27104d-f530-4cae-a710-4df5301cae28" corresp="#ffe8fd80-44ec-4bbb-a8fd-8044ec3bbb25">Humboldt bezieht sich hier auf den Verlauf des
                             Novemberaufstands in Polen. Am 29. November 1830 hatten Aufständische in
-                            Warschau versucht, den <persName ref="https://d-nb.info/gnd/118864513">Bruder des
+                            Warschau versucht, den <persName ref="https://editon-humboldt.de/H0019467 https://d-nb.info/gnd/118864513">Bruder des
                                 Zaren</persName> zu töten. Am 3. Dezember bildeten sie eine
-                            provisorische Regierung; der Oberbefehlshaber der Armee <persName ref="https://d-nb.info/gnd/119311593">Józef Chłopicki</persName> erklärte sich am 5.
-                            Dezember zum Diktator.</note> beschleunigte <lb/>Abreise und der <ref xml:id="a1b3669d-5b02-494e-b366-9d5b02e94e3d" corresp="#c26dd17c-075c-4eef-add1-7c075cbeef4c">Zeitfressende <lb/>unglükliche Prozeß</ref>
-                    <note xml:id="c26dd17c-075c-4eef-add1-7c075cbeef4c" corresp="#a1b3669d-5b02-494e-b366-9d5b02e94e3d">Vier ehemalige Minister <persName ref="http://d-nb.info/gnd/118776770">Karls X.</persName> mussten sich ab dem 15. Dezember 1830 vor der
+                            provisorische Regierung; der Oberbefehlshaber der Armee <persName ref="https://editon-humboldt.de/H0019430 https://d-nb.info/gnd/119311593">Józef Chłopicki</persName> erklärte sich am 5.
+                            Dezember zum Diktator.</note> beschleunigte <lb/>Abreise und der <ref xml:id="f82b3caa-4ab0-443d-ab3c-aa4ab0543dd7" corresp="#eac56874-0064-46b9-8568-740064b6b941">Zeitfressende <lb/>unglükliche Prozeß</ref>
+                    <note xml:id="eac56874-0064-46b9-8568-740064b6b941" corresp="#f82b3caa-4ab0-443d-ab3c-aa4ab0543dd7">Vier ehemalige Minister <persName ref="https://editon-humboldt.de/H0000229 http://d-nb.info/gnd/118776770">Karls X.</persName> mussten sich ab dem 15. Dezember 1830 vor der
                             Pairskammer für die Unterzeichnung der Juliordonanzen verantworten.
                             Dieses am 26. Juli 1830 veröffentlichte Dokument, in dem die
                             Pressezensur eingeführt und das geltende Wahlrecht eingeschränkt wurde,
@@ -89,7 +117,7 @@
                 <closer>
                     <address>
 				    <addrLine>à Monsieur</addrLine>
-                        <addrLine>Monsieur <persName ref="http://d-nb.info/gnd/118750321">Rugendas</persName>
+                        <addrLine>Monsieur <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas</persName>
                         </addrLine>
                         <addrLine>Quai Malaquai</addrLine>
                         <addrLine>

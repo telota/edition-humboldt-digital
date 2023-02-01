@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017325">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Chatsworth</title>
             </titleStmt>
+            <editionStmt>
+                <p>Chatsworth [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017325.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017325.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017325.xml">
-                    <p>Chatsworth [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017325.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017325">
+                <place>
                     <idno type="uri">https://www.geonames.org/7287963</idno>
                     <placeName type="reg">Chatsworth</placeName>
-                    <note>Ortschaft in der Grafschaft <placeName key="H0005512">Derbyshire</placeName> (<placeName key="H0005653">England</placeName>)</note>
+                    <note>Ortschaft in der Grafschaft <placeName ref="https://editon-humboldt.de/H0005512 https://www.geonames.org/11609031">Derbyshire</placeName> (<placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>)</note>
                     <listPlace>
                         <place type="building" oldID="ediarum_eqc_4ck_g4b" xml:id="H0019496">
                             <idno type="uri">https://www.geonames.org/12207050</idno>
                             <placeName type="reg">Chatsworth House</placeName>
-                            <note>Landschloss der Dukes of Devonshire nordöstlich von <placeName key="H0019231">Bakewell</placeName> in <placeName key="H0005512">Derbyshire</placeName> (<placeName key="H0005653">England</placeName>)</note>
+                            <note>Landschloss der Dukes of Devonshire nordöstlich von <placeName ref="https://editon-humboldt.de/H0019231 https://www.geonames.org/2656617">Bakewell</placeName> in <placeName ref="https://editon-humboldt.de/H0005512 https://www.geonames.org/11609031">Derbyshire</placeName> (<placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>)</note>
                         </place>
                     </listPlace>
                 </place>

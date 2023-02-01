@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018677">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Karaul'naja Gora (Sol'-Iletsk)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Karaul'naja Gora (Sol'-Iletsk) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018677.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,31 +20,30 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018677.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018677.xml">
-                    <p>Karaul'naja Gora (Sol'-Iletsk) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018677.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018677">
+                <place>
                     <placeName type="reg">Karaul'naja Gora (Sol'-Iletsk)</placeName>
                     <placeName type="alt">Караульная Гора</placeName>
                     <placeName type="alt">Karaulnaya Gora</placeName>
-                    <placeName type="alt"><?oxy_comment_start author="schnee" timestamp="20200605T130453+0200" comment="@Lisa Poggel: Bitte Schreibweisen und Transliteration prüfen. Information auf Rusisch unter: https://uralmines.ru/gipsovaya-gora-sol-iletska/"?>гора
-                        Караульной<?oxy_comment_end?>
-                    </placeName>
+                    <placeName type="alt">гора
+                        Караульной</placeName>
                     <placeName type="alt">Wachtberg</placeName>
-                    <!-- vgl. Pallas 1771-1776, I, 238, Karte 240; vgl. Hermann 1789, I, 38 -->
-                    <note>Gipsberg nahe der Festung Ileckaja Zaščita (<placeName key="H0006665">Sol'-Iletsk</placeName>)
-                        <!-- vgl. https://uralmines.ru/gipsovaya-gora-sol-iletska/ -->
-                    </note>
+                    
+                    <note>Gipsberg nahe der Festung Ileckaja Zaščita (<placeName ref="https://editon-humboldt.de/H0006665 https://www.geonames.org/491019">Sol'-Iletsk</placeName>)
+                        </note>
                 </place>
             </listPlace>
         </body>

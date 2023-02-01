@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017794">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kyrkty</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kyrkty [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017794.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017794.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017794.xml">
-                    <p>Kyrkty [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017794.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017794">
+                <place>
                     <placeName type="reg">Kyrkty</placeName>
                     <placeName type="alt">Kurktu</placeName>
                     <placeName type="alt">Kürktu</placeName>
                     <placeName type="alt">Kurktü</placeName>
-                    <note>Gebirgszugs im <placeName key="H0020292">Südlichen Ural</placeName> bei <placeName key="H0009129">Verchne-Ural'sk</placeName> und <placeName key="H0017424">Magnitnaya</placeName>. Mit dem sich im Süden anschließenden <placeName key="H0017489">Irendyk</placeName> bildet er zwischen <placeName key="H0000518">Kyštym</placeName> und
-                            <placeName key="H0017205">Guberlinsk</placeName> die mittlere oder Zentralkette des
-                            <placeName key="H0020292">Südlichen
-                        Ural</placeName>.<!-- Vgl. Humboldt 1844, I, 300; vgl. Humboldts Karte Chaines des montagnes et volcans in Asie centrale, Humboldt 1843. -->
+                    <note>Gebirgszugs im <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName> bei <placeName ref="https://editon-humboldt.de/H0009129 https://www.geonames.org/475463">Verchne-Ural'sk</placeName> und <placeName ref="https://editon-humboldt.de/H0017424 https://www.geonames.org/532288">Magnitnaya</placeName>. Mit dem sich im Süden anschließenden <placeName ref="https://editon-humboldt.de/H0017489 https://www.geonames.org/556201">Irendyk</placeName> bildet er zwischen <placeName ref="https://editon-humboldt.de/H0000518 https://www.geonames.org/1500997">Kyštym</placeName> und
+                            <placeName ref="https://editon-humboldt.de/H0017205 https://www.geonames.org/558181">Guberlinsk</placeName> die mittlere oder Zentralkette des
+                            <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen
+                        Ural</placeName>.
                     </note>
                 </place>
             </listPlace>

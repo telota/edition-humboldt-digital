@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016465">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -33,31 +33,52 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Adolph Schlagintweit an Alexander von Humboldt. Berlin, 18. Dezember
+                    1851, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016465">https://edition-humboldt.de/v8/H0016465</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016465</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016465</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016465.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Adolph Schlagintweit an Alexander von Humboldt. Berlin, 18. Dezember
-                    1851. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016465</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 11, Nr. 53</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1316212</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118755234">Schlagintweit, Adolph von (1829-1857)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
+                    <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Schlagintweit, Adolph von (1829-1857)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
                         Deutschland)</placeName>
                     <date when="1851-12-18" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -74,33 +95,33 @@
                         <expan>December</expan>
                     </choice> 1851.</note>
                 <p>Ihrem gütigen Wunsche entsprechend erlaube ich mir Ihnen <lb/>einige Zeilen in
-                    Bezug auf <persName ref="http://d-nb.info/gnd/119435810">Haidingers</persName> Experiment über
+                    Bezug auf <persName ref="https://editon-humboldt.de/H0011594 http://d-nb.info/gnd/119435810">Haidingers</persName> Experiment über
                         <lb/>
-                    <name type="mineral">Dolomit</name>bildung mitzutheilen. – <persName ref="http://d-nb.info/gnd/119176335">Arduin</persName>
+                    <name type="mineral">Dolomit</name>bildung mitzutheilen. – <persName ref="https://editon-humboldt.de/H0012695 http://d-nb.info/gnd/119176335">Arduin</persName>
                     <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/129069574">Dolomieu</persName> haben zuerst <lb/>die <name type="mineral">magnesia</name>haltigen, sehr schwach brausenden <name type="animal">Kalke</name> beschrieben, <lb/>welche später <persName ref="http://d-nb.info/gnd/118804790">Horâce de Saussure</persName> an verschiedenen Punkten der
+                    <persName ref="https://editon-humboldt.de/H0012338 http://d-nb.info/gnd/129069574">Dolomieu</persName> haben zuerst <lb/>die <name type="mineral">magnesia</name>haltigen, sehr schwach brausenden <name type="animal">Kalke</name> beschrieben, <lb/>welche später <persName ref="https://editon-humboldt.de/H0015469 http://d-nb.info/gnd/118804790">Horâce de Saussure</persName> an verschiedenen Punkten der
                     Alpen, <lb/>
                     <choice>
                         <abbr>z. B.</abbr>
                         <expan>zum Beispiel</expan>
-                    </choice> am <placeName ref="https://www.geonames.org/2658828">Gotthard</placeName> nachwies (<bibl corresp="https://edition-humboldt.de/v8/RW3TKEN4">Voyages. 4<hi rendition="#sup">o</hi>. IV. §
+                    </choice> am <placeName ref="https://editon-humboldt.de/H0009940 https://www.geonames.org/2658828">Gotthard</placeName> nachwies (<bibl corresp="https://edition-humboldt.de/RW3TKEN4">Voyages. 4<hi rendition="#sup">o</hi>. IV. §
                         1929. <choice>
                             <abbr>pag.</abbr>
                             <expan>page</expan>
                         </choice> 109</bibl>.). <lb/>
-                    <persName ref="http://d-nb.info/gnd/117020079">Théodore de
+                    <persName ref="https://editon-humboldt.de/H0015470 http://d-nb.info/gnd/117020079">Théodore de
                         Saussure</persName>, der die Zusam̅ensetzung <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> die Charaktere dieser <lb/>Steinart näher untersuchte, gab ihr den
-                    Namen Dolomit (<bibl corresp="https://edition-humboldt.de/v8/3QJQQHZG">Journal <lb/>de physique XL <choice>
+                    Namen Dolomit (<bibl corresp="https://edition-humboldt.de/3QJQQHZG">Journal <lb/>de physique XL <choice>
                             <abbr>p.</abbr>
                             <expan>page</expan>
-                        </choice> 167</bibl>.) <persName ref="http://d-nb.info/gnd/116817569">Herr von Buch</persName> hat
-                    nach seinen <lb/>berühmten und genauen Beobachtungen im <placeName ref="https://www.geonames.org/3177168">Fassathale</placeName> zuerst die <lb/>Ansicht entwickelt,
+                        </choice> 167</bibl>.) <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Herr von Buch</persName> hat
+                    nach seinen <lb/>berühmten und genauen Beobachtungen im <placeName ref="https://editon-humboldt.de/H0017532 https://www.geonames.org/3177168">Fassathale</placeName> zuerst die <lb/>Ansicht entwickelt,
                     daß diese mächtigen <name type="mineral">Dolomit</name>massen überhaupt <lb/>als
                     das Produkt <subst>
                         <del rendition="#s">einer</del>
@@ -114,13 +135,15 @@
                     anfangs vielfach bestritten; es <lb/>scheint jedoch gegenwärtig sowohl durch
                     zahlreiche Beobachtungen <lb/>über die Lagerungsverhältnisse dieser merkwürdigen
                     <lb/>Felsart an verschiedenen Punkten als auch durch direkte <lb/>
-                    <pb n="1v"/>chemische Versuche nachgewiesen, daß solche Umwandlungs-<lb/>prozesse für die Mehrzahl der <name type="mineral">Dolomite</name> sehr wahr-<lb/>scheinlich
+                    <pb n="1v"/>chemische Versuche nachgewiesen, daß solche Umwandlungs<g ref="#typoHyphen"/>
+                    <lb break="no"/>prozesse für die Mehrzahl der <name type="mineral">Dolomite</name> sehr wahr<g ref="#typoHyphen"/>
+                    <lb break="no"/>scheinlich
                     sind. Es kan̅ natürlich nicht befremden, daß <lb/>die Erklärungen über die Art
                     und Weise des Vorganges <lb/>gegenwärtig <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> nach so verschiedenen Versuchen etwas von den <lb/>Ansichten
-                    abweichen, welche der <persName ref="http://d-nb.info/gnd/116817569">berühmte Geologe</persName>
+                    abweichen, welche der <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">berühmte Geologe</persName>
                     selbst, bei <lb/>der ersten Anregung dieser Betrachtungen <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
@@ -128,15 +151,16 @@
                     Chemie in Bezug <lb/>auf Zahl der Beobachtungen und Man̅igfaltigkeit der
                     Experimente <lb/>noch so weit hinter ihrem jetzigen Standpunkte zurück war.
                         <lb/>
-                    <persName ref="http://d-nb.info/gnd/116817569">Herr von Buch</persName>, welcher damals ein
+                    <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Herr von Buch</persName>, welcher damals ein
                     Eindringen der <name type="mineral">Magnesia</name> in <del rendition="#s">den
                         <lb/>
                     </del>dampfförmigem Zustande aus großen, dampferfüllten Spalten für
                     <lb/>wahrscheinlich hielt, machte bei seiner unübertrefflichen Beschreibung
                     <lb/>der Lagerungsverhältnisse sogleich dararuf aufmerksam, daß <lb/>
                     <name type="mineral">Dolomit</name>, <name type="mineral">Gips</name> und zellige
-                        <name type="mineral">Rauchwacke</name> sehr häufig zusam̅en-<lb/>vorkom̅en und eine gewisse Verwandtschaft
-                    ihrer Bildung <lb/>zu haben schienen. <persName ref="http://d-nb.info/gnd/119435810">Haidinger</persName> hat diese Verhältnisse <lb/>weiter verfolgt, und schon
+                        <name type="mineral">Rauchwacke</name> sehr häufig zusam̅en<g ref="#typoHyphen"/>
+                    <lb break="no"/>vorkom̅en und eine gewisse Verwandtschaft
+                    ihrer Bildung <lb/>zu haben schienen. <persName ref="https://editon-humboldt.de/H0011594 http://d-nb.info/gnd/119435810">Haidinger</persName> hat diese Verhältnisse <lb/>weiter verfolgt, und schon
                     früher vermuthet, daß die <lb/>
                     <name type="mineral">Magnesia</name> als <name type="mineral">schwefelsaures Salz</name> zugeführt <del rendition="#s">worden sind</del>
                     <lb/>und so der <name type="mineral">Kalkstein</name> bei gleichzeitiger
@@ -155,12 +179,12 @@
                     reinen <name type="mineral">kohlensauren Kalk</name> verwandelt, wobei
                     gleichzeitig <name type="mineral">Bittersalz</name>
                     <lb/>(<name type="mineral">schwefelsaure Magnesia</name>) abgeschieden wird.
-                        <persName ref="http://d-nb.info/gnd/119435810">Haidinger</persName> glaubte, <lb/>daß vielleicht
+                        <persName ref="https://editon-humboldt.de/H0011594 http://d-nb.info/gnd/119435810">Haidinger</persName> glaubte, <lb/>daß vielleicht
                     bei erhöhter Temperatur <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> bei einem größeren <lb/>Drucke sich diese <add place="superlinear">chemischen</add> Wechselwirkungen umkehren würden; und <lb/>Versuche welche
-                        <persName ref="https://edition-humboldt.de/v8/H0017076">Morlot</persName> auf seine Veranlassung anstellte,
+                        <persName ref="https://editon-humboldt.de/H0017076">Morlot</persName> auf seine Veranlassung anstellte,
                     zeigten <lb/>in der That, daß ein Gemenge von krystallisiertem <name type="mineral">Bittersalz</name>
                     <choice>
                         <abbr>u.</abbr>
@@ -186,39 +210,39 @@
                         Temperaturen<milestone rendition="#hr" unit="section"/>
                     <note place="mBottom" hand="#author">
                         <hi rendition="#u">
-                            <persName ref="https://edition-humboldt.de/v8/H0017076">Morlot</persName>
-                        </hi> in <bibl corresp="https://edition-humboldt.de/v8/VVFVHCWM">Poggendorff’s Annalen <choice>
+                            <persName ref="https://editon-humboldt.de/H0017076">Morlot</persName>
+                        </hi> in <bibl corresp="https://edition-humboldt.de/VVFVHCWM">Poggendorff’s Annalen <choice>
                                 <abbr>Bd.</abbr>
                                 <expan>Band</expan>
                             </choice> 74 <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seite</expan>
-                            </choice> 591.</bibl>; in <persName ref="http://d-nb.info/gnd/119435810">Haidinger</persName>’s <bibl corresp="https://edition-humboldt.de/v8/GIKUFUUR">Berichten
+                            </choice> 591.</bibl>; in <persName ref="https://editon-humboldt.de/H0011594 http://d-nb.info/gnd/119435810">Haidinger</persName>’s <bibl corresp="https://edition-humboldt.de/GIKUFUUR">Berichten
                             <lb/>über die Gesellschaft naturwissenschaftlicher Freunde <choice>
                                 <abbr>usw.</abbr>
                                 <expan>und so weiter</expan>
-                            </choice> II. 393</bibl>, <bibl corresp="https://edition-humboldt.de/v8/X3SHG3IK">
+                            </choice> II. 393</bibl>, <bibl corresp="https://edition-humboldt.de/X3SHG3IK">
                             <add place="sublinear">461.</add>
                         </bibl>
                         <choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
                         </choice>
-                        <bibl corresp="https://edition-humboldt.de/v8/MAJ6FTUT">IV. <choice>
+                        <bibl corresp="https://edition-humboldt.de/MAJ6FTUT">IV. <choice>
                                 <sic>185</sic>
                                 <corr cert="high">158</corr>
                             </choice>
-                        </bibl>; daraus <lb/>in <persName ref="http://d-nb.info/gnd/100824714">Leonhard</persName>
-                        <bibl corresp="https://edition-humboldt.de/v8/AJ9V2SSG">Jahrbuch der Geognosie 1847.
+                        </bibl>; daraus <lb/>in <persName ref="https://editon-humboldt.de/H0004463 http://d-nb.info/gnd/100824714">Leonhard</persName>
+                        <bibl corresp="https://edition-humboldt.de/AJ9V2SSG">Jahrbuch der Geognosie 1847.
                             862</bibl>
                         <choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
                         </choice>
-                        <bibl corresp="https://edition-humboldt.de/v8/D5N3NTVZ">1848. 489</bibl>.</note>
+                        <bibl corresp="https://edition-humboldt.de/D5N3NTVZ">1848. 489</bibl>.</note>
                     <lb/>
                     <pb n="2v"/> und Pressungen nicht unwahrscheinlich eingetreten sein.
-                        <persName ref="https://edition-humboldt.de/v8/H0017076">Morlot</persName> hat <lb/>seiner Abhandlung einige
+                        <persName ref="https://editon-humboldt.de/H0017076">Morlot</persName> hat <lb/>seiner Abhandlung einige
                     instructive Abbildungen größerer <lb/>und kleinerer Handstücke beigefügt, in
                     denen <name type="mineral">Dolomit</name>
                     <choice>
@@ -237,7 +261,7 @@
                         <del rendition="#s">überh</del>
                         <add place="intralinear">überhaupt</add>
                     </subst>, spricht auch die zellige Struktur der meisten <lb/>
-                    <name type="mineral">Dolomit</name>e. <persName ref="http://viaf.org/viaf/73970870">Élie de
+                    <name type="mineral">Dolomit</name>e. <persName ref="https://editon-humboldt.de/H0005901 http://viaf.org/viaf/73970870">Élie de
                         Beaumont</persName> hatte gefunden, daß wenn in <lb/>einem gemessenen Raume
                     ein Doppelatom <name type="mineral">Kalkstein</name> durch ein <lb/>Atom <name type="mineral">Dolomit</name> ersetzt wird, wegen des größeren specifischen
                     <lb/>Gewichtes des Ganzen bei einem niedrigeren Atomgewicht <subst>
@@ -247,8 +271,8 @@
                     <lb/>
                     <name type="mineral">Magnesia</name> eine Anzahl von Drusenräumen = 12
                     Procent <lb/>des ganzen Volumens übrig bleiben muß.<note place="mBottom" hand="#author">
-                        <persName ref="http://viaf.org/viaf/73970870">Élie de Beaumont</persName>
-                        <bibl corresp="https://edition-humboldt.de/v8/KAZIJBJV">
+                        <persName ref="https://editon-humboldt.de/H0005901 http://viaf.org/viaf/73970870">Élie de Beaumont</persName>
+                        <bibl corresp="https://edition-humboldt.de/KAZIJBJV">
                             <choice>
                                 <abbr>Compt.</abbr>
                                 <expan>Comptes</expan>
@@ -257,14 +281,14 @@
                                 <abbr>Rend.</abbr>
                                 <expan>Rendus</expan>
                             </choice> XXVI. 311.</bibl>
-                        <bibl corresp="https://edition-humboldt.de/v8/3A9WQ2PI">Bulletin de la société géologique.
+                        <bibl corresp="https://edition-humboldt.de/3A9WQ2PI">Bulletin de la société géologique.
                                 2<hi rendition="#sup">
                                 <hi rendition="#u">me</hi>
                             </hi> série V.
                             243</bibl>, <choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
-                        </choice> schon früher <bibl corresp="https://edition-humboldt.de/v8/VGX3TFA3">Bulletin <choice>
+                        </choice> schon früher <bibl corresp="https://edition-humboldt.de/VGX3TFA3">Bulletin <choice>
                                 <abbr>géolog.</abbr>
                                 <expan>géologique</expan>
                             </choice>. 1837. <choice>
@@ -272,22 +296,22 @@
                                 <expan>page</expan>
                             </choice> 174.</bibl>
                     </note>
-                    <persName ref="https://edition-humboldt.de/v8/H0017076">Morlot</persName> fand auch <lb/>in <name type="mineral">Dolomit</name>en von <placeName ref="https://www.geonames.org/3192559">Prediel</placeName> hiemit übereinstim̅end 12,9 Procent.</p>
+                    <persName ref="https://editon-humboldt.de/H0017076">Morlot</persName> fand auch <lb/>in <name type="mineral">Dolomit</name>en von <placeName ref="https://editon-humboldt.de/H0018297 https://www.geonames.org/3192559">Prediel</placeName> hiemit übereinstim̅end 12,9 Procent.</p>
                 <milestone rendition="#hr" unit="section"/>
                 <p>
                     <lb/>Ich darf mir erlauben zu bemerken, daß in manchen Fällen nach den
-                    <lb/>Untersuchungen von <persName ref="https://edition-humboldt.de/v8/H0016911">Grandjean</persName>
-                    <hi rendition="#sup">1)</hi>,<note place="mBottom" hand="#author">1). <bibl corresp="https://edition-humboldt.de/v8/5QUC583W">Über Dolomite im <placeName ref="https://www.geonames.org/2881909">Lahnthal</placeName>.</bibl> Jahrbuch für Geognosie
-                        von <persName ref="http://d-nb.info/gnd/100824714">Leonhard</persName>
+                    <lb/>Untersuchungen von <persName ref="https://editon-humboldt.de/H0016911">Grandjean</persName>
+                    <hi rendition="#sup">1)</hi>,<note place="mBottom" hand="#author">1). <bibl corresp="https://edition-humboldt.de/5QUC583W">Über Dolomite im <placeName ref="https://editon-humboldt.de/H0017239 https://www.geonames.org/2881909">Lahnthal</placeName>.</bibl> Jahrbuch für Geognosie
+                        von <persName ref="https://editon-humboldt.de/H0004463 http://d-nb.info/gnd/100824714">Leonhard</persName>
                         <add place="sublinear">1844. <choice>
                                 <abbr>S.</abbr>
                                 <expan>Seite</expan>
                             </choice> 543</add>.</note>
-                    <persName ref="http://d-nb.info/gnd/116780436">Sandberger</persName>
-                    <hi rendition="#sup">2)</hi>,<note place="mBottom" hand="#author">2) <bibl corresp="https://edition-humboldt.de/v8/CVP6DE6C">Übersicht der geologischen Verhältnisse im <placeName ref="https://edition-humboldt.de/v8/H0018073">Herzogthum Nassau</placeName> 1847</bibl>.</note>
-                    <persName ref="https://edition-humboldt.de/v8/H0017034">Nauck</persName>
+                    <persName ref="https://editon-humboldt.de/H0016836 http://d-nb.info/gnd/116780436">Sandberger</persName>
+                    <hi rendition="#sup">2)</hi>,<note place="mBottom" hand="#author">2) <bibl corresp="https://edition-humboldt.de/CVP6DE6C">Übersicht der geologischen Verhältnisse im <placeName ref="https://editon-humboldt.de/H0018073">Herzogthum Nassau</placeName> 1847</bibl>.</note>
+                    <persName ref="https://editon-humboldt.de/H0017034">Nauck</persName>
                     <hi rendition="#sup">3)</hi>
-                    <note place="mBottom" hand="#author">3.) <bibl corresp="https://edition-humboldt.de/v8/QHJ2BVIA">Über die <name type="mineral">Speckstein</name>e von <placeName ref="https://www.geonames.org/2919072">Göpfersgrün</placeName> Poggendorff’s Annalen. <choice>
+                    <note place="mBottom" hand="#author">3.) <bibl corresp="https://edition-humboldt.de/QHJ2BVIA">Über die <name type="mineral">Speckstein</name>e von <placeName ref="https://editon-humboldt.de/H0018066 https://www.geonames.org/2919072">Göpfersgrün</placeName> Poggendorff’s Annalen. <choice>
                                 <abbr>Bd.</abbr>
                                 <expan>Band</expan>
                             </choice> 75. <choice>
@@ -299,9 +323,9 @@
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116193115">Bischoff</persName>
+                    <persName ref="https://editon-humboldt.de/H0003366 http://d-nb.info/gnd/116193115">Bischoff</persName>
                     <hi rendition="#sup">4).</hi>
-                    <note place="mBottom" hand="#author">4.) <bibl corresp="https://edition-humboldt.de/v8/GE453BGB">Lehrbuch
+                    <note place="mBottom" hand="#author">4.) <bibl corresp="https://edition-humboldt.de/GE453BGB">Lehrbuch
                             der chemischen Geologie. Band 3. Heft. 1.
                         1851</bibl>.</note>
                     <milestone rendition="#hr" unit="section"/>
@@ -328,7 +352,8 @@
                         <expan>und</expan>
                     </choice>
                     <lb/>einfache Pseudomorphosenbildung des <name type="mineral">Dolomit</name>es
-                    aus <name type="mineral">magnesia-<lb/>haltigem
+                    aus <name type="mineral">magnesia<g ref="#typoHyphen"/>
+                        <lb break="no"/>haltigem
                         Kalke</name> auf nassem Wege <subst>
                         <del rendition="#s">auf</del>
                         <add place="superlinear">ausser</add>
@@ -346,11 +371,11 @@
                     auflösbar sind als die durch ihr Zusam̅entreten <lb/>gebildete Doppelverbindung,
                     der <name type="mineral">Dolomit</name>. — <lb/>
                     <pb n="3v"/>
-                    <gap reason="lost"/>der <ref xml:id="d3d75a1f-8be9-4371-975a-1f8be96371f7" corresp="#e909bd12-be41-4ced-89bd-12be418cede6">geologischen Karte</ref>
-                    <note xml:id="e909bd12-be41-4ced-89bd-12be418cede6" corresp="#d3d75a1f-8be9-4371-975a-1f8be96371f7">Wohl die von <persName ref="http://d-nb.info/gnd/117660671">Armand Dufrénoy</persName> und <persName ref="http://viaf.org/viaf/73970870">Léonce Élie
-                                de Beaumont</persName> angefertigte, sechs Blatt umfassende <hi rendition="#i">Carte géologique de la France</hi> (<bibl corresp="https://edition-humboldt.de/v8/BGED4BVS">Dufrénoy/Élie de Beaumont
+                    <gap reason="lost"/>der <ref xml:id="f6f9f5d0-0ae5-4963-b9f5-d00ae5796340" corresp="#f4e5103d-7a26-4e59-a510-3d7a260e597c">geologischen Karte</ref>
+                    <note xml:id="f4e5103d-7a26-4e59-a510-3d7a260e597c" corresp="#f6f9f5d0-0ae5-4963-b9f5-d00ae5796340" resp="#UP">Wohl die von <persName ref="https://editon-humboldt.de/H0012412 http://d-nb.info/gnd/117660671">Armand Dufrénoy</persName> und <persName ref="https://editon-humboldt.de/H0005901 http://viaf.org/viaf/73970870">Léonce Élie
+                                de Beaumont</persName> angefertigte, sechs Blatt umfassende <hi rendition="#i">Carte géologique de la France</hi> (<bibl corresp="https://edition-humboldt.de/BGED4BVS">Dufrénoy/Élie de Beaumont
                                 1841</bibl>).</note>
-                    <persName ref="http://viaf.org/viaf/73970870">Beaumont’s</persName>, welche Sie die <lb/>große Güte
+                    <persName ref="https://editon-humboldt.de/H0005901 http://viaf.org/viaf/73970870">Beaumont’s</persName>, welche Sie die <lb/>große Güte
                     hatten, mir für unsere Reise anzuvertrauen. <lb/>Ich habe mich natürlich auf das
                     sorgfältigste bemüht, dieselben <lb/>ganz unversehrt hieher zurückzubringen.
                     Sollten <lb/>Euer Excellenz dieselben nicht eben gebrauchen, so <lb/>dürfte ich

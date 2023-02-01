@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004086">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Turčaninova, Filiciata Stefanovna</title>
             </titleStmt>
+            <editionStmt>
+                <p>Turčaninova, Filiciata Stefanovna [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004086.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004086.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004086.xml">
-                    <p>Turčaninova, Filiciata Stefanovna [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004086.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004086">
+                <person>
                     <persName type="reg">
                         <surname>Turčaninova</surname>
                         <forename>Filiciata Stefanovna</forename>
@@ -45,10 +50,9 @@
                         <name>Turchaninova</name>
                     </persName>
                     <floruit notBefore="1829" notAfter="1829">um 1829</floruit>
-                    <note>zweite Ehefrau von <persName key="H0004084">Aleksej Fëdorovič
+                    <note>zweite Ehefrau von <persName ref="https://editon-humboldt.de/H0004084">Aleksej Fëdorovič
                             Turčaninov</persName>; Miteigentümerin der Fabriken ihres Mannes
-                        <!-- Lebensdaten vermutl. 1740 bis 1822, Filiciata Stefanovna Turčaninova -->
-                    </note>
+                        </note>
                     <linkGrp>
                         <ptr subtype="comment" target="30#[137]" type="page"/>
                         <ptr target="30#148" type="page"/>

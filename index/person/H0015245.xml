@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015245">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Zeune, Johann August</title>
             </titleStmt>
+            <editionStmt>
+                <p>Zeune, Johann August [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015245.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015245.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015245.xml">
-                    <p>Zeune, Johann August [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015245.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015245">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/116984465</idno>
                     <persName type="reg">
                         <surname>Zeune</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1778</birth>
                     <death>1853</death>
-                    <note>Geograph und Pädagoge; 1828 Mitbegründer der <orgName key="H0000544">Gesellschaft für Erdkunde in Berlin</orgName>
+                    <note>Geograph und Pädagoge; 1828 Mitbegründer der <orgName ref="https://editon-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3">Gesellschaft für Erdkunde in Berlin</orgName>
                     </note>
                     <linkGrp>
                         <ptr target="27#127" type="page"/>

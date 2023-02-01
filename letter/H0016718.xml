@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016718">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Paris, 18. Mai
+               1845, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016718">https://edition-humboldt.de/v8/H0016718</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016718</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016718</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016718.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Paris, 18. Mai
-               1845. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016718</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">151</idno>
+                     <idno type="shelfmark">421, Bl. 269r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                <date when="1845-05-18">1845-05-18</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -65,19 +83,19 @@
             <pb n="1r"/>
                 <p>Ich schreibe, mein theurer College, an <lb/>dem Tage vor meiner Rükreise
                nach <lb/>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> in der Hofnung Sie bald
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> in der Hofnung Sie bald
                <lb/>zu umarmen und Ihnen dann zu <lb/>sagen wie ich ernsthaft ergrimmt <lb/>bin über
                die rohe und ungerechte <lb/>
-                    <ref xml:id="edbab20c-0a2e-4c2c-bab2-0c0a2eec2c71" corresp="#bec690aa-8aeb-4037-8690-aa8aeb903703">Anfechtung gegen Sie</ref>
-                    <note xml:id="bec690aa-8aeb-4037-8690-aa8aeb903703" corresp="#edbab20c-0a2e-4c2c-bab2-0c0a2eec2c71">
-                     <bibl corresp="https://edition-humboldt.de/v8/LD4WTCWH">Ehrenberg 1845</bibl>
+                    <ref xml:id="b46f4874-2176-461b-af48-742176861b12" corresp="#f61379f1-b6cf-475f-9379-f1b6cf775fef">Anfechtung gegen Sie</ref>
+                    <note xml:id="f61379f1-b6cf-475f-9379-f1b6cf775fef" corresp="#b46f4874-2176-461b-af48-742176861b12">
+                     <bibl corresp="https://edition-humboldt.de/LD4WTCWH">Ehrenberg 1845</bibl>
                   </note>. Sie werden <lb/>im Compte <choice>
                   <abbr>rendu</abbr>
                   <expan>rendus</expan>
                </choice> gelesen haben <lb/>dass man hier den Einfluss den Sie <lb/>auf die
-               Geognosie ausüben nicht <lb/>verkennt. Da <persName ref="http://d-nb.info/gnd/116003383">Abichs</persName>
+               Geognosie ausüben nicht <lb/>verkennt. Da <persName ref="https://editon-humboldt.de/H0012479 http://d-nb.info/gnd/116003383">Abichs</persName>
                Familie <lb/>unruhig sein möchte, so bitte ich <lb/>Sie, theurer Freund bald die
-               <lb/>Antwort von <persName ref="http://d-nb.info/gnd/120180502">Ouwarof</persName> der Familie
+               <lb/>Antwort von <persName ref="https://editon-humboldt.de/H0002294 http://d-nb.info/gnd/120180502">Ouwarof</persName> der Familie
                <lb/>mitzutheilen.</p>
             <closer rend="within the line">
                     <salute>Mit alter Bewunderung <lb/>und

@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017783">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kara Aygur</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kara Aygur [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017783.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,24 +20,25 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017783.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017783.xml">
-                    <p>Kara Aygur [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017783.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017783">
+                <place>
                     <placeName type="reg">Kara Aygur</placeName>
-                    <note>vermutlich eine Erhebung bzw. ein Gebirgszug, der mit dem <placeName key="H0005568">Dschambu
-                            Karagay</placeName> die Gebirgskette <placeName key="H0000361">Kara Adyr</placeName> im
-                            <placeName key="H0020292">Südlichen Ural</placeName> bildet </note>
+                    <note>vermutlich eine Erhebung bzw. ein Gebirgszug, der mit dem <placeName ref="https://editon-humboldt.de/H0005568">Dschambu
+                            Karagay</placeName> die Gebirgskette <placeName ref="https://editon-humboldt.de/H0000361">Kara Adyr</placeName> im
+                            <placeName ref="https://editon-humboldt.de/H0020292 https://www.geonames.org/466003">Südlichen Ural</placeName> bildet </note>
                 </place>
             </listPlace>
         </body>

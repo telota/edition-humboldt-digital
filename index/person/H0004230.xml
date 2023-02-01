@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0004230">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>La Billardière, Jacques-Julien Houtou de</title>
             </titleStmt>
+            <editionStmt>
+                <p>La Billardière, Jacques-Julien Houtou de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0004230.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0004230.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0004230.xml">
-                    <p>La Billardière, Jacques-Julien Houtou de [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0004230.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0004230">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/116635924</idno>
                     <persName type="reg">
                         <surname>La Billardière</surname>
@@ -47,7 +52,7 @@
                         indessen zwischen Holland und Frankreich ausgebrochenen Krieges mit den andern Teilnehmern
                         1793–1795 gefangengehalten; seine konfiszierten Pflanzen wurden nach England gebracht, von wo er
                         sie durch Banks zurückerhielt; 1799 Veröffentlichung seines Reiseberichts; 1800 Membre Résident
-                        des <orgName key="H0000552">Institut de France</orgName>
+                        des <orgName ref="https://editon-humboldt.de/H0000552 http://d-nb.info/gnd/35015-1">Institut de France</orgName>
                     </note>
                     <linkGrp>
                         <ptr target="16#12" type="letter"/>

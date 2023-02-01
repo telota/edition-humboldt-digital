@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014526">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,42 +28,64 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin],
+                    Dienstag, [30. Oktober 1832], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0014526">https://edition-humboldt.de/v8/H0014526</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0014526</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0014526</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014526.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin],
-                    Dienstag, [30. Oktober 1832]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0014526</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1">Humboldt 2007, 270; Dok. 20</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1832-10-30" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
                 </correspAction>
                 <note>Diese kurze Notiz übersandte Humboldt zusammen mit einem Brief, den er am 30.
-                    Oktober 1832 von <persName ref="http://d-nb.info/gnd/117491055">Samuel Heinrich Spiker</persName>
+                    Oktober 1832 von <persName ref="https://editon-humboldt.de/H0016002 http://d-nb.info/gnd/117491055">Samuel Heinrich Spiker</persName>
                     erhalten hatte. Spiker teilte darin mit, dass eine Mitteilung über Kunths
                     Ernennung zum Ritter der Ehrenlegion am selben Tag in den von ihm
                     herausgegebenen Berlinischen Nachrichten von Staats- und gelehrten Sachen
                     erschienen sei. Humboldt hatte Spiker einige Tage zuvor um die Veröffentlichung
                     dieser Meldung gebeten, der aber zunächst unter Hinweis auf die Zensur abgelehnt
                     hatte; erst nach Erteilung der königlichen Genehmigung zur Annahme des Ordens
-                    sei eine Veröffentlichung möglich (vgl. <bibl corresp="https://edition-humboldt.de/v8/EKKGV4PH">Humboldt 2007</bibl>, 25). </note>
+                    sei eine Veröffentlichung möglich (vgl. <bibl corresp="https://edition-humboldt.de/EKKGV4PH">Humboldt 2007</bibl>, 25). </note>
             </correspDesc>
         </profileDesc>
     </teiHeader>
@@ -76,19 +98,19 @@
                 </opener>
                 <p>
                     <pb n="1r"/>Sie sehen, mein Theurer, wie in <lb/>diesem Lande die elendesten
-                        Kleinig<lb/>keiten Weitläuftigkeiten erregen<supplied cert="high">.</supplied>
+                        Kleinig<lb break="no"/>keiten Weitläuftigkeiten erregen<supplied cert="high">.</supplied>
                     <lb/>Hier ein <hi rendition="#u">Theil</hi> der Correspondenz! <lb/>Wir haben es
                     aber durchgesezt<supplied cert="high">.</supplied>
-                    <lb/>Geben Sie bei <persName ref="http://d-nb.info/gnd/117491055">Spiker</persName> eine Carte
-                    <lb/>ab: er verdient es. Uebrigens hat <lb/>mir <persName ref="http://d-nb.info/gnd/118860283">Schulze</persName> heute morgen gesagt, <lb/>die Sache würde wohl schon
-                    <lb/>an den <persName ref="http://d-nb.info/gnd/118535986">König</persName> abgegangen sein<supplied cert="high">.</supplied>
+                    <lb/>Geben Sie bei <persName ref="https://editon-humboldt.de/H0016002 http://d-nb.info/gnd/117491055">Spiker</persName> eine Carte
+                    <lb/>ab: er verdient es. Uebrigens hat <lb/>mir <persName ref="https://editon-humboldt.de/H0015716 http://d-nb.info/gnd/118860283">Schulze</persName> heute morgen gesagt, <lb/>die Sache würde wohl schon
+                    <lb/>an den <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">König</persName> abgegangen sein<supplied cert="high">.</supplied>
                 </p>
                 <signed>Ht</signed>
                 <dateline>Dienstag.</dateline>
             </div>
             <postscript>
                 <p>
-                    <lb/>Vom Herbeirufen von <persName ref="http://d-nb.info/gnd/119263297">Nees</persName> soll keine
+                    <lb/>Vom Herbeirufen von <persName ref="https://editon-humboldt.de/H0004936 http://d-nb.info/gnd/119263297">Nees</persName> soll keine
                     Rede sein<supplied cert="high">.</supplied>
                     <lb/>
                     <pb n="1v"/>

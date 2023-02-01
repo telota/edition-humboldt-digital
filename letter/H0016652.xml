@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016652">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016652">https://edition-humboldt.de/v8/H0016652</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016652</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016652</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016652.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016652</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">84</idno>
+                     <idno type="shelfmark">421, Bl. 155r, 156v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1836" notAfter="1836" cert="low">1836-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. den nächsten Brief, Nr. 81</note>
          </correspDesc>
@@ -76,7 +94,7 @@
                </address>
                 </opener>
             <pb n="1v"/>
-            <p>Der kleine <persName ref="http://d-nb.info/gnd/117212865">Orientalist</persName> muss, theurer <lb/>Freund
+            <p>Der kleine <persName ref="https://editon-humboldt.de/H0016882 http://d-nb.info/gnd/117212865">Orientalist</persName> muss, theurer <lb/>Freund
                Sie nicht von Ihren <lb/>schön betretenen Wegen abbringen<supplied cert="high">.</supplied>
                <lb/>Wie ist der in die Staats <choice>
                   <abbr>Zeit</abbr>
@@ -88,8 +106,8 @@
                     <choice>
                   <abbr>polit.</abbr>
                   <expan>politischen</expan>
-               </choice> Blättern. Der <persName ref="http://d-nb.info/gnd/118535994">Kronprinz</persName>
-               <lb/>wird gewiss jeden Morgen um <lb/>halb eilf Uhr Sie gern anneh<lb/>men. Sie können gerade zu <lb/>hingehen <choice>
+               </choice> Blättern. Der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Kronprinz</persName>
+               <lb/>wird gewiss jeden Morgen um <lb/>halb eilf Uhr Sie gern anneh<lb break="no"/>men. Sie können gerade zu <lb/>hingehen <choice>
                   <abbr>u.</abbr>
                   <expan>und</expan>
                </choice> sich beim <choice>

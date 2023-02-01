@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016534">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [Dezember
+               1844] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016534">https://edition-humboldt.de/v8/H0016534</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016534</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016534</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016534.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [Dezember
-               1844] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016534</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">284E22</idno>
+                     <idno type="shelfmark">676, Bl. 28r-29v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1844-12" notAfter="1844-12">1844-12-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
             <note>Zur Datierung: Valenciennes wurde am 9.12.1844 zum Mitglied der Académie des
                sciences gewählt; Humboldt reiste am 28.12. 1844 von Berlin nach Paris ab</note>
@@ -68,42 +86,53 @@
             <opener>
                     <salute>Innigst verehrter Herr Baron</salute>
                 </opener>
-            <p>Da ich höre daß Sie wohl noch <lb/>einige Tage mit der Abreise zö-<lb/>gern, so glaubte ich daß es Ihnen <lb/>wohl angenehm wäre
-                  <ref xml:id="df0fde8d-d86e-4a0b-8fde-8dd86e5a0b74" corresp="#e65d9eef-85f9-4d15-9d9e-ef85f9cd156e">die Details <lb/>über die von <persName ref="http://d-nb.info/gnd/118727699">Lepsius</persName>
+            <p>Da ich höre daß Sie wohl noch <lb/>einige Tage mit der Abreise zö<g ref="#typoHyphen"/>
+                    <lb break="no"/>gern, so glaubte ich daß es Ihnen <lb/>wohl angenehm wäre
+                  <ref xml:id="f5b2263c-c0b4-4b14-b226-3cc0b45b14ec" corresp="#f849dc59-4855-40a0-89dc-59485590a0de">die Details <lb/>über die von <persName ref="https://editon-humboldt.de/H0004470 http://d-nb.info/gnd/118727699">Lepsius</persName>
                      entdeckten <lb/>Nilmesser</ref>
-                    <note xml:id="e65d9eef-85f9-4d15-9d9e-ef85f9cd156e" corresp="#df0fde8d-d86e-4a0b-8fde-8dd86e5a0b74">
-                     <bibl corresp="https://edition-humboldt.de/v8/"> Lepsius, Karl Richard: Zwei Reiseberichte aus
+                    <note xml:id="f849dc59-4855-40a0-89dc-59485590a0de" corresp="#f5b2263c-c0b4-4b14-b226-3cc0b45b14ec">
+                     <bibl corresp="https://edition-humboldt.de/"> Lepsius, Karl Richard: Zwei Reiseberichte aus
                         Philae in Oberägypten vom 10. Sept. 1844. In: Bericht über die zur
                         Bekanntgabe geeigneten Verhandlungen der Königl. Preuß. Akademie der
                         Wissenschaften zu Berlin. 1844, S.
                      373-406.</bibl>
-                  </note> mit nach <placeName ref="https://www.geonames.org/2988507">Paris</placeName> zu nehmen <lb/>und ich
-               habe daher für die <orgName ref="http://d-nb.info/gnd/35015-1">Akademie</orgName>
-               <lb/>einige besondere Abdrucke des Be-<lb/>richtes
+                  </note> mit nach <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> zu nehmen <lb/>und ich
+               habe daher für die <orgName ref="https://editon-humboldt.de/H0000552 http://d-nb.info/gnd/35015-1">Akademie</orgName>
+               <lb/>einige besondere Abdrucke des Be<g ref="#typoHyphen"/>
+                    <lb break="no"/>richtes
                machen lassen deren einige <lb/>ich Ihnen zu beliebigem Gebrauche <lb/>durch die
                Druckerey unmittelbar <lb/>
                     <pb n="1v"/>heut oder morgen früh zu <lb/>übergeben
                angeordnet habe, <lb/>sobald sie eben fertig sind.</p>
-            <p>Daß <persName ref="http://d-nb.info/gnd/117339385">Valenciennes</persName> Mit-<lb/>glied der <orgName ref="http://d-nb.info/gnd/35015-1">Akademie</orgName> geworden <lb/>ist
-               freut mich und ich wage des-<lb/>halb Sie noch zu
+            <p>Daß <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName> Mit<g ref="#typoHyphen"/>
+                    <lb break="no"/>glied der <orgName ref="https://editon-humboldt.de/H0000552 http://d-nb.info/gnd/35015-1">Akademie</orgName> geworden <lb/>ist
+               freut mich und ich wage des<g ref="#typoHyphen"/>
+                    <lb break="no"/>halb Sie noch zu
                bitten ihm <lb/>meinen Glückwunsch gelegentlich <lb/>zu kommen zu lassen. Daß
-                  <persName ref="http://d-nb.info/gnd/102461627">Du-<lb/>jardin</persName>
-               mit auf der Wahl gewe-<lb/>sen ist beweist nur, daß
-                  nie-<lb/>mand in der dortigen <orgName ref="http://d-nb.info/gnd/35015-1">Akademie</orgName>
+                  <persName ref="https://editon-humboldt.de/H0017051 http://d-nb.info/gnd/102461627">Du<g ref="#typoHyphen"/>
+                        <lb break="no"/>jardin</persName>
+               mit auf der Wahl gewe<g ref="#typoHyphen"/>
+                    <lb break="no"/>sen ist beweist nur, daß
+                  nie<g ref="#typoHyphen"/>
+                    <lb break="no"/>mand in der dortigen <orgName ref="https://editon-humboldt.de/H0000552 http://d-nb.info/gnd/35015-1">Akademie</orgName>
                <lb/>jezt ist, der so böse Arbeiten <lb/>erkennt und abweist.</p>
-            <p>Sollten Meeresgründe aus <lb/>den entsetzlichen Tiefen die ange-<lb/>
+            <p>Sollten Meeresgründe aus <lb/>den entsetzlichen Tiefen die ange<g ref="#typoHyphen"/>
+                    <lb break="no"/>
                     <pb n="2r"/>geben sind zugänglich seyn, so legen <lb/>Sie
                vielleicht Beschlag auf eine kleine <lb/>Probe.</p>
             <p>Daß in jedem Quadratzoll oder <lb/>vielmehr Cubikzoll des Pläner <lb/>Kalks von
                Teplitz, des weißlichen <lb/>harten Kalksteins am Fuße des <lb/>Schloßberges
-               86,400,000 kleine <lb/>Polythalamien, mit geringer Dist-<lb/>anz, nachweislich sind und daß diese <lb/>Formen-Masse sich zur
+               86,400,000 kleine <lb/>Polythalamien, mit geringer Dist<g ref="#typoHyphen"/>
+                    <lb break="no"/>anz, nachweislich sind und daß diese <lb/>Formen-Masse sich zur
                Zwischen- <lb/>Masse, welche sehr wahrscheinlich auch <lb/>nur aus zerfallenen Formen
-                  entstan-<lb/>den ist, sich wie 2 ½ zu 3 und wie
+                  entstan<g ref="#typoHyphen"/>
+                    <lb break="no"/>den ist, sich wie 2 ½ zu 3 und wie
                <lb/>3 zu 3 verhält habe ich in diesen <lb/>Tagen specieller ermittelt.
                   <note place="left" hand="#author">Mittelgröße 1/48 ’’’ <lb/> Cubus 100,592 <lb/>halb
                   50,000 in <lb/>jeder Cubicklinie <lb/> giebt <lb/> 50,000 <lb/>
                   <hi rendition="#u">1728</hi>
-                  <lb/> 86, 400 000 <lb/> in jedem Cubick-<lb/>zoll.</note>
+                  <lb/> 86, 400 000 <lb/> in jedem Cubick<g ref="#typoHyphen"/>
+                        <lb break="no"/>zoll.</note>
                 </p>
             <p>Sollten Sie noch nicht abreisen <lb/>so versuche ich noch einmal Ihnen <lb/>
                     <pb n="3r"/>die nun vollendeten Zeichnungen der <lb/>Bimsteinthierchen zur Anschauung
@@ -112,8 +141,9 @@
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/119059622">Raumer</persName> hat mir wieder <lb/>ein Übermaas von
-                  nordamerika-<lb/>nischen Materialien
+               <persName ref="https://editon-humboldt.de/H0000750 http://d-nb.info/gnd/119059622">Raumer</persName> hat mir wieder <lb/>ein Übermaas von
+                  nordamerika<g ref="#typoHyphen"/>
+                    <lb break="no"/>nischen Materialien
                   mitgebracht<supplied cert="high">.</supplied>
                 </p>
          </div>

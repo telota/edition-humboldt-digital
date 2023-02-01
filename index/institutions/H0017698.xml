@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017698">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Universität Moskau</title>
             </titleStmt>
+            <editionStmt>
+                <p>Universität Moskau [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017698.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017698.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017698.xml">
-                    <p>Universität Moskau [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017698.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0017698">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/14412-5</idno>
                     <orgName type="reg">Universität Moskau</orgName>
                     <orgName type="alt">Moskovskij universitet</orgName>
@@ -43,7 +48,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/524901</idno>
-                            <settlement key="H0009006">Moskau</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0009006">Moskau</settlement>
                             <note>Moskau</note>
                         </address>
                     </location>

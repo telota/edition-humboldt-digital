@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019162">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -10,14 +10,21 @@
                     </persName>
                 </editor>
             </titleStmt>
+            <editionStmt>
+                <p>: Physiologie. Galvanismus [Raja torpedo], hg. v. Carmen Götz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019162">https://edition-humboldt.de/v8/H0019162</ref>
+                </p>
+            </editionStmt>
 
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019162</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019162</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019162.xml</idno>
             </publicationStmt>
             <notesStmt>
@@ -32,17 +39,32 @@
                         Sektion seines Gehirns ist auf der Rückseite beschrieben. Dort wird auf
                         Zeichnungen Bezug genommen, die in der Staatsbibliothek zu Berlin
                         überliefert sind (<ref target="http://kalliope-verbund.info/DE-611-HS-525250">Staatsbibliothek zu Berlin – PK, Autograph I/2107-7</ref>;
-                        gedruckt in <bibl corresp="https://edition-humboldt.de/v8/DBU2432W">Humboldt 2019</bibl>,
+                        gedruckt in <bibl corresp="https://edition-humboldt.de/DBU2432W">Humboldt 2019</bibl>,
                         165). </p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>Physiologie. Galvanismus [Raja torpedo]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019162</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt (Tagebücher)</collection>
+                        <idno>
+                            <idno type="shelfmark">III</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-321</idno>
+                            <idno type="URLCatalogue">http://www.stabikat.de/DB=1/PPN?PPN=77988132X</idno>
+                            <idno type="URLImages">http://resolver.staatsbibliothek-berlin.de/SBB0001527400000000</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation> </creation>
         </profileDesc>
     </teiHeader>
@@ -51,17 +73,17 @@
             <div n="22">
                 <pb n="72r" facs="#folio_72r"/>
                 <fw type="folNum">147.</fw>
-                <head>Physiologie. <ref xml:id="a88c01f5-8e39-4da3-8c01-f58e39ada3f1" corresp="#a8317c10-a9cc-45c5-b17c-10a9cc15c5fd">Galvanismus</ref>
-                    <note xml:id="a8317c10-a9cc-45c5-b17c-10a9cc15c5fd" corresp="#a88c01f5-8e39-4da3-8c01-f58e39ada3f1">Das nach <persName ref="http://d-nb.info/gnd/104238135">Luigi Galvani</persName> benannte Phänomen einer sogenannten
+                <head>Physiologie. <ref xml:id="dacffc13-68bf-4f23-8ffc-1368bfef2392" corresp="#f5d2a7cf-7edd-4f5a-92a7-cf7edddf5ade">Galvanismus</ref>
+                    <note xml:id="f5d2a7cf-7edd-4f5a-92a7-cf7edddf5ade" corresp="#dacffc13-68bf-4f23-8ffc-1368bfef2392" resp="#CG">Das nach <persName ref="https://editon-humboldt.de/H0013312 http://d-nb.info/gnd/104238135">Luigi Galvani</persName> benannte Phänomen einer sogenannten
                             „tierischen Elektrizität“, das dieser in einer Reihe berühmt gewordener
-                            Versuche mit Froschschenkeln beschrieben hatte; vgl. <bibl corresp="https://edition-humboldt.de/v8/9367NMFR">Galvani 1791</bibl> sowie <bibl corresp="https://edition-humboldt.de/v8/9S4VPTFP">Humboldt 1797</bibl>, II, 437-439.
+                            Versuche mit Froschschenkeln beschrieben hatte; vgl. <bibl corresp="https://edition-humboldt.de/9367NMFR">Galvani 1791</bibl> sowie <bibl corresp="https://edition-humboldt.de/9S4VPTFP">Humboldt 1797</bibl>, II, 437-439.
                         </note>.</head>
                 <p>
-                    <metamark function="used" spanTo="#wsz_q3t_xpb"/>Häufig versucht an <ref xml:id="dae22f1c-0f96-40b3-a22f-1c0f9600b3fe" corresp="#f92c243a-81ab-49ca-ac24-3a81ab89ca13">
+                    <metamark function="used" spanTo="#wsz_q3t_xpb"/>Häufig versucht an <ref xml:id="b4eef799-7736-4ce4-aef7-9977364ce412" corresp="#c6813ffb-8c31-4f05-813f-fb8c31bf053e">
                         <name type="animal">Lacerta Iguana</name>
                     </ref>
-                    <note xml:id="f92c243a-81ab-49ca-ac24-3a81ab89ca13" corresp="#dae22f1c-0f96-40b3-a22f-1c0f9600b3fe">Grüner Leguan; vgl. <bibl corresp="https://edition-humboldt.de/v8/H53NVP6H">Linné/Gmelin 1788–1793</bibl>, I.3,
-                            1062 f.</note>, an der <ref xml:id="adda4b40-a404-4a43-9a4b-40a404ca432e" corresp="#c06d8c0c-7cf5-43eb-ad8c-0c7cf5c3ebcc">
+                    <note xml:id="c6813ffb-8c31-4f05-813f-fb8c31bf053e" corresp="#b4eef799-7736-4ce4-aef7-9977364ce412" resp="#CG">Grüner Leguan; vgl. <bibl corresp="https://edition-humboldt.de/H53NVP6H">Linné/Gmelin 1788–1793</bibl>, I.3,
+                            1062 f.</note>, an der <ref xml:id="c794a6a2-3b63-443b-94a6-a23b63e43bdb" corresp="#b0b880f3-981b-410f-b880-f3981be10fef">
                         <name type="animal">Testudo</name> Icotea (<choice>
                                 <abbr>S.</abbr>
                                 <expan>Siehe</expan>
@@ -69,54 +91,55 @@
                                 <abbr>p.</abbr>
                                 <expan>pagina</expan>
                             </choice> 105)</ref>
-                    <note xml:id="c06d8c0c-7cf5-43eb-ad8c-0c7cf5c3ebcc" corresp="#adda4b40-a404-4a43-9a4b-40a404ca432e">Vgl. ART I, Bl. 50v. Humboldt
+                    <note xml:id="b0b880f3-981b-410f-b880-f3981be10fef" corresp="#c794a6a2-3b63-443b-94a6-a23b63e43bdb" resp="#CG">Vgl. ART I, Bl. 50v. Humboldt
                             beschreibt dort in einer Anmerkung eine in <quote>den Gebirgen von
-                                    <placeName ref="https://www.geonames.org/3777741">Caripe</placeName>
+                                    <placeName ref="https://editon-humboldt.de/H0007163 https://www.geonames.org/3777741">Caripe</placeName>
                         </quote> gesehene
                             Landschildkrötenart. Angefügt ist ein genauer Verweis auf den Eintrag in
                             der auf der Reise mitgeführten Ausgabe des <hi rendition="#i">Systema
-                                naturae</hi>, da in jenem Eintrag das Artepithet fehlt (vgl. <bibl corresp="https://edition-humboldt.de/v8/H53NVP6H">Linné/Gmelin 1788–1793</bibl>, I.3,
+                                naturae</hi>, da in jenem Eintrag das Artepithet fehlt (vgl. <bibl corresp="https://edition-humboldt.de/H53NVP6H">Linné/Gmelin 1788–1793</bibl>, I.3,
                             1045). <quote>Icotea</quote> ist dort als Vernakularname der indigenen
                             Bevölkerung genannt, hier von Humboldt als Artepithet verwendet.</note>
-                    <supplied cert="high">,</supplied> an der <ref xml:id="f4624a81-59d8-4822-a24a-8159d8782203" corresp="#b195dc06-cee9-42e6-95dc-06cee992e658">Raja <lb/>torpedo</ref>
-                    <note xml:id="b195dc06-cee9-42e6-95dc-06cee992e658" corresp="#f4624a81-59d8-4822-a24a-8159d8782203">Gefleckter Zitterrochen; vgl. <bibl corresp="https://edition-humboldt.de/v8/H53NVP6H">Linné/Gmelin 1788–1793</bibl>, I.3,
+                    <supplied cert="high">,</supplied> an der <ref xml:id="f700fbd1-d11b-4ce0-80fb-d1d11bace096" corresp="#a0e34868-b157-4b10-a348-68b1574b100a">Raja <lb/>torpedo</ref>
+                    <note xml:id="a0e34868-b157-4b10-a348-68b1574b100a" corresp="#f700fbd1-d11b-4ce0-80fb-d1d11bace096" resp="#CG">Gefleckter Zitterrochen; vgl. <bibl corresp="https://edition-humboldt.de/H53NVP6H">Linné/Gmelin 1788–1793</bibl>, I.3,
                             1504.</note>. Irritabilität furchtbar angehäuft <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> daher schnell hinschwindend. Die Lacerten zeig<lb/>ten erst
+                    </choice> daher schnell hinschwindend. Die Lacerten zeig<lb break="no"/>ten erst
                     nach 8′ keine Contraction mehr. Die <name type="animal">Raja torpedo</name> nach
                     2 <choice>
                         <abbr>St.</abbr>
                         <expan>Stunden</expan>
-                    </choice> nicht mehr. Das <ref xml:id="f8e66478-1015-45e3-a664-78101575e39a" corresp="#a56307a7-9a70-4855-a307-a79a70085507">
+                    </choice> nicht mehr. Das <ref xml:id="cc2c0f63-990f-43c0-ac0f-63990f33c090" corresp="#ed7c917d-36e7-4fb8-bc91-7d36e79fb855">
                         <lb/>elektrische?</ref>
-                    <note xml:id="a56307a7-9a70-4855-a307-a79a70085507" corresp="#f8e66478-1015-45e3-a664-78101575e39a">Vgl. zu dieser Diskussion den zehnten Abschnitt
-                            in <bibl corresp="https://edition-humboldt.de/v8/9S4VPTFP">Humboldt 1797</bibl>, I,
+                    <note xml:id="ed7c917d-36e7-4fb8-bc91-7d36e79fb855" corresp="#cc2c0f63-990f-43c0-ac0f-63990f33c090">Vgl. zu dieser Diskussion den zehnten Abschnitt
+                            in <bibl corresp="https://edition-humboldt.de/9S4VPTFP">Humboldt 1797</bibl>, I,
                             349ff.</note> Organ genau gestaltet<supplied cert="high">,</supplied>
-                    <ref xml:id="cc46bfce-21e6-462f-86bf-ce21e6262f6a" corresp="#ea07eadd-3763-43bd-87ea-dd376313bd05">wie <persName ref="https://edition-humboldt.de/v8/H0019484">Hunter</persName> es beschreibt</ref>
-                    <note xml:id="ea07eadd-3763-43bd-87ea-dd376313bd05" corresp="#cc46bfce-21e6-462f-86bf-ce21e6262f6a">Vgl. <bibl corresp="https://edition-humboldt.de/v8/FQK65SZ3">Hunter
+                    <ref xml:id="d0269b35-c994-4528-a69b-35c9943528a8" corresp="#f8633b77-9166-4ff4-a33b-7791669ff478">wie <persName ref="https://editon-humboldt.de/H0019484">Hunter</persName> es beschreibt</ref>
+                    <note xml:id="f8633b77-9166-4ff4-a33b-7791669ff478" corresp="#d0269b35-c994-4528-a69b-35c9943528a8" resp="#CG">Vgl. <bibl corresp="https://edition-humboldt.de/FQK65SZ3">Hunter
                                 1773</bibl>.</note>. Es besteht aus einem Gallert<supplied cert="high">,</supplied>
                     <lb/>der das <choice>
                         <abbr>Galvan.</abbr>
                         <expan>Galvanische</expan>
                     </choice> Fluidum nicht zu leiten scheint. Wenigstens interceptirte er beim
                         <lb/>
-                    <ref xml:id="c8eb28af-62d0-479c-ab28-af62d0179c1d" corresp="#c005dc9a-26b5-494c-85dc-9a26b5794c51">
-                        <persName ref="http://d-nb.info/gnd/119292556">Volta</persName>ischen Zungenversuch</ref>
-                    <note xml:id="c005dc9a-26b5-494c-85dc-9a26b5794c51" corresp="#c8eb28af-62d0-479c-ab28-af62d0179c1d">
-                        <persName ref="http://d-nb.info/gnd/119292556">Alessandro
+                    <ref xml:id="f2317eb7-536c-4cc1-b17e-b7536c8cc108" corresp="#fd3ff1a7-909e-4d39-bff1-a7909e1d39ff">
+                        <persName ref="https://editon-humboldt.de/H0002905 http://d-nb.info/gnd/119292556">Volta</persName>ischen Zungenversuch</ref>
+                    <note xml:id="fd3ff1a7-909e-4d39-bff1-a7909e1d39ff" corresp="#f2317eb7-536c-4cc1-b17e-b7536c8cc108" resp="#CG">
+                        <persName ref="https://editon-humboldt.de/H0002905 http://d-nb.info/gnd/119292556">Alessandro
                                 Volta</persName> hat die Stärke der Elektrizität, die zwischen
                             unterschiedlichen Metallen fließt, mit der Zunge als einem feuchten
-                            Leiter getestet. Vgl. auch <bibl corresp="https://edition-humboldt.de/v8/9S4VPTFP">Humboldt 1797</bibl>, I, 308, 316–321.</note>, was das eben so feuchte Muskelfleisch der <name type="animal">Raja</name> nicht that. <lb/>Am äußersten Rande des Organs, wo die mehr 5
+                            Leiter getestet. Vgl. auch <bibl corresp="https://edition-humboldt.de/9S4VPTFP">Humboldt 1797</bibl>, I, 308, 316–321.</note>, was das eben so feuchte Muskelfleisch der <name type="animal">Raja</name> nicht that. <lb/>Am äußersten Rande des Organs, wo die mehr 5
                     als 6 <choice>
                         <abbr>seit.</abbr>
                         <expan>seitigen</expan>
                     </choice>
                     <supplied cert="high">,</supplied> an den Enden
                     wie
-                        <placeName ref="https://www.geonames.org/2657254">
+                        <placeName ref="https://editon-humboldt.de/H0002478 https://www.geonames.org/2657254">
                         <choice>
-                            <orig>An-<lb/>m̅er</orig>
+                            <orig>An<g ref="#typoHyphen"/>
+                                <lb break="no"/>m̅er</orig>
                             <reg>Antrimmer</reg>
                         </choice>
                     </placeName> Basaltsäulen convexen
@@ -125,11 +148,11 @@
                             <gap reason="illegible" quantity="5" unit="chars"/>
                         </del>
                         <add place="intralinear">Prismen</add>
-                    </subst> sehr niedrig sind, <ref xml:id="acadbf54-f8dd-418f-adbf-54f8ddc18f29" corresp="#b1c4d630-4287-4caf-84d6-304287bcafa7">sah <persName ref="http://d-nb.info/gnd/118661604">Bonpland</persName>
+                    </subst> sehr niedrig sind, <ref xml:id="bf76d1cd-5551-474c-b6d1-cd5551f74c72" corresp="#a8d1ce1f-7393-46cb-91ce-1f7393a6cb83">sah <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>
                     </ref>
-                    <note xml:id="b1c4d630-4287-4caf-84d6-304287bcafa7" corresp="#acadbf54-f8dd-418f-adbf-54f8ddc18f29">Die anatomischen Sektionen führte auf
+                    <note xml:id="a8d1ce1f-7393-46cb-91ce-1f7393a6cb83" corresp="#bf76d1cd-5551-474c-b6d1-cd5551f74c72" resp="#CG">Die anatomischen Sektionen führte auf
                             der Reise wegen seiner medizinischen Ausbildung und Praxis üblicherweise
-                                <persName ref="http://d-nb.info/gnd/118661604">Aimé Bonpland</persName> durch. </note>
+                                <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Aimé Bonpland</persName> durch. </note>
                     <lb/>Bündel von Fasern <choice>
                         <abbr>od.</abbr>
                         <expan>oder</expan>
@@ -141,7 +164,8 @@
                         <orig>sie</orig>
                         <reg>Sie</reg>
                     </choice> haben <lb/>kurze Queräste<supplied cert="high">,</supplied> welche mit
-                    Löchern in der Haut communiciren. Auch noch respirations-<lb/>gefäße. Die <choice>
+                    Löchern in der Haut communiciren. Auch noch respirations<g ref="#typoHyphen"/>
+                    <lb break="no"/>gefäße. Die <choice>
                         <abbr>elektr.</abbr>
                         <expan>elektrischen</expan>
                     </choice> Organe liegen unmittelbar über den Kiemen Bronchien. Man kann <lb/>die
@@ -154,16 +178,17 @@
                         <abbr>galvan<supplied cert="high">.</supplied>
                         </abbr>
                         <expan>galvanischen</expan>
-                    </choice>?) Fluidums nöthig, so wie eine große Masse <ref xml:id="bbeb6eed-0d58-4742-ab6e-ed0d588742bd" corresp="#add450fc-0dd1-42a5-9450-fc0dd1e2a56d">
+                    </choice>?) Fluidums nöthig, so wie eine große Masse <ref xml:id="d382e1c1-5e7f-4b4f-82e1-c15e7f9b4f41" corresp="#c0c4a829-89bf-4cc0-84a8-2989bf0cc080">
                         <lb/>arteriellen Blutes im Menschengehirn desoxidirt</ref>
-                    <note xml:id="add450fc-0dd1-42a5-9450-fc0dd1e2a56d" corresp="#bbeb6eed-0d58-4742-ab6e-ed0d588742bd">Vgl. <bibl corresp="https://edition-humboldt.de/v8/9S4VPTFP">Humboldt 1797</bibl>, I, 298.</note> wird.
+                    <note xml:id="c0c4a829-89bf-4cc0-84a8-2989bf0cc080" corresp="#d382e1c1-5e7f-4b4f-82e1-c15e7f9b4f41" resp="#CG">Vgl. <bibl corresp="https://edition-humboldt.de/9S4VPTFP">Humboldt 1797</bibl>, I, 298.</note> wird.
                     Unmittelbarer Zusa<choice>
                         <abbr>m̅</abbr>
                         <expan>mm</expan>
                     </choice>enhang mit dem
                     <lb/>Schwanze ist nicht zu bemerken, also verbreitet sich Fluidum wohl durch das
                     Rükkenmark.
-                        Ge-<lb/>hirn <subst>
+                        Ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>hirn <subst>
                         <del rendition="#s">des</del>
                         <add place="intralinear">der</add>
                     </subst>
@@ -179,15 +204,15 @@
                     Ueberfluß, Folge zu <lb/>großer Fülle des Nervenfluidums, wie unter <subst>
                         <del rendition="#s">s</del>
                         <add place="intralinear">vielen</add>
-                    </subst> tausend Menschen nur wenige <lb/>im Gehen Funken sprühen. (<ref xml:id="e7f42aa0-f180-4f7c-b42a-a0f1804f7ccb" corresp="#e36d053e-cf8e-4c00-ad05-3ecf8edc0043">
-                        <persName ref="https://edition-humboldt.de/v8/H0019451">König
+                    </subst> tausend Menschen nur wenige <lb/>im Gehen Funken sprühen. (<ref xml:id="cf560731-1000-4bdc-9607-3110007bdc1c" corresp="#c39e43f4-4966-4400-9e43-f44966b400e3">
+                        <persName ref="https://editon-humboldt.de/H0019451">König
                                 Theoderich</persName>
                     </ref>
-                    <note xml:id="e36d053e-cf8e-4c00-ad05-3ecf8edc0043" corresp="#e7f42aa0-f180-4f7c-b42a-a0f1804f7ccb">Als Dietrich von Bern (= Theoderich
-                            von <placeName ref="https://www.geonames.org/3164526">Verona</placeName>) werden ihm in der
+                    <note xml:id="c39e43f4-4966-4400-9e43-f44966b400e3" corresp="#cf560731-1000-4bdc-9607-3110007bdc1c" resp="#CG">Als Dietrich von Bern (= Theoderich
+                            von <placeName ref="https://editon-humboldt.de/H0009139 https://www.geonames.org/3164526">Verona</placeName>) werden ihm in der
                             Heldenepik viele übermenschliche Eigenschaften zugeschrieben, die sich
                             oftmals mit dem Feuer verknüpfen: So wird er etwa als feuerspeiend oder
-                            auf einem feuersprühenden Rosse reitend dargestellt (vgl. <bibl corresp="https://edition-humboldt.de/v8/VB8BERZT">Grimm 1829</bibl>, 105 und
+                            auf einem feuersprühenden Rosse reitend dargestellt (vgl. <bibl corresp="https://edition-humboldt.de/VB8BERZT">Grimm 1829</bibl>, 105 und
                             öfter).</note>.) Die <choice>
                         <abbr>elektr.</abbr>
                         <expan>elektrischen</expan>
@@ -210,11 +235,11 @@
                     <lb/>der Fisch gab
                     mir
                     aber eine Erschütterung. Folge des Reizes, denn die Erschütterung <lb/>hängt von
-                    seiner Willenskraft ab, eben so wie es vom <ref xml:id="c35da05e-52a4-4c0d-9da0-5e52a48c0d97" corresp="#f9dcf1d0-2aac-4d81-9cf1-d02aac0d8137">
+                    seiner Willenskraft ab, eben so wie es vom <ref xml:id="e47bb333-c77d-47a9-bbb3-33c77d57a964" corresp="#b2224c82-de04-46a9-a24c-82de0456a988">
                         <name type="animal">Elater noctilucus</name>
                     </ref>
-                    <note xml:id="f9dcf1d0-2aac-4d81-9cf1-d02aac0d8137" corresp="#c35da05e-52a4-4c0d-9da0-5e52a48c0d97">Scheinwerfer-Elater, eine Käferart
-                            mit Leuchtflecken am Kopf; vgl. <bibl corresp="https://edition-humboldt.de/v8/H53NVP6H">Linné/Gmelin 1788–1793</bibl>, I.4, 1902. Vgl. auch <bibl corresp="https://edition-humboldt.de/v8/DR2NAW3J">Humboldt 1814–1825</bibl>, I,
+                    <note xml:id="b2224c82-de04-46a9-a24c-82de0456a988" corresp="#e47bb333-c77d-47a9-bbb3-33c77d57a964" resp="#CG">Scheinwerfer-Elater, eine Käferart
+                            mit Leuchtflecken am Kopf; vgl. <bibl corresp="https://edition-humboldt.de/H53NVP6H">Linné/Gmelin 1788–1793</bibl>, I.4, 1902. Vgl. auch <bibl corresp="https://edition-humboldt.de/DR2NAW3J">Humboldt 1814–1825</bibl>, I,
                             325.</note>
                     <lb/>(den wir lange auf Zukkerrohr im Zimmer genährt) abhängt, mehr <choice>
                         <abbr>od.</abbr>
@@ -247,7 +272,8 @@
                         <expan>und</expan>
                     </choice> das Thierchen ermattete, mußte es lange gereizt werden<supplied cert="high">,</supplied>
                     <lb/>ehe es stark leuchtete. Ja<supplied cert="high">,</supplied> kurz vor
-                    seinem Tode schien der lichtentbindende Lebens-<lb/>proceß nicht mehr in seiner Willkühr zu stehen. <subst>
+                    seinem Tode schien der lichtentbindende Lebens<g ref="#typoHyphen"/>
+                    <lb break="no"/>proceß nicht mehr in seiner Willkühr zu stehen. <subst>
                         <del rendition="#s">Es</del>
                         <add place="intralinear">Das</add>
                     </subst> Licht verlöscht fast ganz, <lb/>
@@ -278,12 +304,13 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> nach allen Weltgegenden versucht, bis jezt <lb/>aber nicht mehr als in
-                        <placeName ref="https://www.geonames.org/6255148">Europa</placeName> gesehen, keine sichtbare
+                        <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> gesehen, keine sichtbare
                         Wirkung<supplied cert="high">,</supplied> die dem <lb/>
                     <choice>
                         <abbr>Magnet.</abbr>
                         <expan>Magnetischen</expan>
-                    </choice> Fluidum zuzuschreiben ist. Die schuppige, dem Ansehen nach so ele-<lb/>phantenartige Lederhaut der Arme (<name type="animal">
+                    </choice> Fluidum zuzuschreiben ist. Die schuppige, dem Ansehen nach so ele<g ref="#typoHyphen"/>
+                    <lb break="no"/>phantenartige Lederhaut der Arme (<name type="animal">
                         <choice>
                             <abbr>Test.</abbr>
                             <expan>Testudo</expan>
@@ -308,17 +335,18 @@
                     </hi> et demi, mais le <lb/>Galvanisme (ce qui est contraire aux
                     expériences faites sur d’autres poissons) n’eut aucun effet <lb/>sur les pinnes.
                     Le Cœur fût galvanisé avec succès en le touchant immédiatement, non <lb/>par la
-                    moëlle épinière. <ref xml:id="a2750f10-b036-4fba-b50f-10b036dfbab2" corresp="#dc845642-af02-433c-8456-42af02333ca5">
+                    moëlle épinière. <ref xml:id="d63ddc98-fdd7-4d98-bddc-98fdd70d980d" corresp="#f4bae47a-d8f2-4ae8-bae4-7ad8f2cae888">
                         <choice>
                                 <abbr>Fig</abbr>
                                 <expan>Figure</expan>
                             </choice> 1</ref>
-                    <note xml:id="dc845642-af02-433c-8456-42af02333ca5" corresp="#a2750f10-b036-4fba-b50f-10b036dfbab2">Die Zeichnung, auf die Humboldt sich
+                    <note xml:id="f4bae47a-d8f2-4ae8-bae4-7ad8f2cae888" corresp="#d63ddc98-fdd7-4d98-bddc-98fdd70d980d" resp="#CG">Die Zeichnung, auf die Humboldt sich
                             hier und im Folgenden bezieht, hat er später, zusammen mit einer Reihe
-                            weiterer Tierzeichnungen, <persName ref="http://d-nb.info/gnd/119315130">Johann Jakob von
+                            weiterer Tierzeichnungen, <persName ref="https://editon-humboldt.de/H0004075 http://d-nb.info/gnd/119315130">Johann Jakob von
                                 Tschudi</persName> geschenkt. Sie ist in der Staatsbibliothek zu
                             Berlin überliefert (<ref target="http://kalliope-verbund.info/DE-611-HS-525250">SBB–PK,
-                                Autograph I/2107-7</ref>; gedruckt in <bibl corresp="https://edition-humboldt.de/v8/DBU2432W">Humboldt 2019</bibl>, 165).</note> coupe verticale pour montrer le rapprochement des orga-<lb/>nes électriques, du Cerveau, du Cœur et
+                                Autograph I/2107-7</ref>; gedruckt in <bibl corresp="https://edition-humboldt.de/DBU2432W">Humboldt 2019</bibl>, 165).</note> coupe verticale pour montrer le rapprochement des orga<g ref="#typoHyphen"/>
+                    <lb break="no"/>nes électriques, du Cerveau, du Cœur et
                     des organes de la respiration, les <choice>
                         <sic>ouis</sic>
                         <corr cert="high">ouïes</corr>
@@ -333,7 +361,8 @@
                     </del> et se <lb/>termine en c en
                     pointe. Ce qui <add place="superlinear">
                         <metamark/>est </add>très remarquable,
-                    est qu’en dg il a un compar-<lb/>timent <subst>
+                    est qu’en dg il a un compar<g ref="#typoHyphen"/>
+                    <lb break="no"/>timent <subst>
                         <del rendition="#s">qui</del>
                         <add place="intralinear">dcg qui</add>
                     </subst> est séparé par une membrane <del rendition="#s">dg</del> du <del rendition="#s">
@@ -343,7 +372,8 @@
                         <orig>sont</orig>
                         <reg>Sont</reg>
                     </choice>
-                    ce les ossa papina-<lb/>cea et l’organe de l’olfactus. Le cerveau
+                    ce les ossa papina<g ref="#typoHyphen"/>
+                    <lb break="no"/>cea et l’organe de l’olfactus. Le cerveau
                     même ne remplit qu’à peine <lb/>la
                         3<hi rendition="#sup">
                         <choice>
@@ -380,7 +410,8 @@
                     </choice>
                     par
                     en <lb/>bas et ne fait qu’une
-                    masse cylindrique. Tout le Cerveau (à l’excep-<lb/>tion des grands Corps <choice>
+                    masse cylindrique. Tout le Cerveau (à l’excep<g ref="#typoHyphen"/>
+                    <lb break="no"/>tion des grands Corps <choice>
                         <sic>ouals</sic>
                         <corr cert="high">ovales</corr>
                     </choice> p et q) <subst>
@@ -444,8 +475,8 @@
                             <sic>ouïs</sic>
                             <corr cert="high">ouïes</corr>
                         </choice>
-                    </hi> osseux, dont les ouvertures <ref xml:id="e63e1acc-3253-4337-be1a-cc3253c337c6" corresp="#c5bdb2d9-d415-4053-bdb2-d9d41540536d">β β β β β</ref>
-                    <note xml:id="c5bdb2d9-d415-4053-bdb2-d9d41540536d" corresp="#e63e1acc-3253-4337-be1a-cc3253c337c6">Vgl. die überlieferte
+                    </hi> osseux, dont les ouvertures <ref xml:id="e3a2b85d-8727-4ee3-a2b8-5d87272ee39b" corresp="#cbe0e464-86f0-4c81-a0e4-6486f09c8176">β β β β β</ref>
+                    <note xml:id="cbe0e464-86f0-4c81-a0e4-6486f09c8176" corresp="#e3a2b85d-8727-4ee3-a2b8-5d87272ee39b" resp="#CG">Vgl. die überlieferte
                             Zeichnung.</note> se montrent dernière la <lb/>bouche (le museau rétractile, muni d’une
                     peau dentelée osseuse <lb/>peau de chien) lorsqu’on met l’animal sur le dos.
                         C’est<supplied cert="high">-</supplied>à<supplied cert="high">-</supplied>
@@ -458,36 +489,38 @@
                     loge osseuse et en μ une grosse artère qui paraît se <lb/>distribuer aux
                     vaisseaux des branchies. Voilà donc le Cœur, les <lb/>branchies, le Cerveau et
                     l’organe électrique placé tout près les uns des <lb/>autres. De même que dans
-                    l’homme une enorme quantité de sang ar-<lb/>tériel est desoxidée par la pensée et par les fonctions du cerveau, <lb/>de
+                    l’homme une enorme quantité de sang ar<g ref="#typoHyphen"/>
+                    <lb break="no"/>tériel est desoxidée par la pensée et par les fonctions du cerveau, <lb/>de
                     même l’oxygène soustrait à l’eau par les branchies sert<supplied cert="high">-</supplied>
-                    <lb/>il à produire dans les Cylindres ce fluide
+                    <lb break="no"/>il à produire dans les Cylindres ce fluide
                     mystérieux qui, <lb/>cause première des Contractions ou du mouvement musculaire,
                     se fait <lb/>sentir au dehors par des explosions momentanées! <choice>
                         <abbr>F</abbr>
                         <expan>Figure</expan>
                     </choice> 2. Le Crâne avec <lb/>le Cerveau vu par dessus. p. et q.
-                        <foreign xml:lang="lat">corpora clavata lutea</foreign>. le res<lb/>te blanc!<note place="inline" hand="#author"> — Sur l’Anatomie
-                        des <name type="animal">Phoenicopterus</name>, <name type="animal">Trochilus</name> et descrip-<lb/>tion <choice>
+                        <foreign xml:lang="lat">corpora clavata lutea</foreign>. le res<lb break="no"/>te blanc!<note place="inline" hand="#author"> — Sur l’Anatomie
+                        des <name type="animal">Phoenicopterus</name>, <name type="animal">Trochilus</name> et descrip<g ref="#typoHyphen"/>
+                        <lb break="no"/>tion <choice>
                             <abbr>system.</abbr>
                             <expan>systématique</expan>
                         </choice> des Oiseaux. <choice>
                             <abbr>V.</abbr>
                             <expan>Voyez</expan>
                         </choice>
-                        <ref xml:id="f1f6cf5d-abeb-4ef9-b6cf-5dabeb7ef9ef" corresp="#a074e840-b1b7-407c-b4e8-40b1b7507c76">mon Voyage au <placeName ref="https://edition-humboldt.de/v8/H0008114">Paria</placeName> (livre
+                        <ref xml:id="f6fcfacb-fdee-427e-bcfa-cbfdee827e5b" corresp="#fa8307ac-bd92-40b4-8307-acbd92e0b4aa">mon Voyage au <placeName ref="https://editon-humboldt.de/H0008114">Paria</placeName> (livre
                                 rouge)</ref>
-                        <note xml:id="a074e840-b1b7-407c-b4e8-40b1b7507c76" corresp="#f1f6cf5d-abeb-4ef9-b6cf-5dabeb7ef9ef">Das von Humboldt als
+                        <note xml:id="fa8307ac-bd92-40b4-8307-acbd92e0b4aa" corresp="#f6fcfacb-fdee-427e-bcfa-cbfdee827e5b" resp="#CG">Das von Humboldt als
                                     <quote>Volume III</quote> gezählte Tagebuchheft hat die Reise
-                                nach dem Kloster <placeName ref="https://www.geonames.org/3777741">Caripe</placeName> und
-                                der <placeName ref="https://www.geonames.org/3777905">Guácharo-Höhle</placeName> zum Inhalt.
+                                nach dem Kloster <placeName ref="https://editon-humboldt.de/H0007163 https://www.geonames.org/3777741">Caripe</placeName> und
+                                der <placeName ref="https://editon-humboldt.de/H0007664 https://www.geonames.org/3777905">Guácharo-Höhle</placeName> zum Inhalt.
                                 Es befindet sich heute in <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001527300000217">ART II/VI, Bl. 110–164 bzw. Bl. 112r–131r; Digitalisat
-                                    SBB-PK</ref>. Zum <quote>livre rouge</quote> vgl. die <ref target="H0016412/#nfnj_3ym_ndb">Anm. zu ART I, Bl. 42v</ref>.
+                                    SBB-PK</ref>. Zum <quote>livre rouge</quote> vgl. die <ref target="https://edition-humboldt.de/H0016412/nfnj_3ym_ndb">Anm. zu ART I, Bl. 42v</ref>.
                             </note>
-                        <lb/>article <ref xml:id="d1e5ade6-d8c2-4689-a5ad-e6d8c2768902" corresp="#d4982fcf-f158-4837-982f-cff158383735">
+                        <lb/>article <ref xml:id="bc1afc57-987b-44e1-9afc-57987b34e110" corresp="#b79c2c43-6046-40ce-9c2c-43604610ced2">
                             <hi rendition="#u">Aves</hi>.
                                 p
                                 53</ref>
-                        <note xml:id="d4982fcf-f158-4837-982f-cff158383735" corresp="#d1e5ade6-d8c2-4689-a5ad-e6d8c2768902">Vgl. <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001527300000217">ART II/VI, Bl. 139r bis 141r; Digitalisat SBB-PK</ref> (=
+                        <note xml:id="b79c2c43-6046-40ce-9c2c-43604610ced2" corresp="#bc1afc57-987b-44e1-9afc-57987b34e110" resp="#CG">Vgl. <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001527300000217">ART II/VI, Bl. 139r bis 141r; Digitalisat SBB-PK</ref> (=
                                 Pagina [55]–[59]); dort finden sich Beschreibungen einzelner Arten
                                 der Vogelgattungen <name type="animal">Alcavaran</name>, <name type="animal">Charadrius</name>, <name type="animal">Trochilus</name>, <name type="animal">Falco</name>, <name type="animal">Phoenicopterus</name>. Die Pagina 53 fehlt; das
                                 Blatt mit der Foliierung 138 ist falsch zugeordnet. </note>.</note>

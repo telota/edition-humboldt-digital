@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016622">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [August 1852] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016622">https://edition-humboldt.de/v8/H0016622</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016622</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016622</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016622.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [August 1852] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016622</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">214</idno>
+                     <idno type="shelfmark">421, Bl. 392r-392v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1852-08" notAfter="1852-08">1852-08-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Briefe Nr. 200, 203; die Diskussion über ein Denkmal für
                P.S.Pallas wurde im Sommer 1852 geführt</note>
@@ -63,20 +81,24 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Mein theurer Freund! Sollte der Enkel des <lb/>grossen <persName ref="http://d-nb.info/gnd/118591371">Mannes</persName> sich denn wirklich <lb/>widersezen? Der sehr lobenswerthe
+            <p>Mein theurer Freund! Sollte der Enkel des <lb/>grossen <persName ref="https://editon-humboldt.de/H0001770 http://d-nb.info/gnd/118591371">Mannes</persName> sich denn wirklich <lb/>widersezen? Der sehr lobenswerthe
                Wunsch <lb/>der <choice>
                   <abbr>Petersb.</abbr>
                   <expan>Petersburger</expan>
                </choice> Akademie war nicht so <lb/>wohl den Ort zu <hi rendition="#u">bezeichnen</hi>, als <lb/>dem ausgezeichneten Naturforscher ein <lb/>
                     <hi rendition="#u">Ehrendenkmal</hi> zu errichten im Namen <lb/>zweier Akademien!
-                  <persName ref="http://d-nb.info/gnd/116878894">Fuss</persName> erwähnt des-<lb/>halb ganz besonders des Denkmals von <lb/>Leonhard <persName ref="http://d-nb.info/gnd/118531379">Euler</persName> und giebt an wo <lb/>dasselbe in der Correspondenz
+                  <persName ref="https://editon-humboldt.de/H0016900 http://d-nb.info/gnd/116878894">Fuss</persName> erwähnt des<g ref="#typoHyphen"/>
+                    <lb break="no"/>halb ganz besonders des Denkmals von <lb/>Leonhard <persName ref="https://editon-humboldt.de/H0006024 http://d-nb.info/gnd/118531379">Euler</persName> und giebt an wo <lb/>dasselbe in der Correspondenz
                beschrieben <lb/>ist. Es wäre doch sonderbar, dass <lb/>der Nachkomme eine solche
                Ehrenbezeigung <lb/>nicht wünschen <add place="superlinear">sollte</add> und seine
-               förmliche <lb/>Erklärung schiene mir um so noth<lb/>wendiger, als die <choice>
+               förmliche <lb/>Erklärung schiene mir um so noth<lb break="no"/>wendiger, als die <choice>
                   <abbr>Petersb.</abbr>
                   <expan>Petersburger</expan>
-               </choice> Akademie <lb/>bestimmt glauben würde, das eigentli-<lb/>che Hinderniss sei Kälte, Sparsam-<lb/>keit und Wunsch einer Unbequemlich-<lb/>keit zu
-               entgehen. Der Ruhm <lb/>von <persName ref="http://d-nb.info/gnd/118591371">Pallas</persName> gehört zweien
+               </choice> Akademie <lb/>bestimmt glauben würde, das eigentli<g ref="#typoHyphen"/>
+                    <lb break="no"/>che Hinderniss sei Kälte, Sparsam<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit und Wunsch einer Unbequemlich<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit zu
+               entgehen. Der Ruhm <lb/>von <persName ref="https://editon-humboldt.de/H0001770 http://d-nb.info/gnd/118591371">Pallas</persName> gehört zweien
                Völkern <lb/>ist kein Familieneigenthum. Darf <lb/>ich, theurer Freund, Sie bitten
                <lb/>diese meine Bedenken der <hi rendition="#u">Commission</hi>
                <lb/>mitzutheilen. Es würde ja leicht <lb/>sein in einer <add place="left">
@@ -88,14 +110,14 @@
                habe <lb/>bezeichnen wollen, dass aber zwei <lb/>Akademien sich vereinigt hätten das
                <lb/>Grab <add place="left">
                         <metamark/>durch eine polirte <lb/>Granittafel</add> zu
-               schmücken. Nach dem Briefe <lb/>von <persName ref="http://d-nb.info/gnd/116878894">Fuss</persName> steht
+               schmücken. Nach dem Briefe <lb/>von <persName ref="https://editon-humboldt.de/H0016900 http://d-nb.info/gnd/116878894">Fuss</persName> steht
                die Inschrift auf <lb/>
-                    <pb n="1v"/>Leonhard <persName ref="http://d-nb.info/gnd/118531379">Euler</persName>
+                    <pb n="1v"/>Leonhard <persName ref="https://editon-humboldt.de/H0006024 http://d-nb.info/gnd/118531379">Euler</persName>
                an einer Stelle des <lb/>Briefwechsels die er citirt und die <lb/>ein Mitglied der
                Commission wohl <lb/>wird nachgelesen haben<supplied cert="high">.</supplied>
-               <ref xml:id="cb35fc62-447d-4fd9-b5fc-62447d2fd9cb" corresp="#eac575b3-e142-4930-8575-b3e142193087"/>
-                    <note xml:id="eac575b3-e142-4930-8575-b3e142193087" corresp="#cb35fc62-447d-4fd9-b5fc-62447d2fd9cb">
-                     <bibl corresp="https://edition-humboldt.de/v8/MKPRGXRZ">Biermann 1960</bibl>
+               <ref xml:id="d5a7401e-434c-497c-a740-1e434c697c31" corresp="#bd2d30dd-4206-4b42-ad30-dd42067b42dc"/>
+                    <note xml:id="bd2d30dd-4206-4b42-ad30-dd42067b42dc" corresp="#d5a7401e-434c-497c-a740-1e434c697c31">
+                     <bibl corresp="https://edition-humboldt.de/MKPRGXRZ">Biermann 1960</bibl>
                   </note>
             </p>
             <closer rend="paragraph">

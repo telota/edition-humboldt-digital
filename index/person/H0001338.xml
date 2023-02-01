@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001338">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Klaproth, Martin Heinrich</title>
             </titleStmt>
+            <editionStmt>
+                <p>Klaproth, Martin Heinrich [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001338.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001338.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001338.xml">
-                    <p>Klaproth, Martin Heinrich [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001338.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001338">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118723367</idno>
                     <persName type="reg">
                         <surname>Klaproth</surname>
@@ -41,8 +46,8 @@
                         eigenen Versuchen 1792 von der Phlogiston-Theorie ab; führte neue
                         Analysemethoden in der Königlichen Porzellanmanufaktur Berlin ein und
                         stabilisierte dort die Farbpalette; Entdecker des Urans; 1810 zum Professor
-                        der Chemie an die neu gegründete <orgName key="H0000603">Berliner
-                            Universität</orgName> berufen; Vater von <persName key="H0001337">Heinrich Julius Klaproth</persName>
+                        der Chemie an die neu gegründete <orgName ref="https://editon-humboldt.de/H0000603 http://d-nb.info/gnd/1220138-8">Berliner
+                            Universität</orgName> berufen; Vater von <persName ref="https://editon-humboldt.de/H0001337 http://d-nb.info/gnd/10082451X">Heinrich Julius Klaproth</persName>
                     </note>
                     <linkGrp>
                         <ptr target="02#81" type="letter"/>

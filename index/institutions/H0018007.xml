@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018007">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Jekaterinburgskaja granil'naja fabrika</title>
             </titleStmt>
+            <editionStmt>
+                <p>Jekaterinburgskaja granil'naja fabrika [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018007.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018007.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018007.xml">
-                    <p>Jekaterinburgskaja granil'naja fabrika [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018007.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-institutions</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-institutions</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listOrg>
-                <org xml:id="H0018007">
+                <org>
                     <idno type="uri">http://d-nb.info/gnd/4808221-1</idno>
                     <orgName type="reg">Jekaterinburgskaja granil'naja fabrika</orgName>
                     <orgName type="alt">Екатеринбургская гранильная фабрика</orgName>
@@ -37,7 +42,7 @@
                     <location>
                         <address>
                             <idno type="uri">https://www.geonames.org/1486209</idno>
-                            <settlement key="H0005599">Jekaterinburg</settlement>
+                            <settlement ref="https://edition-humboldt.de/H0005599">Jekaterinburg</settlement>
                             <note/>
                         </address>
                     </location>

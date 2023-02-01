@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018153">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Dem'yanskoye (Gouv. Tobolsk)</title>
             </titleStmt>
+            <editionStmt>
+                <p>Dem'yanskoye (Gouv. Tobolsk) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018153.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,29 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018153.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018153.xml">
-                    <p>Dem'yanskoye (Gouv. Tobolsk) [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018153.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018153">
+                <place>
                     <idno type="uri">https://www.geonames.org/1507456</idno>
                     <placeName type="reg">Dem'yanskoye (Gouv. Tobolsk)</placeName>
                     <placeName type="alt">Demjansk</placeName>
                     <placeName type="alt">Демьянское</placeName>
                     <placeName type="alt"> Demjanskoje</placeName>
-                    <note>Ortschaft am <placeName key="H0006725">Irtysch</placeName> in <placeName key="H0010218">Westsibirien</placeName> (<placeName key="H0010689">Russland</placeName>) nördlich von
-                            <placeName key="H0009435">Tobolsk</placeName>.
-                        <!-- Nicht zu verwechseln mit Demyansk / Demjansk südlich von Weliki Nowgorod. -->
-                    </note>
+                    <note>Ortschaft am <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtysch</placeName> in <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">Westsibirien</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>) nördlich von
+                            <placeName ref="https://editon-humboldt.de/H0009435 https://www.geonames.org/1489530">Tobolsk</placeName>.
+                        </note>
                 </place>
             </listPlace>
         </body>

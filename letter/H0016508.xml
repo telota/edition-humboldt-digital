@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016508">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -19,31 +19,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1831] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016508">https://edition-humboldt.de/v8/H0016508</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016508</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016508</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016508.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1831] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016508</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">258</idno>
+                     <idno type="shelfmark">421, Bl. 484r, 485v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1831" notAfter="1831">1831-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: lateinische Schrift</note>
          </correspDesc>
@@ -69,47 +87,47 @@
                   <abbr>Prof.</abbr>
                   <expan>Professor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/118529250">Ehrenberg</persName>
-               <lb/>Sie haben gewiss, mein theurer hochverehrter Freund, in <placeName ref="https://www.geonames.org/102358">Arabien</placeName> oft an <name type="plant" key="Aloe succotrina">Aloe soccotrina</name>, von der Insel <placeName ref="https://www.geonames.org/70302">Socotora</placeName> gedacht deshalb <choice>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>
+               <lb/>Sie haben gewiss, mein theurer hochverehrter Freund, in <placeName ref="https://editon-humboldt.de/H0002504 https://www.geonames.org/102358">Arabien</placeName> oft an <name type="plant" key="Aloe succotrina">Aloe soccotrina</name>, von der Insel <placeName ref="https://editon-humboldt.de/H0017404 https://www.geonames.org/70302">Socotora</placeName> gedacht deshalb <choice>
                   <sic>bite</sic>
                   <corr>bitte</corr>
                </choice> ich Sie um Belehrung. Mich hat oft das Aloeholz gequält das ich bei
                Orientalen zum Räuchern habe anwenden sehen. Sollte es wie man allgemein behauptet
                   <name type="plant" key="Excoecaria Agallocha">Excoecaria Agallocha</name> sein?
-               Was ich aber besonders wünsche ist dass Sie einmal gelegentlich im Dioscorides<ref xml:id="aad90b84-2877-4c24-990b-8428770c2496" corresp="#c974f1ba-ccec-498e-b4f1-baccec198ef3"/>
-                    <note xml:id="c974f1ba-ccec-498e-b4f1-baccec198ef3" corresp="#aad90b84-2877-4c24-990b-8428770c2496">
-                     <bibl corresp="https://edition-humboldt.de/v8/L269Q7XK"> Dioscorides</bibl>
+               Was ich aber besonders wünsche ist dass Sie einmal gelegentlich im Dioscorides<ref xml:id="eba4b2c1-b72f-4dad-a4b2-c1b72fcdad37" corresp="#ff02e080-8990-429d-82e0-808990529dcc"/>
+                    <note xml:id="ff02e080-8990-429d-82e0-808990529dcc" corresp="#eba4b2c1-b72f-4dad-a4b2-c1b72fcdad37">
+                     <bibl corresp="https://edition-humboldt.de/L269Q7XK"> Dioscorides</bibl>
                   </note> nachsehen ob er selbst aram (agallochon) und medicament (aloe) verwechselt
                weil beide eine gerinnende Milch enthalten. <lb/>
                <foreign xml:lang="grc">αλοη</foreign> soll stehen <choice>
                   <abbr>Dioscor</abbr>
                   <expan>Dioscorides</expan>
-               </choice> III 25 und <foreign xml:lang="grc">αγαλλοχον</foreign>. I. 19 <ref xml:id="e9d84348-a006-4fba-9843-48a0065fbad2" corresp="#b213fa9a-6ad5-4259-93fa-9a6ad50259e4"/>
-                    <note xml:id="b213fa9a-6ad5-4259-93fa-9a6ad50259e4" corresp="#e9d84348-a006-4fba-9843-48a0065fbad2">
-                     <bibl corresp="https://edition-humboldt.de/v8/L269Q7XK">Dioscorides </bibl>
-                  </note> nach Schneider’s Lexicon. <lb/> Ich habe keinen Dioscorides.<ref xml:id="c15a8b1e-c2f7-4510-9a8b-1ec2f7b5102c" corresp="#f695a9b2-9a6b-4774-95a9-b29a6bd774a8"/>
-                    <note xml:id="f695a9b2-9a6b-4774-95a9-b29a6bd774a8" corresp="#c15a8b1e-c2f7-4510-9a8b-1ec2f7b5102c">
-                     <bibl corresp="https://edition-humboldt.de/v8/L269Q7XK">Dioscorides </bibl>
+               </choice> III 25 und <foreign xml:lang="grc">αγαλλοχον</foreign>. I. 19 <ref xml:id="e70e9544-fc8e-4c6d-8e95-44fc8e7c6d8b" corresp="#f40c4d2d-b3b0-4850-8c4d-2db3b0c850df"/>
+                    <note xml:id="f40c4d2d-b3b0-4850-8c4d-2db3b0c850df" corresp="#e70e9544-fc8e-4c6d-8e95-44fc8e7c6d8b">
+                     <bibl corresp="https://edition-humboldt.de/L269Q7XK">Dioscorides </bibl>
+                  </note> nach Schneider’s Lexicon. <lb/> Ich habe keinen Dioscorides.<ref xml:id="f7202e0c-1cb6-4f60-a02e-0c1cb6af60a8" corresp="#eebd0422-bea2-414c-bd04-22bea2f14c1c"/>
+                    <note xml:id="eebd0422-bea2-414c-bd04-22bea2f14c1c" corresp="#f7202e0c-1cb6-4f60-a02e-0c1cb6af60a8">
+                     <bibl corresp="https://edition-humboldt.de/L269Q7XK">Dioscorides </bibl>
                   </note> Wird nun wirklich bei Agall wieder Aloe genannt <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
-               </choice> ist die Verwechselung neuer. Mich interesirt es darum weil nach <persName ref="http://d-nb.info/gnd/11367077X">Ainslie</persName>
+               </choice> ist die Verwechselung neuer. Mich interesirt es darum weil nach <persName ref="https://editon-humboldt.de/H0012545 http://d-nb.info/gnd/11367077X">Ainslie</persName>
                <choice>
                   <abbr>Mat</abbr>
                   <expan>Materia</expan>
-               </choice> medica indica<ref xml:id="b0b3d15c-1658-4db6-b3d1-5c1658ddb6d4" corresp="#ebb71506-7735-47a3-b715-06773587a384"/>
-                    <note xml:id="ebb71506-7735-47a3-b715-06773587a384" corresp="#b0b3d15c-1658-4db6-b3d1-5c1658ddb6d4">
-                     <bibl corresp="https://edition-humboldt.de/v8/KDNGIYRV">Ainslie 1826</bibl>
+               </choice> medica indica<ref xml:id="c0ffa9f6-6c33-49a9-bfa9-f66c3339a945" corresp="#dcb8a0d6-057a-402e-b8a0-d6057a702ebe"/>
+                    <note xml:id="dcb8a0d6-057a-402e-b8a0-d6057a702ebe" corresp="#c0ffa9f6-6c33-49a9-bfa9-f66c3339a945">
+                     <bibl corresp="https://edition-humboldt.de/KDNGIYRV">Ainslie 1826</bibl>
                   </note> auf Sanscrit aloe (das medicament) <hi rendition="#u">taruni</hi> heisst. Ich
-               finde dies Sanscritwort bei Plinius<ref xml:id="ca4113ba-5431-424b-8113-ba5431124b4e" corresp="#f8cc1037-6689-4660-8c10-376689a66026"/>
-                    <note xml:id="f8cc1037-6689-4660-8c10-376689a66026" corresp="#ca4113ba-5431-424b-8113-ba5431124b4e">
-                     <bibl corresp="https://edition-humboldt.de/v8/NQA47T5I">Plinius Secundus</bibl>
+               finde dies Sanscritwort bei Plinius<ref xml:id="ea9ac5b4-c9e8-4288-9ac5-b4c9e8a288ca" corresp="#f9d1bd32-7ce4-4ae9-91bd-327ce4bae987"/>
+                    <note xml:id="f9d1bd32-7ce4-4ae9-91bd-327ce4bae987" corresp="#ea9ac5b4-c9e8-4288-9ac5-b4c9e8a288ca">
+                     <bibl corresp="https://edition-humboldt.de/NQA47T5I">Plinius Secundus</bibl>
                     </note>
                XII
                20 der sagt <hi rendition="#u">tarum</hi> sei ein arom, das man durch die Nabatheer
-               erhalten und <persName ref="http://d-nb.info/gnd/119046768">Garcia ab Orto</persName> lib I c,6<ref xml:id="d77c0c1c-05b0-4db0-bc0c-1c05b0adb0f9" corresp="#cafc7855-58cc-426b-bc78-5558cc826bef"/>
-                    <note xml:id="cafc7855-58cc-426b-bc78-5558cc826bef" corresp="#d77c0c1c-05b0-4db0-bc0c-1c05b0adb0f9">
-                     <bibl corresp="https://edition-humboldt.de/v8/NBD9T4AL">Orta 1567</bibl>
+               erhalten und <persName ref="https://editon-humboldt.de/H0016941 http://d-nb.info/gnd/119046768">Garcia ab Orto</persName> lib I c,6<ref xml:id="a78dc553-bb9a-4554-8dc5-53bb9ac554fc" corresp="#f137a0ba-bb6c-4b6a-b7a0-babb6c6b6a80"/>
+                    <note xml:id="f137a0ba-bb6c-4b6a-b7a0-babb6c6b6a80" corresp="#a78dc553-bb9a-4554-8dc5-53bb9ac554fc">
+                     <bibl corresp="https://edition-humboldt.de/NBD9T4AL">Orta 1567</bibl>
                   </note> erklärt dies durch tarum durch Agalloch <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>

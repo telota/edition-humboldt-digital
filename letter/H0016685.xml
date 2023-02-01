@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016685">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [26. Oktober
+               1840] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016685">https://edition-humboldt.de/v8/H0016685</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016685</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016685</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016685.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [26. Oktober
-               1840] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016685</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">118</idno>
+                     <idno type="shelfmark">421, Bl. 218r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1840-10-26">1840-10-26</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: die Geburt von Ehrenbergs Sohn Hermann Alexander war am
                7.10.1840</note>
@@ -65,16 +83,18 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Innigsten Dank, mein theurer gemüth-<lb/>licher
+            <p>Innigsten Dank, mein theurer gemüth<g ref="#typoHyphen"/>
+                    <lb break="no"/>licher
                Freund, dass Sie mir so viel <lb/>beruhigendere Nachrichten über Ihr <lb/>
-                    <persName ref="https://edition-humboldt.de/v8/H0016960">Söhnchen</persName> und dessen trefliche <persName ref="https://edition-humboldt.de/v8/H0016962">Mutter</persName>
+                    <persName ref="https://editon-humboldt.de/H0016960">Söhnchen</persName> und dessen trefliche <persName ref="https://editon-humboldt.de/H0016962">Mutter</persName>
                <lb/>geben, auch mich Schrekken – erregend <lb/>an meine Schuld, eine Vorlesung in
                <lb/>der Akademie ganz nahe, zum 29sten <lb/>erinnern. Ich bin seit mehreren
                <lb/>Tagen leidend an Zahnweh und etwas <lb/>rheumatisch. Es ist mir sehr schwer
                <lb/>von hier aus Schritte zu einem <lb/>Stellvertreter zu machen. Wäre es
                <lb/>Ihnen, theurer Freund, nicht möglich <lb/>jemand zu bereden unter den Unsrigen
                <lb/>der statt meiner etwas vortrage. <lb/>Auf jeden Fall bitte ich Sie <lb/>mich,
-               durch unvorhergesehene Unpäss-<lb/>lichkeit selbst in
+               durch unvorhergesehene Unpäss<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichkeit selbst in
                der Akademie <lb/>zu entschuldigen. Schreiben Sie <lb/>mir gütigst einige Zeilen
                hieher, <lb/>ob Sie jemand zur Lectüre gefunden<supplied cert="high">.</supplied>
                <lb/>Es macht mich meine <hi rendition="#u">Schuld</hi>

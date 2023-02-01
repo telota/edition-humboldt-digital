@@ -1,35 +1,59 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019718">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Alexander von Humboldt an Friedrich Wilhelm IV. Charlottenhof, 5. Oktober
                     1840</title>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Friedrich Wilhelm IV. Charlottenhof, 5. Oktober
+                    1840. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019718">https://edition-humboldt.de/v8/H0019718</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0019718</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019718</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019718.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Friedrich Wilhelm IV. Charlottenhof, 5. Oktober
-                    1840. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0019718</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Geheimes Staatsarchiv – Preußischer Kulturbesitz,
+                            Berlin</institution>
+                        <collection/>
+                        <idno>I. HA, Rep. 89, Nr. 2007, Bl. 68–69</idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print">Leitner
+                            2013, Brief 59, 175–177</bibl>
+                    </witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://www.geonames.org/2940177">Charlottenhof (Schloss bei Potsdam in Brandenburg
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0007342 https://www.geonames.org/2940177">Charlottenhof (Schloss bei Potsdam in Brandenburg
                         (Deutschland))</placeName>
                     <date when="1840-10-05" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118535994">Preußen, Friedrich Wilhelm IV., König von
+                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Preußen, Friedrich Wilhelm IV., König von
                         (1795-1861)</persName>
                 </correspAction>
             </correspDesc>
@@ -45,9 +69,13 @@
 				<p>haben mir zu befehlen geruhet, Allerhöchstderselben <lb/>Vorschläge über die, der Lage und
                         Lebensverhältnisse<supplied cert="high">n</supplied>
                     <lb/>angemessene Remuneration des ausgezeichneten <lb/>und kühnen Reisenden
-                    Robert Schomburgk einzu-<lb/>reichen.</p>
-                <p>I. Ueber die geographischen und naturwissenschaft-<lb/>lichen Verdienste des Reisenden, welcher der Geo-<lb/>graphischen Gesellschaft zu London durch
-                    seine <lb/>vortrefliche Küstenaufnahme der klippenreichen west-<lb/>indischen Insel Anegada bekannt geworden
+                    Robert Schomburgk einzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>reichen.</p>
+                <p>I. Ueber die geographischen und naturwissenschaft<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichen Verdienste des Reisenden, welcher der Geo<g ref="#typoHyphen"/>
+                    <lb break="no"/>graphischen Gesellschaft zu London durch
+                    seine <lb/>vortrefliche Küstenaufnahme der klippenreichen west<g ref="#typoHyphen"/>
+                    <lb break="no"/>indischen Insel Anegada bekannt geworden
                     war, und <lb/>nochmals, sechs Jahre lang, einen wichtigen Länderstrich
                     <lb/>zwischen Demarari (der englischen Guyana) und dem, <lb/>von mir besuchten
                     Oberen Orinoco durchstrichen <lb/>und neu entdekt hat, brauche ich nichts zu
@@ -80,14 +108,15 @@
                         <abbr>Maj.</abbr>
                         <expan>Majestät</expan>
                     </choice> der Königinn, die er das <lb/>Glück gehabt hatte, als Braut bei der
-                        Durch<lb/>reise durch Sachsen, zu erbliken, ein schönes
+                        Durch<lb break="no"/>reise durch Sachsen, zu erbliken, ein schönes
                     <lb/>Pflanzen-Geschlecht gewidmet. Er hat <lb/>jezt, wie die Anlage beweiset,
                     auf die <lb/>uneigennüzigste Weise die Kunst-Kammer, <lb/>das Herbarium und das
                     zoologische Cabinett <lb/>bereichert. Die Geschenke, die er gemacht <lb/>haben
                     wenigstens einen Geldwerth von <lb/>
                     <hi rendition="#u">135</hi> Friedrich d’or
                     (Feder- und Kunst-Sachen <lb/>35 Fr. d’or; Bücher, prächtig gebunden und
-                    <lb/>Handzeichnungen 30; Pflanzen für das Her-<lb/>barium 60; ausgestopfte Vögel 10 Fr. d’or <lb/>= 135 Friedrich
+                    <lb/>Handzeichnungen 30; Pflanzen für das Her<g ref="#typoHyphen"/>
+                    <lb break="no"/>barium 60; ausgestopfte Vögel 10 Fr. d’or <lb/>= 135 Friedrich
                     d’or). Seiner äusseren Lage <lb/>nach, hat der junge (36jährige) Mann so
                     <lb/>lange er in der Vermessung ist, da andere <lb/>Officiere unter ihm stehen,
                     den Rang eines <lb/>Oberst Lieutenants in der Colonial Miliz. </p>
@@ -95,13 +124,14 @@
                     dass <lb/>Ew. <choice>
                         <abbr>Königl</abbr>
                         <expan>Königliche</expan>
-                    </choice> Majestät einen Ihrer Un-<lb/>terthanen
+                    </choice> Majestät einen Ihrer Un<g ref="#typoHyphen"/>
+                    <lb break="no"/>terthanen
                     einer Auszeichnung würdigen <lb/>schlage ich allerunterthänigst vor: </p>
                 <p>dem Robert Schomburgk den <lb/>Rothen Adler Orden, nicht <lb/>vierter, sondern
                         <hi rendition="#u">dritter Klasse</hi>
                     <lb/>zu verleihen.</p>
                 <p>Bei der Veröffentlichung dieser allergnädigsten <lb/>Verleihung wäre die Person
-                    wohl am schiklich<lb/>sten also zu bezeichnen: <hi rendition="#u">Robert</hi>
+                    wohl am schiklich<lb break="no"/>sten also zu bezeichnen: <hi rendition="#u">Robert</hi>
                     <hi rendition="#u">Schomburgk</hi>, <lb/>
                     <hi rendition="#u">im</hi>
                     <hi rendition="#u">Königlich</hi>-<hi rendition="#u">Grossbritannischen</hi>
@@ -122,7 +152,7 @@
                     <hi rendition="#u">Schomburgk</hi>, eines sehr gutgearteten jungen
                     <lb/>Mannes, der in den hiesigen Gärten gearbeitet <lb/>huldreichst genehmigen
                     mögen. Es wäre sehr <lb/>zu bedauren, wenn diese trefliche Gelegenheit <lb/>den
-                    botanischen Garten und die Naturhisto<lb/>rischen Museen zu
+                    botanischen Garten und die Naturhisto<lb break="no"/>rischen Museen zu
                     bereichern verloren ginge. <lb/>Ich würde den Vorschlag gewagt haben, wenn
                     <lb/>Ew. <choice>
                         <abbr>Kön</abbr>
@@ -161,14 +191,16 @@
                     <subst>
                         <del rendition="#s">zur</del>
                         <add place="intralinear">nach</add>
-                    </subst> Demarare in der <lb/>Guayana, ebenfalls <hi rendition="#u">sechs-<lb/>hundert</hi> Thalern aus dem
+                    </subst> Demarare in der <lb/>Guayana, ebenfalls <hi rendition="#u">sechs<g ref="#typoHyphen"/>
+                        <lb break="no"/>hundert</hi> Thalern aus dem
                     <lb/>fond ad extraordinaria gezahlt <lb/>werden.</p>
                 <p>Die Reisekosten bis Demarare sind nicht <lb/>von mir zu hoch angeschlagen da die
                     <lb/>Passage von Flamouth bis zur Insel <lb/>
                     <pb n="69v"/>Barbados allein 50
                     Pfund Sterling <lb/>kostet. Als jährliche Remuneration <lb/>für Reisende des
-                    botanischen Gartens <lb/>sind, unter der vorigen Regierung, gewöhn<lb/>lich 800 Thaler und mehr ausgesezt <lb/>gewesen, aber der in allem sehr
-                        beschei-<lb/>dene Robert Schomburgk hat
+                    botanischen Gartens <lb/>sind, unter der vorigen Regierung, gewöhn<lb break="no"/>lich 800 Thaler und mehr ausgesezt <lb/>gewesen, aber der in allem sehr
+                        beschei<g ref="#typoHyphen"/>
+                    <lb break="no"/>dene Robert Schomburgk hat
                     erklärt <lb/>sich mit 600 Thalern für den, seiner <lb/>Leitung anvertrauten
                     jüngeren Bruder <lb/>zu begnügen, obgleich der Ankauf eines <lb/>grossen Canots
                     und der Unterhalt von <lb/>sechs Ruderern in Guyana unumgänglich <lb/>nothwendig
@@ -188,7 +220,8 @@
                     <lb/>haben werde ich aus eigenen <lb/>Mitteln, zur Beschleunigung der
                     <lb/>Abreise die 1200 r. vorschiessen <lb/>und den Director des Ministerium
                     <lb/>der Unterrichts, geistlichen und <lb/>Medicinal Angelegenheiten von
-                    <lb/>Ladenberg ersuchen die Instruc-<lb/>tion
+                    <lb/>Ladenberg ersuchen die Instruc<g ref="#typoHyphen"/>
+                    <lb break="no"/>tion
                     des Reisenden Richard <lb/>Schomburgk ausfertigen zu lassen. <lb/>Die Gnade
                     welch Ew. <choice>
                         <abbr>Kön.</abbr>

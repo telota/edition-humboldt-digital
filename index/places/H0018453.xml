@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018453">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Zajsan</title>
             </titleStmt>
+            <editionStmt>
+                <p>Zajsan [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018453.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018453.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018453.xml">
-                    <p>Zajsan [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018453.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018453">
+                <place>
                     <idno type="uri">https://www.geonames.org/1517059</idno>
                     <placeName type="reg">Zajsan</placeName>
                     <placeName type="alt">Lake Zaysan</placeName>
@@ -38,9 +43,8 @@
                     <placeName type="alt">Lac Zaïssan</placeName>
                     <placeName type="alt">Zhaysang Köli</placeName>
                     <placeName type="alt">Saisan See</placeName>
-                    <note>See in Zentralasien zwischen <placeName key="H0002407">Altaj</placeName> und <placeName key="H0009258">Tarbagataj-Gebirge</placeName>, der vom <placeName key="H0006725">Irtyš</placeName> durchflossen wird (Kasachstan)
-                        <!-- vgl. Karte des Altaischen Hüttenbezirks -->
-                    </note>
+                    <note>See in Zentralasien zwischen <placeName ref="https://editon-humboldt.de/H0002407 https://www.geonames.org/1516401">Altaj</placeName> und <placeName ref="https://editon-humboldt.de/H0009258 https://www.geonames.org/12161430">Tarbagataj-Gebirge</placeName>, der vom <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtyš</placeName> durchflossen wird (Kasachstan)
+                        </note>
                 </place>
             </listPlace>
         </body>

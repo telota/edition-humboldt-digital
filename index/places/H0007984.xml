@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0007984">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Wolga</title>
             </titleStmt>
+            <editionStmt>
+                <p>Wolga [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0007984.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0007984.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0007984.xml">
-                    <p>Wolga [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0007984.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0007984">
+                <place>
                     <idno type="uri">https://www.geonames.org/472776</idno>
                     <placeName type="reg">Wolga</placeName>
                     <placeName type="alt">Volga</placeName>
@@ -38,8 +43,8 @@
                     <placeName type="alt">Etyl</placeName>
                     <placeName type="alt">Ethewl</placeName>
                     <placeName type="alt">Athal</placeName>
-                    <note>Fluss im europäischen Teil <placeName key="H0010689">Russlands</placeName>, entspringt in den
-                            <placeName key="H0009073">Waldai-Höhen</placeName> und mündet bei <placeName key="H0002585">Astrachan</placeName> ins <placeName key="H0000384">Kaspische Meer</placeName>
+                    <note>Fluss im europäischen Teil <placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russlands</placeName>, entspringt in den
+                            <placeName ref="https://editon-humboldt.de/H0009073 https://www.geonames.org/477296">Waldai-Höhen</placeName> und mündet bei <placeName ref="https://editon-humboldt.de/H0002585 https://www.geonames.org/580497">Astrachan</placeName> ins <placeName ref="https://editon-humboldt.de/H0000384 https://www.geonames.org/630671">Kaspische Meer</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="30#34–36" type="letter"/>

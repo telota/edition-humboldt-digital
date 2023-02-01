@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0003028">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Baer, Karl Ernst von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Baer, Karl Ernst von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0003028.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0003028.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0003028.xml">
-                    <p>Baer, Karl Ernst von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0003028.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0003028">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/118505831</idno>
                     <persName type="reg">
                         <surname>Baer</surname>
@@ -39,8 +44,8 @@
                     <death>1876</death>
                     <note>deutsch-baltischer Mediziner und Begründer der vergleichenden Embryologie;
                         Studium der Medizin an der Universität Dorpat, danach Zoologe an der
-                            <orgName key="H0000524">Universität Königsberg</orgName>; ab 1834 an der
-                            <orgName key="H0000556">Sankt Petersburger Akademie der
+                            <orgName ref="https://editon-humboldt.de/H0000524 http://d-nb.info/gnd/1116746166">Universität Königsberg</orgName>; ab 1834 an der
+                            <orgName ref="https://editon-humboldt.de/H0000556 http://d-nb.info/gnd/2034160-X">Sankt Petersburger Akademie der
                             Wissenschaften</orgName> als Zoologe und Physiologe</note>
                     <linkGrp>
                         <ptr target="10#25" type="letter"/>

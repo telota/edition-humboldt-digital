@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016553">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [8. Juni
+               1846] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016553">https://edition-humboldt.de/v8/H0016553</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016553</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016553</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016553.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [8. Juni
-               1846] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016553</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                            <idno type="shelfmark">gr. Kasten 8, Nr. 160</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1320405</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1846-06-08"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -70,33 +88,44 @@
                     <note place="mTop" hand="#addressee">Infusorien Staub <lb/>Genua </note>
                 </p>
             <p>Zuvörderst sage ich Ihnen, mein <lb/>innigst verehrter Herr Baron, <lb/>meinen
-               Glückwunsch zu dem neuen Zeichen <lb/>der Anerkennung Ihrer Principien, wel-<lb/>ches bey Ihnen eingegangen seyn soll. <lb/>Dann
-               danke ich recht sehr für das über-<lb/>sandte Gedicht
+               Glückwunsch zu dem neuen Zeichen <lb/>der Anerkennung Ihrer Principien, wel<g ref="#typoHyphen"/>
+                    <lb break="no"/>ches bey Ihnen eingegangen seyn soll. <lb/>Dann
+               danke ich recht sehr für das über<g ref="#typoHyphen"/>
+                    <lb break="no"/>sandte Gedicht
                des Kronprinzen von <lb/>Baiern, dessen dem Vater ähnliche <lb/>Talente dieser Art
-               mir bisher unbe-<lb/>kannt waren. Das lange Gelegen-<lb/>heitsgedicht ist recht gemüthvoll, deutsch
+               mir bisher unbe<g ref="#typoHyphen"/>
+                    <lb break="no"/>kannt waren. Das lange Gelegen<g ref="#typoHyphen"/>
+                    <lb break="no"/>heitsgedicht ist recht gemüthvoll, deutsch
                <lb/>und sinnig.</p>
-            <p>Die sicilianischen und genuaschen <lb/>Scirocco Stürme von denen die Zeitun-<lb/>gen vor einigen Tagen berichteten haben
+            <p>Die sicilianischen und genuaschen <lb/>Scirocco Stürme von denen die Zeitun<g ref="#typoHyphen"/>
+                    <lb break="no"/>gen vor einigen Tagen berichteten haben
                <lb/>mit ihrem Unglück einige gute Frucht <lb/>
                     <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001684100000002"/>in Berlin getragen. Am 16
                Mai <lb/>ist in Genua ein atmosphärischer <lb/>Staub niedergefallen qui couvra
-               <lb/>en abondance les toits et les ter-<lb/>rasses.
+               <lb/>en abondance les toits et les ter<g ref="#typoHyphen"/>
+                    <lb break="no"/>rasses.
                Schon vor mehreren Tagen <lb/>erhielt ich eine Probe davon durch den <lb/>Professor
-                  <persName ref="http://d-nb.info/gnd/116179147">Pictet</persName> in Genf. Es ist <lb/>wieder derselbe
-               rothgelbe infusorienhal-<lb/>tige Staub des
+                  <persName ref="https://editon-humboldt.de/H0017089 http://d-nb.info/gnd/116179147">Pictet</persName> in Genf. Es ist <lb/>wieder derselbe
+               rothgelbe infusorienhal<g ref="#typoHyphen"/>
+                    <lb break="no"/>tige Staub des
                atlantischen Oceans <lb/>und von Malta, den ich aus nun schon <lb/>4 Jahrgängen sehr
                entfernter Zeiten <lb/>analysirt habe. <hi rendition="#u">Dieselben Species</hi> und
                <lb/>auch <hi rendition="#u">dieselben vorherrschenden Formen</hi>, <lb/>als ob alle
                diese Proben aus <hi rendition="#u">Einem</hi>
-               <lb/>Topfe genommen wären, während sie <lb/>auf viele verschiedene Schiffe und Loka-<lb/>litäten des Festlandes gefallen sind <lb/>und –
-               mit Süd Amerikanern <add place="superlinear">und mit Seethierchen</add> ge-<lb/>mischt, ohne entscheidende Afrikaner!</p>
+               <lb/>Topfe genommen wären, während sie <lb/>auf viele verschiedene Schiffe und Loka<g ref="#typoHyphen"/>
+                    <lb break="no"/>litäten des Festlandes gefallen sind <lb/>und –
+               mit Süd Amerikanern <add place="superlinear">und mit Seethierchen</add> ge<g ref="#typoHyphen"/>
+                    <lb break="no"/>mischt, ohne entscheidende Afrikaner!</p>
             <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001684100000003"/>
-            <p>Wenn nur nicht all diese gewiß interes-<lb/>santen
+            <p>Wenn nur nicht all diese gewiß interes<g ref="#typoHyphen"/>
+                    <lb break="no"/>santen
                Analysen so viel Zeit in Anspruch <lb/>nähmen!</p>
             <p>Ich habe bisher diese Formen von Genua <lb/>nur oberflächlich festhalten können, es
                sind <lb/>aber schon 29 ersichtlich und es sind keine neuen <lb/>dabey.</p>
-            <p>Herr <persName ref="http://d-nb.info/gnd/116179147">Pictet</persName> schreibt
+            <p>Herr <persName ref="https://editon-humboldt.de/H0017089 http://d-nb.info/gnd/116179147">Pictet</persName> schreibt
                mir
-               daß er im Sup-<lb/>plement à la Bibliotheque
+               daß er im Sup<g ref="#typoHyphen"/>
+                    <lb break="no"/>plement à la Bibliotheque
                universelle <lb/>de Geneve <choice>
                   <abbr>Nr.</abbr>
                   <expan>Nummer</expan>
@@ -107,7 +136,7 @@
                   <abbr>pag</abbr>
                   <expan>pagina</expan>
                </choice> 64 und 85
-                  so<lb/>wie
+                  so<lb break="no"/>wie
                <choice>
                   <abbr>pag</abbr>
                   <expan>pagina</expan>

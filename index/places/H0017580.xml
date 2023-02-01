@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017580">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Okres Cheb</title>
             </titleStmt>
+            <editionStmt>
+                <p>Okres Cheb [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017580.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,24 +20,25 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017580.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017580.xml">
-                    <p>Okres Cheb [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017580.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017580">
+                <place>
                     <idno type="uri">https://www.geonames.org/3077834</idno>
                     <placeName type="reg">Okres Cheb</placeName>
                     <placeName type="alt">Eger</placeName>
-                    <note>ehemaliger Landkreis in <placeName key="H0005285">Böhmen</placeName>,
+                    <note>ehemaliger Landkreis in <placeName ref="https://editon-humboldt.de/H0005285">Böhmen</placeName>,
                         westliches Gebiet der heutigen Tschechischen Republik</note>
                 </place>
             </listPlace>

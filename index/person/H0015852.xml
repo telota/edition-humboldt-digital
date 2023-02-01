@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015852">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Shuckburgh-Evelyn, George Augustus William Sir</title>
             </titleStmt>
+            <editionStmt>
+                <p>Shuckburgh-Evelyn, George Augustus William Sir [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0015852.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0015852.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0015852.xml">
-                    <p>Shuckburgh-Evelyn, George Augustus William Sir [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0015852.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0015852">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/1160051542</idno>
                     <persName type="reg">
                         <surname>Shuckburgh-Evelyn</surname>
@@ -37,7 +42,7 @@
                     </persName>
                     <birth>1751</birth>
                     <death>1804</death>
-                    <note>britischer Physiker und Privatgelehrter; seit 1774 Mitglied der <orgName key="H0000583">Royal
+                    <note>britischer Physiker und Privatgelehrter; seit 1774 Mitglied der <orgName ref="https://editon-humboldt.de/H0000583 http://d-nb.info/gnd/39272-8">Royal
                             Society</orgName>
                     </note>
                     <linkGrp>

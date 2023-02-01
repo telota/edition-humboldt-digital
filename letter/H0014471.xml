@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014471">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,50 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Sonntag, [8.
+                    Oktober 1840 – 22. März 1850], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0014471">https://edition-humboldt.de/v8/H0014471</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0014471</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0014471</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014471.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Sonntag, [8.
-                    Oktober 1840 – 22. März 1850]. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0014471</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date from="1840-06-07" to="1850-03-22" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -73,12 +89,12 @@
                             <reg>Reichstaler</reg>
                         </choice>
                     </measure> (auf die 2–3 Jahre der <lb/>
-                    <bibl corresp="https://edition-humboldt.de/v8/7DZGI486">Enumeratio</bibl>) erhalten. „Sie können <lb/>mir nichts rühmliches und
+                    <bibl corresp="https://edition-humboldt.de/7DZGI486">Enumeratio</bibl>) erhalten. „Sie können <lb/>mir nichts rühmliches und
                     edles von <lb/>
                     <choice>
                         <abbr>Prof.</abbr>
                         <expan>Professor</expan>
-                    </choice> Kunth sagen, was ich nicht <lb/>wüsste. Er ist die Seele des <orgName ref="http://d-nb.info/gnd/17434-8">Instituts</orgName>
+                    </choice> Kunth sagen, was ich nicht <lb/>wüsste. Er ist die Seele des <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">Instituts</orgName>
                     <supplied cert="high">.</supplied>
                     <lb/>Er hat so viel praktischen Verstand <lb/>als wissenschaftliche
                         Gediegenheit<supplied cert="high">.</supplied>
@@ -97,9 +113,9 @@
                         </choice>
                     </measure> geben. Dringen Sie ein wenig <lb/>darauf, schon wegen des unwegsam
                     <lb/>weiten Weges<supplied cert="high">.</supplied> Dass Sie nichts
-                    <lb/>aus den fonds des <orgName ref="http://d-nb.info/gnd/17434-8">Gartens</orgName> nehmen
+                    <lb/>aus den fonds des <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">Gartens</orgName> nehmen
                     <lb/>wollten, habe ich schriftlich <lb/>ausgedrükt und von ihrem <choice>
-                        <orig>liebens<lb/>wurdigen</orig>
+                        <orig>liebens<lb break="no"/>wurdigen</orig>
                         <reg>liebenswürdigen</reg>
                     </choice>, <choice>
                         <orig>uneigennuzigen</orig>

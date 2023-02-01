@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016678">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,31 +29,51 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [November 1838]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016678">https://edition-humboldt.de/v8/H0016678</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016678</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016678</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016678.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [November 1838]
-            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016678</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">111</idno>
+                     <idno type="shelfmark">421,
+                     Bl. 205r, 206v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1838-11" notAfter="1838-11">1838-11-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur
             Datierung: nach Erscheinen von E.s „Infusorienwerk“ 1838, vor Einsetzen der Schiffahrt
@@ -79,40 +99,41 @@
                </address>
             </opener>
               <pb n="1v"/>
-                <p>Ich habe wieder über die Sendung <lb/>Ihres <ref xml:id="fc72c037-ee81-4574-b2c0-37ee81757419" corresp="#fa9e168a-c033-4984-9e16-8ac033d9844f">Prachtexemplars</ref>
-                    <note xml:id="fa9e168a-c033-4984-9e16-8ac033d9844f" corresp="#fc72c037-ee81-4574-b2c0-37ee81757419">
-                     <bibl corresp="https://edition-humboldt.de/v8/X7KZUS33">Ehrenberg 1838</bibl>
-                  </note> nachge-<lb/>dacht, mein theurer Ehrenberg
+                <p>Ich habe wieder über die Sendung <lb/>Ihres <ref xml:id="e4203062-12ce-4137-a030-6212cea137eb" corresp="#e4416591-c5f3-4c69-8165-91c5f3ac69ef">Prachtexemplars</ref>
+                    <note xml:id="e4416591-c5f3-4c69-8165-91c5f3ac69ef" corresp="#e4203062-12ce-4137-a030-6212cea137eb">
+                     <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>
+                  </note> nachge<g ref="#typoHyphen"/>
+                    <lb break="no"/>dacht, mein theurer Ehrenberg
                <lb/>und habe aufgefunden dass <lb/>gar keine Sicherheit da ist <lb/>dass der
                Correspondent von <lb/>
-                    <persName ref="http://d-nb.info/gnd/117450812">Voss</persName> das Exemplar <del rendition="#s">I</del> in die <lb/>Hände des <persName ref="http://d-nb.info/gnd/118588079">Autocraten</persName> kommen <lb/>lasse. Es kann vorher in <add place="sublinear">andere</add> gierige <lb/>Hände fallen. <lb/>Das einzige sichere Mittel
-               <lb/>bleibt nur wenn <persName ref="http://d-nb.info/gnd/117450812">Voss</persName>
-               <lb/>die Sendung übernimmt <lb/>„dass eine innere Adresse an <lb/>den <persName ref="http://d-nb.info/gnd/118588079">Kaiser</persName>, eine äussere an <lb/>den <choice>
+                    <persName ref="https://editon-humboldt.de/H0016880 http://d-nb.info/gnd/117450812">Voss</persName> das Exemplar <del rendition="#s">I</del> in die <lb/>Hände des <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Autocraten</persName> kommen <lb/>lasse. Es kann vorher in <add place="sublinear">andere</add> gierige <lb/>Hände fallen. <lb/>Das einzige sichere Mittel
+               <lb/>bleibt nur wenn <persName ref="https://editon-humboldt.de/H0016880 http://d-nb.info/gnd/117450812">Voss</persName>
+               <lb/>die Sendung übernimmt <lb/>„dass eine innere Adresse an <lb/>den <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Kaiser</persName>, eine äussere an <lb/>den <choice>
                   <abbr>Preuss</abbr>
                   <expan>Preussischen</expan>
                </choice> Gesandten Baron <lb/>von <hi rendition="#u">
-                        <persName ref="http://d-nb.info/gnd/117671754">Liebermann</persName>
-                    </hi> in <placeName>
+                        <persName ref="https://editon-humboldt.de/H0004528 http://d-nb.info/gnd/117671754">Liebermann</persName>
+                    </hi> in <placeName ref="https://editon-humboldt.de/">
                         <choice>
                      <abbr>Pet.</abbr>
                      <expan>Petersburg</expan>
                   </choice>
                     </placeName> sei <lb/>und dass ich zwischen <lb/>der äusseren und inneren
                enveloppe <lb/>einen sehr dringend <lb/>empfehlenden Brief an den <lb/>
-                    <persName ref="http://d-nb.info/gnd/117671754">Gesandten</persName> beifüge.<supplied cert="high">“</supplied> Ihr
-               Brief <lb/>an den <persName ref="http://d-nb.info/gnd/118588079">Kaiser</persName> kann dann <lb/>entweder
+                    <persName ref="https://editon-humboldt.de/H0004528 http://d-nb.info/gnd/117671754">Gesandten</persName> beifüge.<supplied cert="high">“</supplied> Ihr
+               Brief <lb/>an den <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Kaiser</persName> kann dann <lb/>entweder
                in das innere <lb/>Paket gelegt werden, <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
                </choice>
-               <lb/>was besser scheint von mir <lb/>in den Brief an <persName ref="http://d-nb.info/gnd/117671754">Liebermann</persName>
+               <lb/>was besser scheint von mir <lb/>in den Brief an <persName ref="https://editon-humboldt.de/H0004528 http://d-nb.info/gnd/117671754">Liebermann</persName>
                <lb/>kommen, der dann Brief <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <lb/>Paket an den <persName ref="http://d-nb.info/gnd/118588079">Kaiser</persName>
+               <lb/>Paket an den <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Kaiser</persName>
                <hi rendition="#u">in <lb/> meinem Namen</hi> gelangen lässt<supplied cert="high">.</supplied>
-               <lb/>Dasselbe schlage ich vor <lb/>falls die Schiffahrt abge<lb/>wartet
+               <lb/>Dasselbe schlage ich vor <lb/>falls die Schiffahrt abge<lb break="no"/>wartet
                werden muss.</p>
             <closer rend="paragraph">
                     <signed>Ihr <lb/>AlHumboldt</signed>

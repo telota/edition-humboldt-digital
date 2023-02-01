@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017275">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Altenkirchen</title>
             </titleStmt>
+            <editionStmt>
+                <p>Altenkirchen [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0017275.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,23 +20,24 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017275.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0017275.xml">
-                    <p>Altenkirchen [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0017275.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0017275">
+                <place>
                     <idno type="uri">https://www.geonames.org/2957567</idno>
                     <placeName type="reg">Altenkirchen</placeName>
-                    <note>Stadt im <placeName key="H0017263">Westerwald</placeName>, im 17. und 18. Jh. Residenz der
+                    <note>Stadt im <placeName ref="https://editon-humboldt.de/H0017263 https://www.geonames.org/2810172">Westerwald</placeName>, im 17. und 18. Jh. Residenz der
                         Grafschaft Sayn-Altenkirchen, 1791 bis 1803 preußisch (Deutschland)</note>
                 </place>
             </listPlace>

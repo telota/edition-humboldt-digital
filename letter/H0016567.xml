@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016567">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, [6. Juni 1846] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016567">https://edition-humboldt.de/v8/H0016567</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016567</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016567</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016567.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, [6. Juni 1846] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016567</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">160</idno>
+                     <idno type="shelfmark">421, Bl. 287r, 288v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1846-06-06">1846-06-06</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: “1846” von fremder Hand; vgl. Ehrenbergs Antwort v.
                8. Juni 1846</note>
@@ -76,13 +94,13 @@
                </address>
                <pb n="1v"/>
                     <dateline>
-                        <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>,
+                        <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>,
                   Sonnabend.</dateline>
             </opener>
             <p>Sie werden, theurer College, wohl nicht <lb/>auf mich gezürnt haben, wenn Sie etwa
                <lb/>errathen, dass ich Ihnen den wenigstens <lb/>sehr freundlichen und religiös
                freigesinnten <lb/>
-                    <persName ref="http://d-nb.info/gnd/118579347">Kronprinzen</persName>
+                    <persName ref="https://editon-humboldt.de/H0003163 http://d-nb.info/gnd/118579347">Kronprinzen</persName>
                <choice>
                   <abbr>v.</abbr>
                   <expan>von</expan>
@@ -91,17 +109,17 @@
                   <del rendition="#s">freie</del>
                   <add place="intralinear">liebenswürdige</add>
                </subst> Aufnahme gewesen. <lb/>Ich lege diesen Zeilen des Dankes <lb/>Asche von
-               einem Vulcan in <placeName ref="https://www.geonames.org/3652462">Quito</placeName>
+               einem Vulcan in <placeName ref="https://editon-humboldt.de/H0010783 https://www.geonames.org/3652462">Quito</placeName>
                <lb/>bei (ich glaube von 1844) die ich <lb/>in einer Kiste aufgefunden und die
                <lb/>sich vielleicht (dieser Ausdruk geht <lb/>nun von Ihrem grossen Namen
                <lb/>unzertrennlich gewiss auf die Nachwelt <lb/>über.) unter Ihren Händen <hi rendition="#u">beleben</hi> wird<supplied cert="high">.</supplied>
-               <lb/>Ich freue mich unendlich dass die <lb/>Besorgnisse für Ihre edle <persName ref="https://edition-humboldt.de/v8/H0016962">Gattin</persName>
+               <lb/>Ich freue mich unendlich dass die <lb/>Besorgnisse für Ihre edle <persName ref="https://editon-humboldt.de/H0016962">Gattin</persName>
                <lb/>abnehmen.</p>
             <closer rend="paragraph">
                <signed>Ihr <lb/>AlHumboldt</signed>
             </closer>
             <postscript>
-               <p>Behalten Sie als Andenken <lb/>das recht hüpsche Gedicht <lb/>des <persName ref="http://d-nb.info/gnd/118579347">Kronprinzen</persName>
+               <p>Behalten Sie als Andenken <lb/>das recht hüpsche Gedicht <lb/>des <persName ref="https://editon-humboldt.de/H0003163 http://d-nb.info/gnd/118579347">Kronprinzen</persName>
                         <supplied cert="high">.</supplied>
                     </p>
             </postscript>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016478">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [9. September
+               1856] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016478">https://edition-humboldt.de/v8/H0016478</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016478</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016478</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016478.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [9. September
-               1856] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016478</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">228</idno>
+                     <idno type="shelfmark">421, Bl. 419r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1856-09-09">1856-09-09</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: 9. September 1856 von fremder Hand</note>
          </correspDesc>
@@ -73,18 +91,18 @@
                         </abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/117275433">Bornemann</persName>
-               <lb/>der den vortreflichen chemischen Geologen <lb/>in <placeName ref="https://www.geonames.org/3172394">Neapel</placeName>
+               <persName ref="https://editon-humboldt.de/H0016984 http://d-nb.info/gnd/117275433">Bornemann</persName>
+               <lb/>der den vortreflichen chemischen Geologen <lb/>in <placeName ref="https://editon-humboldt.de/H0001578 https://www.geonames.org/3172394">Neapel</placeName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <persName>Sicilien</persName> begleitet, finden Sie <lb/>
+               <persName ref="https://editon-humboldt.de/">Sicilien</persName> begleitet, finden Sie <lb/>
                     <choice>
                   <abbr>p</abbr>
                   <expan>pagina</expan>
                </choice> 6 was Sie interessiren muss. Das Vorkommen <lb/>des <hi rendition="#u">Jod</hi> in Dämpfen von Vulcano merkwürdig <lb/>wenn es sicher ist, also
-               Communication mit <lb/>dem Meere da <persName ref="http://d-nb.info/gnd/11669811X">Rüppel</persName> ja in <choice>
+               Communication mit <lb/>dem Meere da <persName ref="https://editon-humboldt.de/H0001143 http://d-nb.info/gnd/11669811X">Rüppel</persName> ja in <choice>
                   <abbr>vulkan.</abbr>
                   <expan>vulkanischem</expan>
                </choice> Tuff <lb/>selbst fossile Zosteren entdekt. Schikken Sie <lb/>mir gütigst
@@ -96,7 +114,7 @@
                     <choice>
                   <abbr>Ges</abbr>
                   <expan>Gesellschaft</expan>
-               </choice> hat Herr Louis de <persName>Rieux</persName>(?) wieder <lb/>gegen
+               </choice> hat Herr Louis de <persName ref="https://editon-humboldt.de/">Rieux</persName>(?) wieder <lb/>gegen
                das Schwarze Fleisch wüthen wollen<supplied cert="high">.</supplied>
                <lb/>Er hat mir, selbst deshalb sich entschuldigend <lb/>geschrieben! </p>
             <closer rend="paragraph">

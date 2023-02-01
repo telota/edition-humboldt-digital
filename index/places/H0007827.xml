@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0007827">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Lake Ontario</title>
             </titleStmt>
+            <editionStmt>
+                <p>Lake Ontario [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0007827.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,26 +20,27 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0007827.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0007827.xml">
-                    <p>Lake Ontario [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0007827.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0007827">
-                    <idno type="uri">https://www.geonames.org/6048611</idno>
-                    <placeName type="reg">Lake Ontario</placeName>
-                    <placeName type="alt">Lac Ontario</placeName>
-                    <placeName type="alt">Ontariosee</placeName>
-                    <note>See zwischen den Vereinigten Staaten und Kanada</note>
-                </place>
+                <place>
+            <idno type="uri">https://www.geonames.org/6048611</idno>
+            <placeName type="reg">Lake Ontario</placeName>
+            <placeName type="alt">Lac Ontario</placeName>
+            <placeName type="alt">Ontariosee</placeName>
+            <note>See zwischen den Vereinigten Staaten und Kanada</note>
+        </place>
             </listPlace>
         </body>
     </text>

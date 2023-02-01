@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018689">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Korjakovka</title>
             </titleStmt>
+            <editionStmt>
+                <p>Korjakovka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018689.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018689.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018689.xml">
-                    <p>Korjakovka [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018689.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0018689">
+                <place>
                     <idno type="uri">https://www.geonames.org/1522234</idno>
                     <placeName type="reg">Korjakovka</placeName>
                     <placeName type="alt">Озеро Коряковка</placeName>
@@ -38,7 +43,7 @@
                     <placeName type="alt">Коряковка Көлі</placeName>
                     <placeName type="alt">Koriakowskoi</placeName>
                     <placeName type="alt">Koräkowski</placeName>
-                    <note>Salzsee nahe dem <placeName key="H0006725">Irtyš</placeName> nordöstlich von <placeName key="H0018513">Pavlodar</placeName> zwischen <placeName key="H0009692">Ust'-Kamenogorsk</placeName> und <placeName key="H0007824">Omsk</placeName>
+                    <note>Salzsee nahe dem <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtyš</placeName> nordöstlich von <placeName ref="https://editon-humboldt.de/H0018513 https://www.geonames.org/1520240">Pavlodar</placeName> zwischen <placeName ref="https://editon-humboldt.de/H0009692 https://www.geonames.org/1520316">Ust'-Kamenogorsk</placeName> und <placeName ref="https://editon-humboldt.de/H0007824 https://www.geonames.org/1496153">Omsk</placeName>
                     </note>
                 </place>
             </listPlace>

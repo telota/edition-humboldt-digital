@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0014854">
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -7,33 +7,42 @@
                     </title>
                     <title type="series">Alexander von Humboldt-Chronologie</title>                     <editor>                         <persName ref="http://d-nb.info/gnd/123964172">                             <surname>Schwarz</surname>                             <forename>Ingo</forename>                         </persName>                     </editor>                     <respStmt>                         <orgName>                           Akademienvorhaben "Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung"                          </orgName>                         <resp>                             <note type="remarkResponsibility">Mitarbeit</note>                         </resp>                     </respStmt> 
                 </titleStmt>
+            <editionStmt>
+                <p>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie (23. August 1802) . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0014854">https://edition-humboldt.de/v8/H0014854</ref>
+                </p>
+            </editionStmt>
                 <publicationStmt>
-                <publisher>Berlin-Brandenburgische Akademie der Wissenschaften</publisher>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0014854</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0014854</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0014854.xml</idno>
             </publicationStmt>
                 <sourceDesc>
-                <bibl>Schwarz, Ingo (Hg.): Alexander von Humboldt-Chronologie - 1802. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. URL: https://edition-humboldt.de/v8/H0014854</bibl>
+                <p>Born digital.</p>
             </sourceDesc>
             </fileDesc>
             <profileDesc>
-            <textClass>chronology</textClass>
+            <textClass>
+                <keywords>
+                    <term>chronology</term>
+                </keywords>
+            </textClass>
         </profileDesc>
-            <revisionDesc>
-                <change when="2017-03-17T16:16:44.43+01:00" resp="automatic transformation"/>
-            </revisionDesc>
+            
         </teiHeader>
         <text type="event">
             <body>
-                <p> Flußfahrt auf drei Flößen den <placeName ref="https://edition-humboldt.de/v8/H0008689">Río Marañón</placeName>
-                    abwärts bis <placeName ref="https://edition-humboldt.de/v8/H0009461">Tomependa</placeName> an der Mündung des
-                        <placeName ref="https://www.geonames.org/3698284">Río Chinchipe</placeName>; in Tomependa (bis
+                <p> Flußfahrt auf drei Flößen den <placeName ref="https://editon-humboldt.de/H0008689">Río Marañón</placeName>
+                    abwärts bis <placeName ref="https://editon-humboldt.de/H0009461">Tomependa</placeName> an der Mündung des
+                        <placeName ref="https://editon-humboldt.de/H0010536 https://www.geonames.org/3698284">Río Chinchipe</placeName>; in Tomependa (bis
                     31.8.). Von dort sendet H. einen Brief mit der „schwimmenden Post“ der
-                    Einheimischen an <persName ref="https://edition-humboldt.de/v8/H0013025">José Ignacio Checa</persName>, den
-                    Bruder von <persName ref="http://d-nb.info/gnd/117601055">Carlos Montúfar</persName>. Dieser macht ihn
+                    Einheimischen an <persName ref="https://editon-humboldt.de/H0013025">José Ignacio Checa</persName>, den
+                    Bruder von <persName ref="https://editon-humboldt.de/H0014334 http://d-nb.info/gnd/117601055">Carlos Montúfar</persName>. Dieser macht ihn
                     mit den Angehörigen der in der Nähe lebenden freien Jibaros bekannt. </p>
             </body>
         </text>

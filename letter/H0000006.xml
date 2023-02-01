@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000006">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,33 +29,50 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 20. April 1839]
+                , hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0000006">https://edition-humboldt.de/v8/H0000006</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0000006</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0000006</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000006.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 20. April 1839]
-                . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0000006</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1839-04-20" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -71,12 +88,12 @@
                         </choice> 39</note>Mille <choice>
                         <orig>graces</orig>
                         <reg>grâces</reg>
-                    </choice> pour <ref xml:id="c41dd834-ad8c-4631-9dd8-34ad8c86314e" corresp="#ac3fc2a9-c42e-49cf-bfc2-a9c42eb9cfda">cette folie</ref>
-                    <note xml:id="ac3fc2a9-c42e-49cf-bfc2-a9c42eb9cfda" corresp="#c41dd834-ad8c-4631-9dd8-34ad8c86314e">Die folgenden Ausführungen nehmen Bezug auf eine
-                            von <persName ref="http://viaf.org/viaf/88987880/">Frédéric Fayot</persName> für den
+                    </choice> pour <ref xml:id="c99a79ab-39b0-4be6-9a79-ab39b00be6af" corresp="#e947493d-dc00-456f-8749-3ddc00656fc4">cette folie</ref>
+                    <note xml:id="e947493d-dc00-456f-8749-3ddc00656fc4" corresp="#c99a79ab-39b0-4be6-9a79-ab39b00be6af">Die folgenden Ausführungen nehmen Bezug auf eine
+                            von <persName ref="https://editon-humboldt.de/H0000047 http://viaf.org/viaf/88987880/">Frédéric Fayot</persName> für den
                             „Dictionnaire de la Conversation et de la Lecture“ verfasste
-                            biographische Notiz über den Maler <persName ref="http://d-nb.info/gnd/129717134">Carl von
-                                Steuben</persName> (<bibl corresp="https://edition-humboldt.de/v8/56KN9QX6">Fayot
+                            biographische Notiz über den Maler <persName ref="https://editon-humboldt.de/H0016082 http://d-nb.info/gnd/129717134">Carl von
+                                Steuben</persName> (<bibl corresp="https://edition-humboldt.de/56KN9QX6">Fayot
                                 1839</bibl>).</note>
                     <lb/>qui ne peut pas faire du bien <lb/>
                     <choice>
@@ -88,13 +105,13 @@
                         <abbr>Mad</abbr>
                         <expan>Madame</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/118616617">de <choice>
+                    <persName ref="https://editon-humboldt.de/H0016032 http://d-nb.info/gnd/118616617">de <choice>
                             <orig>Stael</orig>
                             <reg>Staël</reg>
                         </choice>
                     </persName>
-                    <lb/>et <persName ref="http://d-nb.info/gnd/118607626">Schiller</persName> qui recommandent <lb/>
-                    <persName ref="http://d-nb.info/gnd/129717134">Steuben</persName> à <persName ref="http://d-nb.info/gnd/119284936">
+                    <lb/>et <persName ref="https://editon-humboldt.de/H0015536 http://d-nb.info/gnd/118607626">Schiller</persName> qui recommandent <lb/>
+                    <persName ref="https://editon-humboldt.de/H0016082 http://d-nb.info/gnd/129717134">Steuben</persName> à <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">
                         <choice>
                             <orig>Gerard</orig>
                             <reg>Gérard</reg>
@@ -104,22 +121,22 @@
                         <orig>age</orig>
                         <reg>âge</reg>
                     </choice> de 47 ans, ami de <lb/>
-                    <persName ref="http://d-nb.info/gnd/129717134">Steuben</persName> quand à peine il <lb/>
+                    <persName ref="https://editon-humboldt.de/H0016082 http://d-nb.info/gnd/129717134">Steuben</persName> quand à peine il <lb/>
                     <choice>
                         <orig>etoit</orig>
                         <reg>étoit</reg>
-                    </choice> né. Voilà le <lb/>vrai <persName ref="http://d-nb.info/gnd/129717134">Steuben</persName>
-                    d’une <lb/>ancienne famille noble est <lb/>né en <placeName ref="https://edition-humboldt.de/v8/H0004796">Franconie</placeName> dans une <lb/>campagne de <choice>
+                    </choice> né. Voilà le <lb/>vrai <persName ref="https://editon-humboldt.de/H0016082 http://d-nb.info/gnd/129717134">Steuben</persName>
+                    d’une <lb/>ancienne famille noble est <lb/>né en <placeName ref="https://editon-humboldt.de/H0004796">Franconie</placeName> dans une <lb/>campagne de <choice>
                         <abbr>Mad.</abbr>
                         <expan>Madame</expan>
                     </choice> de <lb/>
-                    <persName ref="http://d-nb.info/gnd/118771272">Wollzogen</persName> belle <choice>
+                    <persName ref="https://editon-humboldt.de/H0006471 http://d-nb.info/gnd/118771272">Wollzogen</persName> belle <choice>
                         <orig>soeur</orig>
                         <reg>sœur</reg>
-                    </choice> de <persName ref="http://d-nb.info/gnd/118607626">
-                        <lb/>Schiller</persName> et qui vit encore <lb/>à <placeName ref="https://www.geonames.org/2895044">Jena</placeName>
+                    </choice> de <persName ref="https://editon-humboldt.de/H0015536 http://d-nb.info/gnd/118607626">
+                        <lb/>Schiller</persName> et qui vit encore <lb/>à <placeName ref="https://editon-humboldt.de/H0006574 https://www.geonames.org/2895044">Jena</placeName>
                     <supplied cert="high">.</supplied> C’est l’auteur <lb/>de la belle
-                    biographie <lb/>de <persName ref="http://d-nb.info/gnd/118607626">Schiller</persName>. <choice>
+                    biographie <lb/>de <persName ref="https://editon-humboldt.de/H0015536 http://d-nb.info/gnd/118607626">Schiller</persName>. <choice>
                         <orig>Celui ci</orig>
                         <reg>Celui-ci</reg>
                     </choice> avoit <lb/>
@@ -130,7 +147,7 @@
                     <choice>
                         <orig>elevé</orig>
                         <reg>élevé</reg>
-                    </choice> avec <persName ref="https://edition-humboldt.de/v8/H0016081">le <choice>
+                    </choice> avec <persName ref="https://editon-humboldt.de/H0016081">le <choice>
                             <orig>pere</orig>
                             <reg>père</reg>
                         </choice>
@@ -139,21 +156,21 @@
                         <reg>étoit</reg>
                     </choice>
                     <lb/>Colonel au service de <lb/>
-                    <placeName ref="https://www.geonames.org/2017370">Russie</placeName>. <persName ref="https://edition-humboldt.de/v8/H0016078">La <choice>
+                    <placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russie</placeName>. <persName ref="https://editon-humboldt.de/H0016078">La <choice>
                             <orig>mere</orig>
                             <reg>mère</reg>
                         </choice>
-                    </persName> refusa <lb/>à la <persName ref="http://d-nb.info/gnd/104304219">Grande Duchesse de <lb/>
+                    </persName> refusa <lb/>à la <persName ref="https://editon-humboldt.de/H0015374 http://d-nb.info/gnd/104304219">Grande Duchesse de <lb/>
                         <pb n="1v"/>Weimar Princesse de Russie</persName>
                     <lb/>de lui donner le fils <lb/>pour l’accompagner comme <lb/>page <choice>
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName ref="https://www.geonames.org/2812482">Weimar</placeName>. Il <choice>
-                        <orig>etu<lb/>dia</orig>
+                    <placeName ref="https://editon-humboldt.de/H0007930 https://www.geonames.org/2812482">Weimar</placeName>. Il <choice>
+                        <orig>etu<lb break="no"/>dia</orig>
                         <reg>étudia</reg>
                     </choice> la peinture, le <lb/>
-                    <persName ref="https://edition-humboldt.de/v8/H0016081">
+                    <persName ref="https://editon-humboldt.de/H0016081">
                         <choice>
                             <orig>pere</orig>
                             <reg>père</reg>
@@ -163,7 +180,7 @@
                         <orig>etant</orig>
                         <reg>étant</reg>
                     </choice> pauvre, <choice>
-                        <orig>jusqu’<lb/>a</orig>
+                        <orig>jusqu’<lb break="no"/>a</orig>
                         <reg>jusqu’à</reg>
                     </choice>
                     <choice>
@@ -180,7 +197,7 @@
                     </choice> des <choice>
                         <orig>beaux <lb/>arts</orig>
                         <reg>Beaux-Arts</reg>
-                    </choice> de<placeName ref="https://www.geonames.org/498817">
+                    </choice> de<placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                         <choice>
                             <orig>Petersbourg</orig>
                             <reg>Pétersbourg</reg>
@@ -191,19 +208,19 @@
                         <orig>a</orig>
                         <reg>à</reg>
                     </choice>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName> d’abord <lb/>dans la pension de Mr
-                        <persName ref="http://d-nb.info/gnd/122982002">Taillefer</persName> aujourd’hui <lb/>Inspecteur <choice>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> d’abord <lb/>dans la pension de Mr
+                        <persName ref="https://editon-humboldt.de/H0003848 http://d-nb.info/gnd/122982002">Taillefer</persName> aujourd’hui <lb/>Inspecteur <choice>
                         <orig>d’Universite</orig>
                             <reg>d’Université</reg>
                     </choice>
                     <lb/>puis à l’attelier
-                    <lb/>de <persName ref="http://d-nb.info/gnd/117614815">
+                    <lb/>de <persName ref="https://editon-humboldt.de/H0004411 http://d-nb.info/gnd/117614815">
                         <choice>
                             <sic>Rober</sic>
                             <corr>Robert</corr>
-                        </choice> Lefebre </persName> et <persName ref="http://d-nb.info/gnd/119456915">Prud’homme</persName>
+                        </choice> Lefebre </persName> et <persName ref="https://editon-humboldt.de/H0002205 http://d-nb.info/gnd/119456915">Prud’homme</persName>
                     <supplied cert="high">.</supplied>
-                    Les liaisons <lb/>avec <persName ref="http://d-nb.info/gnd/119284936">
+                    Les liaisons <lb/>avec <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">
                         <choice>
                             <orig>Gerard</orig>
                             <reg>Gérard</reg>
@@ -213,7 +230,7 @@
                         <orig>commencerent</orig>
                         <reg>commencèrent</reg>
                     </choice>
-                    <lb/>par <persName ref="https://edition-humboldt.de/v8/H0013416">
+                    <lb/>par <persName ref="https://editon-humboldt.de/H0013416">
                         <hi rendition="#u">Madame</hi>
                         <choice>
                             <abbr>G.</abbr>
@@ -229,7 +246,7 @@
                     <lb/>dans les <choice>
                         <sic>attelier</sic>
                         <corr>atteliers</corr>
-                    </choice> de <persName ref="http://d-nb.info/gnd/119284936">
+                    </choice> de <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">
                         <choice>
                             <abbr>Gerard</abbr>
                             <expan>Gérard</expan>
@@ -242,7 +259,7 @@
                         <reg>délicieux</reg>
                     </choice> et je <lb/>conçois par ce mot <lb/>qui dit dans un attelier
                     <lb/>sera
-                    un mensonge, pour<lb/>quoi notre <persName ref="http://d-nb.info/gnd/118535986">Roi</persName> l’autre <lb/>jour à <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+                    un mensonge, pour<lb break="no"/>quoi notre <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">Roi</persName> l’autre <lb/>jour à <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                     est <lb/>revenu plusieurs fois <lb/>“sur un article bien <lb/>detaillé dans
                     lequel <lb/>
                     <choice>
@@ -253,7 +270,7 @@
                         <orig>meme</orig>
                         <reg>même</reg>
                     </choice> Journal de <lb/>
-                    <placeName ref="https://www.geonames.org/2988507">Paris</placeName> et <choice>
+                    <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> et <choice>
                         <orig>s’appercoit</orig>
                         <reg>s’apperçoit</reg>
                     </choice>
@@ -272,11 +289,11 @@
                         <corr cert="high">a</corr>
                     </choice> ce
                     triste
-                        Jour<lb/>nal depuis qu’il n’<lb/>est plus la <choice>
+                        Jour<lb break="no"/>nal depuis qu’il n’<lb break="no"/>est plus la <choice>
                         <orig>propriete</orig>
                         <reg>propriété</reg>
                     </choice>
-                    <lb/>du Duc poudré <lb/>(<persName ref="http://d-nb.info/gnd/116769211">Duc de
+                    <lb/>du Duc poudré <lb/>(<persName ref="https://editon-humboldt.de/H0003127 http://d-nb.info/gnd/116769211">Duc de
                         Bassano</persName>)<supplied cert="high">.</supplied>
                 </p>
                 <p>Pardon du volume <lb/>historique que je <lb/>Vous adresse<supplied cert="high">.</supplied>

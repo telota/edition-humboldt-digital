@@ -1,12 +1,18 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001852">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>, </title>
+                <title>
+                    <name>Pepin</name>
+                </title>
             </titleStmt>
+            <editionStmt>
+                <p>Pepin [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001852.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,25 +22,26 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001852.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001852.xml">
-                    <p>,  [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001852.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001852">
+                <person>
                     <persName type="reg">
                         <name>Pepin</name>
                     </persName>
                     <floruit notBefore="1791" notAfter="1791">um 1791</floruit>
-                    <note>Schüler der <orgName key="H0000550">Hamburgischen Handelsakademie</orgName>
+                    <note>Schüler der <orgName ref="https://editon-humboldt.de/H0000550 http://d-nb.info/gnd/4660387-6">Hamburgischen Handelsakademie</orgName>
                     </note>
                     <linkGrp>
                         <ptr target="02#90" type="letter"/>

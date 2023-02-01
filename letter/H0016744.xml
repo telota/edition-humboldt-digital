@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016744">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [März 1829] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016744">https://edition-humboldt.de/v8/H0016744</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016744</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016744</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016744.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [März 1829] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016744</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">19</idno>
+                     <idno type="shelfmark">421, Bl. 32r-33r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1829-03" notAfter="1829-03">1829-03-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: Am 12.4.1829 beginnt die gemeinsame Russlandreise Humboldts mit
                Ehrenberg und Gustav Rose</note>
@@ -73,23 +91,24 @@
                <lb/>nenne. Wie würde ich Sie <lb/>auf einen Koffer beschränken? <lb/>Ich muß
                allerdings wünschen <lb/>da ich den Russischen Weg <lb/>nicht kenne, dass Ihr Koffer
                <lb/>nicht gar zu groß, wegen <lb/>des Aufbindens auf den <lb/>Wagen ist. Man kann
-               <lb/>ihn aber auch in <placeName ref="https://www.geonames.org/498817">
+               <lb/>ihn aber auch in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                         <choice>
                      <abbr>Petersb</abbr>
                      <expan>Petersburg</expan>
                   </choice>
                     </placeName>
-               <lb/>gegen einen anderen um-<lb/>tauschen<supplied cert="high">.</supplied> Aus anderen kleinen <lb/>Kisten, Instrumenten, Rea<lb/>gentien .. können wir, Sie <lb/>
+               <lb/>gegen einen anderen um<g ref="#typoHyphen"/>
+                    <lb break="no"/>tauschen<supplied cert="high">.</supplied> Aus anderen kleinen <lb/>Kisten, Instrumenten, Rea<lb break="no"/>gentien .. können wir, Sie <lb/>
                     <pb n="1v"/>
-                    <persName ref="http://d-nb.info/gnd/116609036">Rose</persName>
+                    <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName>
                <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> ich eine Kiste <lb/>machen. Es versteht <lb/>sich von selbst dass <lb/>Sie
-               auf meine Kosten <lb/>alles anschaffen was <lb/>Ihnen zu wissenschaftli<lb/>chem Zwekke nöthig <lb/>scheint, Instrumente <lb/>zum Ausstopfen, Seci<lb/>ren, wenn Sie sie nicht <lb/>haben; Zeichenpapier, <lb/>Farben; die
-                  Percussions<lb/>flinte (wenn Sie sie <lb/>nicht lieber erst in
+               auf meine Kosten <lb/>alles anschaffen was <lb/>Ihnen zu wissenschaftli<lb break="no"/>chem Zwekke nöthig <lb/>scheint, Instrumente <lb/>zum Ausstopfen, Seci<lb break="no"/>ren, wenn Sie sie nicht <lb/>haben; Zeichenpapier, <lb/>Farben; die
+                  Percussions<lb break="no"/>flinte (wenn Sie sie <lb/>nicht lieber erst in
                   <lb/>
-                    <placeName ref="https://www.geonames.org/498817">
+                    <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                         <choice>
                      <abbr>Peterb.</abbr>
                      <expan>Petersburg</expan>
@@ -106,17 +125,17 @@
                   <abbr>franz</abbr>
                   <expan>französische</expan>
                </choice>
-               <lb/>Gewehre sind. Sie wollen <lb/>doch die Flinte um <lb/>selbst Thiere zu er<lb/>legen, nicht als Waffe <lb/>denn Waffen trage <lb/>ich auf Reisen in
-                  sol<lb/>
+               <lb/>Gewehre sind. Sie wollen <lb/>doch die Flinte um <lb/>selbst Thiere zu er<lb break="no"/>legen, nicht als Waffe <lb/>denn Waffen trage <lb/>ich auf Reisen in
+                  sol<lb break="no"/>
                     <pb n="2r"/>chen Gegenden); Bücher <lb/>doch nicht lästige,
-               diejenigen <lb/>Gläser mit Stöpseln <lb/>welche Sie in <placeName ref="https://www.geonames.org/498817">
+               diejenigen <lb/>Gläser mit Stöpseln <lb/>welche Sie in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                         <choice>
                      <abbr>Petersb</abbr>
                      <expan>Petersburg</expan>
                   </choice>
                     </placeName>
                <lb/>nicht zu finden glauben; <lb/>Kork für Insecten .. <lb/>das Papier zum
-                  Pflanzen<lb/>troknen lassen Sie <lb/>uns ja erst in <placeName ref="https://www.geonames.org/498817">
+                  Pflanzen<lb break="no"/>troknen lassen Sie <lb/>uns ja erst in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">
                         <choice>
                      <abbr>Peterb</abbr>
                      <expan>Petersburg</expan>
@@ -126,7 +145,7 @@
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
-               <lb/>zum Nuzen der Wissen<lb/>schaft <choice>
+               <lb/>zum Nuzen der Wissen<lb break="no"/>schaft <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
@@ -134,7 +153,7 @@
                   <abbr>Kön</abbr>
                   <expan>Königlichen</expan>
                </choice> Sammlungen <lb/>werde ich immer alles <lb/>gutheißen, was Sie
-               <lb/>wünschen. Herzlichen <lb/>Dank für alles was <lb/>Sie für <persName ref="http://d-nb.info/gnd/11859852X">Ratzeburg</persName> thun<supplied cert="high">.</supplied>
+               <lb/>wünschen. Herzlichen <lb/>Dank für alles was <lb/>Sie für <persName ref="https://editon-humboldt.de/H0000745 http://d-nb.info/gnd/11859852X">Ratzeburg</persName> thun<supplied cert="high">.</supplied>
                <lb/>Mehr Sorgfalt <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>

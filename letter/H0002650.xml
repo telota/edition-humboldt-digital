@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002650">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,34 +29,54 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Teplitz, 22. Juli
+                    1837, hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002650">https://edition-humboldt.de/v8/H0002650</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002650</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002650</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002650.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Franz Julius Ferdinand Meyen. Teplitz, 22. Juli
-                    1837. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002650</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 818 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 13,20 cm , B: 11,00 cm, Wasserzeichen: J. Whatman, London </p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/3064288">Teplitz</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName>
                     <date when="1837-07-22" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -69,41 +89,41 @@
                     <salute/>
                 </opener>
                 <p>
-                    <pb n="1r"/>Da ich leider! seit 16 <lb/>Jahren nicht in <placeName ref="https://www.geonames.org/3175395">Italien</placeName>
+                    <pb n="1r"/>Da ich leider! seit 16 <lb/>Jahren nicht in <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName>
                     <lb/>war, so kenne ich auch <lb/>nicht einmal dem Namen <lb/>nach jemand in
-                        <placeName ref="https://www.geonames.org/6542282">Genua</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0010840 https://www.geonames.org/6542282">Genua</placeName>
                     <supplied cert="high">.</supplied>
                     <lb/>Ich freue mich dieser <lb/>sehr wichtigen Reise <lb/>in 2 wenig besuchte
-                    <lb/>Inseln. In <placeName ref="https://www.geonames.org/2523228">Sardinien</placeName> ist <lb/>alles
+                    <lb/>Inseln. In <placeName ref="https://editon-humboldt.de/H0010123 https://www.geonames.org/2523228">Sardinien</placeName> ist <lb/>alles
                     neu, die <hi rend="underline" rendition="#u">Vögel</hi>, <lb/>die <hi rend="underline" rendition="#u">Süsswasser-Fische</hi>
                     <lb/>die Trachyte und ganz <lb/>
                     <choice>
                         <abbr>vulkan.</abbr>
                         <expan>vulkanische</expan>
-                    </choice> Produkte<supplied cert="high">,</supplied> über <lb/>die <persName ref="http://d-nb.info/gnd/120995506">Marmora</persName>
+                    </choice> Produkte<supplied cert="high">,</supplied> über <lb/>die <persName ref="https://editon-humboldt.de/H0000080 http://d-nb.info/gnd/120995506">Marmora</persName>
                     eine grosse <lb/>
-                    <ref xml:id="ff1a9ad8-9764-4e68-9a9a-d897644e68cc" corresp="#e905033f-396b-47af-8503-3f396bf7af40">trigonometrische Carte</ref>
-                    <note xml:id="e905033f-396b-47af-8503-3f396bf7af40" corresp="#ff1a9ad8-9764-4e68-9a9a-d897644e68cc">Vgl. <bibl corresp="https://edition-humboldt.de/v8/Q28PZXHC">Marmora 1824</bibl>. Ähnliche Karten publizierte <persName ref="http://d-nb.info/gnd/120995506">Marmora</persName> auch 1839 und 1845. Die
-                            Veröffentlichung aus dem Jahre 1845 (<bibl corresp="https://edition-humboldt.de/v8/RIAMA86P">Marmora 1845</bibl>) schien Humboldt
+                    <ref xml:id="e6c4b604-1aae-4b1a-84b6-041aae5b1a9a" corresp="#bd647eac-6912-4bce-a47e-ac69123bce28">trigonometrische Carte</ref>
+                    <note xml:id="bd647eac-6912-4bce-a47e-ac69123bce28" corresp="#e6c4b604-1aae-4b1a-84b6-041aae5b1a9a">Vgl. <bibl corresp="https://edition-humboldt.de/Q28PZXHC">Marmora 1824</bibl>. Ähnliche Karten publizierte <persName ref="https://editon-humboldt.de/H0000080 http://d-nb.info/gnd/120995506">Marmora</persName> auch 1839 und 1845. Die
+                            Veröffentlichung aus dem Jahre 1845 (<bibl corresp="https://edition-humboldt.de/RIAMA86P">Marmora 1845</bibl>) schien Humboldt
                             besonders zu schätzen. Auf sein privates Exemplar notierte er „Sehr
-                            wichtig“ (vgl. <bibl corresp="https://edition-humboldt.de/v8/8ZURHD9U">Stevens
+                            wichtig“ (vgl. <bibl corresp="https://edition-humboldt.de/8ZURHD9U">Stevens
                             1967</bibl>, Nr. 6339–6341).</note>
                     <lb/>entworfen. Wenn Sie die <lb/>Ausgabe nicht scheuen
-                    <lb/>so würde <persName ref="http://d-nb.info/gnd/119096552">
+                    <lb/>so würde <persName ref="https://editon-humboldt.de/H0013443 http://d-nb.info/gnd/119096552">
                         <choice>
                             <orig>Gesenius</orig>
                         <reg>Gesenius’</reg>
                         </choice>
-                    </persName> eben <lb/>erschienene <ref xml:id="f02c8d46-e1db-4d59-ac8d-46e1db8d595d" corresp="#e37d9180-d50e-4cb9-bd91-80d50e7cb967">
+                    </persName> eben <lb/>erschienene <ref xml:id="a612079c-a982-4960-9207-9ca982b96007" corresp="#bb9741ae-2a05-43ae-9741-ae2a0573aedc">
                         <choice>
                                 <abbr>Monum.</abbr>
                                 <expan>Monumenta</expan>
                             </choice> Punica</ref>
-                    <note xml:id="e37d9180-d50e-4cb9-bd91-80d50e7cb967" corresp="#f02c8d46-e1db-4d59-ac8d-46e1db8d595d">Vgl. <bibl corresp="https://edition-humboldt.de/v8/Q64UTR4A">Gesenius 1836</bibl>. Humboldt erwähnte die Arbeiten dieses Autors,
+                    <note xml:id="bb9741ae-2a05-43ae-9741-ae2a0573aedc" corresp="#a612079c-a982-4960-9207-9ca982b96007">Vgl. <bibl corresp="https://edition-humboldt.de/Q64UTR4A">Gesenius 1836</bibl>. Humboldt erwähnte die Arbeiten dieses Autors,
                             die den Handel und die Kultur der Phönizier betreffen, ausführlich im
-                            <hi rendition="#i">Kosmos</hi>. Vgl. u. a. <bibl corresp="https://edition-humboldt.de/v8/I87MJXIR">Humboldt
+                            <hi rendition="#i">Kosmos</hi>. Vgl. u. a. <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt
                                 1845–1862</bibl>, II, 167, 409.</note>
-                    <lb/>in dem punischen <placeName ref="https://www.geonames.org/2523228">Sardinien</placeName>
+                    <lb/>in dem punischen <placeName ref="https://editon-humboldt.de/H0010123 https://www.geonames.org/2523228">Sardinien</placeName>
                     <lb/>grosses Interesse erregen<supplied cert="high">.</supplied>
                 </p>
                 <p>Mögen Sie so glüklich  <lb/>reisen als Sie es verdienen. </p>

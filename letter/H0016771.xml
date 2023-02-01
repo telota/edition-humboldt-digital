@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016771">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1837] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016771">https://edition-humboldt.de/v8/H0016771</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016771</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016771</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016771.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1837] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016771</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">43</idno>
+                     <idno type="shelfmark">421, Bl. 80r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1837" notAfter="1837">1837-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vorbereitend zu "Examen critique", welches 1837 erscheint</note>
          </correspDesc>
@@ -63,49 +81,49 @@
          <div type="writingSession">
             <pb n="1r"/>
             <p>Darf ich Sie, theurer <lb/>Freund, einmal wieder <lb/>belästigen. Ich finde <lb/>in
-                  <ref xml:id="f96af95a-9534-4caa-aaf9-5a95343caaa8" corresp="#cc088a89-1bc2-4522-888a-891bc2e52265">
-                        <persName>Niccolo di Conti</persName>
-                     <lb/>Reise nach den Mo<lb/>lukken</ref>
-                    <note xml:id="cc088a89-1bc2-4522-888a-891bc2e52265" corresp="#f96af95a-9534-4caa-aaf9-5a95343caaa8">
-                     <bibl corresp="https://edition-humboldt.de/v8/NS5NRSV3">Ramusio 1554-1559</bibl>
+                  <ref xml:id="f8b4a963-14a7-4edb-b4a9-6314a7cedb12" corresp="#d6e54731-a2e9-4c99-a547-31a2e93c99ca">
+                        <persName ref="https://editon-humboldt.de/">Niccolo di Conti</persName>
+                     <lb/>Reise nach den Mo<lb break="no"/>lukken</ref>
+                    <note xml:id="d6e54731-a2e9-4c99-a547-31a2e93c99ca" corresp="#f8b4a963-14a7-4edb-b4a9-6314a7cedb12">
+                     <bibl corresp="https://edition-humboldt.de/NS5NRSV3">Ramusio 1554-1559</bibl>
                   </note> (er kam <lb/>zurük
                1447
                also
                <lb/>73Jahre
-               vor <ref xml:id="a2a66e3f-caa7-4abc-a66e-3fcaa77abcb4" corresp="#d9b28fe5-7c9f-4189-b28f-e57c9f6189ab">
-                        <persName ref="http://d-nb.info/gnd/117518530">Ma<lb/>gellan</persName>
+               vor <ref xml:id="c3ecb7cb-c1ab-40e2-acb7-cbc1abb0e235" corresp="#e65b38a8-5a1e-4367-9b38-a85a1e836746">
+                        <persName ref="https://editon-humboldt.de/H0013857 http://d-nb.info/gnd/117518530">Ma<lb break="no"/>gellan</persName>
                      <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                      </choice>
-                     <persName ref="http://d-nb.info/gnd/119316498">Pigafetta</persName>
+                     <persName ref="https://editon-humboldt.de/H0001978 http://d-nb.info/gnd/119316498">Pigafetta</persName>
                     </ref>
-                    <note xml:id="d9b28fe5-7c9f-4189-b28f-e57c9f6189ab" corresp="#a2a66e3f-caa7-4abc-a66e-3fcaa77abcb4">
-                     <bibl corresp="https://edition-humboldt.de/v8/L5BEJ57U">Pigafetta 1784</bibl>
+                    <note xml:id="e65b38a8-5a1e-4367-9b38-a85a1e836746" corresp="#c3ecb7cb-c1ab-40e2-acb7-cbc1abb0e235">
+                     <bibl corresp="https://edition-humboldt.de/L5BEJ57U">Pigafetta 1784</bibl>
                   </note>) <lb/>den Paradis Vogel <lb/>beschrieben. Wollten <lb/>Sie wohl gütigst
-               <lb/>in <ref xml:id="ee37236e-d374-4788-b723-6ed374d78876" corresp="#d7755107-e2e0-4049-b551-07e2e04049f7">
-                        <persName ref="http://d-nb.info/gnd/118517252">Buffon</persName>
+               <lb/>in <ref xml:id="ce85baef-528a-42fa-85ba-ef528a02fa45" corresp="#f4cd603b-428f-4393-8d60-3b428fc3934e">
+                        <persName ref="https://editon-humboldt.de/H0003752 http://d-nb.info/gnd/118517252">Buffon</persName>
                     </ref>
-                    <note xml:id="d7755107-e2e0-4049-b551-07e2e04049f7" corresp="#ee37236e-d374-4788-b723-6ed374d78876">
-                     <bibl corresp="https://edition-humboldt.de/v8/YBAT9PLN">Buffon 1749</bibl>
+                    <note xml:id="f4cd603b-428f-4393-8d60-3b428fc3934e" corresp="#ce85baef-528a-42fa-85ba-ef528a02fa45">
+                     <bibl corresp="https://edition-humboldt.de/YBAT9PLN">Buffon 1749</bibl>
                   </note>
                <choice>
                   <abbr>od.</abbr>
                   <expan>oder</expan>
-               </choice> sonst<lb/>wo (<ref xml:id="b2f7ee41-1a49-4705-b7ee-411a49d705cd" corresp="#f0d164f7-405d-43a4-9164-f7405d83a472">
-                        <persName ref="https://edition-humboldt.de/v8/H0016875">Vaillant</persName>
+               </choice> sonst<lb break="no"/>wo (<ref xml:id="c3b31d8e-50fe-4636-b31d-8e50fec6365f" corresp="#dc13c628-b47d-471a-93c6-28b47df71aa6">
+                        <persName ref="https://editon-humboldt.de/H0016875">Vaillant</persName>
                     </ref>
-                    <note xml:id="f0d164f7-405d-43a4-9164-f7405d83a472" corresp="#b2f7ee41-1a49-4705-b7ee-411a49d705cd">
-                     <bibl corresp="https://edition-humboldt.de/v8/DFQJL5JM">Levaillant 1805-1808</bibl>
-                  </note>?) <lb/>nachsehen wem <lb/>man erste Nach<lb/>richt
+                    <note xml:id="dc13c628-b47d-471a-93c6-28b47df71aa6" corresp="#c3b31d8e-50fe-4636-b31d-8e50fec6365f">
+                     <bibl corresp="https://edition-humboldt.de/DFQJL5JM">Levaillant 1805-1808</bibl>
+                  </note>?) <lb/>nachsehen wem <lb/>man erste Nach<lb break="no"/>richt
                   zuschreibt<supplied cert="high">.</supplied>
-               <lb/>In <bibl corresp="https://edition-humboldt.de/v8/CWSDAFQZ">
-                        <persName>Forster</persName>
+               <lb/>In <bibl corresp="https://edition-humboldt.de/CWSDAFQZ">
+                        <persName ref="https://editon-humboldt.de/">Forster</persName>
                   Zoologia <lb/>indica <choice>
                      <abbr>p</abbr>
                      <expan>pagina</expan>
                   </choice> 31</bibl> ist nur <lb/>
-                    <persName ref="http://d-nb.info/gnd/119316498">Pigafetta</persName>
+                    <persName ref="https://editon-humboldt.de/H0001978 http://d-nb.info/gnd/119316498">Pigafetta</persName>
                   genannt<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">

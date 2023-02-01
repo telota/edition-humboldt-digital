@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0000331">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Kaliningrad</title>
             </titleStmt>
+            <editionStmt>
+                <p>Kaliningrad [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0000331.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,28 +20,29 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0000331.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0000331.xml">
-                    <p>Kaliningrad [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0000331.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0000331">
+                <place>
                     <idno type="uri">https://www.geonames.org/554234</idno>
                     <placeName type="reg">Kaliningrad</placeName>
                     <placeName type="alt">Königsberg</placeName>
                     <placeName type="alt">Калинингра́д</placeName>
                     <placeName type="alt">Kalinigrad</placeName>
-                    <note><?oxy_custom_start type="oxy_content_highlight" color="255,255,0"?><?oxy_comment_start author="schnee" timestamp="20181219T173257+0100" comment="Überarbeiten!!!" mid="1"?>Hauptstadt
+                    <note>Hauptstadt
                         der Oblast Kaliningrad, russische Exklave zwischen Polen und Litauen an der Ostsee;
-                        <?oxy_custom_end?><?oxy_comment_end mid="1"?>bis 1946 Königsberg</note>
+                        bis 1946 Königsberg</note>
                     <linkGrp>
                         <ptr target="30#14" type="letter"/>
                         <ptr target="30#20" type="letter"/>

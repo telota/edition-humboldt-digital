@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0001065">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Ross, Thomasina</title>
             </titleStmt>
+            <editionStmt>
+                <p>Ross, Thomasina [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0001065.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0001065.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0001065.xml">
-                    <p>Ross, Thomasina [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0001065.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0001065">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/1053282540</idno>
                     <persName type="reg">
                         <surname>Ross</surname>
@@ -39,8 +44,8 @@
                         <surname>Muir Ross</surname>
                         <forename>Thomasina</forename>
                     </persName>
-                    <birth>ca. 1796</birth><!-- ER lassen nur "ca." kein "(?)" o.Ä. zur Kennzeichnung der Unsicherheit zu, vgl. https://edition-humboldt.de/richtlinien/frameworks/index/person.html?hl=ungef%C3%A4hre%20Jahresangabe%20(Geburtsjahr) -->
-                    <death>1875</death><!-- Lebensdaten nach Recherche von Ingo Schwarz, per Mail an Christian Thomas, 14.05.2020, 12:00: "in Martin, Alison E.: Nature Translated. Alexander von Humboldt's Works in Nineteenth-Century Britain (Edinburgh University Press 2018) findet sich auf S. 117 diese Angabe: Thomasina Muir Ross (1796? - 1875)" -->
+                    <birth>ca. 1796</birth>
+                    <death>1875</death>
                     <note>Übersetzerin von Alexander von Humboldt</note>
                     <linkGrp>
                         <ptr target="29#490" type="page"/>

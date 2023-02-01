@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0011769">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Helmersen, Gregor von</title>
             </titleStmt>
+            <editionStmt>
+                <p>Helmersen, Gregor von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0011769.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0011769.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0011769.xml">
-                    <p>Helmersen, Gregor von [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0011769.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0011769">
+                <person>
                     <idno type="uri">http://d-nb.info/gnd/116691174</idno>
                     <persName type="reg">
                         <surname>Helmersen</surname>
@@ -42,10 +47,10 @@
                     <birth>1803</birth>
                     <death>1885</death>
                     <note>russischer Geologe und Forschungsreisender deutsch-baltischer Herkunft;
-                        1837 Professor am Berginstitut in <placeName key="H0008236">Sankt
+                        1837 Professor am Berginstitut in <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Sankt
                             Petersburg</placeName>, 1865–1872 dessen Direktor; begleitete Humboldt
-                        1829 zusammen mit <persName key="H0011946">Ernst Reinhold Hofmann</persName>
-                        von <placeName key="H0008855">Miass</placeName> bis <placeName key="H0007842">Orenburg</placeName>
+                        1829 zusammen mit <persName ref="https://editon-humboldt.de/H0011946 http://viaf.org/viaf/5696261">Ernst Reinhold Hofmann</persName>
+                        von <placeName ref="https://editon-humboldt.de/H0008855 https://www.geonames.org/1498894">Miass</placeName> bis <placeName ref="https://editon-humboldt.de/H0007842 https://www.geonames.org/515003">Orenburg</placeName>
                     </note>
                     <linkGrp>
                         <ptr target="22#181" type="page"/>

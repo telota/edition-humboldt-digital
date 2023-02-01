@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002734">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,38 +29,55 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Freitag, [26.
+                    Oktober 1832] , hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002734">https://edition-humboldt.de/v8/H0002734</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002734</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002734</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002734.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Freitag, [26.
-                    Oktober 1832] . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002734</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno>
+                            <idno type="shelfmark">A. von Humboldt</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1832-10-26" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
-                <note>Zur Datierung: <persName ref="http://d-nb.info/gnd/118535986">Friedrich Wilhelm
+                <note>Zur Datierung: <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">Friedrich Wilhelm
                         III</persName>. bewilligte am 22. Oktober 1832 die im Brief erwähnte
-                    Unterstützung des Forschungsreisenden <persName ref="http://d-nb.info/gnd/117669954">Christian Friedrich
-                        Lessing</persName> (<bibl corresp="https://edition-humboldt.de/v8/TIMW4A7D">Buchholtz 1909</bibl>, 2, 376). </note>
+                    Unterstützung des Forschungsreisenden <persName ref="https://editon-humboldt.de/H0004482 http://d-nb.info/gnd/117669954">Christian Friedrich
+                        Lessing</persName> (<bibl corresp="https://edition-humboldt.de/TIMW4A7D">Buchholtz 1909</bibl>, 2, 376). </note>
             </correspDesc>
         </profileDesc>
     </teiHeader>
@@ -84,40 +101,40 @@
                         <orig>fur</orig>
                         <reg>für</reg>
                     </choice>
-                    <ref xml:id="edb9a74d-3986-4832-b9a7-4d3986c8323a" corresp="#a753af8a-423a-4e2e-93af-8a423ade2e3f">
-                        <persName ref="http://d-nb.info/gnd/117669954">Lessing</persName>
-                            <lb/>in <placeName ref="https://www.geonames.org/2016590">
+                    <ref xml:id="a2a4ea2c-158b-451d-a4ea-2c158bb51d9a" corresp="#d19f563d-27a5-4c0b-9f56-3d27a5fc0be1">
+                        <persName ref="https://editon-humboldt.de/H0004482 http://d-nb.info/gnd/117669954">Lessing</persName>
+                            <lb/>in <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">
                             <hi rendition="#u">Sibirien</hi>
                         </placeName>
                         </ref>
-                    <note xml:id="a753af8a-423a-4e2e-93af-8a423ade2e3f" corresp="#edb9a74d-3986-4832-b9a7-4d3986c8323a">Vgl. <bibl corresp="https://edition-humboldt.de/v8/TIMW4A7D">Buchholtz 1909</bibl>, II, 376.</note> zu erhalten<supplied cert="high">.</supplied>
-                    <lb/>Dagegen will <hi rendition="#u">schlechter<lb/>dings</hi> der <persName ref="http://d-nb.info/gnd/118535986">
+                    <note xml:id="d19f563d-27a5-4c0b-9f56-3d27a5fc0be1" corresp="#a2a4ea2c-158b-451d-a4ea-2c158bb51d9a">Vgl. <bibl corresp="https://edition-humboldt.de/TIMW4A7D">Buchholtz 1909</bibl>, II, 376.</note> zu erhalten<supplied cert="high">.</supplied>
+                    <lb/>Dagegen will <hi rendition="#u">schlechter<lb/>dings</hi> der <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">
                         <choice>
                             <orig>Konig</orig>
                             <reg>König</reg>
                         </choice>
-                    </persName> leider <lb/>dem jungen <persName ref="http://d-nb.info/gnd/116160225">Beyrich</persName>
+                    </persName> leider <lb/>dem jungen <persName ref="https://editon-humboldt.de/H0003329 http://d-nb.info/gnd/116160225">Beyrich</persName>
                     <lb/>
                     <choice>
                         <orig>fur</orig>
                         <reg>für</reg>
                     </choice>
-                    <placeName ref="https://edition-humboldt.de/v8/H0002429">Amerika</placeName> nichts <lb/>mehr als die Pension
-                    <lb/>des <orgName ref="http://d-nb.info/gnd/17434-8">Gartens</orgName> accediren! <lb/>
-                    <persName ref="http://d-nb.info/gnd/117339385">Valenciennes</persName> ist <choice>
+                    <placeName ref="https://editon-humboldt.de/H0002429">Amerika</placeName> nichts <lb/>mehr als die Pension
+                    <lb/>des <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">Gartens</orgName> accediren! <lb/>
+                    <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName> ist <choice>
                         <abbr>Prof.</abbr>
                         <expan>Professeur</expan>
                     </choice>
-                    <lb/>au <orgName ref="http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName>
+                    <lb/>au <orgName ref="https://editon-humboldt.de/H0000553 http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName>
                     <lb/>an die Stelle von <lb/>
-                    <persName ref="http://d-nb.info/gnd/116234563">Blainville</persName> (troz
-                        <persName ref="http://d-nb.info/gnd/116685298">
+                    <persName ref="https://editon-humboldt.de/H0003377 http://d-nb.info/gnd/116234563">Blainville</persName> (troz
+                        <persName ref="https://editon-humboldt.de/H0003680 http://d-nb.info/gnd/116685298">
                         <choice>
                             <sic>Brognart</sic>
                             <corr cert="high">Brongniart</corr>
                         </choice>
                     </persName>
-                    <lb/>und <persName ref="http://d-nb.info/gnd/102458561">Cordier</persName>) für <lb/>die Mollusken
+                    <lb/>und <persName ref="https://editon-humboldt.de/H0013172 http://d-nb.info/gnd/102458561">Cordier</persName>) für <lb/>die Mollusken
                         geworden<supplied cert="high">.</supplied>
                     <lb/>Ihr </p>
                 <signed>Ht</signed>

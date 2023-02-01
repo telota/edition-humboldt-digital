@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016749">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [8. Februar
+               1830] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016749">https://edition-humboldt.de/v8/H0016749</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016749</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016749</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016749.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [8. Februar
-               1830] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016749</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">24</idno>
+                     <idno type="shelfmark">421, Bl. 42r-43r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1830-02-08">1830-02-08</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. Spenersche Zeitung vom 8.2.1830</note>
          </correspDesc>
@@ -64,16 +82,16 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Eine <orgName ref="http://d-nb.info/gnd/10181-3">Vereinigung von Menschen</orgName>, <lb/>die nicht
+            <p>Eine <orgName ref="https://editon-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3">Vereinigung von Menschen</orgName>, <lb/>die nicht
                verstehen was man <lb/>ihnen sagt <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> unverschämt <lb/>drukken lassen, ehe man <lb/>es durchsieht verdient keine
-               <lb/>Schonung. Ich hüte mich des<lb/>halb vor einer solchen Ge<lb/>sellschaft<supplied cert="high">.</supplied> Auch mir war heu<lb/>te morgen der Aufsaz <lb/>unangenehm gewesen „von <lb/>brennender
+               <lb/>Schonung. Ich hüte mich des<lb break="no"/>halb vor einer solchen Ge<lb break="no"/>sellschaft<supplied cert="high">.</supplied> Auch mir war heu<lb break="no"/>te morgen der Aufsaz <lb/>unangenehm gewesen „von <lb/>brennender
                Liebe“ <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Eichen <lb/>des <placeName ref="https://www.geonames.org/1488441">Urals</placeName>!! Ich bin daher
+               </choice> Eichen <lb/>des <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Urals</placeName>!! Ich bin daher
                <lb/>sehr dafür, dass Sie die <lb/>Beilage drukken lassen<supplied cert="high">.</supplied>
                <lb/>Das liest man in russischen <lb/>
                     <choice>
@@ -85,36 +103,39 @@
                     <pb n="1v"/>botanisch <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> zoologisch spe<lb/>cifische Namen der <lb/>Naturprodukte <choice>
+               </choice> zoologisch spe<lb break="no"/>cifische Namen der <lb/>Naturprodukte <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
-               </choice> Fami<lb/>lien enthalten <choice>
+               </choice> Fami<lb break="no"/>lien enthalten <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> nicht <lb/>auf mündlicher Mitthei<lb/>lung beruhen. Sonst wird
-               <lb/>man glauben wir hätten <lb/>eine blos flüchtige Spa<lb/>zierreise
+               </choice> nicht <lb/>auf mündlicher Mitthei<lb break="no"/>lung beruhen. Sonst wird
+               <lb/>man glauben wir hätten <lb/>eine blos flüchtige Spa<lb break="no"/>zierreise
                gemacht. Die <lb/>berliner Geographen <lb/>wollen <hi rendition="#u">amüsiert</hi>
                sein <lb/>aber Sie mein Theurer, sind <lb/>zu etwas besserem geschaffen, <lb/>als zum
                ersten Male <lb/>nach Ihrer Rückkunft so <lb/>aufzutreten. Ich theile ganz <lb/>Ihre
                Entrüstung <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> Sie <lb/>müssen außer der Anzeige <lb/>dem <persName ref="http://d-nb.info/gnd/11860130X">Präsidenten</persName> der <orgName ref="http://d-nb.info/gnd/10181-3">Gesell<lb/>schaft</orgName> Ihre Klage vor<lb/>bringen. Der <name type="animal" key="Felis Zerbis">Felis <lb/>Zerbis</name> ist sehr merkwürdig <lb/>
+               </choice> Sie <lb/>müssen außer der Anzeige <lb/>dem <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Präsidenten</persName> der <orgName ref="https://editon-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3">Gesell<lb break="no"/>schaft</orgName> Ihre Klage vor<lb break="no"/>bringen. Der <name type="animal" key="Felis Zerbis">Felis <lb/>Zerbis</name> ist sehr merkwürdig <lb/>
                     <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> da er ausgestopft <lb/>werden kann, so lobe ich <lb/>
                     <pb n="2r"/>die
                Abbildung des ganzen <lb/>Thieres. Für den <name type="animal" key="Tiger">Tiger</name>
-               <lb/>und die nicht auszustopfen-<lb/>den Thiere, zöge
-               ich <lb/>um die böse Nachre-<lb/>de zu vermeiden,
-               <lb/>die Abbildung des blo<lb/>ßen Felles vor. Wenn <lb/>doch <persName ref="http://d-nb.info/gnd/117083631">Bürde</persName> sich ge<lb/>wöhnen wollte, die
+               <lb/>und die nicht auszustopfen<g ref="#typoHyphen"/>
+                    <lb break="no"/>den Thiere, zöge
+               ich <lb/>um die böse Nachre<g ref="#typoHyphen"/>
+                    <lb break="no"/>de zu vermeiden,
+               <lb/>die Abbildung des blo<lb break="no"/>ßen Felles vor. Wenn <lb/>doch <persName ref="https://editon-humboldt.de/H0016991 http://d-nb.info/gnd/117083631">Bürde</persName> sich ge<lb break="no"/>wöhnen wollte, die
                <lb/>Thiere ohne Wald <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice>
                <lb/>Landschaft gegen die Luft <lb/>zu projiciren. Der <lb/>theatralische <name type="animal" key="Hase">Hase</name> ist <lb/>schlecht gestellt, kann <lb/>aber
-               zum Maße die-<lb/>nen<supplied cert="high">.</supplied>
+               zum Maße die<g ref="#typoHyphen"/>
+                    <lb break="no"/>nen<supplied cert="high">.</supplied>
                 </p>
             <closer rend="paragraph">
                     <salute>Herzlich</salute>

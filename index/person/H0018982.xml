@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0018982">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Gevlič, Avksentij Pavlovič</title>
             </titleStmt>
+            <editionStmt>
+                <p>Gevlič, Avksentij Pavlovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0018982.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0018982.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0018982.xml">
-                    <p>Gevlič, Avksentij Pavlovič [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0018982.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-person</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-person</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPerson>
-                <person xml:id="H0018982">
+                <person>
                     <persName type="reg">
                         <surname>Gevlič</surname>
                         <forename>Avksentij Pavlovič</forename>
@@ -49,7 +54,7 @@
                     <birth>1790</birth>
                     <death>1861</death>
                     <note>russ. Jurist und Politiker; 1828 Staatsrat; 1829 Vizegouverneur und
-                        1830-1832 Gouverneur von <placeName key="H0018120">Astrachan</placeName>;
+                        1830-1832 Gouverneur von <placeName ref="https://editon-humboldt.de/H0018120">Astrachan</placeName>;
                         1832/33 Gouverneur von Tula; 1835-1840 Gouverneur von Orenburg; 1840-1843
                         Gouverneur von Simbirsk; 1848 Senator </note>
                 </person>

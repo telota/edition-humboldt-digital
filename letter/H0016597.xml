@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016597">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,58 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 5. Mai
+               1850, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016597">https://edition-humboldt.de/v8/H0016597</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016597</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016597</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016597.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, 5. Mai
-               1850. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016597</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                 <idno>
+                    <idno type="legacy">189</idno>
+                    <idno type="shelfmark">421, Bl. 344r-345r</idno>
+                 </idno>
+               </msIdentifier>
+            </msDesc>
+            <listWit>
+               <witness>
+                  <bibl type="print" n="1" corresp="https://edition-humboldt.de/">TD: Biermann 1992 Kurt-R.
+                     Biermann. Beglückende Ermunterung durch die akademische Gemeinschaft: Alexander
+                     von Humboldt als Mitglied der Berliner Akad. der Wiss. Berlin, Akad.-Verl. 1992
+                     Beiträge zur Alexander-von-Humboldt-Forschung 17</bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
                <date when="1850-05-05">1850-05-05</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -70,7 +96,8 @@
                <lb/>Ich bleibe bei dem festen Entschlusse <lb/>dass es von keiner Corporation, von
                <lb/>keiner äusseren Macht abhängt, <lb/>über meinen Ruf <add place="left">
                         <metamark/>nach <lb/>ihren <lb/>Ansichten</add> zu verfügen, mir <lb/>eine Ehre
-               anzuthun die mir schmerz-<lb/>haft <subst>
+               anzuthun die mir schmerz<g ref="#typoHyphen"/>
+                    <lb break="no"/>haft <subst>
                   <del rendition="#ow">
                             <gap reason="covered" unit="words" quantity="1"/>
                         </del>
@@ -79,27 +106,32 @@
                   corpore <lb/>vivo</hi>, gegen den Vorsaz, welche mildernden
                <lb/>Formalitäten man auch dabei anwenden <lb/>möchte, einem <hi rendition="#u">lebenden</hi> Menschen, an <lb/>demselben Orte lebenden Menschen! <lb/>Mitglied
                einer Akademie während seines <lb/>Lebens! eine Büste zu widmen. Wenn <lb/>die
-               Akademie beschliessen will <lb/>(nach dem Gebrauch anderer Akade-<lb/>mien in Europa) <hi rendition="#u">nach</hi>
+               Akademie beschliessen will <lb/>(nach dem Gebrauch anderer Akade<g ref="#typoHyphen"/>
+                    <lb break="no"/>mien in Europa) <hi rendition="#u">nach</hi>
                <hi rendition="#u">meinem</hi>
                <hi rendition="#u">Tode</hi>
                <lb/>meine Büste, in grosser Entfernung <lb/>von dem unsterblichen Erfinder <lb/>der
-               Infinitesimal-Rechnung aufzu-<lb/>stellen, so würde
-               ich meinen Ehr-<lb/>erbietigsten Dank dafür
+               Infinitesimal-Rechnung aufzu<g ref="#typoHyphen"/>
+                    <lb break="no"/>stellen, so würde
+               ich meinen Ehr<g ref="#typoHyphen"/>
+                    <lb break="no"/>erbietigsten Dank dafür
                   aussprechen<supplied cert="high">.</supplied>
                <lb/>Das ist der einzige Punkt um <lb/>den es sich handelt und ich traue <lb/>selbst
                einer Akademie Zartheit <lb/>der Gefühle genug zu, um der <lb/>Bitte eines 80
                jährigen Mannes <lb/>nachzugeben. Erlange ich dies <lb/>nicht durch die <hi rendition="#u">vier</hi> Briefe <lb/>gleichen Inhalts, die ich an die <lb/>4
-               Herren <persName>Secretare</persName> geschrieben <lb/>
+               Herren <persName ref="https://editon-humboldt.de/">Secretare</persName> geschrieben <lb/>
                     <pb n="1v"/>habe, so
                bleibt mir nichts anderes <lb/>übrig, als (was ich sehr ungern <lb/>thue, aber doch
-               thun werde) <lb/>an die Gesammtacademie zu schrei<lb/>ben. Sollte dies
+               thun werde) <lb/>an die Gesammtacademie zu schrei<lb break="no"/>ben. Sollte dies
                wieder nicht <lb/>helfen, so bleibt mir nur übrig <lb/>1) den Ort zu <hi rendition="#u">meiden</hi>, an dem man <lb/>mir so einfache Bitten abgeschlagen
                <lb/>und 2) was ich <add place="superlinear">deshalb</add> versucht habe zu
-               <lb/>veröffentlichen. <add place="intralinear">Ich scheue das Tadelswerthe sol-<lb/>cher Schritte nicht.</add>
+               <lb/>veröffentlichen. <add place="intralinear">Ich scheue das Tadelswerthe sol<g ref="#typoHyphen"/>
+                        <lb break="no"/>cher Schritte nicht.</add>
                 </p>
             
-            <p>Ich weiss, theurer Ehrenberg <lb/>wie sehr ich auf <hi rendition="#u">Ihre</hi> Zu<lb/>neigung rechnen darf, wie <lb/>sehr Sie aus eigener Erfahrung
-               <lb/>wissen, dass moralische Ver-<lb/>stimmung an der
+            <p>Ich weiss, theurer Ehrenberg <lb/>wie sehr ich auf <hi rendition="#u">Ihre</hi> Zu<lb break="no"/>neigung rechnen darf, wie <lb/>sehr Sie aus eigener Erfahrung
+               <lb/>wissen, dass moralische Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>stimmung an der
                   <hi rendition="#u">Arbeit</hi>
                <lb/>hindert – und doch ist <lb/>Arbeit, Vollendung des <lb/>Angefangenen die einzige
                <lb/>Zerstreuung, die ich jezt mir <lb/>in meiner zerissenen, oft <lb/>trüben <add place="superlinear">äusseren</add> Lage verschaffen kann. <lb/>Ich bitte Sie
@@ -107,7 +139,7 @@
                   <abbr>Prof.</abbr>
                   <expan>Professor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/11862380X">Trendelenburg</persName>
+               <persName ref="https://editon-humboldt.de/H0004048 http://d-nb.info/gnd/11862380X">Trendelenburg</persName>
                <lb/>
                     <add place="intralinear">auf</add>
                <subst>
@@ -131,28 +163,30 @@
                   <choice>
                      <abbr>Aug</abbr>
                      <expan>August</expan>
-                  </choice> ist übrigens <lb/>für mich eine rein mythi<lb/>sche Epoche.
+                  </choice> ist übrigens <lb/>für mich eine rein mythi<lb break="no"/>sche Epoche.
                   Ich mag <lb/>1800 zum <hi rendition="#u">Correspondenten</hi>
-                  <lb/>ernannt worden sein, wo<lb/>von aus guten Gründen <lb/>in der
+                  <lb/>ernannt worden sein, wo<lb break="no"/>von aus guten Gründen <lb/>in der
                   Waldgegend des <lb/>
-                        <placeName ref="https://www.geonames.org/3631298">Orinoco</placeName> wie auch später
+                        <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orinoco</placeName> wie auch später
                      <lb/>
                         <add place="intralinear">ich</add> nie etwas vernommen: <lb/>Ich weiss
                   bloss in der <lb/>deutlichsten Erinnerung <lb/>
                         <pb n="2r"/>dass ich erst nach
-                  meiner Rückunft <lb/>aus <placeName ref="https://www.geonames.org/3996063">Mexico</placeName>, also etwa
-                  1804 Mit-<lb/>glied der <placeName ref="https://www.geonames.org/2950159">Berliner <choice>
+                  meiner Rückunft <lb/>aus <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName>, also etwa
+                  1804 Mit<g ref="#typoHyphen"/>
+                        <lb break="no"/>glied der <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berliner <choice>
                         <abbr>Akad.</abbr>
                         <expan>Akademie</expan>
                      </choice>
                         </placeName> geworden <lb/>bin und <add place="left">
                             <metamark/>über
-                        <placeName ref="https://www.geonames.org/3169070">Rom</placeName>
-                     <lb/>von <persName ref="http://d-nb.info/gnd/116817569">Buch</persName>
-                     <lb/>und <persName ref="http://d-nb.info/gnd/118716581">Gay Lussac</persName>
-                     <lb/>begleitet <lb/>zurückehrend</add> vom alten <persName ref="http://d-nb.info/gnd/119353210">Formey</persName> in <lb/>einer Französichen Rede aufgenommen <lb/>worden bin.
+                        <placeName ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rom</placeName>
+                     <lb/>von <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName>
+                     <lb/>und <persName ref="https://editon-humboldt.de/H0013386 http://d-nb.info/gnd/118716581">Gay Lussac</persName>
+                     <lb/>begleitet <lb/>zurückehrend</add> vom alten <persName ref="https://editon-humboldt.de/H0016895 http://d-nb.info/gnd/119353210">Formey</persName> in <lb/>einer Französichen Rede aufgenommen <lb/>worden bin.
                   Aber dies Datum ist <lb/>sehr gleichgültig<supplied cert="high">.</supplied>
-                  Worauf ich sehr be-<lb/>stimmt nach meinen
+                  Worauf ich sehr be<g ref="#typoHyphen"/>
+                        <lb break="no"/>stimmt nach meinen
                   unveräusserlichen <lb/>Freiheitsgefühlen dringe, ist dass <lb/>die Akademie die
                   vielleicht jezt <lb/>schon anzufertigende Büste erst <lb/>
                         <hi rendition="#uu">nach</hi>

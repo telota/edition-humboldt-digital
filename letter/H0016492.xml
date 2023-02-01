@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016492">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,32 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], 2. Mai
+               1858, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016492">https://edition-humboldt.de/v8/H0016492</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016492</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016492</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016492.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], 2. Mai
-               1858. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016492</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">242</idno>
+                     <idno type="shelfmark">421, Bl. 451r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1858-05-02">1858-05-02</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -73,19 +91,20 @@
                   <abbr>Prov.</abbr>
                   <expan>Provinzial</expan>
                </choice> Gewerbschule in <lb/>
-                    <placeName ref="https://www.geonames.org/2852458">Potsdam</placeName>: Herrn
+                    <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>: Herrn
                   <hi rendition="#u">
-                        <persName ref="http://d-nb.info/gnd/1031721126">Langhoff</persName>
+                        <persName ref="https://editon-humboldt.de/H0017022 http://d-nb.info/gnd/1031721126">Langhoff</persName>
                     </hi> gerichtete
-               <lb/>Gesuch zu erfüllen, das Gesuch nemlich <lb/>der Akademie der Wissen<lb/>schaften das Sonnen-mi-<lb/>croscopische, photogra<lb/>phische <hi rendition="#u">Album</hi> seines
+               <lb/>Gesuch zu erfüllen, das Gesuch nemlich <lb/>der Akademie der Wissen<lb break="no"/>schaften das Sonnen-mi<g ref="#typoHyphen"/>
+                    <lb break="no"/>croscopische, photogra<lb break="no"/>phische <hi rendition="#u">Album</hi> seines
                <lb/>Schwagers des Herrn <lb/>
                     <hi rendition="#u">
-                        <persName ref="http://d-nb.info/gnd/116502258">Harsnack</persName>
-                    </hi> zu <placeName ref="https://www.geonames.org/2988507">Paris</placeName>,
-               <lb/>jezigen Besizer des <lb/>optischen Ateliers <lb/>von Georg <persName ref="http://d-nb.info/gnd/117076082">Oberhäuse</persName>
+                        <persName ref="https://editon-humboldt.de/H0016945 http://d-nb.info/gnd/116502258">Harsnack</persName>
+                    </hi> zu <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>,
+               <lb/>jezigen Besizer des <lb/>optischen Ateliers <lb/>von Georg <persName ref="https://editon-humboldt.de/H0016938 http://d-nb.info/gnd/117076082">Oberhäuse</persName>
                <lb/>gewogentlichst zur <lb/>
                     <hi rendition="#u">Ansicht</hi> vorzulegen <lb/>und an
-               mich zurük<lb/>schicken zu lassen<supplied cert="high">.</supplied>
+               mich zurük<lb break="no"/>schicken zu lassen<supplied cert="high">.</supplied>
             </p>
             <closer rend="paragraph">
                     <salute>Mit inniger Freundschaft <lb/>Ihr</salute>
@@ -99,20 +118,20 @@
                 </closer>
             <postscript>
                <p>
-                        <ref xml:id="fdf2d86e-0db0-4367-b2d8-6e0db0f3675d" corresp="#eb3c8e65-065d-403b-bc8e-65065d203b47">Vielleicht könnte <lb/>die Ansicht des <lb/>Albums der Herren
+                        <ref xml:id="eacfe04c-ebcc-42fd-8fe0-4cebcc12fdd2" corresp="#e76ec499-48a3-4bde-aec4-9948a36bdee5">Vielleicht könnte <lb/>die Ansicht des <lb/>Albums der Herren
                            <lb/>
-                            <persName ref="http://d-nb.info/gnd/116502258">Harsnack</persName> und <lb/>
-                            <persName ref="http://d-nb.info/gnd/124659713">Bertsch</persName> in <lb/>den <choice>
+                            <persName ref="https://editon-humboldt.de/H0016945 http://d-nb.info/gnd/116502258">Harsnack</persName> und <lb/>
+                            <persName ref="https://editon-humboldt.de/H0016978 http://d-nb.info/gnd/124659713">Bertsch</persName> in <lb/>den <choice>
                            <abbr>Mon</abbr>
                            <expan>Monats</expan>
                         </choice>-Berichten <lb/>erwähnt werden.</ref>
-                        <note xml:id="eb3c8e65-065d-403b-bc8e-65065d203b47" corresp="#fdf2d86e-0db0-4367-b2d8-6e0db0f3675d">
+                        <note xml:id="e76ec499-48a3-4bde-aec4-9948a36bdee5" corresp="#eacfe04c-ebcc-42fd-8fe0-4cebcc12fdd2">
                         <quote>Hr. Ehrenberg legte im Auftrage des Hrn.v. Humboldt das saubere
                            photographische Album der Hrn. Bertsch und Hartnack in Paris vor, welches
                            eine zu vervielfältigende Sammlung vergrösserter Bilder mikroskopischer
                            für scharfe photographische Darstellung sich besonders eignender
                            Gegenstände in ungewöhnlicher Schärfe darbietet.</quote>
-                        <bibl corresp="https://edition-humboldt.de/v8/2D6NZ87I">Ehrenberg 1858d</bibl>
+                        <bibl corresp="https://edition-humboldt.de/2D6NZ87I">Ehrenberg 1858d</bibl>
                      </note>
                     </p>
             </postscript>

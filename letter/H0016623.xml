@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016623">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [April 1855] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016623">https://edition-humboldt.de/v8/H0016623</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016623</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016623</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016623.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [April 1855] . Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016623</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">215</idno>
+                     <idno type="shelfmark">421, Bl. 394r-394v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1855-04" notAfter="1855-04">1855-04-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur Datierung: vgl. E.s Abhandlung vom 16.4.1855</note>
          </correspDesc>
@@ -62,12 +80,13 @@
       <body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Ich bin ganz Ihrer Meinung, halte <persName ref="http://d-nb.info/gnd/119156679">Flourens</persName>
-               <lb/>für eine wenig glänzende wissenschaft-<lb/>liche
+            <p>Ich bin ganz Ihrer Meinung, halte <persName ref="https://editon-humboldt.de/H0000151 http://d-nb.info/gnd/119156679">Flourens</persName>
+               <lb/>für eine wenig glänzende wissenschaft<g ref="#typoHyphen"/>
+                    <lb break="no"/>liche
                Person und wenn ich mich gut <lb/>erinnere, so habe ich, theurer Freund, <lb/>nur
                gebeten, dass er einmal auf eine <lb/>Liste komme<supplied cert="high">.</supplied>
                Ich bat <hi rendition="#u">nur</hi> darum <lb/>weil er mich grenzenlos quält, weil
-               <lb/>er seit 1835, fünf Jahr früher als <lb/>Johannes <persName ref="http://d-nb.info/gnd/118585053">Müller</persName>, <choice>
+               <lb/>er seit 1835, fünf Jahr früher als <lb/>Johannes <persName ref="https://editon-humboldt.de/H0014420 http://d-nb.info/gnd/118585053">Müller</persName>, <choice>
                   <abbr>Corresp</abbr>
                   <expan>Correspondent</expan>
                </choice> der Royal <subst>
@@ -78,23 +97,24 @@
                <add place="superlinear">geworden</add> ist und der Höflichkeit wegen <lb/>wohl ein <choice>
                   <abbr>Secret.</abbr>
                   <expan>Secretaire</expan>
-               </choice> des Instituts, Nach-<lb/>folger von
-                  <persName ref="http://d-nb.info/gnd/118677578">Cuvier</persName>, <del rendition="#s">
+               </choice> des Instituts, Nach<g ref="#typoHyphen"/>
+                    <lb break="no"/>folger von
+                  <persName ref="https://editon-humboldt.de/H0013277 http://d-nb.info/gnd/118677578">Cuvier</persName>, <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> auf eine Liste <lb/> gesezt
                werden kann. Dass er <hi rendition="#u">nicht</hi>
                <lb/>gewählt werde, scheint mir sehr billig <lb/>besonders seit dem <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> elenden
-                  <ref xml:id="fe1067be-638e-41ba-9067-be638ec1ba07" corresp="#e593546b-c91a-4d56-9354-6bc91a3d561e">Buche <lb/>sur la longévité</ref>
-                    <note xml:id="e593546b-c91a-4d56-9354-6bc91a3d561e" corresp="#fe1067be-638e-41ba-9067-be638ec1ba07">
-                        <bibl corresp="https://edition-humboldt.de/v8/YYI6KZKQ">Flourens
+                  <ref xml:id="ea30ee0b-fb7a-4d46-b0ee-0bfb7a0d467f" corresp="#d553b682-ad82-4dd2-93b6-82ad829dd20c">Buche <lb/>sur la longévité</ref>
+                    <note xml:id="d553b682-ad82-4dd2-93b6-82ad829dd20c" corresp="#ea30ee0b-fb7a-4d46-b0ee-0bfb7a0d467f">
+                        <bibl corresp="https://edition-humboldt.de/YYI6KZKQ">Flourens
                         1854</bibl>
                   </note>, das er sich wohl <lb/>gehütet hat mir zu schicken. Von <lb/>meiner Achtung
-               für seine früheren <lb/>Arbeiten zeugt übrigens eine in <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+               für seine früheren <lb/>Arbeiten zeugt übrigens eine in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                <lb/>nur zu bekannte Anecdote<supplied cert="high">.</supplied> Ich schrieb <lb/>dem
-               Botaniker <persName ref="http://d-nb.info/gnd/142837660">Turpin</persName> mit meiner <lb/>unleserlichen
-               Hand: „<persName ref="http://d-nb.info/gnd/118677578">Cuvier</persName> est bien <lb/>difficile à
+               Botaniker <persName ref="https://editon-humboldt.de/H0004093 http://d-nb.info/gnd/142837660">Turpin</persName> mit meiner <lb/>unleserlichen
+               Hand: „<persName ref="https://editon-humboldt.de/H0013277 http://d-nb.info/gnd/118677578">Cuvier</persName> est bien <lb/>difficile à
                remplacer, mais que penser <lb/>d’une Académie qui croit à la <lb/>possibilité <subst>
                   <del rendition="#ow">
                             <gap reason="covered" unit="words" quantity="1"/>
@@ -104,8 +124,8 @@
                <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del> mettre
-               un <persName ref="http://d-nb.info/gnd/119156679">Flourens</persName>
-               <lb/>à sa place<supplied>“</supplied>. <persName ref="http://d-nb.info/gnd/142837660">Turpin</persName> hat
+               un <persName ref="https://editon-humboldt.de/H0000151 http://d-nb.info/gnd/119156679">Flourens</persName>
+               <lb/>à sa place<supplied>“</supplied>. <persName ref="https://editon-humboldt.de/H0004093 http://d-nb.info/gnd/142837660">Turpin</persName> hat
                als <lb/>
                     <choice>
                   <sic>Zeicher</sic>
@@ -114,13 +134,13 @@
                   <del rendition="#s">Jad</del>
                   <add place="intralinear">Jardin</add>
                </subst> des Plantes <lb/>
-                    <persName ref="http://d-nb.info/gnd/119156679">Flourens</persName> um etwas zu
+                    <persName ref="https://editon-humboldt.de/H0000151 http://d-nb.info/gnd/119156679">Flourens</persName> um etwas zu
                bitten <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
                <lb/>
                     <add place="superlinear">und</add> um sich ihm gefällig zu machen <lb/>sagt er
-               ihm, aussi M de <persName ref="http://d-nb.info/gnd/118554700">Humboldt</persName>
+               ihm, aussi M de <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt</persName>
                <lb/>à <del rendition="#s">
                         <gap reason="illegible" quantity="1" unit="words"/>
                     </del>
@@ -128,20 +148,20 @@
                <lb/>prend <add place="left">
                         <metamark/>une <lb/>vive</add> part à Votre
                   nomination<supplied cert="high">.</supplied>
-               <lb/>Er zeigt aber den Brief <lb/>und <persName ref="http://d-nb.info/gnd/119156679">Flourens</persName>
+               <lb/>Er zeigt aber den Brief <lb/>und <persName ref="https://editon-humboldt.de/H0000151 http://d-nb.info/gnd/119156679">Flourens</persName>
                   erbleicht<supplied cert="high">.</supplied>
                <lb/>
                     <pb n="1v"/>Es gehört viel Gutmüthigkeit <lb/>
                     <choice>
                   <abbr>od</abbr>
                   <expan>oder</expan>
-               </choice> tiefcalculirte Selbstüberwindung <lb/>dazu, um mir dies nicht nach<lb/>zutragen! Daher meine Reue.</p>
+               </choice> tiefcalculirte Selbstüberwindung <lb/>dazu, um mir dies nicht nach<lb break="no"/>zutragen! Daher meine Reue.</p>
             <p>Meine jezigen Wünsche wären <lb/>für <hi rendition="#uu">
-                        <persName ref="http://d-nb.info/gnd/119297345">Murchison</persName>
+                        <persName ref="https://editon-humboldt.de/H0014452 http://d-nb.info/gnd/119297345">Murchison</persName>
                     </hi> mit <del rendition="#s">La Beche</del>
                <lb/>
                     <add place="superlinear">
-                        <persName ref="http://d-nb.info/gnd/116099305">La Beche</persName>
+                        <persName ref="https://editon-humboldt.de/H0012188 http://d-nb.info/gnd/116099305">La Beche</persName>
                     </add> der
                wichtigste unter den <lb/>englischen Geologen, <choice>
                   <abbr>u</abbr>
@@ -149,16 +169,16 @@
                </choice> für <del rendition="#s">Sabine</del>
                <lb/>
                     <add place="superlinear">Colonel <hi rendition="#u">
-                            <persName ref="http://d-nb.info/gnd/11671350X">Sabine</persName>
+                            <persName ref="https://editon-humboldt.de/H0015345 http://d-nb.info/gnd/11671350X">Sabine</persName>
                         </hi>
                     </add> an der Spize alles Magnetismus <lb/>(3 Jahre
                dazu am Nordpol)<supplied cert="high">.</supplied>
                 </p>
-            <p>Ihre Bemerkung über die <ref xml:id="a3271a8e-7995-4515-a71a-8e7995c5158e" corresp="#de7549bf-f66d-4195-b549-bff66d519579">Thierchen <lb/>von <placeName ref="https://edition-humboldt.de/v8/H0008958">Monte Rosá</placeName> nach
-                     4-jährigem <lb/>Schlafe in <placeName ref="https://www.geonames.org/2950159">Berlin</placeName> lebend,
+            <p>Ihre Bemerkung über die <ref xml:id="ac7648b6-f434-4284-b648-b6f434328487" corresp="#ebd2f8aa-50c1-4eff-92f8-aa50c1feffc0">Thierchen <lb/>von <placeName ref="https://editon-humboldt.de/H0008958">Monte Rosá</placeName> nach
+                     4-jährigem <lb/>Schlafe in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> lebend,
                      betrift <lb/>ein glänzendes Factum</ref>
-                    <note xml:id="de7549bf-f66d-4195-b549-bff66d519579" corresp="#a3271a8e-7995-4515-a71a-8e7995c5158e">
-                     <bibl corresp="https://edition-humboldt.de/v8/SPECV7II">Ehrenberg 1855c</bibl>
+                    <note xml:id="ebd2f8aa-50c1-4eff-92f8-aa50c1feffc0" corresp="#ac7648b6-f434-4284-b648-b6f434328487">
+                     <bibl corresp="https://edition-humboldt.de/SPECV7II">Ehrenberg 1855c</bibl>
                   </note>
                     <supplied cert="high">.</supplied>
                 </p>
@@ -168,7 +188,7 @@
                <dateline rend="align(left)">Freitag Nacht</dateline>
             </closer>
             <postscript>
-               <p>Meine Verehrung Ihrer <lb/>theuren <persName ref="https://edition-humboldt.de/v8/H0016958">Gattin</persName>
+               <p>Meine Verehrung Ihrer <lb/>theuren <persName ref="https://editon-humboldt.de/H0016958">Gattin</persName>
                     </p>
             </postscript>
          </div>

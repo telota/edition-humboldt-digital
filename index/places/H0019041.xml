@@ -1,12 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019041">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Uzen', Malyj</title>
             </titleStmt>
+            <editionStmt>
+                <p>Uzen', Malyj [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.5.2022.<ref>https://edition-humboldt.de/v8/H0019041.xml</ref>
+                </p>
+            </editionStmt>
             <publicationStmt>
                 <publisher>
-                    <ref target="http://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
                 <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
@@ -16,20 +20,21 @@
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0019041.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl target="https://edition-humboldt.de/v8/H0019041.xml">
-                    <p>Uzen', Malyj [Registereintrag]. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 2022-05-11.<ref>https://edition-humboldt.de/v8/H0019041.xml</ref>
-                    </p>
-                </bibl>
+                <p>Born digital.</p>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>index-places</textClass>
+            <textClass>
+                <keywords>
+                    <term>index-places</term>
+                </keywords>
+            </textClass>
         </profileDesc>
     </teiHeader>
     <text>
         <body>
             <listPlace>
-                <place xml:id="H0019041">
+                <place>
                     <idno type="uri">https://www.geonames.org/12188757</idno>
                     <placeName type="reg">Uzen', Malyj</placeName>
                     <placeName type="alt">Малый Узень</placeName>
@@ -39,8 +44,8 @@
                     <placeName type="alt">Kleiner Usen</placeName>
                     <placeName type="alt">Maly Ouzen</placeName>
                     <placeName type="alt">Kleiner Useen</placeName>
-                    <!-- Rose 1837/1842, II, 229; Mahlmann 1841a -->
-                    <note>Fluss zwischen <placeName key="H0017819">Obščij Syrt</placeName>-Höhenzug und <placeName key="H0000383">Kaspischer Senke</placeName> (<placeName key="H0010689">Russland</placeName>,
+                    
+                    <note>Fluss zwischen <placeName ref="https://editon-humboldt.de/H0017819 https://www.geonames.org/516335">Obščij Syrt</placeName>-Höhenzug und <placeName ref="https://editon-humboldt.de/H0000383">Kaspischer Senke</placeName> (<placeName ref="https://editon-humboldt.de/H0010689 https://www.geonames.org/2017370">Russland</placeName>,
                         Kasachstan)</note>
                 </place>
             </listPlace>

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0017853">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -28,29 +28,59 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Johann Moritz Rugendas an Alexander von Humboldt. Augsburg, 12. Dezember 1825, hg. v. Ulrich Päßler unter Mitarbeit von Lisa Poggel und Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0017853">https://edition-humboldt.de/v8/H0017853</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0017853</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0017853</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0017853.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Johann Moritz Rugendas an Alexander von Humboldt. Augsburg, 12. Dezember 1825. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0017853</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachlass Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 39</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1035679</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>, 23–24.
+                    </witness>
+                    <witness>
+                        <bibl type="print" n="2" corresp="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 13–14.</witness>
+                    <witness>
+                        <bibl type="print" n="3" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 287–288.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
-                    <placeName ref="https://www.geonames.org/2954172">Augsburg (Stadt in Bayern (Deutschland))</placeName>
+                    <persName ref="https://editon-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0002622 https://www.geonames.org/2954172">Augsburg (Stadt in Bayern (Deutschland))</placeName>
                     <date when="1825-12-12" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -68,20 +98,22 @@
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice> in München fand <lb/>und endlich durch Climaveränderung erregte
-                    Unpässlichkeit, ver-<lb/>spätete das <choice>
+                    Unpässlichkeit, ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>spätete das <choice>
                         <orig>Begin̅en</orig>
                         <reg>Beginnen</reg>
                     </choice> der von <choice>
                         <abbr>Ew.</abbr>
                         <expan>Ewro</expan>
-                    </choice> Hochwohlgeboren mir gefälligst über-<lb/>tragenen Zeichnungen, dergestallt daß ich <ref xml:id="db7639a2-36e8-403a-b639-a236e8d03a1c" corresp="#c64ef10e-d34c-435d-8ef1-0ed34cf35d26">die zwey große<supplied cert="high">n</supplied> Palmen</ref>
-                    <note xml:id="c64ef10e-d34c-435d-8ef1-0ed34cf35d26" corresp="#db7639a2-36e8-403a-b639-a236e8d03a1c">
+                    </choice> Hochwohlgeboren mir gefälligst über<g ref="#typoHyphen"/>
+                    <lb break="no"/>tragenen Zeichnungen, dergestallt daß ich <ref xml:id="ab1a03cc-0820-443f-9a03-cc0820843f38" corresp="#dcd1c906-6036-4882-91c9-066036988231">die zwey große<supplied cert="high">n</supplied> Palmen</ref>
+                    <note xml:id="dcd1c906-6036-4882-91c9-066036988231" corresp="#ab1a03cc-0820-443f-9a03-cc0820843f38">
                         <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000010">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 4</ref> und
                                 <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">5</ref> .</note>
                     <lb/>erste vorige Woche beendigen <choice>
                         <orig>kon̅te</orig>
                         <reg>konnte</reg>
-                    </choice> – ich habe sie den 10ten dieß <lb/>an unsern Correspondenten <orgName ref="http://d-nb.info/gnd/16114819-0">Tessari et<choice>
+                    </choice> – ich habe sie den 10ten dieß <lb/>an unsern Correspondenten <orgName ref="https://editon-humboldt.de/H0018039 http://d-nb.info/gnd/16114819-0">Tessari et<choice>
                             <sic>.</sic>
                             <corr type="deleted"/>
                         </choice>
@@ -95,8 +127,8 @@
                     </choice> sogleich überliefern wird <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
-                    </choice> wünsche daß sie zu Ihrer <lb/>Zufriedenheit vollendet seyn mögen. <ref xml:id="f46fefc1-233c-4cd8-afef-c1233cecd897" corresp="#fa2ad35b-13aa-480d-aad3-5b13aae80d98">Am a</ref>
-                    <note xml:id="fa2ad35b-13aa-480d-aad3-5b13aae80d98" corresp="#f46fefc1-233c-4cd8-afef-c1233cecd897">
+                    </choice> wünsche daß sie zu Ihrer <lb/>Zufriedenheit vollendet seyn mögen. <ref xml:id="ffb74664-1381-4bb3-b746-641381abb378" corresp="#d7b92819-96b9-4553-b928-1996b9355380">Am a</ref>
+                    <note xml:id="d7b92819-96b9-4553-b928-1996b9355380" corresp="#ffb74664-1381-4bb3-b746-641381abb378">
                         <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001A89200000012">SBB-PK, Handschriftenabteilung, Autogr. I/1292, Bl. 5</ref>.</note>, – die ich wie das <lb/>
                     <choice>
                         <sic>Orginal</sic>
@@ -115,7 +147,8 @@
                         <reg>beginnenden</reg>
                     </choice>
                     <choice>
-                        <orig>Baum-<lb/>stäm̅en</orig>
+                        <orig>Baum<g ref="#typoHyphen"/>
+                            <lb break="no"/>stäm̅en</orig>
                         <reg>Baumstämmen</reg>
                     </choice>
                     <choice>
@@ -143,8 +176,8 @@
                         <orig>kom̅en</orig>
                         <reg>kommen</reg>
                     </choice> werde, um dort <lb/>länger zu verweilen.</p>
-                <p>Dürfte ich bitten, mich <ref xml:id="aa7b3baf-e8da-445c-bb3b-afe8da545c45" corresp="#a21132d7-6e37-43cf-9132-d76e3783cfd6">Herrn von Kunz</ref>
-                    <note xml:id="a21132d7-6e37-43cf-9132-d76e3783cfd6" corresp="#aa7b3baf-e8da-445c-bb3b-afe8da545c45">wohl <persName ref="http://d-nb.info/gnd/115674667">Carl Sigismund
+                <p>Dürfte ich bitten, mich <ref xml:id="ec9a1ac2-59f3-4e87-9a1a-c259f39e87e8" corresp="#e8d2c432-dd19-4fa5-92c4-32dd19efa551">Herrn von Kunz</ref>
+                    <note xml:id="e8d2c432-dd19-4fa5-92c4-32dd19efa551" corresp="#ec9a1ac2-59f3-4e87-9a1a-c259f39e87e8">wohl <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Carl Sigismund
                                 Kunth</persName>.</note> zu empfehlen?</p>
                 <closer>
                     <salute>Mit Hochachtung verharret <lb/>Euer Hochwohlgebohren
@@ -175,7 +208,7 @@
                             <choice>
                                 <abbr>Maj.</abbr>
                                 <expan>Majesté</expan>
-                            </choice> le <persName ref="http://d-nb.info/gnd/118535986">Roi de
+                            </choice> le <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">Roi de
                             Prusse</persName>
                         </addrLine>
                         <addrLine>Chevalier des <choice>

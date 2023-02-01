@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002242">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -30,34 +30,55 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p> Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März
+                    1829 , hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002242">https://edition-humboldt.de/v8/H0002242</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
                 <publisher>
-                    
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
                 </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002242</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002242</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002242.xml</idno>
             </publicationStmt>
             <sourceDesc>
-                <bibl> Alexander von Humboldt an Franz Julius Ferdinand Meyen. Berlin, 11. März
-                    1829 . In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002242</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
+                        <collection>Dokumentensammlung, Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">IV 74, 827 Q</idno>
+                        </idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>Papier, H: 19,90 cm , B: 12,40 cm; Wasserzeichen: J. Whatman, Turkey Mill
+                            1828</p>
+                    </physDesc>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1829-03-11" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
+                    <persName ref="https://editon-humboldt.de/H0014181 http://d-nb.info/gnd/116962437">Meyen, Franz Julius Ferdinand
                         (1804–1840)</persName>
-                    <placeName ref="https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
@@ -74,34 +95,36 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <lb/>kenntnißreicher, sondern <lb/>auch ein angenehmer <ref xml:id="b007c4ed-d887-477c-87c4-edd887777cc8" corresp="#c873ebe1-1e26-4e8f-b3eb-e11e264e8f70">
+                    <lb/>kenntnißreicher, sondern <lb/>auch ein angenehmer <ref xml:id="d018a1d3-8ffd-4e3b-98a1-d38ffd8e3bb7" corresp="#d5bc7b15-b34d-491e-bc7b-15b34d591ebd">
                             <lb/>Begleiter</ref>
-                    <note xml:id="c873ebe1-1e26-4e8f-b3eb-e11e264e8f70" corresp="#b007c4ed-d887-477c-87c4-edd887777cc8">Meyen hatte sich offensichtlich als Begleiter für
+                    <note xml:id="d5bc7b15-b34d-491e-bc7b-15b34d591ebd" corresp="#d018a1d3-8ffd-4e3b-98a1-d38ffd8e3bb7">Meyen hatte sich offensichtlich als Begleiter für
                             Humboldts Russlandreise beworben. Wie Humboldt acht Tage zuvor an Karl
                             Christian Gmelin schrieb, wurde er mit <quote>vielen ehrenvollen
-                                Anträgen […] aus allen Theilen <placeName ref="https://www.geonames.org/6255148">Europa</placeName>’s (seit 4 Monathen)</quote> bedrängt und war
+                                Anträgen […] aus allen Theilen <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName>’s (seit 4 Monathen)</quote> bedrängt und war
                             sich darüber klar, unfreundlich zu erscheinen. So war ihm u. a.
-                            Alexander <persName ref="http://d-nb.info/gnd/116415576">Braun</persName> empfohlen worden,
-                            der gerade in <placeName ref="https://www.geonames.org/2907911">Heidelberg</placeName> sein
+                            Alexander <persName ref="https://editon-humboldt.de/H0003603 http://d-nb.info/gnd/116415576">Braun</persName> empfohlen worden,
+                            der gerade in <placeName ref="https://editon-humboldt.de/H0006823 https://www.geonames.org/2907911">Heidelberg</placeName> sein
                             Studium der Medizin und Naturwissenschaften mit Schwerpunkt Botanik
                             abgeschlossen hatte. Bemerkenswert ist, dass Humboldt die von ihm so
                             erwünschte und ersehnte Russlandreise gegenüber Gmelin als
                                 <quote>übrigens ziemlich unwichtige […] Sommerreise nach dem
-                                    <placeName ref="https://www.geonames.org/1488441">Ural</placeName> und <placeName ref="https://www.geonames.org/1524297">Irtysch</placeName> (nicht nach dem <placeName ref="https://www.geonames.org/573081">Caucasus</placeName>)</quote> bezeichnete. Vgl.
-                                <ref target="H0002654">Alexander von Humboldt an Karl
-                                Christian Gmelin. Berlin, 3. März 1829</ref>.</note> sein; aber <lb/>wie können Sie glau<lb/>ben, theurester Herr
-                        Doc<lb/>tor, daß zu einer schon <lb/>seit 2 Jahren beschlos-<lb/>senen Reise nicht <lb/>schon alles besezt
+                                    <placeName ref="https://editon-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName> und <placeName ref="https://editon-humboldt.de/H0006725 https://www.geonames.org/1524297">Irtysch</placeName> (nicht nach dem <placeName ref="https://editon-humboldt.de/H0000394 https://www.geonames.org/573081">Caucasus</placeName>)</quote> bezeichnete. Vgl.
+                                <ref target="https://edition-humboldt.de/H0002654">Alexander von Humboldt an Karl
+                                Christian Gmelin. Berlin, 3. März 1829</ref>.</note> sein; aber <lb/>wie können Sie glau<lb break="no"/>ben, theurester Herr
+                        Doc<lb break="no"/>tor, daß zu einer schon <lb/>seit 2 Jahren beschlos<g ref="#typoHyphen"/>
+                    <lb break="no"/>senen Reise nicht <lb/>schon alles besezt
                     <lb/>sei? Ich kann nur <lb/>2 Personen mitnehmen<supplied cert="high">,</supplied>
                     <lb/>
                     <choice>
                         <abbr>Prof</abbr>
                         <expan>Professor</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/116609036">Rose</persName> und <choice>
+                    <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Rose</persName> und <choice>
                         <abbr>D</abbr>
                         <expan>Doktor</expan>
                     </choice>
-                    <persName ref="http://d-nb.info/gnd/118529250">Eh-<lb/>renberg</persName>. Es wird mich <lb/>freuen wenn ich <lb/>Gelegenheit
+                    <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Eh<g ref="#typoHyphen"/>
+                        <lb break="no"/>renberg</persName>. Es wird mich <lb/>freuen wenn ich <lb/>Gelegenheit
                     fände, auf <lb/>andere Weise Ihre <lb/>lobenswerthen Zwekke zu <lb/>unterstüzen.
                     Sie wissen <lb/>wie sehr ich Sie hochschäze.</p>
                 <closer>

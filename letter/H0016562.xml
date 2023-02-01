@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016562">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -28,31 +28,49 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 1852, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016562">https://edition-humboldt.de/v8/H0016562</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016562</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016562</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016562.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 1852. Berlin-Brandenburgische Akademie der Wissenschaften
-                  (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016562</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                  <repository>Handschriftenabteilung</repository>
+                  <collection>Nachl. Alexander von Humboldt</collection>
+                  <idno>
+                            <idno type="shelfmark">gr. Kasten 11, Nr. 45</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1316146</idno>
+                        </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1852" notAfter="1852"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
@@ -77,8 +95,10 @@
                   <abbr>Dr.</abbr>
                   <expan>Doktor</expan>
                </choice>
-               <persName ref="http://d-nb.info/gnd/115647465">Rose</persName> in Wismar <lb/>ersucht<supplied cert="high">,</supplied> mir aus den bezeichneten Ört-<lb/>lichkeiten kleine Inseln bey Poehl <lb/>neue Proben zuzusenden. Diese Proben
-               <lb/>sind angelangt und enthalten wieder <lb/>Einschlüsse von <name type="plant" key="Zostera">Zostera</name> und kleine See-<lb/>muscheln. Ist die Frage so formuliert, <lb/>
+               <persName ref="https://editon-humboldt.de/H0016819 http://d-nb.info/gnd/115647465">Rose</persName> in Wismar <lb/>ersucht<supplied cert="high">,</supplied> mir aus den bezeichneten Ört<g ref="#typoHyphen"/>
+                    <lb break="no"/>lichkeiten kleine Inseln bey Poehl <lb/>neue Proben zuzusenden. Diese Proben
+               <lb/>sind angelangt und enthalten wieder <lb/>Einschlüsse von <name type="plant" key="Zostera">Zostera</name> und kleine See<g ref="#typoHyphen"/>
+                    <lb break="no"/>muscheln. Ist die Frage so formuliert, <lb/>
                     <pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001ABBC00000001"/>ob es Meerestorf gibt, so
                ist Zosteren- <lb/>Torf offenbar entschieden bejahend. Wird <lb/>aber die
                Frage-Formel so gestellt: Gibt <lb/>es Fucoiden-Torf?, so wird sie wohl <lb/>verneint

@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0002732">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -29,20 +29,27 @@
                     </resp>
                 </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p>Humboldt, Alexander von: X – Warm, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002732">https://edition-humboldt.de/v8/H0002732</ref>
+                </p>
+            </editionStmt>
             
             <publicationStmt>
-                <publisher/>
+                <publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0002732</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002732</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0002732.xml</idno>
             </publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p>Das vorliegende Blatt bietet einen Einblick in die klima-
                         und vegetationsgeschichtliche Hypothesenbildung Humboldts während der 1820er
-                        Jahre. Humboldt vertrat im Essai géognostique (<bibl corresp="https://edition-humboldt.de/v8/SN8XPNM3">Humboldt 1823</bibl>) und in seiner 1823
+                        Jahre. Humboldt vertrat im Essai géognostique (<bibl corresp="https://edition-humboldt.de/SN8XPNM3">Humboldt 1823</bibl>) und in seiner 1823
                         gehaltenen Berliner Akademierede „Über Bau und Wirkungsart der Vulcane“ die
                         Ansicht, dass Veränderungen der Wärme des Erdinneren für historische
                         Klimaveränderungen verantwortlich gewesen sein könnten und sich dadurch
@@ -52,23 +59,37 @@
                             liegt auch in der innern Wärme des Erdkörpers [...] die Ursach eines der
                             wunderbarsten Phänomene, welche die Petrefactenkunde uns darbietet.
                             Tropische Thiergestalten, baumartige Farrenkräuter, Palmen und
-                            Bambus-Gewächse liegen vergraben im kalten Norden.</quote> (<bibl corresp="https://edition-humboldt.de/v8/EKK7AK5P">Humboldt 1825</bibl>, 154). Die Auszüge
-                        aus einer religionshistorischen Schrift Johann Gottlieb Rhodes (<bibl corresp="https://edition-humboldt.de/v8/2DX6WM4Q">Rhode 1820</bibl>) zeigen, dass Humboldt
+                            Bambus-Gewächse liegen vergraben im kalten Norden.</quote> (<bibl corresp="https://edition-humboldt.de/EKK7AK5P">Humboldt 1825</bibl>, 154). Die Auszüge
+                        aus einer religionshistorischen Schrift Johann Gottlieb Rhodes (<bibl corresp="https://edition-humboldt.de/2DX6WM4Q">Rhode 1820</bibl>) zeigen, dass Humboldt
                         in antiken Mythen nach Nachweisen aus menschheitsgeschichtlicher Zeit für
-                        seine Hypothese suchte. In Carl Sigismund Kunths <ref target="H0000005">Ideensammlung zur Neuausgabe der Geographie der Pflanzen</ref> trägt
+                        seine Hypothese suchte. In Carl Sigismund Kunths <ref target="https://edition-humboldt.de/H0000005">Ideensammlung zur Neuausgabe der Geographie der Pflanzen</ref> trägt
                         das Blatt den Titel „Sagen ehemaliger Wärme Zendavesta“ und die Sigle <ref xml:id="ed_yzz_ldx_1bb" type="siglum" target="#Geographie_der_Pflanzen_X">X</ref>. Vgl. auch Sigle <ref xml:id="ed_dmh_ldx_1bb" type="siglum" target="#Geographie_der_Pflanzen_O">O</ref> . </p>
                 </note>
             </notesStmt>
             <sourceDesc>
-                <bibl>X – Warm. In: Alexander von Humboldt auf Reisen - Wissenschaft aus der Bewegung, Berlin-Brandenburgische Akademie der
-                        Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0002732</bibl>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Nachl. Alexander von Humboldt</collection>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 79a, Bl. 8</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2832781</idno>
+                        </idno>
+                    </msIdentifier>
+                </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
-            <textClass>document</textClass>
+            <textClass>
+                <keywords>
+                    <term>document</term>
+                </keywords>
+            </textClass>
             <creation>
-                <persName ref="http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
-                <placeName ref="https://www.geonames.org/2988507">Paris</placeName>
+                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
+                <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
                 <date notBefore="1820-01-01" notAfter="1825-12-31" cert="high"/>
             </creation>
         </profileDesc>
@@ -94,20 +115,20 @@
                             <expan>oder</expan>
                         </choice>
                         <lb/>
-                        <placeName ref="https://www.geonames.org/130758">Iran</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0006712 https://www.geonames.org/130758">Iran</placeName>
                         <supplied cert="high">.</supplied>
                     </note>
                     <lb/>beständig Sommer war<supplied cert="high">,</supplied>
                     <lb/>dann dauerte Winter <lb/>5–8–10 Monathe<supplied cert="high">,</supplied>
-                    <lb/>da zog Volk nach <placeName ref="https://edition-humboldt.de/v8/H0016301">
+                    <lb/>da zog Volk nach <placeName ref="https://editon-humboldt.de/H0016301">
                         <lb/>Sogdiana</placeName> zu
-                        <persName ref="http://d-nb.info/gnd/142432709">Dsjemschids</persName>
+                        <persName ref="https://editon-humboldt.de/H0012390 http://d-nb.info/gnd/142432709">Dsjemschids</persName>
                     <note place="right" hand="#author">ein Heros</note>
                     <lb/>Zeiten<supplied cert="high">.</supplied>
                 </p>
                 <p>
-                    <bibl corresp="https://edition-humboldt.de/v8/2DX6WM4Q">
-                        <persName ref="http://d-nb.info/100322689">Rode</persName>
+                    <bibl corresp="https://edition-humboldt.de/2DX6WM4Q">
+                        <persName ref="https://editon-humboldt.de/H0000872 http://d-nb.info/100322689">Rode</persName>
                         <lb/>heilige <lb/>Sage
                     <choice>
                         <abbr>p</abbr>

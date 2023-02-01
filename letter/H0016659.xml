@@ -1,4 +1,4 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016659">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -29,31 +29,50 @@
                </resp>
             </respStmt>
          </titleStmt>
+            <editionStmt>
+                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016659">https://edition-humboldt.de/v8/H0016659</ref>
+                </p>
+            </editionStmt>
          <publicationStmt>
                 <publisher>
-               
-            </publisher>
+                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
+                </publisher>
+                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
                 <availability>
                     <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
                 </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/H0016659</idno>
+                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016659</idno>
                 <idno type="URLXML">https://edition-humboldt.de/v8/H0016659.xml</idno>
             </publicationStmt>
          <sourceDesc>
-                <bibl>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836]
-            . Berlin-Brandenburgische Akademie der Wissenschaften (BBAW), Berlin. URL: https://edition-humboldt.de/v8/H0016659</bibl>
-            </sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">91</idno>
+                     <idno type="shelfmark">421, Bl. 168r, 169v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
       </fileDesc>
       <profileDesc>
-            <textClass>letter</textClass>
+            <textClass>
+                <keywords>
+                    <term>letter</term>
+                </keywords>
+            </textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
-               <placeName evidence="conjecture" ref="https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date notBefore="1836" notAfter="1836" cert="low">1836-00-00</date>
             </correspAction>
             <correspAction type="received">
-               <persName ref="http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
             </correspAction>
             <note>Zur
                 Datierung: vgl. E.s Publikationen</note>
@@ -80,22 +99,26 @@
                 </opener>
             <pb n="1v"/> 
                <p> Vielen Dank, theurer Freund, für <lb/>das versteinte Pygmaeen Geschlecht.
-               <lb/>Sie sind an einer Reihe glän<lb/>zender Entdekkungen seit 2 <lb/>–3
+               <lb/>Sie sind an einer Reihe glän<lb break="no"/>zender Entdekkungen seit 2 <lb/>–3
                Jahren, Nervenstructur, <lb/>
-                    <ref xml:id="fa4b94aa-bbf1-4aab-8b94-aabbf11aab82" corresp="#a93cc6f7-63bd-42f3-bcc6-f763bd62f39b">Anatomie der Acalephen</ref>
-                    <note xml:id="a93cc6f7-63bd-42f3-bcc6-f763bd62f39b" corresp="#fa4b94aa-bbf1-4aab-8b94-aabbf11aab82">
-                     <bibl corresp="https://edition-humboldt.de/v8/7XQL9UPI">Ehrenberg 1834</bibl>, 562—580 </note>, In-<lb/>fusoria, Geognosie .. Wie sollten
+                    <ref xml:id="fea25c06-1bd6-4858-a25c-061bd6285853" corresp="#ddbdeba6-0f30-4355-bdeb-a60f301355e3">Anatomie der Acalephen</ref>
+                    <note xml:id="ddbdeba6-0f30-4355-bdeb-a60f301355e3" corresp="#fea25c06-1bd6-4858-a25c-061bd6285853">
+                     <bibl corresp="https://edition-humboldt.de/7XQL9UPI">Ehrenberg 1834</bibl>, 562—580 </note>, In<g ref="#typoHyphen"/>
+                    <lb break="no"/>fusoria, Geognosie .. Wie sollten
                <lb/>Sie da nicht dem Neide <lb/>der Chirurgen <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> Apotheker <lb/>ausgesezt sein! Erhalten Sie <lb/>neben Ihrem Ruhme,
-                  Fröhlich-<lb/>keit. Ohne diese geht die <lb/>Kraft
+                  Fröhlich<g ref="#typoHyphen"/>
+                    <lb break="no"/>keit. Ohne diese geht die <lb/>Kraft
                des Lebens dahin<supplied cert="high">.</supplied>
                 </p>
-            <p>Also kein Prinz.. doch <lb/>bin ich immer noch <lb/>irre wegen einer Art Vor-<lb/>nehmlichkeit die in meinem <lb/>Briefe herscht.
+            <p>Also kein Prinz.. doch <lb/>bin ich immer noch <lb/>irre wegen einer Art Vor<g ref="#typoHyphen"/>
+                    <lb break="no"/>nehmlichkeit die in meinem <lb/>Briefe herscht.
                Könnten <lb/>Sie zu meiner völligen <lb/>Beruhigung die Handschrift <lb/>verificiren
                lassen.</p> <closer rend="within the line">
-                    <salute>Un-<lb/>verbrüchlich</salute>
+                    <salute>Un<g ref="#typoHyphen"/>
+                        <lb break="no"/>verbrüchlich</salute>
                <signed>Ihr <lb/>AlHumboldt</signed>
                <dateline>Montags</dateline>
                 </closer>
