@@ -1,14 +1,14 @@
 # edition humboldt digital [Datenset]
 
-TEI-XML-Datenset der edition humboldt digital (Version 9 vom 04.07.2023). https://edition-humboldt.de.
+TEI-XML-Datenset der edition humboldt digital (Version 10 vom 02.07.2024). https://edition-humboldt.de.
 
 Dieses Datenset ist auch in Zenodo unter der (kanonischen) URL https://zenodo.org/doi/10.5281/zenodo.10457931 publiziert.
 
 ## Zitierempfehlung
 
-TEI-XML-Datenset der Tagebücher, Briefe, Dokumente, Forschungsbeiträge, Chronologieeinträge und Register der edition humboldt digital (Version 9). Herausgegeben von Ottmar Ette, Stefan Dumont, Carmen Götz, Tobias Kraft, Ulrich Päßler, Florian Schnee, Christian Thomas und Jan Wierzoch. Berlin-Brandenburgische Akademie der Wissenschaften 2023. URL: https://github.com/telota/edition-humboldt-digital 
+TEI-XML-Datenset der Tagebücher, Briefe, Dokumente, Forschungsbeiträge, Chronologieeinträge und Register der edition humboldt digital (Version 10). Herausgegeben von Ottmar Ette, Stefan Dumont, Carmen Götz, Tobias Kraft, Ulrich Päßler, Florian Schnee, Christian Thomas und Jan Wierzoch. Berlin-Brandenburgische Akademie der Wissenschaften 2024. URL: https://github.com/telota/edition-humboldt-digital 
 
-Für eine vollständige Liste aller Mitwirkenden siehe https://edition-humboldt.de/v9/H0002928.
+Für eine vollständige Liste aller Mitwirkenden siehe https://edition-humboldt.de/v10/H0002928.
 
 ## Datenmodell
 
@@ -16,6 +16,6 @@ Die Editionsrichtlinien stehen unter https://edition-humboldt.de/richtlinien/ind
 
 ## Lizenz
 
-© Berlin-Brandenburgische Akademie der Wissenschaften 2023
+© Berlin-Brandenburgische Akademie der Wissenschaften 2024
 
 Creative Commons CC BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
