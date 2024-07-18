@@ -10,12 +10,12 @@
                         <forename>Stefan</forename>
                     </persName>
                 </author>
-            </titleStmt><editionStmt><p>Dumont, Stefan: Digital Methodology .  An introduction to data modeling, technologies and interfaces in the edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+            </titleStmt><editionStmt><p>Dumont, Stefan: Digital Methodology .  An introduction to data modeling, technologies and interfaces in the edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0021024">https://edition-humboldt.de/v10/H0021024</ref></p></editionStmt>
             <notesStmt>
                 <relatedItem target="H0016212" type="translation" xml:lang="de"/>
             </notesStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0021024</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0021024.xml</idno></publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document</p>
             </sourceDesc>
@@ -97,8 +97,8 @@
                             plant name has a list of references to the texts and is
                             automatically linked to various taxonomic databases (see below, section
                                 <ref target="https://edition-humboldt.de/H0016212/globalnames">Global indexes for scientific
-                                names</ref>). Due to the dynamic creation of this index, no
-                            permalinks can be provided here yet.</p>
+                                names</ref>).</p>
+                        <p>Since version 10 (2024), however, the actual dynamic plant register is also automatically created as TEI-XML (including internal and external references). This means that the plant register can also be included in the data publication in the future.</p>
                     </div>
                     <div>
                         <head type="h4">Drawings and sketches</head>
@@ -137,8 +137,8 @@
                         to be created). It is derived using ODD chaining from the
                         ediarum.BASE.schema, which in turn is derived from the DTABf. This makes it
                         possible to maintain and track the respective changes to the next "higher"
-                        schema at each level (ediarum, edition humboldt digital etc.). The schema will be
-                        published together with the data soon.</p>
+                        schema at each level (ediarum, edition humboldt digital etc.). The schema (as TEI-ODD file as well as RNG)
+                        are published on <ref target="https://github.com/telota/ediarum.AVHR.data-model">GitHub</ref>.</p>
                 </div>
             </div>
             <div>
@@ -230,7 +230,7 @@
                         performed on the basis of this lemma. DTA::CAB was developed by Bryan Jurish
                         as part of the <ref target="http://www.deutschestextarchiv.de">German Text
                             Archive</ref>.</p>
-                    <p>For more information, see the <ref target="http://odo.dwds.de/~moocow/software/DTA-CAB/">documentation</ref> or <bibl corresp="https://edition-humboldt.de/92M2WH4K">Jurish
+                    <p>For more information, see the <ref target="https://kaskade.dwds.de/~moocow/software/DTA-CAB/">documentation</ref> or <bibl corresp="https://edition-humboldt.de/92M2WH4K">Jurish
                             2012</bibl>.</p>
                 </div>
                 <div>
@@ -370,7 +370,7 @@
                         types is generated (see table below). When retrieved with parameter <hi rend="code">id</hi>, the respective document is output.</p>
                     <div>
                         <head type="h5">Parameter <hi rend="code">type</hi></head>
-                        <table rend="drawn" rows="2" cols="2">
+                        <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
                             <row role="label">
                                 <cell>Values</cell>
                                 <cell>Description</cell>
@@ -388,7 +388,7 @@
                                 <cell><hi rend="code">personMentioned</hi></cell>
                                 <cell>all persons mentioned</cell>
                             </row>
-                        </table>
+                        </tei:table>
                     </div>
                 </div>
                 <div>
@@ -397,7 +397,7 @@
                         places, institutions and sigles are also published digitally as a complete
                         TEI-XML dataset of the edition humboldt. For this purpose, the texts and
                         entries are not simply exported from the eXistdb, but are retrieved with the
-                        help of a Python script via the TEI-XML-API 2.0 of <hi rendition="#i">ehd</hi>, so that the data image matches that of the data accessible
+                        help of a XQuery script via the TEI-XML-API 2.0 of <hi rendition="#i">ehd</hi>, so that the data image matches that of the data accessible
                         via the API. This makes use of the enrichments that take place there (e.g.
                         GNDs; URIs instead of IDs), the harmonizations to the DTABf as well as the
                         division of the register lists into individual TEI-XML files. In the
@@ -414,8 +414,8 @@
                     <head type="h3">Further APIs</head>
                     <div>
                         <head type="h4">OAI-PMH</head>
-                        <p>The metadata of the edited texts of the as well as the research articles
-                            are provided via the interface <ref target="http://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify">http://edition-humboldt.de/api/v1.1/oai-pmh.xql</ref> according to
+                        <p>The metadata of the edited texts as well as the research articles
+                            are provided via the interface <ref target="http://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify">http://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify</ref> according to
                             the <ref target="https://www.openarchives.org/pmh/">Protocoll for
                                 Metadata Harvesting of the Open Archive Initiative</ref>. Thus,
                             these texts are also automatically referenced in the <ref target="https://www.base-search.net/">Bielefeld Academic Search
@@ -442,7 +442,7 @@
                             <head type="h5">Parameters</head>
                             <div>
                                 <head type="h5"><hi rend="code">type</hi></head>
-                                <table rend="drawn" rows="2" cols="2">
+                                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
                                     <row role="label">
                                         <cell>Values</cell>
                                         <cell>Description</cell>
@@ -460,13 +460,13 @@
                                         <cell><hi rend="code">personMentioned</hi></cell>
                                         <cell>all persons mentioned</cell>
                                     </row>
-                                </table>
+                                </tei:table>
                             </div>
                             <div>
                                 <head type="h5"><hi rend="code">authority</hi></head>
                                 <p>all persons with a norm ID of a specific norm file (restricted by
                                         <hi rend="code">type</hi> if necessary)</p>
-                                <table rend="drawn" rows="2" cols="2">
+                                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
                                     <row>
                                         <cell>value</cell>
                                         <cell>Description</cell>
@@ -480,7 +480,7 @@
                                         <cell><hi rend="code">viaf</hi></cell>
                                         <cell>Virtual International Authority File</cell>
                                     </row>
-                                </table>
+                                </tei:table>
                             </div>
                         </div>
                     </div>

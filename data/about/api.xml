@@ -10,8 +10,8 @@
                         <forename>Stefan</forename>
                     </persName>
                 </author>
-            </titleStmt><editionStmt><p>Dumont, Stefan: API .  Schnittstellen zur edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            </titleStmt><editionStmt><p>Dumont, Stefan: API .  Schnittstellen zur edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/api">https://edition-humboldt.de/v10/api</ref></p></editionStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/api</idno><idno type="URLXML">https://edition-humboldt.de/v10/api.xml</idno></publicationStmt>
             <sourceDesc>
                 <p>translated from HTML to TEI</p>
             </sourceDesc>
@@ -19,7 +19,7 @@
     <profileDesc><textClass><keywords><term>about</term></keywords></textClass></profileDesc></teiHeader>
     <text><body>
             <div>
-                <head type="h2">CMIF-Schnittstelle</head>
+                <head>CMIF-Schnittstelle</head>
                 <p>Über diese Schnittstelle können die Metadaten aller in dieser Edition vorhandenen
                     Briefe im <ref target="http://correspsearch.bbaw.de/index.xql?id=participate_cmi-format&amp;l=de">Correspondence Metadata Interchange (CMI) Format</ref> abgerufen werden.
                     Absender und Empfänger werden hauptsächlich mit Hilfe der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">ID der
@@ -28,7 +28,7 @@
                 <p>URL: <ref target="http://edition-humboldt.de/api/v1.1/cmif.xql">http://edition-humboldt.de/api/v1.1/cmif.xql</ref></p>
             </div>
             <div>
-                <head type="h2">BEACON-Dateien</head>
+                <head>BEACON-Dateien</head>
                 <p>Die in unserem Datenbestand vorhandenen und mit der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND</ref>-Nummer ausgezeichneten Personen können als Liste im <ref target="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Format</ref>
                     abgerufen werden. Es ist dabei möglich, die Liste auf Personen zu beschränken,
                     die im Brieftext erwähnt werden oder die Korrespondenzpartner sind. </p>
@@ -39,10 +39,10 @@
                     <item><ref target="http://edition-humboldt.de/api/v1.1/beacon.xql?type=personMentioned">BEACON-Datei aller erwähnten Personen</ref></item>
                 </list>
                 <div>
-                    <head type="h3">Parameter</head>
+                    <head>Parameter</head>
                     <div>
-                        <head type="h4"><hi rend="code">type</hi></head>
-                        <table rend="drawn" rows="2" cols="2">
+                        <head><hi rend="code">type</hi></head>
+                        <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
                             <row role="label">
                                 <cell>Werte</cell>
                                 <cell>Beschreibung</cell>
@@ -61,13 +61,13 @@
                                 <cell><hi rend="code">personMentioned</hi></cell>
                                 <cell>alle erwähnten Personen</cell>
                             </row>
-                        </table>
+                        </tei:table>
                     </div>
                     <div>
-                        <head type="h4"><hi rend="code">authority</hi></head>
+                        <head><hi rend="code">authority</hi></head>
                         <p>Alle Personen mit einer Norm-ID einer bestimmten Norm-Datei
                             (eingeschränkt ggf. durch <hi rend="code">type</hi>)</p>
-                        <table rend="drawn" rows="2" cols="2">
+                        <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
                             <row>
                                 <cell>Wert</cell>
                                 <cell>Beschreibung</cell>
@@ -82,18 +82,18 @@
                                 <cell>Virtual International Authority
                                     File</cell>
                             </row>
-                        </table>
+                        </tei:table>
                     </div>
                 </div>
             </div>
             <div>
-                <head type="h2">OAI-PMH</head>
+                <head>OAI-PMH</head>
                 <p>Die Metadaten der digital edierten Texte der <hi rendition="i">edition humboldt
                         digital</hi> werden über die Schnittstelle <ref target="http://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify">http://edition-humboldt.de/api/v1.1/oai-pmh.xql</ref> gemäß dem Protocoll for
                     Metadata Harvesting der Open Archive Initiative bereitgestellt.</p>
             </div>
             <div>
-                <head type="h2">TEI-XML-Schnittstelle</head>
+                <head>TEI-XML-Schnittstelle</head>
                 <p>Die edierten Texte der <hi rendition="i">edition humboldt digital</hi> können
                     über die Schnittstelle <ref target="http://edition-humboldt.de/api/v1.1/tei-xml.xql">http://edition-humboldt.de/api/v1.1/tei-xml.xql</ref> bezogen und im Rahmen
                     der freien Lizenz <ref target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</ref> weiterverwendet werden.</p>

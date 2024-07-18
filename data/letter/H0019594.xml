@@ -2,17 +2,19 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Alexander von Humboldt an Otto Schomburgk. [Berlin, 7. Dezember 1848]</title>
+                <title>Alexander von Humboldt an Otto Schomburgk. [Berlin, 7. Dezember 1843]</title>
                 <editor>
                     <persName ref="https://d-nb.info/gnd/139028285">
                         <surname>Päßler</surname>
                         <forename>Ulrich</forename>
                     </persName>
-                </editor><respStmt>
+                </editor>
+                <respStmt>
                     <persName ref="https://d-nb.info/gnd/1109066872">
                         <surname>MacKinney</surname>
                         <forename>Anne Greenwood</forename>
-                    </persName><resp>
+                    </persName>
+                    <resp>
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
@@ -25,9 +27,9 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt><editionStmt><p>Alexander von Humboldt an Otto Schomburgk. [Berlin, 7. Dezember 1848], hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Otto Schomburgk. [Berlin, 7. Dezember 1843], hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0019594">https://edition-humboldt.de/v10/H0019594</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0019594</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0019594.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -41,23 +43,30 @@
         <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
-                    <date when="1848-12-07" cert="low"/>
+                    <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+                    <date when="1843-12-07" cert="low"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
-                </correspAction>
+                    <persName ref="https://edition-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
+                </correspAction><note>Das vorliegende Schreiben ist durch den Poststempel auf den 7.12. datiert. Da Humboldt den
+                    Schreibetag „Donnerstag“ angibt, wurde in früheren Editionsversionen Donnerstag,
+                    7. Dezember 1848 als Briefdatum angenommen. Vermutlich bezieht sich Humboldts
+                    Schreiben aber auf die von Richard Schomburgk im Jahr 1843 aus Britisch-Guayana
+                    nach Berlin gesandten naturkundlichen Sammlungen. Der 7. Dezember 1843 fiel
+                    ebenfalls auf einen Donnerstag.</note>
             </correspDesc>
         </profileDesc>
+        
     </teiHeader>
     <text><body>
             <pb n="1r"/>
             
             <div type="writingSession">
                 <p>Wollen Sie mich gütigst besuchen<supplied cert="high">,</supplied>
-                    <lb/>morgen Sonnabend um 1 Uhr. Man <lb/>ist sehr, sehr zufrieden mit den
-                    <lb/>treflichen Sendungen Ihres jungen <lb/><persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Bruders</persName>.</p>
+                    <lb/><ref xml:id="cdaf21e0-f8dd-4dc5-af21-e0f8ddcdc5ac" corresp="#f6ca785b-c2f5-41bc-8a78-5bc2f5f1bcc6" type="editorialNote">morgen</ref><note xml:id="f6ca785b-c2f5-41bc-8a78-5bc2f5f1bcc6" corresp="#cdaf21e0-f8dd-4dc5-af21-e0f8ddcdc5ac" type="editorial">vielmehr wohl: übermorgen </note> Sonnabend um 1 Uhr. Man <lb/>ist sehr, sehr
+                    zufrieden
+                    mit den <lb/>treflichen Sendungen Ihres jungen <lb/><persName ref="https://edition-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Bruders</persName>.</p>
                 <closer>AlHumboldt<dateline>Donnerstag</dateline>
                     <pb n="1v"/><gap reason="empty" unit="pages" quantity="1"/>
                     <pb n="2r"/><gap reason="empty" unit="pages" quantity="1"/>
@@ -66,7 +75,7 @@
                                 <abbr>Sr</abbr>
                                 <expan>Seiner</expan>
                             </choice> Wohlgeboren</addrLine>
-                        <addrLine>Herrn <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto
+                        <addrLine>Herrn <persName ref="https://edition-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto
                             Schomburgk</persName></addrLine>
                         <addrLine>Neustädter Kirchstraße</addrLine>
                         <addrLine><choice>

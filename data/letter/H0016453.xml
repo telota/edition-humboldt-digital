@@ -29,9 +29,9 @@
                     </resp>
                 </respStmt>
             </titleStmt><editionStmt><p>Hermann Schlagintweit an Alexander von Humboldt. Darjeeling, 24. April
-                    1855, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+                    1855, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0016453">https://edition-humboldt.de/v10/H0016453</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0016453</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0016453.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -46,106 +46,132 @@
         <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName>
+                    <placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName>
                     <date when="1855-04-24" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
-        </profileDesc>
+        </profileDesc>          
     </teiHeader>
     <text><body>
             <div type="writingSession">
                 <pb n="64r"/>
+                <note place="mTop" hand="#author"><placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467"><choice>
+                            <abbr>Darj.</abbr>
+                            <expan>Darjeeling</expan>
+                        </choice></placeName>
+                    <choice>
+                        <abbr>N.</abbr>
+                        <expan>Nummer</expan>
+                    </choice> 1</note>
                 <note place="mTop" hand="https://edition-humboldt.de/#addressee">I</note>
                 <opener>
-                    <dateline><placeName ref="https://editon-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName><supplied cert="high">,</supplied> 24<supplied cert="high">.</supplied> April
+                    <dateline><placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName><supplied cert="high">,</supplied> 24<supplied cert="high">.</supplied> April
                         1855.</dateline>
                     <salute>Hochverehrteste Excellenz!</salute>
                 </opener>
-                <p>Nachdem wir unsere Reise durch
-                    Central<g ref="#typoHyphen"/><lb break="no"/><placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">indien</placeName> vollendet<supplied cert="high">,</supplied> ist es
+                <p>Nachdem wir unsere Reise
+                    durch
+                        Central<g ref="#typoHyphen"/><lb break="no"/><placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">indien</placeName> vollendet<supplied cert="high">,</supplied> ist es
                     unsere angenehmste <lb/><hi rendition="#u">Pflicht</hi>, Ihnen einige
                     Mittheilungen über <lb/>dieselbe zu machen; wir müssen dabei <lb/>vor allem mit
-                    dem besten Danke erwähnen <lb/>wie wichtig und werthvoll Ihre Briefe <lb/>uns
-                    waren. Überall wurden wir in <lb/><choice>
+                    dem besten Danke erwähnen<supplied cert="high">,</supplied>
+                    <lb/>wie wichtig und werthvoll Ihre Briefe <lb/>uns waren. Überall wurden wir in <lb/><choice>
                         <orig>folge</orig>
                         <reg>Folge</reg>
                     </choice> Ihrer warmen Theilnahme an <lb/>unseren Bestrebungen mit der grössten
-                    <lb/>Zuvorkom̅enheit aufgenom̅en und <lb/><pb n="64v"/>fanden stets alle Hülfe
-                    der Behörden <lb/>die wir zur Förderung unserer Beob<lb break="no"/>achtungen
-                    wünschen konnten.</p>
+                    <lb/>Zuvorkom̅enheit aufgenom̅en, und <lb/><pb n="64v"/>fanden stets alle Hülfe
+                    der Behörden<supplied cert="high">,</supplied>
+                    <lb/>die wir zur Förderung unserer Beob<lb break="no"/>achtungen wünschen
+                    konnten.</p>
                 <p>Ihr Name ist hier so verehrt und <lb/>bekannt wie überall; selbst viele der <lb/><choice>
                         <sic>unterichtetereren</sic>
                         <corr cert="high">unterichteteren</corr>
-                    </choice> Natives in den <lb/>Städten, überraschten uns sehr häufig <lb/>mit den
-                    speciellsten Erkundigungen <lb/>nach Ihnen, nachdem <subst>
+                    </choice> Natives in den <lb/>Städten<choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice> überraschten uns sehr häufig <lb/>mit den speciellsten Erkundigungen
+                    <lb/>nach Ihnen, nachdem <subst>
                         <del rendition="#s">Sie</del>
                         <add place="intralinear">sie</add>
-                    </subst> ge<g ref="#typoHyphen"/><lb break="no"/>hört hatten dass wir aus
-                        Deutsch<g ref="#typoHyphen"/><lb break="no"/>land kamen.</p>
-                <p>Wir haben uns erlaubt an den <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
+                    </subst> ge<g ref="#typoHyphen"/><lb break="no"/>hört hatten<supplied cert="high">,</supplied> dass wir aus Deutsch<g ref="#typoHyphen"/><lb break="no"/>land kamen.</p>
+                <p>Wir haben uns erlaubt<supplied cert="high">,</supplied> an den <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
                     <lb/>nicht nur einen Bericht über die <lb/>Reise (vielleicht mit Ausnahme
                     <lb/>des ersten und letzten Satzes <subst>
                         <del rendition="#ow">die</del>
                         <add place="across">für <lb/>die</add>
                     </subst>
-                    <orgName ref="https://editon-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3"><choice>
+                    <orgName ref="https://edition-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3"><choice>
                             <abbr>geogr.</abbr>
                             <expan>geographische</expan>
-                        </choice> Gesellschaft</orgName> passend) <lb/><pb n="69r"/>sondern auch den
-                    officiellen Rapport <lb/>an die indische Regierung zu <ref xml:id="ef14b329-0cf2-4261-94b3-290cf2526126" corresp="#e6e08307-7521-4051-a083-077521a05193" type="editorialNote">übersenden.</ref><note xml:id="e6e08307-7521-4051-a083-077521a05193" corresp="#ef14b329-0cf2-4261-94b3-290cf2526126" type="editorial" resp="#UP">Humboldt sandte die mit dem
+                        </choice> Gesellschaft</orgName> passend)<supplied cert="high">,</supplied>
+                    <lb/><pb n="69r"/>sondern auch den officiellen Rapport <lb/>an die indische
+                    Regierung zu <ref xml:id="a2ffa592-8ee6-4f52-bfa5-928ee64f52c4" corresp="#ebf7c490-506f-44ec-b7c4-90506fc4ece2" type="editorialNote">übersenden.</ref><note xml:id="ebf7c490-506f-44ec-b7c4-90506fc4ece2" corresp="#a2ffa592-8ee6-4f52-bfa5-928ee64f52c4" type="editorial" resp="#UP">Humboldt sandte die mit dem
                             vorliegenden Brief eingegangenen Berichte der Schlagintweits im Juli
-                            1855 an den Präsidenten der Berliner <orgName ref="https://editon-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3">Gesellschaft für Erdkunde</orgName>
-                            <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Carl Ritter</persName>. Vgl. <bibl corresp="https://edition-humboldt.de/FVBJTHCM">Humboldt 2010</bibl>, 155–157.
-                                <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Ritter</persName> veröffentlichte diese,
-                            sowie das Schreiben der Gebrüder an <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich
+                            1855 an den Präsidenten der Berliner <orgName ref="https://edition-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3">Gesellschaft für Erdkunde</orgName>
+                            <persName ref="https://edition-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Carl Ritter</persName>. Vgl. <bibl corresp="https://edition-humboldt.de/FVBJTHCM">Humboldt 2010</bibl>, 155–157.
+                                <persName ref="https://edition-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Ritter</persName> veröffentlichte diese,
+                            sowie das Schreiben der Gebrüder an <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich
                                 Wilhelm IV.</persName> aus Calcutta vom 4. April 1855, auszugsweise
                             in der <hi rendition="#i">Zeitschrift für allgemeine Erdkunde</hi> .Vgl.
                                 <bibl corresp="https://edition-humboldt.de/CSW6RAVJ">Ritter 1855</bibl>.</note>
-                    <lb/>Aus diesem würden wir Sie bitten <lb/>der <orgName ref="https://editon-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Academie</orgName> aus III A. jenen <lb/>Theil der sich auf die
-                        Abend<supplied cert="high">-</supplied> und Morgen<g ref="#typoHyphen"/><lb break="no"/>röthe bezieht, und aus Theil IV. <lb/>vielleicht ebenfalls
-                    einiges mitzutheilen. <lb/><ref xml:id="c6fa5701-bd93-4a12-ba57-01bd935a12a8" corresp="#dfa37108-a48f-4850-a371-08a48f0850af" type="editorialNote"><choice>
+                    <lb/>Aus diesem würden wir Sie bitten<supplied cert="high">,</supplied>
+                    <lb/>der <orgName ref="https://edition-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Academie</orgName> aus III A. jenen
+                        <lb/><hi rendition="#mMM" hand="https://edition-humboldt.de/unknown">Theil<supplied cert="high">,</supplied> der sich auf die Abend<supplied cert="high">-</supplied> und Morgen<g ref="#typoHyphen"/><lb break="no"/>röthe bezieht, und aus Theil IV. <lb/>vielleicht ebenfalls einiges
+                    mitzutheilen. <lb/><ref xml:id="c41b8ee6-618c-462a-9b8e-e6618ca62a32" corresp="#f75c92d7-605f-4d08-9c92-d7605f7d0831" type="editorialNote"><choice>
                                 <abbr>D<hi rendition="#sup">r</hi></abbr>
                                 <expan>Doctor</expan>
-                            </choice> Rath</ref><note xml:id="dfa37108-a48f-4850-a371-08a48f0850af" corresp="#c6fa5701-bd93-4a12-ba57-01bd935a12a8" type="editorial" resp="#UP">Wohl der Geologe <persName ref="https://editon-humboldt.de/H0018363 https://d-nb.info/gnd/11749187X">Gerhard vom Rath</persName>.</note> oder <persName ref="https://editon-humboldt.de/H0006034 http://d-nb.info/gnd/116612789">Ewald</persName> sind wohl so
-                        <lb/>gütig<supplied cert="high">,</supplied> die Sachen zu übersetzen;
+                            </choice> Rath</ref><note xml:id="f75c92d7-605f-4d08-9c92-d7605f7d0831" corresp="#c41b8ee6-618c-462a-9b8e-e6618ca62a32" type="editorial" resp="#UP">Wohl der Geologe <persName ref="https://edition-humboldt.de/H0018363 https://d-nb.info/gnd/11749187X">Gerhard vom Rath</persName>.</note> oder <persName ref="https://edition-humboldt.de/H0006034 http://d-nb.info/gnd/116612789">Ewald</persName> sind wohl so
+                        <lb/>gütig<supplied cert="high">,</supplied> die Sachen zu übersetzen;</hi>
                     <lb/>es war uns bei der grossen Mannigfaltig<g ref="#typoHyphen"/><lb break="no"/>keit der interessantesten Gegenstände<supplied cert="high">,</supplied>
-                    <lb/>die uns jeden Tag umgeben<supplied cert="high">,</supplied> nicht möglich
+                    <lb/>die uns jeden Tag umgeben<supplied cert="high">,</supplied> nicht
+                        möglich<supplied cert="high">,</supplied>
                     <lb/>selbst die Übersetzung zu machen.</p>
-                <p>In Theil III A. finden Sie, wenn auch <lb/>mit der Unvollständigkeit die auf
-                        <lb/><pb n="69v"/>Reisen fast unmöglich zu vermeiden <lb/>ist, verschiedene
-                    Beobachtungen <lb/>über die Abendröthe, die zunächst durch <lb/>Ihre Anregung
-                    uns au<supplied cert="high">f</supplied>gefallen <lb/>sind. (Auch das
-                    Alpenglühen, <subst>
+                <p>In Theil III A. finden Sie, wenn auch <lb/>mit der Unvollständigkeit<supplied cert="high">,</supplied> die auf <lb/><pb n="69v"/>Reisen fast unmöglich <subst>
+                        <del rendition="#ow">ist</del>
+                        <add place="across">zu</add>
+                    </subst> vermeiden <lb/>ist, verschiedene Beobachtungen <lb/>über die
+                    Abendröthe, die zunächst durch <lb/>Ihre Anregung uns angefallen
+                    <lb/>sind. (Auch das Alpenglühen, <subst>
                         <del rendition="#s">ist</del>
                         <lb/>
-                        <add place="intralinear">die seconde coloration</add>
+                        <add place="intralinear">die
+                            seconde
+                            coloration</add>
                     </subst>, <subst>
                         <del rendition="#s">ist hier <lb/>ganz ebenso zu</del>
                         <add place="intralinear">und das lang an<g ref="#typoHyphen"/><lb break="no"/>dauernde</add>
                     </subst> nächtliche Leuchten <lb/>des Schnees ist hier <supplied cert="high">in</supplied>
                     <subst>
                         <del rendition="#s">ebenso zu</del>
-                        <add place="superlinear"><placeName ref="https://editon-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName><g ref="#typoHyphen"/></add>
-                    </subst><lb break="no"/><placeName ref="https://editon-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName>
-                    ebenso zu sehen wie <lb/>wir es in den <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName> gefunden; <lb/>ich werde nächstens wieder einige
+                        <add place="superlinear"><placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName><g ref="#typoHyphen"/></add>
+                    </subst><lb break="no"/><placeName ref="https://edition-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName>
+                    ebenso zu sehen wie <lb/>wir es in den <placeName ref="https://edition-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName> gefunden; <lb/>ich werde nächstens wieder einige
                     <lb/>Zeilen, speciell über diesen Gegen<g ref="#typoHyphen"/><lb break="no"/>stand Ihnen senden<supplied cert="high">.</supplied>)</p>
-                <p>Nachdem diese kleinen Mittheilungen <lb/><pb n="65r"/><note place="mTop" hand="https://edition-humboldt.de/#addressee">II</note>der <orgName ref="https://editon-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Academie</orgName>
-                    vorgelegt, würden wir <lb/>sehr bitten, verzeihen Sie diese <lb/>rasche Folge
-                    fast zu unbescheidener <lb/>Wünsche, das erstere <persName ref="https://editon-humboldt.de/H0002047 http://d-nb.info/gnd/116250836"><choice>
+                <p>Nachdem diese kleinen Mittheilungen <lb/><pb n="65r"/><note place="mTop" hand="#author"><placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467"><choice>
+                                <abbr>Darj</abbr>
+                                <expan>Darjeeling</expan>
+                            </choice></placeName>
+                        <choice>
+                            <abbr>N</abbr>
+                            <expan>Nummer</expan>
+                        </choice> 2</note><note place="mTop" hand="https://edition-humboldt.de/#addressee">II</note>der <orgName ref="https://edition-humboldt.de/H0000569 http://d-nb.info/gnd/35495-8">Academie</orgName> vorgelegt, würden wir <lb/>sehr bitten,
+                    verzeihen Sie diese <lb/>rasche Folge fast zu unbescheidener <lb/>Wünsche, das
+                    erstere <persName ref="https://edition-humboldt.de/H0002047 http://d-nb.info/gnd/116250836"><choice>
                             <abbr>Prof</abbr>
                             <expan>Professor</expan>
                         </choice> Poggen<g ref="#typoHyphen"/><lb break="no"/>dorff</persName> für
-                    die <ref xml:id="d41f98c5-82f0-4f9b-9f98-c582f0bf9b44" corresp="#be5e0cfe-7599-4b0e-9e0c-fe7599ab0e77" type="editorialNote">Annalen, das 2<hi rendition="#sup">te</hi> der <lb/>geologischen
-                            Gesellschaft mitzutheilen</ref><note xml:id="be5e0cfe-7599-4b0e-9e0c-fe7599ab0e77" corresp="#d41f98c5-82f0-4f9b-9f98-c582f0bf9b44" type="editorial" resp="#UP">Die daraufhin von Humboldt angeregte
-                            Veröffentlichung der Forschungsergebnisse der Schlagintweits in <hi rendition="#i">Poggendorffs Annalen der Physik und Chemie</hi> und
-                            in der <hi rendition="#i">Zeitschrift der Deutschen Geologischen
-                                Gesellschaft</hi> gelang nicht. Vgl. <bibl corresp="https://edition-humboldt.de/FVBJTHCM">Humboldt 2010</bibl>, 156.</note><supplied cert="high">.</supplied></p>
-                <p>Wir waren auf das freudigste von <lb/>dem Beitrage überrascht den <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                    die <ref xml:id="c61b2a09-637a-4fc1-9b2a-09637a9fc1a7" corresp="#a36de7ea-4c05-4b18-ade7-ea4c056b18c2" type="editorialNote">Annalen, das 2<hi rendition="#sup">te</hi> der <lb/>geologischen
+                            Gesellschaft mitzutheilen</ref><note xml:id="a36de7ea-4c05-4b18-ade7-ea4c056b18c2" corresp="#c61b2a09-637a-4fc1-9b2a-09637a9fc1a7" type="editorial" resp="#UP">Die daraufhin von Humboldt angeregte
+                            Veröffentlichung der Forschungsergebnisse der Schlagintweits in <hi rendition="#i"><persName ref="https://edition-humboldt.de/H0002047 http://d-nb.info/gnd/116250836">Poggendorff</persName>s
+                                Annalen der Physik und Chemie</hi> und in der <hi rendition="#i">Zeitschrift der Deutschen Geologischen Gesellschaft</hi> gelang
+                            nicht. Vgl. <bibl corresp="https://edition-humboldt.de/FVBJTHCM">Humboldt 2010</bibl>,
+                            156.</note><supplied cert="high">.</supplied></p>
+                <p>Wir waren auf das freudigste von <lb/>dem Beitrage überrascht<supplied cert="high">,</supplied> den <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
                             <abbr>S.</abbr>
                             <expan>Seine</expan>
                         </choice>
@@ -155,16 +181,17 @@
                         </choice>
                         <lb/>der König</persName> uns zusenden
                     ließ.
-                    Wir bitten <lb/>dem Könige wiederholt unseren tief<g ref="#typoHyphen"/><lb break="no"/>gefühlten Dank auszusprechen. <lb/>Diese Sendung war uns gerade
-                    jetzt <lb/>sehr werthvoll indem vielleicht von ihr <lb/><pb n="65v"/>die
-                    Möglichkeit nach <placeName ref="https://editon-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName> und dem
-                        <lb/><placeName ref="https://editon-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName> zu kommen wesentlich
-                    <lb/>abhängt.</p>
+                    Wir bitten <lb/>dem <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Könige</persName> wiederholt
+                    unseren tief<g ref="#typoHyphen"/><lb break="no"/>gefühlten Dank auszusprechen.
+                    <lb/>Diese Sendung war uns gerade jetzt <lb/>sehr werthvoll<supplied cert="high">,</supplied> indem vielleicht von ihr <lb/><pb n="65v"/>die
+                        Möglichkeit<supplied cert="high">,</supplied> nach <placeName ref="https://edition-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName> und dem <lb/><placeName ref="https://edition-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName> zu kommen<supplied cert="high">,</supplied>
+                    wesentlich <lb/>abhängt.</p>
                 <p>Unsere Pläne sind nemlich folgende<supplied cert="high">:</supplied>
-                    <lb/>Meine beiden Brüder haben vor während <lb/>des Sommers zunächst <placeName ref="https://editon-humboldt.de/H0000500">Kamaon</placeName>
-                    <lb/>und <placeName ref="https://editon-humboldt.de/H0017192">Gurwal</placeName> zu besuchen und gegen
+                    <lb/>Meine beiden Brüder haben vor<supplied cert="high">,</supplied> während
+                    <lb/>des Sommers zunächst <placeName ref="https://edition-humboldt.de/H0000500 https://www.geonames.org/1262117">Kamaon</placeName>
+                    <lb/>und <placeName ref="https://edition-humboldt.de/H0017192 https://www.geonames.org/1254807">Gurwal</placeName> zu besuchen und gegen
                     <lb/>Ende des Sommers wo möglich <lb/>über die Pässe an der Westgrenze
-                        <lb/><placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepals</placeName> nach <placeName ref="https://editon-humboldt.de/H0017460">Katmandu</placeName> zu gehen<supplied cert="high">.</supplied>
+                        <lb/><placeName ref="https://edition-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepals</placeName> nach <placeName ref="https://edition-humboldt.de/H0017460 https://www.geonames.org/1283240">Katmandu</placeName> zu gehen<supplied cert="high">.</supplied>
                     <lb/>Der letztere Theil ihrer Reise ist <lb/>nicht ganz bestimmt
                         festgestellt<supplied cert="high">,</supplied>
                     <lb/>doch sind vom indischen Gouverne<g ref="#typoHyphen"/><lb break="no"/>ment
@@ -175,41 +202,48 @@
                         <add place="intralinear">am</add>
                     </subst>
                     <lb/>
-                    <pb n="66r"/>5<hi rendition="#sup">ten</hi> April nach <placeName ref="https://editon-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName> abgereist <lb/>und werde versuchen von da nach
-                        <lb/><placeName ref="https://editon-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName> zu gehen. Der <persName ref="https://editon-humboldt.de/H0018354">Raja</persName>
+                    <pb n="66r"/>5<hi rendition="#sup">ten</hi> April nach <placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName> abgereist <lb/>und werde versuchen<supplied cert="high">,</supplied> von da nach <lb/><placeName ref="https://edition-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName> zu gehen. Der <persName ref="https://edition-humboldt.de/H0018354">Raja</persName>
                     <lb/>hat die erste Anfrage der Regierung<supplied cert="high">,</supplied>
-                    <lb/>wie ich erst hier in <placeName ref="https://editon-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName>
+                    <lb/>wie ich erst hier in <placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName>
                     <lb/>erfuhr<supplied cert="high">,</supplied> entschieden mit Nein
                     <lb/>beantwortet. Ich schlug jedoch <lb/>jetzt vor, zunächst durch <choice>
                         <abbr>D<hi rendition="#sup">r</hi></abbr>
                         <expan>Doctor</expan>
                     </choice>
-                    <persName ref="https://editon-humboldt.de/H0012858 http://viaf.org/viaf/68144648417618811837">Camp<g ref="#typoHyphen"/><lb break="no"/>bell</persName>, den Residenten in <subst>
-                        <del rendition="#s"><placeName ref="https://editon-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName></del>
+                    <persName ref="https://edition-humboldt.de/H0012858 http://viaf.org/viaf/68144648417618811837">Camp<g ref="#typoHyphen"/><lb break="no"/>bell</persName>, den Residenten in <subst>
+                        <del rendition="#s"><placeName ref="https://edition-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName></del>
                         <lb/>
-                        <add place="intralinear"><placeName ref="https://editon-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName></add>
-                    </subst>, nur direct an den Fuss <lb/>des <placeName ref="https://editon-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName> zu gehen. <note place="left" hand="#author">Ich
-                        bitte dieses nicht weiter mit<g ref="#typoHyphen"/><lb break="no"/>zutheilen
-                        bis es glücklichen <lb/><unclear reason="illegible" cert="high">Erfolg</unclear> gehabt hat<supplied cert="high">.</supplied></note>
-                        Zu<g ref="#typoHyphen"/><lb break="no"/>gleich wird es ganz unvermeidlich
-                    <lb/>sein, wie wir bereits angedeutet<supplied cert="high">,</supplied>
-                    <lb/>wurde den Beamten des <persName ref="https://editon-humboldt.de/H0018354">Raja</persName>
+                        <add place="intralinear"><placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName></add>
+                    </subst>, nur direct an den Fuss <lb/>des <placeName ref="https://edition-humboldt.de/H0000349 https://www.geonames.org/1283259">Kinchinjinga</placeName> zu gehen. <note place="left" hand="#author">Ich
+                            bitte<supplied cert="high">,</supplied> dieses nicht weiter mit<g ref="#typoHyphen"/><lb break="no"/>zutheilen<supplied cert="high">,</supplied> bis es glücklichen <lb/>Erfolg gehabt hat.</note> Zu<g ref="#typoHyphen"/><lb break="no"/>gleich wird es ganz unvermeidlich
+                    <lb/>sein, wie mir bereits angedeutet <lb/>wurde<supplied cert="high">,</supplied> den Beamten des <persName ref="https://edition-humboldt.de/H0018354">Raja</persName>
                     <lb/>oder vielmehr indirect ihm selbst <lb/>bedeutende Geschenke bis zum
                         <lb/><pb n="66v"/>Betrage von etwa 1000 Rupien <lb/>à 20 <choice>
                         <abbr>Sgr</abbr>
                         <expan>Silbergroschen</expan>
-                    </choice> zu machen, um unter<g ref="#typoHyphen"/><lb break="no"/>wegs nicht aufge<subst>
+                    </choice> zu machen, um unter<g ref="#typoHyphen"/><lb break="no"/>weges nicht aufge<subst>
                         <del rendition="#s">f</del>
                         <add place="intralinear">h</add>
                     </subst>alten zu werden<supplied cert="high">.</supplied>
-                    <lb/>Diess wird zunächst von dem vom <lb/><persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Könige</persName> zu erhaltenden Beitrage <lb/>zu bezahlen sein. Leider
-                    wird uns <lb/>diess auch nöthigen uns in nicht <lb/>zu ferner Zeit wiederholt um
-                    eine <lb/>Geldsendung nach <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> zu
-                    <lb/>senden. Dürften wir hoffen dass <lb/>Ihre gütige Vermittlung auch dieses
-                    <lb/>mal uns unterstützen wird.</p>
-                <p><pb n="67r"/><note place="mTop" hand="https://edition-humboldt.de/#addressee">III</note>Unsere Sammlungen<subst>
+                    <lb/>Diess wird zunächst von dem vom <lb/><persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Könige</persName> zu erhaltenden Beitrage <lb/>zu bezahlen sein. Leider
+                    wird uns <lb/>diess auch nöthigen<supplied cert="high">,</supplied> uns in nicht
+                    <lb/>zu ferner Zeit wiederholt um eine <lb/>Geldsendung nach <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> zu <lb/>wenden. Dürften wir
+                        hoffen<supplied cert="high">,</supplied> dass <lb/>Ihre gütige Vermittlung
+                    auch dieses<g ref="#typoHyphen"/><lb break="no"/>mal uns unterstützen wird.</p>
+                <p><pb n="67r"/><note place="mTop" hand="#author"><placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467"><choice>
+                                <abbr>Darj.</abbr>
+                                <expan>Darjeeling</expan>
+                            </choice></placeName>
+                        <choice>
+                            <abbr>N.</abbr>
+                            <expan>Nummer</expan>
+                        </choice>
+                        <subst>
+                            <del rendition="#ow">2</del>
+                            <add place="across">3</add>
+                        </subst></note><note place="mTop" hand="https://edition-humboldt.de/#addressee">III</note>Unsere Sammlungen<subst>
                         <del rendition="#s">, war</del>
-                        <add place="intralinear">bestehen</add>
+                        <add place="intralinear"> bestehen</add>
                     </subst>
                     <lb/>vorzugsweise in <subst>
                         <del rendition="#s">geologischen Hand<g ref="#typoHyphen"/><lb break="no"/>Gegenstän</del>
@@ -219,70 +253,67 @@
                         <del rendition="#s">S</del>
                         <add place="intralinear">R</add>
                     </subst>eihe aller characteristischen <lb/>Fluss<supplied cert="high">-</supplied> und Quellwasser, die wir <lb/>auf unserer Reise durch
-                        <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>
-                    <lb/>fanden. Sie wird in Glasflaschen <lb/>mit eingeriebenen Stöpseln und
+                        <placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>
+                    <lb/>fanden. Sie sind in Glasflaschen <lb/>mit eingeriebenen Stöpseln und
                     <lb/>gut versiegelt, <subst>
                         <del rendition="#s">ein sehr interessantes <lb/>Mat</del>
                         <add place="intralinear">wie wir glauben</add>
-                    </subst>, für spätere <lb/>Analyse ausreichend gesichert<supplied cert="high">.</supplied>
-                    <lb/>Unter den et<supplied cert="high">h</supplied>nographischen Gegen<g ref="#typoHyphen"/><lb break="no"/>ständen dürften vielleicht besonders
-                    <lb/>die Photographien und Abgüsse <lb/>der Gesichter in <name type="mineral">Gips</name> zu erwähnen <lb/><pb n="67v"/>sein. Alles bis jetzt gesam̅elte
-                    <lb/>Material liegt im <ref xml:id="a8e071df-ba6b-494a-a071-dfba6bd94aa3" corresp="#dd89e8da-4543-4734-89e8-da45439734df" type="editorialNote">Surveyor <lb/>Generals office</ref><note xml:id="dd89e8da-4543-4734-89e8-da45439734df" corresp="#a8e071df-ba6b-494a-a071-dfba6bd94aa3" type="editorial" resp="#LM">Bezeichnung für den Stützpunkt einer
+                    </subst>, für spätere <lb/>Analyse hinreichend gesichert<supplied cert="high">.</supplied>
+                    <lb/>Unter den et<supplied cert="high">h</supplied>nographisch<add place="intralinear">en</add> Gegen<g ref="#typoHyphen"/><lb break="no"/>ständen dürften vielleicht besonders <lb/>die Photographien und Abgüsse
+                    <lb/>der Gesichter in <name type="mineral">Gips</name> zu erwähnen <lb/><pb n="67v"/>sein. Alles bis jetzt gesam̅elte <lb/>Material liegt im <ref xml:id="c96adeb9-c276-43b3-aade-b9c276a3b3ee" corresp="#cf03ccc5-0ec6-430b-83cc-c50ec6230b63" type="editorialNote">Surveyor <lb/>General<supplied cert="high">’</supplied>s office</ref><note xml:id="cf03ccc5-0ec6-430b-83cc-c50ec6230b63" corresp="#c96adeb9-c276-43b3-aade-b9c276a3b3ee" type="editorial" resp="#LM">Bezeichnung für den Stützpunkt einer
                             Regierung innerhalb eines bestimmten Ortes. Von hier aus wurden im
                             Besonderen bürokratische Abläufe geplant und angeleitet.</note>
                     <subst>
                         <del rendition="#s">(an das wir auch</del>
                         <lb/>
-                        <add place="intralinear">in <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName></add>
+                        <add place="intralinear">in <placeName ref="https://edition-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName></add>
                     </subst> und wird später mit <lb/>jenem aus dem Himalaya zusammen <lb/>nach
                     Europa geschickt.</p>
-                <p>Dürften wir hoffen dass Sie <lb/>uns auch die Ferne <supplied cert="high">hin</supplied> das Wohlwollen <lb/>und die Theilnahme bewahren, die
-                    <lb/>seit <subst>
-                        <del rendition="#s">dem Beginner</del>
-                        <add place="superlinear">unserer</add>
+                <p>Dürften wir hoffen<supplied cert="high">,</supplied> dass Sie <lb/>uns auch <choice>
+                        <sic>die</sic>
+                        <corr cert="high">in der</corr>
+                    </choice>
+                    Ferne das Wohlwollen <lb/>und die
+                    Theilnahme bewahren, die <lb/>seit <subst>
+                        <del rendition="#s">dem Beginnen</del>
+                        <add place="superlinear">unseren</add>
                     </subst> ersten wissenschaft<g ref="#typoHyphen"/><lb break="no"/>lichen
                     Versuchen unsere wesentliche <lb/>Stütze war und die uns stets die <lb/>schönste
-                        Erin<supplied cert="high">n</supplied>erung unseres Lebens <lb/>bleiben
-                    wird. Ich wage kaum hinzu<g ref="#typoHyphen"/><lb break="no"/>zufügen wie <subst>
+                        Eri<supplied cert="high">n</supplied>nerung unseres Lebens <lb/>bleiben
+                    wird. Ich wage kaum<supplied cert="high">,</supplied> hinzu<g ref="#typoHyphen"/><lb break="no"/>zufügen<supplied cert="high">,</supplied> wie <subst>
                         <del rendition="#s">wir</del>
                         <add place="intralinear">sehr</add>
-                    </subst> wir durch einige <lb/>wenn auch noch so kleine Mittheilung<supplied cert="high">en</supplied>
-                    <lb/><pb n="68r"/>von Ihrer Hand erfreut wären<supplied cert="high">.</supplied></p>
-                <p>(Addresse <del rendition="#s">(</del>Surveyor Generals office <lb/><placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName>).</p>
+                    </subst> wir durch einige<supplied cert="high">,</supplied>
+                    <lb/>wenn auch noch so kurze Mittheilung<supplied cert="high">en</supplied>
+                    <lb/><pb n="68r"/><note place="mTop" hand="#author"><placeName ref="https://edition-humboldt.de/H0017337 https://www.geonames.org/1273467"><choice>
+                                <abbr>Darj</abbr>
+                                <expan>Darjeeling</expan>
+                            </choice></placeName>
+                        <choice>
+                            <abbr>N.</abbr>
+                            <expan>Nummer</expan>
+                        </choice>
+                        <subst>
+                            <del rendition="#ow">3</del>
+                            <add place="across">4</add>
+                        </subst></note><note place="mTop" hand="https://edition-humboldt.de/#addressee">IV</note>von Ihrer Hand
+                    erfreut wären<supplied cert="high">.</supplied></p>
+                <p>(Addresse <del rendition="#s">(</del>Surveyor General<supplied cert="high">’</supplied>s office <lb/><placeName ref="https://edition-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName>).</p>
                 <closer>
-                    <salute>Mit dem Ausdrucke unbegrenzter <lb/>Verehrung und Hochachtung</salute>
-                    <salute>Euer Excellenz</salute>
-                    <salute>ganz dankbarst ergeben<supplied cert="high">er</supplied></salute>
-                    <signed><persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117"><choice>
-                                <abbr>H.</abbr>
-                                <expan>Hermann</expan>
-                            </choice>
-                            <choice>
-                                <abbr>Schlgtwt.</abbr>
-                                <expan>Schlagintweit</expan>
-                            </choice></persName><address>
+                    <salute>Mit dem Ausdrucke unbegrenzter <lb type="preserve"/>Verehrung und
+                        Hochachtung</salute>
+                    <salute>Euer Excellenz <lb type="preserve"/>ganz dankbarst ergeben<supplied cert="high">er</supplied></salute>
+                    <signed><persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">HeSchlgtwt.</persName><address>
                             <addrLine><choice>
                                     <abbr>S<hi rendition="#sup">r</hi></abbr>
                                     <expan>Seiner</expan>
                                 </choice> Excellenz</addrLine>
-                            <addrLine>H<hi rendition="#sup">err</hi>
+                            <addrLine>H<hi rendition="#sup">er<supplied cert="high">r</supplied>n</hi>
                                 <choice>
-                                    <abbr>Bron</abbr>
+                                    <abbr>B<hi rendition="#sup">n</hi></abbr>
                                     <expan>Baron</expan>
-                                </choice> Humboldt</addrLine>
-                            <addrLine><choice>
-                                    <abbr>etc</abbr>
-                                    <expan>et cetera</expan>
-                                </choice>
-                                <choice>
-                                    <abbr>etc</abbr>
-                                    <expan>et cetera</expan>
-                                </choice>
-                                <choice>
-                                    <abbr>etc</abbr>
-                                    <expan>et cetera</expan>
-                                </choice>
-                                <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName></addrLine>
+                                </choice> von Humboldt</addrLine>
+                            <addrLine>etc. etc. etc. <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName></addrLine>
                         </address></signed>
                 </closer>
                 <lb/>

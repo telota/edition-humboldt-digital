@@ -12,12 +12,12 @@
                     </persName>
                 </author>
             </titleStmt><editionStmt><p>Dumont, Stefan: Digitale Methodik .  Ein Überblick über Datenmodellierung, Technologien und
-                    Schnittstellen in der edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+                    Schnittstellen in der edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0016212">https://edition-humboldt.de/v10/H0016212</ref></p></editionStmt>
             <notesStmt>
                 <relatedItem target="H0021024" type="translation" xml:lang="en"/>
             </notesStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0016212</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0016212.xml</idno></publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document</p>
             </sourceDesc>
@@ -109,9 +109,11 @@
                             werden die Belegstellen in den Texten gelistet und automatisiert mit
                             verschiedenen taxonomischen Datenbanken verlinkt (siehe unten, Abschnitt
                                 <ref target="https://edition-humboldt.de/H0016212/globalnames">Globale Indizes für
-                                wissenschaftliche Namen</ref>). Aufgrund der dynamischen Erstellung
-                            dieses Registers können hier bislang noch keine Permalinks angeboten
-                            werden.</p>
+                                wissenschaftliche Namen</ref>). </p>
+                        <p>Seit Version 10 (2024) wird das eigentlich dynamische Pflanzenregister
+                            allerdings zusätzlich automatisiert als TEI-XML erstellt (inkl. interne
+                            und externe Verweise). Dadurch kann das Pflanzenregister auch in Zukunft
+                            der Datenpublikation beigegeben werden.   </p>
                     </div>
                     <div>
                         <head type="h4">Zeichnungen und Skizzen</head>
@@ -153,7 +155,7 @@
                         abgeleitet, das wiederum vom DTABf ebgeleitet wird. Dadurch ist es möglich,
                         auf jeder Ebene (ediarum, edition humboldt digital) die jeweiligen
                         Änderungen zum nächst-"höheren" Schema zu pflegen und nachzuvollzuziehen.
-                        Das Schema wird in Kürze zusammen mit den Daten veröffentlicht.</p>
+                        Das Schema (sowohl TEI-ODD-Datei als auch RNG-Datei) sind auf <ref target="https://github.com/telota/ediarum.AVHR.data-model">GitHub</ref> veröffentlicht.</p>
                 </div>
             </div>
             <div>
@@ -257,9 +259,9 @@
                         historische Schreibweisen und andere Wortformen findet. Zu diesem Zweck
                         werden die edierten Texte mit Hilfe des <ref target="http://kaskade.dwds.de/demo/cab/">Webservices DTA::CAB</ref>
                         linguistisch analysiert und annotiert. Dabei werden u.a. auch alle Wörter
-                        lemmatisiert, so dass auf Basis dieses Lemmas gesucht werden kann. Der
+                        lemmatisiert, so dass auf Basis dieses Lemmas gesucht werden kann.
                         DTA::CAB wurde im Rahmen des <ref target="http://www.deutschestextarchiv.de">Deutschen Textarchivs</ref> von Bryan Jurish entwickelt.</p>
-                    <p>Für weitere Informationen siehe die <ref target="http://odo.dwds.de/~moocow/software/DTA-CAB/">Dokumentation</ref> oder <bibl corresp="https://edition-humboldt.de/92M2WH4K">Jurish
+                    <p>Für weitere Informationen siehe die <ref target="https://kaskade.dwds.de/~moocow/software/DTA-CAB/">Dokumentation</ref> oder <bibl corresp="https://edition-humboldt.de/92M2WH4K">Jurish
                             2012</bibl>.</p>
                 </div>
                 <div>
@@ -406,7 +408,7 @@
                             <hi rend="code">id</hi> wird das jeweilige Dokument ausgegeben.</p>
                     <div>
                         <head type="h5">Parameter <hi rend="code">type</hi></head>
-                        <table rend="drawn" rows="2" cols="2">
+                        <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
                             <row role="label">
                                 <cell>Werte</cell>
                                 <cell>Beschreibung</cell>
@@ -424,7 +426,7 @@
                                 <cell><hi rend="code">personMentioned</hi></cell>
                                 <cell>alle erwähnten Personen</cell>
                             </row>
-                        </table>
+                        </tei:table>
                     </div>
                 </div>
                 <div>
@@ -433,7 +435,7 @@
                         Institutionen- und Siglenregister werden auch als Gesamt-TEI-XML-Datensatz
                         der edition humboldt digital veröffentlicht. Dazu werden die Texte und
                         Einträge nicht einfach aus der eXistdb exportiert, sondern mit Hilfe eines
-                        Python-Skriptes über die TEI-XML-API 2.0 der <hi rendition="#i">ehd</hi>
+                        XQuery-Skriptes über die TEI-XML-API 2.0 der <hi rendition="#i">ehd</hi>
                         abgerufen, damit das Datenbild mit dem der über die API zugänglichen Daten
                         übereinstimmt. Dadurch die dort stattfindenden Anreicherungen (z.B. GNDs;
                         URIs statt IDs), die Harmonisierungen ans DTABf sowie die Aufteilung der
@@ -452,8 +454,8 @@
                     <head type="h3">Weitere APIs</head>
                     <div>
                         <head type="h4">OAI-PMH</head>
-                        <p>Die Metadaten der edierten Texte der sowie der Forschungsbeiträge werden
-                            über die Schnittstelle <ref target="http://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify">http://edition-humboldt.de/api/v1.1/oai-pmh.xql</ref> gemäß dem
+                        <p>Die Metadaten der edierten Texte sowie der Forschungsbeiträge werden
+                            über die Schnittstelle <ref target="https://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify">https://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify</ref> gemäß dem
                                 <ref target="https://www.openarchives.org/pmh/">Protocoll for
                                 Metadata Harvesting der Open Archive Initiative</ref>
                             bereitgestellt. Dadurch werden diese Texte auch automatisch in der <ref target="https://www.base-search.net/">Bielefeld Academic Search
@@ -479,7 +481,7 @@
                             <head type="h5">Parameter</head>
                             <div>
                                 <head type="h5"><hi rend="code">type</hi></head>
-                                <table rend="drawn" rows="2" cols="2">
+                                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
                                     <row role="label">
                                         <cell>Werte</cell>
                                         <cell>Beschreibung</cell>
@@ -497,13 +499,13 @@
                                         <cell><hi rend="code">personMentioned</hi></cell>
                                         <cell>alle erwähnten Personen</cell>
                                     </row>
-                                </table>
+                                </tei:table>
                             </div>
                             <div>
                                 <head type="h5"><hi rend="code">authority</hi></head>
                                 <p>Alle Personen mit einer Norm-ID einer bestimmten Norm-Datei
                                     (eingeschränkt ggf. durch <hi rend="code">type</hi>)</p>
-                                <table rend="drawn" rows="2" cols="2">
+                                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
                                     <row>
                                         <cell>Wert</cell>
                                         <cell>Beschreibung</cell>
@@ -518,7 +520,7 @@
                                         <cell><hi rend="code">viaf</hi></cell>
                                         <cell>Virtual International Authority File</cell>
                                     </row>
-                                </table>
+                                </tei:table>
                             </div>
                         </div>
                     </div>

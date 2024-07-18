@@ -4,9 +4,7 @@
             <titleStmt>
                 <title>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 1. August
                     1852</title>
-                <editor>
-                    
-                </editor>
+                <editor> </editor>
                 <editor>
                     <persName ref="http://d-nb.info/gnd/111674743X" xml:id="MB"><surname>Brescius</surname>
                         <forename>Moritz von</forename>
@@ -27,11 +25,12 @@
                     <resp>
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
+                    
                 </respStmt>
             </titleStmt><editionStmt><p>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 1. August
-                    1852, hg. v. , Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+                    1852, hg. v. , Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0016439">https://edition-humboldt.de/v10/H0016439</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0016439</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0016439.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -46,16 +45,16 @@
         <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+                    <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1852-08-01" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
-        </profileDesc>
+        </profileDesc>          
     </teiHeader>
     <text><body>
             <div type="writingSession">
@@ -64,18 +63,22 @@
                 <opener>
                     <salute>Euer Excellenz!</salute>
                 </opener>
-                <p>Von Ihrer gütigen Erlaubniss Ge-<lb break="no"/>brauch machend<supplied cert="high">,</supplied> werden wir morgen <lb/>die Ehre haben<supplied cert="high">,</supplied> Sie noch einmal; <lb/><ref xml:id="d61fb450-72e3-4dea-9fb4-5072e35dea42" corresp="#c91e445b-3fe0-4eaf-9e44-5b3fe0deafff" type="editorialNote">vor Ihrer Abreise zu besuchen</ref><note xml:id="c91e445b-3fe0-4eaf-9e44-5b3fe0deafff" corresp="#d61fb450-72e3-4dea-9fb4-5072e35dea42" type="editorial" resp="#LM">Humboldt antwortete am selben Tag,
-                                <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph Schlagintweit</persName> nicht vor seiner
-                            Reise im Gefolge <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelms
-                                IV.</persName> nach <placeName ref="https://editon-humboldt.de/H0008503 https://www.geonames.org/2851615">Putbus</placeName>
+                <p>Von Ihrer gütigen Erlaubniss Ge<g ref="#typoHyphen"/><lb break="no"/>brauch
+                        machend<supplied cert="high">,</supplied> werden wir morgen <lb/>die Ehre
+                        haben<supplied cert="high">,</supplied> Sie noch einmal <lb/><ref xml:id="a9fa6cc5-976e-471d-ba6c-c5976e671d04" corresp="#c6a902c0-500a-4758-a902-c0500ad7589b" type="editorialNote">vor Ihrer Abreise zu besuchen;</ref><note xml:id="c6a902c0-500a-4758-a902-c0500ad7589b" corresp="#a9fa6cc5-976e-471d-ba6c-c5976e671d04" type="editorial" resp="#LM">Humboldt antwortete am selben Tag,
+                                <persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="https://edition-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph Schlagintweit</persName> nicht vor seiner
+                            Reise im Gefolge <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelms
+                                IV.</persName> nach <placeName ref="https://edition-humboldt.de/H0008503 https://www.geonames.org/2851615">Putbus</placeName>
                             empfangen zu können. Vgl. das <ref target="https://edition-humboldt.de/H0016459">Schreiben Humboldts
-                                an die Brüder, Potsdam,
-                                Sonntag, [1. August 1852]</ref>, SBB–PK, Handschriftenabteilung,
-                            Nachl. Alexander von Humboldt, kl. Kasten 1a, Nr. 17.</note> es <lb/>wird uns ein besonderes Vergnügen sein <lb/>Ihnen die Zeichnung
-                    unserer Karte des <lb/><placeName ref="https://editon-humboldt.de/H0008958">Monte Rosa</placeName> vorlegen
-                    zu können. <lb/>Ich erlaube mir zugleich einen <lb/>kleinen Auszug aus <ref xml:id="a50436ca-8a7b-4c7f-8436-ca8a7b3c7f03" corresp="#e045b3d1-bdcb-4d0c-85b3-d1bdcb3d0c19" type="editorialNote">meinen Untersuchungen <lb/>über die Verbreitung der Gletscher</ref><note xml:id="e045b3d1-bdcb-4d0c-85b3-d1bdcb3d0c19" corresp="#a50436ca-8a7b-4c7f-8436-ca8a7b3c7f03" type="editorial" resp="#LM #UP">Hermann Schlagintweit trug die
+                                an die Brüder, Potsdam, Sonntag, [1. August 1852]</ref>, SBB–PK,
+                            Handschriftenabteilung, Nachl. Alexander von Humboldt, kl. Kasten 1a,
+                            Nr. 17.</note> es <lb/>wird uns ein besonderes Vergnügen sein<supplied cert="high">,</supplied>
+                    <lb/>Ihnen die Zeichnung unserer Karte des <lb/><placeName ref="https://edition-humboldt.de/H0008958 https://www.geonames.org/2658971/monte-rosa.html">Monte
+                        Rosa</placeName> vorlegen zu können.</p>
+                <p>Ich erlaube mir zugleich<supplied cert="high">,</supplied> einen <lb/>kleinen
+                    Auszug aus <ref xml:id="fc73201b-beb8-40c0-b320-1bbeb870c047" corresp="#c4e1eb3d-05a5-41b0-a1eb-3d05a5d1b025" type="editorialNote">meinen Untersuchungen <lb/>über die Verbreitung der Gletscher</ref><note xml:id="c4e1eb3d-05a5-41b0-a1eb-3d05a5d1b025" corresp="#fc73201b-beb8-40c0-b320-1bbeb870c047" type="editorial" resp="#LM #UP">Hermann Schlagintweit trug die
                             unten aufgeführten Angaben über die Menge, Größe und Verteilung der
-                            Alpengletscher am 4. August 1852 in der <orgName ref="https://editon-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3"><hi rendition="#i">Gesellschaft für Erdkunde zu
+                            Alpengletscher am 4. August 1852 in der <orgName ref="https://edition-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3"><hi rendition="#i">Gesellschaft für Erdkunde zu
                                 Berlin</hi></orgName> vor, in deren Monatsberichten sie auch
                             veröffentlicht wurden (<bibl corresp="https://edition-humboldt.de/VITKULTS">Schlagintweit, H. 1853</bibl>). Eine überarbeitete und erweiterte
                             Fassung der Ergebnisse veröffentlichten Adolph und Hermann Schlagintweit
@@ -87,13 +90,10 @@
                     schenkten.</p>
                 <p><pb n="1v"/> Mit dem Ausdrucke ausge<g ref="#typoHyphen"/><lb break="no"/>zeichnetster Hochachtung <lb/>und Verehrung verbleibe ich </p>
                 <closer>
-                    <salute>Euer Excellenz <lb/>ganz ergebenster</salute>
-                    <signed><persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117"><choice>
-                                <abbr>H.</abbr>
-                                <expan>Hermann</expan>
-                            </choice> Schlagintweit</persName></signed>
+                    <salute>Euer Excellenz <lb type="preserve"/>ganz ergebenster</salute>
+                    <signed><persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">H. Schlagintweit</persName></signed>
                 </closer>
-                <dateline>Berlin<lb/>1<supplied cert="high">.</supplied>
+                <dateline>Berlin <lb/>1<supplied cert="high">.</supplied>
                     <choice>
                         <abbr>Aug</abbr>
                         <expan>August</expan>
@@ -102,75 +102,76 @@
                     <p>
                         <address>
                             <addrLine><choice>
-                                    <abbr>S<hi rendition="#sup">r</hi>
-                                    </abbr>
+                                    <abbr>S<hi rendition="#sup">r</hi></abbr>
                                     <expan>Seiner </expan>
                                 </choice>Excellenz <choice>
                                     <abbr>B<hi rendition="#sup">n</hi></abbr>
                                     <expan>Baron</expan>
                                 </choice> von Humboldt</addrLine>
-                            <addrLine><choice>
-                                    <abbr>etc.</abbr>
-                                    <expan>et cetera</expan>
-                                </choice>
-                                <choice>
-                                    <abbr>etc.</abbr>
-                                    <expan>et cetera</expan>
-                                </choice>
-                                <choice>
-                                    <abbr>etc.</abbr>
-                                    <expan>et cetera</expan>
-                                </choice></addrLine>
+                            <addrLine>etc. etc. etc.</addrLine>
                         </address>
                     </p>
                 </postscript>
                 <postscript>
-                    <p><pb n="2r"/>(<hi rendition="#u">Verbreitung und Höhenverhältnisse der <choice>
+                    <pb n="2r"/><head>(<hi rendition="#u">Verbreitung und Höhenverhältnisse der <choice>
                                 <abbr>Gl.</abbr>
                                 <expan>Gletscher</expan>
-                            </choice></hi>)</p>
-                    <p>Bei einem Versuche die Verbreitung und <lb/>die Höhenverhältnisse der
-                        Gletscher in den <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
-                        <lb/>zu bestim̅en, zählte ich 1023 Gletscher; ich glaube <lb/>demnach 1000
-                        bis 1100 Gletscher annehmen zu dürfen<supplied cert="high">,</supplied>
-                        <lb/>worunter 60, genauer 59 primäre Gletscher sind. <lb/>(<persName ref="https://editon-humboldt.de/H0005852 http://d-nb.info/gnd/116319577">Ebel</persName> hatte früher die Zahl der <choice>
+                            </choice></hi>)</head>
+                    <p>Bei einem Versuche<supplied cert="high">,</supplied> die Verbreitung und
+                        <lb/>die Höhenverhältnisse der Gletscher in den <placeName ref="https://edition-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
+                        <lb/>zu bestim̅en, zä<del rendition="#s">l</del>h<add place="intralinear">l</add>te ich 1023 Gletscher; ich glaube <lb/>demnach 1000 bis 1100
+                        Gletscher annehmen zu dürfen<supplied cert="high">,</supplied>
+                        <lb/>worunter 60, genauer 59
+                        primäre
+                        Gletscher sind. <lb/>(<persName ref="https://edition-humboldt.de/H0005852 http://d-nb.info/gnd/116319577">Ebel</persName> hatte früher
+                        die Zahl der <choice>
                             <abbr>Gl.</abbr>
                             <expan>Gletscher</expan>
-                        </choice> zwischem dem <placeName ref="https://editon-humboldt.de/H0008955 https://www.geonames.org/3181986">Mont-<lb break="no"/>Blanc</placeName> und den Grenzen <placeName ref="https://editon-humboldt.de/H0009409 https://www.geonames.org/2763586">Tirol</placeName>s auf 400 geschätzt<supplied cert="high">,</supplied>
+                        </choice> zwischem dem <placeName ref="https://edition-humboldt.de/H0008955 https://www.geonames.org/3181986">Mont-<lb break="no"/>Blanc</placeName> und den Grenzen <placeName ref="https://edition-humboldt.de/H0009409 https://www.geonames.org/2763586">Tirol</placeName>s auf 400 geschätzt<supplied cert="high">,</supplied>
                         ich <lb/>erhielt ebenfalls 390 bis <subst>
                             <del rendition="#s">3</del>
                             <add place="intralinear">4</add>
-                        </subst>00 für diese <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>theile,
-                        <lb/>aber die Oberfläche <subst>
+                        </subst>00 für diese <placeName ref="https://edition-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>theile,
+                        <lb/>aber die Oberfläche<supplied cert="high">,</supplied>
+                        <subst>
                             <del rendition="#s">der</del>
                             <add place="intralinear">welche</add>
-                        </subst> die Gletscher bedecken hat <lb/><persName ref="https://editon-humboldt.de/H0005852 http://d-nb.info/gnd/116319577">Ebel</persName> fast doppelt so gross angenommen, als <lb/>sie sich aus
-                        meinen Untersuchungen zu ergeben <lb/>scheint.<supplied cert="high">)</supplied></p>
-                    <p>Die mittlere Grösse eines secundären Gletschers <lb/>fand ich 200 Hectares =
-                            1/27<hi rendition="#sup"> ❒</hi>Meile (zu <measure quantity="3807.23" unit="toise">3807,23<hi rendition="#sup">toisen</hi></measure> die
-                            <lb/><measure quantity="1" unit="meile">Meile</measure>); die Grösse
-                        eines primären Gletschers im <lb/>mittel ⅓ <hi rendition="#sup">❒</hi>Meile;
-                        die (<subst>
-                            <del rendition="#s">im Sommer</del>
+                        </subst> die Gletscher bedecken<supplied cert="high">,</supplied> hat
+                            <lb/><persName ref="https://edition-humboldt.de/H0005852 http://d-nb.info/gnd/116319577">Ebel</persName> fast doppelt so gross
+                        angenom̅en, als <lb/>sie sich aus meinen Untersuchungen zu ergeben
+                            <lb/>scheint.<supplied cert="high">)</supplied></p>
+                    <p>Die mittlere Grösse eines
+                        secundären
+                        Gletschers <lb/>fand ich 200 Hectares = 1/27<hi rendition="#sup">
+                        ❒</hi>Meile (zu <measure quantity="3807.23" unit="toise">3807,23<choice>
+                                <abbr><hi rendition="#sup">t</hi></abbr>
+                                <expan> Toisen</expan>
+                            </choice></measure> die <lb/><measure quantity="1" unit="meile">Meile</measure>); die Grösse eines primären Gletschers im <lb/><choice>
+                            <orig>mittel</orig>
+                            <reg>Mittel</reg>
+                        </choice> ⅓ <hi rendition="#sup">❒</hi>Meile; die <subst>
+                            <del rendition="#s">(im Sommer)</del>
                             <add place="superlinear">beständig</add>
-                        </subst>) von Schnee und <lb/>Eis bedeckte Oberfläche der <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName> beträgt 55 bis 60 <lb/>Quadratmeilen
+                        </subst> von Schnee und <lb/>Eis bedeckte Oberfläche der <placeName ref="https://edition-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName> beträgt 55 bis 60 <lb/>Quadratmeilen
                         oder 6 bis 7 Procent <add place="superlinear">von</add> der Oberfläche
                         <lb/>des ganzen Terrains in dem Gletscher vorkom̅en.</p>
                     <p><subst>
                             <del rendition="#ow">Die m</del>
                             <add place="intralinear">Mittlere</add>
-                        </subst> Höhe der Schneegrenze <measure quantity="8550" unit="pied_de_roi">8550′</measure> (<lb break="no"/>mittel am <placeName ref="https://editon-humboldt.de/H0008958">Monte Rosa</placeName>
-                        <measure quantity="9100" unit="pied_de_roi">9100</measure><supplied cert="high">,</supplied> in den nordöstlichen <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
-                        <lb/><measure quantity="8100" unit="pied_de_roi">8100′</measure><supplied cert="high">)</supplied>. Höhe der <ref xml:id="fdcfd28b-e157-432e-8fd2-8be157032ef5" corresp="#d3378a91-ad52-431b-b78a-91ad52631bd9" type="editorialNote">Gletscherenden</ref><note xml:id="d3378a91-ad52-431b-b78a-91ad52631bd9" corresp="#fdcfd28b-e157-432e-8fd2-8be157032ef5" type="editorial"><bibl corresp="https://edition-humboldt.de/VITKULTS">Schlagintweit, H. 1853</bibl> : Gletscherrinden.</note> im Allgemeinen <lb/><measure quantity="6800" unit="pied_de_roi">6800</measure> bis <measure quantity="6900" unit="pied_de_roi">6900′</measure>. Mittlere Höhe der <choice>
+                        </subst> Höhe der Schneegrenze <measure quantity="8550" unit="pied_de_roi">8550′</measure> (<choice>
+                            <orig><lb break="no"/>mittel</orig>
+                            <reg>Mittel</reg>
+                        </choice> am <placeName ref="https://edition-humboldt.de/H0008958 https://www.geonames.org/2658971/monte-rosa.html">Monte Rosa</placeName>
+                        <measure quantity="9100" unit="pied_de_roi">9100</measure><supplied cert="high">,</supplied> in den nordöstlichen <placeName ref="https://edition-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
+                        <lb/><measure quantity="8100" unit="pied_de_roi">8100′</measure><supplied cert="high">)</supplied>. Höhe der <ref xml:id="bc685f3b-a5d6-4230-a85f-3ba5d6523088" corresp="#e03ddbfa-37e0-43cd-bddb-fa37e003cd51" type="editorialNote">Gletscherenden</ref><note xml:id="e03ddbfa-37e0-43cd-bddb-fa37e003cd51" corresp="#bc685f3b-a5d6-4230-a85f-3ba5d6523088" type="editorial"><bibl corresp="https://edition-humboldt.de/VITKULTS">Schlagintweit, H. 1853</bibl> : Gletscherrinden.</note> im Allgemeinen <lb/><measure quantity="6800" unit="pied_de_roi">6800</measure> bis <measure quantity="6900" unit="pied_de_roi">6900′</measure>. Mittlere Höhe der <choice>
                             <abbr>prim</abbr>
                             <expan>primären</expan>
                         </choice>
                         <choice>
                             <abbr>Gl.</abbr>
                             <expan>Gletscher</expan>
-                        </choice> in <lb/>den westlich<del rendition="#s">st</del>en <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
-                        <measure quantity="5000" unit="pied_de_roi">5000′</measure> in den östlichen
-                            <measure quantity="6200" unit="pied_de_roi">6200</measure><supplied cert="high">.</supplied>
+                        </choice> in <lb/>den westlich<del rendition="#s">st</del>en <placeName ref="https://edition-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
+                        <measure quantity="5000" unit="pied_de_roi">5000′</measure><supplied cert="high">,</supplied> in den östlichen <measure quantity="6200" unit="pied_de_roi">6200</measure><supplied cert="high">.</supplied>
                         <lb/>Mittlere Höhe der <choice>
                             <abbr>secund</abbr>
                             <expan>secundären</expan>
@@ -178,9 +179,9 @@
                         <choice>
                             <abbr>Gl</abbr>
                             <expan>Gletscher</expan>
-                        </choice> in den westlichen <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
+                        </choice> in den westlichen <placeName ref="https://edition-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName>
                         <lb/><measure quantity="6800" unit="pied_de_roi">6800<supplied cert="high">,</supplied></measure> in den östlichen <measure quantity="7000" unit="pied_de_roi">7000</measure><supplied cert="high">.</supplied></p>
-                    <p>Am weitesten steigt der <placeName ref="https://editon-humboldt.de/H0019034">Untere Grindelwald<g ref="#typoHyphen"/><lb break="no"/>gletscher</placeName> herab; sein
+                    <p>Am weitesten steigt der <placeName ref="https://edition-humboldt.de/H0019034 https://www.geonames.org/11397312">Untere Grindelwald<g ref="#typoHyphen"/><lb break="no"/>gletscher</placeName> herab; sein
                         Ende liegt bei <measure quantity="3065" unit="pied_de_roi">3065 <choice>
                                 <abbr>p.</abbr>
                                 <expan>Pariser</expan>
@@ -188,28 +189,29 @@
                             <choice>
                                 <abbr>F</abbr>
                                 <expan>Fuß</expan>
-                            </choice></measure><supplied cert="high">,</supplied> 998<hi rendition="#sup">Meter</hi></p>
-                    <p>der grösste Gletscher ist der <placeName ref="https://editon-humboldt.de/H0019049">Alet<supplied cert="high">s</supplied>chgletscher</placeName>, <lb/>dessen Länge
-                        20 K<del rendition="#s">l</del>ilometer beträgt.</p>
+                            </choice></measure><supplied cert="high">,</supplied> 998<choice>
+                            <abbr><hi rendition="#sup">m</hi></abbr>
+                            <expan> Meter</expan>
+                        </choice><supplied cert="high">.</supplied></p>
+                    <p>Der grösste Gletscher ist der <placeName ref="https://edition-humboldt.de/H0019049 https://www.geonames.org/2660487">Aletschgletscher</placeName>, <lb/>dessen Länge 20 K<del rendition="#s">l</del>ilometer beträgt.</p>
                     <p><pb n="2v"/>Die Vertheilung der Gletscher in den einzelnen <lb/>Alpentheilen
                         ist folgende:</p>
                     <p>
-                        <table rows="8" cols="9" rend="drawn">
-                            <row>
-                                <cell cols="2">Bezeichnung der Alpentheile <lb/>und der einzelnen
-                                    Gebirgstheile </cell>
+                        <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rows="8" cols="9" rend="drawn">
+                            <row role="label">
+                                <cell cols="2" rows="2">Bezeichnung der Alpentheile <lb/>und der einzelnen
+                                    Gebirgsgruppen </cell>
                                 <cell cols="3">Zahl der <choice>
                                         <abbr>Gl.</abbr>
                                         <expan>Gletscher</expan>
                                     </choice></cell>
-                                <cell cols="4"><ref xml:id="c90c9974-e187-4615-8c99-74e18706153f" corresp="#c843371e-0021-48da-8337-1e0021a8dac7" type="editorialNote">Höhenverhältnisse der <lb/>Schneegrenze und der
-                                            Gletscher</ref><note xml:id="c843371e-0021-48da-8337-1e0021a8dac7" corresp="#c90c9974-e187-4615-8c99-74e18706153f" type="editorial" resp="#LM">Die Höhenangaben
-                                            erfolgten in Pariser Fuß. Vgl. <bibl corresp="https://edition-humboldt.de/VITKULTS">Schlagintweit, H.
+                                <cell cols="4"><ref xml:id="ccb7cdc0-5a5b-4c63-b7cd-c05a5b7c63e7" corresp="#fa45d3ec-19aa-4fe2-85d3-ec19aadfe22c" type="editorialNote">Höhenverhältnisse der <lb/>Schneegrenze und der
+                                            Gletscher</ref><note xml:id="fa45d3ec-19aa-4fe2-85d3-ec19aadfe22c" corresp="#ccb7cdc0-5a5b-4c63-b7cd-c05a5b7c63e7" type="editorial" resp="#LM">Die Höhenangaben
+                                            erfolgen in Pariser Fuß. Vgl. <bibl corresp="https://edition-humboldt.de/VITKULTS">Schlagintweit, H.
                                                 1853</bibl>, 17 sowie <bibl corresp="https://edition-humboldt.de/IFS9SC2H">Schlagintweit,
                                                 A./Schlagintweit, H. 1854</bibl>, 506–507.</note></cell>
                             </row>
-                            <row>
-                                <cell cols="2"/>
+                            <row role="label">
                                 <cell>Sum̅e al<g ref="#typoHyphen"/><lb break="no"/>ler <choice>
                                         <abbr>Gl.</abbr>
                                         <expan>Gletscher</expan>
@@ -223,11 +225,11 @@
                                 <cell>Secun<g ref="#typoHyphen"/><lb break="no"/>däre.</cell>
                             </row>
                             <row>
-                                <cell cols="2"><hi rendition="#u"><placeName ref="https://editon-humboldt.de/H0017335">Cottische Alpen</placeName></hi>
-                                    <lb/>Massiv des <placeName ref="https://editon-humboldt.de/H0018726"><choice>
+                                <cell cols="2"><hi rendition="#u"><placeName ref="https://edition-humboldt.de/H0017335 https://www.geonames.org/3023403">Cottische Alpen</placeName></hi>
+                                    <lb/>Massiv des <placeName ref="https://edition-humboldt.de/H0018726 https://www.geonames.org/2988151"><choice>
                                             <abbr>Mt.</abbr>
                                             <expan>Mont</expan>
-                                        </choice> Pelvoux</placeName></cell>
+                                        </choice> Pelvoux</placeName>r</cell>
                                 <cell>50</cell>
                                 <cell>4</cell>
                                 <cell>46</cell>
@@ -237,12 +239,12 @@
                                 <cell><measure quantity="6800" unit="pied_de_roi">6800</measure></cell>
                             </row>
                             <row>
-                                <cell cols="2"><placeName ref="https://editon-humboldt.de/H0017199"><hi rendition="#u">Graiische Alpen</hi></placeName>
-                                    <lb/>Umgebungen des <placeName ref="https://editon-humboldt.de/H0019022"><choice>
+                                <cell cols="2"><placeName ref="https://edition-humboldt.de/H0017199 https://www.geonames.org/3175949"><hi rendition="#u">Graiische Alpen</hi></placeName>
+                                    <lb/>Umgebungen des <placeName ref="https://edition-humboldt.de/H0019022 https://www.geonames.org/3012717"><choice>
                                             <abbr>Mt</abbr>
                                             <expan>Mont</expan>
                                         </choice>
-                                        <lb/>Iséran</placeName> und des <placeName ref="https://editon-humboldt.de/H0017331">Pic <lb/>de Cogne</placeName></cell>
+                                        <lb/>Iséran</placeName> und des <placeName ref="https://edition-humboldt.de/H0017331 https://www.geonames.org/6540317">Pic <lb/>de Cogne</placeName></cell>
                                 <cell>30</cell>
                                 <cell>1</cell>
                                 <cell>29</cell>
@@ -252,18 +254,18 @@
                                 <cell><measure quantity="6900" unit="pied_de_roi">6900</measure></cell>
                             </row>
                             <row>
-                                <cell cols="2"><placeName ref="https://editon-humboldt.de/H0017257"><hi rendition="#u">Penninische <choice>
+                                <cell cols="2"><placeName ref="https://edition-humboldt.de/H0017257 https://www.geonames.org/2659235"><hi rendition="#u">Penninische <choice>
                                                 <abbr>Alp.</abbr>
                                                 <expan>Alpen</expan>
                                             </choice></hi></placeName>
-                                    <lb/>A. <placeName ref="https://editon-humboldt.de/H0008955 https://www.geonames.org/3181986">Mont-Blanc</placeName>
-                                    zwischen <lb/><placeName ref="https://editon-humboldt.de/H0017332">Col de
+                                    <lb/>A. <placeName ref="https://edition-humboldt.de/H0008955 https://www.geonames.org/3181986">Mont-Blanc</placeName>
+                                    zwischen <lb/><placeName ref="https://edition-humboldt.de/H0017332 https://www.geonames.org/3031804">Col de
                                         Bonhom̅e</placeName>
                                     <choice>
                                         <abbr>u.</abbr>
                                         <expan>und</expan>
                                     </choice>
-                                    <placeName ref="https://editon-humboldt.de/H0009938 https://www.geonames.org/2660518"><choice>
+                                    <placeName ref="https://edition-humboldt.de/H0009938 https://www.geonames.org/2660518"><choice>
                                             <abbr>St.</abbr>
                                             <expan>Sankt</expan>
                                         </choice>
@@ -271,8 +273,8 @@
                                             <abbr>Bernh</abbr>
                                             <expan>Bernhard</expan>
                                         </choice></placeName></cell>
-                                <cell><ref xml:id="f5e9ddc6-0e77-4039-a9dd-c60e7740395b" corresp="#c48d94d0-d270-4e34-8d94-d0d2700e3405" type="editorialNote">68</ref><note xml:id="c48d94d0-d270-4e34-8d94-d0d2700e3405" corresp="#f5e9ddc6-0e77-4039-a9dd-c60e7740395b" type="editorial">Schlagintweit, H. 1853:
-                                            61.</note><lb/></cell>
+                                <cell><ref xml:id="b4ab3e3d-c09b-4be3-ab3e-3dc09bcbe3c0" corresp="#eb2394b9-e7fa-4e6d-a394-b9e7fabe6da4" type="editorialNote">68</ref><note xml:id="eb2394b9-e7fa-4e6d-a394-b9e7fabe6da4" corresp="#b4ab3e3d-c09b-4be3-ab3e-3dc09bcbe3c0" type="editorial">In <bibl corresp="https://edition-humboldt.de/VITKULTS">Schlagintweit, H.
+                                                1853</bibl> angegebene, Summe: 61.</note><lb/></cell>
                                 <cell>8<lb/></cell>
                                 <cell>60<lb/></cell>
                                 <cell><measure quantity="8900" unit="pied_de_roi">8900</measure><lb/></cell>
@@ -282,8 +284,8 @@
                             </row>
                             <row>
                                 <cell cols="2">B<supplied cert="high">.</supplied>
-                                    <placeName ref="https://editon-humboldt.de/H0008958">Monte Rosa</placeName> zwischen
-                                        <lb/><placeName ref="https://editon-humboldt.de/H0017201"><choice>
+                                    <placeName ref="https://edition-humboldt.de/H0008958 https://www.geonames.org/2658971/monte-rosa.html">Monte Rosa</placeName> zwischen
+                                        <lb/><placeName ref="https://edition-humboldt.de/H0017201 https://www.geonames.org/2660518"><choice>
                                             <abbr>St<supplied cert="high">.</supplied></abbr>
                                             <expan>Sankt</expan>
                                         </choice>
@@ -295,7 +297,7 @@
                                         <abbr>u.</abbr>
                                         <expan>und</expan>
                                     </choice>
-                                    <placeName ref="https://editon-humboldt.de/H0009702">Simplon</placeName></cell>
+                                    <placeName ref="https://edition-humboldt.de/H0009702">Simplon</placeName></cell>
                                 <cell>135</cell>
                                 <cell>15</cell>
                                 <cell>120</cell>
@@ -305,16 +307,19 @@
                                 <cell><measure quantity="7200" unit="pied_de_roi">7200</measure></cell>
                             </row>
                             <row>
-                                <cell cols="2"><placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786"><hi rendition="#u"><choice>
-                                                <orig>Schweizeralpen</orig>
+                                <cell cols="2"><placeName ref="https://edition-humboldt.de/H0002402 https://www.geonames.org/2661786"><hi rendition="#u"><choice>
+                                                <orig>Schweize<subst>
+                                                  <del rendition="#ow">l</del>
+                                                  <add place="across">r</add>
+                                                  </subst>alpen</orig>
                                                 <reg>Schweizer Alpen</reg>
                                             </choice></hi></placeName>
-                                    <lb/>Das ganze Alpengebiet <lb/>zwischen den <placeName ref="https://editon-humboldt.de/H0017257">penninischen</placeName>
+                                    <lb/>Das ganze Alpengebiet <lb/>zwischen den <placeName ref="https://edition-humboldt.de/H0017257 https://www.geonames.org/2659235">penninischen</placeName>
                                     <lb/><choice>
                                         <abbr>u.</abbr>
                                         <expan>und</expan>
                                     </choice>
-                                    <placeName ref="https://editon-humboldt.de/H0010423 https://www.geonames.org/2661545">rhätischen Alpen</placeName>
+                                    <placeName ref="https://edition-humboldt.de/H0010423 https://www.geonames.org/2661545">rhätischen Alpen</placeName>
                                         zusam̅en<g ref="#typoHyphen"/><lb break="no"/>fassend.</cell>
                                 <cell>120</cell>
                                 <cell>13</cell>
@@ -325,21 +330,21 @@
                                 <cell><measure quantity="6740" unit="pied_de_roi">6740</measure></cell>
                             </row>
                             <row>
-                                <cell cols="2"><placeName ref="https://editon-humboldt.de/H0010423 https://www.geonames.org/2661545"><hi rendition="#u">Rhätische Alpen</hi></placeName>
-                                    <lb/>A. <placeName ref="https://editon-humboldt.de/H0017575">Graubündtner Alpen</placeName>
+                                <cell cols="2"><placeName ref="https://edition-humboldt.de/H0010423 https://www.geonames.org/2661545"><hi rendition="#u">Rhätische Alpen</hi></placeName>
+                                    <lb/>A. <placeName ref="https://edition-humboldt.de/H0017575 https://www.geonames.org/2661545">Graubündtner Alpen</placeName>
                                     <lb/>B<supplied cert="high">.</supplied> Umgebungen des
-                                        <placeName ref="https://editon-humboldt.de/H0017583">Ortles</placeName>
+                                        <placeName ref="https://edition-humboldt.de/H0017583 https://www.geonames.org/3171890">Ortle<supplied cert="high">r</supplied>s</placeName>
                                     <lb/>C<supplied cert="high">.</supplied>
-                                    <placeName ref="https://editon-humboldt.de/H0017578">Oetzthalergruppe</placeName>
+                                    <placeName ref="https://edition-humboldt.de/H0017578 https://www.geonames.org/2761197">Oetzthalergruppe</placeName>
                                     <lb/>D<supplied cert="high">.</supplied> Vereinzelte <choice>
                                         <abbr>Gl<supplied cert="high">.</supplied></abbr>
                                         <expan>Gletscher</expan>
-                                    </choice> in den <lb/><placeName ref="https://editon-humboldt.de/H0010423 https://www.geonames.org/2661545">rhätischen</placeName>
+                                    </choice> in den <lb/><placeName ref="https://edition-humboldt.de/H0010423 https://www.geonames.org/2661545">rhätischen</placeName>
                                     <choice>
                                         <abbr>u.</abbr>
                                         <expan>und</expan>
                                     </choice>
-                                    <placeName ref="https://editon-humboldt.de/H0018679"><choice>
+                                    <placeName ref="https://edition-humboldt.de/H0018679 https://www.geonames.org/3180478"><choice>
                                             <abbr>carn.</abbr>
                                             <expan>carnischen</expan>
                                         </choice>
@@ -374,10 +379,10 @@
                                     <lb/><measure quantity="7000" unit="pied_de_roi">7000</measure></cell>
                             </row>
                             <row>
-                                <cell cols="2"><hi rendition="#u"><placeName ref="https://editon-humboldt.de/H0017224">Norische
+                                <cell cols="2"><hi rendition="#u"><placeName ref="https://edition-humboldt.de/H0017224 https://www.geonames.org/2777697">Norische
                                             Alpen</placeName></hi><lb/>A<supplied cert="high">.</supplied>
-                                    <placeName ref="https://editon-humboldt.de/H0017594 https://www.geonames.org/2603823">Tauern</placeName><lb/>B<supplied cert="high">.</supplied>
-                                    <placeName ref="https://editon-humboldt.de/H0017361">Salzkam̅ergut</placeName></cell>
+                                    <placeName ref="https://edition-humboldt.de/H0017594 https://www.geonames.org/2603823">Tauern</placeName><lb/>B<supplied cert="high">.</supplied>
+                                    <placeName ref="https://edition-humboldt.de/H0017361 https://www.geonames.org/2766813">Salzkam̅ergut</placeName></cell>
                                 <cell>
                                     <lb/>240 <lb/>10</cell>
                                 <cell>
@@ -400,7 +405,7 @@
                                     <lb/><measure quantity="7300" unit="pied_de_roi">7300</measure>
                                     <lb/><measure quantity="7300" unit="pied_de_roi">7300</measure></cell>
                             </row>
-                        </table>
+                        </tei:table>
                     </p>
                     <pb n="3r"/>
                     <gap unit="pages" quantity="1" reason="empty"/>

@@ -32,9 +32,9 @@
                     </resp>
                 </respStmt>
             </titleStmt><editionStmt><p>Robert Schlagintweit an Alexander von Humboldt. Weimar, 14. April
-                    1858, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+                    1858, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0017987">https://edition-humboldt.de/v10/H0017987</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0017987</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0017987.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -46,93 +46,101 @@
                             <idno type="shelfmark">Nr. 19767, Bl. 127r–128r</idno>
                         </idno>
                     </msIdentifier>
+                    
                 </msDesc>
             </sourceDesc>
         </fileDesc>
         <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
+                    <persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
                         (1833-1885)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0007930 https://www.geonames.org/2812482">Weimar</placeName>
+                    <placeName ref="https://edition-humboldt.de/H0007930 https://www.geonames.org/2812482">Weimar</placeName>
                     
                     <date when="1858-04-14" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+
     </teiHeader>
     <text><body>
             <div type="writingSession">
                 <pb n="127r"/>
                 <opener>
-                    <dateline><placeName ref="https://editon-humboldt.de/H0007930 https://www.geonames.org/2812482">Weimar</placeName>,
-                        den 14<hi rendition="#sup">t</hi>. April <lb/> 1858.</dateline>
-                    <lb/>
+                    <dateline><placeName ref="https://edition-humboldt.de/H0007930 https://www.geonames.org/2812482">Weimar</placeName>,
+                        den 14<hi rendition="#u"><hi rendition="#sup">t</hi></hi> April
+                        <lb/>1858.</dateline>
                     <salute>Hochverehrteste Excellenz!</salute>
-                    <lb/>
                 </opener>
                 <p>Leider erhielten wir neulich, <lb/>anstatt irgend einer günstigen <lb/>Antwort
                     des Ministeriums <lb/>einen
-                    <ref xml:id="ef28c9a9-04ab-4c18-a8c9-a904ab1c183d" corresp="#b473de09-d0e7-46ac-b3de-09d0e716aca5" type="editorialNote">Brief von <choice>
-                                <abbr>geh.</abbr>
-                                <expan>geheim</expan>
-                            </choice> Rathe <lb/><persName ref="https://editon-humboldt.de/H0015288 http://d-nb.info/gnd/121466787">Illaire</persName></ref><note xml:id="b473de09-d0e7-46ac-b3de-09d0e716aca5" corresp="#ef28c9a9-04ab-4c18-a8c9-a904ab1c183d" type="editorial" resp="#UP">Dieses Schreiben konnte bislang nicht
+                    <ref xml:id="d51fa3cc-f998-4d5b-9fa3-ccf998bd5b4c" corresp="#b4ca8914-8418-4be2-8a89-1484180be22c" type="editorialNote">Brief von <choice>
+                                <orig><choice>
+                                        <abbr>geh.</abbr>
+                                        <expan>geheim</expan>
+                                    </choice> Rathe</orig>
+                                <reg>Geheimrathe</reg>
+                            </choice>
+                            <lb/><persName ref="https://edition-humboldt.de/H0015288 http://d-nb.info/gnd/121466787">Illaire</persName></ref><note xml:id="b4ca8914-8418-4be2-8a89-1484180be22c" corresp="#d51fa3cc-f998-4d5b-9fa3-ccf998bd5b4c" type="editorial" resp="#UP">Dieses Schreiben konnte bislang nicht
                             ermittelt werden.</note>, worin uns mitgetheilt
-                    <lb/>wurde, daß über den Verlauf <lb/>der <ref xml:id="e2674fce-6fff-4d64-a74f-ce6fff8d6448" corresp="#b9f3d44a-471b-4d68-b3d4-4a471b6d689c" type="editorialNote">Verhandlungen der Kom̅ission</ref><note xml:id="b9f3d44a-471b-4d68-b3d4-4a471b6d689c" corresp="#e2674fce-6fff-4d64-a74f-ce6fff8d6448" type="editorial" resp="#UP">Eine Kommission des
+                    <lb/>wurde, daß über den Verlauf <lb/>der <ref xml:id="d6b3b49a-3267-41e5-b3b4-9a3267f1e5ea" corresp="#f7125bce-eb8c-45ad-925b-ceeb8cf5ad0b" type="editorialNote">Verhandlungen der Kom̅ission</ref><note xml:id="f7125bce-eb8c-45ad-925b-ceeb8cf5ad0b" corresp="#d6b3b49a-3267-41e5-b3b4-9a3267f1e5ea" type="editorial" resp="#UP">Eine Kommission des
                             Kultusministeriums untersuchte die Möglichkeit des Ankaufs der
                             Schlagintweit-Sammlung und der Einrichtung eines Indischen Museums in
-                                <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>. In ihrem Bericht an
-                            Minister <persName ref="https://editon-humboldt.de/H0000753 http://d-nb.info/gnd/11636503X">Raumer</persName> riet die Kommission
+                                <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>. In ihrem Bericht an
+                            Minister <persName ref="https://edition-humboldt.de/H0000753 http://d-nb.info/gnd/11636503X">Raumer</persName> riet die Kommission
                             bereits am 29. März 1859 von einem Ankauf ab. Siehe <bibl corresp="https://edition-humboldt.de/WTFQR2LC">Brescius 2019</bibl>, 275.</note>
                     <lb/>ein Bericht derselben nicht
                     <lb/>eingegangen ist, ungeachtet un<g ref="#typoHyphen"/><lb break="no"/>serer
-                    wohlbekannten dringenden <lb/>Abreise nach <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>. <lb/></p>
+                    wohlbekannten dringenden <lb/>Abreise nach <placeName ref="https://edition-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName>. <lb/></p>
                 <p rendition="#mMM">Noch betrübender als dieß, <lb/>waren die Nachrichten, die
-                    <lb/>wir <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">officiell vom India</hi><placeName ref="https://editon-humboldt.de/H0016795 https://www.geonames.org/2643743">
+                    <lb/>wir <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">officiell vom India</hi><placeName ref="https://edition-humboldt.de/H0016795 https://www.geonames.org/2643743">
                         House</placeName>
-                    <lb/>gestern über <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph</persName>
+                    <lb/>gestern über <persName ref="https://edition-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph</persName>
                         erhielten.<pb n="127v"/>
-                    <lb/>Es wird von <placeName ref="https://editon-humboldt.de/H0010713 https://www.geonames.org/1281307">Yarkandis</placeName>, die <lb/>nach
-                        <placeName ref="https://editon-humboldt.de/H0011319 https://www.geonames.org/12096464">Ladak</placeName> kamen, gerücht<g ref="#typoHyphen"/><lb break="no"/>weise erzählt, er habe in <lb/>einem
-                    Gefechte gegen die <lb/>Chinesen, in der Nähe <placeName ref="https://editon-humboldt.de/H0010713 https://www.geonames.org/1281307">Yar-<lb break="no"/>kand</placeName>s das Leben verloren!</p>
-                <p rendition="#mMM">Wir werden Ihnen die <lb/>Original Briefe in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> zeigen, <lb/>erlauben uns aber, jetzt
-                    schon, <lb/>den Schluss des Briefes des <placeName ref="https://editon-humboldt.de/H0016795 https://www.geonames.org/2643743"><lb/>India
+                    <lb/>Es wird von <placeName ref="https://edition-humboldt.de/H0010713 https://www.geonames.org/1281307">Yarkandis</placeName>, die <lb/>nach
+                        <placeName ref="https://edition-humboldt.de/H0011319 https://www.geonames.org/12096464">Ladak</placeName> kamen, gerücht<g ref="#typoHyphen"/><lb break="no"/>weise erzählt, er habe in <lb/>einem
+                    Gefechte gegen die <lb/>Chinesen, in der Nähe <placeName ref="https://edition-humboldt.de/H0010713 https://www.geonames.org/1281307">Yar-<lb break="no"/>kand</placeName>s das Leben verloren!</p>
+                <p rendition="#mMM">Wir werden Ihnen die <lb/>Original Briefe in <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> zeigen, <lb/>erlauben uns aber, jetzt
+                    schon, <lb/>den Schluss des Briefes des <placeName ref="https://edition-humboldt.de/H0016795 https://www.geonames.org/2643743"><lb/>India
                         Houses</placeName> mitzutheilen, <lb/>da er zeigt, welch persönliches
-                    <lb/>Interesse man in <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName> an <lb/>ihm
-                    und uns nim̅t, <ref xml:id="c8313dd7-286b-44d0-b13d-d7286bc4d007" corresp="#e523dcd4-aac0-42a9-a3dc-d4aac052a90d" type="editorialNote">so ver<g ref="#typoHyphen"/><lb break="no"/>schieden von der
-                            offiziellen <lb/>Aufnahme, die unsere <lb/>Bestrebungen in <placeName ref="https://editon-humboldt.de/H0008406">Preussen</placeName>
-                            <lb/>finden.</ref><note xml:id="e523dcd4-aac0-42a9-a3dc-d4aac052a90d" corresp="#c8313dd7-286b-44d0-b13d-d7286bc4d007" type="editorial" resp="#LM #UP">Nicht nur die ablehnende Haltung
+                    <lb/>Interesse man in <placeName ref="https://edition-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName> an <lb/>ihm
+                    und uns nim̅t, <ref xml:id="f657d8c9-327f-429f-97d8-c9327f329f4a" corresp="#ad643a48-4f8a-4402-a43a-484f8ad402ff" type="editorialNote">so ver<g ref="#typoHyphen"/><lb break="no"/>schieden von der
+                            officiellen <lb/>Aufnahme, die unsere <lb/>Bestrebungen in <placeName ref="https://edition-humboldt.de/H0008406">Preussen</placeName>
+                            <lb/>finden:</ref><note xml:id="ad643a48-4f8a-4402-a43a-484f8ad402ff" corresp="#f657d8c9-327f-429f-97d8-c9327f329f4a" type="editorial" resp="#LM #UP">Nicht nur die ablehnende Haltung
                             des preußischen Kultusminsteriums gegenüber der Idee eines Indischen
                             Museums in Berlin enttäuschte die Brüder Schlagintweit. Sie sahen sich
                             darüber hinaus öffentlicher Kritik – bis hin zur satirischen Darstellung
                             ihrer Person und ihrer Reise in der Berliner Zeitschrift <hi rendition="#i">Kladderadatsch</hi> – ausgesetzt Vgl. <bibl corresp="https://edition-humboldt.de/QMASZTEW">Brescius 2015a</bibl>, 258f. </note>
                 </p>
-                <p rendition="#mMM"><quote><foreign xml:lang="english">The <orgName ref="https://editon-humboldt.de/H0016794 https://d-nb.info/gnd/2052078-5">Court</orgName> will not fail <lb/>to com̅unicate to you, at the
+                <p rendition="#mMM"><quote><foreign xml:lang="english">The <orgName ref="https://edition-humboldt.de/H0016794 https://d-nb.info/gnd/2052078-5">Court</orgName> will not fail <lb/>to com̅unicate to you, at the
                             <lb/>earliest moment, any further <lb/>information, which may reach
-                            <lb/>there regarding your brother,<pb n="128r"/>
+                            <lb/>there regarding your <persName ref="https://edition-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">brother</persName>,<pb n="128r"/>
                             <lb/>whose death, if it should <lb/>unhappily prove to have taken
-                            <lb/>place, will be much deplored <lb/>by them.</foreign>
-                        <foreign xml:lang="eng">London, 8<hi rendition="#sup"><hi rendition="#u">th</hi></hi> April <lb/>1858.</foreign></quote></p>
-                <p>Hier wurden wir allerdings <lb/>auf das wärmste aufgenommen; <lb/>wir hatten das
-                    Glück bei den <lb/>Hoffesten und auch bei einem <lb/>Diner, die <persName ref="https://editon-humboldt.de/H0002143 http://d-nb.info/gnd/118651102">Prinzess von Preussen</persName>
-                    <lb/>zu sehen, die sich lebhaft für <lb/>unsere Sam̅lungen und das,
-                    <lb/>was aus Ihnen werden wird, <lb/>zu interessiren schien.</p>
+                            <lb/>place, will be much deplored <lb/>by them.</foreign></quote></p>
+                <p rendition="#mMM"><quote><foreign xml:lang="eng">London, 8<hi rendition="#sup"><hi rendition="#u">th</hi></hi> April
+                    <lb/>1858.</foreign></quote></p>
+                <p>Hier wurden wir allerdings <lb/>auf das wärmste aufgenom̅en; <lb/>wir
+                    hatten das Glück<supplied cert="high">,</supplied> bei den <lb/>Hoffesten und
+                    auch bei einem <lb/>Diner, die <persName ref="https://edition-humboldt.de/H0002143 http://d-nb.info/gnd/118651102">Prinzess von
+                        Preussen</persName>
+                    <lb/>zu sehen, die sich lebhaft für <lb/>unsere Sam̅lungen und das, <lb/>was aus
+                    Ihnen werden wird, <lb/>zu interessiren schien.</p>
                 <p>Wir werden Montag Abend <lb/>(<choice>
                         <abbr>d</abbr>
                         <expan>den</expan>
-                    </choice> 19<hi rendition="#sup">t.</hi>) in <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> eintreffen, <lb/>und hoffen so glücklich zu sein,
-                    <lb/>Ihnen näheres berichten zu können.</p>
+                    </choice> 19<hi rendition="#sup">t.</hi>) in <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> eintreffen, <lb/>und hoffen<supplied cert="high">,</supplied> so glücklich zu sein, <lb/>Ihnen näheres berichten zu
+                    können.</p>
                 <p>Mit <choice>
                         <abbr>d.</abbr>
                         <expan>dem</expan>
                     </choice> Ausdrucke der ausge<g ref="#typoHyphen"/><lb break="no"/>zeichnetsten
                     Hochachtung &amp; Verehrung</p>
                 <closer>
-                    <salute>Eurer Excellenz <lb/>dankbarst ergeben<supplied cert="high">ster</supplied></salute>
-                    <signed><persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert Schlagentwei<supplied cert="high">t</supplied></persName></signed>
+                    <salute>Eurer Excellenz <lb/>dankbarst ergebener</salute>
+                    <signed><persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert Schlagentwei<supplied cert="high">t</supplied></persName></signed>
                 </closer><pb n="128v"/>
                 <gap unit="pages" quantity="1" reason="empty"/>
             </div>

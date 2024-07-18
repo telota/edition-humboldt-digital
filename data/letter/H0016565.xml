@@ -29,8 +29,8 @@
                </resp>
             </respStmt>
          </titleStmt><editionStmt><p>Christian Gottfried Ehrenberg an Alexander von Humboldt. Berlin, 28. Dezember
-               1858, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
-         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+               1858, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0016565">https://edition-humboldt.de/v10/H0016565</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0016565</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0016565.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -48,67 +48,79 @@
       <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
-               <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
-               <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+               <persName ref="https://edition-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+               <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                <date when="1858-12-28"/>
             </correspAction>
             <correspAction type="received">
-               <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
             </correspAction>
          </correspDesc>
       </profileDesc>
+      
    </teiHeader>
    <text><body>
          <div type="writingSession">
             <pb n="1r" facs="http://resolver.staatsbibliothek-berlin.de/SBB00016A0000000001"/>
             <note place="mTop" hand="https://edition-humboldt.de/#addressee">
-               <p>Eichen</p>
-               <p>Georgi II 639 lezte <lb/><gap reason="illegible" unit="words" quantity="1"/> aus
-                  <lb/>der Kama <lb/>in Perm <lb/>östlichste <lb/>Grenze <unclear reason="illegible" cert="low">ist</unclear>
-                  <lb/>vor <lb/><unclear reason="illegible" cert="low">nertschinsk</unclear>
-                  <lb/>Ural</p>
-               <p>Keine <lb/>Eichen <lb/>in Sibirien</p>
+               <p><name type="plant" subtype="vernacular" key="Quercus">Eichen</name></p>
+               <p><bibl corresp="https://edition-humboldt.de/R5L4HJEN"><persName ref="https://edition-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName>
+                     <ref target="https://www.digitale-sammlungen.de/view/bsb10897018?page=139">II
+                        639</ref></bibl> lezte <lb/><gap reason="illegible" unit="words" quantity="1"/> aus <lb/>der <placeName ref="https://edition-humboldt.de/H0000337 https://www.geonames.org/553875">Kama</placeName>
+                  <lb/>in <placeName ref="https://edition-humboldt.de/H0008223 https://www.geonames.org/511196">Perm</placeName>
+                  <lb/>östlichste <lb/>Grenze <unclear reason="illegible" cert="low">ist</unclear>
+                  <lb/>vor <lb/><unclear reason="illegible" cert="low"><placeName ref="https://edition-humboldt.de/H0019110 https://www.geonames.org/2019326">nertschinsk</placeName></unclear>
+                  <lb/><placeName ref="https://edition-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName></p>
+               <p><name type="plant" subtype="vernacular" key="Quercus">Eichen</name>
+                  <lb/><name type="plant" subtype="vernacular" key="Quercus">Eichen</name> <lb/>in <placeName ref="https://edition-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibirien</placeName></p>
             </note>
             <p>Es freut mich, daß ich Ihnen die <lb/>gestern Abend gewünschte Stelle der
-               <lb/>Nachricht über die östlichsten Krebse <lb/>und Eichen in Rußland sogleich nach<g ref="#typoHyphen"/><lb break="no"/>weisen kann. Es ist nicht in <persName ref="https://editon-humboldt.de/H0013514 http://d-nb.info/gnd/11903705X">Gme<g ref="#typoHyphen"/><lb break="no"/>lins</persName> Reisen,
-               sondern in <persName ref="https://editon-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName>'s Reise <lb/>von 1772, <choice>
-                  <abbr>ed.</abbr>
-                  <expan>editio</expan>
-               </choice> 1775. Während <persName ref="https://editon-humboldt.de/H0001770 http://d-nb.info/gnd/118591371">Pallas</persName>
-               <lb/>in seiner Reise I. <choice>
-                  <abbr>p.</abbr>
-                  <expan>pagina</expan>
-               </choice> 134 von den be<g ref="#typoHyphen"/><lb break="no"/>sonders großen aber
-               unschmackhaften <lb/>Krebsen der Wolga spricht, meldet <lb/><persName ref="https://editon-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName> I. <choice>
-                  <abbr>p.</abbr>
-                  <expan>pagina</expan>
-               </choice>
-               356,
-               daß es in den Nert<g ref="#typoHyphen"/><lb break="no"/>schinskischen Flüssen,
-               besonders der <lb/>Ingoda, einem Quellflusse der Schilka, <lb/>also jenseits des
-               Baikal Sees in Daurien, <lb/>unserem Flußkrebs gleichend aber <lb/>kleinere Krebse
-               giebt, die er für die Flüsschen <lb/><pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00016A0000000002"/>erklärt und <del rendition="#s">für</del> Sibirien abspricht.</p>
-            <p>Was die östlichsten Eichen an<g ref="#typoHyphen"/><lb break="no"/>langt, so ist
-               davon auch bei <persName ref="https://editon-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName>
-               <lb/><hi rendition="#u">II <choice>
-                     <abbr>p.</abbr>
-                     <expan>pagina</expan>
-                  </choice> 639</hi> im Permschen Gebiet <lb/>der Kama die Rede. Sie sollen <lb/>den
-               östlichen Gebirgen, also dem Ural <lb/>zunächst, fehlen. Das erste Dorf bey <lb/>dem
-               sie in kleinem Maaßstabe vor<g ref="#typoHyphen"/><lb break="no"/>kommen heißt
-               Dabrowskoje Selo <lb/>(Eichendorf). Eine kurze Wieder<g ref="#typoHyphen"/><lb break="no"/>holung der Angabe findet sich bey <lb/><persName ref="https://editon-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName> II. <choice>
-                  <abbr>p.</abbr>
-                  <expan>pagina</expan>
-               </choice> 385.</p>
+               <lb/>Nachricht über die östlichsten Krebse <lb/>und <name type="plant" subtype="vernacular" key="Quercus">Eichen</name> in <placeName ref="https://edition-humboldt.de/H0010689 https://www.geonames.org/2017370">Rußland</placeName> sogleich nach<g ref="#typoHyphen"/><lb break="no"/>weisen
+               kann. Es ist nicht in <persName ref="https://edition-humboldt.de/H0013514 http://d-nb.info/gnd/11903705X">Gme<g ref="#typoHyphen"/><lb break="no"/>lins</persName> Reisen, sondern in <bibl corresp="https://edition-humboldt.de/R5L4HJEN"><persName ref="https://edition-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName>'s Reise
+                  <lb/>von 1772, <choice>
+                     <abbr>ed.</abbr>
+                     <expan>editio</expan>
+                  </choice> 1775</bibl>. Während <persName ref="https://edition-humboldt.de/H0001770 http://d-nb.info/gnd/118591371">Pallas</persName>
+               <lb/>in seiner <bibl corresp="https://edition-humboldt.de/R4WQUN9R">Reise I. <ref target="https://nbn-resolving.org/urn:nbn:de:gbv:32-1-10023315545"><choice>
+                        <abbr>p.</abbr>
+                        <expan>pagina</expan>
+                     </choice> 134</ref></bibl> von den be<g ref="#typoHyphen"/><lb break="no"/>sonders großen aber unschmackhaften <lb/>Krebsen der <placeName ref="https://edition-humboldt.de/H0007984 https://www.geonames.org/472776">Wolga</placeName> spricht, meldet <lb/><bibl corresp="https://edition-humboldt.de/R5L4HJEN"><persName ref="https://edition-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName>
+                  <ref target="https://nbn-resolving.org/urn:nbn:de:kobv:11-713704/fragment/page=378">I. <choice>
+                        <abbr>p.</abbr>
+                        <expan>pagina</expan>
+                     </choice> 356</ref></bibl>, daß es in den Nert<g ref="#typoHyphen"/><lb break="no"/>schinskischen Flüssen, besonders der <lb/><placeName ref="https://edition-humboldt.de/H0017483 https://www.geonames.org/2023529">Ingoda</placeName>, einem Quellflusse der <placeName ref="https://edition-humboldt.de/H0017383 https://www.geonames.org/2016707">Schilka</placeName>, <lb/>also jenseits des <placeName ref="https://edition-humboldt.de/H0005077 https://www.geonames.org/2026982">Baikal
+                  See</placeName>s in <placeName ref="https://edition-humboldt.de/H0017338 https://www.geonames.org/7779061">Daurien</placeName>, <lb/>unserem
+               Flußkrebs gleichend aber <lb/>kleinere Krebse giebt, die er für die Flüsschen
+                  <lb/><pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB00016A0000000002"/>erklärt und
+                  <del rendition="#s">für</del>
+               <placeName ref="https://edition-humboldt.de/H0010218 https://www.geonames.org/2016590">Sibirien</placeName> abspricht.</p>
+            <p>Was die östlichsten <name type="plant" subtype="vernacular" key="Quercus">Eichen</name> an<g ref="#typoHyphen"/><lb break="no"/>langt, so ist davon auch bei <bibl corresp="https://edition-humboldt.de/R5L4HJEN"><persName ref="https://edition-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName>
+                  <lb/><ref target="https://www.digitale-sammlungen.de/view/bsb10897018?page=139"><hi rendition="#u">II <choice>
+                           <abbr>p.</abbr>
+                           <expan>pagina</expan>
+                        </choice> 639</hi></ref></bibl> im <placeName ref="https://edition-humboldt.de/H0020632">Permschen
+                  Gebiet</placeName>
+               <lb/>der <placeName ref="https://edition-humboldt.de/H0000337 https://www.geonames.org/553875">Kama</placeName> die Rede. Sie sollen <lb/>den
+               östlichen Gebirgen, also dem <placeName ref="https://edition-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>
+               <lb/>zunächst, fehlen. Das erste Dorf bey <lb/>dem sie in kleinem Maaßstabe vor<g ref="#typoHyphen"/><lb break="no"/>kommen heißt <placeName ref="https://edition-humboldt.de/H0019985 https://www.geonames.org/564537">Dabrowskoje</placeName>
+               Selo
+               <lb/>(Eichendorf). Eine kurze Wieder<g ref="#typoHyphen"/><lb break="no"/>holung der
+               Angabe findet sich bey <lb/><bibl corresp="https://edition-humboldt.de/R5L4HJEN"><persName ref="https://edition-humboldt.de/H0016906 http://d-nb.info/gnd/116562374">Georgi</persName>
+                  <ref target="https://www.digitale-sammlungen.de/view/bsb10897018?page=185">II. <choice>
+                        <abbr>p.</abbr>
+                        <expan>pagina</expan>
+                     </choice> 685</ref></bibl>.</p>
             <p>Ich weiß nicht daß neuerlich Zweyfel <lb/>über die Identität des daurischen <name type="animal" key="Astacus">Asta<g ref="#typoHyphen"/><lb break="no"/>cus</name>
-               mit unsrem erhoben worden <lb/>wären. Weder <persName ref="https://editon-humboldt.de/H0016935 http://d-nb.info/gnd/117668869">Audouin</persName> noch <persName ref="https://editon-humboldt.de/H0016987 http://d-nb.info/gnd/104263148">Brandt</persName>
+               mit unsrem erhoben worden <lb/>wären. Weder <persName ref="https://edition-humboldt.de/H0016935 http://d-nb.info/gnd/117668869">Audouin</persName> noch <persName ref="https://edition-humboldt.de/H0016987 http://d-nb.info/gnd/104263148">Brandt</persName>
                <lb/>haben ihn unterschieden.</p>
-            <p>Wir selbst haben ebenfalls über Perm <lb/>hinaus keine Eichen gesehen.</p>
-            <p>Von <persName ref="https://editon-humboldt.de/H0017011 http://d-nb.info/gnd/11634444X">Kotschys</persName> Prachtwerk <lb/><pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB00016A0000000003"/>habe ich
-               beim Osterreichischen Gesandten <lb/>in Florenz<supplied cert="high">,</supplied>
-               Herrn <persName ref="https://editon-humboldt.de/H0012041 http://d-nb.info/gnd/11894343X">v Hügel</persName> ein <lb/>Heft gesehen. Es schien
-               mir fast mehr <lb/>eine Demonstration als eine zweckmäßige <lb/>Ausstattung der
-               deutschen Eichen zu seyn. </p>
+            <p>Wir selbst haben ebenfalls über <placeName ref="https://edition-humboldt.de/H0008223 https://www.geonames.org/511196">Perm</placeName>
+               <lb/>hinaus keine <name type="plant" subtype="vernacular" key="Quercus">Eichen</name> gesehen.</p>
+            <p>Von <persName ref="https://edition-humboldt.de/H0017011 http://d-nb.info/gnd/11634444X">Kotschys</persName> Prachtwerk <lb/><pb n="2r" facs="http://resolver.staatsbibliothek-berlin.de/SBB00016A0000000003"/>habe ich
+               beim Osterreichischen Gesandten <lb/>in <placeName ref="https://edition-humboldt.de/H0004778 https://www.geonames.org/3176959">Florenz</placeName><supplied cert="high">,</supplied> Herrn <persName ref="https://edition-humboldt.de/H0012041 http://d-nb.info/gnd/11894343X"><choice>
+                     <abbr>v</abbr>
+                     <expan>von</expan>
+                  </choice> Hügel</persName> ein <lb/>Heft gesehen. Es schien mir fast mehr
+               <lb/>eine Demonstration als eine zweckmäßige <lb/>Ausstattung der deutschen <name type="plant" subtype="vernacular" key="Quercus">Eichen</name> zu seyn. </p>
             <closer rend="paragraph">
                <salute>In herzlicher Verehrung <lb/>Ihr <lb/>dankbar ergebenster </salute>
                <signed>Ehrenberg</signed>

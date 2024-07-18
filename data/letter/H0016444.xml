@@ -32,9 +32,9 @@
                     </resp>
                 </respStmt>
             </titleStmt><editionStmt><p>Hermann Schlagintweit an Alexander von Humboldt. London, 22. Juli
-                    1858, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+                    1858, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0016444">https://edition-humboldt.de/v10/H0016444</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0016444</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0016444.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -48,16 +48,17 @@
         <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
+                    <persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>
+                    <placeName ref="https://edition-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>
                     <date when="1858-07-22" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
+        
     </teiHeader>
     <text><body>
             <div type="writingSession"><pb n="1r"/>
@@ -66,46 +67,48 @@
                     <salute>Hochverehrteste
                         Excellenz</salute>
                 </opener>
-                <p>So eben im Begriffe <ref target="https://edition-humboldt.de/H0016437">den <lb/>beiliegenden Brief</ref>
-                        abzu<g ref="#typoHyphen"/><lb break="no"/>schicken, wurden wir aufs
-                    <lb/>Neue durch Mittheilungen <lb/>von Ihnen und durch <lb/><persName ref="https://editon-humboldt.de/H0016913">Gumperts</persName> Brief erfreut; <lb/>wir danken wiederholt
-                    auf <lb/>das lebhafteste für Ihre <lb/>so beglückende Theilnahme <lb/>am
-                    Schicksale unseres <lb/><persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruders</persName>. Mögen die
-                        Nach<g ref="#typoHyphen"/><lb break="no"/><pb n="1v"/>forschungen, die Consul
-                        <lb/><persName ref="https://editon-humboldt.de/H0016913">Gumpert</persName> mit so warmem <lb/>Eifer
-                    fortführt anzu<g ref="#typoHyphen"/><lb break="no"/>stellen, recht bald noch
-                    <lb/>bestimmtere Resultate <lb/>bringen.</p>
+                <p>So eben im Begriffe<supplied cert="high">,</supplied>
+                    <ref target="https://edition-humboldt.de/H0016437">den <lb/>beiliegenden Brief</ref> abzu<g ref="#typoHyphen"/><lb break="no"/>schicken, wurden wir aufs <lb/>Neue durch
+                    Mittheilungen <lb/>von Ihnen und durch <lb/><persName ref="https://edition-humboldt.de/H0016913">Gumperts</persName> Brief erfreut; <lb/>wir danken wiederholt auf <lb/>das
+                    lebhafteste für Ihre <lb/>so beglückende Theilnahme <lb/>am Schicksale unseres
+                        <lb/><persName ref="https://edition-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Bruders</persName>. Mögen die Nach<g ref="#typoHyphen"/><lb break="no"/><pb n="1v"/>forschungen, die Consul
+                        <lb/><persName ref="https://edition-humboldt.de/H0016913">Gumpert</persName> mit so warme<subst>
+                        <del rendition="#ow">n</del>
+                        <add place="across">m</add>
+                    </subst>
+                    <lb/>Eifer fortführt anzu<g ref="#typoHyphen"/><lb break="no"/>stellen, recht
+                    bald noch <lb/>bestimmtere Resultate <lb/><subst>
+                        <del rendition="#ow">e</del>
+                        <add place="across">b</add>
+                    </subst>ringen.</p>
                 <p>Ich sehe, dass wir <lb/>in unserem ersten Briefe <lb/>vergassen zu erwähnen,
-                    <lb/>dass wir jüngst im <lb/>Parliament einen klei<g ref="#typoHyphen"/><lb break="no"/>nen Bericht über Communi<g ref="#typoHyphen"/><lb break="no"/>cationswege zwischen <lb/><placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> und
-                        <placeName ref="https://editon-humboldt.de/H0015014 https://www.geonames.org/7729893">Centralasien</placeName>
+                    <lb/>dass wir jüngst im <lb/>Parliament einen klei<g ref="#typoHyphen"/><lb break="no"/>nen Bericht über Communi<g ref="#typoHyphen"/><lb break="no"/>cationswege zwischen <lb/><placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> und
+                        <placeName ref="https://edition-humboldt.de/H0015014 https://www.geonames.org/7729893">Centralasien</placeName>
                     <lb/>und über die allgemeinsten <lb/>orographischen Verhältnisse <lb/><pb n="2r"/><choice>
                         <sic>zu geben</sic>
                         <corr cert="high">gaben</corr>
-                    </choice><ref xml:id="d0f60a65-bca7-4858-b60a-65bca788583f" corresp="#c949f2b8-353f-4244-89f2-b8353fd2440f" type="editorialNote">.</ref><note xml:id="c949f2b8-353f-4244-89f2-b8353fd2440f" corresp="#d0f60a65-bca7-4858-b60a-65bca788583f" type="editorial" resp="#UP">Hermann und Robert Schlagintweit
+                    </choice><ref xml:id="a960f79c-b1c1-49fa-a0f7-9cb1c119fa92" corresp="#e6ee0278-a2dc-4c38-ae02-78a2dc9c3891" type="editorialNote">.</ref><note xml:id="e6ee0278-a2dc-4c38-ae02-78a2dc9c3891" corresp="#a960f79c-b1c1-49fa-a0f7-9cb1c119fa92" type="editorial" resp="#UP">Hermann und Robert Schlagintweit
                             wurden am 6. Juli 1858 vom <hi rendition="#i">Select Committee on
                                 Colonisation and Settlement (India)</hi> des <hi rendition="#i">House of Commons</hi> befragt. Vgl. <bibl corresp="https://edition-humboldt.de/WTFQR2LC">Brescius 2019</bibl>, 251 sowie
                                 <bibl corresp="https://edition-humboldt.de/M56PWZFG">House of Commons 1858</bibl>,
                             1–10.</note> Es ist kaum <lb/>nöthig zu erwähnen, dass <lb/>wir bei dieser Gelegenheit
-                    <lb/>wiederholt auf <ref xml:id="e2d39a60-e8dd-499b-939a-60e8dde99bfd" corresp="#b874ee8d-801e-41e1-b4ee-8d801e01e119" type="editorialNote">Ihre <lb/>Karte der <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Asie
-                                centrale</bibl></ref><note xml:id="b874ee8d-801e-41e1-b4ee-8d801e01e119" corresp="#e2d39a60-e8dd-499b-939a-60e8dde99bfd" type="editorial" resp="#UP">Die <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Humboldt 1843</bibl> beigegebene
+                    <lb/>wiederholt auf <ref xml:id="f7d7ec6a-aa25-4cf7-97ec-6aaa259cf718" corresp="#dcbeb8f9-e3ee-4604-beb8-f9e3ee6604f3" type="editorialNote">Ihre <lb/>Karte der <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Asie
+                                centrale</bibl></ref><note xml:id="dcbeb8f9-e3ee-4604-beb8-f9e3ee6604f3" corresp="#f7d7ec6a-aa25-4cf7-97ec-6aaa259cf718" type="editorial" resp="#UP">Die <bibl corresp="https://edition-humboldt.de/TKGUVJEV">Humboldt 1843</bibl> beigegebene
                             Karte <foreign xml:lang="fra">„Chaînes de montagnes et volcans de l’Asie
                                 centrale selon les observations astronomiques et les mesures
                                 hypsométriques les plus récentes“</foreign>.</note>
-                    <lb/>hinzuweisen hatten, <add place="superlinear">die wir mitbrachten</add>,
-                    noch <lb/>immer die einzige <lb/>vernünftige allgemeine <lb/>Karte; ihre so
-                    belehrende <lb/>Klarheit und Bestimtheit <lb/>wurde auch diessmal <lb/>aufs neue
-                    ganz besonders <lb/>bewundert.</p>
-                <p>Der kleine Bericht <lb/>wird nächstens gedruckt <lb/>werden; doch wird <ref xml:id="bc13c493-18d4-448e-93c4-9318d4548e97" corresp="#acdeea11-45fa-46f4-9eea-1145fad6f4a6" type="editorialNote">das blue <lb/>book<supplied cert="high">,</supplied> das ihn enthalten
-                            <lb/>wird</ref><note xml:id="acdeea11-45fa-46f4-9eea-1145fad6f4a6" corresp="#bc13c493-18d4-448e-93c4-9318d4548e97" type="editorial" resp="#UP"><bibl corresp="https://edition-humboldt.de/WTFQR2LC">Vgl. House of Commons 1858</bibl>, 1–10.</note><supplied cert="high">,</supplied> uns erst nach <lb/><pb n="2v"/><placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> nachgeschickt werden
-                    <lb/>können; es wird uns eine <lb/>grosse Freude sein es <lb/>Ihnen dann
-                    sogleich <lb/>vorzulegen.</p>
+                    <lb/>hinzuweisen hatten, <add place="superlinear">die wir
+                        mitbrachten</add><supplied cert="high">,</supplied> noch <lb/>immer die
+                    einzige <lb/>vernünftige allgemeine <lb/>Karte; ihre so belehrende <lb/>Klarheit
+                    und Bestimtheit <lb/>wurde auch diessmal <lb/>aufs neue ganz besonders
+                    <lb/>bewundert.</p>
+                <p>Der kleine Bericht <lb/>wird nächstens gedruckt <lb/>werden; doch wird <ref xml:id="cafc9dac-082d-4550-bc9d-ac082d455010" corresp="#e3ce2d1a-e63d-4d21-8e2d-1ae63ded2114" type="editorialNote">das blue <lb/>book<supplied cert="high">,</supplied> das ihn enthalten
+                            <lb/>wird</ref><note xml:id="e3ce2d1a-e63d-4d21-8e2d-1ae63ded2114" corresp="#cafc9dac-082d-4550-bc9d-ac082d455010" type="editorial" resp="#UP"><bibl corresp="https://edition-humboldt.de/WTFQR2LC">Vgl. House of Commons 1858</bibl>, 1–10.</note><supplied cert="high">,</supplied> uns erst nach <lb/><pb n="2v"/><placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> nachgeschickt werden
+                    <lb/>können; es wird uns eine <lb/>grosse Freude sein<supplied cert="high">,</supplied> es <lb/>Ihnen dann sogleich <lb/>vorzulegen.</p>
                 <closer>
                     <salute>Mit unbegrenzter <lb/>Hochachtung und Verehrung <lb/>Euer Excellenz
                         <lb/>dankbarst ergebener</salute>
-                    <signed><persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117"><choice>
-                                <abbr>H.</abbr>
-                                <expan>Hermann</expan>
-                            </choice> Schlagintweit</persName>.</signed>
+                    <signed><persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">H. Schlagintweit</persName>.</signed>
                 </closer>
             </div>
         </body></text>
