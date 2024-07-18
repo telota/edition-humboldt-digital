@@ -28,24 +28,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 25. September
-                    1845, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002961">https://edition-humboldt.de/v8/H0002961</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Carl Sigismund Kunth. Potsdam, 25. September
+                    1845, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002961</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0002961.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -53,19 +39,12 @@
                             Wissenschaften</institution>
                         <repository>Archiv</repository>
                         <collection>NL A. v. Humboldt</collection>
-                        <idno>
-                            <idno type="shelfmark">Nr. 66</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">Nr. 66</idno></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
@@ -79,8 +58,7 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <opener>
                     <dateline>
@@ -91,13 +69,12 @@
                         </choice> 1845</dateline>
                     <salute/>
                 </opener>
-                <p>Wie sehr, mein theurer edler Freund, hat <lb/>mich <ref xml:id="cd0241fc-940d-40ab-8241-fc940d60ab38" corresp="#db55ba0b-01fa-4e69-95ba-0b01fa5e69c6">Ihr schöner Brief vom 18<supplied cert="high">.</supplied>
+                <p>Wie sehr, mein theurer edler Freund, hat <lb/>mich <ref xml:id="b038db33-ceb5-4a1e-b8db-33ceb57a1ea1" corresp="#b726cbe5-ca9e-4ab3-a6cb-e5ca9e0ab3b7" type="editorialNote">Ihr schöner Brief vom 18<supplied cert="high">.</supplied>
                             <choice>
                                 <abbr>Sept</abbr>
                                 <expan>September</expan>
                             </choice>
-                        </ref>
-                    <note xml:id="db55ba0b-01fa-4e69-95ba-0b01fa5e69c6" corresp="#cd0241fc-940d-40ab-8241-fc940d60ab38">Dieser Brief Kunths konnte bislang nicht
+                        </ref><note xml:id="b726cbe5-ca9e-4ab3-a6cb-e5ca9e0ab3b7" corresp="#b038db33-ceb5-4a1e-b8db-33ceb57a1ea1" type="editorial">Dieser Brief Kunths konnte bislang nicht
                             nachgewiesen werden.</note> gerührt <lb/>durch die Glückwünsche, die Sie mir so <lb/>herzlich
                     bringen, durch die mich noch <lb/>immer beunruhigenden Nachrichten von
                     <lb/>Ihrer langsamen Genesung. Ich bin schwach <lb/>genug mir nun täglich <choice>
@@ -127,8 +104,7 @@
                             <orig>Bruckenau</orig>
                             <reg>Brückenau</reg>
                         </choice>
-                    </placeName> mit dem <persName ref="https://editon-humboldt.de/H0003159 http://d-nb.info/gnd/118574884">
-                        <choice>
+                    </placeName> mit dem <persName ref="https://editon-humboldt.de/H0003159 http://d-nb.info/gnd/118574884"><choice>
                             <orig>Konig</orig>
                             <reg>König</reg>
                         </choice>
@@ -221,8 +197,7 @@
                             </abbr>
                             <expan>Baron</expan>
                         </choice> Reden</persName> (dem Statistiker) <lb/>zur Taufe war; empfing ich
-                    von dem erste<g ref="#typoHyphen"/>
-                    <lb break="no"/>ren die trefliche Nachricht,
+                    von dem erste<g ref="#typoHyphen"/><lb break="no"/>ren die trefliche Nachricht,
                     dass Sie <lb/>weniger leidend wären. Auch schreibt mir <lb/>ein gleiches eben
                         <add place="left">
                         <persName ref="https://editon-humboldt.de/H0013541 http://d-nb.info/gnd/13604784X">Goldschmidt</persName>
@@ -284,11 +259,8 @@
                         <corr cert="high">ihre</corr>
                     </choice> wunder<lb break="no"/>bare Reise nach <placeName ref="https://editon-humboldt.de/H0008031">Palermo</placeName> angetreten wo <lb/>Sie der <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Kaiser</persName> besuchen wird. Den 28sten <lb/>erwarten wir die
                         <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634">Königin</persName> hier<supplied cert="high">.</supplied> Ich bleibe <lb/>fest und hoffe den Winter den 2<hi rendition="#u">ten</hi> Band <lb/>des <bibl corresp="https://edition-humboldt.de/I87MJXIR">Cosmos</bibl> zu vollenden. Die
-                        <ref xml:id="aa3120b5-bd72-4c9d-b120-b5bd721c9de5" corresp="#ef01ce5d-fc30-4c68-81ce-5dfc303c6853">englische Ue<g ref="#typoHyphen"/>
-                        <lb break="no"/>bersezung</ref>
-                    <note xml:id="ef01ce5d-fc30-4c68-81ce-5dfc303c6853" corresp="#aa3120b5-bd72-4c9d-b120-b5bd721c9de5">
-                            <bibl corresp="https://edition-humboldt.de/7F4DDMM3">Humboldt 1845–1848.</bibl>
-                    </note> so unvollkommen sie ist, hat <lb/>rasenden Debit, schreibt mir <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName> und hat <lb/>in Heften von 8 Bogen gegeben
+                        <ref xml:id="a2aadf0d-a9ab-49cb-aadf-0da9ab49cbc5" corresp="#ef68f443-9d7f-4d8b-a8f4-439d7ffd8b9a" type="editorialNote">englische Ue<g ref="#typoHyphen"/><lb break="no"/>bersezung</ref><note xml:id="ef68f443-9d7f-4d8b-a8f4-439d7ffd8b9a" corresp="#a2aadf0d-a9ab-49cb-aadf-0da9ab49cbc5" type="editorial">
+                            <bibl corresp="https://edition-humboldt.de/7F4DDMM3">Humboldt 1845–1848.</bibl></note> so unvollkommen sie ist, hat <lb/>rasenden Debit, schreibt mir <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName> und hat <lb/>in Heften von 8 Bogen gegeben
                     werden <lb/>
                     <choice>
                         <orig>mussen</orig>
@@ -324,8 +296,7 @@
                         <lb/>Gattin</persName>, den erneuerten Ausdruk meiner <lb/>innigsten und <choice>
                         <orig>unverbruchlichsten</orig>
                         <reg>unverbrüchlichsten</reg>
-                    </choice> Anhäng<g ref="#typoHyphen"/>
-                    <lb break="no"/>lichkeit<supplied cert="high">.</supplied>
+                    </choice> Anhäng<g ref="#typoHyphen"/><lb break="no"/>lichkeit<supplied cert="high">.</supplied>
                 </p>
                 <closer>
                     <signed>AlHumboldt</signed>
@@ -374,6 +345,5 @@
                     </address>
                 </closer>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

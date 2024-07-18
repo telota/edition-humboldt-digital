@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016653">https://edition-humboldt.de/v8/H0016653</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016653</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016653.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -57,12 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -76,8 +57,7 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
             <p>Ich hoffe, mein theurer Freund, <lb/>Sie werden nur lachen über <lb/>die anmassenden <choice>
@@ -87,23 +67,17 @@
                   <abbr>H</abbr>
                   <expan>Herrn</expan>
                </choice>
-               <persName ref="https://editon-humboldt.de/H0001839 http://d-nb.info/gnd/1055348921">Peltier</persName> der <lb/>den Thieren Magen durch <lb/>
-                    <hi rendition="#u">Aushungern</hi> fabricirt. Ich <lb/>rathe indess dass Sie <lb/>in
+               <persName ref="https://editon-humboldt.de/H0001839 http://d-nb.info/gnd/1055348921">Peltier</persName> der <lb/>den Thieren Magen durch <lb/><hi rendition="#u">Aushungern</hi> fabricirt. Ich <lb/>rathe indess dass Sie <lb/>in
                einem Briefe von 6–8 <lb/>Zeilen antworten. Man <lb/>sieht ja die Magen bei
                <lb/>lebenden Infusorien. Lassen <lb/>Sie mich den französischen <lb/>Brief wie Sie
-               ihn mir <lb/>dictiren wollen, aufsezen<supplied cert="high">.</supplied>
-                </p>
-            <closer rend="paragraph">
-                    <signed>Ihr <lb/>AlHumboldt</signed>
-               <dateline>Dienstag</dateline>
-                </closer>
+               ihn mir <lb/>dictiren wollen, aufsezen<supplied cert="high">.</supplied></p>
+            <closer rend="paragraph"><signed>Ihr <lb/>AlHumboldt</signed>
+               <dateline>Dienstag</dateline></closer>
             <postscript>
-               <p>Im <ref xml:id="bb24023f-c59b-467f-a402-3fc59bb67fab" corresp="#c2af32f1-534e-43e6-af32-f1534ea3e620">Tems</ref>
-                        <note xml:id="c2af32f1-534e-43e6-af32-f1534ea3e620" corresp="#bb24023f-c59b-467f-a402-3fc59bb67fab">Gemeint ist wohl die französische Tageszeitung „Le
+               <p>Im <ref xml:id="acd51826-2afd-4155-9518-262afdd155d5" corresp="#d5542e25-0512-4c6d-942e-250512cc6d54" type="editorialNote">Tems</ref><note xml:id="d5542e25-0512-4c6d-942e-250512cc6d54" corresp="#acd51826-2afd-4155-9518-262afdd155d5" type="editorial">Gemeint ist wohl die französische Tageszeitung „Le
                         Temps. Journal des progrès politiques, scientifiques, littéraires et
                         industriels“, die von 1829 bis 1842 erschien.</note> steht <lb/>fast dasselbe <lb/>doch weniger.</p>
             </postscript>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

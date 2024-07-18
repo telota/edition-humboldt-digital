@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Mai 1849] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016594">https://edition-humboldt.de/v8/H0016594</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016594</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016594.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Mai 1849] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -57,12 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -77,32 +58,23 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
-            <opener>
-                    <address>
-                  <addrLine>
-                            <choice>
+            <opener><address>
+                  <addrLine><choice>
                         <abbr>Sr</abbr>
                         <expan>Seiner</expan>
                      </choice> Wohlgeboren </addrLine>
                   <addrLine>Herrn Professor Ehrenberg</addrLine>
                   <addrLine>Zimmerstraße 85. </addrLine>
-                  <addrLine>
-                            <hi rendition="#uu">frei</hi>
-                        </addrLine>
-               </address>
-                </opener>
+                  <addrLine><hi rendition="#uu">frei</hi></addrLine>
+               </address></opener>
             <pb n="1v"/>
-            <p>Ihre <ref xml:id="a56715c5-6c35-4fa6-a715-c56c355fa66c" corresp="#f3e34323-b507-4bca-a343-23b5072bcad4">
-                        <choice>
+            <p>Ihre <ref xml:id="c4869e15-38fa-4cde-869e-1538fa3cde52" corresp="#d6da4f54-0525-48b9-9a4f-54052518b910" type="editorialNote"><choice>
                         <abbr>Abh.</abbr>
                         <expan>Abhandlung</expan>
-                     </choice>
-                    </ref>
-                    <note xml:id="f3e34323-b507-4bca-a343-23b5072bcad4" corresp="#a56715c5-6c35-4fa6-a715-c56c355fa66c">
+                     </choice></ref><note xml:id="d6da4f54-0525-48b9-9a4f-54052518b910" corresp="#c4869e15-38fa-4cde-869e-1538fa3cde52" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/H8P8747Z">Ehrenberg 1849</bibl>
                   </note> vom 22 <choice>
                   <abbr>Febr</abbr>
@@ -134,14 +106,11 @@
                         <abbr>M</abbr>
                         <expan>Monsieur</expan>
                      </choice>
-                     <persName ref="https://editon-humboldt.de/H0014233 http://d-nb.info/gnd/116356839">Milne Eduards</persName>
-                        </item>
+                     <persName ref="https://editon-humboldt.de/H0014233 http://d-nb.info/gnd/116356839">Milne Eduards</persName></item>
                   <item>— à l’ Académie de <lb/>Médicine</item>
                </list>
                <lb/>Das wird dann alles im Institute <lb/>vertheilt. </p>
-            <closer rend="within the line">
-                    <salute>Mit dankbarer Liebe <lb/>
-                        <choice>
+            <closer rend="within the line"><salute>Mit dankbarer Liebe <lb/><choice>
                      <abbr>u</abbr>
                      <expan>und</expan>
                   </choice> Verehrung <lb/>Ihr </salute>
@@ -149,6 +118,5 @@
                <dateline>Sontag Nacht</dateline>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

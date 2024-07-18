@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [März 1855] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016617">https://edition-humboldt.de/v8/H0016617</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016617</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016617.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [März 1855] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -57,12 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -76,8 +57,7 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
             <p>Ich war bei <choice>
@@ -88,38 +68,27 @@
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
-               <persName ref="https://editon-humboldt.de/H0003743 http://d-nb.info/gnd/116828714">Budberg</persName>
-                    <supplied cert="high">.</supplied> Ihr
-                  <lb/>
-                    <ref xml:id="aa48a817-81c2-404a-88a8-1781c2404a5f" corresp="#e2b38678-7326-4758-b386-787326b75874">Prachtwerk</ref>
-                    <note xml:id="e2b38678-7326-4758-b386-787326b75874" corresp="#aa48a817-81c2-404a-88a8-1781c2404a5f">
+               <persName ref="https://editon-humboldt.de/H0003743 http://d-nb.info/gnd/116828714">Budberg</persName><supplied cert="high">.</supplied> Ihr
+                  <lb/><ref xml:id="d86bf8b8-e3d8-41dc-abf8-b8e3d861dcbe" corresp="#ffaf8ac1-e029-4205-af8a-c1e029920519" type="editorialNote">Prachtwerk</ref><note xml:id="ffaf8ac1-e029-4205-af8a-c1e029920519" corresp="#d86bf8b8-e3d8-41dc-abf8-b8e3d861dcbe" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/6RPSFGPB">Ehrenberg 1854</bibl>
                   </note> ist längst weg <lb/>und wahrscheinlich noch in <lb/>den lezten Tagen vor dem
-                  <ref xml:id="df7367ee-c22b-47f0-b367-eec22ba7f0e7" corresp="#a9629a1e-0139-4a32-a29a-1e01399a323c">Tode</ref>
-                    <note xml:id="a9629a1e-0139-4a32-a29a-1e01399a323c" corresp="#df7367ee-c22b-47f0-b367-eec22ba7f0e7">von <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Nikolaus I.</persName>
+                  <ref xml:id="c4fe1526-18b1-4254-be15-2618b19254ff" corresp="#fb80b4f6-c280-4f3b-80b4-f6c280ef3bd4" type="editorialNote">Tode</ref><note xml:id="fb80b4f6-c280-4f3b-80b4-f6c280ef3bd4" corresp="#c4fe1526-18b1-4254-be15-2618b19254ff" type="editorial">von <persName ref="https://editon-humboldt.de/H0001165 http://d-nb.info/gnd/118588079">Nikolaus I.</persName>
                   </note>
-               <lb/>angekommen<supplied cert="high">.</supplied> Ich bin mit <persName ref="https://editon-humboldt.de/H0003743 http://d-nb.info/gnd/116828714">
-                        <choice>
+               <lb/>angekommen<supplied cert="high">.</supplied> Ich bin mit <persName ref="https://editon-humboldt.de/H0003743 http://d-nb.info/gnd/116828714"><choice>
                      <abbr>B</abbr>
                      <expan>Budberg</expan>
-                  </choice>
-                    </persName>
+                  </choice></persName>
                <lb/>übereingekommen an ihn einen <lb/>ostensiblen Brief zu richten, <lb/>in dem ich
-               die Frase ein<g ref="#typoHyphen"/>
-                    <lb break="no"/>fliessen lasse, dass die
+               die Frase ein<g ref="#typoHyphen"/><lb break="no"/>fliessen lasse, dass die
                <lb/>Sendung auf Gefühlen der <lb/>Dankbarkeit beruhe und auf <lb/>der Hofnung dass
-               es der <hi rendition="#u">
-                        <choice>
+               es der <hi rendition="#u"><choice>
                      <abbr>öffentl</abbr>
                      <expan>öffentlichen</expan>
-                  </choice>
-                    </hi>
-               <lb/>
-                    <choice>
+                  </choice></hi>
+               <lb/><choice>
                   <abbr>kais.</abbr>
                   <expan>kaiserlichen</expan>
-               </choice> Bibliothek nüzlich <lb/>sein könne „wenn des jezigen <lb/>
-                    <persName ref="https://editon-humboldt.de/H0001154 http://d-nb.info/gnd/118501860">Kaisers</persName>
+               </choice> Bibliothek nüzlich <lb/>sein könne „wenn des jezigen <lb/><persName ref="https://editon-humboldt.de/H0001154 http://d-nb.info/gnd/118501860">Kaisers</persName>
                <choice>
                   <abbr>Maj</abbr>
                   <expan>Majestät</expan>
@@ -128,6 +97,5 @@
                <signed>AHt</signed>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

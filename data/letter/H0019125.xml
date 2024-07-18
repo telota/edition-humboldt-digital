@@ -14,14 +14,11 @@
                     <persName ref="https://orcid.org/0000-0002-4634-2386" xml:id="LM">
                         <surname>Martin</surname>
                         <forename>Linda</forename>
-                    </persName>
-                </editor>
-                <editor>
-                    <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
+                    </persName></editor>
+                <editor><persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
                         <surname>Päßler</surname>
                         <forename>Ulrich</forename>
-                    </persName>
-                </editor>
+                    </persName></editor>
                 <respStmt>
                     <persName xml:id="DE">
                         <surname>Erdmann</surname>
@@ -31,83 +28,55 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Emil Schlagintweit. [Berlin, Anfang April
-                    1856], hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019125">https://edition-humboldt.de/v8/H0019125</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Emil Schlagintweit. [Berlin, Anfang April
+                    1856], hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019125</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0019125.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
                         <institution>Bayerische Staatsbibliothek</institution>
                         <repository>Abteilung Handschriften und Alte Drucke</repository>
                         <collection>Schlagintweitiana</collection>
-                        <idno>
-                            <idno type="shelfmark">II.1.43, 208r</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">II.1.43, 208r</idno></idno>
                     </msIdentifier>
                     
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date notBefore="1856-04-01" notAfter="1856-04-15" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName ref="https://editon-humboldt.de/H0015554 http://viaf.org/viaf/74008741">Schlagintweit, Emil (1835-1904)</persName>
+                    <persName ref="https://editon-humboldt.de/H0015554 https://d-nb.info/gnd/11728078X">Schlagintweit, Emil (1835-1904)</persName>
                 </correspAction>
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
-                <pb n="208r"/>
-                <note hand="#H0000936" place="mTop">
+                <pb n="208r"/><note hand="https://edition-humboldt.de/#H0000936" place="mTop">
                     <list>
-                        <item>1. <ref xml:id="d2b094f6-43e5-4fe1-b094-f643e55fe1fe" corresp="#a962d436-7c1a-489a-a2d4-367c1ae89a8c">Brief am 15<supplied cert="high">.</supplied> December 1855 <choice>
+                        <item>1. <ref xml:id="ce5b8e83-2077-4366-9b8e-8320779366b4" corresp="#fb013071-2260-4fdc-8130-7122607fdc19" type="editorialNote">Brief am 15<supplied cert="high">.</supplied> December 1855 <choice>
                                         <abbr>d. d.</abbr>
                                         <expan>de dato</expan>
                                     </choice>
-                                    <hi rendition="#u">
-                                    <placeName ref="https://editon-humboldt.de/H0018748 https://www.geonames.org/11625639">Sangor</placeName>
-                                </hi>
-                                <lb/> an Excellenz <choice>
+                                    <hi rendition="#u"><placeName ref="https://editon-humboldt.de/H0018748">Sangor</placeName></hi><lb/> an Excellenz <choice>
                                         <abbr>v</abbr>
                                         <expan>von</expan>
                                     </choice>
                                     <hi rendition="#u">Humboldt</hi> über neue Instrumente<lb/>
-                                    kleiner Art. – nebst Beilage über Theodoliten –</ref>
-                            <note xml:id="a962d436-7c1a-489a-a2d4-367c1ae89a8c" corresp="#d2b094f6-43e5-4fe1-b094-f643e55fe1fe" resp="#LM">Vgl. <ref target="https://edition-humboldt.de/H0019130">Adolph Schlagintweit an Alexander von Humboldt, Sangor 15.
+                                    kleiner Art. – nebst Beilage über Theodoliten –</ref><note xml:id="fb013071-2260-4fdc-8130-7122607fdc19" corresp="#ce5b8e83-2077-4366-9b8e-8320779366b4" type="editorial" resp="#LM">Vgl. <ref target="https://edition-humboldt.de/H0019130">Adolph Schlagintweit an Alexander von Humboldt, Sangor 15.
                                         Dezember 1855</ref>, BSB, Schlagintweitiana, II.1.43,
                                     209r–214v.</note>
                         </item>
                         <lb/>
-                        <item> 2. <ref xml:id="adfdc635-006a-4c7b-bdc6-35006a1c7b9b" corresp="#c39106be-7995-43a6-9106-be7995f3a61d">nebst <persName ref="https://editon-humboldt.de/H0013983">
-                                    <hi rendition="#u">Martins</hi>
-                                    <supplied cert="high">’</supplied> des
+                        <item> 2. <ref xml:id="af53aa1f-b06e-4d7b-93aa-1fb06e3d7b13" corresp="#d75db045-05e1-48b8-9db0-4505e1c8b848" type="editorialNote">nebst <persName ref="https://editon-humboldt.de/H0013983"><hi rendition="#u">Martins</hi><supplied cert="high">’</supplied> des
                                         Mechanikers</persName>
                                     Schreiben an <choice>
                                         <abbr>Exc.</abbr>
@@ -121,36 +90,29 @@
                                         <abbr>H.</abbr>
                                         <expan>Humboldt</expan>
                                     </choice> über die Verfertigung<lb/> der gewünschten
-                                        Instrumente<supplied cert="high">.</supplied>
-                            </ref>
-                            <note xml:id="c39106be-7995-43a6-9106-be7995f3a61d" corresp="#adfdc635-006a-4c7b-bdc6-35006a1c7b9b">Dem Wunsch der Brüder Schlagintweit
+                                        Instrumente<supplied cert="high">.</supplied></ref><note xml:id="d75db045-05e1-48b8-9db0-4505e1c8b848" corresp="#af53aa1f-b06e-4d7b-93aa-1fb06e3d7b13" type="editorial">Dem Wunsch der Brüder Schlagintweit
                                     entsprechend, wurde in Berlin ein Theodolit samt Anleitung in
                                     Auftrag gegeben. Vgl. <ref target="https://edition-humboldt.de/H0019130">Adolf
                                         Schlagintweit an Alexander von Humboldt, Sangor 15. Dezember
                                         1855</ref>, BSB, Schlagintweitiana, II.1.43,
-                                    210v–214v.</note>
-                        </item>
+                                    210v–214v.</note></item>
                         <lb/>
                         <item> Nr. 3. </item>
-                    </list>
-                    <lb/>
+                    </list><lb/>
                 </note>
                 <p>
                     <address>
-                        <addrLine>
-                            <choice>
+                        <addrLine><choice>
                                 <abbr>Sr</abbr>
                                 <expan>Seiner</expan>
                             </choice> Wohlgeboren<lb/> Herrn <choice>
                                 <abbr>Stud.</abbr>
                                 <expan>Studiosus</expan>
                             </choice>
-                            <persName ref="https://editon-humboldt.de/H0015554 http://viaf.org/viaf/74008741">Emil Schlagintweit</persName>
-                            <lb/> Französische <choice>
+                            <persName ref="https://editon-humboldt.de/H0015554 https://d-nb.info/gnd/11728078X">Emil Schlagintweit</persName><lb/> Französische <choice>
                                 <abbr>Str</abbr>
                                 <expan>Straße</expan>
-                            </choice>
-                            <lb/>
+                            </choice><lb/>
                             <choice>
                                 <abbr>n</abbr>
                                 <expan>numero</expan>
@@ -160,21 +122,16 @@
                 <closer>
                     <signed>AlHumboldt</signed>
                 </closer>
-                <note place="mBottom" hand="#H0000936">remittiert von <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">
-                        <choice>
+                <note place="mBottom" hand="https://edition-humboldt.de/#H0000936">remittiert von <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X"><choice>
                             <abbr>C</abbr>
                             <expan>Carl</expan>
                         </choice> Ritter</persName>.<lb/>
-                    <date>
-                        <choice>
+                    <date><choice>
                             <abbr>Anfg</abbr>
                             <expan>Anfang</expan>
-                    </choice> April 1856</date>
-                </note>
-                <pb n="208v"/>
+                    </choice> April 1856</date></note><pb n="208v"/>
                 <gap unit="pages" quantity="1" reason="empty"/>
                 
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

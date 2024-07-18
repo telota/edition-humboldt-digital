@@ -1,0 +1,103 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="api">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">API</title>
+                <title type="sub">Schnittstellen zur edition humboldt digital</title>
+                <author>
+                    <persName>
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                </author>
+            </titleStmt><editionStmt><p>Dumont, Stefan: API .  Schnittstellen zur edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
+            <sourceDesc>
+                <p>translated from HTML to TEI</p>
+            </sourceDesc>
+        </fileDesc>
+    <profileDesc><textClass><keywords><term>about</term></keywords></textClass></profileDesc></teiHeader>
+    <text><body>
+            <div>
+                <head type="h2">CMIF-Schnittstelle</head>
+                <p>Über diese Schnittstelle können die Metadaten aller in dieser Edition vorhandenen
+                    Briefe im <ref target="http://correspsearch.bbaw.de/index.xql?id=participate_cmi-format&amp;l=de">Correspondence Metadata Interchange (CMI) Format</ref> abgerufen werden.
+                    Absender und Empfänger werden hauptsächlich mit Hilfe der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">ID der
+                        Gemeinsamen Normdatei (GND)</ref> der Deutschen Nationalbibliothek
+                    identifiziert, seltener mit Hilfe der Virtual International Authority File. </p>
+                <p>URL: <ref target="http://edition-humboldt.de/api/v1.1/cmif.xql">http://edition-humboldt.de/api/v1.1/cmif.xql</ref></p>
+            </div>
+            <div>
+                <head type="h2">BEACON-Dateien</head>
+                <p>Die in unserem Datenbestand vorhandenen und mit der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND</ref>-Nummer ausgezeichneten Personen können als Liste im <ref target="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Format</ref>
+                    abgerufen werden. Es ist dabei möglich, die Liste auf Personen zu beschränken,
+                    die im Brieftext erwähnt werden oder die Korrespondenzpartner sind. </p>
+                <list type="unordered">
+                    <item><ref target="http://edition-humboldt.de/api/v1.1/beacon.xql">BEACON-Datei
+                            aller Datensätze im Personenregister</ref></item>
+                    <item><ref target="http://edition-humboldt.de/api/v1.1/beacon.xql?type=correspondents">BEACON-Datei aller Korrespondenzpartner</ref></item>
+                    <item><ref target="http://edition-humboldt.de/api/v1.1/beacon.xql?type=personMentioned">BEACON-Datei aller erwähnten Personen</ref></item>
+                </list>
+                <div>
+                    <head type="h3">Parameter</head>
+                    <div>
+                        <head type="h4"><hi rend="code">type</hi></head>
+                        <table rend="drawn" rows="2" cols="2">
+                            <row role="label">
+                                <cell>Werte</cell>
+                                <cell>Beschreibung</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">[nicht gesetzt]</hi></cell>
+                                <cell>alle Datensätze im
+                                    Personenregister; standardmäßig gesetzt, sofern nicht anders angegeben</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">correspondents</hi></cell>
+                                <cell>alle
+                                    Korrespondenzpartner</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">personMentioned</hi></cell>
+                                <cell>alle erwähnten Personen</cell>
+                            </row>
+                        </table>
+                    </div>
+                    <div>
+                        <head type="h4"><hi rend="code">authority</hi></head>
+                        <p>Alle Personen mit einer Norm-ID einer bestimmten Norm-Datei
+                            (eingeschränkt ggf. durch <hi rend="code">type</hi>)</p>
+                        <table rend="drawn" rows="2" cols="2">
+                            <row>
+                                <cell>Wert</cell>
+                                <cell>Beschreibung</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">gnd</hi></cell>
+                                <cell>Gemeinsame Normdatei der Deutschen
+                                    Nationalbiblitothek; standardmäßig gesetzt, sofern nicht anders angegeben</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">viaf</hi></cell>
+                                <cell>Virtual International Authority
+                                    File</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <head type="h2">OAI-PMH</head>
+                <p>Die Metadaten der digital edierten Texte der <hi rendition="i">edition humboldt
+                        digital</hi> werden über die Schnittstelle <ref target="http://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify">http://edition-humboldt.de/api/v1.1/oai-pmh.xql</ref> gemäß dem Protocoll for
+                    Metadata Harvesting der Open Archive Initiative bereitgestellt.</p>
+            </div>
+            <div>
+                <head type="h2">TEI-XML-Schnittstelle</head>
+                <p>Die edierten Texte der <hi rendition="i">edition humboldt digital</hi> können
+                    über die Schnittstelle <ref target="http://edition-humboldt.de/api/v1.1/tei-xml.xql">http://edition-humboldt.de/api/v1.1/tei-xml.xql</ref> bezogen und im Rahmen
+                    der freien Lizenz <ref target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</ref> weiterverwendet werden.</p>
+            </div>
+
+        </body></text>
+</TEI>

@@ -37,23 +37,9 @@
                         <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Humboldt, Alexander von; Kunth, Carl Sigismund: Q — Pinus occidentalis, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0013749">https://edition-humboldt.de/v8/H0013749</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Humboldt, Alexander von; Kunth, Carl Sigismund: Q — Pinus occidentalis, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0013749</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0013749.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p>Das von Carl Sigismund Kunth mit der Sigle Q versehene Blatt enthält Notizen
@@ -83,20 +69,12 @@
                             Kulturbesitz</institution>
                         <repository>Handschriftenabteilung</repository>
                         <collection>Nachl. Alexander von Humboldt</collection>
-                        <idno>
-                            <idno type="shelfmark">gr. Kasten 6, Nr. 794, Bl. 2</idno>
-                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1255436</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">gr. Kasten 6, Nr. 794, Bl. 2</idno><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1255436</idno></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>document</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>document</term></keywords></textClass>
             <creation>
                 <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
                 <persName ref="https://editon-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
@@ -104,81 +82,47 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div>
-                <p>
-                    <pb n="5r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000013.jpg"/>
-                    <ref xml:id="ed_l1q_gd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Q">Q</ref>
-                </p>
-                <p>Pinus occidentalis <note place="left" hand="H0012069">
-                        <choice>
+                <p><pb n="5r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000013.jpg"/><ref xml:id="ed_l1q_gd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Q">Q</ref></p>
+                <p><name type="plant">Pinus occidentalis</name>
+                    <note place="left" hand="http://d-nb.info/gnd/118554700"><choice>
                             <orig>immer</orig>
                             <reg>Immer</reg>
-                        </choice> mit
-                            <lb/>Juglans
-                        <lb/>baccata <lb/>in mäßigen <lb/>Höhen<supplied cert="high">.</supplied>
-                    </note>
+                        </choice> mit <name type="plant"><lb/>Juglans <lb/>baccata</name>
+                        <lb/>in mäßigen <lb/>Höhen<supplied cert="high">.</supplied></note>
                     <choice>
                         <orig>à</orig>
                         <reg>À</reg>
-                    </choice> la basse terre <lb/>
-                    <hi rendition="#u">de la <placeName ref="https://editon-humboldt.de/H0010967 https://www.geonames.org/3579144">Guadeloupe</placeName>
-                    </hi>, <subst>
+                    </choice> la basse terre <lb/><hi rendition="#u">de la <placeName ref="https://editon-humboldt.de/H0010967 https://www.geonames.org/3579144">Guadeloupe</placeName></hi>, <subst>
                         <del rendition="#s">au</del>
-                        <add place="superlinear">
-                            <subst>
+                        <add place="superlinear"><subst>
                                 <del rendition="#s">pied du</del>
                                 <add place="sublinear">à mi<supplied cert="high">-</supplied>côte
                                     du</add>
-                            </subst>
-                        </add>
+                            </subst></add>
                     </subst>
-                    <placeName ref="https://editon-humboldt.de/H0010326 https://www.geonames.org/3578370">volcan <lb/>de la Souffrière</placeName>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <hi rendition="#u">
-                        <choice>
+                    <placeName ref="https://editon-humboldt.de/H0010326 https://www.geonames.org/3578370">volcan <lb/>de la Souffrière</placeName><supplied cert="high">.</supplied></p>
+                <p><hi rendition="#u"><choice>
                             <orig>à</orig>
                             <reg>À</reg>
                         </choice>
-                        <placeName ref="https://editon-humboldt.de/H0008458 https://www.geonames.org/4566966">Portorico</placeName>
-                    </hi> dans le centre de
-                    <lb/>l’île<supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <hi rendition="#u">
-                        <choice>
+                        <placeName ref="https://editon-humboldt.de/H0008458 https://www.geonames.org/4566966">Portorico</placeName></hi> dans le centre de
+                    <lb/>l’île<supplied cert="high">.</supplied></p>
+                <p><hi rendition="#u"><choice>
                             <orig>à</orig>
                             <reg>À</reg>
                         </choice>
-                    </hi>
-                    <placeName ref="https://editon-humboldt.de/H0010099 https://www.geonames.org/3508796">
-                        <choice>
-                            <abbr>
-                                <hi rendition="#u">S.</hi>
-                            </abbr>
-                            <expan>
-                                <hi rendition="#u">Saint</hi>
-                            </expan>
-                        </choice>
-                        <supplied cert="high">
-                            <hi rendition="#u">-</hi>
-                        </supplied>
-                        <hi rendition="#u">Domingue</hi>
-                    </placeName>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <subst>
+                    </hi><placeName ref="https://editon-humboldt.de/H0010099 https://www.geonames.org/3508796"><choice>
+                            <abbr><hi rendition="#u">S.</hi></abbr>
+                            <expan><hi rendition="#u">Saint</hi></expan>
+                        </choice><supplied cert="high"><hi rendition="#u">-</hi></supplied><hi rendition="#u">Domingue</hi></placeName><supplied cert="high">.</supplied></p>
+                <p><subst>
                     <del rendition="#s">à l’</del>
-                        <add place="intralinear">
-                            <choice>
+                        <add place="intralinear"><choice>
                                 <orig>au</orig>
                                 <reg>Au</reg>
-                            </choice>
-                        </add>
+                            </choice></add>
                     </subst>
                     <placeName ref="https://editon-humboldt.de/H0016295 https://www.geonames.org/3507155">limón</placeName>à <choice>
                         <sic>l’Oueste</sic>
@@ -186,76 +130,52 @@
                     </choice>
                     <lb/>du Cap <subst>
                         <del rendition="#s">Samala,</del>
-                        <add place="superlinear">
-                            <placeName ref="https://editon-humboldt.de/H0016237 https://www.geonames.org/3493234">Samaná</placeName>
+                        <add place="superlinear"><placeName ref="https://editon-humboldt.de/H0016237 https://www.geonames.org/3493234">Samaná</placeName>
                             et</add>
-                    </subst>
-                    <add place="left">
-                        <metamark/>tout à <lb/>fait <lb/>dans la <lb/>plaine
+                    </subst><add place="left"><metamark/>tout à <lb/>fait <lb/>dans la <lb/>plaine
                         <lb/>dans le pays <lb/>chaud</add>, le long <lb/>de la <placeName ref="https://editon-humboldt.de/H0016349 https://www.geonames.org/3491677">rivière Juna</placeName>.</p>
                 <milestone unit="section" rendition="#hr"/>
             </div>
             <div>
-                <p>
-                    <ref xml:id="fb43975b-d51e-41cc-8397-5bd51e81cc1d" corresp="#d4268611-8d25-49ef-a686-118d2569ef62">
-                        <choice>
+                <p><ref xml:id="feb641c1-cbf3-4a16-b641-c1cbf3ea1663" corresp="#b6b3c10c-47e8-4931-b3c1-0c47e8193101" type="editorialNote"><choice>
                                 <abbr>M</abbr>
                                 <expan>Monsieur</expan>
-                            </choice> Schott</ref>
-                    <note xml:id="d4268611-8d25-49ef-a686-118d2569ef62" corresp="#fb43975b-d51e-41cc-8397-5bd51e81cc1d">wohl <persName ref="https://editon-humboldt.de/H0015663 http://d-nb.info/gnd/104197099">Heinrich Wilhelm
+                            </choice> Schott</ref><note xml:id="b6b3c10c-47e8-4931-b3c1-0c47e8193101" corresp="#feb641c1-cbf3-4a16-b641-c1cbf3ea1663" type="editorial">wohl <persName ref="https://editon-humboldt.de/H0015663 http://d-nb.info/gnd/104197099">Heinrich Wilhelm
                                 Schott</persName>.</note> croit qu’aucun Jardin botanique <lb/>n’a plus de 7 à 8000 espèces. </p>
-                <p>
-                    <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">
-                        <choice>
+                <p><orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8"><choice>
                             <orig>celui</orig>
                             <reg>Celui</reg>
-                        </choice> de Berlin</orgName> à 13–14000 espèces<supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <persName ref="https://editon-humboldt.de/H0004587 http://d-nb.info/gnd/117676837">Lofling</persName> recueillit (et seulement <lb/>en 20
-                        mois<note place="left" hand="#author">
-                        <metamark/>
-                        <supplied cert="high">(</supplied>n’ayant pas <lb/>vu <choice>
+                        </choice> de Berlin</orgName> à 13–14000 espèces<supplied cert="high">.</supplied></p>
+                <p><persName ref="https://editon-humboldt.de/H0004587 http://d-nb.info/gnd/117676837">Lofling</persName> recueillit (et seulement <lb/>en 20
+                        mois<note place="left" hand="#author"><metamark/><supplied cert="high">(</supplied>n’ayant pas <lb/>vu <choice>
                             <sic>come</sic>
                             <corr cert="high">comme</corr>
-                        </choice> il <lb/>dit beaucoup <lb/>de lieux circon<lb break="no"/>voisins)</note> dans les environs de <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>
-                    <supplied cert="high">,</supplied> sans
+                        </choice> il <lb/>dit beaucoup <lb/>de lieux circon<lb break="no"/>voisins)</note> dans les environs de <lb/><placeName ref="https://editon-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName><supplied cert="high">,</supplied> sans
                         cryptogames<supplied cert="high">,</supplied>
-                    <lb/>1300 espèces. (<bibl corresp="https://edition-humboldt.de/IUS5VMNZ">
-                        <choice>
+                    <lb/>1300 espèces. (<bibl corresp="https://edition-humboldt.de/IUS5VMNZ"><choice>
                             <abbr>Loefl</abbr>
                             <expan>Loefling</expan>
                         </choice> Reise
                     <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
-                    </choice> 381</bibl>
-                    <supplied cert="high">.</supplied>)</p>
+                    </choice> 381</bibl><supplied cert="high">.</supplied>)</p>
                 <p>(<choice>
                         <orig>also</orig>
                         <reg>Also</reg>
-                    </choice> wohl auch nahe an <lb/>1800–2000 espèces phanérogames<supplied cert="high">.)</supplied>
-                </p>
-                <p>
-                    <note place="mBottom" hand="H0012069" rend="sticked">
-                        <pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000011.jpg"/>
-                        <p>
-                            <persName ref="https://editon-humboldt.de/H0005988 http://d-nb.info/gnd/116569611">Eschwege</persName>
-                        </p>
-                        <p>
-                            <choice>
-                                <orig>bananen</orig>
-                                <reg>Bananen</reg>
-                            </choice>
-                            <supplied cert="high">,</supplied> Zukker <add place="superlinear">noch</add>
+                    </choice> wohl auch nahe an <lb/>1800–2000 espèces phanérogames<supplied cert="high">.)</supplied></p>
+                <p><note place="mBottom" hand="http://d-nb.info/gnd/118554700" rend="sticked"><pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000011.jpg"/><p><persName ref="https://editon-humboldt.de/H0005988 http://d-nb.info/gnd/116569611">Eschwege</persName></p><p><name type="plant" subtype="vernacular" key="Musa"><choice>
+                                    <orig>bananen</orig>
+                                    <reg>Bananen</reg>
+                                </choice></name><supplied cert="high">,</supplied>
+                                    <name type="plant" subtype="vernacular" key="Saccharum officinarum">Zukker</name>
+                            <add place="superlinear">noch</add>
                             <measure quantity="5000" unit="foot">5000 Fuß</measure>
                             <choice>
                                 <abbr>engl.</abbr>
                                 <expan>englisch</expan>
                             </choice>
-                            <lb/>
-                            <choice>
+                            <lb/><choice>
                                 <abbr>östl.</abbr>
                                 <expan>östlich</expan>
                             </choice>
@@ -263,29 +183,16 @@
                                 <abbr>v.</abbr>
                                 <expan>von</expan>
                             </choice>
-                            <placeName ref="https://editon-humboldt.de/H0016253 https://www.geonames.org/3455671">Villarica</placeName>
-                            <supplied cert="high">.</supplied>
-                        </p>
-                        <p>
-                            <choice>
+                            <placeName ref="https://editon-humboldt.de/H0016253 https://www.geonames.org/3455671">Villarica</placeName><supplied cert="high">.</supplied></p><p><choice>
                                 <orig>friert</orig>
                                 <reg>Friert</reg>
                             </choice> mehr in <measure quantity="3000" unit="foot">3000 <choice>
                                     <abbr>F</abbr>
                                     <expan>Fuß</expan>
-                                </choice>
-                            </measure>
-                            <add place="sublinear">
-                                <supplied cert="high">(</supplied>plateaux<supplied cert="high">)</supplied>
-                            </add>
+                                </choice></measure>
+                            <add place="sublinear"><supplied cert="high">(</supplied>plateaux<supplied cert="high">)</supplied></add>
                             als höher herauf<supplied cert="high">,</supplied>
-                            <add place="superlinear">in engen Thälern</add>
-                            <supplied cert="high">.</supplied>
-                        </p>
-                        <p>Strahlung<supplied cert="high">.</supplied>
-                        </p>
-                        <p>
-                            <choice>
+                            <add place="superlinear">in engen Thälern</add><supplied cert="high">.</supplied></p><p>Strahlung<supplied cert="high">.</supplied></p><p><choice>
                                 <orig>fougères</orig>
                                 <reg>Fougères</reg>
                             </choice>
@@ -296,31 +203,17 @@
                             <measure quantity="20" unit="foot">20 <choice>
                                     <abbr>F.</abbr>
                                     <expan>Fuß</expan>
-                                </choice>
-                            </measure> noch auf <placeName ref="https://editon-humboldt.de/H0006749 https://www.geonames.org/3460923">Itacolumi</placeName>
+                                </choice></measure> noch auf <placeName ref="https://editon-humboldt.de/H0006749 https://www.geonames.org/3460923">Itacolumi</placeName>
                             <lb/>in <measure quantity="900" unit="toise">900 <choice>
                                     <abbr>t</abbr>
                                     <expan>toisen</expan>
-                                </choice>
-                            </measure>
-                            <supplied cert="high">,</supplied>
-                            <persName ref="https://editon-humboldt.de/H0015802 http://d-nb.info/gnd/138180881">Sello</persName>
-                            <supplied cert="high">.</supplied>
-                        </p>
-                        <p>
-                            <choice>
+                                </choice></measure><supplied cert="high">,</supplied>
+                            <persName ref="https://editon-humboldt.de/H0015802 http://d-nb.info/gnd/138180881">Sello</persName><supplied cert="high">.</supplied></p><p><choice>
                                 <orig>pas</orig>
                                 <reg>Pas</reg>
-                            </choice> chê<lb break="no"/>nes, pas <lb/>Pinus <lb/>au <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">Brésil</placeName>
-                            <supplied cert="high">.</supplied>
-                        </p>
-                        <pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000012.jpg"/>
-                        <gap unit="pages" quantity="1" reason="empty"/>
-                    </note>
-                    <pb n="5v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000014.jpg"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
-                </p>
+                            </choice>
+                            <name type="plant" subtype="vernacular" key="Quercus">chê<lb break="no"/>nes</name>, pas <lb/><name type="plant">Pinus</name>
+                            <lb/>au <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">Brésil</placeName><supplied cert="high">.</supplied></p><pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000012.jpg"/><gap unit="pages" quantity="1" reason="empty"/></note><pb n="5v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826366937/1200/0/00000014.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

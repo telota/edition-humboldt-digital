@@ -15,8 +15,7 @@
                         <surname>Martin</surname>
                         <forename>Linda</forename>
                     </persName>
-                </editor>
-                <editor>
+                </editor><editor>
                     <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
                         <surname>Päßler</surname>
                         <forename>Ulrich</forename>
@@ -31,24 +30,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Robert Schlagintweit. [Berlin, 4. Oktober
-                    1858], hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019129">https://edition-humboldt.de/v8/H0019129</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Robert Schlagintweit. [Berlin, 4. Oktober
+                    1858], hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019129</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0019129.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -59,12 +44,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
@@ -78,8 +58,7 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <opener>
 					<salute/>
@@ -96,61 +75,38 @@
                         <expan>und</expan>
                     </choice>
                     <lb/>bleibt noch einige Tage hier. Wollten Sie <lb/>ihn nicht besuchen in meinem
-                    Namen <lb/>Hotel Royal<supplied cert="high">.</supplied> Innigen Dank <subst>
+                    Namen <lb/>Hôtel Royal<supplied cert="high">.</supplied> Innigen Dank <subst>
                         <del rendition="#s">ich</del>
                         <add place="intralinear">für</add>
-                    </subst> den <ref xml:id="f1c0a59c-a607-48a5-80a5-9ca60748a54c" corresp="#e0dd35f6-3616-419d-9d35-f63616819def">
-                        <lb/>Brief des <persName ref="https://editon-humboldt.de/H0018961 https://d-nb.info/gnd/117059838">Missionars</persName>
-                    </ref>
-                    <note xml:id="e0dd35f6-3616-419d-9d35-f63616819def" corresp="#f1c0a59c-a607-48a5-80a5-9ca60748a54c">Es handelt sich wohl um den Tibetologen und
-                            Missionar in Nord<placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">indien</placeName> Heinrich
-                            August Jäschke, der bei der Suche nach Adolph Schlagintweit
-                            Informationen beigetragen hatte (vgl. <bibl corresp="https://edition-humboldt.de/4M68ZD2P">Schlagintweit, H./Schlagintweit R.
-                                1859</bibl>). </note>
-                    <supplied cert="high">.</supplied> Möge <ref xml:id="ab241dea-5ebc-47bf-a41d-ea5ebc87bf5c" corresp="#f1ffda01-76fa-4ac0-bfda-0176fa3ac038">Lord Hill</ref>
-                    <note xml:id="f1ffda01-76fa-4ac0-bfda-0176fa3ac038" corresp="#ab241dea-5ebc-47bf-a41d-ea5ebc87bf5c">Diese Person konnte bislang nicht identifiziert
+                    </subst> den <ref xml:id="c1952f18-5205-4acd-952f-1852057acdf6" corresp="#d649d6eb-a573-46e1-89d6-eba57346e1e5" type="editorialNote"><lb/>Brief des <persName ref="https://editon-humboldt.de/H0018961 https://d-nb.info/gnd/117059838">Missionars</persName></ref><note xml:id="d649d6eb-a573-46e1-89d6-eba57346e1e5" corresp="#c1952f18-5205-4acd-952f-1852057acdf6" type="editorial">Es handelt sich wohl um den Tibetologen und
+                            Missionar in Nord<placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">indien</placeName>
+                            <persName ref="https://editon-humboldt.de/H0018961 https://d-nb.info/gnd/117059838">Heinrich August Jäschke</persName>, der bei der
+                            Suche nach Adolph Schlagintweit Informationen beigetragen hatte (vgl.
+                                <bibl corresp="https://edition-humboldt.de/4M68ZD2P">Schlagintweit,
+                                H./Schlagintweit R. 1859</bibl>). </note><supplied cert="high">.</supplied> Möge <ref xml:id="c57ea640-f362-49ff-bea6-40f36269ffed" corresp="#e2e44694-8cb6-4423-a446-948cb6042334" type="editorialNote">Lord Hill</ref><note xml:id="e2e44694-8cb6-4423-a446-948cb6042334" corresp="#c57ea640-f362-49ff-bea6-40f36269ffed" type="editorial">Diese Person konnte bislang nicht identifiziert
                             werden.</note>
                     <lb/>tröstlicher sein<supplied cert="high">.</supplied> Ich sah Sonnabend den
-                        <lb/>
-                    <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> der gleich nach ihm
-                        fragte<supplied cert="high">.</supplied>
-                </p>
+                        <lb/><persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> der gleich nach ihm
+                        fragte<supplied cert="high">.</supplied></p>
                 
 				<closer>
 					<salute>Ihr</salute>
 					<signed>AHumboldt</signed>
-				    <dateline>
-                        <ref xml:id="a48afaa8-3014-4837-8afa-a8301478375e" corresp="#c1a3eca3-2584-47cb-a3ec-a32584b7cb23">Montags<note place="mBottom" hand="#addressee">3<supplied cert="high">.</supplied>
+				    <dateline><ref xml:id="a5262d6f-7bc9-41a9-a62d-6f7bc9c1a97b" corresp="#e43bbb17-d58c-4a82-bbbb-17d58c1a8243" type="editorialNote">Montags<note place="mBottom" hand="https://edition-humboldt.de/#addressee">3<supplied cert="high">.</supplied>
                                     <choice>
                                         <abbr>Oct.</abbr>
                                         <expan>October</expan>
-                                    </choice> 1858</note>
-                        </ref>
-                        <note xml:id="c1a3eca3-2584-47cb-a3ec-a32584b7cb23" corresp="#a48afaa8-3014-4837-8afa-a8301478375e">Der wohl von Robert Schlagintweit notierte
+                                    </choice> 1858</note></ref><note xml:id="e43bbb17-d58c-4a82-bbbb-17d58c1a8243" corresp="#a5262d6f-7bc9-41a9-a62d-6f7bc9c1a97b" type="editorial">Der wohl von Robert Schlagintweit notierte
                                 Empfangsvermerk ist nicht korrekt: Der 3. Oktober 1858 war ein
                                 Sonntag, so dass Humboldt den Brief wahrscheinlich am Montag, 4.
-                                Oktober 1858 verfasste. </note>
-                    </dateline>
-        <pb n="1v"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
-                    <pb n="2r"/>
-                    <address>
-                        <addrLine>
-                            <choice>
+                                Oktober 1858 verfasste. </note></dateline>
+        <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/><pb n="2r"/><address><addrLine><choice>
                                 <abbr>Sr</abbr>
                                 <expan>Seiner</expan>
-                            </choice> Wohlgeboren</addrLine>
-                        <addrLine>Herrn <choice>
-                                <abbr>D<hi rendition="#sup">r</hi>
-                                </abbr>
+                            </choice> Wohlgeboren</addrLine><addrLine>Herrn <choice>
+                                <abbr>D<hi rendition="#sup">r</hi></abbr>
                                 <expan>Doktor</expan>
-                            </choice> Robert Schlagintweit</addrLine>
-                    </address>
-                    <signed>AlHumboldt</signed>
-                    <pb n="2v"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
-                </closer>
-            </div>
-        </body>
-    </text>
+                            </choice>
+                            <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert Schlagintweit</persName></addrLine></address><signed>AlHumboldt</signed><pb n="2v"/><gap unit="pages" quantity="1" reason="empty"/></closer></div>
+        </body></text>
 </TEI>

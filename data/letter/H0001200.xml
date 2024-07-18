@@ -28,24 +28,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20. April
-                    1799; La Coruña, 5. Juni 1799, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0001200">https://edition-humboldt.de/v8/H0001200</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Karl Ludwig Willdenow. Aranjuez, 20. April
+                    1799; La Coruña, 5. Juni 1799, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0001200</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0001200.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -53,10 +39,7 @@
                             Kulturbesitz</institution>
                         <repository>Handschriftenabteilung</repository>
                         <collection>Autogr.</collection>
-                        <idno>
-                            <idno type="shelfmark">I/169 (Vorlage)</idno>
-                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1800377</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">I/169 (Vorlage)</idno><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1800377</idno></idno>
                     </msIdentifier>
                 </msDesc>
                 <listWit>
@@ -77,20 +60,14 @@
                             1973</bibl>, 660–664</witness>
                     <witness>
                         <bibl type="print" n="6" corresp="https://edition-humboldt.de/VBSQWIUF">Humboldt
-                            2014</bibl>
-                    </witness>
+                            2014</bibl></witness>
                     <witness>
                         <bibl type="print" n="7" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt
                             2020</bibl>, 110–114</witness>
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
@@ -104,22 +81,18 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession" n="1">
-                <pb n="1r"/>
-                <opener>
-                    <dateline rend="align(right)">Aranjuez unfern
-                            Madrid<supplied cert="high">,</supplied> den 20<supplied cert="high">.</supplied> April
+                <pb n="1r"/><opener>
+                    <dateline rend="align(right)"><placeName ref="https://editon-humboldt.de/H0002516 https://www.geonames.org/3129857">Aranjuez</placeName>
+                        unfern <placeName ref="https://editon-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName><supplied cert="high">,</supplied> den 20<supplied cert="high">.</supplied> April
                         99.</dateline>
                 </opener>
-                <p>Wenn ich, mein brüderlichst geliebter Freund, seit <placeName ref="https://editon-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> auch keine Zeile an Dich ge<g ref="#typoHyphen"/>
-                    <lb break="no"/>schrieben habe, so bin ich deshalb, wie der Inhalt dieses
+                <p>Wenn ich, mein brüderlichst geliebter Freund, seit <placeName ref="https://editon-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> auch keine Zeile an Dich ge<g ref="#typoHyphen"/><lb break="no"/>schrieben habe, so bin ich deshalb, wie der Inhalt dieses
                     Briefes zeigen wird, doch nicht <lb/>minder thätig für Dich <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Deine Freuden gewesen. Ich schlage so eben eine Kiste von <lb/>
-                    <hi rendition="#u">400</hi> Pflanzen für Dich zu, von denen ¼ gewiß noch
+                    </choice> Deine Freuden gewesen. Ich schlage so eben eine Kiste von <lb/><hi rendition="#u">400</hi> Pflanzen für Dich zu, von denen ¼ gewiß noch
                     unbeschrieben <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -145,34 +118,28 @@
                     sind, muß ich Dich über mich selbst <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> mein Schiksal orientiren. Die<g ref="#typoHyphen"/>
-                    <lb break="no"/>ses
-                    Schiksal ist nun in diesem Jahr wunderbar genug gewesen, doch wirst Du be<g ref="#typoHyphen"/>
-                    <lb break="no"/>merken, daß ich wenigstens Hartnäkkig in
+                    </choice> mein Schiksal orientiren. Die<g ref="#typoHyphen"/><lb break="no"/>ses
+                    Schiksal ist nun in diesem Jahr wunderbar genug gewesen, doch wirst Du be<g ref="#typoHyphen"/><lb break="no"/>merken, daß ich wenigstens Hartnäkkig in
                     Verfolgung meiner Pläne gewesen bin <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <lb/>daß diese Hartnäkkigkeit mich nun doch noch von <placeName ref="https://editon-humboldt.de/H0017307">Californien</placeName> bis zum <placeName ref="https://editon-humboldt.de/H0008151 https://www.geonames.org/3841798">Patagonen<g ref="#typoHyphen"/>
-                        <lb break="no"/>lande</placeName>, vielleicht selbst
+                    <lb/>daß diese Hartnäkkigkeit mich nun doch noch von <placeName ref="https://editon-humboldt.de/H0017307">Californien</placeName> bis zum <placeName ref="https://editon-humboldt.de/H0008151 https://www.geonames.org/3841798">Patagonen<g ref="#typoHyphen"/><lb break="no"/>lande</placeName>, vielleicht selbst
                     um die Welt führt. Bei einem so arbeitsamen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> tumultu<g ref="#typoHyphen"/>
-                    <lb break="no"/>arischen Leben als das
+                    </choice> tumultu<g ref="#typoHyphen"/><lb break="no"/>arischen Leben als das
                     meinige, bei der großen Menge von Dingen, die als Folge <lb/>von Experimenten, <choice>
                         <abbr>astronom.</abbr>
                         <expan>astronomischen</expan>
                     </choice> Beobachtungen p stündlich aufzuzeichnen sind, bei der <lb/>vielen
-                    Zeit, welche ich dem gesellschaftlichen Leben aufopfere, siehst Du, mein Theu<g ref="#typoHyphen"/>
-                    <lb break="no"/>rer, selbst ein, daß ich keinen sehr
+                    Zeit, welche ich dem gesellschaftlichen Leben aufopfere, siehst Du, mein Theu<g ref="#typoHyphen"/><lb break="no"/>rer, selbst ein, daß ich keinen sehr
                     lebhaften Briefwechsel führen kann<supplied cert="high">.</supplied> In der
                     <lb/>That habe ich eigentlich allen Briefwechsel völlig aufgegeben, denn da ich
                     mit so <lb/>vielen hundert Menschen in Verbindung stehe, da mit jeder neuen
                     Reise die alten <lb/>Correspondenten den neuen Plaz machen mußten – so werden
                     meine nachsichtigsten Freunde <lb/>von selbst das widrige einer solchen Lage
-                    einsehen. Arbeit ist doch einmal der Zwek un<g ref="#typoHyphen"/>
-                    <lb break="no"/>seres Lebens <choice>
+                    einsehen. Arbeit ist doch einmal der Zwek un<g ref="#typoHyphen"/><lb break="no"/>seres Lebens <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> wo ist Arbeit möglich, wenn man täglich 6–8 gleichlautende Briefe
@@ -187,11 +154,9 @@
                     </subst> 4–5 meiner vertrautesten Freunde, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> daß Du, mein Guter, unter dieser klei<g ref="#typoHyphen"/>
-                    <lb break="no"/>nen Zahl begriffen bist, brauche ich wohl nicht erst zu sagen.
+                    </choice> daß Du, mein Guter, unter dieser klei<g ref="#typoHyphen"/><lb break="no"/>nen Zahl begriffen bist, brauche ich wohl nicht erst zu sagen.
                     Wenn ich auch nur <lb/>alle 2–3 Monathe schreibe, so suche ich doch immer einen
-                    Brief an den anderen anzu<g ref="#typoHyphen"/>
-                    <lb break="no"/>knüpfen. Also
+                    Brief an den anderen anzu<g ref="#typoHyphen"/><lb break="no"/>knüpfen. Also
                     zuerst von mir selbst: Seitdem ich in <placeName ref="https://editon-humboldt.de/H0009764 https://www.geonames.org/2766824">Salzburg</placeName> meine zweite Reise <lb/>nach <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName>
                     <choice>
                         <abbr>u</abbr>
@@ -203,23 +168,20 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <hi rendition="#u">tol<g ref="#typoHyphen"/>
-                        <lb break="no"/>le</hi>
+                    <hi rendition="#u">tol<g ref="#typoHyphen"/><lb break="no"/>le</hi>
                     <persName ref="https://editon-humboldt.de/H0011837 http://d-nb.info/gnd/1019175079">Lord Bristol</persName> ein Schiff in <placeName ref="https://editon-humboldt.de/H0011459 https://www.geonames.org/3174659">Livorno</placeName> gekauft hatte, welches uns mit Küche <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    Kel<lb break="no"/>ler, Mahler <choice>
+                    Kel<lb break="no"/>ler, Mahlern <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Bildhauer den <placeName ref="https://editon-humboldt.de/H0001673 https://www.geonames.org/351036">Nÿl</placeName> herauf bis an
-                    die Catarakte führen sollte. Die<g ref="#typoHyphen"/>
-                    <lb break="no"/>se Reise
+                    </choice> Bildhauern den <placeName ref="https://editon-humboldt.de/H0001673 https://www.geonames.org/351036">Nÿl</placeName> herauf bis an
+                    die Catarakte führen sollte. Die<g ref="#typoHyphen"/><lb break="no"/>se Reise
                     nach <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Egypten</placeName> war verabredet (November 97)
                     ehe <persName ref="https://editon-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Buonaparte</persName> sich damit beschäftigte.
                     <lb/>Ich wollte in <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> noch einige
-                    Instrumente zusammenkaufen als die Franzosen mir mei<g ref="#typoHyphen"/>
-                    <lb break="no"/>nen tollen <persName ref="https://editon-humboldt.de/H0011837 http://d-nb.info/gnd/1019175079">Lord</persName> bei
+                    Instrumente zusammenkaufen als die Franzosen mir mei<g ref="#typoHyphen"/><lb break="no"/>nen tollen <persName ref="https://editon-humboldt.de/H0011837 http://d-nb.info/gnd/1019175079">Lord</persName> bei
                         <placeName ref="https://editon-humboldt.de/H0005298 https://www.geonames.org/3181928">Bologna</placeName> wegfangen, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -243,17 +205,14 @@
                         <expan>und</expan>
                     </choice> gerade damals mit magnetischen Untersuchungen beschäftigt, leuch<lb break="no"/>tete eine Reise nach dem <placeName ref="https://editon-humboldt.de/H0010385 https://www.geonames.org/6942239">Südpol</placeName> mir mehr als <subst>
                         <del rendition="#s">die</del>
-                        <add place="intralinear">
-                            <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Egÿpten</placeName>
+                        <add place="intralinear"><placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Egÿpten</placeName>
                         </add>
                     </subst>ein, wohin (als ich <lb/>in <placeName ref="https://editon-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName> ankam) <persName ref="https://editon-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Buonaparte</persName> mit seinen 10000 Gelehrten, die sich noch vor
                         <placeName ref="https://editon-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName>
                     <lb/>wie die Gassenbuben zankten, bereits abgesegelt war. Mit diesen weitaus
-                    sehenden Hofnungen <lb/>
-                    <pb n="1v"/>
+                    sehenden Hofnungen <lb/><pb n="1v"/>
                     <add place="superlinear">war ich</add> beschäftigt, als auf einmal das
-                    Directorium den heroischen Entschluß faßt, nicht <lb/>den 75 jährigen <persName ref="https://editon-humboldt.de/H0003535 http://d-nb.info/gnd/118662309">Bougainville</persName> sondern den <persName ref="https://editon-humboldt.de/H0003136 http://d-nb.info/gnd/119227568">
-                        <choice>
+                    Directorium den heroischen Entschluß faßt, nicht <lb/>den 75 jährigen <persName ref="https://editon-humboldt.de/H0003535 http://d-nb.info/gnd/118662309">Bougainville</persName> sondern den <persName ref="https://editon-humboldt.de/H0003136 http://d-nb.info/gnd/119227568"><choice>
                             <abbr>Cap.</abbr>
                             <expan>Capitaine</expan>
                         </choice> Baudin</persName> eine Reise um die <lb/>Welt machen zu lassen.
@@ -277,13 +236,11 @@
                         <add place="intralinear">unserer</add>
                     </subst> Gefährten <lb/>war vortreflich, lauter junge, kenntnißvolle, kräftige
                     Menschen. Wie scharf jeder <lb/>den anderen ins Auge faßte, wenn er ihn zum
-                    ersten Male sah. Vorher fremd <lb/>
-                    <choice>
+                    ersten Male sah. Vorher fremd <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> dann so viele Jahre lang einander so nahe. Das 1ste Jahr sollten wir
-                    in <placeName ref="https://editon-humboldt.de/H0008098 https://www.geonames.org/3437598">Paraguaÿ</placeName>, <lb/>
-                    <choice>
+                    in <placeName ref="https://editon-humboldt.de/H0008098 https://www.geonames.org/3437598">Paraguaÿ</placeName>, <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> im <placeName ref="https://editon-humboldt.de/H0008151 https://www.geonames.org/3841798">Patagonenlande</placeName>, das 2te in
@@ -297,8 +254,7 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> das 5te in <placeName ref="https://editon-humboldt.de/H0011142 https://www.geonames.org/2420477">Guinea</placeName> zubringen.
-                        <lb/>
-                    <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Mein Bruder</persName>
+                        <lb/><persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Mein Bruder</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -306,41 +262,36 @@
                     <persName ref="https://editon-humboldt.de/H0012060 http://d-nb.info/gnd/118554719">meine Schwägerin</persName> wollten mich bis in den
                         <placeName ref="https://editon-humboldt.de/H0011407 https://www.geonames.org/3003796">Havre</placeName> begleiten. Wir waren <lb/>alle
                     mit der Idee so vertraut, daß diese Abreise uns ein Fest schien. Welch ein
-                    <lb/>unnennbarer Schmerz, als in 14 Tagen, alle<supplied cert="high">,</supplied> alle diese Hofnungen scheiterten. Elende <lb/>
-                    <measure quantity="300000" unit="livre_tournois">300000 livres</measure>
+                    <lb/>unnennbarer Schmerz, als in 14 Tagen, alle<supplied cert="high">,</supplied> alle diese Hofnungen scheiterten. Elende <lb/><measure quantity="300000" unit="livre_tournois">300000 livres</measure>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> der nahe gefürchtete Ausbruch des Krieges waren die Ursachen. Mein
                     <lb/>persönlicher Einfluß bei <persName ref="https://editon-humboldt.de/H0000218 http://d-nb.info/gnd/119353539">François de
-                        Neufchâteau</persName>, der mir sehr wohl will, alle Trieb<g ref="#typoHyphen"/>
-                    <lb break="no"/>federn waren umsonst. In <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>, das von dieser Reise voll gewesen war,
+                        Neufchâteau</persName>, der mir sehr wohl will, alle Trieb<g ref="#typoHyphen"/><lb break="no"/>federn waren umsonst. In <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>, das von dieser Reise voll gewesen war,
                     glaubte man <lb/>uns abgesegelt. Das directorium sezte durch ein 2tes arrêté die
                     Abreise bis <lb/>zum künftigen Jahre (??) aus. Eine solche Lage, ein solcher
                     Schmerz läßt sich nur <lb/>fühlen. Aber Männer müssen handeln, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> sich nicht dem Schmerz überlassen. Ich <lb/>faßte nun den Entschluß
-                    der egÿptischen Armee auf dem Landwege mit der Cara<g ref="#typoHyphen"/>
-                    <lb break="no"/>vane die von <placeName ref="https://editon-humboldt.de/H0009523 https://www.geonames.org/2210247">Tripolis</placeName>
+                    der egÿptischen Armee auf dem Landwege mit der Cara<g ref="#typoHyphen"/><lb break="no"/>vane die von <placeName ref="https://editon-humboldt.de/H0009523 https://www.geonames.org/2210247">Tripolis</placeName>
                     durch die Wüste <placeName ref="https://editon-humboldt.de/H0010194 https://www.geonames.org/367715">Selimar</placeName> nach <placeName ref="https://editon-humboldt.de/H0000327 https://www.geonames.org/360630">Cairo</placeName> geht zu folgen. <lb/>Ich gesellte einen der
                     jungen Leute der mit zur Reise um die Welt <choice>
                         <orig>bestim̅t</orig>
                         <reg>bestimmt</reg>
-                    </choice> war, <lb/>
-                    <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>, einen sehr
+                    </choice> war, <lb/><persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>, einen sehr
                     guten Botanisten, den besten Schüler von <persName ref="https://editon-humboldt.de/H0004222 http://d-nb.info/gnd/119273624">Jussieu</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <lb/>
-                    <persName ref="https://editon-humboldt.de/H0012241 http://d-nb.info/gnd/104130717">Desfontaines</persName> mir zu. Er hat auf der
+                    <lb/><persName ref="https://editon-humboldt.de/H0012241 http://d-nb.info/gnd/104130717">Desfontaines</persName> mir zu. Er hat auf der
                     Flotte gedient, ist sehr stämmig, muthig, <lb/>gutmüthig, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> in der anatomia comparata geschikt. Wir eilten nach <placeName ref="https://editon-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> um <lb/>von dort aus mit dem <placeName ref="https://editon-humboldt.de/H0010177 https://www.geonames.org/2661886">Schwedischen</placeName>
-                    <persName ref="https://editon-humboldt.de/H0015902">Consul Sköldebrand</persName> auf einer Fregatte,
+                    <persName ref="https://editon-humboldt.de/H0015902 https://d-nb.info/gnd/1283366215">Consul Sköldebrand</persName> auf einer Fregatte,
                     welche <lb/>Geschenke führte, abzugehen. Ich wollte den Winter in <placeName ref="https://editon-humboldt.de/H0002382 https://www.geonames.org/2507480">Alger</placeName>
                     <choice>
                         <abbr>u</abbr>
@@ -357,11 +308,9 @@
                     gepakt bleiben <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> wir lie<g ref="#typoHyphen"/>
-                    <lb break="no"/>fen täglich ans Ufer. Die
+                    </choice> wir lie<g ref="#typoHyphen"/><lb break="no"/>fen täglich ans Ufer. Die
                     Fregatte Jaramas, welche uns führen sollte, ging <lb/>unter. Alle Manschaft
-                    ersoff. Einige meiner Freunde, welche mich schon einge<g ref="#typoHyphen"/>
-                    <lb break="no"/>schift glaubten, hat diese Nachricht sehr erschrekt. Ich
+                    ersoff. Einige meiner Freunde, welche mich schon einge<g ref="#typoHyphen"/><lb break="no"/>schift glaubten, hat diese Nachricht sehr erschrekt. Ich
                     miethete, durch das lange <lb/>Harren nicht abgeschrekt, einen Ragusaner der uns
                     directe nach <placeName ref="https://editon-humboldt.de/H0009577 https://www.geonames.org/2464470">Tunis</placeName> führen <lb/>sollte. Die <choice>
                         <sic>Municipilatät</sic>
@@ -370,16 +319,13 @@
                     wahrscheinlich schon unterrichtet <lb/>von den Stürmen welche bald in der
                     Berberei gegen alle Franzosen <subst>
                         <del rendition="#s">zus</del>
-                        <add place="intralinear">aus<g ref="#typoHyphen"/>
-                            <lb break="no"/>brechen</add>
+                        <add place="intralinear">aus<g ref="#typoHyphen"/><lb break="no"/>brechen</add>
                     </subst> sollten, verweigerte die Pässe. Bald darauf kam die Nachricht an, daß
                     <lb/>der <persName ref="https://editon-humboldt.de/H0003010">Dey von Alger</persName> die Caravane nach
-                        <placeName ref="https://editon-humboldt.de/H0008803 https://www.geonames.org/104515">Mekka</placeName> nicht abgehen lassen wolle, da<g ref="#typoHyphen"/>
-                    <lb break="no"/>mit sie nicht durch das von Christen
+                        <placeName ref="https://editon-humboldt.de/H0008803 https://www.geonames.org/104515">Mekka</placeName> nicht abgehen lassen wolle, da<g ref="#typoHyphen"/><lb break="no"/>mit sie nicht durch das von Christen
                     verunreinigte <placeName ref="https://editon-humboldt.de/H0002353 https://www.geonames.org/357994">Egÿpten</placeName> gehe – nun war alle
                     <lb/>Hofnung nach <placeName ref="https://editon-humboldt.de/H0000327 https://www.geonames.org/360630">Cairo</placeName> zur Armee zu
-                    stoßen dahin. Zur See war alle <lb/>
-                    <pb n="2r"/> Communikation abgeschnitten. Es
+                    stoßen dahin. Zur See war alle <lb/><pb n="2r"/> Communikation abgeschnitten. Es
                     blieb mir nichts übrig, als für den Herbst die Reise in <lb/>den <placeName ref="https://editon-humboldt.de/H0007844">Orient</placeName> aufzugeben, den Winter in <placeName ref="https://editon-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName> zuzubringen und von dort aus <lb/>im
                     Frühjahr ein Schiff nach <placeName ref="https://editon-humboldt.de/H0010281 https://www.geonames.org/311046">Smyrna</placeName> zu suchen.
                     Traurige Zeiten in denen man <lb/>troz aller Aufopferungen <choice>
@@ -392,16 +338,14 @@
                     </choice> kann. Ich reiste nun, meist zu Fuß<subst>
                         <del rendition="#s">de</del>
                         <add place="intralinear">, längst</add>
-                    </subst> der Küste des <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">mittelländischen
+                    </subst> der Küste des <lb/><placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">mittelländischen
                         Meeres</placeName>, über <placeName ref="https://editon-humboldt.de/H0010210 https://www.geonames.org/2974733">Cette</placeName>,
                         <placeName ref="https://editon-humboldt.de/H0008945 https://www.geonames.org/2992166">Monpellier</placeName>, <placeName ref="https://editon-humboldt.de/H0001553 https://www.geonames.org/2990919">Narbonne</placeName>, <placeName ref="https://editon-humboldt.de/H0008226 https://www.geonames.org/2987914">Perpignan</placeName>, die
                         <placeName ref="https://editon-humboldt.de/H0008509 https://www.geonames.org/3112616">Pyrenäen</placeName>, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0000389 https://www.geonames.org/3336901">Catalonien</placeName> nach <placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName>
+                    <lb/><placeName ref="https://editon-humboldt.de/H0000389 https://www.geonames.org/3336901">Catalonien</placeName> nach <placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -413,16 +357,13 @@
                     </choice> von da <subst>
                         <del rendition="#s">über</del>
                         <add place="intralinear">durch</add>
-                    </subst> die hohe Ebene von <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0011344 https://www.geonames.org/2593111">La Mancha</placeName>
-                        hieher<supplied cert="high">.</supplied> In <placeName ref="https://editon-humboldt.de/H0008945 https://www.geonames.org/2992166">Montpellier</placeName> brachte ich köstliche Tage in <persName ref="https://editon-humboldt.de/H0012999 http://d-nb.info/gnd/11891779X">Chaptals</persName> Hause, in <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0005121 https://www.geonames.org/3128760">Barcellona</placeName> bei <persName ref="https://editon-humboldt.de/H0013710">John Gille</persName>
+                    </subst> die hohe Ebene von <lb/><placeName ref="https://editon-humboldt.de/H0011344 https://www.geonames.org/2593111">La Mancha</placeName>
+                        hieher<supplied cert="high">.</supplied> In <placeName ref="https://editon-humboldt.de/H0008945 https://www.geonames.org/2992166">Montpellier</placeName> brachte ich köstliche Tage in <persName ref="https://editon-humboldt.de/H0012999 http://d-nb.info/gnd/11891779X">Chaptals</persName> Hause, in <lb/><placeName ref="https://editon-humboldt.de/H0005121 https://www.geonames.org/3128760">Barcellona</placeName> bei <persName ref="https://editon-humboldt.de/H0013710 https://d-nb.info/gnd/1284209989">John Gille</persName>
                     einem Engländer zu, <subst>
                         <del rendition="#s">der</del>
                         <add place="intralinear">mit</add>
                     </subst> dem ich <supplied cert="high">in</supplied>
-                    <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName> zusamen wohnte <lb/>
-                    <choice>
+                    <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName> zusamen wohnte <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> der jezt in <placeName ref="https://editon-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName> Chef einer
@@ -446,11 +387,8 @@
                         <add place="intralinear">empor</add>
                     </subst>. Der Akker scheint ein Wald von <subst>
                         <del rendition="#s">Ceratop</del>
-                        <add place="intralinear">
-                            <name type="plant">Ceratonia</name>
-                        </add>
-                    </subst>, Oelbäumen <lb/>
-                    <choice>
+                        <add place="intralinear"><name type="plant">Ceratonia</name></add>
+                    </subst>, Oelbäumen <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Orangen, von denen viele<choice>
@@ -460,61 +398,50 @@
                     <subst>
                         <del rendition="#s">Stämme</del>
                         <add place="intralinear">Kronen</add>
-                    </subst> wie unsere Birnbäume haben. In <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> kosten 68 Orangen 1 piacette d. i. <measure quantity="6" unit="groschen">6 <choice>
+                    </subst> wie unsere Birnbäume haben. In <lb/><placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> kosten 68 Orangen 1 piacette d. i. <measure quantity="6" unit="groschen">6 <choice>
                             <abbr>gr.</abbr>
                             <expan>Groschen</expan>
-                        </choice>
-                    </measure>. Bei <placeName ref="https://editon-humboldt.de/H0005084 https://www.geonames.org/3128978">Balaguet</placeName>
+                        </choice></measure>. Bei <placeName ref="https://editon-humboldt.de/H0005084 https://www.geonames.org/3128978">Balaguet</placeName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> am Ausfluß des <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0005585 https://www.geonames.org/3123754">Ebro</placeName> ist
+                    </choice> am Ausfluß des <lb/><placeName ref="https://editon-humboldt.de/H0005585 https://www.geonames.org/3123754">Ebro</placeName> ist
                     eine 10 Meilen lange Ebene mit <name type="plant">Chamaerops</name>, Pistacien <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> zahllosen <name type="plant">Erica</name>-<lb break="no"/>Arten (<name type="plant">
-                        <choice>
+                    </choice> zahllosen <name type="plant">Erica</name>-<lb break="no"/>Arten (<name type="plant"><choice>
                             <abbr>E.</abbr>
                             <expan>Erica</expan>
-                        </choice> vagans</name>. <name type="plant">
-                        <choice>
+                        </choice> vagans</name>. <name type="plant"><choice>
                             <abbr>E.</abbr>
                             <expan>Erica</expan>
-                        </choice> scoparia</name>
-                    <supplied cert="high">.</supplied>
-                    <name type="plant">
-                        <choice>
+                        </choice> scoparia</name><supplied cert="high">.</supplied>
+                    <name type="plant"><choice>
                             <abbr>E.</abbr>
                             <expan>Erica</expan>
                         </choice>
                         <choice>
                             <orig>mediterrania</orig>
                             <reg>mediterranea</reg>
-                        </choice>
-                    </name>) <choice>
+                        </choice></name>) <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
                     <name type="plant">Cistus</name> bewachsen. Die Heide blühte <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> mit<g ref="#typoHyphen"/>
-                    <lb break="no"/>ten in der Wildniß pflükten
+                    </choice> mit<g ref="#typoHyphen"/><lb break="no"/>ten in der Wildniß pflükten
                     wir Narcissen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Jonquillen. Bei <placeName ref="https://editon-humboldt.de/H0007054 https://www.geonames.org/7580247">Cambrils</placeName> ist
-                        <name type="plant">Phö<g ref="#typoHyphen"/>
-                        <lb break="no"/>nix
+                        <name type="plant">Phö<g ref="#typoHyphen"/><lb break="no"/>nix
                         dactilifera</name> so verwildert, daß man 20–30 Stämme so dicht grouppirt
                     sieht, <lb/>daß kein Thier durchdringen kann. Da man weiße Palmenblätter sehr in
                     den <lb/>Kirchen liebt, so sieht man in <placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> Dattelstämme deren mittlerer Trieb <lb/>mit einer Art
                     conischer Müze von <name type="plant">Stipa tenacissima</name> überzogen ist,
                     damit die <lb/>jungen Blätter im Finstern etiolirt werden. Das bassin in dem die
-                    Stadt <placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Va<g ref="#typoHyphen"/>
-                        <lb break="no"/>lence</placeName> liegt, südlich wie <placeName ref="https://editon-humboldt.de/H0000329 https://www.geonames.org/2525468">Calabrien</placeName>, hat an Ueppigkeit <add place="sublinear">der
+                    Stadt <placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Va<g ref="#typoHyphen"/><lb break="no"/>lence</placeName> liegt, südlich wie <placeName ref="https://editon-humboldt.de/H0000329 https://www.geonames.org/2525468">Calabrien</placeName>, hat an Ueppigkeit <add place="sublinear">der
                         Vegetation</add> seines Gleichen in <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName>
                     <lb/>nicht. Man glaubt nie Bäume <choice>
                         <abbr>u</abbr>
@@ -523,8 +450,7 @@
                     Thermometer im Schatten <measure quantity="18" unit="reamur">18° <choice>
                             <abbr>Réaum</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure>. Alle Blüthen waren <lb/>fast schon abgefallen. Im
+                        </choice></measure>. Alle Blüthen waren <lb/>fast schon abgefallen. Im
                         <placeName ref="https://editon-humboldt.de/H0008417 https://www.geonames.org/6362070">Pouzzol</placeName> blühen <name type="plant">Musa
                         bihai</name>, <name type="plant">Aletris</name>
                     <choice>
@@ -539,15 +465,13 @@
                     <name type="plant">Laurus Persea</name> sind dort sehr gemein <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> tra<g ref="#typoHyphen"/>
-                    <lb break="no"/>gen jährlich reife Früchte.
+                    </choice> tra<g ref="#typoHyphen"/><lb break="no"/>gen jährlich reife Früchte.
                     Von den Ruinen von <placeName ref="https://editon-humboldt.de/H0009264 https://www.geonames.org/3108288">Tarragon</placeName>, dem Berge von
                         <placeName ref="https://editon-humboldt.de/H0009717 https://www.geonames.org/2511619">Murviedro</placeName>, <lb/>oder dem Dianentempel
                     des alten <placeName ref="https://editon-humboldt.de/H0009717 https://www.geonames.org/2511619">Sagunt</placeName>, seinem ungeheuren <choice>
                         <sic>Amphiteater</sic>
                         <corr cert="high">Amphitheater</corr>
-                    </choice>, dem <lb/>Herkulesthurm, von dem man die Thürme von <placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> aus einem Walde von Dat<g ref="#typoHyphen"/>
-                    <lb break="no"/>telpalmen <choice>
+                    </choice>, dem <lb/>Herkulesthurm, von dem man die Thürme von <placeName ref="https://editon-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> aus einem Walde von Dat<g ref="#typoHyphen"/><lb break="no"/>telpalmen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Garaffen hervorragen sieht <choice>
@@ -572,8 +496,7 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> die Wirtshäuser in denen <lb/>auch nicht einmal Brod zu haben ist.
-                    Dazu ist die Küste fast überall schön angebaut. In <placeName ref="https://editon-humboldt.de/H0000389 https://www.geonames.org/3336901">Ca<g ref="#typoHyphen"/>
-                        <lb break="no"/>talonien</placeName> herscht
+                    Dazu ist die Küste fast überall schön angebaut. In <placeName ref="https://editon-humboldt.de/H0000389 https://www.geonames.org/3336901">Ca<g ref="#typoHyphen"/><lb break="no"/>talonien</placeName> herscht
                     eine Industrie die der <placeName ref="https://editon-humboldt.de/H0001654 https://www.geonames.org/2750405">Holländischen</placeName>
                     gleicht. In allen Dörfern wird gewebt, <lb/>Schifbau getrieben p alles arbeitet.
                     Der Akker- <choice>
@@ -593,32 +516,26 @@
                     eines <lb/>Gebirges, daß <measure quantity="2500" unit="fuss_preussisch">2–3000 <choice>
                             <abbr>F.</abbr>
                             <expan>Fuß</expan>
-                        </choice>
-                    </measure> hoch über dem Meere stehen geblieben ist, als das
+                        </choice></measure> hoch über dem Meere stehen geblieben ist, als das
                         <placeName ref="https://editon-humboldt.de/H0008895 https://www.geonames.org/363196">Mittelmeer</placeName>
-                    <lb/>alles verschlang. Dieser Höhe verdankt <placeName ref="https://editon-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName> sein Dasein, aber auch (die Küsten ab<g ref="#typoHyphen"/>
-                    <lb break="no"/>gerechnet) seine Dürre <choice>
+                    <lb/>alles verschlang. Dieser Höhe verdankt <placeName ref="https://editon-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName> sein Dasein, aber auch (die Küsten ab<g ref="#typoHyphen"/><lb break="no"/>gerechnet) seine Dürre <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> zum Theil seine Kälte. Bei <placeName ref="https://editon-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName> leiden die Oelbäume <lb/>schon oft im Freien; <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Orangen im Freien sind eine Seltenheit. Doch ich fange an zu be<g ref="#typoHyphen"/>
-                    <lb break="no"/>schreiben, was ich eigentlich nie thun
+                    </choice> Orangen im Freien sind eine Seltenheit. Doch ich fange an zu be<g ref="#typoHyphen"/><lb break="no"/>schreiben, was ich eigentlich nie thun
                     will, da ich Bücher statt eines Briefes schikken müßte. <lb/>Ich kehre zu meinen
                     Plänen zurük:</p>
-                <pb n="2v"/>
-                <p>Die Ministerialwendung allhier <choice>
+                <pb n="2v"/><p>Die Ministerialveränderung allhier <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
                     <subst>
                         <del rendition="#ow">dies</del>
                         <add place="intralinear">das</add>
-                    </subst> Emporsteigen des neuen Günstlings <lb/>
-                    <persName ref="https://editon-humboldt.de/H0002270 https://viaf.org/viaf/163178085/">Chevalier Urquijo</persName> habe ich so glüklich zu benuzen gesucht, daß
-                    ich dem <lb/>
-                    <persName ref="https://editon-humboldt.de/H0015970 http://d-nb.info/gnd/118776800">König</persName>
+                    </subst> Emporsteigen des neuen Günstlings <lb/><persName ref="https://editon-humboldt.de/H0002270 https://viaf.org/viaf/163178085/">Chevalier Urquijo</persName> habe ich so glüklich zu benuzen gesucht, daß
+                    ich dem <lb/><persName ref="https://editon-humboldt.de/H0015970 http://d-nb.info/gnd/118776800">König</persName>
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
@@ -641,12 +558,10 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Gouverneurs ausgerüstet. Ich <lb/>gehe nun zuerst nach <placeName ref="https://editon-humboldt.de/H0000494 https://www.geonames.org/3562981">Cuba</placeName> dann nach <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName>, <placeName ref="https://editon-humboldt.de/H0017307">Californien</placeName>,
-                        <placeName ref="https://editon-humboldt.de/H0008052 https://www.geonames.org/3703430">Pan<g ref="#typoHyphen"/>
-                        <lb break="no"/>amá</placeName>, <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName> … Der <choice>
+                        <placeName ref="https://editon-humboldt.de/H0008052 https://www.geonames.org/3703430">Pan<g ref="#typoHyphen"/><lb break="no"/>amá</placeName>, <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName> … Der <choice>
                         <abbr>franz.</abbr>
                         <expan>französische</expan>
-                    </choice> Botanist <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName> begleitet mich <lb/>
-                    <choice>
+                    </choice> Botanist <persName ref="https://editon-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName> begleitet mich <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Dein Herbarium soll nicht vergessen werden, ob gleich <lb/>während des
@@ -655,8 +570,7 @@
                     <lb/>die wir nur bis <name type="plant">Pentandria</name> (2 Theile<supplied cert="high">)</supplied> haben<choice>
                         <sic>)</sic>
                         <corr type="deleted"/>
-                    </choice>, durch <lb/>
-                    <persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName>
+                    </choice>, durch <lb/><persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName>
                     nachzuschikken, durch die Gesandtschaft <choice>
                         <abbr>z.</abbr>
                         <expan>zum</expan>
@@ -664,13 +578,10 @@
                     <choice>
                         <abbr>B.</abbr>
                         <expan>Beispiel</expan>
-                    </choice>
-                    <supplied cert="high">.</supplied>
+                    </choice><supplied cert="high">.</supplied>
                     <lb/>Ich habe nicht Zeit den Catalogus der für Dich gesamleten <lb/>Pflanzen
                     abzuschreiben. Er folgt also in brutto.</p>
-                <p>
-                    <persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName> bittet dringend um: <bibl corresp="https://edition-humboldt.de/X5EA43ZI">
-                        <persName ref="https://editon-humboldt.de/H0004408 http://d-nb.info/gnd/112582281">Leers</persName>
+                <p><persName ref="https://editon-humboldt.de/H0012960 http://d-nb.info/gnd/116478101">Cavanilles</persName> bittet dringend um: <bibl corresp="https://edition-humboldt.de/X5EA43ZI"><persName ref="https://editon-humboldt.de/H0004408 http://d-nb.info/gnd/112582281">Leers</persName>
                         flora herbonnensis <choice>
                             <abbr>ed.</abbr>
                             <expan>editio</expan>
@@ -680,32 +591,23 @@
                             <expan>Willdenow</expan>
                         </choice>
                     </bibl>
-                    <bibl corresp="https://edition-humboldt.de/ZKMXBFNI">Gräser von <lb/>
-                        <persName ref="https://editon-humboldt.de/H0015676 http://d-nb.info/gnd/118795449">Schreber</persName>
-                    </bibl>, Deine <bibl corresp="https://edition-humboldt.de/3F75QB68">Phytographie</bibl> von der er nur den 1sten fascikel hat, <lb/>
-                    <choice>
+                    <bibl corresp="https://edition-humboldt.de/ZKMXBFNI">Gräser von <lb/><persName ref="https://editon-humboldt.de/H0015676 http://d-nb.info/gnd/118795449">Schreber</persName></bibl>, Deine <bibl corresp="https://edition-humboldt.de/3F75QB68">Phytographie</bibl> von der er nur den 1sten fascikel hat, <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
-                    <bibl corresp="https://edition-humboldt.de/SC4S4UEM">
-                        <persName ref="https://editon-humboldt.de/H0012017 http://d-nb.info/gnd/100360696">Host</persName>
+                    <bibl corresp="https://edition-humboldt.de/SC4S4UEM"><persName ref="https://editon-humboldt.de/H0012017 http://d-nb.info/gnd/100360696">Host</persName>
                         flora austriaca</bibl>. </p>
             </div>
             <div type="writingSession" n="2">
-                <opener>
-                    <dateline>
-                        <placeName ref="https://editon-humboldt.de/H0011312 https://www.geonames.org/3119841">Corunna</placeName>
-                        <supplied cert="high">,</supplied>
-                    den 5<supplied cert="high">.</supplied> Jun. 99.</dateline>
-                </opener>
+                <opener><dateline><placeName ref="https://editon-humboldt.de/H0011312 https://www.geonames.org/3119841">Corunna</placeName><supplied cert="high">,</supplied>
+                    den 5<supplied cert="high">.</supplied> Jun. 99.</dateline></opener>
                 <p>Wenige Stunden vor meiner Abreise mit der Fregatte Pizarro <lb/>muß ich noch
                     einmal, mein guter, mein Andenken in Dir zurükru<lb break="no"/>fen. In 5 Tagen
                     sind wir in den <placeName ref="https://editon-humboldt.de/H0000346 https://www.geonames.org/2593110">Canarien</placeName>, dann <lb/>an der
                     Küste von <placeName ref="https://editon-humboldt.de/H0007134 https://www.geonames.org/3646738">Caracas</placeName> wo der <choice>
                         <abbr>Cap.</abbr>
                         <expan>Capitaine</expan>
-                    </choice> Briefe abgiebt<lb/>
-                    <choice>
+                    </choice> Briefe abgiebt<lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> dann in <placeName ref="https://editon-humboldt.de/H0009519 https://www.geonames.org/3534915">la Trinidad</placeName> auf Cuba.
@@ -713,13 +615,9 @@
                     <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> grüße <persName ref="https://editon-humboldt.de/H0015257 http://d-nb.info/gnd/104197102">Zöllner</persName>, <persName ref="https://editon-humboldt.de/H0003415 http://d-nb.info/gnd/116215372">Bode</persName>, <add place="sublinear">
-                        <persName ref="https://editon-humboldt.de/H0001338 http://d-nb.info/gnd/118723367">Klaproth</persName>
-                        <supplied cert="high">,</supplied>
-                        <persName ref="https://editon-humboldt.de/H0011811 http://d-nb.info/gnd/118549774">Hermbstaedt</persName>
-                    </add>
-                    <lb/>
-                    <choice>
+                    </choice> grüße <persName ref="https://editon-humboldt.de/H0015257 http://d-nb.info/gnd/104197102">Zöllner</persName>, <persName ref="https://editon-humboldt.de/H0003415 http://d-nb.info/gnd/116215372">Bode</persName>, <add place="sublinear"><persName ref="https://editon-humboldt.de/H0001338 http://d-nb.info/gnd/118723367">Klaproth</persName><supplied cert="high">,</supplied>
+                        <persName ref="https://editon-humboldt.de/H0011811 http://d-nb.info/gnd/118549774">Hermbstaedt</persName></add>
+                    <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> wer meiner gedenkt. Ich hoffe wir sehen uns gesund <lb/>wieder. Alle
@@ -728,8 +626,7 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Gute wollen. Das übrige <lb/>hängt vom Schiksal ab. Schreibe mir ja
-                    alle Jahre <lb/>
-                    <choice>
+                    alle Jahre <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> gieb <persName ref="https://editon-humboldt.de/H0001519 http://d-nb.info/gnd/116611839">Kunthen</persName> den Brief.</p>
@@ -738,6 +635,5 @@
                     <signed>Humboldt</signed>
                 </closer>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -28,23 +28,9 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juni 1848]
-            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016658">https://edition-humboldt.de/v8/H0016658</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016658</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016658.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juni 1848]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -58,12 +44,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -78,25 +59,18 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
             
-               <opener>
-                    <address>
-                        <addrLine>
-                            <choice>
+               <opener><address><addrLine><choice>
                   <abbr>Sr</abbr>
                   <expan>Seiner</expan>
-               </choice> Wohlgeboren</addrLine>
-                        <addrLine>Herrn Professor Ehrenberg</addrLine>
-                        <addrLine>Zimmerstraße</addrLine>
+               </choice> Wohlgeboren</addrLine><addrLine>Herrn Professor Ehrenberg</addrLine><addrLine>Zimmerstraße</addrLine>
               </address>
                </opener>
             <pb n="1v"/> 
-            <p>Vielen Dank mein theurer Ehrenberg, für Ihre <lb/>freundliche Aufnahme meiner <ref xml:id="fb641610-9547-42e7-a416-10954752e72b" corresp="#e630e6a4-f2b0-4931-b0e6-a4f2b0f9311b">„nächtlichen <lb/>Thierstimmen“</ref>
-                    <note xml:id="e630e6a4-f2b0-4931-b0e6-a4f2b0f9311b" corresp="#fb641610-9547-42e7-a416-10954752e72b">
+            <p>Vielen Dank mein theurer Ehrenberg, für Ihre <lb/>freundliche Aufnahme meiner <ref xml:id="a7eddb65-1d5c-490d-addb-651d5ce90def" corresp="#b8a6487b-2998-4b52-a648-7b29987b5243" type="editorialNote">„nächtlichen <lb/>Thierstimmen“</ref><note xml:id="b8a6487b-2998-4b52-a648-7b29987b5243" corresp="#a7eddb65-1d5c-490d-addb-651d5ce90def" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/7K6BKJ7K">Humboldt 1849</bibl>
                   </note> aber ich erhalte nur von <lb/>Ihnen zurük <choice>
                   <abbr>S.</abbr>
@@ -105,11 +79,8 @@
                des Aufsazes mit den <lb/>Worten „erklingt aus der dürren Rinde <lb/>des Baumes ..
                die Stimme der Natur <lb/>dem frommen Sinne des Menschen.“ <lb/>und einige Noten.
                Habe ich es Ihnen <lb/>denn so unvollständig gegeben?</p>
-               <closer rend="paragraph">
-                    <signed>Ihr <lb/>AlHumboldt</signed>
-               <dateline>Dienstags</dateline>
-                </closer>
+               <closer rend="paragraph"><signed>Ihr <lb/>AlHumboldt</signed>
+               <dateline>Dienstags</dateline></closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

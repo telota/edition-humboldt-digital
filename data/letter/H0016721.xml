@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [März 1846] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016721">https://edition-humboldt.de/v8/H0016721</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016721</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016721.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [März 1846] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -57,12 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -77,11 +58,9 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
-            <pb n="1r"/>
-                <p>Verzeihen Sie, mein theurer Freund, dass ich Ihnen <lb/>vor wenigen Tagen, von der Eisenbahn
+            <pb n="1r"/><p>Verzeihen Sie, mein theurer Freund, dass ich Ihnen <lb/>vor wenigen Tagen, von der Eisenbahn
                beeilt <lb/>die <placeName ref="https://editon-humboldt.de/H0006822 https://www.geonames.org/2630594">Hecla</placeName> Asche (lezter noch
                fortdauernder <lb/>Ausbruch) sandte ohne dabei zu schreiben. <lb/>Ich erhielt die
                Asche vom Etatsrath <lb/>Fin <persName ref="https://editon-humboldt.de/H0017058 http://d-nb.info/gnd/116679115">Magnussen</persName> aus
@@ -91,11 +70,8 @@
                <lb/>und also auf etwas gefallen sind<supplied cert="high">.</supplied> Ich
                <lb/>glaube diese Asche ist nicht von einem <lb/>Schiff sondern aus <placeName ref="https://editon-humboldt.de/H0006739 https://www.geonames.org/2629691">Island</placeName> selbst, dem <lb/>Geburtslande des
                   Mannes<supplied cert="high">.</supplied> Sein Brief an <lb/>mich enthielt bloss
-                  <del rendition="#s">alte</del> Nachrichten <lb/>von alten Ausbrüchen.<ref xml:id="c41239dc-aa81-4cb2-9239-dcaa81dcb291" corresp="#d7bede17-a3bf-444b-bede-17a3bfd44b8b"/>
-                    <note xml:id="d7bede17-a3bf-444b-bede-17a3bfd44b8b" corresp="#c41239dc-aa81-4cb2-9239-dcaa81dcb291">
-                        <bibl corresp="https://edition-humboldt.de/NGTMX7L7">Ehrenberg
-                        1829</bibl>
-                    </note> Herr <choice>
+                  <del rendition="#s">alte</del> Nachrichten <lb/>von alten Ausbrüchen.<ref xml:id="c624d642-df7d-4891-a4d6-42df7db89115" corresp="#b408557d-e876-49cf-8855-7de87609cf5f" type="editorialNote"/><note xml:id="b408557d-e876-49cf-8855-7de87609cf5f" corresp="#c624d642-df7d-4891-a4d6-42df7db89115" type="editorial"><bibl corresp="https://edition-humboldt.de/NGTMX7L7">Ehrenberg
+                        1829</bibl></note> Herr <choice>
                   <abbr>v.</abbr>
                   <expan>von</expan>
                </choice>
@@ -104,17 +80,12 @@
                <lb/>noch lange leiden<supplied cert="high">.</supplied> Er ist
                   <supplied>ein</supplied> durch Schmeiche<lb break="no"/>lei und Isolirtheit
                verzogener Despot, <lb/>wir sind Freie. Sein Hauptfeind ist aber <lb/>jezt der
-               scharfsinnige <persName ref="https://editon-humboldt.de/H0012148 http://d-nb.info/gnd/118523813">Darwin</persName>
-                    <supplied cert="high">.</supplied> Wie herrlich <lb/>ist die Nachricht die Sie mir von <lb/>der
+               scharfsinnige <persName ref="https://editon-humboldt.de/H0012148 http://d-nb.info/gnd/118523813">Darwin</persName><supplied cert="high">.</supplied> Wie herrlich <lb/>ist die Nachricht die Sie mir von <lb/>der
                zunehmenden Genesung Ihrer <persName ref="https://editon-humboldt.de/H0016962">Gattin</persName>
                <lb/>geben!</p>
-            <closer rend="paragraph">
-                    <salute>Ihr <lb/>Sie innigst verehrender</salute>
-                <lb/>
-                    <signed>AlHumboldt</signed>
-               <dateline>Potsdam, Donnerstags</dateline>
-                </closer>
+            <closer rend="paragraph"><salute>Ihr <lb/>Sie innigst verehrender</salute>
+                <lb/><signed>AlHumboldt</signed>
+               <dateline>Potsdam, Donnerstags</dateline></closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

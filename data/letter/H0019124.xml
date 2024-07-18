@@ -14,14 +14,11 @@
                     <persName ref="https://orcid.org/0000-0002-4634-2386" xml:id="LM">
                         <surname>Martin</surname>
                         <forename>Linda</forename>
-                    </persName>
-                </editor>
-                <editor>
-                    <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
+                    </persName></editor>
+                <editor><persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
                     <surname>Päßler</surname>
                     <forename>Ulrich</forename>
-                </persName>
-                </editor>
+                </persName></editor>
                 <respStmt>
                     <persName xml:id="DE">
                         <surname>Erdmann</surname>
@@ -31,24 +28,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Adolph Schlagintweit an Alexander von Humboldt. Nainital, 17. Mai
-                    1855, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019124">https://edition-humboldt.de/v8/H0019124</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Adolph Schlagintweit an Alexander von Humboldt. Nainital, 17. Mai
+                    1855, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019124</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0019124.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -60,18 +43,11 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Schlagintweit, Adolph von (1829-1857)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0019103 https://www.geonames.org/1262117">Nainital [Naini Tāl, Naini Tal, Nainiy Tal] (Ort
-                        und gleichnamiger See im heutigen Bundesstaat Uttarakhand
-                        (Indien))</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0019103">Nainital</placeName>
                     <date when="1855-05-07" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
@@ -80,24 +56,19 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <opener>
-                    <salute>
-                        <pb n="77r"/>Verehrteste
+                    <salute><pb n="77r"/>Verehrteste
                         Excellenz!</salute>
                 </opener>
                 <p>Sie werden wahrscheinlich vor einigen Wochen <lb/>durch meinen Bruder <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Herman̅</persName> aus <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName>
-                    <lb/>einen kurzen <ref xml:id="c9f468f9-033d-4aa7-b468-f9033d9aa7a5" corresp="#f364a3c8-dfd4-4949-a4a3-c8dfd4a94951">Bericht</ref>
-                    <note xml:id="f364a3c8-dfd4-4949-a4a3-c8dfd4a94951" corresp="#c9f468f9-033d-4aa7-b468-f9033d9aa7a5" resp="#LM">Im angegebenen Zeitraum ist lediglich
+                    <lb/>einen kurzen <ref xml:id="b1474ec6-ac7a-4864-874e-c6ac7a0864a0" corresp="#a0580d0a-a2a2-42a5-980d-0aa2a282a5a9" type="editorialNote">Bericht</ref><note xml:id="a0580d0a-a2a2-42a5-980d-0aa2a282a5a9" corresp="#b1474ec6-ac7a-4864-874e-c6ac7a0864a0" type="editorial" resp="#LM">Im angegebenen Zeitraum ist lediglich
                             ein Schreiben Hermann Schlagintweits an Alexander von Humboldt aus
                             Darjeeling (24. April 1855), bekannt.</note> über unsere Beobachtungen <lb/>im südlichen <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> auf der Reise von <placeName ref="https://editon-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName>
-                    <lb/>nach <placeName ref="https://editon-humboldt.de/H0008563 https://www.geonames.org/1264527">Madras</placeName> erhalten haben. Wir waren <lb/>
-                    <subst>
+                    <lb/>nach <placeName ref="https://editon-humboldt.de/H0008563 https://www.geonames.org/1264527">Madras</placeName> erhalten haben. Wir waren <lb/><subst>
                         <del rendition="#s">damals</del>
-                        <add place="superlinear">in <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName>
-                        </add>
+                        <add place="superlinear">in <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName></add>
                     </subst> mit dem Packen unserer Instrumente <lb/>und mit den Vorbereitungen für
                     eine längere <lb/>Landreise so sehr beschäftigt, daß ich unmöglich <lb/>Zeit
                     fand vor unserer Abreise aus <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName>
@@ -106,22 +77,20 @@
                     <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
-                    </choice> ich beabsichtigen, <lb/>wie Sie wissen, nach <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepal</placeName> zu gehen; wir hörten jedoch <lb/>in <placeName ref="https://editon-humboldt.de/H0017613 https://www.geonames.org/1260086">Patna</placeName> daß <subst>
+                    </choice> ich beabsichtigen, <lb/>wie Sie wissen, nach <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepal</placeName> zu gehen; wir hörten jedoch <lb/>in <placeName ref="https://editon-humboldt.de/H0017613">Patna</placeName> daß <subst>
                         <del rendition="#s">besonder</del>
                         <add place="intralinear">theilweise</add>
-                    </subst> auch wegen <ref xml:id="b55db7d5-7f16-4afc-9db7-d57f161afcbf" corresp="#d739ce88-331b-45a1-b9ce-88331bf5a11b">der <lb/>Grenzstreitigkeiten, die gegenwärtig zwischen den
-                            <lb/>Nepalesen u. Tibetanern stattfinden</ref>
-                    <note xml:id="d739ce88-331b-45a1-b9ce-88331bf5a11b" corresp="#b55db7d5-7f16-4afc-9db7-d57f161afcbf" resp="#LM">Zwischen 1855 und 1856 kam es entlang
+                    </subst> auch wegen <ref xml:id="ca46b4f4-b314-431d-86b4-f4b314431dd9" corresp="#b2c3bb9e-2dab-4fb1-83bb-9e2dab1fb1b1" type="editorialNote">der <lb/>Grenzstreitigkeiten, die gegenwärtig zwischen den
+                            <lb/>Nepalesen u. Tibetanern stattfinden</ref><note xml:id="b2c3bb9e-2dab-4fb1-83bb-9e2dab1fb1b1" corresp="#ca46b4f4-b314-431d-86b4-f4b314431dd9" type="editorial" resp="#LM">Zwischen 1855 und 1856 kam es entlang
                             der Grenze zwischen <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepal</placeName> und
                                 <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> zu kriegerischen
                             Auseinandersetzungen. Vgl. <bibl corresp="https://edition-humboldt.de/6TJ658WV">Schlagintweit et al. 1884</bibl>, 407.</note>, für diesen <lb/>Som̅er durchaus keine Hoffnung vorhanden sei, daß
                     <lb/>die <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepal</placeName>esische Regierung uns
-                    gestatten würde, <lb/>uns von <placeName ref="https://editon-humboldt.de/H0017460 https://www.geonames.org/1283240">Kathmandu</placeName> in
+                    gestatten würde, <lb/>uns von <placeName ref="https://editon-humboldt.de/H0017460">Kathmandu</placeName> in
                     das Innere des Landes <lb/>zu begeben. Wir beschlossen daher weiter
-                    <lb/>westlich nach <placeName ref="https://editon-humboldt.de/H0000500 https://www.geonames.org/1262117">Kemaon</placeName> zu gehen. Wir
+                    <lb/>westlich nach <placeName ref="https://editon-humboldt.de/H0000500">Kemaon</placeName> zu gehen. Wir
                     <lb/>hatten <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName> am 25sten März
-                    verlassen und kamen <lb/>Mitte April in <placeName ref="https://editon-humboldt.de/H0019103 https://www.geonames.org/1262117">
-                        <subst>
+                    verlassen und kamen <lb/>Mitte April in <placeName ref="https://editon-humboldt.de/H0019103"><subst>
                             <del rendition="#s">Naiy</del>
                             <add place="intralinear">Nainy</add>
                         </subst> Tal</placeName> an, einer hübschen <lb/>englischen Station in der
@@ -133,9 +102,7 @@
                         <choice>
                             <abbr>F.</abbr>
                             <expan>Fuß</expan>
-                        </choice>
-                    </measure> etwas südlich von <placeName ref="https://editon-humboldt.de/H0018110 https://www.geonames.org/1278974">Almorah</placeName>. <lb/>
-                    <pb n="77v"/>Von der Hitze des April, die
+                        </choice></measure> etwas südlich von <placeName ref="https://editon-humboldt.de/H0018110 https://www.geonames.org/1278974">Almorah</placeName>. <lb/><pb n="77v"/>Von der Hitze des April, die
                     gewöhnlicher in den <lb/>Ebenen <placeName ref="https://editon-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>s
                     sehr groß ist, hatten wir <lb/>verhältnißmäßig nur wenig gelitten, da
                     <lb/>dieses Jahr ungewöhnlich kühl war<subst>
@@ -145,8 +112,7 @@
                         Monat April<choice>
                             <sic>,</sic>
                             <corr type="deleted"/>
-                        </choice>
-                    </add>, wobei das Thermometer <lb/>Mittags stets 30° <choice>
+                        </choice></add>, wobei das Thermometer <lb/>Mittags stets 30° <choice>
                         <abbr>Cels</abbr>
                         <expan>Celsius</expan>
                     </choice>, wahrscheinlich 33° <choice>
@@ -156,21 +122,16 @@
                         <abbr>Cels</abbr>
                         <expan>Celsius</expan>
                     </choice>
-                    <note place="right" hand="#addressee">
-                        <measure quantity="28.8" unit="reamur">28.8</measure>–<measure quantity="29.6" unit="reamur">29.6
-                            Réaumur</measure>
-                    </note>
-                    <lb/>stand.) Aber wir fanden die Hitze in der
+                    <note place="right" hand="https://edition-humboldt.de/#addressee"><measure quantity="28.8" unit="reamur">28.8</measure>–<measure quantity="29.6" unit="reamur">29.6
+                            Réaumur</measure></note><lb/>stand.) Aber wir fanden die Hitze in der
                     That mit <lb/>einiger Vorsicht, weit weniger unangenehm <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice>
                     <add place="superlinear">weniger</add> störend <lb/>für Beobachtungen als ich
-                    früher gefürchtet hatte. <lb/>Von <placeName ref="https://editon-humboldt.de/H0019103 https://www.geonames.org/1262117">Nainy
+                    früher gefürchtet hatte. <lb/>Von <placeName ref="https://editon-humboldt.de/H0019103">Nainy
                         Tal</placeName> aus machten wir verschiedene <lb/>sehr interessante
-                    geologische Excursionen in den <lb/>Vorketten des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>, die <add place="superlinear">hier</add> aus <hi rendition="#u">
-                        <unclear reason="illegible" cert="low">neueren</unclear>
-                    </hi>
+                    geologische Excursionen in den <lb/>Vorketten des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>, die <add place="superlinear">hier</add> aus <hi rendition="#u"><unclear reason="illegible" cert="low">neueren</unclear></hi>
                     <lb/>Schichten mit <name type="mineral">Foraminiferen</name>
                     <choice>
                         <abbr>u</abbr>
@@ -179,7 +140,7 @@
                     <name type="mineral">Fucoiden</name> bestehen, <lb/>die mit alpinen Schichten
                     die größte Ähnlichkeit haben<supplied cert="high">.</supplied>
                     <lb/>Wir wohnten je 3 Tage auf 2 der höchsten Punkte, <lb/>der Vorkette des
-                        <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>, auf dem <placeName ref="https://editon-humboldt.de/H0019015 https://www.geonames.org/10809148">Chínur <lb/>Pick</placeName> (<choice>
+                        <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>, auf dem <placeName ref="https://editon-humboldt.de/H0019015">Chínur <lb/>Pick</placeName> (<choice>
                         <abbr>circ</abbr>
                         <expan>circa</expan>
                     </choice>
@@ -190,24 +151,20 @@
                         <choice>
                             <abbr>F.</abbr>
                             <expan>Fuß</expan>
-                        </choice>
-                    </measure>) <choice>
+                        </choice></measure>) <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> dem <placeName ref="https://editon-humboldt.de/H0019085 https://www.geonames.org/10809151">Loeria Kanta</placeName> (circa
+                    </choice> dem <placeName ref="https://editon-humboldt.de/H0019085">Loeria Kanta</placeName> (circa
                         <measure quantity="8200" unit="foot">8200′</measure>) <lb/>von wo aus wir
                     einen ungemein schönen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> belehrenden <lb/>Überblick des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> von den <placeName ref="https://editon-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepal</placeName>esischen Ketten <lb/>an über <placeName ref="https://editon-humboldt.de/H0017210 https://www.geonames.org/1261991">Nanda
-                        Devi</placeName>, <placeName ref="https://editon-humboldt.de/H0018564 https://www.geonames.org/10698381">Trisool</placeName>, <hi rendition="#u">
-                        <placeName ref="https://editon-humboldt.de/H0019116 https://www.geonames.org/1261269">Niti</placeName>
-                    </hi>,
-                        <placeName ref="https://editon-humboldt.de/H0018584 https://www.geonames.org/1278010">Badrinath</placeName>
-                    <lb/>bis über <placeName ref="https://editon-humboldt.de/H0018426 https://www.geonames.org/1271641">Gangotri</placeName> hinaus
+                        Devi</placeName>, <placeName ref="https://editon-humboldt.de/H0018564">Trisool</placeName>, <hi rendition="#u"><placeName ref="https://editon-humboldt.de/H0019116 https://www.geonames.org/1261269">Niti</placeName></hi>,
+                        <placeName ref="https://editon-humboldt.de/H0018584">Badrinath</placeName>
+                    <lb/>bis über <placeName ref="https://editon-humboldt.de/H0018426">Gangotri</placeName> hinaus
                     genossen. Wir <lb/>versuchten mehrere Zeichnungen dieser prachtvollen
-                        <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> Picks zu machen, <choice>
+                        <lb/><placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> Picks zu machen, <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> wir massen <lb/>zu verschiedenen Malen mit unserem <lb/>vortrefflichen
@@ -216,20 +173,13 @@
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> Höhenwinkel aller wichtigen <lb/>Punkte. Wir erhielten hier einen sehr
-                    guten <lb/>
-                    <pb n="78r"/>allgemeinen Überblick über die Orographie <lb/>dieses
-                    Theils des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>. Der Com̅issioner <lb/>
-                    <choice>
+                    guten <lb/><pb n="78r"/>allgemeinen Überblick über die Orographie <lb/>dieses
+                    Theils des <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>. Der Com̅issioner <lb/><choice>
                         <abbr>Mr</abbr>
                         <expan>Mister</expan>
                     </choice>
-                    <hi rendition="#u">
-                        <persName ref="https://editon-humboldt.de/H0003134">Batten</persName>
-                    </hi> (dessen Sie
-                    sich wahrscheinlich von <ref xml:id="ad95abaf-7876-4f13-95ab-af78766f1354" corresp="#d88cd48e-33da-4b6e-8cd4-8e33dafb6e09">
-                        <persName ref="https://editon-humboldt.de/H0002159 http://d-nb.info/gnd/11712298X">Prinz Waldemar</persName>’s <lb/>Reise</ref>
-                    <note xml:id="d88cd48e-33da-4b6e-8cd4-8e33dafb6e09" corresp="#ad95abaf-7876-4f13-95ab-af78766f1354" resp="#UP">
-                        <persName ref="https://editon-humboldt.de/H0002159 http://d-nb.info/gnd/11712298X">Prinz
+                    <hi rendition="#u"><persName ref="https://editon-humboldt.de/H0003134">Batten</persName></hi> (dessen Sie
+                    sich wahrscheinlich von <ref xml:id="e62926c0-47f2-4485-a926-c047f2e48571" corresp="#ae32ce8f-a9f1-4565-b2ce-8fa9f1b56552" type="editorialNote"><persName ref="https://editon-humboldt.de/H0002159 http://d-nb.info/gnd/11712298X">Prinz Waldemar</persName>’s <lb/>Reise</ref><note xml:id="ae32ce8f-a9f1-4565-b2ce-8fa9f1b56552" corresp="#e62926c0-47f2-4485-a926-c047f2e48571" type="editorial" resp="#UP"><persName ref="https://editon-humboldt.de/H0002159 http://d-nb.info/gnd/11712298X">Prinz
                                 Waldemar von Preußen</persName> bereiste von 1844 bis 1846 Indien,
                             wo er als Kriegsbeobachter auf britischer Seite am Ersten Sikh-Krieg
                             teilnahm. Im Gefolge <persName ref="https://editon-humboldt.de/H0002159 http://d-nb.info/gnd/11712298X">Waldemar</persName>s
@@ -248,11 +198,10 @@
                         <expan>Captain</expan>
                     </choice>
                     <persName ref="https://editon-humboldt.de/H0018929">Ramsay</persName>, <lb/>welche mit der Topography
-                    von <placeName ref="https://editon-humboldt.de/H0000500 https://www.geonames.org/1262117">Kemaon</placeName> sehr vertraut <lb/>vertraut
+                    von <placeName ref="https://editon-humboldt.de/H0000500">Kemaon</placeName> sehr vertraut <lb/>vertraut
                     sind, unterstützten uns bei mehreren Beobachtungen <lb/>auf die zuvorkom̅endste
                     Weise. Eine große <lb/>Eigenthümlichkeit ist, daß sich die höchste Kette, oder
-                    <lb/>vielmehr die höchsten von Ost nach West fortziehenden <lb/>
-                    <hi rendition="#u">Gruppen</hi>, da sie überall durch tiefe Thaleinschnitte
+                    <lb/>vielmehr die höchsten von Ost nach West fortziehenden <lb/><hi rendition="#u">Gruppen</hi>, da sie überall durch tiefe Thaleinschnitte
                     <lb/>getrennt sind, <choice>
                         <orig>M</orig>
                         <reg>m</reg>
@@ -261,7 +210,7 @@
                     zu <lb/>wenig vom <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> gesehen, um
                     einen Vergleich <lb/>mit den <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName> zu
                     wagen; überraschend schön ist <lb/>jedenfalls hier die Vegetation; die schönen
-                    Eichen am <placeName ref="https://editon-humboldt.de/H0019015 https://www.geonames.org/10809148">Chínur</placeName>
+                    Eichen am <placeName ref="https://editon-humboldt.de/H0019015">Chínur</placeName>
                     <lb/>und das frische üppige Grün aller Laubbäume an den <lb/>Abhängen sind
                     sicher in den <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alpen</placeName> nirgend schöner zu
                     <lb/>finden; die <name type="plant">Rhododendron</name> Bäume, die gerade als
@@ -273,24 +222,18 @@
                     </choice> nach <placeName ref="https://editon-humboldt.de/H0018110 https://www.geonames.org/1278974">Almorah</placeName>
                     <lb/>vorangesandt; <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> ist heute Morgen
                     abgegangen, <lb/>ich werde morgen nachfolgen. Wir werden von hier <lb/>zunächst
-                    auf 2 verschiedenen Wegen nach <lb/>
-                    <hi rendition="#u">
-                        <placeName ref="https://editon-humboldt.de/H0018719 https://www.geonames.org/1263049">Milum</placeName>
-                    </hi> einem Dorfe der <ref xml:id="fbe62624-982c-4e0a-a626-24982cae0a3a" corresp="#cd3074fc-f54f-4434-b074-fcf54f543433">Bhootias</ref>
-                    <note xml:id="cd3074fc-f54f-4434-b074-fcf54f543433" corresp="#fbe62624-982c-4e0a-a626-24982cae0a3a" resp="#LM">Bezeichnung für eine in <placeName ref="https://editon-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName> lebende Bevölkerungsgruppe.</note> am Ostfuße <lb/>
-                    <pb n="78v"/>der <placeName ref="https://editon-humboldt.de/H0017210 https://www.geonames.org/1261991">Nanda
+                    auf 2 verschiedenen Wegen nach <lb/><hi rendition="#u"><placeName ref="https://editon-humboldt.de/H0018719 https://www.geonames.org/1263049">Milum</placeName></hi> einem Dorfe der <ref xml:id="f7e32d6c-0e1d-4878-a32d-6c0e1d0878e5" corresp="#cfe6c641-d3e9-40e7-a6c6-41d3e920e76c" type="editorialNote">Bhootias</ref><note xml:id="cfe6c641-d3e9-40e7-a6c6-41d3e920e76c" corresp="#f7e32d6c-0e1d-4878-a32d-6c0e1d0878e5" type="editorial" resp="#LM">Bezeichnung für eine in <placeName ref="https://editon-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName> lebende Bevölkerungsgruppe.</note> am Ostfuße <lb/><pb n="78v"/>der <placeName ref="https://editon-humboldt.de/H0017210 https://www.geonames.org/1261991">Nanda
                         Devi</placeName> Gruppe gehen. Mein Bruder <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName>
                     <lb/>geht mit dem größeren Theile der Coolies auf dem <lb/>directeren Wege; ich
-                    selbst werde zunächst die <lb/>Gletscher am Ursprung des <placeName ref="https://editon-humboldt.de/H0018520 https://www.geonames.org/10803811">Pindur</placeName> Stromes <lb/>besuchen <choice>
+                    selbst werde zunächst die <lb/>Gletscher am Ursprung des <placeName ref="https://editon-humboldt.de/H0018520">Pindur</placeName> Stromes <lb/>besuchen <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> dort den Südfuß des <placeName ref="https://editon-humboldt.de/H0017210 https://www.geonames.org/1261991">Nanda Devi</placeName>
-                    <lb/>
-                    <choice>
+                    <lb/><choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
                     </choice>
-                    <placeName ref="https://editon-humboldt.de/H0019104 https://www.geonames.org/1261990">Nanda Kot</placeName> untersuchen, und von da
+                    <placeName ref="https://editon-humboldt.de/H0019104">Nanda Kot</placeName> untersuchen, und von da
                     östlich <lb/>in das Thal von <placeName ref="https://editon-humboldt.de/H0018719 https://www.geonames.org/1263049">Milum</placeName> (<choice>
                         <abbr>circ.</abbr>
                         <expan>circa</expan>
@@ -302,9 +245,7 @@
                         <choice>
                             <abbr>F</abbr>
                             <expan>Fuß</expan>
-                        </choice>
-                    </measure>) einbiegen. <lb/>Wir werden in <placeName ref="https://editon-humboldt.de/H0018719 https://www.geonames.org/1263049">Milum</placeName> etwa 14 Tage uns aufhalten <lb/>
-                    <choice>
+                        </choice></measure>) einbiegen. <lb/>Wir werden in <placeName ref="https://editon-humboldt.de/H0018719 https://www.geonames.org/1263049">Milum</placeName> etwa 14 Tage uns aufhalten <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> von da nur mit dem nöthigsten Geräth versehen <lb/>nach <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> gehen; in <placeName ref="https://editon-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> wird die Ausdehnung <lb/>unserer Reise sehr von <add place="superlinear">den</add> Umständen <choice>
@@ -312,20 +253,16 @@
                         <expan>und</expan>
                     </choice> von dem <lb/>Zusam̅entreffen mit den Eingeborenen <lb/>abhängen; wir
                     haben vor dort <add place="superlinear">uns</add> westlich zu wenden <lb/>und
-                    über den <placeName ref="https://editon-humboldt.de/H0018704 https://www.geonames.org/1263956">Managhaut</placeName> nach <placeName ref="https://editon-humboldt.de/H0018584 https://www.geonames.org/1278010">Badrinath</placeName> zurück<g ref="#typoHyphen"/>
-                    <lb break="no"/>zu kom̅en; von hier gehen wir nach <placeName ref="https://editon-humboldt.de/H0018426 https://www.geonames.org/1271641">Gangotri</placeName>
-                    <lb/>
-                    <choice>
+                    über den <placeName ref="https://editon-humboldt.de/H0018704">Managhaut</placeName> nach <placeName ref="https://editon-humboldt.de/H0018584">Badrinath</placeName> zurück<g ref="#typoHyphen"/><lb break="no"/>zu kom̅en; von hier gehen wir nach <placeName ref="https://editon-humboldt.de/H0018426">Gangotri</placeName>
+                    <lb/><choice>
                         <abbr>u </abbr>
                         <expan>und</expan>
-                    </choice> dan̅ auf 2 verschiedenen Wegen nach <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0017393 https://www.geonames.org/1256237">Simlah</placeName>, wo wir Mitte October anzukom̅en <lb/>hoffen. Durch das
+                    </choice> dan̅ auf 2 verschiedenen Wegen nach <lb/><placeName ref="https://editon-humboldt.de/H0017393">Simlah</placeName>, wo wir Mitte October anzukom̅en <lb/>hoffen. Durch das
                         <add place="superlinear">gütige</add> Interesse, welches <choice>
                         <abbr>Mr.</abbr>
                         <expan>Mister</expan>
                     </choice>
-                    <lb/>
-                    <persName ref="https://editon-humboldt.de/H0018882 https://d-nb.info/gnd/107100946X">Colvin</persName>, der <choice>
+                    <lb/><persName ref="https://editon-humboldt.de/H0018882 https://d-nb.info/gnd/107100946X">Colvin</persName>, der <choice>
                         <abbr>Lt.</abbr>
                         <expan>Lieutenant</expan>
                     </choice> Governor der <placeName ref="https://editon-humboldt.de/H0019119">NordWest
@@ -334,9 +271,8 @@
                     werden, sehr <lb/>zuverläßige correspondirende Barometer-<lb break="no"/>Beobachtungen <subst>
                         <del rendition="#s">so</del>
                         <add place="intralinear">mit</add>
-                    </subst> guten Instrumenten <lb/>sowohl hier in <placeName ref="https://editon-humboldt.de/H0019103 https://www.geonames.org/1262117">Nainy Tal</placeName> als in <placeName ref="https://editon-humboldt.de/H0017272 https://www.geonames.org/1279259">Agra</placeName>
-                    <lb/>
-                    <pb n="79r"/> zu erhalten.</p>
+                    </subst> guten Instrumenten <lb/>sowohl hier in <placeName ref="https://editon-humboldt.de/H0019103">Nainy Tal</placeName> als in <placeName ref="https://editon-humboldt.de/H0017272">Agra</placeName>
+                    <lb/><pb n="79r"/> zu erhalten.</p>
                 <p>Von meinem Bruder <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> der sich wie
                     <lb/>Sie wissen in <placeName ref="https://editon-humboldt.de/H0017337 https://www.geonames.org/1273467">Darjeeling</placeName> befindet,
                     kann ich Ihnen <lb/>keine neueren Nachrichten mittheilen. Er <lb/>befindet sich,
@@ -347,12 +283,10 @@
                     <lb/>reichen Stoff für seine Beobachtungen <lb/>gefunden.</p>
                 <p>Wir werden uns erlauben Ihnen zu <lb/>schreiben sobald wir in <placeName ref="https://editon-humboldt.de/H0018719 https://www.geonames.org/1263049">Milum</placeName> angelangt <lb/>sein werden. Mein
                     Bruder <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName>, der sich <lb/>Ihnen nochmal
-                    empfehlen läßt, wird dan̅ <lb/>im Stande sein Ihnen <ref xml:id="b7b1a747-6d60-46da-b1a7-476d60a6da4d" corresp="#cb8adc35-7a99-4a63-8adc-357a99ea63df">eine kleine Sam̅lung <lb/>von Photographien aus dem <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> zu senden</ref>
-                    <note xml:id="cb8adc35-7a99-4a63-8adc-357a99ea63df" corresp="#b7b1a747-6d60-46da-b1a7-476d60a6da4d" resp="#UP">Die Sammlung der Fotografien umfasst
+                    empfehlen läßt, wird dan̅ <lb/>im Stande sein Ihnen <ref xml:id="aa34cb50-7740-4f1f-b4cb-5077401f1f5a" corresp="#f055f194-d43b-4380-95f1-94d43b4380fd" type="editorialNote">eine kleine Sam̅lung <lb/>von Photographien aus dem <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName> zu senden</ref><note xml:id="f055f194-d43b-4380-95f1-94d43b4380fd" corresp="#aa34cb50-7740-4f1f-b4cb-5077401f1f5a" type="editorial" resp="#UP">Die Sammlung der Fotografien umfasst
                             ethnographische und topographische Motive. Vgl. <bibl corresp="https://edition-humboldt.de/A77ME6TB">Jarvis 2015</bibl>, 161.</note>, <lb/>welche er hier bereits mit ziemlichem <lb/>Erfolge begon̅en
                     hat.</p>
-                <closer>Genehmigen Euer Excellenz <lb/>die Versicherung der aufrichtigsten Verehrung <lb/>
-                    <choice>
+                <closer>Genehmigen Euer Excellenz <lb/>die Versicherung der aufrichtigsten Verehrung <lb/><choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
                     </choice> des innigsten Dankgefühls <lb/>mit welchem ich die Ehre habe zu sein
@@ -361,14 +295,12 @@
                     <dateline>Nainy Thal in <lb/>Kumaon 17<supplied cert="high">.</supplied> Mai
                         1855.</dateline>
                     <address>
-                        <addrLine>
-                            <choice>
+                        <addrLine><choice>
                                 <abbr>Sr</abbr>
                                 <expan>Seiner</expan>
                             </choice> Excellenz</addrLine>
                         <addrLine>Baron von Humboldt</addrLine>
-                        <addrLine>
-                            <choice>
+                        <addrLine><choice>
                                 <abbr>etc</abbr>
                                 <expan>et cetera</expan>
                             </choice>
@@ -379,38 +311,24 @@
                             <choice>
                                 <abbr>etc</abbr>
                                 <expan>et cetera</expan>
-                            </choice>
-                        </addrLine>
+                            </choice></addrLine>
                     </address>
                 </closer>
-                <note place="right" hand="#author">
-                    <hi rendition="#u">verte.</hi>
-                </note>
-                <postscript>
-                    <pb n="79v"/>
-                    <p>
-                        <choice>
-                            <abbr>P. S.</abbr>
-                            <expan>Post Scriptum</expan>
-                        </choice> Wir ersuchen Euer Excellenz uns <lb/>Herrn <persName ref="https://editon-humboldt.de/H0011202 http://d-nb.info/gnd/117120847">von Olfers</persName>,
+                <note place="right" hand="#author"><hi rendition="#u">verte.</hi></note><postscript>
+                    <pb n="79v"/><p><choice><abbr>P. S.</abbr><expan>Post Scriptum</expan></choice> Wir ersuchen Euer Excellenz uns <lb/>Herrn <persName ref="https://editon-humboldt.de/H0011202 http://d-nb.info/gnd/117120847">von Olfers</persName>,
                         dessen freundlichen Brief <lb/>wir in <placeName ref="https://editon-humboldt.de/H0016218 https://www.geonames.org/1275004">Calcutta</placeName> empfingen, <persName ref="https://editon-humboldt.de/H0012344 http://d-nb.info/gnd/116157410">Graf Dönhoff</persName>
                         <lb/>ebenso wie Herren <choice>
                             <abbr>Prof.</abbr>
                             <expan>Professoren</expan>
                         </choice>
-                        <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Ritter</persName>, <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>, <lb/>
-                        <persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">
-                            <choice>
+                        <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Ritter</persName>, <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>, <lb/><persName ref="https://editon-humboldt.de/H0001041 http://d-nb.info/gnd/118602640"><choice>
                                 <abbr>H</abbr>
                                 <expan>Heinrich</expan>
-                            </choice> Rose</persName>
-                        <supplied cert="high">,</supplied>
-                        <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">
-                            <choice>
+                            </choice> Rose</persName><supplied cert="high">,</supplied>
+                        <persName ref="https://editon-humboldt.de/H0001040 http://d-nb.info/gnd/116609036"><choice>
                                 <abbr>G</abbr>
                                 <expan>Gustav</expan>
-                            </choice> Rose</persName>
-                        <supplied cert="high">,</supplied>
+                            </choice> Rose</persName><supplied cert="high">,</supplied>
                         <persName ref="https://editon-humboldt.de/H0006306 http://d-nb.info/gnd/118806556">Weiss</persName>, <persName ref="https://editon-humboldt.de/H0002047 http://d-nb.info/gnd/116250836">Poggendorf</persName>
                         <choice>
                             <abbr>usw</abbr>
@@ -427,9 +345,7 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> Herrn <persName ref="https://editon-humboldt.de/H0013886 http://d-nb.info/gnd/139519181">von Malzen</persName> in
-                        Erin̅erung <lb/>zu bringen.</p>
-                </postscript>
+                        Erin̅erung <lb/>zu bringen.</p></postscript>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

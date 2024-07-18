@@ -28,32 +28,16 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonntag,
-                    1833, hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0006508">https://edition-humboldt.de/v8/H0006508</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Franz Julius Ferdinand Meyen. [Berlin], Sonntag,
+                    1833, hg. v. Petra Werner unter Mitarbeit von Ingo Schwarz und Tobias Kraft. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0006508</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0006508.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
                         <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
                         <collection>Dokumentensammlung, Alexander von Humboldt</collection>
-                        <idno>
-                            <idno type="shelfmark">IV 74, 826 Q</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">IV 74, 826 Q</idno></idno>
                     </msIdentifier>
                     <physDesc>
                         <p>Papier, H: 20,20 cm , B: 13,60 cm</p>
@@ -61,12 +45,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
@@ -86,13 +65,11 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <p>
                     <pb n="1r"/>Ich wünschte, theurester Herr Doctor<supplied cert="high">,</supplied>
-                    <lb/>die Freude zu haben Sie einmal <lb/>wieder zu sehen, und meinem <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Bruder</persName>
-                    <supplied cert="high">,</supplied>
+                    <lb/>die Freude zu haben Sie einmal <lb/>wieder zu sehen, und meinem <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Bruder</persName><supplied cert="high">,</supplied>
                     <lb/>der in 8 Tagen <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                         verlässt<supplied cert="high">,</supplied>
                     <lb/>dieselbe Freude zu verschaffen. <lb/>Kommen Sie gütigst morgen Montag
@@ -102,10 +79,8 @@
                     <salute/>
                     <signed>Ihr <lb/>AlHumboldt</signed>
                     <dateline>Sonntag</dateline>
-                    <pb n="1v"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
-                    <pb n="2r"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
+                    <pb n="1v"/><gap unit="pages" quantity="1" reason="empty"/>
+                    <pb n="2r"/><gap unit="pages" quantity="1" reason="empty"/>
                 </closer>
                     <pb n="2v"/>
             </div>
@@ -120,6 +95,5 @@
                     </address>
                     </p>
                 </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

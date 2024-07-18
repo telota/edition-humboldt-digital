@@ -28,34 +28,17 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 6. Februar
-                    1794, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002730">https://edition-humboldt.de/v8/H0002730</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Samuel Thomas Soemmerring. Bayreuth, 6. Februar
+                    1794, hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002730</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0002730.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
                         <institution>Märkisches Museum – Stiftung Stadtmuseum Berlin</institution>
                         <repository/>
                         <collection>Humboldt Sammlung</collection>
-                        <idno>
-                            <idno type="shelfmark">HU 99/01 QA</idno>
-                            <idno type="uri">https://sammlung-online.stadtmuseum.de/Details/Index/335132</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">HU 99/01 QA</idno><idno type="uri">https://sammlung-online.stadtmuseum.de/Details/Index/335132</idno></idno>
                     </msIdentifier>
                     <physDesc>
                         <p>Büttenpapier, Maße: H: 20,7 cm B: 16,6 cm </p>
@@ -73,12 +56,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
@@ -92,8 +70,7 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession" n="1">
                 <opener> </opener>
                 <p>
@@ -117,8 +94,7 @@
                     freundschaftliche Pflege beförderte. <lb/>So ein Mann ist schon werth, von Ihnen
                     gütig <lb/>aufgenommen zu werden, werth, Sie zu sehen, <lb/>wie ich Sie sahe.
                     Könnte ich in diesem Augen<lb break="no"/>blick seine Stelle einnehmen und Sie
-                    recht herz<g ref="#typoHyphen"/>
-                    <lb break="no"/>lich umarmen. Ach, aber unser
+                    recht herz<g ref="#typoHyphen"/><lb break="no"/>lich umarmen. Ach, aber unser
                         <persName ref="https://editon-humboldt.de/H0000177 http://d-nb.info/gnd/118534416">Forster</persName>, ist <lb/>er denn nicht mehr?
                     Das waren doch schöne Zeiten <lb/>
                     <hi rendition="#u">unseres</hi>
@@ -133,13 +109,10 @@
                             <expan>Februar</expan>
                         </choice> 94. </dateline>
                     <pb n="1v"/>Herrn Hofrath
-                        <hi rendition="#u">
-                        <choice>
+                        <hi rendition="#u"><choice>
                             <orig>Söm̅erring</orig>
                             <reg>Sömmerring</reg>
-                        </choice>
-                    </hi> zu Mainz. </closer>
+                        </choice></hi> zu Mainz. </closer>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

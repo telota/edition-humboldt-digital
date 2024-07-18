@@ -36,26 +36,11 @@
                         <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Humboldt, Alexander von: K – Exzerpte zur Naturgeschichte der Zitruspflanzen, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016215">https://edition-humboldt.de/v8/H0016215</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Humboldt, Alexander von: K – Exzerpte zur Naturgeschichte der Zitruspflanzen, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016215</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016215.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <notesStmt>
-                <note type="editorial">
-                    <p>Das Dokument enthält im Wesentlichen Humboldts Exzerpte aus zwei Werken: dem „Traité du Citrus“
+                <note type="editorial"><p>Das Dokument enthält im Wesentlichen Humboldts Exzerpte aus zwei Werken: dem „Traité du Citrus“
                         von Georges Gallesio (<bibl corresp="https://edition-humboldt.de/BRRJIHHK">Gallesio
                             1811</bibl>) und dem „Essai sur l'histoire naturelle des Orangers“ von
                         Joseph-Antoine Risso (<bibl corresp="https://edition-humboldt.de/N2UBBP46">Risso
@@ -76,8 +61,7 @@
                         besaß offenbar kein eigenes Exemplar. Zudem referierte Humboldt <ref target="http://www.deutschestextarchiv.de/book/view/parthey_msgermqu1711_1828?p=616">am 9. April 1828 in der 49. seiner Kosmos-Vorlesungen</ref> an der
                         Berliner Universität über Rissos Beobachtungen zur Frostbeständigkeit der
                         Zitronenpflanzen. Das vorliegende Blatt liegt im Humboldt-Nachlass somit
-                        wohl nicht zufällig unter den Vorlesungsmanuskripten zu diesen Vorträgen. </p>
-                </note>
+                        wohl nicht zufällig unter den Vorlesungsmanuskripten zu diesen Vorträgen. </p></note>
             </notesStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
@@ -94,12 +78,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>document</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>document</term></keywords></textClass>
             <creation>
                 <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
                 <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
@@ -108,16 +87,10 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div>
                 <pb n="70v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000170.jpg"/>
-                <p>
-                    <note place="left" hand="#author">
-                        <ref xml:id="ed_tl1_322_l1b" type="siglum" target="#Geographie_der_Pflanzen_K">K.</ref>
-                    </note>
-                    <bibl corresp="https://edition-humboldt.de/BRRJIHHK">
-                        <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Gallesio</persName>
+                <p><note place="left" hand="#author"><ref xml:id="ed_tl1_322_l1b" type="siglum" target="#Geographie_der_Pflanzen_K">K.</ref></note><bibl corresp="https://edition-humboldt.de/BRRJIHHK"><persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Gallesio</persName>
                         Traité du Citrus</bibl> n’adopte
                         <lb/>que
                     4 espèces 1) citronnier <add place="superlinear">(<choice>
@@ -128,11 +101,8 @@
                     <subst>
                         <del rendition="#s">orang</del>
                         <add place="intralinear">oranger</add>
-                    </subst>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <choice>
+                    </subst><supplied cert="high">.</supplied></p>
+                <p><choice>
                         <orig>citronnier</orig>
                         <reg>Citronnier</reg>
                     </choice> et Limonier<supplied cert="high">:</supplied>
@@ -141,21 +111,15 @@
                         <add place="intralinear">pétioles</add>
                     </subst> nuds <lb/>ou peu ailés, <subst>
                         <del rendition="#s">verds</del>
-                        <add place="intralinear">
-                            <choice>
+                        <add place="intralinear"><choice>
                                 <sic>vert</sic>
                                 <corr cert="high">verts</corr>
-                            </choice>
-                        </add>
-                    </subst>
-                    <supplied cert="high">,</supplied> des <lb/>feuilles <choice>
+                            </choice></add>
+                    </subst><supplied cert="high">,</supplied> des <lb/>feuilles <choice>
                         <sic>clairs</sic>
                         <corr cert="high">claires</corr>
-                    </choice>
-                    <supplied cert="high">,</supplied> jaunâtres<supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <choice>
+                    </choice><supplied cert="high">,</supplied> jaunâtres<supplied cert="high">.</supplied></p>
+                <p><choice>
                         <abbr>Bigarad.</abbr>
                         <expan>Bigaradier</expan>
                     </choice> et oranger<supplied cert="high">:</supplied> pétioles fortement
@@ -164,19 +128,16 @@
                         <abbr>bigarad</abbr>
                         <expan>bigaradier</expan>
                     </choice>. <choice>
-                        <orig>
-                            <lb/>feuilles</orig>
+                        <orig><lb/>feuilles</orig>
                         <reg>Feuilles</reg>
                     </choice> vert foncé.</p>
-                <p>
-                    <choice>
+                <p><choice>
                         <abbr>Citr.</abbr>
                         <expan>Citronnier</expan>
                     </choice> et limonier<supplied cert="high">:</supplied> fleurs souvent sans
                     <lb/>pistil, étamines varient 30–40<add place="sublinear"> ≠ corolle violette au
                         dehors</add>
-                    <lb/>
-                    <choice>
+                    <lb/><choice>
                         <abbr>Bigar.</abbr>
                         <expan>Bigaradier</expan>
                     </choice> et Oranger<supplied cert="high">:</supplied>
@@ -192,15 +153,12 @@
                     <choice>
                         <abbr>esp.</abbr>
                         <expan>espèces</expan>
-                    </choice>
-                    <supplied cert="high">,</supplied> feuilles les plus poin<lb break="no"/>tues<supplied cert="high">,</supplied> celles de l’Oranger, les plus
+                    </choice><supplied cert="high">,</supplied> feuilles les plus poin<lb break="no"/>tues<supplied cert="high">,</supplied> celles de l’Oranger, les plus
                         <lb/>étroites<supplied cert="high">,</supplied>
                     <subst>
                         <del rendition="#s">le</del>
                         <add place="intralinear">celles</add>
-                    </subst> du Citronnier.<note place="left" hand="#author">
-                        <metamark/>
-                        <choice>
+                    </subst> du Citronnier.<note place="left" hand="#author"><metamark/><choice>
                             <orig>à</orig>
                             <reg>À</reg>
                         </choice> l’exception <lb/>du Bigaradier <lb/>turc à feuilles <lb/>de saule
@@ -208,70 +166,50 @@
                                 <abbr>p</abbr>
                                 <expan>page</expan>
                             </choice> 131 <note xml:id="newz_fsj_n1b">Gallesio 1811.</note>
-                        </bibl>.</note>La <lb/>fleur la plus aromatique<supplied cert="high">,</supplied> celle du <lb/>
-                    <choice>
+                        </bibl>.</note>La <lb/>fleur la plus aromatique<supplied cert="high">,</supplied> celle du <lb/><choice>
                         <abbr>Bigarad.</abbr>
                         <expan>Bigaradier</expan>
                     </choice>.</p>
-                <p>
-                    <choice>
+                <p><choice>
                         <orig>tige</orig>
                         <reg>Tige</reg>
                     </choice> la plus élevée, port le plus arrondi <lb/>et touffu<supplied cert="high">,</supplied> le <choice>
                         <abbr>Bigar.</abbr>
                         <expan>Bigaradier</expan>
-                    </choice> et <lb/>
-                    <subst>
+                    </choice> et <lb/><subst>
                         <del rendition="#s">le</del>
                         <add place="intralinear">l’Oranger</add>
                     </subst>.</p>
-                <note place="right" hand="#author" rend="sticked">
-                    <pb n="71r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000173.jpg"/>
-                    <p>
-                        <choice>
+                <note place="right" hand="#author" rend="sticked"><pb n="71r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000173.jpg"/>
+                    <p><choice>
                             <orig>nach</orig>
                             <reg>Nach</reg>
                         </choice>
-                        <ref xml:id="d8005ea1-975e-4c51-805e-a1975e3c517c" corresp="#c4234362-f37e-4372-a343-62f37e0372b0">Risso</ref>
-                        <note xml:id="c4234362-f37e-4372-a343-62f37e0372b0" corresp="#d8005ea1-975e-4c51-805e-a1975e3c517c">
-                            <bibl corresp="https://edition-humboldt.de/N2UBBP46">Risso
+                        <ref xml:id="faa00fa6-3620-4577-a00f-a63620d57703" corresp="#e3325862-73b0-4f34-b258-6273b08f343e" type="editorialNote">Risso</ref><note xml:id="e3325862-73b0-4f34-b258-6273b08f343e" corresp="#faa00fa6-3620-4577-a00f-a63620d57703" type="editorial"><bibl corresp="https://edition-humboldt.de/N2UBBP46">Risso
                                     1813</bibl>.</note> les 4 <choice>
                             <abbr>esp.</abbr>
                             <expan>espèces</expan>
-                        </choice> de <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Gallesio</persName>. </p>
-                    <p>
-                        <choice>
+                        </choice> de <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Gallesio</persName>. </p><p><choice>
                             <abbr>Cédrat.</abbr>
                             <expan>Cédratier</expan>
                         </choice>
-                        <name type="plant">
-                            <choice>
-                                <abbr>
-                                    <hi rendition="#u">C.</hi>
-                                </abbr>
-                                <expan>
-                                    <hi rendition="#u">Citrus</hi>
-                                </expan>
-                            </choice>
-                            <hi rendition="#u"> medica</hi>
-                        </name>
+                        <name type="plant"><choice>
+                                <abbr><hi rendition="#u">C.</hi></abbr>
+                                <expan><hi rendition="#u">Citrus</hi></expan>
+                            </choice><hi rendition="#u"> medica</hi></name>
                         <choice>
                             <abbr>pet.</abbr>
                             <expan>petiolis</expan>
-                        </choice> nudis fruit acidulé <lb/>
-                        <choice>
+                        </choice> nudis fruit acidulé <lb/><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 31. </p>
-                    <p>Citronnier <add place="sublinear">ou
+                        </choice> 31. </p><p>Citronnier <add place="sublinear">ou
                             Limonier</add>
-                        <name type="plant">
-                            <choice>
+                        <name type="plant"><choice>
                                 <abbr>C.</abbr>
                                 <expan>Citrus</expan>
                             </choice>
-                            <hi rendition="#u">limonum</hi>
-                        </name>
+                            <hi rendition="#u">limonum</hi></name>
                         <choice>
                             <abbr>pet.</abbr>
                             <expan>petiolo</expan>
@@ -279,65 +217,47 @@
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 33.
-                    </p>
-                    <p>Bigaradier <name type="plant">
-                            <choice>
+                    </p><p>Bigaradier <name type="plant"><choice>
                                 <abbr>Citr.</abbr>
                                 <expan>Citrus</expan>
                             </choice>
-                            <hi rendition="#u">vulgaris</hi>
-                        </name> R. <choice>
+                            <hi rendition="#u">vulgaris</hi></name> R. <choice>
                             <abbr>pet.</abbr>
                             <expan>petiolis</expan>
                         </choice> alatis, pulpe <lb/>amère<choice>
                             <sic>.</sic>
                             <corr type="deleted"/>
-                        </choice>
-                        <choice>
+                        </choice><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 22<supplied cert="high">.</supplied>
-                    </p>
-                    <p>Oranger commun <name type="plant">
-                            <choice>
-                                <abbr>
-                                    <hi rendition="#u">C.</hi>
-                                </abbr>
-                                <expan>
-                                    <hi rendition="#u">Citrus</hi>
-                                </expan>
-                            </choice>
-                            <hi rendition="#u"> aurantium</hi>
-                        </name> R. <choice>
+                    </p><p>Oranger commun <name type="plant"><choice>
+                                <abbr><hi rendition="#u">C.</hi></abbr>
+                                <expan><hi rendition="#u">Citrus</hi></expan>
+                            </choice><hi rendition="#u"> aurantium</hi></name> R. <choice>
                             <abbr>pet.</abbr>
                             <expan>petiolis</expan>
                         </choice> sub<lb break="no"/>nudis fruit doux sucré <choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 13<supplied cert="high">.</supplied>
-                    </p>
-                    <p>Griechen und Römer fruit <name type="plant">
-                            <choice>
+                        </choice> 13<supplied cert="high">.</supplied></p><p>Griechen und Römer fruit <name type="plant"><choice>
                                 <abbr>C.</abbr>
                                 <expan>Citrus</expan>
                             </choice>
                             <subst>
                                 <del rendition="#s">limonum</del>
                                 <add place="superlinear">medica</add>
-                            </subst>
-                        </name> (<choice>
+                            </subst></name> (<choice>
                             <abbr>Cédrat</abbr>
                             <expan>Cédratier</expan>
-                        </choice>): <name type="plant">
-                            <choice>
+                        </choice>): <name type="plant"><choice>
                                 <abbr>C</abbr>
                                 <expan>Citrus</expan>
                             </choice>
                             <choice>
                                 <abbr>limon.</abbr>
                                 <expan>limonum</expan>
-                            </choice>
-                        </name>
+                            </choice></name>
                         <lb/>(limonier <choice>
                             <abbr>od</abbr>
                             <expan>oder</expan>
@@ -347,59 +267,40 @@
                             <expan>Citronnier</expan>
                         </choice>
                         <gap unit="words" quantity="1" reason="illegible"/>) erst im 3<hi rendition="#sup">ten</hi>
-                        <lb/>
-                        <choice>
+                        <lb/><choice>
                             <abbr>Jahrh</abbr>
                             <expan>Jahrhundert</expan>
-                        </choice>: <name type="plant">
-                            <choice>
+                        </choice>: <name type="plant"><choice>
                                 <abbr>C.</abbr>
                                 <expan>Citrus</expan>
                             </choice>
                             <choice>
                                 <abbr>vulgar</abbr>
                                 <expan>vulgaris</expan>
-                            </choice>
-                        </name> (bittere Orange) im 10<hi rendition="#sup">
-                            <hi rendition="#u">ten</hi>
-                        </hi>
+                            </choice></name> (bittere Orange) im 10<hi rendition="#sup"><hi rendition="#u">ten</hi></hi>
                         <choice>
                             <abbr>Jahrh</abbr>
                             <expan>Jahrhundert</expan>
                         </choice>
-                        <lb/>
-                        <choice>
+                        <lb/><choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice>
-                        <name type="plant">
-                            <choice>
+                        <name type="plant"><choice>
                                 <abbr>C.</abbr>
                                 <expan>Citrus</expan>
                             </choice>
                             <choice>
                                 <abbr>aurant</abbr>
                                 <expan>aurantium</expan>
-                            </choice>
-                        </name>/süsse Orangen im 15<hi rendition="#sup">ten</hi>
-                        <note place="left" hand="#author">Liess noch einmal <lb/>
+                            </choice></name>/süsse Orangen im 15<hi rendition="#sup">ten</hi><note place="left" hand="#author">Liess noch einmal <lb/>
                             <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Gallesio</persName>
-                            <ref xml:id="c3f4864f-3123-4c2d-b486-4f31238c2dd1" corresp="#e8a2982e-b313-4cd8-a298-2eb313ccd8ff">C Findel<lb break="no"/>mann</ref>
-                            <note xml:id="e8a2982e-b313-4cd8-a298-2eb313ccd8ff" corresp="#c3f4864f-3123-4c2d-b486-4f31238c2dd1">wohl der königliche Hofgärtner <persName ref="https://editon-humboldt.de/H0018399 http://d-nb.info/gnd/136309615">Carl Julius Fintelmann</persName>
-                            </note>.</note>
-                    </p>
-                    <pb n="71v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000174.jpg"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
-                </note>
-                <p>
-                    <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">
-                        <choice>
+                            <ref xml:id="b797a157-1ee9-47a7-97a1-571ee997a73a" corresp="#d0ac900a-f856-440f-ac90-0af856a40f3a" type="editorialNote">C Findel<lb break="no"/>mann</ref><note xml:id="d0ac900a-f856-440f-ac90-0af856a40f3a" corresp="#b797a157-1ee9-47a7-97a1-571ee997a73a" type="editorial">wohl der königliche Hofgärtner <persName ref="https://editon-humboldt.de/H0018399 http://d-nb.info/gnd/136309615">Carl Julius Fintelmann</persName></note>.</note></p><pb n="71v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000174.jpg"/><gap unit="pages" quantity="1" reason="empty"/></note>
+                <p><persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458"><choice>
                             <abbr>G.</abbr>
                             <expan>Gallesio</expan>
-                        </choice>
-                    </persName> croit <lb/>que l’<hi rendition="#u">Oranger</hi> (à
-                    fruit doux) <lb/>
-                    <choice>
+                        </choice></persName> croit <lb/>que l’<hi rendition="#u">Oranger</hi> (à
+                    fruit doux) <lb/><choice>
                         <abbr>origin.</abbr>
                         <expan>originaire</expan>
                     </choice> de la <placeName ref="https://editon-humboldt.de/H0007396 https://www.geonames.org/1814991">Chine</placeName>. Arborisé, au
@@ -407,54 +308,38 @@
                     <lb/>et <supplied cert="high">dans les</supplied>
                     <placeName ref="https://editon-humboldt.de/H0008175 https://www.geonames.org/2363254">îles <supplied cert="high">du</supplied>
                         Pacifique</placeName> sylvestre.</p>
-                <p>
-                    <choice>
-                        <orig>
-                            <hi rendition="#u">bigaradier</hi>
-                        </orig>
+                <p><choice>
+                        <orig><hi rendition="#u">bigaradier</hi></orig>
                         <reg>Bigaradier</reg>
-                    </choice>, de <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">l’Inde</placeName> au<supplied cert="high">-</supplied>delà <lb/>
-                    <choice>
+                    </choice>, de <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">l’Inde</placeName> au<supplied cert="high">-</supplied>delà <lb/><choice>
                         <sic>de</sic>
                         <corr type="deleted"/>
                     </choice>
                     <subst>
                         <del rendition="#s">l’Inde et près</del>
-                        <add place="intralinear">du <placeName ref="https://editon-humboldt.de/H0010808 https://www.geonames.org/1202950">
-                                <lb/>Gange</placeName>
-                        </add>
+                        <add place="intralinear">du <placeName ref="https://editon-humboldt.de/H0010808 https://www.geonames.org/1202950"><lb/>Gange</placeName></add>
                     </subst>
                     <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
                     </choice> 241. 243<supplied cert="high">,</supplied> là
-                        <lb/>aussi<supplied cert="high">,</supplied> selon <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Galesio</persName>
-                    <supplied cert="high">,</supplied> le <lb/>
-                    <hi rendition="#u">limonier</hi>.</p>
-                <p>
-                    <hi rendition="#u">Citronnier</hi>
-                    <note place="left" hand="#author">
-                        <metamark/>?
+                        <lb/>aussi<supplied cert="high">,</supplied> selon <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Galesio</persName><supplied cert="high">,</supplied> le <lb/><hi rendition="#u">limonier</hi>.</p>
+                <p><hi rendition="#u">Citronnier</hi><note place="left" hand="#author"><metamark/>?
                             ?<supplied cert="high">(</supplied>Preuve que c’est <lb/>le <subst>
-                            <del rendition="#s">
-                                <choice>
+                            <del rendition="#s"><choice>
                                     <abbr>Citr</abbr>
                                     <expan>Citronnier</expan>
                                 </choice> et <lb/>non</del>
-                            <add place="intralinear">
-                                <choice>
+                            <add place="intralinear"><choice>
                                     <sic>le</sic>
                                     <corr type="deleted"/>
                                 </choice> Limonier</add>
                         </subst>
-                        <add place="left">
-                            <metamark/>et non <lb/>le Citronnier <lb/>qui fut in<lb break="no"/>troduit</add>
-                        <del rendition="#s">qui exis<lb break="no"/>toit</del> au 3<hi rendition="#sup">
-                            <choice>
+                        <add place="left"><metamark/>et non <lb/>le Citronnier <lb/>qui fut in<lb break="no"/>troduit</add>
+                        <del rendition="#s">qui exis<lb break="no"/>toit</del> au 3<hi rendition="#sup"><choice>
                                 <orig>me</orig>
                                 <reg>ème</reg>
-                            </choice>
-                        </hi>
+                            </choice></hi>
                         <lb/>siècle en <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italie</placeName>: <lb/>le
                         limonier <lb/>n’existoit <lb/>en <placeName ref="https://editon-humboldt.de/H0006712 https://www.geonames.org/130758">Perse</placeName>
                         pas <lb/>avant que les <lb/>Arabes n’eussent <lb/>étendu <choice>
@@ -463,65 +348,45 @@
                         </choice> conquêtes <lb/>au<supplied cert="high">-</supplied>delà du <subst>
                             <del rendition="#s">l’In</del>
                             <add place="intralinear">
-                                <lb/>
-                                <placeName ref="https://editon-humboldt.de/H0010808 https://www.geonames.org/1202950">Ganges</placeName>
-                            </add>
+                                <lb/><placeName ref="https://editon-humboldt.de/H0010808 https://www.geonames.org/1202950">Ganges</placeName></add>
                         </subst>
                         <choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 294)<supplied cert="high">.</supplied>
-                    </note>seul en <placeName ref="https://editon-humboldt.de/H0016272 https://www.geonames.org/22695">Médie</placeName>
-                    <supplied cert="high">,</supplied>
+                        </choice> 294)<supplied cert="high">.</supplied></note>seul en <placeName ref="https://editon-humboldt.de/H0016272 https://www.geonames.org/22695">Médie</placeName><supplied cert="high">,</supplied>
                     <lb/>pas dans <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">l’Inde</placeName>
                     <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
-                    </choice> 293. <lb/>
-                    <subst>
+                    </choice> 293. <lb/><subst>
                         <del rendition="#s">Citronnier</del>
-                        <add place="superlinear">
-                            <subst>
+                        <add place="superlinear"><subst>
                                 <del rendition="#s">Limonier</del>
                                 <add place="superlinear">Citronnier</add>
-                            </subst>
-                        </add>
-                    </subst> n’est venu en <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">
-                        <lb/>Italie</placeName> qu’au
-                        3<hi rendition="#sup">
-                        <choice>
+                            </subst></add>
+                    </subst> n’est venu en <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395"><lb/>Italie</placeName> qu’au
+                        3<hi rendition="#sup"><choice>
                             <orig>me</orig>
                             <reg>ème</reg>
-                        </choice>
-                    </hi> siècle<supplied cert="high">,</supplied>
-                    <lb/>le limonier et peu avant <lb/>le bigaradier au 10<hi rendition="#sup">
-                        <choice>
+                        </choice></hi> siècle<supplied cert="high">,</supplied>
+                    <lb/>le limonier et peu avant <lb/>le bigaradier au 10<hi rendition="#sup"><choice>
                             <orig>me</orig>
                             <reg>ème</reg>
-                        </choice>
-                    </hi>
-                    <lb/>l’oranger au <add place="superlinear">commencement du</add> 15<hi rendition="#sup">
-                        <choice>
+                        </choice></hi>
+                    <lb/>l’oranger au <add place="superlinear">commencement du</add> 15<hi rendition="#sup"><choice>
                             <orig>me</orig>
                             <reg>ème</reg>
-                        </choice>
-                    </hi> siècle<supplied cert="high">.</supplied>
-                    <note place="left" hand="#author">Le même 15<lb break="no"/>
-                        <hi rendition="#sup">
-                            <choice>
+                        </choice></hi> siècle<supplied cert="high">.</supplied>
+                    <note place="left" hand="#author">Le même 15<lb break="no"/><hi rendition="#sup"><choice>
                                 <orig>me</orig>
                                 <reg>ème</reg>
-                            </choice>
-                        </hi> siècle <lb/>a donné à l’<lb break="no"/>
-                        <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europe</placeName> le lila<supplied cert="high">,</supplied>
-                        <lb/>le jasmin d’<placeName ref="https://editon-humboldt.de/H0002504 https://www.geonames.org/102358">Ara<lb break="no"/>bie</placeName> (<name type="plant">
-                            <choice>
+                            </choice></hi> siècle <lb/>a donné à l’<lb break="no"/><placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europe</placeName> le lila<supplied cert="high">,</supplied>
+                        <lb/>le jasmin d’<placeName ref="https://editon-humboldt.de/H0002504 https://www.geonames.org/102358">Ara<lb break="no"/>bie</placeName> (<name type="plant"><choice>
                                 <sic>nyctantes</sic>
                                 <corr cert="high">nyctanthes</corr>
                             </choice>
                             <lb/>Sambac</name>)<supplied cert="high">et</supplied> les renoncules
-                            <lb/>
-                        <bibl corresp="https://edition-humboldt.de/BRRJIHHK">
+                            <lb/><bibl corresp="https://edition-humboldt.de/BRRJIHHK">
                             <choice>
                                 <abbr>G.</abbr>
                                 <expan>Gallesio</expan>
@@ -542,48 +407,27 @@
                         <choice>
                             <orig>par</orig>
                             <reg>Par</reg>
-                        </choice> les <placeName ref="https://editon-humboldt.de/H0010840 https://www.geonames.org/6542282">Génois</placeName> par <placeName ref="https://editon-humboldt.de/H0005159 https://www.geonames.org/99532">Bassora</placeName> et la <placeName ref="https://editon-humboldt.de/H0010420">Syrie</placeName>
-                        <note place="left" hand="#author">
-                            <supplied cert="high">.</supplied>
-                            <metamark/>
-                            <choice>
+                        </choice> les <placeName ref="https://editon-humboldt.de/H0010840 https://www.geonames.org/6542282">Génois</placeName> par <placeName ref="https://editon-humboldt.de/H0005159 https://www.geonames.org/99532">Bassora</placeName> et la <placeName ref="https://editon-humboldt.de/H0010420">Syrie</placeName><note place="left" hand="#author"><supplied cert="high">.</supplied><metamark/><choice>
                                 <orig>vraisemblable<lb break="no"/>ment</orig>
                                 <reg>Vraisemblablement</reg>
-                            </choice> par les <lb/>
-                            <placeName ref="https://editon-humboldt.de/H0010840 https://www.geonames.org/6542282">Génois,</placeName> du
+                            </choice> par les <lb/><placeName ref="https://editon-humboldt.de/H0010840 https://www.geonames.org/6542282">Génois,</placeName> du
                             moins <lb/>prouvé. Faux <lb/>que l’arbre de la <lb/>maison du <choice>
-                                <abbr>C<hi rendition="#sup">te</hi>
-                                </abbr>
+                                <abbr>C<hi rendition="#sup">te</hi></abbr>
                                 <expan>Comte</expan>
                             </choice>
-                            <lb/>
-                            <choice>
+                            <lb/><choice>
                                 <abbr>St Laurent</abbr>
                                 <expan>Saint-Laurent</expan>
-                            </choice>
-                            <supplied cert="high">,</supplied> à <lb/>
-                            <placeName ref="https://editon-humboldt.de/H0011456 https://www.geonames.org/2267057">Lisbonne</placeName>
-                            <supplied cert="high">,</supplied> père de <lb/>
-                            <choice>
+                            </choice><supplied cert="high">,</supplied> à <lb/><placeName ref="https://editon-humboldt.de/H0011456 https://www.geonames.org/2267057">Lisbonne</placeName><supplied cert="high">,</supplied> père de <lb/><choice>
                                 <sic>tous</sic>
                                 <corr cert="high">toutes</corr>
-                            </choice> les oranges douces <lb/>de <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">l’Europe</placeName> et <lb/>du <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">Brésil</placeName>, fable des <lb/>
-                            <ref xml:id="f832a317-9a89-4249-b2a3-179a89824955" corresp="#f4b3f009-22b7-43c6-b3f0-0922b773c64c">
-                                <bibl corresp="https://edition-humboldt.de/QU2CKZJK">
-                                    <choice>
+                            </choice> les oranges douces <lb/>de <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">l’Europe</placeName> et <lb/>du <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">Brésil</placeName>, fable des <lb/><ref xml:id="f6e4ac8f-d53d-4f11-a4ac-8fd53daf11b3" corresp="#ae7c39d8-fe92-4613-bc39-d8fe9226135f" type="editorialNote"><bibl corresp="https://edition-humboldt.de/QU2CKZJK"><choice>
                                             <abbr>Dict</abbr>
                                             <expan>Dictionnaires</expan>
-                                        </choice> de Trévoux</bibl>
-                            </ref>
-                            <note xml:id="f4b3f009-22b7-43c6-b3f0-0922b773c64c" corresp="#f832a317-9a89-4249-b2a3-179a89824955">
-                                <bibl corresp="https://edition-humboldt.de/QU2CKZJK">Dictionnaire de Trévoux 1771</bibl>, VI, 368.</note>et
+                                        </choice> de Trévoux</bibl></ref><note xml:id="ae7c39d8-fe92-4613-bc39-d8fe9226135f" corresp="#f6e4ac8f-d53d-4f11-a4ac-8fd53daf11b3" type="editorial"><bibl corresp="https://edition-humboldt.de/QU2CKZJK">Dictionnaire de Trévoux 1771</bibl>, VI, 368.</note>et
                             <lb/>de
-                                <ref xml:id="b7158aa5-9146-4040-958a-a59146c0409f" corresp="#af5d20a6-00af-4b41-9d20-a600af5b412e">Valmont de Bomare</ref>
-                            <note xml:id="af5d20a6-00af-4b41-9d20-a600af5b412e" corresp="#b7158aa5-9146-4040-958a-a59146c0409f">
-                                <bibl corresp="https://edition-humboldt.de/HJIAKB23">Valmont de Bomare 1791</bibl>, IX, 551. </note>
-                            <supplied cert="high">,</supplied>
-                            <lb/>
-                            <bibl corresp="https://edition-humboldt.de/BRRJIHHK">
+                                <ref xml:id="e03cc1bb-b86f-44e0-bcc1-bbb86f84e04d" corresp="#dc8e90f6-1408-4f05-8e90-f614085f051a" type="editorialNote">Valmont de Bomare</ref><note xml:id="dc8e90f6-1408-4f05-8e90-f614085f051a" corresp="#e03cc1bb-b86f-44e0-bcc1-bbb86f84e04d" type="editorial"><bibl corresp="https://edition-humboldt.de/HJIAKB23">Valmont de Bomare 1791</bibl>, IX, 551. </note><supplied cert="high">,</supplied>
+                            <lb/><bibl corresp="https://edition-humboldt.de/BRRJIHHK">
                                 <choice>
                                     <abbr>G.</abbr>
                                     <expan>Gallesio</expan>
@@ -591,14 +435,11 @@
                                 <choice>
                                     <abbr>p</abbr>
                                     <expan>page</expan>
-                                </choice> 301</bibl>
-                            <supplied cert="high">.</supplied> Peut<supplied cert="high">-</supplied>être <lb/>vrai d’une variété<supplied cert="high">,</supplied>
-                            <lb/>les <placeName ref="https://editon-humboldt.de/H0008382 https://www.geonames.org/2264397">
-                                <choice>
+                                </choice> 301</bibl><supplied cert="high">.</supplied> Peut<supplied cert="high">-</supplied>être <lb/>vrai d’une variété<supplied cert="high">,</supplied>
+                            <lb/>les <placeName ref="https://editon-humboldt.de/H0008382 https://www.geonames.org/2264397"><choice>
                                     <abbr>Port.</abbr>
                                     <expan>Portugais</expan>
-                                </choice>
-                            </placeName> ne sont <choice>
+                                </choice></placeName> ne sont <choice>
                                 <sic>arrivé</sic>
                                 <corr cert="high">arrivés</corr>
                             </choice>
@@ -610,49 +451,34 @@
                                 <sic>à la</sic>
                                 <corr cert="high">en</corr>
                             </choice>
-                            <lb/>
-                            <placeName ref="https://editon-humboldt.de/H0007396 https://www.geonames.org/1814991">Chine</placeName> en 1518 et à cette
-                            époque <lb/>déjà beaucoup d’oranges douces <lb/>en <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italie</placeName>.</note>
-                    </add>
-                </p>
-                <p>Il est prouvé qu’en <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0016272 https://www.geonames.org/22695">Médie</placeName>
-                    <supplied cert="high">,</supplied> le <subst>
+                            <lb/><placeName ref="https://editon-humboldt.de/H0007396 https://www.geonames.org/1814991">Chine</placeName> en 1518 et à cette
+                            époque <lb/>déjà beaucoup d’oranges douces <lb/>en <placeName ref="https://editon-humboldt.de/H0006750 https://www.geonames.org/3175395">Italie</placeName>.</note></add></p>
+                <p>Il est prouvé qu’en <lb/><placeName ref="https://editon-humboldt.de/H0016272 https://www.geonames.org/22695">Médie</placeName><supplied cert="high">,</supplied> le <subst>
                         <del rendition="#s">citr</del>
-                        <add place="intralinear">citron<g ref="#typoHyphen"/>
-                            <lb break="no"/>nier</add>
+                        <add place="intralinear">citron<g ref="#typoHyphen"/><lb break="no"/>nier</add>
                     </subst> étoit seul indigène<supplied cert="high">,</supplied>
                     <lb/>sans l’oranger ou <supplied cert="high">le</supplied>
                     <choice>
                         <abbr>big</abbr>
                         <expan>bigaradier</expan>
-                    </choice>! <lb/>Dans <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">l’Inde</placeName>
-                    <supplied cert="high">,</supplied> on trouvoit <lb/>seul sauvage le <choice>
+                    </choice>! <lb/>Dans <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">l’Inde</placeName><supplied cert="high">,</supplied> on trouvoit <lb/>seul sauvage le <choice>
                         <abbr>bigar</abbr>
                         <expan>bigaradier</expan>
-                    </choice>
-                    <supplied cert="high">,</supplied>
-                    <lb/>sans oranger, cela <lb/>ne prouve-t-il pas <lb/>qu’en <placeName ref="https://editon-humboldt.de/H0002429">Amérique</placeName> ver<lb break="no"/>wildert. Notre <add place="left">
-                        <metamark/>Limon de <placeName ref="https://editon-humboldt.de/H0000494 https://www.geonames.org/3562981">Cuba</placeName>
+                    </choice><supplied cert="high">,</supplied>
+                    <lb/>sans oranger, cela <lb/>ne prouve-t-il pas <lb/>qu’en <placeName ref="https://editon-humboldt.de/H0002429">Amérique</placeName> ver<lb break="no"/>wildert. Notre <add place="left"><metamark/>Limon de <placeName ref="https://editon-humboldt.de/H0000494 https://www.geonames.org/3562981">Cuba</placeName>
                         ressemble <lb/>le plus au <subst>
                             <del rendition="#s">limon de</del>
                             <lb/>
-                            <add place="intralinear">Lime de <placeName ref="https://editon-humboldt.de/H0001578 https://www.geonames.org/3172394">Naples</placeName>
-                            </add>
+                            <add place="intralinear">Lime de <placeName ref="https://editon-humboldt.de/H0001578 https://www.geonames.org/3172394">Naples</placeName></add>
                         </subst> à très <lb/>petits <choice>
                             <sic>fruit</sic>
                             <corr cert="high">fruits</corr>
-                        </choice>
-                        <supplied cert="high">,</supplied> arbre très épi<lb break="no"/>neux, fruit <add place="intralinear">
-                            <metamark/>
-                            <supplied cert="high">de
-                                la</supplied> grosseur d’un noix<supplied cert="high">,</supplied>
-                        </add> tout rond<supplied cert="high">,</supplied>
+                        </choice><supplied cert="high">,</supplied> arbre très épi<lb break="no"/>neux, fruit <add place="intralinear"><metamark/><supplied cert="high">de
+                                la</supplied> grosseur d’un noix<supplied cert="high">,</supplied></add> tout rond<supplied cert="high">,</supplied>
                         <lb/>écorce mince<supplied cert="high">,</supplied> très odorante<supplied cert="high">,</supplied>
                         <lb/>pulpe abondante en suc <lb/>acide<supplied cert="high">,</supplied>
                         mais sans graine<supplied cert="high">,</supplied>
-                        <lb/>
-                        <bibl corresp="https://edition-humboldt.de/BRRJIHHK">
+                        <lb/><bibl corresp="https://edition-humboldt.de/BRRJIHHK">
                             <choice>
                                 <abbr>G.</abbr>
                                 <expan>Gallesio</expan>
@@ -660,28 +486,20 @@
                             <choice>
                                 <abbr>p</abbr>
                                 <expan>page</expan>
-                            </choice> 121 </bibl>. Remarquable que <persName ref="https://editon-humboldt.de/H0016261 http://d-nb.info/gnd/118120646">Bellon</persName> trouva <lb/>sauvage (devenu sauvage)<supplied cert="high">,</supplied> près du <placeName ref="https://editon-humboldt.de/H0000327 https://www.geonames.org/360630">Caire</placeName>
-                        <supplied cert="high">,</supplied>
+                            </choice> 121 </bibl>. Remarquable que <persName ref="https://editon-humboldt.de/H0016261 http://d-nb.info/gnd/118120646">Bellon</persName> trouva <lb/>sauvage (devenu sauvage)<supplied cert="high">,</supplied> près du <placeName ref="https://editon-humboldt.de/H0000327 https://www.geonames.org/360630">Caire</placeName><supplied cert="high">,</supplied>
                         <lb/>un limon dont le fruit <supplied cert="high">était</supplied> grand
-                        comme un <lb/>œuf de pigeon. <ref xml:id="cdaae9f1-25a2-4f26-aae9-f125a2cf2663" corresp="#f105da96-6b12-45ca-85da-966b12c5ca1a">
-                            <choice>
+                        comme un <lb/>œuf de pigeon. <ref xml:id="c5c8ee78-91a4-4790-88ee-7891a4b7904b" corresp="#eeb66792-4d87-4ef2-b667-924d870ef2e9" type="editorialNote"><choice>
                                     <abbr>Bel.</abbr>
                                     <expan>Bellon</expan>
                                 </choice>
                                 <choice>
                                     <abbr>chap</abbr>
                                     <expan>chapitre</expan>
-                                </choice> 36</ref>
-                        <note xml:id="f105da96-6b12-45ca-85da-966b12c5ca1a" corresp="#cdaae9f1-25a2-4f26-aae9-f125a2cf2663">Siehe <bibl corresp="https://edition-humboldt.de/BRRJIHHK">Gallesio 1811</bibl>, 333. </note>.</add>
+                                </choice> 36</ref><note xml:id="eeb66792-4d87-4ef2-b667-924d870ef2e9" corresp="#c5c8ee78-91a4-4790-88ee-7891a4b7904b" type="editorial">Siehe <bibl corresp="https://edition-humboldt.de/BRRJIHHK">Gallesio 1811</bibl>, 333. </note>.</add>
                 </p>
-                <p>
-                    <del rendition="#s">
-                        <gap quantity="1" unit="words"/>
-                    </del> Rien ne prouve
-                        qu’<supplied cert="high">il existe</supplied>
-                    <lb break="no"/>un agrumi
-                    indigène <lb/>en <placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">Afrique</placeName>
-                    <supplied cert="high">.</supplied> Si les Por<lb break="no"/>tugais trouvèrent le <choice>
+                <p><del rendition="#s"><gap quantity="1" unit="words"/></del> Rien ne prouve
+                        qu’<supplied cert="high">il existe</supplied><lb break="no"/>un agrumi
+                    indigène <lb/>en <placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">Afrique</placeName><supplied cert="high">.</supplied> Si les Por<lb break="no"/>tugais trouvèrent le <choice>
                         <abbr>Citr</abbr>
                         <expan>Citronnier</expan>
                     </choice>
@@ -692,21 +510,15 @@
                     <lb/>et sur les côtes <choice>
                         <abbr>orient.</abbr>
                         <expan>orientales</expan>
-                    </choice> de <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">l’Afrique</placeName>
-                    <supplied cert="high">,</supplied> les Arabes l’y <lb/>avoient portés<supplied cert="high">.</supplied>
-                </p>
+                    </choice> de <lb/><placeName ref="https://editon-humboldt.de/H0002331 https://www.geonames.org/6255146">l’Afrique</placeName><supplied cert="high">,</supplied> les Arabes l’y <lb/>avoient portés<supplied cert="high">.</supplied></p>
                 <note place="left" hand="#author" rend="sticked">
                     <pb n="72r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000175.jpg"/>
-                    <p>
-                        <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Gallesio</persName> dit qu’aucun <add place="superlinear">des</add>
+                    <p><persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Gallesio</persName> dit qu’aucun <add place="superlinear">des</add>
                         <hi rendition="#u">agrumi</hi> originaire du <placeName ref="https://editon-humboldt.de/H0002429">Nouveau <lb/>Monde</placeName>, tous <choice>
                             <sic>apporté</sic>
                             <corr cert="high">apportés</corr>
                         </choice> par les Européens, mais à présent <lb/>il y en a des forêts
-                        partout.</p>
-                    <p>
-                        <persName ref="https://editon-humboldt.de/H0012813 http://d-nb.info/gnd/172498988">Azara</persName>
+                        partout.</p><p><persName ref="https://editon-humboldt.de/H0012813 http://d-nb.info/gnd/172498988">Azara</persName>
                         <bibl corresp="https://edition-humboldt.de/IP2U8GVC">Voyage</bibl>
                         <choice>
                             <abbr>T</abbr>
@@ -716,22 +528,17 @@
                             <expan>page</expan>
                         </choice> 106. <persName ref="https://editon-humboldt.de/H0012498 http://d-nb.info/gnd/12116117X">Acosta</persName>
                         nie aussi tout et dit <lb/>qu’il sait comment sauvage dans les îles
-                        <ref xml:id="d189528b-fe43-4dec-8952-8bfe430dec95" corresp="#a72030e8-93c9-4972-a030-e893c949728d">liber 4 <choice>
+                        <ref xml:id="bba7e9d5-a649-4c00-a7e9-d5a649fc000e" corresp="#e01077ff-a224-4548-9077-ffa2244548f9" type="editorialNote">liber 4 <choice>
                                     <abbr>c</abbr>
                                     <expan>capítulo</expan>
-                                </choice> 31</ref>
-                        <note xml:id="a72030e8-93c9-4972-a030-e893c949728d" corresp="#d189528b-fe43-4dec-8952-8bfe430dec95">“De las Plantas, y Frutales que se han
-                                llevado de España a las Indias“ (Acosta 1590, 270).</note>. <lb/>item <ref xml:id="e46733bf-965f-4714-a733-bf965fc714d0" corresp="#cc77f6e4-bc72-425f-b7f6-e4bc72a25f88">
-                            <bibl corresp="https://edition-humboldt.de/9AQ72SQR">Garcilaso <choice>
+                                </choice> 31</ref><note xml:id="e01077ff-a224-4548-9077-ffa2244548f9" corresp="#bba7e9d5-a649-4c00-a7e9-d5a649fc000e" type="editorial">“De las Plantas, y Frutales que se han
+                                llevado de España a las Indias“ (Acosta 1590, 270).</note>. <lb/>item <ref xml:id="be96a3ed-e2e9-401d-96a3-ede2e9b01d45" corresp="#a8b6d554-eef7-44e8-b6d5-54eef724e8bd" type="editorialNote"><bibl corresp="https://edition-humboldt.de/9AQ72SQR">Garcilaso <choice>
                                         <abbr>liv</abbr>
                                         <expan>livre</expan>
                                     </choice> 9. <choice>
                                         <abbr>c</abbr>
                                         <expan>capítulo</expan>
-                                    </choice> 28</bibl>
-                        </ref>
-                        <note xml:id="cc77f6e4-bc72-425f-b7f6-e4bc72a25f88" corresp="#e46733bf-965f-4714-a733-bf965fc714d0">
-                            <bibl corresp="https://edition-humboldt.de/9AQ72SQR">Inca
+                                    </choice> 28</bibl></ref><note xml:id="a8b6d554-eef7-44e8-b6d5-54eef724e8bd" corresp="#be96a3ed-e2e9-401d-96a3-ede2e9b01d45" type="editorial"><bibl corresp="https://edition-humboldt.de/9AQ72SQR">Inca
                                     Garcilaso de la Vega 1609</bibl>, IX.</note>.
                         it.
                             <persName ref="https://editon-humboldt.de/H0003253 http://d-nb.info/gnd/123588855">Benzoni </persName>
@@ -740,20 +547,12 @@
                             <expan>page</expan>
                         </choice> 62.</p>
                     <p>Pourquoi dans les îles seulement l’orange amère sauvage<supplied cert="high">,</supplied> pour<lb break="no"/>quoi non la douce comme à <placeName ref="https://editon-humboldt.de/H0006541 https://www.geonames.org/3696150">Jaén</placeName>, pourquoi pas de forêts d’aran<lb break="no"/>jas ou <supplied cert="high">de</supplied>
-                        <lb/>citronniers <lb/>sur le <placeName ref="https://editon-humboldt.de/H0002429">con<g ref="#typoHyphen"/>
-                            <lb break="no"/>tinent</placeName>. Cela <lb/>ne
-                        prouvoit-il pas…<note place="left" hand="#author">
-                            <metamark/>aussi <lb/>qui
+                        <lb/>citronniers <lb/>sur le <placeName ref="https://editon-humboldt.de/H0002429">con<g ref="#typoHyphen"/><lb break="no"/>tinent</placeName>. Cela <lb/>ne
+                        prouvoit-il pas…<note place="left" hand="#author"><metamark/>aussi <lb/>qui
                                 culti<lb break="no"/>ve en <placeName ref="https://editon-humboldt.de/H0002429">Amé<lb break="no"/>rique</placeName> le petit <lb/>citron sauvage?
-                            <lb/>fragen <lb/>
-                            <persName ref="https://editon-humboldt.de/H0004093 http://d-nb.info/gnd/142837660">Turpin</persName>
-                            <lb/>
-                            <ref xml:id="ff68ae2d-55f6-4c01-a8ae-2d55f6bc0126" corresp="#ecdf5e4d-09fb-4b85-9f5e-4d09fb3b859a">mon
-                                        <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexi<lb break="no"/>que</placeName>
-                            </ref>
-                            <note xml:id="ecdf5e4d-09fb-4b85-9f5e-4d09fb3b859a" corresp="#ff68ae2d-55f6-4c01-a8ae-2d55f6bc0126">
-                                <bibl corresp="https://edition-humboldt.de/SUIPEAN3">Humboldt 1825–1827</bibl>.</note>?</note>
-                    </p>
+                            <lb/>fragen <lb/><persName ref="https://editon-humboldt.de/H0004093 http://d-nb.info/gnd/142837660">Turpin</persName>
+                            <lb/><ref xml:id="a958b796-83b7-412f-98b7-9683b7b12f27" corresp="#a4a41db9-7bc4-4e98-a41d-b97bc4ae988d" type="editorialNote">mon
+                                        <placeName ref="https://editon-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexi<lb break="no"/>que</placeName></ref><note xml:id="a4a41db9-7bc4-4e98-a41d-b97bc4ae988d" corresp="#a958b796-83b7-412f-98b7-9683b7b12f27" type="editorial"><bibl corresp="https://edition-humboldt.de/SUIPEAN3">Humboldt 1825–1827</bibl>.</note>?</note></p>
                     <p>Les orangers doux de <placeName ref="https://editon-humboldt.de/H0011438 https://www.geonames.org/3174725">Ligurie</placeName>
                         <choice>
                             <abbr>donne</abbr>
@@ -775,8 +574,7 @@
                         <choice>
                             <abbr>v.</abbr>
                             <expan>versa</expan>
-                        </choice>
-                        <bibl corresp="https://edition-humboldt.de/BRRJIHHK">
+                        </choice><bibl corresp="https://edition-humboldt.de/BRRJIHHK">
                             <choice>
                                 <abbr>G</abbr>
                                 <expan>Gallesio</expan>
@@ -784,37 +582,24 @@
                             <choice>
                                 <abbr>p</abbr>
                                 <expan>page</expan>
-                            </choice> 32</bibl>
-                        <supplied cert="high">.</supplied>
-                    </p>
-                    <p>
-                        <choice>
+                            </choice> 32</bibl><supplied cert="high">.</supplied></p>
+                    <p><choice>
                             <orig>même</orig>
                             <reg>Même</reg>
                         </choice> les amandes douces<supplied cert="high">,</supplied> pourquoi
                         <lb/>les <choice>
                             <abbr>Europ</abbr>
                             <expan>Européens</expan>
-                        </choice> auroient importé un <lb/>mauvais petit limon<supplied cert="high">.</supplied>
-                    </p>
-                    <p>
-                        <choice>
+                        </choice> auroient importé un <lb/>mauvais petit limon<supplied cert="high">.</supplied></p>
+                    <p><choice>
                             <orig>mais</orig>
                             <reg>Mais</reg>
                         </choice>
-                        <persName ref="https://editon-humboldt.de/H0016261 http://d-nb.info/gnd/118120646">Belon</persName>! <lb/>
-                        <placeName ref="https://editon-humboldt.de/H0000327 https://www.geonames.org/360630">Caire</placeName>
-                    </p>
-                    <pb n="72v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000176.jpg"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
-                    <p> </p>
-                </note>
+                        <persName ref="https://editon-humboldt.de/H0016261 http://d-nb.info/gnd/118120646">Belon</persName>! <lb/><placeName ref="https://editon-humboldt.de/H0000327 https://www.geonames.org/360630">Caire</placeName></p><pb n="72v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000176.jpg"/><gap unit="pages" quantity="1" reason="empty"/>
+                    <p> </p></note>
                 <pb n="70r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000169.jpg"/>
-                <p>
-                    <hi rendition="#uu">Citrus</hi>
-                </p>
-                <p>
-                    <choice>
+                <p><hi rendition="#uu">Citrus</hi></p>
+                <p><choice>
                         <orig>comme</orig>
                         <reg>Comme</reg>
                 </choice> nous lions l’idée d’un fort acide au mot citron et que le Limonier
@@ -824,22 +609,13 @@
                     </choice>, on devroit <choice>
                         <sic>nomer</sic>
                         <corr cert="high">nommer</corr>
-                    </choice> le <lb/>
-                    <choice>
+                    </choice> le <lb/><choice>
                         <abbr>C.</abbr>
                         <expan>Citrus</expan>
-                    </choice> medica Cédra<supplied cert="high">.</supplied>
-                    <lb break="no"/>tier</p>
-                <p>
-                    <bibl corresp="https://edition-humboldt.de/N2UBBP46">
-                        <persName ref="https://editon-humboldt.de/H0000932 http://d-nb.info/gnd/134106636">Risso</persName>
-                        essai sur les Orangers 1813</bibl>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <hi rendition="#u">
-                        <name type="plant">Citrus aurantium</name>
-                    </hi>. medulla
+                    </choice> medica Cédra<supplied cert="high">.</supplied><lb break="no"/>tier</p>
+                <p><bibl corresp="https://edition-humboldt.de/N2UBBP46"><persName ref="https://editon-humboldt.de/H0000932 http://d-nb.info/gnd/134106636">Risso</persName>
+                        essai sur les Orangers 1813</bibl><supplied cert="high">.</supplied></p>
+                <p><hi rendition="#u"><name type="plant">Citrus aurantium</name></hi>. medulla
                     dulcissima <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
@@ -856,40 +632,23 @@
                         <expan>petiolis</expan>
                     </choice> subnudis<supplied cert="high">.</supplied>
                 </p>
-                <p>Oranger commun (<placeName ref="https://editon-humboldt.de/H0006559 https://www.geonames.org/1861060">Japon</placeName>, <placeName ref="https://editon-humboldt.de/H0008819">Mer du Sud</placeName>).<note place="right" hand="#author">oranger <lb/>introduit <lb/>au 15<hi rendition="#sup">
-                            <choice>
+                <p>Oranger commun (<placeName ref="https://editon-humboldt.de/H0006559 https://www.geonames.org/1861060">Japon</placeName>, <placeName ref="https://editon-humboldt.de/H0008819">Mer du Sud</placeName>).<note place="right" hand="#author">oranger <lb/>introduit <lb/>au 15<hi rendition="#sup"><choice>
                                 <orig>me</orig>
                                 <reg>ème</reg>
-                            </choice>
-                        </hi>
-                        <lb/>siècle. <lb/>
-                        <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">
-                            <choice>
+                            </choice></hi>
+                        <lb/>siècle. <lb/><persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458"><choice>
                                 <abbr>G</abbr>
                                 <expan>Gallesio</expan>
-                            </choice>
-                        </persName>
+                            </choice></persName>
                         <choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 294</note>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <name type="plant">
-                        <choice>
-                            <abbr>
-                                <hi rendition="#u">C.</hi>
-                            </abbr>
-                            <expan>
-                                <hi rendition="#u">Citrus</hi>
-                            </expan>
-                        </choice>
-                        <hi rendition="#u"> vulgaris</hi>
-                    </name>
-                    <note place="left" hand="#author">
-                        <metamark/>
-                        <supplied cert="high">Une</supplied>
+                        </choice> 294</note><supplied cert="high">.</supplied></p>
+                <p><name type="plant"><choice>
+                            <abbr><hi rendition="#u">C.</hi></abbr>
+                            <expan><hi rendition="#u">Citrus</hi></expan>
+                        </choice><hi rendition="#u"> vulgaris</hi></name>
+                    <note place="left" hand="#author"><metamark/><supplied cert="high">Une</supplied>
                         <choice>
                             <abbr>var.</abbr>
                             <expan>variation</expan>
@@ -898,16 +657,14 @@
                         <lb/>Oranger nain<supplied cert="high">,</supplied>
                         <lb/>que l’on cultive <lb/>à <placeName ref="https://editon-humboldt.de/H0018403 https://www.geonames.org/2511619">Morviedro</placeName>
                         et <supplied cert="high">à</supplied>
-                        <lb/>Savone pour les con<lb break="no"/>fitures <bibl corresp="https://edition-humboldt.de/BRRJIHHK">
-                            <choice>
+                        <lb/>Savone pour les con<lb break="no"/>fitures <bibl corresp="https://edition-humboldt.de/BRRJIHHK"><choice>
                                 <abbr>G</abbr>
                                 <expan>Gallesio</expan>
                             </choice>
                             <choice>
                                 <abbr>p</abbr>
                                 <expan>page</expan>
-                            </choice> 133 </bibl>.</note>medulla acri amara <bibl corresp="https://edition-humboldt.de/N2UBBP46">
-                        <choice>
+                            </choice> 133 </bibl>.</note>medulla acri amara <bibl corresp="https://edition-humboldt.de/N2UBBP46"><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 22</bibl>
@@ -924,40 +681,23 @@
                     </choice> acutis crenulatis <choice>
                         <abbr>pet.</abbr>
                         <expan>petiolis</expan>
-                    </choice> alatis<supplied cert="high">.</supplied>
-                    <note place="left" hand="#author">
-                        <choice>
+                    </choice> alatis<supplied cert="high">.</supplied><note place="left" hand="#author"><choice>
                             <orig>cultivé</orig>
                             <reg>Cultivé</reg>
-                        </choice> en <lb/>
-                        <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europe</placeName> depuis
-                        <lb/>la 10<hi rendition="#sup">
-                            <choice>
+                        </choice> en <lb/><placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europe</placeName> depuis
+                        <lb/>la 10<hi rendition="#sup"><choice>
                                 <orig>me</orig>
                                 <reg>ème</reg>
-                            </choice>
-                        </hi> siècle</note>
-                </p>
-                <p>Bigaradier <note place="left" hand="#author">
-                        <metamark/>Oran<lb break="no"/>ge
-                            amère<supplied cert="high">.</supplied>
-                    </note>. <del rendition="#s">Citron</del> (porté de <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">l’Inde</placeName> par les
-                        Arabes)<add place="sublinear">
-                        <supplied cert="high">(</supplied>feuilles
+                            </choice></hi> siècle</note></p>
+                <p>Bigaradier <note place="left" hand="#author"><metamark/>Oran<lb break="no"/>ge
+                            amère<supplied cert="high">.</supplied></note>. <del rendition="#s">Citron</del> (porté de <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">l’Inde</placeName> par les
+                        Arabes)<add place="sublinear"><supplied cert="high">(</supplied>feuilles
                         très odoriférantes)</add>
                 </p>
-                <p>
-                    <name type="plant">
-                        <choice>
-                            <abbr>
-                                <hi rendition="#u">C.</hi>
-                            </abbr>
-                            <expan>
-                                <hi rendition="#u">Citrus</hi>
-                            </expan>
-                        </choice>
-                        <hi rendition="#u"> limetta</hi>
-                    </name>
+                <p><name type="plant"><choice>
+                            <abbr><hi rendition="#u">C.</hi></abbr>
+                            <expan><hi rendition="#u">Citrus</hi></expan>
+                        </choice><hi rendition="#u"> limetta</hi></name>
                     <choice>
                         <abbr>fol</abbr>
                         <expan>foliis</expan>
@@ -968,36 +708,20 @@
                     </choice> rotundatis serrulatis, <choice>
                         <abbr>pet.</abbr>
                         <expan>petiolis</expan>
-                    </choice> nudis <lb/>medulla dulci <bibl corresp="https://edition-humboldt.de/N2UBBP46">
-                        <choice>
+                    </choice> nudis <lb/>medulla dulci <bibl corresp="https://edition-humboldt.de/N2UBBP46"><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 27</bibl>
-                </p>
-                <p>Lime douce fructo globoso. suc douçâtre et fade. (d’après <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">
-                        <lb/>Gallesio</persName>
-                    <supplied cert="high">,</supplied>
-                    variété du <lb/>Limonier <bibl corresp="https://edition-humboldt.de/BRRJIHHK">
-                        <choice>
+                        </choice> 27</bibl></p>
+                <p>Lime douce fructo globoso. suc douçâtre et fade. (d’après <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458"><lb/>Gallesio</persName><supplied cert="high">,</supplied>
+                    variété du <lb/>Limonier <bibl corresp="https://edition-humboldt.de/BRRJIHHK"><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 114</bibl>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <name type="plant">
-                        <choice>
-                            <abbr>
-                                <hi rendition="#u">C.</hi>
-                            </abbr>
-                            <expan>
-                                <hi rendition="#u">Citrus</hi>
-                            </expan>
-                        </choice>
-                        <hi rendition="#u"> medica</hi>
-                    </name>
-                    <add place="superlinear">
-                        <choice>
+                        </choice> 114</bibl><supplied cert="high">.</supplied></p>
+                <p><name type="plant"><choice>
+                            <abbr><hi rendition="#u">C.</hi></abbr>
+                            <expan><hi rendition="#u">Citrus</hi></expan>
+                        </choice><hi rendition="#u"> medica</hi></name>
+                    <add place="superlinear"><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 31</add> medulla acidula fructo
@@ -1013,55 +737,37 @@
                     <choice>
                         <abbr>acut.</abbr>
                         <expan>acutis</expan>
-                    </choice>
-                    <supplied cert="high">,</supplied>
+                    </choice><supplied cert="high">,</supplied>
                     <choice>
                         <abbr>pet.</abbr>
                         <expan>petiolis</expan>
-                    </choice> nudis<supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <choice>
+                    </choice> nudis<supplied cert="high">.</supplied></p>
+                <p><choice>
                         <abbr>Cédrat</abbr>
                         <expan>Cédratier</expan>
-                    </choice> (<placeName ref="https://editon-humboldt.de/H0016272 https://www.geonames.org/22695">Médie</placeName> et <placeName ref="https://editon-humboldt.de/H0006712 https://www.geonames.org/130758">Perse</placeName>) cultivé par les Romains suc faible<g ref="#typoHyphen"/>
-                    <lb break="no"/>ment <choice>
+                    </choice> (<placeName ref="https://editon-humboldt.de/H0016272 https://www.geonames.org/22695">Médie</placeName> et <placeName ref="https://editon-humboldt.de/H0006712 https://www.geonames.org/130758">Perse</placeName>) cultivé par les Romains suc faible<g ref="#typoHyphen"/><lb break="no"/>ment <choice>
                         <abbr>aigrelet.</abbr>
                         <expan>aigrelette</expan>
-                    </choice>
-                    <add place="sublinear"> ce que <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Galesio</persName> apelle <choice>
+                    </choice><add place="sublinear"> ce que <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Galesio</persName> apelle <choice>
                             <sic>Citronier</sic>
                             <corr cert="high">Citronnier</corr>
                         </choice>.</add>
                 </p>
-                <p>
-                    <name type="plant">
-                        <choice>
-                            <abbr>
-                                <hi rendition="#u">C.</hi>
-                            </abbr>
-                            <expan>
-                                <hi rendition="#u">Citrus</hi>
-                            </expan>
-                        </choice>
-                        <hi rendition="#u"> limonum</hi>
-                    </name>
-                    <note place="left" hand="#author">
-                        <choice>
-                            <orig>
-                                <metamark/>la</orig>
+                <p><name type="plant"><choice>
+                            <abbr><hi rendition="#u">C.</hi></abbr>
+                            <expan><hi rendition="#u">Citrus</hi></expan>
+                        </choice><hi rendition="#u"> limonum</hi></name>
+                    <note place="left" hand="#author"><choice>
+                            <orig><metamark/>la</orig>
                             <reg>La</reg>
-                        </choice> lime <lb/>bergamotte <lb/>
-                        <choice>
+                        </choice> lime <lb/>bergamotte <lb/><choice>
                             <sic>apartient</sic>
                             <corr cert="high">appartient</corr>
                         </choice> au <lb/>limonier, mais <lb/>elle est hybri<lb break="no"/>de du
-                            limo<lb break="no"/>nier et de <lb/>l’oranger <lb/>
-                        <bibl corresp="https://edition-humboldt.de/BRRJIHHK"> Gallesio <choice>
+                            limo<lb break="no"/>nier et de <lb/>l’oranger <lb/><bibl corresp="https://edition-humboldt.de/BRRJIHHK"> Gallesio <choice>
                                 <abbr>p</abbr>
                                 <expan>page</expan>
-                            </choice> 119</bibl>.</note>
-                    <choice>
+                            </choice> 119</bibl>.</note><choice>
                         <orig>medulla</orig>
                         <reg>Medulla</reg>
                     </choice> acri acidissima <lb/>spinosus, <choice>
@@ -1086,21 +792,14 @@
                         <abbr>fruct</abbr>
                         <expan>fructo</expan>
                     </choice> oblongo</p>
-                <p>Dans les <placeName ref="https://editon-humboldt.de/H0016250 https://www.geonames.org/3038049">Alpes maritimes</placeName>
-                    <supplied cert="high">,</supplied> des orangers de 3–500 ans <choice>
+                <p>Dans les <placeName ref="https://editon-humboldt.de/H0016250 https://www.geonames.org/3038049">Alpes maritimes</placeName><supplied cert="high">,</supplied> des orangers de 3–500 ans <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
                     </choice> 7. <lb/>près d’<placeName ref="https://editon-humboldt.de/H0016298 https://www.geonames.org/3019174">Esa</placeName>
-                    <ref xml:id="d44919cf-f545-4744-8919-cff545974498" corresp="#ad248691-8b42-4a15-a486-918b424a1558">
-                        <choice>
+                    <ref xml:id="d7f1f448-1f2a-421e-b1f4-481f2a721ecb" corresp="#dad94474-9f0b-4d62-9944-749f0b9d6252" type="editorialNote"><choice>
                                 <abbr>R</abbr>
                                 <expan>Risso</expan>
-                            </choice>
-                    </ref>
-                    <note xml:id="ad248691-8b42-4a15-a486-918b424a1558" corresp="#d44919cf-f545-4744-8919-cff545974498">
-                        <bibl corresp="https://edition-humboldt.de/N2UBBP46">Risso 1813</bibl>.</note>
-                    <supplied cert="high">.</supplied> À <placeName ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rome</placeName>
-                    <supplied cert="high">,</supplied> couvent des Dominicains
+                            </choice></ref><note xml:id="dad94474-9f0b-4d62-9944-749f0b9d6252" corresp="#d7f1f448-1f2a-421e-b1f4-481f2a721ecb" type="editorial"><bibl corresp="https://edition-humboldt.de/N2UBBP46">Risso 1813</bibl>.</note><supplied cert="high">.</supplied> À <placeName ref="https://editon-humboldt.de/H0010653 https://www.geonames.org/3169070">Rome</placeName><supplied cert="high">,</supplied> couvent des Dominicains
                     de <choice>
                         <abbr>St</abbr>
                         <expan>Sainte</expan>
@@ -1109,33 +808,24 @@
                         <abbr>St</abbr>
                         <expan>Saint</expan>
                     </choice> Dominique <supplied cert="high">en</supplied> 1200. <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Galesio</persName>
-                    <lb/>croit <lb/>que ce <lb/>n’est <lb/>que le <lb/>rejeton de <lb/>l’an<g ref="#typoHyphen"/>
-                    <lb break="no"/>cienne <lb/>plante <lb/>
-                    <bibl corresp="https://edition-humboldt.de/BRRJIHHK">Gallesio <lb/>
-                        <choice>
+                    <lb/>croit <lb/>que ce <lb/>n’est <lb/>que le <lb/>rejeton de <lb/>l’an<g ref="#typoHyphen"/><lb break="no"/>cienne <lb/>plante <lb/><bibl corresp="https://edition-humboldt.de/BRRJIHHK">Gallesio <lb/><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 275</bibl>
-                    <supplied cert="high">.</supplied>
-                    <lb/>
-                    <choice>
+                        </choice> 275</bibl><supplied cert="high">.</supplied>
+                    <lb/><choice>
                         <orig>il</orig>
                         <reg>Il</reg>
-                    </choice> n’a <lb/>que 0<hi rendition="#sup">
-                        <choice>
+                    </choice> n’a <lb/>que 0<hi rendition="#sup"><choice>
                             <abbr>m</abbr>
                             <expan>mètre</expan>
-                        </choice>
-                    </hi>,25 <lb/>de dia<lb break="no"/>mètre<supplied cert="high">.</supplied>
-                </p>
+                        </choice></hi>,25 <lb/>de dia<lb break="no"/>mètre<supplied cert="high">.</supplied></p>
                 <p>Les Bigaradiers de bon rapport donnent 2000 fruits <supplied cert="high">pour</supplied>
                     <lb/>chaque arbre <choice>
                         <abbr>p</abbr>
                         <expan>age</expan>
                     </choice> 54 et 40 livres de fleurs<supplied cert="high">.</supplied>
                     <note place="left" hand="#author">Orangers <lb/>donnent <lb/>quelquefois
-                        <lb/>6000 fruits <lb/>à <placeName ref="https://editon-humboldt.de/H0001689 https://www.geonames.org/2990440">Nice</placeName>
-                        <lb/>le
+                        <lb/>6000 fruits <lb/>à <placeName ref="https://editon-humboldt.de/H0001689 https://www.geonames.org/2990440">Nice</placeName><lb/>le
                         mille <supplied cert="high">à</supplied>
                         <lb/>15 <choice>
                             <orig>#</orig>
@@ -1145,86 +835,55 @@
                 <p>L’Oranger et le Bigaradier résistent le <lb/>plus au froid, même à <measure quantity="-6" unit="reamur">-6° <choice>
                             <abbr>R</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure>
-                    <bibl corresp="https://edition-humboldt.de/N2UBBP46">
-                        <choice>
+                        </choice></measure>
+                    <bibl corresp="https://edition-humboldt.de/N2UBBP46"><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 55</bibl>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <choice>
+                        </choice> 55</bibl><supplied cert="high">.</supplied></p>
+                <p><choice>
                         <orig>einsalzen</orig>
                         <reg>Einsalzen</reg>
-                    </choice> der Citronen <bibl corresp="https://edition-humboldt.de/N2UBBP46">
-                        <choice>
+                    </choice> der Citronen <bibl corresp="https://edition-humboldt.de/N2UBBP46"><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 74</bibl>.</p>
-                <p>
-                    <del rendition="#s">Les Citronniers passèrent d’Europe Égypte en Europe <lb/>à
-                        l’époque des croisades p 3.</del>
-                </p>
-                <p>
-                    <subst>
+                <p><del rendition="#s">Les Citronniers passèrent d’Europe Égypte en Europe <lb/>à
+                        l’époque des croisades p 3.</del></p>
+                <p><subst>
                         <del rendition="#s">Le</del>
                         <add place="superlinear">Les Grecs et les</add>
                     </subst> Romains ne <subst>
                         <del rendition="#s">connaissoient</del>
                         <add place="sublinear">cultivoient</add>
-                    </subst> donc que le <add place="intralinear">
-                        <choice>
-                            <sic>Ci<g ref="#typoHyphen"/>
-                                <lb break="no"/>tronier</sic>
+                    </subst> donc que le <add place="intralinear"><choice>
+                            <sic>Ci<g ref="#typoHyphen"/><lb break="no"/>tronier</sic>
                             <corr cert="high">Citronnier</corr>
-                        </choice> ou </add>
-                    <supplied cert="high">le</supplied>
+                        </choice> ou </add><supplied cert="high">le</supplied>
                     <choice>
                         <abbr>Cédrat</abbr>
                         <expan>Cédratier</expan>
-                    </choice>
-                    <note place="left" hand="#author">
-                        <metamark/>
-                        <del rendition="#s">(Galesio </del>
-                        <lb/>
-                        <del rendition="#s">croit </del>
-                        <lb/>
-                        <del rendition="#s">le citronnier)</del>
-                        <del rendition="#s"> </del>
-                        <lb/>
-                        <del rendition="#s">et plus </del>
-                        <lb/>
-                        <del rendition="#s">instruit </del>
-                        <lb/>
-                        <del rendition="#s">que Risso),</del>
-                    </note> et non
+                    </choice><note place="left" hand="#author"><metamark/><del rendition="#s">(Galesio </del><lb/><del rendition="#s">croit </del><lb/><del rendition="#s">le citronnier)</del><del rendition="#s"> </del><lb/><del rendition="#s">et plus </del><lb/><del rendition="#s">instruit </del><lb/><del rendition="#s">que Risso),</del></note> et non
                     l’oranger et <subst>
                         <del rendition="#s">le veritable citronnier</del>
                         <add place="sublinear">le bigaradier et <lb/>limonier</add>
                     </subst>. </p>
-                <p>
-                    <choice>
+                <p><choice>
                         <orig>fumée</orig>
                         <reg>Fumée</reg>
-                    </choice> de paille autour des arbres <lb/>
-                    <choice>
+                    </choice> de paille autour des arbres <lb/><choice>
                         <sic>lesquelles</sic>
                         <corr cert="high">lesquels</corr>
                     </choice> sont <choice>
                         <sic>chargées</sic>
                         <corr cert="high">chargés</corr>
-                    </choice> de neige pour <lb/>empêcher les rayons du Soleil <bibl corresp="https://edition-humboldt.de/N2UBBP46">
-                        <choice>
+                    </choice> de neige pour <lb/>empêcher les rayons du Soleil <bibl corresp="https://edition-humboldt.de/N2UBBP46"><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 56</bibl>. <lb/>de <subst>
                         <del rendition="#s">tomber</del>
                         <add place="intralinear">frapper</add>
                     </subst> dessus et de fondre <lb/>rapidement la neige.</p>
-                <p>
-                    <choice>
+                <p><choice>
                         <orig>neige</orig>
                         <reg>Neige</reg>
                 </choice> n’est pernicieuse que lorsqu’<lb break="no"/>elle est précédée et
@@ -1234,33 +893,22 @@
                         <expan>Thermomètre</expan>
                     </choice> reste <lb/>au<supplied cert="high">-</supplied>dessous de 0 et que le
                     tems <lb/>reste couvert, les arbres ne souffrent <lb/>pas.</p>
-                <p>
-                    <persName ref="https://editon-humboldt.de/H0000932 http://d-nb.info/gnd/134106636">Risso</persName> parle de la culture <supplied cert="high">à</supplied>
-                    <placeName ref="https://editon-humboldt.de/H0001689 https://www.geonames.org/2990440">
-                        <lb/>Nice</placeName>, d’<placeName ref="https://editon-humboldt.de/H0016298 https://www.geonames.org/3019174">Esa</placeName>, <placeName ref="https://editon-humboldt.de/H0018402 https://www.geonames.org/2993458">Monaco</placeName>, <placeName ref="https://editon-humboldt.de/H0018400 https://www.geonames.org/2994497">Menton</placeName>, <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0018309 https://www.geonames.org/3164582">Ventimiglia</placeName>
-                    <supplied cert="high">,</supplied>
+                <p><persName ref="https://editon-humboldt.de/H0000932 http://d-nb.info/gnd/134106636">Risso</persName> parle de la culture <supplied cert="high">à</supplied>
+                    <placeName ref="https://editon-humboldt.de/H0001689 https://www.geonames.org/2990440"><lb/>Nice</placeName>, d’<placeName ref="https://editon-humboldt.de/H0016298 https://www.geonames.org/3019174">Esa</placeName>, <placeName ref="https://editon-humboldt.de/H0018402 https://www.geonames.org/2993458">Monaco</placeName>, <placeName ref="https://editon-humboldt.de/H0018400 https://www.geonames.org/2994497">Menton</placeName>, <lb/><placeName ref="https://editon-humboldt.de/H0018309 https://www.geonames.org/3164582">Ventimiglia</placeName><supplied cert="high">,</supplied>
                     <placeName ref="https://editon-humboldt.de/H0016289 https://www.geonames.org/3181864">Bordighiera</placeName>
                     <add place="left">qui a l’as<lb break="no"/>pect des <lb/>tropiques à <lb/>cause
-                        des <lb/>
-                        <choice>
+                        des <lb/><choice>
                             <sic>Datiers</sic>
                             <corr cert="high">Dattiers</corr>
-                        </choice>
-                    </add> et <placeName ref="https://editon-humboldt.de/H0018180 https://www.geonames.org/3167777">San Remo</placeName>.</p>
-                <p>On <del rendition="#s">
-                        <gap quantity="1" unit="words"/>
-                    </del> cultive les
-                    orangers jusqu’à <lb/>
-                    <measure quantity="150" unit="toise">150 <choice>
+                        </choice></add> et <placeName ref="https://editon-humboldt.de/H0018180 https://www.geonames.org/3167777">San Remo</placeName>.</p>
+                <p>On <del rendition="#s"><gap quantity="1" unit="words"/></del> cultive les
+                    orangers jusqu’à <lb/><measure quantity="150" unit="toise">150 <choice>
                             <abbr>t.</abbr>
                             <expan>toises</expan>
-                        </choice>
-                    </measure> de <choice>
+                        </choice></measure> de <choice>
                         <abbr>haut</abbr>
                         <expan>hauteur</expan>
-                    </choice> dans les monta<lb break="no"/>gnes <bibl corresp="https://edition-humboldt.de/N2UBBP46">
-                        <choice>
+                    </choice> dans les monta<lb break="no"/>gnes <bibl corresp="https://edition-humboldt.de/N2UBBP46"><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 44</bibl>.</p>
@@ -1268,98 +916,59 @@
                         <sic>élevés</sic>
                         <corr cert="high">élevées</corr>
                     </choice> de graines <lb/>sont douces <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Galesio</persName>. So in Wäldern <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orinoco</placeName>.</p>
-                <p>
-                    <persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Galesio</persName>
-                    <supplied cert="high">croit</supplied> qu’aucun Citrus <lb/>en <placeName ref="https://editon-humboldt.de/H0002429">Amérique</placeName>
-                    <bibl corresp="https://edition-humboldt.de/BRRJIHHK">
+                <p><persName ref="https://editon-humboldt.de/H0013308 http://d-nb.info/gnd/121377458">Galesio</persName>
+                    <supplied cert="high">croit</supplied> qu’aucun Citrus <lb/>en <placeName ref="https://editon-humboldt.de/H0002429">Amérique</placeName><bibl corresp="https://edition-humboldt.de/BRRJIHHK">
                         <choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 343–348</bibl>.</p>
                 <p>Toronjas <lb/>de <placeName ref="https://editon-humboldt.de/H0007134 https://www.geonames.org/3646738">Caracas</placeName>
-                    <lb/>sont le To<lb break="no"/>ranja ou <lb/>Azamboa <lb/>
-                    <persName ref="https://editon-humboldt.de/H0011825 http://d-nb.info/gnd/124683738">
-                        <choice>
+                    <lb/>sont le To<lb break="no"/>ranja ou <lb/>Azamboa <lb/><persName ref="https://editon-humboldt.de/H0011825 http://d-nb.info/gnd/124683738"><choice>
                             <sic>d’Herera</sic>
                         <corr cert="high">d’Herrera</corr>
-                        </choice>
-                    </persName>
-                    <lb/>ou Pomme <lb/>d’Adam, <add place="superlinear">nommée</add> à <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
-                    <supplied cert="high">,</supplied>
+                        </choice></persName>
+                    <lb/>ou Pomme <lb/>d’Adam, <add place="superlinear">nommée</add> à <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName><supplied cert="high">,</supplied>
                     <lb/>qu’il ne faut <lb/>pas confon<lb break="no"/>dre avec le vrai Pompelmous
-                    non cultivée en <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europe</placeName>
-                    <supplied cert="high">.</supplied>
-                    <note place="left" hand="#author">Pompoleon, <lb/>à jus fade<supplied cert="high">.</supplied>
-                    </note>
-                    <lb/>
-                    <choice>
+                    non cultivée en <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europe</placeName><supplied cert="high">.</supplied>
+                    <note place="left" hand="#author">Pompoleon, <lb/>à jus fade<supplied cert="high">.</supplied></note><lb/><choice>
                         <abbr>t</abbr>
                         <expan>Toronja</expan>
                     </choice> de <choice>
                         <abbr>cuman.</abbr>
                         <expan>Cumaná</expan>
-                    </choice>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <bibl corresp="https://edition-humboldt.de/BRRJIHHK">Galesio <choice>
+                    </choice><supplied cert="high">.</supplied></p>
+                <p><bibl corresp="https://edition-humboldt.de/BRRJIHHK">Galesio <choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 138<supplied cert="high">-</supplied>
-                        <lb/>326<supplied cert="high">.</supplied>
-                    </bibl>
-                    <note place="left" hand="#author">
-                        <choice>
+                        <lb/>326<supplied cert="high">.</supplied></bibl>
+                    <note place="left" hand="#author"><choice>
                             <orig>mais</orig>
                             <reg>Mais</reg>
                         </choice> la <lb/>Pomme <lb/>d’Adam <lb/>et le Pompel<lb break="no"/>mous
-                        ont <lb/>tous les deux <lb/>l’écorce lisse.</note>
-                </p>
-                <p>
-                    <persName ref="https://editon-humboldt.de/H0016388">Ebn-el-<lb break="no"/>Awam</persName>
-                    <lb/>nomme les to<g ref="#typoHyphen"/>
-                    <lb break="no"/>ronjos <lb/>yasa<g ref="#typoHyphen"/>
-                    <lb break="no"/>mou ou <lb/>laysa<g ref="#typoHyphen"/>
-                    <lb break="no"/>mou. </p>
-                <p>
-                    <choice>
+                        ont <lb/>tous les deux <lb/>l’écorce lisse.</note></p>
+                <p><persName ref="https://editon-humboldt.de/H0016388">Ebn-el-<lb break="no"/>Awam</persName>
+                    <lb/>nomme les to<g ref="#typoHyphen"/><lb break="no"/>ronjos <lb/>yasa<g ref="#typoHyphen"/><lb break="no"/>mou ou <lb/>laysa<g ref="#typoHyphen"/><lb break="no"/>mou. </p>
+                <p><choice>
                         <sic>Citron</sic>
                         <corr cert="high">Citrons</corr>
                     </choice> dans des <choice>
-                        <sic>
-                            <lb/>citron</sic>
+                        <sic><lb/>citron</sic>
                         <corr cert="high">citrons</corr>
                     </choice> décrits <lb/>par <persName ref="https://editon-humboldt.de/H0016389 http://d-nb.info/gnd/118500090">Abd-Alla<lb break="no"/>lif</persName>
-                    <bibl corresp="https://edition-humboldt.de/BRRJIHHK">Gallesio<lb/>
-                        <choice>
+                    <bibl corresp="https://edition-humboldt.de/BRRJIHHK">Gallesio<lb/><choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
                         </choice> 333</bibl>.</p>
-                <note place="left" hand="#author" rend="sticked">
-                    <p>
-                        <pb n="69r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000167.jpg"/> Orange <choice>
+                <note place="left" hand="#author" rend="sticked"><p><pb n="69r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000167.jpg"/> Orange <choice>
                             <abbr>sanscr.</abbr>
                             <expan>sanscrit</expan>
                         </choice>
                         <hi rendition="#u">Nâranga</hi>
-                        <lb/>Stein <ref xml:id="b2e45ee6-57a9-440a-a45e-e657a9340aa6" corresp="#c3aa24fc-07aa-4cb3-aa24-fc07aaecb311">
-                            <bibl corresp="https://edition-humboldt.de/I9TR2WMV">Ritter IV. 649</bibl>
-                        </ref>
-                        <note xml:id="c3aa24fc-07aa-4cb3-aa24-fc07aaecb311" corresp="#b2e45ee6-57a9-440a-a45e-e657a9340aa6">
-                            <bibl corresp="https://edition-humboldt.de/I9TR2WMV">Ritter
+                        <lb/>Stein <ref xml:id="b81c4993-de43-4139-9c49-93de43f13956" corresp="#fa79de89-48d0-4667-b9de-8948d016679f" type="editorialNote"><bibl corresp="https://edition-humboldt.de/I9TR2WMV">Ritter IV. 649</bibl></ref><note xml:id="fa79de89-48d0-4667-b9de-8948d016679f" corresp="#b81c4993-de43-4139-9c49-93de43f13956" type="editorial"><bibl corresp="https://edition-humboldt.de/I9TR2WMV">Ritter
                                     1822–1859</bibl>, Bd. IV. Erste Abtheilung. Die Indische
-                                Welt.</note>.</p>
-                    <p>
-                        <ref xml:id="acdec3c2-5e7f-4ac1-9ec3-c25e7f2ac14c" corresp="#ba4de044-91eb-4916-8de0-4491eb791646">Sello</ref>
-                        <note xml:id="ba4de044-91eb-4916-8de0-4491eb791646" corresp="#acdec3c2-5e7f-4ac1-9ec3-c25e7f2ac14c">Wohl <persName ref="https://editon-humboldt.de/H0016404 http://d-nb.info/gnd/139262482">Ludwig
-                                    Sello</persName>. </note> besizt<lb/>
-                        <bibl corresp="https://edition-humboldt.de/BRRJIHHK">Galesio</bibl>
-                        <supplied cert="high">.</supplied>
-                    </p>
-                    <pb n="69v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000168.jpg"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
-                </note>
+                                Welt.</note>.</p><p><ref xml:id="dce5f37b-fc9c-46c7-a5f3-7bfc9c86c74c" corresp="#a30579b1-2ede-4cf8-8579-b12ede4cf8f4" type="editorialNote">Sello</ref><note xml:id="a30579b1-2ede-4cf8-8579-b12ede4cf8f4" corresp="#dce5f37b-fc9c-46c7-a5f3-7bfc9c86c74c" type="editorial">Wohl <persName ref="https://editon-humboldt.de/H0016404 http://d-nb.info/gnd/139262482">Ludwig
+                                    Sello</persName>. </note> besizt<lb/><bibl corresp="https://edition-humboldt.de/BRRJIHHK">Galesio</bibl><supplied cert="high">.</supplied></p><pb n="69v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN838243509/1200/0/00000168.jpg"/><gap unit="pages" quantity="1" reason="empty"/></note>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

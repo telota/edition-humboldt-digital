@@ -33,24 +33,10 @@
                 </respStmt>
                 
                 
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Adolph und Hermann Schlagintweit. Potsdam, 21.
-                    August 1850, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016458">https://edition-humboldt.de/v8/H0016458</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Adolph und Hermann Schlagintweit. Potsdam, 21.
+                    August 1850, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016458</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016458.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -63,12 +49,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
@@ -83,15 +64,13 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <pb n="1r"/>
                 
-				<p>Wie sehr beklage ich die beiden Herrn <lb/>Brüder wieder verfehlt zu haben, <lb/>und doch
-                    möchte ich Ihnen gern <lb/>danken für Ihre schönen Mitthei<g ref="#typoHyphen"/>
-                    <lb break="no"/>lungen, auch <ref xml:id="cfc95afa-29a9-4a7c-895a-fa29a9fa7cd8" corresp="#ea0d51da-5dfa-4bb2-8d51-da5dfa7bb214">Ihren sehr eigenthüm<lb break="no"/>lichen Distanzmesser</ref>
-                    <note xml:id="ea0d51da-5dfa-4bb2-8d51-da5dfa7bb214" corresp="#cfc95afa-29a9-4a7c-895a-fa29a9fa7cd8" resp="#UP">Wohl ein Prismen- oder
+				<p>Wie sehr beklage ich die beiden <ref xml:id="e808ece5-1a54-4d63-88ec-e51a541d6360" corresp="#d6a99a31-441c-4aef-a99a-31441cfaef7f" type="editorialNote">Herrn <lb/><persName ref="https://editon-humboldt.de/H0015551">Brüder</persName></ref><note xml:id="d6a99a31-441c-4aef-a99a-31441cfaef7f" corresp="#e808ece5-1a54-4d63-88ec-e51a541d6360" type="editorial">Gemeint sind hier <persName resp="#UP" ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph</persName> und <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann Schlagintweit</persName>.</note> wieder verfehlt zu haben, <lb/>und doch möchte ich Ihnen gern <lb/>danken
+                    für Ihre schönen Mitthei<g ref="#typoHyphen"/>
+                    <lb break="no"/>lungen, auch <ref xml:id="b879b24d-3eb4-4a8f-b9b2-4d3eb4ea8f98" corresp="#c8ac60ec-9f0a-424d-ac60-ec9f0a624dfa" type="editorialNote">Ihren sehr eigenthüm<lb break="no"/>lichen Distanzmesser</ref><note xml:id="c8ac60ec-9f0a-424d-ac60-ec9f0a624dfa" corresp="#b879b24d-3eb4-4a8f-b9b2-4d3eb4ea8f98" type="editorial" resp="#UP">Wohl ein Prismen- oder
                             Linsenporrhometer. <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und
                                 <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph Schlagintweit</persName> gaben an,
                             Erfinder dieser Messinstrumente zu sein. Vgl. <bibl corresp="https://edition-humboldt.de/QSRJ8U7J">Schlagintweit, H. 1849</bibl>,
@@ -103,15 +82,16 @@
                         <del rendition="#s">die</del>
                         <add place="intralinear">
                             <lb/>dieser</add>
-                    </subst> Tag unlieb ist<supplied cert="high">,</supplied> jeden <lb/>anderen den Sie mir
-                    aber <hi rendition="#u">vorher</hi>
+                    </subst> Tag unlieb ist<supplied cert="high">,</supplied> jeden <lb/>anderen den
+                    Sie mir aber <hi rendition="#u">vorher</hi>
                     <lb/>anzeigen<supplied cert="high">.</supplied>
                 </p>
 				<closer>
 					<salute>Mit freundschaftlichster <lb/>Hochachtung <lb/>Ihr</salute>
 					<signed>AlHumboldt</signed>
 				</closer>
-                <dateline>Potsdam <lb/>Montags</dateline>
+                <dateline><placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
+                    <lb/>Montags</dateline>
                 <dateline>
                     <note place="mBottom" hand="#unknown">21<supplied cert="high">.</supplied>
                     <choice>
@@ -123,8 +103,7 @@
             <pb n="1v"/>
             <postscript>
                
-                <p>
-                    <address>
+                <p><address>
                         <addrLine>
                             <choice>
                                 <abbr>Sr</abbr>
@@ -134,9 +113,10 @@
                                 <abbr>D<hi rendition="#sup">r</hi>
                                 </abbr>
                                 <expan>Doctor</expan>
-                            </choice> Schlagintweit</addrLine>
+                            </choice>
+                            <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit</persName></addrLine>
                         <addrLine>in</addrLine>
-                        <addrLine>Berlin</addrLine>
+                        <addrLine><placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName></addrLine>
                         <addrLine>Dorotheenstraße</addrLine>
                         <addrLine>
                             <choice>
@@ -148,15 +128,10 @@
                             </choice> 87</addrLine>
                         <addrLine>
                             <hi rendition="#u">frei</hi>
-                            <ref xml:id="bb83ad6d-afb7-4154-83ad-6dafb70154e5" corresp="#c6bdea8d-d404-47d2-bdea-8dd40407d2d6">
-                                <note place="mTop" hand="#unknown">21/8</note>
-                            </ref>
-                            <note xml:id="c6bdea8d-d404-47d2-bdea-8dd40407d2d6" corresp="#bb83ad6d-afb7-4154-83ad-6dafb70154e5">Poststempel, 21. August 1850.</note>
-                        </addrLine>
+                            <ref xml:id="b0484dd0-ded7-4212-884d-d0ded74212b5" corresp="#fbc83877-90ce-4628-8838-7790ced62847" type="editorialNote"><note place="mTop" hand="#unknown">21/8</note></ref><note xml:id="fbc83877-90ce-4628-8838-7790ced62847" corresp="#b0484dd0-ded7-4212-884d-d0ded74212b5" type="editorial">Poststempel, 21. August 1850.</note></addrLine>
                         <addrLine>AlHumboldt</addrLine>
                     </address>
                 </p>
             </postscript>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -28,32 +28,18 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, 5. August
-               1833, hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016762">https://edition-humboldt.de/v8/H0016762</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016762</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016762.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Berlin, 5. August
+               1833, hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
-            <msDesc rend="copy">
+            <msDesc rend="manuscript">
                <msIdentifier>
                   <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
                   <repository>Archiv</repository>
                   <collection>NL C. G. Ehrenberg</collection>
                   <idno>
                      <idno type="legacy">36A1</idno>
-                     <idno type="shelfmark">421, Bl. 64v</idno>
+                     <idno type="shelfmark">421, Bl. 64v (Abschrift)</idno>
                   </idno>
                </msIdentifier>
                <physDesc>
@@ -62,12 +48,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -80,11 +61,9 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
-            <pb n="1r"/>
-                <p>Copie</p>
+            <pb n="1r"/><p>Copie</p>
             <p>Auf <choice>
                   <abbr>Ew.</abbr>
                   <expan>Eure</expan>
@@ -105,8 +84,7 @@
                   <expan>und</expan>
                </choice> als Gelehrten gleich achtbaren Mann zu <lb/>befriedigen und zugleich seine
                Wirksamkeit zu fördern <lb/>ohne andere zu verletzen oder Unmögliches von <lb/>dem so
-               beschränkten Fond zu verlangen<supplied cert="high">.</supplied>
-                </p>
+               beschränkten Fond zu verlangen<supplied cert="high">.</supplied></p>
             <p>Innigst werde ich mich freuen wenn <choice>
                   <abbr>Ew.</abbr>
                   <expan>Eure</expan>
@@ -115,8 +93,7 @@
                   <abbr>sche</abbr>
                   <expan>schenken</expan>
                </choice>
-               <lb/>
-                    <choice>
+               <lb/><choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> benutze diese Veranlassung mich weiterhin <lb/>Ihrem freundschaftlichen
@@ -126,9 +103,7 @@
                      <abbr>d</abbr>
                      <expan>den</expan>
                   </choice> 5 August 1833</dateline>
-               <signed>
-                        <persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Altenstein</persName>
-                    </signed>
+               <signed><persName ref="https://editon-humboldt.de/H0012589 http://d-nb.info/gnd/11862783X">Altenstein</persName></signed>
                <address>
                   <addrLine>An</addrLine>
                   <addrLine>des <choice>
@@ -136,11 +111,9 @@
                         <expan>Königlichen</expan>
                      </choice> Wirklichen Geheimen Rathes</addrLine>
                   <addrLine>Herrn Freiherrn von Humboldt</addrLine>
-                  <addrLine>Excellenz zu <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName>
-                        </addrLine>
+                  <addrLine>Excellenz zu <placeName ref="https://editon-humboldt.de/H0009328 https://www.geonames.org/3064288">Teplitz</placeName></addrLine>
                </address>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

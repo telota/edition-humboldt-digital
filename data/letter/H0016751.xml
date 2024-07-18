@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1829] , hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016751">https://edition-humboldt.de/v8/H0016751</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016751</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016751.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1829] , hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -58,12 +44,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -78,14 +59,11 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
-            <opener>
-                    <address>
-                  <addrLine>
-                            <choice>
+            <opener><address>
+                  <addrLine><choice>
                         <abbr>Sr</abbr>
                         <expan>Seiner</expan>
                      </choice> Wohlgeboren</addrLine>
@@ -93,20 +71,15 @@
                </address>
             </opener>
             <pb n="1v"/>
-            <p>Mit der größten Dankbarkeit <lb/>
-                    <choice>
+            <p>Mit der größten Dankbarkeit <lb/><choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> dem größten Interesse, <lb/>theurer Freund, erhalte ich <lb/>Ihre herrliche
-                  <ref xml:id="b0792da0-bb45-4e07-b92d-a0bb457e07a7" corresp="#e006a40d-03ff-4be3-86a4-0d03ffcbe343">Abhandlung</ref>
-                    <note xml:id="e006a40d-03ff-4be3-86a4-0d03ffcbe343" corresp="#b0792da0-bb45-4e07-b92d-a0bb457e07a7">
+                  <ref xml:id="cbc96b0b-1882-47d9-896b-0b188247d982" corresp="#cf64e6b9-ee89-4150-a4e6-b9ee896150c9" type="editorialNote">Abhandlung</ref><note xml:id="cf64e6b9-ee89-4150-a4e6-b9ee896150c9" corresp="#cbc96b0b-1882-47d9-896b-0b188247d982" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/IR7BBYA3">Ehrenberg 1830a</bibl>
-                  </note>
-                    <supplied cert="high">.</supplied>
-               <lb/>Ich würde Gelegenheit haben <lb/>durch den Minister Grafen <lb/>
-                    <persName ref="https://editon-humboldt.de/H0004949 http://d-nb.info/gnd/117016462">Nesselrode</persName>
-               <hi rendition="#u">ein</hi> Exemplar <lb/>an die Academie in <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Petersburg</placeName> morgen Sonna<lb break="no"/>bend Abend zu
+                  </note><supplied cert="high">.</supplied>
+               <lb/>Ich würde Gelegenheit haben <lb/>durch den Minister Grafen <lb/><persName ref="https://editon-humboldt.de/H0004949 http://d-nb.info/gnd/117016462">Nesselrode</persName>
+               <hi rendition="#u">ein</hi> Exemplar <lb/>an die Academie in <lb/><placeName ref="https://editon-humboldt.de/H0008236 https://www.geonames.org/498817">Petersburg</placeName> morgen Sonna<lb break="no"/>bend Abend zu
                   schikken<supplied cert="high">.</supplied>
                <lb/>Schreiben Sie 3 Zeilen an <lb/>die <choice>
                   <abbr>Acad.</abbr>
@@ -114,29 +87,21 @@
                </choice> dazu <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
-               </choice> citiren <lb/>Sie in dem Briefe <lb/>
-                    <ref xml:id="c2d7565a-1fad-4a98-9756-5a1fad3a9848" corresp="#d918b01c-f9e8-4d05-98b0-1cf9e8dd05cc">
-                        <choice>
+               </choice> citiren <lb/>Sie in dem Briefe <lb/><ref xml:id="e22ecadd-0111-4849-aeca-dd0111c849f7" corresp="#cde54a98-dde1-49a8-a54a-98dde1e9a889" type="editorialNote"><choice>
                         <abbr>p</abbr>
                         <expan>pagina</expan>
-                     </choice> 72</ref>
-                    <note xml:id="d918b01c-f9e8-4d05-98b0-1cf9e8dd05cc" corresp="#c2d7565a-1fad-4a98-9756-5a1fad3a9848">
+                     </choice> 72</ref><note xml:id="cde54a98-dde1-49a8-a54a-98dde1e9a889" corresp="#e22ecadd-0111-4849-aeca-dd0111c849f7" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/">„…Ich bemerke, dass ich <name type="animal|plant" key="Cyclidium margaritaceum">Cyclidium margaritaceum</name>, aus
                         Catharinenburg im Ural, nun auch bei Berlin gesehen, und mich sowohl von
                         seinen Wimpern, als Ernährungsorganen überzeugt habe. …“</bibl>
-                  </note>, aber <persName ref="https://editon-humboldt.de/H0004949 http://d-nb.info/gnd/117016462">
-                        <choice>
+                  </note>, aber <persName ref="https://editon-humboldt.de/H0004949 http://d-nb.info/gnd/117016462"><choice>
                      <abbr>Nesselr</abbr>
                      <expan>Nesselrode</expan>
-                  </choice>
-                    </persName>
+                  </choice></persName>
                <lb/>kann das Exemplar nur <lb/>ohne Pappdekkel in <lb/>Form eines Couverts ver<lb break="no"/>siegelt, den Brief <lb/>darin nehmen<supplied cert="high">.</supplied>
-               Ich muß <lb/>das Exemplar morgen früh <lb/>bis 11 Uhr haben<supplied cert="high">.</supplied>
-                </p>
-            <closer rend="paragraph">
-                    <signed>Ihr <lb/>AHt</signed>
-               <dateline>Freitags</dateline>
-                </closer>
+               Ich muß <lb/>das Exemplar morgen früh <lb/>bis 11 Uhr haben<supplied cert="high">.</supplied></p>
+            <closer rend="paragraph"><signed>Ihr <lb/>AHt</signed>
+               <dateline>Freitags</dateline></closer>
             <postscript>
                <p>Soll
                   ich mein <lb/>Exemplar geben <lb/>so kommen Sie <lb/>um es zuzu<lb break="no"/>machen<supplied cert="high">.</supplied>
@@ -144,6 +109,5 @@
                   <lb/>schikken wir <lb/>auf anderem <lb/>Wege</p>
             </postscript>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

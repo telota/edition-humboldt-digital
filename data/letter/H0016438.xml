@@ -16,8 +16,7 @@
                         <surname>Martin</surname>
                         <forename>Linda</forename>
                     </persName>
-                </editor>
-                <editor>
+                </editor><editor>
                     <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
                         <surname>Päßler</surname>
                         <forename>Ulrich</forename>
@@ -32,52 +31,30 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Hermann und Robert Schlagintweit an Alexander von Humboldt. Berlin, 24. März
-                    1859, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016438">https://edition-humboldt.de/v8/H0016438</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Hermann und Robert Schlagintweit an Alexander von Humboldt. Berlin, 24. März
+                    1859, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016438</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016438.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
                         <institution>Geheimes Staatsarchiv – Preußischer Kulturbesitz</institution>
                         <repository/>
                         <collection/>
-                        <idno>
-                            <idno type="shelfmark">VI. HA, FA Olshausen, B I, Nr. 7, Lit. Hir–Hu,
-                                Bl. 130r–131r</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">VI. HA, FA Olshausen, B I, Nr. 7, Lit. Hir–Hu,
+                                Bl. 130r–131r</idno></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                   <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
                     <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Schlagintweit, Robert, Freiherr von
                         (1833-1885)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
-                        Deutschland)</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1859-03-24" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
@@ -86,12 +63,10 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="writingSession">
-                <pb n="130r"/>
+    <text><body>
+            <div type="writingSession"><pb n="130r"/>
                 <opener>
-                    <dateline>Berlin, 24<supplied cert="high">.</supplied> Maerz 1859.</dateline>
+                    <dateline><placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>, 24<supplied cert="high">.</supplied> Maerz 1859.</dateline>
 					<salute>Hochverehrteste
                         Excellenz!</salute>
                 </opener>
@@ -100,35 +75,23 @@
                         schicken<supplied cert="high">,</supplied> erlauben <lb/>wir uns Ihrem
                     gestern ausgesprochenen <lb/>Wunsche gemäß die Beantwortung Ihrer Fragen <lb/>zu
                     übersenden. </p>
-                <p>1.) Der Titel der englischen Ausgabe wird <lb/>Results of a scientific mission to
-                    India <lb/>and High Asia 1854–1858.</p>
-                <p>2.) Nach dem <ref xml:id="db5a2053-25e9-41de-9a20-5325e991de2c" corresp="#f225ec74-ccb6-475e-a5ec-74ccb6b75eca">letzen Briefe von <orgName ref="https://editon-humboldt.de/H0018003 http://d-nb.info/gnd/1086196120">Brock<g ref="#typoHyphen"/>
-                            <lb break="no"/>haus</orgName>
-                    </ref>
-                    <note xml:id="f225ec74-ccb6-475e-a5ec-74ccb6b75eca" corresp="#db5a2053-25e9-41de-9a20-5325e991de2c" resp="#LM">Vgl. Verlagshaus <orgName ref="https://editon-humboldt.de/H0018003 http://d-nb.info/gnd/1086196120">F. A Brockhaus</orgName> an <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert
+                <p>1.) Der Titel der englischen Ausgabe wird <bibl corresp="https://edition-humboldt.de/6U4NFWET"><lb/>Results of a scientific mission to India</bibl> <lb/>and High Asia
+                        1854–1858.</p>
+                <p>2.) Nach dem <ref xml:id="c36fd0e4-7a11-44fa-afd0-e47a1194fae2" corresp="#ae0718ec-5897-4a09-8718-ec5897ea098c" type="editorialNote">letzen Briefe von <orgName ref="https://editon-humboldt.de/H0018003 http://d-nb.info/gnd/1086196120">Brock<g ref="#typoHyphen"/><lb break="no"/>haus</orgName></ref><note xml:id="ae0718ec-5897-4a09-8718-ec5897ea098c" corresp="#c36fd0e4-7a11-44fa-afd0-e47a1194fae2" type="editorial" resp="#LM">Vgl. Verlagshaus <orgName ref="https://editon-humboldt.de/H0018003 http://d-nb.info/gnd/1086196120">F. A Brockhaus</orgName> an <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert
                                 Schlagintweit</persName> (Abschrift), Leipzig, 12. März 1859, GStA
                             PK, VI. HA, FA Olshausen, (v.), B I, Nr. 7, Lit. Hir–Hu, Bl.
-                            134r–135r.</note> hängt die Möglichkeit der deutschen <lb/>
-                    <pb n="130v"/>Ausgabe von der
+                            134r–135r.</note> hängt die Möglichkeit der deutschen <lb/><pb n="130v"/>Ausgabe von der
                     Subscription von 60 Exemplaren <lb/>ab, und was uns das Wichtigste ist<supplied cert="high">,</supplied> wird <lb/>es uns dadurch allein möglich eine
-                    vollständige <lb/>Ausgabe, wenn es uns gestattet wird, <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">
-                        <choice>
-                            <abbr>S<hi rendition="#sup">
-                                    <hi rendition="#uu">r</hi>
-                                </hi>
-                            </abbr>
+                    vollständige <lb/>Ausgabe, wenn es uns gestattet wird, <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr>S<hi rendition="#sup"><hi rendition="#uu">r</hi></hi></abbr>
                             <expan>Seiner</expan>
                         </choice>
                         <lb/>Majestät dem Koenige</persName> zu widmen. <lb/>Der Titel der deutschen
-                    Ausgabe wird: <ref xml:id="a240d6dc-8076-43c5-80d6-dc807603c5d2" corresp="#b302a0af-3193-4f67-82a0-af31939f6783">
-                        <lb/>Resultate einer wissenschaftlichen Sendung <lb/>nach <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> und <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Hoch
-                                Asien</placeName> 1854–1858</ref>
-                    <note xml:id="b302a0af-3193-4f67-82a0-af31939f6783" corresp="#a240d6dc-8076-43c5-80d6-dc807603c5d2" resp="#UP">Eine vierbändige deutschsprachige
+                    Ausgabe wird: <ref xml:id="ee4c832d-694d-477d-8c83-2d694d377d61" corresp="#a0f4dd51-ea36-4cf3-b4dd-51ea366cf39e" type="editorialNote"><lb/>Resultate einer wissenschaftlichen Sendung <lb/>nach <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> und <placeName ref="https://editon-humboldt.de/H0006863 https://www.geonames.org/1252558">Hoch
+                                Asien</placeName> 1854–1858</ref><note xml:id="a0f4dd51-ea36-4cf3-b4dd-51ea366cf39e" corresp="#ee4c832d-694d-477d-8c83-2d694d377d61" type="editorial" resp="#UP">Eine vierbändige deutschsprachige
                             Ausgabe des Reiseberichts erschien erst ab 1869 beim Verlag <orgName ref="https://editon-humboldt.de/H0018004 http://d-nb.info/gnd/5513812-3">Costenoble</orgName> unter dem Titel <hi rendition="#i">Reisen in Indien
                             und Hochasien</hi> (<bibl corresp="https://edition-humboldt.de/IY9IP2TQ">Schlagintweit, H.
-                                1869–1880</bibl>).</note>
-                    <lb/>
-                    <table rows="7" cols="4">
+                                1869–1880</bibl>).</note><lb/><table rows="7" cols="4">
                         <row role="label">
                             <cell>3.) Die säm̅tlichen Ausgaben berechnen sich:</cell>
                             <cell/>
@@ -149,18 +112,14 @@
                             <cell>Dieß multiplicirt mit 60 (162 x 60)</cell>
                             <cell/>
                             <cell>=</cell>
-                            <cell> 9720 <supplied cert="high">Thaler</supplied>
-                            </cell>
+                            <cell> 9720 <supplied cert="high">Thaler</supplied></cell>
                         </row>
                         <row>
-                            <cell>b.) Gehalt während der Zeit für die Be<g ref="#typoHyphen"/>
-                                <lb break="no"/>arbeitung, wie Sie ihn in Ihrem <lb/>Briefe für 4
+                            <cell>b.) Gehalt während der Zeit für die Be<g ref="#typoHyphen"/><lb break="no"/>arbeitung, wie Sie ihn in Ihrem <lb/>Briefe für 4
                                 Jahre zu 3000 Thaler im <lb/>Jahre annehmen </cell>
                             <cell>
                                 <lb/>
-                                <lb/>
-                                <lb/>
-                            </cell>
+                                <lb/><lb/></cell>
                             <cell>
                                 <lb/>
                                 <lb/>
@@ -182,21 +141,17 @@
                             <cell/>
                             <cell> 5430 Thaler per Jahr</cell>
                         </row>
-                    </table>
-                </p>
-                <p>
-                    <lb/>
-                    <pb n="131r"/>Wir müssen es ganz Ihrer Güte überlassen jene <lb/>Details zu
+                    </table></p>
+                <p><lb/><pb n="131r"/>Wir müssen es ganz Ihrer Güte überlassen jene <lb/>Details zu
                     geben durch welche allein diese <lb/>Zahlen erläutert werden.</p>
                 <closer>
                     <salute>Mit dem Ausdrucke der ausgezeichnetsten <lb/>Hochachtung und innigsten
                         Verehrung</salute>
                     <salute>Euer Excellenz <lb/>dankbarst ergebene</salute>
-					<signed>Hermann Schlagintweit <lb/>Robert Schlagintweit</signed>
-				</closer>
-                <pb n="131v"/>
+					<signed><persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann Schlagintweit</persName>
+                        <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090"><lb/>Robert Schlagintweit</persName></signed>
+				</closer><pb n="131v"/>
                 <gap unit="pages" quantity="1" reason="empty"/>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -18,22 +18,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juli 1843] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016506">https://edition-humboldt.de/v8/H0016506</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016506</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016506.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [Juli 1843] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -48,12 +34,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -68,24 +49,23 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
-            <p>Ich weiss, daß <persName ref="https://editon-humboldt.de/H0014452 http://d-nb.info/gnd/119297345">Murchison</persName> schon Mittwoch
-                  <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> verlässt und da es ihm eine grosse
-               grosse Freude ist, Sie, theurer <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>, einige
-               Stunden zu sehen <subst>
-                  <del rendition="">Sie zu sehen </del>
-                  <add place="">Sie, theurer Ehrenberg, einige Stunden zu sehen</add>
-               </subst>, so lade ich Sie ein, morgen Montag um 3 Uhr bei mir mit ihm zu <add place="">Mittag zu speisen.</add> Lassen Sie mir ja Antwort sagen.</p>
-            <closer>
-                    <salute> Mit alter Anhänglichkeit <lb/>
-                  Ihr </salute>
-                <lb/>
-                    <signed>AlHumboldt</signed>
-               <dateline>Sontag Abend <lb/> in Eile eben von <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName> kommend.</dateline>
+            <p><pb n="480r"/>Ich weiss, daß <persName ref="https://editon-humboldt.de/H0014452 http://d-nb.info/gnd/119297345">Murchison</persName> schon
+               <lb/>Mittwoch <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> verlässt <lb/>und da es
+               ihm eine grosse grosse <lb/>Freude ist, Sie <subst>
+                  <del rendition="#s">zu sehen</del>
+                  <add place="intralinear">, theurer <lb/><persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName></add>
+               </subst>, einige Stunden zu <lb/>sehen, so lade ich Sie ein, <lb/>morgen Montag um 3
+               Uhr bei mir mit ihm zu <subst>
+                  <del rendition="#s">essen</del>
+                  <add place="left"><metamark/>Mittag <lb/>zu speisen.</add>
+               </subst> Lassen <lb/>Sie mir ja Antwort sagen.</p>
+            <closer><salute> Mit alter Anhänglichkeit <lb/> Ihr </salute>
+               <lb/><signed>AlHumboldt</signed>
+               <dateline>Sontag Abend <lb/> in Eile eben <lb/>von <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
+                  <lb/>kommend.</dateline>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

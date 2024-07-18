@@ -28,23 +28,9 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [22. März 1856]
-            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016471">https://edition-humboldt.de/v8/H0016471</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016471</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016471.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [22. März 1856]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -59,12 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -78,22 +59,17 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
             <p>Allerdings sind Herrn <persName ref="https://editon-humboldt.de/H0016800 http://d-nb.info/gnd/116322950">Radlkofers</persName>
-               <add place="intralinear">Ar<g ref="#typoHyphen"/>
-                        <lb break="no"/>beiten</add>
+               <add place="intralinear">Ar<g ref="#typoHyphen"/><lb break="no"/>beiten</add>
                antigobineauischen Inhalts sehr <lb/>merkwürdig. Darf ich, theurer <lb/>Freund, Sie
-               bitten <ref xml:id="ae55c0cf-1551-497f-95c0-cf1551a97f7e" corresp="#d9888117-bade-45f2-8881-17badeb5f210">
-                        <persName ref="https://editon-humboldt.de/H0003796 http://d-nb.info/gnd/119387123">Burmeisters</persName>
-                     <lb/>zoonomische Briefe</ref>
-                    <note xml:id="d9888117-bade-45f2-8881-17badeb5f210" corresp="#ae55c0cf-1551-497f-95c0-cf1551a97f7e">
+               bitten <ref xml:id="d565f1fb-12dc-4b12-a5f1-fb12dc4b1237" corresp="#fed3499f-56a6-47a4-9349-9f56a667a449" type="editorialNote"><persName ref="https://editon-humboldt.de/H0003796 http://d-nb.info/gnd/119387123">Burmeisters</persName>
+                     <lb/>zoonomische Briefe</ref><note xml:id="fed3499f-56a6-47a4-9349-9f56a667a449" corresp="#d565f1fb-12dc-4b12-a5f1-fb12dc4b1237" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/DM7W4D7B">Burmeister 1856</bibl>
                   </note>, deren <lb/>Zueignung ich nicht vermeiden <lb/>kann, anzusehen und mir
-                  <lb/>
-                    <hi rendition="#u">mündlich</hi> zu sagen, ob irgend <lb/>etwas Gründliches
+                  <lb/><hi rendition="#u">mündlich</hi> zu sagen, ob irgend <lb/>etwas Gründliches
                in der <lb/>Eintheilung der Infusorien! liegt<supplied cert="high">.</supplied>
             </p> <closer rend="paragraph">
                <salute>Dankbar Ihr</salute>
@@ -101,6 +77,5 @@
                <dateline>Donnerstag</dateline>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

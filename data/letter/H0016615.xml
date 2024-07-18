@@ -28,23 +28,9 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [13. November
-               1854] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016615">https://edition-humboldt.de/v8/H0016615</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016615</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016615.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [13. November
+               1854] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -59,12 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -78,8 +59,7 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
             <p>Die Uebersiedelung nach <placeName ref="https://editon-humboldt.de/H0007341 https://www.geonames.org/2940187">Charlottenburg</placeName> und
@@ -89,8 +69,7 @@
                   <expan>und</expan>
                </choice> College gehindert Ihnen <lb/>etwas Bestimmtes zu schreiben. Gestern
                <lb/>Abend hat mir der <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> mit grosser
-               <lb/>Freundlichkeit gesagt, dass ihn nichts <lb/>hindern werde ihr grosses <ref xml:id="f09cffb3-e8fc-477d-9cff-b3e8fc677d66" corresp="#ead0f7c6-fca8-4ffb-90f7-c6fca8effbbb">Werk</ref>
-                    <note xml:id="ead0f7c6-fca8-4ffb-90f7-c6fca8effbbb" corresp="#f09cffb3-e8fc-477d-9cff-b3e8fc677d66">
+               <lb/>Freundlichkeit gesagt, dass ihn nichts <lb/>hindern werde ihr grosses <ref xml:id="b8104632-4af3-46c6-9046-324af356c615" corresp="#bfd1343b-1450-4eaf-9134-3b14509eaff9" type="editorialNote">Werk</ref><note xml:id="bfd1343b-1450-4eaf-9134-3b14509eaff9" corresp="#b8104632-4af3-46c6-9046-324af356c615" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/6RPSFGPB">Ehrenberg 1854</bibl>
                   </note> aus <lb/>Ihren Händen zu empfangen „er zöge <lb/>vor sie zu Mittag zu sehen, damit
                <lb/>die <persName ref="https://editon-humboldt.de/">Königin</persName> auch Freude an dem <lb/>Werke <choice>
@@ -104,6 +83,5 @@
                <dateline>Montags früh.</dateline>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

@@ -31,24 +31,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 25. Oktober
-                    1849, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016440">https://edition-humboldt.de/v8/H0016440</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 25. Oktober
+                    1849, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016440</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016440.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -57,8 +43,7 @@
                         <repository>Handschriftenabteilung</repository>
                         <collection>Nachl. Alexander von Humboldt</collection>
                         <idno>
-                            <idno type="shelfmark">kl. Kasten 3b, Nr. 68, Bl. 1r–2v</idno>
-                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1017732</idno>
+                            <idno type="shelfmark">kl. Kasten 3b, Nr. 68, Bl. 1r–2v</idno><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1017732</idno>
                         </idno>
                     </msIdentifier>
                     
@@ -66,18 +51,12 @@
             </sourceDesc>
         </fileDesc>
         
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
-                        Deutschland)</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1849-10-25" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
@@ -86,8 +65,7 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <opener>
                     <pb n="1r"/>
@@ -97,16 +75,13 @@
                     </salute>
                 </opener>
                 <p>
-                    <ref xml:id="f40136ab-3ee3-44fe-8136-ab3ee384fedd" corresp="#ebbe9889-d3b8-4d2b-be98-89d3b8bd2b3b">Ihrem Wunsche gemäss</ref>
-                    <note xml:id="ebbe9889-d3b8-4d2b-be98-89d3b8bd2b3b" corresp="#f40136ab-3ee3-44fe-8136-ab3ee384fedd" resp="#LM">Humboldt fügte Textstellen und
+                    <ref xml:id="c8aaf07e-7a5d-42b1-aaf0-7e7a5da2b1e0" corresp="#c48b8151-8d3d-4565-8b81-518d3df565c2" type="editorialNote">Ihrem Wunsche gemäss</ref><note xml:id="c48b8151-8d3d-4565-8b81-518d3df565c2" corresp="#c8aaf07e-7a5d-42b1-aaf0-7e7a5da2b1e0" type="editorial" resp="#LM">Humboldt fügte Textstellen und
                             Inhalte dieses Briefes in sein Werk <hi rendition="#i">Kosmos</hi> ein.
                             Vgl. <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt 1845–1862</bibl>,
-                            III, 71 f.</note> bin ich so frei Ihnen die <lb/>Stelle aus <ref xml:id="b4391c10-1108-480e-b91c-101108980e36" corresp="#c836823c-2911-4ae6-b682-3c29110ae665">Saussure</ref>
-                    <note xml:id="c836823c-2911-4ae6-b682-3c29110ae665" corresp="#b4391c10-1108-480e-b91c-101108980e36" resp="#LM">
+                            III, 71 f.</note> bin ich so frei Ihnen die <lb/>Stelle aus <ref xml:id="b67cff61-d7ee-4a67-bcff-61d7ee5a6747" corresp="#d1c3a627-d657-4b78-83a6-27d6576b78df" type="editorialNote">Saussure</ref><note xml:id="d1c3a627-d657-4b78-83a6-27d6576b78df" corresp="#b67cff61-d7ee-4a67-bcff-61d7ee5a6747" type="editorial" resp="#LM">
                             <bibl corresp="https://edition-humboldt.de/RW3TKEN4">Saussure 1786–1796</bibl>.</note> mitzuteilen, erlauben Sie, dass <lb/>wir Ihnen zuerst unseren herzlichen
                     Dank für <lb/>die grosse Freude aussprechen, die Sie uns durch die <lb/>gütige
-                    Zusendung Ihrer <ref xml:id="bb6dbe5d-a03d-4106-adbe-5da03d2106d7" corresp="#ef7bf35a-b3ca-4aa7-bbf3-5ab3cacaa755">Ansichten der Natur</ref>
-                    <note xml:id="ef7bf35a-b3ca-4aa7-bbf3-5ab3cacaa755" corresp="#bb6dbe5d-a03d-4106-adbe-5da03d2106d7" resp="#LM">1849 erschien die dritte Auflage von
+                    Zusendung Ihrer <ref xml:id="c248d7b1-1a33-4167-88d7-b11a33316796" corresp="#f43a8462-39ec-482d-ba84-6239ec582d7f" type="editorialNote">Ansichten der Natur</ref><note xml:id="f43a8462-39ec-482d-ba84-6239ec582d7f" corresp="#c248d7b1-1a33-4167-88d7-b11a33316796" type="editorial" resp="#LM">1849 erschien die dritte Auflage von
                             Humboldts <hi rendition="#i">Ansichten der Natur</hi> (<bibl corresp="https://edition-humboldt.de/2WVKCKG3">Humboldt 1849</bibl>).</note> bereitet haben.</p>
                 <p>Die Stelle über das sichtbar werden der Sterne
                     <lb/>am <placeName ref="https://editon-humboldt.de/H0008955 https://www.geonames.org/3181986">Montblanc</placeName> fand ich noch Sonntag
@@ -116,17 +91,15 @@
                         <add place="intralinear">e</add>
                     </subst>nthalten sind, durchging um das Phäno<g ref="#typoHyphen"/>
                     <lb break="no"/>men etwa ein 2tes Mal erwähnt zu finden; allein es <lb/>kom̅t
-                    nicht mehr vor; <ref xml:id="e1662fe6-0ff2-441f-a62f-e60ff2841f53" corresp="#a750d331-0f09-40d0-90d3-310f09f0d040">Die Stelle findet sich in der <lb/>Quartausgabe der Voyages dans les
+                    nicht mehr vor; <ref xml:id="dc1f2f04-c677-44ce-9f2f-04c67704ce20" corresp="#ca5942ed-ed64-4346-9942-eded64334697" type="editorialNote">Die Stelle findet sich in der <lb/>Quartausgabe der Voyages dans les
                             Alpes
                                 Neu<del rendition="#s">f</del>châtel <add place="right">1779–1796</add>
-                            <lb/>Band IV. Seite 199. § 2007</ref>
-                    <note xml:id="a750d331-0f09-40d0-90d3-310f09f0d040" corresp="#e1662fe6-0ff2-441f-a62f-e60ff2841f53" resp="#LM"> Vielmehr § 2009. Vgl. <bibl corresp="https://edition-humboldt.de/RW3TKEN4">Saussure 1786–1796</bibl>, IV,
+                            <lb/>Band IV. Seite 199. § 2007</ref><note xml:id="ca5942ed-ed64-4346-9942-eded64334697" corresp="#dc1f2f04-c677-44ce-9f2f-04c67704ce20" type="editorial" resp="#LM"> Vielmehr § 2009. Vgl. <bibl corresp="https://edition-humboldt.de/RW3TKEN4">Saussure 1786–1796</bibl>, IV,
                             198f.</note>. Da <persName ref="https://editon-humboldt.de/H0015469 http://d-nb.info/gnd/118804790">Saussure</persName> dort <lb/>sagt, dass
-                    nicht er selbst sondern nur seine Führer<ref xml:id="c86f6ad3-e9fd-4c5c-af6a-d3e9fd0c5c1a" corresp="#dc1d8386-52e1-4a80-9d83-8652e13a8024">
-                            <note place="right" hand="#addressee" type="auxCalc">1995 <supplied cert="high">×</supplied> 6 <supplied cert="high">=</supplied>
+                    nicht er selbst sondern nur seine Führer<ref xml:id="c12f4f67-0be9-4fda-af4f-670be9cfdadc" corresp="#e2f74b82-b271-4731-b74b-82b271f73140" type="editorialNote">
+                            <note place="right" hand="https://edition-humboldt.de/#addressee" type="auxCalc">1995 <supplied cert="high">×</supplied> 6 <supplied cert="high">=</supplied>
                                 11970</note>
-                        </ref>
-                    <note xml:id="dc1d8386-52e1-4a80-9d83-8652e13a8024" corresp="#c86f6ad3-e9fd-4c5c-af6a-d3e9fd0c5c1a" resp="#LM">In dieser Nebenrechnung rechnet
+                        </ref><note xml:id="e2f74b82-b271-4731-b74b-82b271f73140" corresp="#c12f4f67-0be9-4fda-af4f-670be9cfdadc" type="editorial" resp="#LM">In dieser Nebenrechnung rechnet
                             Humboldt die in <bibl corresp="https://edition-humboldt.de/RW3TKEN4">Saussure
                                 1786–1796</bibl>, IV, 144 angegebene Höhe des zweiten Nachtlagers
                             von <measure quantity="1995" unit="toise">1995 Toisen</measure> bei der
@@ -151,16 +124,14 @@
                             matin<supplied cert="high">,</supplied> était la montée qui <lb/>conduit
                         a l’épaule du <placeName ref="https://editon-humboldt.de/H0008955 https://www.geonames.org/3181986">Montblanc</placeName>
                         <supplied cert="high">,</supplied>
-                        <ref xml:id="b41af3bb-0158-4f90-9af3-bb01581f9072" corresp="#c2b06aa0-4c98-4f84-b06a-a04c98af84bc">§. 1985</ref>
-                        <note xml:id="c2b06aa0-4c98-4f84-b06a-a04c98af84bc" corresp="#b41af3bb-0158-4f90-9af3-bb01581f9072">Saussure verweist hier auf § 1985 seines
+                        <ref xml:id="bd07ed57-a7bc-421a-87ed-57a7bc621acc" corresp="#df3c9d20-3408-4675-bc9d-2034087675a8" type="editorialNote">§. 1985</ref><note xml:id="df3c9d20-3408-4675-bc9d-2034087675a8" corresp="#bd07ed57-a7bc-421a-87ed-57a7bc621acc" type="editorial">Saussure verweist hier auf § 1985 seines
                                 Werkes (vgl. <bibl corresp="https://edition-humboldt.de/RW3TKEN4">Saussure
                                     1786–1796</bibl>, IV, 165–167).</note>; quelques-uns <lb/>des guides ont assuré avoir vu de-là des étoiles;
                         pour <lb/>moi je n’y songeais pas, en sorte que je n’ai point <lb/>été le
                         témoin de ce<del rendition="#s">t</del> phénomène; mais l’assertion uniforme
                         <lb/>des guides ne me laisse aucun doute sur la réalité.</quote>
                 </p>
-                <p>In dem erwähnten <ref xml:id="f2535047-44e6-4930-9350-4744e65930c2" corresp="#c577fb63-ff62-49b0-b7fb-63ff6259b0e6">§ 1985</ref>
-                    <note xml:id="c577fb63-ff62-49b0-b7fb-63ff6259b0e6" corresp="#f2535047-44e6-4930-9350-4744e65930c2" resp="#LM">Vgl. <bibl corresp="https://edition-humboldt.de/RW3TKEN4">Saussure 1786–1796</bibl>, IV,
+                <p>In dem erwähnten <ref xml:id="ebb711ec-169a-41dc-b711-ec169ac1dccc" corresp="#b2de25e5-60ba-4535-9e25-e560bac53594" type="editorialNote">§ 1985</ref><note xml:id="b2de25e5-60ba-4535-9e25-e560bac53594" corresp="#ebb711ec-169a-41dc-b711-ec169ac1dccc" type="editorial" resp="#LM">Vgl. <bibl corresp="https://edition-humboldt.de/RW3TKEN4">Saussure 1786–1796</bibl>, IV,
                             165–167.</note> findet sich <subst>
                         <del rendition="#s">dass</del>
                         <add place="superlinear">für</add>
@@ -177,7 +148,7 @@
                     <lb/>gesehen.
                 </p>
                 <p>
-                    <persName ref="https://editon-humboldt.de/H0015551">Wir</persName> selbst haben bei unseren <ref xml:id="ac3cd99f-822b-4fd6-bcd9-9f822bafd627" corresp="#c2da4f88-3764-4880-9a4f-883764d880e2">Expeditionen auf <lb/>
+                    <persName ref="https://editon-humboldt.de/H0015551">Wir</persName> selbst haben bei unseren <ref xml:id="ab37322f-239d-4c42-b732-2f239dfc42c9" corresp="#bd2d39c7-cdc3-44c2-ad39-c7cdc344c262" type="editorialNote">Expeditionen auf <lb/>
                             <subst>
                                 <del rendition="#s">die</del>
                                 <add place="intralinear">den</add>
@@ -189,22 +160,21 @@
                                 </choice>
                             </measure>
                             <measure quantity="12213" unit="pied_de_roi">
-                                <note place="right" hand="#addressee">12213 <choice>
+                                <note place="right" hand="https://edition-humboldt.de/#addressee">12213 <choice>
                                         <abbr>Par F.</abbr>
                                         <expan>Pariser Fuß</expan>
                                     </choice>
                                 </note>
-                            </measure> die <placeName ref="https://editon-humboldt.de/H0017264 https://www.geonames.org/2761197">Wildspitze</placeName>
+                            </measure> die <placeName ref="https://editon-humboldt.de/H0017264">Wildspitze</placeName>
                             <measure quantity="11489" unit="pied_de_roi">11489 <choice>
                                     <abbr>p. F.</abbr>
                                     <expan>Pariser Fuß</expan>
                                 </choice>
                             </measure>
                             <lb/>und <add place="superlinear">den</add>
-                            <placeName ref="https://editon-humboldt.de/H0017399 https://www.geonames.org/3166517">Similaun</placeName>
+                            <placeName ref="https://editon-humboldt.de/H0017399">Similaun</placeName>
                             <measure quantity="11135" unit="pied_de_roi">11135′</measure>
-                        </ref>
-                    <note xml:id="c2da4f88-3764-4880-9a4f-883764d880e2" corresp="#ac3cd99f-822b-4fd6-bcd9-9f822bafd627" resp="#LM">Forschungsergebnisse zu ihren
+                        </ref><note xml:id="bd2d39c7-cdc3-44c2-ad39-c7cdc344c262" corresp="#ab37322f-239d-4c42-b732-2f239dfc42c9" type="editorial" resp="#LM">Forschungsergebnisse zu ihren
                             Expeditionen in die Alpen veröffentlichten <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph</persName> und <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann
                                 Schlagintweit</persName> in ihrem Werk <hi rendition="#i">Untersuchungen über die physicalische Geographie der Alpen in ihren
                                 Beziehungen zu den Phænomenen der Gletscher, zur Geologie,
@@ -215,7 +185,8 @@
                 <closer>
                     <salute>Ich bin mit ausgezeichneter Hochachtung und <lb/>Verehrung <lb/>Euer
                         Excellenz</salute>
-                    <signed>dankbarst ergebebener <lb/>Hermann Schlagintweit</signed>
+                    <signed>dankbarst ergebebener <lb/><persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann
+                            Schlagintweit</persName></signed>
                     <address>
                         <addrLine>
                             <choice>
@@ -230,22 +201,20 @@
                             <expan>October</expan>
                         </choice> 1849. </dateline>
                 </closer>
-                <note place="mBottom" hand="#addressee" type="auxCalc">
-                    <ref xml:id="a2762b94-c58f-4d82-b62b-94c58f9d82b3" corresp="#efad74bf-bfea-4afc-ad74-bfbfea2afcab">
+                <note place="mBottom" hand="https://edition-humboldt.de/#addressee" type="auxCalc">
+                    <ref xml:id="f0cd6d45-27fb-43c4-8d6d-4527fbf3c47d" corresp="#be8814fd-842e-432e-8814-fd842e032eb1" type="editorialNote">
                             <subst>
                                 <del rendition="#ow">2760</del>
                                 <add place="across">2460</add>
                             </subst>
                             <supplied cert="high">×</supplied> 6 <supplied cert="high">=</supplied>
-                            14760</ref>
-                    <note xml:id="efad74bf-bfea-4afc-ad74-bfbfea2afcab" corresp="#a2762b94-c58f-4d82-b62b-94c58f9d82b3" resp="#LM">Umrechung eines Toisen-Wertes in
+                            14760</ref><note xml:id="be8814fd-842e-432e-8814-fd842e032eb1" corresp="#f0cd6d45-27fb-43c4-8d6d-4527fbf3c47d" type="editorial" resp="#LM">Umrechung eines Toisen-Wertes in
                             französische Fuß.</note>
                 </note>
                 
                 <lb/>
                 <pb n="2v"/>
-                <note place="mTop" hand="#addressee">Sterne bei Tage <lb/>sehen. <lb/>(<placeName ref="https://editon-humboldt.de/H0008955 https://www.geonames.org/3181986">Montblanc</placeName>)</note>
+                <note place="mTop" hand="https://edition-humboldt.de/#addressee">Sterne bei Tage <lb/>sehen. <lb/>(<placeName ref="https://editon-humboldt.de/H0008955 https://www.geonames.org/3181986">Montblanc</placeName>)</note>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

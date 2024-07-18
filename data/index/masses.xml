@@ -1,38 +1,16 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Title</title>
-            </titleStmt>
-            <editionStmt>
-                <p>:   . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/">https://edition-humboldt.de/v8/</ref>
-                </p>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/.xml</idno>
-            </publicationStmt>
+            </titleStmt><editionStmt><p>:   . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/">https://edition-humboldt.de/v10/</ref></p></editionStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/</idno><idno type="URLXML">https://edition-humboldt.de/v10/.xml</idno></publicationStmt>
             <sourceDesc>
-                <p/>
+                <p>Information about the source</p>
             </sourceDesc>
         </fileDesc>
-    <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>index</term>
-                </keywords>
-            </textClass>
-        </profileDesc>
-    </teiHeader>
-    <text>
-        <body>
+    <profileDesc><textClass><keywords><term>index</term></keywords></textClass></profileDesc></teiHeader>
+    <text><body>
             <list>
                 <item xml:id="ed_s21_nbb_t3b">
                     <label type="reg">Grado de fuerza</label>
@@ -62,12 +40,11 @@
                     <note>96 Zolotnik</note>
                     <measure type="weight" quantity="0.41" unit="kg"/>
                 </item>
-
                 <item xml:id="reamur" sortKey="1">
                     <label>Réaumur</label>
                     <desc xml:lang="de">Temperaturmaß</desc>
                     <desc xml:lang="en">Temperature Scale</desc>
-                    <note>1,25° Celsius</note>
+                    <note>1,25° Celsius [Centigrade]</note>
                     <measure type="temperature" quantity="274.4" unit="K"/>
                 </item>
                 <item xml:id="ed_umm_mmd_r3b">
@@ -90,18 +67,26 @@
                     <measure type="currency"/>
                 </item>
                 <item xml:id="rubel">
-                    <label xml:lang="de">Russischer Rubel (Rubl')</label>
+                    <label xml:lang="deu">Russischer Rubel (Rubl')</label>
                     <desc xml:lang="de">Währungseinheit (Russland)</desc>
                     <desc xml:lang="en">Currency (Russia)</desc>
                     <note>100 Kopeken</note>
                     <measure type="currency"/>
                 </item>
+                <item xml:id="kopek">
+                    <label xml:lang="deu">Russische Kopeke (kopejka)</label>
+                    <desc xml:lang="de">Währungseinheit (Russland)</desc>
+                    <desc xml:lang="en">Currency (Russia)</desc>
+                    <note>Kupfermünze (100 Kopeken = 1 Rubel)</note>
+                    <measure type="currency"/>
+                </item>
+
                 <item xml:id="aamen">
                     <label>Aamen</label>
                     <desc xml:lang="de">Altes Weinmaß (Preußen)</desc>
                     <desc xml:lang="en">Old wine measure (Prussia)</desc>
-                    <note xml:lang="de">Auch: Ohm</note>
-                    <note xml:lang="en">Also: Ohm</note>
+                    <note xml:lang="deu">Auch: Ohm</note>
+                    <note xml:lang="eng">Also: Ohm</note>
                     <measure type="capacity" quantity="137.404" unit="L"/>
                 </item>
                 <item xml:id="acre_of_land">
@@ -267,7 +252,7 @@
                     <label>Fahrenheit</label>
                     <desc xml:lang="de">Temperaturmaß</desc>
                     <desc xml:lang="en">Unit of temperature</desc>
-                    <note>32° Fahrenheit = 0° Celsius</note>
+                    <note>32° Fahrenheit = 0° Celsius [Centigrade]</note>
                     <measure type="temperature" quantity="255.928" unit="K"/>
                 </item>
                 <item xml:id="fanega">
@@ -728,7 +713,7 @@
                 </item>
                 <item xml:id="reichsthaler">
                     <label>Reichstaler</label>
-                    <desc xml:lang="de">Preuß. Währungseinheit</desc>
+                    <desc xml:lang="de">Preußische Währungseinheit</desc>
                     <desc xml:lang="en">Prussian unit of currency</desc>
                     <measure type="currency"/>
                 </item>
@@ -770,8 +755,9 @@
                 </item>
                 <item xml:id="toise" sortKey="1">
                     <label>Toise</label>
-                    <desc xml:lang="de">Längenmaß (Frankreich), Humboldt verwendet auch die griechische Bezeichnung
-                        'hexapus' (6 Fuß)</desc>
+                    <desc xml:lang="de">Längenmaß (Frankreich),
+                        Humboldt
+                        verwendet auch die griechische Bezeichnung 'hexapus' (6 Fuß)</desc>
                     <desc xml:lang="en">Unit of lenght (France), Humboldt also uses the greek name 'hexapus' (6
                         feet)</desc>
                     <note>Klafter = 6 Pieds</note>
@@ -825,16 +811,24 @@
                     
                 </item>
                 <item xml:id="unze">
-                    <label>Unze, Once, Ounce</label>
+                    <label>Unze</label>
                     <desc xml:lang="de">Gewichtsmaß</desc>
                     <desc xml:lang="en">Unit of mass</desc>
+                    <note>frz. Once, engl. Ounce, span. onza</note>
                     <measure type="weight" quantity="30" unit="g" ana="#circa"/>
                     
                 </item>
+                <item xml:id="dracma_spanisch">
+                    <label>Dracma</label>
+                    <desc xml:lang="de">Gewichtsmaß (Spanien und Lateinamerika)</desc>
+                    <desc xml:lang="en">Unit of mass (Spain and Latin America)</desc>
+                    <note>abgeleitet von der griechischen Drachme (griechische Silbermünze der Antike), als Gewichtsmaß genutzt in Apotheken; entspricht dem achten Teil einer Unze</note>
+                    <measure type="weight" quantity="3.594" unit="g"/>
+                </item>
                 <item xml:id="vara_spanisch">
-                    <label>Vara (spanisch)</label>
+                    <label>Vara</label>
                     <desc xml:lang="de">Längenmaß (Spanien und Lateinamerika)</desc>
-                    <desc xml:lang="en">Unit of lenght (Spain and Latin America)</desc>
+                    <desc xml:lang="en">Unit of length (Spain and Latin America)</desc>
                     <note>frz. Vare/Varre, dt. Elle = 36 Pulgadas</note>
                     <measure type="length" quantity="0.8357976" unit="m"/>
                 </item>
@@ -899,8 +893,8 @@
                     <label>Englisches Zoll (inch)</label>
                     <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
                     <desc xml:lang="en">Unit of lenght (Great Britain)</desc>
-                    <measure type="length" quantity="2.45" unit="cm"/>
-                    
+                    <measure type="length" quantity="2.54" unit="cm"/>
+
                 </item>
                 <item xml:id="zolotnik" sortKey="1">
                     <label>Zolotnik</label>
@@ -909,6 +903,5 @@
                     <measure type="weight" quantity="4.266" unit="g"/>
                 </item>
             </list>
-        </body>
-    </text>
+        </body></text>
 </TEI>

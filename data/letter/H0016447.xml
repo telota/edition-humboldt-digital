@@ -16,8 +16,7 @@
                         <surname>Martin</surname>
                         <forename>Linda</forename>
                     </persName>
-                </editor>
-                <editor>
+                </editor><editor>
                     <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
                         <surname>Päßler</surname>
                         <forename>Ulrich</forename>
@@ -32,24 +31,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 17. Juni
-                    1857, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016447">https://edition-humboldt.de/v8/H0016447</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Hermann Schlagintweit an Alexander von Humboldt. Berlin, 17. Juni
+                    1857, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016447</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016447.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -57,27 +42,18 @@
                             Kulturbesitz</institution>
                         <repository>Handschriftenabteilung</repository>
                         <collection>Slg. Darmstaedter</collection>
-                        <idno>
-                            <idno type="shelfmark">Asien 1855: Schlagintweit, Hermann von; Bl.
-                            71–72</idno>
-                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1480156</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">Asien 1855: Schlagintweit, Hermann von; Bl.
+                            71–72</idno><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1480156</idno></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
-                        Deutschland)</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                   
                     <date when="1857-06-17" cert="high"/>
                 </correspAction>
@@ -87,64 +63,46 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
-            <div type="writingSession">
-                <pb n="71r"/>
+    <text><body>
+            <div type="writingSession"><pb n="71r"/>
                 <opener>
-                    <dateline>Berlin, Hôtel de <lb/>Rome, Juni 17 <lb/>1857</dateline>
+                    <dateline><placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>, <placeName ref="https://editon-humboldt.de/H0020905 https://www.geonames.org/12522765">Hôtel de <lb/>Rome</placeName>, Juni 17
+                        <lb/>1857</dateline>
                     <salute>Hochverehrteste
                         Excellenz!</salute>
                 </opener>
-				<p>
-                    <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> und ich sind <lb/>heute morgens hier
+				<p><persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> und ich sind <lb/>heute morgens hier
                     <lb/>angekommen; wie <lb/>sehr freuen wir uns <lb/>dass wir das Glück
-                    <lb/>haben, Sie wieder <lb/>persönlich begrüssen, <lb/>und Ihnen wieder<g ref="#typoHyphen"/>
-                    <lb break="no"/>holen zu können, <lb/>
-                    <pb n="71v"/>wie
+                    <lb/>haben, Sie wieder <lb/>persönlich begrüssen, <lb/>und Ihnen wieder<g ref="#typoHyphen"/><lb break="no"/>holen zu können, <lb/><pb n="71v"/>wie
                     unschätzbar <lb/>für uns Ihre <lb/>Belehrungen und <lb/>die stets lebhafte
                     <lb/>Erinnerung an Ihre <lb/>Theilnahme an <lb/>unseren Arbeiten <lb/>gewesen
                     sind.</p>
                 <p>Als wir, fast <lb/>genau vor 8 Jahren <lb/>zum ersten Male <lb/>das Glück hatten
                     <lb/>Sie zu sehen, war es <lb/>Ihre ermunternde<supplied cert="high">,</supplied>
-                    <lb/>damals kaum ver<g ref="#typoHyphen"/>
-                    <lb break="no"/>diente Belehrung,
-                        <lb/>
-                    <pb n="72r"/>der wir die Anregung <lb/>zu unseren spä<g ref="#typoHyphen"/>
-                    <lb break="no"/>teren Arbeiten <lb/>verdankten.</p>
-                <p>Aber auch jetzt <lb/>können wir <hi rendition="#u">Ihr</hi> Ur<g ref="#typoHyphen"/>
-                    <lb break="no"/>theil über unsere Un<g ref="#typoHyphen"/>
-                    <lb break="no"/>tersuchungen und <lb/>Reisen in <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>
-                    <lb/>fast nur mit glei<g ref="#typoHyphen"/>
-                    <lb break="no"/>cher Ängstlichkeit
+                    <lb/>damals kaum ver<g ref="#typoHyphen"/><lb break="no"/>diente Belehrung,
+                        <lb/><pb n="72r"/>der wir die Anregung <lb/>zu unseren spä<g ref="#typoHyphen"/><lb break="no"/>teren Arbeiten <lb/>verdankten.</p>
+                <p>Aber auch jetzt <lb/>können wir <hi rendition="#u">Ihr</hi> Ur<g ref="#typoHyphen"/><lb break="no"/>theil über unsere Un<g ref="#typoHyphen"/><lb break="no"/>tersuchungen und <lb/>Reisen in <placeName ref="https://editon-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>
+                    <lb/>fast nur mit glei<g ref="#typoHyphen"/><lb break="no"/>cher Ängstlichkeit
                     <lb/>erwarten.</p>
                 <p>Der Gegenstand<supplied cert="high">,</supplied>
                     <lb/>der uns beschäftigte<supplied cert="high">,</supplied>
                     <lb/>war so wichtig und <lb/>die Länder<supplied cert="high">,</supplied> die
-                    wir <lb/>
-                    <pb n="72v"/>durchreisen konnten<supplied cert="high">,</supplied>
+                    wir <lb/><pb n="72v"/>durchreisen konnten<supplied cert="high">,</supplied>
                     <lb/>so ausgedehnt, dass <lb/>wir kaum darüber <lb/>nachzudenken wagen, <lb/>ob,
-                    besonders in Ihren <lb/>Augen, die erhalte<g ref="#typoHyphen"/>
-                    <lb break="no"/>nen Resultate die<g ref="#typoHyphen"/>
-                    <lb break="no"/>sen günstigen Um<g ref="#typoHyphen"/>
-                    <lb break="no"/>ständen genügend
-                        <lb/>entsprechen<supplied cert="high">.</supplied>
-                </p>
+                    besonders in Ihren <lb/>Augen, die erhalte<g ref="#typoHyphen"/><lb break="no"/>nen Resultate die<g ref="#typoHyphen"/><lb break="no"/>sen günstigen Um<g ref="#typoHyphen"/><lb break="no"/>ständen genügend
+                        <lb/>entsprechen<supplied cert="high">.</supplied></p>
                 <p>Wir werden versuchen<supplied cert="high">,</supplied>
                     <lb/>Sie heute gegen 12<hi rendition="#sup">h</hi> 30 <lb/>zu besuchen, wenn Sie
-                    <lb/>uns schon heute empfan<g ref="#typoHyphen"/>
-                    <lb break="no"/>gen können.</p>
+                    <lb/>uns schon heute empfan<g ref="#typoHyphen"/><lb break="no"/>gen können.</p>
 				<closer>
-                    <salute>Mit wiederholtem Aus<g ref="#typoHyphen"/>
-                        <lb break="no"/>drucke
+                    <salute>Mit wiederholtem Aus<g ref="#typoHyphen"/><lb break="no"/>drucke
                         in̅igster Verehrung</salute>
                     <salute>und Dankbarkeit</salute>
-                    <signed>Ihr <choice>
-                            <abbr>H.</abbr>
-                            <expan>Hermann</expan>
-                        </choice> Schlagintweit.</signed>
+                    <signed>Ihr <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117"><choice>
+                                <abbr>H.</abbr>
+                                <expan>Hermann</expan>
+                            </choice> Schlagintweit</persName>.</signed>
                 </closer>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -9,13 +9,11 @@
                         <surname>Päßler</surname>
                         <forename>Ulrich</forename>
                     </persName>
-                </editor>
-                <respStmt>
+                </editor><respStmt>
                     <persName ref="https://d-nb.info/gnd/1109066872">
                         <surname>MacKinney</surname>
                         <forename>Anne Greenwood</forename>
-                    </persName>
-                    <resp>
+                    </persName><resp>
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
@@ -28,46 +26,26 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Otto Schomburgk und Richard Schomburgk an Alexander von Humboldt. Buchfelde,
-                    25.–26. Dezember 1849, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019597">https://edition-humboldt.de/v8/H0019597</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Otto Schomburgk und Richard Schomburgk an Alexander von Humboldt. Buchfelde,
+                    25.–26. Dezember 1849, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019597</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0019597.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
-                        <institution>Museum Jijón y Caamaño, Quito</institution>
-                        <collection/>
-                        <idno>Nr. 25</idno>
+                        <institution>Museo Nacional del Ecuador, Quito</institution>
+                        <collection>Fondo Jijón y Caamaño</collection>
+                        <idno>JJC.02491, Bl. 3–5</idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Schomburgk, Moritz Richard (1811-1891)</persName>
                     <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Schomburgk, Otto Alfred (1810-1857)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchfelde [Buchsfelde] (Ort am Gawler River
-                        (Südaustralien, Australien))</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchfelde</placeName>
                     <date from="1849-12-25" to="1849-12-26" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
@@ -77,13 +55,10 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <opener>
-                    <dateline>
-                        <pb n="1r"/>
-                        <placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchsfelde</placeName> (34° 41′ <choice>
+                    <dateline><pb n="3r"/><placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchsfelde</placeName> (34° 41′ <choice>
                             <abbr>südl.</abbr>
                             <expan>südlicher</expan>
                         </choice>
@@ -94,88 +69,70 @@
                             <abbr>östl.</abbr>
                             <expan>östlicher</expan>
                         </choice> Länge) near <placeName ref="https://editon-humboldt.de/H0019740 https://www.geonames.org/2071059">Gawler-town
-                            </placeName>South-<placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australia</placeName>
-                        <lb/>den 25<hi rendition="#sup">
-                            <hi rendition="#u">
-                                <supplied cert="high">s</supplied>ten</hi>
-                        </hi> December 1849<note place="inline" hand="#addressee">welche Verspätung! <lb/>empfangen 7<supplied cert="high">.</supplied> April 1851.</note>
-                    </dateline>
+                            </placeName><placeName ref="https://editon-humboldt.de/H0020690 https://www.geonames.org/2061327">South-Australia</placeName>
+                        <lb/>den 25<hi rendition="#sup"><hi rendition="#u"><supplied cert="high">s</supplied>ten</hi></hi> December 1849<note place="inline" hand="https://edition-humboldt.de/#addressee">welche Verspätung! <lb/>empfangen 7<supplied cert="high">.</supplied> April 1851.</note></dateline>
                     <salute>Excellenz,</salute>
                 </opener>
-                <p>Diesmal dürfen wir die Gelegenheit, welche sich uns in der nach <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName> zurückkehrend<g ref="#typoHyphen"/>
-                    <lb break="no"/>den „Australia“ bietet, nicht vorübergehen lassen, ohne
+                <p>Diesmal dürfen wir die Gelegenheit, welche sich uns in der nach <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName> zurückkehrend<g ref="#typoHyphen"/><lb break="no"/>den „Australia“ bietet, nicht vorübergehen lassen, ohne
                     Ihnen, tiefverehrter Mann, <lb/>unsere innigen, unsere herzlichen Grüße aus der
                     neuen Heimath, aus dem kleinen, <lb/>aber freundlichen Dörfchen „<placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchsfelde</placeName>“ zuzurufen.</p>
                 <p>Daß wir das Ziel unserer Wünsche glücklich erreicht, daß wir, wenn auch eine
                     etwas <lb/>langsame, doch ziemlich gefahrlose Ueberfahrt gehabt, dürften Sie
-                    vielleicht bereits ge<g ref="#typoHyphen"/>
-                    <lb break="no"/>hört haben. Am 5<hi rendition="#u">
-                        <hi rendition="#sup">ten</hi>
-                    </hi> August lag nach langem
-                    Sehnen das langgestreckte, an dem Küsten<g ref="#typoHyphen"/>
-                    <lb break="no"/>saum sterile, fast ganz baum- und gesträuchlose <placeName ref="https://editon-humboldt.de/H0019898 https://www.geonames.org/2068768">Kängaru-Eiland</placeName> vor uns, wo ich <lb/>noch
-                    einen jungen Weltbürger zur Welt befördete, und am 6<hi rendition="#sup">
-                        <hi rendition="#u">ten</hi>
-                    </hi> Mittag rollte <lb/>der Anker im Hafen von
-                        <placeName ref="https://editon-humboldt.de/H0019821">Port Adelaide</placeName> auf den Grund des
-                    neuen Heimathlandes <lb/>hinab, das uns im grünen Wiesen- und Waldschmuck
-                    freundlich entgegenlachte. <lb/>Eine lange, äußerlich einförmige, an herben
-                    Erfahrungen reiche Vergangenheit <lb/>lag hinter uns, – mit dem ersten Schritt
-                    auf das feste Land begann für uns <lb/>ein neues Leben, neu in jeglicher
-                    Beziehung! – und doch fand das Auge vom ersten <lb/>Moment unseres Landens so
-                    viele Anknüpfungspunkte an die liebe, verlassene Heimath, <lb/>daß wir fast bei
-                    jedem Schritte an dieselbe erinnert wurden. Schon der lange, wellen<g ref="#typoHyphen"/>
-                    <lb break="no"/>förmige <placeName ref="https://editon-humboldt.de/H0019942 https://www.geonames.org/2064487">Gebirgszug</placeName>, welcher Süd<placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">australien</placeName> von <choice>
+                    vielleicht bereits ge<g ref="#typoHyphen"/><lb break="no"/>hört haben. Am 5<hi rendition="#u"><hi rendition="#sup">ten</hi></hi> August lag nach langem
+                    Sehnen das langgestreckte, an dem Küsten<g ref="#typoHyphen"/><lb break="no"/>saum sterile, fast ganz baum- und gesträuchlose <placeName ref="https://editon-humboldt.de/H0019898 https://www.geonames.org/2068768">Kängaru-Eiland</placeName> vor uns, wo ich <lb/>noch einen jungen
+                    Weltbürger zur Welt befördete, und am 6<hi rendition="#sup"><hi rendition="#u">ten</hi></hi> Mittag rollte <lb/>der Anker im Hafen von <placeName ref="https://editon-humboldt.de/H0019821">Port Adelaide</placeName> auf den Grund des neuen
+                    Heimathlandes <lb/>hinab, das uns im grünen Wiesen- und Waldschmuck freundlich
+                    entgegenlachte. <lb/>Eine lange, äußerlich einförmige, an herben Erfahrungen
+                    reiche Vergangenheit <lb/>lag hinter uns, – mit dem ersten Schritt auf das feste
+                    Land begann für uns <lb/>ein neues Leben, neu in jeglicher Beziehung! – und doch
+                    fand das Auge vom ersten <lb/>Moment unseres Landens so viele Anknüpfungspunkte
+                    an die liebe, verlassene Heimath, <lb/>daß wir fast bei jedem Schritte an
+                    dieselbe erinnert wurden. Schon der lange, wellen<g ref="#typoHyphen"/><lb break="no"/>förmige <placeName ref="https://editon-humboldt.de/H0019942 https://www.geonames.org/2064487">Gebirgszug</placeName>,
+                    welcher Süd<placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">australien</placeName> von <choice>
                         <abbr>SO.</abbr>
                         <expan>Südosten</expan>
                     </choice> nach <choice>
                         <abbr>N.</abbr>
                         <expan>Norden</expan>
-                    </choice> durchschneidet, rief uns <lb/>den heimischen Südabhang des <placeName ref="https://editon-humboldt.de/H0006809 https://www.geonames.org/2909965">Harzes</placeName> in das Gedächtniß zurück und in <placeName ref="https://editon-humboldt.de/H0019941 https://www.geonames.org/2067542">Mount <lb/>Lofty</placeName> sehen wir fast täuschend
-                    den <placeName ref="https://editon-humboldt.de/H0005362 https://www.geonames.org/2943991">Brocken</placeName>, während der grüne Schmuck der
-                        Wie<g ref="#typoHyphen"/>
-                    <lb break="no"/>sen aus einer Menge deutscher
+                    </choice> durchschneidet, rief uns <lb/>den heimischen Südabhang des <placeName ref="https://editon-humboldt.de/H0006809 https://www.geonames.org/2909965">Harzes</placeName> in das Gedächtniß zurück und in <placeName ref="https://editon-humboldt.de/H0019941 https://www.geonames.org/2067542">Mount <lb/>Lofty</placeName> sehen wir fast täuschend den
+                        <placeName ref="https://editon-humboldt.de/H0005362 https://www.geonames.org/2943991">Brocken</placeName>, während der grüne Schmuck der
+                        Wie<g ref="#typoHyphen"/><lb break="no"/>sen aus einer Menge deutscher
                     Gattungen gebildet war, die üppigen Weizenfelder, die <lb/>zahllosen Kuhheerden
-                    uns heimisch willkommen hießen! – <hi rendition="#u" hand="#addressee">Was</hi>
+                    uns heimisch willkommen hießen! – <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">Was</hi>
                     Wunder daher, <lb/>daß wir uns bald heimisch fühlten! namentlich da wir auch
                     biedere Deutsche antrafen! <lb/>Unser Wunsch, sobald als möglich das Fleckchen
-                    ausfindig zu machen, auf dem wir un<g ref="#typoHyphen"/>
-                    <lb break="no"/>sere
+                    ausfindig zu machen, auf dem wir un<g ref="#typoHyphen"/><lb break="no"/>sere
                     Hütten aufzubauen, unser Korn zu säen und zu erndten, ging freilich <lb/>nicht
                     so schnell in Erfüllung als wir hofften, da in der unmittelbaren Nähe der
-                        <lb/>
-                    <pb n="1v"/>Stadt <placeName ref="https://editon-humboldt.de/H0020300 https://www.geonames.org/11523825">Adelaide</placeName>
-                    alles Land bereits verkauft oder nur unter einem enormen Preis, <lb/>(der Acre
-                    wird meist mit 60 £st verkauft) wiederzukaufen ist, wozu unsere so bescheide<g ref="#typoHyphen"/>
-                    <lb break="no"/>nen Mittel keineswegs ausreichen. – Und
-                    doch mußte uns alles daran liegen, dem <lb/>jetzigen Mittelpunkt der Kolonie so
-                    nahe als möglich zu bleiben, indem wir nur auf <lb/>diesem Markte einen
-                    gedeihlichen Absatz für unsere künftigen Erzeugnisse finden <lb/>können. Nach
-                    langem Herumwandern in den Umgebungen <placeName ref="https://editon-humboldt.de/H0020300 https://www.geonames.org/11523825">Adelaide</placeName>’s fanden wir Mitte <lb/>September, unmittelbar am
-                        <placeName ref="https://editon-humboldt.de/H0019741 https://www.geonames.org/2071057">Gawler-river</placeName>, <measure quantity="27" unit="mile">27 Miles</measure> von <placeName ref="https://editon-humboldt.de/H0020300 https://www.geonames.org/11523825">Adelaide</placeName>, <measure quantity="4" unit="mile">4 Miles</measure> von <placeName ref="https://editon-humboldt.de/H0019740 https://www.geonames.org/2071059">Gawler-<lb break="no"/>town</placeName>, der zweiten Stadt der Kolonie, eine verkäufliche
-                    Section, die 84 Acres (un<g ref="#typoHyphen"/>
-                    <lb break="no"/>gefähr 130 <choice>
+                        <lb/><pb n="3v"/>Stadt <placeName ref="https://editon-humboldt.de/H0020300 https://www.geonames.org/11523825">Adelaide</placeName> alles
+                    Land bereits verkauft oder nur unter einem enormen Preis, <lb/>(der Acre wird
+                    meist mit <measure quantity="60" unit="pfund_sterling">60 £st</measure>
+                    verkauft) wiederzukaufen ist, wozu unsere so bescheide<g ref="#typoHyphen"/><lb break="no"/>nen Mittel keineswegs ausreichen. – Und doch mußte uns alles
+                    daran liegen, dem <lb/>jetzigen Mittelpunkt der <placeName ref="https://editon-humboldt.de/H0020690 https://www.geonames.org/2061327">Kolonie</placeName> so nahe als möglich zu bleiben, indem wir nur auf
+                    <lb/>diesem Markte einen gedeihlichen Absatz für unsere künftigen Erzeugnisse
+                    finden <lb/>können. Nach langem Herumwandern in den Umgebungen <placeName ref="https://editon-humboldt.de/H0020300 https://www.geonames.org/11523825">Adelaide</placeName>’s fanden wir Mitte <lb/>September,
+                    unmittelbar am <placeName ref="https://editon-humboldt.de/H0019741 https://www.geonames.org/2071057">Gawler-river</placeName>, <measure quantity="27" unit="mile">27 Miles</measure> von <placeName ref="https://editon-humboldt.de/H0020300 https://www.geonames.org/11523825">Adelaide</placeName>, <measure quantity="4" unit="mile">4 Miles</measure>
+                    von <placeName ref="https://editon-humboldt.de/H0019740 https://www.geonames.org/2071059">Gawler-<lb break="no"/>town</placeName>, der
+                    zweiten Stadt der <placeName ref="https://editon-humboldt.de/H0020690 https://www.geonames.org/2061327">Kolonie</placeName>, eine
+                    verkäufliche Section, die <measure quantity="84" unit="acre_of_land">84
+                        Acres</measure> (un<g ref="#typoHyphen"/><lb break="no"/>gefähr 130 <choice>
                         <abbr>magdeb.</abbr>
                         <expan>Magdeburger</expan>
                     </choice> Morgen) enthielt, bereits gefenzt war und so ziemlich allen
-                    <lb/>Ansprüchen entsprach, die wir zu stellen hatten. Die Kaufsumme von 460
-                        £st<note place="left" hand="#addressee">also <lb/>1 <choice>
+                    <lb/>Ansprüchen entsprach, die wir zu stellen hatten. Die Kaufsumme von<measure quantity="460" unit="pfund_sterling"> 460 £st</measure><note place="left" hand="https://edition-humboldt.de/#addressee">also <lb/>1 <choice>
                             <abbr>Magd.</abbr>
                             <expan>Magdeburger</expan>
                         </choice>
-                        <lb/>Morgen <lb/>24 Reichstaler</note> über<g ref="#typoHyphen"/>
-                    <lb break="no"/>stieg freilich unsere Kräfte um vieles, weshalb sich uns zwei
-                    Familien, wel<g ref="#typoHyphen"/>
-                    <lb break="no"/>che mit uns gekommen waren,
-                    anschlossen und 20 Acres für sich kauften. </p>
-                <p>Am 26<hi rendition="#sup">
-                        <hi rendition="#u">
-                            <supplied cert="high">s</supplied>ten</hi>
-                    </hi> September 1849 wurde das freundliche
+                        <lb/>Morgen <lb/><measure quantity="24" unit="reichsthaler">24
+                            Reichstaler</measure></note><note place="mBottom" hand="https://edition-humboldt.de/#addressee" type="auxCalc"><measure quantity="3220" unit="reichsthaler">3220 Reichstaler</measure>
+                        <supplied cert="high">÷</supplied>
+                        <measure quantity="24" unit="reichsthaler">24 Reichstaler</measure>
+                        <supplied cert="high">=</supplied> 130</note> über<g ref="#typoHyphen"/><lb break="no"/>stieg freilich unsere Kräfte um vieles, weshalb sich uns zwei Familien, wel<g ref="#typoHyphen"/><lb break="no"/>che mit uns gekommen waren, anschlossen
+                    und <measure quantity="20" unit="acre_of_land">20 Acres</measure> für sich
+                    kauften. </p>
+                <p>Am 26<hi rendition="#sup"><hi rendition="#u"><supplied cert="high">s</supplied>ten</hi></hi> September 1849 wurde das freundliche
                     Plätzchen feierlich getauft, in welchem <lb/>Acte es den Namen „<placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchsfelde</placeName>“ erhielt, ein Zoll der Dankbarkeit,
-                    die mich bis an <lb/>das Ende meines Lebens gegen den hochverehrten <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Leopold von Buch</persName> begleiten wird, <lb/>und am 1<hi rendition="#sup">
-                        <hi rendition="#u">sten</hi>
-                    </hi> October ist es unter
+                    die mich bis an <lb/>das Ende meines Lebens gegen den hochverehrten <persName ref="https://editon-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Leopold von Buch</persName> begleiten wird, <lb/>und am 1<hi rendition="#sup"><hi rendition="#u">sten</hi></hi> October ist es unter
                     diesem Namen in den Gouvernements-Karten <lb/>eingetragen worden.</p>
                 <p>Als wir Besitz von unserem kleinen Eigenthum nahmen, zählte es als Wohnungen:
                     <lb/>zwei Höhlen, ein Häuschen in dem Abhang einer ansehnlichen Vertiefung
@@ -186,28 +143,21 @@
                     hervorragte, – jetzt zieren es schon 5 kleine, aber freundliche <lb/>Häuschen,
                     bei deren Aufbau weder uns, noch unseren Nachbarn, eben so wenig <lb/>ein
                     Zimmermann, wie ein Maurer geholfen; – und nicht allein die Häuserzahl,
-                    <lb/>sondern auch die der Bewohner hat bereits zugenommen, denn seit dem 20<hi rendition="#u">
-                        <hi rendition="#sup">sten</hi>
-                    </hi>
+                    <lb/>sondern auch die der Bewohner hat bereits zugenommen, denn seit dem 20<hi rendition="#u"><hi rendition="#sup">sten</hi></hi>
                     <lb/>December ist <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Richard</persName> Vater eines
-                    gesunden <persName ref="https://editon-humboldt.de/H0020141">Töchterchens</persName>, mit dem neue
-                    Freude <lb/>bei uns eingekehrt ist.</p>
-                <p>Außer den vorher angeführten dunklen Wohnungen fanden wir bereits 25 Acres
-                    gepflügt und <lb/>mit Weizen und Gerste bestellt, deren Einerndtung wir bei
-                    einer Hitze von <measure quantity="43" unit="reamur">43° <choice>
+                    gesunden <persName ref="https://editon-humboldt.de/H0020141">Töchterchens</persName>, mit dem neue Freude
+                    <lb/>bei uns eingekehrt ist.</p>
+                <p>Außer den vorher angeführten dunklen Wohnungen fanden wir bereits <measure quantity="25" unit="acre_of_land">25 Acres</measure> gepflügt und <lb/>mit
+                    Weizen und Gerste bestellt, deren Einerndtung wir bei einer Hitze von <measure quantity="43" unit="reamur">43° <choice>
                             <abbr>Réaum.</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure> in <lb/>der Sonne gestern beendet, ohne auch hier fremde
-                    Hülfe in Anspruch zu nehmen. Der Bo<g ref="#typoHyphen"/>
-                    <lb break="no"/>den,
+                        </choice></measure> in <lb/>der Sonne gestern beendet, ohne auch hier fremde
+                    Hülfe in Anspruch zu nehmen. Der Bo<g ref="#typoHyphen"/><lb break="no"/>den,
                     dem wir unsere Sämereien, die wir fast durchgängig keimfähig hierhergebracht,
                     <lb/>anvertrauen wollten, war ebenfalls zu graben – und unsere Mühe ist,
                     ungeachtet <lb/>wir erst nach beendeter Regenzeit säen konnten, reich belohnt,
-                    da wir von allen<note place="mBottom" hand="#addressee" type="auxCalc">3220
-                        Reichstaler <supplied cert="high">÷</supplied> 24 Reichstaler <supplied cert="high">=</supplied> 130</note>
-                    <lb/>
-                    <pb n="2r"/>reiche Frucht erndten, Melonen und Gurken in überreichem Maße
+                    da wir von allen
+                    <lb/><pb n="4r"/>reiche Frucht erndten, Melonen und Gurken in überreichem Maße
                     die Beete bedecken. <lb/>Vi<supplied cert="high">e</supplied>le der heimischen
                     Gartenfrüchte erreichen in dem neuen <placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Vaterlande</placeName> eine Größe, <lb/>daß man sie fast nicht
                     wiedererkennt.</p>
@@ -216,12 +166,10 @@
                     die Subsistenz und <lb/>Existenz des Lebens uns nur den Sonntag zu kleinen
                     Excursionen in die unmittelbare <lb/>Umgebung erlaubt. Was wir kennen gelernt,
                     läßt uns ahnen, welches reiche Feld für <lb/>ruhigere Tage nicht allein in
-                    Beziehung auf das Pflanzen-, sondern auch auf das Thier<g ref="#typoHyphen"/>
-                    <lb break="no"/>reich vor uns liegt; – in beiden aber traten uns die
+                    Beziehung auf das Pflanzen-, sondern auch auf das Thier<g ref="#typoHyphen"/><lb break="no"/>reich vor uns liegt; – in beiden aber traten uns die
                     überraschendsten Anklänge, <lb/>in Bezug auf Familien und Gattungen, an die
                     Heimath entgegen. Nur die Gesträuch-<lb/>und Baumvegetation ruft uns jeden
-                    Augenblick zu, daß wir unsere Heimath auf <lb/>
-                    <choice>
+                    Augenblick zu, daß wir unsere Heimath auf <lb/><choice>
                         <sic>fremden</sic>
                         <corr cert="high">fremdem</corr>
                     </choice> Boden gefunden.</p>
@@ -232,12 +180,10 @@
                     <lb/>unsere heimischen Gattungen, nur in neuen Species wiedergefunden und fast
                     jeder neue <lb/>Fund, ruft auch einen neuen Ruf des Staunens in mir hervor.
                     Auffallend spärlich sind <lb/>die <name type="animal">Lepidopteren</name>,
-                    fruchtbar an Individuenzahl die Dipteren und unter diesen besonders <name type="animal">
-                        <lb/>Pale<subst>
+                    fruchtbar an Individuenzahl die Dipteren und unter diesen besonders <name type="animal"><lb/>Pale<subst>
                             <del rendition="#ow">i</del>
                             <add place="across">x</add>
-                        </subst>
-                    </name>, <name type="animal">Musca</name>, <name type="animal">Sarcophaga</name>, <name type="animal">Oestrus</name> vertreten; von <name type="animal">Stomoxys</name> habe ich erst drei Species <lb/>gesammelt.
+                        </subst></name>, <name type="animal">Musca</name>, <name type="animal">Sarcophaga</name>, <name type="animal">Oestrus</name> vertreten; von <name type="animal">Stomoxys</name> habe ich erst drei Species <lb/>gesammelt.
                     Unter den mir <add place="superlinear">bis jetzt</add> bekannten <name type="animal">Hymenopteren</name> sind die <name type="animal">Formicae</name> durch ihre <lb/>Gattungsverschiedenheit jedenfalls die
                     Interessantesten. Neuropteren sind eben so <lb/>zahlreich an Gattungen und
                     Species wie <name type="animal">Hemipteren</name>. Wunderbar in Gestaltung und
@@ -248,16 +194,14 @@
                     und <name type="animal">Batrachiern</name>. Leider verbieten der ungeheure Preis
                     des Spiritus und <lb/>unsere so beschränkten Mittel alles Sammeln, da es uns
                     unmöglich ist, gegen<lb break="no"/>wärtig, wo wir noch um unsere Existenz zu
-                    kämpfen haben, den ersteren zur Aufbe<g ref="#typoHyphen"/>
-                    <lb break="no"/>wahrung dieser und anderer Thiere, wie Fische <choice>
+                    kämpfen haben, den ersteren zur Aufbe<g ref="#typoHyphen"/><lb break="no"/>wahrung dieser und anderer Thiere, wie Fische <choice>
                         <abbr>u.s.w.</abbr>
                         <expan>und so weiter</expan>
                     </choice> zu kaufen. Für die Ornithologie hoffen <lb/>wir aber schon in der
                     nächsten Zeit, wo die Vögel ihr volles Kleid wieder erhalten haben <lb/>werden,
                     manches thun zu
                     können.</p>
-                <p>
-                    <pb n="2v"/>Dies wären nur einzelne Andeutungen, da gegenwärtig meine Kenntniß
+                <p><pb n="4v"/>Dies wären nur einzelne Andeutungen, da gegenwärtig meine Kenntniß
                     der mich umgebenden <lb/>Natur den Umständen und Verhältnissen nach auch nur
                     eine höchst oberflächliche und <lb/>lückenhafte sein kann. Seit einigen Tagen
                     habe ich nun auch mein kleines meteorologisches <lb/>Observatorium in Stand
@@ -265,7 +209,7 @@
                     als meteorologische Station <lb/>für Süd-<placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australien</placeName> betrachtet werden kann. So glücklich ich war, als
                     ich nach dem Landen <lb/>meine Kiste mit den eingepackten Instrumenten öffnete
                     und alle gut erhalten fand, so <lb/>bitter schmerzt mich jetzt ein Versehen von
-                        <persName ref="https://editon-humboldt.de/H0020245">Greiner</persName>, der mir ein
+                        <persName ref="https://editon-humboldt.de/H0020245 https://d-nb.info/gnd/1270749137">Greiner</persName>, der mir ein
                     Psychrometer-Thermometer <lb/>einpackt, da<subst>
                         <del rendition="#ow">ß</del>
                         <add place="across">s</add>
@@ -273,39 +217,31 @@
                         <abbr>Réaum.</abbr>
                         <expan>Réaumur</expan>
                     </choice> herabgehet, eine Temperatur<supplied cert="high">,</supplied> die hier
-                    unbekannt, aber auch <lb/>
-                    <note place="left" hand="#addressee">+</note>blos bis
+                    unbekannt, aber auch <lb/><note place="left" hand="https://edition-humboldt.de/#addressee">+</note>blos bis
                         <measure quantity="30" unit="reamur">+30<supplied cert="high">°</supplied>
                         <choice>
                             <abbr>Réaum.</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure> angeben kann, demnach jetzt, wo wir <hi rendition="#u" hand="#addressee">oft<note place="inline" hand="#addressee">+</note>
+                        </choice></measure> angeben kann, demnach jetzt, wo wir <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">oft<note place="inline" hand="https://edition-humboldt.de/#addressee">+</note>
                         <measure quantity="33" unit="reamur">3<subst>
                                 <del rendition="#ow">4</del>
                                 <add place="across">3</add>
-                            </subst>°</measure>–<measure quantity="34" unit="reamur">34°</measure>
-                    </hi>
-                    <measure quantity="34" unit="reamur">
+                            </subst>°</measure>–<measure quantity="34" unit="reamur">34°</measure></hi><measure quantity="34" unit="reamur">
                         <choice>
                             <abbr>Réaum.</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure> im Schatten haben, <lb/>für meine Beobachtungen ganz
+                        </choice></measure> im Schatten haben, <lb/>für meine Beobachtungen ganz
                     unbrauchbar ist. Ich muß daher schon gegenwärtig darauf <lb/>aufmerksam machen,
                     daß meine Beobachtungen nur bis <measure quantity="30" unit="reamur">+30°</measure> auf vollkommene Treue <lb/>Anspruch machen können, da ich
-                    bei einem höheren Stande jederzeit zu einem ganz ge<g ref="#typoHyphen"/>
-                    <lb break="no"/>wöhnlichen Thermometer meine Zuflucht nehmen muß, indem mir ein
-                    anderes Instru<g ref="#typoHyphen"/>
-                    <lb break="no"/>ment von <persName ref="https://editon-humboldt.de/H0020245">Greiner</persName>, das ich mitnahm, zerbrochen ist.
-                    Die Thermometer-Beobachtungen <lb/>versprechen ganz interessante Resultate, da
-                    der Temperaturwechsel in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName>
+                    bei einem höheren Stande jederzeit zu einem ganz ge<g ref="#typoHyphen"/><lb break="no"/>wöhnlichen Thermometer meine Zuflucht nehmen muß, indem mir ein
+                    anderes Instru<g ref="#typoHyphen"/><lb break="no"/>ment von <persName ref="https://editon-humboldt.de/H0020245 https://d-nb.info/gnd/1270749137">Greiner</persName>, das ich mitnahm, zerbrochen ist. Die
+                    Thermometer-Beobachtungen <lb/>versprechen ganz interessante Resultate, da der
+                    Temperaturwechsel in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName>
                     <lb/>nicht greller auftritt, als hier, wo wir bereits mehreremal, obschon der
                     Sommer erst <lb/>beginnt, innerhalb 24 Stunden eine Differenz von <measure quantity="20" unit="reamur">20° <choice>
                             <abbr>Réaum</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure> gehabt. So auch heute, wo <lb/>das Thermometer um 2 Uhr
+                        </choice></measure> gehabt. So auch heute, wo <lb/>das Thermometer um 2 Uhr
                     Nachmittags +31½° <choice>
                         <abbr>Réaum</abbr>
                         <expan>Réaumur</expan>
@@ -313,67 +249,48 @@
                     dieses auffallenden Temperaturwechsels ist das Klima äußerst <lb/>gesund und
                     ganz <placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchsfelde</placeName> hat bis heute noch keinen
                     Kranken gehabt, obschon es <lb/>25 Bewohner zählt. Während unserer ganzen Erndte
-                    hat das Thermometer Nachmit<g ref="#typoHyphen"/>
-                    <lb break="no"/>tags 2 Uhr nie
+                    hat das Thermometer Nachmit<g ref="#typoHyphen"/><lb break="no"/>tags 2 Uhr nie
                     unter <measure quantity="29" unit="reamur">29° <choice>
                             <abbr>Réaum.</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure> im Schatten gestanden, und doch hat die Hitze, unge<g ref="#typoHyphen"/>
-                    <lb break="no"/>achtet der harten und ungewohnten Arbeit,
+                        </choice></measure> im Schatten gestanden, und doch hat die Hitze, unge<g ref="#typoHyphen"/><lb break="no"/>achtet der harten und ungewohnten Arbeit,
                     nicht so erschöpfend auf uns gewirkt, <lb/>wie in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName>
                     <measure quantity="20" unit="reamur">20°</measure>. – Nur der „heiße Wind“ ist
                     ein fürchterlicher Gast, der uns <lb/>glücklicherweise erst einmal heimgesucht.
-                    Ich befand mich mit dem <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Bruder</persName> am 24<hi rendition="#u">
-                        <hi rendition="#sup">sten</hi>
-                    </hi>
-                    <lb/>October 11 Uhr im nahen Wald, um Bäume für unsere Wohnungen zu fällen, wo<g ref="#typoHyphen"/>
-                    <lb break="no"/>ran wir aber plötzlich durch eine wahrhaft erstickende Hitze
-                    gehindert wurden. Als <lb/>wir aus dem Walde traten, fühlten wir, daß uns der
-                    heiße Wind anhauchte, der <lb/>bis 3 Uhr Nachmittags anhielt, wo ein abkühlender <choice>
+                    Ich befand mich mit dem <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Bruder</persName> am 24<hi rendition="#u"><hi rendition="#sup">sten</hi></hi>
+                    <lb/>October 11 Uhr im nahen Wald, um Bäume für unsere Wohnungen zu fällen, wo<g ref="#typoHyphen"/><lb break="no"/>ran wir aber plötzlich durch eine
+                    wahrhaft erstickende Hitze gehindert wurden. Als <lb/>wir aus dem Walde traten,
+                    fühlten wir, daß uns der heiße Wind anhauchte, der <lb/>bis 3 Uhr Nachmittags
+                    anhielt, wo ein abkühlender <choice>
                         <abbr>SO.</abbr>
                         <expan>Südost</expan>
                     </choice> nach langem Kampfe die Oberhand <lb/>gewann und zugleich einen
                     erfrischenden Regen brachte. Das Thermometer<supplied cert="high">,</supplied>
-                    im <lb/>Schatten<note place="left" hand="#addressee">+</note> dem vollen Wind
-                    ausgesetzt, stieg bis <hi rendition="#u" hand="#addressee">auf <measure quantity="36.7" unit="reamur">36,7°</measure>
-                    </hi>
-                    <measure quantity="36.7" unit="reamur">
+                    im <lb/>Schatten<note place="left" hand="https://edition-humboldt.de/#addressee">+</note> dem vollen Wind
+                    ausgesetzt, stieg bis <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">auf <measure quantity="36.7" unit="reamur">36,7°</measure></hi><measure quantity="36.7" unit="reamur">
                         <choice>
                             <abbr>Réaum.</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure>, nach Eintritt des <choice>
-                        <abbr>
-                            <lb/>SO.</abbr>
+                        </choice></measure>, nach Eintritt des <choice>
+                        <abbr><lb/>SO.</abbr>
                         <expan>Südost</expan>
-                    </choice> fiel es bis auf <measure quantity="17.3" unit="reamur">
-                        <hi rendition="#u" hand="#addressee">17,3<supplied cert="high">°</supplied>
-                        </hi>
-                    </measure> herab. Die Einwirkung dieses Windes auf die
-                    junge Vegetation,<lb/>
-                    <pb n="3r"/>namentlich die eingeführten Cerealien <choice>
+                    </choice> fiel es bis auf <measure quantity="17.3" unit="reamur"><hi rendition="#u" hand="https://edition-humboldt.de/#addressee">17,3<supplied cert="high">°</supplied></hi></measure> herab. Die Einwirkung dieses Windes auf die
+                    junge Vegetation,<lb/><pb n="5r"/>namentlich die eingeführten Cerealien <choice>
                         <abbr>u. s. w.</abbr>
                         <expan>und so weiter</expan>
-                    </choice> ist vollkommen <hi rendition="#u" hand="#addressee">vernichtend</hi>.
-                        Glücklicher<g ref="#typoHyphen"/>
-                    <lb break="no"/>weise treten diese Winde
-                    gewöhnlich erst gegen Ende <hi rendition="#u" hand="#addressee">Decembers</hi>
+                    </choice> ist vollkommen <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">vernichtend</hi>.
+                        Glücklicher<g ref="#typoHyphen"/><lb break="no"/>weise treten diese Winde
+                    gewöhnlich erst gegen Ende <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">Decembers</hi>
                     auf, wo sie der <lb/>Erndte nicht mehr schaden können, da diese dann bereits
                     eingebracht ist. Es dürfte wohl <lb/>kaum eine<subst>
                         <del rendition="#ow">n</del>
                         <add place="across">m</add>
-                    </subst> Zweifel unterliegen, daß diese heißen Winde Ausläufer des <hi rendition="#u" hand="#addressee">
-                        <choice>
+                    </subst> Zweifel unterliegen, daß diese heißen Winde Ausläufer des <hi rendition="#u" hand="https://edition-humboldt.de/#addressee"><choice>
                             <abbr>NW.</abbr>
                             <expan>Nordwest</expan>
-                        </choice>
-                    </hi> Mon<g ref="#typoHyphen"/>
-                    <lb break="no"/>soons sind, die
-                    während ihrer Reise über die glühenden Sandsteppen Inner-<placeName ref="https://editon-humboldt.de/H0018121 https://www.geonames.org/7729898">Austra<g ref="#typoHyphen"/>
-                        <lb break="no"/>liens</placeName>
-                    alle Feuchtigkeit absetzen und so alles austrocknend die Küstenregion er<g ref="#typoHyphen"/>
-                    <lb break="no"/>reichen. Den Beweis dafür konnte man an
+                        </choice></hi> Mon<g ref="#typoHyphen"/><lb break="no"/>soons sind, die
+                    während ihrer Reise über die glühenden Sandsteppen Inner-<placeName ref="https://editon-humboldt.de/H0018121 https://www.geonames.org/7729898">Austra<g ref="#typoHyphen"/><lb break="no"/>liens</placeName>
+                    alle Feuchtigkeit absetzen und so alles austrocknend die Küstenregion er<g ref="#typoHyphen"/><lb break="no"/>reichen. Den Beweis dafür konnte man an
                     sich selbst wahrnehmen, indem die <lb/>Haut des ganzen Körpers sich vollkommen
                     trocken anfühlte, die Augen schmerzhaft <lb/>affeziert wurden, da der Wind die
                     Feuchtigkeit derselben vollkommen aufsog. <lb/>Leider hatte ich damals mein
@@ -383,57 +300,43 @@
                         <sic>-</sic>
                         <corr type="deleted"/>
                     </choice>
-                    <lb/>
-                    <note hand="#addressee" place="left">+</note>jetzt beobachtet, war <hi rendition="#u" hand="#addressee">
-                        <measure quantity="38.6" unit="reamur">38<del rendition="#s">°</del>,6°</measure> im</hi> Schatten, der
-                    niedrigste <measure quantity="5" unit="reamur">
-                        <hi rendition="#u" hand="#addressee">5°</hi>
+                    <lb/><note hand="https://edition-humboldt.de/#addressee" place="left">+</note>jetzt beobachtet, war <hi rendition="#u" hand="https://edition-humboldt.de/#addressee"><measure quantity="38.6" unit="reamur">38<del rendition="#s">°</del>,6°</measure> im</hi> Schatten, der
+                    niedrigste <measure quantity="5" unit="reamur"><hi rendition="#u" hand="https://edition-humboldt.de/#addressee">5°</hi>
                         <choice>
                             <abbr>Réaum</abbr>
                             <expan>Réaumur</expan>
-                        </choice>
-                    </measure>. Die <hi rendition="#u" hand="#addressee">Sternenschnuppennacht</hi>
-                    <lb/>des <hi rendition="#u" hand="#addressee">Novembers</hi>
-                    <note place="left" hand="#addressee">?</note> habe ich vollkommen durchwacht, habe jedoch nur 5
+                        </choice></measure>. Die <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">Sternenschnuppennacht</hi>
+                    <lb/>des <hi rendition="#u" hand="https://edition-humboldt.de/#addressee">Novembers</hi><note place="left" hand="https://edition-humboldt.de/#addressee">?</note> habe ich vollkommen durchwacht, habe jedoch nur 5
                     Sternenschnuppen <lb/>beobachtet.</p>
                 <p>Meine Temperatur-Beobachtungen während unserer Ueberfahrt sende ich zugleich an <choice>
                         <abbr>Prof.</abbr>
                         <expan>Professor</expan>
                     </choice>
-                    <lb/>
-                    <persName ref="https://editon-humboldt.de/H0012372 http://d-nb.info/gnd/116190949">Dove</persName> ein, den ich auch von dem Mißgriff
-                        <persName ref="https://editon-humboldt.de/H0020245">Greiner</persName>s benachrichtige; ein
-                    Mißgriff, der für <lb/>mich um so schmerzlicher ist, als er sich hier nicht
-                    ausgleichen läßt, und die äußersten <lb/>Extreme der Temperatur für die
-                    Meteorologie gerade von der wesentlichsten Bedeutung <lb/>sind. </p>
+                    <lb/><persName ref="https://editon-humboldt.de/H0012372 http://d-nb.info/gnd/116190949">Dove</persName> ein, den ich auch von dem Mißgriff
+                        <persName ref="https://editon-humboldt.de/H0020245 https://d-nb.info/gnd/1270749137">Greiner</persName>s benachrichtige; ein Mißgriff,
+                    der für <lb/>mich um so schmerzlicher ist, als er sich hier nicht ausgleichen
+                    läßt, und die äußersten <lb/>Extreme der Temperatur für die Meteorologie gerade
+                    von der wesentlichsten Bedeutung <lb/>sind. </p>
                 <p>Ueber die Eingebornen Süd-<placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australiens</placeName> darf
                     ich mir noch kein Urtheil erlauben, da <lb/>ich bisher nur die durch den Umgang
                     mit der Colonial-Civilisation verkommenen <lb/>Subjecte habe kennen gelernt. Die
                     langen, dünnen, meist dicht behaarten Extremitäten, <lb/>die in gar keiner
                     Proportion zum Rumpfe stehen, die eingedrückte Nase, das Stupide <lb/>und
                     Nichtssagende in den Augen, dies alles verbunden mit einer unsäglichen
-                        Unsauber<g ref="#typoHyphen"/>
-                    <lb break="no"/>keit, macht den Eindruck des
+                        Unsauber<g ref="#typoHyphen"/><lb break="no"/>keit, macht den Eindruck des
                     rein Thierischen in einem solchen Grade, daß ich mich des <lb/>Urtheils nicht
-                    entwöhnen kann: diese Race ist kaum einer höheren, geistigen Entwicke<g ref="#typoHyphen"/>
-                    <lb break="no"/>lung fähig; – doch, wie ich schon sagte,
-                    ich darf und kann mir noch kein Urtheil er<g ref="#typoHyphen"/>
-                    <lb break="no"/>lauben, da sich meine jetzige Kenntniß nur auf die in den Straßen der Städte
+                    entwöhnen kann: diese Race ist kaum einer höheren, geistigen Entwicke<g ref="#typoHyphen"/><lb break="no"/>lung fähig; – doch, wie ich schon sagte,
+                    ich darf und kann mir noch kein Urtheil er<g ref="#typoHyphen"/><lb break="no"/>lauben, da sich meine jetzige Kenntniß nur auf die in den Straßen der Städte
                     und <lb/>Dörfer <choice>
                         <sic>weggelagernden</sic>
                         <corr cert="high">wegelagernden</corr>
-                    </choice> Subjecte erstreckt, von denen man nur die Worte: „<foreign xml:lang="eng">German <lb/>give me
-                    money</foreign>.“ hört. Den Deutschen wissen sie unfehlbar von dem Engländer zu unter<g ref="#typoHyphen"/>
-                    <lb break="no"/>scheiden.</p>
-                <p>
-                    <pb n="3v"/>Die Bevölkerung der Colonie wächst seit unserer Ankunft durch
-                    Immigration mit jeder <lb/>Woche durchschnittlich um 300 Seelen, da vom August
-                    bis December über 5000 eingewandert <hi rendition="#mMM">
-                        <lb/>sind; – meist
-                        Irländer. <note place="inline" hand="#addressee">[</note>Die Wahl des
-                        hiesigen <hi rendition="#u" hand="#addressee">
-                            <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName>er</hi> Consuls, <persName ref="https://editon-humboldt.de/H0020151">Stakemann</persName>, zum <lb/>
-                        <placeName ref="https://editon-humboldt.de/H0008406">preußischen</placeName> Consul, die mit dem letzten <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschen</placeName> Schiffe hier ankam, hat hier nicht
+                    </choice> Subjecte erstreckt, von denen man nur die Worte: „<foreign xml:lang="eng">German <lb/>give me money</foreign>.“ hört. Den Deutschen
+                    wissen sie unfehlbar von dem Engländer zu unter<g ref="#typoHyphen"/><lb break="no"/>scheiden.</p>
+                <p><pb n="5v"/>Die Bevölkerung der <placeName ref="https://editon-humboldt.de/H0020690 https://www.geonames.org/2061327">Colonie</placeName> wächst seit unserer Ankunft durch Immigration mit jeder
+                    <lb/>Woche durchschnittlich um 300 Seelen, da vom August bis December über 5000
+                    eingewandert <lb/><hi rendition="#mMM">sind; – meist Irländer.
+                            <add place="intralinear" hand="https://edition-humboldt.de/#addressee"><metamark>[</metamark></add>Die
+                        Wahl des hiesigen <hi rendition="#u" hand="https://edition-humboldt.de/#addressee"><placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName>er</hi> Consuls, <persName ref="https://editon-humboldt.de/H0020151">Stakemann</persName>, zum <lb/><placeName ref="https://editon-humboldt.de/H0008406">preußischen</placeName> Consul, die mit dem letzten <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschen</placeName> Schiffe hier ankam, hat hier nicht
                         nur <lb/>keinen Anklang <add place="superlinear">gefunden</add>, sondern
                         sogar lebhaftes Mißfallen erregt, so fühlbar das Bedürfniß <lb/>eines
                         offiziellen Vertreters <placeName ref="https://editon-humboldt.de/H0008406">Preußens</placeName> war.
@@ -441,77 +344,53 @@
                             <sic>betauren</sic>
                             <corr cert="high">bedauren</corr>
                         </choice>, <lb/>als das deutsche Element sich durch die größere Zahl
-                        intelligenter und tüchtiger Einwan<g ref="#typoHyphen"/>
-                        <lb break="no"/>derer immer mehr consolidirt und Bedeutung gewinnt, daher wohl auch der
+                        intelligenter und tüchtiger Einwan<g ref="#typoHyphen"/><lb break="no"/>derer immer mehr consolidirt und Bedeutung gewinnt, daher wohl auch der
                         offizielle <lb/>Vertreter ein Mann sein müßte, der in allgemeinerem Ansehen
-                        stehet, als <persName ref="https://editon-humboldt.de/H0020151">Stake<g ref="#typoHyphen"/>
-                            <lb break="no"/>mann</persName>. Man spricht sogar von einer
-                        Remonstration dagegen.<note place="inline" hand="#addressee">]</note>
-                        <note place="left" hand="#addressee">nicht <lb/>in der <lb/>
-                            <orgName ref="https://editon-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3">
-                                <choice>
-                                    <abbr>geogr</abbr>
-                                    <expan>geographischen</expan>
-                                </choice>
-                                <choice>
-                                    <abbr>
-                                        <lb/>Gesellsch</abbr>
-                                    <expan>Gesellschaft</expan>
-                                </choice>
-                            </orgName>
-                            <lb/>vorzu<lb break="no"/>lesen!</note>
-                    </hi>
-                </p>
+                        stehet, als <persName ref="https://editon-humboldt.de/H0020151">Stake<g ref="#typoHyphen"/><lb break="no"/>mann</persName>. Man spricht sogar von einer
+                        Remonstration dagegen.<add place="intralinear" hand="https://edition-humboldt.de/#addressee"><metamark>]</metamark></add></hi><note place="left" hand="https://edition-humboldt.de/#addressee">nicht <lb/>in der <lb/><orgName ref="https://editon-humboldt.de/H0000544 http://d-nb.info/gnd/10181-3"><choice>
+                                <abbr>geogr</abbr>
+                                <expan>geographischen</expan>
+                            </choice>
+                            <choice>
+                                <abbr><lb/>Gesellsch</abbr>
+                                <expan>Gesellschaft</expan>
+                            </choice>
+                        </orgName><lb/>vorzu<lb break="no"/>lesen!</note></p>
                 <p>Wohl dürfen wir Euer Excellenz bitten, <persName ref="https://editon-humboldt.de/H0015791 http://d-nb.info/gnd/117656070">Seifert</persName> und Familie unsere herzlichen Grüße <lb/>zu sagen.</p>
                 <p>Mögen diese Zeilen Euer Excellenz in demselben Wohlsein antreffen, in welchem wir
                     Sie, <lb/>verehrter Herr, verließen, und möchte uns auch hier die unendliche
                     Freude zu <lb/>Theil werden, von Ihnen durch ein Paar Zeilen beglückt zu werden;
                     – ja, indem ich <lb/>meinen Blick auf das Liebste der Portraits werfe, die mein
-                    kleines, selbstge<g ref="#typoHyphen"/>
-                    <lb break="no"/>bautes Zimmerchen
-                    schmücken, geben mir die freundlichen, milden Augen die Ver<g ref="#typoHyphen"/>
-                    <lb break="no"/>sicherung, daß uns diese unendliche Freude werden wird,
-                    wie wir Sie, tiefver<g ref="#typoHyphen"/>
-                    <lb break="no"/>ehrter Herr<supplied cert="high">,</supplied> zugleich versichern, daß auch hier unser reges
+                    kleines, selbstge<g ref="#typoHyphen"/><lb break="no"/>bautes Zimmerchen
+                    schmücken, geben mir die freundlichen, milden Augen die Ver<g ref="#typoHyphen"/><lb break="no"/>sicherung, daß uns diese unendliche Freude werden wird,
+                    wie wir Sie, tiefver<g ref="#typoHyphen"/><lb break="no"/>ehrter Herr<supplied cert="high">,</supplied> zugleich versichern, daß auch hier unser reges
                     Streben und Ringen <lb/>dahin gerichtet bleibt, uns der Liebe würdig zu machen,
                     die Sie uns zugewandt, wie <lb/>es fort und fort unser Streben sein
                         wird<supplied cert="high">,</supplied> nach unseren schwachen Kräften
                     <lb/>zur Erweiterung des Kreises der Wissenschaften beizutragen, der in Ihnen
-                    <lb/>den großen, unerreichten Meister verehrt.<lb/>
-                </p>
+                    <lb/>den großen, unerreichten Meister verehrt.<lb/></p>
                 <closer>
                     <salute>In innigster Verehrung und tiefster Hochachtung <lb/>Euer Excellenz
                         <lb/>ergebene</salute>
-                    <signed>
-                        <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto</persName> und <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Richard Schomburgk</persName>
-                    </signed>
+                    <signed><persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto</persName> und <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Richard Schomburgk</persName></signed>
                 </closer>
                 <postscript>
-                    <p>
-                        <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto Schomburgk</persName>
-                        <placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchsfelde</placeName> near <placeName ref="https://editon-humboldt.de/H0019740 https://www.geonames.org/2071059">Gawlertown</placeName> South-<placeName ref="https://editon-humboldt.de/H0002625 https://www.geonames.org/2077456">Australia</placeName>
-                        <lb/>den 26<hi rendition="#sup">
-                            <hi rendition="#u">
-                                <supplied cert="high">s</supplied>ten</hi>
-                        </hi> December. </p>
-                    <p>Eben erhalte ich die Schmerzenskunde, daß am 11<hi rendition="#sup">
-                            <choice>
-                                <sic>
-                                    <hi rendition="#u">sten</hi>
-                                </sic>
+                    <p><persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Otto Schomburgk</persName>
+                        <placeName ref="https://editon-humboldt.de/H0019248 https://www.geonames.org/11776293">Buchsfelde</placeName> near <placeName ref="https://editon-humboldt.de/H0019740 https://www.geonames.org/2071059">Gawlertown</placeName>
+                        <placeName ref="https://editon-humboldt.de/H0020690 https://www.geonames.org/2061327">South-Australia</placeName>
+                        <lb/>den 26<hi rendition="#sup"><hi rendition="#u"><supplied cert="high">s</supplied>ten</hi></hi> December. </p>
+                    <p>Eben erhalte ich die Schmerzenskunde, daß am 11<hi rendition="#sup"><choice>
+                                <sic><hi rendition="#u">sten</hi></sic>
                                 <corr cert="high">ten</corr>
-                            </choice>
-                        </hi> August unser guter, guter <persName ref="https://editon-humboldt.de/H0015642">Vater</persName> der Cholera <lb/>als Opfer gefallen. Meine
-                        einzige Schwester <persName ref="https://editon-humboldt.de/H0020207">Linna</persName>, die jetzt
-                        noch in <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName> ist und sich bei
-                        <lb/>einem Cousin, Kaufmann <persName ref="https://editon-humboldt.de/H0020139">Carl
+                            </choice></hi> August unser guter, guter <persName ref="https://editon-humboldt.de/H0015642 https://d-nb.info/gnd/1282890638">Vater</persName> der Cholera <lb/>als Opfer gefallen. Meine einzige
+                        Schwester <persName ref="https://editon-humboldt.de/H0020207">Linna</persName>, die jetzt noch in
+                            <placeName ref="https://editon-humboldt.de/H0005517 https://www.geonames.org/2921044">Deutschland</placeName> ist und sich bei
+                        <lb/>einem Cousin, Kaufmann <persName ref="https://editon-humboldt.de/H0020139 https://d-nb.info/gnd/1283671557">Carl
                             Schomburgk</persName> in <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName>
                         aufhält, wird uns künftiges Jahr <add place="intralinear">im</add>
-                        <lb/>
-                        <add place="superlinear">April oder Mai </add>nachfolgen, da sie in
+                        <lb/><add place="superlinear">April oder Mai </add>nachfolgen, da sie in
                         Deutschland jetzt Niemand mehr hat, der ihr näher stünde.</p>
                 </postscript>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

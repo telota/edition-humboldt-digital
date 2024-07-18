@@ -27,23 +27,9 @@
                         <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Humboldt, Alexander von: Ag – Plantae des États-Unis – deutsche Übersetzung, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0018391">https://edition-humboldt.de/v8/H0018391</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Humboldt, Alexander von: Ag – Plantae des États-Unis – deutsche Übersetzung, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0018391</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0018391.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p>Dieses Manuskript liegt im Nachlass in einer Mappe, die Humboldt mit der
@@ -72,100 +58,66 @@
                             <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2832864</idno>
                         </idno>
                     </msIdentifier>
-                </msDesc>
-                <listWit>
-                    <witness>
-                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 267–270.</witness>
-                </listWit>
+                </msDesc><listWit>
+                    <witness><bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 267–270.</witness></listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>document</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>document</term></keywords></textClass>
             <creation>
                 <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
                 <date notBefore="1804-06-18" notAfter="1804-06-30" cert="high"/>
             </creation>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div>
                 <p>
                     <pb n="11r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367380/1200/0/00000019.jpg"/>Pflanzen der <placeName ref="https://editon-humboldt.de/H0009136 https://www.geonames.org/6252001">Vereinigten Staaten</placeName>
-                    <note place="right" hand="H0001517">
-                        <ref xml:id="ed_dtn_dx1_fy" type="siglum" target="#Geographie_der_Pflanzen_Ag">Ag</ref>
+                    <note place="right" hand="http://d-nb.info/gnd/115674667"><ref xml:id="ed_dtn_dx1_fy" type="siglum" target="#Geographie_der_Pflanzen_Ag">Ag</ref>
                     </note>
                 </p>
-                <p>1. Zum <hi rendition="#uu">Gerben</hi> verwendet man: <name type="plant">
-                        <hi rendition="#u">Quercus</hi>
-                        <hi rendition="#u">rubra</hi>
-                    </name>. <hi rendition="#u">
-                        <name type="plant">Quercus tinctoria</name>
-                    </hi>.<persName ref="https://editon-humboldt.de/H0014400 http://d-nb.info/gnd/11716240X">
-                        (Muhlenberg</persName>) Rinde. <hi rendition="#u">
-                        <name type="plant">Cornus
-                            florida</name>
-                    </hi>, deren man sich nicht bedient. Man könnte sich der
+                <p>1. Zum <hi rendition="#uu">Gerben</hi> verwendet man: <name type="plant"><hi rendition="#u">Quercus</hi>
+                        <hi rendition="#u">rubra</hi></name>. <hi rendition="#u"><name type="plant">Quercus tinctoria</name></hi>.<persName ref="https://editon-humboldt.de/H0014400 http://d-nb.info/gnd/11716240X">
+                        (Muhlenberg</persName>) Rinde. <hi rendition="#u"><name type="plant">Cornus
+                            florida</name></hi>, deren man sich nicht bedient. Man könnte sich der
                     unreifen Früchte von <name type="plant">Diospyros virginiana</name>, Persimmon,
                     bedienen. Baum aus Carolina. Die reifen Früchte könnten dazu dienen, daraus
                     Weingeist zu gewinnen.</p>
                 <p>2. Man bedient sich gegen die Wechselfieber mit Erfolg der Rinde der Wurzeln der
                         <name type="plant">Liriodendron tulipifera</name>. Es ist ein Aroma.
                         <persName ref="https://editon-humboldt.de/H0006474 http://d-nb.info/gnd/117616893">Woodhouse</persName>.</p>
-                <p>3. Man hat sich gegen das Gelbfieber mit Erfolg der Wurzel der <name type="plant">
-                        <hi rendition="#u">Actaea</hi>
-                        <hi rendition="#u">racemosa</hi>
-                    </name> bedient, die der stärkste und
+                <p>3. Man hat sich gegen das Gelbfieber mit Erfolg der Wurzel der <name type="plant"><hi rendition="#u">Actaea</hi>
+                        <hi rendition="#u">racemosa</hi></name> bedient, die der stärkste und
                     reinste Bitter ist. <persName ref="https://editon-humboldt.de/H0006474 http://d-nb.info/gnd/117616893">Woodhouse</persName>. Auch die
-                    Wurzel der <name type="plant">
-                        <hi rendition="#u">Xanthorrhiza</hi>
-                        apiifolia</name> ist ein hervorragender Bitter. <ref xml:id="e8c13578-975a-429f-8135-78975ad29ff4" corresp="#bf4eaa3e-3df8-45ab-8eaa-3e3df8a5ab5c">Medical Repository</ref>
-                    <note xml:id="bf4eaa3e-3df8-45ab-8eaa-3e3df8a5ab5c" corresp="#e8c13578-975a-429f-8135-78975ad29ff4">
+                    Wurzel der <name type="plant"><hi rendition="#u">Xanthorrhiza</hi>
+                        apiifolia</name> ist ein hervorragender Bitter. <ref xml:id="b4711077-a952-4c3c-b110-77a952cc3cc4" corresp="#fed2b10f-76ed-4e03-92b1-0f76edce036f" type="editorialNote">Medical Repository</ref><note xml:id="fed2b10f-76ed-4e03-92b1-0f76edce036f" corresp="#b4711077-a952-4c3c-b110-77a952cc3cc4" type="editorial">
                             <bibl corresp="https://edition-humboldt.de/EAH289VB">Woodhouse 1802</bibl>.</note>
                 </p>
-                <p>4. Die Früchte der <name type="plant">
-                        <hi rendition="#u">Aesculus</hi>
-                        <hi rendition="#u">pavia</hi>
-                    </name> aus Carolina könnten eine hervorragende
+                <p>4. Die Früchte der <name type="plant"><hi rendition="#u">Aesculus</hi>
+                        <hi rendition="#u">pavia</hi></name> aus Carolina könnten eine hervorragende
                     Stärke werden, aber nicht des Brotes, sie haben kein tierisches Gluten und damit
                     sind sie giftig. Man sieht die Fische anschwellen, wenn man ihnen das Mehl zum
                     Schlucken gibt. <persName ref="https://editon-humboldt.de/H0006474 http://d-nb.info/gnd/117616893">Woodhouse</persName>.</p>
-                <p>5. Die Wurzel der <name type="plant">
-                        <hi rendition="#u">Hydrastis</hi>
-                        <hi rendition="#u">canadensis</hi>
-                    </name> gibt ein dauerhaftes Gelb, das
+                <p>5. Die Wurzel der <name type="plant"><hi rendition="#u">Hydrastis</hi>
+                        <hi rendition="#u">canadensis</hi></name> gibt ein dauerhaftes Gelb, das
                     beim Waschen nicht vergeht.</p>
                 <p>6. <persName ref="https://editon-humboldt.de/H0014400 http://d-nb.info/gnd/11716240X">Muhlenberg</persName> glaubt, dass es in den
                         <placeName ref="https://editon-humboldt.de/H0009136 https://www.geonames.org/6252001">Vereinigten Staaten</placeName> 28 Arten geben
                     könnte. <persName ref="https://editon-humboldt.de/H0001325">Mr. Kin</persName> behauptet, davon 50 zu
                     haben. <list>
-                        <item>Die <name type="plant">
-                                <hi rendition="#u">Quercus</hi>
-                                <hi rendition="#u">stellata</hi>
-                            </name>
+                        <item>Die <name type="plant"><hi rendition="#u">Quercus</hi>
+                                <hi rendition="#u">stellata</hi></name>
                             <persName ref="https://editon-humboldt.de/H0006239 http://d-nb.info/gnd/100690386">Wangenheim</persName> = <name type="plant">Quercus obtusifolia</name>
                             <persName ref="https://editon-humboldt.de/H0014205 http://d-nb.info/gnd/104292369">Michaux</persName>.</item>
-                        <item>
-                            <name type="plant">
-                                <hi rendition="#u">Quercus bicolor</hi>
-                            </name>
+                        <item><name type="plant"><hi rendition="#u">Quercus bicolor</hi></name>
                             <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow</persName> ist die <name type="plant">Quercus alba</name> palustris <persName ref="https://editon-humboldt.de/H0013957 http://d-nb.info/gnd/100204449">Marshall</persName> fructu pedunculato. Die nützlichste in
                                 <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> kultivierbare
                             Art.</item>
-                        <item>
-                            <name type="plant">
-                                <hi rendition="#u">Quercus castanea</hi>
-                            </name>
+                        <item><name type="plant"><hi rendition="#u">Quercus castanea</hi></name>
                             <bibl corresp="https://edition-humboldt.de/ITEH2RXA">Muhlenberg, Schriften Berliner
                                 Gesellschaft </bibl> ist keine Variante von <name type="plant">Quercus prinus</name>, wie <persName ref="https://editon-humboldt.de/H0014205 http://d-nb.info/gnd/104292369">Michaux</persName> glaubt.</item>
-                    </list>
-                </p>
-                <p>7. Die einzigen für die Kultivierung in <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> nutzbaren Eichen sind <name type="plant">Quercus
-                        castanea</name> von <persName ref="https://editon-humboldt.de/H0014400 http://d-nb.info/gnd/11716240X">Muhlenberg</persName>
+                    </list></p>
+                <p>7. Die einzigen für die Kultivierung in <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> nutzbaren <name type="plant" subtype="vernacular" key="Quercus">Eichen</name> sind <name type="plant">Quercus castanea</name> von <persName ref="https://editon-humboldt.de/H0014400 http://d-nb.info/gnd/11716240X">Muhlenberg</persName>
                     <placeName ref="https://editon-humboldt.de/H0008206 https://www.geonames.org/6254927">(Pennsylvania</placeName>), <name type="plant">Quercus
                         bicolor</name>
                     <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow</persName>, <name type="plant">Quercus
@@ -205,67 +157,49 @@
                                 Staaten</placeName>:</head>
                         <item>in <placeName ref="https://editon-humboldt.de/H0010842 https://www.geonames.org/4197000">Georgia</placeName>, <placeName ref="https://editon-humboldt.de/H0010135 https://www.geonames.org/4221552">Savannah</placeName>
                             <persName ref="https://editon-humboldt.de/H0003649 https://viaf.org/viaf/56268920">Doktor Brickel</persName>.</item>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0001707 https://www.geonames.org/4482348">North Carolina</placeName>, <placeName ref="https://editon-humboldt.de/H0009753 https://www.geonames.org/4499612">Salem</placeName>. <persName ref="https://editon-humboldt.de/H0001464">Prediger
+                        <item><placeName ref="https://editon-humboldt.de/H0001707 https://www.geonames.org/4482348">North Carolina</placeName>, <placeName ref="https://editon-humboldt.de/H0009753 https://www.geonames.org/4499612">Salem</placeName>. <persName ref="https://editon-humboldt.de/H0001464">Prediger
                                 Kramsch</persName> und <persName ref="https://editon-humboldt.de/H0012113">Schullehrer Gustav
                                 Dahlmann</persName>
                         </item>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0009177 https://www.geonames.org/6254928">Virginia</placeName>, <placeName ref="https://editon-humboldt.de/H0006806 https://www.geonames.org/4808234">Harpers Ferry</placeName>
-                            <ref xml:id="ed14014a-9688-4234-9401-4a9688f234c5" corresp="#ed149b07-e888-4351-949b-07e8887351b2">Doktor Brown</ref>
-                            <note xml:id="ed149b07-e888-4351-949b-07e8887351b2" corresp="#ed14014a-9688-4234-9401-4a9688f234c5">Möglicherweise der Arzt und Botaniker
+                        <item><placeName ref="https://editon-humboldt.de/H0009177 https://www.geonames.org/6254928">Virginia</placeName>, <placeName ref="https://editon-humboldt.de/H0006806 https://www.geonames.org/4808234">Harpers Ferry</placeName>
+                            <ref xml:id="c25d90dc-5309-4776-9d90-dc5309777605" corresp="#b0dae6a8-9617-4807-9ae6-a89617180769" type="editorialNote">Doktor Brown</ref><note xml:id="b0dae6a8-9617-4807-9ae6-a89617180769" corresp="#c25d90dc-5309-4776-9d90-dc5309777605" type="editorial">Möglicherweise der Arzt und Botaniker
                                         <persName ref="https://editon-humboldt.de/H0016267 https://viaf.org/viaf/63863385/">Gustavus Richard Brown</persName>,
                                     der allerdings im südlichen <placeName ref="https://editon-humboldt.de/H0008739 https://www.geonames.org/4361885">Maryland</placeName> lebte.</note>
                         </item>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0008246 https://www.geonames.org/4560349">Philadelphia</placeName>, <persName ref="https://editon-humboldt.de/H0001325">Herr Kin</persName>. <persName ref="https://editon-humboldt.de/H0000712 http://d-nb.info/gnd/117686131">Herr
+                        <item><placeName ref="https://editon-humboldt.de/H0008246 https://www.geonames.org/4560349">Philadelphia</placeName>, <persName ref="https://editon-humboldt.de/H0001325">Herr Kin</persName>. <persName ref="https://editon-humboldt.de/H0000712 http://d-nb.info/gnd/117686131">Herr
                                 Ravinesque.</persName>
                             <persName ref="https://editon-humboldt.de/H0003118 http://d-nb.info/gnd/117566748">Doktor Barton</persName>.</item>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0008206 https://www.geonames.org/6254927">Pennsylvania</placeName>, <placeName ref="https://editon-humboldt.de/H0001577 https://www.geonames.org/5202938">Nazareth</placeName>, <persName ref="https://editon-humboldt.de/H0002878">Prediger van Vleck</persName>. <persName ref="https://editon-humboldt.de/H0011631">William
+                        <item><placeName ref="https://editon-humboldt.de/H0008206 https://www.geonames.org/6254927">Pennsylvania</placeName>, <placeName ref="https://editon-humboldt.de/H0001577 https://www.geonames.org/5202938">Nazareth</placeName>, <persName ref="https://editon-humboldt.de/H0002878">Prediger van Vleck</persName>. <persName ref="https://editon-humboldt.de/H0011631 https://d-nb.info/gnd/1283509210">William
                                 Hamilton</persName>.</item>
                         <item>
                             <list>
-                                <head>
-                                    <placeName ref="https://editon-humboldt.de/H0008206 https://www.geonames.org/6254927">Pennsylvania</placeName>,</head>
-                                <item>
-                                    <persName ref="https://editon-humboldt.de/H0003121 http://d-nb.info/gnd/118657429">William Bartram</persName>
+                                <head><placeName ref="https://editon-humboldt.de/H0008206 https://www.geonames.org/6254927">Pennsylvania</placeName>,</head>
+                                <item><persName ref="https://editon-humboldt.de/H0003121 http://d-nb.info/gnd/118657429">William Bartram</persName>
                                 </item>
-                                <item>
-                                    <persName ref="https://editon-humboldt.de/H0004706">Herr Lyons</persName>, Gärtner von
-                                        <persName ref="https://editon-humboldt.de/H0011631">Herrn Hamilton</persName>.</item>
-                                <item>
-                                    <persName ref="https://editon-humboldt.de/H0013959">Doktor Marshall</persName>, <ref xml:id="d6ac43c9-005c-4c9c-ac43-c9005c7c9c14" corresp="#ec7cca31-bbec-4d4e-bcca-31bbeced4edd">Neffe des Arboretums.</ref>
-                                    <note xml:id="ec7cca31-bbec-4d4e-bcca-31bbeced4edd" corresp="#d6ac43c9-005c-4c9c-ac43-c9005c7c9c14">
-                                            <persName ref="https://editon-humboldt.de/H0013959">Moses Marshall</persName> war
+                                <item><persName ref="https://editon-humboldt.de/H0004706">Herr Lyons</persName>, Gärtner von
+                                        <persName ref="https://editon-humboldt.de/H0011631 https://d-nb.info/gnd/1283509210">Herrn Hamilton</persName>.</item>
+                                <item><persName ref="https://editon-humboldt.de/H0013959 https://d-nb.info/gnd/1283227827">Doktor Marshall</persName>, <ref xml:id="e705f015-7f9e-4be3-85f0-157f9edbe355" corresp="#e1e9d0ce-0e38-4d3e-a9d0-ce0e383d3e2f" type="editorialNote">Neffe des Arboretums.</ref><note xml:id="e1e9d0ce-0e38-4d3e-a9d0-ce0e383d3e2f" corresp="#e705f015-7f9e-4be3-85f0-157f9edbe355" type="editorial">
+                                            <persName ref="https://editon-humboldt.de/H0013959 https://d-nb.info/gnd/1283227827">Moses Marshall</persName> war
                                             Neffe von <persName ref="https://editon-humboldt.de/H0013957 http://d-nb.info/gnd/100204449">Humphry
                                                 Marshall</persName>, dem Verfasser des Werkes
                                             Arbustrum Americanum (<bibl corresp="https://edition-humboldt.de/9A3T4NSR">Marshall
                                             1785</bibl>).</note>
                                 </item>
-                                <item>
-                                    <ref xml:id="ae68f1de-5c83-497d-a8f1-de5c83d97dd3" corresp="#fae9bc54-b9cd-4bfd-a9bc-54b9cdcbfddf">Prediger Geisenheim</ref>
-                                    <note xml:id="fae9bc54-b9cd-4bfd-a9bc-54b9cdcbfddf" corresp="#ae68f1de-5c83-497d-a8f1-de5c83d97dd3">Wohl <persName ref="https://editon-humboldt.de/H0013397">Frederick William Geissenhainer</persName>.</note>
+                                <item><ref xml:id="e0f5506e-1fff-483c-b550-6e1fff783c5f" corresp="#d1ee0e34-1f80-4edf-ae0e-341f80dedf58" type="editorialNote">Prediger Geisenheim</ref><note xml:id="d1ee0e34-1f80-4edf-ae0e-341f80dedf58" corresp="#e0f5506e-1fff-483c-b550-6e1fff783c5f" type="editorial">Wohl <persName ref="https://editon-humboldt.de/H0013397">Frederick William Geissenhainer</persName>.</note>
                                 </item>
                             </list>
                         </item>
                         <pb n="12r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367380/1200/0/00000021.jpg"/>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0000345 https://www.geonames.org/6251999">Kanada</placeName>, <placeName ref="https://editon-humboldt.de/H0009362 https://www.geonames.org/6163228">Thames River</placeName>, <persName ref="https://editon-humboldt.de/H0012230">Prediger Denke</persName> Herrnhuter.</item>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0001641 https://www.geonames.org/5128638">New York</placeName>, <persName ref="https://editon-humboldt.de/H0012013 http://d-nb.info/gnd/117531898">Doktor Hosack</persName>. <persName ref="https://editon-humboldt.de/H0014248 http://d-nb.info/gnd/11757919X">Doktor Mitchill</persName>.</item>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0008206 https://www.geonames.org/6254927">Pennsylvania</placeName>, <placeName ref="https://editon-humboldt.de/H0011353 https://www.geonames.org/5197079">Lancaster</placeName>. <persName ref="https://editon-humboldt.de/H0014400 http://d-nb.info/gnd/11716240X">Muhlenberg</persName>.</item>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0001632 https://www.geonames.org/8502102">New England</placeName>, <placeName ref="https://editon-humboldt.de/H0006707 https://www.geonames.org/4940625">Ipswich</placeName>. <persName ref="https://editon-humboldt.de/H0013275 http://d-nb.info/gnd/120302446">Doktor
+                        <item><placeName ref="https://editon-humboldt.de/H0000345 https://www.geonames.org/6251999">Kanada</placeName>, <placeName ref="https://editon-humboldt.de/H0009362 https://www.geonames.org/6163228">Thames River</placeName>, <persName ref="https://editon-humboldt.de/H0012230">Prediger Denke</persName> Herrnhuter.</item>
+                        <item><placeName ref="https://editon-humboldt.de/H0001641 https://www.geonames.org/5128638">New York</placeName>, <persName ref="https://editon-humboldt.de/H0012013 http://d-nb.info/gnd/117531898">Doktor Hosack</persName>. <persName ref="https://editon-humboldt.de/H0014248 http://d-nb.info/gnd/11757919X">Doktor Mitchill</persName>.</item>
+                        <item><placeName ref="https://editon-humboldt.de/H0008206 https://www.geonames.org/6254927">Pennsylvania</placeName>, <placeName ref="https://editon-humboldt.de/H0011353 https://www.geonames.org/5197079">Lancaster</placeName>. <persName ref="https://editon-humboldt.de/H0014400 http://d-nb.info/gnd/11716240X">Muhlenberg</persName>.</item>
+                        <item><placeName ref="https://editon-humboldt.de/H0001632 https://www.geonames.org/8502102">New England</placeName>, <placeName ref="https://editon-humboldt.de/H0006707 https://www.geonames.org/4940625">Ipswich</placeName>. <persName ref="https://editon-humboldt.de/H0013275 http://d-nb.info/gnd/120302446">Doktor
                                 Cutler</persName>.</item>
-                        <item>
-                            <placeName ref="https://editon-humboldt.de/H0001636 https://www.geonames.org/5101760">New Jersey</placeName>
+                        <item><placeName ref="https://editon-humboldt.de/H0001636 https://www.geonames.org/5101760">New Jersey</placeName>
                             <persName ref="https://editon-humboldt.de/H0001236">Doktor Kampman</persName>.</item>
-                        <item>Reisende: für <ref xml:id="b9dc3188-1a30-41f7-9c31-881a30f1f7a7" corresp="#bd72e4d9-bc9b-4709-b2e4-d9bc9b070972">Prinz Lichtenberg</ref>
-                            <note xml:id="bd72e4d9-bc9b-4709-b2e4-d9bc9b070972" corresp="#b9dc3188-1a30-41f7-9c31-881a30f1f7a7">vielmehr <persName ref="https://editon-humboldt.de/H0016271 http://d-nb.info/gnd/129115460">Fürst
+                        <item>Reisende: für <ref xml:id="de8376a1-d27d-4882-8376-a1d27d688201" corresp="#e52af7ef-b660-4e46-aaf7-efb660ee4653" type="editorialNote">Prinz Lichtenberg</ref><note xml:id="e52af7ef-b660-4e46-aaf7-efb660ee4653" corresp="#de8376a1-d27d-4882-8376-a1d27d688201" type="editorial">vielmehr <persName ref="https://editon-humboldt.de/H0016271 http://d-nb.info/gnd/129115460">Fürst
                                         Alois I. von Liechtenstein</persName>.</note>
-                            <persName ref="https://editon-humboldt.de/H0015662">Josef von der Schott</persName>.</item>
+                            <persName ref="https://editon-humboldt.de/H0015662 https://d-nb.info/gnd/1283368382">Josef von der Schott</persName>.</item>
                         <item>für <persName ref="https://editon-humboldt.de/H0011269 http://d-nb.info/gnd/118534955">Kaiser</persName>
                             <persName ref="https://editon-humboldt.de/H0005954">Aloysius Enslin</persName>. (beide jetzt in
                                 <placeName ref="https://editon-humboldt.de/H0010842 https://www.geonames.org/4197000">Georgia</placeName>).</item>
@@ -273,39 +207,30 @@
                             und <persName ref="https://editon-humboldt.de/H0003118 http://d-nb.info/gnd/117566748">Barton</persName> haben alle diese
                             Botaniker nichts geschrieben. Sie alle haben Herbarien und
                             korrespondieren.</item>
-                    </list>
-                </p>
+                    </list></p>
                 <p>10. <persName ref="https://editon-humboldt.de/H0014400 http://d-nb.info/gnd/11716240X">Muhlenberg</persName> versichert, dass man <name type="plant">Rhus Radicans</name> erfolgreich bei Krankheiten impft, deren
                     Verlauf durch Krätze oder irgendeinen anderen Hautausschlag unterbrochen wird,
                     zum Beispiel beim Wahnsinn.</p>
                 <p>11. An der Mündung des <placeName ref="https://editon-humboldt.de/H0007806 https://www.geonames.org/4401696">Ohio</placeName> und entlang des
-                        <placeName ref="https://editon-humboldt.de/H0008887 https://www.geonames.org/7932547">Mississippi</placeName>, Cotton Wood<supplied cert="high">,</supplied>
+                        <placeName ref="https://editon-humboldt.de/H0008887 https://www.geonames.org/7932547">Mississippi</placeName>, <name type="plant" subtype="vernacular" key="Populus deltoides">Cotton Wood</name><supplied cert="high">,</supplied>
                     <name type="plant">Populus deltoides</name>
                     <persName ref="https://editon-humboldt.de/H0013957 http://d-nb.info/gnd/100204449">Marshall</persName>, sehr ähnlich der pyramidenförmigen
-                        <name type="plant">
-                        <name type="plant">Populus italica</name>
-                    </name>.<note place="right" hand="#author">
-                        <placeName ref="https://editon-humboldt.de/H0008887 https://www.geonames.org/7932547">Mississippi.</placeName>
-                    </note>
+                        <name type="plant"><name type="plant">Populus italica</name></name>.<note place="right" hand="#author">
+                        <placeName ref="https://editon-humboldt.de/H0008887 https://www.geonames.org/7932547">Mississippi.</placeName></note>
                     <note hand="#author" place="right"> Ist das die <name type="plant">Populus
                             angulata</name>
                         <persName ref="https://editon-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow</persName>
-                        <ref xml:id="f238f5fa-8282-434d-b8f5-fa8282634d6f" corresp="#f2bf036f-b59f-4bc2-bf03-6fb59fbbc276">
-                            <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh Seite 619</bibl>
-                            </ref>
-                        <note xml:id="f2bf036f-b59f-4bc2-bf03-6fb59fbbc276" corresp="#f238f5fa-8282-434d-b8f5-fa8282634d6f">
+                        <ref xml:id="a6afdc1e-b2df-464f-afdc-1eb2df764f73" corresp="#a89d0b06-f5ac-4301-9d0b-06f5acc30109" type="editorialNote"><bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh Seite 619</bibl>
+                            </ref><note xml:id="a89d0b06-f5ac-4301-9d0b-06f5acc30109" corresp="#a6afdc1e-b2df-464f-afdc-1eb2df764f73" type="editorial">
                                 <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh 1814</bibl>, II.</note>?</note>
-                    <note hand="#author" place="right">
-                        <name type="plant">Populus monilifera</name>
-                        nur in Gärten<ref xml:id="af381ce8-c799-4165-b81c-e8c799b16567" corresp="#a1dd34a4-157a-4ad3-9d34-a4157abad358">
+                    <note hand="#author" place="right"><name type="plant">Populus monilifera</name>
+                        nur in Gärten<ref xml:id="a0fa6641-e36e-400c-ba66-41e36e900cdc" corresp="#d31c1917-18fc-4d41-9c19-1718fcad41e8" type="editorialNote">
                                 <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh Seite 618</bibl>
-                            </ref>
-                        <note xml:id="a1dd34a4-157a-4ad3-9d34-a4157abad358" corresp="#af381ce8-c799-4165-b81c-e8c799b16567">
+                            </ref><note xml:id="d31c1917-18fc-4d41-9c19-1718fcad41e8" corresp="#a0fa6641-e36e-400c-ba66-41e36e900cdc" type="editorial">
                                 <bibl corresp="https://edition-humboldt.de/M4TNQJF9">Pursh 1814</bibl>, II.</note>.</note>
                     <name type="plant">Salix nigra</name> selten südlich von 31°. <name type="plant">Acer negundo</name> und <name type="plant">Juglans illinoinensis</name>
-                    oder Pekan.<note hand="#author" place="right">
-                        <metamark/>Dieser Pekan oder
-                        Illinoinensis ist die <name type="plant">Juglans rubra</name>
+                    oder <name type="plant" subtype="vernacular" key="Juglans illinoinensis">Pekan</name>.<note hand="#author" place="right"><metamark/>Dieser Pekan
+                        oder Illinoinensis ist die <name type="plant">Juglans rubra</name>
                         <persName ref="https://editon-humboldt.de/H0013282 http://d-nb.info/gnd/116333758">Gaertner</persName> mit Früchten der <name type="plant">Corylus avellana</name>.</note> weiter südlich. <name type="plant">Cupressus disticha</name> beginnt erst südlich der Mündung des
                         <placeName ref="https://editon-humboldt.de/H0002297 https://www.geonames.org/4099736">Arkansas</placeName> oder 34°, unendlich zahlreich
                     bei 31°, bedeckt mit <name type="plant">Tillandsia usneoides</name>, <name type="plant">Laurus borbonia</name> und <name type="plant">Magnolia
@@ -326,14 +251,12 @@
                 <p>
                     <pb n="13v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367380/1200/0/00000024.jpg"/>Im Jahr 1802 hat man in <placeName ref="https://editon-humboldt.de/H0007920 https://www.geonames.org/4140963">Washington</placeName> einen
                     Büffel sehen lassen, der <measure quantity="3100" unit="pound_avoirdupois">3100
-                        Pfund</measure> wog, er war <ref xml:id="f99610f0-79a9-4db9-9610-f079a97db9af" corresp="#e82a81e1-8337-4f7b-aa81-e18337ef7bbf">19½ Hand (zu 4 Zoll)</ref>
-                    <note xml:id="e82a81e1-8337-4f7b-aa81-e18337ef7bbf" corresp="#f99610f0-79a9-4db9-9610-f079a97db9af">=72 Zoll. Das entspricht ca. 1.95 m.</note> hoch und <measure quantity="25" unit="foot">25 Fuß</measure> lang von der
+                        Pfund</measure> wog, er war <ref xml:id="d2bc3231-92dd-48db-bc32-3192dd78dbe6" corresp="#c71dbe7d-e41e-46a2-9dbe-7de41ef6a28e" type="editorialNote">19½ Hand (zu 4 Zoll)</ref><note xml:id="c71dbe7d-e41e-46a2-9dbe-7de41ef6a28e" corresp="#d2bc3231-92dd-48db-bc32-3192dd78dbe6" type="editorial">=72 Zoll. Das entspricht ca. 1.95 m.</note> hoch und <measure quantity="25" unit="foot">25 Fuß</measure> lang von der
                     Nase bis zum Schwanz. <placeName ref="https://editon-humboldt.de/H0000345 https://www.geonames.org/6251999">Kanada</placeName>.</p>
                 <p>Unter den 23 indischen Sprachen, die <persName ref="https://editon-humboldt.de/H0004152 http://d-nb.info/gnd/118711962">Herr
                         Jefferson</persName> veröffentlichen wird, fand ich nur das Wort <hi rendition="#u">run</hi> aus der Unquachog-Sprache, das dort Mann bedeutet,
                     wie im Ynga von <placeName ref="https://editon-humboldt.de/H0008229 https://www.geonames.org/3932488">Peru</placeName>.</p>
-                <p>
-                    <hi rendition="#u">Preise</hi> in <placeName ref="https://editon-humboldt.de/H0008246 https://www.geonames.org/4560349">Philadelphia</placeName>: Inn ohne Getränk 9 Piaster 1 Person die Woche, in
+                <p><hi rendition="#u">Preise</hi> in <placeName ref="https://editon-humboldt.de/H0008246 https://www.geonames.org/4560349">Philadelphia</placeName>: Inn ohne Getränk 9 Piaster 1 Person die Woche, in
                         <placeName ref="https://editon-humboldt.de/H0007920 https://www.geonames.org/4140963">Washington</placeName>: 1½ Piaster den Tag. 1
                     Flasche Porter im Inn ½ Dollar, in Stadt ¼ Dollar. Ein Glas Limonade ¼ Dollar.
                     Hackney Coach mit 2 Pferden Tagesreise 5 Dollar.<note hand="#author" place="right">
@@ -350,6 +273,5 @@
                     <pb n="14v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367380/1200/0/00000026.jpg"/>
                 </p>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -28,23 +28,9 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [wohl um
-               Oktober 1845] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016498">https://edition-humboldt.de/v8/H0016498</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016498</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016498.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. Potsdam, [wohl um
+               Oktober 1845] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -59,12 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -78,17 +59,13 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
-            <opener>
-                    <dateline>
-                        <choice>
+            <opener><dateline><choice>
                      <abbr>P.</abbr>
                      <expan>Potsdam</expan>
-                  </choice> Sontag.</dateline>
-                </opener>
+                  </choice> Sontag.</dateline></opener>
             <p>Nach Ihrem theuren Briefe <lb/>von gestern, lieber <choice>
                   <abbr>E.</abbr>
                   <expan>Ehrenberg</expan>
@@ -99,18 +76,13 @@
                <lb/>im <placeName ref="https://editon-humboldt.de/H0017512 https://www.geonames.org/2931919">Eiffler</placeName> Bimstein <lb/>so unbezweifelt
                sicher <lb/>sind, so ist es nicht <lb/>gut dieselben durch <lb/>anderes, möglichst
                <lb/>unsichere zu verdunkeln<supplied cert="high">.</supplied>
-               <lb/>Auch ich wünschte, dass <lb/>man die Kartoffelkrank<g ref="#typoHyphen"/>
-                    <lb break="no"/>heit dieses Mal <lb/>recht à fond beschriebe <lb/>zur Warnung und zum
+               <lb/>Auch ich wünschte, dass <lb/>man die Kartoffelkrank<g ref="#typoHyphen"/><lb break="no"/>heit dieses Mal <lb/>recht à fond beschriebe <lb/>zur Warnung und zum
                <lb/>Anhalten für künftige <lb/>Zeiten<supplied cert="high">.</supplied> Aber unsere
                <lb/>Akademie ist ja <lb/>in Siriusweite ent<lb break="no"/>fernt von allem
                   <lb/>Staatsleben<supplied cert="high">.</supplied>
             </p>
-            <closer rend="paragraph">
-                    <salute>Dankbar Ihr </salute>
-                <lb/>
-                    <signed>AHt</signed>
-                </closer>
+            <closer rend="paragraph"><salute>Dankbar Ihr </salute>
+                <lb/><signed>AHt</signed></closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

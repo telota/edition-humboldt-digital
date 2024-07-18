@@ -27,42 +27,21 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch,
-                    [1833], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0015079">https://edition-humboldt.de/v8/H0015079</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch,
+                    [1833], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0015079</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0015079.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
                         <institution>Biblioteka Jagiellońska</institution>
                         <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
-                        <idno>
-                            <idno type="shelfmark">A. von Humboldt</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">A. von Humboldt</idno></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
@@ -76,33 +55,28 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession" n="1">
                 <p>
-                    <pb n="1r"/>Sie sind meine Vorsehung <lb/>Theurer! Schikken Sie <lb/>mir wieder
-                    einige Fe<g ref="#typoHyphen"/>
-                    <lb break="no"/>dern<supplied cert="high">.</supplied> Mit welchem <lb/>Verstande <choice>
+                    <pb n="1r"/>Sie sind meine Vorsehung<supplied cert="high">,</supplied>
+                    <lb/>Theurer! Schikken Sie <lb/>mir wieder einige Fe<g ref="#typoHyphen"/><lb break="no"/>dern<supplied cert="high">.</supplied> Mit welchem
+                    <lb/>Verstande <choice>
                         <abbr>u</abbr>
                         <expan>und</expan>
-                    </choice> Fleiss ist <lb/>Ihre <ref xml:id="a6cd3281-28f2-4e9d-8d32-8128f24e9d3e" corresp="#f2ac7f3f-70b4-41ee-ac7f-3f70b471eea9">
-                        <bibl corresp="https://edition-humboldt.de/7DZGI486">Agrostographie</bibl>
-                    </ref>
-                    <note xml:id="f2ac7f3f-70b4-41ee-ac7f-3f70b471eea9" corresp="#a6cd3281-28f2-4e9d-8d32-8128f24e9d3e">Agrostographia synoptica sive enumeratio
+                    </choice> Fleiss ist <lb/>Ihre <ref xml:id="fd1362e3-a122-476a-9362-e3a122776afd" corresp="#c76d0899-1dae-4ee5-ad08-991dae4ee5dc" type="editorialNote"><bibl corresp="https://edition-humboldt.de/7DZGI486">Agrostographie</bibl></ref><note xml:id="c76d0899-1dae-4ee5-ad08-991dae4ee5dc" corresp="#fd1362e3-a122-476a-9362-e3a122776afd" type="editorial">Agrostographia synoptica sive enumeratio
                             graminearum omnium hucusque cognitarum, adjectis characteribus,
                             differentiis et synonymis (<bibl corresp="https://edition-humboldt.de/7DZGI486">Kunth
                                 1833–1850</bibl>, I/II).</note>
                     <lb/>gemacht. Welch ein <lb/>ungeheures Opus! </p>
                 <closer rend="paragraph">
                     <salute>AlHumboldt</salute>
-                    <dateline rend="align(right)">Mittwoch</dateline>
+                    <dateline rend="align(right)">Mittwochs</dateline>
                 </closer>
             </div>
             <postscript>
                 <p>
                     <address>
-                        <addrLine>
-                            <pb n="1v"/>
+                        <addrLine><pb n="1v"/>
                             <choice>
                                 <abbr>Sr</abbr>
                                 <expan>Seiner</expan>
@@ -115,6 +89,5 @@
                     </address>
                 </p>
             </postscript>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -28,23 +28,9 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [3. August
-               1856] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016533">https://edition-humboldt.de/v8/H0016533</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016533</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016533.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], [3. August
+               1856] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -59,12 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
@@ -79,60 +60,40 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Mit ganz ergebensten Danke <lb/>sende ich Ihnen <ref xml:id="e7f000a8-04a2-4e44-b000-a804a20e447d" corresp="#d2ec27f1-43e3-4d32-ac27-f143e3cd3227">Herrn <persName ref="https://editon-humboldt.de/H0016990 http://d-nb.info/gnd/124064272">Bunbury’s</persName>
-                     <lb/>Uebersicht der <placeName ref="https://editon-humboldt.de/">Macaronesian</placeName> Flora</ref>
-                    <note xml:id="d2ec27f1-43e3-4d32-ac27-f143e3cd3227" corresp="#e7f000a8-04a2-4e44-b000-a804a20e447d">
+            <p>Mit ganz ergebensten Danke <lb/>sende ich Ihnen <ref xml:id="cb2c88e0-342c-4d60-ac88-e0342c2d605e" corresp="#fd6f9c7b-4cc5-4c9f-af9c-7b4cc53c9f11" type="editorialNote">Herrn <persName ref="https://editon-humboldt.de/H0016990 http://d-nb.info/gnd/124064272">Bunbury’s</persName>
+                     <lb/>Uebersicht der <placeName ref="https://editon-humboldt.de/">Macaronesian</placeName> Flora</ref><note xml:id="fd6f9c7b-4cc5-4c9f-af9c-7b4cc53c9f11" corresp="#cb2c88e0-342c-4d60-ac88-e0342c2d605e" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/ZGNSUE5W">Bunbury 1856</bibl>, Stevens 1520 </note>
-               <lb/>zurück, welcher Ausdruck, wenn er <lb/>von ihm erfunden ist, ganz ange<g ref="#typoHyphen"/>
-                    <lb break="no"/>nehm und zweckmäßig erscheint. <lb/>Das
-               Prognosticon des alten Drachen<g ref="#typoHyphen"/>
-                    <lb break="no"/>blutbaumes von
+               <lb/>zurück, welcher Ausdruck, wenn er <lb/>von ihm erfunden ist, ganz ange<g ref="#typoHyphen"/><lb break="no"/>nehm und zweckmäßig erscheint. <lb/>Das
+               Prognosticon des alten Drachen<g ref="#typoHyphen"/><lb break="no"/>blutbaumes von
                   <placeName ref="https://editon-humboldt.de/">Orotava</placeName>, daß <lb/>er nicht noch 100 Jahre grünen
-               werde <lb/>ist betrübend, da er <add place="superlinear">Denksäule <add place="superlinear">
-                            <choice>
+               werde <lb/>ist betrübend, da er <add place="superlinear">Denksäule <add place="superlinear"><choice>
                         <abbr>d</abbr>
                         <expan>des</expan>
-                     </choice> Lebens</add> als botanisches Schaustück</add> somit ein kur<g ref="#typoHyphen"/>
-                    <lb break="no"/>zes Daseyn hat, indem er erst seit <lb/>Sie ihn
-               sahen zu existiren angefangen <lb/>hat. Uebrigens wird der so voll<g ref="#typoHyphen"/>
-                    <lb break="no"/>ständig zu seyn sich bemühende Herr
-                  <lb/>
-                    <persName ref="https://editon-humboldt.de/H0016990 http://d-nb.info/gnd/124064272">Bunbury</persName> von seinen Landsleuten <lb/>
-                    <pb n="1v"/>der Unvollständigkeit angeklagt <lb/>werden was die Land-<name type="plant" key="Cryptogamen">Crypto<g ref="#typoHyphen"/>
-                        <lb break="no"/>gamen</name> betrifft. Es fehlen die <lb/>zahlreichen <name type="animal|plant" key="Bacillarien">Bacillarien</name>, welche <lb/>
-                    <persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName> und ziemlich alle schrift<g ref="#typoHyphen"/>
-                    <lb break="no"/>stellernden Botaniker <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">Englands</placeName>
-               <lb/>zu den Pflanzen stellen. Ich mei<g ref="#typoHyphen"/>
-                    <lb break="no"/>nerseits
+                     </choice> Lebens</add> als botanisches Schaustück</add> somit ein kur<g ref="#typoHyphen"/><lb break="no"/>zes Daseyn hat, indem er erst seit <lb/>Sie ihn
+               sahen zu existiren angefangen <lb/>hat. Uebrigens wird der so voll<g ref="#typoHyphen"/><lb break="no"/>ständig zu seyn sich bemühende Herr
+                  <lb/><persName ref="https://editon-humboldt.de/H0016990 http://d-nb.info/gnd/124064272">Bunbury</persName> von seinen Landsleuten <lb/><pb n="1v"/>der Unvollständigkeit angeklagt <lb/>werden was die Land-<name type="plant" key="Cryptogamen">Crypto<g ref="#typoHyphen"/><lb break="no"/>gamen</name> betrifft. Es fehlen die <lb/>zahlreichen <name type="animal|plant" key="Bacillarien">Bacillarien</name>, welche <lb/><persName ref="https://editon-humboldt.de/H0011992 http://d-nb.info/gnd/118774891">Hooker</persName> und ziemlich alle schrift<g ref="#typoHyphen"/><lb break="no"/>stellernden Botaniker <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">Englands</placeName>
+               <lb/>zu den Pflanzen stellen. Ich mei<g ref="#typoHyphen"/><lb break="no"/>nerseits
                lobe den Autor, daß <lb/>er sie <subst>
                   <del rendition="#s">vergessen, oder</del>
                   <add place="superlinear">als nicht zu den <choice>
                         <orig>Pflzn</orig>
                         <reg>Pflanzen</reg>
                      </choice> gehörig</add>
-               </subst> richtig beur<g ref="#typoHyphen"/>
-                    <lb break="no"/>theilt <add place="superlinear">oder vergessen</add> hat, denn eins von beyden <lb/>hat ihn
+               </subst> richtig beur<g ref="#typoHyphen"/><lb break="no"/>theilt <add place="superlinear">oder vergessen</add> hat, denn eins von beyden <lb/>hat ihn
                gehindert einen Fehler zu <lb/>begehen.</p>
             <p>Beigehend sende ich Ihnen auch <lb/>einen kleinen Aufsatz von <choice>
                   <abbr>Dr.</abbr>
                   <expan>Doktor</expan>
                </choice>
-               <lb/>
-                    <persName ref="https://editon-humboldt.de/H0017002 http://d-nb.info/gnd/116186909">Karsten</persName> die
-               kleinen sogenannten <lb/>Schlamm Vulkane bey <placeName ref="https://editon-humboldt.de/H0009590 https://www.geonames.org/3666577">Turbaco</placeName> be<g ref="#typoHyphen"/>
-                    <lb break="no"/>treffend für den
-               Fall, daß er Ihnen <lb/>unbekannt geblieben seyn sollte. <lb/>
-                    <pb n="2r"/>Ich besitze
-               ihn noch einmal in der <lb/>
-                    <ref xml:id="b6daad59-1a2c-426c-9aad-591a2ca26cb7" corresp="#a324d885-ca81-4b9b-a4d8-85ca81bb9b4b">Geologischen Zeitschrift</ref>
-                    <note xml:id="a324d885-ca81-4b9b-a4d8-85ca81bb9b4b" corresp="#b6daad59-1a2c-426c-9aad-591a2ca26cb7">
+               <lb/><persName ref="https://editon-humboldt.de/H0017002 http://d-nb.info/gnd/116186909">Karsten</persName> die
+               kleinen sogenannten <lb/>Schlamm Vulkane bey <placeName ref="https://editon-humboldt.de/H0009590 https://www.geonames.org/3666577">Turbaco</placeName> be<g ref="#typoHyphen"/><lb break="no"/>treffend für den
+               Fall, daß er Ihnen <lb/>unbekannt geblieben seyn sollte. <lb/><pb n="2r"/>Ich besitze
+               ihn noch einmal in der <lb/><ref xml:id="fcbf4bc8-cf2d-41b2-bf4b-c8cf2d71b2f9" corresp="#a4d6cfa5-fd61-4279-96cf-a5fd616279ba" type="editorialNote">Geologischen Zeitschrift</ref><note xml:id="a4d6cfa5-fd61-4279-96cf-a5fd616279ba" corresp="#fcbf4bc8-cf2d-41b2-bf4b-c8cf2d71b2f9" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/ARUEVS4I"> Karsten 1851</bibl>, IV, 579 </note>, die Sie freylich <lb/>wohl auch zur Hand haben.</p>
-            <p>
-                    <choice>
+            <p><choice>
                   <abbr>Dr.</abbr>
                   <expan>Doktor</expan>
                </choice>
@@ -148,13 +109,9 @@
                etwa <lb/>9000 Fuß Höhe in völlig pflanzenloser <lb/>Aschengegend selbst entnommen
                hat. Die <lb/>erstere ist, nach einigen Analysen die <lb/>ich gemacht habe, ohne
                organische Mischung<supplied cert="high">,</supplied>
-               <lb/>
-                    <pb n="2v"/>die leztere aber, der Schlamm, ist <lb/>reich gemischt mit <name type="animal|plant" key="Polygastern">Polygastern</name> und <lb/>
-                    <name type="animal|plant" key="Phytholitharien">Phytolitharien</name>, die gefrittet
-                  erschei<g ref="#typoHyphen"/>
-                    <lb break="no"/>nen. So sind denn auch dort wieder
-               <lb/>Süßwasser Formen, keine Meeresfor<g ref="#typoHyphen"/>
-                    <lb break="no"/>men <hi rendition="#u">im Auswurf</hi>. <choice>
+               <lb/><pb n="2v"/>die leztere aber, der Schlamm, ist <lb/>reich gemischt mit <name type="animal|plant" key="Polygastern">Polygastern</name> und <lb/><name type="animal|plant" key="Phytholitharien">Phytolitharien</name>, die gefrittet
+                  erschei<g ref="#typoHyphen"/><lb break="no"/>nen. So sind denn auch dort wieder
+               <lb/>Süßwasser Formen, keine Meeresfor<g ref="#typoHyphen"/><lb break="no"/>men <hi rendition="#u">im Auswurf</hi>. <choice>
                   <abbr>Dr.</abbr>
                   <expan>Doktor</expan>
                </choice>
@@ -166,50 +123,34 @@
                doch die <del rendition="#s">Beweise und</del> Schlüsse oft <lb/>höchst
                widerstrebend. <persName ref="https://editon-humboldt.de/H0015865 http://d-nb.info/gnd/117388297">Siebold</persName> hat neben <lb/>manchen
                hübschen Beobachtungen viele <lb/>höchst abentheuerliche und leichtfertige
-                  gemacht.<note place="left" hand="#author">
-                        <gap reason="illegible" unit="words" quantity="4"/> Doppelthier <lb/>das er <add place="superlinear">als</add>
-                  <ref xml:id="e1bec5a7-7f8d-4733-bec5-a77f8d073391" corresp="#b16e9f91-2aa0-4c22-ae9f-912aa09c2239">Syngamus <lb/>trachealis 1836 <lb/>abgebildet hat</ref>
-                        <note xml:id="b16e9f91-2aa0-4c22-ae9f-912aa09c2239" corresp="#e1bec5a7-7f8d-4733-bec5-a77f8d073391">
-                        <bibl corresp="https://edition-humboldt.de/">Siebold 1836</bibl>
-                        </note>
+                  gemacht.<note place="left" hand="#author"><gap reason="illegible" unit="words" quantity="4"/> Doppelthier <lb/>das er <add place="superlinear">als</add>
+                  <ref xml:id="ffb2caa8-0c68-4173-b2ca-a80c68917368" corresp="#ac787b57-56a1-4f7c-b87b-5756a19f7c29" type="editorialNote">Syngamus <lb/>trachealis 1836 <lb/>abgebildet hat</ref><note xml:id="ac787b57-56a1-4f7c-b87b-5756a19f7c29" corresp="#ffb2caa8-0c68-4173-b2ca-a80c68917368" type="editorial">
+                        <bibl corresp="https://edition-humboldt.de/">Siebold 1836</bibl></note>
                   <lb/>das nur ein im <lb/>Begattungsact <lb/>aneinander geklebter</note>
                <lb/>Daß die in jedem Bienenstocke vorkommenden <lb/>gelblichen Bienen italienisch zu
-               nennen <lb/>seyen ist wunderbar. Warum nicht Varie<g ref="#typoHyphen"/>
-                    <lb break="no"/>täten? Daß die frühere alte Meinung, die <lb/>reichere oder kargere
-               Kost regirte die <lb/>
-                    <pb n="3r"/>verschiedenen Bienen <choice>
+               nennen <lb/>seyen ist wunderbar. Warum nicht Varie<g ref="#typoHyphen"/><lb break="no"/>täten? Daß die frühere alte Meinung, die <lb/>reichere oder kargere
+               Kost regirte die <lb/><pb n="3r"/>verschiedenen Bienen <choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> Dronen aus <lb/>gleichen <add place="superlinear">geschlechtlich
-                  verschiedenen</add> Eiern, nun plötzlich dahin um<g ref="#typoHyphen"/>
-                    <lb break="no"/>schlagen soll, daß die Männchen aus un<g ref="#typoHyphen"/>
-                    <lb break="no"/>befruchteten, die Weibchen aus befruch<g ref="#typoHyphen"/>
-                    <lb break="no"/>teten entstehen ist viel zugemuthet und <lb/>naiv genug ist das
+                  verschiedenen</add> Eiern, nun plötzlich dahin um<g ref="#typoHyphen"/><lb break="no"/>schlagen soll, daß die Männchen aus un<g ref="#typoHyphen"/><lb break="no"/>befruchteten, die Weibchen aus befruch<g ref="#typoHyphen"/><lb break="no"/>teten entstehen ist viel zugemuthet und <lb/>naiv genug ist das
                Raisonnement: <lb/>“den Unterschied der weiteren und engeren <lb/>Zellen wird eine
-               normale Königinn <lb/>gewiß mit ihrem Hintertheile heraus<g ref="#typoHyphen"/>
-                    <lb break="no"/>fühlen und sie wird durch dieses Gefühl <lb/>
-                    <hi rendition="#u">wissen</hi>, daß sie in einer engen Zelle das abzu<g ref="#typoHyphen"/>
-                    <lb break="no"/>setzende Ey befruchten müßte, während <lb/>sie in einer weiten Zelle
-               das Ei unbefruch<g ref="#typoHyphen"/>
-                    <lb break="no"/>tet abzulegen habe.“ Eben so
+               normale Königinn <lb/>gewiß mit ihrem Hintertheile heraus<g ref="#typoHyphen"/><lb break="no"/>fühlen und sie wird durch dieses Gefühl <lb/><hi rendition="#u">wissen</hi>, daß sie in einer engen Zelle das abzu<g ref="#typoHyphen"/><lb break="no"/>setzende Ey befruchten müßte, während <lb/>sie in einer weiten Zelle
+               das Ei unbefruch<g ref="#typoHyphen"/><lb break="no"/>tet abzulegen habe.“ Eben so
                naiv ist <lb/>der Schluß aus <hi rendition="#u">einer</hi> erstarrten Biene, <lb/>die
                dann nur Männchen gebar, auf den <lb/>allgmeinen Satz, daß die Erstarrung die
                <lb/>Spermatozoen in ihrem Leibe getödtet <lb/>habe 
-               <ref xml:id="d0be385c-04f6-4d94-be38-5c04f6ad946f" corresp="#e23b62be-6ed2-43ac-bb62-be6ed2a3acff">
-                        <choice>
+               <ref xml:id="bf0dedc4-8b37-4737-8ded-c48b370737d8" corresp="#a16177dc-c955-4b58-a177-dcc9551b58d9" type="editorialNote"><choice>
                         <abbr>p.</abbr>
                         <expan>pagina</expan>
-                     </choice> 87.</ref>
-                    <note xml:id="e23b62be-6ed2-43ac-bb62-be6ed2a3acff" corresp="#d0be385c-04f6-4d94-be38-5c04f6ad946f">
+                     </choice> 87.</ref><note xml:id="a16177dc-c955-4b58-a177-dcc9551b58d9" corresp="#bf0dedc4-8b37-4737-8ded-c48b370737d8" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/">Siebold, Carl Theodor Ernst von: Wahre
                         Pathenogenesis bei Schmetterlingen und Bienen. Ein Beitrag zur
                         Fortpflanzungsgeschichte der Thiere Leipzig : Engelmann, 1856. Stevens
                         9642</bibl>
                   </note>
             </p>
-            <p>Die Methode des Zerdrückens der Bienen- <lb/>Eier um die hineingekrochenen Sper<g ref="#typoHyphen"/>
-                    <lb break="no"/>matozoen zu sehen ist auch nichts we<g ref="#typoHyphen"/>
-                    <lb break="no"/>niger als fein. Die von <persName ref="https://editon-humboldt.de/H0017027 http://d-nb.info/gnd/118572180">Leuckart</persName>
+            <p>Die Methode des Zerdrückens der Bienen- <lb/>Eier um die hineingekrochenen Sper<g ref="#typoHyphen"/><lb break="no"/>matozoen zu sehen ist auch nichts we<g ref="#typoHyphen"/><lb break="no"/>niger als fein. Die von <persName ref="https://editon-humboldt.de/H0017027 http://d-nb.info/gnd/118572180">Leuckart</persName>
                <lb/>behauptete vielstrahlige Micropyle <lb/>mißbilligt <choice>
                   <abbr>v</abbr>
                   <expan>von</expan>
@@ -218,33 +159,21 @@
                <choice>
                   <abbr>p.</abbr>
                   <expan>pagina</expan>
-               </choice> 106. Was mag <lb/>
-                    <persName ref="https://editon-humboldt.de/H0017027 http://d-nb.info/gnd/118572180">Leuckart</persName> zu den
-               zerdrückten überall un<g ref="#typoHyphen"/>
-                    <lb break="no"/>klar gewordenen Eiern
+               </choice> 106. Was mag <lb/><persName ref="https://editon-humboldt.de/H0017027 http://d-nb.info/gnd/118572180">Leuckart</persName> zu den
+               zerdrückten überall un<g ref="#typoHyphen"/><lb break="no"/>klar gewordenen Eiern
                sagen? Die <lb/>ganze Beweisführung streicht überall <lb/>an jene, womit er die <name type="animal|plant" key="Polygastern">Polygastern</name>
                <lb/>für einfache Zellen mit einem Nucleus <lb/>erklärt hat, obschon sie mehrere 100
                Zellen <lb/>mit Speise gefüllt zeigen.</p>
-            <p>Das Thema ist freylich sehr inte<g ref="#typoHyphen"/>
-                    <lb break="no"/>ressant, nur
+            <p>Das Thema ist freylich sehr inte<g ref="#typoHyphen"/><lb break="no"/>ressant, nur
                werden es schwerlich die <lb/>Bienenzüchter lösen. Die Darstellung <lb/>in der
-               kleinen Schrift läßt mich kalt. <lb/>Es muß wohl eine ruhigere Wissenschaft<g ref="#typoHyphen"/>
-                    <lb break="no"/>lichkeit sich dahinein vertiefen. Die reich<g ref="#typoHyphen"/>
-                    <lb break="no"/>lich zusammengestellte Litteratur ist <lb/>
-                    <pb n="3v"/>doch dankenswerth, obschon die Bienen<g ref="#typoHyphen"/>
-                    <lb break="no"/>väter das große Wort haben.</p>
-            <p>Ihre gütigen Bemerkungen über die <lb/>
-                    <ref xml:id="e8029cbc-e6ad-4e11-829c-bce6adbe1168" corresp="#d7443a02-65ff-4555-843a-0265ff855545">Gedächtnißrede</ref>
-                    <note xml:id="d7443a02-65ff-4555-843a-0265ff855545" corresp="#e8029cbc-e6ad-4e11-829c-bce6adbe1168">
+               kleinen Schrift läßt mich kalt. <lb/>Es muß wohl eine ruhigere Wissenschaft<g ref="#typoHyphen"/><lb break="no"/>lichkeit sich dahinein vertiefen. Die reich<g ref="#typoHyphen"/><lb break="no"/>lich zusammengestellte Litteratur ist <lb/><pb n="3v"/>doch dankenswerth, obschon die Bienen<g ref="#typoHyphen"/><lb break="no"/>väter das große Wort haben.</p>
+            <p>Ihre gütigen Bemerkungen über die <lb/><ref xml:id="b09e1d39-aeea-4a8a-9e1d-39aeea3a8a3d" corresp="#e1a913bf-cfb9-4642-a913-bfcfb9664291" type="editorialNote">Gedächtnißrede</ref><note xml:id="e1a913bf-cfb9-4642-a913-bfcfb9664291" corresp="#b09e1d39-aeea-4a8a-9e1d-39aeea3a8a3d" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/8ASA4PLY">Ehrenberg 1856</bibl>
                   </note> lassen es mir doch <lb/>bedenklich erscheinen dieselbe dem Antrage <lb/>einer
-               hiesigen Buchhandlung gemäß be<g ref="#typoHyphen"/>
-                    <lb break="no"/>sonders
+               hiesigen Buchhandlung gemäß be<g ref="#typoHyphen"/><lb break="no"/>sonders
                auszugeben. Habe ich auch <lb/>nur das allgemeine Betwesen im <lb/>Sinne gehabt, so
-               werden freylich die <lb/>bösen Zungen es beliebig partikula<g ref="#typoHyphen"/>
-                    <lb break="no"/>risiren und das Lob der einen zum <lb/>Tadel des anderen machen. Ich
-               <lb/>werde mich am besten begnügen meinem <lb/>Amtsgeschäft im kleinen Kreise nach<g ref="#typoHyphen"/>
-                    <lb break="no"/>gekommen zu seyn und von den Besten <lb/>ein
+               werden freylich die <lb/>bösen Zungen es beliebig partikula<g ref="#typoHyphen"/><lb break="no"/>risiren und das Lob der einen zum <lb/>Tadel des anderen machen. Ich
+               <lb/>werde mich am besten begnügen meinem <lb/>Amtsgeschäft im kleinen Kreise nach<g ref="#typoHyphen"/><lb break="no"/>gekommen zu seyn und von den Besten <lb/>ein
                freundliches Wort erhalten zu <lb/>haben.
             </p>
             <closer rend="paragraph">
@@ -252,6 +181,5 @@
                <signed>Ehrenberg</signed>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

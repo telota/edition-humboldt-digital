@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1848] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016501">https://edition-humboldt.de/v8/H0016501</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016501</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016501.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1848] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -56,12 +42,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -76,14 +57,11 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
-            <opener>
-                    <address>
-                  <addrLine>
-                            <choice>
+            <opener><address>
+                  <addrLine><choice>
                         <abbr>Sr</abbr>
                         <expan>Seiner</expan>
                      </choice> Wohlgeboren </addrLine>
@@ -98,18 +76,15 @@
                         <expan>von</expan>
                      </choice>
                      <persName ref="https://editon-humboldt.de/H0016818">Rönne</persName>.</addrLine>
-               </address>
-                </opener>
+               </address></opener>
             <p>Hier, mein theurer <subst>
                   <del rendition="#s">Freund</del>
                   <add place="superlinear">College</add>
-               </subst>, ist der <lb/>
-                    <persName ref="https://editon-humboldt.de/H0016818">Neffe</persName> meines Freundes des <choice>
+               </subst>, ist der <lb/><persName ref="https://editon-humboldt.de/H0016818">Neffe</persName> meines Freundes des <choice>
                   <orig>Praesident</orig>
                   <reg>Praesidenten</reg>
                </choice>
-               <lb/>
-                    <choice>
+               <lb/><choice>
                   <abbr>v</abbr>
                   <expan>von</expan>
                </choice>
@@ -118,17 +93,12 @@
                   <abbr>St</abbr>
                   <expan>Stunde</expan>
                </choice> Musse haben, so bestellen <lb/>Sie ihn zu sich, damit er etwas <lb/>von
-               Ihren grossen Entdeckungen <hi rendition="#u">sehe</hi>
-                    <supplied cert="high">.</supplied>
-               <lb/>Der junge <persName ref="https://editon-humboldt.de/H0016818">Rönne</persName> verdient Aufmunte<g ref="#typoHyphen"/>
-                    <lb break="no"/>rung. </p>
-            <closer rend="paragraph">
-                    <salute>Dankbarst <lb/>Ihr</salute>
-                <lb/>
-                    <signed>AlHumboldt</signed>
+               Ihren grossen Entdeckungen <hi rendition="#u">sehe</hi><supplied cert="high">.</supplied>
+               <lb/>Der junge <persName ref="https://editon-humboldt.de/H0016818">Rönne</persName> verdient Aufmunte<g ref="#typoHyphen"/><lb break="no"/>rung. </p>
+            <closer rend="paragraph"><salute>Dankbarst <lb/>Ihr</salute>
+                <lb/><signed>AlHumboldt</signed>
                <dateline>Sonntag</dateline>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 25. Februar 1838, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016566">https://edition-humboldt.de/v8/H0016566</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016566</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016566.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Christian Gottfried Ehrenberg an Alexander von Humboldt. [Berlin], 25. Februar 1838, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -61,12 +47,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
@@ -79,8 +60,7 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001ABF800000001"/>
             <opener>
@@ -89,39 +69,22 @@
                      <expan>Februar</expan>
                   </choice> 1838.</dateline>
             </opener>
-            <p>Die Stelle über den rothen Schnee bei <lb/> <persName ref="https://editon-humboldt.de/H0012718 http://d-nb.info/gnd/118650130">Aristoteles</persName> heißt: <ref xml:id="d1d313a1-e58d-4c7c-9313-a1e58d9c7ccc" corresp="#b229bcf2-c7ab-4835-a9bc-f2c7ab283513">
-                        <foreign xml:lang="grc">Περὶ τὰ ζῷα ἱστορ</foreign>
-                        <supplied>
-                            <foreign xml:lang="grc">ία</foreign>
-                        </supplied>. Ε. 19.</ref>
-                    <note xml:id="b229bcf2-c7ab-4835-a9bc-f2c7ab283513" corresp="#d1d313a1-e58d-4c7c-9313-a1e58d9c7ccc">Historia animalum, 552 b 5-7</note>
-               <lb/>
-                    <ref xml:id="d134ce9b-a3bf-43b5-b4ce-9ba3bf83b51f" corresp="#af2f38f4-713b-480e-af38-f4713be80e3b">
-                        <foreign xml:lang="grc">Καὶ γὰρ ἐν τοῖς δοκοῦσιν ἀσηπτοτάτοις εἶναι
+            <p>Die Stelle über den rothen Schnee bei <lb/> <persName ref="https://editon-humboldt.de/H0012718 http://d-nb.info/gnd/118650130">Aristoteles</persName> heißt: <ref xml:id="e7fc03af-04fd-45ee-bc03-af04fd95ee8f" corresp="#c1dd93c6-5281-4abd-9d93-c652819abd16" type="editorialNote"><foreign xml:lang="grc">Περὶ τὰ ζῷα ἱστορ</foreign><supplied><foreign xml:lang="grc">ία</foreign></supplied>. Ε. 19.</ref><note xml:id="c1dd93c6-5281-4abd-9d93-c652819abd16" corresp="#e7fc03af-04fd-45ee-bc03-af04fd95ee8f" type="editorial">Historia animalum, 552 b 5-7</note>
+               <lb/><ref xml:id="c201ab79-6904-457d-81ab-796904f57d06" corresp="#fda1f783-c106-44b1-a1f7-83c106e4b1bf" type="editorialNote"><foreign xml:lang="grc">Καὶ γὰρ ἐν τοῖς δοκοῦσιν ἀσηπτοτάτοις εἶναι
                         <lb/>ἐγγίγνονται ζῷα, οἷον ἐν χιόνι τῇ παλαιᾷ <supplied>σκώληκες.</supplied>
-                        <lb/>Γίγνεται δ’ἡ παλαιὰ ἐρυθροτέρ,––</foreign>
-                    </ref>
-                    <note xml:id="af2f38f4-713b-480e-af38-f4713be80e3b" corresp="#d134ce9b-a3bf-43b5-b4ce-9ba3bf83b51f">Übertragung: „Denn auch in dem, was am wenigsten zu
+                        <lb/>Γίγνεται δ’ἡ παλαιὰ ἐρυθροτέρ,––</foreign></ref><note xml:id="fda1f783-c106-44b1-a1f7-83c106e4b1bf" corresp="#c201ab79-6904-457d-81ab-796904f57d06" type="editorial">Übertragung: „Denn auch in dem, was am wenigsten zu
                      faulen scheint, entstehen Lebewesen, wie in altem Schnee Würmer. Der alte wird
-                     röter, …“</note>
-                </p>
+                     röter, …“</note></p>
             <p>Eine kurze Übersicht der gewaltigen <lb/>Literatur über die Färbungen der Gewässer,
-               <lb/>so weit sie mir bekannt geworden, <lb/>habe ich in beiligender Stelle des <ref xml:id="a4e00d19-5d5d-479b-a00d-195d5d279b4c" corresp="#d36a6ae7-009b-4efd-aa6a-e7009b4efd32">In<g ref="#typoHyphen"/>
-                        <lb break="no"/>fusorien-Werkes</ref>
-                    <note xml:id="d36a6ae7-009b-4efd-aa6a-e7009b4efd32" corresp="#a4e00d19-5d5d-479b-a00d-195d5d279b4c">
+               <lb/>so weit sie mir bekannt geworden, <lb/>habe ich in beiligender Stelle des <ref xml:id="a11371ec-067b-42c6-9371-ec067bc2c60e" corresp="#dd422ece-c4ad-445f-822e-cec4ad945f6c" type="editorialNote">In<g ref="#typoHyphen"/><lb break="no"/>fusorien-Werkes</ref><note xml:id="dd422ece-c4ad-445f-822e-cec4ad945f6c" corresp="#a11371ec-067b-42c6-9371-ec067bc2c60e" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>
-                  </note> versucht. <note place="left" hand="#addressee">
-                        <note xml:id="avhrd1e94">Nur
-                     Schneewürmer?</note>
-                    </note>
-                </p>
-            <p>
-                    <persName ref="https://editon-humboldt.de/H0012718 http://d-nb.info/gnd/118650130">Aristoteles</persName> hielt, wie man aus dem Ganzen
+                  </note> versucht. <note place="left" hand="https://edition-humboldt.de/#addressee"><note xml:id="avhrd1e94">Nur
+                     Schneewürmer?</note></note></p>
+            <p><persName ref="https://editon-humboldt.de/H0012718 http://d-nb.info/gnd/118650130">Aristoteles</persName> hielt, wie man aus dem Ganzen
                <lb/>sieht, die rothe Färbung nicht selbst für Thiere, <lb/>sondern glaubte, daß
                daraus, wie aus einer <lb/>Fäulniß, sich Thiere durch generatio primaria
                <lb/>entwickelten <add place="intralinear">und</add> diese Thiere sind die großen
-                  <lb/>
-                    <add place="intralinear">farbigen</add> Schneewürmer (<foreign xml:lang="grc">σκώληκες</foreign>) <name type="animal" key="Telephorus fuscus">Telephorus
+                  <lb/><add place="intralinear">farbigen</add> Schneewürmer (<foreign xml:lang="grc">σκώληκες</foreign>) <name type="animal" key="Telephorus fuscus">Telephorus
                   fuscus</name> (<name type="animal" key="Cantharis">Cantha<lb break="no"/>ris
                   Linné</name>). </p>
             <closer rend="paragraph">
@@ -138,20 +101,11 @@
                   wahrscheinlich <lb/>des Genus <name type="animal" key="Musca">Musca</name>. </p>
             </postscript>
             <pb n="1v" facs="http://resolver.staatsbibliothek-berlin.de/SBB0001ABF800000002"/>
-            <note place="right" hand="#addressee">
-                    <p>
-                        <hi rendition="#u">Rother Schnee Aristot</hi>
-               <lb/>
-                        <gap reason="illegible" unit="words" quantity="4"/>
-               <lb/>
-                        <gap reason="illegible" unit="words" quantity="5"/>
-                    </p>
+            <note place="right" hand="https://edition-humboldt.de/#addressee"><p><hi rendition="#u">Rother Schnee Aristot</hi>
+               <lb/><gap reason="illegible" unit="words" quantity="4"/>
+               <lb/><gap reason="illegible" unit="words" quantity="5"/></p>
                <p>Aristoteles <gap reason="illegible" unit="words" quantity="1"/>
-                  <lb/>
-                        <gap reason="illegible" unit="words" quantity="4"/>
-                    </p>
-                </note>
+                  <lb/><gap reason="illegible" unit="words" quantity="4"/></p></note>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

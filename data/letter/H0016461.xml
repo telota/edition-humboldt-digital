@@ -32,24 +32,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Adolph Schlagintweit an Alexander von Humboldt. Berlin, 6. Februar
-                    1852, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016461">https://edition-humboldt.de/v8/H0016461</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Adolph Schlagintweit an Alexander von Humboldt. Berlin, 6. Februar
+                    1852, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016461</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016461.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -57,24 +43,17 @@
                         <repository>Handschriftenabteilung</repository>
                         <collection>Nachl. Alexander von Humboldt</collection>
                         <idno>
-                            <idno type="shelfmark">gr. Kasten 2, Mappe 4, Nr. 20; 8-10</idno>
-                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1011093</idno>
+                            <idno type="shelfmark">gr. Kasten 2, Mappe 4, Nr. 20; 8-10</idno><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1011093</idno>
                         </idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Schlagintweit, Adolph von (1829-1857)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin (Hauptstadt der heutigen Bundesrepublik
-                        Deutschland)</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
                     <date when="1852-06-02" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
@@ -83,11 +62,9 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
-                    <pb n="8r"/>
-                <note place="mTop" hand="#addressee" rend="sticked">
+                    <pb n="8r"/><note place="mTop" hand="https://edition-humboldt.de/#addressee" rend="sticked">
                     <p>Vulcanica wichtig</p>
                     
                     <p>1) <bibl corresp="https://edition-humboldt.de/MQ26HR4V">
@@ -187,7 +164,7 @@
                                 <expan>künstliche</expan>
                             </choice>
                             <lb/>
-                            <ref xml:id="d071a230-f28a-4d88-b1a2-30f28aad88f7" corresp="#c84562b1-de71-464a-8562-b1de71d64aa3">
+                            <ref xml:id="dfe44030-c87a-4040-a440-30c87a70406d" corresp="#c6b3e013-7fc0-45b5-b3e0-137fc0d5b54e" type="editorialNote">
                                     <choice>
                                         <abbr>Darst.</abbr>
                                         <expan>Darstellung</expan>
@@ -209,21 +186,18 @@
                                             <expan>pagina</expan>
                                         </choice> LVII</hi>
                                     <supplied cert="high">.</supplied>
-                                </ref>
-                            <note xml:id="c84562b1-de71-464a-8562-b1de71d64aa3" corresp="#d071a230-f28a-4d88-b1a2-30f28aad88f7" resp="#LM">Vgl. <bibl corresp="https://edition-humboldt.de/HHXH3PZ6">Rammelsberg 1849</bibl>,
+                                </ref><note xml:id="c6b3e013-7fc0-45b5-b3e0-137fc0d5b54e" corresp="#dfe44030-c87a-4040-a440-30c87a70406d" type="editorial" resp="#LM">Vgl. <bibl corresp="https://edition-humboldt.de/HHXH3PZ6">Rammelsberg 1849</bibl>,
                                     LVII–LVIII. Rammelsberg referiert <bibl corresp="https://edition-humboldt.de/VXX2XB27">Ebelmen 1848</bibl>.</note>
                         </note>
                         <lb/>
-                        <ref xml:id="f7b42ffd-f90d-4ccc-b42f-fdf90d0cccbb" corresp="#f831d59e-188b-40e0-b1d5-9e188b30e026">
-                                <persName ref="https://editon-humboldt.de/H0011594 http://d-nb.info/gnd/119435810">Haidinger</persName> (Dolomie!)</ref>
-                        <note xml:id="f831d59e-188b-40e0-b1d5-9e188b30e026" corresp="#f7b42ffd-f90d-4ccc-b42f-fdf90d0cccbb" resp="#LM">Vgl. den Aufsatz über Dolomit von
-                                    <persName ref="https://editon-humboldt.de/H0017076">Morlot</persName> in den von <persName ref="https://editon-humboldt.de/H0011594 http://d-nb.info/gnd/119435810">Wilhelm von Haidinger</persName> herausgegebenen
+                        <ref xml:id="c67ac152-aad6-4779-bac1-52aad6a77913" corresp="#a48d4087-ab43-40a3-8d40-87ab4350a358" type="editorialNote">
+                                <persName ref="https://editon-humboldt.de/H0011594 http://d-nb.info/gnd/119435810">Haidinger</persName> (Dolomie!)</ref><note xml:id="a48d4087-ab43-40a3-8d40-87ab4350a358" corresp="#c67ac152-aad6-4779-bac1-52aad6a77913" type="editorial" resp="#LM">Vgl. den Aufsatz über Dolomit von
+                                    <persName ref="https://editon-humboldt.de/H0017076 https://d-nb.info/gnd/116929626">Morlot</persName> in den von <persName ref="https://editon-humboldt.de/H0011594 http://d-nb.info/gnd/119435810">Wilhelm von Haidinger</persName> herausgegebenen
                                     <hi rendition="#i">Naturwissenschaftlichen Abhandlungen</hi>
                                 <bibl corresp="https://edition-humboldt.de/DJVGAL5K">Morlot 1847a</bibl>.</note>
                         <supplied cert="high">.</supplied>
                     </p>
-                    <p>3) Suche <bibl corresp="https://edition-humboldt.de/GHS5G47G">
-                            <choice>
+                    <p>3) Suche <bibl corresp="https://edition-humboldt.de/GHS5G47G"><choice>
                                 <abbr>Mém</abbr>
                                 <expan>Mémoire</expan>
                             </choice> d’<persName ref="https://editon-humboldt.de/H0005901 http://viaf.org/viaf/73970870">Élie de Beaumont</persName>
@@ -275,8 +249,7 @@
                                 <abbr>Zeitsch</abbr>
                                 <expan>Zeitschrift</expan>
                             </choice>
-                            <lb/>II, 41 388</bibl>.</p>
-                </note>
+                            <lb/>II, 41 388</bibl>.</p></note>
                     <pb n="8v"/>
                     <gap unit="pages" quantity="1" reason="empty"/>
                 <opener>
@@ -286,9 +259,8 @@
                         <supplied cert="high">Euer</supplied>
                         Excellenz!</salute>
                 </opener>
-                <p>Indem ich mit dem verbindlichsten Danke <lb/>das <ref xml:id="bff8e7d6-7860-4743-b8e7-d67860e74302" corresp="#cec31e4c-751f-4387-831e-4c751f53879b">Werk von <persName ref="https://editon-humboldt.de/H0014271 http://d-nb.info/gnd/118734547">Moleschott</persName>
-                        </ref>
-                    <note xml:id="cec31e4c-751f-4387-831e-4c751f53879b" corresp="#bff8e7d6-7860-4743-b8e7-d67860e74302" resp="#LM">Möglicherweise <bibl corresp="https://edition-humboldt.de/KPXIQ8HF">Moleschott 1851</bibl>. </note> zurücksende, <lb/>erlaube ich mir zugleich Ihnen den Titel <lb/>der
+                <p>Indem ich mit dem verbindlichsten Danke <lb/>das <ref xml:id="a07541d1-e3a5-441e-b541-d1e3a5141e5f" corresp="#f18c695e-037a-40ea-8c69-5e037a10ea86" type="editorialNote">Werk von <persName ref="https://editon-humboldt.de/H0014271 http://d-nb.info/gnd/118734547">Moleschott</persName>
+                        </ref><note xml:id="f18c695e-037a-40ea-8c69-5e037a10ea86" corresp="#a07541d1-e3a5-441e-b541-d1e3a5141e5f" type="editorial" resp="#LM">Möglicherweise <bibl corresp="https://edition-humboldt.de/KPXIQ8HF">Moleschott 1851</bibl>. </note> zurücksende, <lb/>erlaube ich mir zugleich Ihnen den Titel <lb/>der
                     Abhandlungen von <persName ref="https://editon-humboldt.de/H0003780 http://d-nb.info/gnd/118664999">Bunsen</persName>
                     <choice>
                         <abbr>u.</abbr>
@@ -296,8 +268,7 @@
                     </choice> von <lb/>
                     <persName ref="https://editon-humboldt.de/H0016853 https://viaf.org/viaf/24632351/">Sénarmont</persName> mitzutheilen, über welche ich bei
                     <lb/>unserem letzen Besuche die Ehre hatte mit <lb/>Ihnen zu sprechen. </p>
-                <p>Die ausführliche Abhandlung <hi rendition="#u">von <persName ref="https://editon-humboldt.de/H0003780 http://d-nb.info/gnd/118664999">Bunsen</persName>
-                    </hi>
+                <p>Die ausführliche Abhandlung <hi rendition="#u">von <persName ref="https://editon-humboldt.de/H0003780 http://d-nb.info/gnd/118664999">Bunsen</persName></hi>
                     <lb/>über die Processe der vulkanischen Gesteinsbildungen <lb/>
                     <placeName ref="https://editon-humboldt.de/H0006739 https://www.geonames.org/2629691">Islands</placeName>, befindet sich <bibl corresp="https://edition-humboldt.de/MQ26HR4V">Poggendorff Annalen <lb/>Bd. 83. 1851. Seite
                         197–272</bibl>. Es sind hier als Auszug <lb/>seiner größeren Arbeit
@@ -308,8 +279,7 @@
                     <lb/>sehr wichtige Bemerkungen, namentlich über <lb/>
                     <name type="mineral">Zeolith</name>bildung mitgetheilt, in dem (Seite 236, 237
                         usw<supplied cert="high">.</supplied>) <lb/>durch Versuche nachgewiesen ist,
-                    daß ein wasser<g ref="#typoHyphen"/>
-                    <lb break="no"/>haltiges <name type="mineral">Silicat</name>, wie es die <name type="mineral">Zeolithe</name> sind, <lb/>in der Glühhitze nicht nur entstehen sondern sich<lb/>
+                    daß ein wasser<g ref="#typoHyphen"/><lb break="no"/>haltiges <name type="mineral">Silicat</name>, wie es die <name type="mineral">Zeolithe</name> sind, <lb/>in der Glühhitze nicht nur entstehen sondern sich<lb/>
                     <pb n="9v"/>auch erhalten kann, während es nachdem <lb/>es einmal abgeschieden <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
@@ -355,18 +325,13 @@
                         die <lb/>chemische Constitution der darin enthaltenen <lb/>Gemengetheile
                         einen großen, vielleicht <lb/>noch größeren Einfluß ausgeübt hat, <lb/>als
                         selbst die Verhältnisse der Abkühlung</quote>.<persName ref="https://editon-humboldt.de/H0016853 https://viaf.org/viaf/24632351/">
-                        <lb/>
-                        <hi rendition="#u">
-                            <choice>
+                        <lb/><hi rendition="#u"><choice>
                                 <abbr>H.</abbr>
                                 <expan>Henri</expan>
                             </choice> de Sénarmont</hi>
-                    </persName> (<ref xml:id="eadfb847-d832-45bd-9fb8-47d83285bd13" corresp="#f4624136-456e-4ebe-a241-36456e0ebe7a">jetzt an <persName ref="https://editon-humboldt.de/H0003314 http://d-nb.info/gnd/135655390">Beudant</persName>’s Stelle in
-                            <lb/>die <orgName ref="https://editon-humboldt.de/H0016786 http://d-nb.info/gnd/35019-9">Akademie</orgName> gewählt</ref>
-                    <note xml:id="f4624136-456e-4ebe-a241-36456e0ebe7a" corresp="#eadfb847-d832-45bd-9fb8-47d83285bd13" resp="#LM">1852 wählte die <hi rendition="#i">
-                            <orgName ref="https://editon-humboldt.de/H0016786 http://d-nb.info/gnd/35019-9">Académie des sciences</orgName>
-                            </hi>
-                        <persName ref="https://editon-humboldt.de/H0016853 https://viaf.org/viaf/24632351/">Sénarmont</persName> zu ihrem ordentlichen
+                    </persName> (<ref xml:id="b549da06-56f2-4d20-89da-0656f2ad2099" corresp="#d633acdf-9bc2-448c-b3ac-df9bc2248cd5" type="editorialNote">jetzt an <persName ref="https://editon-humboldt.de/H0003314 http://d-nb.info/gnd/135655390">Beudant</persName>’s Stelle in
+                            <lb/>die <orgName ref="https://editon-humboldt.de/H0016786 http://d-nb.info/gnd/35019-9">Akademie</orgName> gewählt</ref><note xml:id="d633acdf-9bc2-448c-b3ac-df9bc2248cd5" corresp="#b549da06-56f2-4d20-89da-0656f2ad2099" type="editorial" resp="#LM">1852 wählte die <hi rendition="#i"><orgName ref="https://editon-humboldt.de/H0016786 http://d-nb.info/gnd/35019-9">Académie des sciences</orgName>
+                            </hi><persName ref="https://editon-humboldt.de/H0016853 https://viaf.org/viaf/24632351/">Sénarmont</persName> zu ihrem ordentlichen
                             Mitglied.</note>) hat seine wichtigen <lb/>Versuche über künstliche Bildung von <name type="mineral">Quarz</name>krystallen <lb/>usw. auf nassem Wege beschrieben
                     in den <bibl corresp="https://edition-humboldt.de/83PVBYPN">
                         <lb/>Annales de chimie, troisième série tome 32. <lb/>1851. <choice>
@@ -402,8 +367,9 @@
                 <closer>
                     <salute>Ich habe die Ehre zu sein <lb/>Euer Excellenz <lb/>dankbarst
                         ergebenster</salute>
-                    <signed>Adolph Schlagintweit</signed>
-                    <dateline>Berlin<supplied cert="high">,</supplied> den 6<supplied cert="high">.</supplied> Februar 1852.</dateline>
+                    <signed><persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">Adolph Schlagintweit</persName></signed>
+                    <dateline><placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName><supplied cert="high">,</supplied> den 6<supplied cert="high">.</supplied> Februar
+                        1852.</dateline>
                     <milestone unit="section" rendition="#hr"/>
                     <lb/>
                     <address>
@@ -436,6 +402,5 @@
                     </address>
                 </closer>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -14,8 +14,7 @@
                     <persName ref="https://d-nb.info/gnd/1109066872">
                         <surname>MacKinney</surname>
                         <forename>Anne Greenwood</forename>
-                    </persName>
-                    <resp>
+                    </persName><resp>
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
@@ -28,24 +27,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Robert Hermann Schomburgk an Alexander von Humboldt. Arékuna-Dorf Uruparu,
-                    17. November 1838, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019591">https://edition-humboldt.de/v8/H0019591</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Robert Hermann Schomburgk an Alexander von Humboldt. Arékuna-Dorf Uruparu,
+                    17. November 1838, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019591</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0019591.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p>Kolumnentitel wurden bei der Transkription nicht berücksichtigt und nicht als Lücken in der Transkription markiert.</p>
@@ -66,17 +51,11 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName ref="https://editon-humboldt.de/H0015645 http://d-nb.info/gnd/1187590">Schomburgk, Sir Robert Hermann (1804-1865)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0020293">Uruparu (Dorf im Hochland von Guyana, westlich
-                        des Pacaraima-Gebirges)</placeName>
+                    <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Schomburgk, Sir Robert Hermann (1804-1865)</persName>
+                    <placeName ref="https://editon-humboldt.de/H0020293">Uruparu</placeName>
                     <date when="1838-11-17" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
@@ -85,52 +64,36 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <pb n="117"/>
             <gap reason="insignificant" unit="lines" quantity="15"/>
             
-            <div>
-                <head rendition="#c">
-                    <hi rendition="#g">(Zweiter Brief.)</hi>
-                </head>
-            </div>
-            <div type="writingSession">
+            <div><head rendition="#c"><hi rendition="#g">(Zweiter Brief.)</hi></head></div><div type="writingSession">
                 
                 <opener>
                     <dateline>Arékuna-Dorf <placeName ref="https://editon-humboldt.de/H0020293">Uruparu</placeName>,
                             <lb/>4°
-                        35′ 30″ N. Br. 61° 28′ W. Länge v. <placeName ref="https://editon-humboldt.de/H0010917 https://www.geonames.org/2647937">Greenw</placeName>., <lb/>den <date>17. Nov. 1838.</date>
-                    </dateline>
+                        35′ 30″ N. Br. 61° 28′ W. Länge v. <placeName ref="https://editon-humboldt.de/H0010917 https://www.geonames.org/2647937">Greenw</placeName>., <lb/>den <date>17. Nov. 1838.</date></dateline>
                     <salute/>
                 </opener>
                 <p>Ich hatte die Ehre, Ihnen
                     von
-                    <placeName ref="https://editon-humboldt.de/H0019207 https://www.geonames.org/3376428">Pirarara</placeName> und <placeName ref="https://editon-humboldt.de/H0019259 https://www.geonames.org/3664186">Fort Sâo Joa<g ref="#typoHyphen"/>
-                        <lb break="no"/>quim</placeName> zu
+                    <placeName ref="https://editon-humboldt.de/H0019207 https://www.geonames.org/3376428">Pirarara</placeName> und <placeName ref="https://editon-humboldt.de/H0019259 https://www.geonames.org/3664186">Fort Sâo Joa<g ref="#typoHyphen"/><lb break="no"/>quim</placeName> zu
                     schreiben <note place="foot" n="**)">Den Brief aus <placeName ref="https://editon-humboldt.de/H0019259 https://www.geonames.org/3664186">Sâo
                             Joaquim</placeName> hat Hr. <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">von
-                            Humboldt</persName> nicht em<g ref="#typoHyphen"/>
-                        <lb break="no"/>pfangen. <space dim="horizontal"/>
-                        <persName ref="https://editon-humboldt.de/H0003264 http://d-nb.info/gnd/118509470">B.</persName>
-                    </note>, und nehme mir die
+                            Humboldt</persName> nicht em<g ref="#typoHyphen"/><lb break="no"/>pfangen. <space dim="horizontal"/><persName ref="https://editon-humboldt.de/H0003264 http://d-nb.info/gnd/118509470">B.</persName></note>, und nehme mir die
                     Freiheit, Ihnen von <lb/>Neuem den Erfolg meiner Reise mitzutheilen.</p>
                 <p>Wir verließen <placeName ref="https://editon-humboldt.de/H0019207 https://www.geonames.org/3376428">Pirarara</placeName> am 8. Oktober; eine
                     ungewöhnlich <lb/>lange Regenzeit hatte unsere Abreise von <placeName ref="https://editon-humboldt.de/H0019259 https://www.geonames.org/3664186">Fort Sâo Joaquim</placeName>
                     <lb/>mehrere Wochen verzögert. Wir folgten am ersten Tage dem 
-                    <lb/>
-                    <gap reason="insignificant" unit="lines" quantity="6"/>
-                    <lb/>
-                    <pb n="118"/>Fluß
+                    <lb/><gap reason="insignificant" unit="lines" quantity="6"/><lb/><pb n="118"/>Fluß
                         <placeName ref="https://editon-humboldt.de/H0010568 https://www.geonames.org/3395065">Mahu</placeName>, welcher Ireng von den Indianern
                     genannt wird, <lb/>aufwärts, und setzten am zweiten Tage auf sein rechtes Ufer
                     <lb/>über, von wo wir nun dem Vorsprung des <placeName ref="https://editon-humboldt.de/H0008000 https://www.geonames.org/3631191">Pacarayma-Gebirges</placeName>
-                    <lb/>in N.W. Richtung folgten. Unser Pfad führte durch die süd<g ref="#typoHyphen"/>
-                    <lb break="no"/>lichen Längenthäler der Gebirgskette,
+                    <lb/>in N.W. Richtung folgten. Unser Pfad führte durch die süd<g ref="#typoHyphen"/><lb break="no"/>lichen Längenthäler der Gebirgskette,
                     welche spärlich von Macusi-<lb break="no"/>Indianern bewohnt sind. Der Fluß
                         <placeName ref="https://editon-humboldt.de/H0019760 https://www.geonames.org/3664473">Coting</placeName>, der Cristaes der
-                    <lb/>Portugiesen, kreuzte unsern Pfad am 15. Oktober, und ich er<g ref="#typoHyphen"/>
-                    <lb break="no"/>richtete mein Zelt an seinem rechten
+                    <lb/>Portugiesen, kreuzte unsern Pfad am 15. Oktober, und ich er<g ref="#typoHyphen"/><lb break="no"/>richtete mein Zelt an seinem rechten
                     Ufer, um astronomische <lb/>Beobachtungen zu nehmen, denen gemäß wir in 4° 10′
                     48″ <lb/>nördl. Breite und 68,2 geogr. Meilen (60 auf 1 Grad) westlich <lb/>von
                         <placeName ref="https://editon-humboldt.de/H0019207 https://www.geonames.org/3376428">Pirarara</placeName> waren. Ich schätzte die
@@ -138,43 +101,31 @@
                     <lb/>und seine Tiefe betrug <measure quantity="5" unit="foot">5</measure> bis
                         <measure quantity="10" unit="foot">10 Fuß</measure>. Die Indianer nennen
                     <lb/>ihn <placeName ref="https://editon-humboldt.de/H0019760 https://www.geonames.org/3664473">Coting</placeName> oder Cotinga, von
-                    seiner Quelle bis zu seinem Zu<g ref="#typoHyphen"/>
-                    <lb break="no"/>sammenfluß
+                    seiner Quelle bis zu seinem Zu<g ref="#typoHyphen"/><lb break="no"/>sammenfluß
                     mit dem <placeName ref="https://editon-humboldt.de/H0009230 https://www.geonames.org/3661019">Tá kutu</placeName>, und betrachten den
-                        <placeName ref="https://editon-humboldt.de/H0019772 https://www.geonames.org/3662083">Zurung</placeName> (Xu<g ref="#typoHyphen"/>
-                    <lb break="no"/>ruma) als einen Affluenten des <placeName ref="https://editon-humboldt.de/H0019760 https://www.geonames.org/3664473">Coting</placeName>. Die Vereinigung bei<g ref="#typoHyphen"/>
-                    <lb break="no"/>der Flüsse war ungefähr 15 geogr. Meilen
+                        <placeName ref="https://editon-humboldt.de/H0019772 https://www.geonames.org/3662083">Zurung</placeName> (Xu<g ref="#typoHyphen"/><lb break="no"/>ruma) als einen Affluenten des <placeName ref="https://editon-humboldt.de/H0019760 https://www.geonames.org/3664473">Coting</placeName>. Die Vereinigung bei<g ref="#typoHyphen"/><lb break="no"/>der Flüsse war ungefähr 15 geogr. Meilen
                     von unserm Lager <lb/>in S.S.O. Richtung, also in ungefähr 4° 25′ nördl. Breite
                     <lb/>und 45 Meilen nördlicher, als in <persName ref="https://editon-humboldt.de/H0012754 http://d-nb.info/gnd/117766119">Arrowsmith</persName>’s
-                    Karte von <placeName ref="https://editon-humboldt.de/H0000448 https://www.geonames.org/3686110">Co<g ref="#typoHyphen"/>
-                        <lb break="no"/>lombia</placeName>angedeutet ist, der gemäß wir in 4°
+                    Karte von <placeName ref="https://editon-humboldt.de/H0000448 https://www.geonames.org/3686110">Co<g ref="#typoHyphen"/><lb break="no"/>lombia</placeName>angedeutet ist, der gemäß wir in 4°
                     10′ nördl. Breite <lb/>bereits an den Quellen des <placeName ref="https://editon-humboldt.de/H0019760 https://www.geonames.org/3664473">Cristaes</placeName> gestanden haben sollten.</p>
                 <p>Nachdem wir den <placeName ref="https://editon-humboldt.de/H0019317 https://www.geonames.org/3663350">Berg Meirari</placeName> passirt
-                    hatten, welcher sich <lb/>zu einer Höhe von <measure quantity="2817" unit="foot">2817 Fuß</measure> über die Savanne und ungefähr <lb/>
-                    <measure quantity="3400" unit="foot">3400 Fuß</measure> über die See erhebt, wendeten
+                    hatten, welcher sich <lb/>zu einer Höhe von <measure quantity="2817" unit="foot">2817 Fuß</measure> über die Savanne und ungefähr <lb/><measure quantity="3400" unit="foot">3400 Fuß</measure> über die See erhebt, wendeten
                     wir uns nach Norden, <lb/>und überstiegen die Berge, welche mit geringer
-                    Abweichung von <lb/>W. nach O. zogen. Wir sahen am 19. Oktober einen Gebirgs<g ref="#typoHyphen"/>
-                    <lb break="no"/>rücken vor uns, der in seiner Formation
+                    Abweichung von <lb/>W. nach O. zogen. Wir sahen am 19. Oktober einen Gebirgs<g ref="#typoHyphen"/><lb break="no"/>rücken vor uns, der in seiner Formation
                     sehr von denen abwich, <lb/>welche wir bisher gesehen hatten. Es waren
                     Sandstein-Gebirge, <lb/>von derselben Richtung als die Granitgebirge; unsere
                     Breite <lb/>war diesen Abend 4° 28′ 52″. Wir hatten am nächsten Tage <lb/>diesen
                     Gebirgsrücken zu übersteigen; er bestand aus rothem und <lb/>weißem Sandsteine,
                     in welchem viele runde und eckige Fragmente <lb/>von Quarz gebettet waren. Ich
-                    schätzte unsere Höhe über dem <lb/>
-                    <pb n="119"/>Meere <measure quantity="3000" unit="foot">3000 Fuß</measure>. Die Vegetation nahm einen ganz andern
-                    <lb/>Karakter an, und ich hatte viel Schönes und Neues zu bewun<g ref="#typoHyphen"/>
-                    <lb break="no"/>dern, doch den Preis trug eine <hi rendition="#aq">
-                        <name type="plant" key="Orchideae">Orchidea</name>
-                    </hi>
+                    schätzte unsere Höhe über dem <lb/><pb n="119"/>Meere <measure quantity="3000" unit="foot">3000 Fuß</measure>. Die Vegetation nahm einen ganz andern
+                    <lb/>Karakter an, und ich hatte viel Schönes und Neues zu bewun<g ref="#typoHyphen"/><lb break="no"/>dern, doch den Preis trug eine <hi rendition="#aq"><name type="plant" key="Orchideae">Orchidea</name></hi>
                     davon, die sich zu einer <lb/>Höhe von <measure quantity="10" unit="foot">10</measure> bis <measure quantity="12" unit="foot">12 Fuß</measure>
                     erhebend, schöne weiße Blumen, gleich <lb/>denen einer <name type="plant" subtype="vernacular" key="Lilium">Lilie</name>, trug. Doch da ich von dieser
                     Pflanze weiter <lb/>zu reden habe, verschiebe ich die nähere Beschreibung, die
                     Ihnen <lb/>in einer andern Form vorgelegt werden wird. Am Abend des <lb/>20.
                     Oktobers sahen wir <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> vor uns,
-                    jene steilen Felsen<g ref="#typoHyphen"/>
-                    <lb break="no"/>wände, die das Wunder
-                    des Landes sind. Doch erreichten wir <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> erst am 2. November, weil sich mehrere Hindernisse in
+                    jene steilen Felsen<g ref="#typoHyphen"/><lb break="no"/>wände, die das Wunder
+                    des Landes sind. Doch erreichten wir <lb/><placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> erst am 2. November, weil sich mehrere Hindernisse in
                     <lb/>den Weg legten, die mich zurückhielten. Ich war jedoch auf seine
                     <lb/>beträchtliche Höhe bereits aufmerksam gemacht worden, da er <lb/>sich in
                     einer Entfernung von 38,5 G. Meilen (60 = 1°) unter <lb/>einem Winkel von 1° 19′
@@ -184,11 +135,8 @@
                     Fittige
                     war <lb/>unmöglich.</p>
                 <p>Diese merkwürdige Gebirgs-Gruppe, der Culminations-<lb break="no"/>Punkt der
-                        <placeName ref="https://editon-humboldt.de/H0008000 https://www.geonames.org/3631191">Sierra-Pacarayma</placeName> (<placeName ref="https://editon-humboldt.de/H0008000 https://www.geonames.org/3631191">Pacareima</placeName>?) und wovon <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Ro<g ref="#typoHyphen"/>
-                        <lb break="no"/>reima</placeName> der höchste ist, zieht sich von S.O. nach N.W., und ist
-                    <lb/>ohngefähr 45 geogr. Meilen lang. Die Berge <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName>, <placeName ref="https://editon-humboldt.de/H0019922 https://www.geonames.org/3661219">Icu<g ref="#typoHyphen"/>
-                        <lb break="no"/>ckenam</placeName>, <placeName ref="https://editon-humboldt.de/H0020302 https://www.geonames.org/3631191">Ajangcatsibang</placeName> und <placeName ref="https://editon-humboldt.de/H0019932 https://www.geonames.org/3661157">Marima</placeName> bilden ein längliches Vier<g ref="#typoHyphen"/>
-                    <lb break="no"/>eck, wovon <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> die nordöstlichste Seite ist. Einer
+                        <placeName ref="https://editon-humboldt.de/H0008000 https://www.geonames.org/3631191">Sierra-Pacarayma</placeName> (<placeName ref="https://editon-humboldt.de/H0008000 https://www.geonames.org/3631191">Pacareima</placeName>?) und wovon <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Ro<g ref="#typoHyphen"/><lb break="no"/>reima</placeName> der höchste ist, zieht sich von S.O. nach N.W., und ist
+                    <lb/>ohngefähr 45 geogr. Meilen lang. Die Berge <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName>, <placeName ref="https://editon-humboldt.de/H0019922 https://www.geonames.org/3661219">Icu<g ref="#typoHyphen"/><lb break="no"/>ckenam</placeName>, <placeName ref="https://editon-humboldt.de/H0020302 https://www.geonames.org/3631191">Ajangcatsibang</placeName> und <placeName ref="https://editon-humboldt.de/H0019932 https://www.geonames.org/3661157">Marima</placeName> bilden ein längliches Vier<g ref="#typoHyphen"/><lb break="no"/>eck, wovon <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> die nordöstlichste Seite ist. Einer
                     Grundlinie <lb/>gemäß, welche ich in der Nähe des Dorfes <placeName ref="https://editon-humboldt.de/H0020317">Awarayambotté</placeName> maß, <lb/>und die Winkel mit
                     dem Sextanten bestimmte, erhebt sich das <lb/>östlichste Ende desselben <measure quantity="5100" unit="foot">5100 Fuß (englisch)</measure> über jenes Dorf,
                     <lb/>während seine Wand eine senkrechte Höhe von <measure quantity="1400" unit="foot">14-</measure> bis <measure quantity="1600" unit="foot">1600
@@ -196,78 +144,52 @@
                     <lb/>hat. Die benachbarten Berge sind von derselben Bildung, und <lb/>die
                     Felsenwand <placeName ref="https://editon-humboldt.de/H0019922 https://www.geonames.org/3661219">Icuckenam</placeName> ist höher,
                     allein nicht in Hinsicht <lb/>der absoluten Höhe; es ist nur die senkrechte
-                    Wand, welche be<g ref="#typoHyphen"/>
-                    <lb break="no"/>deutender als jene von
+                    Wand, welche be<g ref="#typoHyphen"/><lb break="no"/>deutender als jene von
                         <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> ist.</p>
-                <p>
-                    <pb n="120"/>
-                    <ref xml:id="b9277b68-238b-4a71-a77b-68238bda71f8" corresp="#ba9b3542-5eab-48af-9b35-425eabe8af3e">Sie bemerken, daß man in den <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Schweizer-Alpen</placeName> vergebens <lb/>nach einer Felsenwand
+                <p><pb n="120"/><ref xml:id="bfd656d7-82ad-4e78-9656-d782ad7e78dc" corresp="#a847337e-5741-4902-8733-7e5741c90207" type="editorialNote">Sie bemerken, daß man in den <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Schweizer-Alpen</placeName> vergebens <lb/>nach einer Felsenwand
                             von <measure quantity="1600" unit="foot">1600 Fuß</measure> senkrechter
-                            Höhe suchen <lb/>würde (<hi rendition="#aq">
-                            <bibl corresp="https://edition-humboldt.de/UTXG2SH5">Condensed narrative etc.</bibl>
-                                by <persName ref="https://editon-humboldt.de/H0019471 http://d-nb.info/gnd/117517100">
-                                <choice>
+                            Höhe suchen <lb/>würde (<hi rendition="#aq"><bibl corresp="https://edition-humboldt.de/UTXG2SH5">Condensed narrative etc.</bibl>
+                                by <persName ref="https://editon-humboldt.de/H0019471 http://d-nb.info/gnd/117517100"><choice>
                                         <sic>Macgcllieray</sic>
                                         <corr cert="high">MacGillivray</corr>
-                                    </choice>
-                            </persName>
-                        </hi>)</ref>
-                    <note xml:id="ba9b3542-5eab-48af-9b35-425eabe8af3e" corresp="#b9277b68-238b-4a71-a77b-68238bda71f8">
-                        <foreign xml:lang="eng">
-                            <quote>Humboldt remarks
+                                    </choice></persName></hi>)</ref><note xml:id="a847337e-5741-4902-8733-7e5741c90207" corresp="#bfd656d7-82ad-4e78-9656-d782ad7e78dc" type="editorial"><foreign xml:lang="eng"><quote>Humboldt remarks
                                     that a precipice of <measure quantity="6000" unit="foot">6000</measure> or <measure quantity="7000" unit="foot">7000
                                         feet</measure> is a phenomenon much rarer than is usually
                                     believed, and that a rock of <measure quantity="1600" unit="foot">1600 feet</measure> of perpendicular height has
                                     in vain been sought for among the <placeName ref="https://editon-humboldt.de/H0010179 https://www.geonames.org/2658434">Swiss</placeName>
-                                    <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alps</placeName>.</quote>
-                        </foreign>
+                                    <placeName ref="https://editon-humboldt.de/H0002402 https://www.geonames.org/2661786">Alps</placeName>.</quote></foreign>
                             <bibl corresp="https://edition-humboldt.de/UTXG2SH5">Humboldt/MacGillivray
                             1832</bibl>.</note>, und ich glaube <lb/>nicht, daß <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">Guiana</placeName> ein zweites Beispiel dieser Art darbietet; <lb/>dennoch
-                    ist dies nicht der merkwürdigste Umstand, der mit <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Ro<g ref="#typoHyphen"/>
-                        <lb break="no"/>reima</placeName> verknüpft ist. Es sind die Gewässer, welche sich in
-                        rei<g ref="#typoHyphen"/>
-                    <lb break="no"/>cher Fülle von diesen Felsenwänden
+                    ist dies nicht der merkwürdigste Umstand, der mit <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Ro<g ref="#typoHyphen"/><lb break="no"/>reima</placeName> verknüpft ist. Es sind die Gewässer, welche sich in
+                        rei<g ref="#typoHyphen"/><lb break="no"/>cher Fülle von diesen Felsenwänden
                     stürzen, und, so fremdartig <lb/>es erscheinen mag, den drei mächtigsten Flüssen
-                    des nördlichen <lb/>Halbtheils <placeName ref="https://editon-humboldt.de/H0010380 https://www.geonames.org/6255150">Südamerika</placeName>’s zufließen. Die Entstehung dieser Was<g ref="#typoHyphen"/>
-                    <lb break="no"/>serfülle kann ich mir nur durch den
+                    des nördlichen <lb/>Halbtheils <placeName ref="https://editon-humboldt.de/H0010380 https://www.geonames.org/6255150">Südamerika</placeName>’s zufließen. Die Entstehung dieser Was<g ref="#typoHyphen"/><lb break="no"/>serfülle kann ich mir nur durch den
                     Umstand erklären, daß der <lb/>atmosphärische Niederschlag der Wasserdämpfe
                     durch die kalten <lb/>und jähen Felsenwände sehr befördert wird. Locale
                     Umstände, <lb/>und unter denselben in erster Instanz die dichten Waldungen,
-                    <lb/>welche sich gegen Norden von seinem Fuße bis zur Küste des <placeName ref="https://editon-humboldt.de/H0002602 https://www.geonames.org/3373405">
-                        <lb/>Atlantischen Meeres</placeName> ziehen, während sich
-                    nach Süden unabseh<g ref="#typoHyphen"/>
-                    <lb break="no"/>bare Savannen
+                    <lb/>welche sich gegen Norden von seinem Fuße bis zur Küste des <placeName ref="https://editon-humboldt.de/H0002602 https://www.geonames.org/3373405"><lb/>Atlantischen Meeres</placeName> ziehen, während sich
+                    nach Süden unabseh<g ref="#typoHyphen"/><lb break="no"/>bare Savannen
                     erstrecken, mögen zur Vervielfältigung dieser <lb/>flüssigen Niederschläge
                     beitragen. Der Gipfel ist an manchen <lb/>Stellen abgerundet, und mit Sträuchern
-                    und Bäumen be<g ref="#typoHyphen"/>
-                    <lb break="no"/>wachsen; allein diese
+                    und Bäumen be<g ref="#typoHyphen"/><lb break="no"/>wachsen; allein diese
                     Abrundungen erheben sich kaum <measure quantity="56" unit="foot">56
                         Fuß</measure>
-                    <lb/>über die jähe Felsenwand, da der höchste Strauch in einer Ent<g ref="#typoHyphen"/>
-                    <lb break="no"/>fernung von drei Meilen nur einen Winkel
-                    von 8′ mit dersel<g ref="#typoHyphen"/>
-                    <lb break="no"/>ben bildete. <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> bildet daher im Großen das, was die
-                        <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0005362 https://www.geonames.org/2943991">Brocken</placeName>quelle im Kleinen ist. Von
-                    seiner Ostseite ergießt sich <lb/>der <placeName ref="https://editon-humboldt.de/H0019760 https://www.geonames.org/3664473">Coting</placeName>, den wir früher in 4° 10′ 48″ nördl. Br. über<g ref="#typoHyphen"/>
-                    <lb break="no"/>schritten hatten, wo er <measure quantity="280" unit="foot">280 Fuß</measure> breit war. Seine Quellen sind
+                    <lb/>über die jähe Felsenwand, da der höchste Strauch in einer Ent<g ref="#typoHyphen"/><lb break="no"/>fernung von drei Meilen nur einen Winkel
+                    von 8′ mit dersel<g ref="#typoHyphen"/><lb break="no"/>ben bildete. <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> bildet daher im Großen das, was die
+                        <lb/><placeName ref="https://editon-humboldt.de/H0005362 https://www.geonames.org/2943991">Brocken</placeName>quelle im Kleinen ist. Von
+                    seiner Ostseite ergießt sich <lb/>der <placeName ref="https://editon-humboldt.de/H0019760 https://www.geonames.org/3664473">Coting</placeName>, den wir früher in 4° 10′ 48″ nördl. Br. über<g ref="#typoHyphen"/><lb break="no"/>schritten hatten, wo er <measure quantity="280" unit="foot">280 Fuß</measure> breit war. Seine Quellen sind
                     <lb/>in 5° 10′ nördl. Breite, und er sendet seine Gewässer durch <lb/>den
                         <placeName ref="https://editon-humboldt.de/H0009230 https://www.geonames.org/3661019">Tá kutu</placeName>, <placeName ref="https://editon-humboldt.de/H0010519 https://www.geonames.org/3664885">Rio
                         Branco</placeName> und <placeName ref="https://editon-humboldt.de/H0010589 https://www.geonames.org/3631536">Rio Negro</placeName> dem
-                        <placeName ref="https://editon-humboldt.de/H0010499 https://www.geonames.org/3407729">Amazonen<g ref="#typoHyphen"/>
-                        <lb break="no"/>strome</placeName> zu. Etwas nördlicher stürzt sich der <placeName ref="https://editon-humboldt.de/H0019763">Cuya</placeName> von seiner Höhe, <lb/>und fließt durch
+                        <placeName ref="https://editon-humboldt.de/H0010499 https://www.geonames.org/3407729">Amazonen<g ref="#typoHyphen"/><lb break="no"/>strome</placeName> zu. Etwas nördlicher stürzt sich der <placeName ref="https://editon-humboldt.de/H0019763">Cuya</placeName> von seiner Höhe, <lb/>und fließt durch
                     den <placeName ref="https://editon-humboldt.de/H0019758 https://www.geonames.org/3661295">Cacko</placeName> und <placeName ref="https://editon-humboldt.de/H0008782 https://www.geonames.org/3376986">Mazuruni</placeName> (die Indianer nennen <lb/>ihn Mazuring)
                     dem <placeName ref="https://editon-humboldt.de/H0010554 https://www.geonames.org/3378740">Essequibo</placeName> zu. Von der südwestlichen
                     Seite <lb/>stürzen sich mehrere Bäche, welche in den <placeName ref="https://editon-humboldt.de/H0019762 https://www.geonames.org/3644693">Cuckenam</placeName> fließen, <lb/>der seine Quellen
-                    auf der nordöstlichen Seite des benachbar<g ref="#typoHyphen"/>
-                    <lb break="no"/>
-                    <pb n="121"/>ten <placeName ref="https://editon-humboldt.de/H0019922 https://www.geonames.org/3661219">Icuckenam</placeName>
+                    auf der nordöstlichen Seite des benachbar<g ref="#typoHyphen"/><lb break="no"/><pb n="121"/>ten <placeName ref="https://editon-humboldt.de/H0019922 https://www.geonames.org/3661219">Icuckenam</placeName>
                     hat, und durch den <placeName ref="https://editon-humboldt.de/H0019774 https://www.geonames.org/3625137">Yuruani</placeName> und
-                        <placeName ref="https://editon-humboldt.de/H0017130 https://www.geonames.org/3646489">Carony</placeName> in den <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orinoco</placeName> fällt. Der <placeName ref="https://editon-humboldt.de/H0019774 https://www.geonames.org/3625137">Yuruani</placeName>, welchen die Indianer die Quelle
+                        <placeName ref="https://editon-humboldt.de/H0017130 https://www.geonames.org/3646489">Carony</placeName> in den <lb/><placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orinoco</placeName> fällt. Der <placeName ref="https://editon-humboldt.de/H0019774 https://www.geonames.org/3625137">Yuruani</placeName>, welchen die Indianer die Quelle
                     <lb/>des <placeName ref="https://editon-humboldt.de/H0017130 https://www.geonames.org/3646489">Carony</placeName> nennen (Caroni Yamée, d.
-                    i. Caroni-Kopf), fließt <lb/>von der nordwestlichen Seite des <placeName ref="https://editon-humboldt.de/H0019922 https://www.geonames.org/3661219">Icuckenam</placeName>. Vom Berge <placeName ref="https://editon-humboldt.de/H0019932 https://www.geonames.org/3661157">Ma<g ref="#typoHyphen"/>
-                        <lb break="no"/>rima</placeName>, etwas nordöstlich von <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName>, ergießen sich mehrere <lb/>Bäche, die sich in dem
+                    i. Caroni-Kopf), fließt <lb/>von der nordwestlichen Seite des <placeName ref="https://editon-humboldt.de/H0019922 https://www.geonames.org/3661219">Icuckenam</placeName>. Vom Berge <placeName ref="https://editon-humboldt.de/H0019932 https://www.geonames.org/3661157">Ma<g ref="#typoHyphen"/><lb break="no"/>rima</placeName>, etwas nordöstlich von <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName>, ergießen sich mehrere <lb/>Bäche, die sich in dem
                         <placeName ref="https://editon-humboldt.de/H0019756 https://www.geonames.org/3661295">Aruparu</placeName> vereinigen, welcher in
                     den <placeName ref="https://editon-humboldt.de/H0019758 https://www.geonames.org/3661295">Cacko</placeName>
                     <lb/>fällt, der seine Quellen auf dem nordwestlichsten dieser Gruppe, <lb/>dem
@@ -280,62 +202,40 @@
                     <placeName ref="https://editon-humboldt.de/H0019762 https://www.geonames.org/3644693">Cuckenam</placeName>s
                     <lb/>mit dem <placeName ref="https://editon-humboldt.de/H0019774 https://www.geonames.org/3625137">Yuruani</placeName> an nennen die
                     Indianer den Fluß <placeName ref="https://editon-humboldt.de/H0017130 https://www.geonames.org/3646489">Carony</placeName>.</p>
-                <p>Hier vereinigen sich daher die natürlichen Gränzen der <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">briti<g ref="#typoHyphen"/>
-                        <lb break="no"/>schen Guiana</placeName> mit
+                <p>Hier vereinigen sich daher die natürlichen Gränzen der <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">briti<g ref="#typoHyphen"/><lb break="no"/>schen Guiana</placeName> mit
                     denen von <placeName ref="https://editon-humboldt.de/H0000448 https://www.geonames.org/3686110">Colombia</placeName> und <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">Brasilien</placeName>; und dieser <lb/>Punkt wird nicht
-                    allein in geographischer, sondern auch in poli<g ref="#typoHyphen"/>
-                    <lb break="no"/>tischer Hinsicht wichtig, seine physische Beschaffenheit ganz
+                    allein in geographischer, sondern auch in poli<g ref="#typoHyphen"/><lb break="no"/>tischer Hinsicht wichtig, seine physische Beschaffenheit ganz
                     aus <lb/>dem Auge gesetzt, welche nicht minder merkwürdig ist.</p>
                 <p>Diese Gebirgsgruppe ist gewöhnlich mit Wolken bedeckt; <lb/>während der vier
                     Wochen, die ich in ihrer Nähe gewesen bin, <lb/>war <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> zwei Mal, und nur für kurze Zeit,
-                    wolkenleer. <lb/>Meine astronomischen Beobachtungen sind unter diesen Umstän<g ref="#typoHyphen"/>
-                    <lb break="no"/>den sehr kärglich; dazu kommt noch, daß
+                    wolkenleer. <lb/>Meine astronomischen Beobachtungen sind unter diesen Umstän<g ref="#typoHyphen"/><lb break="no"/>den sehr kärglich; dazu kommt noch, daß
                     mein Höhen-Barometer <lb/>so in Unordnung gerathen war, als ich <placeName ref="https://editon-humboldt.de/H0019207 https://www.geonames.org/3376428">Pirarara</placeName> verließ, daß es <lb/>mir nicht gelang,
                     dasselbe zurecht zu setzen, und ich es deßhalb <lb/>zurücklassen mußte; zudem
-                    zerbrach wenige Tage vor meiner An<g ref="#typoHyphen"/>
-                    <lb break="no"/>kunft
+                    zerbrach wenige Tage vor meiner An<g ref="#typoHyphen"/><lb break="no"/>kunft
                     allhier mein bestes Thermometer, so daß ich gegenwärtig <lb/>auf ein einziges
                     beschränkt bin. Einer Anzahl Versuchen gemäß <lb/>hat siedendes Wasser eine
                     Temperatur von <measure quantity="199.95" unit="fahrenheit">199°,95 F.</measure>
-                    im Dorfe <lb/>
-                    <pb n="122"/>
-                    <placeName ref="https://editon-humboldt.de/H0020317">Awarayambotté</placeName>; die damit korrespondirende Höhe muß daher
+                    im Dorfe <lb/><pb n="122"/><placeName ref="https://editon-humboldt.de/H0020317">Awarayambotté</placeName>; die damit korrespondirende Höhe muß daher
                     <lb/>jenen angegebenen zugefügt werden, um die Höhe über der See <lb/>zu
                     erhalten.</p>
-                <p>Während der Nacht, die wir auf <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> zubrachten, stand <lb/>
-                    <persName ref="https://editon-humboldt.de/H0000022 http://d-nb.info/gnd/118685783">Fahrenheit</persName>’s Thermometer um</p>
+                <p>Während der Nacht, die wir auf <placeName ref="https://editon-humboldt.de/H0019799 https://www.geonames.org/3628972">Roreima</placeName> zubrachten, stand <lb/><persName ref="https://editon-humboldt.de/H0000022 http://d-nb.info/gnd/118685783">Fahrenheit</persName>’s Thermometer um</p>
                 <p>
                     <table rows="3" cols="3">
                         <row role="label">
-                            <cell>12 Uhr <hi rendition="#aq">p. m.</hi>
-                            </cell>
-                            <cell>6 Uhr <hi rendition="#aq">a. m.</hi>
-                            </cell>
-                            <cell>7 Uhr <hi rendition="#aq">a. m.</hi>
-                            </cell>
+                            <cell>12 Uhr <hi rendition="#aq">p. m.</hi></cell>
+                            <cell>6 Uhr <hi rendition="#aq">a. m.</hi></cell>
+                            <cell>7 Uhr <hi rendition="#aq">a. m.</hi></cell>
                         </row>
                         <row>
-                            <cell>
-                                <measure quantity="57" unit="fahrenheit">57°</measure>
-                            </cell>
-                            <cell>
-                                <measure quantity="57.5" unit="fahrenheit">57°,5</measure>
-                            </cell>
-                            <cell>
-                                <measure quantity="60" unit="fahrenheit">60°</measure>
-                            </cell>
+                            <cell><measure quantity="57" unit="fahrenheit">57°</measure></cell>
+                            <cell><measure quantity="57.5" unit="fahrenheit">57°,5</measure></cell>
+                            <cell><measure quantity="60" unit="fahrenheit">60°</measure></cell>
                         </row>
                         <row>
-                            <cell>
-                                <measure quantity="13.9" unit="reamur">13°,9</measure>
-                            </cell>
-                            <cell>
-                                <measure quantity="14.1" unit="reamur">14°,1</measure>
-                            </cell>
-                            <cell>
-                                <measure quantity="15.5" unit="reamur">15°,5
-                                Réaumur</measure>
-                            </cell>
+                            <cell><measure quantity="13.9" unit="reamur">13°,9</measure></cell>
+                            <cell><measure quantity="14.1" unit="reamur">14°,1</measure></cell>
+                            <cell><measure quantity="15.5" unit="reamur">15°,5
+                                Réaumur</measure></cell>
                         </row>
                     </table>
                 </p>
@@ -344,27 +244,13 @@
                     Die Wolke, welche <lb/>diesen niedrigen Stand verursachte, war so dicht, daß uns
                     völlige <lb/>Dämmerung umgab.</p>
                 <p>Kaum habe ich Worte, die interessante Flora dieser Gegend <lb/>zu beschreiben;
-                    eine solche Fülle habe ich nie vorher gesehen. Je<g ref="#typoHyphen"/>
-                    <lb break="no"/>der Schritt zeigte mir etwas Neues. Unter <hi rendition="#aq">
-                        <name type="plant">
-                            <name type="plant" key="Melostomaceae">Melastomaceae</name>
-                        </name>
-                    </hi>,
-                        <lb/>
-                    <name type="plant">
-                        <hi rendition="#aq">Andromedae</hi>
-                    </name>, und
-                    Büschen mit lederartigen Blättern und rosen<g ref="#typoHyphen"/>
-                    <lb break="no"/>ähnlichen Blumen fand ich auch jene <name type="plant" key="Orchideae">
-                        <hi rendition="#aq">Orchidea</hi>
-                    </name>, die ich bereits <lb/>im Eingange
-                    dieses Briefes erwähnte. Da ich nicht die litera<g ref="#typoHyphen"/>
-                    <lb break="no"/>rischen Quellen mit mir führe, welche nöthig sind, um mit Ge<g ref="#typoHyphen"/>
-                    <lb break="no"/>wißheit zu untersuchen, ob diese Pflanze
+                    eine solche Fülle habe ich nie vorher gesehen. Je<g ref="#typoHyphen"/><lb break="no"/>der Schritt zeigte mir etwas Neues. Unter <hi rendition="#aq"><name type="plant"><name type="plant" key="Melostomaceae">Melastomaceae</name></name></hi>,
+                        <lb/><name type="plant"><hi rendition="#aq">Andromedae</hi></name>, und
+                    Büschen mit lederartigen Blättern und rosen<g ref="#typoHyphen"/><lb break="no"/>ähnlichen Blumen fand ich auch jene <name type="plant" key="Orchideae"><hi rendition="#aq">Orchidea</hi></name>, die ich bereits <lb/>im Eingange
+                    dieses Briefes erwähnte. Da ich nicht die litera<g ref="#typoHyphen"/><lb break="no"/>rischen Quellen mit mir führe, welche nöthig sind, um mit Ge<g ref="#typoHyphen"/><lb break="no"/>wißheit zu untersuchen, ob diese Pflanze
                     früher schon beschrieben <lb/>sei, – was ich alle Ursache habe, zu bezweifeln, –
                     so habe ich es <lb/>für besser gehalten, die Beschreibung, Zeichnungen und
-                        getrock<g ref="#typoHyphen"/>
-                    <lb break="no"/>neten Exemplare zur
+                        getrock<g ref="#typoHyphen"/><lb break="no"/>neten Exemplare zur
                     Untersuchung an Hrn. <persName ref="https://editon-humboldt.de/H0003249 http://d-nb.info/gnd/118655590">Bentham</persName> in <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>
                     <lb/>zu senden.</p>
                 <p>Ich gedenke morgen meine Untersuchungen weiter nach Westen <lb/>fortzusetzen;
@@ -373,13 +259,9 @@
                     <lb/>aus die Entdeckung der Quellen des <placeName ref="https://editon-humboldt.de/H0010593 https://www.geonames.org/3631298">Orinoco</placeName> melden zu können. </p>
                 <closer>
                     <salute>Ich habe die Ehre, u. s. w.</salute>
-                    <signed>
-                        <persName ref="https://editon-humboldt.de/H0015645 http://d-nb.info/gnd/1187590">
-                            <hi rendition="#g">Robert H.
-                            Schomburgk</hi>
-                        </persName>.</signed>
+                    <signed><persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086"><hi rendition="#g">Robert H.
+                            Schomburgk</hi></persName>.</signed>
                 </closer>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

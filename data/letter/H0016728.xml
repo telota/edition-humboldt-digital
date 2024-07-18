@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], 1828, hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016728">https://edition-humboldt.de/v8/H0016728</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016728</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016728.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], 1828, hg. v. Anne Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -57,12 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -77,12 +58,10 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
             <pb n="1r"/>
-            <p>Meinen schönsten Dank <lb/>verehrter Herr College, <lb/>für Ihre <ref xml:id="d1fbf042-bfbb-43d5-bbf0-42bfbb93d5e1" corresp="#a65140cc-a41c-43a2-9140-cca41cc3a236">Erläuterungen <lb/>über Phosphorescenz des <lb/>Meeres</ref>
-                    <note xml:id="a65140cc-a41c-43a2-9140-cca41cc3a236" corresp="#d1fbf042-bfbb-43d5-bbf0-42bfbb93d5e1">
+            <p>Meinen schönsten Dank <lb/>verehrter Herr College, <lb/>für Ihre <ref xml:id="ea5b0c29-ce27-44cc-9b0c-29ce27e4cc7b" corresp="#fc597f56-d25f-49d9-997f-56d25f09d9d0" type="editorialNote">Erläuterungen <lb/>über Phosphorescenz des <lb/>Meeres</ref><note xml:id="fc597f56-d25f-49d9-997f-56d25f09d9d0" corresp="#ea5b0c29-ce27-44cc-9b0c-29ce27e4cc7b" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/AKHZ472S">Ehrenberg 1831a</bibl>, XXIII, 147—151
                   </note>. Ich habe oft <lb/>Meerwasser, durch dünne <lb/>Leinwand durchgeseihet <choice>
                   <abbr>u</abbr>
@@ -93,21 +72,14 @@
                   <expan>und</expan>
                </choice> an <lb/>dem Tuche hafteten <lb/>formlose organische <lb/>Membranen, Theile
                von <lb/>Thieren, nicht Thiere <lb/>selbst waren<supplied cert="high">.</supplied>
-               Ich sehe <lb/>aus der Anlage dass <lb/>Ihr Commissionär die <lb/>
-                    <pb n="1v"/>Microscope an mich adressirt <lb/>
-                    <choice>
+               Ich sehe <lb/>aus der Anlage dass <lb/>Ihr Commissionär die <lb/><pb n="1v"/>Microscope an mich adressirt <lb/><choice>
                   <abbr>u</abbr>
                   <expan>und</expan>
                </choice> sie gar (was theurer) <lb/>statt durch Fracht, mit <lb/>dem Postwagen
-               abgesandt <lb/>hat. Ich erwarte sie täg<lb break="no"/>lichst<supplied cert="high">.</supplied>
-                </p>
-            <closer rend="within the line">
-                    <salute>Mit inniger Hochach<lb break="no"/>tung</salute>
-               <lb/>
-                    <signed>Ihr <lb/>AHumboldt</signed>
-               <dateline>Dienstags</dateline>
-                </closer>
+               abgesandt <lb/>hat. Ich erwarte sie täg<lb break="no"/>lichst<supplied cert="high">.</supplied></p>
+            <closer rend="within the line"><salute>Mit inniger Hochach<lb break="no"/>tung</salute>
+               <lb/><signed>Ihr <lb/>AHumboldt</signed>
+               <dateline>Dienstags</dateline></closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

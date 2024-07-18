@@ -28,42 +28,21 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 20. April 1839]
-                , hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0000006">https://edition-humboldt.de/v8/H0000006</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin, 20. April 1839]
+                , hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0000006</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0000006.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
                         <institution>Biblioteka Jagiellońska</institution>
                         <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
-                        <idno>
-                            <idno type="shelfmark">A. von Humboldt</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">A. von Humboldt</idno></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
@@ -77,19 +56,17 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession" n="1">
                 <p>
                     <pb n="1r"/>
-                    <note hand="#addressee" place="mTop">le 20 <choice>
+                    <note hand="https://edition-humboldt.de/#addressee" place="mTop">le 20 <choice>
                             <abbr>avr.</abbr>
                             <expan>avril</expan>
                         </choice> 39</note>Mille <choice>
                         <orig>graces</orig>
                         <reg>grâces</reg>
-                    </choice> pour <ref xml:id="c99a79ab-39b0-4be6-9a79-ab39b00be6af" corresp="#e947493d-dc00-456f-8749-3ddc00656fc4">cette folie</ref>
-                    <note xml:id="e947493d-dc00-456f-8749-3ddc00656fc4" corresp="#c99a79ab-39b0-4be6-9a79-ab39b00be6af">Die folgenden Ausführungen nehmen Bezug auf eine
+                    </choice> pour <ref xml:id="a525709e-c7fc-40e1-a570-9ec7fc50e1b1" corresp="#e285251d-53e8-4971-8525-1d53e889714a" type="editorialNote">cette folie</ref><note xml:id="e285251d-53e8-4971-8525-1d53e889714a" corresp="#a525709e-c7fc-40e1-a570-9ec7fc50e1b1" type="editorial">Die folgenden Ausführungen nehmen Bezug auf eine
                             von <persName ref="https://editon-humboldt.de/H0000047 http://viaf.org/viaf/88987880/">Frédéric Fayot</persName> für den
                             „Dictionnaire de la Conversation et de la Lecture“ verfasste
                             biographische Notiz über den Maler <persName ref="https://editon-humboldt.de/H0016082 http://d-nb.info/gnd/129717134">Carl von
@@ -126,7 +103,7 @@
                         <orig>etoit</orig>
                         <reg>étoit</reg>
                     </choice> né. Voilà le <lb/>vrai <persName ref="https://editon-humboldt.de/H0016082 http://d-nb.info/gnd/129717134">Steuben</persName>
-                    d’une <lb/>ancienne famille noble est <lb/>né en <placeName ref="https://editon-humboldt.de/H0004796">Franconie</placeName> dans une <lb/>campagne de <choice>
+                    d’une <lb/>ancienne famille noble est <lb/>né en <placeName ref="https://editon-humboldt.de/H0004796 https://www.geonames.org/2803465">Franconie</placeName> dans une <lb/>campagne de <choice>
                         <abbr>Mad.</abbr>
                         <expan>Madame</expan>
                     </choice> de <lb/>
@@ -202,8 +179,7 @@
                             <orig>Petersbourg</orig>
                             <reg>Pétersbourg</reg>
                         </choice>
-                    </placeName>
-                    <supplied cert="high">.</supplied>
+                    </placeName><supplied cert="high">.</supplied>
                     <lb/>Comme il montra beaucoup <lb/>de talent on hazarda de <lb/>l’envoyer <choice>
                         <orig>a</orig>
                         <reg>à</reg>
@@ -218,8 +194,7 @@
                         <choice>
                             <sic>Rober</sic>
                             <corr>Robert</corr>
-                        </choice> Lefebre </persName> et <persName ref="https://editon-humboldt.de/H0002205 http://d-nb.info/gnd/119456915">Prud’homme</persName>
-                    <supplied cert="high">.</supplied>
+                        </choice> Lefebre </persName> et <persName ref="https://editon-humboldt.de/H0002205 http://d-nb.info/gnd/119456915">Prud’homme</persName><supplied cert="high">.</supplied>
                     Les liaisons <lb/>avec <persName ref="https://editon-humboldt.de/H0013415 http://d-nb.info/gnd/119284936">
                         <choice>
                             <orig>Gerard</orig>
@@ -300,6 +275,5 @@
                 </p>
                 <signed rend="paragraph">AHt</signed>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -4,24 +4,10 @@
             <titleStmt>
                 <title>Alexander von Humboldt an Friedrich Wilhelm IV. Charlottenhof, 5. Oktober
                     1840</title>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Friedrich Wilhelm IV. Charlottenhof, 5. Oktober
-                    1840. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019718">https://edition-humboldt.de/v8/H0019718</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Friedrich Wilhelm IV. Charlottenhof, 5. Oktober
+                    1840. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019718</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0019718.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -33,18 +19,12 @@
                 </msDesc>
                 <listWit>
                     <witness>
-                        <bibl type="print">Leitner
-                            2013, Brief 59, 175–177</bibl>
-                    </witness>
+                        <bibl type="print" corresp="https://edition-humboldt.de/RIEI5QKW">Humboldt
+                            2013</bibl>, Brief 59, 175–177 </witness>
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
@@ -59,189 +39,306 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
+                <note place="mTop" hand="#unknown">Pro Reg.</note>
+                <note place="left" hand="#unknown">Genehmigt <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>bereits in extenso <lb/>verfügt<supplied cert="high">,</supplied> auch die
+                    <lb/>einzelnen Gesuche <lb/>der Brüder</note>
+                <note place="mTop" hand="#unknown"><head>?</head>Lese ich recht, so ist der Antrag
+                    genehmigt und bereits auch <lb/>die <add place="superlinear">nicht beiliegenden</add>
+                    einzelnen Gesuche der Brüder <add place="superlinear">in extenso</add> verfügt,
+                    also für <lb/>mich bey der Sache nichts mehr zu thun.<lb type="preserve"/>Dr.
+                    11. <choice>
+                        <abbr>Oct.</abbr>
+                        <expan>October</expan>
+                    </choice> 40.</note>
+                <note place="inline" hand="#unknown">Eventualiter folgt die Ordre an die <choice>
+                        <abbr>G. O.</abbr>
+                        <expan>Generalordenscommission</expan>
+                    </choice>
+                    <lb/>und <lb/>die Geld-Anweisung.</note>
                 <opener>
                     <dateline/>
-					<salute>Ew. Königliche Majestät</salute>
+                    <salute><persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                                <abbr>Ew.</abbr>
+                                <expan>Eure</expan>
+                            </choice> Königliche Majestät</persName></salute>
                 </opener>
-				<p>haben mir zu befehlen geruhet, Allerhöchstderselben <lb/>Vorschläge über die, der Lage und
-                        Lebensverhältnisse<supplied cert="high">n</supplied>
+                <note place="inline" hand="https://edition-humboldt.de/#H0002178">den <space dim="horizontal" unit="chars" quantity="2"/> ten Oct. 1840. <lb/><head>An die General Ordens
+                        Commission.</head>
+                    <lb/>Ich habe dem erkannten Verdienste des Reisenden <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert Schom<g ref="#typoHyphen"/><lb break="no"/>burgk</persName>, welcher
+                    die Kunst-Kammer<supplied cert="high">,</supplied> das <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">Herbarium</orgName> und<choice>
+                        <sic>,</sic>
+                        <corr type="deleted"/>
+                    </choice> das zoologische <subst>
+                        <del rendition="#s">Museum</del>
+                        <add place="superlinear">Cabinet</add>
+                    </subst>
+                    <lb/>zu Berlin <subst>
+                        <del rendition="#s">berreicher</del>
+                        <add place="intralinear">auf die uneigennützigste Weise bereichert</add>
+                    </subst> hat<supplied cert="high">,</supplied>
+                    <lb/>den rothen Adler Orden der dritten Classe zuerkannt und beauf<g ref="#typoHyphen"/><lb break="no"/>trage die <choice>
+                        <abbr>G.O.C.</abbr>
+                        <expan>Generalordenscommission</expan>
+                    </choice> die Insignien dem wirklichen Geheimen Rath Excellenz <lb/><persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">von Humboldt</persName> zu überschicken, welcher sie
+                    befördern wird.<lb type="preserve"/>FW.</note>
+                <note place="inline" hand="https://edition-humboldt.de/#H0002178">
+                    <head>An den <choice>
+                            <abbr>StaFm.</abbr>
+                            <expan>Staats- und Finanzminister</expan>
+                        </choice>
+                        <persName ref="https://editon-humboldt.de/H0012602 http://d-nb.info/gnd/116296143"><choice>
+                                <abbr>Gr.</abbr>
+                                <expan>Graf</expan>
+                            </choice> von Albensleben</persName>.</head>
+                </note>
+            </div>
+            <div type="writingSession">
+                <note place="inline" hand="https://edition-humboldt.de/#H0002178">Ich habe den Gärtner <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Richard Schomburgk</persName> zum Reisenden des <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">botanischen Gartens</orgName> zu <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+                    <lb/>und zum Begleiter seines im <placeName ref="https://editon-humboldt.de/H0010934 https://www.geonames.org/2635167">großbrittannischen</placeName> Colonial-Dienste stehenden Bruders <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert Schomburgk</persName>
+                    <lb/>nach <placeName ref="https://editon-humboldt.de/H0005508 https://www.geonames.org/3378950">Demerari</placeName> in der <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">Guayana</placeName> auf zwey Jahre bestimmt, und ihm für
+                    diesen Zeitraum ein <subst>
+                        <del rendition="#s">Ge<g ref="#typoHyphen"/><lb break="no"/>halt</del>
+                        <add place="intralinear">Renumeration</add>
+                    </subst> von <measure quantity="600" unit="reichsthaler">Sechshundert
+                        Thalern</measure> jährlich, so wie für die Reise von <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> über <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName> und <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName> und
+                        <placeName ref="https://editon-humboldt.de/H0005116 https://www.geonames.org/3374084">Barbados</placeName> nach <placeName ref="https://editon-humboldt.de/H0005508 https://www.geonames.org/3378950">Demerari</placeName> ebenfalls <measure quantity="600" unit="reichsthaler">Sechsundert Thaler</measure> ausgesetzt, und er<g ref="#typoHyphen"/><lb break="no"/>mächtige Sie, die Remuneration für das
+                    erste Jahr und die bemerkten Reise-Kosten zusammen mit <lb/>Ein <measure quantity="1200" unit="reichsthaler">Tausend Zweihundert Thalern</measure>
+                    aus dem Extraordinario der General Staats Casse sofort dem <choice>
+                        <abbr>w. G. R.</abbr>
+                        <expan>wirklichen Geheimen Rat</expan>
+                    </choice>
+                    <lb/>Excellenz <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">von Humboldt</persName> zahlen zu
+                    lassen, welcher diese Summe vorgeschossen hat. Weiterhin ist die <lb/>jährliche
+                    Remuneration von <measure quantity="600" unit="reichsthaler">600 r.</measure>
+                    dem Ministerio des öffentlichen Unterrichts zu überweisen<supplied cert="high">.</supplied><lb type="preserve"/>FW.</note>
+                <p>haben mir zu befehlen geruhet, Allerhöchstderselben <lb/>Vorschläge über die, der
+                    Lage und Lebensverhältnisse<supplied cert="high">n</supplied>
                     <lb/>angemessene Remuneration des ausgezeichneten <lb/>und kühnen Reisenden
-                    Robert Schomburgk einzu<g ref="#typoHyphen"/>
-                    <lb break="no"/>reichen.</p>
-                <p>I. Ueber die geographischen und naturwissenschaft<g ref="#typoHyphen"/>
-                    <lb break="no"/>lichen Verdienste des Reisenden, welcher der Geo<g ref="#typoHyphen"/>
-                    <lb break="no"/>graphischen Gesellschaft zu London durch
-                    seine <lb/>vortrefliche Küstenaufnahme der klippenreichen west<g ref="#typoHyphen"/>
-                    <lb break="no"/>indischen Insel Anegada bekannt geworden
-                    war, und <lb/>nochmals, sechs Jahre lang, einen wichtigen Länderstrich
-                    <lb/>zwischen Demarari (der englischen Guyana) und dem, <lb/>von mir besuchten
-                    Oberen Orinoco durchstrichen <lb/>und neu entdekt hat, brauche ich nichts zu
-                    <lb/>sagen, da Ew. Majestät diese Verdienste aus <choice>
+                        <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086"><hi rendition="#u">Robert</hi>
+                        <hi rendition="#u">Schomburgk</hi></persName> einzu<g ref="#typoHyphen"/><lb break="no"/>reichen.</p>
+                <p>I. Ueber die geographischen und naturwissenschaft<g ref="#typoHyphen"/><lb break="no"/>lichen Verdienste des Reisenden, welcher der <orgName ref="https://editon-humboldt.de/H0000581 http://d-nb.info/gnd/1009629-2">Geo<g ref="#typoHyphen"/><lb break="no"/>graphischen
+                        Gesellschaft</orgName> zu <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName> durch
+                    seine <lb/>vortrefliche Küstenaufnahme der klippenreichen west<g ref="#typoHyphen"/><lb break="no"/>indischen Insel <placeName ref="https://editon-humboldt.de/H0002456 https://www.geonames.org/3577778">Anegada</placeName> bekannt geworden war, und <lb/>nachmals, sechs Jahre
+                    lang, einen wichtigen Länderstrich <lb/>zwischen <placeName ref="https://editon-humboldt.de/H0005508 https://www.geonames.org/3378950">Demarari</placeName> (der <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">englischen
+                        Guyana</placeName>) und dem, <lb/>von mir besuchten <placeName ref="https://editon-humboldt.de/H0017279 https://www.geonames.org/8129028">Oberen Orinoco</placeName> durchstrichen <lb/>und neu entdekt
+                    hat, brauche ich nichts zu <lb/>sagen, da <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Eurer</expan>
+                        </choice> Majestät</persName> diese Verdienste aus <choice>
                         <sic>dem</sic>
                         <corr cert="high">den</corr>
                     </choice>
                     <lb/>bereits erschienenen astronomischen und pittoresken <lb/>Reiseberichten
                     bekannt sind. </p>
-                <p>Robert Schomburgk hat als Ausländer, als Preusse, <lb/>durch sein sittliches
+                <p><persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert Schomburgk</persName> hat als Ausländer, als
+                        <placeName ref="https://editon-humboldt.de/H0008406">Preusse</placeName>, <lb/>durch sein sittliches
                     Betragen, wie durch seine <lb/>Kenntnisse und praktische Geschiklichkeit, sich
-                    <lb/>dermaassen das Vertrauen der Grossbritannischen <lb/>
-                    <pb n="68v"/>Regierung
-                    gesichert, dass er in wenigen Wochen zur <lb/>trigonometrischen Aufnahme der
-                    Provinz Guyana, zu <lb/>Schlichtung der Streitigkeiten mit den Brasilianern
+                    <lb/>dermaassen das Vertrauen der <placeName ref="https://editon-humboldt.de/H0010934 https://www.geonames.org/2635167">Grossbritannischen</placeName>
+                    <lb/><pb n="68v"/>Regierung gesichert, dass er in wenigen Wochen zur
+                    <lb/>trigonometrischen Aufnahme der Provinz <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">Guyana</placeName>, zu <lb/>Schlichtung der Streitigkeiten mit den
+                        <placeName ref="https://editon-humboldt.de/H0005346 https://www.geonames.org/3469034">Brasilianern</placeName>
                     <lb/>und zur Sicherung der, von diesen oft fanatisch <lb/>zerstöhrten
                     protestantischen Missionen ausgesandt <lb/>wird. Diese Facta beruhen nicht auf
                     seinem <lb/>Zeugniss und dem meiner Correspondenz-Nachrichten, <lb/>sie beruhen
-                    auf dem gedrukten, Ew. Majestät <lb/>vorgelegten Bericht des <hi rendition="#u">Anniversary</hi>
+                    auf dem gedrukten, <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Eurer</expan>
+                        </choice> Majestät</persName>
+                    <lb/>vorgelegten Bericht des <hi rendition="#u">Anniversary</hi>
                     <hi rendition="#u">Meeting</hi>
                     <hi rendition="#u">des 25sten</hi>
-                    <lb/>
-                    <hi rendition="#u">Mai 1840</hi>. Der Freiherr von Bülow, der den Reisenden
-                    <lb/>lange in London gekannt, bezeugt auch gern, dass <lb/>derselbe daselbst, in
-                    den höheren Klassen der Gesellschaft, <lb/>mit vieler Auszeichnung und Vorliebe
-                    behandelt <lb/>worden ist. </p>
-                <p>Robert Schomburgk hat bereits, vor mehreren Jahren <lb/>in den Einöden der
-                    tropischen Zone ohne je <lb/>zu wissen, dass er in sein Vaterland zurük
-                    <lb/>kehrte, Sr <choice>
-                        <abbr>Maj.</abbr>
-                        <expan>Majestät</expan>
-                    </choice> der Königinn, die er das <lb/>Glück gehabt hatte, als Braut bei der
-                        Durch<lb break="no"/>reise durch Sachsen, zu erbliken, ein schönes
-                    <lb/>Pflanzen-Geschlecht gewidmet. Er hat <lb/>jezt, wie die Anlage beweiset,
-                    auf die <lb/>uneigennüzigste Weise die Kunst-Kammer, <lb/>das Herbarium und das
-                    zoologische Cabinett <lb/>bereichert. Die Geschenke, die er gemacht <lb/>haben
-                    wenigstens einen Geldwerth von <lb/>
-                    <hi rendition="#u">135</hi> Friedrich d’or
-                    (Feder- und Kunst-Sachen <lb/>35 Fr. d’or; Bücher, prächtig gebunden und
-                    <lb/>Handzeichnungen 30; Pflanzen für das Her<g ref="#typoHyphen"/>
-                    <lb break="no"/>barium 60; ausgestopfte Vögel 10 Fr. d’or <lb/>= 135 Friedrich
-                    d’or). Seiner äusseren Lage <lb/>nach, hat der junge (36jährige) Mann so
-                    <lb/>lange er in der Vermessung ist, da andere <lb/>Officiere unter ihm stehen,
-                    den Rang eines <lb/>Oberst Lieutenants in der Colonial Miliz. </p>
-                <p>Unter diesen Verhältnissen und da es <lb/>in England viel Freude machen wird,
-                    dass <lb/>Ew. <choice>
-                        <abbr>Königl</abbr>
-                        <expan>Königliche</expan>
-                    </choice> Majestät einen Ihrer Un<g ref="#typoHyphen"/>
-                    <lb break="no"/>terthanen
-                    einer Auszeichnung würdigen <lb/>schlage ich allerunterthänigst vor: </p>
-                <p>dem Robert Schomburgk den <lb/>Rothen Adler Orden, nicht <lb/>vierter, sondern
-                        <hi rendition="#u">dritter Klasse</hi>
+                    <lb/><hi rendition="#u">Mai 1840</hi>. Der <persName ref="https://editon-humboldt.de/H0003770 http://d-nb.info/gnd/118667955">Freiherr von
+                        Bülow</persName>, der den Reisenden <lb/>lange in London gekannt, bezeugt
+                    auch gern, dass <lb/>derselbe daselbst, in den höheren Klassen der Gesellschaft,
+                    <lb/>mit vieler Auszeichnung und Vorliebe behandelt <lb/>worden ist. </p>
+                <p><persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert Schomburgk</persName> hat bereits, vor mehreren
+                    Jahren <lb/>in den Einöden der tropischen Zone ohne je <lb/>zu wissen, dass er
+                    in sein <placeName ref="https://editon-humboldt.de/H0008406">Vaterland</placeName> zurük<lb break="no"/>kehrte, <persName ref="https://editon-humboldt.de/H0002149 http://d-nb.info/gnd/118688634"><choice>
+                            <abbr>Se</abbr>
+                            <expan>Seiner</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Maj.</abbr>
+                            <expan>Majestät</expan>
+                        </choice> der Königinn</persName>, die er das <lb/>Glück gehabt hatte, als
+                    Braut bei der Durch<g ref="#typoHyphen"/><lb break="no"/>reise durch Sachsen, zu
+                    erblicken, ein schönes <lb/>Pflanzen-Geschlecht gewidmet. Er hat <lb/>jezt, wie
+                    die
+                    Anlage
+                    beweiset, auf die <lb/>uneigennüzigste Weise die Kunst-Kammer, <lb/>das
+                    Herbarium und das zoologische Cabinett <lb/>bereichert. Die Geschenke, die er
+                        gemacht<supplied cert="high">,</supplied>
+                    <lb/>haben wenigstens einen Geldwerth von <lb/><measure quantity="135" unit="friedrichsdor"><hi rendition="#u">135</hi> Friedrichs d’or</measure>
+                    (Feder- und Kunst-Sachen <lb/><measure quantity="35" unit="friedrichsdor">35 <choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Friedrichs</expan>
+                        </choice> d’or</measure>; Bücher, prächtig gebunden und <lb/>Handzeichnungen
+                        <measure quantity="30" unit="friedrichsdor">30</measure>; Pflanzen für das
+                        Her<g ref="#typoHyphen"/><lb break="no"/>barium <measure quantity="60" unit="friedrichsdor">60</measure>; ausgestopfte Vögel <measure quantity="10" unit="friedrichsdor">10 <choice>
+                            <abbr>Fr.</abbr>
+                            <expan>Friedrichs</expan>
+                        </choice> d’or</measure>
+                    <lb/>= <measure quantity="135" unit="friedrichsdor">135 Friedrichs
+                        d’or</measure>)<supplied cert="high">.</supplied> Seiner äusseren Lage
+                    <lb/>nach, hat der junge (36 jährige) <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Mann</persName>
+                    so <lb/>lange er in der Vermessung ist, da andere <lb/>Officiere unter ihm
+                    stehen, den Rang eines <lb/>Oberst Lieutenants in der Colonial Miliz. </p>
+                <p>Unter diesen Verhältnissen und da es <lb/>in <placeName ref="https://editon-humboldt.de/H0005653 https://www.geonames.org/6269131">England</placeName> viel Freude machen wird, dass <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><lb/><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Euer</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Königl</abbr>
+                            <expan>Königliche</expan>
+                        </choice> Majestät</persName> einen Ihrer Un<g ref="#typoHyphen"/><lb break="no"/>terthanen einer Auszeichnung würdigen<supplied cert="high">,</supplied>
+                    <lb/>schlage ich allerunterthänigst vor: </p>
+                <p>dem <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert Schomburgk</persName> den <lb/>Rothen Adler
+                    Orden, nicht <lb/>vierter, sondern <hi rendition="#u">dritter Klasse</hi>
                     <lb/>zu verleihen.</p>
                 <p>Bei der Veröffentlichung dieser allergnädigsten <lb/>Verleihung wäre die Person
-                    wohl am schiklich<lb break="no"/>sten also zu bezeichnen: <hi rendition="#u">Robert</hi>
-                    <hi rendition="#u">Schomburgk</hi>, <lb/>
-                    <hi rendition="#u">im</hi>
-                    <hi rendition="#u">Königlich</hi>-<hi rendition="#u">Grossbritannischen</hi>
+                    wohl am schiklich<lb break="no"/>sten also zu bezeichnen: <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086"><hi rendition="#u">Robert</hi>
+                        <hi rendition="#u">Schomburgk</hi></persName>, <lb/><hi rendition="#u">in</hi>
+                    <hi rendition="#u">Königlich</hi>-<hi rendition="#u"><placeName ref="https://editon-humboldt.de/H0010934 https://www.geonames.org/2635167">Grossbritannischem</placeName></hi>
                     <hi rendition="#u">Colonial-Dienste</hi>
-                    <lb/>
-                    <hi rendition="#u">in Guyana</hi>. Bei Gelehrten die in fremdem <lb/>
-                    <pb n="69r"/>Dienste stehen, ist die <hi rendition="#u">unmittelbare</hi>
-                    Verleihung <lb/>des Ordens der dritten, ja selbst der zweiten <lb/>Klasse
-                    mehrmals, unter der glorreichen Regierung <lb/>des hochseligen Königs Majestät,
-                    geschehen.</p>
-                <p>II. Die Lage, in welcher sich Robert Schomburgk <lb/>in einem Lande befindet, das
-                    er in allen Richtungen <lb/>auf den Flüssen durchstrichen, macht es sehr
-                    <lb/>wünschenswerth, dass Ew. <choice>
-                        <abbr>Königl.</abbr>
-                        <expan>Königliche</expan>
-                    </choice> Majestät das <lb/>allerunterthänigste Gesuch des Bruders <hi rendition="#u">Richard</hi>
-                    <lb/>
-                    <hi rendition="#u">Schomburgk</hi>, eines sehr gutgearteten jungen
-                    <lb/>Mannes, der in den hiesigen Gärten gearbeitet <lb/>huldreichst genehmigen
-                    mögen. Es wäre sehr <lb/>zu bedauren, wenn diese trefliche Gelegenheit <lb/>den
-                    botanischen Garten und die Naturhisto<lb break="no"/>rischen Museen zu
-                    bereichern verloren ginge. <lb/>Ich würde den Vorschlag gewagt haben, wenn
-                    <lb/>Ew. <choice>
-                        <abbr>Kön</abbr>
-                        <expan>Königliche</expan>
-                    </choice> Majestät auch nicht, durch die <lb/>Geschenke des Reisenden, Sich
-                    veranlasst <lb/>glaubten, etwas ihm angenehmes zu thun. <lb/>Da der Sohn des
-                    Garten-Directors Otto <lb/>von der Insel Cuba und von Caracas, wohin <lb/>ihn
-                    des <choice>
-                        <abbr>hochsel.</abbr>
-                        <expan>hochseligen</expan>
-                    </choice> Königs Majestät ausgesandt <lb/>zurükkommt, so hat der botanische
-                    Garten <lb/>ohnedies gegenwärtig keinen Reisenden ausserhalb <lb/>Europa. Die
-                    Fortsezung und Vervielfältigung dieser <lb/>wenig kostbaren Unternehmungen sind
-                    aber sehr <lb/>nothwendig, damit unsere botanischen und <lb/>zoologischen
-                    Sammlungen nicht zu sehr hinter <lb/>denen der Nachbarländer zurükbleiben. </p>
-                <p>Ich schlage ganz gehorsamst Ew. Königlichen <lb/>
-                    <supplied cert="high">Majestät</supplied> aller huldreichst zu genehmigen vor, dass</p>
-                <p>der Gärtner <hi rendition="#u">Richard</hi>
-                    <hi rendition="#u">Schomburgk</hi>
+                    <lb/><hi rendition="#u">in <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">Guyana</placeName></hi>.
+                    Bei Gelehrten<supplied cert="high">,</supplied> die in fremdem <lb/><pb n="69r"/>Dienste stehen, ist die <hi rendition="#u">unmittelbare</hi> Verleihung
+                    <lb/>des Ordens der dritten, ja selbst der zweiten <lb/>Klasse mehrmals, unter
+                    der glorreichen Regierung <lb/>des <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">hochseligen Königs
+                        Majestät</persName>, geschehen.</p>
+                <p>II<supplied cert="high">.</supplied> Die Lage, in welcher sich <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert Schomburgk</persName>
+                    <lb/>in einem Lande befindet, das er in allen Richtungen <lb/>auf den Flüssen
+                    durchstrichen, macht es sehr <lb/>wünschenswerth, dass <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Euer</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Königl.</abbr>
+                            <expan>Königliche</expan>
+                        </choice> Majestät</persName> das <lb/>allerunterthänigste Gesuch des
+                    Bruders <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078"><hi rendition="#u">Richard</hi>
+                        <lb/><hi rendition="#u">Schomburgk</hi></persName>, eines sehr gutgearteten
+                    jungen <lb/>Mannes, der in den hiesigen Gärten gearbeitet, <lb/>huldreichst
+                    genehmigen mögen. Es wäre sehr <lb/>zu bedauren, wenn diese trefliche
+                    Gelegenheit <lb/>den <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">botanischen Garten</orgName> und
+                    die Naturhisto<lb break="no"/>rischen Museen zu bereichern<supplied cert="high">,</supplied> verloren ginge. <lb/>Ich würde den Vorschlag gewagt haben,
+                    wenn <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr><lb/>Ew.</abbr>
+                            <expan>Euer</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Kön</abbr>
+                            <expan>Königliche</expan>
+                        </choice> Majestät</persName> auch nicht, durch die <lb/>Geschenke des
+                        <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Reisenden</persName>, Sich veranlasst
+                    <lb/>glaubten, etwas ihm angenehmes zu thun. <lb/>Da der <persName ref="https://editon-humboldt.de/H0020801 https://d-nb.info/gnd/117171522">Sohn</persName> des Garten-Directors <persName ref="https://editon-humboldt.de/H0011286 http://d-nb.info/gnd/117196134">Otto</persName>
+                    <lb/>von der Insel <placeName ref="https://editon-humboldt.de/H0000494 https://www.geonames.org/3562981">Cuba</placeName> und von <placeName ref="https://editon-humboldt.de/H0007134 https://www.geonames.org/3646738">Caracas</placeName>, wohin <lb/>ihn des <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986"><choice>
+                            <abbr>hochsel.</abbr>
+                            <expan>hochseligen</expan>
+                        </choice> Königs Majestät</persName> ausgesandt<supplied cert="high">,</supplied>
+                    <lb/>zurükkommt, so hat der <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">botanische Garten</orgName>
+                    <lb/>ohnedies gegenwärtig keinen Reisenden ausserhalb <lb/><placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName>. Die Fortsezung und Vervielfältigung
+                    dieser <lb/>wenig kostbaren Unternehmungen sind aber sehr <lb/>nothwendig, damit
+                    unsere botanischen und <lb/>zoologischen Sammlungen nicht zu sehr hinter
+                    <lb/>denen der Nachbarländer zurükbleiben. </p>
+                <p>Ich schlage ganz gehorsamst <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Eurer</expan>
+                        </choice> Königlichen <lb/><supplied cert="high">Majestät</supplied></persName> aller huldreichst zu genehmigen vor,
+                    dass</p>
+                <p>der Gärtner <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078"><hi rendition="#u">Richard</hi>
+                        <hi rendition="#u">Schomburgk</hi></persName>
                     <lb/>als <hi rendition="#u">Reisender</hi>
                     <hi rendition="#u">des</hi>
-                    <choice>
-                        <abbr>
-                            <hi rendition="#u">königl</hi>.</abbr>
-                        <expan>königlichen</expan>
-                    </choice>
-                    <hi rendition="#u">botanischen</hi>
-                    <lb/>
-                    <hi rendition="#u">Gartens</hi> und Sammler für die Museen <lb/>seinen
-                    älteren Bruder Robert <lb/>Schomburgk nach Süd-Amerika <lb/>begleite, dass er
-                    zwei Jahre <lb/>dort verweile, dass ihm eine <lb/>jährliche Remuneration von
-                        <lb/>
-                    <hi rendition="#u">sechshundert</hi> Thalern und <lb/>für die Hinreise
-                    von Berlin <lb/>über Hamburg, London <add place="superlinear">und</add>
-                    Barbados, <lb/>
-                    <subst>
+                    <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8"><choice>
+                            <abbr><hi rendition="#u">königl</hi>.</abbr>
+                            <expan>königlichen</expan>
+                        </choice>
+                        <hi rendition="#u">botanischen</hi>
+                        <lb/><hi rendition="#u">Gartens</hi></orgName> und Sammler für die Museen
+                    <lb/>seinen älteren Bruder <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert
+                        <lb/>Schomburgk</persName> nach <placeName ref="https://editon-humboldt.de/H0010380 https://www.geonames.org/6255150">Süd
+                        Amerika</placeName>
+                    <lb/>begleite, dass er zwei Jahre <lb/>dort verweile, dass ihm eine
+                    <lb/>jährliche Remuneration von <lb/><measure quantity="600" unit="reichsthaler"><hi rendition="#u">sechshundert</hi> Thalern</measure> und <lb/>für die
+                    Hinreise von <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+                    <lb/>über <placeName ref="https://editon-humboldt.de/H0006791 https://www.geonames.org/2911298">Hamburg</placeName>, <placeName ref="https://editon-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>
+                    <add place="superlinear">und</add>
+                    <placeName ref="https://editon-humboldt.de/H0005116 https://www.geonames.org/3374084">Barbados</placeName>, <lb/><subst>
                         <del rendition="#s">zur</del>
                         <add place="intralinear">nach</add>
-                    </subst> Demarare in der <lb/>Guayana, ebenfalls <hi rendition="#u">sechs<g ref="#typoHyphen"/>
-                        <lb break="no"/>hundert</hi> Thalern aus dem
-                    <lb/>fond ad extraordinaria gezahlt <lb/>werden.</p>
-                <p>Die Reisekosten bis Demarare sind nicht <lb/>von mir zu hoch angeschlagen da die
-                    <lb/>Passage von Flamouth bis zur Insel <lb/>
-                    <pb n="69v"/>Barbados allein 50
-                    Pfund Sterling <lb/>kostet. Als jährliche Remuneration <lb/>für Reisende des
-                    botanischen Gartens <lb/>sind, unter der vorigen Regierung, gewöhn<lb break="no"/>lich 800 Thaler und mehr ausgesezt <lb/>gewesen, aber der in allem sehr
-                        beschei<g ref="#typoHyphen"/>
-                    <lb break="no"/>dene Robert Schomburgk hat
-                    erklärt <lb/>sich mit 600 Thalern für den, seiner <lb/>Leitung anvertrauten
-                    jüngeren Bruder <lb/>zu begnügen, obgleich der Ankauf eines <lb/>grossen Canots
-                    und der Unterhalt von <lb/>sechs Ruderern in Guyana unumgänglich <lb/>nothwendig
-                    sein werden. </p>
-                <p>Da die ganze Expedition den Continent <lb/>schon am 17ten October verlassen
-                    <lb/>muss und die Verbindung mit Demarare <lb/>leicht erschwert werden könnte,
-                    <lb/>so erflehe ich von der Gnade Ew. Majestät: </p>
+                    </subst>
+                    <placeName ref="https://editon-humboldt.de/H0005508 https://www.geonames.org/3378950">Demarare</placeName> in der <lb/><placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">Guayana</placeName>, ebenfalls <measure quantity="600" unit="reichsthaler"><hi rendition="#u">sechs<g ref="#typoHyphen"/><lb break="no"/>hundert</hi> Thalern</measure> aus dem <lb/>fond ad
+                    extraordinaria gezahlt <lb/>werde.</p>
+                <p>Die Reisekosten bis <placeName ref="https://editon-humboldt.de/H0005508 https://www.geonames.org/3378950">Demarare</placeName> sind nicht
+                    <lb/>von mir zu hoch angeschlagen<supplied cert="high">,</supplied> da die
+                    <lb/>Passage von <placeName ref="https://editon-humboldt.de/H0020489 https://www.geonames.org/2649715">Falmouth</placeName> bis zur
+                    Insel <lb/><pb n="69v"/><placeName ref="https://editon-humboldt.de/H0005116 https://www.geonames.org/3374084">Barbados</placeName> allein
+                        <measure quantity="50" unit="pfund_sterling">50 Pfund Sterling</measure>
+                    <lb/>kostet. Als jährliche Remuneration <lb/>für Reisende des <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">botanischen Gartens</orgName>
+                    <lb/>sind, unter der vorigen Regierung, gewöhn<lb break="no"/>lich <measure quantity="800" unit="reichsthaler">800 Thaler</measure> und mehr ausgesezt
+                    <lb/>gewesen, aber der in allem sehr beschei<g ref="#typoHyphen"/><lb break="no"/>dene <persName ref="https://editon-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert Schomburgk</persName> hat
+                        erklärt<supplied cert="high">,</supplied>
+                    <lb/>sich mit <measure quantity="600" unit="reichsthaler">600 Thalern</measure>
+                    für den, seiner <lb/>Leitung anvertrauten jüngeren <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Bruder</persName>
+                    <lb/>zu begnügen, obgleich der Ankauf eines <lb/>grossen Canots und der
+                    Unterhalt von <lb/>sechs Ruderern in <placeName ref="https://editon-humboldt.de/H0011159 https://www.geonames.org/3378535">Guyana</placeName> unumgänglich <lb/>nothwendig sein werden. </p>
+                <p>Da die ganze Expedition den <placeName ref="https://editon-humboldt.de/H0005696 https://www.geonames.org/6255148">Continent</placeName>
+                    <lb/>schon am 17ten October verlassen <lb/>muss und die Verbindung mit
+                        <placeName ref="https://editon-humboldt.de/H0005508 https://www.geonames.org/3378950">Demarare</placeName>
+                    <lb/>leicht erschwert werden könnte, <lb/>so erflehe ich von der Gnade <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Eurer</expan>
+                        </choice> Majestät</persName>: </p>
                 <p>dass die huldreiche Verleihung <lb/>des Ordens recht bald <lb/>geschehe, auch
-                    (wie in solchen <lb/>Fällen bisher immer erfolgt <lb/>ist) die Zahlung der 600
-                    r. <lb/>Reisekosten, wie der 600 r. <lb/>erstjährigen Gehaltes, also <lb/>die
-                    Zahlung von 1200 r. <lb/>gleich statt finde. </p>
-                <p>Sobald ich erfahre, dass Ew. <choice>
-                        <abbr>Königl</abbr>
-                        <expan>Königliche</expan>
-                    </choice>
-                    <lb/>Majestät diese allerunterthänigsten <lb/>Vorschläge zu billigen geruhet
-                    <lb/>haben werde ich aus eigenen <lb/>Mitteln, zur Beschleunigung der
-                    <lb/>Abreise die 1200 r. vorschiessen <lb/>und den Director des Ministerium
-                    <lb/>der Unterrichts, geistlichen und <lb/>Medicinal Angelegenheiten von
-                    <lb/>Ladenberg ersuchen die Instruc<g ref="#typoHyphen"/>
-                    <lb break="no"/>tion
-                    des Reisenden Richard <lb/>Schomburgk ausfertigen zu lassen. <lb/>Die Gnade
-                    welch Ew. <choice>
-                        <abbr>Kön.</abbr>
-                        <expan>Königliche</expan>
-                    </choice> Majestät <lb/>beiden Brüdern zuwenden, wird <lb/>den alten Vater,
-                    Prediger in <lb/>Voigtstedt, um so mehr erheitern, <lb/>als er 6 Jahre lang über
+                    (wie in solchen <lb/>Fällen bisher immer erfolgt <lb/>ist) die Zahlung der
+                        <measure quantity="600" unit="reichsthaler">600 r.</measure>
+                    <lb/>Reisekosten, wie der <measure quantity="600" unit="reichsthaler">600
+                        r.</measure>
+                    <lb/>erstjährigen Gehaltes, also <lb/>die Zahlung von <measure quantity="1200" unit="reichsthaler">1200 r.</measure>
+                    <lb/>gleich statt finde. </p>
+                <p>Sobald ich erfahre, dass <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Euer</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Königl.</abbr>
+                            <expan>Königliche</expan>
+                        </choice>
+                        <lb/>Majestät</persName> diese allerunterthänigsten <lb/>Vorschläge zu
+                    billigen geruhet <lb/>haben<supplied cert="high">,</supplied> werde ich aus
+                    eigenen <lb/>Mitteln, zur Beschleunigung der <lb/>Abreise die <measure quantity="1200" unit="reichsthaler">1200 r.</measure> vorschiessen <lb/>und
+                    den Director des Ministerium<supplied cert="high">s</supplied>
+                    <lb/>der Unterrichts, geistlichen und <lb/>Medicinal Angelegenheiten <persName ref="https://editon-humboldt.de/H0004251 http://d-nb.info/gnd/116643765">von <lb/>Ladenberg</persName> ersuchen die Instruc<g ref="#typoHyphen"/><lb break="no"/>tion des Reisenden <persName ref="https://editon-humboldt.de/H0015643 http://d-nb.info/gnd/118759078">Richard <lb/>Schomburgk</persName> ausfertigen zu lassen.
+                    <lb/>Die Gnade welch <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
+                            <abbr>Ew.</abbr>
+                            <expan>Euer</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Kön.</abbr>
+                            <expan>Königliche</expan>
+                        </choice> Majestät</persName>
+                    <lb/>beiden Brüdern zuwenden, wird <lb/>den alten <persName ref="https://editon-humboldt.de/H0015642 https://d-nb.info/gnd/1282890638">Vater</persName>, Prediger in <lb/><placeName ref="https://editon-humboldt.de/H0019810 https://www.geonames.org/2816734">Voigtstedt</placeName>, um so mehr erheitern, <lb/>als er 6 Jahre lang über
                     die jugendlichen <lb/>Verirrungen eines anderen, in der
-                    <lb/>Sternschanze
-                    gefangen gehaltenen Sohnes <lb/>getrauert hat. </p>
-				<closer>Ich erflehe in allertiefster <lb/>Ehrfurcht, Ew. <choice>
-                        <abbr>Kön</abbr>
-                        <expan>Königlichen</expan>
-                    </choice> Majestät <lb/>unterthänigster  <signed>Al. v. Humboldt</signed>
+                        <lb/><placeName ref="https://editon-humboldt.de/H0020580">Sternschanze</placeName> gefangen gehaltenen
+                        <persName ref="https://editon-humboldt.de/H0015644 http://d-nb.info/gnd/116911921">Sohnes</persName>
+                    <lb/>getrauert hat. </p>
+                <closer>Ich ersterbe in allertiefster <lb/>Ehrfurcht, <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Ew. <choice>
+                            <abbr>Kön</abbr>
+                            <expan>Königlichen</expan>
+                        </choice> Majestät</persName>
+                    <lb/>unterthänigster <signed>Al. v. Humboldt</signed>
                 </closer>
-                <dateline>Charlottenhof, den 5ten <choice>
+                <dateline><placeName ref="https://editon-humboldt.de/H0007342 https://www.geonames.org/2940177">Charlottenhof</placeName>, den 5ten <choice>
                         <abbr>Oct</abbr>
                         <expan>October</expan>
                     </choice>
                     <lb/>1840.</dateline>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [August 1838] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016626">https://edition-humboldt.de/v8/H0016626</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016626</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016626.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [August 1838] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -57,12 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -77,14 +58,10 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
-            <pb n="1r"/>
-                <opener>
-                    <address>
-                  <addrLine>
-                            <choice>
+            <pb n="1r"/><opener><address>
+                  <addrLine><choice>
                         <abbr>Sr</abbr>
                         <expan>Seiner</expan>
                      </choice> Wohlgeboren</addrLine>
@@ -93,12 +70,10 @@
                         <expan>Professor</expan>
                      </choice>
                      <choice>
-                        <abbr>D<hi rendition="#sup">r</hi>
-                                </abbr>
+                        <abbr>D<hi rendition="#sup">r</hi></abbr>
                         <expan>Doktor</expan>
                      </choice> Ehrenberg</addrLine>
-               </address>
-                </opener>
+               </address></opener>
             <pb n="1v"/>
             <p>Nur wenn man so herzlich befreundet <lb/>ist, als wir es sind, theurer <choice>
                   <abbr>Ehrenb.</abbr>
@@ -111,22 +86,14 @@
                <lb/>stehen worin ich also (wegen <lb/>der Undurchdringlichkeit <lb/>der Körper) Sie
                nicht aufneh<lb break="no"/>men kann. Ich betrübe <lb/>mich minder, da ich glaube
                <lb/>Sie hätten ohnedies meine <lb/>Bitte nicht erfüllen können. Ver<lb break="no"/>gessen Sie, theurer Freund, <lb/>nicht mir Ankündigungen <lb/>Ihres herrlichen
-               Werkes (<ref xml:id="bcef736f-0488-4cf2-af73-6f04889cf2e3" corresp="#e43a70d5-022b-4b70-ba70-d5022bdb7014">
-                        <choice>
+               Werkes (<ref xml:id="f09ee72d-4aa7-4241-9ee7-2d4aa7d24106" corresp="#a2f98064-48ba-4b4a-b980-6448ba2b4aea" type="editorialNote"><choice>
                         <abbr>Infus</abbr>
                         <expan>Infusionstierchen</expan>
-                     </choice>
-                    </ref>
-                    <note xml:id="e43a70d5-022b-4b70-ba70-d5022bdb7014" corresp="#bcef736f-0488-4cf2-af73-6f04889cf2e3">
+                     </choice></ref><note xml:id="a2f98064-48ba-4b4a-b980-6448ba2b4aea" corresp="#f09ee72d-4aa7-4241-9ee7-2d4aa7d24106" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>,
                      -57,
-                     62, 86, 101, 103 </note>) <lb/>mit nach <ref xml:id="e9380c6f-1e9d-4ce4-b80c-6f1e9dace464" corresp="#f17a3385-9ffd-4efc-ba33-859ffd9efc88">Babel</ref>
-                    <note xml:id="f17a3385-9ffd-4efc-ba33-859ffd9efc88" corresp="#e9380c6f-1e9d-4ce4-b80c-6f1e9dace464">Babel=Paris</note> zu <lb/>geben<supplied cert="high">.</supplied>
-                </p>
-            <closer rend="paragraph">
-                    <signed>AHumboldt</signed>
-                </closer>
+                     62, 86, 101, 103 </note>) <lb/>mit nach <ref xml:id="b4b0be69-78cc-4cde-b0be-6978cc2cde00" corresp="#fe89d90b-74dd-4931-89d9-0b74dd1931ac" type="editorialNote">Babel</ref><note xml:id="fe89d90b-74dd-4931-89d9-0b74dd1931ac" corresp="#b4b0be69-78cc-4cde-b0be-6978cc2cde00" type="editorial">Babel=Paris</note> zu <lb/>geben<supplied cert="high">.</supplied></p>
+            <closer rend="paragraph"><signed>AHumboldt</signed></closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

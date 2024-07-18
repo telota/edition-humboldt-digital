@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1832] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016502">https://edition-humboldt.de/v8/H0016502</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016502</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016502.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1832] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -57,12 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -76,21 +57,25 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
-            <pb n="1r"/>
-            <opener>
-               <address>
+            <pb n="471r"/>
+            <p>Darf ich Sie bitten, theurer <lb/><persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>, den
+               Ueberbringer <lb/>dieser Zeilen Herrn Bernhard <lb/><persName ref="https://editon-humboldt.de/H0013204 http://d-nb.info/gnd/118522396">Cotta</persName>, einen talentvollen <lb/>Geognosten aus <placeName ref="https://editon-humboldt.de/H0017596 https://www.geonames.org/2822939">Tharand</placeName>
+               <lb/>bei <placeName ref="https://editon-humboldt.de/H0005565 https://www.geonames.org/2935022">Dresden</placeName>, <ref xml:id="b6419834-b267-4000-8198-34b267900028" corresp="#e448e15a-db48-4702-88e1-5adb489702d0" type="editorialNote">der so schön <lb/>die versteinten Hölzer <lb/>untersucht hat</ref><note xml:id="e448e15a-db48-4702-88e1-5adb489702d0" corresp="#b6419834-b267-4000-8198-34b267900028" type="editorial">
+                     <bibl corresp="https://edition-humboldt.de/UBERKVN5">Cotta 1832</bibl>
+                  </note>, freundlichst <lb/>aufzunehmen. </p>
+            <closer rend="paragraph">
+               <signed>AlHumboldt</signed>
+               <dateline rend="align(left)">Donnerstags</dateline>
+               <pb n="472v"/><address>
                   
-                  <addrLine>
-                            <choice>
+                  <addrLine><choice>
                         <abbr>Sr.</abbr>
                         <expan>Seiner</expan>
                      </choice> Wohlgeboren</addrLine>
                   <addrLine>Herrn Professor Ehrenberg</addrLine>
-                  <addrLine>
-                            <choice>
+                  <addrLine><choice>
                         <abbr>Friedrichsstr.</abbr>
                         <expan>Friedrichsstraße</expan>
                      </choice>
@@ -100,21 +85,7 @@
                      </choice> 94</addrLine>
                   <addrLine>AlHumboldt</addrLine>
                </address>
-            </opener>
-            <pb n="1v"/>
-            <p>Darf ich Sie bitten, theurer <lb/>
-                    <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>, den
-               Ueberbringer <lb/>dieser Zeilen Herrn Bernhard <lb/>
-                    <persName ref="https://editon-humboldt.de/H0013204 http://d-nb.info/gnd/118522396">Cotta</persName>, einen talentvollen <lb/>Geognosten aus <placeName ref="https://editon-humboldt.de/H0017596 https://www.geonames.org/2822939">Tharand</placeName>
-               <lb/>bei <placeName ref="https://editon-humboldt.de/H0005565 https://www.geonames.org/2935022">Dresden</placeName>, <ref xml:id="e69b410e-0aee-4907-9b41-0e0aee190724" corresp="#a5137d2f-0575-4b17-937d-2f05756b17b8">der so schön <lb/>die versteinten Hölzer <lb/>untersucht hat</ref>
-                    <note xml:id="a5137d2f-0575-4b17-937d-2f05756b17b8" corresp="#e69b410e-0aee-4907-9b41-0e0aee190724">
-                     <bibl corresp="https://edition-humboldt.de/UBERKVN5">Cotta 1832</bibl>
-                  </note>, freundlichst <lb/>aufzunehmen. </p>
-            <closer rend="paragraph">
-               <signed>AlHumboldt</signed>
-               <dateline rend="align(left)">Donnerstags</dateline>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

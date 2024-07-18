@@ -28,42 +28,21 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Freitag, [26.
-                    Oktober 1832] , hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0002734">https://edition-humboldt.de/v8/H0002734</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Freitag, [26.
+                    Oktober 1832] , hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0002734</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0002734.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
                         <institution>Biblioteka Jagiellońska</institution>
                         <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
-                        <idno>
-                            <idno type="shelfmark">A. von Humboldt</idno>
-                        </idno>
+                        <idno><idno type="shelfmark">A. von Humboldt</idno></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
@@ -81,8 +60,7 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <opener>
                     <dateline/>
@@ -101,39 +79,28 @@
                         <orig>fur</orig>
                         <reg>für</reg>
                     </choice>
-                    <ref xml:id="a2a4ea2c-158b-451d-a4ea-2c158bb51d9a" corresp="#d19f563d-27a5-4c0b-9f56-3d27a5fc0be1">
-                        <persName ref="https://editon-humboldt.de/H0004482 http://d-nb.info/gnd/117669954">Lessing</persName>
-                            <lb/>in <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590">
-                            <hi rendition="#u">Sibirien</hi>
-                        </placeName>
-                        </ref>
-                    <note xml:id="d19f563d-27a5-4c0b-9f56-3d27a5fc0be1" corresp="#a2a4ea2c-158b-451d-a4ea-2c158bb51d9a">Vgl. <bibl corresp="https://edition-humboldt.de/TIMW4A7D">Buchholtz 1909</bibl>, II, 376.</note> zu erhalten<supplied cert="high">.</supplied>
-                    <lb/>Dagegen will <hi rendition="#u">schlechter<lb/>dings</hi> der <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986">
-                        <choice>
+                    <ref xml:id="e38f3644-1505-45a1-8f36-44150575a1a8" corresp="#f875bbd9-dcc7-43c5-b5bb-d9dcc773c5cf" type="editorialNote"><persName ref="https://editon-humboldt.de/H0004482 http://d-nb.info/gnd/117669954">Lessing</persName>
+                            <lb/>in <placeName ref="https://editon-humboldt.de/H0010218 https://www.geonames.org/2016590"><hi rendition="#u">Sibirien</hi></placeName>
+                        </ref><note xml:id="f875bbd9-dcc7-43c5-b5bb-d9dcc773c5cf" corresp="#e38f3644-1505-45a1-8f36-44150575a1a8" type="editorial">Vgl. <bibl corresp="https://edition-humboldt.de/TIMW4A7D">Buchholtz 1909</bibl>, II, 376.</note> zu erhalten<supplied cert="high">.</supplied>
+                    <lb/>Dagegen will <hi rendition="#u">schlechter<lb/>dings</hi> der <persName ref="https://editon-humboldt.de/H0002177 http://d-nb.info/gnd/118535986"><choice>
                             <orig>Konig</orig>
                             <reg>König</reg>
-                        </choice>
-                    </persName> leider <lb/>dem jungen <persName ref="https://editon-humboldt.de/H0003329 http://d-nb.info/gnd/116160225">Beyrich</persName>
-                    <lb/>
-                    <choice>
+                        </choice></persName> leider <lb/>dem jungen <persName ref="https://editon-humboldt.de/H0003329 http://d-nb.info/gnd/116160225">Beyrich</persName>
+                    <lb/><choice>
                         <orig>fur</orig>
                         <reg>für</reg>
                     </choice>
                     <placeName ref="https://editon-humboldt.de/H0002429">Amerika</placeName> nichts <lb/>mehr als die Pension
-                    <lb/>des <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">Gartens</orgName> accediren! <lb/>
-                    <persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName> ist <choice>
+                    <lb/>des <orgName ref="https://editon-humboldt.de/H0000532 http://d-nb.info/gnd/17434-8">Gartens</orgName> accediren! <lb/><persName ref="https://editon-humboldt.de/H0002750 http://d-nb.info/gnd/117339385">Valenciennes</persName> ist <choice>
                         <abbr>Prof.</abbr>
                         <expan>Professeur</expan>
                     </choice>
                     <lb/>au <orgName ref="https://editon-humboldt.de/H0000553 http://d-nb.info/gnd/16130288-9">Jardin des Plantes</orgName>
-                    <lb/>an die Stelle von <lb/>
-                    <persName ref="https://editon-humboldt.de/H0003377 http://d-nb.info/gnd/116234563">Blainville</persName> (troz
-                        <persName ref="https://editon-humboldt.de/H0003680 http://d-nb.info/gnd/116685298">
-                        <choice>
+                    <lb/>an die Stelle von <lb/><persName ref="https://editon-humboldt.de/H0003377 http://d-nb.info/gnd/116234563">Blainville</persName> (troz
+                        <persName ref="https://editon-humboldt.de/H0003680 http://d-nb.info/gnd/116685298"><choice>
                             <sic>Brognart</sic>
                             <corr cert="high">Brongniart</corr>
-                        </choice>
-                    </persName>
+                        </choice></persName>
                     <lb/>und <persName ref="https://editon-humboldt.de/H0013172 http://d-nb.info/gnd/102458561">Cordier</persName>) für <lb/>die Mollusken
                         geworden<supplied cert="high">.</supplied>
                     <lb/>Ihr </p>
@@ -142,6 +109,5 @@
                 <pb n="1v"/>
                 <gap unit="pages" quantity="1" reason="empty"/>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

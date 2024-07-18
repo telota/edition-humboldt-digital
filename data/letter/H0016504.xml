@@ -18,22 +18,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1853] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016504">https://edition-humboldt.de/v8/H0016504</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016504</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016504.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [1853] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -48,12 +34,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -67,13 +48,40 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
-            <opener>
-                    <address>
-                  <addrLine>
-                            <choice>
+            <pb n="476r"/>
+            <p>Wenn die Wahl des obscuren, <lb/>unthätigen, nur mit einigem linguistischen
+               <lb/>Schlaventhum oberflächlich angethanen <lb/><choice>
+                  <abbr>Dr.</abbr>
+                  <expan>Doktor</expan>
+               </choice>
+               <persName ref="https://editon-humboldt.de/H0017025">Lehmann</persName> von der Ordens <choice>
+                  <abbr>Comissio</abbr>
+                  <expan>Comission</expan>
+               </choice>
+               <lb/>(eines braven Mannes den ich seit <lb/>20 Jahren kenne) noch nicht zu
+               <lb/>Stande ist, theurer <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>, so <lb/>flehe
+               ich dass Sie Ihren Schuz <lb/>gewähren dem mit mir befreundeten <lb/><choice>
+                  <abbr>seh</abbr>
+                  <expan>sehr</expan>
+               </choice> wissenschaftlichen <choice>
+                  <abbr>Dr.</abbr>
+                  <expan>Doktor</expan>
+               </choice>
+               <persName ref="https://editon-humboldt.de/H0003591 http://d-nb.info/gnd/115435530">Brandis</persName>, <lb/>dem Custos der <choice>
+                  <abbr>Bibl</abbr>
+                  <expan>Bibliothek</expan>
+               </choice>, einem arbeit<g ref="#typoHyphen"/><lb break="no"/>sameren, viel
+               talentvollern Gelehrten <lb/>dem ich sehr verpflichtet bin <lb/>als Herausgeber von
+               7. Bänden der <lb/>gesammelten Schriften meines <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Bruders</persName>.<ref xml:id="b4772632-f4a7-4f56-b726-32f4a75f566a" corresp="#f2d733f6-6378-4df0-9733-f66378fdf040" type="editorialNote"/><note xml:id="f2d733f6-6378-4df0-9733-f66378fdf040" corresp="#b4772632-f4a7-4f56-b726-32f4a75f566a" type="editorial">
+                     <bibl corresp="https://edition-humboldt.de/HP5P6DMK">Brandes 1841-1852 </bibl>, I–VII </note>
+               <lb/>Ich hoffe selbst Donnerstag auf <lb/>dem Kampfplaz zu erscheinen.</p>
+            <closer><salute>Mit alter Freundschaft <lb/> Ihr </salute>
+               <lb/><signed>AlHumboldt</signed>
+               <dateline>Freitags</dateline>
+               <address>
+                  <addrLine><pb n="477v"/><choice>
                         <abbr>Sr.</abbr>
                         <expan>Seiner</expan>
                      </choice> Wohlgeboren</addrLine>
@@ -81,42 +89,7 @@
                   <addrLine>Kupfergraben 5</addrLine>
                   <addrLine>AlHumboldt</addrLine>
                   <addrLine>frei</addrLine>
-               </address>
-                </opener>
-            <p>Wenn die Wahl des obscuren, unthätigen, nur mit einigen linguistischen Schlauenthum
-               oberflächlich angethanen <choice>
-                  <abbr>Dr.</abbr>
-                  <expan>Doktor</expan>
-               </choice>
-               <persName ref="https://editon-humboldt.de/H0017025">Lehmann</persName> von der Ordens <choice>
-                  <abbr>Comissio</abbr>
-                  <expan>Comission</expan>
-               </choice> (eines braven Mannes den ich seit 20 Jahren kenne) noch nicht zu Stande
-               ist, theurer <persName ref="https://editon-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Ehrenberg</persName>, so flehe ich dass Sie
-               Ihren Schuz gewähren dem mit mir befreundeten <choice>
-                  <abbr>seh</abbr>
-                  <expan>sehr</expan>
-               </choice> wissenschaftlichen <choice>
-                  <abbr>Dr.</abbr>
-                  <expan>Doktor</expan>
-               </choice>
-               <persName ref="https://editon-humboldt.de/H0003591 http://d-nb.info/gnd/115435530">Brandis</persName>, dem Custos der <choice>
-                  <abbr>Bibl</abbr>
-                  <expan>Bibliothek</expan>
-               </choice>, einen arbeitsameren, viel talentvollern Gelehrten dem ich sehr
-               verpflichtet bin als Herausgeber von 7 Bänden der gesammelten Schriften meines
-                  <persName ref="https://editon-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Bruders</persName>.<ref xml:id="c67e750b-0d9a-456f-be75-0b0d9a556f36" corresp="#b7ca45a1-e1e5-4f46-8a45-a1e1e58f464f"/>
-                    <note xml:id="b7ca45a1-e1e5-4f46-8a45-a1e1e58f464f" corresp="#c67e750b-0d9a-456f-be75-0b0d9a556f36">
-                     <bibl corresp="https://edition-humboldt.de/HP5P6DMK">Brandes 1841-1852 </bibl>, I–VII
-                  </note>
-               <lb/> Ich hoffe selbst Donnerstag auf dem Kampfplaz zu erscheinen.</p>
-            <closer>
-                    <salute>Mit aller Freundschaft <lb/> Ihr </salute>
-                <lb/>
-                    <signed>AlHumboldt</signed>
-               <dateline>Freitags</dateline>
-                </closer>
+               </address></closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

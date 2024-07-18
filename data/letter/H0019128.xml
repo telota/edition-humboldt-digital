@@ -13,14 +13,11 @@
                     <persName ref="https://orcid.org/0000-0002-4634-2386" xml:id="LM">
                         <surname>Martin</surname>
                         <forename>Linda</forename>
-                    </persName>
-                </editor>
-                <editor>
-                    <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
+                    </persName></editor>
+                <editor><persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
                         <surname>Päßler</surname>
                         <forename>Ulrich</forename>
-                    </persName>
-                </editor>
+                    </persName></editor>
                 <respStmt>
                     <persName xml:id="DE">
                         <surname>Erdmann</surname>
@@ -30,23 +27,9 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Hermann Schlagintweit an Alexander von Humboldt. <ref target=""/>, 27. Dezember 1856, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019128">https://edition-humboldt.de/v8/H0019128</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Hermann Schlagintweit an Alexander von Humboldt. <ref target=""/>, 27. Dezember 1856, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019128</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0019128.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -54,23 +37,17 @@
                         <repository>Abteilung Handschriften und Alte Drucke</repository>
                         <collection>Schlagintweitiana</collection>
                         <idno>
-                            <idno type="shelfmark">II.1.43, 374r–375r</idno>
-                        </idno>
+                            <idno type="shelfmark">II.1.43, 374r–375r</idno></idno>
                     </msIdentifier>
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
             <correspDesc>
                 <correspAction type="sent">
                     <persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit-Sakünlünski, Hermann
                         (1826-1882)</persName>
-                    <placeName ref="https://editon-humboldt.de/H0011337 https://www.geonames.org/1172451">Lahore (Hauptstadt des Punjab)</placeName>
+                    <placeName ref="https://editon-humboldt.de/H0011337 https://www.geonames.org/1172451">Lahore</placeName>
                     <date when="1856-12-27" cert="high"/>
                 </correspAction>
                 <correspAction type="received">
@@ -79,95 +56,69 @@
             </correspDesc>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div type="writingSession">
                 <pb n="374r"/>
-                <opener>
-                    <dateline>
-                        <placeName ref="https://editon-humboldt.de/H0011337 https://www.geonames.org/1172451">Lahore</placeName>
-                        <lb/>
+                <opener><dateline><placeName ref="https://editon-humboldt.de/H0011337 https://www.geonames.org/1172451">Lahore</placeName><lb/>
                         <choice>
                             <abbr>Dec</abbr>
                             <expan>December</expan>
                         </choice> 27
-                        1856</dateline>
-                    <lb/>
-                    <salute>Hochverehrteste
-                        Excellenz</salute>
-                    <lb/>
-                </opener>
-                <p>Ich beeile mich, Ihnen mit <lb/>bestem Danke anzuzeigen, <lb/>dass die <ref xml:id="ffee4f66-2ec3-445a-ae4f-662ec3545a23" corresp="#f5463baa-1e55-4c87-863b-aa1e551c875e">Sendung von Bü<g ref="#typoHyphen"/>
+                        1856</dateline><lb/><salute>Hochverehrteste
+                        Excellenz</salute><lb/></opener>
+                <p>Ich beeile mich, Ihnen mit <lb/>bestem Danke anzuzeigen, <lb/>dass die <ref xml:id="ff73708e-c026-4853-b370-8ec026785356" corresp="#b161cac0-a9a2-4d6c-a1ca-c0a9a23d6ca8" type="editorialNote">Sendung von Bü<g ref="#typoHyphen"/>
                             <lb break="no"/>chern und Karten<supplied cert="high">,</supplied> die wir
                             <lb/>Ihnen und Herrn <persName ref="https://editon-humboldt.de/H0001310 http://d-nb.info/gnd/116168862">Kiepert</persName>
-                            <lb/>verdanken</ref>
-                    <note xml:id="f5463baa-1e55-4c87-863b-aa1e551c875e" corresp="#ffee4f66-2ec3-445a-ae4f-662ec3545a23" resp="#UP">Vgl. den <ref target="https://edition-humboldt.de/H0016442">Brief
+                            <lb/>verdanken</ref><note xml:id="b161cac0-a9a2-4d6c-a1ca-c0a9a23d6ca8" corresp="#ff73708e-c026-4853-b370-8ec026785356" type="editorial" resp="#UP">Vgl. den <ref target="https://edition-humboldt.de/H0016442">Brief
                                 Adolph Schlagintweits an Humboldt, Kardung La, 15. Juni 1856</ref>.
                             Darin und in einem beigelegten Schreiben an den <placeName ref="https://editon-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>er Kartographen <persName ref="https://editon-humboldt.de/H0001310 http://d-nb.info/gnd/116168862">Heinrich Kiepert</persName> hatte <persName ref="https://editon-humboldt.de/H0015552 http://d-nb.info/gnd/118755234">A. Schlagintweit</persName> um Bände der Erdkunde
                                 <persName ref="https://editon-humboldt.de/H0000936 http://d-nb.info/gnd/11860130X">Carl Ritter</persName>s (<bibl corresp="https://edition-humboldt.de/I9TR2WMV">Ritter 1822–1859</bibl>) sowie
                             Blätter des begleitenden Kartenwerks (<bibl corresp="https://edition-humboldt.de/56C4DEEN">Ritter/O’Etzel 1833–1852</bibl>)
                             gebeten.</note>, hier in <placeName ref="https://editon-humboldt.de/H0011337 https://www.geonames.org/1172451">Lahore</placeName>
                     <lb/>mich erreichte.</p>
-                <p>Ich fürchte fast<supplied cert="high">,</supplied> dass <lb/>Briefe, die <add place="superlinear" hand="#author">etwa</add> gleichzeitig abge<g ref="#typoHyphen"/>
-                    <lb break="no"/>
-                    <pb n="374v"/>sandt wurden, verloren oder
-                    <lb/>verlegt sind, da ich weder <lb/>von unserem Bruder <persName ref="https://editon-humboldt.de/H0015554 http://viaf.org/viaf/74008741">Emil</persName>
+                <p>Ich fürchte fast<supplied cert="high">,</supplied> dass <lb/>Briefe, die <add place="superlinear" hand="#author">etwa</add> gleichzeitig abge<g ref="#typoHyphen"/><lb break="no"/><pb n="374v"/>sandt wurden, verloren oder
+                    <lb/>verlegt sind, da ich weder <lb/>von unserem Bruder <persName ref="https://editon-humboldt.de/H0015554 https://d-nb.info/gnd/11728078X">Emil</persName>
                     <lb/>noch von <persName ref="https://editon-humboldt.de/H0001310 http://d-nb.info/gnd/116168862">Kiepert</persName> einen <lb/>Brief mit
                     den Büchern <lb/>fand.</p>
-                <p>Ich lege 4 Photographien <lb/>bei, die ich Sie bitte <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">
-                        <choice>
+                <p>Ich lege 4 Photographien <lb/>bei, die ich Sie bitte <persName ref="https://editon-humboldt.de/H0002178 http://d-nb.info/gnd/118535994"><choice>
                             <abbr>S. M.</abbr>
                             <expan>Seiner Majestät</expan>
-                        </choice>
-                    </persName>
-                    <lb/>mit dem Ausdrucke unserer <lb/>Ehrerbietung vorzulegen.<note place="mTop" hand="#H0011203">
-                        <choice>
+                        </choice></persName>
+                    <lb/>mit dem Ausdrucke unserer <lb/>Ehrerbietung vorzulegen.<note place="mTop" hand="https://edition-humboldt.de/#H0011203"><choice>
                             <abbr>NB</abbr>
                             <expan>Nota
                                 Bene</expan>
-                        </choice> mit dem Schreiben von <persName ref="https://editon-humboldt.de/H0015554 http://viaf.org/viaf/74008741">
-                            <choice>
+                        </choice> mit dem Schreiben von <persName ref="https://editon-humboldt.de/H0015554 https://d-nb.info/gnd/11728078X"><choice>
                                 <abbr>E.</abbr>
                                 <expan>Emil</expan>
                             </choice>
                             <choice>
                                 <abbr>Schlg.</abbr>
                                 <expan>Schlagintweit</expan>
-                            </choice>
-                        </persName> gingen nur <hi rendition="#u">2</hi>
+                            </choice></persName> gingen nur <hi rendition="#u">2</hi>
                         <choice>
                             <abbr>Photogr</abbr>
                             <expan>Photographien</expan>
-                        </choice> ein<supplied cert="high">.</supplied>
-                        <lb/>
-                        <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X">
-                            <choice>
+                        </choice> ein<supplied cert="high">.</supplied><lb/>
+                        <persName ref="https://editon-humboldt.de/H0011203 http://d-nb.info/gnd/11712110X"><choice>
                                 <abbr>O</abbr>
                                 <expan>Olfers</expan>
-                            </choice>
-                        </persName>.</note>
-                </p>
-                <p>Der Name der Gegenstände <lb/>steht auf der Rückseite<supplied cert="high">.</supplied>
-                </p>
+                            </choice></persName>.</note></p>
+                <p>Der Name der Gegenstände <lb/>steht auf der Rückseite<supplied cert="high">.</supplied></p>
                 <p>Die Photographien sind <lb/>nicht von uns gemacht (unseren <lb/>Photographischen
                     Apparat <lb/>hat <persName ref="https://editon-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> bei sich) sondern
                     <lb/>von einem Herrn <persName ref="https://editon-humboldt.de/H0018945">Moravia</persName> in
                         <placeName ref="https://editon-humboldt.de/H0011337 https://www.geonames.org/1172451">Lahore</placeName>.</p>
                 <lb/>
                 <pb n="375r"/>
-                <closer>Mit wiederholten Entschuldigungen <lb/>über den Inhalt und die Länge <ref target="https://edition-humboldt.de/H0016446">
-                        <lb/>meines Briefes von <placeName ref="https://editon-humboldt.de/H0017112 https://www.geonames.org/1166993">Rawul
-                            <lb/>Pindee</placeName>
-                    </ref> in ausgezeichnetster <lb/>Verehrung und
-                    Hochachtung <lb/>Euer Excellenz <lb/>dankbarst erbebener <signed>
-                        <choice>
-                            <abbr>H</abbr>
-                            <expan>Hermann</expan>
-                        </choice> Schlagintweit. </signed>
-                </closer>
+                <closer>Mit wiederholten Entschuldigungen <lb/>über den Inhalt und die Länge <ref target="https://edition-humboldt.de/H0016446"><lb/>meines Briefes von <placeName ref="https://editon-humboldt.de/H0017112">Rawul
+                            <lb/>Pindee</placeName></ref> in ausgezeichnetster <lb/>Verehrung und
+                    Hochachtung <lb/>Euer Excellenz <lb/>dankbarst erbebener <signed><persName ref="https://editon-humboldt.de/H0015557 http://d-nb.info/gnd/119074117"><choice>
+                                <abbr>H</abbr>
+                                <expan>Hermann</expan>
+                            </choice> Schlagintweit</persName>. </signed></closer>
                 <pb n="375v"/>
                 <gap unit="pages" quantity="1" reason="empty"/>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

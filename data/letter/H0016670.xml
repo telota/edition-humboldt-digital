@@ -27,22 +27,8 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1838] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016670">https://edition-humboldt.de/v8/H0016670</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016670</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016670.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1838] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -57,12 +43,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -76,41 +57,29 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
-           <pb n="1r"/>
-                <p>Ihre Dedication mein theurer <lb/>Freund und Reisegefährte, scheint
+           <pb n="1r"/><p>Ihre Dedication mein theurer <lb/>Freund und Reisegefährte, scheint
                <lb/>mir so schön gedacht als <lb/>edel im Ausdruk. Nur wünsch<lb break="no"/>te ich
                einen Zusaz der ein <lb/>Haupt Element Ihrer grossen <lb/>Entdekkungen bezeichnet.
-               <lb/>Wollten Sie nicht sagen nach <lb/>„waltender Formenwelt an.“</p>
-                <p>
-                    <subst>
-                  <del rendition="#s">
-                            <subst>
+               <lb/>Wollten Sie nicht sagen nach <lb/>„waltender Formenwelt an.“</p><p><subst>
+                  <del rendition="#s"><subst>
                         <del rendition="#s">ihre</del>
                         <add place="intralinear">ihre
                            De</add>
-                     </subst>
-                        </del>
+                     </subst></del>
                   <add place="intralinear">ihre Gestaltung</add>
                </subst> hat <lb/>seitdem sie endlich <lb/>genauer erkannt ist, <lb/>dem Menschen
                verkündet <lb/>dass das Kleinste im <lb/>Raume <del rendition="#s">nicht</del> darum
                <lb/>nicht einfach sondern <lb/>mit den
-                  verschiedenartig<lb break="no"/>sten Organen wundervoll <lb/>ausgerüstet <del rendition="#s">
-                        <gap reason="illegible" quantity="1" unit="words"/>
-                    </del> sei.<ref xml:id="a1172c71-8bab-4019-972c-718bab801934" corresp="#e0ccc60d-6b4c-4067-8cc6-0d6b4c606720"/>
-                    <note xml:id="e0ccc60d-6b4c-4067-8cc6-0d6b4c606720" corresp="#a1172c71-8bab-4019-972c-718bab801934">
+                  verschiedenartig<lb break="no"/>sten Organen wundervoll <lb/>ausgerüstet <del rendition="#s"><gap reason="illegible" quantity="1" unit="words"/></del> sei.<ref xml:id="c306a9a4-82c3-4251-86a9-a482c32251ef" corresp="#a6d51b05-b367-4144-951b-05b36741446e" type="editorialNote"/><note xml:id="a6d51b05-b367-4144-951b-05b36741446e" corresp="#c306a9a4-82c3-4251-86a9-a482c32251ef" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/X7KZUS33">Ehrenberg 1838</bibl>
-                  </note>
-                </p>
+                  </note></p>
                <p>So etwa dem Sinne <lb/>nach. Den Ausdruk <lb/>werden Sie besser
-                  <lb/>auffinden<supplied cert="high">.</supplied>
-                </p>
+                  <lb/>auffinden<supplied cert="high">.</supplied></p>
             <closer rend="paragraph">
                <signed>Ihr AHt.</signed>
             </closer>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>

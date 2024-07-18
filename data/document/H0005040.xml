@@ -27,23 +27,9 @@
                         <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Humboldt, Alexander von: M – Taxus / Myrtus, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0005040">https://edition-humboldt.de/v8/H0005040</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Humboldt, Alexander von: M – Taxus / Myrtus, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0005040</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0005040.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p>Unter der Sigle <ref xml:id="ed_qz2_kdd_bbb" type="siglum" target="#Geographie_der_Pflanzen_M">M</ref> notierte Humboldt
@@ -68,12 +54,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>document</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>document</term></keywords></textClass>
             <creation>
                 <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859)</persName>
                 <placeName ref="https://editon-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
@@ -81,19 +62,13 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <div>
-                <p>
-                    <pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000005.jpg"/>
-                    <hi rendition="#uu">Taxus</hi> / <hi rendition="#uu">Myrtus</hi>
+                <p><pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000005.jpg"/><hi rendition="#uu"><name type="plant">Taxus</name></hi> / <hi rendition="#uu"><name type="plant">Myrtus</name></hi>
                 </p>
-                <p>
-                    <bibl corresp="https://edition-humboldt.de/DRFP2FXP">
-                        <placeName ref="https://editon-humboldt.de/H0005261 https://www.geonames.org/3490278">Montagnes
+                <p><bibl corresp="https://edition-humboldt.de/DRFP2FXP"><placeName ref="https://editon-humboldt.de/H0005261 https://www.geonames.org/3490278">Montagnes
                             bleues</placeName>
-                        <lb/>de la <placeName ref="https://editon-humboldt.de/H0006552 https://www.geonames.org/3489940">Jamaïque</placeName>
-                        <supplied cert="high">,</supplied>
+                        <lb/>de la <placeName ref="https://editon-humboldt.de/H0006552 https://www.geonames.org/3489940">Jamaïque</placeName><supplied cert="high">,</supplied>
                         <choice>
                             <abbr>Nouv.</abbr>
                             <expan>Nouvelles</expan>
@@ -108,16 +83,12 @@
                         </choice> 3 <choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 222)</bibl>
-                    <supplied cert="high">,</supplied> le 24
+                        </choice> 222)</bibl><supplied cert="high">,</supplied> le 24
                         <lb/>Février<supplied cert="high">:</supplied>
-                    <lb/>
-                    <placeName ref="https://editon-humboldt.de/H0016288 https://www.geonames.org/3488688">Vallée <choice>
+                    <lb/><placeName ref="https://editon-humboldt.de/H0016288 https://www.geonames.org/3488688">Vallée <choice>
                             <abbr>St Thomas</abbr>
                             <expan>Saint-Thomas</expan>
-                        </choice>
-                    </placeName>
-                    <supplied cert="high">,</supplied>
+                        </choice></placeName><supplied cert="high">,</supplied>
                     <lb/>soir<supplied cert="high">,</supplied>
                     <choice>
                         <abbr>B.</abbr>
@@ -125,37 +96,26 @@
                     </choice> 27° 20<supplied cert="high">,</supplied> Thermomètre <measure quantity="70" unit="fahrenheit">70° <choice>
                             <abbr>F</abbr>
                             <expan>Fahrenheit</expan>
-                        </choice>
-                    </measure>
-                    <supplied cert="high">,</supplied>
+                        </choice></measure><supplied cert="high">,</supplied>
                     <choice>
                         <abbr>haut</abbr>
                         <expan>hauteur</expan>
                     </choice>
-                    <measure quantity="2517" unit="foot">2517 piés</measure>
-                    <supplied cert="high">,</supplied>
-                    <add place="sublinear"> sans doute <lb/>anglois</add>
-                    <supplied cert="high">.</supplied>
+                    <measure quantity="2517" unit="foot">2517 piés</measure><supplied cert="high">,</supplied><add place="sublinear"> sans doute <lb/>anglois</add><supplied cert="high">.</supplied>
                 </p>
-                <p>
-                    <note place="left" hand="#author">
-                        <ref xml:id="ed_eft_blt_sy" type="siglum" target="#Geographie_der_Pflanzen_M">M.</ref>
-                    </note>
-                    <choice>
+                <p><note place="left" hand="#author"><ref xml:id="ed_eft_blt_sy" type="siglum" target="#Geographie_der_Pflanzen_M">M.</ref></note><name type="plant" subtype="vernacular" key="Cedrus"><choice>
                         <orig>cèdre</orig>
                         <reg>Cèdre</reg>
-                    </choice> des <placeName ref="https://editon-humboldt.de/H0005222 https://www.geonames.org/3573345">Bermudes</placeName>, <lb/>qui est un
-                        genévrier<supplied cert="high">.</supplied>
+                    </choice></name> des <placeName ref="https://editon-humboldt.de/H0005222 https://www.geonames.org/3573345">Bermudes</placeName>, <lb/>qui est un
+                        <name type="plant" subtype="vernacular" key="Juniperus">genévrier</name><supplied cert="high">.</supplied>
                 </p>
-                <p>
-                    <choice>
+                <p><choice>
                         <orig>le</orig>
                         <reg>Le</reg>
                     </choice> 25 <choice>
                         <abbr>Févr</abbr>
                         <expan>Février</expan>
-                    </choice>
-                    <supplied cert="high">,</supplied>
+                    </choice><supplied cert="high">,</supplied>
                     <lb/>midi<supplied cert="high">,</supplied>
                     <choice>
                         <abbr>B.</abbr>
@@ -164,112 +124,78 @@
                         <orig>24°.</orig>
                         <reg>24°</reg>
                     </choice>60<supplied cert="high">,</supplied>
-                    <measure quantity="60" unit="fahrenheit">
-                        <choice>
+                    <measure quantity="60" unit="fahrenheit"><choice>
                             <abbr>Th.</abbr>
                             <expan>Thermomètre</expan>
-                        </choice> 60°</measure>
-                    <supplied cert="high">,</supplied>
+                        </choice> 60°</measure><supplied cert="high">,</supplied>
                     <choice>
                         <abbr>h.</abbr>
                         <expan>hauteur</expan>
                     </choice>
-                    <measure quantity="5682" unit="foot">5682 <add place="superlinear">
-                            <choice>
+                    <measure quantity="5682" unit="foot">5682 <add place="superlinear"><choice>
                                 <abbr>p.</abbr>
                                 <expan>pieds</expan>
-                            </choice>
-                        </add>
-                    </measure>
-                    <supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <hi rendition="#u">Taxus</hi> elongata / <hi rendition="#u">yacca</hi>
-                    <supplied cert="high">,</supplied>
-                    <lb/>Myrtus buxifolia, montico<lb break="no"/>la<supplied cert="high">,</supplied> axillaris<supplied cert="high">.</supplied>
-                </p>
-                <p>
-                    <subst>
+                            </choice></add></measure><supplied cert="high">.</supplied></p>
+                <p><name type="plant"><hi rendition="#u">Taxus</hi> elongata</name> / <hi rendition="#u"><name type="plant" subtype="vernacular" key="Taxus elongata">yacca</name></hi><supplied cert="high">,</supplied>
+                    <lb/><name type="plant">Myrtus buxifolia</name>, <name type="plant" key="Myrtus monticola">montico<lb break="no"/>la</name><supplied cert="high">,</supplied> <name type="plant" key="Myrtus axillaris">axillaris</name><supplied cert="high">.</supplied></p>
+                <p><subst>
                         <del rendition="#s">Cime</del>
-                        <add place="intralinear">
-                            <choice>
+                        <add place="intralinear"><choice>
                                 <orig>soir</orig>
                                 <reg>Soir</reg>
-                            </choice>
-                            <supplied cert="high">,</supplied>
-                        </add>
+                            </choice><supplied cert="high">,</supplied></add>
                     </subst>
-                    <lb/>
-                    <choice>
+                    <lb/><choice>
                         <abbr>B</abbr>
                         <expan>Baromètre</expan>
                     </choice> 23° 70<supplied cert="high">,</supplied>
-                    <measure quantity="48" unit="fahrenheit">
-                        <choice>
+                    <measure quantity="48" unit="fahrenheit"><choice>
                             <abbr>Th.</abbr>
                             <expan>Thermomètre</expan>
-                        </choice> 48°</measure>
-                    <supplied cert="high">,</supplied>
+                        </choice> 48°</measure><supplied cert="high">,</supplied>
                     <choice>
                         <abbr>h</abbr>
                         <expan>hauteur</expan>
                     </choice>
-                    <measure quantity="6620" unit="foot">6620 piés</measure>
-                    <supplied cert="high">,</supplied>
-                    <lb/>même <measure quantity="46" unit="fahrenheit">
-                        <choice>
+                    <measure quantity="6620" unit="foot">6620 piés</measure><supplied cert="high">,</supplied>
+                    <lb/>même <measure quantity="46" unit="fahrenheit"><choice>
                             <abbr>Th</abbr>
                             <expan>Thermomètre</expan>
-                        </choice> 46°</measure>
-                    <supplied cert="high">,</supplied> la nuit
+                        </choice> 46°</measure><supplied cert="high">,</supplied> la nuit
                     <lb/>encore moins!</p>
-                <p>
-                    <choice>
+                <p><choice>
                         <orig>matin</orig>
                         <reg>Matin</reg>
-                    </choice>
-                    <supplied cert="high">,</supplied> le 26 <choice>
+                    </choice><supplied cert="high">,</supplied> le 26 <choice>
                         <abbr>Févr</abbr>
                         <expan>Février</expan>
-                    </choice>
-                    <supplied cert="high">,</supplied>
-                    <lb/>
-                    <choice>
+                    </choice><supplied cert="high">,</supplied>
+                    <lb/><choice>
                         <abbr>B.</abbr>
                         <expan>Baromètre</expan>
-                    </choice> <choice>
+                    </choice>
+                    <choice>
                         <orig>23°.</orig>
                         <reg>23°</reg>
                     </choice>18<supplied cert="high">,</supplied>
-                    <measure quantity="50" unit="fahrenheit">
-                        <choice>
+                    <measure quantity="50" unit="fahrenheit"><choice>
                             <abbr>Th.</abbr>
                             <expan>Thermomètre</expan>
-                        </choice> 50°</measure>
-                    <supplied cert="high">,</supplied>
+                        </choice> 50°</measure><supplied cert="high">,</supplied>
                     <choice>
                         <abbr>h.</abbr>
                         <expan>hauteur</expan>
                     </choice>
                     <subst>
                         <del rendition="#s">7232</del>
-                        <add place="superlinear">
-                            <measure quantity="7255" unit="foot">
-                                <choice>
-                            <orig>7255.</orig>
-                            <reg>7255</reg>
-                        </choice>
-                            </measure>
-                        </add>
+                        <add place="superlinear"><measure quantity="7255" unit="foot"><choice>
+                                    <orig>7255.</orig>
+                                    <reg>7255</reg>
+                                </choice></measure></add>
                     </subst> piés<supplied cert="high">,</supplied>
-                    <lb/>beaucoup de myrtes. <lb/>
-                    <pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000006.jpg"/>
-                    <gap unit="pages" quantity="1" reason="empty"/>
-                </p>
+                    <lb/>beaucoup de <name type="plant" subtype="vernacular" key="Myrtus">myrtes</name>. <lb/><pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367348/1200/0/00000006.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
                 <p>
-                    <lb/>
-                </p>
+                    <lb/></p>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

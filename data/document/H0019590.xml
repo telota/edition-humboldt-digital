@@ -9,13 +9,11 @@
                         <surname>Päßler</surname>
                         <forename>Ulrich</forename>
                     </persName>
-                </editor>
-                <respStmt>
+                </editor><respStmt>
                     <persName ref="https://d-nb.info/gnd/1109066872">
                         <surname>MacKinney</surname>
                         <forename>Anne Greenwood</forename>
-                    </persName>
-                    <resp>
+                    </persName><resp>
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
@@ -28,24 +26,10 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt>
-            <editionStmt>
-                <p>Humboldt, Alexander von: Gutachten zu Richard Schomburgks Werk „Reisen in Britisch-Guiana“. Potsdam,
-                    6. Januar 1846, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0019590">https://edition-humboldt.de/v8/H0019590</ref>
-                </p>
-            </editionStmt>
+            </titleStmt><editionStmt><p>Humboldt, Alexander von: Gutachten zu Richard Schomburgks Werk „Reisen in Britisch-Guiana“. Potsdam,
+                    6. Januar 1846, hg. v. Ulrich Päßler unter Mitarbeit von Anne Greenwood MacKinney und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
             
-            <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0019590</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0019590.xml</idno>
-            </publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -57,12 +41,7 @@
                 </msDesc>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>document</term>
-                </keywords>
-            </textClass>
+        <profileDesc><textClass><keywords><term>document</term></keywords></textClass>
             <creation>
                 <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>
@@ -70,8 +49,7 @@
             </creation>
         </profileDesc>
     </teiHeader>
-    <text>
-        <body>
+    <text><body>
             <pb n="1r"/>
             <div>
                 <p>Ich gebe durch diese Zeilen sehr gern
@@ -89,12 +67,10 @@
                     <lb/>Plaz unter den wissenschaftlichen <lb/>Reisen sich in der Meinung der
                     Gelehrten <lb/>bereits erworben hat.</p>
                 <signed>Alexander vHumboldt</signed>
-                <dateline>
-                    <placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>, den 6. Januar
+                <dateline><placeName ref="https://editon-humboldt.de/H0008392 https://www.geonames.org/2852458">Potsdam</placeName>, den 6. Januar
                         <lb/>1846.</dateline>
                 <pb n="1v"/>
                 <gap reason="empty" unit="pages" quantity="1"/>
             </div>
-        </body>
-    </text>
+        </body></text>
 </TEI>

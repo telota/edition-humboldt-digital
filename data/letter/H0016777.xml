@@ -28,23 +28,9 @@
                   <note type="remarkResponsibility">Mitarbeit</note>
                </resp>
             </respStmt>
-         </titleStmt>
-            <editionStmt>
-                <p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1854]
-            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 8 vom 11.05.2022. URL: <ref target="https://edition-humboldt.de/v8/H0016777">https://edition-humboldt.de/v8/H0016777</ref>
-                </p>
-            </editionStmt>
-         <publicationStmt>
-                <publisher>
-                    <ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref>
-                </publisher>
-                <pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace>
-                <availability>
-                    <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
-                </availability>
-                <idno type="URLWeb">https://edition-humboldt.de/v8/H0016777</idno>
-                <idno type="URLXML">https://edition-humboldt.de/v8/H0016777.xml</idno>
-            </publicationStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1854]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 9 vom 04.07.2023. URL: <ref target="https://edition-humboldt.de/v9/">https://edition-humboldt.de/v9/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v9/</idno><idno type="URLXML">https://edition-humboldt.de/v9/.xml</idno></publicationStmt>
          <sourceDesc>
             <msDesc rend="manuscript">
                <msIdentifier>
@@ -59,12 +45,7 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <textClass>
-                <keywords>
-                    <term>letter</term>
-                </keywords>
-            </textClass>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
          <correspDesc>
             <correspAction type="sent">
                <persName ref="https://editon-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
@@ -78,27 +59,16 @@
          </correspDesc>
       </profileDesc>
    </teiHeader>
-   <text>
-      <body>
+   <text><body>
          <div type="writingSession">
-             <pb n="1v"/>
-                <opener>
-                    <salute>
-                        <hi rendition="#u">Herr <choice>
+             <pb n="1v"/><opener><salute><hi rendition="#u">Herr <choice>
                         <abbr>Prof.</abbr>
                         <expan>Professor</expan>
-                     </choice> Ehrenberg</hi>,</salute>
-                </opener>
-                <p>
-                    <ref xml:id="ec4a389e-fc1f-48bc-8a38-9efc1f08bc2d" corresp="#d2eba3c2-bd2a-4edc-aba3-c2bd2acedc1e">von <persName ref="https://editon-humboldt.de/H0015466 http://d-nb.info/gnd/117619426">Saulcy’s</persName> Reise <lb/>nach dem <placeName ref="https://editon-humboldt.de/H0009494 https://www.geonames.org/295347">toten <lb/>Meere</placeName> nach dem alten <lb/>Sodom und Moab von <lb/>wo er
-               die Statue <lb/>eines Moabitischen <lb/>Königs neben den <lb/>
-                        <hi rendition="#u">heiligen</hi> Schnecken <lb/>mitgebracht<supplied cert="high">.</supplied>
-                    </ref>
-                    <note xml:id="d2eba3c2-bd2a-4edc-aba3-c2bd2acedc1e" corresp="#ec4a389e-fc1f-48bc-8a38-9efc1f08bc2d">
+                     </choice> Ehrenberg</hi>,</salute></opener><p><ref xml:id="d4fc1f4e-e593-43e7-bc1f-4ee593b3e7d7" corresp="#a728dc79-cf6e-4cef-a8dc-79cf6e1cef56" type="editorialNote">von <persName ref="https://editon-humboldt.de/H0015466 http://d-nb.info/gnd/117619426">Saulcy’s</persName> Reise <lb/>nach dem <placeName ref="https://editon-humboldt.de/H0009494 https://www.geonames.org/295347">toten <lb/>Meere</placeName> nach dem alten <lb/>Sodom und Moab von <lb/>wo er
+               die Statue <lb/>eines Moabitischen <lb/>Königs neben den <lb/><hi rendition="#u">heiligen</hi> Schnecken <lb/>mitgebracht<supplied cert="high">.</supplied></ref><note xml:id="a728dc79-cf6e-4cef-a8dc-79cf6e1cef56" corresp="#d4fc1f4e-e593-43e7-bc1f-4ee593b3e7d7" type="editorial">
                      <bibl corresp="https://edition-humboldt.de/5FBNNDFE">Saulcy 1853</bibl>
                   </note>
             </p>
          </div>
-      </body>
-   </text>
+      </body></text>
 </TEI>
