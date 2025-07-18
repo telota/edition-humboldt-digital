@@ -10,12 +10,12 @@
                         <forename>Stefan</forename>
                     </persName>
                 </author>
-            </titleStmt><editionStmt><p>Dumont, Stefan: Digital Methodology .  An introduction to data modeling, technologies and interfaces in the edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0021024">https://edition-humboldt.de/v10/H0021024</ref></p></editionStmt>
+            </titleStmt><editionStmt><p>Dumont, Stefan: Digital Methodology .  An introduction to data modeling, technologies and interfaces in the edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             <notesStmt>
                 <relatedItem target="H0016212" type="translation" xml:lang="de"/>
             </notesStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0021024</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0021024.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document</p>
             </sourceDesc>
@@ -154,15 +154,16 @@
                     entries. An exception is the bibliography, which is maintained in the literature
                     management software Zotero. For this, <hi rendition="#i">ediarum.DB</hi> offers
                     an interface for synchronization.</p>
-                <p>The data is stored in the free XML database <ref target="http://www.exist-db.org">existdb</ref>, the module <hi rendition="#i">ediarum.DB</hi> is used to manage the data. Existdb serves at
-                    the same time - together with the web server Jetty - also as basis of the
-                    digital edition, which was realized with XQuery, XSLT and XPath and in the
-                    meantime in an eXistdb App in accordance with the EXPath packaging
-                    specifications, which simplifies Deployment and development. For the
-                    search functions, the Lucene-based faceting, available since eXistdb 5.0, is used.
-                    In addition, the edition has several specially programmed caches that increase
-                    performance, especially for complex queries. For the display of facsimiles,
-                    drawings and illustrations the software <ref target="http://digilib.sourceforge.net/">digilib</ref>, developed at the MPI
+                <p>The data is first stored in a Git (<bibl corresp="https://edition-humboldt.de/SUJV58N2">Fechner/Klappenbach/Lampert 2025</bibl>) and in a second stage (automated)
+                    in an instance of the free XML database <ref target="http://www.exist-db.org">existdb</ref>, the module <hi rendition="#i">ediarum.DB</hi> is used to
+                    manage the data. Existdb serves at the same time - together with the web server
+                    Jetty - also as basis of the digital edition, which was realized with XQuery,
+                    XSLT and XPath and in the meantime in an eXistdb App in accordance with the
+                    EXPath packaging specifications, which simplifies Deployment and development.
+                    For the search functions, the Lucene-based faceting, available since eXistdb
+                    5.0, is used. In addition, the edition has several specially programmed caches
+                    that increase performance, especially for complex queries. For the display of
+                    facsimiles, drawings and illustrations the software <ref target="http://digilib.sourceforge.net/">digilib</ref>, developed at the MPI
                     for the History of Science, is used.</p>
             </div>
             <div>
@@ -303,6 +304,12 @@
                         map can be displayed with the location and institution entries using the
                         free map service <ref target="https://www.openstreetmap.org/">OpenStreetMap</ref>. This is especially helpful for smaller locations
                         of Alexander von Humboldt's various travels.</p>
+                    <p>With version 11 of edition humboldt digital, the geodata-based functions in
+                        the place index have been expanded: an <ref target="https://edition-humboldt.de/register/orte/map.xql?l=en">interactive world map</ref> now provides an overview of all places
+                        listed in the place index. In addition, neighboring places that are also
+                        listed in the index are displayed within a radius of approx. 30 km of an
+                        individual place in its index entry - both on the map and as a list with
+                        distance information (example: <ref target="https://edition-humboldt.de/register/orte/detail.xql?id=H0019176&amp;l=en">Zmeëvka</ref>).</p>
                 </div>
                 <div>
                     <head type="h3">Common Norm File &amp; BEACON</head>
@@ -356,7 +363,8 @@
                         data and web services, but in turn makes its data available under the free
                             <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative
                             Commons license CC BY-SA 4.0</ref> via an interface and as an
-                        independent data publication.</p>
+                        independent <ref target="https://doi.org/10.5281/zenodo.13752841">data
+                            publication</ref>.</p>
                 </div>
                 <div>
                     <head type="h4">TEI-XML interface</head>
@@ -370,7 +378,7 @@
                         types is generated (see table below). When retrieved with parameter <hi rend="code">id</hi>, the respective document is output.</p>
                     <div>
                         <head type="h5">Parameter <hi rend="code">type</hi></head>
-                        <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
+                        <table rend="drawn" rows="2" cols="2">
                             <row role="label">
                                 <cell>Values</cell>
                                 <cell>Description</cell>
@@ -385,10 +393,10 @@
                                 <cell>all correspondents</cell>
                             </row>
                             <row>
-                                <cell><hi rend="code">personMentioned</hi></cell>
+                                <cell><hi rend="code">personsMentioned</hi></cell>
                                 <cell>all persons mentioned</cell>
                             </row>
-                        </tei:table>
+                        </table>
                     </div>
                 </div>
                 <div>
@@ -408,7 +416,7 @@
                         way are played into a Git repository, which is also available <ref target="https://github.com/telota/edition-humboldt-digital">for public
                             viewing on GitHub</ref>. After a check and completion with the TEI-XML
                         schema of ehd (as RNG), the dataset is exported from there to Zenodo to be
-                        freely available there in a long-term archived form.</p>
+                        freely available there in a long-term archived form: <ref target="https://doi.org/10.5281/zenodo.13752841">https://doi.org/10.5281/zenodo.13752841</ref> (canonical URL, always links to the last version of the dataset).</p>
                 </div>
                 <div>
                     <head type="h3">Further APIs</head>
@@ -428,7 +436,11 @@
                             in this edition can be retrieved in the <ref target="https://correspsearch.net/de/dokumentation.html">Correspondence Metadata Interchange Format (CMIF)</ref>. As a
                             result, the letters edited in this edition will be referenced in
                             correspSearch.</p>
-                        <p>URL: <ref target="http://edition-humboldt.de/api/v1.1/cmif.xql">http://edition-humboldt.de/api/v1.1/cmif.xql</ref></p>
+                        <p>The API already supports some extensions of <ref target="https://github.com/TEI-Correspondence-SIG/CMIF/blob/main/proposals/CMIFv2_proposal.md">CMIF v2</ref>, such as the persons
+                                <hi rendition="#i">mentioned</hi> and the URL to the corresponding
+                            TEI-XML full text. The latter makes it possible to find these letters in
+                            the full text search of correspSearch <ref target="https://correspsearch.net/de/suche.html?q=fieber*">(example: “fieber*”)</ref>.</p>
+                        <p>URL: <ref target="http://edition-humboldt.de/api/v1.2/cmif.xql">http://edition-humboldt.de/api/v1.2/cmif.xql</ref></p>
                     </div>
                     <div>
                         <head type="h4">BEACON files</head>
@@ -442,7 +454,7 @@
                             <head type="h5">Parameters</head>
                             <div>
                                 <head type="h5"><hi rend="code">type</hi></head>
-                                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
+                                <table rend="drawn" rows="2" cols="2">
                                     <row role="label">
                                         <cell>Values</cell>
                                         <cell>Description</cell>
@@ -460,13 +472,13 @@
                                         <cell><hi rend="code">personMentioned</hi></cell>
                                         <cell>all persons mentioned</cell>
                                     </row>
-                                </tei:table>
+                                </table>
                             </div>
                             <div>
                                 <head type="h5"><hi rend="code">authority</hi></head>
                                 <p>all persons with a norm ID of a specific norm file (restricted by
                                         <hi rend="code">type</hi> if necessary)</p>
-                                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
+                                <table rend="drawn" rows="2" cols="2">
                                     <row>
                                         <cell>value</cell>
                                         <cell>Description</cell>
@@ -480,7 +492,7 @@
                                         <cell><hi rend="code">viaf</hi></cell>
                                         <cell>Virtual International Authority File</cell>
                                     </row>
-                                </tei:table>
+                                </table>
                             </div>
                         </div>
                     </div>

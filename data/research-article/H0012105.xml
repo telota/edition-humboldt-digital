@@ -23,12 +23,18 @@
                         Berlin/Boston: De Gruyter Oldenbourg, 2015.</note>
                 </author>
             </titleStmt><editionStmt><p>Zeuske, Michael: Alexander von Humboldt, die Sklavereien in den Amerikas und das
-                    „Tagebuch Havanna 1804“ .  Zur Edition von „Isle de Cube“. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0012105">https://edition-humboldt.de/v10/H0012105</ref></p></editionStmt>
+                    „Tagebuch Havanna 1804“ .  Zur Edition von „Isle de Cube“. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0012105</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0012105.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
+            <sourceDesc><p>Born digital.</p></sourceDesc>
         </fileDesc>
-
-    <profileDesc><textClass><keywords><term>research-article</term></keywords></textClass></profileDesc></teiHeader>
+            <profileDesc><textClass><keywords><term>research-article</term></keywords></textClass>
+                <langUsage>
+                    <language scope="sole" ident="deu"/>
+                </langUsage>
+            </profileDesc>
+            
+    </teiHeader>
     <text><body>
             <quote rendition="block">[Der] Orinoco ist [der] eigentliche Schlüssel von
                     Süd-Amerika.<note xml:id="ftn1" place="foot" n="1"> Humboldt, Alexander von,
@@ -338,7 +344,7 @@
                     verfestigten.</p>
             </div>
             <div>
-                <head>B) Caracas/La Guaira und die Anfänge der <hi rendition="i">Second
+                <head>B) Caracas/La Guaira und die Anfänge der <hi rendition="#i">Second
                         Slavery</hi> 1799-1800</head>
                 <p>Die nächste große Etappe der Reise durch Sklaverei-Räume, die zugleich als
                     Sklaverei-Typen aufgefasst werden können, begann in La Guaira-Caracas. Als beide
@@ -394,7 +400,7 @@
                     zu Ehren von Margot Faak): „Hacienda des José de Manterola im Tal des Río Tuy
                     (9.–11.2.), Victoria am See von Valencia (11.–12.2.), La Concepción,
                     Hacienda der Familie Ustáriz (13.2.), Maracay (13./14.2.), Tapatapa am
-                    Vorgebirge EI Portachuelo (14.2.), Hacienda de Cura, Besitz des Grafen Domingo
+                    Vorgebirge El Portachuelo (14.2.), Hacienda de Cura, Besitz des Grafen Domingo
                     Tovar (1762-1807), (14.–21.2., am 18.2. Besuch der heißen Quellen von
                     Mariara), Punta Zamora, Guacara (21.2.), Mocundo (22.2.), Nueva Valencia
                     (22.–26.2.), Trinchera (heiße Quellen, 27.2.), Puerto Cabello
@@ -2478,7 +2484,7 @@
                         por el Sindico de este cuerpo en Inglaterra y Jamayca, sobre refinerias de
                         azucar“, 28 de Octubre de 1795, in: <bibl corresp="https://edition-humboldt.de/ZPB8GXHJ">ANC 1795b</bibl>.</note> 1809 schrieb er: „In diesen letzten Jahren hat
                     es eine totale Transformation im kommerziellen System gegeben“.<note xml:id="ftn300" place="foot" n="300"> [Übers. - M.Z.] Schreiben (carta) von
-                        Arango an Generalkapitän Someruelos, La Habana, 17. Oktober 1809, in: <bibl corresp="https://edition-humboldt.de/AF72MSN6">ANC 1809</bibl>;<hi rend="background-color(#ffff00)"> </hi>vgl. auch:
+                        Arango an Generalkapitän Someruelos, La Habana, 17. Oktober 1809, in: <bibl corresp="https://edition-humboldt.de/AF72MSN6">ANC 1809</bibl>; vgl. auch:
                         Childs, „The Present Time Is Very Delicate. Cuban Slavery and the Changing
                         Atlantic World, 1750–1850“, in: <bibl corresp="https://edition-humboldt.de/DBU4BNBF">Childs 2006</bibl>, 21–45; zur „Rolle vorwärts“ Arangos vom
                         Sklavenhandelsbefürworter zum Sklavenhandelsgegner zwischen 1812 und 1817
@@ -2569,21 +2575,22 @@
                 <head>Statt einer Konklusion: Humboldt, Arango und die neue Sklaverei des
                     19. Jahrhunderts (<hi rendition="#i">Second Slavery</hi>)</head>
                 <p>Sklaverei haben Humboldt und Bonpland auf ihrer Amerikareise 1799–1804 in den
-                    unterschiedlichsten Facetten kennengelernt:</p><list>
-                        <item>in verschiedenen <hi rendition="#bold">Dimensionen</hi> (Sklaverei von
+                    unterschiedlichsten Facetten kennengelernt:</p>
+                <list rendition="bulleted">
+                        <item>in verschiedenen <hi rendition="#b">Dimensionen</hi> (Sklaverei von
                             Menschen aus Afrika, Sklaverei von Indigenen),</item>
-                        <item>in unterschiedlichen <hi rendition="#bold">Sektoren</hi>: urbane
+                        <item>in unterschiedlichen <hi rendition="#b">Sektoren</hi>: urbane
                             Sklaverei, d.h., vor allem Haus-, Dienstleistungs-,
                             Infrastruktursklaverei sowie Staatssklaverei und rurale Sklaverei, also
                             agrikulturelle Sklaverei als Zucker-, Kakao-, Kaffee-, Tabak-,
                             Baumwolle-, Indigo-, Bergbausklaverei sowie Sklaverei in der Vieh- und
                             Hütewirtschaft, </item>
-                        <item>als <hi rendition="#bold">lokale Sklavereien</hi> in verschiedenen <hi rendition="#bold">politischen Einheiten</hi> (Verwaltungsterritorien
-                            des spanischen Imperiums) und <hi rendition="#bold">geographischen
+                        <item>als <hi rendition="#b">lokale Sklavereien</hi> in verschiedenen <hi rendition="#b">politischen Einheiten</hi> (Verwaltungsterritorien
+                            des spanischen Imperiums) und <hi rendition="#b">geographischen
                                 Räumen</hi> (Küsten, Flussgebieten, Städten/Häfen,
                             Landwirtschafts-Landschaften, Missionen, Hinterländern, Savannen,
                             Meeren, Grenzgebieten) sowie </item>
-                        <item>Sklavereien in verschiedenen, sagen wir, <hi rendition="#bold">Aggregatzuständen</hi> organisatorischer Verdichtung (in den
+                        <item>Sklavereien in verschiedenen, sagen wir, <hi rendition="#b">Aggregatzuständen</hi> organisatorischer Verdichtung (in den
                             Extremen: Razzien- und Menschenjagd-Sklavereien in Grenz- und
                             „Sklavenproduktions“-Gebieten einerseits und Plantagen-Sklaverei als
                             Teil der <hi rendition="#i">Atlantic slavery</hi> andererseits).</item>
@@ -2654,9 +2661,9 @@
                         Ebd.</note></p>
                 <p>Kubas <hi rendition="#i">Second Slavery</hi> profitierte mehrfach von den
                     welthistorischen Entwicklungen. Nur Kuba (und in gewissem Sinne Puerto Rico),
-                    als Zentrum der spanischen Macht in der <hi rendition="#i">Independencia</hi>, bekam die Segnungen der spanischen
-                    Restaurationsreform zu spüren:</p>
-                    <list>
+                    als Zentrum der spanischen Macht in der <hi rendition="#i">Independencia</hi>,
+                    bekam die Segnungen der spanischen Restaurationsreform zu spüren:</p>
+                <list rendition="bulleted">
                         <item>mehr Freihandel, </item>
                         <item>Entmonopolisierung, </item>
                         <item>Freigabe des Waldes (damit Holz und Flächen zur Anlage von Ingenios),</item>

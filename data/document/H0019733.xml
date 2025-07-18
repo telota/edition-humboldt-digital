@@ -11,10 +11,19 @@
                         <forename>Ulrich</forename>
                     </persName>
                 </editor>
+                <respStmt>
+                    <persName ref="https://d-nb.info/gnd/1192713052">
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
             </titleStmt><editionStmt><p>Schlagintweit, Robert, Freiherr von; Schlagintweit-Sakünlünski, Hermann: Tabellarische Zusammenstellung der Reiserouten der Brüder
-                    Schlagintweit (1854–1857), hg. v. Ulrich Päßler. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0019733">https://edition-humboldt.de/v10/H0019733</ref></p></editionStmt>
+                    Schlagintweit (1854–1857), hg. v. Ulrich Päßler unter Mitarbeit von Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0019733</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0019733.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <notesStmt>
                 <note type="editorial">
                     <p><persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="https://edition-humboldt.de/H0015645 https://d-nb.info/gnd/118759086">Robert Schomburgk</persName> sandten diese Tabelle <ref target="https://edition-humboldt.de/H0019732">am 28. Oktober 1857 an Alexander von Humboldt</ref>
@@ -57,7 +66,7 @@
     </teiHeader>
     <text><body>
             <div>
-                <p><pb n="218r"/><tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rows="4" cols="4">
+                <p><pb n="218r"/><table rows="4" cols="4">
                         <head>Tabellarische Zusammenstellung der Routen<choice>
                                 <sic>,</sic>
                                 <corr type="deleted"/>
@@ -75,15 +84,28 @@
                         </row>
                         <row>
                             <cell>1854<choice>
-                                    <sic>.</sic>
-                                    <corr type="deleted"/>
+                                    <orig>.</orig>
+                                    <reg cert="high" type="deleted"/>
                                 </choice></cell>
-                            <cell>D. <placeName ref="https://edition-humboldt.de/H0005497 https://www.geonames.org/1273342">Dekkan</placeName> und Süd-<placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>, mit seinen bei<g ref="#typoHyphen"/><lb break="no"/>den Brüdern, <subst>
+                            <cell><choice>
+                                    <abbr>D.</abbr>
+                                    <expan>Durch</expan>
+                                </choice>
+                                <placeName ref="https://edition-humboldt.de/H0005497 https://www.geonames.org/1273342">Dekkan</placeName> und Süd-<placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>, mit seinen bei<g ref="#typoHyphen"/><lb break="no"/>den Brüdern, <subst>
                                     <del rendition="#s">via</del>
                                     <add place="superlinear">über</add>
                                 </subst>
-                                <placeName ref="https://edition-humboldt.de/H0017643 https://www.geonames.org/1259229">Poonah</placeName> nach <placeName ref="https://edition-humboldt.de/H2152100 https://www.geonames.org/1276509">Bellary</placeName>; von da <lb/>nach <placeName ref="https://edition-humboldt.de/H9699589 http://www.geonames.org/1277333">Bangalore</placeName> mit <persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName>, von <placeName ref="https://edition-humboldt.de/H9699589 http://www.geonames.org/1277333">Bangalore</placeName>
-                                <lb/>setzte er seine Forschungen nach <placeName ref="https://edition-humboldt.de/H0008563 https://www.geonames.org/1264527">Madras</placeName> hinab <lb/>allein fort.</cell>
+                                <placeName ref="https://edition-humboldt.de/H0017643 https://www.geonames.org/1259229">Poonah</placeName> nach <placeName ref="https://edition-humboldt.de/H2152100 https://www.geonames.org/1276509">Bellary</placeName>; von da <lb/>nach <placeName ref="https://edition-humboldt.de/H9699589 http://www.geonames.org/1277333">Ban<subst>
+                                        <del rendition="#ow">j</del>
+                                        <add place="across">g</add>
+                                    </subst>alore</placeName> mit <persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName>, von <placeName ref="https://edition-humboldt.de/H9699589 http://www.geonames.org/1277333">Ban<subst>
+                                        <del rendition="#ow">j</del>
+                                        <add place="across">g</add>
+                                    </subst>alore</placeName>
+                                <lb/><subst>
+                                    <del rendition="#erased">er</del>
+                                    <add place="intralinear">setzte er</add>
+                                </subst> seine Forschungen nach <placeName ref="https://edition-humboldt.de/H0008563 https://www.geonames.org/1264527">Madras</placeName> hinab <lb/>allein fort.</cell>
                             <cell>Plateau von <placeName ref="https://edition-humboldt.de/H0017425 https://www.geonames.org/1264491">Mahabulesh<subst>
                                         <del rendition="#s">u</del>
                                         <add place="superlinear">w</add>
@@ -95,8 +117,12 @@
                                 ging allein <lb/>über <placeName ref="https://edition-humboldt.de/H0663662 https://www.geonames.org/1273800">Cuddapah</placeName>
                                 nach <placeName ref="https://edition-humboldt.de/H0008563 https://www.geonames.org/1264527">Madras</placeName> mit einem
                                 <lb/>Besuch bei den Diamanten-Districten.</cell>
-                            <cell>D. <placeName ref="https://edition-humboldt.de/H0005497 https://www.geonames.org/1273342">Dekkan</placeName> und Süd-<placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> zusammen mit <lb/>seinen
-                                Brüdern nach seiner Reise von <placeName ref="https://edition-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName>
+                            <cell><choice>
+                                    <abbr>D.</abbr>
+                                    <expan>Durch</expan>
+                                </choice>
+                                <placeName ref="https://edition-humboldt.de/H0005497 https://www.geonames.org/1273342">Dekkan</placeName> und Süd-<placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName> zusammen mit <lb/>seinen
+                                Brüdern auf seiner Reise von <placeName ref="https://edition-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName>
                                 <lb/>nach <placeName ref="https://edition-humboldt.de/H9699589 http://www.geonames.org/1277333">Bangalore</placeName>, ging über d<subst>
                                     <del rendition="#s">as</del>
                                     <add place="sublinear">en</add>
@@ -108,26 +134,34 @@
                         </row>
                         <row>
                             <cell>1855</cell>
-                            <cell><placeName ref="https://edition-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, d. <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalayas</placeName> von <placeName ref="https://edition-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName>, <lb/>und Ostgrenze von
+                            <cell><placeName ref="https://edition-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, <choice>
+                                    <abbr>d.</abbr>
+                                    <expan>durch</expan>
+                                </choice>
+                                <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalayas</placeName> von <placeName ref="https://edition-humboldt.de/H0010238 https://www.geonames.org/1256312">Sikkim</placeName>, <lb/>und Ostgrenze von
                                     <placeName ref="https://edition-humboldt.de/H0001596 https://www.geonames.org/1282988">Nepal</placeName>, <subst>
                                     <del rendition="#s">d.</del>
                                     <add place="superlinear">dann</add>
                                 </subst>
                                 <placeName ref="https://edition-humboldt.de/H9100057 http://www.geonames.org/1262278">Naga</placeName><supplied cert="high">-</supplied>
-                                <lb/>und d. <placeName ref="https://edition-humboldt.de/H2759692 https://www.geonames.org/1266856">Kassia</placeName>-<subst>
+                                <lb/>und <choice>
+                                    <abbr>d.</abbr>
+                                    <expan>durch</expan>
+                                </choice>
+                                <placeName ref="https://edition-humboldt.de/H2759692 https://www.geonames.org/1266856">Kassia</placeName>-<subst>
                                     <del rendition="#s">Hügel</del>
                                     <add place="superlinear">Gebirge</add>
                                 </subst>, <placeName ref="https://edition-humboldt.de/H0002582 https://www.geonames.org/1278253">Assam</placeName>, ein
                                 <lb/>Theil von <placeName ref="https://edition-humboldt.de/H0005234 https://www.geonames.org/1252634">Bhootan</placeName>, das
                                 Delta des <lb/><placeName ref="https://edition-humboldt.de/H0010808 https://www.geonames.org/1202950">Ganges</placeName>, und
                                     <placeName ref="https://edition-humboldt.de/H0010714 https://www.geonames.org/1208092">Brahmapootra</placeName>.</cell>
-                            <cell><placeName ref="https://edition-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, <placeName ref="https://edition-humboldt.de/H0019119 https://d-nb.info/gnd/122246-6"><choice>
+                            <cell><p><placeName ref="https://edition-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, <placeName ref="https://edition-humboldt.de/H0019119 https://d-nb.info/gnd/122246-6"><choice>
                                         <abbr>N. W. Provinzen</abbr>
                                         <expan>Nordwest-Provinzen</expan>
                                     </choice></placeName>, die <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalayas</placeName> von <placeName ref="https://edition-humboldt.de/H0000500 https://www.geonames.org/1262117">Ku<g ref="#typoHyphen"/><lb break="no"/>maon</placeName> und
-                                    <placeName ref="https://edition-humboldt.de/H0017192 https://www.geonames.org/1254807">Gurwhal</placeName>, ging güber den
+                                    <placeName ref="https://edition-humboldt.de/H0017192 https://www.geonames.org/1254807">Gurwhahl</placeName>, ging über den
                                     <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName><del rendition="#s">s</del> nach <lb/><placeName ref="https://edition-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> mit seinem Bruder <persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName>, und <subst>
-                                    <del rendition="#s"><gap reason="illegible" quantity="1" unit="words"/></del>
+                                    <del rendition="#s">prüfte</del>
                                     <add place="superlinear">untersuchte</add>
                                 </subst> das <lb/>Thal <subst>
                                     <del rendition="#s">von</del>
@@ -144,23 +178,21 @@
                                     <del rendition="#s">zu einer</del>
                                     <add place="intralinear">eine</add>
                                 </subst> Höhe von <measure quantity="22260" unit="foot">22260 Fuß
-                                    (englisch)</measure><supplied cert="high">.</supplied>
-                                <lb/>Während der kalten Jahreszeit besuchte er Theile <lb/>von
-                                    Mittel-<placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>, das Thal <subst>
-                                    <del rendition="#s">von</del>
-                                    <add place="superlinear">des</add>
-                                </subst>
-                                <placeName ref="https://edition-humboldt.de/H1868285 https://www.geonames.org/1271115">Godavery</placeName> (<placeName ref="https://edition-humboldt.de/H0008563 https://www.geonames.org/1264527">Madras</placeName><subst>
-                                    <del rendition="#ow">)</del>
-                                    <add place="across">- <lb/>Präsidentschaft</add>
-                                </subst>), die <gap reason="illegible" unit="words" quantity="1"/>
-                                und die Fossi<g ref="#typoHyphen"/><lb break="no"/>lien-Lager
-                                zwischen <placeName ref="https://edition-humboldt.de/H0018283 https://www.geonames.org/1254389">Trichinopoly</placeName> und
-                                    <placeName ref="https://edition-humboldt.de/H0000357 https://www.geonames.org/1273845">Cap <lb/>Comorin</placeName>.</cell>
-                            <cell><placeName ref="https://edition-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, <placeName ref="https://edition-humboldt.de/H0019119 https://d-nb.info/gnd/122246-6"><choice>
+                                    (englisch)</measure><supplied cert="high">.</supplied></p>
+                                <p>Während der kalten Jahreszeit besuchte er Theile <lb/>von
+                                        Mittel-<placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>, das
+                                    Thal <subst>
+                                        <del rendition="#s">von</del>
+                                        <add place="superlinear">des</add>
+                                    </subst>
+                                    <placeName ref="https://edition-humboldt.de/H1868285 https://www.geonames.org/1271115">Godavery</placeName> (<placeName ref="https://edition-humboldt.de/H0008563 https://www.geonames.org/1264527">Madras</placeName><subst>
+                                        <del rendition="#ow">)</del>
+                                        <add place="across">- <lb/>Präsidentschaft</add>
+                                    </subst>), die <placeName ref="https://edition-humboldt.de/H0001674 https://www.geonames.org/1261390">Neilgherries</placeName> und die Fossi<g ref="#typoHyphen"/><lb break="no"/>lien-Lager zwischen <placeName ref="https://edition-humboldt.de/H0018283 https://www.geonames.org/1254389">Trichinopoly</placeName> und <placeName ref="https://edition-humboldt.de/H0000357 https://www.geonames.org/1273845">Cap <lb/>Comorin</placeName>.</p></cell>
+                            <cell><p><placeName ref="https://edition-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, <placeName ref="https://edition-humboldt.de/H0019119 https://d-nb.info/gnd/122246-6"><choice>
                                         <abbr>N. W. Provinzen</abbr>
                                         <expan>Nordwest-Provinzen</expan>
-                                    </choice></placeName> und <placeName ref="https://edition-humboldt.de/H0017192 https://www.geonames.org/1254807">Gurwhal</placeName> i<subst>
+                                    </choice></placeName>, <placeName ref="https://edition-humboldt.de/H0000500 https://www.geonames.org/1262117">Kumaon</placeName> und <placeName ref="https://edition-humboldt.de/H0017192 https://www.geonames.org/1254807">Gurwhahl</placeName> i<subst>
                                     <del rendition="#ow">n</del>
                                     <add place="across">m</add>
                                 </subst>
@@ -183,25 +215,26 @@
                                             <corr cert="high">eine</corr>
                                         </choice></add>
                                 </subst> Höhe von <measure quantity="22260" unit="foot">22260
-                                    <lb/>Fuß englisch</measure>. <lb/>Während der kalten Jahreszeit
+                                    <lb/>Fuß englisch</measure>.</p><p>Während der kalten Jahreszeit
                                 untersuchte er <lb/>Central-<placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>, <placeName ref="https://edition-humboldt.de/H0018619 https://www.geonames.org/1275105">Bundelkhund</placeName>, die Umgebungen von <lb/><placeName ref="https://edition-humboldt.de/H0019058 https://www.geonames.org/1278905">Amarkantak</placeName>, und die Quellen der
                                     <placeName ref="https://edition-humboldt.de/H0019106 https://www.geonames.org/1261774">Nerbudda</placeName>, <subst>
                                     <del rendition="#s">Jons,</del>
                                     <add place="sublinear"><placeName ref="https://edition-humboldt.de/H7589444 https://www.geonames.org/1254236">Tons</placeName>,</add>
                                 </subst>
-                                <lb/><placeName ref="https://edition-humboldt.de/H0018784 https://www.geonames.org/1255729">Sone</placeName> und <placeName ref="https://edition-humboldt.de/H3389115 https://www.geonames.org/1268843">Johilla</placeName>.</cell>
+                                <lb/><placeName ref="https://edition-humboldt.de/H0018784 https://www.geonames.org/1255729">Sone</placeName> und <placeName ref="https://edition-humboldt.de/H3389115 https://www.geonames.org/1268843">Johilla</placeName>.</p></cell>
                         </row>
                         <row>
                             <cell>1856<choice>
-                                    <sic>.</sic>
-                                    <corr type="deleted"/>
+                                    <orig>.</orig>
+                                    <reg cert="high" type="deleted"/>
                                 </choice></cell>
-                            <cell><placeName ref="https://edition-humboldt.de/H0006867 https://www.geonames.org/1114958">Hindoostan</placeName>, <placeName ref="https://edition-humboldt.de/H0002634 https://www.geonames.org/1278131">Oude</placeName>, das <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>
-                                <lb/>Gebirge von <placeName ref="https://edition-humboldt.de/H6051051 https://www.geonames.org/1266519">Kunower</placeName>,
-                                    <placeName ref="https://edition-humboldt.de/H0017411 https://www.geonames.org/1265292">Spiti</placeName>, die Salz-Seen von
-                                    <placeName ref="https://edition-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName>, <lb/>traf seinen
-                                Bruder <persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> in <placeName ref="https://edition-humboldt.de/H0011406 https://www.geonames.org/1264976">Leh</placeName>, und setzte <lb/>mit ihm seine
-                                Untersuchungen fort über die Ketten <lb/>des <placeName ref="https://edition-humboldt.de/H0017455 https://www.geonames.org/7449791">Karakorúm</placeName> und des <placeName ref="https://edition-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenluen</placeName> nach <placeName ref="https://edition-humboldt.de/H0000412">Khot<g ref="#typoHyphen"/><lb break="no"/>an</placeName> (<placeName ref="https://edition-humboldt.de/H0000412">Khotan</placeName>
+                            <cell><placeName ref="https://edition-humboldt.de/H0006867 https://www.geonames.org/1114958">Hindoostan</placeName>, <placeName ref="https://edition-humboldt.de/H0002634 https://www.geonames.org/1278131">Oude</placeName>, das <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>-Gebirge von <lb/><placeName ref="https://edition-humboldt.de/H6051051 https://www.geonames.org/1266519">Kunower</placeName>, <placeName ref="https://edition-humboldt.de/H0017411 https://www.geonames.org/1265292">Spiti</placeName>, die Salz-<choice>
+                                    <orig>Seeen</orig>
+                                    <reg>Seen</reg>
+                                </choice> von <placeName ref="https://edition-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName>, <lb/>traf
+                                seinen Bruder <persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert</persName> in
+                                    <placeName ref="https://edition-humboldt.de/H0011406 https://www.geonames.org/1264976">Leh</placeName>, und setzte <lb/>mit
+                                ihm seine Untersuchungen fort über die Ketten <lb/>des <placeName ref="https://edition-humboldt.de/H0017455 https://www.geonames.org/7449791">Karakorúm</placeName> und des <placeName ref="https://edition-humboldt.de/H0000502 https://www.geonames.org/1280792">Kuenluen</placeName> nach <placeName ref="https://edition-humboldt.de/H0000412">Kho<g ref="#typoHyphen"/><lb break="no"/>tan</placeName> (<placeName ref="https://edition-humboldt.de/H0000412">Khotan</placeName>
                                 <placeName ref="https://edition-humboldt.de/H0010713 https://www.geonames.org/1281307"><subst>
                                         <del rendition="#ow">J</del>
                                         <add place="across">Y</add>
@@ -211,7 +244,7 @@
                                     <add place="intralinear">über</add>
                                 </subst>
                                 <placeName ref="https://edition-humboldt.de/H1346124 https://www.geonames.org/1255316">Sooroo</placeName> nach <placeName ref="https://edition-humboldt.de/H0000378 https://www.geonames.org/1440268">Kashmir</placeName>.</cell>
-                            <cell>Theil von <placeName ref="https://edition-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, <placeName ref="https://edition-humboldt.de/H5664334 https://www.geonames.org/1269750">Sirmor</placeName> und <placeName ref="https://edition-humboldt.de/H0017185 https://www.geonames.org/1252682">Zanskar</placeName>
+                            <cell><p>Theil von <placeName ref="https://edition-humboldt.de/H0005199 https://www.geonames.org/1252881">Bengal</placeName>, <placeName ref="https://edition-humboldt.de/H5664334 https://www.geonames.org/1269750">Sirmor</placeName> und <placeName ref="https://edition-humboldt.de/H0017185 https://www.geonames.org/1252682">Zanskar</placeName>
                                 <lb/>in dem <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName><del rendition="#s">-Gebirge</del>, <placeName ref="https://edition-humboldt.de/H0005093 https://www.geonames.org/1183616">Balti</placeName> und <placeName ref="https://edition-humboldt.de/H0010861 https://www.geonames.org/1178338">Gilgit</placeName>
                                 <lb/>in <placeName ref="https://edition-humboldt.de/H0009370 https://www.geonames.org/1279685">Tibet</placeName> und den
                                     <placeName ref="https://edition-humboldt.de/H0009066 http://www.geonames.org/1280524">Mustah</placeName>-Paß i<subst>
@@ -219,8 +252,8 @@
                                     <add place="across">m</add>
                                 </subst><subst>
                                     <del rendition="#s">dem </del>
-                                </subst><lb/><placeName ref="https://edition-humboldt.de/H0017455 https://www.geonames.org/7449791">Karakarum</placeName>-Gebirge. <lb/>Kehrte über <placeName ref="https://edition-humboldt.de/H0903999">Gurys</placeName> nach <placeName ref="https://edition-humboldt.de/H0000378 https://www.geonames.org/1440268">Kashmir</placeName>
-                                <lb/>und Nord-<placeName ref="https://edition-humboldt.de/H0008478 https://www.geonames.org/1167710">Punjaub</placeName> zurück. </cell>
+                                </subst><lb/><placeName ref="https://edition-humboldt.de/H0017455 https://www.geonames.org/7449791">Karakarum</placeName>-Gebirge.</p><p>Kehrte über <placeName ref="https://edition-humboldt.de/H0903999">Gurys</placeName> nach <placeName ref="https://edition-humboldt.de/H0000378 https://www.geonames.org/1440268">Kashmir</placeName>
+                                <lb/>und Nord-<placeName ref="https://edition-humboldt.de/H0008478 https://www.geonames.org/1167710">Punjaub</placeName> zurück.</p></cell>
                             <cell><choice>
                                     <abbr>N. W. Provinzen</abbr>
                                     <expan>Nordwest-Provinzen</expan>
@@ -282,17 +315,20 @@
                                         <add place="across">d</add>
                                     </subst></placeName>, <placeName ref="https://edition-humboldt.de/H9826698 https://www.geonames.org/1268731">Kutch</placeName>, <lb/><placeName ref="https://edition-humboldt.de/H1354720 http://www.geonames.org/1267501">Kattewar</placeName> und <placeName ref="https://edition-humboldt.de/H0018072 https://www.geonames.org/1270770">Guzerat</placeName> nach <placeName ref="https://edition-humboldt.de/H0005304 https://www.geonames.org/1275339">Bombay</placeName> und <lb/><placeName ref="https://edition-humboldt.de/H0007287 https://www.geonames.org/1227603">Ceylon</placeName>. Verließ <placeName ref="https://edition-humboldt.de/H0007287 https://www.geonames.org/1227603">Ceylon</placeName> am 11. Mai, <lb/>um nach <placeName ref="https://edition-humboldt.de/H0005696 https://www.geonames.org/6255148">Europa</placeName> zu gehen.</cell>
                         </row>
-                    </tei:table></p><p>Die Untersuchungen der Herren Schlagintweit erstreckten sich von 5° bis zu 37° <choice>
+                    </table></p><p>Die Untersuchungen der Herren Schlagintweit erstreckten sich von 5° bis zu 37° <choice>
                         <abbr>N.</abbr>
                         <expan>nördlicher</expan>
                     </choice> Breite, und von 68° bis 98° <choice>
                         <abbr>O.</abbr>
                         <expan>östlicher</expan>
-                    </choice> Länge (<placeName ref="https://edition-humboldt.de/H0010917 https://www.geonames.org/2647937">Greenwich</placeName>.)
-                    <lb/>Gesammt-Länge der verschiedenen Linien, längs welcher die Untersuchungen
-                    auf verschiedenen Wegen ausgeführt wurden, beträgt, nach einer annähernden
-                    <lb/>Berechnung <measure quantity="18000" unit="mile">18000 Englische
-                        Meilen</measure>.</p>
+                    </choice> Länge (<placeName ref="https://edition-humboldt.de/H0010917 https://www.geonames.org/2647937">Greenwich</placeName><choice>
+                        <orig>.)</orig>
+                        <reg>).</reg>
+                    </choice>
+                    <lb type="preserve"/>Gesammt-Länge der verschiedenen Linien, längs welcher die
+                    Untersuchungen auf verschiedenen Wegen ausgeführt wurden, beträgt nach einer
+                    annähernden <lb/>Berechnung <measure quantity="18000" unit="mile">18000
+                        Englische Meilen</measure>.</p>
                 <pb n="218v"/><gap reason="empty" unit="pages" quantity="1"/>
             </div>
         </body></text>

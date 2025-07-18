@@ -30,15 +30,27 @@
                     <resp>
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
+                    
+                </respStmt>
+                <respStmt>
+                    <persName ref="https://d-nb.info/gnd/1192713052">
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
                 </respStmt>
             </titleStmt><editionStmt><p>Schlagintweit, Robert, Freiherr von; Schlagintweit-Sakünlünski, Hermann: Hermann und Robert Schlagintweit an Wilhelm Prinz von Preußen. Berlin, 12.
-                    März 1858, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0019143">https://edition-humboldt.de/v10/H0019143</ref></p></editionStmt>
+                    März 1858, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0019143</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0019143.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
-                        <institution>Deutsches Literaturarchiv Marbach</institution>
+                        
+                        <institution>Deutsches Literaturarchiv
+                            Marbach</institution>
                         <repository>Handschriftenabteilung</repository>
                         <idno><idno type="shelfmark">A:Humboldt 62.2335</idno></idno>
                     </msIdentifier>
@@ -60,28 +72,31 @@
     <text><body>
             <div>
                 <pb n="1r"/>
-                <note place="mTop" hand="#author">Abschrift des Briefes an Seine Kgl.
-                        <lb/>
+                <note place="mTop" hand="#author">Abschrift des Briefes an Seine <choice>
+                        <abbr>Kgl.</abbr>
+                        <expan>Königliche</expan>
+                    </choice>
+                    <lb/>
                     Hoheit den <persName ref="https://edition-humboldt.de/H0002173 http://d-nb.info/gnd/118632884">Prinzen <choice>
                             <abbr>v.</abbr>
                             <expan>von</expan>
-                        </choice> Preußen</persName></note>
+                        </choice> Preussen</persName></note>
                 <opener>
                     <salute>Eure Königliche Hoheit!</salute>
                 </opener>
-                <p>Wenn wir es wagen Eurer Königlichen <lb/>Hoheit voll Ehrfurcht die Bitte
-                    vorzulegen, <lb/>zur Ausstellung unserer Sammlungen <lb/>Fonds angewiesen zu
-                    erhalten so <lb/>geschieht es zunächst im Vertrauen auf <lb/>die huldvolle
-                    Nachsicht Eurer Königlichen <lb/>Hoheit und in lebhaftester und dank<g ref="#typoHyphen"/><lb break="no"/>barster Erinnerung an die <ref xml:id="d6897ec9-0f1b-4e50-897e-c90f1bde50b6" corresp="#fa45ed26-8020-4dfa-85ed-268020edfa9c" type="editorialNote">beglückende <lb/>Theilnahme die <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Seine
-                                Majestät der <lb/>König</persName> sowohl in <placeName ref="https://edition-humboldt.de/H0017429 https://www.geonames.org/3071024">Marienbad</placeName></ref><note xml:id="fa45ed26-8020-4dfa-85ed-268020edfa9c" corresp="#d6897ec9-0f1b-4e50-897e-c90f1bde50b6" type="editorial" resp="#LM">Humboldt bestärkte die Brüder den
+                <p>Wenn wir es wagen, Eurer Königlichen <lb/>Hoheit voll Ehrfurcht die Bitte
+                    vorzulegen, <lb/>zur Aufstellung unserer Sammlungen <lb/>Fonds angewiesen zu
+                    erhalten, so <lb/>geschieht es zunächst im Vertrauen auf <lb/>die huldvolle
+                    Nachsicht Eurer Königlichen <lb/>Hoheit und in lebhaftester und dank<g ref="#typoHyphen"/><lb break="no"/>barster Erinnerung an die <ref xml:id="a101a8ba-7120-4b05-81a8-ba7120bb054a" corresp="#baea4d29-c33e-46a3-aa4d-29c33e16a33a" type="editorialNote">beglückende <lb/>Theilnahme, die <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Seine
+                                Majestät der <lb/>König</persName> sowohl in <placeName ref="https://edition-humboldt.de/H0017429 https://www.geonames.org/3071024">Marienbad</placeName></ref><note xml:id="baea4d29-c33e-46a3-aa4d-29c33e16a33a" corresp="#a101a8ba-7120-4b05-81a8-ba7120bb054a" type="editorial" resp="#LM">Humboldt bestärkte die Brüder den
                                 <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Friedrich Wilhelm IV.</persName> in
                                 <placeName ref="https://edition-humboldt.de/H0017429 https://www.geonames.org/3071024">Marienbad</placeName> aufzusuchen. Vgl.
                                 <ref target="https://edition-humboldt.de/H0016436">Humboldt an Friedrich Wilhelm IV., Berlin,
                                 20. Juni 1857</ref>, GStA, I. HA Rep. 89 Geheimes Zivilkabinett,
-                            jüngere Periode, Nr. 19767, Bl. 51–52.</note> huldvollst <lb/>gegen uns selbst, als auch in den <ref xml:id="bf00de34-bef0-4b52-80de-34bef06b526c" corresp="#eb191f7c-e01e-4b14-991f-7ce01e9b140b" type="editorialNote">beiden <lb/>beigelegten Briefen an <choice>
+                            jüngere Periode, Nr. 19767, Bl. 51–52.</note> huldvollst <lb/>gegen uns selbst, als auch in den <ref xml:id="ec798bb0-9b5b-43c3-b98b-b09b5b03c3f7" corresp="#b22420bc-5e2c-425f-a420-bc5e2cb25f4d" type="editorialNote">beiden <lb/>beigelegten Briefen an <choice>
                                 <abbr>Hrn</abbr>
                                 <expan>Herrn</expan>
-                            </choice> von <lb/>Humboldt aussprach</ref><note xml:id="eb191f7c-e01e-4b14-991f-7ce01e9b140b" corresp="#bf00de34-bef0-4b52-80de-34bef06b526c" type="editorial" resp="#UP">Diese Schreiben konnten bislang nicht
+                            </choice> von <lb/>Humboldt aussprach</ref><note xml:id="b22420bc-5e2c-425f-a420-bc5e2cb25f4d" corresp="#ec798bb0-9b5b-43c3-b98b-b09b5b03c3f7" type="editorial" resp="#UP">Diese Schreiben konnten bislang nicht
                             nachgewiesen werden.</note>. –</p>
                 <p>Da uns allerdings von <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">Seiner <lb/>Majestät dem
                         Könige</persName> nicht speciell <lb/>die Anschaffung von Sammlungen
@@ -89,36 +104,36 @@
                         <measure quantity="777" unit="reichsthaler">777 <choice>
                             <abbr>Thlr.</abbr>
                             <expan>Thaler</expan>
-                        </choice></measure> persönlichen <lb/>Gehalt<supplied cert="high">s</supplied>, auf drei Jahre) wurden die <lb/>Gegenstände unserer
-                    Sammlungen, <lb/>die theils auf Kosten der <orgName ref="https://edition-humboldt.de/H0016794 https://d-nb.info/gnd/2052078-5">ostinidischen
-                        <lb/>Compagnie</orgName>, theils auf unsere eigenen <lb/>Kosten angeschafft
-                    wurden säm̅tlich <lb/>nach <placeName ref="https://edition-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName>
-                    an den <orgName ref="https://edition-humboldt.de/H0016794 https://d-nb.info/gnd/2052078-5">Court of Directors</orgName>
+                        </choice></measure> persönlichen
+                    <lb/>Gehalt,
+                    auf drei Jahre)<supplied cert="high">,</supplied> wurden die <lb/>Gegenstände
+                    unserer Sammlungen, <lb/>die theils auf Kosten der <orgName ref="https://edition-humboldt.de/H0016794 https://d-nb.info/gnd/2052078-5">ostinidischen <lb/>Compagnie</orgName>, theils auf unsere eigenen
+                    <lb/>Kosten angeschafft wurden, säm̅tlich <lb/>nach <placeName ref="https://edition-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName> an den <orgName ref="https://edition-humboldt.de/H0016794 https://d-nb.info/gnd/2052078-5">Court of
+                        Directors</orgName>
                     <lb/>geschickt.</p>
-                <p><ref xml:id="c0631d4a-3811-490e-a31d-4a3811f90ee2" corresp="#c489c180-7ef6-4445-89c1-807ef6b44542" type="editorialNote">Obwohl uns anfangs sehr bedeutende <lb/>Schwierigkeiten gemacht
-                            wurden, <lb/>gelang es uns doch, die Erlaubniß <lb/>zu erhalten<supplied cert="high">,</supplied> die säm̅tlichen Sam̅lungen <lb/>zur
-                            Bearbeitung nach <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
-                            nehmen</ref><note xml:id="c489c180-7ef6-4445-89c1-807ef6b44542" corresp="#c0631d4a-3811-490e-a31d-4a3811f90ee2" type="editorial" resp="#LM">Im August 1857 erhielten <persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert Schlagintweit</persName> die Genehmigung der <orgName ref="https://edition-humboldt.de/H0016794 https://d-nb.info/gnd/2052078-5">East India Company</orgName>, ihre Sammlungen nach
+                <p><ref xml:id="a23d2bb0-328b-436d-bd2b-b0328b536d9d" corresp="#e3fc1933-1bfa-4d74-bc19-331bfa1d74e1" type="editorialNote">Obwohl uns anfangs sehr bedeutende <lb/>Schwierigkeiten gemacht
+                            wurden, <lb/>gelang es uns doch, die Erlaubniß <lb/>zu erhalten, die
+                            säm̅tlichen Sam̅lungen <lb/>zur Bearbeitung nach <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> nehmen</ref><note xml:id="e3fc1933-1bfa-4d74-bc19-331bfa1d74e1" corresp="#a23d2bb0-328b-436d-bd2b-b0328b536d9d" type="editorial" resp="#LM">Im August 1857 erhielten <persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Hermann</persName> und <persName ref="https://edition-humboldt.de/H0015556 http://d-nb.info/gnd/118795090">Robert Schlagintweit</persName> die Genehmigung der <orgName ref="https://edition-humboldt.de/H0016794 https://d-nb.info/gnd/2052078-5">East India Company</orgName>, ihre Sammlungen nach
                             Berlin zu bringen, um diese dort zu sichten und aufzubereiten. Zur
                             Übernahme der Transportkosten wurde jedoch das <placeName ref="https://edition-humboldt.de/H0008406">Königreich Preußen</placeName> verpflichtet. Vgl. <bibl corresp="https://edition-humboldt.de/6HVFEMR7">Kleidt 2015</bibl>, 116 f.</note>
-                    <lb/>zu dürfen wo auch die <hi rendition="#u" hand="#unknown">Doubletten</hi>
-                    und <lb/>solche besonders <hi rendition="#u" hand="#unknown">ethnographischen
+                    <lb/>zu dürfen, wo auch die <hi rendition="#u" hand="#unknown">Doubletten</hi>
+                    und <lb/>solche, besonders <hi rendition="#u" hand="#unknown">ethnographische
                             Gegen<g ref="#typoHyphen"/><lb break="no"/>stände</hi>
                     <hi rendition="#u" hand="#unknown">bleiben</hi>
                     <hi rendition="#u" hand="#unknown">dürfen, die schon im <lb/><placeName ref="https://edition-humboldt.de/H0016795 https://www.geonames.org/2643743">India House</placeName> vorhanden sind</hi>. –</p>
-                <p>Dagegen erwartet das <placeName ref="https://edition-humboldt.de/H0016795 https://www.geonames.org/2643743">India <lb/>House</placeName>, daß die
-                    Sammlungen (im <lb/>Ganzen <hi rendition="#uu" hand="#unknown">510</hi> Kisten),
-                    deren Ankauf <lb/>zum bei weitem größten Theil, <lb/>ebenso wie der <hi rendition="#u" hand="#unknown">Transport bis <placeName ref="https://edition-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName></hi>
-                    <lb/><pb n="2r"/> vom <placeName ref="https://edition-humboldt.de/H0016795 https://www.geonames.org/2643743">India House</placeName> bestritten
-                    würde, <lb/>in <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> bearbeitet werden.
-                    –</p>
+                <p>Dagegen erwartet das <placeName ref="https://edition-humboldt.de/H0016795 https://www.geonames.org/2643743">India <lb/>House</placeName>, daß
+                    die Sammlungen, (im <lb/>Ganzen <hi rendition="#uu" hand="#unknown">510</hi>
+                    Kisten), deren Ankauf <lb/>zum bei weitem größten Theil, <lb/>ebenso wie der <hi rendition="#u" hand="#unknown">Transport bis <placeName ref="https://edition-humboldt.de/H0011492 https://www.geonames.org/2643743">London</placeName></hi>
+                    <lb/><pb n="2r"/> vom <placeName ref="https://edition-humboldt.de/H0016795 https://www.geonames.org/2643743">India House</placeName>
+                    bestritten wurde, <lb/>in <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+                    bearbeitet werden. –</p>
                 <p>Wir haben bereits vor längerer
                     <lb/>Zeit an <add place="superlinear"><choice>
                             <abbr>S.</abbr>
                             <expan>Seine</expan>
                         </choice> Excellenz</add>
                     <choice>
-                        <abbr>Hrn.</abbr>
+                        <abbr>Hrn</abbr>
                         <expan>Herrn</expan>
                     </choice>
                     <add place="superlinear">Minister</add>
@@ -127,73 +142,76 @@
                 <p>Wir selbst haben jedoch bereits <lb/>gegen <measure quantity="7000" unit="reichsthaler">7000 <choice>
                             <abbr>Thlr</abbr>
                             <expan>Thaler</expan>
-                        </choice></measure> ausgegegben,<note hand="#author" place="mBottom"><metamark/><tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rows="10" cols="2">
+                        </choice></measure> ausgegeben,<note hand="#author" place="mBottom"><metamark/><table rows="10" cols="2">
                             <row role="label">
-                                <cell>Gruppen der Ausgaben, wie wir sie <lb/>im allgemeinen
+                                <cell cols="2">Gruppen der Ausgaben, wie wir sie <lb/>im allgemeinen
                                     übersehen können, sind <lb/>im wesentlichen folgende:</cell>
                             </row>
                             <row>
                                 <cell>Öffnen und Auspacken der Kisten</cell>
-                                <cell>150 <choice>
-                                        <abbr>Thlr.</abbr>
-                                        <expan>Thaler</expan>
-                                    </choice></cell>
+                                <cell><measure quantity="150" unit="reichsthaler">150 <choice>
+                                            <abbr>Thlr.</abbr>
+                                            <expan>Thaler</expan>
+                                        </choice></measure></cell>
                             </row>
                             <row>
                                 <cell>Spinden</cell>
-                                <cell>800</cell>
+                                <cell><measure quantity="800" unit="reichsthaler">800</measure></cell>
                             </row>
                             <row>
                                 <cell>600 Baumdurchschnitte</cell>
-                                <cell>1500</cell>
+                                <cell><measure quantity="1500" unit="reichsthaler">1500</measure></cell>
                             </row>
                             <row>
                                 <cell>Ethnographische Köpfe in Bronce</cell>
-                                <cell>2000</cell>
+                                <cell><measure quantity="2000" unit="reichsthaler">2000</measure></cell>
                             </row>
                             <row>
                                 <cell>11000 Pflanzen sublimatisiren, <lb/>aufkleben, drucken und
                                     Papier</cell>
-                                <cell>800</cell>
+                                <cell><measure quantity="800" unit="reichsthaler">800</measure></cell>
                             </row>
                             <row>
                                 <cell>Buchbinder und Rahmenmacher</cell>
-                                <cell>500</cell>
+                                <cell><measure quantity="500" unit="reichsthaler">500</measure></cell>
                             </row>
                             <row>
-                                <cell>Thierausstopfer und Miethe des Lokales</cell>
-                                <cell>400</cell>
+                                <cell>Thierausstopfer und Miethe <choice>
+                                        <abbr>d</abbr>
+                                        <expan>des</expan>
+                                    </choice> Lokales</cell>
+                                <cell><measure quantity="400" unit="reichsthaler">400</measure></cell>
                             </row>
                             <row>
                                 <cell>Heizen der Lokale in <placeName ref="https://edition-humboldt.de/H0008934">Monbijou</placeName>, der<lb/>
                                     <orgName ref="https://edition-humboldt.de/H0018835 https://d-nb.info/gnd/11934792X">Börse</orgName> und des
                                     Thierausstopfers</cell>
-                                <cell>200</cell>
+                                <cell><measure quantity="200" unit="reichsthaler">200</measure></cell>
                             </row>
                             <row>
                                 <cell>Schreiber für Katalogisiren und<lb/> Etiquetiren der
                                     Sam̅lungen</cell>
-                                <cell>300</cell>
+                                <cell><measure quantity="300" unit="reichsthaler">300</measure></cell>
                             </row>
                             <row>
                                 <cell/>
-                                <cell><note hand="https://edition-humboldt.de/#H0012069" place="mBottom">6650
-                                        Reichsthaler</note></cell>
+                                <cell><note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="mBottom"><measure quantity="6650" unit="reichsthaler">6650
+                                            Reichsthaler</measure></note></cell>
                             </row>
-                        </tei:table><note hand="https://edition-humboldt.de/#H0012069" place="mBottom">(Nach Allem (<unclear reason="illegible" cert="high">Spener</unclear> 11<supplied cert="high">.</supplied>
+                        </table><note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="mBottom">(Nach <unclear reason="illegible" cert="low"><placeName ref="https://edition-humboldt.de/H0002593 https://www.geonames.org/264371">Athen</placeName></unclear> (<unclear reason="illegible" cert="high">Spener</unclear>
+                                11<supplied cert="high">.</supplied>
                             <choice>
                                 <abbr>Febr</abbr>
                                 <expan>Februar</expan>
                             </choice>
-                            <lb/>1858) erforderte <measure quantity="150" unit="pfund_sterling">150
-                                £ <choice>
+                            <lb/>1858) erforderte <measure quantity="150" unit="pfund_sterling">150 £ <choice>
                                     <abbr>St</abbr>
                                     <expan>Sterling</expan>
                                 </choice></measure>
                             <lb/>monatlich und <measure quantity="800" unit="pfund_sterling">800 £ <choice>
                                     <abbr>St</abbr>
                                     <expan>Sterling</expan>
-                                </choice></measure><lb/> zu Druck) <ref xml:id="eda368db-5d4d-4685-a368-db5d4dc68594" corresp="#dcf2c117-9af2-4ad0-b2c1-179af2bad0a0" type="editorialNote">
+                                </choice></measure><lb/> zu Druck) <ref xml:id="f9925c04-9ba5-4c78-925c-049ba59c7854" corresp="#ecc99d2d-4170-4e54-899d-2d41700e54df" type="editorialNote">
                                     <list>
                                         <item><persName ref="https://edition-humboldt.de/H0016020 http://d-nb.info/gnd/119278294">Sprenger</persName>
                                             <measure quantity="32000" unit="reichsthaler">32000
@@ -207,7 +225,7 @@
                                                   <expan>Leopold</expan>
                                                 </choice>
                                                 <choice>
-                                                  <abbr>v.</abbr>
+                                                  <abbr>v</abbr>
                                                   <expan>von</expan>
                                                 </choice> Buch</persName>
                                             <measure quantity="16000" unit="reichsthaler">16000
@@ -219,16 +237,16 @@
                                             <measure quantity="60000" unit="reichsthaler">60000
                                                 Reichsthaler</measure></item>
                                     </list>
-                                </ref><note xml:id="dcf2c117-9af2-4ad0-b2c1-179af2bad0a0" corresp="#eda368db-5d4d-4685-a368-db5d4dc68594" type="editorial">Humboldt erwähnte die Autoren und
-                                    jeweiligen Druckkosten auch in einem <ref target="https://edition-humboldt.de/H0017988">Schreiben an Hermann und Robert Schlagintweit, Berlin, 05.
+                                </ref><note xml:id="ecc99d2d-4170-4e54-899d-2d41700e54df" corresp="#f9925c04-9ba5-4c78-925c-049ba59c7854" type="editorial">Humboldt erwähnte die Autoren und
+                                    jeweiligen Druckkosten auch in einem <ref target="https://edition-humboldt.de/H0017988">Schreiben an Hermann und Robert Schlagintweit, Berlin, 5.
                                         März 1858</ref>, GStA, HA Rep. 89 Geheimes Zivilkabinett,
                                     jüngere Periode, Nr. 19767.</note>
                             <lb/>
-                            <note hand="https://edition-humboldt.de/#H0012069" place="mBottom"><persName ref="https://edition-humboldt.de/H0000753 http://d-nb.info/gnd/11636503X">Raumers</persName><lb/> Bericht an <lb/><persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> vom<lb/>19<supplied cert="high">.</supplied> April<lb/> 1858</note><list>
-                                <item><choice>
-                                        <abbr>Transp.</abbr>
-                                        <expan>Transport</expan>
-                                    </choice> der Pferde <choice>
+                            <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="mBottom"><persName ref="https://edition-humboldt.de/H0000753 http://d-nb.info/gnd/11636503X">Raumers</persName><lb/> Bericht an <lb/><persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> vom<lb/>19<supplied cert="high">.</supplied> April<lb/> 1858</note><list>
+                                <item><hi rendition="#u"><choice>
+                                            <abbr>Transp.</abbr>
+                                            <expan>Transport</expan>
+                                        </choice></hi> der Pferde <choice>
                                         <abbr>u</abbr>
                                         <expan>und</expan>
                                     </choice> Kamele <measure quantity="3000" unit="reichsthaler">3000 Reichsthaler</measure></item>
@@ -244,12 +262,19 @@
                                             <del rendition="#s">2000</del>
                                             <add place="intralinear">2400</add>
                                         </subst> Reichsthaler</measure></item>
-                                <item>Werth der <gap reason="illegible" unit="words" quantity="2"/>
+                                <item>Werth der <choice>
+                                        <abbr>tax.</abbr>
+                                        <expan>taxirten</expan>
+                                    </choice>
+                                    <unclear reason="illegible" cert="high">Samlungen</unclear>
                                     <lb/>über <measure quantity="4500" unit="reichsthaler">4500
                                         Reichsthaler</measure></item>
-                                <item>Commission rettet <lb/>29[.] März 58 ohne <gap reason="illegible" unit="words" quantity="1"/>
-                                    <lb/>Wasser zu <measure quantity="5000" unit="reichsthaler">5000
-                                        Reichsthaler</measure> wenn <lb/>Eigenthum sicher <choice>
+                                <item>Commission rathet <lb/>29[.] März 58 <hi rendition="#u">ohne</hi>
+                                    <gap reason="illegible" unit="words" quantity="1"/>
+                                    <lb/><choice>
+                                        <abbr>u</abbr>
+                                        <expan>und</expan>
+                                    </choice> Waffen zu <measure quantity="5000" unit="reichsthaler">5000 Reichsthalern</measure> wenn <lb/>Eigenthum sicher <choice>
                                         <abbr>u</abbr>
                                         <expan>und</expan>
                                     </choice>
@@ -272,14 +297,14 @@
                                     <lb/><choice>
                                         <sic>Dieterici</sic>
                                         <corr cert="high">Dietrich</corr>
-                                    </choice></orgName> nun ange<lb break="no"/>geben 4518
-                                    Reichsthaler<supplied cert="high">.</supplied>
-                            </p><milestone unit="section" rendition="#hr"/><p><gap reason="illegible" unit="words" quantity="1"/> das Hälfte
+                                    </choice></orgName> nun ange<lb break="no"/>geben <hi rendition="#u">4518 Reichsthaler</hi><supplied cert="high">.</supplied>
+                            </p><milestone unit="section" rendition="#hr"/><p><hi rendition="#u">Hommage</hi>
+                                der <hi rendition="#u">Hälfte</hi>
                                 <lb/>in <choice>
                                     <abbr>Br</abbr>
                                     <expan>Brief</expan>
-                                </choice> an <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName>
-                                <lb/>à part und um Geld <lb/>gebeten 16<supplied cert="high">.</supplied>
+                                </choice> an <persName ref="https://edition-humboldt.de/H0002178 http://d-nb.info/gnd/118535994">König</persName> aber<lb/>à
+                                part und um Geld <lb/>gebeten 16<supplied cert="high">.</supplied>
                                 <choice>
                                     <abbr>Dez</abbr>
                                     <expan>Dezember</expan>
@@ -289,17 +314,19 @@
                     kom̅en, <lb/>wo wir sowohl einen Bericht <lb/>über unsere Thätigkeit ablegen,
                     als <lb/>auch bereits <hi rendition="#u" hand="#unknown">bearbeitete</hi> Theile
                     der <hi rendition="#u" hand="#unknown"><lb/>Sammlungen</hi> herüberbringen
-                    müssten, <lb/>um den von uns eingegangenen <lb/>Engagements zu entsprechen.</p>
+                    müssen, <lb/>um den von uns eingegangenen <lb/>Engagements zu entsprechen.</p>
                 <p>Wir wagen daher, vielleicht ent<g ref="#typoHyphen"/><lb break="no"/>schuldiget
-                    durch die Bedrängniß der <lb/>Umstände, <ref xml:id="aa3d3ac3-1f08-4501-bd3a-c31f08e50111" corresp="#cddcc498-7c89-496c-9cc4-987c89e96c98" type="editorialNote">wie auch <choice>
+                    durch die Bedrängniß der <lb/>Umstände, <ref xml:id="c00d8637-8a7b-4586-8d86-378a7b3586c2" corresp="#fa09152b-1306-452d-8915-2b1306452d6c" type="editorialNote">wie auch <choice>
                                 <abbr>Hr</abbr>
                                 <expan>Herr</expan>
                             </choice>
                             <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">von Humboldt</persName>
-                            <lb/>vorschlägt, um eine Bewilligung <lb/>von <measure quantity="10000" unit="reichsthaler">10000</measure> bis <measure quantity="12000" unit="reichsthaler">12000 <choice>
+                            <lb/>vorschlägt, um eine Bewilligung <lb/>von <measure quantity="10000" unit="reichsthaler"><hi rendition="#u" hand="#unknown">10000</hi></measure> bis
+                            <measure quantity="12000" unit="reichsthaler"><hi rendition="#u" hand="#unknown">12000</hi>
+                                <choice>
                                     <abbr>Thlr</abbr>
                                     <expan>Thalern</expan>
-                                </choice></measure> als zu be<g ref="#typoHyphen"/><lb break="no"/>rechnenden Vorschuß zu bitten</ref><note xml:id="cddcc498-7c89-496c-9cc4-987c89e96c98" corresp="#aa3d3ac3-1f08-4501-bd3a-c31f08e50111" type="editorial" resp="#LM">Vgl. das Schreiben <ref target="https://edition-humboldt.de/H0017988">Humboldts an Hermann Schlagintweit, Berlin, 5.
+                                </choice></measure> als zu be<g ref="#typoHyphen"/><lb break="no"/>rechnenden Vorschuss zu bitten</ref><note xml:id="fa09152b-1306-452d-8915-2b1306452d6c" corresp="#c00d8637-8a7b-4586-8d86-378a7b3586c2" type="editorial" resp="#LM">Vgl. das Schreiben <ref target="https://edition-humboldt.de/H0017988">Humboldts an Hermann Schlagintweit, Berlin, 5.
                                 März 1858</ref>, GStA, HA Rep. 89 Geheimes Zivilkabinett, jüngere
                             Periode, Nr. 19767.</note>, was <lb/>zugleich den größten Theil der vor<g ref="#typoHyphen"/><lb break="no"/>läufigen Aufstellungskosten <lb/>decken wird.</p>
                 <p>Persönliche Entschädigung, über <lb/>die <choice>
@@ -307,16 +334,22 @@
                         <expan>Herr</expan>
                     </choice>
                     <persName ref="https://edition-humboldt.de/H0018894">von Boyen</persName> wünschte, daß <lb/>wir uns
-                    aussprechen sollten, werden <lb/>wir erst wagen zu erwähnen nach<g ref="#typoHyphen"/><lb break="no"/>dem der Werth der Sammlungen <lb/>nach
-                    vollständigerer Ausstellung <lb/>besser beurtheilt werden kann. –</p>
+                    aussprechen sollten, werden <lb/>wir erst wagen zu erwähnen, nach<g ref="#typoHyphen"/><lb break="no"/>dem der Werth der Sammlungen <lb/>nach
+                    vollständigerer Aufstellung <lb/>besser beurtheilt werden kann. –</p>
                 <closer>
-                    <salute>Wir ersterben in tiefster Ehrfurcht <lb/>Eurer <choice>
+                    <salute>Wir ersterben in tiefster <lb/>Ehrfurcht <lb/>Eurer <choice>
                             <abbr>Kgl.</abbr>
                             <expan>Königlichen</expan>
                         </choice> Hoheit.</salute>
-                    <signed><choice><abbr>H. S.</abbr><expan>Hermann Schlagintweit</expan></choice></signed>
-                    <signed><choice><abbr>R. S.</abbr><expan>Robert Schlagintweit</expan></choice></signed>
-                    <dateline>Berlin 12<hi rendition="#sup">t</hi> März 1858.</dateline>
+                    <signed><choice>
+                            <abbr>H. S.</abbr>
+                            <expan>Hermann Schlagintweit</expan>
+                        </choice></signed>
+                    <signed><choice>
+                            <abbr>R. S.</abbr>
+                            <expan>Robert Schlagintweit</expan>
+                        </choice></signed>
+                    <dateline><placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> 12<hi rendition="#sup">t</hi> März 1858.</dateline>
                 </closer>
             </div>
         </body></text>

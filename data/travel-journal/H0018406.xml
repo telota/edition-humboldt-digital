@@ -24,19 +24,23 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt><editionStmt><p>Humboldt, Alexander von: Von Valencia nach Madrid. [= Tagebuch der Spanien-Reise 1799], hg. v. Dominik Erdmann und Christian Thomas unter Mitarbeit von Ulrike Leitner. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0018406">https://edition-humboldt.de/v10/H0018406</ref></p></editionStmt>
+            </titleStmt><editionStmt><p>Humboldt, Alexander von: Von Valencia nach Madrid. [= Tagebuch der Spanien-Reise 1799], hg. v. Dominik Erdmann und Christian Thomas unter Mitarbeit von Ulrike Leitner. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0018406</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0018406.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <sourceDesc>
 
                 <msDesc rend="manuscript">
                     <msIdentifier>
-                        <institution>Staatsbibliothek zu Berlin – Preußischer Kulturbesitz</institution>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
                         <repository>Handschriftenabteilung</repository>
                         <collection>Nachl. Alexander von Humboldt</collection>
                         <idno>
                             <idno>
-                                <idno type="shelfmark">gr. Kasten 5, Nr. 15.16, Bl. 6‒9</idno>
+                                <idno type="shelfmark">gr.
+                                    Kasten
+                                    5, Nr. 15.16, Bl.
+                                    6‒9</idno>
                                 <idno type="URLImages">http://resolver.staatsbibliothek-berlin.de/SBB00019DF000000000</idno>
                                 <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1027380</idno>
                                 <idno type="URLCatalogue">http://stabikat.de/DB=1/PPN?PPN=826363342</idno>
@@ -60,8 +64,13 @@
         <profileDesc><textClass><keywords><term>travel-journal</term></keywords></textClass>
             <creation>
                 <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
-                <date notBefore="1799-05" notAfter="1799-06" cert="high"/>
+                <date notBefore="1799-05-13" notAfter="1799-06-05" cert="high"/>
             </creation>
+            <langUsage>
+                <language scope="major" ident="deu"/>
+                <language scope="minor" ident="fra"/>
+                <language scope="minor" ident="lat"/>
+            </langUsage>
         </profileDesc>
         
     </teiHeader>
@@ -71,7 +80,8 @@
         <div>
             <head>Von <placeName ref="https://edition-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> nach <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>.</head>
             <note hand="#author" place="right">
-                    <p><foreign xml:lang="lat">scripsi</foreign> im <choice>
+                    <p><foreign xml:lang="lat">scripsi</foreign>
+                            im <choice>
                                 <abbr>Kön.</abbr>
                                 <expan>Königreich</expan>
                             </choice>
@@ -82,12 +92,12 @@
                                 <expan>und</expan>
                             </choice>
                             <lb/>
-                            <placeName ref="https://edition-humboldt.de/H0018497 https://www.geonames.org/3105603">Villafranca</placeName>
+                            <placeName ref="https://edition-humboldt.de/H0018497 https://www.geonames.org/3105603">Villafranca</placeName><supplied cert="high">,</supplied>
                             <date when="1799-05" calendar="#gregorian">Mai
                             99</date>.</p>
                     </note>
             <note hand="#author" place="right">
-                    <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rows="23" cols="2">
+                    <table rows="23" cols="2">
                         <head>Barometer <lb/>(addire 37 Linien<note place="right mTop" hand="#author">
                                     <subst>
                                         <del rendition="#s">
@@ -135,7 +145,7 @@
                         </row>
                         <row>
                             <cell>
-                                    <ref xml:id="ed45f757-8f45-43e3-85f7-578f4583e3fc" corresp="#a5f50673-977b-484d-b506-73977be84dca" type="editorialNote"><placeName resp="#AG" ref="https://edition-humboldt.de/H0019054 https://www.geonames.org/2522007">Alginette</placeName></ref><note xml:id="a5f50673-977b-484d-b506-73977be84dca" corresp="#ed45f757-8f45-43e3-85f7-578f4583e3fc" type="editorial" resp="#CT">Siehe auch <bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt
+                                    <ref xml:id="dbb101d1-6126-4cea-b101-d161260cea1a" corresp="#adc3daa7-a555-4f07-83da-a7a5558f0753" type="editorialNote"><placeName resp="#AG" ref="https://edition-humboldt.de/H0019054 https://www.geonames.org/2522007">Alginette</placeName></ref><note xml:id="adc3daa7-a555-4f07-83da-a7a5558f0753" corresp="#dbb101d1-6126-4cea-b101-d161260cea1a" type="editorial" resp="#CT">Siehe auch <bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt
                                                 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>: <quote>Hochebene am Guito
                                                 Alginetta</quote></note>
                                 </cell>
@@ -143,7 +153,10 @@
                         </row>
                         <row>
                             <cell>
-                                    <placeName>Sierra St. An̅a</placeName>
+                                    <placeName ref="https://edition-humboldt.de/H0018992">Sierra <choice>
+                                            <abbr>St.</abbr>
+                                            <expan>Santa</expan>
+                                        </choice> An̅a</placeName>
                                 </cell>
                             <cell>297,4.</cell>
                         </row>
@@ -161,7 +174,7 @@
                         </row>
                         <row>
                             <cell> Venta del <placeName ref="https://edition-humboldt.de/H0018727 https://www.geonames.org/6362035">Mo<g ref="#typoHyphen"/><lb break="no"/>chente</placeName></cell>
-                            <cell>291,2<unclear reason="illegible" cert="high" resp="#CT">.</unclear></cell>
+                            <cell>291,2.</cell>
                         </row>
                         <row>
                                 <cell> Puerto de <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Alman<g ref="#typoHyphen"/><lb break="no"/>za</placeName>
@@ -180,7 +193,7 @@
                             <cell>
                                     <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Almanza</placeName>
                                 </cell>
-                            <cell>277,4<unclear reason="illegible" cert="high" resp="#CT">.</unclear></cell>
+                            <cell>277,4.</cell>
                         </row>
                         <row>
                                 <cell>
@@ -197,7 +210,7 @@
                             <cell>270.</cell>
                         </row>
                         <row>
-                                <cell> Venta del <placeName ref="https://edition-humboldt.de/H0018471 https://www.geonames.org/2511848">Rin<g ref="#typoHyphen"/><lb break="no"/>con</placeName>
+                            <cell> Venta del <placeName ref="https://edition-humboldt.de/H5351137">Rin<g ref="#typoHyphen"/><lb break="no"/>con</placeName>
                                 </cell>
                                 <cell>272,2.</cell>
                             </row>
@@ -226,7 +239,7 @@
                         </row>
                         <row>
                             <cell>
-                                    <placeName>el Rarinoso</placeName>
+                                <placeName resp="#DE #CT" ref="https://edition-humboldt.de/H0018641 https://www.geonames.org/2518273">el <unclear reason="covered" cert="high" resp="#CT #DE">Pe</unclear>rinoso</placeName>
                                 </cell>
                             <cell>278,5.</cell>
                         </row>
@@ -265,20 +278,20 @@
                                 </cell>
                             <cell>280.<add place="intralinear"><metamark/></add></cell>
                         </row>
-                    </tei:table>
+                    </table>
                         <note hand="#author" place="mBottom">Aus diesen <lb/>
                             <supplied cert="high" resp="#Humboldt_2012b">Barometer-</supplied>Ständen <lb/>sind Höhen <lb/>genauer zu
                         <lb/>berechnen.</note>
                     </note>
             <p>
-                        <ref xml:id="ead7f010-9d73-4d4a-97f0-109d730d4a1c" corresp="#ddda4f7e-2585-4471-9a4f-7e25856471c9" type="editorialNote">Eine Stunde jenseits <placeName ref="https://edition-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> riesige <lb/>Gärten. Kultur sonder
+                        <ref xml:id="aa7a5d39-4982-4a66-ba5d-3949826a6665" corresp="#fadac260-5e90-4d65-9ac2-605e90bd65fb" type="editorialNote">Eine Stunde jenseits <placeName ref="https://edition-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> riesige <lb/>Gärten. Kultur sonder
                                 gleichen. Bald statt <lb/>Hand, Pflug, statt Gartenland
                                     Akker<supplied cert="high" resp="#CT">.</supplied>
-                            </ref><note xml:id="ddda4f7e-2585-4471-9a4f-7e25856471c9" corresp="#ead7f010-9d73-4d4a-97f0-109d730d4a1c" type="editorial" resp="#Humboldt_2012b #CT"><quote>Nahe um
+                            </ref><note xml:id="fadac260-5e90-4d65-9ac2-605e90bd65fb" corresp="#aa7a5d39-4982-4a66-ba5d-3949826a6665" type="editorial" resp="#Humboldt_2012b #CT"><quote>Nahe um
                                         <placeName ref="https://edition-humboldt.de/H0009079 https://www.geonames.org/2509954">Valenzia</placeName> Aecker, wie
                                     Gartenland, bebauet.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>)</note>
                         <lb/>
-                        <ref xml:id="f521e1d5-a719-4304-a1e1-d5a7196304c6" corresp="#efe1e4e7-1219-493b-a1e4-e71219593b09" type="editorialNote">Nach <choice>
+                        <ref xml:id="b3aa3ff0-bc05-4b7e-aa3f-f0bc050b7e8e" corresp="#a20e10c5-1fa6-4784-8e10-c51fa6a784d1" type="editorialNote">Nach <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
                                 </choice> nach im̅er kahler, mindere Damer<g ref="#typoHyphen"/><lb break="no"/>de. Endlich kahler Kalkfels<choice>
@@ -301,24 +314,24 @@
                                 <placeName ref="https://edition-humboldt.de/H0019073 https://www.geonames.org/3118532">Leon</placeName> vor<g ref="#typoHyphen"/><lb break="no"/>kommt, <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
-                                </choice> welche (wie bei <placeName ref="https://edition-humboldt.de/H0018989 https://www.geonames.org/12680292/coll-de-balaguer.html">Balaguet</placeName>
+                                </choice> welche (wie bei <placeName ref="https://edition-humboldt.de/H0018989 https://www.geonames.org/12680292">Balaguet</placeName>
                                 <lb/><choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
-                                </choice> am <placeName ref="https://edition-humboldt.de/H0008968 https://www.geonames.org/6362037">Montserrat</placeName>) unter
-                                der Nagel<g ref="#typoHyphen"/><lb break="no"/>fluh liegt</ref><note xml:id="efe1e4e7-1219-493b-a1e4-e71219593b09" corresp="#f521e1d5-a719-4304-a1e1-d5a7196304c6" type="editorial" resp="#Humboldt_2012b #CT"><quote>Weiter
+                                </choice> am <placeName ref="https://edition-humboldt.de/H0008968 https://www.geonames.org/3116234">Montserrat</placeName>) unter
+                                der Nagel<g ref="#typoHyphen"/><lb break="no"/>fluh liegt</ref><note xml:id="a20e10c5-1fa6-4784-8e10-c51fa6a784d1" corresp="#b3aa3ff0-bc05-4b7e-aa3f-f0bc050b7e8e" type="editorial" resp="#Humboldt_2012b #CT"><quote>Weiter
                                     gegen Süden ein nackter Kalkfelsen, scheinbar dieselbe
-                                    Formation, welche ich bei <placeName ref="https://edition-humboldt.de/H0009264 https://www.geonames.org/3108288">Taragona</placeName>, <placeName resp="#AG" ref="https://edition-humboldt.de/H0018573 https://www.geonames.org/3114912">Oropesa</placeName> und in <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La Mancha</placeName> erkannte und die beim
-                                <placeName ref="https://edition-humboldt.de/H0018989 https://www.geonames.org/12680292/coll-de-balaguer.html">Col de Ballaguet</placeName> von Nagelfluh bedeckt ist.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>)</note><choice>
+                                    Formation, welche ich bei <placeName ref="https://edition-humboldt.de/H0009264 https://www.geonames.org/3108288">Taragona</placeName>, <placeName resp="#AG" ref="https://edition-humboldt.de/H0018573 https://www.geonames.org/3114912">Oropesa</placeName> und in <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La
+                                        Mancha</placeName> erkannte und die beim <placeName ref="https://edition-humboldt.de/H0018989 https://www.geonames.org/12680292">Col de Ballaguet</placeName> von Nagelfluh
+                                    bedeckt ist.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>)</note><choice>
                             <orig>))</orig>
                             <reg>)</reg>
                         </choice><supplied cert="high" resp="#CT">.</supplied> Das Vorgebirge
-                            <placeName ref="https://edition-humboldt.de/H0018990 https://www.geonames.org/2518949">Cullera</placeName>s <lb/>sieht man
-                        links am Morgen. Es erhebt <lb/>sich gewaltig<choice>
-                            <orig><unclear reason="illegible" cert="low" resp="#DE #CT">:</unclear></orig>
+                            <placeName ref="https://edition-humboldt.de/H0018990 https://www.geonames.org/2518949">Cullera</placeName>s <lb/>sieht man links am
+                        Morgen. Es erhebt <lb/>sich gewaltig wie<choice>
+                            <orig>:</orig>
                             <reg type="deleted"/>
-                        </choice> wie die Felsmassen <placeName ref="https://edition-humboldt.de/H0018700 https://www.geonames.org/2995458">Mar<g ref="#typoHyphen"/><lb break="no"/>seille Veire</placeName> zwischen
-                            <placeName ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName>
+                        </choice> die Felsmassen <placeName ref="https://edition-humboldt.de/H0018700 https://www.geonames.org/2995458">Mar<g ref="#typoHyphen"/><lb break="no"/>seille Veire</placeName> zwischen <placeName ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName>
                         <choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
@@ -327,44 +340,43 @@
                             <abbr>u.</abbr>
                             <expan>und</expan>
                         </choice> ähnlicher Bildung! <placeName ref="https://edition-humboldt.de/H0019047 https://www.geonames.org/2522085">Alcu<g ref="#typoHyphen"/><lb break="no"/>dia</placeName> ein Dorf sehr
-                        reizende Lage. <ref xml:id="c74733c9-fa79-4d3e-8733-c9fa790d3ed5" corresp="#e564a6c3-57ba-42dc-a4a6-c357ba52dcb2" type="editorialNote">In der <lb/>Nähe <name type="plant" key="Schinus molle">Schinus
+                        reizende Lage. <ref xml:id="fb3f1f2c-180e-4d2d-bf1f-2c180e3d2da8" corresp="#e1e872d6-1d59-4da9-a872-d61d595da9f5" type="editorialNote">In der <lb/>Nähe <name type="plant" key="Schinus molle">Schinus
                                     mollis</name>
                                 <subst>
                                     <del rendition="#s">wild</del>
                                     <add place="intralinear">im Freien</add>
                                 </subst>
-                                <lb/>um einen Wallfahrtsort gepflanzt.</ref><note xml:id="e564a6c3-57ba-42dc-a4a6-c357ba52dcb2" corresp="#c74733c9-fa79-4d3e-8733-c9fa790d3ed5" type="editorial" resp="#Humboldt_2012b #CT">
+                                <lb/>um einen Wallfahrtsort gepflanzt.</ref><note xml:id="e1e872d6-1d59-4da9-a872-d61d595da9f5" corresp="#fb3f1f2c-180e-4d2d-bf1f-2c180e3d2da8" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Alcudia, ein Dorf in der reitzendsten Lage, umher als Zierde
                                     eines Wallfahrtsorts, (im Freien) <hi rendition="#aq">
                                         <name type="plant">Schinus molle</name>
                                     </hi> […].</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>)</note>
                         <lb/><del rendition="#s">
                             <placeName ref="https://edition-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> bar. 301,<unclear reason="covered" cert="high" resp="#DE">8</unclear>.</del>
-                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0019054 https://www.geonames.org/2522007">Alginetta</placeName> über
-                        <lb/>dem Meer 42 toisen (<choice>
+                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0019054 https://www.geonames.org/2522007">Alginetta</placeName> über <lb/>dem
+                        Meer 42 toisen (<choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
                         </choice> von nun an <lb/>
                         <choice>
                             <orig>imer</orig>
                             <reg>im̅er</reg>
-                        </choice> über dem Meere!) <ref xml:id="c851049c-97a0-4852-9104-9c97a088522e" corresp="#d14bb455-a3fb-41e6-8bb4-55a3fb81e6d3" type="editorialNote">Man nähert <lb/>sich der Bergkette welche im <choice>
+                        </choice> über dem Meere!) <ref xml:id="fa4d1fd8-6c5e-4ee3-8d1f-d86c5eaee345" corresp="#ddb1b663-3d77-47ab-b1b6-633d7717abcf" type="editorialNote">Man nähert <lb/>sich der Bergkette welche im <choice>
                                     <abbr>südl.</abbr>
                                     <expan>südlichen</expan>
                                 </choice> Theile <lb/>des Königreichs <placeName ref="https://edition-humboldt.de/H0009079 https://www.geonames.org/2509954">Valencia</placeName> vom Osten gegen <lb/>Westen
-                                streicht.</ref><note xml:id="d14bb455-a3fb-41e6-8bb4-55a3fb81e6d3" corresp="#c851049c-97a0-4852-9104-9c97a088522e" type="editorial" resp="#Humboldt_2012b #CT"><quote>Man nähert
+                                streicht.</ref><note xml:id="ddb1b663-3d77-47ab-b1b6-633d7717abcf" corresp="#fa4d1fd8-6c5e-4ee3-8d1f-d86c5eaee345" type="editorial" resp="#Humboldt_2012b #CT"><quote>Man nähert
                                     sich der Bergkette, welche in diesem südlichen Theile des
                                     Königreichs <placeName ref="https://edition-humboldt.de/H0009079 https://www.geonames.org/2509954">Valenzia</placeName> von
                                     Osten gegen Westen streicht.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>)</note> Ihr nahe wird der 80 <choice>
                             <abbr>F.</abbr>
                             <expan>Fuß</expan>
                         </choice>
-                        <lb/>breite <ref xml:id="fb1ecd19-825f-4504-9ecd-19825f850400" corresp="#f0bb66ec-964b-4769-bb66-ec964b676975" type="editorialNote"><placeName ref="https://edition-humboldt.de/H0006616 https://www.geonames.org/2516266">Rio de Xucar</placeName> umgeleitet <choice>
+                        <lb/>breite <ref xml:id="f514a213-bdde-444d-94a2-13bdde844d1c" corresp="#c6313fce-7e3c-46b9-b13f-ce7e3cc6b91e" type="editorialNote"><placeName ref="https://edition-humboldt.de/H0006616 https://www.geonames.org/2516266">Rio de Xucar</placeName> umgeleitet <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
                                 </choice>
-                                <lb/>deshalb eine ungeheuer kostbare Brükke <lb/>gebaut.
-                                    <placeName>Sierra <choice>
+                                <lb/>deshalb eine ungeheuer kostbare Brükke <lb/>gebaut. <placeName ref="https://edition-humboldt.de/H0018992">Sierra <choice>
                                         <abbr>St</abbr>
                                         <expan>Santa</expan>
                                     </choice> Anna</placeName> bis 54 toises <lb/>hoch Kalkstein
@@ -374,26 +386,26 @@
                                 </choice> in diesem ein im Ausgehenden <lb/>wohl 3000 <choice>
                                     <abbr>t.</abbr>
                                     <expan>toisen</expan>
-                                </choice> breites Gypsflöz.</ref><note xml:id="f0bb66ec-964b-4769-bb66-ec964b676975" corresp="#fb1ecd19-825f-4504-9ecd-19825f850400" type="editorial" resp="#Humboldt_2012b #CT"><quote><placeName ref="https://edition-humboldt.de/H0006616 https://www.geonames.org/2516266">Rio de Xucar</placeName>; dann
-                                        <placeName>Sierra de S. Anna</placeName> 73 Toisen,
+                                </choice> breites Gypsflöz.</ref><note xml:id="c6313fce-7e3c-46b9-b13f-ce7e3cc6b91e" corresp="#f514a213-bdde-444d-94a2-13bdde844d1c" type="editorial" resp="#Humboldt_2012b #CT"><quote><placeName ref="https://edition-humboldt.de/H0006616 https://www.geonames.org/2516266">Rio de Xucar</placeName>; dann <placeName ref="https://edition-humboldt.de/H0018992">Sierra de S. Anna</placeName> 73 Toisen,
                                     Kalkstein mit einer Letten-Formation bedeckt und in dieser das
                                     ausgehende eines mächtigen Gipsflötzes.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>)</note>
-                        <ref xml:id="bcc2f4bd-46eb-4335-82f4-bd46eb533548" corresp="#ef9be3d9-87c0-4b5b-9be3-d987c01b5bd8" type="editorialNote">Alter Gyps<note place="mBottom" hand="#author">46<unclear reason="illegible" cert="low" resp="#DE #CT">3</unclear>
+                        <ref xml:id="d9eb3c0b-f577-49a0-ab3c-0bf57739a08c" corresp="#b477318b-b047-4ad9-b731-8bb047bad94a" type="editorialNote">Alter Gyps<note type="auxCalc" place="mBottom" hand="#author">46<unclear reason="illegible" cert="low" resp="#DE #CT">3</unclear>
                                     <lb/>
                                     <hi rendition="#u">34<unclear reason="illegible" cert="low" resp="#Humboldt_2012b">0</unclear></hi>
                                     <lb/><unclear reason="illegible" cert="low" resp="#Humboldt_2012b">800</unclear></note>
                                 <pb n="6v"/>
                                 <lb/>körnig blättrig mit Letten durchzogen <lb/>derselbe welcher bei
-                                    <placeName ref="https://edition-humboldt.de/H0018500 https://www.geonames.org/2509486">Villa Rubi<unclear reason="illegible" cert="high" resp="#CT">o</unclear></placeName> in <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La
-                                    <lb/>Mancha</placeName> das Steinsalz enthält,</ref><note xml:id="ef9be3d9-87c0-4b5b-9be3-d987c01b5bd8" corresp="#bcc2f4bd-46eb-4335-82f4-bd46eb533548" type="editorial" resp="#Humboldt_2012b #CT">
+                                    <placeName ref="https://edition-humboldt.de/H0018500 https://www.geonames.org/2509486">Villa Rubio</placeName> in <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La <lb/>Mancha</placeName> das Steinsalz
+                                enthält,</ref><note xml:id="b477318b-b047-4ad9-b731-8bb047bad94a" corresp="#d9eb3c0b-f577-49a0-ab3c-0bf57739a08c" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Dieser Gips (unregelmäßig streichend <foreign xml:lang="fra"><choice>
                                             <abbr>hor.</abbr>
                                             <expan resp="#DE">horaire</expan>
                                         </choice></foreign> 9,5 und 48° gegen Mittag fallend)
                                     körnig-blättrig mit Thon gemengt, ganz dem ähnlich, der bei
-                                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0018500 https://www.geonames.org/2509486">Villa
-                                        Rubia</placeName> und in <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La
-                                        Mancha</placeName> Steinsalz enthält.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>)</note> iden<g ref="#typoHyphen"/><lb break="no"/>tisch mit dem von
+                                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0018500 https://www.geonames.org/2509486">Villa Rubia</placeName>
+                                    und in <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La Mancha</placeName> Steinsalz
+                                    enthält.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt
+                                    1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>)</note> iden<g ref="#typoHyphen"/><lb break="no"/>tisch mit dem von
                             <placeName ref="https://edition-humboldt.de/H0002387 https://www.geonames.org/3038159">Alauch</placeName> bei <placeName ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Mar<g ref="#typoHyphen"/><lb break="no"/>seille</placeName>
                         <choice>
                             <abbr>u.</abbr>
@@ -406,18 +418,18 @@
                         <choice>
                             <orig><add place="superlinear"><metamark/>eben </add>So</orig>
                             <reg>Ebenso</reg>
-                        </choice> hoch <lb/> Venta del Col <placeName resp="#AG" ref="https://edition-humboldt.de/H0018735 https://www.geonames.org/2510758">Sumacace</placeName>. Bei die<g ref="#typoHyphen"/><lb break="no"/>ser schon wieder Kalkstein. Der Gyps <lb/>selbst ist
-                        aufgedekt, ungewiß ob Kalk<g ref="#typoHyphen"/><lb break="no"/>stein sonst
-                        darüber lag. Gyps unregel<g ref="#typoHyphen"/><lb break="no"/>mäßig doch
-                        meist <choice>
+                        </choice> hoch <lb/> Venta del Col <placeName resp="#AG" ref="https://edition-humboldt.de/H0018735 https://www.geonames.org/2510758">Sumacace</placeName>. Bei die<g ref="#typoHyphen"/><lb break="no"/>ser
+                        schon wieder Kalkstein. Der Gyps <lb/>selbst ist aufgedekt, ungewiß ob
+                            Kalk<g ref="#typoHyphen"/><lb break="no"/>stein sonst darüber lag. Gyps
+                            unregel<g ref="#typoHyphen"/><lb break="no"/>mäßig doch meist <choice>
                             <abbr>St</abbr>
                             <expan>Stunde</expan>
                         </choice> 9 <choice>
                             <abbr>Mer</abbr>
                             <expan>Meridional</expan>
-                        </choice>. <ref xml:id="d39329bd-bda2-431b-9329-bdbda2a31b14" corresp="#ea796e1a-c40c-412b-b96e-1ac40c012b2d" type="editorialNote">Das Kalk<g ref="#typoHyphen"/><lb break="no"/>steingebirge steigt
+                        </choice>. <ref xml:id="ba152ad1-271a-4398-952a-d1271a239829" corresp="#f8cf29ef-bb81-4007-8f29-efbb81600798" type="editorialNote">Das Kalk<g ref="#typoHyphen"/><lb break="no"/>steingebirge steigt
                                 immer an. Ein kulti<g ref="#typoHyphen"/><lb break="no"/>virtes Thal
-                                zwischen zwei zakkigten <lb/>waldbewachsenen Kalkketten.</ref><note xml:id="ea796e1a-c40c-412b-b96e-1ac40c012b2d" corresp="#d39329bd-bda2-431b-9329-bdbda2a31b14" type="editorial" resp="#Humboldt_2012b #CT">
+                                zwischen zwei zakkigten <lb/>waldbewachsenen Kalkketten.</ref><note xml:id="f8cf29ef-bb81-4007-8f29-efbb81600798" corresp="#ba152ad1-271a-4398-952a-d1271a239829" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Der Weg steigt sanft gegen die innere Hochebene von
                                         <placeName ref="https://edition-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName>. Das Gipsflötz
                                     sonderbar verwittert, besonders da, wo es an den Kalkstein
@@ -425,7 +437,7 @@
                                     Thal zwischen zwei zackichten waldbedeckten Kalkketten.</quote>
                                     (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>,
                                     <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/10">10</ref>f.)</note>
-                        <ref xml:id="c211859f-b8f0-4bf9-9185-9fb8f0dbf92f" corresp="#fb3ca361-0f40-45a7-bca3-610f40d5a7f6" type="editorialNote">Ein <lb/>700 <choice>
+                        <ref xml:id="be3a09cf-38b6-4847-ba09-cf38b6e84709" corresp="#c0d9bef0-925b-4ec4-99be-f0925bcec406" type="editorialNote">Ein <lb/>700 <choice>
                                     <abbr>t.</abbr>
                                     <expan>toisen</expan>
                                 </choice> vor dem 53sten Meilenstein <lb/>die ansteigende Ebene
@@ -433,12 +445,15 @@
                                     <abbr>t.</abbr>
                                     <expan>toisen</expan>
                                 </choice>
-                                <lb/>hoch</ref><note xml:id="fb3ca361-0f40-45a7-bca3-610f40d5a7f6" corresp="#c211859f-b8f0-4bf9-9185-9fb8f0dbf92f" type="editorial" resp="#CT">
+                                <lb/>hoch</ref><note xml:id="c0d9bef0-925b-4ec4-99be-f0925bcec406" corresp="#be3a09cf-38b6-4847-ba09-cf38b6e84709" type="editorial" resp="#CT">
                                 <quote>Eine halbe Meile (<hi rendition="#aq">Legua</hi>) vor dem
                                     53sten Meilenstein ist die Ebene schon 116 Toisen über der
-                                    Meeresfläche erhaben.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11</ref>)</note>, der höchste Punkt <note place="left" hand="#author">
-                            <metamark/>dieser Ebene <lb/>welche zwischen <lb/>der <placeName>Sierra
-                                St. <lb/>Anna</placeName>
+                                    Meeresfläche erhaben.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11</ref>)</note>, der höchste Punkt <add place="left"><metamark/>dieser Ebene<supplied cert="high">,</supplied>
+                            <lb/>welche zwischen <lb/>der <placeName ref="https://edition-humboldt.de/H0018992">Sierra <choice>
+                                    <abbr>St.</abbr>
+                                    <expan>Santa</expan>
+                                </choice>
+                                <lb/>Anna</placeName>
                             <choice>
                                 <abbr>u.</abbr>
                                 <expan>und</expan>
@@ -447,25 +462,25 @@
                                 <abbr>P.</abbr>
                                 <expan>Puerto</expan>
                             </choice> de <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Almanza</placeName>
-                            <lb/>enthalten ist,</note> 165 <choice>
+                            <lb/>enthalten ist,</add> 165 <choice>
                             <abbr>t</abbr>
                             <expan>toisen</expan>
                         </choice> = <lb/>990 <choice>
                             <abbr>F.</abbr>
                             <expan>Fuß</expan>
-                        </choice> hoch. <ref xml:id="f40bd830-cdb4-4270-8bd8-30cdb4f2702d" corresp="#a9d3a30c-427e-4286-93a3-0c427e528637" type="editorialNote">Die Hügelkette neben <lb/>dem Wege <choice>
+                        </choice> hoch. <ref xml:id="b95d9d67-0921-40e6-9d9d-670921b0e645" corresp="#ff7c106c-8810-4139-bc10-6c88109139f2" type="editorialNote">Die Hügelkette neben <lb/>dem Wege <choice>
                                     <abbr>St</abbr>
                                     <expan>Stunde</expan>
                                 </choice> 4–5 streichend ist <lb/>an 240 <choice>
                                     <abbr>t</abbr>
                                     <expan>toisen</expan>
-                                </choice> hoch.</ref><note xml:id="a9d3a30c-427e-4286-93a3-0c427e528637" corresp="#f40bd830-cdb4-4270-8bd8-30cdb4f2702d" type="editorial" resp="#Humboldt_2012b #CT">
+                                </choice> hoch.</ref><note xml:id="ff7c106c-8810-4139-bc10-6c88109139f2" corresp="#b95d9d67-0921-40e6-9d9d-670921b0e645" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Die Hügelkette neben dem Weg zieht sich von SSW. nach
                                     NNO.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt
                                     1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11</ref>)</note> Venta de <placeName ref="https://edition-humboldt.de/H0018727 https://www.geonames.org/6362035">Mo<g ref="#typoHyphen"/><lb break="no"/>chente</placeName> 150 <choice>
                             <abbr>t</abbr>
                             <expan>toisen</expan>
-                        </choice>. <ref xml:id="cd96f053-e26e-4c79-96f0-53e26e0c79af" corresp="#a6aae95e-c687-4c3c-aae9-5ec6871c3c61" type="editorialNote">Nach dem 51 Meilen<lb break="no"/>stein erscheint ein sehr
+                        </choice>. <ref xml:id="c7fb6226-b716-4124-bb62-26b716a124f0" corresp="#ca4b0e64-5b32-4404-8b0e-645b329404e5" type="editorialNote">Nach dem 51 Meilen<lb break="no"/>stein erscheint ein sehr
                                 merkwürdiges <lb/>Phänomen. Die Hügelkette <choice>
                                     <abbr>St</abbr>
                                     <expan>Stunde</expan>
@@ -488,7 +503,7 @@
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
                                 </choice> in den Bänken die mit <lb/>60–70° fallen ist der vormalige
-                                <lb/>Zusam̅enhang deutlich zu erkennen.</ref><note xml:id="a6aae95e-c687-4c3c-aae9-5ec6871c3c61" corresp="#cd96f053-e26e-4c79-96f0-53e26e0c79af" type="editorial" resp="#Humboldt_2012b #CT">
+                                <lb/>Zusam̅enhang deutlich zu erkennen.</ref><note xml:id="ca4b0e64-5b32-4404-8b0e-645b329404e5" corresp="#c7fb6226-b716-4124-bb62-26b716a124f0" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>[…] bei dem 51sten Meilenstein eine sonderbare Zerrüttung der
                                     Kalksteinflötze. Vier Einschnitte, in denen man deutlich die
                                     herabgefallenen Felsmassen erkennt; […].</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11</ref>)</note>
@@ -500,14 +515,14 @@
                         </figure></p>
             <pb n="7r"/>          
             <p>
-                        <ref xml:id="ae89a8b1-2de2-4f20-89a8-b12de21f20bb" corresp="#f7c86e76-4cda-44ea-886e-764cda94eaa0" type="editorialNote">Dann ein steiler Berg Puerto de <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Alman<g ref="#typoHyphen"/><lb break="no"/>za</placeName> Kalk
+                        <ref xml:id="a3bfea86-b7f1-400d-bfea-86b7f1e00d6a" corresp="#af0d7e73-41c9-4ab5-8d7e-7341c9fab503" type="editorialNote">Dann ein steiler Berg Puerto de <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Alman<g ref="#typoHyphen"/><lb break="no"/>za</placeName> Kalk
                                 dessen Gypfel 300 <choice>
                                     <abbr>t.</abbr>
                                     <expan>toisen</expan>
                                 </choice><supplied cert="high" resp="#CT">.</supplied> Von da
                                 <lb/>an eine Ebene, hohes Gebirgsplateau <lb/>zu allen Seiten mit
                                 Felsketten um<g ref="#typoHyphen"/><lb break="no"/>schlossen, wohl
-                                ein alter Seeboden, sanft <lb/>ansteigend.</ref><note xml:id="f7c86e76-4cda-44ea-886e-764cda94eaa0" corresp="#ae89a8b1-2de2-4f20-89a8-b12de21f20bb" type="editorial" resp="#Humboldt_2012b #CT"><quote>[…] dann
+                                ein alter Seeboden, sanft <lb/>ansteigend.</ref><note xml:id="af0d7e73-41c9-4ab5-8d7e-7341c9fab503" corresp="#a3bfea86-b7f1-400d-bfea-86b7f1e00d6a" type="editorial" resp="#Humboldt_2012b #CT"><quote>[…] dann
                                     ein steiler Berg, Puerto de <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Almansa</placeName> 373 Toisen. Hier gelangt man eigentlich
                                     auf das <hi rendition="#g">Tafel-Land</hi> (<hi rendition="#aq">plateau</hi>), welches fast ununterbrochen sich von
                                         <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La Mancha</placeName> durch Neu-
@@ -519,18 +534,17 @@
                             <abbr>t.</abbr>
                             <expan>toisen</expan>
                         </choice><supplied resp="#CT" cert="low">.</supplied>
-                            Heide<unclear reason="illegible" cert="low" resp="#CT">,</unclear>
-                        <lb/><name type="plant">Erica vagans</name><supplied cert="high" resp="#CT">,</supplied>
+                        Heide, <lb/><name type="plant">Erica vagans</name><supplied cert="high" resp="#CT">,</supplied>
                         <name type="plant"><choice>
                                 <abbr>E.</abbr>
                                 <expan>Erica</expan>
-                            </choice> mediterranea</name> mit etwas Ak<g ref="#typoHyphen"/><lb break="no"/>ker. <ref xml:id="f6125238-2bdd-49f9-9252-382bdda9f921" corresp="#f730b089-6609-49b1-b0b0-89660919b15d" type="editorialNote">Stadt <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Almanza</placeName> dabei erhebt
-                                sich <unclear reason="illegible" cert="high" resp="#DE #CT">insel</unclear><lb break="no"/>förmig in der unendlichen Ebene
-                                ein kaum <lb/>15 <choice>
+                            </choice> mediterranea</name> mit etwas Ak<g ref="#typoHyphen"/><lb break="no"/>ker. <ref xml:id="e43dc97a-3542-4bc1-bdc9-7a35423bc1b9" corresp="#f3a59bb7-7d9b-4a84-a59b-b77d9b7a849d" type="editorialNote">Stadt <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Almanza</placeName> dabei erhebt
+                                sich insel<g ref="#typoHyphen"/><lb break="no"/>förmig in der
+                                unendlichen Ebene ein kaum <lb/>15 <choice>
                                     <abbr>t.</abbr>
                                     <expan>toisen</expan>
                                 </choice> hoher Fels auf dem die Ruinen <lb/>des alten
-                                Schlosses.</ref><note xml:id="f730b089-6609-49b1-b0b0-89660919b15d" corresp="#f6125238-2bdd-49f9-9252-382bdda9f921" type="editorial" resp="#Humboldt_2012b #CT"><quote>Neben der
+                                Schlosses.</ref><note xml:id="f3a59bb7-7d9b-4a84-a59b-b77d9b7a849d" corresp="#e43dc97a-3542-4bc1-bdc9-7a35423bc1b9" type="editorial" resp="#Humboldt_2012b #CT"><quote>Neben der
                                     Stadt <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Almansa</placeName>, ein
                                     isolirter kaum 80 Fuß hoher Kalkfelsen von den Ruinen eines
                                     alten Schlosses maleri[s]ch bedeckt. ‒</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11, Anm.</ref>)</note> Stadt 364 <choice>
@@ -548,7 +562,7 @@
                             <abbr>u.</abbr>
                             <expan>und</expan>
                         </choice> westlich wie ein <lb/>Damm abgeschnitten. <figure facs="Spanien-Tagebuch/Spanien-Tb_gr-Kasten-5-Nr-15-16-Bl-7r_PPN826363342_00000003-Detail.jpg" hand="#author">
-                            <figDesc>Profilskizze der <placeName>Sierra del Mugrón</placeName>, von
+                            <figDesc>Profilskizze der <placeName ref="https://edition-humboldt.de/H5024620 https://www.geonames.org/2513443">Sierra del Mugrón</placeName>, von
                                     <placeName ref="https://edition-humboldt.de/H0002394 https://www.geonames.org/2521923">Alamansa</placeName> aus
                                 gesehen.</figDesc>
                             <note/>
@@ -557,7 +571,7 @@
                             <abbr>t.</abbr>
                             <expan>toisen</expan>
                         </choice><supplied cert="high" resp="#CT">.</supplied> Kein Baum<supplied cert="high" resp="#CT">,</supplied> unendlich <lb/>öde<supplied resp="#DE #CT">.</supplied> Beim 42 <supplied cert="high" resp="#Humboldt_2012b">Meilen-</supplied>Stein höchster Punkt <lb/>des <subst>
-                            <del rendition="#s"><unclear reason="illegible" cert="low" resp="#CT">pt</unclear></del>
+                            <del rendition="#s"><unclear reason="covered" cert="low" resp="#CT">pt</unclear></del>
                             <add place="intralinear">plateau’s</add>
                         </subst> 468 <choice>
                             <abbr>t.</abbr>
@@ -573,12 +587,12 @@
                             <abbr>F.</abbr>
                             <expan>Fuß</expan>
                         </choice>
-                        <lb/>hoch. Dort ist <ref xml:id="cd6d7d6c-289d-4963-ad7d-6c289d1963f6" corresp="#efb85ea3-c6f4-464b-b85e-a3c6f4164b2a" type="editorialNote">auf dem Kalkstein eine <add place="right">nicht weit erstrekte
+                        <lb/>hoch. Dort ist <ref xml:id="f592dc5a-50ee-426a-92dc-5a50eef26aba" corresp="#e19eaaef-531f-427e-9eaa-ef531fe27e3d" type="editorialNote">auf dem Kalkstein eine <add place="right">nicht weit erstrekte
                                     <lb/>
                                 </add>Sandsteinformazion aufgesezt, die von der
                                 <lb/>Nagelfluhformation verschieden scheint. <lb/>Sandstein dem
                                 Porphyr sehr ähnlich, viel <lb/>Quarzgeschiebe mit kieselartigem
-                                Cement <lb/>darin Groden von braunem Eisenstein.</ref><note xml:id="efb85ea3-c6f4-464b-b85e-a3c6f4164b2a" corresp="#cd6d7d6c-289d-4963-ad7d-6c289d1963f6" type="editorial" resp="#Humboldt_2012b #CT"><quote>Auf dem
+                                Cement <lb/>darin Groden von braunem Eisenstein.</ref><note xml:id="e19eaaef-531f-427e-9eaa-ef531fe27e3d" corresp="#f592dc5a-50ee-426a-92dc-5a50eef26aba" type="editorial" resp="#Humboldt_2012b #CT"><quote>Auf dem
                                     Kalkstein wieder eine kleine Sandstein-Formation mit
                                     Quarz-Geschieben, Groden von braunem Eisenstein und kieselartige
                                     Cemente von der Nagelfluh-Formation der Küste wahrscheinlich
@@ -586,10 +600,11 @@
                         <lb/>Von da an senkt sich aber eben so <lb/>allmählig die Ebene <choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
-                        </choice> dieser Abhang <lb/>(hinter Venta del <placeName resp="#AG" ref="https://edition-humboldt.de/H0018471 https://www.geonames.org/2511848">Rincon</placeName> 432 <choice>
+                        </choice> dieser Abhang <lb/>(hinter Venta del <placeName ref="https://edition-humboldt.de/H5351137">Rincon</placeName>
+                        432 <choice>
                             <abbr>t.</abbr>
                             <expan>toisen</expan>
-                        </choice>) ist <lb/>die eigentliche <ref xml:id="c61d3a8f-98b0-454c-9d3a-8f98b0c54c7e" corresp="#e52c4f60-0d39-4d1e-ac4f-600d39bd1e31" type="editorialNote">kornreiche Ebene von <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">la
+                        </choice>) ist <lb/>die eigentliche <ref xml:id="d02c9101-2c9d-4686-ac91-012c9d66866f" corresp="#bd67957c-1121-4d35-a795-7c11219d357b" type="editorialNote">kornreiche Ebene von <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">la
                                     <lb/>Mancha</placeName>. <placeName ref="https://edition-humboldt.de/H0002370 https://www.geonames.org/2522258">Albacete</placeName> 315 <choice>
                                     <abbr>t.</abbr>
                                     <expan>toisen</expan>
@@ -612,7 +627,7 @@
                                             <expan>toisen</expan>
                                         </choice></add>
                                 </subst><supplied resp="#CT" cert="high">.</supplied>
-                                <placeName ref="https://edition-humboldt.de/H0018720 https://www.geonames.org/2513855">Manija</placeName> 344.</ref><note xml:id="e52c4f60-0d39-4d1e-ac4f-600d39bd1e31" corresp="#c61d3a8f-98b0-454c-9d3a-8f98b0c54c7e" type="editorial" resp="#Humboldt_2012b #CT"><quote>Kornreiche
+                                <placeName ref="https://edition-humboldt.de/H0018720 https://www.geonames.org/2513855">Manija</placeName> 344.</ref><note xml:id="bd67957c-1121-4d35-a795-7c11219d357b" corresp="#d02c9101-2c9d-4686-ac91-012c9d66866f" type="editorial" resp="#Humboldt_2012b #CT"><quote>Kornreiche
                                     baumlose Ebenen der Provinz <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La
                                         Mancha</placeName>, <hi rendition="#g">
                                         <placeName ref="https://edition-humboldt.de/H0002370 https://www.geonames.org/2522258">Albacete</placeName>
@@ -621,12 +636,11 @@
                                     </hi> 360 Toisen. <hi rendition="#g">
                                         <placeName ref="https://edition-humboldt.de/H0018720 https://www.geonames.org/2513855">Minaya</placeName>
                                     </hi> 374 Toisen.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11</ref>)</note>
-                        <ref xml:id="eb95dc3c-9116-4603-95dc-3c9116c6033d" corresp="#d009b807-5e80-4644-89b8-075e80864493" type="editorialNote">Hinter <placeName ref="https://edition-humboldt.de/H0018720 https://www.geonames.org/2513855"><unclear reason="illegible" resp="#Humboldt_2012b" cert="high">Mani<g ref="#typoHyphen"/></unclear><lb break="no"/>ja</placeName> wird die
-                                Kalkformation sehr <lb/>porös, blasig, dieselbe Veränderung des
-                                <lb/>Jurakalksteins, welche am <placeName ref="https://edition-humboldt.de/H0010366 https://www.geonames.org/2825966">Streitberg</placeName>
+                        <ref xml:id="fda6f6e2-13b9-49b9-a6f6-e213b999b995" corresp="#b5e1aace-4d53-4a66-a1aa-ce4d53fa6655" type="editorialNote">Hinter <placeName ref="https://edition-humboldt.de/H0018720 https://www.geonames.org/2513855"><supplied resp="#Humboldt_2012b #CT" cert="high">Mani<g ref="#typoHyphen"/></supplied><lb break="no"/>ja</placeName> wird die Kalkformation sehr <lb/>porös, blasig,
+                                dieselbe Veränderung des <lb/>Jurakalksteins, welche am <placeName ref="https://edition-humboldt.de/H0010366 https://www.geonames.org/2825966">Streitberg</placeName>
                                 <lb/>in <placeName ref="https://edition-humboldt.de/H0004796 https://www.geonames.org/2803465">Franken</placeName> (bei
                                     <placeName ref="https://edition-humboldt.de/H0009032 https://www.geonames.org/2868815">Muggendorf</placeName>)
-                                vorkom̅t.</ref><note xml:id="d009b807-5e80-4644-89b8-075e80864493" corresp="#eb95dc3c-9116-4603-95dc-3c9116c6033d" type="editorial" resp="#Humboldt_2012b #CT"><quote>Hier wird
+                                vorkom̅t.</ref><note xml:id="b5e1aace-4d53-4a66-a1aa-ce4d53fa6655" corresp="#fda6f6e2-13b9-49b9-a6f6-e213b999b995" type="editorial" resp="#Humboldt_2012b #CT"><quote>Hier wird
                                     die Kalkstein-Formation sehr porös[,] fast blasig[,] dem
                                     Jurakalk, zwischen <placeName ref="https://edition-humboldt.de/H0010366 https://www.geonames.org/2825966">Streitberg</placeName> und <placeName ref="https://edition-humboldt.de/H0009032 https://www.geonames.org/2868815">Muggendorf</placeName> in <placeName ref="https://edition-humboldt.de/H0004796 https://www.geonames.org/2803465">Franken</placeName>, ähnlich.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11</ref>)</note>
                         <placeName ref="https://edition-humboldt.de/H0018641 https://www.geonames.org/2518273">El <lb/>Pedronoso</placeName> (in <subst>
@@ -641,7 +655,7 @@
                         </note> viel Dam<lb break="no"/>erde <choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
-                        </choice> darin <ref xml:id="f7a8b291-2aa9-46e1-a8b2-912aa936e122" corresp="#d896f2de-4168-4665-96f2-de41682665b1" type="editorialNote">eine ungeheure Menge <lb/>Hornsteingeschiebe muschlich sehr schön
+                        </choice> darin <ref xml:id="ab13b7a7-7165-4be1-93b7-a77165ebe11a" corresp="#a1b88a14-bf25-4a1f-b88a-14bf25ea1ff0" type="editorialNote">eine ungeheure Menge <lb/>Hornsteingeschiebe muschlich sehr schön
                                 <lb/>in <name type="mineral">Chalcedon</name>
                                 übergehend theils <del rendition="#s">
                                     <gap reason="illegible" quantity="2" unit="chars"/>
@@ -650,21 +664,23 @@
                                     <expan>und</expan>
                                 </choice> stenglich, nierförmig sehr schön. <lb/>Nach mehreren
                                 Stükken zu urtheilen wahr<lb break="no"/>scheinlich ein Kalkstein.
-                                Der Formation <lb/>von <placeName>Vallecas</placeName> bei
-                                    <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>, <choice>
+                                Der Formation <lb/>von <placeName ref="https://edition-humboldt.de/H6658232 http://www.geonames.org/3106601">Vallecas</placeName> bei <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>, <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
                                 </choice> der <lb/>bei <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
-                                (von Mühlstein) ähnlich.</ref><note xml:id="d896f2de-4168-4665-96f2-de41682665b1" corresp="#f7a8b291-2aa9-46e1-a8b2-912aa936e122" type="editorial" resp="#Humboldt_2012b #CT">
+                                (von Mühlstein) ähnlich.</ref><note xml:id="a1b88a14-bf25-4a1f-b88a-14bf25ea1ff0" corresp="#ab13b7a7-7165-4be1-93b7-a77165ebe11a" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Viele muschlige Hornsteingeschiebe in Chalcedon übergehend,
                                     oft traubig, stänglich und nierförmig auf der Dammerde
                                     zerstreut, wahrscheinlich aus der Kalkstein-Formation, ein
-                                    Vorkommen, den <placeName>Vallecas</placeName> bei <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName> analog.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11</ref>f.)</note>
-                        <ref xml:id="b7a94be5-6adc-44f1-a94b-e56adc84f18e" corresp="#b395fc49-044d-4c26-95fc-49044dfc2623" type="editorialNote">Bei <lb/>
+                                    Vorkommen, den <placeName ref="https://edition-humboldt.de/H6658232 http://www.geonames.org/3106601">Vallecas</placeName>
+                                    bei <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName> analog.</quote>
+                                    (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>,
+                                    <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/11">11</ref>f.)</note>
+                        <ref xml:id="e7afe65f-215a-40c4-afe6-5f215a00c429" corresp="#a493ed57-59f4-4802-93ed-5759f4180230" type="editorialNote">Bei <lb/>
                                 <placeName ref="https://edition-humboldt.de/H0018645 https://www.geonames.org/2518078">el Toboso</placeName> auf Kalkstein <hi rendition="#u">Sandstein</hi>
                                 <lb/>sehr quarzig feinkörnig aus sehr run<g ref="#typoHyphen"/><lb break="no"/>den Quarzkörnern bestehend, sind <lb/>Schichten, wie
                                 man bei <placeName ref="https://edition-humboldt.de/H0002516 https://www.geonames.org/3129857">Aranjuez</placeName>
-                                <lb/>sieht, die wie am <placeName ref="https://edition-humboldt.de/H0008968 https://www.geonames.org/6362037">Montserrat</placeName>
+                                <lb/>sieht, die wie am <placeName ref="https://edition-humboldt.de/H0008968 https://www.geonames.org/3116234">Montserrat</placeName>
                                 <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
@@ -684,21 +700,21 @@
                                         <placeName ref="https://edition-humboldt.de/H0018558 https://www.geonames.org/2510409">Toledo</placeName>
                                         <lb/>den Granit-Sand <lb/>gab.</p>
                                 </note>
-                            </ref><note xml:id="b395fc49-044d-4c26-95fc-49044dfc2623" corresp="#b7a94be5-6adc-44f1-a94b-e56adc84f18e" type="editorial" resp="#Humboldt_2012b #CT">
+                            </ref><note xml:id="a493ed57-59f4-4802-93ed-5759f4180230" corresp="#e7afe65f-215a-40c4-afe6-5f215a00c429" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Um <placeName ref="https://edition-humboldt.de/H0018645 https://www.geonames.org/2518078">Toboso</placeName>, dessen Name
                                         <persName resp="#CT" ref="https://edition-humboldt.de/H0012977 http://d-nb.info/gnd/11851993X">Cervantes</persName> so
                                     weit und ruhmvoll verbreitet hat, liegt auf dem Kalkstein
                                     abermals eine Sandstein-Formation[,] meist feinkörnig aus runden
                                     Quarzkörnern zusammengesetzt, aber hier und da mit grobkörnigen
                                     Nagelfluhschichten abwechselnd.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/12">12</ref>)</note>
-                        <ref xml:id="fd6d13f3-faa1-42f1-ad13-f3faa1c2f19a" corresp="#a0d022e2-0e2b-455e-9022-e20e2b955e4c" type="editorialNote">Der Sandstein hier recht <lb/>mächtig <choice>
+                        <ref xml:id="bf221c68-61a5-494f-a21c-6861a5794f37" corresp="#de1a9db6-ca51-44ce-9a9d-b6ca5194cedb" type="editorialNote">Der Sandstein hier recht <lb/>mächtig <choice>
                                     <abbr>St</abbr>
                                     <expan>Stunde</expan>
                                 </choice> 10 mit 30° <choice>
                                     <abbr>Sept.</abbr>
                                     <expan>Septentrional</expan>
                                 </choice> nicht weit <lb/>verbreitet. Auch der Kalkstein in
-                                <lb/>ganz Nord-<placeName ref="https://edition-humboldt.de/H0009057 https://www.geonames.org/2513416">Murcia</placeName>
+                                <lb/>ganz Nord-<placeName ref="https://edition-humboldt.de/H5199149 https://www.geonames.org/2513413">Murcia</placeName>
                                 <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
@@ -708,12 +724,14 @@
                                     <abbr>St</abbr>
                                     <expan>Stunde</expan>
                                 </choice> 8 aber bald gegen Nord bald <lb/>Süd fallend, mit 8–9°
-                                (also dasselbe <lb/>Hauptstreichen <unclear reason="illegible" cert="high" resp="#CT">wie</unclear> in der <placeName ref="https://edition-humboldt.de/H0008412 https://www.geonames.org/2985244">Provence</placeName>
+                                (also dasselbe <lb/>Hauptstreichen
+                                wie
+                                in der <placeName ref="https://edition-humboldt.de/H0008412 https://www.geonames.org/2985244">Provence</placeName>
                                 <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
-                                </choice> am <lb/><placeName ref="https://edition-humboldt.de/H0018989 https://www.geonames.org/12680292/coll-de-balaguer.html">Col de
-                                    Balaguet</placeName><supplied cert="high" resp="#CT">)</supplied>.</ref><note xml:id="a0d022e2-0e2b-455e-9022-e20e2b955e4c" corresp="#fd6d13f3-faa1-42f1-ad13-f3faa1c2f19a" type="editorial" resp="#Humboldt_2012b #CT">
+                                </choice> am <lb/><placeName ref="https://edition-humboldt.de/H0018989 https://www.geonames.org/12680292">Col de
+                                    Balaguet</placeName><supplied cert="high" resp="#CT">)</supplied>.</ref><note xml:id="de1a9db6-ca51-44ce-9a9d-b6ca5194cedb" corresp="#bf221c68-61a5-494f-a21c-6861a5794f37" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Dieser Sandstein scheint nicht weit verbreitet zu sein, und
                                     wegen Nähe des Granits von <placeName ref="https://edition-humboldt.de/H0018558 https://www.geonames.org/2510409">Toledo</placeName> nehmen diegroßen Quarzgeschiebe gegen
                                         <placeName ref="https://edition-humboldt.de/H0018572 https://www.geonames.org/2513175">Ocaña</placeName> hin beträchtlich
@@ -726,10 +744,11 @@
                         <placeName ref="https://edition-humboldt.de/H0018480 https://www.geonames.org/2512096">Quintanar de la Or<g ref="#typoHyphen"/><lb break="no"/>den</placeName> 345 <choice>
                             <abbr>t</abbr>
                             <expan>toisen</expan>
-                        </choice>. <ref xml:id="baef7ad6-aa48-4f39-af7a-d6aa484f3917" corresp="#f20aab62-3141-423e-8aab-623141523ebe" type="editorialNote">Dort künstliche Salpeterpflan<g ref="#typoHyphen"/><lb break="no"/>zungen, konische Haufen. Der thonich<g ref="#typoHyphen"/><lb break="no"/>te Boden <add place="superlinear">be</add>schlägt
+                        </choice>. <ref xml:id="d2a9889c-bf5f-4e16-a988-9cbf5f8e1678" corresp="#d207d5c2-56ec-43fd-87d5-c256ecf3fd39" type="editorialNote">Dort künstliche Salpeterpflan<g ref="#typoHyphen"/><lb break="no"/>zungen, konische Haufen. Der thonich<g ref="#typoHyphen"/><lb break="no"/>te Boden <add place="superlinear">be</add>schlägt
                                 überall mit Salpeter<supplied cert="high" resp="#CT">.</supplied>
-                                <lb/>Hier dieselben Verhältnisse wie in <placeName>Cu<g ref="#typoHyphen"/><lb break="no"/>yavien</placeName>
-                            </ref><note xml:id="f20aab62-3141-423e-8aab-623141523ebe" corresp="#baef7ad6-aa48-4f39-af7a-d6aa484f3917" type="editorial" resp="#Humboldt_2012b #CT">
+                                <lb/>Hier dieselben Verhältnisse wie in
+                                        <placeName>Cu<g ref="#typoHyphen"/><lb break="no"/>yavien</placeName>
+                            </ref><note xml:id="d207d5c2-56ec-43fd-87d5-c256ecf3fd39" corresp="#d2a9889c-bf5f-4e16-a988-9cbf5f8e1678" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Umher künstliche Salpeterpflanzungen, konische Lettenhaufen,
                                     die sich, wenn die Luft sehr elektrisch ist, nach starkem
                                     Gewitter hier (wie in <placeName>Cujavien</placeName> in
@@ -739,14 +758,14 @@
                             <abbr>u.</abbr>
                             <expan>und</expan>
                         </choice>
-                        <placeName ref="https://edition-humboldt.de/H0008576 https://www.geonames.org/2874545">Magdeburg</placeName> – eine frucht<unclear reason="illegible" cert="low" resp="#CT"><g ref="#typoHyphen"/></unclear>
+                        <placeName ref="https://edition-humboldt.de/H0008576 https://www.geonames.org/2874545">Magdeburg</placeName> – eine frucht<g ref="#typoHyphen"/>
                         <lb break="no"/>
-                        <pb n="8r"/> bare kornreiche Ebene <choice>
+                        <pb n="8r"/>bare kornreiche Ebene <choice>
                             <abbr>u.</abbr>
                             <expan>und</expan>
                         </choice> große Feuchtigkeit <add place="right">viel</add>
                         <lb/>Gräben. Dieselbe Ursach, welche den Pflanzen<g ref="#typoHyphen"/><lb break="no"/>wuchs befördert, eine Mischung von Erde, die <lb/>leicht die
-                        Atmosphäre zerlegt, bringt auch den <lb/>Salpeter hervor. (<ref xml:id="f054d916-2b37-4e57-94d9-162b376e57e2" corresp="#f7c63a9f-5909-4e86-863a-9f5909be8654" type="editorialNote"><bibl corresp="https://edition-humboldt.de/KTZPA53S"><choice>
+                        Atmosphäre zerlegt, bringt auch den <lb/>Salpeter hervor. (<ref xml:id="afdd02bc-9978-4328-9d02-bc99788328fc" corresp="#deb76f29-8d1a-43eb-b76f-298d1a33eb31" type="editorialNote"><bibl corresp="https://edition-humboldt.de/KTZPA53S"><choice>
                                         <abbr>Mém.</abbr>
                                         <expan>Mémoire</expan>
                                     </choice> sur l’<choice>
@@ -755,7 +774,7 @@
                                     </choice> de l’ <lb/><choice>
                                         <abbr>oxyg.</abbr>
                                         <expan>oxygène</expan>
-                                    </choice> par les terres</bibl></ref><note xml:id="f7c63a9f-5909-4e86-863a-9f5909be8654" corresp="#f054d916-2b37-4e57-94d9-162b376e57e2" type="editorial" resp="#Humboldt_2012b #CT">Das hier gemeinte
+                                    </choice> par les terres</bibl></ref><note xml:id="deb76f29-8d1a-43eb-b76f-298d1a33eb31" corresp="#afdd02bc-9978-4328-9d02-bc99788328fc" type="editorial" resp="#Humboldt_2012b #CT">Das hier gemeinte
                                 „Mémoire sur l'absorption de l'oxigène par les terres simples, et
                                 son influence dans la culture du sol“ (<bibl corresp="https://edition-humboldt.de/KTZPA53S">Humboldt 1799c</bibl>) erschien
                                 im selben Jahr in deutscher Übersetzung in Humboldts <hi rendition="#i">Versuchen über die chemische Zerlegung des
@@ -779,7 +798,7 @@
                             </subst></placeName> 384 <choice>
                             <abbr>t</abbr>
                             <expan>toisen</expan>
-                        </choice>. <ref xml:id="cb3b0d2b-b999-4ed6-bb0d-2bb9994ed6c5" corresp="#aef9046d-e39a-4e3f-b904-6de39abe3f50" type="editorialNote">Eine <lb/>½ <choice>
+                        </choice>. <ref xml:id="a29fc2a8-8d89-47fd-9fc2-a88d8967fd95" corresp="#cb1b72c0-4404-4650-9b72-c044048650f5" type="editorialNote">Eine <lb/>½ <choice>
                                     <abbr>St.</abbr>
                                     <expan>Stunde</expan>
                                 </choice> hinter <placeName ref="https://edition-humboldt.de/H0018572 https://www.geonames.org/2513175">Ocann<subst>
@@ -788,11 +807,11 @@
                                     </subst></placeName> tritt man in das <lb/>sehr weite <placeName ref="https://edition-humboldt.de/H0018533 https://www.geonames.org/3108400">Tajo</placeName>thal, Wirkung eines ungeheuren
                                 <lb/>Strohms <del rendition="#s">
                                     <unclear reason="covered" cert="high" resp="#Humboldt_2012b #CT">ein</unclear>
-                                </del>, von dem nur wenige Tropfen <lb/>übrig sind.</ref><note xml:id="aef9046d-e39a-4e3f-b904-6de39abe3f50" corresp="#cb3b0d2b-b999-4ed6-bb0d-2bb9994ed6c5" type="editorial" resp="#Humboldt_2012b #CT">
+                                </del>, von dem nur wenige Tropfen <lb/>übrig sind.</ref><note xml:id="cb1b72c0-4404-4650-9b72-c044048650f5" corresp="#a29fc2a8-8d89-47fd-9fc2-a88d8967fd95" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Eine halbe Stunde hinter <placeName ref="https://edition-humboldt.de/H0018572 https://www.geonames.org/2513175">Ocaña</placeName> tritt man in das weite <placeName ref="https://edition-humboldt.de/H0018533 https://www.geonames.org/3108400">Tajo</placeName>-Thal, von einem ungeheuern
                                     Strom, von dem nur einige Tropfen übrig sind, einst
                                     ausgefurcht.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/12">12</ref>)</note>
-                        <ref xml:id="cdfc851b-333c-4afe-bc85-1b333c0afe59" corresp="#da3ae22c-9bcc-49d7-bae2-2c9bcc39d7c9" type="editorialNote">In dem Thal erheben sich eine <lb/>Menge kleiner Kalkhügel,
+                        <ref xml:id="b31bee04-4215-4fca-9bee-0442152fcaeb" corresp="#cca6814d-4746-40f0-a681-4d474640f011" type="editorialNote">In dem Thal erheben sich eine <lb/>Menge kleiner Kalkhügel,
                                 abgestumpfte Kegel <lb/>(denen bei <placeName ref="https://edition-humboldt.de/H0006574 https://www.geonames.org/2895044">Jena</placeName> ähnlich) kaum 20 <choice>
                                     <abbr>t</abbr>
                                     <expan>toisen</expan>
@@ -800,24 +819,24 @@
                                 <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
-                                </choice> Festungsförmig in der Mitte ste<g ref="#typoHyphen"/><lb break="no"/>hend.</ref><note xml:id="da3ae22c-9bcc-49d7-bae2-2c9bcc39d7c9" corresp="#cdfc851b-333c-4afe-bc85-1b333c0afe59" type="editorial" resp="#Humboldt_2012b #CT">
+                                </choice> Festungsförmig in der Mitte ste<g ref="#typoHyphen"/><lb break="no"/>hend.</ref><note xml:id="cca6814d-4746-40f0-a681-4d474640f011" corresp="#b31bee04-4215-4fca-9bee-0442152fcaeb" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>In dem Thale selbst fesseln das Auge, kleine kaum 20 Toisen
                                     hohe Kalkhügel, die sich prallig insel- und festungsförmig
                                     erheben, und auf allen Seiten gestürzte Schichten
                                     darbieten.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/12">12</ref>)</note>
-                        <ref xml:id="d4829566-9174-4b86-8295-6691742b8616" corresp="#eaac1110-ab8e-4e5e-ac11-10ab8e0e5ec3" type="editorialNote">Bei <placeName ref="https://edition-humboldt.de/H0002516 https://www.geonames.org/3129857">Aranjuez</placeName> alle Hügel
+                        <ref xml:id="d7bfaf3a-1b90-4d34-bfaf-3a1b90bd3498" corresp="#dc96c771-942f-4510-96c7-71942f3510b5" type="editorialNote">Bei <placeName ref="https://edition-humboldt.de/H0002516 https://www.geonames.org/3129857">Aranjuez</placeName> alle Hügel
                                 blättriger <lb/>Gyps (oft an 50 Lachter mächtig) mit <lb/>Thon
                                 durchzogen, auch durch Kalksteinschichten <lb/>getrennt – also
-                                mehrere Gypsflöze <lb/>um Kalkflöze<supplied cert="high" resp="#CT">.</supplied> Viel Schlotten darin.</ref><note xml:id="eaac1110-ab8e-4e5e-ac11-10ab8e0e5ec3" corresp="#d4829566-9174-4b86-8295-6691742b8616" type="editorial" resp="#Humboldt_2012b #CT">
+                                mehrere Gypsflöze <lb/>um Kalkflöze<supplied cert="high" resp="#CT">.</supplied> Viel Schlotten darin.</ref><note xml:id="dc96c771-942f-4510-96c7-71942f3510b5" corresp="#d7bfaf3a-1b90-4d34-bfaf-3a1b90bd3498" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Alle Hügel umher blättriger Gips mit Thon durchzogen, oft 50
                                     Lachter mächtig durch Kalksteinschichten getrennt. Viele
                                     Höhlungen (Schlotten) in dem Gipse.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/13">13</ref>)</note>
                         <lb/>
                         <choice>
-                            <sic>(</sic>
-                            <corr type="deleted" resp="#CT"/>
+                            <orig>(</orig>
+                            <reg type="deleted" resp="#CT"/>
                         </choice>Reise nach <placeName resp="#AG" ref="https://edition-humboldt.de/H0018500 https://www.geonames.org/2509486">Villarubio</placeName> oberhalb <add place="right" hand="#author"><metamark/>der Rui<g ref="#typoHyphen"/><lb break="no"/>nen von</add>
-                        <placeName>Orecas</placeName>
+                        <placeName ref="https://edition-humboldt.de/H0725351 https://www.geonames.org/3114973">Orecas</placeName><supplied cert="high">,</supplied>
                         <lb/>wo eine
                         Eremita auf dem
                         Gypsbogen <lb/>in dem ein Steinsalzflöz in Salzthon. <lb/>Dieselben
@@ -826,31 +845,40 @@
                         vielleicht ein<g ref="#typoHyphen"/><lb break="no"/>zig in seiner Art, wegen
                         der ungeheu<lb break="no"/>ren Menge von offenen <del rendition="#s">
                             <unclear reason="covered" cert="low">oft</unclear>
-                        </del> von 2 <choice>
-                            <abbr>Lr</abbr>
-                            <expan>Lachter</expan>
-                        </choice> – <lb/>2 Zoll weiter überaus tiefer Klüfte, in <lb/>die das
+                        </del>
+                        von
+                            <measure unit="lachter" quantity="2">2 <choice>
+                                <abbr>Lr</abbr>
+                                <expan>Lachter</expan>
+                            </choice></measure>
+                        <choice>
+                            <orig> –</orig>
+                            <reg type="deleted"/>
+                        </choice>
+                        <lb/>2 Zoll weiter überaus tiefer Klüfte, in <lb/>die das
                         Gestein zersprengt ist.<note place="right" hand="#author">
                             <foreign xml:lang="fra">
-                                <ref xml:id="a15703ec-50ac-4e74-9703-ec50ac6e7403" corresp="#ba7ec3b5-4b20-4afa-bec3-b54b205afac3" type="editorialNote">il y a <lb/>aussi du <lb/>Sel gemme <lb/>à <placeName ref="https://edition-humboldt.de/H0018707 https://www.geonames.org/2513852">Mingra<lb break="no"/>nilla</placeName>
+                                <ref xml:id="a3e5951e-f938-4d21-a595-1ef9383d2151" corresp="#db12b816-114c-4ce2-92b8-16114c9ce257" type="editorialNote">il y a <lb/>aussi du <lb/>Sel gemme <lb/>à <placeName ref="https://edition-humboldt.de/H0018707 https://www.geonames.org/2513852">Mingra<lb break="no"/>nilla</placeName>
                                         près <lb/>
                                         <placeName ref="https://edition-humboldt.de/H0018499 https://www.geonames.org/2509496">Cabriel</placeName> (<placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">La <lb/>Mancha</placeName>) <lb/>et
-                                            <placeName>Cardona</placeName>
-                                        <lb/>(<placeName ref="https://edition-humboldt.de/H0000389 https://www.geonames.org/3336901">Catalogne</placeName>) <lb/>
-                                        <bibl corresp="https://edition-humboldt.de/DDDDEKZ4">
-                                            <persName ref="https://edition-humboldt.de/H0018900 http://d-nb.info/gnd/119533952">Antillon</persName> S.
-                                            174</bibl>.</ref><note xml:id="ba7ec3b5-4b20-4afa-bec3-b54b205afac3" corresp="#a15703ec-50ac-4e74-9703-ec50ac6e7403" type="editorial" resp="#Humboldt_2012b #CT">
+                                            <placeName ref="https://edition-humboldt.de/H7545972 https://www.geonames.org/6356080">Cardona</placeName>
+                                        <lb/>(<placeName ref="https://edition-humboldt.de/H0000389 https://www.geonames.org/3336901">Catalogne</placeName>)<supplied cert="high">,</supplied>
+                                        <lb/><bibl corresp="https://edition-humboldt.de/DDDDEKZ4"><persName ref="https://edition-humboldt.de/H0018900 http://d-nb.info/gnd/119533952">Antillon</persName><supplied cert="high">,</supplied>
+                                            <choice>
+                                                <abbr>S.</abbr>
+                                                <expan>Seite</expan>
+                                            </choice> 174</bibl>.</ref><note xml:id="db12b816-114c-4ce2-92b8-16114c9ce257" corresp="#a3e5951e-f938-4d21-a595-1ef9383d2151" type="editorial" resp="#Humboldt_2012b #CT">
                                         <quote><foreign xml:lang="fra">Parmi les sels que produit
                                                   <placeName ref="https://edition-humboldt.de/H0010330 https://www.geonames.org/2510769">l’Espagne</placeName>,
                                                 on doit citer, outre mille sources salées, les mines
-                                                de sel gemme de la <placeName ref="https://edition-humboldt.de/H0018707 https://www.geonames.org/2513852">Mingranilla</placeName>, dans <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">la Mancha</placeName>, près du
-                                                  <placeName ref="https://edition-humboldt.de/H0018499 https://www.geonames.org/2509496">Cabriel</placeName>; et
-                                                celles du <placeName>Cardona</placeName> en
-                                                  <placeName ref="https://edition-humboldt.de/H0000389 https://www.geonames.org/3336901">Catalogne</placeName>.</foreign></quote> (<bibl corresp="https://edition-humboldt.de/DDDDEKZ4">Antillon 1824</bibl>,
-                                        126)</note>
+                                                de sel gemme de la <hi rendition="#i"><placeName ref="https://edition-humboldt.de/H0018707 https://www.geonames.org/2513852">Mingranilla</placeName></hi>, dans
+                                                  <hi rendition="#i"><placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">la
+                                                  Manche</placeName></hi>, près du <hi rendition="#i"><placeName ref="https://edition-humboldt.de/H0018499 https://www.geonames.org/2509496">Cabriel</placeName></hi>; et celles du <hi rendition="#i"><placeName ref="https://edition-humboldt.de/H7545972 https://www.geonames.org/6356080">Cardona</placeName></hi> en <hi rendition="#i"><placeName ref="https://edition-humboldt.de/H0000389 https://www.geonames.org/3336901">Catalogne</placeName></hi>.</foreign></quote>
+                                            (<bibl corresp="https://edition-humboldt.de/DDDDEKZ4">Antillon
+                                            1823</bibl>, <ref target="https://books.google.de/books?id=XOwCAAAAYAAJ&amp;pg=PA126">126</ref>)</note>
                             </foreign>
                         </note>
-                        <ref xml:id="b251ebd9-0594-498b-91eb-d90594a98bc9" corresp="#c40745d5-2488-4dd0-8745-d524880dd0ee" type="editorialNote">Wahrschein<lb break="no"/>lich Folge des durch Regengüsse ausge<lb break="no"/>waschenen Steinsalzes.</ref><note xml:id="c40745d5-2488-4dd0-8745-d524880dd0ee" corresp="#b251ebd9-0594-498b-91eb-d90594a98bc9" type="editorial" resp="#Humboldt_2012b #CT">
+                        <ref xml:id="d9109e21-b4e5-46a0-909e-21b4e516a00b" corresp="#e663667b-ebc8-4282-a366-7bebc8328263" type="editorialNote">Wahrschein<lb break="no"/>lich Folge des durch Regengüsse ausge<lb break="no"/>waschenen Steinsalzes.</ref><note xml:id="e663667b-ebc8-4282-a366-7bebc8328263" corresp="#d9109e21-b4e5-46a0-909e-21b4e516a00b" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>Diese merkwürdige Gipsformation von <placeName ref="https://edition-humboldt.de/H0002516 https://www.geonames.org/3129857">Aranjuez</placeName> enthält Steinsalz bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0018500 https://www.geonames.org/2509486">Villarubio</placeName> in einem
                                     Thale, das ich von <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>
                                     aus besucht habe.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/13">13</ref>)</note> Der Fußsteig sehr <lb/>gefährlich, da er oft kaum 15 Zoll breite
@@ -864,13 +892,13 @@
                             <abbr>t.</abbr>
                             <expan>toisen</expan>
                         </choice>
-                        <lb/>Gyps im Kalk bis <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>. <ref xml:id="bfc8684d-1431-4d74-8868-4d14315d74fd" corresp="#caa09401-d62c-4ee2-a094-01d62c7ee211" type="editorialNote">In allen <lb/>Thälern grob<supplied cert="high" resp="#CT">-</supplied>
+                        <lb/>Gyps im Kalk bis <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>. <ref xml:id="bf841a64-bf76-4741-841a-64bf76c741ff" corresp="#e7ae797a-49cb-45b0-ae79-7a49cb55b0e8" type="editorialNote">In allen <lb/>Thälern grob<supplied cert="high" resp="#CT">-</supplied>
                                 <choice>
                                     <abbr>u.</abbr>
                                     <expan>und</expan>
                                 </choice> feinkörnige Nagelfluh <lb/>kalkartig (doch gegen
                                     <placeName ref="https://edition-humboldt.de/H0018558 https://www.geonames.org/2510409">Toledo</placeName> hin quarzig)
-                                <lb/>auf Kalkstein.</ref><note xml:id="caa09401-d62c-4ee2-a094-01d62c7ee211" corresp="#bfc8684d-1431-4d74-8868-4d14315d74fd" type="editorial" resp="#Humboldt_2012b #CT">
+                                <lb/>auf Kalkstein.</ref><note xml:id="e7ae797a-49cb-45b0-ae79-7a49cb55b0e8" corresp="#bf841a64-bf76-4741-841a-64bf76c741ff" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote>In dem Thale grob- und feinkörnige, oft kalkartige, Nagelfluh
                                     auf dem Kalkstein aufgesetzt</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/13">13</ref>)</note> Wahrscheinlich diese <lb/>Nagelfluh auch über dem Gyps <lb/>wie am
                             <placeName ref="https://edition-humboldt.de/H0018728 https://www.geonames.org/9843599">Montmartre</placeName> aber noch <lb/>nicht
@@ -882,13 +910,13 @@
                                 und Gyps auf Kalkstein.</figDesc>
                             <note/>
                         </figure>
-                        <ref xml:id="af101232-6338-490f-9012-326338f90f89" corresp="#a082c5a0-d55c-458d-82c5-a0d55c558d7b" type="editorialNote">
+                        <ref xml:id="cb014132-f59d-4c01-8141-32f59d3c0145" corresp="#af87e147-ebbd-4bd1-87e1-47ebbdfbd148" type="editorialNote">
                                 <placeName resp="#AG" ref="https://edition-humboldt.de/H0018483 https://www.geonames.org/3106868">Val <lb/>de Moro</placeName> wo
                                 viel Oelbäume 283 <choice>
                                     <abbr>t.</abbr>
                                     <expan>toisen</expan>
                                 </choice><supplied cert="high" resp="#CT">.</supplied>
-                            </ref><note xml:id="a082c5a0-d55c-458d-82c5-a0d55c558d7b" corresp="#af101232-6338-490f-9012-326338f90f89" type="editorial" resp="#Humboldt_2012b #CT">
+                            </ref><note xml:id="af87e147-ebbd-4bd1-87e1-47ebbdfbd148" corresp="#cb014132-f59d-4c01-8141-32f59d3c0145" type="editorial" resp="#Humboldt_2012b #CT">
                                 <quote><hi rendition="#g"><placeName resp="#AG" ref="https://edition-humboldt.de/H0018483 https://www.geonames.org/3106868">Val
                                             de Moro</placeName></hi>, mit schönen Oelbäumen umgeben,
                                     317 Toisen</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/13">13</ref>)</note>
@@ -905,13 +933,11 @@
                         <lb/>1878 <choice>
                             <abbr>F.</abbr>
                             <expan>Fuß</expan>
-                        </choice> über dem Meere. <ref xml:id="ef628765-6c4b-4f39-a287-656c4bdf394c" corresp="#d235ce99-e0b8-411d-b5ce-99e0b8811dfb" type="editorialNote">Stadt zum <lb/>Theil auf Gyps gebaut. Im
-                                    <placeName>Retiro</placeName>
+                        </choice> über dem Meere. <ref xml:id="f97ebc78-6bb8-4bd2-bebc-786bb85bd2ae" corresp="#e326dffd-2f14-4033-a6df-fd2f14703345" type="editorialNote">Stadt zum <lb/>Theil auf Gyps gebaut. Im <placeName ref="https://edition-humboldt.de/H0005386 https://www.geonames.org/6255078">Retiro</placeName>
                                 <lb/>ist er anstehend. Aller Letten um <lb/>
                                 <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName> wie auch alle Dammerde
-                                <lb/>kochsalzhaltig.</ref><note xml:id="d235ce99-e0b8-411d-b5ce-99e0b8811dfb" corresp="#ef628765-6c4b-4f39-a287-656c4bdf394c" type="editorial" resp="#Humboldt_2012b #CT"><quote><hi rendition="#g"><placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName></hi> zum Theil (im
-                                        <placeName>Retiro</placeName>) auf Gips gebaut, welcher wie
-                                    aller Letten umher, etwas kochsalzhaltig ist; 340
+                                <lb/>kochsalzhaltig.</ref><note xml:id="e326dffd-2f14-4033-a6df-fd2f14703345" corresp="#f97ebc78-6bb8-4bd2-bebc-786bb85bd2ae" type="editorial" resp="#Humboldt_2012b #CT"><quote><hi rendition="#g"><placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName></hi> zum Theil (im <placeName ref="https://edition-humboldt.de/H0005386 https://www.geonames.org/6255078">Retiro</placeName>) auf Gips gebaut, welcher
+                                    wie aller Letten umher, etwas kochsalzhaltig ist; 340
                                     Toisen.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt
                                     1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/13">13</ref>)</note>
                     </p>
@@ -1018,10 +1044,10 @@
                         <choice>
                         <abbr>u.</abbr>
                         <expan>und</expan>
-                        </choice> sehr schön in <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">la Mancha</placeName> auf <lb/>430 <choice><abbr><subst><del rendition="#ow">F</del><add place="across">t</add></subst></abbr><expan>toisen</expan></choice> Höhe. Wo <choice><abbr>specif.</abbr><expan>specifischer</expan></choice> Name der <lb/>Pflanze fehlt, aus <ref xml:id="ecf85ced-0ab7-4736-b85c-ed0ab7b73634" corresp="#f3198343-7eb3-4750-9983-437eb3c7501d" type="editorialNote">
-                            <persName ref="https://edition-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>’s Buch</ref><note xml:id="f3198343-7eb3-4750-9983-437eb3c7501d" corresp="#ecf85ced-0ab7-4736-b85c-ed0ab7b73634" type="editorial" resp="#Humboldt_2012b">Das <hi rendition="#i">Journal Botanique</hi>, siehe dazu die Einleitung zum vorliegenden Spanien-Tagebuch von <persName ref="https://edition-humboldt.de/H0004430 http://viaf.org/viaf/27292125">Ulrike Leitner</persName>, <ref target="https://edition-humboldt.de/H0018408">http://edition-humboldt.de/H0018408</ref>.</note>
+                        </choice> sehr schön in <placeName ref="https://edition-humboldt.de/H0011344 https://www.geonames.org/2593111">la Mancha</placeName> auf <lb/>430 <choice><abbr><subst><del rendition="#ow">F</del><add place="across">t</add></subst></abbr><expan>toisen</expan></choice> Höhe. Wo <choice><abbr>specif.</abbr><expan>specifischer</expan></choice> Name der <lb/>Pflanze fehlt, aus <ref xml:id="fa38831f-213b-4338-b883-1f213b53383f" corresp="#b9612b0b-8061-43e4-a12b-0b806133e4d3" type="editorialNote">
+                            <persName ref="https://edition-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName>’s Buch</ref><note xml:id="b9612b0b-8061-43e4-a12b-0b806133e4d3" corresp="#fa38831f-213b-4338-b883-1f213b53383f" type="editorial" resp="#Humboldt_2012b">Das <hi rendition="#i">Journal Botanique</hi>, siehe dazu die Einleitung zum vorliegenden Spanien-Tagebuch von <persName ref="https://edition-humboldt.de/H0004430 http://viaf.org/viaf/27292125">Ulrike Leitner</persName>, <ref target="https://edition-humboldt.de/H0018408">http://edition-humboldt.de/H0018408</ref>.</note>
                     <lb/>zu ersezen.</p>
-            <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rows="3" cols="4">
+            <table rows="3" cols="4">
                 <head>Mit Chronometer sehr genau ver<lb break="no"/>sucht.</head>
                 <row>
                             <cell>a. Ich gehe sehr langsam</cell>
@@ -1031,49 +1057,69 @@
                                 </choice>
                             </cell>
                             <cell rendition="#c">115 Schritt</cell>
-                            <cell rendition="#c">= 258 Fuß <choice>
-                                    <abbr>Par</abbr>
-                                    <expan>Pariser</expan>
-                                </choice>
+                            <cell rendition="#c">= <measure quantity="258" unit="pied_de_roi">258
+                                        Fuß<supplied cert="high">,</supplied>
+                                    <choice>
+                                        <abbr>Par</abbr>
+                                        <expan>Pariser</expan>
+                                    </choice></measure>
                             </cell>
                         </row>
                 <row>
                             <cell>b. <supplied cert="low" resp="#CT">so</supplied> schnell wie ich gewöhnlich gehe</cell>
                             <cell rendition="#c">
                                 <choice>
-                                <orig>―</orig>
-                                <reg>〃 〃 〃</reg>
-                            </choice>
-                        </cell>
-                            <cell rendition="#c">120 <choice>
-                                    <orig>―</orig>
-                                    <reg>〃</reg>
-                                </choice></cell>
-                            <cell rendition="#c">= 270 <choice>
-                                    <orig>―</orig>
-                                    <reg>〃</reg>
+                                    <abbr><choice>
+                                            <orig>―</orig>
+                                            <reg>〃 〃 〃</reg>
+                                        </choice></abbr>
+                                    <expan>in 1 Minute</expan>
                                 </choice>
+                            </cell>
+                            <cell rendition="#c">120 <choice>
+                                    <abbr><choice>
+                                            <orig>―</orig>
+                                            <reg>〃</reg>
+                                        </choice></abbr>
+                                    <expan>Schritt</expan>
+                                </choice></cell>
+                    <cell rendition="#c">= <measure quantity="270" unit="pied_de_roi">270 <choice>
+                                        <abbr><choice>
+                                                <orig>―</orig>
+                                                <reg>〃</reg>
+                                            </choice></abbr>
+                                        <expan>Fuß, Pariser</expan>
+                                    </choice></measure>
                             </cell>
                         </row>
                 <row>
                             <cell>c. so schnell ich Schritt gehen kann</cell>
                             <cell rendition="#c">
                                 <choice>
-                                <orig>―</orig>
-                                <reg>〃 〃 〃</reg>
-                            </choice>
-                        </cell>
-                            <cell rendition="#c">150 <choice>
-                                    <orig>―</orig>
-                                    <reg>〃</reg>
-                                </choice></cell>
-                            <cell rendition="#c">= 337 <choice>
-                                    <orig>―</orig>
-                                    <reg>〃</reg>
+                                    <abbr><choice>
+                                            <orig>―</orig>
+                                            <reg>〃 〃 〃</reg>
+                                        </choice></abbr>
+                                    <expan>in 1 Minute</expan>
                                 </choice>
                             </cell>
+                            <cell rendition="#c">150 <choice>
+                                    <abbr><choice>
+                                            <orig>―</orig>
+                                            <reg>〃</reg>
+                                        </choice></abbr>
+                                    <expan>Schritt</expan>
+                                </choice></cell>
+                            <cell rendition="#c">= <measure quantity="337" unit="pied_de_roi">337 <choice>
+                                        <abbr><choice>
+                                                <orig>―</orig>
+                                                <reg>〃</reg>
+                                            </choice></abbr>
+                                        <expan>Fuß, Pariser</expan>
+                                    </choice></measure>
+                            </cell>
                         </row>
-            </tei:table>
+            </table>
             <p>Mit der Geschwindigkeit von b oder 4,5 Fuß <lb/>in 1″ bin ich oft in 1 Tage nur
                     einmal 1 <choice>
                         <abbr>St.</abbr>
@@ -1178,17 +1224,17 @@
                     <placeName ref="https://edition-humboldt.de/H0019073 https://www.geonames.org/3118532">Leon</placeName>. <placeName ref="https://edition-humboldt.de/H0010798 https://www.geonames.org/3336902">Gallicien</placeName>
                 </head>
             <cb type="start"/>
-            <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rows="29" cols="2">
+            <table rows="29" cols="2">
             <head>Sehr gute Barometermessungen, bei sehr
                         ruhigem Wetter.</head>
             <row>
                         <cell>
                             <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>
                         </cell>
-                        <cell>312,2 <choice>
-                                <abbr>Lin.</abbr>
-                                <expan>Linien</expan>
-                            </choice></cell>
+                        <cell><measure quantity="312.2" unit="ligne">312,2 <choice>
+                                    <abbr>Lin.</abbr>
+                                    <expan>Linien</expan>
+                                </choice></measure></cell>
                     </row>
             <row>
                         <cell>
@@ -1204,8 +1250,8 @@
                     </row>
             <row>
                         <cell>
-                            <ref xml:id="fa09b2f8-5eb7-4be0-89b2-f85eb74be032" corresp="#b62fd0a9-3a44-49c7-afd0-a93a4429c7a3" type="editorialNote">der <placeName ref="https://edition-humboldt.de/H0018531 https://www.geonames.org/3121056">Puerto de <lb/>Guadarama</placeName> wo
-                                    <lb/>der Löwe steht</ref><note xml:id="b62fd0a9-3a44-49c7-afd0-a93a4429c7a3" corresp="#fa09b2f8-5eb7-4be0-89b2-f85eb74be032" type="editorial" resp="#Humboldt_2012b #CT">
+                            <ref xml:id="abcea868-f40c-42da-8ea8-68f40c12da17" corresp="#e007dae7-b944-4538-87da-e7b944f53819" type="editorialNote">der <placeName ref="https://edition-humboldt.de/H0018531 https://www.geonames.org/3121056">Puerto de <lb/>Guadarama</placeName> wo
+                                    <lb/>der Löwe steht</ref><note xml:id="e007dae7-b944-4538-87da-e7b944f53819" corresp="#abcea868-f40c-42da-8ea8-68f40c12da17" type="editorial" resp="#Humboldt_2012b #CT">
                                     <quote>
                                         <placeName ref="https://edition-humboldt.de/H0018531 https://www.geonames.org/3121056">Puerto
                                             de Guadarrama</placeName>, oder der
@@ -1221,7 +1267,13 @@
                     </row>
             <row>
                         <cell>
-                            <placeName resp="#AG" ref="https://edition-humboldt.de/H0018734 https://www.geonames.org/6355802">S. Chidrian</placeName><choice><orig>.</orig><reg type="deleted"/></choice></cell>
+                            <placeName resp="#AG" ref="https://edition-humboldt.de/H0018734 https://www.geonames.org/6355802"><choice>
+                                    <abbr>S.</abbr>
+                                    <expan>San</expan>
+                                </choice> Chidrian</placeName><choice>
+                                <orig>.</orig>
+                                <reg type="deleted"/>
+                            </choice></cell>
                         <cell>302,5</cell>
                     </row>
             <row>
@@ -1244,7 +1296,7 @@
                     </row>
             <row>
                         <cell>
-                            <placeName>Venta de Al<g ref="#typoHyphen"/><lb break="no"/>maraz</placeName>
+                            <placeName ref="https://edition-humboldt.de/H1792694 https://www.geonames.org/3130317">Venta de Al<g ref="#typoHyphen"/><lb break="no"/>maraz</placeName>
                         </cell>
                         <cell>309,5.</cell>
                     </row>
@@ -1278,9 +1330,12 @@
                     </row>
             <row>
                         <cell>morgens</cell>
-                        <cell>306<choice>
-                                <orig>–</orig>
-                                <reg>〃</reg>
+                        <cell>306 <choice>
+                                <abbr><choice>
+                                        <orig>–</orig>
+                                        <reg>〃</reg>
+                                    </choice></abbr>
+                                <expan>Linien</expan>
                             </choice>.</cell>
                     </row>
             <row>
@@ -1311,7 +1366,7 @@
                     </row>
             <row>
                         <cell>
-                            <placeName>Venta del Pagador <lb/>del Castro</placeName>
+                            <placeName ref="https://edition-humboldt.de/H0739658">Venta del Pagador <lb/>del Castro</placeName>
                         </cell>
                         <cell>303,5.</cell>
                     </row>
@@ -1321,7 +1376,7 @@
                     </row>
             <row>
                         <cell>
-                            <placeName>los Nugales</placeName>
+                            <placeName ref="https://edition-humboldt.de/H2778835 https://www.geonames.org/3117972">los Nugales</placeName>
                         </cell>
                         <cell>321,5.</cell>
                     </row>
@@ -1365,9 +1420,9 @@
                         </cell>
                         <cell>339.</cell>
                     </row>
-            </tei:table>
+            </table>
             <cb/>
-            <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rows="6" cols="3">
+            <table rows="6" cols="3">
                 <row role="label">
                         <cell cols="2">
                             <choice>
@@ -1399,7 +1454,10 @@
                     </row>
                 <row>
                         <cell>
-                            <placeName resp="#AG" ref="https://edition-humboldt.de/H0018734 https://www.geonames.org/6355802">S. Chidrian</placeName>
+                            <placeName resp="#AG" ref="https://edition-humboldt.de/H0018734 https://www.geonames.org/6355802"><choice>
+                                    <abbr>S.</abbr>
+                                    <expan>San</expan>
+                                </choice> Chidrian</placeName>
                         </cell>
                         <cell>72,30</cell>
                         <cell>23,5</cell>
@@ -1432,7 +1490,7 @@
                         <cell>75,75</cell>
                         <cell>24,8.</cell>
                     </row>
-            </tei:table>
+            </table>
             <cb type="end"/>
             <p>Fehler ist schon sehr gering, wen̅ man einen Ort nach dem nächsten berechnet <lb/>wie
                 die Reise von <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> nach <placeName ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName>
@@ -1447,7 +1505,7 @@
                 <persName ref="https://edition-humboldt.de/H0015852 http://d-nb.info/gnd/1160051542">Shuckburg</persName>s Messungen gelehrt haben. Doch erwarte ich auch
                 noch Baro<choice><orig>.<g ref="#typoHyphen"/></orig><reg resp="#DE #CT"><g ref="#typoHyphen"/></reg></choice><lb break="no"/>meterstände aus
                 <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>.</p>
-            <p><ref xml:id="a4dc1878-debd-4132-9c18-78debd0132ac" corresp="#bef2d48e-9627-4ee1-b2d4-8e96275ee191" type="editorialNote"><subst>
+            <p><ref xml:id="b14be08d-7e0f-4952-8be0-8d7e0f4952b9" corresp="#ee830496-6e26-4df7-8304-966e26edf76b" type="editorialNote"><subst>
                                 <add place="left">Nach</add>
                                 <del rendition="#s">Um</del>
                             </subst> dem Granit und Syenitgebirge (lettenförmig <choice>
@@ -1464,20 +1522,20 @@
                             <lb/>eine unermeßliche <choice>
                                 <sic/>
                                 <corr cert="high" resp="#Humboldt_2012b">Ebene</corr>
-                            </choice> bis <placeName ref="https://edition-humboldt.de/H0019062 https://www.geonames.org/3129231">Astorga</placeName> hin.</ref><note xml:id="bef2d48e-9627-4ee1-b2d4-8e96275ee191" corresp="#a4dc1878-debd-4132-9c18-78debd0132ac" type="editorial" resp="#Humboldt_2012b #CT">
+                            </choice> bis <placeName ref="https://edition-humboldt.de/H0019062 https://www.geonames.org/3129231">Astorga</placeName> hin.</ref><note xml:id="ee830496-6e26-4df7-8304-966e26edf76b" corresp="#b14be08d-7e0f-4952-8be0-8d7e0f4952b9" type="editorial" resp="#Humboldt_2012b #CT">
                             <quote>Wenn man von dieser Granitkette[,] die beide <placeName resp="#AG" ref="https://edition-humboldt.de/H0000386">Kastilien</placeName> mauerartig
                                 trennt, gegen NW. herabsteigt, so findet man an dem Abfall
-                                    <placeName>Villacastin</placeName> (572 Toisen). <placeName resp="#AG" ref="https://edition-humboldt.de/H0018734 https://www.geonames.org/6355802">San Chidrian</placeName> (474 Toisen)
+                                <placeName ref="https://edition-humboldt.de/H0018495 https://www.geonames.org/3105720">Villacastin</placeName> (572 Toisen). <placeName resp="#AG" ref="https://edition-humboldt.de/H0018734 https://www.geonames.org/6355802">San Chidrian</placeName> (474 Toisen)
                                 und <placeName resp="#AG" ref="https://edition-humboldt.de/H0019053 https://www.geonames.org/3129205">Ataquines</placeName> (388
                                 Toisen). Von diesem letztern Orte an zieht sich eine weite fast
                                 ununterbrochene Ebene 30 Meilen lang bis gegen <placeName ref="https://edition-humboldt.de/H0019062 https://www.geonames.org/3129231">Astorga</placeName> hin.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/15">15</ref>)</note>
-                    <ref xml:id="cdc2f608-f84b-42cc-82f6-08f84bf2cc02" corresp="#e19700d2-c8c3-47e5-9700-d2c8c3a7e52f" type="editorialNote">Bei <placeName ref="https://edition-humboldt.de/H0018498 https://www.geonames.org/3105462">Villa el <lb/>Pando</placeName>
-                            Sandstein (der auf Kalkstein)<supplied cert="high" resp="#DE #CT">.</supplied></ref><note xml:id="e19700d2-c8c3-47e5-9700-d2c8c3a7e52f" corresp="#cdc2f608-f84b-42cc-82f6-08f84bf2cc02" type="editorial" resp="#Humboldt_2012b #CT">
+                    <ref xml:id="a23b6c64-664b-4069-bb6c-64664b6069f0" corresp="#eafbdde7-e35b-45d7-bbdd-e7e35b65d709" type="editorialNote">Bei <placeName ref="https://edition-humboldt.de/H0018498 https://www.geonames.org/3105462">Villa el <lb/>Pando</placeName>
+                            Sandstein (der auf Kalkstein)<supplied cert="high" resp="#DE #CT">.</supplied></ref><note xml:id="eafbdde7-e35b-45d7-bbdd-e7e35b65d709" corresp="#a23b6c64-664b-4069-bb6c-64664b6069f0" type="editorial" resp="#Humboldt_2012b #CT">
                             <quote><placeName ref="https://edition-humboldt.de/H0018498 https://www.geonames.org/3105462">Villalpando</placeName> 320 Toisen,
                                 hier eine Sandstein-Formation auf einem weißen Kalkstein aufliegend,
                                 […].</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt
                                 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/15">15</ref>)</note>
-                    <ref xml:id="eea9fd6a-5ec6-489f-a9fd-6a5ec6789f75" corresp="#ac37aa67-98f9-4352-b7aa-6798f9935241" type="editorialNote">Bei <placeName>Lonora</placeName> kom̅t <lb/>schon Gneis heraus <choice>
+                    <ref xml:id="e9f568e5-ec5e-4576-b568-e5ec5e15767b" corresp="#d1e6a5ce-910a-4c98-a6a5-ce910aac98c4" type="editorialNote">Bei <placeName ref="https://edition-humboldt.de/H2433935">Lonora</placeName> kom̅t <lb/>schon Gneis heraus <choice>
                                 <abbr>St</abbr>
                                 <expan>Stunde</expan>
                             </choice> 3,2 mit 80° <choice>
@@ -1487,9 +1545,9 @@
                             <choice>
                                 <abbr>Oc.</abbr>
                                 <expan>Occidental</expan>
-                            </choice>
-                        </ref><note xml:id="ac37aa67-98f9-4352-b7aa-6798f9935241" corresp="#eea9fd6a-5ec6-489f-a9fd-6a5ec6789f75" type="editorial" resp="#Humboldt_2012b #CT">
-                            <quote>Bei <placeName>Lonora</placeName> erscheint schon wieder Gneus,
+                            </choice><supplied cert="high">.</supplied>
+                        </ref><note xml:id="d1e6a5ce-910a-4c98-a6a5-ce910aac98c4" corresp="#e9f568e5-ec5e-4576-b568-e5ec5e15767b" type="editorial" resp="#Humboldt_2012b #CT">
+                            <quote>Bei <placeName ref="https://edition-humboldt.de/H2433935">Lonora</placeName> erscheint schon wieder Gneus,
                                 streichend <hi rendition="#aq"><foreign xml:lang="fra"><choice>
                                             <abbr>hor.</abbr>
                                             <expan resp="#DE">horaire</expan>
@@ -1506,9 +1564,9 @@
                     <choice>
                         <abbr>Oc.</abbr>
                         <expan>Occidental</expan>
-                    </choice>
+                    </choice><supplied cert="high">.</supplied>
                     <del rendition="#s">Bei</del>
-                    <ref xml:id="e377a63b-1281-4dd7-b7a6-3b12813dd7ff" corresp="#c216b19d-80d0-4a65-96b1-9d80d03a65ae" type="editorialNote"> Puerto <placeName ref="https://edition-humboldt.de/H0018706 https://www.geonames.org/3117509">Manzanar</placeName>
+                    <ref xml:id="fb03a6a5-c084-49fd-83a6-a5c08449fd20" corresp="#a00bbb8b-bc8c-4d83-8bbb-8bbc8c6d83d9" type="editorialNote"> Puerto <placeName ref="https://edition-humboldt.de/H0018706 https://www.geonames.org/3117509">Manzanar</placeName>
                             <lb/>ein 5 <choice>
                                 <abbr>Meil.</abbr>
                                 <expan>Meilen</expan>
@@ -1533,7 +1591,7 @@
                                 <abbr>Oc.</abbr>
                                 <expan>Occidental</expan>
                             </choice>
-                        </ref><note xml:id="c216b19d-80d0-4a65-96b1-9d80d03a65ae" corresp="#e377a63b-1281-4dd7-b7a6-3b12813dd7ff" type="editorial" resp="#Humboldt_2012b #CT">
+                        </ref><note xml:id="a00bbb8b-bc8c-4d83-8bbb-8bbc8c6d83d9" corresp="#fb03a6a5-c084-49fd-83a6-a5c08449fd20" type="editorial" resp="#Humboldt_2012b #CT">
                             <quote>Puerto <placeName ref="https://edition-humboldt.de/H0018706 https://www.geonames.org/3117509">Manzanal</placeName> 567 Toisen.
                                 Ein 5 Meilen langes Gebirge mit romantischen Schluchten, aus
                                 Grauwacke und überaus feinkörnigem Grauwacken-Schiefer bestehend,
@@ -1543,7 +1601,7 @@
                                         </choice></foreign></hi> 3–4, fallend mit 70° gegen NW. In
                                 dieser Uebergangs-Formation liegen eingewachsene Kugeln, die innigst
                                 mit Hornblende gemengt sind, im Uebergangs-Grünstein.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/15">15</ref>f.)</note>
-                    <ref xml:id="fc7dd6f1-b892-4710-bdd6-f1b892b71059" corresp="#ae6aba8b-2f09-4e68-aaba-8b2f090e6861" type="editorialNote">bei <placeName ref="https://edition-humboldt.de/H0018497 https://www.geonames.org/3105603">Villafranca</placeName> alter
+                    <ref xml:id="cfb450ee-3ffb-4214-b450-ee3ffb8214aa" corresp="#aa55a33d-b273-4fcc-95a3-3db2730fccce" type="editorialNote">bei <placeName ref="https://edition-humboldt.de/H0018497 https://www.geonames.org/3105603">Villafranca</placeName> alter
                             Thonschiefer darunter <lb/>heraus meist <choice>
                                 <abbr>St</abbr>
                                 <expan>Stunde</expan>
@@ -1554,22 +1612,23 @@
                                 <abbr>Mer.</abbr>
                                 <expan>Meridional</expan>
                             </choice><supplied cert="high" resp="#CT">,</supplied> hinter <placeName resp="#AG" ref="https://edition-humboldt.de/H0018543 https://www.geonames.org/3107635">Trava<lb break="no"/>delos</placeName>
-                            geht er in Glim̅erschiefer über.</ref><note xml:id="ae6aba8b-2f09-4e68-aaba-8b2f090e6861" corresp="#fc7dd6f1-b892-4710-bdd6-f1b892b71059" type="editorial" resp="#Humboldt_2012b #CT">
+                            geht er in Glim̅erschiefer über.</ref><note xml:id="aa55a33d-b273-4fcc-95a3-3db2730fccce" corresp="#cfb450ee-3ffb-4214-b450-ee3ffb8214aa" type="editorial" resp="#Humboldt_2012b #CT">
                             <quote>In dem Thale steht Thonschiefer zu Tage an (<hi rendition="#aq"><foreign xml:lang="fra"><choice>
                                             <abbr>hor.</abbr>
                                             <expan resp="#DE">horaire</expan>
                                         </choice></foreign></hi> 8‒9, bald gegen NO., bald gegen NW.
                                 fallend) hinter <placeName resp="#AG" ref="https://edition-humboldt.de/H0018543 https://www.geonames.org/3107635">Travatelos</placeName> in Glimmerschiefer übergehend.</quote>
                                 (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/16">16</ref>)</note>
-                    <ref xml:id="be7790af-bb1d-46f7-b790-afbb1df6f75f" corresp="#e05d5574-2aa5-40e9-9d55-742aa5b0e9cb" type="editorialNote">In der Teufe <lb/>ziemlich regelmäßig <choice>
+                    <ref xml:id="a5c521cb-eeb6-4d19-8521-cbeeb6bd1969" corresp="#d4084502-90e8-4241-8845-0290e8b241f9" type="editorialNote">In der Teufe <lb/>ziemlich regelmäßig <choice>
                                 <abbr>St</abbr>
                                 <expan>Stunde</expan>
                             </choice> 4 <choice>
                                 <abbr>Sept.</abbr>
                                 <expan>Septentrional</expan>
-                            </choice> Thalbildung = in Laun<lb break="no"/>stein. Viel Eisenglanz auf Klüften und
-                            Quarzlager darin<supplied cert="high" resp="#Humboldt_2012b">.</supplied>
-                        </ref><note xml:id="e05d5574-2aa5-40e9-9d55-742aa5b0e9cb" corresp="#be7790af-bb1d-46f7-b790-afbb1df6f75f" type="editorial" resp="#Humboldt_2012b #CT">
+                            </choice> Thalbildung = in
+                                Laun<lb break="no"/>stein. Viel Eisenglanz auf Klüften
+                            und Quarzlager darin<supplied cert="high" resp="#Humboldt_2012b">.</supplied>
+                        </ref><note xml:id="d4084502-90e8-4241-8845-0290e8b241f9" corresp="#a5c521cb-eeb6-4d19-8521-cbeeb6bd1969" type="editorial" resp="#Humboldt_2012b #CT">
                             <p>
                                 <quote>Dort wird das Streichen wieder, wie man es in diesem Theile
                                     von <placeName ref="https://edition-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName> fast allgemein
@@ -1588,7 +1647,7 @@
                                                 <expan resp="#DE">horaire</expan>
                                             </choice></foreign></hi> 3–4.</quote> (<bibl corresp="https://edition-humboldt.de/XP4WJABZ">Humboldt 1863</bibl>, I, 29)</p>
                         </note>
-                    <lb/><ref xml:id="a5f56dc7-d83e-4872-b56d-c7d83e78724f" corresp="#bfaeeee2-4e7b-4369-aeee-e24e7b53696b" type="editorialNote">Bei <placeName>Venta del Pagador del Castro</placeName>
+                    <lb/><ref xml:id="b94de291-2547-46db-8de2-912547e6db25" corresp="#beb7a5d9-580a-40d2-b7a5-d9580a50d222" type="editorialNote">Bei <placeName ref="https://edition-humboldt.de/H0739658">Venta del Pagador del Castro</placeName>
                             <choice>
                                 <abbr>Glimsch.</abbr>
                                 <expan>Glimmerschiefer</expan>
@@ -1599,34 +1658,34 @@
                             </choice> 3, 4 <lb/>mit 70° <choice>
                                 <abbr>Sept.</abbr>
                                 <expan>Septentrional</expan>
-                            </choice> dann darin <subst>
+                            </choice><supplied cert="high">,</supplied> dann darin <subst>
                                 <del rendition="#s">bl</del>
                                 <add place="intralinear">viele blaue</add>
-                            </subst> Kalkstein<lb break="no"/>lager mehr dicht als körnig (Col de
-                            Balme) seiger <lb/><choice>
+                            </subst> Kalkstein<lb break="no"/>lager<supplied cert="high">,</supplied> mehr dicht als körnig (<placeName ref="https://edition-humboldt.de/H5225418 https://www.geonames.org/12639890">Col
+                                de Balme</placeName>) seiger
+                            <lb/><choice>
                                 <abbr>St.</abbr>
                                 <expan>Stunde</expan>
-                            </choice> 9.</ref><note xml:id="bfaeeee2-4e7b-4369-aeee-e24e7b53696b" corresp="#a5f56dc7-d83e-4872-b56d-c7d83e78724f" type="editorial" resp="#Humboldt_2012b #CT">
-                            <quote>Diese Venta liegt auf dem südlichen Abhange eines
+                            </choice> 9.</ref><note xml:id="beb7a5d9-580a-40d2-b7a5-d9580a50d222" corresp="#b94de291-2547-46db-8de2-912547e6db25" type="editorial" resp="#Humboldt_2012b #CT">
+                            <quote><placeName ref="https://edition-humboldt.de/H0739658">Venta del Pagador de Castro</placeName> 480 Toisen. Diese Venta liegt auf dem südlichen Abhange eines
                                 Glimmerschiefer-Gebirges, dessen höchster Gipfel, den ich überstieg,
                                 580 Toisen Höhe erreichte. Hier ist ein Punkt, an dem man aufs Neue
-                                erkennt, wie schwer oft zwischen uranfänglichen und
-                                Uebergangs-Gesteinen eine Gränze zu ziehen ist. Dieser
-                                Glimmerschiefer, den man für uranfänglich hätte halten können,
-                                enthält seigere Lager von blauem Kalkstein, meist von dichtem
-                                Bruche, selten ins Körnige übergehend mit Spuren von
-                                Trilobiten.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt
-                                1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/16">16</ref>)</note>
-                    <ref xml:id="aa6e2e0c-f588-4784-ae2e-0cf588f784c7" corresp="#d45ff7f0-2d6b-4ebb-9ff7-f02d6bdebbd6" type="editorialNote">Vor <placeName>los Nugales</placeName> ist ein großes Stük dieses
-                                Kalk<g ref="#typoHyphen"/><lb break="no"/>gebirges ganz drusig voll
-                                Kalkspat<supplied cert="high" resp="#Humboldt_2012b">-</supplied>octaedren und Quarzkristal<lb break="no"/>len. Das
-                            Streichen wendet sich nach und nach seiger <lb/>bis <choice>
+                                erkennt, wie schwer oft zwischen uranfänglichen und Uebergangs-Gesteinen eine Gränze zu
+                                ziehen ist. Dieser Glimmerschiefer, den man für uranfänglich hätte halten können, enthält
+                                    seigere Lager von blauem
+                                Kalkstein, meist von dichtem Bruche, selten ins Körnige übergehend
+                                mit Spuren von Trilobiten.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/16">16</ref>)</note>
+                    <ref xml:id="e103e712-cc03-4c74-83e7-12cc03bc74da" corresp="#ffdb101b-9709-4f47-9b10-1b9709ef473c" type="editorialNote">Vor <placeName ref="https://edition-humboldt.de/H2778835 https://www.geonames.org/3117972">los Nugales</placeName> ist ein großes
+                            Stük dieses Kalk<g ref="#typoHyphen"/><lb break="no"/>gebirges ganz
+                            drusig voll Kalkspat<supplied cert="high" resp="#Humboldt_2012b">-</supplied>octaedren und Quarzkristal<lb break="no"/>len. Das
+                            Streichen wendet sich nach und nach seiger
+                            <lb/>bis <choice>
                                 <abbr>St</abbr>
                                 <expan>Stunde</expan>
                             </choice> 11 <subst>
                                 <del rendition="#s">Gneis</del>
                                 <add place="intralinear">Glimerschiefer</add>
-                            </subst>.</ref><note xml:id="d45ff7f0-2d6b-4ebb-9ff7-f02d6bdebbd6" corresp="#aa6e2e0c-f588-4784-ae2e-0cf588f784c7" type="editorial" resp="#Humboldt_2012b #CT">
+                            </subst>.</ref><note xml:id="ffdb101b-9709-4f47-9b10-1b9709ef473c" corresp="#e103e712-cc03-4c74-83e7-12cc03bc74da" type="editorial" resp="#Humboldt_2012b #CT">
                             <quote>Etwas südlich von diesem Ort ist das Kalkgebirge überaus drusig,
                                 und wie kristallisirt, vielleicht ein Dolomit-Gestein, bald darauf
                                 wieder Glimmerschiefer, doch mit sehr verändertem Streichen <hi rendition="#aq"><foreign xml:lang="fra"><choice>
@@ -1636,22 +1695,24 @@
                     <pb n="10v"/><lb/> Dann <choice>
                         <abbr>St</abbr>
                         <expan>Stunde</expan>
-                    </choice> 12. <ref xml:id="a09422fe-86af-4129-9422-fe86af4129b1" corresp="#ac7b4dbe-e9a9-4018-bb4d-bee9a9e01825" type="editorialNote">bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0018732 https://www.geonames.org/6358700">Sobrado</placeName> enthält
+                    </choice> 12. <ref xml:id="e7d48b8e-6296-4fcf-948b-8e62969fcf61" corresp="#d5ac3d6c-f2c5-483f-ac3d-6cf2c5283f32" type="editorialNote">bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0018732 https://www.geonames.org/6358700">Sobrado</placeName> enthält
                             er nicht Grana<g ref="#typoHyphen"/><lb break="no"/>ten nein ungeheuer
-                            viel kleine Würfel von <lb/>Schwefelkies<supplied resp="#DE #CT" cert="high">.</supplied></ref><note xml:id="ac7b4dbe-e9a9-4018-bb4d-bee9a9e01825" corresp="#a09422fe-86af-4129-9422-fe86af4129b1" type="editorial" resp="#Humboldt_2012b #CT">
+                            viel kleine Würfel von <lb/>Schwefelkies<supplied resp="#DE #CT" cert="high">.</supplied></ref><note xml:id="d5ac3d6c-f2c5-483f-ac3d-6cf2c5283f32" corresp="#e7d48b8e-6296-4fcf-948b-8e62969fcf61" type="editorial" resp="#Humboldt_2012b #CT">
                             <quote>Keine Spur von Granaten, aber bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0018732 https://www.geonames.org/6358700">Sobrado</placeName> (277 Toisen) viel
                                 Schwefelkies-Würfel.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/16">16</ref>)</note>
-                    <ref xml:id="a0659512-6616-4c5e-a595-1266169c5ef2" corresp="#af4705fc-4078-49ae-8705-fc4078d9ae71" type="editorialNote">Hinter <placeName resp="#AG" ref="https://edition-humboldt.de/H0018732 https://www.geonames.org/6358700">Sobrado</placeName> Granit
+                    <ref xml:id="f6be9a2e-4760-47af-be9a-2e4760a7afe0" corresp="#fc85a436-92e4-4dc8-85a4-3692e4cdc829" type="editorialNote">Hinter <placeName resp="#AG" ref="https://edition-humboldt.de/H0018732 https://www.geonames.org/6358700">Sobrado</placeName> Granit
                             der mit <lb/>grossen Feldspat<choice>
-                                <abbr>xllen</abbr>
-                                <expan>kristallen</expan>
-                            </choice>. Darin 4–5 <choice>
-                                <abbr>Lr.</abbr>
-                                <expan>Lachter</expan>
-                            </choice> Lager <lb/>eingewachsener Kugeln wie bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0018733 https://www.geonames.org/7602574">Seiffen</placeName> mit <lb/>4–6 deutlich <choice>
+                                <orig>xllen</orig>
+                                <reg>kristallen</reg>
+                            </choice>. Darin <measure unit="lachter" quantity="4">4</measure>–<measure unit="lachter" quantity="5">5 <choice>
+                                    <abbr>Lr.</abbr>
+                                    <expan>Lachter</expan>
+                                </choice></measure> Lager <lb/>eingewachsener Kugeln wie bei
+                                <placeName resp="#AG" ref="https://edition-humboldt.de/H0018733 https://www.geonames.org/7602574">Seiffen</placeName> mit
+                            <lb/>4–6 deutlich <choice>
                                 <abbr>abgesond.</abbr>
                                 <expan>abgesonderten</expan>
-                            </choice> Stükken!</ref><note xml:id="af4705fc-4078-49ae-8705-fc4078d9ae71" corresp="#a0659512-6616-4c5e-a595-1266169c5ef2" type="editorial" resp="#Humboldt_2012b #CT">
+                            </choice> Stükken!</ref><note xml:id="fc85a436-92e4-4dc8-85a4-3692e4cdc829" corresp="#f6be9a2e-4760-47af-be9a-2e4760a7afe0" type="editorial" resp="#Humboldt_2012b #CT">
                             <p>
                                 <quote>Zwischen <placeName resp="#AG" ref="https://edition-humboldt.de/H0018732 https://www.geonames.org/6358700">Sobrado</placeName> und <placeName ref="https://edition-humboldt.de/H0019100 https://www.geonames.org/3117814">Lugo</placeName> (209 Toisen) durchbricht den
                                     Glimmerschiefer großkörniger Granit, in welchem ich ungeheuere
@@ -1668,7 +1729,7 @@
                                 (Vgl. <bibl corresp="https://edition-humboldt.de/XP4WJABZ">Humboldt 1863</bibl>, I,
                                 30)</p>
                         </note>
-                    <ref xml:id="b07b301d-5b68-41ad-bb30-1d5b6851ad34" corresp="#a7441f5f-400c-4e5a-841f-5f400cce5a6f" type="editorialNote">Dann Gneiß <lb/><choice>
+                    <ref xml:id="e639944e-d68b-4d79-b994-4ed68b3d79c7" corresp="#bc9effed-04bf-422d-9eff-ed04bf422d73" type="editorialNote">Dann Gneiß <lb/><choice>
                                 <abbr>St</abbr>
                                 <expan>Stunde</expan>
                             </choice> 3,5 <unclear reason="illegible" cert="low" resp="#Humboldt_2012b">p<supplied resp="#Humboldt_2012b">.</supplied></unclear>
@@ -1701,7 +1762,7 @@
                                 <abbr>Sept</abbr>
                                 <expan>Septentrional</expan>
                             </choice>
-                        </ref><note xml:id="a7441f5f-400c-4e5a-841f-5f400cce5a6f" corresp="#b07b301d-5b68-41ad-bb30-1d5b6851ad34" type="editorial" resp="#Humboldt_2012b #CT">
+                        </ref><note xml:id="bc9effed-04bf-422d-9eff-ed04bf422d73" corresp="#e639944e-d68b-4d79-b994-4ed68b3d79c7" type="editorial" resp="#Humboldt_2012b #CT">
                             <quote>Von jener Stelle an gegen die nordwestliche Gränze des Granits
                                 hin erscheinen erst Gneus, dann Glimmerschiefer und bald bei
                                     <placeName ref="https://edition-humboldt.de/H0019100 https://www.geonames.org/3117814">Lugo</placeName> (209 Toisen) und
@@ -1710,7 +1771,7 @@
                                 großer Regelmäßigkeit, wie der Gebirgszug selbst, von SW. nach
                                 NO.</quote> (<bibl corresp="https://edition-humboldt.de/43V2ZX5S">Humboldt
                                 1825a</bibl>, <ref target="http://www.deutschestextarchiv.de/humboldt_spanien_1825/17">17</ref>)</note>
-                    <ref xml:id="a985a960-08cc-4cb8-85a9-6008cc1cb8c4" corresp="#e2d9a12c-e8c0-49d1-99a1-2ce8c019d123" type="editorialNote">
+                    <ref xml:id="ee5be45e-e064-4aac-9be4-5ee0645aac8d" corresp="#c704d986-8ec6-45f6-84d9-868ec695f6a2" type="editorialNote">
                             <lb/>
                             <subst>
                                 <del rendition="#s"><unclear reason="covered" cert="high" resp="#DE #CT">Gra</unclear></del>
@@ -1733,7 +1794,7 @@
                             <lb/>bald <choice>
                                 <abbr>Sept</abbr>
                                 <expan>Septentrional</expan>
-                            </choice>.</ref><note xml:id="e2d9a12c-e8c0-49d1-99a1-2ce8c019d123" corresp="#a985a960-08cc-4cb8-85a9-6008cc1cb8c4" type="editorial" resp="#Humboldt_2012b #CT">
+                            </choice>.</ref><note xml:id="c704d986-8ec6-45f6-84d9-868ec695f6a2" corresp="#ee5be45e-e064-4aac-9be4-5ee0645aac8d" type="editorial" resp="#Humboldt_2012b #CT">
                             <quote>Der ganze Abfall gegen <placeName resp="#AG" ref="https://edition-humboldt.de/H0018593 https://www.geonames.org/3128071">Betanzos</placeName> und <placeName ref="https://edition-humboldt.de/H0011312 https://www.geonames.org/3119841">La
                                     Coruña</placeName> ist wieder ein wahres Granit-Plateau mit
                                 zweierlei, tombakbraunen und silberweißen Glimmer. Hier und da ist
@@ -1750,7 +1811,7 @@
                     <choice>
                         <abbr>Electr.</abbr>
                         <expan>Electrometer</expan>
-                    </choice> ohne <ref xml:id="c007abfa-cd08-4712-87ab-facd08a71247" corresp="#a1de2ec6-3f95-4fdb-9e2e-c63f95bfdbea" type="editorialNote">Schwamm</ref><note xml:id="a1de2ec6-3f95-4fdb-9e2e-c63f95bfdbea" corresp="#c007abfa-cd08-4712-87ab-facd08a71247" type="editorial" resp="#Humboldt_2012b">Zündschwamm (Zunder). Für die
+                    </choice> ohne <ref xml:id="c2441201-ad85-431e-8412-01ad85231e3b" corresp="#b835c77d-9dec-462a-b5c7-7d9dec562a74" type="editorialNote">Schwamm</ref><note xml:id="b835c77d-9dec-462a-b5c7-7d9dec562a74" corresp="#c2441201-ad85-431e-8412-01ad85231e3b" type="editorial" resp="#Humboldt_2012b">Zündschwamm (Zunder). Für die
                             <persName ref="https://edition-humboldt.de/H0002905 http://d-nb.info/gnd/119292556">Volta</persName>sche Methode bei der Verwendung des
                                 Elektrometer wurde Rauch
                                 verwendet, siehe dazu <persName ref="https://edition-humboldt.de/H0004430 http://viaf.org/viaf/27292125">Ulrike Leitner</persName>s Einleitung zur vorliegenden Edition, <ref target="https://edition-humboldt.de/H0018408">http://edition-humboldt.de/H0018408</ref>.</note> 2 Zoll nega<lb break="no"/>tiv</p>

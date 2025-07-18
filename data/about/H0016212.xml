@@ -12,12 +12,12 @@
                     </persName>
                 </author>
             </titleStmt><editionStmt><p>Dumont, Stefan: Digitale Methodik .  Ein Überblick über Datenmodellierung, Technologien und
-                    Schnittstellen in der edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0016212">https://edition-humboldt.de/v10/H0016212</ref></p></editionStmt>
+                    Schnittstellen in der edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             <notesStmt>
                 <relatedItem target="H0021024" type="translation" xml:lang="en"/>
             </notesStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0016212</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0016212.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <sourceDesc>
                 <p>Converted from a Word document</p>
             </sourceDesc>
@@ -176,16 +176,19 @@
                     Ausnahme ist die Bibliographie, die in der Literaturverwaltungssoftware Zotero
                     gepflegt wird, dafür bietet <hi rendition="#i">ediarum.DB</hi> eine
                     entsprechende Schnittstelle zur Synchronisierung.</p>
-                <p>Die Speicherung der Daten erfolgt in der freien XML-Datenbank <ref target="http://www.exist-db.org">existdb</ref>, hier wird auch das Modul <hi rendition="#i">ediarum.DB</hi> zur Verwaltung der Daten genutzt. Existdb
-                    dient gleichzeitig – zusammen mit dem Webserver Jetty – auch als Basis der
-                    digitalen Edition, die mit XQuery, XSLT und XPath realisiert wurde und
-                    mittlerweile in einer eXistdb-App gemäß den EXPath packaging specifications
-                    vorgehalten wird, was Deployment und Entwicklung vereinfacht. Für die
-                    Suchfunktionen wird die seit eXistdb 5.0 verfügbare, auf Lucene basierende
-                    Facettierung genutzt. Darüber hinaus verfügt die Edition über mehrere eigens
-                    programmierte Caches, die die Performance insbesondere bei aufwendigen Abfragen
-                    erhöhen. Zur Anzeige der Faksimiles, Zeichnungen und Abbildungen wird die am MPI
-                    für Wissenschaftsgeschichte entwickelte Software <ref target="http://digilib.sourceforge.net/">digilib</ref> eingesetzt.</p>
+                <p>Die Speicherung der Daten erfolgt zuerst in einem Git (<bibl corresp="https://edition-humboldt.de/SUJV58N2">Fechner/Klappenbach/Lampert 2025</bibl>) und
+                    in einer zweiten Stufe (automatisiert) in einer Instanz der freien XML-Datenbank
+                        <ref target="http://www.exist-db.org">existdb</ref>, hier wird auch das
+                    Modul <hi rendition="#i">ediarum.DB</hi> zur Verwaltung der Daten genutzt.
+                    Existdb dient – zusammen mit dem Webserver Jetty – als Basis der digitalen
+                    Edition, die mit XQuery, XSLT und XPath realisiert wurde und mittlerweile in
+                    einer eXistdb-App gemäß den EXPath packaging specifications vorgehalten wird,
+                    was Deployment und Entwicklung vereinfacht. Für die Suchfunktionen wird die seit
+                    eXistdb 5.0 verfügbare, auf Lucene basierende Facettierung genutzt. Darüber
+                    hinaus verfügt die Edition über mehrere eigens programmierte Caches, die die
+                    Performance insbesondere bei aufwendigen Abfragen erhöhen. Zur Anzeige der
+                    Faksimiles, Zeichnungen und Abbildungen wird die am MPI für
+                    Wissenschaftsgeschichte entwickelte Software <ref target="http://digilib.sourceforge.net/">digilib</ref> eingesetzt.</p>
             </div>
             <div>
                 <head>Gestaltung &amp; Webdesign</head>
@@ -340,6 +343,12 @@
                         Institutionseinträgen angezeigt werden kann. Das ist insbesondere bei
                         kleineren Orten der verschiedenen Reisen Alexander von Humboldts
                         hilfreich.</p>
+                    <p>Mit der Version 11 der edition humboldt digital wurden die geodatenbasierten
+                        Funktionen im Ortsregister erweitert: Eine <ref target="https://edition-humboldt.de/register/orte/map.xql?l=de">interaktive Weltkarte</ref> gibt nun einen Überblick über alle Orte,
+                        die im Ortsregister verzeichnet sind. Außerdem werden zu einem einzelnen Ort
+                        in seinem Registereintrag benachbarte Orte, die ebenfalls im Register
+                        aufgeführt werden, in einem Umkreis von ca. 30 km angezeigt - sowohl in der
+                        Karte als auch als Liste mit Entfernungsangaben (Beispiel: <ref target="https://edition-humboldt.de/register/orte/detail.xql?id=H0019176&amp;l=de">Zmeëvka</ref>). </p>
                 </div>
                 <div>
                     <head type="h3">Gemeinsame Normdatei &amp; BEACON</head>
@@ -393,7 +402,7 @@
                     <p>Die <hi rendition="#i">edition humboldt digital</hi> nutzt nicht nur externe
                         Daten und Webservices nach, sondern stellt ihre Daten auch wiederum unter
                         der freien <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons-Lizenz CC BY-SA 4.0</ref> über eine Schnittstelle und
-                        als eigenständige Datenpublikation zur Verfügung.</p>
+                        als eigenständige <ref target="https://doi.org/10.5281/zenodo.13752841">Datenpublikation</ref> zur Verfügung.</p>
                 </div>
                 <div>
                     <head type="h4">TEI-XML-Schnittstelle</head>
@@ -408,7 +417,7 @@
                             <hi rend="code">id</hi> wird das jeweilige Dokument ausgegeben.</p>
                     <div>
                         <head type="h5">Parameter <hi rend="code">type</hi></head>
-                        <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
+                        <table rend="drawn" rows="2" cols="2">
                             <row role="label">
                                 <cell>Werte</cell>
                                 <cell>Beschreibung</cell>
@@ -423,10 +432,10 @@
                                 <cell>alle Korrespondenzpartner</cell>
                             </row>
                             <row>
-                                <cell><hi rend="code">personMentioned</hi></cell>
+                                <cell><hi rend="code">personsMentioned</hi></cell>
                                 <cell>alle erwähnten Personen</cell>
                             </row>
-                        </tei:table>
+                        </table>
                     </div>
                 </div>
                 <div>
@@ -448,7 +457,7 @@
                             einsehbar auf GitHub zur Verfügung steht</ref>. Nach einer Überprüfung
                         und Ergänzung mit dem TEI-XML-Schema der ehd (als RNG) wird der Datensatz
                         von dort nach Zenodo exportiert, um dort langzeitarchiviert zur freien
-                        Verfügung zu stehen.</p>
+                        Verfügung zu stehen: <ref target="https://doi.org/10.5281/zenodo.13752841">https://doi.org/10.5281/zenodo.13752841</ref> (kanonische URL, verlinkt stets zur aktuellsten publizierten Version).</p> 
                 </div>
                 <div>
                     <head type="h3">Weitere APIs</head>
@@ -468,11 +477,16 @@
                             Edition vorhandenen Briefe im <ref target="https://correspsearch.net/de/dokumentation.html">Correspondence Metadata Interchange Format (CMIF)</ref> abgerufen
                             werden. Dadurch werden die in dieser Edition edierten Briefe in
                             correspSearch nachgewiesen.</p>
-                        <p>URL: <ref target="http://edition-humboldt.de/api/v1.1/cmif.xql">http://edition-humboldt.de/api/v1.1/cmif.xql</ref></p>
+                        <p>Die Schnittstelle unterstützt auch schon einige Erweiterungen von <ref target="https://github.com/TEI-Correspondence-SIG/CMIF/blob/main/proposals/CMIFv2_proposal.md">CMIF v2</ref>. So werden die <hi rendition="#i">erwähnten</hi>
+                            Personen sowie die URL zum jeweiligen TEI-XML-Volltext ausgegeben.
+                            Letzteres ermöglicht es, dass auch in correspSearch diese Briefe im
+                            Volltext durchsucht und gefunden werden können (<ref target="https://correspsearch.net/de/suche.html?q=fieber*">Beispiel:
+                                “fieber*”</ref>).</p>
+                        <p>URL: <ref target="http://edition-humboldt.de/api/v1.2/cmif.xql">http://edition-humboldt.de/api/v1.2/cmif.xql</ref></p>
                     </div>
                     <div>
                         <head type="h4">BEACON-Dateien</head>
-                        <p>Die im ehd-Datenbestand vorhandenen und mit der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND</ref>-URI ausgezeichneten Personen können via <ref target="http://edition-humboldt.de/api/v1.1/beacon.xql">http://edition-humboldt.de/api/v1.1/beacon.xql</ref> als Liste im
+                        <p>Die im ehd-Datenbestand vorhandenen und mit der <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND</ref>-URI ausgezeichneten Personen können via <ref target="http://edition-humboldt.de/api/v1.2/beacon.xql">http://edition-humboldt.de/api/v1.2/beacon.xql</ref> als Liste im
                                 <ref target="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON-Format</ref> abgerufen und darüber in externen digitalen
                             Angeboten automatisch verlinkt werden. Es ist dabei möglich, die Liste
                             auf Personen zu beschränken, die im Brieftext erwähnt werden oder die
@@ -481,7 +495,7 @@
                             <head type="h5">Parameter</head>
                             <div>
                                 <head type="h5"><hi rend="code">type</hi></head>
-                                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
+                                <table rend="drawn" rows="2" cols="2">
                                     <row role="label">
                                         <cell>Werte</cell>
                                         <cell>Beschreibung</cell>
@@ -499,13 +513,13 @@
                                         <cell><hi rend="code">personMentioned</hi></cell>
                                         <cell>alle erwähnten Personen</cell>
                                     </row>
-                                </tei:table>
+                                </table>
                             </div>
                             <div>
                                 <head type="h5"><hi rend="code">authority</hi></head>
                                 <p>Alle Personen mit einer Norm-ID einer bestimmten Norm-Datei
                                     (eingeschränkt ggf. durch <hi rend="code">type</hi>)</p>
-                                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rend="drawn" rows="2" cols="2">
+                                <table rend="drawn" rows="2" cols="2">
                                     <row>
                                         <cell>Wert</cell>
                                         <cell>Beschreibung</cell>
@@ -520,7 +534,7 @@
                                         <cell><hi rend="code">viaf</hi></cell>
                                         <cell>Virtual International Authority File</cell>
                                     </row>
-                                </tei:table>
+                                </table>
                             </div>
                         </div>
                     </div>

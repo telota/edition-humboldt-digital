@@ -18,9 +18,9 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt><editionStmt><p>Steven, Christian von: Ac – Flora der Krim und des Kaukasus, hg. v. Ulrich Päßler unter Mitarbeit von Ulrike Leitner. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0006180">https://edition-humboldt.de/v10/H0006180</ref></p></editionStmt>
+            </titleStmt><editionStmt><p>Steven, Christian von: Ac – Flora der Krim und des Kaukasus, hg. v. Ulrich Päßler unter Mitarbeit von Ulrike Leitner. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0006180</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0006180.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <notesStmt>
                 <note type="editorial"><p>Das vermutlich als Antwort auf Fragen Humboldts abgefasste Dokument enthält eine Auflistung der
                         auf der <placeName ref="https://edition-humboldt.de/H0000489 https://www.geonames.org/703862">Krim</placeName> (Taurische Halbinsel) und
@@ -62,10 +62,10 @@
     <text><body>
             <div>
                 <pb n="15r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN826367402/1200/0/00000001.jpg"/>
-                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" rows="104" cols="10">
+                <table rows="104" cols="10">
                     <row>
                         <cell cols="10"><hi rendition="#uu"><name type="plant">Dicotyledoneae</name></hi>
-                            <note place="right" hand="https://edition-humboldt.de/#H0001517"><ref xml:id="ed_cqb_3x1_fy" type="siglum" target="#Geographie_der_Pflanzen_Ac">Ac</ref></note></cell>
+                            <note place="right" hand="https://edition-humboldt.de/H0001517 http://d-nb.info/gnd/115674667"><ref xml:id="ed_cqb_3x1_fy" type="siglum" target="#Geographie_der_Pflanzen_Ac">Ac</ref></note></cell>
                     </row>
                     <row>
                         <cell cols="10">I. Polypetalae.</cell>
@@ -92,10 +92,10 @@
                                 <abbr>Casp.</abbr>
                                 <expan>Caspisches Meer</expan>
                             </choice></cell>
-                        <cell><ref xml:id="a44f0042-02df-441b-8f00-4202df841ba5" corresp="#be4642b9-bb0d-4d02-8642-b9bb0ded02db" type="editorialNote"><choice>
+                        <cell><ref xml:id="a9f1609b-0617-440f-b160-9b0617740fff" corresp="#adbe9c35-ec94-444a-be9c-35ec94e44acc" type="editorialNote"><choice>
                                         <abbr>C</abbr>
                                         <expan>Caucasus</expan>
-                                    </choice></ref><note xml:id="be4642b9-bb0d-4d02-8642-b9bb0ded02db" corresp="#a44f0042-02df-441b-8f00-4202df841ba5" type="editorial">Gemeint ist das kaukasische Vorgebirge.
+                                    </choice></ref><note xml:id="adbe9c35-ec94-444a-be9c-35ec94e44acc" corresp="#a9f1609b-0617-440f-b160-9b0617740fff" type="editorial">Gemeint ist das kaukasische Vorgebirge.
                                     Vgl. Stevens Erläuterung.</note></cell>
                         <cell><choice>
                                 <abbr>C.</abbr>
@@ -1449,7 +1449,7 @@
                         <cell rendition="#right"><supplied cert="high">=</supplied>96</cell>
                     </row>
                     <note hand="#author" place="right"/>
-                </tei:table>
+                </table>
                 <p>Die <placeName ref="https://edition-humboldt.de/H0000489 https://www.geonames.org/703862">Taurische Halbinsel</placeName> beträgt ungefähr
                         <space dim="horizontal" unit="words" quantity="1"/> vom Flächeninhalt
                         <lb/>des

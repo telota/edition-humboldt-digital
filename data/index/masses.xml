@@ -3,8 +3,8 @@
         <fileDesc>
             <titleStmt>
                 <title>Title</title>
-            </titleStmt><editionStmt><p>:   . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/">https://edition-humboldt.de/v10/</ref></p></editionStmt>
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/</idno><idno type="URLXML">https://edition-humboldt.de/v10/.xml</idno></publicationStmt>
+            </titleStmt><editionStmt><p>:   . In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <sourceDesc>
                 <p>Information about the source</p>
             </sourceDesc>
@@ -40,7 +40,7 @@
                     <note>96 Zolotnik</note>
                     <measure type="weight" quantity="0.41" unit="kg"/>
                 </item>
-                <item xml:id="reamur" sortKey="1">
+                <item xml:id="reaumur" sortKey="1">
                     <label>Réaumur</label>
                     <desc xml:lang="de">Temperaturmaß</desc>
                     <desc xml:lang="en">Temperature Scale</desc>
@@ -118,7 +118,7 @@
                 <item xml:id="arschin">
                     <label>Aršin</label>
                     <desc xml:lang="de">Längenmaß (Russland)</desc>
-                    <desc xml:lang="en">Unit of lenght (Russia)</desc>
+                    <desc xml:lang="en">Unit of length (Russia)</desc>
                     <measure type="length" quantity="0.7112" unit="m"/>
                 </item>
                 <item xml:id="barrel">
@@ -310,7 +310,14 @@
                     <label>Fuß</label>
                     <desc xml:lang="de">Längenmaß (Preußen)</desc>
                     <desc xml:lang="en">Linear measure (Prussia)</desc>
-                    <measure type="length" quantity="0.31385" unit="m"/>
+                    <measure type="length" quantity="0.309725" unit="m"/>
+                </item>
+                <item xml:id="rute_preussisch">
+                    <label>Rute</label>
+                    <desc xml:lang="de">Längenmaß (Preußen)</desc>
+                    <desc xml:lang="en">Linear measure (Prussia)</desc>
+                    <note>1 preußische Rute = 12 preußische Fuß</note>
+                    <measure type="length" quantity="3.717" unit="m"/>
                 </item>
                 <item xml:id="fuss_de_burgos">
                     <label>Pié de Burgos</label>
@@ -390,7 +397,7 @@
                     <note>3 Nautical Miles</note>
                     <measure type="length" quantity="5564.9" unit="m"/>
                 </item>
-                <item xml:id="leagua" sortKey="1">
+                <item xml:id="legua" sortKey="1">
                     <label>Legua</label>
                     <desc xml:lang="de">Längenmaß (Spanien)</desc>
                     <desc xml:lang="en">Unit of length (Spain)</desc>
@@ -487,6 +494,12 @@
                     <desc xml:lang="de">Flächenmaß</desc>
                     <desc xml:lang="en">Square measure</desc>
                     <measure type="area" quantity="55.063" unit="km2"/>
+                </item>
+                <item xml:id="quadratwerst">
+                    <label>Geographische Quadratwerst (Versta)</label>
+                    <desc xml:lang="de">Flächenmaß</desc>
+                    <desc xml:lang="en">Square measure</desc>
+                    <measure type="area" quantity="1.138" unit="km2"/>
                 </item>
                 <item xml:id="meile_preussisch">
                     <label>Preußische Meile</label>
@@ -614,7 +627,7 @@
                     <label>Pied</label>
                     <desc xml:lang="de">Längenmaß (Frankreich)</desc>
                     <desc xml:lang="en">Linear measure (France)</desc>
-                    <note xml:lang="de">spanischer Fuss (pie) = 12 pulgadas</note>
+                    <note>spanischer Fuss (pie) = 12 pulgadas</note>
                     <measure type="length" quantity="0.3248" unit="m"/>
                 </item>
                 <item xml:id="pied_carre">
@@ -634,14 +647,14 @@
                 <item xml:id="pole">
                     <label>Pole</label>
                     <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
-                    <desc xml:lang="en">Unit of lenght (Great Britain)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
                     <note>5,5 Yards = 16,5 Feet</note>
                     <measure type="length" quantity="5.029102" unit="m"/>
                 </item>
                 <item xml:id="pouce" sortKey="1">
                     <label>Pouce</label>
                     <desc xml:lang="de">Längenmaß (Frankreich)</desc>
-                    <desc xml:lang="en">Unit of lenght (France)</desc>
+                    <desc xml:lang="en">Unit of length (France)</desc>
                     <note>Zoll</note>
                     <measure type="length" quantity="2.707" unit="cm"/>
                 </item>
@@ -684,7 +697,7 @@
                 <item xml:id="pulgada">
                     <label>Pulgada</label>
                     <desc xml:lang="de">Längenmaß (Spanien)</desc>
-                    <desc xml:lang="en">Unit of lenght (Spain)</desc>
+                    <desc xml:lang="en">Unit of length (Spain)</desc>
                     <note>Zoll, entspricht 12 lineas</note>
                     <measure type="length" quantity="2.3166" unit="cm"/>
                     
@@ -758,7 +771,7 @@
                     <desc xml:lang="de">Längenmaß (Frankreich),
                         Humboldt
                         verwendet auch die griechische Bezeichnung 'hexapus' (6 Fuß)</desc>
-                    <desc xml:lang="en">Unit of lenght (France), Humboldt also uses the greek name 'hexapus' (6
+                    <desc xml:lang="en">Unit of length (France), Humboldt also uses the greek name 'hexapus' (6
                         feet)</desc>
                     <note>Klafter = 6 Pieds</note>
                     <measure type="length" quantity="1.9484" unit="m"/>
@@ -795,6 +808,14 @@
                     <note>entspricht 4 Scheffel bzw. 7 Kubik-Fuß</note>
                     <measure type="capacity" quantity="220" unit="L" ana="#circa"/>
                 </item>
+                <item xml:id="tschetwert">
+                    <label type="reg">Tschetwert</label>
+                    <label type="alt">четверть</label>
+                    <desc xml:lang="de">Volumen- und Getreidemaß (Russland)</desc>
+                    <desc xml:lang="en">Unit of volume (Russia)</desc>
+                    <measure type="capacity" quantity="200" unit="L" ana="#circa"/>
+                    
+                </item>
                 <item xml:id="ounce_avoirdupois">
                     <label>Ounce avoirdupois </label>
                     <desc xml:lang="de">Gewichtsmaß (Großbritannien)</desc>
@@ -822,7 +843,8 @@
                     <label>Dracma</label>
                     <desc xml:lang="de">Gewichtsmaß (Spanien und Lateinamerika)</desc>
                     <desc xml:lang="en">Unit of mass (Spain and Latin America)</desc>
-                    <note>abgeleitet von der griechischen Drachme (griechische Silbermünze der Antike), als Gewichtsmaß genutzt in Apotheken; entspricht dem achten Teil einer Unze</note>
+                    <note>abgeleitet von der griechischen Drachme (griechische Silbermünze der Antike), als Gewichtsmaß
+                        genutzt in Apotheken; entspricht dem achten Teil einer Unze</note>
                     <measure type="weight" quantity="3.594" unit="g"/>
                 </item>
                 <item xml:id="vara_spanisch">
@@ -841,7 +863,7 @@
                 <item xml:id="versok">
                     <label>Veršok</label>
                     <desc xml:lang="de">Längenmaß (Russland)</desc>
-                    <desc xml:lang="en">Unit of lenght (Russia)</desc>
+                    <desc xml:lang="en">Unit of length (Russia)</desc>
                     <note xml:lang="de">Deutsch: Werschok</note>
                     <note xml:lang="en">German: Werschok</note>
                     <measure type="length" quantity="4.445" unit="cm"/>
@@ -850,7 +872,7 @@
                 <item xml:id="versta" sortKey="1">
                     <label>Versta</label>
                     <desc xml:lang="de">Längenmaß (Russland)</desc>
-                    <desc xml:lang="en">Unit of lenght (Russia)</desc>
+                    <desc xml:lang="en">Unit of length (Russia)</desc>
                     <note>Deutsch: Werst, 1 Versta = 500 Sažen? </note>
                     <measure type="length" quantity="1066.8" unit="m"/>
                 </item>
@@ -865,7 +887,7 @@
                 <item xml:id="yard">
                     <label>Yard</label>
                     <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
-                    <desc xml:lang="en">Unit of lenght (Great Britain)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
                     <note>3 Feet</note>
                     <measure type="length" quantity="0.9144" unit="m"/>
                 </item>
@@ -884,7 +906,7 @@
                 <item xml:id="zoll_preussisch">
                     <label>Preußisches Zoll</label>
                     <desc xml:lang="de">Längenmaß (Preußen)</desc>
-                    <desc xml:lang="en">Unit of lenght (Prussia)</desc>
+                    <desc xml:lang="en">Unit of length (Prussia)</desc>
                     <note>1/12 Fuß</note>
                     <measure type="length" quantity="2.6154" unit="cm"/>
                     
@@ -892,10 +914,19 @@
                 <item xml:id="zoll_englisch">
                     <label>Englisches Zoll (inch)</label>
                     <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
-                    <desc xml:lang="en">Unit of lenght (Great Britain)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
                     <measure type="length" quantity="2.54" unit="cm"/>
 
                 </item>
+                <item xml:id="linie_englisch">
+                    <label>Englische Linie (line)</label>
+                    <desc xml:lang="de">Längenmaß (Großbritannien)</desc>
+                    <desc xml:lang="en">Unit of length (Great Britain)</desc>
+                    <note>1/12 inch</note>
+                    <measure type="length" quantity="0.21" unit="cm"/>
+                    
+                </item>
+
                 <item xml:id="zolotnik" sortKey="1">
                     <label>Zolotnik</label>
                     <desc xml:lang="de">Gewichtsmaß (Russland)</desc>

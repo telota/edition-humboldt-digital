@@ -36,9 +36,9 @@
                         <note type="remarkResponsibility">Redaktionelle Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt><editionStmt><p>Kunth, Carl Sigismund: Ideensammlung für die Neuausgabe der Geographie der Pflanzen, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0000005">https://edition-humboldt.de/v10/H0000005</ref></p></editionStmt>
+            </titleStmt><editionStmt><p>Kunth, Carl Sigismund: Ideensammlung für die Neuausgabe der Geographie der Pflanzen, hg. v. Ulrich Päßler unter Mitarbeit von Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0000005</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0000005.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -46,78 +46,109 @@
                             Kulturbesitz</institution>
                         <repository>Handschriftenabteilung</repository>
                         <collection>Nachl. Alexander von Humboldt</collection>
-                        <idno><idno type="shelfmark">gr. Kasten 6, Nr. 53, Bl. 1–15</idno><idno type="uri">http://kalliope-verbund.info/DE-611-HS-1036562</idno><idno type="URN">http://resolver.staatsbibliothek-berlin.de/SBB00019F0000000000</idno></idno>
+                        <idno>
+                            <idno type="shelfmark">gr. Kasten 6, Nr. 53, Bl. 1–15</idno>
+                            <idno type="uri">http://kalliope-verbund.info/DE-611-HS-1036562</idno>
+                            <idno type="URN">http://resolver.staatsbibliothek-berlin.de/SBB00019F0000000000</idno>
+                        </idno>
                     </msIdentifier>
                 </msDesc>
                 <listWit>
-                    <witness><bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 248–253.</witness></listWit>
+                    <witness>
+                        <bibl type="print" n="1" corresp="https://edition-humboldt.de/JXPPLBG5">Humboldt 2020</bibl>, 248–253.</witness>
+                </listWit>
             </sourceDesc>
         </fileDesc>
         <profileDesc><textClass><keywords><term>document</term></keywords></textClass>
             <creation>
                 <persName ref="https://edition-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850)</persName>
-                <date cert="high">um 1825</date>
                 <placeName>Paris</placeName>
-                <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high"/>
+                <date notBefore="1825-01-01" notAfter="1825-12-31" cert="high">um 1825</date>
             </creation>
         </profileDesc>
     </teiHeader>
     <text><body>
-            <p><pb n="1r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000005.jpg"/><choice>
+            <p>
+                <pb n="1r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000005.jpg"/>
+                <choice>
                         <abbr>No.</abbr>
                         <expan>Numero</expan>
-                    </choice> 1. <ref xml:id="e75d89da-12ac-4e49-9d89-da12ac5e49f3" corresp="#de0568c5-503d-405b-8568-c5503d405b3c" type="editorialNote">Definition der Pflanzengeographie</ref><note xml:id="de0568c5-503d-405b-8568-c5503d405b3c" corresp="#e75d89da-12ac-4e49-9d89-da12ac5e49f3" type="editorial">Die Seitenangaben der folgenden Nummern 1–4 sind,
-                        wenn nicht anders angegeben, Exzerpte aus <bibl corresp="https://edition-humboldt.de/RWBUDNCR">Schouw 1823</bibl>.</note><note hand="https://edition-humboldt.de/#H0012069" place="mTop">Untergegangen Lyktonia (<ref xml:id="f0142ef2-5ae7-4a91-942e-f25ae7aa91bf" corresp="#a26ebc7b-9447-47ec-aebc-7b944757ecbd" type="editorialNote"><persName ref="https://edition-humboldt.de/H0002251 http://d-nb.info/gnd/117280607">Ukert</persName> II <choice>
+                    </choice> 1. <ref xml:id="c8d3287f-a67a-496c-9328-7fa67a996ce6" corresp="#c0a5edf5-c535-4037-a5ed-f5c535103764" type="editorialNote">Definition der Pflanzengeographie</ref><note xml:id="c0a5edf5-c535-4037-a5ed-f5c535103764" corresp="#c8d3287f-a67a-496c-9328-7fa67a996ce6" type="editorial">Die Seitenangaben der folgenden Nummern 1–4 sind,
+                        wenn nicht anders angegeben, Exzerpte aus <bibl corresp="https://edition-humboldt.de/RWBUDNCR">Schouw 1823</bibl>.</note>
+                <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="mTop">Untergegangen Lyktonia (<ref xml:id="f453bf96-e093-48f4-93bf-96e09388f43c" corresp="#ed5ca4d9-a693-40c4-9ca4-d9a693d0c4fd" type="editorialNote">
+                            <persName ref="https://edition-humboldt.de/H0002251 http://d-nb.info/gnd/117280607">Ukert</persName> II <choice>
                                 <abbr>p</abbr>
                                 <expan>pagina</expan>
-                            </choice> 194</ref><note xml:id="a26ebc7b-9447-47ec-aebc-7b944757ecbd" corresp="#f0142ef2-5ae7-4a91-942e-f25ae7aa91bf" type="editorial"><bibl corresp="https://edition-humboldt.de/P34E4JWW">Ukert
+                            </choice> 194</ref><note xml:id="ed5ca4d9-a693-40c4-9ca4-d9a693d0c4fd" corresp="#f453bf96-e093-48f4-93bf-96e09388f43c" type="editorial">
+                            <bibl corresp="https://edition-humboldt.de/P34E4JWW">Ukert
                                 1816–1846</bibl>. Humboldt bezieht sich auf die antike Sage eines
                             großen Festlandes im Mittelmeer, das durch den <quote>goldenen
                                 Dreizack</quote> des Poseidon in viele kleine Inseln geteilt worden
                             sei (vgl. <bibl corresp="https://edition-humboldt.de/I87MJXIR">Humboldt
-                                1845–1862</bibl>, II, 153).</note>.<supplied cert="high">)</supplied></note></p>
-            <p><choice>
+                                1845–1862</bibl>, II, 153).</note>.<supplied cert="high">)</supplied>
+                </note>
+            </p>
+            <p>
+                <choice>
                     <orig>wie</orig>
                     <reg>Wie</reg>
                 </choice> in allen <subst>
                     <del rendition="#s">Pf</del>
                     <add place="intralinear">Sprachen</add>
                 </subst> plantae alpinae <lb/>montanae. etc. Von den Cruciferen am frühesten
-                    <lb/>erkannt.<note hand="https://edition-humboldt.de/#H0012069" place="right">Daß <subst>
+                    <lb/>erkannt.<note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="right">Daß <subst>
                         <del rendition="#s">Pfl</del>
                         <add place="intralinear">Bäume</add>
                     </subst>
-                    <lb/><hi rendition="#u">im</hi> indischen Meere <lb/><ref xml:id="a37e5384-8e86-4aca-be53-848e867aca77" corresp="#e6132419-6ef5-4353-9324-196ef58353be" type="editorialNote"><persName ref="https://edition-humboldt.de/H0002251 http://d-nb.info/gnd/117280607">Ukert</persName> II <choice>
+                    <lb/>
+                    <hi rendition="#u">im</hi> indischen Meere <lb/>
+                    <ref xml:id="c623e469-0b52-4c46-a3e4-690b52fc4615" corresp="#c47734fe-70bc-49c4-b734-fe70bc19c46d" type="editorialNote">
+                            <persName ref="https://edition-humboldt.de/H0002251 http://d-nb.info/gnd/117280607">Ukert</persName> II <choice>
                                 <abbr>p</abbr>
                                 <expan>pagina</expan>
-                            </choice> 166</ref><note xml:id="e6132419-6ef5-4353-9324-196ef58353be" corresp="#a37e5384-8e86-4aca-be53-848e867aca77" type="editorial"><bibl corresp="https://edition-humboldt.de/P34E4JWW">Ukert
-                                1816–1846 </bibl>.</note><supplied cert="high">.</supplied></note><note hand="https://edition-humboldt.de/#H0012069" place="right">
-                    <lb/><bibl corresp="https://edition-humboldt.de/HFN2QW8P">neige rouge <lb/><persName ref="https://edition-humboldt.de/H0013883 http://d-nb.info/gnd/11754096X">Maltebrun</persName>
+                            </choice> 166</ref><note xml:id="c47734fe-70bc-49c4-b734-fe70bc19c46d" corresp="#c623e469-0b52-4c46-a3e4-690b52fc4615" type="editorial">
+                            <bibl corresp="https://edition-humboldt.de/P34E4JWW">Ukert
+                                1816–1846 </bibl>.</note>
+                    <supplied cert="high">.</supplied>
+                </note>
+                <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="right">
+                    
+                    <lb/>
+                    <bibl corresp="https://edition-humboldt.de/HFN2QW8P">neige rouge <lb/>
+                        <persName ref="https://edition-humboldt.de/H0013883 http://d-nb.info/gnd/11754096X">Maltebrun</persName>
                         <choice>
-                            <abbr>An<lb/></abbr>
+                            <abbr>An<lb/>
+                            </abbr>
                             <expan>Annales</expan>
-                        </choice> 1826 mai <lb/><choice>
+                        </choice> 1826 mai <lb/>
+                        <choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 228</bibl><supplied cert="high">.</supplied></note>
+                        </choice> 228</bibl>
+                    <supplied cert="high">.</supplied>
+                </note>
                 <lb/>Gewöhnlich auf physische Momente <lb/>hindeutend. <choice>
                     <abbr>pag.</abbr>
                     <expan>pagina</expan>
-                </choice> 137. a. b. <persName ref="https://edition-humboldt.de/H0014144 http://d-nb.info/gnd/116885890"><lb/>Menzel</persName>
+                </choice> 137. a. b. <persName ref="https://edition-humboldt.de/H0014144 http://d-nb.info/gnd/116885890">
+                    <lb/>Menzel</persName>
                 <choice>
                     <abbr>pag.</abbr>
                     <expan>pagina</expan>
                 </choice>
-                <ref xml:id="ab1f38f7-e23b-4b85-9f38-f7e23bfb8597" corresp="#befdafb7-08ab-4aef-bdaf-b708ab8aef01" type="editorialNote">8.</ref><note xml:id="befdafb7-08ab-4aef-bdaf-b708ab8aef01" corresp="#ab1f38f7-e23b-4b85-9f38-f7e23bfb8597" type="editorial">Schouw spricht über das Alter des Begriffes
+                <ref xml:id="f8d49490-26aa-4492-9494-9026aa849218" corresp="#f101f3fa-24a5-4512-81f3-fa24a59512e7" type="editorialNote">8.</ref><note xml:id="f101f3fa-24a5-4512-81f3-fa24a59512e7" corresp="#f8d49490-26aa-4492-9494-9026aa849218" type="editorial">Schouw spricht über das Alter des Begriffes
                         Pflanzengeographie, den bereits <persName ref="https://edition-humboldt.de/H0011611 http://d-nb.info/gnd/118545140">Albrecht von
                             Haller</persName> auf <persName ref="https://edition-humboldt.de/H0014144 http://d-nb.info/gnd/116885890">Christian
                             Mentzel</persName> zurückgeführt habe. Vgl. <bibl corresp="https://edition-humboldt.de/RWBUDNCR">Schouw 1823</bibl>, 8 sowie <bibl corresp="https://edition-humboldt.de/N9FGTK4J">Haller 1771–1772</bibl>, I, 479
                             <quote>Lego etiam scripsisse geographiam botanicam s. orbem terrarum in
-                            climata divisum pro plantis.</quote></note> vide <bibl corresp="https://edition-humboldt.de/N9FGTK4J"><persName ref="https://edition-humboldt.de/H0011611 http://d-nb.info/gnd/118545140">Haller</persName> Bibliotheca <choice>
+                            climata divisum pro plantis.</quote>
+                    </note> vide <bibl corresp="https://edition-humboldt.de/N9FGTK4J">
+                    <persName ref="https://edition-humboldt.de/H0011611 http://d-nb.info/gnd/118545140">Haller</persName> Bibliotheca <choice>
                         <abbr>bot.</abbr>
                         <expan>botanica</expan>
                     </choice>
-                    <lb/><choice>
+                    <lb/>
+                    <choice>
                         <abbr>tom.</abbr>
                         <expan>tomus</expan>
                     </choice> 1. <choice>
@@ -128,10 +159,12 @@
                     <del rendition="#s">Namen</del>
                     <add place="intralinear">Namen</add>
                 </subst>
-                <lb/><ref xml:id="abe4b3be-cf78-42fb-a4b3-becf78d2fba5" corresp="#aa56ab0e-863c-4c18-96ab-0e863cbc18b9" type="editorialNote"><choice>
+                <lb/>
+                <ref xml:id="a6e0605b-d343-4b99-a060-5bd3432b99d8" corresp="#db5e82bf-a420-4205-9e82-bfa42012057b" type="editorialNote">
+                        <choice>
                             <abbr>p.</abbr>
                             <expan>pagina</expan>
-                        </choice> 8.</ref><note xml:id="aa56ab0e-863c-4c18-96ab-0e863cbc18b9" corresp="#abe4b3be-cf78-42fb-a4b3-becf78d2fba5" type="editorial">Schouw schreibt: <quote>Es scheint das Wort
+                        </choice> 8.</ref><note xml:id="db5e82bf-a420-4205-9e82-bfa42012057b" corresp="#a6e0605b-d343-4b99-a060-5bd3432b99d8" type="editorial">Schouw schreibt: <quote>Es scheint das Wort
                             ‚Pflanzengeographie‘ bei dem ersten Anblick die Erde als Gegenstand der
                             Wissenschaft anzudeuten, und die Benennung einen Widerspruch zu
                             enthalten. Wenn man aber bedenkt, daß diese Wissenschaft das Verhältniß
@@ -140,29 +173,42 @@
                             Object die Vegetation als Beschaffenheit; bald aber so, daß die Pflanzen
                             als Object und die Verhältnisse zur Erdoberfläche als Beschaffenheiten
                             erscheinen; so ist der Widerspruch nur scheinbar.</quote>
-                        <bibl corresp="https://edition-humboldt.de/RWBUDNCR">Schouw 1823</bibl>, 8. </note></p>
-            <p>Statistik der Pflanzen bezieht sich <lb/>recht eigentlich auf die <hi rendition="#u">Zahlen<g ref="#typoHyphen"/><lb break="no"/>verhältnisse</hi>
+                        <bibl corresp="https://edition-humboldt.de/RWBUDNCR">Schouw 1823</bibl>, 8. </note>
+            </p>
+            <p>Statistik der Pflanzen bezieht sich <lb/>recht eigentlich auf die <hi rendition="#u">Zahlen<g ref="#typoHyphen"/>
+                    <lb break="no"/>verhältnisse</hi>
                 <choice>
                     <abbr>pag.</abbr>
                     <expan>pagina</expan>
-                </choice> 9. d.<note hand="https://edition-humboldt.de/#H0012069" place="right"><pb n="1r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000007.jpg"/>Gräser <choice>
+                </choice> 9. d.<note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="right">
+                    <pb n="1r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000007.jpg"/>Gräser <choice>
                         <sic>γράσισ</sic>
                         <corr cert="high">γράσσις</corr>
                     </choice>
                     <lb/>
-                    <ref xml:id="dfe3a98f-3855-40ab-a3a9-8f385550ab49" corresp="#be0d711d-46cd-475f-8d71-1d46cdb75f71" type="editorialNote"><persName ref="https://edition-humboldt.de/H0017917 https://d-nb.info/gnd/120173891">Lennep</persName> Voyez <lb/><unclear reason="illegible" cert="high">nat</unclear> lat. n <hi rendition="#uu">19</hi><hi rendition="#sup">b</hi></ref><note xml:id="be0d711d-46cd-475f-8d71-1d46cdb75f71" corresp="#dfe3a98f-3855-40ab-a3a9-8f385550ab49" type="editorial">Dieses Werk konnte nicht ermittelt
+                    <ref xml:id="c288d83a-6c14-4294-88d8-3a6c14429470" corresp="#c9934e96-e134-4ab2-934e-96e1342ab249" type="editorialNote">
+                            <persName ref="https://edition-humboldt.de/H0017917 https://d-nb.info/gnd/120173891">Lennep</persName> Voyez <lb/>
+                            <unclear reason="illegible" cert="high">nat</unclear> lat. n <hi rendition="#uu">19</hi>
+                            <hi rendition="#sup">b</hi>
+                        </ref><note xml:id="c9934e96-e134-4ab2-934e-96e1342ab249" corresp="#c288d83a-6c14-4294-88d8-3a6c14429470" type="editorial">Dieses Werk konnte nicht ermittelt
                             werden.</note>
-                    <lb/>plateau <p><ref xml:id="ff830958-5872-479d-8309-585872779dc8" corresp="#caba0d91-2749-49c0-ba0d-91274949c069" type="editorialNote">ὁροπέδιον</ref><note xml:id="caba0d91-2749-49c0-ba0d-91274949c069" corresp="#ff830958-5872-479d-8309-585872779dc8" type="editorial">Griechisch: Hochebene.</note>
-                        <ref xml:id="c75ca91a-452b-44f2-9ca9-1a452be4f221" corresp="#cf4bff3f-fdff-411a-8bff-3ffdff511a6b" type="editorialNote"><lb/>
-                                <persName ref="https://edition-humboldt.de/H0016115 http://d-nb.info/gnd/118618806"><choice>
+                    <lb/>plateau <p>
+                        <ref xml:id="db353bc8-415b-4ec0-b53b-c8415bfec06b" corresp="#b0ff568c-83fd-4dd3-bf56-8c83fdedd38e" type="editorialNote">ὁροπέδιον</ref><note xml:id="b0ff568c-83fd-4dd3-bf56-8c83fdedd38e" corresp="#db353bc8-415b-4ec0-b53b-c8415bfec06b" type="editorial">Griechisch: Hochebene.</note>
+                        <ref xml:id="efbbc331-83e9-4c93-bbc3-3183e90c9380" corresp="#c5b941e5-8dce-4bab-b941-e58dce0bab43" type="editorialNote">
+                                <lb/>
+                                <persName ref="https://edition-humboldt.de/H0016115 http://d-nb.info/gnd/118618806">
+                                    <choice>
                                         <abbr>Strab</abbr>
                                         <expan>Strabon</expan>
-                                    </choice></persName> II <choice>
+                                    </choice>
+                                </persName> II <choice>
                                     <abbr>p</abbr>
                                     <expan>pagina</expan>
-                                </choice> 1004</ref><note xml:id="cf4bff3f-fdff-411a-8bff-3ffdff511a6b" corresp="#c75ca91a-452b-44f2-9ca9-1a452be4f221" type="editorial"><bibl corresp="https://edition-humboldt.de/FVK8TB8Y">Strabo
+                                </choice> 1004</ref><note xml:id="c5b941e5-8dce-4bab-b941-e58dce0bab43" corresp="#efbbc331-83e9-4c93-bbc3-3183e90c9380" type="editorial">
+                                <bibl corresp="https://edition-humboldt.de/FVK8TB8Y">Strabo
                                     1807</bibl>. Vgl. <bibl corresp="https://edition-humboldt.de/6A9ZSS73">Humboldt/Bonpland/Kunth 1815–1825</bibl>, I, XI. </note>
-                        <lb/>(<ref xml:id="dd9f2fd6-fa28-4ac7-9f2f-d6fa28bac7c1" corresp="#ae9577fa-2a88-4016-9577-fa2a88c01660" type="editorialNote"><choice>
+                        <lb/>(<ref xml:id="a04489c2-17f8-439e-8489-c217f8b39ed3" corresp="#a2b1961a-18f9-45a4-b196-1a18f965a46a" type="editorialNote">
+                                <choice>
                                     <abbr>l.</abbr>
                                     <expan>loco</expan>
                                 </choice>
@@ -171,24 +217,31 @@
                                     <expan>citato</expan>
                                 </choice> I <subst>
                                     <del rendition="#s">p</del>
-                                    <add place="intralinear"><choice>
+                                    <add place="intralinear">
+                                        <choice>
                                             <abbr>n</abbr>
                                             <expan>numero</expan>
-                                        </choice></add>
-                                </subst> 17</ref><note xml:id="ae9577fa-2a88-4016-9577-fa2a88c01660" corresp="#dd9f2fd6-fa28-4ac7-9f2f-d6fa28bac7c1" type="editorial">Dieses Werk konnte nicht ermittelt
-                                werden.</note>.)</p></note>
+                                        </choice>
+                                    </add>
+                                </subst> 17</ref><note xml:id="a2b1961a-18f9-45a4-b196-1a18f965a46a" corresp="#a04489c2-17f8-439e-8489-c217f8b39ed3" type="editorial">Dieses Werk konnte nicht ermittelt
+                                werden.</note>.)</p>
+                </note>
             </p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 2. Unterschied von Statio und habitatio,<note hand="https://edition-humboldt.de/#H0012069" place="right"><choice>
+                </choice> 2. Unterschied von Statio und habitatio,<note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="right">
+                    <choice>
                         <abbr>Géogr</abbr>
                         <expan>Géographie</expan>
                     </choice> des <choice>
                         <abbr>pl</abbr>
                         <expan>plantes</expan>
                     </choice>
-                    <lb/><bibl corresp="https://edition-humboldt.de/F7ATBR8M"><persName ref="https://edition-humboldt.de/H0000726 http://d-nb.info/gnd/118787802">Ramond</persName>
+                    <lb/>
+                    <bibl corresp="https://edition-humboldt.de/F7ATBR8M">
+                        <persName ref="https://edition-humboldt.de/H0000726 http://d-nb.info/gnd/118787802">Ramond</persName>
                         <choice>
                             <abbr>Pyr</abbr>
                             <expan>Pyrénées</expan>
@@ -197,14 +250,17 @@
                             <abbr>p</abbr>
                             <expan>pagina</expan>
                         </choice> 331</bibl>.</note>
-                <lb/><persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921"><choice>
+                <lb/>
+                <persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">
+                    <choice>
                         <abbr>Decand.</abbr>
                         <expan>Decandolle</expan>
-                    </choice></persName> Sprachwidrig. <choice>
+                    </choice>
+                </persName> Sprachwidrig. <choice>
                     <abbr>p.</abbr>
                     <expan>page</expan>
                 </choice>
-                <ref xml:id="c1561f78-ee85-4e08-961f-78ee857e0863" corresp="#eabaab51-85f8-456a-baab-5185f8e56a33" type="editorialNote">137. b. <lb/>139. 142.</ref><note xml:id="eabaab51-85f8-456a-baab-5185f8e56a33" corresp="#c1561f78-ee85-4e08-961f-78ee857e0863" type="editorial">Schouw kritisiert hier die seiner Meinung nach
+                <ref xml:id="bba56d38-89d2-4468-a56d-3889d25468f6" corresp="#c04f0fc5-135b-4fc4-8f0f-c5135b3fc484" type="editorialNote">137. b. <lb/>139. 142.</ref><note xml:id="c04f0fc5-135b-4fc4-8f0f-c5135b3fc484" corresp="#bba56d38-89d2-4468-a56d-3889d25468f6" type="editorial">Schouw kritisiert hier die seiner Meinung nach
                         widersinnigen Verwendungen der Begriffe <hi rendition="#i">statio</hi>, <hi rendition="#i">habitatio</hi> und <hi rendition="#i">patria</hi> durch
                         verschiedene Autoren. Er referiert unter anderem über <bibl corresp="https://edition-humboldt.de/4QVCVD9V">Candolle 1819</bibl>, § 390 und <bibl corresp="https://edition-humboldt.de/4TBQQPZ8">Candolle 1821</bibl>, 383–384 (vgl.
                             <bibl corresp="https://edition-humboldt.de/RWBUDNCR">Schouw 1823</bibl>,
@@ -218,45 +274,59 @@
                     <abbr>p.</abbr>
                     <expan>page</expan>
                 </choice> 138.)</p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 3. Physische Momente, Einwirkung <lb/>des Lichts, der Wärme gehören
                 <lb/>zu den Hülfswissenschaften <choice>
-                    <abbr><lb/>pag.</abbr>
+                    <abbr>
+                        <lb/>pag.</abbr>
                     <expan>pagina</expan>
                 </choice> 4. können leicht auf <lb/>die falsche Idee führen, daß unter
                 <lb/>denselben Verhältnissen überall <lb/>dieselben Spezies sich entwickeln
                 <lb/>sollten (<name type="plant">Befaria</name>, <name type="plant">Cinchona</name>) <choice>
                     <abbr>pag.</abbr>
                     <expan>pagina</expan>
-                </choice> 138. (Genesis.) <note hand="#author" place="left"><choice>
+                </choice> 138. (Genesis.) <note hand="#author" place="left">
+                    <choice>
                         <abbr>Natürl.</abbr>
                         <expan>Natürliche</expan>
-                    </choice> und <lb/><choice>
+                    </choice> und <lb/>
+                    <choice>
                         <abbr>künstl.</abbr>
                         <expan>künstliche</expan>
-                    </choice> Ver<g ref="#typoHyphen"/><lb break="no"/>breitung <lb/><choice>
+                    </choice> Ver<g ref="#typoHyphen"/>
+                    <lb break="no"/>breitung <lb/>
+                    <choice>
                         <abbr>p.</abbr>
                         <expan>pagina</expan>
-                    </choice> 143.</note></p>
-            <note hand="https://edition-humboldt.de/#H0012069" place="left" rend="sticked">
-                <p><pb n="9r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000004.jpg"/>
+                    </choice> 143.</note>
+            </p>
+            <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="left" rend="sticked">
+                <p>
+                    <pb n="9r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000004.jpg"/>
                     <hi rendition="#u">Fougères <choice>
                             <abbr>arbor</abbr>
                             <expan>arborescentes</expan>
-                        </choice></hi>
-                    <lb/>au <placeName ref="https://edition-humboldt.de/H0002555 https://www.geonames.org/10941926">pôle</placeName></p>
-                <p><ref xml:id="fbbac1c2-0470-4138-bac1-c20470f138fb" corresp="#fd4f7ef8-e6fa-48ba-8f7e-f8e6fab8ba85" type="editorialNote">Nouvelles Annales <lb/>de Voyages <lb/>1826 <choice>
+                        </choice>
+                    </hi>
+                    <lb/>au <placeName ref="https://edition-humboldt.de/H0002555 https://www.geonames.org/10941926">pôle</placeName>
+                </p>
+                <p>
+                    <ref xml:id="c9bbd320-84a8-4c82-bbd3-2084a8dc82e6" corresp="#b74f48bd-f0cc-49be-8f48-bdf0ccc9be2a" type="editorialNote">Nouvelles Annales <lb/>de Voyages <lb/>1826 <choice>
                                 <abbr>Cah.</abbr>
                                 <expan>Cahier</expan>
                             </choice>
-                            <lb/>Août</ref><note xml:id="fd4f7ef8-e6fa-48ba-8f7e-f8e6fab8ba85" corresp="#fbbac1c2-0470-4138-bac1-c20470f138fb" type="editorial"><bibl corresp="https://edition-humboldt.de/E4W5S4SD">Parry
-                                1826</bibl>.</note><supplied cert="high">,</supplied>
+                            <lb/>Août</ref><note xml:id="b74f48bd-f0cc-49be-8f48-bdf0ccc9be2a" corresp="#c9bbd320-84a8-4c82-bbd3-2084a8dc82e6" type="editorial">
+                            <bibl corresp="https://edition-humboldt.de/E4W5S4SD">Parry
+                                1826</bibl>.</note>
+                    <supplied cert="high">,</supplied>
                     <lb/>fougères <choice>
                         <abbr>arboresc</abbr>
                         <expan>arborescentes</expan>
-                    </choice> et <lb/><choice>
+                    </choice> et <lb/>
+                    <choice>
                         <sic>grand</sic>
                         <corr cert="high">grands</corr>
                     </choice> arbres <choice>
@@ -264,14 +334,22 @@
                         <expan>dicotylédones</expan>
                     </choice>
                     <lb/>à <placeName ref="https://edition-humboldt.de/H0008808 https://www.geonames.org/6071989">Melville</placeName>
-                    <lb/><placeName ref="https://edition-humboldt.de/H0005065 https://www.geonames.org/5889291">Baffin</placeName> (<hi rendition="#u"><persName ref="https://edition-humboldt.de/H0001796 http://d-nb.info/gnd/116048166">Parry</persName></hi>)<supplied cert="high">.</supplied></p>
+                    <lb/>
+                    <placeName ref="https://edition-humboldt.de/H0005065 https://www.geonames.org/5889291">Baffin</placeName> (<hi rendition="#u">
+                        <persName ref="https://edition-humboldt.de/H0001796 http://d-nb.info/gnd/116048166">Parry</persName>
+                    </hi>)<supplied cert="high">.</supplied>
+                </p>
                 <pb n="9v"/>
                     <gap unit="pages" quantity="1" reason="empty"/>
             </note>
-            <note hand="https://edition-humboldt.de/#H0012069" place="left" rend="sticked"><p><pb n="10r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000001.jpg"/>
-                    <bibl corresp="https://edition-humboldt.de/G9UEKEFI"><subst>
+            <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="left" rend="sticked">
+                <p>
+                    <pb n="10r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000001.jpg"/>
+                    <bibl corresp="https://edition-humboldt.de/G9UEKEFI">
+                        <subst>
                             <del rendition="#s">Géogr.</del>
-                            <add place="left"><persName ref="https://edition-humboldt.de/H0012248">Desmoulins</persName>
+                            <add place="left">
+                                <persName ref="https://edition-humboldt.de/H0012248">Desmoulins</persName>
                             </add>
                         </subst>
                         <choice>
@@ -306,12 +384,15 @@
                         </choice> 1822 <choice>
                             <abbr>févr.</abbr>
                             <expan>février</expan>
-                        </choice><lb/>
+                        </choice>
+                        <lb/>
                     </bibl>admet <lb/>comme moi et <persName ref="https://edition-humboldt.de/H0000726 http://d-nb.info/gnd/118787802">Ramond</persName>
-                    plusieurs <lb/><subst>
+                    plusieurs <lb/>
+                    <subst>
                         <del rendition="#s">z</del>
                         <add place="across">centres</add>
-                    </subst> de création<supplied cert="high">,</supplied> mais que les <lb/><choice>
+                    </subst> de création<supplied cert="high">,</supplied> mais que les <lb/>
+                    <choice>
                         <abbr>esp.</abbr>
                         <expan>espèces</expan>
                     </choice> animales n’habitent jamais <lb/>toute la circonférence d’<lb break="no"/>une zone isotherme<supplied cert="high">,</supplied> mais
@@ -324,22 +405,32 @@
                         <corr cert="high">parce que</corr>
                     </choice> si non les <lb/>mêmes espèces auroient pu <lb/>se répandre dans une
                     même <lb/>zone isotherme, les continens <lb/>vers le nord se sont tenus <lb/>et
-                    se tiennent presque <lb/>encore. </p><p><add place="superlinear">que les
+                    se tiennent presque <lb/>encore. </p>
+                <p>
+                    <add place="superlinear">que les
                         rapports des</add> températures seules ne décident <lb/>pas, mais <subst>
                         <del rendition="#ow">les</del>
                         <add place="intralinear">des</add>
-                    </subst> causes complexes.</p><p>tournez</p><p><pb n="10v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000006.jpg"/>
+                    </subst> causes complexes.</p>
+                <p>tournez</p>
+                <p>
+                    <pb n="10v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000006.jpg"/>
                     <persName ref="https://edition-humboldt.de/H0003511 http://d-nb.info/gnd/100050395">Bory de <choice>
                             <abbr>St</abbr>
                             <expan>Saint</expan>
-                        </choice><supplied cert="high">-</supplied>Vincent</persName></p><choice>
+                        </choice>
+                        <supplied cert="high">-</supplied>Vincent</persName>
+                </p>
+                <choice>
                     <orig>famille</orig>
                     <reg>Famille</reg>
                 </choice> intermédiaire entre <choice>
                     <abbr>an</abbr>
                     <expan>animaux</expan>
                 </choice> et <lb/>plantes Arthrodiées (fragillaires<supplied cert="high">,</supplied>
-                <lb/>oscillariées <note place="mBottom"><metamark/><choice>
+                <lb/>oscillariées <note place="mBottom">
+                    <metamark/>
+                    <choice>
                         <abbr>Conf.</abbr>
                         <expan>Conferva</expan>
                     </choice>
@@ -347,12 +438,16 @@
                         <abbr>fontin</abbr>
                         <expan>fontinalis</expan>
                     </choice>
-                    <persName ref="https://edition-humboldt.de/H0004551 http://d-nb.info/gnd/118573349"><choice>
+                    <persName ref="https://edition-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">
+                        <choice>
                             <abbr>L.</abbr>
                             <expan>Linné</expan>
-                        </choice></persName>
-                    <lb/>Tremetta <bibl corresp="https://edition-humboldt.de/ZTEI4PX3"><persName ref="https://edition-humboldt.de/H0012506 http://d-nb.info/gnd/116244186">Adanson</persName>
-                        <lb/><choice>
+                        </choice>
+                    </persName>
+                    <lb/>Tremetta <bibl corresp="https://edition-humboldt.de/ZTEI4PX3">
+                        <persName ref="https://edition-humboldt.de/H0012506 http://d-nb.info/gnd/116244186">Adanson</persName>
+                        <lb/>
+                        <choice>
                             <abbr>Mém.</abbr>
                             <expan>Mémoires</expan>
                         </choice> de <choice>
@@ -363,20 +458,27 @@
                             <abbr>p.</abbr>
                             <expan>page</expan>
                         </choice> 564</bibl>.</note>, Conjugées et <lb/>Zoocarpées)<supplied cert="high">.</supplied>
-                <bibl corresp="https://edition-humboldt.de/4UFH3INC"><choice>
+                <bibl corresp="https://edition-humboldt.de/4UFH3INC">
+                    <choice>
                         <abbr>Soc.</abbr>
                         <expan>Société</expan>
                     </choice>
                     <choice>
                         <abbr>phil.</abbr>
                         <expan>philomatique</expan>
-                    </choice> 1822 <lb/><choice>
+                    </choice> 1822 <lb/>
+                    <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
-                    </choice> 110</bibl><supplied cert="high">.</supplied></note>
+                    </choice> 110</bibl>
+                <supplied cert="high">.</supplied>
+            </note>
             <p>
-                <note hand="https://edition-humboldt.de/#H0012069" place="right" rend="sticked">
-                    <p><pb n="11r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000003.jpg"/><bibl corresp="https://edition-humboldt.de/9398CTMR"><choice>
+                <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="right" rend="sticked">
+                    <p>
+                        <pb n="11r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000003.jpg"/>
+                        <bibl corresp="https://edition-humboldt.de/9398CTMR">
+                            <choice>
                                 <orig>naturalisation</orig>
                                 <reg>Naturalisation</reg>
                             </choice> des Plantes <lb/>à <placeName ref="https://edition-humboldt.de/H0011133 https://www.geonames.org/3042363">Guernsey</placeName>
@@ -385,31 +487,38 @@
                             <choice>
                                 <abbr>Journ</abbr>
                                 <expan>Journal</expan>
-                            </choice> of <supplied cert="high">the</supplied> Royal <lb/><choice>
+                            </choice> of <supplied cert="high">the</supplied> Royal <lb/>
+                            <choice>
                                 <abbr>Instit</abbr>
                                 <expan>Institution</expan>
                             </choice>
-                            <add place="superlinear"><choice>
+                            <add place="superlinear">
+                                <choice>
                                     <abbr>
                                         <lb/>n</abbr>
                                     <expan>number</expan>
                                 </choice> 42 <choice>
                                     <abbr>p</abbr>
                                     <expan>page</expan>
-                                </choice> 200</add></bibl>
+                                </choice> 200</add>
+                        </bibl>
                         <supplied cert="high">.</supplied>
                     </p>
-                    <p><pb n="11v"/><gap unit="pages" quantity="1" reason="empty"/></p>
+                    <p>
+                        <pb n="11v"/>
+                        <gap unit="pages" quantity="1" reason="empty"/>
+                    </p>
                 </note>
             </p>
             <p>
-                <note hand="https://edition-humboldt.de/#H0012069" place="left" rend="sticked">
+                <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="left" rend="sticked">
                     <pb n="12r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000002.jpg"/>
                     <persName ref="https://edition-humboldt.de/H0012271 http://d-nb.info/gnd/118671804">Bernal Díaz <choice>
                             <sic>de</sic>
                             <corr cert="high">del</corr>
                         </choice> Castillo</persName>
-                    <lb/><choice>
+                    <lb/>
+                    <choice>
                         <sic>sembra</sic>
                         <corr cert="high">siembra</corr>
                     </choice> las primeras <lb/>naranjas <subst>
@@ -424,37 +533,58 @@
                     </subst> dans <choice>
                         <abbr>l’expéd.</abbr>
                         <expan>l’expédition</expan>
-                    </choice> de <lb/><persName ref="https://edition-humboldt.de/H0013644 http://d-nb.info/gnd/1012608824">Grixalva</persName>
-                    <persName ref="https://edition-humboldt.de/H0011825 http://d-nb.info/gnd/124683738"><choice>
+                    </choice> de <lb/>
+                    <persName ref="https://edition-humboldt.de/H0013644 http://d-nb.info/gnd/1012608824">Grixalva</persName>
+                    <persName ref="https://edition-humboldt.de/H0011825 http://d-nb.info/gnd/124683738">
+                        <choice>
                             <sic>Herera</sic>
                             <corr cert="high">Herrera</corr>
-                        </choice></persName>
-                    <lb/><choice>
+                        </choice>
+                    </persName>
+                    <lb/>
+                    <choice>
                         <abbr>Déc</abbr>
                         <expan>Década</expan>
                     </choice> II <choice>
                         <abbr>p</abbr>
                         <expan>pagina</expan>
-                    </choice> 76<supplied cert="high">.</supplied><p><pb n="12v"/><gap unit="pages" quantity="1" reason="empty"/></p></note>
+                    </choice> 76<supplied cert="high">.</supplied>
+                    <p>
+                        <pb n="12v"/>
+                        <gap unit="pages" quantity="1" reason="empty"/>
+                    </p>
+                </note>
             </p>
             <p>
-                <note hand="https://edition-humboldt.de/#H0012069" place="right" rend="sticked">
+                <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="right" rend="sticked">
                     <pb n="13r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/0000000Xa.jpg"/>
                     Îles
-                    de coraux végétation! <lb/><persName ref="https://edition-humboldt.de/H0005987 http://d-nb.info/gnd/116569514"><hi rendition="#u">Eschscholtz</hi></persName>
-                    <ref xml:id="ad980c86-c861-4b14-980c-86c861fb1459" corresp="#bed5447e-851c-4618-9544-7e851c56184f" type="editorialNote"><persName ref="https://edition-humboldt.de/H0000081 http://d-nb.info/gnd/104123176">Férussac</persName> Juin 1826</ref><note xml:id="bed5447e-851c-4618-9544-7e851c56184f" corresp="#ad980c86-c861-4b14-980c-86c861fb1459" type="editorial"><bibl corresp="https://edition-humboldt.de/9SZDUKHM">Eschscholtz 1826</bibl>. <persName ref="https://edition-humboldt.de/H0000081 http://d-nb.info/gnd/104123176">André Étienne
+                    de coraux végétation! <lb/>
+                    <persName ref="https://edition-humboldt.de/H0005987 http://d-nb.info/gnd/116569514">
+                        <hi rendition="#u">Eschscholtz</hi>
+                    </persName>
+                    <ref xml:id="e42f39d1-2eec-4644-af39-d12eec464435" corresp="#bdd82b8d-3cbf-4026-982b-8d3cbfb02677" type="editorialNote">
+                            <persName ref="https://edition-humboldt.de/H0000081 http://d-nb.info/gnd/104123176">Férussac</persName> Juin 1826</ref><note xml:id="bdd82b8d-3cbf-4026-982b-8d3cbfb02677" corresp="#e42f39d1-2eec-4644-af39-d12eec464435" type="editorial">
+                            <bibl corresp="https://edition-humboldt.de/9SZDUKHM">Eschscholtz 1826</bibl>. <persName ref="https://edition-humboldt.de/H0000081 http://d-nb.info/gnd/104123176">André Étienne
                                 d’Audebert de Férussac</persName> war der Herausgeber des „Bulletin
                             des sciences naturelles et de Géologie“ in dem dieser Aufsatz erschien.
                         </note>
                     <choice>
                         <abbr>p</abbr>
                         <expan>page</expan>
-                    </choice> 180.<p><pb n="13v"/><gap unit="pages" quantity="1" reason="empty"/></p>
+                    </choice> 180.<p>
+                        <pb n="13v"/>
+                        <gap unit="pages" quantity="1" reason="empty"/>
+                    </p>
                 </note>
             </p>
-            <p><pb n="1v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000009.jpg"/>
-                <gap unit="pages" quantity="1" reason="empty"/></p>
-            <p><pb n="2r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000010.jpg"/><choice>
+            <p>
+                <pb n="1v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000009.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </p>
+            <p>
+                <pb n="2r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000010.jpg"/>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 4. Unser Plan</p>
@@ -468,80 +598,117 @@
                 </choice> (<choice>
                     <abbr>pag.</abbr>
                     <expan>pagina</expan>
-                </choice> 2.) <lb/>gehört<supplied cert="high">.</supplied></p>
+                </choice> 2.) <lb/>gehört<supplied cert="high">.</supplied>
+            </p>
             <p>α) die Verhältnisse der höhern <lb/>und niedern Grouppen (Classen, <lb/>Familien,
                 genera) zu der Erde <lb/>und dem Wasser (sicher <lb/>wie gewisse Familien in
                 <lb/>Verhältnißzahlen von Süden <lb/>nach Norden abnehmen, <lb/>welche Genera blos
                 einzelnen <lb/>Zonen oder einzelnen <lb/>Continenten zugehören, <lb/>welche Genera
                 Unterabteilungen <lb/>haben nach klimatischen <lb/>Verhältnissen, also in diesem
-                <lb/>abschnitt ist Hauptgegen<g ref="#typoHyphen"/><lb break="no"/>stand immer die
+                <lb/>abschnitt ist Hauptgegen<g ref="#typoHyphen"/>
+                <lb break="no"/>stand immer die
                 Gruppe etc.)</p>
             <p>
-                <milestone rendition="#hr" unit="section"/></p>
-            <p><pb n="2v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000011.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
-            <p><pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000012.jpg"/>β.) die Verhältnisse der Länder <lb/>zu den Verschiedenen Gruppen
-                    <lb/>(floren)<note hand="#author" place="right">Kryptogamen <lb/><persName ref="https://edition-humboldt.de/H0006219 http://d-nb.info/gnd/117662933">Arnott</persName>.</note> (hier die Frage, welche
+                <milestone rendition="#hr" unit="section"/>
+            </p>
+            <p>
+                <pb n="2v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000011.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </p>
+            <p>
+                <pb n="3r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000012.jpg"/>β.) die Verhältnisse der Länder <lb/>zu den Verschiedenen Gruppen
+                    <lb/>(floren)<note hand="#author" place="right">Kryptogamen <lb/>
+                    <persName ref="https://edition-humboldt.de/H0006219 http://d-nb.info/gnd/117662933">Arnott</persName>.</note> (hier die Frage, welche
                 <lb/>Pflanzen allen Erdstrichen <lb/>gemein sind, welche beiden <lb/>Continenten
-                zugleich zugehören,<note hand="#author" place="right"><metamark/><choice>
+                zugleich zugehören,<note hand="#author" place="right">
+                    <metamark/>
+                    <choice>
                         <orig>älteste</orig>
                         <reg>Älteste</reg>
-                    </choice> Frage <lb/><bibl corresp="https://edition-humboldt.de/74WW43IZ"><persName ref="https://edition-humboldt.de/H0004561 http://d-nb.info/gnd/117676179">Lister</persName> von <lb/>1675</bibl>. <choice>
+                    </choice> Frage <lb/>
+                    <bibl corresp="https://edition-humboldt.de/74WW43IZ">
+                        <persName ref="https://edition-humboldt.de/H0004561 http://d-nb.info/gnd/117676179">Lister</persName> von <lb/>1675</bibl>. <choice>
                         <abbr>S.</abbr>
                         <expan>Siehe</expan>
                     </choice>
-                    <ref xml:id="ed_y2l_p1s_sy" type="siglum" target="#Geographie_der_Pflanzen_S">S.</ref></note>
+                    <ref xml:id="ed_y2l_p1s_sy" type="siglum" target="#Geographie_der_Pflanzen_S">S.</ref>
+                </note>
                 <lb/>hier Karakteristik der <lb/>Länder, <placeName ref="https://edition-humboldt.de/H0002625 https://www.geonames.org/2077456">Neuholland</placeName>, <placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>
-                    etc.<supplied cert="high">).</supplied></p>
+                    etc.<supplied cert="high">).</supplied>
+            </p>
             <p>γ.) Nicht eigentlich als Abtheilung<supplied cert="high">,</supplied>
                 <lb/>sondern als Zusatz, Betrachtung <lb/>der physischen Momente <lb/>welche einen
-                Theil dieser Ver<g ref="#typoHyphen"/><lb break="no"/>breitungsgesetze
-                    erklären,<note hand="#author" place="right">Einfluß des <lb/><subst>
+                Theil dieser Ver<g ref="#typoHyphen"/>
+                <lb break="no"/>breitungsgesetze
+                    erklären,<note hand="#author" place="right">Einfluß des <lb/>
+                    <subst>
                         <del rendition="#s">Lo</del>
                         <add place="intralinear">Bodens</add>
                     </subst>
-                    <lb/>(<ref xml:id="d0e74a0c-8b6d-4a81-a74a-0c8b6d2a81e4" corresp="#bb53d11c-4c46-447a-93d1-1c4c46247a0e" type="editorialNote">Strohmeyer</ref><note xml:id="bb53d11c-4c46-447a-93d1-1c4c46247a0e" corresp="#d0e74a0c-8b6d-4a81-a74a-0c8b6d2a81e4" type="editorial"><bibl corresp="https://edition-humboldt.de/XJX5RV2J">Stromeyer
+                    <lb/>(<ref xml:id="c29f69f9-e3e6-40ba-9f69-f9e3e6d0baf0" corresp="#eae07e05-210d-4591-a07e-05210df59178" type="editorialNote">Strohmeyer</ref><note xml:id="eae07e05-210d-4591-a07e-05210df59178" corresp="#c29f69f9-e3e6-40ba-9f69-f9e3e6d0baf0" type="editorial">
+                            <bibl corresp="https://edition-humboldt.de/XJX5RV2J">Stromeyer
                                 1800</bibl>. </note>)</note>
                 <lb/>aber keinesweges alle; hier <lb/>etwas von <choice>
                     <sic>den</sic>
                     <corr cert="high">dem</corr>
                 </choice> Genetischen, <lb/>von der Idee von Species, <lb/>an die Geschichte der
-                    Pflanzen<note hand="#author" place="left"><metamark/>Sagen ehe<g ref="#typoHyphen"/><lb break="no"/>maliger Wärme <lb/>Zendavesta <lb/><ref xml:id="ed_lmd_gqb_ry" type="siglum" target="#Geographie_der_Pflanzen_X">X.</ref></note>
-                <lb/>angrenzend; wie die <note hand="#author" place="right"><choice>
+                    Pflanzen<note hand="#author" place="left">
+                    <metamark/>Sagen ehe<g ref="#typoHyphen"/>
+                    <lb break="no"/>maliger Wärme <lb/>Zendavesta <lb/>
+                    <ref xml:id="ed_lmd_gqb_ry" type="siglum" target="#Geographie_der_Pflanzen_X">X.</ref>
+                </note>
+                <lb/>angrenzend; wie die <note hand="#author" place="right">
+                    <choice>
                         <orig>fossile</orig>
                         <reg>Fossile</reg>
                     </choice> Wälder <lb/>in Rußland<supplied cert="high">.</supplied>
-                    <lb/><ref xml:id="ed_tzw_4nx_yy" type="siglum" target="#Geographie_der_Pflanzen_O">(O.)</ref>
+                    <lb/>
+                    <ref xml:id="ed_tzw_4nx_yy" type="siglum" target="#Geographie_der_Pflanzen_O">(O.)</ref>
                 </note>
                 <lb/>Vegetation der Vorwelt <lb/>ausgesehen, ob wie bei den <lb/>Thieren sehr
                 einzelnstehende <lb/>Formen sonst von andern <lb/>Gliedern begleitet waren. </p>
-            <p><pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000013.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
-            <p><pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000014.jpg"/>Vor α Nach den Prolegomenen <lb/>das allgemeinste aller Vegetation, <lb/>also a)
+            <p>
+                <pb n="3v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000013.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </p>
+            <p>
+                <pb n="4r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000014.jpg"/>Vor α Nach den Prolegomenen <lb/>das allgemeinste aller Vegetation, <lb/>also a)
                 wieviel Pflanzen es giebt? <lb/>(Zahl), und <del rendition="#s">allg</del> physische
                 <lb/>Verhältnisse b.) wo es Pflanzen <lb/>geben kann, subterranea, marina, aerites,
-                <lb/>(wie tief, ohne Licht?), auf <lb/>der Erde, im Schnee<note hand="#author" place="right"><choice>
-                        <orig><metamark/>auch</orig>
+                <lb/>(wie tief, ohne Licht?), auf <lb/>der Erde, im Schnee<note hand="#author" place="right">
+                    <choice>
+                        <orig>
+                            <metamark/>auch</orig>
                         <reg>Auch</reg>
-                    </choice> in <lb/><placeName ref="https://edition-humboldt.de/H0010177 https://www.geonames.org/2661886">Schweden</placeName>
-                    <lb/>gesehen von <lb/><persName ref="https://edition-humboldt.de/H0012515 http://d-nb.info/gnd/118643959">Agardh</persName>
+                    </choice> in <lb/>
+                    <placeName ref="https://edition-humboldt.de/H0010177 https://www.geonames.org/2661886">Schweden</placeName>
+                    <lb/>gesehen von <lb/>
+                    <persName ref="https://edition-humboldt.de/H0012515 http://d-nb.info/gnd/118643959">Agardh</persName>
                     <supplied cert="high">,</supplied>
-                    <lb/><choice>
+                    <lb/>
+                    <choice>
                         <abbr>S.</abbr>
                         <expan>Siehe</expan>
                     </choice>
-                    <ref xml:id="ed_kfk_brb_ry" type="siglum" target="#Geographie_der_Pflanzen_D">D.</ref></note>, c.) Höhen <lb/>(<placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himelaya</placeName>) und Tiefe im <subst>
+                    <ref xml:id="ed_kfk_brb_ry" type="siglum" target="#Geographie_der_Pflanzen_D">D.</ref>
+                </note>, c.) Höhen <lb/>(<placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himelaya</placeName>) und Tiefe im <subst>
                     <del rendition="#s">Mehr</del>
                     <add place="intralinear">
                         <lb/>Meere</add>
-                </subst>,<note hand="#author" place="left"><subst>
+                </subst>,<note hand="#author" place="left">
+                    <subst>
                         <del rendition="#s">Vergleiche</del>
                         <add place="intralinear">
                             <lb/>Zahl der Species<supplied cert="high">,</supplied>
-                            <lb/>Fische, Vögel <lb/><choice>
+                            <lb/>Fische, Vögel <lb/>
+                            <choice>
                                 <abbr>u.</abbr>
                                 <expan>und</expan>
                             </choice> Insecten.</add>
-                    </subst></note> d) Größe im Vergleich <lb/>der phanerogamischen Gewächse
-                <lb/>unter sich und der Dicke <lb/><choice>
+                    </subst>
+                </note> d) Größe im Vergleich <lb/>der phanerogamischen Gewächse
+                <lb/>unter sich und der Dicke <lb/>
+                <choice>
                     <abbr>u.</abbr>
                     <expan>und</expan>
                 </choice> Höhe (<name type="plant">Ceroxylon</name>
@@ -551,85 +718,163 @@
                 </choice>
                 <subst>
                     <del rendition="#s">Cun</del>
-                    <add place="intralinear"><name type="plant">Cun<g ref="#typoHyphen"/><lb break="no"/>ninghamia</name></add>
+                    <add place="intralinear">
+                        <name type="plant">Cun<g ref="#typoHyphen"/>
+                            <lb break="no"/>ninghamia</name>
+                    </add>
                 </subst>) e) Farbe <lb/>f.) Dauer der <choice>
                     <sic>Individien</sic>
                     <corr cert="high">Individuen</corr>
                 </choice>
-                <lb/>(Erhaltung der Samen)<note hand="#author" place="right"><persName ref="https://edition-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName>
-                    <lb/><persName ref="https://edition-humboldt.de/H0013365 http://d-nb.info/gnd/1013519345">Gaudichaud</persName>
-                    <lb/><persName ref="https://edition-humboldt.de/H0000887 http://d-nb.info/gnd/117527599">Richard</persName></note> rg.)<note hand="#author" place="left">
-                    <metamark/>(<bibl corresp="https://edition-humboldt.de/HRKAMQDN"><persName ref="https://edition-humboldt.de/H0006423 https://d-nb.info/gnd/117581682">Winsch</persName>
+                <lb/>(Erhaltung der Samen)<note hand="#author" place="right">
+                    <persName ref="https://edition-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName>
+                    <lb/>
+                    <persName ref="https://edition-humboldt.de/H0013365 http://d-nb.info/gnd/1013519345">Gaudichaud</persName>
+                    <lb/>
+                    <persName ref="https://edition-humboldt.de/H0000887 http://d-nb.info/gnd/117527599">Richard</persName>
+                </note> rg.)<note hand="#author" place="left">
+                    <metamark/>(<bibl corresp="https://edition-humboldt.de/HRKAMQDN">
+                        <persName ref="https://edition-humboldt.de/H0006423 https://d-nb.info/gnd/117581682">Winsch</persName>
                         <choice>
                             <abbr>p.</abbr>
                             <expan>pagina</expan>
-                        </choice> 37</bibl>. <lb/><name type="plant">Argemone
+                        </choice> 37</bibl>. <lb/>
+                    <name type="plant">Argemone
                     <lb/>mexicana</name>.)</note> Migration, Richtung, <lb/>Meeresströhmungen
                 (Golfström) <lb/>(Koralleninseln, Kokosnüsse.)</p>
-            <p><pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000015.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
-            <note place="right" hand="https://edition-humboldt.de/#H0012069" rend="inserted">
+            <p>
+                <pb n="4v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000015.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </p>
+            <note place="right" hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" rend="inserted">
                 <pb n="14r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/0000000Xb.jpg"/>
-                <head><hi rendition="#u">Pflanzenmenge</hi></head>
+                <head>
+                    <hi rendition="#u">Pflanzenmenge</hi>
+                </head>
                 <p>a) Wie Dürre abnehmen lässt<supplied cert="high">.</supplied>
                     <lb/>Wärmestrahlung, Waldzerstöhrung<supplied cert="high">.</supplied>
-                    <lb/><placeName ref="https://edition-humboldt.de/H0000346 https://www.geonames.org/2593110">Canarische Inseln</placeName>, <placeName ref="https://edition-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName>, <lb/><placeName ref="https://edition-humboldt.de/H0004801 https://www.geonames.org/3017382">France</placeName><supplied cert="high">.</supplied>
-                    <bibl corresp="https://edition-humboldt.de/TMUVA6FB"><hi rendition="#u"><persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName></hi>
-                        <hi rendition="#u"><choice>
+                    <lb/>
+                    <placeName ref="https://edition-humboldt.de/H0000346 https://www.geonames.org/2593110">Canarische Inseln</placeName>, <placeName ref="https://edition-humboldt.de/H0008847 https://www.geonames.org/3996063">Mexico</placeName>, <lb/>
+                    <placeName ref="https://edition-humboldt.de/H0004801 https://www.geonames.org/3017382">France</placeName>
+                    <supplied cert="high">.</supplied>
+                    <bibl corresp="https://edition-humboldt.de/TMUVA6FB">
+                        <hi rendition="#u">
+                            <persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName>
+                        </hi>
+                        <hi rendition="#u">
+                            <choice>
                                 <abbr>Can.</abbr>
                                 <expan>Canarische Inseln</expan>
-                            </choice></hi>
+                            </choice>
+                        </hi>
                         <choice>
-                            <abbr><hi rendition="#u">p</hi></abbr>
-                            <expan><hi rendition="#u">pagina</hi></expan>
-                        </choice><hi rendition="#u"> 127</hi></bibl><supplied cert="high">.</supplied></p>
-                <p>b) geringer wenn Inseln sich von <lb/>Continenten entfernen <bibl corresp="https://edition-humboldt.de/TMUVA6FB"><choice>
+                            <abbr>
+                                <hi rendition="#u">p</hi>
+                            </abbr>
+                            <expan>
+                                <hi rendition="#u">pagina</hi>
+                            </expan>
+                        </choice>
+                        <hi rendition="#u"> 127</hi>
+                    </bibl>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>b) geringer wenn Inseln sich von <lb/>Continenten entfernen <bibl corresp="https://edition-humboldt.de/TMUVA6FB">
+                        <choice>
                             <abbr>p</abbr>
                             <expan>pagina</expan>
-                        </choice> 130</bibl><supplied cert="high">.</supplied></p><p><hi rendition="#u">Verhältniß der </hi><choice>
-                        <abbr><hi rendition="#u">Spec</hi></abbr>
-                        <expan><hi rendition="#u">Species</hi></expan>
-                    </choice><hi rendition="#u"> zu den </hi><lb/><hi rendition="#u">generibus</hi>,
+                        </choice> 130</bibl>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>
+                    <hi rendition="#u">Verhältniß der </hi>
+                    <choice>
+                        <abbr>
+                            <hi rendition="#u">Spec</hi>
+                        </abbr>
+                        <expan>
+                            <hi rendition="#u">Species</hi>
+                        </expan>
+                    </choice>
+                    <hi rendition="#u"> zu den </hi>
+                    <lb/>
+                    <hi rendition="#u">generibus</hi>,
                     anders auf Inseln<supplied cert="high">,</supplied>
-                    <lb/><bibl corresp="https://edition-humboldt.de/TMUVA6FB"><persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> I <choice>
+                    <lb/>
+                    <bibl corresp="https://edition-humboldt.de/TMUVA6FB">
+                        <persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> I <choice>
                             <abbr>p</abbr>
                             <expan>pagina</expan>
-                        </choice> 132</bibl><supplied cert="high">.</supplied></p><p>Wie sich Inseln
+                        </choice> 132</bibl>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>Wie sich Inseln
                     nicht reciprocis geben<supplied cert="high">,</supplied>
-                    <lb/><placeName ref="https://edition-humboldt.de/H0008558 https://www.geonames.org/2266874">Madera</placeName> an <placeName ref="https://edition-humboldt.de/H0000346 https://www.geonames.org/2593110"><choice>
+                    <lb/>
+                    <placeName ref="https://edition-humboldt.de/H0008558 https://www.geonames.org/2266874">Madera</placeName> an <placeName ref="https://edition-humboldt.de/H0000346 https://www.geonames.org/2593110">
+                        <choice>
                             <abbr>Canar.</abbr>
                             <expan>Canarische Inseln</expan>
-                        </choice></placeName><supplied cert="high">,</supplied> nicht <placeName ref="https://edition-humboldt.de/H0000346 https://www.geonames.org/2593110"><choice>
+                        </choice>
+                    </placeName>
+                    <supplied cert="high">,</supplied> nicht <placeName ref="https://edition-humboldt.de/H0000346 https://www.geonames.org/2593110">
+                        <choice>
                             <abbr>Canar</abbr>
                             <expan>Canarische Inseln</expan>
-                        </choice></placeName> an <lb/><placeName ref="https://edition-humboldt.de/H0008558 https://www.geonames.org/2266874">Madera</placeName><supplied cert="high">.</supplied>
-                    <bibl corresp="https://edition-humboldt.de/TMUVA6FB"><persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> I <choice>
+                        </choice>
+                    </placeName> an <lb/>
+                    <placeName ref="https://edition-humboldt.de/H0008558 https://www.geonames.org/2266874">Madera</placeName>
+                    <supplied cert="high">.</supplied>
+                    <bibl corresp="https://edition-humboldt.de/TMUVA6FB">
+                        <persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> I <choice>
                             <abbr>p</abbr>
                             <expan>pagina</expan>
-                        </choice> 189</bibl><supplied cert="high">.</supplied></p><p>Winde
+                        </choice> 189</bibl>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>Winde
                     Samenverbreitung <bibl corresp="https://edition-humboldt.de/TMUVA6FB">Buch I <choice>
                             <abbr>p</abbr>
                             <expan>pagina</expan>
-                        </choice> 93</bibl><supplied cert="high">.</supplied></p><p><persName ref="https://edition-humboldt.de/H0015906 http://d-nb.info/gnd/118126555">Smith</persName>. lies <ref xml:id="ade9981a-7a48-45a3-a998-1a7a4815a310" corresp="#b8c7cc29-af19-4061-87cc-29af19b06156" type="editorialNote">seinen Aufsaz</ref><note xml:id="b8c7cc29-af19-4061-87cc-29af19b06156" corresp="#ade9981a-7a48-45a3-a998-1a7a4815a310" type="editorial">Mehrere Berichte über <persName ref="https://edition-humboldt.de/H0015906 http://d-nb.info/gnd/118126555">Christen Smith</persName>s Reisen durch <placeName ref="https://edition-humboldt.de/H0001715 https://www.geonames.org/3144096">Norwegen</placeName> im Jahr 1812 und 1813 erschienen posthum im
+                        </choice> 93</bibl>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <p>
+                    <persName ref="https://edition-humboldt.de/H0015906 http://d-nb.info/gnd/118126555">Smith</persName>. lies <ref xml:id="d07a3f81-9c04-4a07-ba3f-819c042a0791" corresp="#cea72ffc-dee9-4ad9-a72f-fcdee9cad954" type="editorialNote">seinen Aufsaz</ref><note xml:id="cea72ffc-dee9-4ad9-a72f-fcdee9cad954" corresp="#d07a3f81-9c04-4a07-ba3f-819c042a0791" type="editorial">Mehrere Berichte über <persName ref="https://edition-humboldt.de/H0015906 http://d-nb.info/gnd/118126555">Christen Smith</persName>s Reisen durch <placeName ref="https://edition-humboldt.de/H0001715 https://www.geonames.org/3144096">Norwegen</placeName> im Jahr 1812 und 1813 erschienen posthum im
                             zweiten Band der <hi rendition="#i">Topografisk-statistike Samlinger,
                                 udgivne af Selskabet for Norges</hi>. <bibl corresp="https://edition-humboldt.de/TMUVA6FB">Buch 1825</bibl>, 39 verweist auf
-                            diesen Band. </note> über Unterschied <lb/>des <hi rendition="#u">Continental<supplied cert="high">-</supplied> und Inselklimas</hi><supplied cert="high">.</supplied>
-                    <lb/><bibl corresp="https://edition-humboldt.de/TMUVA6FB"><persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> citirt <choice>
+                            diesen Band. </note> über Unterschied <lb/>des <hi rendition="#u">Continental<supplied cert="high">-</supplied> und Inselklimas</hi>
+                    <supplied cert="high">.</supplied>
+                    <lb/>
+                    <bibl corresp="https://edition-humboldt.de/TMUVA6FB">
+                        <persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName> citirt <choice>
                             <abbr>p</abbr>
                             <expan>pagina</expan>
-                        </choice> 39</bibl><supplied cert="high">.</supplied></p><pb n="14v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000015b.jpg"/><gap unit="pages" quantity="1" reason="empty"/></note>
-            <p><pb n="5r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000017.jpg"/><choice>
+                        </choice> 39</bibl>
+                    <supplied cert="high">.</supplied>
+                </p>
+                <pb n="14v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000015b.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </note>
+            <p>
+                <pb n="5r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000017.jpg"/>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 5. In den Zahlverhältnissen wesentlich <lb/>zu unterscheiden Zahl der
                     Individuen<supplied cert="high">,</supplied>
-                <lb/>Zahl der Species <note hand="#author" place="inline"><metamark/>gegen <persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">Decandolle</persName>
-                    <lb/><choice>
+                <lb/>Zahl der Species <note hand="#author" place="inline">
+                    <metamark/>gegen <persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">Decandolle</persName>
+                    <lb/>
+                    <choice>
                         <abbr>S.</abbr>
                         <expan>Siehe</expan>
                     </choice>
-                    <ref xml:id="ed_cqh_1p1_1z" type="siglum" target="#Geographie_der_Pflanzen_H">H.</ref></note> eines und desselben <lb/>Genus, oder Zahl der Species im
+                    <ref xml:id="ed_cqh_1p1_1z" type="siglum" target="#Geographie_der_Pflanzen_H">H.</ref>
+                </note> eines und desselben <lb/>Genus, oder Zahl der Species im
                 <lb/>Verhältniß zur ganzen Maße <lb/>der Phänerogamen.</p>
-            <note hand="#author" place="left">Vide <lb/><persName ref="https://edition-humboldt.de/H0000107 http://d-nb.info/gnd/116551445">Fischer</persName>
+            <note hand="#author" place="left">Vide <lb/>
+                <persName ref="https://edition-humboldt.de/H0000107 http://d-nb.info/gnd/116551445">Fischer</persName>
                 <choice>
                     <abbr>
                         <lb/>no.</abbr>
@@ -637,12 +882,14 @@
                 </choice>
                 <ref xml:id="ed_gwj_1rc_fbb" type="siglum" target="#Geographie_der_Pflanzen_R">R.</ref>
             </note>
-            <note hand="#author" place="right"><persName ref="https://edition-humboldt.de/H0004587 http://d-nb.info/gnd/117676837"> Loefling</persName> en 20
+            <note hand="#author" place="right">
+                <persName ref="https://edition-humboldt.de/H0004587 http://d-nb.info/gnd/117676837"> Loefling</persName> en 20
                 mois <lb/>recolté 1300 <choice>
                     <abbr>phanérog.</abbr>
                     <expan>phanérogames</expan>
                 </choice>
-                <lb/>dans les environs <lb/>de <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>. (<bibl corresp="https://edition-humboldt.de/IUS5VMNZ"><choice>
+                <lb/>dans les environs <lb/>de <placeName ref="https://edition-humboldt.de/H0008564 https://www.geonames.org/3117735">Madrid</placeName>. (<bibl corresp="https://edition-humboldt.de/IUS5VMNZ">
+                    <choice>
                         <abbr>Loefl.</abbr>
                         <expan>Loefling</expan>
                     </choice>
@@ -650,42 +897,61 @@
                         <abbr>p.</abbr>
                         <expan>pagina</expan>
                     </choice> 381</bibl>.)</note>
-            <note hand="#author" place="right">120.000 Ge<g ref="#typoHyphen"/><lb break="no"/>wächsgestalten <lb/>aus dem Stier<g ref="#typoHyphen"/><lb break="no"/>blut
-                entstanden <lb/>Zendavesta <lb/><bibl corresp="https://edition-humboldt.de/2DX6WM4Q"><persName ref="https://edition-humboldt.de/H0000872 http://d-nb.info/100322689">Rhode</persName>
+            <note hand="#author" place="right">120.000 Ge<g ref="#typoHyphen"/>
+                <lb break="no"/>wächsgestalten <lb/>aus dem Stier<g ref="#typoHyphen"/>
+                <lb break="no"/>blut
+                entstanden <lb/>Zendavesta <lb/>
+                <bibl corresp="https://edition-humboldt.de/2DX6WM4Q">
+                    <persName ref="https://edition-humboldt.de/H0000872 http://d-nb.info/100322689">Rhode</persName>
                     <choice>
                         <abbr>p.</abbr>
                         <expan>pagina</expan>
-                    </choice> 286</bibl>. <lb/>Dagegen <lb/><persName ref="https://edition-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Linné</persName> nicht <lb/>10.000. In <lb/>Zentavesta <lb/>älteste Klassi<g ref="#typoHyphen"/><lb break="no"/>fication der <lb/>55 Getreide<g ref="#typoHyphen"/><lb break="no"/>arten <bibl corresp="https://edition-humboldt.de/2DX6WM4Q"><choice>
+                    </choice> 286</bibl>. <lb/>Dagegen <lb/>
+                <persName ref="https://edition-humboldt.de/H0004551 http://d-nb.info/gnd/118573349">Linné</persName> nicht <lb/>10.000. In <lb/>Zentavesta <lb/>älteste Klassi<g ref="#typoHyphen"/>
+                <lb break="no"/>fication der <lb/>55 Getreide<g ref="#typoHyphen"/>
+                <lb break="no"/>arten <bibl corresp="https://edition-humboldt.de/2DX6WM4Q">
+                    <choice>
                         <abbr>p.</abbr>
                         <expan>page</expan>
-                    </choice> 535</bibl>. <lb/><choice>
+                    </choice> 535</bibl>. <lb/>
+                <choice>
                     <abbr>u.</abbr>
                     <expan>und</expan>
-                </choice> älteste <lb/>Klassification <lb/>der Thiere in <lb/>5 Klassen <lb/><subst>
+                </choice> älteste <lb/>Klassification <lb/>der Thiere in <lb/>5 Klassen <lb/>
+                <subst>
                     <del rendition="#s">unter</del>
                     <add place="intralinear">und</add>
-                </subst> der <lb/>Fische allein <lb/>in 10 Familien <lb/><bibl corresp="https://edition-humboldt.de/2DX6WM4Q"><choice>
+                </subst> der <lb/>Fische allein <lb/>in 10 Familien <lb/>
+                <bibl corresp="https://edition-humboldt.de/2DX6WM4Q">
+                    <choice>
                         <abbr>p.</abbr>
                         <expan>page</expan>
                     </choice> 531</bibl>. </note>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 6. Zu lesen <bibl corresp="https://edition-humboldt.de/HRKAMQDN"><persName ref="https://edition-humboldt.de/H0006423 https://d-nb.info/gnd/117581682">Winch</persName>
+                </choice> 6. Zu lesen <bibl corresp="https://edition-humboldt.de/HRKAMQDN">
+                    <persName ref="https://edition-humboldt.de/H0006423 https://d-nb.info/gnd/117581682">Winch</persName>
                     <choice>
                         <abbr>Geogr.</abbr>
                         <expan>Geographie</expan>
                     </choice> der <choice>
-                        <abbr><lb/>Pfl.</abbr>
+                        <abbr>
+                            <lb/>Pfl.</abbr>
                         <expan>Pflanzen</expan>
                     </choice> von Kumberland. (Zahl <choice>
                         <abbr>p.</abbr>
                         <expan>pagina</expan>
-                    </choice> 3.<supplied cert="high">)</supplied></bibl></p>
-            <p><choice>
+                    </choice> 3.<supplied cert="high">)</supplied>
+                </bibl>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 7. SüdSee. <bibl corresp="https://edition-humboldt.de/92F3SEW7"><persName ref="https://edition-humboldt.de/H0004484 http://d-nb.info/gnd/117669962">Lesson</persName>
+                </choice> 7. SüdSee. <bibl corresp="https://edition-humboldt.de/92F3SEW7">
+                    <persName ref="https://edition-humboldt.de/H0004484 http://d-nb.info/gnd/117669962">Lesson</persName>
                     <choice>
                         <orig>An̅ales</orig>
                         <reg>Annales</reg>
@@ -696,13 +962,18 @@
                     <choice>
                         <orig>Jun.</orig>
                         <reg>Junius</reg>
-                    </choice> 1825. <lb/><choice>
+                    </choice> 1825. <lb/>
+                    <choice>
                         <abbr>p.</abbr>
                         <expan>page</expan>
                     </choice>
-                    <del rendition="#s"><gap reason="illegible" quantity="1" unit="words"/></del>
+                    <del rendition="#s">
+                        <gap reason="illegible" quantity="1" unit="words"/>
+                    </del>
                     172</bibl>. </p>
-            <p><note hand="https://edition-humboldt.de/#H0012069" place="left" rend="sticked"><pb n="15r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000016.jpg"/>
+            <p>
+                <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="left" rend="sticked">
+                    <pb n="15r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000016.jpg"/>
                     <choice>
                         <abbr>Végét.</abbr>
                         <expan>Végétation</expan>
@@ -719,8 +990,14 @@
                         </choice> 6 (1825) <choice>
                             <abbr>p</abbr>
                             <expan>page</expan>
-                        </choice> 244 <lb/>250. 252</bibl><supplied cert="high">.</supplied><pb n="15v"/><gap unit="pages" quantity="1" reason="empty"/></note></p>
-            <p><choice>
+                        </choice> 244 <lb/>250. 252</bibl>
+                    <supplied cert="high">.</supplied>
+                    <pb n="15v"/>
+                    <gap unit="pages" quantity="1" reason="empty"/>
+                </note>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 8. <choice>
@@ -740,7 +1017,8 @@
                         <abbr>Annal.</abbr>
                         <expan>Annales</expan>
                     </choice>
-                    <lb/><choice>
+                    <lb/>
+                    <choice>
                         <abbr>Tom</abbr>
                         <expan>Tome</expan>
                     </choice> XXVI. <choice>
@@ -750,10 +1028,14 @@
                         <abbr>p.</abbr>
                         <expan>page</expan>
                     </choice> 231</bibl>.</p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 9 Golfström, fucus, mare herbidum. <lb/><bibl corresp="https://edition-humboldt.de/NJ9WV4UJ"><persName ref="https://edition-humboldt.de/H0012638 http://d-nb.info/gnd/118740490"><choice>
+                </choice> 9 Golfström, fucus, mare herbidum. <lb/>
+                <bibl corresp="https://edition-humboldt.de/NJ9WV4UJ">
+                    <persName ref="https://edition-humboldt.de/H0012638 http://d-nb.info/gnd/118740490">
+                        <choice>
                             <abbr>Petr.</abbr>
                             <expan>Petrus</expan>
                         </choice> Martyr</persName>, oceanica <lb/>decas 3. <choice>
@@ -763,25 +1045,34 @@
                         <abbr>p.</abbr>
                         <expan>pagina</expan>
                     </choice> 53</bibl>.</p>
-            <p><pb n="5v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000018.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
-            <p><pb n="6r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000019.jpg"/>
+            <p>
+                <pb n="5v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000018.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </p>
+            <p>
+                <pb n="6r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000019.jpg"/>
                 <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 10. Verbreitung der Moose<supplied cert="high">,</supplied><note place="right" hand="#author"><choice>
+                </choice> 10. Verbreitung der Moose<supplied cert="high">,</supplied>
+                <note place="right" hand="#author">
+                    <choice>
                         <sic> Champignon</sic>
                         <corr cert="high">Champignons</corr>
                     </choice> diminuent <lb/>vers <placeName ref="https://edition-humboldt.de/H0001705 https://www.geonames.org/6942237">le Pôle</placeName>
-                    <ref xml:id="c6a55e62-80a3-42c2-a55e-6280a3b2c26a" corresp="#f1db6029-61db-47d6-9b60-2961db57d6d2" type="editorialNote"><persName ref="https://edition-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">Link</persName>
+                    <ref xml:id="d7bae53d-3db4-4d86-bae5-3d3db42d86d7" corresp="#b8e6b5d3-d8b2-4828-a6b5-d3d8b2082869" type="editorialNote">
+                            <persName ref="https://edition-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">Link</persName>
                             <choice>
                                 <abbr>p.</abbr>
                                 <expan>page</expan>
-                            </choice> 32.</ref><note xml:id="f1db6029-61db-47d6-9b60-2961db57d6d2" corresp="#c6a55e62-80a3-42c2-a55e-6280a3b2c26a" type="editorial">Die Literaturangabe bezieht sich auf einen in den
+                            </choice> 32.</ref><note xml:id="b8e6b5d3-d8b2-4828-a6b5-d3d8b2082869" corresp="#d7bae53d-3db4-4d86-bae5-3d3db42d86d7" type="editorial">Die Literaturangabe bezieht sich auf einen in den
                             von <persName ref="https://edition-humboldt.de/H0016017 http://d-nb.info/gnd/118752243">Kurt Sprengel</persName>, <persName ref="https://edition-humboldt.de/H0015671 http://d-nb.info/gnd/117024279">Heinrich Adolf Schrader</persName> und <persName ref="https://edition-humboldt.de/H0004550 http://d-nb.info/gnd/104268190">Heinrich Friedrich Link</persName> herausgegebenen
                                 <hi rendition="#i">Jahrbüchern der Gewächskunde</hi> anonym
                             erschienenen Aufsatz (<bibl corresp="https://edition-humboldt.de/Z7VVPBPB">Jahrbücher
-                                der Gewächskunde 1820</bibl>). </note></note>
-                <lb/><choice>
+                                der Gewächskunde 1820</bibl>). </note>
+                </note>
+                <lb/>
+                <choice>
                     <orig>das</orig>
                     <reg>Das</reg>
                 </choice>
@@ -790,34 +1081,49 @@
                     <expan>Manuskript</expan>
                 </choice> von <persName ref="https://edition-humboldt.de/H0006219 http://d-nb.info/gnd/117662933">Arnott</persName>. avec <lb/>conclusion.
                 Voyez <ref xml:id="ed_d5t_nv1_fy" type="siglum" target="#Geographie_der_Pflanzen_B">B.</ref>
-                <ref xml:id="ed_uck_psb_ry" type="siglum" target="#Geographie_der_Pflanzen_L">L.</ref></p>
+                <ref xml:id="ed_uck_psb_ry" type="siglum" target="#Geographie_der_Pflanzen_L">L.</ref>
+            </p>
             <p>filices <persName ref="https://edition-humboldt.de/H0003561 http://d-nb.info/gnd/124434657">Bowdich</persName>: <name type="plant">Dicksonia</name>
-                <lb/>(Ungewißheit) <ref xml:id="eb4d370e-3366-410f-8d37-0e3366410f7c" corresp="#d6c246b9-80ac-490e-8246-b980ac390e9c" type="editorialNote"><choice>
+                <lb/>(Ungewißheit) <ref xml:id="d7abea42-fc61-41fc-abea-42fc61b1fc15" corresp="#f8c8d8b5-4b67-4c95-88d8-b54b673c9500" type="editorialNote">
+                        <choice>
                             <abbr>pag.</abbr>
                             <expan>pagina</expan>
-                        </choice> 49</ref><note xml:id="d6c246b9-80ac-490e-8246-b980ac390e9c" corresp="#eb4d370e-3366-410f-8d37-0e3366410f7c" type="editorial"><bibl corresp="https://edition-humboldt.de/RZ2G38ZN">Bowdich
+                        </choice> 49</ref><note xml:id="f8c8d8b5-4b67-4c95-88d8-b54b673c9500" corresp="#d7abea42-fc61-41fc-abea-42fc61b1fc15" type="editorial">
+                        <bibl corresp="https://edition-humboldt.de/RZ2G38ZN">Bowdich
                             1825</bibl>.</note>. <lb/>vide <ref xml:id="ed_b23_4v1_fy" type="siglum" target="#Geographie_der_Pflanzen_C">C</ref>
-                <note hand="#author" place="right"><name type="plant">Bauhinia</name>? <lb/>in
-                        <placeName ref="https://edition-humboldt.de/H0008558 https://www.geonames.org/2266874"><choice>
+                <note hand="#author" place="right">
+                    <name type="plant">Bauhinia</name>? <lb/>in
+                        <placeName ref="https://edition-humboldt.de/H0008558 https://www.geonames.org/2266874">
+                        <choice>
                             <sic>Maderia</sic>
                             <corr cert="high">Madeira</corr>
-                        </choice></placeName><supplied cert="high">.</supplied>
-                    <lb/><name type="plant">Banisteria</name>
+                        </choice>
+                    </placeName>
+                    <supplied cert="high">.</supplied>
+                    <lb/>
+                    <name type="plant">Banisteria</name>
                     <lb/>in <placeName ref="https://edition-humboldt.de/H0010229 https://www.geonames.org/2403846">Sierra Leona</placeName>
-                    <lb/><ref xml:id="d38e9d1e-358a-4859-8e9d-1e358a68596b" corresp="#b82c847a-a200-4a66-ac84-7aa2002a66ce" type="editorialNote"><bibl corresp="https://edition-humboldt.de/AA7UJAQF">Ansichten <choice>
+                    <lb/>
+                    <ref xml:id="d67c2af0-6692-4b88-bc2a-f06692cb8837" corresp="#f117b1ca-6eca-4ff0-97b1-ca6ecacff0ad" type="editorialNote">
+                            <bibl corresp="https://edition-humboldt.de/AA7UJAQF">Ansichten <choice>
                                     <abbr>p.</abbr>
                                     <expan>pagina</expan>
-                                </choice> 217</bibl></ref><note xml:id="b82c847a-a200-4a66-ac84-7aa2002a66ce" corresp="#d38e9d1e-358a-4859-8e9d-1e358a68596b" type="editorial">vgl. vielmehr Seite 117 von <bibl corresp="https://edition-humboldt.de/AA7UJAQF">Humboldt 1826c</bibl>, II</note>.</note>
+                                </choice> 217</bibl>
+                        </ref><note xml:id="f117b1ca-6eca-4ff0-97b1-ca6ecacff0ad" corresp="#d67c2af0-6692-4b88-bc2a-f06692cb8837" type="editorial">vgl. vielmehr Seite 117 von <bibl corresp="https://edition-humboldt.de/AA7UJAQF">Humboldt 1826c</bibl>, II</note>.</note>
             </p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 11. Kultivirte Pflanzen<note hand="#author" place="right"><metamark/>Citrus <lb/>sehr gelehrt <lb/>(<ref xml:id="ed_mtf_222_l1b" type="siglum" target="#Geographie_der_Pflanzen_K">K</ref>) <lb/>Limete,
-                        <bibl corresp="https://edition-humboldt.de/N3WX8X9M"><persName ref="https://edition-humboldt.de/H0000726 http://d-nb.info/gnd/118787802">Ramond</persName>
+                </choice> 11. Kultivirte Pflanzen<note hand="#author" place="right">
+                    <metamark/>Citrus <lb/>sehr gelehrt <lb/>(<ref xml:id="ed_mtf_222_l1b" type="siglum" target="#Geographie_der_Pflanzen_K">K</ref>) <lb/>Limete,
+                        <bibl corresp="https://edition-humboldt.de/N3WX8X9M">
+                        <persName ref="https://edition-humboldt.de/H0000726 http://d-nb.info/gnd/118787802">Ramond</persName>
                         <lb/>Nivellement <choice>
                             <abbr>p.</abbr>
                             <expan>page</expan>
-                        </choice> 158</bibl></note>
+                        </choice> 158</bibl>
+                </note>
                 <lb/>Mays <choice>
                     <abbr>u.</abbr>
                     <expan>und</expan>
@@ -826,23 +1132,35 @@
                     <expan>siehe</expan>
                 </choice>
                 <persName ref="https://edition-humboldt.de/H0001337 http://d-nb.info/gnd/10082451X">Klaproth</persName>
-                <lb/><ref xml:id="ed_xjk_qg2_l1b" type="siglum" target="#Geographie_der_Pflanzen_A">A.</ref> Solanum tuberosum <lb/><persName ref="https://edition-humboldt.de/H0004278 http://d-nb.info/gnd/116652292">Lambert</persName>. <choice>
+                <lb/>
+                <ref xml:id="ed_xjk_qg2_l1b" type="siglum" target="#Geographie_der_Pflanzen_A">A.</ref> Solanum tuberosum <lb/>
+                <persName ref="https://edition-humboldt.de/H0004278 http://d-nb.info/gnd/116652292">Lambert</persName>. <choice>
                     <abbr>S.</abbr>
                     <expan>Siehe</expan>
                 </choice>
-                <ref xml:id="ed_elj_5l2_l1b" type="siglum" target="#Geographie_der_Pflanzen_G">G.</ref></p>
-            <p><choice>
+                <ref xml:id="ed_elj_5l2_l1b" type="siglum" target="#Geographie_der_Pflanzen_G">G.</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 12. <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>. Siehe <bibl corresp="https://edition-humboldt.de/VWSWNKTG"><persName ref="https://edition-humboldt.de/H0013583 https://d-nb.info/gnd/1282994832">Gowan</persName></bibl><ref xml:id="ed_vg4_nmg_hy" type="siglum" target="#Geographie_der_Pflanzen_D">D.</ref>
-                <lb/>(<ref xml:id="a999c852-8ff7-4dcc-99c8-528ff7edccb0" corresp="#b6b35125-c85f-47e3-b351-25c85f37e34c" type="editorialNote">Lettre de <persName ref="https://edition-humboldt.de/H0004278 http://d-nb.info/gnd/116652292">Lambert</persName>
-                        <ref xml:id="ed_kkj_yqb_ry" type="siglum" target="#Geographie_der_Pflanzen_Ab">A<hi rendition="#sup">b</hi></ref></ref><note xml:id="b6b35125-c85f-47e3-b351-25c85f37e34c" corresp="#a999c852-8ff7-4dcc-99c8-528ff7edccb0" type="editorial">Vgl. den Brief von Aylmer Bourke Lambert an Humboldt,
+                </choice> 12. <placeName ref="https://edition-humboldt.de/H0006863 https://www.geonames.org/1252558">Himalaya</placeName>. Siehe <bibl corresp="https://edition-humboldt.de/VWSWNKTG">
+                    <persName ref="https://edition-humboldt.de/H0013583 https://d-nb.info/gnd/1282994832">Gowan</persName>
+                </bibl>
+                <ref xml:id="ed_vg4_nmg_hy" type="siglum" target="#Geographie_der_Pflanzen_D">D.</ref>
+                <lb/>(<ref xml:id="e2a6ba15-a10b-4767-a6ba-15a10b77670d" corresp="#ebba4fff-81a1-4bd4-ba4f-ff81a16bd448" type="editorialNote">Lettre de <persName ref="https://edition-humboldt.de/H0004278 http://d-nb.info/gnd/116652292">Lambert</persName>
+                        <ref xml:id="ed_kkj_yqb_ry" type="siglum" target="#Geographie_der_Pflanzen_Ab">A<hi rendition="#sup">b</hi>
+                        </ref>
+                    </ref><note xml:id="ebba4fff-81a1-4bd4-ba4f-ff81a16bd448" corresp="#e2a6ba15-a10b-4767-a6ba-15a10b77670d" type="editorial">Vgl. den Brief von Aylmer Bourke Lambert an Humboldt,
                         London, 14. November 1820 (<ref target="https://edition-humboldt.de/H0014540">https://edition-humboldt.de/H0014540</ref>).</note>.) </p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 13. Ueber <persName ref="https://edition-humboldt.de/H0002189 http://d-nb.info/gnd/118793357">Pristley</persName>’s Materie
-                <lb/>alles zusammengetragen <bibl corresp="https://edition-humboldt.de/AUJEUWAV"><persName ref="https://edition-humboldt.de/H0002004 https://d-nb.info/gnd/128258202X"><lb/>Pitois</persName>
+                <lb/>alles zusammengetragen <bibl corresp="https://edition-humboldt.de/AUJEUWAV">
+                    <persName ref="https://edition-humboldt.de/H0002004 https://d-nb.info/gnd/128258202X">
+                        <lb/>Pitois</persName>
                     <choice>
                         <abbr>Dict.</abbr>
                         <expan>Dictionnaire</expan>
@@ -854,10 +1172,12 @@
                         <abbr>p.</abbr>
                         <expan>page</expan>
                     </choice> 376</bibl>.</p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 14. <add place="superlinear"><choice>
+                </choice> 14. <add place="superlinear">
+                    <choice>
                         <orig>flor</orig>
                         <reg>Flor</reg>
                     </choice> der</add>
@@ -865,8 +1185,10 @@
                     <abbr>S.</abbr>
                     <expan>Siehe</expan>
                 </choice>
-                <ref xml:id="ed_asx_gp1_1z" type="siglum" target="#Geographie_der_Pflanzen_E">E</ref></p>
-            <p><choice>
+                <ref xml:id="ed_asx_gp1_1z" type="siglum" target="#Geographie_der_Pflanzen_E">E</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 15. <choice>
@@ -876,12 +1198,16 @@
                     <abbr>S.</abbr>
                     <expan>Siehe</expan>
                 </choice>
-                <ref xml:id="ed_izd_xll_j1b" type="siglum" target="#Geographie_der_Pflanzen_F">F</ref></p>
-            <p><choice>
+                <ref xml:id="ed_izd_xll_j1b" type="siglum" target="#Geographie_der_Pflanzen_F">F</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 16. Größe der Continente. –<lb/><persName ref="https://edition-humboldt.de/H0014010 http://d-nb.info/gnd/104047860">Mathieu</persName> (<ref xml:id="ed_rrr_5ln_j1b" type="siglum" target="#Geographie_der_Pflanzen_I">I.</ref>)</p>
-            <p><choice>
+                </choice> 16. Größe der Continente. –<lb/>
+                <persName ref="https://edition-humboldt.de/H0014010 http://d-nb.info/gnd/104047860">Mathieu</persName> (<ref xml:id="ed_rrr_5ln_j1b" type="siglum" target="#Geographie_der_Pflanzen_I">I.</ref>)</p>
+            <p>
+                <choice>
                     
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
@@ -889,47 +1215,64 @@
                     <abbr>v.</abbr>
                     <expan>von</expan>
                 </choice>
-                <placeName ref="https://edition-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName>. <bibl corresp="https://edition-humboldt.de/A5CIU67Z"><placeName ref="https://edition-humboldt.de/H0016299 https://www.geonames.org/2513236"><choice>
+                <placeName ref="https://edition-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName>. <bibl corresp="https://edition-humboldt.de/A5CIU67Z">
+                    <placeName ref="https://edition-humboldt.de/H0016299 https://www.geonames.org/2513236">
+                        <choice>
                             <sic>Cerra</sic>
                             <corr cert="high">Sierra</corr>
                         </choice>
-                        <lb/>Nevada de Grenade</placeName> – <lb/><persName ref="https://edition-humboldt.de/H0004261 http://d-nb.info/gnd/117573655"><choice>
+                        <lb/>Nevada de Grenade</placeName> – <lb/>
+                    <persName ref="https://edition-humboldt.de/H0004261 http://d-nb.info/gnd/117573655">
+                        <choice>
                             <abbr>Lagasc.</abbr>
                             <expan>Lagasca</expan>
-                        </choice></persName> Anales V. <choice>
+                        </choice>
+                    </persName> Anales V. <choice>
                         <abbr>p.</abbr>
                         <expan>página</expan>
-                    </choice> 270</bibl>. <lb/>(<bibl corresp="https://edition-humboldt.de/VPNZR9GI"><persName ref="https://edition-humboldt.de/H0003511 http://d-nb.info/gnd/100050395">Bory</persName> Annales générales <choice>
-                        <abbr><lb/>Tom</abbr>
+                    </choice> 270</bibl>. <lb/>(<bibl corresp="https://edition-humboldt.de/VPNZR9GI">
+                    <persName ref="https://edition-humboldt.de/H0003511 http://d-nb.info/gnd/100050395">Bory</persName> Annales générales <choice>
+                        <abbr>
+                            <lb/>Tom</abbr>
                         <expan>Tome</expan>
                     </choice> III. <choice>
                         <abbr>p.</abbr>
                         <expan>page</expan>
-                    </choice> 16</bibl>.)</p>
+                    </choice> 16</bibl>.)
+            </p>
             <p>
-                <pb n="6v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000020.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
-            <p><pb n="7r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000021.jpg"/>
+                <pb n="6v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000020.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </p>
+            <p>
+                <pb n="7r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000021.jpg"/>
                 <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 18. <placeName ref="https://edition-humboldt.de/H0006552 https://www.geonames.org/3489940">Jamaica</placeName> (<placeName ref="https://edition-humboldt.de/H0005261 https://www.geonames.org/3490278">Montes caerulei</placeName>) <lb/><choice>
+                </choice> 18. <placeName ref="https://edition-humboldt.de/H0006552 https://www.geonames.org/3489940">Jamaica</placeName> (<placeName ref="https://edition-humboldt.de/H0005261 https://www.geonames.org/3490278">Montes caerulei</placeName>) <lb/>
+                <choice>
                     <abbr>S.</abbr>
                     <expan>Siehe</expan>
                 </choice>
-                <ref xml:id="ed_qc5_llt_sy" type="siglum" target="#Geographie_der_Pflanzen_M">M.</ref></p>
-            <p><choice>
+                <ref xml:id="ed_qc5_llt_sy" type="siglum" target="#Geographie_der_Pflanzen_M">M.</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 19. <placeName ref="https://edition-humboldt.de/H0005346 https://www.geonames.org/3469034">Brasilien</placeName>. <persName ref="https://edition-humboldt.de/H0015387 http://d-nb.info/gnd/116759933"><choice>
+                </choice> 19. <placeName ref="https://edition-humboldt.de/H0005346 https://www.geonames.org/3469034">Brasilien</placeName>. <persName ref="https://edition-humboldt.de/H0015387 http://d-nb.info/gnd/116759933">
+                    <choice>
                         <abbr>S.</abbr>
                         <expan>Saint</expan>
-                    </choice><supplied cert="high">-</supplied>Hilaire</persName>. <choice>
+                    </choice>
+                    <supplied cert="high">-</supplied>Hilaire</persName>. <choice>
                     <abbr>S.</abbr>
                     <expan>Siehe</expan>
                 </choice>
                 <ref xml:id="ed_jyp_mwq_5y" type="siglum" target="#Geographie_der_Pflanzen_N">N.</ref>
                 <lb/>
-                <note hand="#author" place="inline"><choice>
+                <note hand="#author" place="inline">
+                    <choice>
                         <orig>pas</orig>
                         <reg>Pas</reg>
                     </choice> de chênes, pas de pins. <choice>
@@ -937,136 +1280,216 @@
                         <reg>Fougères</reg>
                     </choice> arborescentes de <measure quantity="20" unit="pied_de_roi">20
                         pieds</measure>
-                    <lb/>sur <placeName ref="https://edition-humboldt.de/H0006749 https://www.geonames.org/3460923">l’Ita<g ref="#typoHyphen"/><lb break="no"/>coloumi</placeName>
+                    <lb/>sur <placeName ref="https://edition-humboldt.de/H0006749 https://www.geonames.org/3460923">l’Ita<g ref="#typoHyphen"/>
+                        <lb break="no"/>coloumi</placeName>
                     <lb/>à <measure quantity="900" unit="toise">900 <choice>
                             <abbr>tois.</abbr>
                             <expan>toises</expan>
-                        </choice></measure>
-                    <lb/><persName ref="https://edition-humboldt.de/H0015802 http://d-nb.info/gnd/138180881">Sello</persName><supplied cert="high">.</supplied></note>
+                        </choice>
+                    </measure>
+                    <lb/>
+                    <persName ref="https://edition-humboldt.de/H0015802 http://d-nb.info/gnd/138180881">Sello</persName>
+                    <supplied cert="high">.</supplied>
+                </note>
             </p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 20. <placeName ref="https://edition-humboldt.de/H0006686 https://www.geonames.org/1269750">Indien</placeName>, <placeName ref="https://edition-humboldt.de/H0001674 https://www.geonames.org/1261390">Montagnes
-                    bleues</placeName> – <ref xml:id="ed_y23_vxv_yy" type="siglum" target="#Geographie_der_Pflanzen_P">P.</ref>) <lb/><subst>
+                    bleues
+                </placeName> – <ref xml:id="ed_y23_vxv_yy" type="siglum" target="#Geographie_der_Pflanzen_P">P.</ref>) <lb/>
+                <subst>
                     <del rendition="#s">Ensli</del>
                     <add place="intralinear">(<persName ref="https://edition-humboldt.de/H0012545 http://d-nb.info/gnd/11367077X">Ainslie</persName>
                         <ref xml:id="ed_nr3_4qt_sy" type="siglum" target="#Geographie_der_Pflanzen_Ad">Ad.</ref>)</add>
-                </subst></p>
-            <p><choice>
+                </subst>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 21. <name type="plant">Pinus occidentalis</name>. (<ref xml:id="ed_bg1_dd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Q">Q</ref>)</p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 22. <placeName ref="https://edition-humboldt.de/H0006750 https://www.geonames.org/3175395">Italien</placeName>
                 <subst>
                     <del rendition="#s">Show</del>
-                    <add place="intralinear"><persName ref="https://edition-humboldt.de/H0015668 http://d-nb.info/gnd/118867148">Schow</persName></add>
+                    <add place="intralinear">
+                        <persName ref="https://edition-humboldt.de/H0015668 http://d-nb.info/gnd/118867148">Schow</persName>
+                    </add>
                 </subst>
-                <lb/><choice>
+                <lb/>
+                <choice>
                     <abbr>S.</abbr>
                     <expan>Siehe</expan>
                 </choice>
                 <ref xml:id="ed_dfc_gtm_j1b" type="siglum" target="#Geographie_der_Pflanzen_T">T.</ref>
             </p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 23. <placeName ref="https://edition-humboldt.de/H0010384 https://www.geonames.org/4030483">Mer du Sud</placeName>. <placeName ref="https://edition-humboldt.de/H0009642 https://www.geonames.org/5877199">Alasca</placeName>
-                <lb/><persName ref="https://edition-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName>
-                <ref xml:id="ed_myb_nqb_ry" type="siglum" target="#Geographie_der_Pflanzen_U">U.</ref></p>
-            <p><choice>
+                <lb/>
+                <persName ref="https://edition-humboldt.de/H0012990 http://d-nb.info/gnd/118520040">Chamisso</persName>
+                <ref xml:id="ed_myb_nqb_ry" type="siglum" target="#Geographie_der_Pflanzen_U">U.</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 24. <placeName ref="https://edition-humboldt.de/H0010336 https://www.geonames.org/7521757">Spitzbergen</placeName> – <ref xml:id="ed_cjz_4qb_ry" type="siglum" target="#Geographie_der_Pflanzen_V">V
-                    </ref><lb/>(<persName ref="https://edition-humboldt.de/H0015758 http://d-nb.info/gnd/117654167">Skoresby</persName>)<note hand="https://edition-humboldt.de/#H0012069" place="right"><choice>
+                    </ref>
+                <lb/>(<persName ref="https://edition-humboldt.de/H0015758 http://d-nb.info/gnd/117654167">Skoresby</persName>)<note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="right">
+                    <choice>
                         <abbr>Distrib</abbr>
                         <expan>Distribution</expan>
-                    </choice> de la <lb/>Flore <placeName ref="https://edition-humboldt.de/H0000355 https://www.geonames.org/3367577"><choice>
+                    </choice> de la <lb/>Flore <placeName ref="https://edition-humboldt.de/H0000355 https://www.geonames.org/3367577">
+                        <choice>
                             <abbr>Capens.</abbr>
                             <expan>Capensis</expan>
-                        </choice></placeName><supplied cert="high">.</supplied><list>
-                        <item>wenig <name type="plant"><hi rendition="#u"><choice>
+                        </choice>
+                    </placeName>
+                    <supplied cert="high">.</supplied>
+                    <list>
+                        <item>wenig <name type="plant">
+                                <hi rendition="#u">
+                                    <choice>
                                         <abbr>Lab</abbr>
                                         <expan>Labiatae</expan>
-                                    </choice></hi></name>
-                            <lb/><name type="plant"><hi rendition="#u"><choice>
+                                    </choice>
+                                </hi>
+                            </name>
+                            <lb/>
+                            <name type="plant">
+                                <hi rendition="#u">
+                                    <choice>
                                         <abbr>Malv</abbr>
                                         <expan>Malvaceae</expan>
-                                    </choice></hi></name></item>
-                        <item><name type="plant"><choice>
+                                    </choice>
+                                </hi>
+                            </name>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <choice>
                                     <abbr>Umb</abbr>
                                     <expan>Umbelliferae</expan>
-                                </choice></name></item>
-                        <item>viel <name type="plant"><choice>
-                                    <abbr><hi rendition="#u">Leg</hi></abbr>
+                                </choice>
+                            </name>
+                        </item>
+                        <item>viel <name type="plant">
+                                <choice>
+                                    <abbr>
+                                        <hi rendition="#u">Leg</hi>
+                                    </abbr>
                                     <expan>Leguminosae</expan>
-                                </choice></name></item>
-                        <item><name type="plant"><hi rendition="#u">Eric<supplied cert="high">ace</supplied>ae</hi></name><p><bibl corresp="https://edition-humboldt.de/22HU93WS"><persName ref="https://edition-humboldt.de/H0013256 http://d-nb.info/gnd/104311258">Cruse</persName> Rubiaceae <lb/>Capensis 1825 <lb/><choice>
+                                </choice>
+                            </name>
+                        </item>
+                        <item>
+                            <name type="plant">
+                                <hi rendition="#u">Eric<supplied cert="high">ace</supplied>ae</hi>
+                            </name>
+                            <p>
+                                <bibl corresp="https://edition-humboldt.de/22HU93WS">
+                                    <persName ref="https://edition-humboldt.de/H0013256 http://d-nb.info/gnd/104311258">Cruse</persName> Rubiaceae <lb/>Capensis 1825 <lb/>
+                                    <choice>
                                         <abbr>p</abbr>
                                         <expan>pagina</expan>
-                                    </choice> 22</bibl>. <lb/>(Kunth)<lb/></p></item>
-                    </list></note>
+                                    </choice> 22</bibl>. <lb/>(Kunth)<lb/>
+                            </p>
+                        </item>
+                    </list>
+                </note>
             </p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 25. <choice>
                     <orig>plantes</orig>
                     <reg>Plantes</reg>
-                </choice> marines <persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921"><lb/>Candolle</persName>
-                <ref xml:id="ed_ctf_rqb_ry" type="siglum" target="#Geographie_der_Pflanzen_Y">Y.</ref></p>
-            <p><choice>
+                </choice> marines <persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">
+                    <lb/>Candolle</persName>
+                <ref xml:id="ed_ctf_rqb_ry" type="siglum" target="#Geographie_der_Pflanzen_Y">Y.</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 26. Arbres résineux et <lb/>rapport des plantes avec la <lb/>chaleur.
                     <persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">Candolle</persName>. <ref xml:id="ed_h3n_tqb_ry" type="siglum" target="#Geographie_der_Pflanzen_Z">Z</ref>
                 <lb/>
             </p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 27. <placeName ref="https://edition-humboldt.de/H0009136 https://www.geonames.org/6252001">États<supplied cert="high">-</supplied>Unis</placeName>. Karakteristik <lb/><ref xml:id="ed_yjt_qqt_4y" type="siglum" target="#Geographie_der_Pflanzen_Aa">Aa.</ref>
-                <ref xml:id="ed_zlf_z51_fy" type="siglum" target="#Geographie_der_Pflanzen_Ag">A.g.</ref></p>
-            <p><choice>
+                </choice> 27. <placeName ref="https://edition-humboldt.de/H0009136 https://www.geonames.org/6252001">États<supplied cert="high">-</supplied>Unis</placeName>. Karakteristik <lb/>
+                <ref xml:id="ed_yjt_qqt_4y" type="siglum" target="#Geographie_der_Pflanzen_Aa">Aa.</ref>
+                <ref xml:id="ed_zlf_z51_fy" type="siglum" target="#Geographie_der_Pflanzen_Ag">A.g.</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 28. <placeName ref="https://edition-humboldt.de/H0000394 https://www.geonames.org/573081">Flore du Caucase</placeName>
-                <lb/><ref xml:id="ed_eqk_bv1_fy" type="siglum" target="#Geographie_der_Pflanzen_Ac">Ac.</ref></p>
-            <p><pb n="7v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000022.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
-            <p><pb n="8r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000023.jpg"/>
+                <lb/>
+                <ref xml:id="ed_eqk_bv1_fy" type="siglum" target="#Geographie_der_Pflanzen_Ac">Ac.</ref>
+            </p>
+            <p>
+                <pb n="7v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000022.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </p>
+            <p>
+                <pb n="8r" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000023.jpg"/>
                 <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 29. <placeName ref="https://edition-humboldt.de/H0009313 https://www.geonames.org/2510529">Teneriffa</placeName>
-                <del rendition="#s">A</del><lb/><persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName>. <persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">Candolle</persName>
-                <ref xml:id="ed_yv4_ld2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Ae">Ae.</ref></p>
-            <p><choice>
+                <del rendition="#s">A</del>
+                <lb/>
+                <persName ref="https://edition-humboldt.de/H0003735 http://d-nb.info/gnd/116817569">Buch</persName>. <persName ref="https://edition-humboldt.de/H0012873 http://d-nb.info/gnd/116442921">Candolle</persName>
+                <ref xml:id="ed_yv4_ld2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Ae">Ae.</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 30. Grüne Pflanzenkeime <lb/><ref xml:id="ed_qjh_wd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Af">Af.</ref></p>
-            <p><choice>
+                </choice> 30. Grüne Pflanzenkeime <lb/>
+                <ref xml:id="ed_qjh_wd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Af">Af.</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 31. <placeName ref="https://edition-humboldt.de/H0001699">Nordasien</placeName>. <persName ref="https://edition-humboldt.de/H0001770 http://d-nb.info/gnd/118591371">Pallas</persName> IV. <choice>
                     <abbr>p.</abbr>
                     <expan>pagina</expan>
                 </choice> 24.</p>
-            <p><choice>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
                 </choice> 32. Crucifères des <placeName ref="https://edition-humboldt.de/H0009532 http://d-nb.info/gnd/4060997-2">tropiques</placeName>
                 <ref xml:id="ed_ol3_xt3_wy" type="siglum" target="#Geographie_der_Pflanzen_Ag">Ag.</ref>
-                <lb/>Mimosen <ref xml:id="ed_ond_wt3_wy" type="siglum" target="#Geographie_der_Pflanzen_Ah">Ah.</ref></p>
-            <p><choice>
+                <lb/>Mimosen <ref xml:id="ed_ond_wt3_wy" type="siglum" target="#Geographie_der_Pflanzen_Ah">Ah.</ref>
+            </p>
+            <p>
+                <choice>
                     <abbr>No.</abbr>
                     <expan>Numero</expan>
-                </choice> 33. Gegen die Idee des Klimatisirens <lb/><ref xml:id="ed_ann_pd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Ak">Ak.</ref> (limite sur les
-                    montagnes)<supplied cert="high">.</supplied></p>
-            <note hand="https://edition-humboldt.de/#H0012069" place="mBottom">
-                <p><choice>
+                </choice> 33. Gegen die Idee des Klimatisirens <lb/>
+                <ref xml:id="ed_ann_pd2_l1b" type="siglum" target="#Geographie_der_Pflanzen_Ak">Ak.</ref> (limite sur les
+                    montagnes)<supplied cert="high">.</supplied>
+            </p>
+            <note hand="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700" place="mBottom">
+                <p>
+                    <choice>
                         <abbr>n</abbr>
                         <expan>Numero</expan>
                     </choice> 34. <persName ref="https://edition-humboldt.de/H0003693 http://d-nb.info/gnd/118674455">Browns</persName>
@@ -1076,11 +1499,13 @@
                     </choice> über <choice>
                         <orig>indigeneität</orig>
                         <reg>Indigenität</reg>
-                    </choice><supplied cert="high">:</supplied>
-                    <lb/>da wo andere Species wild sind. <lb/>Mays? <ref xml:id="fc0b2eba-b0d6-47fc-8b2e-bab0d617fc4a" corresp="#ce03887e-0fae-4e63-8388-7e0fae4e631e" type="editorialNote"><bibl corresp="https://edition-humboldt.de/KG4X57GQ">Congo <choice>
+                    </choice>
+                    <supplied cert="high">:</supplied>
+                    <lb/>da wo andere Species wild sind. <lb/>Mays? <ref xml:id="c0d8221a-d7e9-4680-9822-1ad7e906803d" corresp="#bbfa58a4-9c49-4940-ba58-a49c49e94035" type="editorialNote">
+                            <bibl corresp="https://edition-humboldt.de/KG4X57GQ">Congo <choice>
                                     <abbr>p</abbr>
                                     <expan>page</expan>
-                                </choice> 50–53</bibl>.</ref><note xml:id="ce03887e-0fae-4e63-8388-7e0fae4e631e" corresp="#fc0b2eba-b0d6-47fc-8b2e-bab0d617fc4a" type="editorial">Robert Brown diskutiert in seinen <hi rendition="#i">Observations Systematical and Geographical on the
+                                </choice> 50–53</bibl>.</ref><note xml:id="bbfa58a4-9c49-4940-ba58-a49c49e94035" corresp="#c0d8221a-d7e9-4680-9822-1ad7e906803d" type="editorial">Robert Brown diskutiert in seinen <hi rendition="#i">Observations Systematical and Geographical on the
                                 Herbarium Collected by Professor Christian Smith</hi> wie der
                             Ursprung Nutzpflanzen, die Smith an der Westküste Afrikas gefunden
                             hatte, mit pflanzengeographischen Methoden zu bestimmen sei und kommt zu
@@ -1092,29 +1517,39 @@
                                 exist.</quote> (<bibl corresp="https://edition-humboldt.de/KG4X57GQ">Brown
                                 1818</bibl>).</note>
                 </p>
-                <p><choice>
+                <p>
+                    <choice>
                         <orig>migration</orig>
                         <reg>Migration</reg>
-                    </choice><supplied cert="high">,</supplied> importation. <choice>
+                    </choice>
+                    <supplied cert="high">,</supplied> importation. <choice>
                         <orig>banane</orig>
                         <reg>Banane</reg>
-                    </choice><supplied cert="high">,</supplied>
-                    <name type="plant">Citrus</name><supplied cert="high">,</supplied>
-                    <lb/>mays / tabac pour discuter <lb/>où notions historiques manquent<supplied cert="high">.</supplied></p>
+                    </choice>
+                    <supplied cert="high">,</supplied>
+                    <name type="plant">Citrus</name>
+                    <supplied cert="high">,</supplied>
+                    <lb/>mays / tabac pour discuter <lb/>où notions historiques manquent<supplied cert="high">.</supplied>
+                </p>
                 <p>1) moyen de chercher <unclear reason="illegible" cert="high">en</unclear>
-                    <lb/>genre plus d’espèces<supplied cert="high">.</supplied></p>
+                    <lb/>genre plus d’espèces<supplied cert="high">.</supplied>
+                </p>
                 <p>2) Sprache. <persName ref="https://edition-humboldt.de/H0012545 http://d-nb.info/gnd/11367077X">Ainslie</persName>. <choice>
                         <orig>peut</orig>
                         <reg>Peut</reg>
                     </choice>
                     <lb/>prendre forme du mot indigène<supplied cert="high">.</supplied>
-                    <lb/><choice>
+                    <lb/>
+                    <choice>
                         <orig>tabatsi</orig>
                         <reg>Tabatsi</reg>
                     </choice>, de qualité, ancien <lb/>nom <unclear reason="illegible" cert="low">ap<supplied cert="high">p</supplied>liqué</unclear>
                     <hi rendition="#u">elephas</hi>, tabac <lb/>en sanscrit. </p>
             </note>
             <p> </p>
-            <p><pb n="8v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000024.jpg"/><gap unit="pages" quantity="1" reason="empty"/></p>
+            <p>
+                <pb n="8v" facs="http://content.staatsbibliothek-berlin.de/dms/PPN82636652X/1200/0/00000024.jpg"/>
+                <gap unit="pages" quantity="1" reason="empty"/>
+            </p>
         </body></text>
 </TEI>

@@ -15,15 +15,6 @@
                         <forename>Christian</forename>
                     </persName>
                 </editor>
-               <respStmt>
-                    <persName xml:id="AG">
-                        <surname>Geiser</surname>
-                        <forename>Annika</forename>
-                    </persName>
-                    <resp>
-                        <note type="remarkResponsibility">Mitarbeit</note>
-                    </resp>
-                </respStmt>
                 <respStmt>
                     <persName ref="http://d-nb.info/gnd/139028285" xml:id="UP">
                         <surname>Päßler</surname>
@@ -42,9 +33,9 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
-            </titleStmt><editionStmt><p>Humboldt, Alexander von: De Paris à Toulon[,] 1798. [= Tagebuch der Frankreich-Reise], hg. v. David Blankenstein und Christian Thomas unter Mitarbeit von Annika Geiser, Ulrich Päßler und Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0018407">https://edition-humboldt.de/v10/H0018407</ref></p></editionStmt>
+            </titleStmt><editionStmt><p>Humboldt, Alexander von: De Paris à Toulon[,] 1798. [= Tagebuch der Frankreich-Reise], hg. v. David Blankenstein und Christian Thomas unter Mitarbeit von Ulrich Päßler und Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0018407</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0018407.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -54,16 +45,14 @@
                         <collection>Nachl. Alexander von Humboldt (Tagebücher)</collection>
                         <idno>
                             <idno>
-                                <idno type="shelfmark">II und VI, Bl. 50r–61v</idno>
+                                <idno type="shelfmark">II und VI, Bl. 50r–61v; 69r–69v</idno>
                                 <idno type="URLImages">http://resolver.staatsbibliothek-berlin.de/SBB0001527300000000</idno>
                                 <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2350319</idno>
                                 <idno type="URLCatalogue">http://stabikat.de/DB=1/PPN?PPN=779881117</idno>
                             </idno>
                             <idno>
                                 <idno type="shelfmark">V,
-                                    Bl.
-                                    69r–69v;
-                                    71r–71v</idno>
+                                    Bl. 71r–71v</idno>
                                 <idno type="URLImages">http://resolver.staatsbibliothek-berlin.de/SBB0001527800000000</idno>
                                 <idno type="uri">http://kalliope-verbund.info/DE-611-HS-2350323</idno>
                                 <idno type="URLCatalogue">http://stabikat.de/DB=1/PPN?PPN=779883365</idno>
@@ -83,6 +72,11 @@
                 <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
                 <date to="1798-12" cert="high"/>
             </creation>
+            <langUsage>
+                <language scope="major" ident="deu"/>
+                <language scope="minor" ident="fra"/>
+                <language scope="minor" ident="lat"/>
+            </langUsage>
         </profileDesc>
         
     </teiHeader>
@@ -129,10 +123,10 @@
                 </note>
                 <p>für <persName resp="#CT" ref="https://edition-humboldt.de/H0006403 http://d-nb.info/gnd/117387436">Willdenow</persName> 
                     in <placeName resp="#AG" ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> gesam̅let 65 Species.</p>
-                    <p>Der <ref xml:id="af74ab20-325a-4939-b4ab-20325af9390d" corresp="#fea4a081-bba7-4c4f-a4a0-81bba7fc4f18" type="editorialNote"><choice>
+                    <p>Der <ref xml:id="c1c90a20-bda6-4c7b-890a-20bda61c7b5f" corresp="#f28c95af-109c-4289-8c95-af109cb28966" type="editorialNote"><choice>
                                         <abbr>Chron.</abbr>
                                         <expan>Chronometer</expan>
-                                    </choice></ref><note xml:id="fea4a081-bba7-4c4f-a4a0-81bba7fc4f18" corresp="#af74ab20-325a-4939-b4ab-20325af9390d" type="editorial" resp="#DB">Vgl. dazu <bibl corresp="https://edition-humboldt.de/K72W6S3Q">Kortum 2001</bibl>, 33:
+                                    </choice></ref><note xml:id="f28c95af-109c-4289-8c95-af109cb28966" corresp="#c1c90a20-bda6-4c7b-890a-20bda61c7b5f" type="editorial" resp="#DB">Vgl. dazu <bibl corresp="https://edition-humboldt.de/K72W6S3Q">Kortum 2001</bibl>, 33:
                                     <quote>Kurz vor seiner Abreise nach <placeName ref="https://edition-humboldt.de/H0010380 https://www.geonames.org/6255150">Südamerika</placeName> erwarb Humboldt zur Ergänzung seiner
                                     Instrumentenausrüstung ein ganz besonderes
                                     Präzisions-Taschenchronometer, gefertigt von dem berühmten
@@ -219,11 +213,11 @@
                                     <abbr>D.</abbr>
                                     <expan>Don</expan>
                                 </choice> <persName ref="https://edition-humboldt.de/H0019487">Thomas de la Guardia</persName>.</item>
-                                <item><ref xml:id="deab9ef1-ed0a-4cc6-ab9e-f1ed0afcc62e" corresp="#ee7c4244-f136-4d44-bc42-44f1368d440b" type="editorialNote"><choice>
+                                <item><ref xml:id="fa92fee6-5746-4408-92fe-e657465408c3" corresp="#c8bb236c-929c-489b-bb23-6c929c989b13" type="editorialNote"><choice>
                                         <abbr>D.</abbr>
                                         <expan>Don</expan>
                                     </choice>
-                                        <persName>Josef de Miqueli</persName></ref><note xml:id="ee7c4244-f136-4d44-bc42-44f1368d440b" corresp="#deab9ef1-ed0a-4cc6-ab9e-f1ed0afcc62e" type="editorial" resp="#CT">Die hier genannte Person konnte
+                                        <persName>Josef de Miqueli</persName></ref><note xml:id="c8bb236c-929c-489b-bb23-6c929c989b13" corresp="#fa92fee6-5746-4408-92fe-e657465408c3" type="editorial" resp="#CT">Die hier genannte Person konnte
                                         bisher nicht identifiziert werden.</note></item>
                             </list> <placeName resp="#AG" ref="https://edition-humboldt.de/H0006819 https://www.geonames.org/3553478">Havana</placeName>.</item>
                     </list>
@@ -283,7 +277,7 @@
                         <lb/>außer dem eiteln <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> kleinlichen <persName ref="https://edition-humboldt.de/H0000039 http://viaf.org/viaf/51732835">Faujas</persName>. Die
+                        </choice> kleinlichen <persName ref="https://edition-humboldt.de/H0000039 https://d-nb.info/gnd/116413123">Faujas</persName>. Die
                             Empfin<lb break="no"/>dung<supplied cert="high">,</supplied> mit der ich
                         von <persName ref="https://edition-humboldt.de/H0003136 http://d-nb.info/gnd/119227568">Baudin</persName> schied<supplied cert="high">,</supplied> war sonderbar. <lb/>Der Seemann sagte, es sei eine aus
                         einander gegange<lb break="no"/>ne Heirath. Wir glaubten<supplied cert="high">,</supplied> 3 Jahre lang auf einem <lb/>Boothe dicht neben
@@ -307,11 +301,11 @@
                             <reg>.</reg>
                         </choice> Armer <lb/>Mensch, als wenn man im reiferen
                         Alter unab<g ref="#typoHyphen"/><lb break="no"/>hängiger vom Schiksale wäre!
-                        Im Marais war der <lb/>Abschied kalt. <ref xml:id="bbd9922d-fe1d-4c01-9992-2dfe1d4c0117" corresp="#ac5d5c2a-d9f4-4fb4-9d5c-2ad9f4ffb480" type="editorialNote"><choice>
+                        Im Marais war der <lb/>Abschied kalt. <ref xml:id="b02c5f1e-d20f-4833-ac5f-1ed20fd833f8" corresp="#ab29a192-94df-4e12-a9a1-9294df0e12ac" type="editorialNote"><choice>
                                     <abbr>Mad.</abbr>
                                     <expan>Madame</expan>
                                 </choice>
-                                <persName ref="https://edition-humboldt.de/H0002071">Pommard</persName></ref><note xml:id="ac5d5c2a-d9f4-4fb4-9d5c-2ad9f4ffb480" corresp="#bbd9922d-fe1d-4c01-9992-2dfe1d4c0117" type="editorial" resp="#Humboldt_2000 #DF">D. i. <persName ref="https://edition-humboldt.de/H0002071">Elisabeth-Aglaé Leblanc de Pommard</persName>,
+                                <persName ref="https://edition-humboldt.de/H0002071">Pommard</persName></ref><note xml:id="ab29a192-94df-4e12-a9a1-9294df0e12ac" corresp="#b02c5f1e-d20f-4833-ac5f-1ed20fd833f8" type="editorial" resp="#Humboldt_2000 #DF">D. i. <persName ref="https://edition-humboldt.de/H0002071">Elisabeth-Aglaé Leblanc de Pommard</persName>,
                                 die Mutter desjenigen <persName resp="#CT" ref="https://edition-humboldt.de/H0002070">Pommard</persName>, der dem Astronomen <persName ref="https://edition-humboldt.de/H0012189 http://d-nb.info/gnd/118878913">Delambre</persName> bei seinen Messungen geholfen hatte und den
                                 dieser nicht an den Astronomen <persName resp="#CT" ref="https://edition-humboldt.de/H0004271 http://d-nb.info/gnd/104234059">Lalande</persName> abtreten wollte; vgl. <bibl corresp="https://edition-humboldt.de/6Y6NDEPF">Ephemeriden 1798</bibl>, <ref target="https://zs.thulb.uni-jena.de/rsc/viewer/jportal_derivate_00200985/AGE_1798_Bd02_0173.tif">173</ref> sowie <bibl corresp="https://edition-humboldt.de/CD8ZDJ5R">Humboldt
                                     1993</bibl>, 121 und Register. Vgl. zur Identifikation der
@@ -326,8 +320,8 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> reger Einbildungskraft. In der Empfindung <lb/>begegneten wir uns
-                        nie. Von jungen Leuten verließ <lb/>ich <ref xml:id="bb50b39b-1681-4d84-90b3-9b1681dd848d" corresp="#caa5a627-5be2-4ce3-a5a6-275be2cce320" type="editorialNote"><persName ref="https://edition-humboldt.de/H0003914 http://d-nb.info/gnd/117302023">Tenard</persName> ungern. Auch <del rendition="#s">der</del>
-                                <persName ref="https://edition-humboldt.de/H0000962 http://d-nb.info/gnd/116577924">Robiquet</persName></ref><note xml:id="caa5a627-5be2-4ce3-a5a6-275be2cce320" corresp="#bb50b39b-1681-4d84-90b3-9b1681dd848d" type="editorial" resp="#Humboldt_2000 #CT"><persName ref="https://edition-humboldt.de/H0003914 http://d-nb.info/gnd/117302023">Jacques Thenard</persName> und <persName ref="https://edition-humboldt.de/H0000962 http://d-nb.info/gnd/116577924">Pierre Jean Robiquet</persName>; damals wohl
+                        nie. Von jungen Leuten verließ <lb/>ich <ref xml:id="b3fc44a9-6892-431e-bc44-a96892731e9f" corresp="#cbf2f026-3b50-4c54-b2f0-263b50dc5421" type="editorialNote"><persName ref="https://edition-humboldt.de/H0003914 http://d-nb.info/gnd/117302023">Tenard</persName> ungern. Auch <del rendition="#s">der</del>
+                                <persName ref="https://edition-humboldt.de/H0000962 http://d-nb.info/gnd/116577924">Robiquet</persName></ref><note xml:id="cbf2f026-3b50-4c54-b2f0-263b50dc5421" corresp="#b3fc44a9-6892-431e-bc44-a96892731e9f" type="editorial" resp="#Humboldt_2000 #CT"><persName ref="https://edition-humboldt.de/H0003914 http://d-nb.info/gnd/117302023">Jacques Thenard</persName> und <persName ref="https://edition-humboldt.de/H0000962 http://d-nb.info/gnd/116577924">Pierre Jean Robiquet</persName>; damals wohl
                                 Studenten des Chemikers <persName resp="#CT" ref="https://edition-humboldt.de/H0000198 http://d-nb.info/gnd/116677635">Fourcroy</persName>, bei dem sie in der <foreign xml:lang="fra">rue des Bourdonnais</foreign> wohnten (vgl. dazu eine Liste
                                 Humboldts mit <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>er Adressen
                                 in <bibl corresp="https://edition-humboldt.de/DF25RAGM">ART II u. VI</bibl>, <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001527300000189">Bl. 98r</ref>).</note> that mir <lb/>leid, da er sehr an mir hing <choice>
@@ -344,15 +338,18 @@
                             <expan>und</expan>
                         </choice> der <persName ref="https://edition-humboldt.de/H0012060 http://d-nb.info/gnd/118554719">Li</persName>. Fremde Stärke erhebt.
                         Der Ab<g ref="#typoHyphen"/><lb break="no"/>schied war tiefempfunden. Als
-                        die <persName ref="https://edition-humboldt.de/H0012060 http://d-nb.info/gnd/118554719">Li.</persName>
-                        <ref xml:id="f0279cc7-7a95-4b09-a79c-c77a95bb09fd" corresp="#e4b0fab4-4e14-4030-b0fa-b44e14203078" type="editorialNote">den Kleinen</ref><note xml:id="e4b0fab4-4e14-4030-b0fa-b44e14203078" corresp="#f0279cc7-7a95-4b09-a79c-c77a95bb09fd" type="editorial" resp="#CT">Wahrscheinlich ist <persName resp="#CT" ref="https://edition-humboldt.de/H0012073">Theodor</persName> (geb. 1797),
+                        die <persName ref="https://edition-humboldt.de/H0012060 http://d-nb.info/gnd/118554719">Li<choice>
+                                <orig>.</orig>
+                                <reg type="deleted"/>
+                            </choice></persName>
+                        <ref xml:id="ca64dde6-6cca-41a7-a4dd-e66cca21a7da" corresp="#b7d2b7be-df04-4c9a-92b7-bedf040c9a2a" type="editorialNote">den Kleinen</ref><note xml:id="b7d2b7be-df04-4c9a-92b7-bedf040c9a2a" corresp="#ca64dde6-6cca-41a7-a4dd-e66cca21a7da" type="editorial" resp="#CT">Wahrscheinlich ist <persName resp="#CT" ref="https://edition-humboldt.de/H0012073">Theodor</persName> (geb. 1797),
                                 möglicherweise auch <persName resp="#CT" ref="https://edition-humboldt.de/H0012059">Wilhelm
                                     Alexander von Humboldt</persName> (geb. 1794) gemeint.</note> zu <lb/>mir emporhob hätte ich fast die Haltung verloren. Aber
                         <lb/>es war nur auf einen Augenblik. Wir blieben al<g ref="#typoHyphen"/><lb break="no"/>le wie man in solchen Momenten des Lebens sein <lb/>soll.
                         Ein Unwesen mit vergessenen Barometerröh<g ref="#typoHyphen"/><lb break="no"/>ren stöhrte ein wenig. Aber wir kamen noch früher <lb/>zur <foreign xml:lang="fra"><choice>
                                     <abbr>dilig.</abbr>
                                     <expan>diligence</expan>
-                                </choice></foreign> als nöthig war. <ref xml:id="aee220b0-8e68-48ac-a220-b08e6838ac0f" corresp="#cec0ee8f-9056-4968-80ee-8f9056996868" type="editorialNote"><persName ref="https://edition-humboldt.de/H0003971 http://d-nb.info/gnd/118757490">Thik</persName></ref><note xml:id="cec0ee8f-9056-4968-80ee-8f9056996868" corresp="#aee220b0-8e68-48ac-a220-b08e6838ac0f" type="editorial" resp="#Humboldt_2000">Der Bildhauer
+                                </choice></foreign> als nöthig war. <ref xml:id="c1fa5e66-b9d8-479e-ba5e-66b9d8679e2f" corresp="#e1e0b61c-4468-4d6e-a0b6-1c4468cd6ee6" type="editorialNote"><persName ref="https://edition-humboldt.de/H0003971 http://d-nb.info/gnd/118757490">Thik</persName></ref><note xml:id="e1e0b61c-4468-4d6e-a0b6-1c4468cd6ee6" corresp="#c1fa5e66-b9d8-479e-ba5e-66b9d8679e2f" type="editorial" resp="#Humboldt_2000">Der Bildhauer
                                     <persName resp="#CT" ref="https://edition-humboldt.de/H0003971 http://d-nb.info/gnd/118757490">Christian Friedrich
                                     Tieck</persName> hatte <persName resp="#CT" ref="https://edition-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm von Humboldt</persName> und seine
                                 Familie
@@ -362,10 +359,10 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice>
-                        <ref xml:id="da5ef012-4805-4e7b-9ef0-124805fe7b98" corresp="#fea31957-2bfe-4eb8-a319-572bfe5eb838" type="editorialNote"><persName resp="#Humboldt_2000" ref="https://edition-humboldt.de/H0000117 http://d-nb.info/gnd/118691449"><choice>
+                        <ref xml:id="a304d48f-bdf6-4850-84d4-8fbdf668505f" corresp="#e6d5b22a-f93e-412d-95b2-2af93e712d1f" type="editorialNote"><persName resp="#Humboldt_2000" ref="https://edition-humboldt.de/H0000117 http://d-nb.info/gnd/118691449"><choice>
                                         <abbr>F.</abbr>
                                         <expan>Fischer</expan>
-                                    </choice></persName></ref><note xml:id="fea31957-2bfe-4eb8-a319-572bfe5eb838" corresp="#da5ef012-4805-4e7b-9ef0-124805fe7b98" type="editorial" resp="#Humboldt_2000"><persName resp="#Humboldt_2000" ref="https://edition-humboldt.de/H0000117 http://d-nb.info/gnd/118691449">Gotthelf Fischer von
+                                    </choice></persName></ref><note xml:id="e6d5b22a-f93e-412d-95b2-2af93e712d1f" corresp="#a304d48f-bdf6-4850-84d4-8fbdf668505f" type="editorial" resp="#Humboldt_2000"><persName resp="#Humboldt_2000" ref="https://edition-humboldt.de/H0000117 http://d-nb.info/gnd/118691449">Gotthelf Fischer von
                                     Waldheim</persName> begleitete 1797 <persName resp="#CT" ref="https://edition-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm von Humboldt</persName> und seine
                                 Familie
                                 von <placeName ref="https://edition-humboldt.de/H0005565 https://www.geonames.org/2935022">Dresden</placeName> nach <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>; vgl. Humboldt über ihn in
@@ -406,7 +403,7 @@
                         meines <persName ref="https://edition-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Bruder</persName>s Ad<g ref="#typoHyphen"/><lb break="no"/>dresse haben<subst>
                             <del rendition="#ow">.</del>
                             <add place="across">,</add>
-                        </subst> weil er meinte durch ihn sich den <lb/>debit des großen <ref xml:id="f4d495bc-5245-4d16-9495-bc52451d16e6" corresp="#a3936344-8082-4246-9363-4480820246e5" type="editorialNote">Sand<unclear reason="illegible" cert="high" resp="#Humboldt_2000">o</unclear>zischen Hauses</ref><note xml:id="a3936344-8082-4246-9363-4480820246e5" corresp="#f4d495bc-5245-4d16-9495-bc52451d16e6" type="editorial" resp="#Humboldt_2000 #CT">In <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> gab es um 1800 einen
+                        </subst> weil er meinte durch ihn sich den <lb/>debit des großen <ref xml:id="a5f88610-5e44-4f5e-b886-105e440f5eab" corresp="#c512d6bb-3559-4666-92d6-bb3559d66623" type="editorialNote">Sand<unclear reason="illegible" cert="high" resp="#Humboldt_2000">o</unclear>zischen Hauses</ref><note xml:id="c512d6bb-3559-4666-92d6-bb3559d66623" corresp="#a5f88610-5e44-4f5e-b886-105e440f5eab" type="editorial" resp="#Humboldt_2000 #CT">In <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> gab es um 1800 einen
                                 Tuchhändler <persName>Sandoz</persName>, der ein Lager von
                                 bedrucktem Kattun in der <foreign xml:lang="fra">rue
                                     Quincampoix</foreign> hatte; vgl. <bibl corresp="https://edition-humboldt.de/X644VTBT">Bergeron 1978</bibl>, 183.
@@ -420,8 +417,8 @@
                                 mit letzter Sicherheit geklärt werden.</note> zu verschaf<g ref="#typoHyphen"/><lb break="no"/>fen. <subst>
                             <del rendition="#s">Mi<gap reason="illegible" unit="chars" quantity="1"/></del>
                             <add place="intralinear">Mittags</add>
-                        </subst> den <date when="1798-10-20" calendar="#gregorian"><hi rendition="#u">20</hi>sten</date> in <placeName resp="#AG" ref="https://edition-humboldt.de/H0018717 https://www.geonames.org/2994651">Melun</placeName>. (Wir fuhren <lb/>durch <ref xml:id="d8831cf9-c6ea-4c19-831c-f9c6eadc19c7" corresp="#c524d75e-d0ca-4de5-a4d7-5ed0cafde5c3" type="editorialNote"><placeName resp="#AG" ref="https://edition-humboldt.de/H0011437 https://www.geonames.org/2998439">Lieursaint</placeName>. Der
-                                Stubben beim Signal!</ref><note xml:id="c524d75e-d0ca-4de5-a4d7-5ed0cafde5c3" corresp="#d8831cf9-c6ea-4c19-831c-f9c6eadc19c7" type="editorial" resp="#Humboldt_2000 #CT">Humboldt hat am
+                        </subst> den <date when="1798-10-20" calendar="#gregorian"><hi rendition="#u">20</hi>sten</date> in <placeName resp="#AG" ref="https://edition-humboldt.de/H0018717 https://www.geonames.org/2994651">Melun</placeName>. (Wir fuhren <lb/>durch <ref xml:id="a8e6b3a8-eef1-4e3e-a6b3-a8eef17e3e43" corresp="#d6e916f7-d0b2-4b67-a916-f7d0b2cb6789" type="editorialNote"><placeName resp="#AG" ref="https://edition-humboldt.de/H0011437 https://www.geonames.org/2998439">Lieursaint</placeName>. Der
+                                Stubben beim Signal!</ref><note xml:id="d6e916f7-d0b2-4b67-a916-f7d0b2cb6789" corresp="#a8e6b3a8-eef1-4e3e-a6b3-a8eef17e3e43" type="editorial" resp="#Humboldt_2000 #CT">Humboldt hat am
                                     (<date when="1798-06-02" calendar="#gregorian">2.</date> bzw.)
                                     <date when="1798-06-03" calendar="#gregorian">3. Juni
                                     1798</date> der von <persName resp="#CT" ref="https://edition-humboldt.de/H0012189 http://d-nb.info/gnd/118878913">J.-B.
@@ -443,7 +440,7 @@
                             <add place="across">Von</add>
                         </subst>
                         <placeName resp="#AG" ref="https://edition-humboldt.de/H0002627 https://www.geonames.org/3035843">Auxerre</placeName> an bis <placeName resp="#AG" ref="https://edition-humboldt.de/H0007308 https://www.geonames.org/3027484">Chalons</placeName> begleitete uns <lb/>ein
-                        junger Kaufmann aus <placeName resp="#AG" ref="https://edition-humboldt.de/H0010303 https://www.geonames.org/2831580">Solingen</placeName>, der alle <ref xml:id="fe408589-156b-4ea5-8085-89156bbea583" corresp="#e14f306f-4003-482f-8f30-6f4003582f99" type="editorialNote">Jakobins</ref><note xml:id="e14f306f-4003-482f-8f30-6f4003582f99" corresp="#fe408589-156b-4ea5-8085-89156bbea583" type="editorial" resp="#UP #CT"><bibl corresp="https://edition-humboldt.de/EJZWKDV2">Humboldt 2000</bibl>, 44, liest
+                        junger Kaufmann aus <placeName resp="#AG" ref="https://edition-humboldt.de/H0010303 https://www.geonames.org/2831580">Solingen</placeName>, der alle <ref xml:id="d1660044-f04c-4b62-a600-44f04c6b62d2" corresp="#e4d41744-5d57-4517-9417-445d576517c8" type="editorialNote">Jakobins</ref><note xml:id="e4d41744-5d57-4517-9417-445d576517c8" corresp="#d1660044-f04c-4b62-a600-44f04c6b62d2" type="editorial" resp="#UP #CT"><bibl corresp="https://edition-humboldt.de/EJZWKDV2">Humboldt 2000</bibl>, 44, liest
                                     <quote>Jakobis</quote> und deutet dies als Hinweis auf die
                                 Familie des Philosophen <persName resp="#CT" ref="https://edition-humboldt.de/H0004109 http://d-nb.info/gnd/118556312">Friedrich Heinrich Jacobi</persName>, vgl. die Erläuterung
                                 ebd., 445. Dagegen konnte die Lesung <quote>Jakobi<hi rendition="#i">n</hi>s</quote> an dieser Stelle gesichert werden, und
@@ -453,7 +450,7 @@
                         <lb/>dem Namen nach kannte, <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> imer T<unclear reason="illegible" cert="high" resp="#UP #CT">o</unclear>bak schmauch<g ref="#typoHyphen"/><lb break="no"/>te. <date when="1798-10-22" calendar="#gregorian"><hi rendition="#u">22</hi>sten</date> Mittags in <placeName resp="#AG" ref="https://edition-humboldt.de/H0010133">Saulieu</placeName> Abends <placeName resp="#AG" ref="https://edition-humboldt.de/H0002560 https://www.geonames.org/3036862">Arney
+                        </choice> imer T<unclear reason="illegible" cert="high" resp="#UP #CT">o</unclear>bak schmauch<g ref="#typoHyphen"/><lb break="no"/>te. <date when="1798-10-22" calendar="#gregorian"><hi rendition="#u">22</hi>sten</date> Mittags in <placeName resp="#AG" ref="https://edition-humboldt.de/H0010133 https://www.geonames.org/6428877">Saulieu</placeName> Abends <placeName resp="#AG" ref="https://edition-humboldt.de/H0002560 https://www.geonames.org/3036862">Arney
                             le Duc</placeName>. <lb/>Ein Mensch mit Klumpfüßen, der sich imer die
                             Len<g ref="#typoHyphen"/><lb break="no"/>den puzte <choice>
                             <abbr>u</abbr>
@@ -467,8 +464,8 @@
                         </subst> Pflanzen und Insekten <lb/>der Welt …. Er sprach von Gazellen <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> Rehen, die er im <lb/><placeName resp="#AG" ref="https://edition-humboldt.de/H0009181 https://www.geonames.org/2967832">Vivarais</placeName> geschossen. <ref xml:id="e66a7d12-6736-4427-aa7d-12673694278f" corresp="#d3911899-f766-4628-9118-99f7662628f8" type="editorialNote"><name type="animal" key="Casuarius" subtype="vernacular">Casuare</name> sollten in den <placeName resp="#AG" ref="https://edition-humboldt.de/H0007285 https://www.geonames.org/3027753">Ceven̅en</placeName>
-                                <lb/>sehr gemeine Vögel sein.</ref><note xml:id="d3911899-f766-4628-9118-99f7662628f8" corresp="#e66a7d12-6736-4427-aa7d-12673694278f" type="editorial" resp="#Humboldt_2000"><name type="animal" key="Casuarius" subtype="vernacular">Kasuare</name> leben in
+                        </choice> Rehen, die er im <lb/><placeName resp="#AG" ref="https://edition-humboldt.de/H0009181 https://www.geonames.org/2967832">Vivarais</placeName> geschossen. <ref xml:id="baac058b-e1b3-49c1-ac05-8be1b3a9c183" corresp="#b7a0a453-a356-4e47-a0a4-53a356de47c0" type="editorialNote"><name type="animal" key="Casuarius" subtype="vernacular">Casuare</name> sollten in den <placeName resp="#AG" ref="https://edition-humboldt.de/H0007285 https://www.geonames.org/3027753">Ceven̅en</placeName>
+                                <lb/>sehr gemeine Vögel sein.</ref><note xml:id="b7a0a453-a356-4e47-a0a4-53a356de47c0" corresp="#baac058b-e1b3-49c1-ac05-8be1b3a9c183" type="editorial" resp="#Humboldt_2000"><name type="animal" key="Casuarius" subtype="vernacular">Kasuare</name> leben in
                                     <placeName ref="https://edition-humboldt.de/H0002625 https://www.geonames.org/2077456">Australien</placeName> und <placeName ref="https://edition-humboldt.de/H0016243 https://www.geonames.org/2088628">Neuguinea</placeName>.</note> Als ihn der Brandwein<lb break="no"/>brenner fragte<supplied cert="high">,</supplied> was eine Gazelle für ein Thier sei, <lb/>sagte
                         er, <choice>
                             <sic>er</sic>
@@ -501,14 +498,8 @@
                         <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice>
-                        <ref xml:id="b5f24dcf-7f56-43c6-b24d-cf7f5683c61e" corresp="#e8c90c42-ba7b-40ac-890c-42ba7b30ac41" type="editorialNote">die
-                                    <persName resp="#CT" ref="https://edition-humboldt.de/H0011184 H0011185 http://d-nb.info/gnd/1015947808 http://d-nb.info/gnd/119375648">Prinzen von
-                                    <lb/>Oettingen</persName></ref><note xml:id="e8c90c42-ba7b-40ac-890c-42ba7b30ac41" corresp="#b5f24dcf-7f56-43c6-b24d-cf7f5683c61e" type="editorial" resp="#CT"><persName ref="https://edition-humboldt.de/H0011184 http://d-nb.info/gnd/1015947808">Johann
-                                    Aloys zu Oettingen-Oettingen und Oettingen-Spielberg</persName>
-                                und <persName ref="https://edition-humboldt.de/H0011185 http://d-nb.info/gnd/119375648">Kraft Ernst zu
-                                    Oettingen-Wallerstein</persName>.</note> erwiesen; <persName ref="https://edition-humboldt.de/H0013653">Gronier</persName>, Officier in
-                        der <choice>
+                        </choice> die <persName resp="#CT" ref="https://edition-humboldt.de/H0011184 H0011185 http://d-nb.info/gnd/1015947808 http://d-nb.info/gnd/119375648">Prinzen von
+                            <lb/>Oettingen</persName> erwiesen; <persName ref="https://edition-humboldt.de/H0013653">Gronier</persName>, Officier in der <choice>
                             <abbr>italien.</abbr>
                             <expan>italienischen</expan>
                         </choice>
@@ -551,7 +542,7 @@
                             <abbr>polit.</abbr>
                             <expan>politischen</expan>
                         </choice> Lagen über<g ref="#typoHyphen"/><lb break="no"/>aus gut. Er sprach
-                        mit Entzükken von dem <ref xml:id="dc6af293-b4f9-4f05-aaf2-93b4f90f050a" corresp="#ff73a66a-9b8c-43c8-b3a6-6a9b8c63c8cc" type="editorialNote"><bibl corresp="https://edition-humboldt.de/6SUXHETF">Buche über <lb/>die <foreign xml:lang="fra">passions</foreign></bibl></ref><note xml:id="ff73a66a-9b8c-43c8-b3a6-6a9b8c63c8cc" corresp="#dc6af293-b4f9-4f05-aaf2-93b4f90f050a" type="editorial" resp="#Humboldt_2000 #DB #CT">
+                        mit Entzükken von dem <ref xml:id="e932011f-047c-459a-b201-1f047c159a49" corresp="#bbd67cfc-7a7f-4463-967c-fc7a7fa46371" type="editorialNote"><bibl corresp="https://edition-humboldt.de/6SUXHETF">Buche über <lb/>die <foreign xml:lang="fra">passions</foreign></bibl></ref><note xml:id="bbd67cfc-7a7f-4463-967c-fc7a7fa46371" corresp="#e932011f-047c-459a-b201-1f047c159a49" type="editorial" resp="#Humboldt_2000 #DB #CT">
                                 <p>In Paris erschien 1789 ein anonymes Buch <hi rendition="#i">La
                                         Passion, la Mort et la Résurrection du Peuple</hi> (<bibl corresp="https://edition-humboldt.de/6SUXHETF">La Reynie 1789</bibl>), das
                                     gleich nach seinem Erscheinen vom Pariser Parlament verboten
@@ -574,34 +565,29 @@
                                     übernommenen Verweis auf <bibl corresp="https://edition-humboldt.de/6SUXHETF">La Reynie 1789</bibl> weniger plausibel erscheint.</p>
                             </note>, von <persName ref="https://edition-humboldt.de/H0015389 http://d-nb.info/gnd/118604945">Bernard de St Pierre</persName>, von
                                 <persName>Con<g ref="#typoHyphen"/><lb break="no"/>stant
-                            </persName>…<supplied cert="high" resp="#CT">.</supplied> Seine
-                        Phantasie war im̅er mit Bildern aus den <lb/>schönen Zeiten der Freiheit
-                        erfüllt. Er wollte im Som<g ref="#typoHyphen"/><lb break="no"/>mer nach
-                            <placeName resp="#AG" ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> gehen, um dort
-                        Medicin und haupt<g ref="#typoHyphen"/><lb break="no"/>sächlich Chemie zu
-                        studiren. Wenn das Schiksal ihn <lb/>begünstigt (er schien kaum 22 Jahr alt
-                        zu sein) <lb/>so kann sein Name nicht unbekannt bleiben. Denn <lb/>alles
-                        kündigte etwas außerordentliches in ihm an. Ich <lb/>brachte einen
-                        angenehmen Mittag mit ihm in <placeName resp="#AG" ref="https://edition-humboldt.de/H0005179 https://www.geonames.org/3034090">Beau<g ref="#typoHyphen"/><lb break="no"/>regard</placeName> zu <choice>
+                            </persName>…<supplied cert="high" resp="#CT">.</supplied> Seine Phantasie war im̅er mit Bildern aus den <lb/>schönen
+                        Zeiten der Freiheit erfüllt. Er wollte im Som<g ref="#typoHyphen"/><lb break="no"/>mer nach <placeName resp="#AG" ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> gehen, um dort Medicin und haupt<g ref="#typoHyphen"/><lb break="no"/>sächlich Chemie zu studiren. Wenn das Schiksal ihn
+                        <lb/>begünstigt (er schien kaum 22 Jahr alt zu sein) <lb/>so kann sein Name
+                        nicht unbekannt bleiben. Denn <lb/>alles kündigte etwas außerordentliches in
+                        ihm an. Ich <lb/>brachte einen angenehmen Mittag mit ihm in <placeName resp="#AG" ref="https://edition-humboldt.de/H0005179 https://www.geonames.org/3034090">Beau<g ref="#typoHyphen"/><lb break="no"/>regard</placeName> zu <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> wir trennten uns in <placeName resp="#AG" ref="https://edition-humboldt.de/H0011538 https://www.geonames.org/2996944">Lyon</placeName> am <hi rendition="#u"><date when="1798-10-24" calendar="#gregorian">24st<supplied cert="high" resp="#Humboldt_2000">en</supplied></date></hi>
-                        <lb/>als wären wir lange mit einander gewesen. Beim Ausstei<lb break="no"/>gen im <ref xml:id="c67658e3-9820-4adb-b658-e39820badb0c" corresp="#afa91b66-0b56-4b07-a91b-660b565b079c" type="editorialNote">Palais royal</ref><note xml:id="afa91b66-0b56-4b07-a91b-660b565b079c" corresp="#c67658e3-9820-4adb-b658-e39820badb0c" type="editorial" resp="#DB #DF">Entweder bezieht sich
-                                Humboldt hier auf ein Hotel dieses Namens an der <placeName ref="https://edition-humboldt.de/H0010110 https://www.geonames.org/2976083">Saône</placeName> (2 rue du Plat) oder auf das
-                                    <hi rendition="#i">Palais de Roanne</hi> (auch <hi rendition="#i">Palais royal</hi> genannt) am Ufer der <placeName ref="https://edition-humboldt.de/H0010110 https://www.geonames.org/2976083">Saône</placeName>, an dessen Stelle sich heute
-                                der <hi rendition="#i">Palais de justice historique de <placeName ref="https://edition-humboldt.de/H0011538 https://www.geonames.org/2996944">Lyon</placeName></hi> befindet.</note> fing <persName ref="https://edition-humboldt.de/H0003449">Boivin<unclear reason="illegible" cert="low">s</unclear></persName> einen schreklichen <lb/>Zank
+                        <lb/>als wären wir lange mit einander gewesen. Beim Ausstei<lb break="no"/>gen im <ref xml:id="cea4442e-3952-46c4-a444-2e395216c45c" corresp="#e922087b-999c-4d35-a208-7b999c0d35cd" type="editorialNote">Palais royal</ref><note xml:id="e922087b-999c-4d35-a208-7b999c0d35cd" corresp="#cea4442e-3952-46c4-a444-2e395216c45c" type="editorial" resp="#DB #DF">Wahrscheinlich bezieht sich
+                                Humboldt hier auf ein Hotel dieses Namens an der <placeName ref="https://edition-humboldt.de/H0010110 https://www.geonames.org/2976083">Saône</placeName> (2 rue du
+                                Plat).</note> fing <persName ref="https://edition-humboldt.de/H0003449">Boivin<unclear reason="illegible" cert="low">s</unclear></persName> einen schreklichen <lb/>Zank
                         mit den Trägern an. Der Weinhändler aus <placeName resp="#AG" ref="https://edition-humboldt.de/H0005526 https://www.geonames.org/6453767">Di<g ref="#typoHyphen"/><lb break="no"/>jon</placeName> fühlte ganz
                         das Unfeine dieses Benehmens. Unge<g ref="#typoHyphen"/><lb break="no"/>beten trug er meinen Koffer selbst ans Land. Ich dank<g ref="#typoHyphen"/><lb break="no"/>te ihm für seine Gutmüthigkeit <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> er sagte zu <lb/>meinem großen Erstaunen „für Menschen<supplied cert="high">,</supplied> die für <lb/>die Wissenschaften leben, thut man
                         dergleichen gern.<supplied cert="high" resp="#CT">“</supplied>
-                        <lb/>Er sagte es mit einer Art, welche diesen Worten ei<g ref="#typoHyphen"/><lb break="no"/>nen großen Werth gaben. <ref xml:id="e3bb33a6-3316-45fe-bb33-a6331625fedb" corresp="#dab01d00-3141-45a8-b01d-003141b5a8b2" type="editorialNote"><choice>
+                        <lb/>Er sagte es mit einer Art, welche diesen Worten ei<g ref="#typoHyphen"/><lb break="no"/>nen großen Werth gaben. <ref xml:id="e7e7656c-d71b-43c3-a765-6cd71bd3c310" corresp="#b27415ad-3f2a-43c4-b415-ad3f2ab3c4dc" type="editorialNote"><choice>
                                     <abbr>Mad.</abbr>
                                     <expan>Madame</expan>
                                 </choice>
                                 <persName ref="https://edition-humboldt.de/H0004360 https://d-nb.info/gnd/128359580X">la Tour</persName> verfehlte
-                                <lb/>ich.</ref><note xml:id="dab01d00-3141-45a8-b01d-003141b5a8b2" corresp="#e3bb33a6-3316-45fe-bb33-a6331625fedb" type="editorial" resp="#Humboldt_2000 #DB #DF">D. i.
+                                <lb/>ich.</ref><note xml:id="b27415ad-3f2a-43c4-b415-ad3f2ab3c4dc" corresp="#e7e7656c-d71b-43c3-a765-6cd71bd3c310" type="editorial" resp="#Humboldt_2000 #DB #DF">D. i.
                                     <persName ref="https://edition-humboldt.de/H0004360 https://d-nb.info/gnd/128359580X">Marie-Barbe de la Tour, geb.
                                     Buffault</persName>. Humboldt schrieb ihr noch in der Nacht vom
                                     <date from="1798-10-24" to="1798-10-25" cert="high" calendar="#gregorian">24. zum 25. Oktober 1798</date> kurz vor
@@ -624,7 +610,7 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> fuhr <lb/>mit der leeren <foreign xml:lang="fra">diligence</foreign> weg. Wir
-                        mußten von <lb/>12 bis 2 Uhr 1 Meile weit bis zur <foreign xml:lang="fra"><ref xml:id="cdb4546b-5e5c-48a4-b454-6b5e5c78a447" corresp="#a81011a5-d9e8-4c6a-9011-a5d9e8ac6a8b" type="editorialNote">Paillasse</ref><note xml:id="a81011a5-d9e8-4c6a-9011-a5d9e8ac6a8b" corresp="#cdb4546b-5e5c-48a4-b454-6b5e5c78a447" type="editorial" resp="#DB">Frz. für <quote>Strohsack,
+                        mußten von <lb/>12 bis 2 Uhr 1 Meile weit bis zur <foreign xml:lang="fra"><ref xml:id="a135dabc-ced0-4daa-b5da-bcced05daa83" corresp="#b3b6a95f-8fe0-41cc-b6a9-5f8fe041cc72" type="editorialNote">Paillasse</ref><note xml:id="b3b6a95f-8fe0-41cc-b6a9-5f8fe041cc72" corresp="#a135dabc-ced0-4daa-b5da-bcced05daa83" type="editorial" resp="#DB">Frz. für <quote>Strohsack,
                                         Matratze</quote>, womit Humboldt hier wohl eine bescheidene
                                     bzw. notdürftige Unterkunft bezeichnet; evtl. zugleich eine
                                     Poststation mit Stroh- oder Heulager für die
@@ -642,7 +628,7 @@
                         aber, da er nicht Wi<unclear reason="illegible" cert="high" resp="#CT">e</unclear>derstand fand, <lb/>uns seine vormalige <choice>
                             <abbr>aristokrat.</abbr>
                             <expan>aristokratische</expan>
-                        </choice> Größe bei dem <lb/><ref xml:id="c29e18d9-5ba3-4664-9e18-d95ba3866450" corresp="#bd42d170-c833-4901-82d1-70c833f901a6" type="editorialNote">Comte <persName>Galifet</persName></ref><note xml:id="bd42d170-c833-4901-82d1-70c833f901a6" corresp="#c29e18d9-5ba3-4664-9e18-d95ba3866450" type="editorial" resp="#DB">Vermutlich
+                        </choice> Größe bei dem <lb/><ref xml:id="aa7ab208-2116-48ca-bab2-08211638cac7" corresp="#b5634c38-de18-4776-a34c-38de185776e8" type="editorialNote">Comte <persName>Galifet</persName></ref><note xml:id="b5634c38-de18-4776-a34c-38de185776e8" corresp="#aa7ab208-2116-48ca-bab2-08211638cac7" type="editorial" resp="#DB">Vermutlich
                                     <persName ref="https://edition-humboldt.de/H0013293 https://data.bnf.fr/17878531/alexandre_de_gallifet/">Alexandre de
                                 Gallifet</persName> aus <placeName ref="https://edition-humboldt.de/H0002359 https://www.geonames.org/3038354">Aix-en-Provence</placeName>, der Zeitgenossen durch sein Duell
                                 mit <persName ref="https://edition-humboldt.de/H0014241 http://d-nb.info/gnd/118582682">Mirabeau</persName> bekannt gewesen
@@ -692,7 +678,7 @@
                             <abbr>preuß.</abbr>
                             <expan>preußische</expan>
                         </choice>
-                        <ref xml:id="febf4f64-45be-4ceb-bf4f-6445be4cebd9" corresp="#c89e9bcd-3640-4cd0-9e9b-cd36403cd093" type="editorialNote">Tournure</ref><note xml:id="c89e9bcd-3640-4cd0-9e9b-cd36403cd093" corresp="#febf4f64-45be-4ceb-bf4f-6445be4cebd9" type="editorial" resp="#CT">Vgl. <bibl corresp="https://edition-humboldt.de/27J5ZC2D">Humboldt 2018</bibl>, 13:
+                        <ref xml:id="c5c5e334-50a9-44fb-85e3-3450a914fb34" corresp="#d2ed5b63-9a5c-46f8-ad5b-639a5cc6f868" type="editorialNote">Tournure</ref><note xml:id="d2ed5b63-9a5c-46f8-ad5b-639a5cc6f868" corresp="#c5c5e334-50a9-44fb-85e3-3450a914fb34" type="editorial" resp="#CT">Vgl. <bibl corresp="https://edition-humboldt.de/27J5ZC2D">Humboldt 2018</bibl>, 13:
                                     <quote>hier: Erscheinung</quote>.</note>, unbekannt mit <lb/>allen <placeName resp="#AG" ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>er Verhältnissen, aber voll von den <lb/>Excellenzen
                         die er aus dem Kalender auswendig gelernt. <date when="1798-10-29" calendar="#gregorian"><lb/>29sten</date><choice>
                             <orig>.</orig>
@@ -743,7 +729,7 @@
                             <expan>Holländischen</expan>
                         </choice> Diensten, einst Gouver<g ref="#typoHyphen"/><lb break="no"/>neur
                         in <placeName resp="#AG" ref="https://edition-humboldt.de/H0005320 https://www.geonames.org/1648148">Borneo</placeName>, geschwäzig wie
-                            <ref xml:id="e4f73e89-54c8-4427-b73e-8954c85427aa" corresp="#b1ea6352-90df-4b42-aa63-5290dfab428b" type="editorialNote">das Sternbild</ref><note xml:id="b1ea6352-90df-4b42-aa63-5290dfab428b" corresp="#e4f73e89-54c8-4427-b73e-8954c85427aa" type="editorial" resp="#Humboldt_2000"><persName resp="#CT" ref="https://edition-humboldt.de/H0012106 http://d-nb.info/gnd/116011459">Ernst Freiherr von
+                            <ref xml:id="f4038ba0-519e-4b5b-838b-a0519e6b5bc4" corresp="#fa7c70f6-62f8-49c4-bc70-f662f8b9c47b" type="editorialNote">das Sternbild</ref><note xml:id="fa7c70f6-62f8-49c4-bc70-f662f8b9c47b" corresp="#f4038ba0-519e-4b5b-838b-a0519e6b5bc4" type="editorial" resp="#Humboldt_2000"><persName resp="#CT" ref="https://edition-humboldt.de/H0012106 http://d-nb.info/gnd/116011459">Ernst Freiherr von
                                     Dacheroeden</persName>, der Bruder <persName resp="#CT" ref="https://edition-humboldt.de/H0012060 http://d-nb.info/gnd/118554719">Caroline von Humboldt</persName>s. Er hatte den
                                 Spitznamen <quote>das Sternbild</quote>.</note>, <subst>
                             <del rendition="#ow">80</del>
@@ -758,7 +744,7 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> mich <lb/>wollte er 1762 in <placeName resp="#AG" ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName> gekannt haben. Er hat <lb/>ein Mineralienkabinett.
-                            <persName ref="https://edition-humboldt.de/H0003809 https://d-nb.info/gnd/1283336367">Busnak</persName><supplied resp="#Humboldt_2000">,</supplied> ein Schwager von <ref xml:id="c60af845-edf6-4d5f-8af8-45edf6bd5f2d" corresp="#d269ed62-2bb0-4aff-a9ed-622bb02aff7e" type="editorialNote"><persName ref="https://edition-humboldt.de/H0003020">Bag<g ref="#typoHyphen"/><lb break="no"/>geri</persName></ref><note xml:id="d269ed62-2bb0-4aff-a9ed-622bb02aff7e" corresp="#c60af845-edf6-4d5f-8af8-45edf6bd5f2d" type="editorial" resp="#Humboldt_2000 #CT">An anderer Stelle
+                            <persName ref="https://edition-humboldt.de/H0003809 https://d-nb.info/gnd/1283336367">Busnak</persName><supplied resp="#Humboldt_2000">,</supplied> ein Schwager von <ref xml:id="f2a0f175-3dbe-42c9-a0f1-753dbe72c9bc" corresp="#d9a7850f-da3d-4c18-a785-0fda3dbc18f8" type="editorialNote"><persName ref="https://edition-humboldt.de/H0003020">Bag<g ref="#typoHyphen"/><lb break="no"/>geri</persName></ref><note xml:id="d9a7850f-da3d-4c18-a785-0fda3dbc18f8" corresp="#f2a0f175-3dbe-42c9-a0f1-753dbe72c9bc" type="editorial" resp="#Humboldt_2000 #CT">An anderer Stelle
                                 im selben Band seiner Amerikanischen Reisetagebücher, in den auch
                                 das vorliegende Tagebuch <hi rendition="#i">Paris-Toulon</hi>
                                 eingebunden wurde, notiert sich Humboldt die Adresse eines
@@ -767,20 +753,17 @@
                                         <choice>
                                             <abbr>n</abbr>
                                             <expan>numéro</expan>
-                                        </choice> 323.</foreign></quote> (Vgl. <bibl corresp="https://edition-humboldt.de/DF25RAGM">ART II u. IV</bibl>, <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001527300000211">Bl. 109r</ref>). Vermutlich ist dieser identisch mit der hier
-                                    <quote>Baggeri</quote> genannten Person.</note><supplied resp="#Humboldt_2000">,</supplied> ein türkischer Jude, dem
-                        man 400000<ref xml:id="e1c23cff-face-47ae-823c-fffacef7aeb9" corresp="#f4d34a17-1111-47d5-934a-171111f7d5b3" type="editorialNote"><hi rendition="#sup">₶</hi></ref><note xml:id="f4d34a17-1111-47d5-934a-171111f7d5b3" corresp="#e1c23cff-face-47ae-823c-fffacef7aeb9" type="editorial" resp="#Humboldt_2000 #CT">Das
-                                Währungszeichen <quote>₶</quote> steht für <hi rendition="#i">livres</hi> bzw. seit der Französischen Revolution für <hi rendition="#i">francs</hi>. In Humboldts Handschrift ähnelt das
-                                dafür verwendete Zeichen einem hochgestellten Doppelkreuz bzw.
-                                Raute-Symbol (<quote><hi rendition="#sup">#</hi></quote>); zur
-                                Repräsentation des Zeichens innerhalb der vorliegenden Edition wird
-                                der (hochgestellte) Unicode Character <ref target="https://www.fileformat.info/info/unicode/char/20b6/index.htm"><hi rendition="#i">livre tournois sign</hi> (U+20B6)</ref>
-                                verwendet.</note>
-                            gestohlen<supplied resp="#Humboldt_2000">.</supplied>
-                        <lb/><ref xml:id="c27048d0-ac73-4e14-b048-d0ac73ce145e" corresp="#fd7160f5-fe0a-4d0d-b160-f5fe0add0db7" type="editorialNote"><anchor type="target" xml:id="start_o5v_kq1_3sb"/><persName ref="https://edition-humboldt.de/H0000159 https://d-nb.info/gnd/124713119X">Fölsch</persName><anchor type="target" xml:id="stop_o5v_kq1_3sb"/>, <choice>
+                                        </choice> 323.</foreign></quote> (Vgl. <bibl corresp="https://edition-humboldt.de/DF25RAGM">ART II u. IV</bibl>, <ref target="http://resolver.staatsbibliothek-berlin.de/SBB0001527300000211">Bl. 109r</ref>).
+                                Vermutlich
+                                ist dieser identisch mit der hier <quote>Baggeri</quote> genannten
+                                Person.</note><supplied resp="#Humboldt_2000">,</supplied> ein türkischer Jude, dem
+                        man <ref xml:id="e925289e-1a17-489f-a528-9e1a17a89f2b" corresp="#a64364af-a8a9-401a-8364-afa8a9601a31" type="editorialNote"><measure unit="franc" quantity="400000">400000<hi rendition="#sup">#</hi></measure></ref><note xml:id="a64364af-a8a9-401a-8364-afa8a9601a31" corresp="#e925289e-1a17-489f-a528-9e1a17a89f2b" type="editorial" resp="#Humboldt_2000">Das Währungszeichen
+                                    <quote>#</quote> steht für <hi rendition="#i">livres</hi> bzw.
+                                seit der Französischen Revolution für <hi rendition="#i">francs</hi>.</note> gestohlen<supplied resp="#Humboldt_2000">.</supplied>
+                        <lb/><ref xml:id="e3edc6f4-660e-4c65-adc6-f4660e1c6565" corresp="#f5a93ea7-bdef-4b46-a93e-a7bdefeb460f" type="editorialNote"><anchor type="target" xml:id="start_o5v_kq1_3sb"/><persName ref="https://edition-humboldt.de/H0000159 https://d-nb.info/gnd/124713119X">Fölsch</persName><anchor type="target" xml:id="stop_o5v_kq1_3sb"/>, <choice>
                                     <abbr>Schwed.</abbr>
                                     <expan>Schwedischer</expan>
-                                </choice> Consul in Uniform, ein feines<supplied cert="high">,</supplied> aber <lb/>arrogantes Wesen.</ref><note xml:id="fd7160f5-fe0a-4d0d-b160-f5fe0add0db7" corresp="#c27048d0-ac73-4e14-b048-d0ac73ce145e" type="editorial" resp="#Humboldt_2000 #DB">Schwedische und
+                                </choice> Consul in Uniform, ein feines<supplied cert="high">,</supplied> aber <lb/>arrogantes Wesen.</ref><note xml:id="f5a93ea7-bdef-4b46-a93e-a7bdefeb460f" corresp="#e3edc6f4-660e-4c65-adc6-f4660e1c6565" type="editorial" resp="#Humboldt_2000 #DB">Schwedische und
                                 deutsche Protestanten hatten von dem Angebot des <foreign xml:lang="fra">arrêt</foreign> vom 24. Marz 1726 Gebrauch
                                 gemacht, der ihnen die Niederlassung in französischen Häfen
                                 gestattete (<bibl corresp="https://edition-humboldt.de/BEITMKWP">Rambert
@@ -789,10 +772,11 @@
                                 angesiedelt hatten, gehörte auch die Familie Fölsch (<bibl corresp="https://edition-humboldt.de/V9DXZRWK">Carrière 1973</bibl>, 744). Für
                                 die Mitte des 18. Jahrhunderts ist das Handelshaus des
                                     <persName>Henri-Jacques Fölsch</persName> bekannt (<bibl corresp="https://edition-humboldt.de/V9DXZRWK">Carrière 1973</bibl>, ebd.), der
-                                möglicherweise identisch ist mit mit <persName>Jacque
-                                    Folsch</persName>, von dem <bibl corresp="https://edition-humboldt.de/BEITMKWP">Rambert 1954</bibl> (ebd.) sagt, dass er in der Mitte de 18.
-                                Jahrhunderts schwedischer Konsul war. Der Sohn des
-                                    <persName>Henri-Jacques Fölsch</persName>, <persName ref="https://edition-humboldt.de/H0000159 https://d-nb.info/gnd/124713119X">François-Philippe</persName>, hat sich
+                                möglicherweise identisch ist mit <persName>Jacque Folsch</persName>,
+                                von dem <bibl corresp="https://edition-humboldt.de/BEITMKWP">Rambert 1954</bibl>
+                                (ebd.) sagt, dass er in der Mitte de 18. Jahrhunderts schwedischer
+                                Konsul war. Der Sohn des <persName>Henri-Jacques Fölsch</persName>,
+                                    <persName ref="https://edition-humboldt.de/H0000159 https://d-nb.info/gnd/124713119X">François-Philippe</persName>, hat sich
                                 nachweislich 1779 in Schweden aufgehalten (<bibl corresp="https://edition-humboldt.de/V9DXZRWK">Carrière 1973</bibl>, ebd.).
                                 Längere Auslandsreisen gehörten zum Geschäftsgebahren der Marseiller
                                 Kaufleute. <persName ref="https://edition-humboldt.de/H0000159 https://d-nb.info/gnd/124713119X">François-Philippe
@@ -809,7 +793,7 @@
                             <abbr>d.</abbr>
                             <expan>der</expan>
                         </choice>
-                        <orgName ref="https://edition-humboldt.de/H0018848 http://d-nb.info/gnd/1008028-4">Sternwarte</orgName>. Dort ein <ref xml:id="ce51bfce-c272-426e-91bf-cec272d26e36" corresp="#af180f78-0fc7-413a-980f-780fc7e13a72" type="editorialNote">Perrüquier</ref><note xml:id="af180f78-0fc7-413a-980f-780fc7e13a72" corresp="#ce51bfce-c272-426e-91bf-cec272d26e36" type="editorial" resp="#DB">Perrückenmacher; übertragen aus dem Französischen
+                        <orgName ref="https://edition-humboldt.de/H0018848 http://d-nb.info/gnd/1008028-4">Sternwarte</orgName>. Dort ein <ref xml:id="eb39d419-0cd2-43e6-b9d4-190cd213e6ba" corresp="#f534189a-d581-4878-b418-9ad5816878db" type="editorialNote">Perrüquier</ref><note xml:id="f534189a-d581-4878-b418-9ad5816878db" corresp="#eb39d419-0cd2-43e6-b9d4-190cd213e6ba" type="editorial" resp="#DB">Perrückenmacher; übertragen aus dem Französischen
                                     <quote>perruquier</quote> (vgl. dazu z. B. den entsprechenden
                                 Eintrag im <ref target="https://www.cnrtl.fr/definition/perruquier">CNRTL</ref>)</note> der jezt <choice>
                             <abbr>Prof.</abbr>
@@ -820,18 +804,18 @@
                         </choice> Unterricht gegeben <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> der <lb/>(was wohl noch nie ein <ref xml:id="f60c6272-66fe-47f3-8c62-7266fe97f375" corresp="#d82cd5cf-4248-4467-acd5-cf4248d46711" type="editorialNote">Perrüquier</ref><note xml:id="d82cd5cf-4248-4467-acd5-cf4248d46711" corresp="#f60c6272-66fe-47f3-8c62-7266fe97f375" type="editorial"/> gethan) ein Schif ohne zu <lb/>Landen von <placeName resp="#AG" ref="https://edition-humboldt.de/H0008769 https://www.geonames.org/934292">Isle de France</placeName> nach <placeName resp="#AG" ref="https://edition-humboldt.de/H0008735 https://www.geonames.org/3570311">Martinique</placeName> geführt. Er versicherte <lb/>sich
+                        </choice> der <lb/>(was wohl noch nie ein <ref xml:id="ad4351f6-ab5f-4dfa-8351-f6ab5fbdfa6d" corresp="#c16b7eac-8ee9-4162-ab7e-ac8ee92162b9" type="editorialNote">Perrüquier</ref><note xml:id="c16b7eac-8ee9-4162-ab7e-ac8ee92162b9" corresp="#ad4351f6-ab5f-4dfa-8351-f6ab5fbdfa6d" type="editorial"/> gethan) ein Schif ohne zu <lb/>Landen von <placeName resp="#AG" ref="https://edition-humboldt.de/H0008769 https://www.geonames.org/934292">Isle de France</placeName> nach <placeName resp="#AG" ref="https://edition-humboldt.de/H0008735 https://www.geonames.org/3570311">Martinique</placeName> geführt. Er versicherte <lb/>sich
                         mit einem hölzernen <choice>
                             <abbr>Sext.</abbr>
                             <expan>Sextanten</expan>
-                        </choice> die Länge bis auf 1″ zu bestim<lb break="no"/>men. <ref xml:id="edefad55-8ba3-4d8d-afad-558ba37d8d7c" corresp="#cd6494d3-5787-46b2-a494-d3578756b295" type="editorialNote"><choice>
+                        </choice> die Länge bis auf 1″ zu bestim<lb break="no"/>men. <ref xml:id="ad9cca79-4bae-4629-9cca-794bae4629a3" corresp="#d0388f4a-f3fa-497a-b88f-4af3fa497a6f" type="editorialNote"><choice>
                                     <abbr>Mad.</abbr>
                                     <expan>Madame</expan>
                                 </choice>
                                 <persName ref="https://edition-humboldt.de/H2553234"><choice>
                                         <abbr>T.</abbr>
                                         <expan>Thulis</expan>
-                                    </choice></persName> lief herum, um Emigranten zu retten.</ref><note xml:id="cd6494d3-5787-46b2-a494-d3578756b295" corresp="#edefad55-8ba3-4d8d-afad-558ba37d8d7c" type="editorial" resp="#DB">Vgl. dazu <bibl corresp="https://edition-humboldt.de/JMNNUAEE">Fischer 1805–1806, <ref target="https://www.digitale-sammlungen.de/de/view/bsb10469459?page=142">II, 122</ref></bibl>: <quote>muß ich endlich einer edeln
+                                    </choice></persName> lief herum, um Emigranten zu retten.</ref><note xml:id="d0388f4a-f3fa-497a-b88f-4af3fa497a6f" corresp="#ad9cca79-4bae-4629-9cca-794bae4629a3" type="editorial" resp="#DB">Vgl. dazu <bibl corresp="https://edition-humboldt.de/JMNNUAEE">Fischer 1805–1806, <ref target="https://www.digitale-sammlungen.de/de/view/bsb10469459?page=142">II, 122</ref></bibl>: <quote>muß ich endlich einer edeln
                                     Frau erwähnen, die allein durch ihren Eifer eine ganze
                                     Hülfsanstalt ersetzen kann. Es ist die verehrungswürdige <hi rendition="#g">Madame <persName ref="https://edition-humboldt.de/H2553234">Thulis</persName></hi>, Gattin des genannten Direktors
                                     des <orgName ref="https://edition-humboldt.de/H0018848 http://d-nb.info/gnd/1008028-4">Observatoriums</orgName> [d. i.
@@ -843,7 +827,7 @@
                                     Gutes zu thun. Ganz <placeName ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> kennt, ganz <placeName ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> verehrt Sie; meine Huldigung kann nur
                                     ein schwacher Ausdruck meiner Empfindungen seyn.</quote></note> Drei <lb/>sollten von dem permanenten Kriegsgerichte (drei morden
                             <unclear reason="illegible" cert="high" resp="#Humboldt_2000">sie</unclear>
-                        <lb/>täglich) gerichtet werden. Das Volk nen̅t das eine <hi rendition="#u"><ref xml:id="ae061521-d3ac-479a-8615-21d3ac579a4a" corresp="#ef5f0652-e998-4ce3-9f06-52e998bce354" type="editorialNote"><foreign xml:lang="fra">terne</foreign></ref><note xml:id="ef5f0652-e998-4ce3-9f06-52e998bce354" corresp="#ae061521-d3ac-479a-8615-21d3ac579a4a" type="editorial" resp="#DB">Dreier, Gruppe von drei
+                        <lb/>täglich) gerichtet werden. Das Volk nen̅t das eine <hi rendition="#u"><ref xml:id="ceca9ecf-3a42-484d-8a9e-cf3a42884dbc" corresp="#c7ad9746-fe9f-4ef7-ad97-46fe9fbef71d" type="editorialNote"><foreign xml:lang="fra">terne</foreign></ref><note xml:id="c7ad9746-fe9f-4ef7-ad97-46fe9fbef71d" corresp="#ceca9ecf-3a42-484d-8a9e-cf3a42884dbc" type="editorial" resp="#DB">Dreier, Gruppe von drei
                                     Personen.</note></hi>. Bei <lb/>Tische ein weißer Sachse aus <placeName resp="#CT" ref="https://edition-humboldt.de/H0011410 https://www.geonames.org/2879139">Leipzig</placeName> der versicherte<supplied cert="high" resp="#Humboldt_2000">,</supplied> der Bergrath <persName ref="https://edition-humboldt.de/H0000064 http://d-nb.info/gnd/118686690">Fer<g ref="#typoHyphen"/><lb break="no"/>ber</persName> zu
                             <placeName resp="#AG" ref="https://edition-humboldt.de/H0004805 https://www.geonames.org/2925192">Freiberg</placeName> sei einer der
                         ersten Deutschen Dichter. Nachts <lb/>wie seit 3 Nächten <subst>
@@ -884,7 +868,7 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice>
-                        <lb/>dann schrieben sie Bücher gegen <placeName resp="#AG" ref="https://edition-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName>. <ref xml:id="c88c1ef3-7246-4614-8c1e-f37246e614a9" corresp="#c0c5d41e-c394-4a8f-85d4-1ec394ba8fd0" type="editorialNote">Der hätte den <lb/>Berner Bären ken̅en müssen.</ref><note xml:id="c0c5d41e-c394-4a8f-85d4-1ec394ba8fd0" corresp="#c88c1ef3-7246-4614-8c1e-f37246e614a9" type="editorial" resp="#CT">Humboldt spielt hier darauf an,
+                        <lb/>dann schrieben sie Bücher gegen <placeName resp="#AG" ref="https://edition-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName>. <ref xml:id="ba5a7313-f481-415d-9a73-13f481015d15" corresp="#c940e292-3bd1-4b13-80e2-923bd1eb1314" type="editorialNote">Der hätte den <lb/>Berner Bären ken̅en müssen.</ref><note xml:id="c940e292-3bd1-4b13-80e2-923bd1eb1314" corresp="#ba5a7313-f481-415d-9a73-13f481015d15" type="editorial" resp="#CT">Humboldt spielt hier darauf an,
                                 dass nach der Niederlage gegen <persName ref="https://edition-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Napoleon</persName>s Truppen im März 1798 unter anderem drei
                                 Bären aus der Stadt <placeName ref="https://edition-humboldt.de/H0005223 https://www.geonames.org/2661552">Bern</placeName> durch
                                 Soldaten der revolutionären Republik <placeName ref="https://edition-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName> nach <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> entführt wurden, was von den besiegten
@@ -914,16 +898,16 @@
                             <expan>und</expan>
                         </choice> der Abtritt war 3 Tage lang so voll, daß <lb/>ich fast gehindert
                         war. Mit <persName ref="https://edition-humboldt.de/H0003111">Barthés</persName> (<foreign xml:lang="fra">place de la</foreign>
-                        <ref xml:id="ab65b402-55bf-40ba-a5b4-0255bf10ba72" corresp="#fd7db1b1-8451-447c-bdb1-b18451047cd7" type="editorialNote"><metamark>B</metamark></ref><note xml:id="fd7db1b1-8451-447c-bdb1-b18451047cd7" corresp="#ab65b402-55bf-40ba-a5b4-0255bf10ba72" type="editorial" resp="#CT">Zu den hier auf <ref target="https://edition-humboldt.de/H0018407/55r">Bl. 55r</ref> und <ref target="https://edition-humboldt.de/H0018407/55v">Bl. 55v</ref> verwendeten farbigen
+                        <ref xml:id="ce50a898-1bff-4bf2-90a8-981bff2bf23c" corresp="#f5cbb7b9-2070-40f2-8bb7-b9207080f2d3" type="editorialNote"><metamark>B</metamark></ref><note xml:id="f5cbb7b9-2070-40f2-8bb7-b9207080f2d3" corresp="#ce50a898-1bff-4bf2-90a8-981bff2bf23c" type="editorial" resp="#CT">Zu den hier auf <ref target="https://edition-humboldt.de/H0018407/55r">Bl. 55r</ref> und <ref target="https://edition-humboldt.de/H0018407/55v">Bl. 55v</ref> verwendeten farbigen
                                 Markierungen und den durch Rechtecke eingefassten Großbuchstaben
                                     <quote>A</quote>, <quote>B</quote>, <quote>C</quote> und
                                     <quote>D</quote> vgl. z. B. <bibl corresp="https://edition-humboldt.de/V63D52SS">Humboldt 2018a</bibl>,
                                 666f.</note>
                         <foreign xml:lang="fra">liberté</foreign>) <lb/>einem Uhrmacher<supplied resp="#Humboldt_2000">,</supplied> den <persName ref="https://edition-humboldt.de/H0003956 http://d-nb.info/gnd/117626635">Tuilis</persName> zum Mechanikus gebildet<supplied resp="#Humboldt_2000">,</supplied> brachte <lb/>ich den Theodolit wiederum zu Stande. Der
-                            <ref xml:id="ff7490a4-4ec8-400e-b490-a44ec8300e11" corresp="#bfadc933-38e8-4517-adc9-3338e8f51737" type="editorialNote"><subst>
+                            <ref xml:id="f375fc47-a34c-4e5d-b5fc-47a34cfe5d04" corresp="#d13cdfeb-af69-4e49-bcdf-ebaf69be4927" type="editorialNote"><subst>
                                     <del rendition="#s">Neffe</del>
                                     <add place="superlinear">Bruder</add>
-                                </subst></ref><note xml:id="bfadc933-38e8-4517-adc9-3338e8f51737" corresp="#ff7490a4-4ec8-400e-b490-a44ec8300e11" type="editorial" resp="#DB">D. i. <persName ref="https://edition-humboldt.de/H2197672">Jérôme Félix Barthet</persName>, der ab 1786 in der Werkstatt
+                                </subst></ref><note xml:id="d13cdfeb-af69-4e49-bcdf-ebaf69be4927" corresp="#f375fc47-a34c-4e5d-b5fc-47a34cfe5d04" type="editorial" resp="#DB">D. i. <persName ref="https://edition-humboldt.de/H2197672">Jérôme Félix Barthet</persName>, der ab 1786 in der Werkstatt
                                 seines Bruders <persName ref="https://edition-humboldt.de/H0003111">Jean François</persName>
                                 mitarbeitet.</note> ist liebens<g ref="#typoHyphen"/><lb break="no"/>würdig und
                         bescheiden. <persName ref="https://edition-humboldt.de/H0012925">Casati</persName>, der zweite Sohn, in
@@ -976,7 +960,7 @@
                             <abbr>Madem</abbr>
                             <expan>Mademoiselle</expan>
                         </choice><metamark>?</metamark>
-                        <persName ref="https://edition-humboldt.de/H0013935">Mariette</persName>, die <foreign xml:lang="fra">bonne <lb/>amie</foreign> eines <ref xml:id="ed3e592e-e1fb-45dd-be59-2ee1fb25ddaf" corresp="#a3951b42-e605-41a8-951b-42e60561a8dd" type="editorialNote"><metamark>A</metamark></ref><note xml:id="a3951b42-e605-41a8-951b-42e60561a8dd" corresp="#ed3e592e-e1fb-45dd-be59-2ee1fb25ddaf" type="editorial" resp="#CT">Zu den hier auf <ref target="https://edition-humboldt.de/H0018407/55r">Bl. 55r</ref> und <ref target="https://edition-humboldt.de/H0018407/55v">Bl. 55v</ref> verwendeten farbigen
+                        <persName ref="https://edition-humboldt.de/H0013935">Mariette</persName>, die <foreign xml:lang="fra">bonne <lb/>amie</foreign> eines <ref xml:id="e13c8ee6-fae8-4deb-bc8e-e6fae85deb4c" corresp="#baf88277-42a6-40b1-b882-7742a6d0b156" type="editorialNote"><metamark>A</metamark></ref><note xml:id="baf88277-42a6-40b1-b882-7742a6d0b156" corresp="#e13c8ee6-fae8-4deb-bc8e-e6fae85deb4c" type="editorial" resp="#CT">Zu den hier auf <ref target="https://edition-humboldt.de/H0018407/55r">Bl. 55r</ref> und <ref target="https://edition-humboldt.de/H0018407/55v">Bl. 55v</ref> verwendeten farbigen
                                 Markierungen und den durch Rechtecke eingefassten Großbuchstaben
                                     <quote>A</quote>, <quote>B</quote>, <quote>C</quote> und
                                     <quote>D</quote> vgl. z. B. <bibl corresp="https://edition-humboldt.de/V63D52SS">Humboldt 2018a</bibl>,
@@ -999,7 +983,7 @@
                             <orig>lies</orig>
                             <reg resp="#CT">ließ</reg>
                         </choice> sie leicht errathen, gab sich dabei aber <foreign xml:lang="fra">airs</foreign>
-                        <lb/>von einem großen Hause das sie in <placeName resp="#AG" ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> hal<lb break="no"/>te, in dem man tanze, <ref xml:id="b67c7725-eb32-47f4-bc77-25eb32f7f451" corresp="#ae86ea44-a0f3-4044-86ea-44a0f3f04491" type="editorialNote"><metamark>D</metamark></ref><note xml:id="ae86ea44-a0f3-4044-86ea-44a0f3f04491" corresp="#b67c7725-eb32-47f4-bc77-25eb32f7f451" type="editorial" resp="#CT">Zu den hier auf <ref target="https://edition-humboldt.de/H0018407/55r">Bl. 55r</ref> und <ref target="https://edition-humboldt.de/H0018407/55v">Bl. 55v</ref> verwendeten farbigen
+                        <lb/>von einem großen Hause das sie in <placeName resp="#AG" ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> hal<lb break="no"/>te, in dem man tanze, <ref xml:id="c887772f-c3bd-4092-8777-2fc3bde09223" corresp="#ea607a46-591a-4a5f-a07a-46591a1a5fdd" type="editorialNote"><metamark>D</metamark></ref><note xml:id="ea607a46-591a-4a5f-a07a-46591a1a5fdd" corresp="#c887772f-c3bd-4092-8777-2fc3bde09223" type="editorial" resp="#CT">Zu den hier auf <ref target="https://edition-humboldt.de/H0018407/55r">Bl. 55r</ref> und <ref target="https://edition-humboldt.de/H0018407/55v">Bl. 55v</ref> verwendeten farbigen
                                 Markierungen und den durch Rechtecke eingefassten Großbuchstaben
                                     <quote>A</quote>, <quote>B</quote>, <quote>C</quote> und
                                     <quote>D</quote> vgl. z. B. <bibl corresp="https://edition-humboldt.de/V63D52SS">Humboldt 2018a</bibl>,
@@ -1035,14 +1019,14 @@
                             </choice></orgName> unter <persName ref="https://edition-humboldt.de/H0014291 http://d-nb.info/gnd/118784544">Monge</persName> und
                             <foreign xml:lang="fra">Adjudant <lb/>général</foreign> bei der
                             Pyrenäen<supplied cert="high" resp="#Humboldt_2000">-</supplied>Armee<supplied cert="high" resp="#Humboldt_2000">,</supplied> unser Gesellschafter<supplied cert="high" resp="#Humboldt_2000">,</supplied>
-                        <lb/>ein verkappter, unzufriedener <ref xml:id="b658267a-ad40-4a81-9826-7aad407a815f" corresp="#e56af58f-8f20-497e-aaf5-8f8f20497e6d" type="editorialNote">Terrorist</ref><note xml:id="e56af58f-8f20-497e-aaf5-8f8f20497e6d" corresp="#b658267a-ad40-4a81-9826-7aad407a815f" type="editorial" resp="#DB">Anhänger der <foreign xml:lang="fra">terreur</foreign> genannten jakobinischen
+                        <lb/>ein verkappter, unzufriedener <ref xml:id="d2f6449b-0b04-4846-b644-9b0b04d84662" corresp="#f7a2fb87-f563-46f6-a2fb-87f56386f6f5" type="editorialNote">Terrorist</ref><note xml:id="f7a2fb87-f563-46f6-a2fb-87f56386f6f5" corresp="#d2f6449b-0b04-4846-b644-9b0b04d84662" type="editorial" resp="#DB">Anhänger der <foreign xml:lang="fra">terreur</foreign> genannten jakobinischen
                                 Schreckensherrschaft.</note>, von widrigen <lb/>Formen, schmuzig, alles erfragend, auf alles
                         schimpfend <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice><supplied cert="high" resp="#Humboldt_2000">,</supplied>
                         <lb/>wie er von sich sagte<supplied cert="high" resp="#Humboldt_2000">,</supplied> voll großer und kühner Gedanken. <lb/>Er schien mit dem
-                            <ref xml:id="b96847f9-6c98-436e-a847-f96c98436ecf" corresp="#fdf1e37c-e25a-47e7-b1e3-7ce25a97e724" type="editorialNote"><foreign xml:lang="fra">Comité du Salut public</foreign></ref><note xml:id="fdf1e37c-e25a-47e7-b1e3-7ce25a97e724" corresp="#b96847f9-6c98-436e-a847-f96c98436ecf" type="editorial" resp="#DB">Vgl. <bibl corresp="https://edition-humboldt.de/27J5ZC2D">Humboldt 2018</bibl>, 16:
+                            <ref xml:id="ff7469d2-5e57-447e-b469-d25e57947e22" corresp="#b8aaf470-cf74-4d11-aaf4-70cf744d1180" type="editorialNote"><foreign xml:lang="fra">Comité du Salut public</foreign></ref><note xml:id="b8aaf470-cf74-4d11-aaf4-70cf744d1180" corresp="#ff7469d2-5e57-447e-b469-d25e57947e22" type="editorial" resp="#DB">Vgl. <bibl corresp="https://edition-humboldt.de/27J5ZC2D">Humboldt 2018</bibl>, 16:
                                     <quote>Wohlfahrtsausschuss des Nationalkonvents zur Zeit der
                                     Französischen Revolution, eingerichtet 1793</quote>; Organ der
                                 jakobinischen Schreckensherrschaft.</note> zusam<g ref="#typoHyphen"/><lb break="no"/>men gehangen zu haben.
@@ -1054,7 +1038,7 @@
                             <abbr>prakt.</abbr>
                             <expan>praktischen</expan>
                         </choice>
-                        <lb/>Theil der <ref xml:id="c8250d8e-d474-4cc6-a50d-8ed4741cc663" corresp="#e29ad196-b679-443f-9ad1-96b679743fe2" type="editorialNote"><foreign xml:lang="fra">Géométrie descriptive</foreign></ref><note xml:id="e29ad196-b679-443f-9ad1-96b679743fe2" corresp="#c8250d8e-d474-4cc6-a50d-8ed4741cc663" type="editorial" resp="#DB">Darstellende Geometrie, zu der
+                        <lb/>Theil der <ref xml:id="dee1edc3-a745-4717-a1ed-c3a745e717f3" corresp="#e05f80f0-811a-416a-9f80-f0811a616a9d" type="editorialNote"><foreign xml:lang="fra">Géométrie descriptive</foreign></ref><note xml:id="e05f80f0-811a-416a-9f80-f0811a616a9d" corresp="#dee1edc3-a745-4717-a1ed-c3a745e717f3" type="editorial" resp="#DB">Darstellende Geometrie, zu der
                                     <persName ref="https://edition-humboldt.de/H0014291 http://d-nb.info/gnd/118784544">Gaspard Monge</persName> ein
                                 grundlegendes Lehrwerk mit dem Titel <hi rendition="#i">Géométrie
                                     descriptive</hi> (<bibl corresp="https://edition-humboldt.de/HPJNIHWW">Monge
@@ -1064,7 +1048,7 @@
                         </choice>
                         <persName ref="https://edition-humboldt.de/H0004222 http://d-nb.info/gnd/119273624">Jussieu</persName> nebst <persName ref="https://edition-humboldt.de/H0012241 http://d-nb.info/gnd/104130717">Desfon<g ref="#typoHyphen"/><lb break="no"/>taines</persName> (von
                         der Architektur gingen wir jedesmal zu <lb/>allen Natur<unclear reason="illegible" cert="high" resp="#UP">W</unclear>issenschaften über)
-                        verdienen ihre Stellen <lb/>nicht. Da er <ref xml:id="f248d412-fd45-426d-88d4-12fd45a26d75" corresp="#b2ffbe0f-e135-4ada-bfbe-0fe135bada55" type="editorialNote">ein Buch über <placeName resp="#AG" ref="https://edition-humboldt.de/H0005126 https://www.geonames.org/6544325">Bareges</placeName></ref><note xml:id="b2ffbe0f-e135-4ada-bfbe-0fe135bada55" corresp="#f248d412-fd45-426d-88d4-12fd45a26d75" type="editorial" resp="#Humboldt_2000"><bibl corresp="https://edition-humboldt.de/XI36MS3V">Lomet 1795</bibl>.</note> geschrieben, ein Buch das <lb/>er mir mit vielem Pathos übergab <choice>
+                        verdienen ihre Stellen <lb/>nicht. Da er <ref xml:id="c333efbf-4be5-470f-b3ef-bf4be5270ffe" corresp="#d7336544-fa0e-482d-b365-44fa0ed82ddc" type="editorialNote">ein Buch über <placeName resp="#AG" ref="https://edition-humboldt.de/H0005126 https://www.geonames.org/6544325">Bareges</placeName></ref><note xml:id="d7336544-fa0e-482d-b365-44fa0ed82ddc" corresp="#c333efbf-4be5-470f-b3ef-bf4be5270ffe" type="editorial" resp="#Humboldt_2000"><bibl corresp="https://edition-humboldt.de/XI36MS3V">Lomet 1795</bibl>.</note> geschrieben, ein Buch das <lb/>er mir mit vielem Pathos übergab <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice>
@@ -1072,7 +1056,7 @@
                             <orig>wo von</orig>
                             <reg resp="#CT">wovon</reg>
                         </choice> er noch <lb/>2000 Exemplare zu besizen rechnete, so erinnerte ihn
-                        <lb/>jeder Ziehbrunnen<supplied cert="high" resp="#Humboldt_2000">,</supplied> ja fast jeder Mensch<supplied cert="high" resp="#Humboldt_2000">,</supplied> der <ref xml:id="ea00cc33-1130-49d5-80cc-331130b9d590" corresp="#d95a5e6f-267d-488a-9a5e-6f267d788aa2" type="editorialNote"><metamark>C</metamark></ref><note xml:id="d95a5e6f-267d-488a-9a5e-6f267d788aa2" corresp="#ea00cc33-1130-49d5-80cc-331130b9d590" type="editorial" resp="#CT">Zu den hier auf <ref target="https://edition-humboldt.de/H0018407/55r">Bl. 55r</ref> und <ref target="https://edition-humboldt.de/H0018407/55v">Bl. 55v</ref> verwendeten farbigen
+                        <lb/>jeder Ziehbrunnen<supplied cert="high" resp="#Humboldt_2000">,</supplied> ja fast jeder Mensch<supplied cert="high" resp="#Humboldt_2000">,</supplied> der <ref xml:id="a9245513-e829-494c-a455-13e829e94c77" corresp="#e52c52ff-df17-45db-ac52-ffdf17d5db7e" type="editorialNote"><metamark>C</metamark></ref><note xml:id="e52c52ff-df17-45db-ac52-ffdf17d5db7e" corresp="#a9245513-e829-494c-a455-13e829e94c77" type="editorial" resp="#CT">Zu den hier auf <ref target="https://edition-humboldt.de/H0018407/55r">Bl. 55r</ref> und <ref target="https://edition-humboldt.de/H0018407/55v">Bl. 55v</ref> verwendeten farbigen
                                 Markierungen und den durch Rechtecke eingefassten Großbuchstaben
                                     <quote>A</quote>, <quote>B</quote>, <quote>C</quote> und
                                     <quote>D</quote> vgl. z. B. <bibl corresp="https://edition-humboldt.de/V63D52SS">Humboldt 2018a</bibl>,
@@ -1081,7 +1065,7 @@
                         jemand in der Republik, mahlt Landschaf<g ref="#typoHyphen"/><lb break="no"/>ten, drukt Kattun, analysirt Fossilien — kurz<supplied cert="high" resp="#Humboldt_2000">,</supplied> es <lb/>fehlt ihm nichts<supplied cert="high" resp="#Humboldt_2000">,</supplied>
                         <unclear reason="covered" cert="high" resp="#Humboldt_2000">weil
                             er</unclear> dazu <foreign xml:lang="fra"><supplied resp="#CT">„</supplied>une immense fortune“</foreign> besizt, <lb/>die ihn
-                        alle Ehrenstellen erreichen macht. Was ich sagte, <lb/>denn er hatte, <ref xml:id="b81c9c2d-abda-4fbd-9c9c-2dabda8fbdd1" corresp="#aee06bb8-11b0-41ed-a06b-b811b051ed52" type="editorialNote">wegen der Blasen<supplied cert="high" resp="#Humboldt_2000">p</supplied>flaster</ref><note xml:id="aee06bb8-11b0-41ed-a06b-b811b051ed52" corresp="#b81c9c2d-abda-4fbd-9c9c-2dabda8fbdd1" type="editorial" resp="#Humboldt_2000">Gemeint sind die
+                        alle Ehrenstellen erreichen macht. Was ich sagte, <lb/>denn er hatte, <ref xml:id="ba21a0e9-b5f9-460f-a1a0-e9b5f9f60f68" corresp="#ce00ce4d-83e1-49c3-80ce-4d83e1c9c366" type="editorialNote">wegen der Blasen<supplied cert="high" resp="#Humboldt_2000">p</supplied>flaster</ref><note xml:id="ce00ce4d-83e1-49c3-80ce-4d83e1c9c366" corresp="#ba21a0e9-b5f9-460f-a1a0-e9b5f9f60f68" type="editorial" resp="#Humboldt_2000">Gemeint sind die
                                 schmerzhaften galvanischen Experimente, die Humboldt an sich selbst
                                 anstellte, indem er durch Auflegen von Blasenpflastern auf dem
                                 Rücken Wunden erzeugte. (Vgl. den Brief an <persName resp="#CT" ref="https://edition-humboldt.de/H0003404 http://d-nb.info/gnd/116208503">Blumenbach</persName> vom 17.11.1795, in: <bibl corresp="https://edition-humboldt.de/WFDJIWK6">Humboldt 1973</bibl>,
@@ -1110,9 +1094,9 @@
                         </choice> am Berg <choice>
                             <abbr>St</abbr>
                             <expan>Sainte</expan>
-                        </choice> Anne <lb/>romantisch schön. Die Felsmassen von <ref xml:id="c0104cad-4f66-4533-904c-ad4f663533b4" corresp="#fdc50c5c-5147-471e-850c-5c5147a71e7a" type="editorialNote"><placeName ref="https://edition-humboldt.de/H0995591 https://www.geonames.org/6451510">Uriule</placeName></ref><note xml:id="fdc50c5c-5147-471e-850c-5c5147a71e7a" corresp="#c0104cad-4f66-4533-904c-ad4f663533b4" type="editorial" resp="#DB #CT">Für die Identifikation dieses
+                        </choice> Anne <lb/>romantisch schön. Die Felsmassen von <ref xml:id="abdaeec5-c9e7-461d-9aee-c5c9e7c61d98" corresp="#ebc353ff-f1d5-43a2-8353-fff1d573a2fe" type="editorialNote"><placeName ref="https://edition-humboldt.de/H0995591 https://www.geonames.org/6451510">Uriule</placeName></ref><note xml:id="ebc353ff-f1d5-43a2-8353-fff1d573a2fe" corresp="#abdaeec5-c9e7-461d-9aee-c5c9e7c61d98" type="editorial" resp="#DB #CT">Für die Identifikation dieses
                                 Ortes sowie weitere wertvolle Hinweise danken wir <persName ref="https://edition-humboldt.de/H0020759">Dominique Freyssenede</persName>.</note> erinnern <lb/>an
-                            <placeName resp="#UP" ref="https://edition-humboldt.de/H0007225 https://www.geonames.org/2653543">Castleton</placeName>. <foreign xml:lang="fra"><ref xml:id="db62c592-6e18-44a7-a2c5-926e1844a70a" corresp="#affe41df-9fbf-4d67-be41-df9fbf1d6763" type="editorialNote">Croix de Malthe</ref><note xml:id="affe41df-9fbf-4d67-be41-df9fbf1d6763" corresp="#db62c592-6e18-44a7-a2c5-926e1844a70a" type="editorial" resp="#DB">D. i. <hi rendition="#i">La
+                            <placeName resp="#UP" ref="https://edition-humboldt.de/H0007225 https://www.geonames.org/2653543">Castleton</placeName>. <foreign xml:lang="fra"><ref xml:id="c0902eb5-eacd-4965-902e-b5eacd09652e" corresp="#ff422a63-5831-4a01-822a-635831ca0140" type="editorialNote">Croix de Malthe</ref><note xml:id="ff422a63-5831-4a01-822a-635831ca0140" corresp="#c0902eb5-eacd-4965-902e-b5eacd09652e" type="editorial" resp="#DB">D. i. <hi rendition="#i">La
                                         Croix de Malte</hi>, Hotel in <placeName ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName>, in dem Humboldt und <persName ref="https://edition-humboldt.de/H0003476 http://d-nb.info/gnd/118661604">Bonpland</persName> unterkommen.</note></foreign>.
                             <persName ref="https://edition-humboldt.de/H0013742 https://d-nb.info/gnd/1283449099">Guys</persName> hatte uns Empfehlungs<lb break="no"/>briefe an den General <persName ref="https://edition-humboldt.de/H0002810 http://d-nb.info/gnd/130687022">Vins</persName><supplied resp="#Humboldt_2000">,</supplied> dessen
                             <persName ref="https://edition-humboldt.de/H0002808">Neffe</persName> in seinem <pb n="56r" facs="#folio_56r"/>
@@ -1121,8 +1105,8 @@
                         verreiset. <lb/>Die Frau empfing uns sehr artig, schlug aber alles <lb/>ab <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> ohne <persName ref="https://edition-humboldt.de/H0003782">Buonafuss</persName> der uns zu dem
-                            Erzterro<lb break="no"/>risten, dem Präsidenten der Mun<supplied resp="#UP">i</supplied>cipalität <ref xml:id="d141168e-d8d9-4778-8116-8ed8d917781b" corresp="#c5657cee-369b-436c-a57c-ee369b636cf3" type="editorialNote"><persName ref="https://edition-humboldt.de/H0013232">Cras<lb break="no"/>soux</persName></ref><note xml:id="c5657cee-369b-436c-a57c-ee369b636cf3" corresp="#d141168e-d8d9-4778-8116-8ed8d917781b" type="editorial" resp="#Humboldt_2000"><persName ref="https://edition-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Napoleon</persName> hatte während seines
+                        </choice> ohne <persName ref="https://edition-humboldt.de/H0003782">Buonafuss</persName><supplied cert="high">,</supplied> der uns zu dem Erzterro<lb break="no"/>risten,
+                        dem Präsidenten der Mun<supplied resp="#UP">i</supplied>cipalität <ref xml:id="a3122c85-62b5-472a-922c-8562b5072a55" corresp="#b7435909-065b-47ff-8359-09065b77ff43" type="editorialNote"><persName ref="https://edition-humboldt.de/H0013232">Cras<lb break="no"/>soux</persName></ref><note xml:id="b7435909-065b-47ff-8359-09065b77ff43" corresp="#a3122c85-62b5-472a-922c-8562b5072a55" type="editorial" resp="#Humboldt_2000"><persName ref="https://edition-humboldt.de/H0000248 http://d-nb.info/gnd/118586408">Napoleon</persName> hatte während seines
                                 Aufenthaltes in <placeName ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName> zur
                                 Vorbereitung seines Äqyptenfeldzugs (9.-16.5.1798) das Militar
                                 angewiesen, nur Konspirateure, nicht aber Greise, Frauen und Kinder
@@ -1146,7 +1130,7 @@
                             <abbr>J</abbr>
                             <expan>Jahre</expan>
                         </choice> alt war<supplied resp="#Humboldt_2000">;</supplied> alle drei
-                        <lb/>auf dem <ref xml:id="cbaecbec-e126-4b2e-aecb-ece1264b2e72" corresp="#f853806a-569b-44ed-9380-6a569b64ed71" type="editorialNote">Aquilon in der Schlacht bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0002304 https://www.geonames.org/362288">Bequieres</placeName></ref><note xml:id="f853806a-569b-44ed-9380-6a569b64ed71" corresp="#cbaecbec-e126-4b2e-aecb-ece1264b2e72" type="editorial" resp="#Humboldt_2000">In der Schlacht bei
+                        <lb/>auf dem <ref xml:id="d4f4cb25-322d-4cd0-b4cb-25322dccd0a2" corresp="#a8ab02a4-0de3-468f-ab02-a40de3168f0a" type="editorialNote">Aquilon in der Schlacht bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0002304 https://www.geonames.org/362288">Bequieres</placeName></ref><note xml:id="a8ab02a4-0de3-468f-ab02-a40de3168f0a" corresp="#d4f4cb25-322d-4cd0-b4cb-25322dccd0a2" type="editorial" resp="#Humboldt_2000">In der Schlacht bei
                                     <placeName ref="https://edition-humboldt.de/H0002304 https://www.geonames.org/362288">Abukir</placeName> am 1.8.1798 wurde
                                 die französische Flotte von den Engländern unter <persName resp="#CT" ref="https://edition-humboldt.de/H0004940 http://d-nb.info/gnd/118586939">Nelson</persName> geschlagen. Die
                                 französische Namensform lautet <quote>Béquiers</quote>. Sie beruht
@@ -1217,7 +1201,7 @@
                         <lb/><choice>
                             <orig>wir</orig>
                             <reg resp="#Humboldt_2000">Wir</reg>
-                        </choice> besahen das <ref xml:id="ce1cc07a-3761-49d2-9cc0-7a376139d2b4" corresp="#a3cdef6b-e602-4693-8def-6be602a693c4" type="editorialNote">Arsenal</ref><note xml:id="a3cdef6b-e602-4693-8def-6be602a693c4" corresp="#ce1cc07a-3761-49d2-9cc0-7a376139d2b4" type="editorial" resp="#DB"><placeName ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName> wurde seit Beginn des 16. Jahrhunderts zum
+                        </choice> besahen das <ref xml:id="d02a29ec-b855-4374-aa29-ecb8555374ac" corresp="#bcd7a3ab-48aa-4d06-97a3-ab48aaad06ef" type="editorialNote">Arsenal</ref><note xml:id="bcd7a3ab-48aa-4d06-97a3-ab48aaad06ef" corresp="#d02a29ec-b855-4374-aa29-ecb8555374ac" type="editorial" resp="#DB"><placeName ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName> wurde seit Beginn des 16. Jahrhunderts zum
                                 Marinestützpunkt ausgebaut und unter <persName ref="https://edition-humboldt.de/H0000242 http://d-nb.info/gnd/118816829">Ludwig
                                     XIV.</persName> zum allein militärisch genutzten Hafen,
                                     <placeName ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName> ist noch heute die
@@ -1301,7 +1285,7 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> ich <lb/>würden an seinem Untergange arbeiten. Nach Tische
-                        <lb/>besahen wir die äußere und innere Rade, bestiegen den <lb/><ref xml:id="f6a52b15-1e25-4b3e-a52b-151e251b3ee3" corresp="#d60a917e-cc3e-43ce-8a91-7ecc3e63ce2b" type="editorialNote">Admiral, le Hardy</ref><note xml:id="d60a917e-cc3e-43ce-8a91-7ecc3e63ce2b" corresp="#f6a52b15-1e25-4b3e-a52b-151e251b3ee3" type="editorial" resp="#DB">Mit dem Zusatz
+                        <lb/>besahen wir die äußere und innere Rade, bestiegen den <lb/><ref xml:id="b91688d6-e7d0-40eb-9688-d6e7d0c0ebe2" corresp="#f816d76b-1299-4f3d-96d7-6b12991f3d9d" type="editorialNote">Admiral, le Hardy</ref><note xml:id="f816d76b-1299-4f3d-96d7-6b12991f3d9d" corresp="#b91688d6-e7d0-40eb-9688-d6e7d0c0ebe2" type="editorial" resp="#DB">Mit dem Zusatz
                                     <quote>Admiral</quote> kennzeichnet Humboldt das zu dieser Zeit
                                 bereits außer Dienst gesetzte Schiff <quote>Le Hardy</quote>, das in
                                 der zweiten Hälfte des 18. Jahrhunderts im transatlantischen
@@ -1340,10 +1324,10 @@
                             <del rendition="#s">Der</del>
                             <add place="across">ein</add>
                         </subst>
-                        <ref xml:id="f017e0d1-598d-4814-97e0-d1598d08146c" corresp="#c950de9d-3447-4c47-90de-9d34474c4792" type="editorialNote"><choice>
+                        <ref xml:id="e71b93d8-5e8c-4795-9b93-d85e8cf7951f" corresp="#acc38747-eba1-416c-8387-47eba1316cb7" type="editorialNote"><choice>
                                     <abbr>botan.</abbr>
                                     <expan>botanischer</expan>
-                                </choice> Garten bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName></ref><note xml:id="c950de9d-3447-4c47-90de-9d34474c4792" corresp="#f017e0d1-598d-4814-97e0-d1598d08146c" type="editorial" resp="#DB">Die französische Marine legte ab
+                                </choice> Garten bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0009499 https://www.geonames.org/2972328">Toulon</placeName></ref><note xml:id="acc38747-eba1-416c-8387-47eba1316cb7" corresp="#e71b93d8-5e8c-4795-9b93-d85e8cf7951f" type="editorial" resp="#DB">Die französische Marine legte ab
                                 dem 17. Jahrhundert botanische Gärten an ihren Marinestützpunkten in
                                     <placeName ref="https://edition-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName> an, in denen
                                 angelandete Pflanzen aus Überseegebieten gezogen wurden. Der heutige
@@ -1398,10 +1382,11 @@
                             <abbr>C.</abbr>
                             <expan>Citoyen</expan>
                         </choice>
-                        <persName ref="https://edition-humboldt.de/H0004257">Lafille</persName> der berühmteste. Die goldenen
-                        Aepfel hingen <lb/>100weise an den Zwergbäumen, die<supplied cert="high" resp="#Humboldt_2000">,</supplied> damit die Aeste <lb/>nicht brechen,
-                        gestüzt sind. Die Blätter der Orangen <lb/>sind hier minder steif, größer
-                        und wellenförmiger, als <lb/>in den Treibhäusern. <subst>
+                        <persName ref="https://edition-humboldt.de/H0004257">Lafille</persName> der
+                        berühmteste. Die goldenen Aepfel hingen <lb/>100weise an den Zwergbäumen,
+                            die<supplied cert="high" resp="#Humboldt_2000">,</supplied> damit die
+                        Aeste <lb/>nicht brechen, gestüzt sind. Die Blätter der Orangen <lb/>sind
+                        hier minder steif, größer und wellenförmiger, als <lb/>in den Treibhäusern. <subst>
                             <del rendition="#s">Cecropia peltata</del>
                             <add place="superlinear"><name type="plant"><choice>
                                         <orig>Sterculea</orig>
@@ -1486,7 +1471,7 @@
                                 <abbr>Br.</abbr>
                                 <expan>Brumaire</expan>
                             </choice>)</date> zurük nach <placeName resp="#AG" ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> bei fürchter<g ref="#typoHyphen"/><lb break="no"/>lichem kalten Nordwest. Ein Kaufmann aus <placeName resp="#AG" ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName><supplied resp="#Humboldt_2000">,</supplied> ziem<g ref="#typoHyphen"/><lb break="no"/>lich gemein,
-                        sehr gutmüthig und schlicht. Er verstand etwas <lb/><foreign xml:lang="fra">de <ref xml:id="f1c71749-e611-4384-8717-49e6118384d2" corresp="#b59df9c9-b772-405e-9df9-c9b772e05e09" type="editorialNote">la botaniste</ref><note xml:id="b59df9c9-b772-405e-9df9-c9b772e05e09" corresp="#f1c71749-e611-4384-8717-49e6118384d2" type="editorial" resp="#UP #CT"><bibl corresp="https://edition-humboldt.de/EJZWKDV2">Humboldt 2000</bibl>, 50,
+                        sehr gutmüthig und schlicht. Er verstand etwas <lb/><foreign xml:lang="fra">de <ref xml:id="ce2cff6a-4d45-4af4-acff-6a4d457af4e1" corresp="#e7d2c418-6ca5-4d4f-92c4-186ca52d4f85" type="editorialNote">la botaniste</ref><note xml:id="e7d2c418-6ca5-4d4f-92c4-186ca52d4f85" corresp="#ce2cff6a-4d45-4af4-acff-6a4d457af4e1" type="editorial" resp="#UP #CT"><bibl corresp="https://edition-humboldt.de/EJZWKDV2">Humboldt 2000</bibl>, 50,
                                     wertet <quote>la botaniste</quote> als Schreibfehler und
                                     korrigiert zu <quote>la botanique</quote>, da an dem weiblichen
                                     Artikel erkennbar sei, dass es sich um eine Verschreibung handle
@@ -1504,15 +1489,15 @@
                         rühmte das unendliche <lb/>Brunnenhaus, das er für <placeName resp="#AG" ref="https://edition-humboldt.de/H0005126 https://www.geonames.org/6544325">Bareges</placeName> gezeichnet <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> erzählte von <lb/>einer Reise durch die <foreign xml:lang="fra"><ref xml:id="e1749fba-56c6-4d64-b49f-ba56c66d643e" corresp="#a3809518-dda0-4bb0-8095-18dda06bb022" type="editorialNote">Landes</ref><note xml:id="a3809518-dda0-4bb0-8095-18dda06bb022" corresp="#e1749fba-56c6-4d64-b49f-ba56c66d643e" type="editorial" resp="#Humboldt_2000">Wörtlich „sandige,
+                        </choice> erzählte von <lb/>einer Reise durch die <foreign xml:lang="fra"><ref xml:id="b5748c0b-fe10-479b-b48c-0bfe10f79bc7" corresp="#f8e6ff31-97a4-4761-a6ff-3197a4e7616b" type="editorialNote">Landes</ref><note xml:id="f8e6ff31-97a4-4761-a6ff-3197a4e7616b" corresp="#b5748c0b-fe10-479b-b48c-0bfe10f79bc7" type="editorial" resp="#Humboldt_2000">Wörtlich „sandige,
                                     auch sumpfige Gegend; Heide, Steppe“.</note> de</foreign>
                         <placeName resp="#AG" ref="https://edition-humboldt.de/H0005318 https://www.geonames.org/3031582">Bordeaux</placeName><supplied cert="high">,</supplied> wo er „ganze <lb/>nomadische Horden <hi rendition="#u">wilder</hi> Franzosen, wilde Ochsen und wil<g ref="#typoHyphen"/><lb break="no"/>de Pferde die alle ohne Obdach
                         leben“, gesehen hatte. <lb/>Ein wilder Franzose ist wirklich eine wundersame
-                        <lb/>Sache. Auch sprach er viel von 500 <choice>
-                            <abbr>F.</abbr>
-                            <expan>Fuß</expan>
-                        </choice> hohen Sandhü<g ref="#typoHyphen"/><lb break="no"/>geln die alle
-                        Jahre 50 toisen weiter marschiren <choice>
+                        <lb/>Sache. Auch sprach er viel von <ref xml:id="ebcf3225-386f-4e7d-8f32-25386f8e7d4a" corresp="#add7c0cd-be3d-41ea-97c0-cdbe3d71eacd" type="editorialNote">500 <choice>
+                                    <abbr>F.</abbr>
+                                    <expan>Fuß</expan>
+                                </choice> hohen Sandhü<g ref="#typoHyphen"/><lb break="no"/>geln<supplied cert="high">,</supplied></ref><note xml:id="add7c0cd-be3d-41ea-97c0-cdbe3d71eacd" corresp="#ebcf3225-386f-4e7d-8f32-25386f8e7d4a" type="editorial" resp="#DB"><persName ref="https://edition-humboldt.de/H0004602 http://d-nb.info/gnd/117632848">Lomet</persName> meint wahrscheinlich die <hi rendition="#i">Dune du Pilat</hi>, Europas höchste Wanderdüne (heute bis ca.
+                                110 m hoch).</note> die alle Jahre 50 toisen weiter marschiren <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice>
@@ -1527,12 +1512,12 @@
                                 <abbr>Br</abbr>
                                 <expan>Brumaire</expan>
                             </choice>)</date>
-                        <lb/>im̅er vergeblich geharrt. Der Wind war günstig. <ref xml:id="e578d512-8034-44b9-b8d5-12803474b9ff" corresp="#a4728dfd-801b-4b67-b28d-fd801b5b6707" type="editorialNote">Bucci<g ref="#typoHyphen"/><lb break="no"/>niten</ref><note xml:id="a4728dfd-801b-4b67-b28d-fd801b5b6707" corresp="#e578d512-8034-44b9-b8d5-12803474b9ff" type="editorial" resp="#DB">Fossile Gattung von Mollusken;
+                        <lb/>im̅er vergeblich geharrt. Der Wind war günstig. <ref xml:id="f9cce46b-8220-4634-8ce4-6b822016347d" corresp="#c530baad-d8ee-4589-b0ba-add8eee5894d" type="editorialNote">Bucci<g ref="#typoHyphen"/><lb break="no"/>niten</ref><note xml:id="c530baad-d8ee-4589-b0ba-add8eee5894d" corresp="#f9cce46b-8220-4634-8ce4-6b822016347d" type="editorial" resp="#DB">Fossile Gattung von Mollusken;
                                 vgl. z. B. den Eintrag <quote>Posaunenschnecke</quote> in <bibl corresp="https://edition-humboldt.de/KIHEP45V">Adelung, 3, <ref target="https://www.woerterbuchnetz.de/Adelung?lemid=P01453">811</ref></bibl>: <quote>Versteinert wird sie Buccinit
                                     genannt.</quote></note> anatomirt <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> gezeichnet, die Tabelle über <lb/>die <ref xml:id="af1eb23c-529d-41bb-9eb2-3c529d61bb20" corresp="#d6ee6bf6-e88d-4163-ae6b-f6e88d9163fe" type="editorialNote">Analyse der Luft in <placeName resp="#CT" ref="https://edition-humboldt.de/H5917730 https://www.geonames.org/2766823">Salzburg</placeName></ref><note xml:id="d6ee6bf6-e88d-4163-ae6b-f6e88d9163fe" corresp="#af1eb23c-529d-41bb-9eb2-3c529d61bb20" type="editorial" resp="#Humboldt_2000 #CT">Humboldts Tagebuch
+                        </choice> gezeichnet, die Tabelle über <lb/>die <ref xml:id="dc05f4c6-df55-4be0-85f4-c6df55fbe0ef" corresp="#e05f13d9-b004-462b-9f13-d9b004962b02" type="editorialNote">Analyse der Luft in <placeName resp="#CT" ref="https://edition-humboldt.de/H5917730 https://www.geonames.org/2766823">Salzburg</placeName></ref><note xml:id="e05f13d9-b004-462b-9f13-d9b004962b02" corresp="#dc05f4c6-df55-4be0-85f4-c6df55fbe0ef" type="editorial" resp="#Humboldt_2000 #CT">Humboldts Tagebuch
                                     <hi rendition="#i"><ref target="https://edition-humboldt.de/H0019734">Dresden, Salzburg,
                                         Alpen, Ungarn (1797/98)</ref></hi>, <ref target="https://edition-humboldt.de/H0019734/start_thw_p1h_4bc">Bl. 66r</ref>, <ref target="https://edition-humboldt.de/H0019734/68v">68v</ref> und <ref target="https://edition-humboldt.de/H0019734/69v">69v</ref>, enthält Notizen zur Luftanalyse in <placeName resp="#AG" ref="https://edition-humboldt.de/H0009764 https://www.geonames.org/2766824">Salzburg</placeName> bzw. dem
                                     <placeName ref="https://edition-humboldt.de/H5917730 https://www.geonames.org/2766823">Salzburger Land</placeName>. Vgl. dazu
@@ -1541,7 +1526,7 @@
                                 1799</bibl>.</note> vollendet<choice>
                             <orig>..</orig>
                             <reg>.</reg>
-                        </choice> Bei Ti<g ref="#typoHyphen"/><lb break="no"/>sche: Die <ref xml:id="d6e9f163-5b5f-4700-a9f1-635b5f77004b" corresp="#cbe7b754-22cc-43f7-a7b7-5422ccf3f74a" type="editorialNote"><foreign xml:lang="fra">Fourniseuse</foreign></ref><note xml:id="cbe7b754-22cc-43f7-a7b7-5422ccf3f74a" corresp="#d6e9f163-5b5f-4700-a9f1-635b5f77004b" type="editorial" resp="#DB">Hier wohl: Lieferantin.</note> mit der <persName ref="https://edition-humboldt.de/H0004602 http://d-nb.info/gnd/117632848">Lomet</persName> scharmirt hatte,
+                        </choice> Bei Ti<g ref="#typoHyphen"/><lb break="no"/>sche: Die <ref xml:id="cead3bfa-b404-4a54-ad3b-fab4049a542f" corresp="#b740ce1f-77df-47ba-80ce-1f77df47ba17" type="editorialNote"><foreign xml:lang="fra">Fourniseuse</foreign></ref><note xml:id="b740ce1f-77df-47ba-80ce-1f77df47ba17" corresp="#cead3bfa-b404-4a54-ad3b-fab4049a542f" type="editorial" resp="#DB">Hier wohl: Lieferantin.</note> mit der <persName ref="https://edition-humboldt.de/H0004602 http://d-nb.info/gnd/117632848">Lomet</persName> scharmirt hatte,
                             fürch<lb break="no"/>terliche Zähne <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
@@ -1549,8 +1534,8 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> von sanftem Ausdruk das Mädchen <lb/>des Colonels<choice>
-                            <sic>.</sic>
-                            <corr type="deleted"/>
+                            <orig>.</orig>
+                            <reg type="deleted"/>
                         </choice>
                         <add place="superlinear"><persName resp="#CT" ref="https://edition-humboldt.de/H0014240">Miquel</persName></add><supplied cert="high">.</supplied>
                         <date from="1798-11-15" to="1798-11-29" calendar="#calRevolutionary #gregorian"><hi rendition="#u">15<supplied cert="high" resp="#Humboldt_2000">.</supplied>
@@ -1575,8 +1560,8 @@
                             <abbr>Finländ.</abbr>
                             <expan>Finländisches</expan>
                         </choice> Schiff mit uns für 360 Piaster zu nehmen, um <lb/>seine Frau nicht
-                        länger zu exponiren. Indeß blikten wir unverwandt <lb/>nach <ref xml:id="e9ba926c-d5b4-4dca-ba92-6cd5b40dcadf" corresp="#b04293be-45ca-4d37-8293-be45ca9d37cd" type="editorialNote"><placeName resp="#Humboldt_2000 #AG" ref="https://edition-humboldt.de/H0001716 https://www.geonames.org/11496469">notre Dame des
-                                    signaux</placeName></ref><note xml:id="b04293be-45ca-4d37-8293-be45ca9d37cd" corresp="#e9ba926c-d5b4-4dca-ba92-6cd5b40dcadf" type="editorial" resp="#Humboldt_2000">Humboldt meint die
+                        länger zu exponiren. Indeß blikten wir unverwandt <lb/>nach <ref xml:id="a822ffcd-7101-417c-a2ff-cd7101c17c57" corresp="#ebb6112a-2020-454b-b611-2a2020454b6f" type="editorialNote"><placeName resp="#Humboldt_2000 #AG" ref="https://edition-humboldt.de/H0001716 https://www.geonames.org/11496469">notre Dame des
+                                    signaux</placeName></ref><note xml:id="ebb6112a-2020-454b-b611-2a2020454b6f" corresp="#a822ffcd-7101-417c-a2ff-cd7101c17c57" type="editorial" resp="#Humboldt_2000">Humboldt meint die
                                 höchste Erhebung am Hafen von <placeName ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName>, <placeName ref="https://edition-humboldt.de/H0001716 https://www.geonames.org/11496469">Notre Dame de
                                     la Garde</placeName> (vgl. auch <ref target="https://edition-humboldt.de/H0018407/59r">Bl.
                                     59r</ref>), auf der eine Festung stand. Von hier aus wurde der
@@ -1602,7 +1587,7 @@
                             </choice></persName> mein<lb break="no"/>te, <persName ref="https://edition-humboldt.de/H0003476 http://d-nb.info/gnd/118661604"><choice>
                                 <abbr>B.</abbr>
                                 <expan>Bonpland</expan>
-                            </choice></persName> könne nun nicht mit. Ich würde leicht 30000<hi rendition="#sup">₶</hi>
+                            </choice></persName> könne nun nicht mit. Ich würde leicht <measure unit="franc" quantity="30000">30000<hi rendition="#sup">#</hi></measure>
                         für ihn <lb/>zahlen müssen. Er könne als Sklave auch früher nie<g ref="#typoHyphen"/><lb break="no"/>dergemezelt werden. Diese
                         Betrachtungen sezten uns 2 Tage lang <lb/>in heftige Seelenmotion. Ich
                         wünschte eine Nacht hindurch <lb/>selbst mich von ihm zu trennen. Er konnte
@@ -1616,7 +1601,7 @@
                             <placeName resp="#AG" ref="https://edition-humboldt.de/H0018458 https://www.geonames.org/3201047">Ragusa</placeName>ner Schiffe in 8
                         Tagen nach <placeName resp="#AG" ref="https://edition-humboldt.de/H0009577 https://www.geonames.org/2464470">Tu<g ref="#typoHyphen"/><lb break="no"/>nis</placeName> schikken, ich sollte von da zu Lande
                         über <placeName resp="#AG" ref="https://edition-humboldt.de/H0007564 https://www.geonames.org/2501152">Constan<g ref="#typoHyphen"/><lb break="no"/>tine</placeName> nach <placeName resp="#AG" ref="https://edition-humboldt.de/H0002382 https://www.geonames.org/2507480">Alger</placeName> wandern, wo alsdenn Herr <persName resp="#CT" ref="https://edition-humboldt.de/H0015902 https://d-nb.info/gnd/1283366215">Skoldebrand</persName> ange<g ref="#typoHyphen"/><lb break="no"/>kommen sein würde. Aber alle unsere
-                        Bekannten wiederriethen <lb/>uns, <ref xml:id="e145baeb-63ac-4070-85ba-eb63ac5070c1" corresp="#e5db5522-edec-46aa-9b55-22edece6aa25" type="editorialNote">dem Juden zu trauen</ref><note xml:id="e5db5522-edec-46aa-9b55-22edece6aa25" corresp="#e145baeb-63ac-4070-85ba-eb63ac5070c1" type="editorial" resp="#Humboldt_2000">Der Dey von Algier
+                        Bekannten wiederriethen <lb/>uns, <ref xml:id="e9bbc531-4cbd-48b7-bbc5-314cbd98b737" corresp="#ded1bce0-f9db-4d3d-91bc-e0f9db9d3de5" type="editorialNote">dem Juden zu trauen</ref><note xml:id="ded1bce0-f9db-4d3d-91bc-e0f9db9d3de5" corresp="#e9bbc531-4cbd-48b7-bbc5-314cbd98b737" type="editorial" resp="#Humboldt_2000">Der Dey von Algier
                                 übte die Regentschaft aus für den türkischen Sultan. Die Deys hatten
                                 jedoch zu Ende de 18. Jahrhunderts die Macht verloren. Die
                                 Machtbefugnisse lagen faktisch in den Händen zweier jüdischer, aus
@@ -1703,8 +1688,7 @@
                             <abbr>S.</abbr>
                             <expan>Sous</expan>
                         </choice>
-                        <lb/>bis 10
-                        ₤d’or auf eine
+                        <lb/>bis <measure unit="louisdor" quantity="10">10 ₤d’or</measure> auf eine
                         Karte <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
@@ -1724,10 +1708,10 @@
                         </choice> welche verloren. (<persName resp="#CT" ref="https://edition-humboldt.de/H0015902 https://d-nb.info/gnd/1283366215"><choice>
                                 <abbr>Sk.</abbr>
                                 <expan>Skoldebrand</expan>
-                            </choice></persName> verlor in 8 Tagen über 150 ₤d’or
-                        <lb/>und weigerte sich<supplied cert="high" resp="#Humboldt_2000">,</supplied> wenn 60
-                        ₤d’or in der
-                        Bank waren<supplied cert="high" resp="#Humboldt_2000">,</supplied> 40<hi rendition="#sup">₶</hi>
+                            </choice></persName> verlor in 8 Tagen über <measure unit="louisdor" quantity="150">150 ₤d’or</measure>
+                        <lb/>und weigerte sich<supplied cert="high" resp="#Humboldt_2000">,</supplied> wenn <measure unit="louisdor" quantity="60">60
+                            ₤d’or</measure> in der Bank waren<supplied cert="high" resp="#Humboldt_2000">,</supplied>
+                        <measure unit="franc" quantity="40">40<hi rendition="#sup">#</hi></measure>
                         zu <lb/>halten. <persName resp="#CT" ref="https://edition-humboldt.de/H0015902 https://d-nb.info/gnd/1283366215"><choice>
                                 <abbr>Sk.</abbr>
                                 <expan>Skoldebrand</expan>
@@ -1745,10 +1729,9 @@
                             <sic>der Wirth</sic>
                             <corr resp="#CT" cert="low" type="deleted"/>
                         </choice> hatte einen Beutel mit Geld zwischen <lb/>den Beinen und bot
-                        jedermann, der minder hoch spielte<supplied cert="high" resp="#Humboldt_2000">,</supplied> an, <lb/>ihm einige
-                        ₤d’or zu
-                        leihen. Lieh man, so wurde man <lb/>alle Minuten erinnert, wie viel man
-                        geliehen. Der pöbelhafteste von <lb/>allen war Herr <persName resp="#AG" ref="https://edition-humboldt.de/H0000301">Fromenditi</persName>, dessen langhalsige Frau uns bei Herrn
+                        jedermann, der minder hoch spielte<supplied cert="high" resp="#Humboldt_2000">,</supplied> an, <lb/>ihm einige ₤d’or zu leihen.
+                        Lieh man, so wurde man <lb/>alle Minuten erinnert, wie viel man geliehen.
+                        Der pöbelhafteste von <lb/>allen war Herr <persName resp="#AG" ref="https://edition-humboldt.de/H0000301">Fromenditi</persName>, dessen langhalsige Frau uns bei Herrn
                             <persName ref="https://edition-humboldt.de/H0000159 https://d-nb.info/gnd/124713119X">Fölsch</persName> das <lb/>decente Spiel vom
                             <foreign xml:lang="fra">foudre de Jupiter avec sa foudre
                             foudroyante</foreign> hatte <lb/>spielen lassen. Er behauptete<supplied cert="high" resp="#Humboldt_2000">,</supplied> jede Münze<supplied cert="high" resp="#Humboldt_2000">,</supplied> die an die Erde
@@ -1757,9 +1740,7 @@
                             <corr resp="#Humboldt_2000" cert="high">er</corr>
                         </choice><supplied cert="high" resp="#Humboldt_2000">,</supplied> seine
                         Erziehung habe seinen Vater mo<g ref="#typoHyphen"/><lb break="no"/>natlich
-                        nur 2<hi rendition="#sup">₶</hi>
-                        gekostet. Die einzige, in der That sehr liebens<lb break="no"/>würdige Frau
-                        ist <choice>
+                        nur <measure unit="franc" quantity="2">2<hi rendition="#sup">#</hi></measure> gekostet. Die einzige, in der That sehr liebens<lb break="no"/>würdige Frau ist <choice>
                             <abbr>Mad.</abbr>
                             <expan>Madame</expan>
                         </choice>
@@ -1824,15 +1805,14 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> dieser Mann war <lb/>bis zur Revolution selbst Schifs<supplied resp="#Humboldt_2000">-</supplied>Capitain! Er führte <lb/>selbst
-                        Schiffe nach den <placeName resp="#AG"><choice>
-                                
-                                
-                                <abbr>Amer.</abbr>
-                                <expan>Amerikanischen</expan>
-                            </choice> Inseln</placeName>. Ich gewann in dieser <lb/>Gesellschaft an
-                        einem Abend 14
-                        ₤d’or,
-                            <persName ref="https://edition-humboldt.de/H0003476 http://d-nb.info/gnd/118661604"><choice>
+                        Schiffe nach den <choice>
+                            
+                            
+                            
+                            <abbr>Amer.</abbr>
+                            <expan>Amerikanischen</expan>
+                        </choice> Inseln. Ich gewann in dieser <lb/>Gesellschaft an einem Abend
+                            <measure unit="louisdor" quantity="14">14 ₤d’or</measure>, <persName ref="https://edition-humboldt.de/H0003476 http://d-nb.info/gnd/118661604"><choice>
                                 <abbr>B.</abbr>
                                 <expan>Bonpland</expan>
                             </choice></persName> eben so viel. Aus <lb/><subst>
@@ -1929,9 +1909,9 @@
                         zu. Den Sardellenfang auf der Insel <lb/><placeName resp="#AG" ref="https://edition-humboldt.de/H0008352 https://www.geonames.org/2986438">Pomego</placeName>, den dasigen Felsenbogen <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
-                        </choice> das Wunder der <lb/>Corallenbeete habe ich <ref xml:id="b8770842-46b4-4884-b708-4246b4b8847a" corresp="#a351ef51-f9b4-456e-91ef-51f9b4956e49" type="editorialNote">an
+                        </choice> das Wunder der <lb/>Corallenbeete habe ich <ref xml:id="bfcfb47b-f2f5-47ab-8fb4-7bf2f527ab77" corresp="#f825efda-cbfc-4b7a-a5ef-dacbfc9b7a1d" type="editorialNote">an
                                 einem
-                                andern Orte</ref><note xml:id="a351ef51-f9b4-456e-91ef-51f9b4956e49" corresp="#b8770842-46b4-4884-b708-4246b4b8847a" type="editorial" resp="#Humboldt_2000">Nicht
+                                andern Orte</ref><note xml:id="f825efda-cbfc-4b7a-a5ef-dacbfc9b7a1d" corresp="#bfcfb47b-f2f5-47ab-8fb4-7bf2f527ab77" type="editorial" resp="#Humboldt_2000">Nicht
                                 ermittelt.</note> beschrieben. <lb/>In dieser Zwischenzeit sah ich viel, öfter als ich
                         es <lb/>wünschte<supplied resp="#Humboldt_2000">,</supplied> Herrn <persName ref="https://edition-humboldt.de/H0003956 http://d-nb.info/gnd/117626635">Thulis</persName>
                         <choice>
@@ -1985,7 +1965,7 @@
                         Verfassung <lb/>machen ihn aber jeder großen Anstrengung unfähig. Seine
                         <lb/>Frau, ein breitlippiges bleiches Weib, das
                             Jupitersverfinsterung<supplied resp="#CT">en</supplied>
-                        <lb/>beobachtet und von der man rühmt, daß sie <ref xml:id="da236b39-4b92-4972-a36b-394b9249723f" corresp="#b0566a65-a8ae-4fae-966a-65a8aedfae27" type="editorialNote"><persName>E.</persName></ref><note xml:id="b0566a65-a8ae-4fae-966a-65a8aedfae27" corresp="#da236b39-4b92-4972-a36b-394b9249723f" type="editorial" resp="#Humboldt_2000 #CT">Die hier mit
+                        <lb/>beobachtet und von der man rühmt, daß sie <ref xml:id="d0d27524-ee8e-4fd7-9275-24ee8e0fd77f" corresp="#d9188dda-681e-4352-988d-da681eb35225" type="editorialNote"><persName>E.</persName></ref><note xml:id="d9188dda-681e-4352-988d-da681eb35225" corresp="#d0d27524-ee8e-4fd7-9275-24ee8e0fd77f" type="editorial" resp="#Humboldt_2000 #CT">Die hier mit
                                     <quote>E.</quote> bezeichnete Person konnte bisher nicht
                                 identifiziert werden.</note> durchgeholfen <lb/><choice>
                             <abbr>u</abbr>
@@ -2051,7 +2031,7 @@
                         </choice> Instrumenten <lb/>anschmieren) kann man ihm indeß doch guten Ton
                         und eine <lb/>gewisse Gewandtheit im Umgang mit Fremden nicht
                             absprech<supplied>en</supplied>. <lb/>Diese Leichtigkeit macht ihn auch
-                        nicht uninteressant in der Un<g ref="#typoHyphen"/><lb break="no"/>terhaltung über die Personen, mit denen er gelebt, wie <lb/>mit dem <ref xml:id="d1b60d27-dfa8-4781-b60d-27dfa8b781af" corresp="#f3a2b381-65ed-4e49-a2b3-8165ed4e49c0" type="editorialNote"><persName resp="#AG" ref="https://edition-humboldt.de/H0015364 http://d-nb.info/gnd/102109109"><choice>
+                        nicht uninteressant in der Un<g ref="#typoHyphen"/><lb break="no"/>terhaltung über die Personen, mit denen er gelebt, wie <lb/>mit dem <ref xml:id="c08183cc-8cbd-4f82-8183-cc8cbd4f82d7" corresp="#e999ef96-043d-4b31-99ef-96043d8b3127" type="editorialNote"><persName resp="#AG" ref="https://edition-humboldt.de/H0015364 http://d-nb.info/gnd/102109109"><choice>
                                         <abbr>H.</abbr>
                                         <expan>Herzog</expan>
                                     </choice>
@@ -2061,7 +2041,7 @@
                                     </choice> Gotha</persName> der ihm einen Ring und eine
                                     <unclear reason="illegible" cert="high">k</unclear>nöcherne <lb/>Dose
                                 schenkte, auch oft für <persName ref="https://edition-humboldt.de/H0003956 http://d-nb.info/gnd/117626635">Thulis</persName>
-                                Geld zu Abend aß, <lb/>über <persName ref="https://edition-humboldt.de/H0015220 http://d-nb.info/gnd/119151456">Zach</persName>, der das Haar der <persName resp="#CT" ref="https://edition-humboldt.de/H0015363 http://d-nb.info/gnd/124959571">Herzogin</persName> in der Schreibtafel trug</ref><note xml:id="f3a2b381-65ed-4e49-a2b3-8165ed4e49c0" corresp="#d1b60d27-dfa8-4781-b60d-27dfa8b781af" type="editorial" resp="#Humboldt_2000"><persName resp="#AG" ref="https://edition-humboldt.de/H0015364 http://d-nb.info/gnd/102109109">Herzog Ernst II. von
+                                Geld zu Abend aß, <lb/>über <persName ref="https://edition-humboldt.de/H0015220 http://d-nb.info/gnd/119151456">Zach</persName>, der das Haar der <persName resp="#CT" ref="https://edition-humboldt.de/H0015363 http://d-nb.info/gnd/124959571">Herzogin</persName> in der Schreibtafel trug</ref><note xml:id="e999ef96-043d-4b31-99ef-96043d8b3127" corresp="#c08183cc-8cbd-4f82-8183-cc8cbd4f82d7" type="editorial" resp="#Humboldt_2000"><persName resp="#AG" ref="https://edition-humboldt.de/H0015364 http://d-nb.info/gnd/102109109">Herzog Ernst II. von
                                     Sachsen-Gotha-Altenburg</persName> und seine Gemahlin <persName resp="#CT" ref="https://edition-humboldt.de/H0015363 http://d-nb.info/gnd/124959571">Maria Amalie Charlotte</persName>.
                                 Nach Ausweis seines Biographen (<bibl corresp="https://edition-humboldt.de/IVZ3FRKX">Beck 1854</bibl>) war der Herzog
                                 nur einmal in seinem Leben in <placeName ref="https://edition-humboldt.de/H0004801 https://www.geonames.org/3017382">Frankreich</placeName>. Vom 28.7. bis 1.9.1786 reiste er in
@@ -2112,14 +2092,20 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice>
-                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0001717 https://www.geonames.org/9252044">Notre Dame des Anges</placeName> zu
-                        sehen. Er <lb/>sagte es sei beides ganz nah bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0002387 https://www.geonames.org/3038159">Allauch</placeName>. Wir glaubten ei<g ref="#typoHyphen"/><lb break="no"/>nen eben so angenehmen Spaziergang als nach den
-                        Gipsbrüchen <lb/>zu machen, geriethen aber in klippigte Fußsteige ohne Spur
-                        von <lb/>Damerde und Vegetation. Nach langem Herumirren wieß uns ein
-                        <lb/>Ziegenhirte das einzeln liegende Haus eines Landmanns der durch
-                        <lb/>kleine Mauern eine Insel von Fruchterde zusammenhielt. Der
-                        <lb/>guthmüthige Mann versicherte uns <placeName resp="#AG" ref="https://edition-humboldt.de/H0009077 https://www.geonames.org/2971069">Valdome</placeName> sei noch 3
-                        lieues von <lb/>der <placeName resp="#AG" ref="https://edition-humboldt.de/H0001717 https://www.geonames.org/9252044"><choice>
+                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0001717 https://www.geonames.org/9252044">Notre Dame des
+                        Anges</placeName> zu sehen. Er <lb/>sagte es sei beides
+                        ganz nah bei <placeName resp="#AG" ref="https://edition-humboldt.de/H0002387 https://www.geonames.org/3038159">Allauch</placeName>. Wir
+                        glaubten ei<g ref="#typoHyphen"/><lb break="no"/>nen eben so angenehmen
+                        Spaziergang als nach den Gipsbrüchen <lb/>zu machen, geriethen aber in
+                        klippigte Fußsteige ohne Spur von <lb/>Damerde und Vegetation. Nach langem
+                        Herumirren wieß uns ein <lb/>Ziegenhirte das einzeln liegende Haus eines
+                        Landmanns der durch <lb/>kleine <choice>
+                            <orig>Mau<unclear reason="illegible" cert="low">re</unclear>n</orig>
+                            <reg>Mauern</reg>
+                        </choice> eine Insel von Fruchterde zusammenhielt. Der <lb/>guthmüthige Mann
+                        versicherte uns<supplied cert="high">,</supplied>
+                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0009077 https://www.geonames.org/2971069">Valdome</placeName>
+                        sei noch 3 lieues von <lb/>der <placeName resp="#AG" ref="https://edition-humboldt.de/H0001717 https://www.geonames.org/9252044"><choice>
                                 <abbr>D</abbr>
                                 <expan>Dame</expan>
                             </choice> des anges</placeName> entfernt <choice>
@@ -2307,8 +2293,8 @@
                             <abbr>u</abbr>
                             <expan>und</expan>
                         </choice> alle Formalitäten der Pässe vor uns hatten<supplied resp="#Humboldt_2000">,</supplied> sehr <lb/>kurz. Doch hielt ich es
-                        nicht für unmöglich in 2 Tagen alles <lb/>(selbst das lange <ref xml:id="d8510f9d-ad0d-4bd0-910f-9dad0debd0c8" corresp="#d667e275-b9d4-4d63-a7e2-75b9d4dd6338" type="editorialNote"><bibl corresp="https://edition-humboldt.de/CDTEMWD2">Memoire über die
-                                    Luftzerlegung des Winters 98</bibl></ref><note xml:id="d667e275-b9d4-4d63-a7e2-75b9d4dd6338" corresp="#d8510f9d-ad0d-4bd0-910f-9dad0debd0c8" type="editorial" resp="#Humboldt_2000"><bibl corresp="https://edition-humboldt.de/CDTEMWD2">Humboldt
+                        nicht für unmöglich in 2 Tagen alles <lb/>(selbst das lange <ref xml:id="f3f2e6db-0aa5-44bd-b2e6-db0aa574bd7a" corresp="#c510cb43-41a6-4c6e-90cb-4341a68c6eb9" type="editorialNote"><bibl corresp="https://edition-humboldt.de/CDTEMWD2">Memoire über die
+                                    Luftzerlegung des Winters 98</bibl></ref><note xml:id="c510cb43-41a6-4c6e-90cb-4341a68c6eb9" corresp="#f3f2e6db-0aa5-44bd-b2e6-db0aa574bd7a" type="editorial" resp="#Humboldt_2000"><bibl corresp="https://edition-humboldt.de/CDTEMWD2">Humboldt
                                 1799a</bibl>.</note>) zu <lb/>vollenden. Ich versprach dem <choice>
                             <abbr>Cap.</abbr>
                             <expan>Capitaine</expan>
@@ -2465,18 +2451,18 @@
                             <expan>und</expan>
                         </choice> meine Plane verschworen. Am <date when="1798-12-05" calendar="#calRevolutionary">15ten</date> auf der Börse <lb/>sagte ich
                         dem Kaufmann <persName resp="#CT" ref="https://edition-humboldt.de/H0005906">Ellenberg</persName>, auf
-                        den mir <ref xml:id="b7eed8cf-4d8c-4a88-aed8-cf4d8c2a88d5" corresp="#c6eb3510-248c-4505-ab35-10248c6505c1" type="editorialNote"><persName resp="#CT" ref="https://edition-humboldt.de/H0000196 https://d-nb.info/gnd/1283243202">Fuld</persName></ref><note xml:id="c6eb3510-248c-4505-ab35-10248c6505c1" corresp="#b7eed8cf-4d8c-4a88-aed8-cf4d8c2a88d5" type="editorial" resp="#Humboldt_2000">Bankier <persName ref="https://edition-humboldt.de/H0000196 https://d-nb.info/gnd/1283243202">Fould</persName>, mit dem auch <persName resp="#CT" ref="https://edition-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm von Humboldt</persName> in
+                        den mir <ref xml:id="edd0f736-7ba2-492e-90f7-367ba2992e7f" corresp="#d77e11e7-6fb5-4e53-be11-e76fb53e53ac" type="editorialNote"><persName resp="#CT" ref="https://edition-humboldt.de/H0000196 https://d-nb.info/gnd/1283243202">Fuld</persName></ref><note xml:id="d77e11e7-6fb5-4e53-be11-e76fb53e53ac" corresp="#edd0f736-7ba2-492e-90f7-367ba2992e7f" type="editorial" resp="#Humboldt_2000">Bankier <persName ref="https://edition-humboldt.de/H0000196 https://d-nb.info/gnd/1283243202">Fould</persName>, mit dem auch <persName resp="#CT" ref="https://edition-humboldt.de/H0012068 http://d-nb.info/gnd/118554727">Wilhelm von Humboldt</persName> in
                                     <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName> bekannt war; vgl.
                                     <bibl corresp="https://edition-humboldt.de/BBQP9BIH">Humboldt, W. v.
                                     1916</bibl>, 431, 566.</note> in <placeName resp="#AG" ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
-                        <lb/>einen Credit von 40000<hi rendition="#sup">₶</hi>
-                        gegeben, (ein<del rendition="#s"><add place="superlinear"><metamark/>em</add></del> geschwäziger aber gut<g ref="#typoHyphen"/><lb break="no"/>müthiger hagerer junger <choice>
+                        <lb/>einen Credit von <measure unit="franc" quantity="40000">40000<hi rendition="#sup">#</hi></measure> gegeben, (ein<del rendition="#s"><add place="superlinear"><metamark/>em</add></del> geschwäziger
+                        aber gut<g ref="#typoHyphen"/><lb break="no"/>müthiger hagerer junger <choice>
                             <sic>Manne</sic>
                             <corr resp="#CT">Mann</corr>
                         </choice>)
                         daß ich ihn um Wechsel nach <lb/>
                         <pb n="61v" facs="#folio_61v"/><fw type="folNum">20.</fw>
-                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName> bitte, da ich <ref xml:id="d1c06822-f8a3-4213-8068-22f8a3b213a2" corresp="#bc0d7502-0bbe-49f8-8d75-020bbe19f8a5" type="editorialNote">dorthin meinen Credit<supplied resp="#Humboldt_2000">,</supplied>
+                        <placeName resp="#AG" ref="https://edition-humboldt.de/H0010330 https://www.geonames.org/2510769">Spanien</placeName> bitte, da ich <ref xml:id="b8d24b99-da2c-473a-924b-99da2c673a36" corresp="#ce384035-e1db-4344-b840-35e1db134487" type="editorialNote">dorthin meinen Credit<supplied resp="#Humboldt_2000">,</supplied>
                                 wenigstens einen <lb/>Theil desselben<supplied resp="#Humboldt_2000">,</supplied> zu übertragen wünschte. <persName resp="#CT" ref="https://edition-humboldt.de/H0005906">Ellenberg</persName> sagte <lb/>etwas geheimnißvoll
                                 er wolle morgen zu mir kom̅en, um <lb/>über diese Wechsel zu reden.
                                 Ich achtete nicht auf diese <lb/>Antwort. Wie groß aber war mein
@@ -2490,7 +2476,7 @@
                                 </choice> mir sagte, er habe <lb/>seit 10 Tagen bereits eine Order
                                 von <persName resp="#CT" ref="https://edition-humboldt.de/H0000196 https://d-nb.info/gnd/1283243202">Fuld</persName><supplied resp="#Humboldt_2000">,</supplied> mir keinen Pfen<g ref="#typoHyphen"/><lb break="no"/>nig zu zahlen, aus <foreign xml:lang="fra">délicatesse</foreign> habe er mir diese
                                     unangeneh<g ref="#typoHyphen"/><lb break="no"/>me Botschaft
-                                nicht früher geben wollen.</ref><note xml:id="bc0d7502-0bbe-49f8-8d75-020bbe19f8a5" corresp="#d1c06822-f8a3-4213-8068-22f8a3b213a2" type="editorial" resp="#Humboldt_2000">Im Januar 1799 bat
+                                nicht früher geben wollen.</ref><note xml:id="ce384035-e1db-4344-b840-35e1db134487" corresp="#b8d24b99-da2c-473a-924b-99da2c673a36" type="editorial" resp="#Humboldt_2000">Im Januar 1799 bat
                                 Humboldt aus <placeName ref="https://edition-humboldt.de/H0005121 https://www.geonames.org/3128760">Barcelona</placeName> einen
                                     <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>er Freund, wohl
                                     <persName resp="#CT" ref="https://edition-humboldt.de/H0001519 http://d-nb.info/gnd/116611839">Gottlob Johann Christian
@@ -2579,15 +2565,16 @@
                 <p>2. am <date when="1798-11-05" calendar="#calRevolutionary">15 <choice>
                                 <abbr>Brum.</abbr>
                                 <expan>Brumaire</expan>
-                            </choice></date> wahre Zeit 12<choice>
+                            </choice></date><supplied cert="high">,</supplied> wahre Zeit 12<choice>
                             <abbr>h.</abbr>
-                            <expan>heures</expan>
-                        </choice>
+                            <expan> heures</expan>
+                        </choice><supplied cert="high">,</supplied>
                         <subst>
                             <del rendition="#s"><gap reason="covered" unit="chars" quantity="1"/>′</del>
                             <add place="intralinear">1′</add>
-                        </subst> — 62<unclear reason="illegible" cert="low">.</unclear> 16⁄31 8
-                        <lb/>giebt 43° 17′ 6″</p><note place="right" hand="#author"><p>alle nicht sehr sicher <lb/>in <choice>
+                        </subst> — <hi rendition="#sup">62<unclear reason="illegible" cert="low">.</unclear> 16</hi>⁄<hi rendition="#sub">31
+                            8</hi><supplied cert="high">,</supplied>
+                        <lb type="preserve"/><space dim="horizontal"/>giebt 43° 17′ 6″</p><note place="right" hand="#author"><p>alle nicht sehr sicher <lb/>in <choice>
                                 <abbr>Bestim̅.</abbr>
                                 <expan>Bestimmung</expan>
                             </choice> der <choice>
@@ -2603,18 +2590,18 @@
                                 <expan>numero</expan>
                             </choice> 1–3.</p></note>
                 <p>3. am <date when="1798-11-06" calendar="#calRevolutionary">16 <choice>
-                            <abbr>Br.</abbr>
-                            <expan>Brumaire</expan>
-                        </choice></date>
-                    <choice>
-                        <abbr>w.</abbr>
-                        <expan>wahre</expan>
-                    </choice>
-                    <choice>
-                        <abbr>Z.</abbr>
-                        <expan>Zeit</expan>
-                    </choice> 69. 36. — 61 33. 23 <lb/>giebt 43. 17. 9. <lb/><del rendition="#s">6<unclear reason="covered" cert="high">9</unclear> 28. 61 <unclear reason="covered" cert="low">—</unclear> 37. 30
-                        giebt</del></p>
+                                <abbr>Br.</abbr>
+                                <expan>Brumaire</expan>
+                            </choice></date><supplied cert="high">,</supplied>
+                        <lb/><choice>
+                            <abbr>w.</abbr>
+                            <expan>wahre</expan>
+                        </choice>
+                        <choice>
+                            <abbr>Z.</abbr>
+                            <expan>Zeit</expan>
+                        </choice><supplied cert="high">,</supplied> 69. 36. — 61 33. 23<supplied cert="high">,</supplied>
+                    <lb type="preserve"/><space dim="horizontal"/>giebt 43. 17. 9. <lb/><del rendition="#s">6<unclear reason="covered" cert="high">9</unclear> 28. 61 <unclear reason="covered" cert="low">—</unclear> 37. 30 giebt</del></p>
                 <p>4. am <date when="1798-11-08" calendar="#calRevolutionary">18ten <choice>
                                 <abbr>Brum.</abbr>
                                 <expan>Brumaire</expan>
@@ -2675,8 +2662,8 @@
                                 <expan>Brumaire</expan>
                             </choice></date> Seeluft <placeName resp="#DB" ref="https://edition-humboldt.de/H0020586">St.
                             Nicolas</placeName><choice>
-                            <sic>.</sic>
-                            <corr type="deleted"/>
+                            <orig>.</orig>
+                            <reg type="deleted"/>
                         </choice> 104½<supplied cert="high">.</supplied>
                         <lb/><date when="1798-11-18" calendar="#calRevolutionary">28</date><supplied>,</supplied> stärkere Seeluft 102½.</p>
                 <space dim="vertical"/>
@@ -2685,7 +2672,7 @@
                                 <expan>Brumaire</expan>
                             </choice></date> erste genau<unclear reason="illegible" cert="high">r</unclear>e Beobachtung:</p>
                     <cb type="start"/>
-                    <p><tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" cols="2" rows="3">
+                    <p><table cols="2" rows="3">
                             <head>Sextant:</head>
                             <row>
                                 <cell>XI. 59.′ 50″</cell>
@@ -2706,9 +2693,9 @@
                                         <reg>〃</reg>
                                     </choice> 53.<supplied>′</supplied> 20<unclear reason="illegible" cert="low">″</unclear></cell>
                             </row>
-                        </tei:table><note place="right" hand="#author">
+                        </table><note place="right" hand="#author">
                             
-                            <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" cols="2" rows="3">
+                            <table cols="2" rows="3">
                                 <row>
                                     <cell>59</cell>
                                     <cell>55</cell>
@@ -2725,7 +2712,7 @@
                                     <cell>29</cell>
                                     <cell>58</cell>
                                 </row>
-                            </tei:table>
+                            </table>
                         </note>
                         <lb/> wahre<supplied>r</supplied>
                         <choice>
@@ -2743,7 +2730,7 @@
                 <p>b giebt 43° 17′ 36″</p>
                     <cb/>
                 <p>
-                        <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" cols="2" rows="5">
+                        <table cols="2" rows="5">
                             <head><choice>
                                         <abbr>Bord.</abbr>
                                         <expan>Borda’scher</expan>
@@ -2784,7 +2771,7 @@
                                     </choice> 54.<supplied>′</supplied>
                                     50.<supplied>″</supplied></cell>
                             </row>
-                        </tei:table>
+                        </table>
                         <lb/>wegen <choice>
                             <abbr>Blendgl.</abbr>
                             <expan>Blendglas</expan>
@@ -2835,7 +2822,7 @@
                     <expan>Brumaire</expan>
                 </choice></date></p>
                 <cb type="start"/>
-                <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" cols="2" rows="10">
+                <table cols="2" rows="10">
                         <row>
                             <cell>43. 20</cell>
                             <cell>27. 41.50</cell>
@@ -2906,14 +2893,14 @@
                                 <reg>〃</reg>
                             </choice> 50 30.</cell>
                         </row>
-                    </tei:table>
+                    </table>
                 <p>Wolken.</p>
                 <cb/>
                 <p>27. 51. 25. (−30″ <unclear reason="illegible" cert="high">und</unclear> wegen Faden<choice>
                         <orig>..</orig>
                         <reg>…</reg>
                 </choice>) giebt <lb/>43° 17′ 12″</p>
-                    <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" cols="2" rows="10">
+                    <table cols="2" rows="10">
                         <row>
                             <cell>1. giebt</cell>
                             <cell>43° 13′ 1″</cell>
@@ -3008,12 +2995,12 @@
                                 <reg>〃</reg>
                             </choice> 17. 56.</cell>
                         </row>
-                    </tei:table><note place="left" hand="#author"><p>also bis 6 <lb/>sehr schlecht.</p></note>
+                    </table><note place="left" hand="#author"><p>also bis 6 <lb/>sehr schlecht.</p></note>
                 <cb type="end"/>
                     <pb n="71v" facs="#folio_71v"/>
                     
-                <p><ref xml:id="e2c22909-8431-497f-8229-098431097fd0" corresp="#b95eb2a0-20cf-4192-9eb2-a020cf319209" type="editorialNote"><name type="animal">Cancer narval</name></ref><note xml:id="b95eb2a0-20cf-4192-9eb2-a020cf319209" corresp="#e2c22909-8431-497f-8229-098431097fd0" type="editorial" resp="#DB">Einhorngarnele, <foreign xml:lang="lat">Plesionika narval</foreign>
-                                (Fabricius, 1787), vgl. <ref target="https://www.gbif.org/species/4309688"><hi rendition="#i">Global Biodiversity Information Facility
+                <p><ref xml:id="dcab576f-9fde-4ead-ab57-6f9fde6ead07" corresp="#c41aa866-c9fd-42d0-9aa8-66c9fd72d04b" type="editorialNote"><name type="animal">Cancer narval</name></ref><note xml:id="c41aa866-c9fd-42d0-9aa8-66c9fd72d04b" corresp="#dcab576f-9fde-4ead-ab57-6f9fde6ead07" type="editorial" resp="#DB">Einhorngarnele, <foreign xml:lang="lat">Plesionika
+                                    narval</foreign> (Fabricius, 1787), vgl. <ref target="https://www.gbif.org/species/4309688"><hi rendition="#i">Global Biodiversity Information Facility
                                 (GBIF)</hi></ref></note> in <placeName resp="#AG" ref="https://edition-humboldt.de/H0008734 https://www.geonames.org/2995469">Marseille</placeName> 21 Zoll
                             lang<supplied cert="high">,</supplied> wovon 14 <choice>
                             <abbr>Z.</abbr>
@@ -3023,7 +3010,7 @@
                                 <abbr>Brum.</abbr>
                                 <expan>Brumaire</expan>
                             </choice></date> mit Theodolith
-                        <ref xml:id="e295694b-c705-44d5-9569-4bc70544d572" corresp="#e152bd2d-fa53-4d3c-92bd-2dfa53dd3cf6" type="editorialNote">β im Wallfisch</ref><note xml:id="e152bd2d-fa53-4d3c-92bd-2dfa53dd3cf6" corresp="#e295694b-c705-44d5-9569-4bc70544d572" type="editorial" resp="#DB #CT">Der Walfisch (lat. <foreign xml:lang="lat">Cetus</foreign>) ist ein Sternbild in der Umgebung des Himmelsäquators; <quote>β</quote> bezeichnet den hellsten Stern in diesem Sternbild, <foreign xml:lang="lat">Beta Ceti</foreign>.</note><supplied>.</supplied>
+                        <ref xml:id="c26478c5-161a-45b8-a478-c5161af5b860" corresp="#b04bda44-adc0-4fe5-8bda-44adc06fe510" type="editorialNote">β im Wallfisch</ref><note xml:id="b04bda44-adc0-4fe5-8bda-44adc06fe510" corresp="#c26478c5-161a-45b8-a478-c5161af5b860" type="editorial" resp="#DB #CT">Der Walfisch (lat. <foreign xml:lang="lat">Cetus</foreign>) ist ein Sternbild in der Umgebung des Himmelsäquators; <quote>β</quote> bezeichnet den hellsten Stern in diesem Sternbild, <foreign xml:lang="lat">Beta Ceti</foreign>.</note><supplied>.</supplied>
                         <choice>
                             <abbr>Mer.</abbr>
                             <expan>Meridian</expan>
@@ -3032,9 +3019,10 @@
                                 <abbr>Frim</abbr>
                                 <expan>Frimaire</expan>
                             </choice></date> mit Theodolith
-                        ☉ <space dim="horizontal"/>
+                        ☉
+                        <space dim="horizontal"/>
                         <unclear reason="illegible" cert="low" resp="#UP">Auror<supplied resp="#UP">a</supplied></unclear> rother Hallon um Mond.</p>
-                    <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" cols="3" rows="10">
+                    <table cols="3" rows="10">
                         <row>
                             <cell>XI<hi rendition="#sup"><choice>
                                         <abbr>h</abbr>
@@ -3124,7 +3112,7 @@
                                 <reg>〃</reg>
                             </choice> 17′ 52.</cell>
                         </row>
-                    </tei:table>
+                    </table>
                 <note place="right" hand="#author"><p>mit 48<choice>
                                 <abbr>mal.</abbr>
                                 <expan>maliger</expan>
@@ -3141,7 +3129,7 @@
                         <note/>
                             </figure>
                             <lb/>sonst keine!</p></note>
-                    <tei:table xmlns:tei="http://www.tei-c.org/ns/1.0" cols="4" rows="8">
+                    <table cols="4" rows="8">
                         <row role="label">
                             <cell/>
                             <cell/>
@@ -3218,7 +3206,7 @@
                             <cell><foreign xml:lang="fra"><placeName resp="#AG" ref="https://edition-humboldt.de/H0018701 https://www.geonames.org/2980180"><choice>
                                             <abbr>St</abbr>
                                             <expan>Saint</expan>
-                                        </choice> Victoire </placeName> près d’<placeName resp="#AG" ref="https://edition-humboldt.de/H0002359 https://www.geonames.org/3038354">Aix</placeName></foreign></cell>
+                                        </choice> Victoire</placeName> près d’<placeName resp="#AG" ref="https://edition-humboldt.de/H0002359 https://www.geonames.org/3038354">Aix</placeName></foreign></cell>
                             <cell rendition="#c">498.</cell>
                             <cell rendition="#c">504.</cell>
                         </row>
@@ -3227,10 +3215,13 @@
                                         de Beguines</placeName></foreign><note place="inline" hand="#author">Dieser
                                     und <placeName>Bau de Bretagne</placeName> wohl höchster
                                     Berg in <lb/><placeName resp="#AG" ref="https://edition-humboldt.de/H0008412 https://www.geonames.org/2985244">Provence</placeName><supplied>,</supplied>
-                                    vielleicht Montagne de Lure <lb/>noch höher <choice>
+                                    vielleicht <placeName>Montagne de Lure</placeName>
+                                    <lb/>noch höher <choice>
                                         <abbr>u</abbr>
                                         <expan>und</expan>
-                                    </choice> vielleicht noch höher <lb/>Mont Ventoux <choice>
+                                    </choice> vielleicht noch höher <lb/><placeName>Mont
+                                        Ventoux</placeName>
+                                    <choice>
                                         <abbr>zw.</abbr>
                                         <expan>zwischen</expan>
                                     </choice>
@@ -3241,7 +3232,7 @@
                             <cell rendition="#c">572.</cell>
                             <cell rendition="#c">561.</cell>
                         </row>
-                    </tei:table>
+                    </table>
                     <p>Pflanzen hauchen Tag <choice>
                             <abbr>u</abbr>
                             <expan>und</expan>
@@ -3264,7 +3255,7 @@
                             <expan>atmosphärischer</expan>
                         </choice> Luft bei 0,12 Kohlensäure. Sie hauchen dann mehr <lb/>Lebensluft
                         aus. <space dim="horizontal"/>
-                        <ref xml:id="d88dd994-4164-4b52-8dd9-944164eb521d" corresp="#eb34d5e2-1440-4c3e-b4d5-e214403c3e45" type="editorialNote">Im Schatten schadet <choice>
+                        <ref xml:id="aeea0254-b7b6-48e9-aa02-54b7b6e8e971" corresp="#d701bf2f-d8dd-48cc-81bf-2fd8dd18cc4a" type="editorialNote">Im Schatten schadet <choice>
                                     <abbr>Kohlens.</abbr>
                                     <expan>Kohlensäure</expan>
                                 </choice> den Pflanzen. Sie ver<lb break="no"/>bessern die <choice>
@@ -3314,7 +3305,7 @@
                                         <ref target="https://gallica.bnf.fr/ark:/12148/bpt6k9603515c/f201.item"><choice>
                                                 <abbr>p.</abbr>
                                                 <expan>page</expan>
-                                            </choice> 191</ref>.</bibl></foreign></ref><note xml:id="eb34d5e2-1440-4c3e-b4d5-e214403c3e45" corresp="#d88dd994-4164-4b52-8dd9-944164eb521d" type="editorial" resp="#CT">Vgl. dazu, mit Verweis auf
+                                            </choice> 191</ref>.</bibl></foreign></ref><note xml:id="d701bf2f-d8dd-48cc-81bf-2fd8dd18cc4a" corresp="#aeea0254-b7b6-48e9-aa02-54b7b6e8e971" type="editorial" resp="#CT">Vgl. dazu, mit Verweis auf
                                 dieselbe Quelle, auch <bibl corresp="https://edition-humboldt.de/CDTEMWD2">Humboldt
                                     1799, <ref target="https://www.digitale-sammlungen.de/de/view/bsb10072964?page=125">115</ref>f.</bibl>, Anm. **).</note></p>
                     <p xml:lang="fra"><choice>

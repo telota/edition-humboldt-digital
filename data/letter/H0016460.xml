@@ -31,10 +31,19 @@
                         <note type="remarkResponsibility">Mitarbeit</note>
                     </resp>
                 </respStmt>
+                <respStmt>
+                    <persName ref="https://d-nb.info/gnd/1192713052">
+                        <surname>Thomas</surname>
+                        <forename>Christian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
             </titleStmt><editionStmt><p>Alexander von Humboldt an [Hermann?] Schlagintweit. Berlin, 2. April
-                    1859, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0016460">https://edition-humboldt.de/v10/H0016460</ref></p></editionStmt>
+                    1859, hg. v. Moritz von Brescius, Linda Martin und Ulrich Päßler unter Mitarbeit von Dominik Erdmann und Christian Thomas. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/">https://edition-humboldt.de/v11/</ref></p></editionStmt>
             
-            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0016460</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0016460.xml</idno></publicationStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/</idno><idno type="URLXML">https://edition-humboldt.de/v11/.xml</idno></publicationStmt>
             <sourceDesc>
                 <msDesc rend="manuscript">
                     <msIdentifier>
@@ -76,26 +85,27 @@
                             <persName ref="https://edition-humboldt.de/H0015557 http://d-nb.info/gnd/119074117">Schlagintweit</persName></addrLine>
                     </address>
                 </opener>
-                <p>mit dringender Bitte <lb/>mir <ref xml:id="bdb6783f-1963-49aa-b678-3f196329aa5b" corresp="#f5d5cf0c-0351-45d9-95cf-0c035115d908" type="editorialNote">diesen Brief <lb/>morgen Sontag <lb/>Vormittag <subst>
+                <p>mit dringender Bitte<supplied cert="high">,</supplied>
+                    <lb/>mir <ref xml:id="b408a9c1-5214-44d9-88a9-c1521434d94f" corresp="#c99e8a87-f328-4f10-9e8a-87f328ef1066" type="editorialNote">diesen Brief <lb/>morgen Sontag <lb/>Vormittag <subst>
                                 <del rendition="#s">bis</del>
                                 <add place="intralinear">bis</add>
                             </subst>
-                            <lb/>9 Uhr zurükzusenden</ref><note xml:id="f5d5cf0c-0351-45d9-95cf-0c035115d908" corresp="#bdb6783f-1963-49aa-b678-3f196329aa5b" type="editorial" resp="#LM">Das beigelegte Schreiben konnte
+                            <lb/>9 Uhr zurükzusenden<supplied cert="high">,</supplied></ref><note xml:id="c99e8a87-f328-4f10-9e8a-87f328ef1066" corresp="#b408a9c1-5214-44d9-88a9-c1521434d94f" type="editorial" resp="#LM">Das beigelegte Schreiben konnte
                             bislang nicht identifiziert werden.</note>
                     <lb/>weil ich <choice>
                         <abbr>G.R</abbr>
                         <expan>Geheimrath</expan>
                     </choice>
-                    <lb/><persName ref="https://edition-humboldt.de/H0011208 http://d-nb.info/gnd/117123323">Olshausen</persName> um <lb/>die Zeit erwarte.</p>
-                <dateline><note place="mBottom" hand="https://edition-humboldt.de/#addressee"><choice>
+                    <lb/><persName ref="https://edition-humboldt.de/H0011208 http://d-nb.info/gnd/117123323">Olshausen</persName> um <lb/>die Zeit
+                        erwarte<supplied cert="high">.</supplied></p>
+                <closer>
+                    <signed>AlHumboldt</signed>
+                </closer><dateline><note place="mBottom" hand="https://edition-humboldt.de/addressee"><choice>
                             <abbr>D. D.</abbr>
                             <expan>De Dato</expan>
                         </choice>
                         <placeName ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
-                        <lb/>2<supplied cert="high">.</supplied> April 1859.</note></dateline>
-                <closer>
-                    <signed>AlHumboldt</signed>
-                </closer><pb n="1v"/>
+                        <lb/>2<supplied cert="high">.</supplied> April 1859.</note></dateline><pb n="1v"/>
                 <gap unit="pages" quantity="1" reason="empty"/>
             </div>
         </body></text>

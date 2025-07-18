@@ -2,10 +2,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title type="main">Versionen</title>
-         </titleStmt><editionStmt><p>: Versionen. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 10 vom 02.07.2024. URL: <ref target="https://edition-humboldt.de/v10/H0020382">https://edition-humboldt.de/v10/H0020382</ref></p></editionStmt>
+            <title type="main" xml:lang="de">Versionen</title>
+            <title type="main" xml:lang="en">Versions</title>
+         </titleStmt><editionStmt><p>: VersionenVersions. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 11 vom 04.06.2025. URL: <ref target="https://edition-humboldt.de/v11/H0020382">https://edition-humboldt.de/v11/H0020382</ref></p></editionStmt>
          
-         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v10/H0020382</idno><idno type="URLXML">https://edition-humboldt.de/v10/H0020382.xml</idno></publicationStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v11/H0020382</idno><idno type="URLXML">https://edition-humboldt.de/v11/H0020382.xml</idno></publicationStmt>
          <sourceDesc>
             <p>born-digital</p>
          </sourceDesc>
@@ -16,17 +17,56 @@
          
          <div>
             <head>Einleitung</head>
-            <p>Die <hi rendition="#i">edition humboldt digital</hi> liegt im Juli 2024 in ihrer
-               zehnten Lieferung vor (ehd, v. 10). Seit der Veröffentlichung der Beta-Version im
+            <p>Die <hi rendition="#i">edition humboldt digital</hi> (ehd) erscheint im Juni 2025 mit ihrer
+               elften Lieferung (ehd, v. 11). Seit der Veröffentlichung der Beta-Version im
                September 2016 wird die <hi rendition="#i">ehd</hi> kontinuierlich um neue Texte aus
-               den Bereichen Tagebücher, Themen und Briefe erweitert. Darüber hinaus entsteht ein
-               vernetzter Forschungsdatensatz aus Chronologie- und Registerdaten, der mit jeder
-               Version der Edition wächst. </p>
+               den Bereichen <hi rendition="#b">Tagebücher</hi>, <hi rendition="#b">Themen</hi> und <hi rendition="#b">Briefe</hi> erweitert. Darüber hinaus entsteht ein
+               vernetzter <hi rendition="#b">Datensatz</hi> aus Chronologie- und Registereinträgen, der mit jeder
+               Version der Edition wächst. Jede Version bietet zudem neue <hi rendition="#b">Funktionen</hi> für die Anzeige,
+               die Informationstiefe und die Nachnutzbarkeit unserer Edition und Forschungsdaten.</p>
          </div>
          <div>
             <head>Visualisierungen</head>
          </div>
-
+         
+         
+         <div>
+            <head>Version 11 (Juni 2025)</head>
+            <div>
+               
+               <p>Tagebücher</p>
+               <list rendition="bulleted">
+                  <item>
+                            <ref target="https://edition-humboldt.de/H1242132">Reise von Cumaná bis Villa de Cura</ref> [= Tagebücher der
+                     Amerikanischen Reise III, Bl. 2–36], hg. von Carmen Götz</item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H1558497">Forschungsbeitrag von Carmen Götz</ref> zur Edition
+                     der <hi rendition="#i">Reise von Cumaná bis Villa de Cura</hi>
+                        </item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0005449">Fragmente des Sibirischen Reise-Journals 1829</ref> [= Tagebücher der Russisch-Sibirischen
+                     Reise I], hg. von Tobias Kraft und Florian Schnee (Abschluss der Editionsarbeit, deutlich verbesserte Kommentierung und Auszeichnung).</item>
+               </list>
+               
+               <p>Themenschwerpunkte (Das Wissen der Erde)</p>
+               <list rendition="bulleted">
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020387">Parallelismus der Schichten</ref> (1799), hg. von Dominik Erdmann, Ulrich Päßler und Christian Thomas</item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H6358243">Essai de Pasigraphie</ref> (1803/1804), hg. von Ulrich Päßler und Ingo Schwarz</item>
+               </list>
+               
+               <p>Forschungsdaten &amp; Entwicklung der Edition</p>
+               <list rendition="bulleted">
+                  <item>Metadaten verzeichnen die in den Texten verwendeten Sprachen</item>
+                  <item>Eine Karte zeigt alle in der Edition erfassten Einträge (<ref target="https://edition-humboldt.de/register/orte/map.xql?l=de">Ortsregister</ref>, <ref target="https://edition-humboldt.de/chronologie/map.xql">Chronologie</ref>)</item>
+                  <item>Innerhalb der einzelnen Einträge werden benachbarte Orte angezeigt (Beispiel: <ref target="https://edition-humboldt.de/H0017293">Auštau</ref>)</item>
+                  <item>Alle Dokumente der Themenschwerpunkte werden <ref target="https://edition-humboldt.de/themen/list.xql?l=de">gemeinsam angezeigt</ref> und können nach verschiedenen Kriterien gefiltert werden</item>
+               </list>
+            </div>
+         </div>
+         
+         <milestone rendition="#hr" unit="section"/>
          
 
          <div>
@@ -35,26 +75,34 @@
 
                <p>Tagebücher</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/H0019154">Voyage à Caripe 1799</ref> [= Tagebücher der
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0019154">Voyage à Caripe 1799</ref> [= Tagebücher der
                      Amerikanischen Reise II und VI, Heft 3, Bl. 110–131], hg. von Carmen
                      Götz</item>
-                  <item><ref target="https://edition-humboldt.de/H5675936">Forschungsbeitrag von Carmen Götz</ref> zur Edition
-                     der <hi rendition="#i">Voyage à Caripe 1799</hi></item>
-                  <item><ref target="https://edition-humboldt.de/H0019734">Dresden, Wien, Salzburg</ref> [= Tagebuch der Reise
+                  <item>
+                            <ref target="https://edition-humboldt.de/H5675936">Forschungsbeitrag von Carmen Götz</ref> zur Edition
+                     der <hi rendition="#i">Voyage à Caripe 1799</hi>
+                        </item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0019734">Dresden, Wien, Salzburg</ref> [= Tagebuch der Reise
                      1797/98], hg. von Cettina Rapisarda und Christian Thomas</item>
-                  <item><ref target="https://edition-humboldt.de/H9645842">Forschungsbeitrag von Hendrik Böttcher</ref> zum
+                  <item>
+                            <ref target="https://edition-humboldt.de/H9645842">Forschungsbeitrag von Hendrik Böttcher</ref> zum
                      Tagebuch der russisch-sibirischen Reise von 1829</item>
                </list>
 
                <p>Themenschwerpunkte (Forschungsreisen)</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/X0000016">Briefwechsel mit Joseph
+                  <item>
+                            <ref target="https://edition-humboldt.de/X0000016">Briefwechsel mit Joseph
                         Dalton Hooker</ref> (19 Briefe), hg. von Sabine Seifert</item>
                   <item>Humboldts Briefwechsel mit den Brüdern Schomburgk (<ref target="https://edition-humboldt.de/X0000011">Sir Robert Hermann</ref>, <ref target="https://edition-humboldt.de/X0000010">Otto Alfred</ref> und <ref target="https://edition-humboldt.de/X0000009">Moritz Richard</ref>), hg. von
                      Ulrich Päßler (abgeschlossen)</item>
-                  <item>Robert Schomburgks <hi rendition="#i"><ref target="https://edition-humboldt.de/H7619721">Plan zu einer
+                  <item>Robert Schomburgks <hi rendition="#i">
+                                <ref target="https://edition-humboldt.de/H7619721">Plan zu einer
                            Reise nach den Ӕquinoctial Regionen, um die Entdeckungen des Herrn
-                           Alexander von Humboldt fortzusetzen</ref></hi> (1834), hg. von Ulrich
+                           Alexander von Humboldt fortzusetzen</ref>
+                            </hi> (1834), hg. von Ulrich
                      Päßler </item>
                   <item>Humboldts Briefwechsel (<ref target="https://edition-humboldt.de/H0020424">4. August</ref> und <ref target="https://edition-humboldt.de/H0020433">22. Dezember</ref>) mit dem Diplomaten Miguel Maria Lisboa
                      über die Grenzverhandlungen zwischen Brasilien und Venezuela (1854), hg. von
@@ -64,8 +112,10 @@
                <p>Forschungsdaten &amp; Entwicklung der Edition</p>
                <list rendition="bulleted">
                   <item>Überarbeitung der Suche</item>
-                  <item>Überarbeitung des <ref target="https://edition-humboldt.de/register/pflanzen/index.xql?section=A&amp;l=de">Pflanzenregisters</ref></item>
-                  <item>Überarbeitung des <ref target="https://edition-humboldt.de/register/glossar/index.xql?l=de">Glossars</ref></item>
+                  <item>Überarbeitung des <ref target="https://edition-humboldt.de/register/pflanzen/index.xql?section=A&amp;l=de">Pflanzenregisters</ref>
+                        </item>
+                  <item>Überarbeitung des <ref target="https://edition-humboldt.de/register/glossar/index.xql?l=de">Glossars</ref>
+                        </item>
                   <item>Versionierte Publikation der TEI-XML-Daten (<ref target="https://github.com/telota/edition-humboldt-digital">GitHub</ref>/<ref target="https://zenodo.org/doi/10.5281/zenodo.10457931">Zenodo</ref>) und des Datenmodells (<ref target="https://github.com/telota/ediarum.AVHR.data-model/">GitHub</ref>)</item>
                   <item>Editionsrichtlinien v. 1.1.3</item>
                </list>
@@ -82,19 +132,25 @@
 
                <p>Tagebücher</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/H0020388">Index général de mes MSS [1805]</ref> [= Tagebücher
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020388">Index général de mes MSS [1805]</ref> [= Tagebücher
                      der Amerikanischen Reise V, Bl. 37r–49v], hg. von Carmen Götz</item>
-                  <item><ref target="https://edition-humboldt.de/H0020392">Forschungsbeitrag von Carmen Götz</ref> zur
-                     Erstedition des <hi rendition="#i">Index général</hi></item>
-                  <item><ref target="https://edition-humboldt.de/H0020375">Forschungsbeitrag von Ferdinand Damaschun</ref> zum
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020392">Forschungsbeitrag von Carmen Götz</ref> zur
+                     Erstedition des <hi rendition="#i">Index général</hi>
+                        </item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020375">Forschungsbeitrag von Ferdinand Damaschun</ref> zum
                      Tagebuch der russisch-sibirischen Reise von 1829</item>
                </list>
 
                <p>Themenschwerpunkte (Forschungsreisen)</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/X0000016">Briefwechsel mit Joseph
+                  <item>
+                            <ref target="https://edition-humboldt.de/X0000016">Briefwechsel mit Joseph
                         Dalton Hooker</ref> (4 Briefe), hg. von Sabine Seifert</item>
-                  <item><ref target="https://edition-humboldt.de/briefe/index.xql&amp;person=H0001259">Briefwechsel mit Dietrich Ludwig Gustav Karsten</ref> (2 Briefe), hg. von
+                  <item>
+                            <ref target="https://edition-humboldt.de/briefe/index.xql&amp;person=H0001259">Briefwechsel mit Dietrich Ludwig Gustav Karsten</ref> (2 Briefe), hg. von
                      Cettina Rapisarda und Christian Thomas</item>
                </list>
 
@@ -102,7 +158,8 @@
                <list rendition="bulleted">
                   <item>Überarbeitung der Startseite</item>
                   <item>Neu-Entwicklung einer <ref target="https://edition-humboldt.de/gallery/index.xql">Bilder-Galerie
-                        „Zeichnungen und Skizzen“</ref></item>
+                        „Zeichnungen und Skizzen“</ref>
+                        </item>
                   <item>Überarbeitung der Dokumentation zur <ref target="https://edition-humboldt.de/H0016212">Digitalen
                         Methodik</ref> (Stefan Dumont)</item>
                </list>
@@ -130,7 +187,8 @@
                            von Cettina Rapisarda und Christian Thomas</item>
                      </list>
                   </item>
-                  <item><ref target="https://edition-humboldt.de/H0020374">Forschungsbeitrag von Patrick Anthony</ref> zum
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020374">Forschungsbeitrag von Patrick Anthony</ref> zum
                      Tagebuch der russisch-sibirischen Reise von 1829</item>
                </list>
 
@@ -138,7 +196,8 @@
                <list rendition="bulleted">
                   <item>Briefwechsel (15 Briefe) mit den Brüdern Schomburgk (<ref target="https://edition-humboldt.de/X0000011">Sir Robert Hermann</ref>, <ref target="https://edition-humboldt.de/X0000010">Otto Alfred</ref> und <ref target="https://edition-humboldt.de/X0000009">Moritz Richard</ref>), hg. von
                      Ulrich Päßler</item>
-                  <item>Nachlassdokument <ref target="https://edition-humboldt.de/H0019159">Entwurf zur Gliederung der <hi rendition="#i">Relation historique</hi></ref>, hg. von Tobias
+                  <item>Nachlassdokument <ref target="https://edition-humboldt.de/H0019159">Entwurf zur Gliederung der <hi rendition="#i">Relation historique</hi>
+                            </ref>, hg. von Tobias
                      Kraft</item>
                </list>
 
@@ -154,7 +213,8 @@
                      2022).</item>
                   <item>Erstmalige Veröffentlichung des vollständigen TEI-XML-Datenset als
                      Rohdaten-Download (Tagebücher, Briefe, Dokumente, Forschungsbeiträge,
-                     Chronologieeinträge und Register) auf <ref target="https://github.com/telota/edition-humboldt-digital">GitHub</ref></item>
+                     Chronologieeinträge und Register) auf <ref target="https://github.com/telota/edition-humboldt-digital">GitHub</ref>
+                        </item>
                </list>
 
 
@@ -171,24 +231,28 @@
 
                <p>Tagebücher</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v7/H0019155">Voyage de Paris en
+                  <item>
+                            <ref target="https://edition-humboldt.de/v7/H0019155">Voyage de Paris en
                         Italie avec Gay Lussac 1805</ref> [= Tagebuch der Italien-Reise], hg. von
                      Christian Thomas</item>
-                  <item><ref target="https://edition-humboldt.de/v7/H0019162/72r">Physiologie.
+                  <item>
+                            <ref target="https://edition-humboldt.de/v7/H0019162/72r">Physiologie.
                         Galvanismus [Raja torpedo]</ref> [= Tagebücher der Amerikanischen Reise III,
                      Bl. 72r–v], hg. von Carmen Götz</item>
                </list>
 
                <p>Themenschwerpunkte (Forschungsreisen)</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/X0000017">Briefwechsel mit Johann
+                  <item>
+                            <ref target="https://edition-humboldt.de/X0000017">Briefwechsel mit Johann
                         Moritz Rugendas</ref> (26 Briefe), dazu ein <ref target="https://edition-humboldt.de/v7/H0019717">Brief an Karl Friedrich
                         Schinkel</ref>, hg. von Ulrich Päßler</item>
                </list>
 
                <p>Forschungsdaten &amp; Entwicklung der Edition</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/register/index.xql?l=de">Glossar</ref> (im Aufbau).</item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/register/index.xql?l=de">Glossar</ref> (im Aufbau).</item>
                   <item>Editionsrichtlinien v. 1.1.1 (Oktober).</item>
                   <item>Editionsrichtlinien v. 1.1 (April).</item>
                </list>
@@ -207,18 +271,23 @@
 
                <p>Tagebücher</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v6/H0018406">Von Valencia nach
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0018406">Von Valencia nach
                         Madrid.</ref> [= Tagebuch der Spanien-Reise 1799], hg. von Christian Thomas
-                     und Dominik Erdmann. Mit einer Einführung von <ref target="https://edition-humboldt.de/v6/H0018408">Ulrike Leitner</ref></item>
-                  <item><ref target="https://edition-humboldt.de/v6/H0018407">Paris–Toulon
+                     und Dominik Erdmann. Mit einer Einführung von <ref target="https://edition-humboldt.de/v6/H0018408">Ulrike Leitner</ref>
+                        </item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0018407">Paris–Toulon
                         (1798)</ref> [= Tagebuch der Frankreich-Reise], hg. von Christian Thomas und
                      David Blankenstein</item>
-                  <item><ref target="https://edition-humboldt.de/v6/H0016412">Voyage d’Espagne aux
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0016412">Voyage d’Espagne aux
                         Canaries et à Cumaná</ref> [= Tagebücher der Amerikanischen Reise I], hg.
                      von Carmen Götz. Deutliche Verbesserung der Kommentierung und Auszeichnung,
                      u. a.: korrekte Umrechnung des französischen Revolutionskalenders; Anzeige von
                      Humboldts Verweisen auf andere Tagebuchabschnitte.</item>
-                  <item><ref target="https://edition-humboldt.de/v6/H0005449">Fragmente des
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0005449">Fragmente des
                         Sibirischen Reise-Journals 1829</ref> [= Tagebücher der Russisch-Sibirischen
                      Reise I], hg. von Tobias Kraft und Florian Schnee (Beta-Version). Mit einer
                         <ref target="https://edition-humboldt.de/v6/H0018418">Einführung der
@@ -233,8 +302,10 @@
                      Moritz von Brescius, Linda Martin und Ulrich Päßler, 1 Nachlassdokument
                      (Forschungsreisen)</item>
                   <item>5 Übersetzungen von Nachlassdokumenten (Pflanzengeographie), etwa der <ref target="https://edition-humboldt.de/v6/H0018390">"Matériaux pour la nouvelle
-                        édition de la Géographie des plantes"</ref></item>
-                  <item><ref target="https://edition-humboldt.de/v6/H0018416">Forschungsbeitrag von
+                        édition de la Géographie des plantes"</ref>
+                        </item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0018416">Forschungsbeitrag von
                         Kerstin Aranda</ref> zu Ehrenbergs Tagebuch der russisch-sibirischen Reise
                      (Forschungsreisen)</item>
                </list>
@@ -261,7 +332,8 @@
 
                <p>Tagebücher</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v5/H0016412">Voyage d’Espagne aux
+                  <item>
+                            <ref target="https://edition-humboldt.de/v5/H0016412">Voyage d’Espagne aux
                         Canaries et à Cumaná</ref> [= Tagebücher der Amerikanischen Reise I], hg.
                      von Carmen Götz. Revision der Transkription durch erneute Prüfung des gesamten
                      edierten Textes an der Handschrift (abgeschlossen); Revision von Auszeichnungen
@@ -274,7 +346,8 @@
                         russisch-sibirischen Reise</ref> mit Alexander von Humboldt 1829, hg. von
                      Kerstin Aranda, Ulrich Päßler und Christian Thomas</item>
                   <item>Briefwechsel mit den Brüdern Schlagintweit (Auswahl). Mit einer <ref target="https://edition-humboldt.de/v5/H0017989">Einführung von Moritz von
-                        Brescius</ref></item>
+                        Brescius</ref>
+                        </item>
                </list>
 
                <p>Forschungsdaten &amp; Entwicklung der Edition</p>
@@ -299,7 +372,8 @@
                <list rendition="bulleted">
                   <item>1 Nachlassdokument</item>
                   <item>2 Forschungsbeiträge von <ref target="https://edition-humboldt.de/v4/H0017685">Staffan Müller-Wille/Katrin
-                        Böhme</ref> und <ref target="https://edition-humboldt.de/v4/H0017686">Matthias Glaubrecht</ref></item>
+                        Böhme</ref> und <ref target="https://edition-humboldt.de/v4/H0017686">Matthias Glaubrecht</ref>
+                        </item>
                </list>
 
                <p>Forschungsdaten &amp; Entwicklung der Edition</p>
@@ -322,12 +396,14 @@
 
                <p>Tagebücher</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v3/H0016412">Voyage d’Espagne aux
+                  <item>
+                            <ref target="https://edition-humboldt.de/v3/H0016412">Voyage d’Espagne aux
                         Canaries et à Cumaná</ref> [= Tagebücher der Amerikanischen Reise I], hg.
                      von Ulrike Leitner (Beta-Version) mit Forschungsdossier (Beiträge von <ref target="https://edition-humboldt.de/v3/H0016432">Ulrike Leitner</ref> und
                         <ref target="https://edition-humboldt.de/v3/H0016429">Carmen
                      Götz</ref>)</item>
-                  <item><ref target="https://edition-humboldt.de/v3/H0017682">Reise. 1790.
+                  <item>
+                            <ref target="https://edition-humboldt.de/v3/H0017682">Reise. 1790.
                         England.</ref> [= Alexander von Humboldts Englisches Reisejournal], hg. von
                      Dominik Erdmann und Christian Thomas mit Forschungsdossier (<ref target="https://edition-humboldt.de/v3/H0016430">Einführung von Dominik
                         Erdmann</ref>)</item>
@@ -338,10 +414,12 @@
                   <item>4 Nachlassdokumente, etwa der <ref target="https://edition-humboldt.de/v3/H0016424">"Verlagsvertrag zur
                         „Géographie des plantes dans les deux hémisphères“ (1825)"</ref>
                      (Pflanzengeographie)</item>
-                  <item><ref target="https://edition-humboldt.de/v3/H0016431">Einführender
+                  <item>
+                            <ref target="https://edition-humboldt.de/v3/H0016431">Einführender
                         Beitrag</ref> zum Themenschwerpunkt "Pflanzengeographie" von Ulrich
                      Päßler</item>
-                  <item><ref target="http://edition-humboldt.de/X0000007">Briefwechsel mit Christian
+                  <item>
+                            <ref target="http://edition-humboldt.de/X0000007">Briefwechsel mit Christian
                         Gottfried Ehrenberg</ref> (300+ Briefe), kuratierte und überarbeitete
                      Version der Edition von Anne Wendt (Forschungsreisen)</item>
                </list>
@@ -368,7 +446,8 @@
                <list rendition="bulleted">
                   <item>29 Nachlassdokumente zur geplanten Neuausgabe der <hi rendition="#i">Ideen
                         zu einer Geographie der Pflanzen</hi> (Humboldt/Kunth), etwa die <ref target="https://edition-humboldt.de/v2/H0016409">"Énumération des Plantes de
-                        la Province de Quito"</ref></item>
+                        la Province de Quito"</ref>
+                        </item>
                   <item>Eine <ref target="https://edition-humboldt.de/v2/H0016420">Einführung von
                         Ulrich Päßler</ref> zum Plan der Neuausgabe</item>
                </list>
@@ -389,7 +468,8 @@
                <list rendition="bulleted">
                   <item>3 Nachlassdokumente zur Neuausgabe der <hi rendition="#i">Ideen zu einer
                         Geographie der Pflanzen</hi>, etwa die <ref target="https://edition-humboldt.de/v1/H0015180">"Fragen Humboldts an Robert
-                        Brown (Paris, 1816)"</ref></item>
+                        Brown (Paris, 1816)"</ref>
+                        </item>
                </list>
 
                <p>Forschungsdaten &amp; Entwicklung der Edition</p>
@@ -416,7 +496,8 @@
 
                <p>Tagebücher</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v1/H0002922">Isle de Cube. Antilles
+                  <item>
+                            <ref target="https://edition-humboldt.de/v1/H0002922">Isle de Cube. Antilles
                         en général</ref> [Tagebuch der Kuba-Reise 1804], hg. von Ulrike Leitner,
                      Piotr Tylus und Michael Zeuske</item>
                   <item>Forschungsdossier zum Tagebuch der Kuba-Reise 1804 (Beiträge von <ref target="https://edition-humboldt.de/v1/H0016213">Ottmar Ette</ref>, <ref target="https://edition-humboldt.de/v1/H0002927">Ulrike Leitner</ref>, <ref target="https://edition-humboldt.de/v1/H0002926">Piotr Tylus</ref> und <ref target="https://edition-humboldt.de/v1/H0012105">Michael
@@ -447,16 +528,57 @@
 
          <div>
             <head>Introduction</head>
-            <p>July 2024 will see the tenth installment of <hi rendition="#i">edition humboldt
-                  digital</hi> (ehd, v. 10). Since its beta release in September 2016, <hi rendition="#i">ehd</hi> has been continuously supplemented with new texts from the
-               project’s corpus (travel journals, personal papers, and letters). In addition, a
-               cross-linked research dataset (chronology, named entities, bibliography) is being
-               created, expanding with each version of the edition.</p>
+            <p>We are publishing the <hi rendition="#i">edition humboldt digital</hi> in June 2025
+               with its eleventh installment (ehd, v. 11). Since the beta release in 
+               September 2016, we have continuously added new texts from the
+               project’s corpus, including <hi rendition="#b">travel journals</hi>, <hi rendition="#b">personal papers</hi>, and 
+               <hi rendition="#b">letters</hi>. In addition, we are creating a cross-linked <hi rendition="#b">dataset</hi> 
+               (chronology, named entities, and bibliography) that grows with each version of the edition.
+               Each new installment includes new <hi rendition="#b">features</hi> that enhance the display, depth of 
+               information, and reusability of our edition and research data.</p>
          </div>
          <div>
             <head>Visualizations</head>
          </div>
 
+         <milestone rendition="#hr" unit="section"/>
+         
+         
+         <div>
+            <head>Version 11 (June 2025)</head>
+            <div>
+               
+               <p>Travel Journals</p>
+               <list rendition="bulleted">
+                  <item>
+                            <ref target="https://edition-humboldt.de/H1242132">Reise von Cumaná bis Villa de Cura</ref> [= American Travel Journal, Vol. III, fol. 2–36], 
+                     edited by Carmen Götz</item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H1558497">Research paper by Carmen Götz</ref> on the edition of <hi rendition="#i">Reise von Cumaná bis Villa de Cura</hi>
+                        </item>
+                     <item>
+                            <ref target="https://edition-humboldt.de/H0005449">Fragmente des Sibirischen Reise-Journals 1829</ref> [= Russian-Siberian Travel Journal, Vol. I], 
+                        edited by Tobias Kraft and Florian Schnee (Completion of the edition, significantly improved commentary and markup).</item>
+               </list>
+               
+               <p>Topics (The Knowledge of the earth)</p>
+               <list rendition="bulleted">
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020387">Parallelismus der Schichten</ref> (1799), edited by Dominik Erdmann, Ulrich Päßler and Christian Thomas</item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H6358243">Essai de Pasigraphie</ref> (1803/1804), edited by Ulrich Päßler and Ingo Schwarz</item>
+               </list>
+               
+               <p>Research data &amp; Development</p>
+               <list rendition="bulleted">
+                  <item>Metadata lists the languages used in the texts</item>
+                  <item>A map shows all entries documented in the edition (<ref target="https://edition-humboldt.de/register/orte/map.xql?l=de">Index of places</ref>, <ref target="https://edition-humboldt.de/chronologie/map.xql">Chronology</ref>)</item>
+                  <item>Neighboring places (example: <ref target="https://edition-humboldt.de/H0017293">Auštau</ref>) are displayed within the individual entries </item>
+                  <item>All documents relating to the main topics are <ref target="https://edition-humboldt.de/themen/list.xql?l=de">displayed together</ref> and can be filtered according to various criteria</item>
+               </list>
+            </div>
+         </div>
+         
          <milestone rendition="#hr" unit="section"/>
 
          
@@ -467,26 +589,34 @@
 
                <p>Travel Journals</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/H0019154">Voyage à Caripe 1799</ref> [= American Travel
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0019154">Voyage à Caripe 1799</ref> [= American Travel
                      Journal, Vol. II and VI, Notebook 3, fol. 110–131], edited by Carmen
                      Götz</item>
-                  <item><ref target="https://edition-humboldt.de/H5675936">Research paper by Carmen Götz</ref> on the edition of
-                        <hi rendition="#i">Voyage à Caripe 1799</hi></item>
-                  <item><ref target="https://edition-humboldt.de/H0019734">Dresden, Wien, Salzburg</ref> [= Travel Journal
+                  <item>
+                            <ref target="https://edition-humboldt.de/H5675936">Research paper by Carmen Götz</ref> on the edition of
+                        <hi rendition="#i">Voyage à Caripe 1799</hi>
+                        </item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0019734">Dresden, Wien, Salzburg</ref> [= Travel Journal
                      1797/98], edited by Cettina Rapisarda and Christian Thomas</item>
-                  <item><ref target="https://edition-humboldt.de/H9645842">Research paper by Hendrik Böttcher</ref> on the
+                  <item>
+                            <ref target="https://edition-humboldt.de/H9645842">Research paper by Hendrik Böttcher</ref> on the
                      Russian-Siberian Travel Journal of 1829</item>
                </list>
 
                <p>Topics (Scientific Travels)</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/X0000016">Correspondence with
+                  <item>
+                            <ref target="https://edition-humboldt.de/X0000016">Correspondence with
                         Joseph Dalton Hooker</ref> (19 letters), edited by Sabine Seifert</item>
                   <item>Correspondence with the Schomburgk brothers (<ref target="https://edition-humboldt.de/X0000011">Sir Robert Hermann</ref>, <ref target="https://edition-humboldt.de/X0000010">Otto Alfred</ref> and <ref target="https://edition-humboldt.de/X0000009">Moritz Richard</ref>), edited
                      by Ulrich Päßler (complete edition, 25 letters)</item>
-                  <item>Robert Schomburgk‘s <hi rendition="#i"><ref target="https://edition-humboldt.de/H7619721">Plan for a
+                  <item>Robert Schomburgk‘s <hi rendition="#i">
+                                <ref target="https://edition-humboldt.de/H7619721">Plan for a
                            journey to the equinoctial regions to continue the discoveries of Mr.
-                           Alexander von Humboldt</ref></hi> (1834), edited by Ulrich Päßler</item>
+                           Alexander von Humboldt</ref>
+                            </hi> (1834), edited by Ulrich Päßler</item>
                   <item>Correspondence (<ref target="https://edition-humboldt.de/H0020424">August 4</ref> and <ref target="https://edition-humboldt.de/H0020433">December 22</ref>) with the diplomat Miguel Maria Lisboa
                      on the border negotiations between Brazil and Venezuela (1854), edited by Ulrich
                      Päßler</item>
@@ -495,8 +625,10 @@
                <p>Research data &amp; Development</p>
                <list rendition="bulleted">
                   <item>Redesign of the search interface</item>
-                  <item>Improved <ref target="https://edition-humboldt.de/register/pflanzen/index.xql&amp;section=A&amp;l=de">plant name index</ref></item>
-                  <item>Improved <ref target="https://edition-humboldt.de/register/glossar/index.xql&amp;l=de&amp;cat=instrument">glossary</ref></item>
+                  <item>Improved <ref target="https://edition-humboldt.de/register/pflanzen/index.xql&amp;section=A&amp;l=de">plant name index</ref>
+                        </item>
+                  <item>Improved <ref target="https://edition-humboldt.de/register/glossar/index.xql&amp;l=de&amp;cat=instrument">glossary</ref>
+                        </item>
                   <item>Version based publication of the TEI-XML data (<ref target="https://github.com/telota/edition-humboldt-digital">GitHub</ref>/<ref target="https://zenodo.org/doi/10.5281/zenodo.10457931">Zenodo</ref>) and the data model (<ref target="https://github.com/telota/ediarum.AVHR.data-model/">GitHub</ref>)</item>
                   <item>Edition Guidelines v. 1.1.3</item>
                </list>
@@ -513,26 +645,33 @@
 
                <p>Travel Journals</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/H0020388">Index général de mes MSS [1805]</ref> [= American
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020388">Index général de mes MSS [1805]</ref> [= American
                      Travel Journal, Vol. V, fol. 37r–49v], edited by Carmen Götz</item>
-                  <item><ref target="https://edition-humboldt.de/H0020392">Research paper by Carmen Götz</ref> on the first
-                     edition of the <hi rendition="#i">Index général</hi></item>
-                  <item><ref target="https://edition-humboldt.de/H0020375">Research paper by Ferdinand Damaschun</ref> on the
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020392">Research paper by Carmen Götz</ref> on the first
+                     edition of the <hi rendition="#i">Index général</hi>
+                        </item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020375">Research paper by Ferdinand Damaschun</ref> on the
                      Russian-Siberian Travel Journal of 1829</item>
                </list>
 
                <p>Topics (Scientific Travels)</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/H0011992">Correspondence with Joseph Dalton Hooker</ref> (4
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0011992">Correspondence with Joseph Dalton Hooker</ref> (4
                      letters), edited by Sabine Seifert</item>
-                  <item><ref target="https://edition-humboldt.de/briefe/index.xql?person=H0001259">Correspondence with Dietrich Ludwig Gustav Karsten</ref> (2 letters),
+                  <item>
+                            <ref target="https://edition-humboldt.de/briefe/index.xql?person=H0001259">Correspondence with Dietrich Ludwig Gustav Karsten</ref> (2 letters),
                      edited by Cettina Rapisarda and Christian Thomas</item>
                </list>
 
                <p>Research data &amp; Development</p>
                <list rendition="bulleted">
                   <item>Redesign of the project’s landing page</item>
-                  <item>Development of a <ref target="https://edition-humboldt.de/gallery/index.xql">Gallery of "Drawings and Sketches"</ref></item>
+                  <item>Development of a <ref target="https://edition-humboldt.de/gallery/index.xql">Gallery of "Drawings and Sketches"</ref>
+                        </item>
                   <item>Revision of the documentation of the project’s <ref target="https://edition-humboldt.de/H0016212">Digital methodology</ref> (Stefan Dumont)</item>
                </list>
 
@@ -559,7 +698,8 @@
                            edited by Cettina Rapisarda and Christian Thomas</item>
                      </list>
                   </item>
-                  <item><ref target="https://edition-humboldt.de/H0020374">Research paper by Patrick Anthony</ref> on the
+                  <item>
+                            <ref target="https://edition-humboldt.de/H0020374">Research paper by Patrick Anthony</ref> on the
                      Russian-Siberian Travel Journal of 1829</item>
                </list>
 
@@ -567,7 +707,8 @@
                <list rendition="bulleted">
                   <item>Correspondence (15 letters) with the Schomburgk brothers (<ref target="https://edition-humboldt.de/X0000011">Sir Robert Hermann</ref>, <ref target="https://edition-humboldt.de/X0000010">Otto Alfred</ref> and <ref target="https://edition-humboldt.de/X0000009">Moritz Richard</ref>), edited
                      by Ulrich Päßler</item>
-                  <item>Humboldt paper <ref target="https://edition-humboldt.de/H0019159">Outline of the <hi rendition="#i">Relation historique</hi></ref>, edited by Tobias Kraft</item>
+                  <item>Humboldt paper <ref target="https://edition-humboldt.de/H0019159">Outline of the <hi rendition="#i">Relation historique</hi>
+                            </ref>, edited by Tobias Kraft</item>
                </list>
 
                <p>Research data &amp; Development</p>
@@ -596,24 +737,28 @@
 
                <p>Travel Journals</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v7/H0019155">Voyage de Paris en
+                  <item>
+                            <ref target="https://edition-humboldt.de/v7/H0019155">Voyage de Paris en
                         Italie avec Gay Lussac 1805</ref> [= Italian Travel Journal], edited by
                      Christian Thomas</item>
-                  <item><ref target="https://edition-humboldt.de/v7/H0019162/72r">Physiology.
+                  <item>
+                            <ref target="https://edition-humboldt.de/v7/H0019162/72r">Physiology.
                         Galvanism [Raja torpedo]</ref> [= American Travel Journal, Vol. III, pp.
                      72r-v]</item>
                </list>
 
                <p>Topics (Scientific Travels)</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/X0000017">Correspondence with
+                  <item>
+                            <ref target="https://edition-humboldt.de/X0000017">Correspondence with
                         Johann Moritz Rugendas</ref> (26 letters), plus a <ref target="https://edition-humboldt.de/v7/H0019717">letter to Karl Friedrich
                         Schinkel</ref>, edited by Ulrich Päßler</item>
                </list>
 
                <p>Research data &amp; Development</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/register/index.xql?l=de">Glossary</ref> (under construction).</item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/register/index.xql?l=de">Glossary</ref> (under construction).</item>
                </list>
 
 
@@ -630,19 +775,23 @@
 
                <p>Travel Journals</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v6/H0018406">From Valencia to
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0018406">From Valencia to
                         Madrid.</ref> [= Spanish Travel Journal of 1799], edited by Christian Thomas
                      and Dominik Erdmann. With an <ref target="https://edition-humboldt.de/v6/H0018408">introduction by Ulrike
                         Leitner</ref>.</item>
-                  <item><ref target="https://edition-humboldt.de/v6/H0018407">Paris-Toulon
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0018407">Paris-Toulon
                         (1798)</ref> [= French Travel Journal], edited by Christian Thomas and David
                      Blankenstein</item>
-                  <item><ref target="https://edition-humboldt.de/v6/H0016412">Voyage d'Espagne aux
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0016412">Voyage d'Espagne aux
                         Canaries et à Cumaná</ref> [= American Travel Journals, Vol. I], edited by
                      Carmen Götz. Significant improvement in annotation and markup, including:
                      correct conversion of the French Revolutionary calendar; display of Humboldt's
                      references to other diary sections.</item>
-                  <item><ref target="https://edition-humboldt.de/v6/H0005449">Fragments of the
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0005449">Fragments of the
                         Siberian Travel Journal 1829</ref> [= Russian-Siberian Travel Journal, Vol.
                      I], edited by Tobias Kraft and Florian Schnee (beta version). With an <ref target="https://edition-humboldt.de/v6/H0018418">introduction by the
                         editors</ref>.</item>
@@ -656,8 +805,10 @@
                      von Brescius, Linda Martin, and Ulrich Päßler, 1 Humboldt paper (Scientific
                      Travels)</item>
                   <item>5 translations of Humboldt papers (Phytogeography), such as the <ref target="https://edition-humboldt.de/v6/H0018390">"Matériaux pour la nouvelle
-                        édition de la Géographie des plantes"</ref></item>
-                  <item><ref target="https://edition-humboldt.de/v6/H0018416">Introduction by
+                        édition de la Géographie des plantes"</ref>
+                        </item>
+                  <item>
+                            <ref target="https://edition-humboldt.de/v6/H0018416">Introduction by
                         Kerstin Aranda</ref> to Ehrenberg's Journal of the Russian-Siberian Journey
                      (Scientific Travels)</item>
                </list>
@@ -684,7 +835,8 @@
 
                <p>Travel Journals</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v5/H0016412">Voyage d'Espagne aux
+                  <item>
+                            <ref target="https://edition-humboldt.de/v5/H0016412">Voyage d'Espagne aux
                         Canaries et à Cumaná</ref> [= American Travel Journals, Vol. I], edited by
                      Carmen Götz. Revision of transcription by re-examining the entire edited text
                      against the manuscript (completed); revision of markup and scholarly commentary
@@ -697,7 +849,8 @@
                         Russian-Siberian Voyage</ref> with Alexander von Humboldt 1829, edited by
                      Kerstin Aranda, Ulrich Päßler, and Christian Thomas</item>
                   <item>Correspondence with the Schlagintweit brothers (selection). With an <ref target="https://edition-humboldt.de/v5/H0017989">introduction by Moritz von
-                        Brescius</ref></item>
+                        Brescius</ref>
+                        </item>
                </list>
 
                <p>Research data &amp; Development</p>
@@ -745,12 +898,14 @@
 
                <p>Travel Journals</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v3/H0016412">Voyage d'Espagne aux
+                  <item>
+                            <ref target="https://edition-humboldt.de/v3/H0016412">Voyage d'Espagne aux
                         Canaries et à Cumaná</ref> [= American Travel Journal, Vol. I], edited by
                      Ulrike Leitner (beta version) with research papers (contributions by <ref target="https://edition-humboldt.de/v3/H0016432">Ulrike Leitner</ref> and
                         <ref target="https://edition-humboldt.de/v3/H0016429">Carmen
                      Götz</ref>)</item>
-                  <item><ref target="https://edition-humboldt.de/v3/H0017682">Reise. 1790.
+                  <item>
+                            <ref target="https://edition-humboldt.de/v3/H0017682">Reise. 1790.
                         England.</ref> [= English Travel Journal], edited by Dominik Erdmann and
                      Christian Thomas with research dossier (<ref target="https://edition-humboldt.de/v3/H0016430">Introduction by Dominik
                         Erdmann</ref>)</item>
@@ -761,9 +916,11 @@
                   <item>4 Humboldt papers, such as the <ref target="https://edition-humboldt.de/v3/H0016424">"Publishing contract for
                         the "Géographie des plantes dans les deux hémisphères" (1825)"</ref>
                      (Phytogeography)</item>
-                  <item><ref target="https://edition-humboldt.de/v3/H0016431">General
+                  <item>
+                            <ref target="https://edition-humboldt.de/v3/H0016431">General
                         Introduction</ref> to the topic "Phytogeography" by Ulrich Päßler</item>
-                  <item><ref target="http://edition-humboldt.de/X0000007">Correspondence with
+                  <item>
+                            <ref target="http://edition-humboldt.de/X0000007">Correspondence with
                         Christian Gottfried Ehrenberg</ref> (300+ letters), curated and revised
                      version of the 2008 edition by Anne Wendt (Scientific Travels)</item>
                </list>
@@ -790,9 +947,11 @@
                <list rendition="bulleted">
                   <item>29 Humboldt papers for the planned new edition of <hi rendition="#i">Ideen
                         zu einer Geographie der Pflanzen</hi> (Humboldt/Kunth), such as the <ref target="https://edition-humboldt.de/v2/H0016409">"Énumération des Plantes de
-                        la Province de Quito"</ref></item>
+                        la Province de Quito"</ref>
+                        </item>
                   <item>An <ref target="https://edition-humboldt.de/v2/H0016420">introduction by
-                        Ulrich Päßler</ref></item>
+                        Ulrich Päßler</ref>
+                        </item>
                </list>
 
 
@@ -811,7 +970,8 @@
                <list rendition="bulleted">
                   <item>3 Humboldt papers for the new edition of <hi rendition="#i">Ideen zu einer
                         Geographie der Pflanzen</hi>, such as the <ref target="https://edition-humboldt.de/v1/H0015180">"Humboldt's Questions to
-                        Robert Brown (Paris, 1816)"</ref></item>
+                        Robert Brown (Paris, 1816)"</ref>
+                        </item>
                </list>
 
                <p>Research data &amp; Development</p>
@@ -836,7 +996,8 @@
 
                <p>Travel Journals</p>
                <list rendition="bulleted">
-                  <item><ref target="https://edition-humboldt.de/v1/H0002922">Isle de Cube. Antilles
+                  <item>
+                            <ref target="https://edition-humboldt.de/v1/H0002922">Isle de Cube. Antilles
                         en général</ref> [Cuban Travel Journal of 1804], edited by Ulrike Leitner,
                      Piotr Tylus, and Michael Zeuske</item>
                   <item>Research papers on the Cuban Travel Journal of 1804 (contributions by <ref target="https://edition-humboldt.de/v1/H0016213">Ottmar Ette</ref>, <ref target="https://edition-humboldt.de/v1/H0002927">Ulrike Leitner</ref>, <ref target="https://edition-humboldt.de/v1/H0002926">Piotr Tylus</ref> and <ref target="https://edition-humboldt.de/v1/H0012105">Michael
