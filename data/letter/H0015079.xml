@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0015079">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch,
+                    [1833]</title> <editor>
+                        <persName ref="http://d-nb.info/gnd/139028285">
+                            <surname>Päßler</surname>
+                            <forename>Ulrich</forename>
+                        </persName>
+                    </editor>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/120113856">
+                        <surname>Gerlach</surname>
+                        <forename>Klaus</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+                <respStmt>
+                    <persName ref="http://d-nb.info/gnd/123964172">
+                        <surname>Schwarz</surname>
+                        <forename>Ingo</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Carl Sigismund Kunth. [Berlin], Mittwoch,
+                    [1833], hg. v. Ulrich Päßler unter Mitarbeit von Klaus Gerlach und Ingo Schwarz. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 12 vom 08.06.2026. URL: <ref target="https://edition-humboldt.de/v12/">https://edition-humboldt.de/v12/</ref></p></editionStmt>
+            
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v12/</idno><idno type="URLXML">https://edition-humboldt.de/v12/.xml</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Biblioteka Jagiellońska</institution>
+                        <collection>Sammlung Autographa (ehemals Preußische Staatsbibliothek, Berlin)</collection>
+                        <idno><idno type="shelfmark">A. von Humboldt</idno></idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc><encodingDesc><editorialDecl><p>Art und Weise der Transkribition, Annotation und Kodierung der Texte sind in den Richtlinien der edition humboldt digital 
+                            umfassend dokumentiert, siehe <ref target="https://edition-humboldt.de/richtlinien/">https://edition-humboldt.de/richtlinien/</ref>.
+                            Die Schemata sind als ODD- und RNG-Dateien unter <ref target="https://github.com/telota/ediarum.AVHR.data-model">https://github.com/telota/ediarum.AVHR.data-model</ref>
+                            bereitgestellt.</p></editorialDecl></encodingDesc>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769–1859) </persName>
+                    <date from="1833-01-01" to="1833-12-31" cert="high"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://edition-humboldt.de/H0001517 http://d-nb.info/gnd/115674667">Kunth, Carl Sigismund (1788–1850 ) </persName>
+                </correspAction>
+                <note>Die Datierung richtet sich nach dem Erscheinen des ersten Bandes der <bibl ref="https://edition-humboldt.de/7DZGI486">Enumeratio plantarum</bibl> "Agrostographia
+                    Synoptica" 1833, das im vorliegenden Brief erwähnt wird. </note>
+            </correspDesc>
+            <langUsage>
+                <language scope="sole" ident="deu"/>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text><body>
+            <div type="writingSession" n="1">
+                <p>
+                    <pb n="1r"/>Sie sind meine Vorsehung<supplied cert="high">,</supplied>
+                    <lb/>Theurer! Schikken Sie <lb/>mir wieder einige Fe<g ref="#typoHyphen"/><lb break="no"/>dern. Mit welchem
+                    <lb/>Verstande <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice> Fleiss ist <lb/>Ihre <ref xml:id="dce5adfa-14ed-447d-a5ad-fa14ed447d36" corresp="#f7cc5e18-6236-4b4d-8c5e-1862361b4deb" type="editorialNote"><bibl ref="https://edition-humboldt.de/7DZGI486">Agrostographie</bibl></ref><note xml:id="f7cc5e18-6236-4b4d-8c5e-1862361b4deb" corresp="#dce5adfa-14ed-447d-a5ad-fa14ed447d36" type="editorial">Agrostographia synoptica sive enumeratio
+                            graminearum omnium hucusque cognitarum, adjectis characteribus,
+                            differentiis et synonymis (<bibl ref="https://edition-humboldt.de/7DZGI486">Kunth
+                                1833–1850</bibl>, I/II).</note>
+                    <lb/>gemacht. Welch ein <lb/>ungeheures Opus! </p>
+                <closer rend="paragraph">
+                    <salute>AlHumboldt</salute>
+                    <dateline rend="align(right)">Mittwochs</dateline>
+                </closer>
+            </div>
+            <postscript>
+                <p>
+                    <address>
+                        <addrLine><pb n="1v"/>
+                            <choice>
+                                <abbr>Sr</abbr>
+                                <expan>Seiner</expan>
+                            </choice> Wohlgeboren</addrLine>
+                        <addrLine>Herrn <choice>
+                                <abbr>Prof.</abbr>
+                                <expan>Professor</expan>
+                            </choice> Kunth</addrLine>
+                        <addrLine> </addrLine>
+                    </address>
+                </p>
+            </postscript>
+        </body></text>
+</TEI>

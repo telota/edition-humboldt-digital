@@ -1,0 +1,94 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0019586">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Donnerstag, [6.
+                    Januar 1831]</title>
+                <editor>
+                    <persName ref="http://d-nb.info/gnd/139028285">
+                        <surname>Päßler</surname>
+                        <forename>Ulrich</forename>
+                    </persName>
+                </editor>
+                <respStmt>
+                    <persName ref="http://www.bbaw.de/die-akademie/mitarbeiter/schnee">
+                        <surname>Schnee</surname>
+                        <forename>Florian</forename>
+                    </persName>
+                    <resp>
+                        <note type="remarkResponsibility">Mitarbeit</note>
+                    </resp>
+                </respStmt>
+            </titleStmt><editionStmt><p>Alexander von Humboldt an Johann Moritz Rugendas. [Paris], Donnerstag, [6.
+                    Januar 1831], hg. v. Ulrich Päßler unter Mitarbeit von Florian Schnee. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 12 vom 08.06.2026. URL: <ref target="https://edition-humboldt.de/v12/">https://edition-humboldt.de/v12/</ref></p></editionStmt>
+            
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v12/</idno><idno type="URLXML">https://edition-humboldt.de/v12/.xml</idno></publicationStmt>
+            <sourceDesc>
+                <msDesc rend="manuscript">
+                    <msIdentifier>
+                        <institution>Staatsbibliothek zu Berlin – Preußischer
+                            Kulturbesitz</institution>
+                        <repository>Handschriftenabteilung</repository>
+                        <collection>Autogr.</collection>
+                        <idno><idno type="shelfmark">I/530/11</idno>, Bl. 1r, 2v<idno type="uri">http://kalliope-verbund.info/DE-611-HS-1051313</idno></idno>
+                    </msIdentifier>
+                </msDesc><listWit>
+                    <witness><bibl type="print" n="1" ref="https://edition-humboldt.de/4W2GWGI6">Richert 1952</bibl>,
+                        50.</witness>
+                    <witness><bibl type="print" n="2" ref="https://edition-humboldt.de/FABVFKH5">Richert 1959</bibl>, 27–28.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc><encodingDesc><editorialDecl><p>Art und Weise der Transkribition, Annotation und Kodierung der Texte sind in den Richtlinien der edition humboldt digital 
+                            umfassend dokumentiert, siehe <ref target="https://edition-humboldt.de/richtlinien/">https://edition-humboldt.de/richtlinien/</ref>.
+                            Die Schemata sind als ODD- und RNG-Dateien unter <ref target="https://github.com/telota/ediarum.AVHR.data-model">https://github.com/telota/ediarum.AVHR.data-model</ref>
+                            bereitgestellt.</p></editorialDecl></encodingDesc>
+        <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Humboldt, Alexander von (1769-1859)</persName>
+                    <placeName ref="https://edition-humboldt.de/H0008129 https://www.geonames.org/2988507">Paris</placeName>
+                    <date when="1831-01-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="https://edition-humboldt.de/H0001123 http://d-nb.info/gnd/118750321">Rugendas, Johann Moritz (1802-1858)</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language scope="sole" ident="deu"/>
+            </langUsage>
+        </profileDesc> 
+    </teiHeader>
+    <text><body>
+            <div type="writingSession">
+                <opener>
+                    <dateline/>
+					<salute/>
+                </opener>
+				<pb n="1r"/><p>Mit dem besten Willen
+                        <lb/>mein
+                    theurer Rugendas, ist <lb/>es mir leider<metamark>!</metamark> troz zwei<lb break="no"/>maligen Versuchs nicht ge<lb break="no"/>glükt, das
+                    bewußte
+                    <lb/>Geschäft im <placeName ref="https://edition-humboldt.de/H0018508 https://www.geonames.org/6545270">Palais <lb/>Royal</placeName> zu Stande zu <lb/>bringen, ja
+                    auch nur <lb/>Neugierde zu erre<g ref="#typoHyphen"/><lb break="no"/>gen. Man
+                    ist noch <lb/>immer von anderen <lb/>Interessen bedrängt <choice>
+                        <abbr>u</abbr>
+                        <expan>und</expan>
+                    </choice>
+                    <lb/>ich glaube Sie müssen <lb/>Sich durch diese Aussichten <lb/>nicht von
+                    anderen Planen <lb/>abhalten lassen.</p>
+				<closer>
+                    <salute>Ihr</salute>
+                    <signed>AlHumboldt</signed><dateline>Donnerstags</dateline>
+                    <pb n="1v"/><gap reason="empty" unit="pages" quantity="1"/><pb n="2r"/><gap reason="empty" unit="pages" quantity="1"/><pb n="2v"/><address>
+                        
+                        <addrLine>à Monsieur <lb/><choice>
+                                <abbr>Mr</abbr>
+                                <expan>Monsieur</expan>
+                            </choice> Rugendas <lb/>Quai Malaquai <lb/><choice>
+                                <abbr>n</abbr>
+                                <expan>numéro</expan>
+                            </choice> 15</addrLine>
+                    </address></closer>
+            </div>
+        </body></text>
+</TEI>

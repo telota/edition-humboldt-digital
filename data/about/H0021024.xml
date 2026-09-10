@@ -1,0 +1,783 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0021024">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Digital Methodology</title>
+                <title type="sub">An Overview of Data Modeling, Technologies, and Interfaces in
+                    edition humboldt digital</title>
+                <author>
+                    <persName>
+                        <surname>Dumont</surname>
+                        <forename>Stefan</forename>
+                    </persName>
+                </author>
+            </titleStmt><editionStmt><p>Dumont, Stefan: Digital Methodology .  An Overview of Data Modeling, Technologies, and Interfaces in
+                    edition humboldt digital. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 12 vom 08.06.2026. URL: <ref target="https://edition-humboldt.de/v12/">https://edition-humboldt.de/v12/</ref></p></editionStmt>
+            <notesStmt>
+                <relatedItem target="H0016212" type="translation" xml:lang="de"/>
+            </notesStmt>
+            
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v12/</idno><idno type="URLXML">https://edition-humboldt.de/v12/.xml</idno></publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document</p>
+            </sourceDesc>
+        </fileDesc><encodingDesc><editorialDecl><p>Art und Weise der Transkribition, Annotation und Kodierung der Texte sind in den Richtlinien der edition humboldt digital 
+                            umfassend dokumentiert, siehe <ref target="https://edition-humboldt.de/richtlinien/">https://edition-humboldt.de/richtlinien/</ref>.
+                            Die Schemata sind als ODD- und RNG-Dateien unter <ref target="https://github.com/telota/ediarum.AVHR.data-model">https://github.com/telota/ediarum.AVHR.data-model</ref>
+                            bereitgestellt.</p></editorialDecl><tagsDecl><rendition xml:id="b" scheme="css">font-weight:bold<desc>Fettdruck</desc></rendition><rendition xml:id="i" scheme="css">font-style:italic<desc>Kursivdruck</desc></rendition></tagsDecl></encodingDesc>
+        
+    <profileDesc><textClass><keywords><term>about</term></keywords></textClass></profileDesc></teiHeader>
+    <text><body>
+            <div>
+                <head type="h2">Introduction</head>
+                <p>The “<hi rendition="#i">edition humboldt</hi>” is published as a hybrid edition,
+                    but with a “digital first” approach: all edited texts and scholarly articles are
+                    first published under an open license at <hi rendition="#i">edition humboldt
+                        digital</hi>.<note place="foot" xml:id="ftn1" n="1">Vgl. <bibl ref="https://edition-humboldt.de/YCRGL9TA">Kraft/Dumont 2020</bibl>. For more on
+                        the hybrid concept of the edition, see also <bibl ref="https://edition-humboldt.de/AR35UYLT">Kraft 2018</bibl>.</note> The “<hi rendition="#i">edition humboldt digital</hi>” follows a “digital paradigm,”
+                    as defined by Patrick Sahle (<bibl ref="https://edition-humboldt.de/JK54WDVV">2017</bibl>):
+                    thus, the ehd is not only accessible online and based—in accordance with the
+                    “single source” principle—on TEI-XML, but also features numerous pieces of
+                    information and functions that cannot be reproduced in print without loss of
+                    information.</p>
+                <p>This article aims to introduce the fundamental digital methodology of the <hi rendition="#i">edition humboldt digital</hi>. The article should therefore
+                    be viewed in the context of the required transparency in editorial practice
+                    (such as the editorial guidelines or the respective introductions to the edited
+                    texts). However, it focuses on the genuinely digital aspects of the
+                    edition—namely, the data model and software, web design, reused external data
+                    and services, as well as the interfaces and publication of the data. This
+                    article is intended as an initial overview and will be supplemented by further
+                    content. <note xml:id="ftn2" n="2" place="foot">Notable examples include the
+                            <ref target="https://edition-humboldt.de/richtlinien/index.html">editorial guidelines</ref>, <bibl ref="https://edition-humboldt.de/AR35UYLT">Kraft
+                            2018</bibl>, <bibl ref="https://edition-humboldt.de/YCRGL9TA">Kraft/Dumont
+                            2020</bibl>, and <bibl ref="https://edition-humboldt.de/HPSYJC8U">Dumont et al.
+                            2026.</bibl></note>. Several individuals with varying responsibilities
+                    have been and continue to be involved in the development of the ehd; their names
+                    can be found <ref target="https://edition-humboldt.de/H0002928">in</ref> the <ref target="https://edition-humboldt.de/H0002928">“Project
+                        Team” section</ref>.</p>
+            </div>
+            <div>
+                <head type="h2">Data Model</head>
+                <p>This section provides an overview of the edition’s data model. Comprehensive
+                    documentation of the data model is available in the <ref target="https://edition-humboldt.de/richtlinien/index.html">edition
+                        guidelines</ref>. <note place="foot" xml:id="ftn3" n="3">For background on
+                        the data model (e.g., the use of “cascading standards” or the edition
+                        levels), see also <bibl ref="https://edition-humboldt.de/HPSYJC8U">Dumont et al.
+                            2026</bibl>.</note></p>
+                <div>
+                    <head type="h3">Historical Sources</head>
+                    <p>The metadata and texts of the works to be edited (travel diaries, documents,
+                        and letters) are encoded according to the guidelines of the <ref target="http://www.tei-c.org/ns/1.0">Text Encoding Initiative
+                            (TEI)</ref>. In doing so, ediarum.BASE.edit is used to largely adhere to
+                        the <ref target="http://deutschestextarchiv.de/doku/basisformat/">base
+                            format of the German Text Archive (DTABf)</ref> (<bibl ref="https://edition-humboldt.de/47JJACHG">Haaf/Geyken/Wiegand 2015</bibl>), which
+                        has been extended—among other things—for the encoding of handwritten texts
+                        as part of this editorial project (<bibl ref="https://edition-humboldt.de/EACNDF7P">Haaf/Thomas 2018</bibl>). For a few project-specific requirements,
+                        additions and extensions to the tag set have been made that are compliant
+                        with the TEI guidelines. These extensions primarily address project-specific
+                        requirements arising from the source material, such as the markup of
+                        measurements or inserted or pasted-in notes. However, when making extensions
+                        to the DTABf data model, care was taken to ensure that they align as closely
+                        as possible with its existing structure. Thus, in many cases, no new
+                        elements or attributes were added; instead, only attribute values were
+                        supplemented. </p>
+                    <p>All names of people, places, and institutions, as well as bibliographic
+                        references in the source texts (and their metadata), are linked in the texts
+                        to their respective index entries. Similarly, dates in the diaries are
+                        encoded and can thus be automatically linked to the next chronological entry
+                        in the timeline.</p>
+                </div>
+                <div>
+                    <head type="h3">Accompanying Texts</head>
+                    <p>All other texts, such as the introductory research articles on the diary
+                        fragment <ref target="http://edition-humboldt.de/H0002922">“Isle de Cube.
+                            Antilles en général</ref>,<ref target="http://edition-humboldt.de/H0002922">”</ref> were also recorded
+                        in TEI-XML in accordance with the base format of the German Text
+                        Archive.</p>
+                </div>
+                <div>
+                    <head type="h3">Index</head>
+                    <p>The indexes for <ref target="https://edition-humboldt.de/register/personen/index.xql?l=de">people</ref>, <ref target="https://edition-humboldt.de/register/orte/index.xql?l=de">places</ref>, and <ref target="https://edition-humboldt.de/register/einrichtungen/index.xql?l=de">institutions</ref>, as well as the <ref target="https://edition-humboldt.de/register/glossar/index.xql?l=de">glossary,</ref> are processed and maintained in TEI-XML. Each entry has
+                        its own unique and permanent ID. In addition to the basic data for an entry,
+                        a brief description is also provided. </p>
+                    <p>The entries are also assigned one or, where applicable, several URIs from
+                        various authority files, provided an entry exists there. This enables <hi rendition="#i">projektübergreifende</hi> identification of the people,
+                        places, and institutions both within the ehd itself and when using the
+                        interfaces and data publications (see also <bibl ref="https://edition-humboldt.de/W4L92XBE">Stadler 2012</bibl> regarding authority
+                        files in editions). For person entries, the GND is primarily used;
+                        alternatively or additionally, Wikidata is also used. <note place="foot">VIAF was previously used as well, but this approach was abandoned due
+                            to the instability of the VIAF API and uncertain future
+                            prospects—Wikidata now appears to be the better alternative here.</note>
+                        For places, on the other hand, URIs from the free location database <ref target="https://www.geonames.org">GeoNames</ref> are used, as it
+                        provides extensive global coverage and entries can be supplemented by the
+                        project itself as needed. For example, a few locations missing from GeoNames
+                        (such as the former sites of the <ref target="https://edition-humboldt.de/H0000531">Berlin Observatory</ref>)
+                        were added there. </p>
+                    <p>In addition, as part of the project, the catalog entries for 25 editions
+                        (letters, documents, diary excerpts) of Alexander von Humboldt research
+                        published between 1973 and 2016 were retro-digitized and made available. The
+                        catalog information for the printed editions is part of the series *<ref target="https://www.degruyter.com/view/serial/BAHF-B"><hi rendition="#i">Beiträge zur Alexander von Humboldt-Forschung</hi></ref>*,
+                        originally published by Akademie-Verlag and later by De Gruyter, edited by
+                        the Alexander von Humboldt Research Center (1970–2014) of the BBAW. </p>
+                    <p>Links to other index entries and the edited materials are automatically
+                        extracted from the database using the ehd-ID.</p>
+                    <div>
+                        <head type="h4">Humboldt’s Reference Sigla</head>
+                        <p>Alexander von Humboldt’s manuscripts sometimes contain so-called
+                            sigla—that is, letter combinations that link various documents, letters,
+                            and diary entries to one another. These sigla were not only transcribed
+                            but also entered into a separate TEI-XML register and linked to the
+                            corresponding text passages. This allows the relationships to be traced
+                            within the digital edition as well.</p>
+                    </div>
+                    <div>
+                        <anchor type="target" xml:id="pflanzenregister"/>
+                        <head type="h4">Plant Index</head>
+                        <p>No separate entries are created in TEI-XML register files for the <ref target="https://edition-humboldt.de/register/pflanzen/index.xql?l=de">plant index</ref> (as is the case with the other registers).
+                            Instead, the scientific plant names in the edited texts are annotated
+                            using the appropriate TEI markup, normalized where necessary, and then
+                            automatically extracted. The plant index is thus generated entirely
+                            dynamically. For each distinct plant name, the citations in the texts
+                            are listed and automatically linked to various taxonomic databases (see
+                            below, section <ref target="https://edition-humboldt.de/H0016212/globalnames">“Global Indexes for
+                                Scientific Names”</ref>). </p>
+                        <p>However, since Version 10 (1 December 2024), the plant index—which is
+                            inherently dynamic—is additionally generated automatically as TEI-XML
+                            (including internal and external references). This ensures that the
+                            plant index can continue to be included with data publications in the
+                            future. <note xml:id="ftn4" n="4" place="foot">See also Section 3.2 at
+                                    <bibl ref="https://edition-humboldt.de/HPSYJC8U">Dumont et al.
+                                2026</bibl>.</note>
+                        </p>
+                    </div>
+                    <div>
+                        <head type="h4">Drawings and Sketches</head>
+                        <p>Since Version 9, a virtual “index” has provided an overview of drawings
+                            and sketches by Humboldt or other contemporaries found in the edited
+                            texts. Similar to the plant index, it is automatically compiled from the
+                            illustrations tagged with <hi rend="code">figure</hi>.</p>
+                    </div>
+                    <div>
+                        <head type="h4">Bibliography</head>
+                        <p>The edition’s <ref target="https://edition-humboldt.de/register/literatur/index.xql?l=de">bibliography</ref> is maintained in the reference management
+                            software Zotero. The publicly accessible <ref target="https://www.zotero.org/groups/667230/">Zotero group</ref>
+                            enables collaborative maintenance of the data and can be accessed by
+                            anyone interested—including in various citation styles and export
+                            formats (see below).</p>
+                    </div>
+                </div>
+                <div>
+                    <head type="h3">Documentation</head>
+                    <p>The data model is documented in <ref target="http://docs.oasis-open.org/dita/dita/v1.3/dita-v1.3-part3-all-inclusive.html">DITA</ref>, specifically in the DITA files of <ref target="https://www.ediarum.org/docs/ediarum.BASE.manual/">ediarum.BASE.manual</ref>. This allows for synergies and documents any
+                        specifications or modifications relative to the data model of
+                        ediarum.BASE.edit. DITA (rather than ODD) was chosen to enable this
+                        combination of ediarum.BASE.manual and <ref target="https://edition-humboldt.de/richtlinien/index.html">the
+                            guidelines of edition humboldt digital</ref>. Furthermore, the internal
+                        DITA documentation includes not only the coding guidelines based on the
+                        specific material but also the specific <hi rendition="#i">Bedienungs</hi>
+                        instructions in ediarum.AVHR.edit.</p>
+                    <p>The editorial guidelines refer to the corresponding sections of the DTABf
+                        documentation.</p>
+                </div>
+                <div>
+                    <head>Schema</head>
+                    <p>While the schema was initially formulated and maintained in RelaxNG, it is
+                        now available as a TEI-ODD file (<bibl ref="https://edition-humboldt.de/QGGN2BZP">Viglianti 2019</bibl>) (from which RNG derivatives are still created).
+                        It is derived from ediarum.BASE.schema using ODD chaining, which in turn is
+                        derived from DTABf. This makes it possible to maintain and track the
+                        respective changes to the next “higher-level” schema at every level
+                        (ediarum, <hi rendition="#i">edition humboldt digital</hi>). The schema
+                        (both the TEI-ODD file and the RNG file) is published on <ref target="https://github.com/telota/ediarum.AVHR.data-model">GitHub</ref>.</p>
+                </div>
+            </div>
+            <div>
+                <head type="h2">Software &amp; Technologies</head>
+                <p>The publication <hi rendition="#i">edition humboldt digital</hi> is created in
+                        <hi rendition="#i">ediarum</hi> from data entry through to publication. The
+                        <ref target="https://www.ediarum.org/">digital work environment <hi rendition="#i">ediarum</hi></ref> is a solution developed by the <ref target="http://www.bbaw.de/telota">DH initiative TELOTA</ref> since 2012
+                    that allows researchers to edit transcriptions of manuscripts, commentaries, and
+                    index entries in TEI-compliant XML, add textual and critical apparatus, and
+                    subsequently publish them on the web and as PDFs (<bibl ref="https://edition-humboldt.de/ZFPTSUNP">Dumont/Fechner 2014</bibl>). “<hi rendition="#i">ediarum</hi>” consists of several software modules that have
+                    been adapted for the creation of a digital edition. For data entry and editing
+                    in the “edition humboldt digital” project, the module <hi rendition="#i">ediarum.BASE.edit</hi> is used, which—as is customary with ediarum—is
+                    supplemented by a project-specific module <hi rendition="#i">ediarum.AVHR.edit</hi>. The ediarum.REGISTER.edit module is used to create
+                    and maintain the register entries. The exception is the bibliography, which is
+                    maintained in the reference management software Zotero; <hi rendition="#i">ediarum.DB</hi> provides a corresponding interface for synchronization.</p>
+                <p>Data is stored via ediarum.WEBDAV (<bibl ref="https://edition-humboldt.de/D7E56DYF">Lampert
+                        et al. 2025</bibl>), first in a Git repository (<bibl ref="https://edition-humboldt.de/SUJV58N2">Fechner/Klappenbach/Lampert 2025</bibl>)
+                    and, in a second (automated) step, in an instance of the open-source XML
+                    database <ref target="http://www.exist-db.org">existdb</ref>; the <hi rendition="#i">ediarum.DB</hi> module is also used here to manage the data.
+                    Existdb—together with the Jetty web server—serves as the basis for the digital
+                    edition, which was implemented using XQuery, XSLT, and XPath and is now
+                    maintained in an eXistdb app in accordance with the EXPath packaging
+                    specifications, simplifying deployment and development. The search functions
+                    utilize the Lucene-based faceting feature available since eXistdb 5.0. In
+                    addition, the edition features several custom-programmed caches that enhance
+                    performance, particularly for complex queries. The software <ref target="http://digilib.sourceforge.net/">digilib,</ref> developed at the MPI
+                    for the History of Science, is used to display the facsimiles, drawings, and
+                    illustrations.</p>
+                <p>This software stack was selected in 2015 because it has been used as the standard
+                    at the BBAW for editions in modern German studies since 2012. eXistdb has been
+                    in use in-house since the 2000s, and the ediarum input modules based on Oxygen
+                    XML Author have been in use since 2012. As a result, the TELOTA team possesses
+                    extensive expertise in these specific software tools and X technologies in
+                    general. In particular, <hi rendition="#i">ediarum</hi> (especially the module
+                        <hi rendition="#i">ediarum.BASE</hi>) is designed to enable the (further)
+                    development, deployment, and maintenance of software across projects. Ediarum
+                    had already been successfully deployed in several projects at the start of this
+                    initiative; it is now used in over 30 editorial projects—not only at the BBAW.
+                    The use of ediarum (and the technology stack as a whole) avoids siloed solutions
+                    and leverages synergies. This allowed the Editions project to build upon
+                    existing ediarum developments and to benefit from new functionalities developed
+                    for ediarum in other BBAW Editions projects—which, of course, also applies in
+                    reverse. Similarly, bug fixes in ediarum take effect simultaneously across all
+                    ediarum projects.</p>
+                <p>However, the “<hi rendition="#i">edition humboldt digital</hi>” was not able to
+                    benefit from all new ediarum developments. For example, the ediarum.WEB module
+                    is not used for the web presentation layer, as it was not developed until
+                    several years later. Migrating to it while retaining all features would have
+                    been too time-consuming. The use of TEI Publisher, which had already been
+                    released in early versions at the start of the project, was ruled out due to its
+                    rather limited functionality at the time. Consequently, the ehd was custom-built
+                    using XQuery/XSLT. Thus, the ehd—like many others—belongs to the category of
+                    “haute couture” editions, as <bibl ref="https://edition-humboldt.de/YLSKZ4FZ">Elena
+                        Pierazzo 2019</bibl> put it. This is also possible because the project is
+                    planned to receive funding for 18 years as part of the Academies Program. Apart
+                    from the lack of “prêt-à-porter” solutions at the start of the project, a “haute
+                    couture” solution for the ehd also seems sensible—if not necessary—given the
+                    scope and heterogeneity of the edited sources as well as the accompanying
+                    information (registers, chronologies, research articles, etc.). </p>
+            </div>
+            <div>
+                <head>Layout &amp; Web Design</head>
+                <p>The design of <hi rendition="#i">edition humboldt digital</hi> is based on drafts
+                    that the author originally developed in 2014 for the project “Schleiermacher in
+                    Berlin 1808–1834.” Due to the fundamental similarity of the edition type and the
+                    genres of sources to be presented, the drafts could be reused and further
+                    developed for the ehd. </p>
+                <p>The design is based on the principles of “flat design,” i.e., simplicity,
+                    minimalism, and a strong focus on typography. The latter, in particular, is a
+                    central element, as this digital edition is primarily about one thing: text. For
+                    this reason, an Antiqua font (<hi rendition="#i">PT Serif</hi>) with a true
+                    italic style was chosen as the primary typeface. It is accompanied by a
+                    Grotesque font (<hi rendition="#i">PT Sans</hi>) from the same typeface family,
+                    which is used primarily in subnavigation menus, smaller-sized explanatory texts,
+                    and metadata. These <hi rendition="#i">klassischen</hi> typographic
+                    conventions—to the extent that they could be meaningfully adapted to the digital
+                    medium of the web—were also taken into account in the rest of the design. For
+                    example, a flexible text width that adapts to the width of the viewport was not
+                    used—in favor of a fixed width that roughly corresponds to the typographically
+                    recommended line length.</p>
+                <p>The design approach also deliberately omits a page header: To allow as much space
+                    as possible for the text, only a narrow navigation bar—which is clearly visible
+                    due to its black color—was placed at the top. Instead of the website title and
+                    sponsor logos (which were still quite common in 2014), the page header displays
+                    the document title or the title of the individual page. At the same time, this
+                    space also accommodates additional metadata and sub-navigation options
+                    (chronological browsing of letters; sub-section navigation; letters in the
+                    index, etc.).</p>
+                <p>The design faces two challenges: First, the abundance of different text types
+                    (edited letters, diaries, documents; research articles, and indexes) and
+                    information that needs to be accommodated. Here, the design follows the
+                    principle of not displaying everything immediately, but rather revealing certain
+                    information only in response to user interaction. There should always be
+                    sufficient white space to allow the eye to rest occasionally and to group and
+                    prioritize the various pieces of information in a meaningful way. A second
+                    challenge was (and remains) adapting the design to changing requirements and the
+                    ever-growing volume of material and information. With an Academy project of such
+                    long duration (2015–2032), not every type of information or function was
+                    foreseeable at the outset. Consequently, the design has been repeatedly
+                    adapted—from the introduction of a subnavigation menu, to the redesign of the
+                    homepage and the implementation of page-based text and facsimile displays, all
+                    the way to the edited texts, which are marked up with ever greater depth and
+                    complexity. Some of these changes were more successful than others. <note xml:id="ftn5" n="5" place="foot">At the very least</note>, <note xml:id="ftn5" n="5" place="foot">Christian von Zimmermann praises the design
+                        of the research contributions: “[...] and this digital edition impressively
+                        refutes the frequently cited prejudice that it is not possible to present
+                        long texts in a digital medium in a readable and clear manner” (<bibl ref="https://edition-humboldt.de/QRK8IW8S">Von Zimmermann 2024</bibl>, 292).
+                    </note></p>
+                <p>The <ref target="https://960.gs">960 Grid System</ref> was used to implement the
+                    design in HTML, with heavy reliance on CSS. JavaScript is used only for
+                    specific—and, if necessary, replaceable—interface functions; the HTML pages are
+                    thus generated largely on the server side to facilitate archiving in the Web
+                    Archive or the BBAW’s web archive.</p>
+            </div>
+            <div>
+                <head type="h2">External Data &amp; Web Services Used</head>
+                <figure facs="https://digilib.bbaw.de/digilib/Scaler?fn=projects/avhr/Projekt/ehd_network_2023.png&amp;dw=958&amp;dh=483">
+                    <figDesc>The Networked Edition “Humboldt Digital.” Simultaneously published in
+                        the poster “The Networked Edition ‘Humboldt Digital.’” DH2023 in Graz.
+                        Abstract: <ref target="https://zenodo.org/record/8107834">https://zenodo.org/record/8107834</ref>.</figDesc>
+                </figure>
+                <p>For the digital edition, data from third-party projects was reused in several
+                    places, and external web services were utilized.</p>
+                <div>
+                    <head type="h3">Cascaded Analysis Broker of the German Text Archive
+                        (DTA::CAB)</head>
+                    <p>The standard search can be enhanced with a feature that also finds historical
+                        spellings and other word forms. For this purpose, the edited texts are
+                        linguistically analyzed and annotated using the <ref target="http://kaskade.dwds.de/demo/cab/">DTA::CAB web service</ref>.
+                        Among other things, all words are lemmatized so that searches can be
+                        performed based on these lemmas. DTA::CAB was developed by Bryan Jurish as
+                        part of the <ref target="http://www.deutschestextarchiv.de">German Text
+                            Archive</ref>.</p>
+                    <p>For more information, see the <ref target="https://kaskade.dwds.de/~moocow/software/DTA-CAB/">documentation</ref> or visit <bibl ref="https://edition-humboldt.de/92M2WH4K">Jurish 2012</bibl>.</p>
+                </div>
+                <div>
+                    <head type="h3">Humboldt’s Writings in the German Text Archive</head>
+                    <p>Over <ref target="http://www.deutschestextarchiv.de/api/pnd/118554700">180 of
+                            Alexander von Humboldt’s works</ref> are available in full text in
+                        TEI-XML format in the German Text Archive. A feature has been implemented in
+                        the chronology that displays and allows searching of the title data for
+                        these works. This uses the <ref target="http://kaskade.dwds.de/dstar/dta/">D* OpenSearch API</ref> provided by the German Text Archive (see: <ref target="https://kaskade.dwds.de/dstar/dta/osd.xml">OpenSearch
+                            Description</ref>). This allows users not only to view the full texts of
+                        Humboldt’s writings but also to search them: The search function enables
+                        users to specify the number of results and link directly to the results
+                        list.</p>
+                </div>
+                <div>
+                    <head type="h3">Bibliography of Digitized Works on avhumboldt.de</head>
+                    <p>As part of the avhumboldt.de portal, a <ref target="http://www.avhumboldt.de/?p=6769">bibliography</ref> of <ref target="http://www.avhumboldt.de/?p=6769">digitized</ref> works by
+                        Alexander von Humboldt that were published independently has been available
+                        since 2009 under the direction of Tobias Kraft. The data from this
+                        bibliography was converted to XML and integrated into the database at <hi rendition="#i">edition humboldt digital</hi> so that it can be displayed
+                        in chronological order.</p>
+                </div>
+                <div>
+                    <head type="h3">correspSearch</head>
+                    <p>The <ref target="http://correspSearch.net">correspSearch</ref> web service
+                        aggregates machine-readable letter indexes from printed or digital editions
+                        of letters and makes them searchable in a centralized location (<bibl ref="https://edition-humboldt.de/EQ8UDSAZ">Dumont et al 2025</bibl>; <bibl ref="https://edition-humboldt.de/HW747AF8">Dumont 2023</bibl>, <bibl ref="https://edition-humboldt.de/T2AXRQ5N">Dumont 2018</bibl>). In addition, it
+                        offers an <ref target="http://correspsearch.net/de/api.html">interface</ref>
+                        that allows this data to be queried automatically and reused in custom
+                        programs. Since Humboldt’s correspondence (<bibl ref="https://edition-humboldt.de/UGSUKML5">Schwarz 2018</bibl>) was already
+                        considered too extensive in the 1960s to be published in a complete edition,
+                        it has since been published in scattered volumes of correspondence or even
+                        in individual articles (primarily in the journal <ref target="https://www.hin-online.de">*Humboldt im Netz*</ref>) (<bibl ref="https://edition-humboldt.de/HKNVP8BH">Schröder 2008</bibl>). For the first
+                        time, correspSearch brings together nearly all of <ref target="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118554700">the</ref> more than 7,000 <ref target="https://correspsearch.net/de/suche.html?s=http://d-nb.info/gnd/118554700">published letters to and from Alexander von Humboldt</ref> and makes
+                        them searchable for research purposes. </p>
+                    <p>In the “<hi rendition="#i">edition humboldt digital</hi>,” this data is
+                        queried via the correspSearch API in two places: first, in the <ref target="https://edition-humboldt.de/chronologie/index.xql?jahr=&amp;cs=on&amp;offset=51">chronology</ref> (when this option is enabled); this links the more
+                        than 1,600 entries on Humboldt’s life with his published correspondence.
+                        Second, the correspSearch API is queried in the individual view of a letter
+                        under “Explore Letter Network.” There, letters to and from Alexander
+                        Humboldt from other editions are retrieved to show which other
+                        correspondents Humboldt was in contact with during the respective time
+                        period. In addition, the system displays which letters each correspondent
+                        received and sent during that time period—the query is based on the GND or
+                        VIAF URIs stored in the registry. In this way, the “expanded correspondence
+                        context” of the letter network is made visible (<bibl ref="https://edition-humboldt.de/HW747AF8">Dumont 2023</bibl>). This feature was
+                        originally developed as a prototype in the “<hi rendition="#i">edition
+                            humboldt digital</hi>” based on XQuery and subsequently reimplemented in
+                        the DFG project correspSearch as <ref target="https://correspsearch.net/de/csLink.html">a freely reusable
+                            JavaScript widget <hi rendition="#i">csLink</hi></ref> (<bibl ref="https://edition-humboldt.de/4DX7MMWC">Müller-Laackman / Dumont 2022</bibl>).
+                        This widget is now also used in the “<hi rendition="#i">ehd</hi>.”</p>
+                </div>
+                <div>
+                    <head type="h3">Practices of the Monarchy: Court Calendar</head>
+                    <p>Also integrated into the chronology are <ref target="https://edition-humboldt.de/chronologie/index.xql?jahr=1848&amp;hofkalendarium=on&amp;l=de">events at the Prussian court in which Alexander von Humboldt
+                            participated</ref> and which are recorded in <ref target="https://actaborussica.bbaw.de/P0006298">the Court
+                        Calendar</ref>, which is part of the publication “Practices of the
+                        Monarchy.” To this end, the TEI-XML data from the Court Calendar is imported
+                        into the <hi rendition="#i">edition humboldt digital</hi>, and mentions of
+                        individuals are mapped to the ehd register using GND URIs (if available;
+                        otherwise, they link to the register entries at <hi rendition="#i">Praktiken
+                            der Monarchie</hi>). </p>
+                </div>
+                <div>
+                    <head type="h3">GeoNames &amp; OpenStreetMap</head>
+                    <p>The places and institutional locations listed in the register are generally
+                        assigned a URI from the open geographic database <ref target="https://www.geonames.org"><hi rendition="#i">GeoNames</hi></ref>. This allows the places to be identified across
+                        projects, which significantly simplifies the reuse of the data. The GeoNames
+                        URI is also used to retrieve the geographic coordinates, which—with the help
+                        of the open-source mapping service <ref target="https://www.openstreetmap.org/">OpenStreetMap</ref>—enable a
+                        corresponding map to be displayed alongside the place and institution
+                        entries. This is particularly helpful for smaller locations visited during
+                        Alexander von Humboldt’s various journeys.</p>
+                    <p>With version 11 of the “<hi rendition="#i">edition humboldt digital</hi>,”
+                        the geodata-based functions in the place index have been expanded: An <ref target="https://edition-humboldt.de/register/orte/map.xql?l=de">interactive world map</ref> now provides an overview of all locations
+                        listed in the place index. In addition, for each individual location in its
+                        registry entry, neighboring locations that are also listed in the registry
+                        are displayed within a radius of approximately 30 km—both on the map and as
+                        a list with distance information (example: <ref target="https://edition-humboldt.de/register/orte/detail.xql?id=H0019176&amp;l=de">Zmeëvka</ref>). </p>
+                </div>
+                <div>
+                    <head type="h3">Gemeinsame Normdatei &amp; BEACON</head>
+                    <p>Using the URI from the German National Authority File (<ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html"><hi rendition="#i">Gemeinsamen Normdatei</hi></ref>, GND) noted in an
+                        entry in the Person Register, additional data can be retrieved via the GND
+                        web service “Entity Facts.” On the one hand, “Entity Facts” are used to
+                        display portraits directly from Wikimedia Commons; since version 12 (2026),
+                        these <ref target="https://edition-humboldt.de/register/personen/galerie/index.xql?l=de">portraits</ref> have also been used <ref target="https://edition-humboldt.de/register/personen/galerie/index.xql?l=de">in a gallery</ref> as an additional way to access the Person Register.
+                        Additionally, information on relationships (family, friendships, etc.)
+                        between individuals is retrieved from the GND. This information is also
+                        automatically analyzed in the ehd using the GND URIs. With this data, users
+                        are automatically shown relationships between individuals included in the
+                        register (see, for example, the <ref target="https://edition-humboldt.de/H0015944">entry for Samuel Thomas
+                            Soemmerring</ref>). </p>
+                    <p>The GND ID also makes it possible to link to other editions, encyclopedias,
+                        and projects relevant to the subject area of the “<hi rendition="#i">edition
+                            humboldt digital</hi>.” The BEACON interfaces of these projects are used
+                        for this purpose. For example, it is possible to identify thematic overlaps
+                        with other projects of the <ref target="http://zentrumpreussen.bbaw.de/">Center for Prussia-Berlin at the BBAW</ref> via the connections in the
+                        register data and make these available to researchers (e.g., <ref target="https://edition-humboldt.de/H0012068">Wilhelm von Humboldt</ref>
+                        or <ref target="https://edition-humboldt.de/H0015568">Friedrich
+                            Schleiermacher</ref>). External resources, such as <ref target="https://www.deutschestextarchiv.de/kosmos/">Hidden Kosmos</ref>
+                        or <ref target="https://www.deutsche-biographie.de/">Die deutsche
+                            Biographie</ref>, are also automatically linked in this way.</p>
+                    <p>Since 2025, the retrieval of GND and BEACON files, as well as the functions
+                        based on them (portraits, links, etc.), have no longer been implemented
+                        exclusively in the ehd app but are gradually being replaced by the use of
+                            <hi rendition="#i">entityHub</hi>. The entityHub web service is
+                        currently being developed at the BBAW as a central service for BEACON and
+                        authority data aggregation (<bibl ref="https://edition-humboldt.de/AY58BMD5">Dumont/Grabsch/Neuber 2026</bibl>). <note xml:id="ftn6" n="6" place="foot">See also the <ref target="https://www.bbaw.de/telota/entityhub">project
+                            page</ref>.</note> One of entityHub’s goals is to centrally provide
+                        these data and functions—which are used in many of the BBAW’s digital
+                        editions—in order to consolidate development efforts and thereby
+                        significantly simplify maintenance.</p>
+                </div>
+                <div>
+                    <anchor type="target" xml:id="globalnames"/>
+                    <head type="h3">Global Indexes for Scientific Names</head>
+                    <p>The Plant Register (<ref target="https://edition-humboldt.de/H0016212/pflanzenregister">see above</ref>)
+                        uses various web services and APIs to automatically link scientific plant
+                        names from texts in the *<hi rendition="#i">edition humboldt digital</hi>*
+                        with corresponding entries in taxonomic databases. Using the <ref target="https://resolver.globalnames.org/">Global Names Resolver</ref>
+                        web service, the Plant Register links scientific names to entries in the
+                            <ref target="https://eol.org/">Encyclopedia of Life</ref>, <ref target="https://www.tropicos.org/">Tropicos – Missouri Botanical
+                            Garden</ref>, <ref target="https://www.ipni.org/">and The International
+                            Plant Names Index</ref> (IPNI). In addition, the <ref target="https://www.catalogueoflife.org/">Catalogue of Life</ref>, the
+                            <ref target="https://www.biodiversitylibrary.org/">Biodiversity Heritage
+                            Library,</ref> and the <ref target="https://www.gbif.org/">Global
+                            Biodiversity Information Facility</ref> are queried via their own
+                        interfaces and linked accordingly. Additional databases may be added in the
+                        future, provided they have the appropriate technical interfaces.</p>
+                    <p>Queries to the various databases and automated linking are based on the
+                        scientific plant name, which is encoded accordingly in the edited text and
+                        normalized where necessary.</p>
+                </div>
+                <div>
+                    <head type="h3">DeepL</head>
+                    <p>Starting with Version 12 (1 January 2026), the first sections of the *<hi rendition="#i">edition humboldt digital</hi>* will be automatically
+                        translated into English prior to publication. At present, this applies only
+                        to the chronology entries, as they are best suited for this purpose—being
+                        complete, concise, and written in modern German prose. For this purpose, the
+                        individual entries are sent as XML to the <ref target="https://developers.deepl.com/docs/getting-started/intro">DeepL
+                            API</ref> via a script, and the result is saved. During translation,
+                        DeepL receives the TEI-XML structure of the snippets, ensuring that all
+                        markup (such as for people and places) is also preserved in the English
+                        version. A glossary and style rules are also applied when using the DeepL
+                        API.</p>
+                    <p>The entries translated in this automated manner are marked with a
+                        corresponding note in the display. There are plans to have additional parts
+                        of the edition translated in this way in the future. Initial tests with
+                        edited letters yielded good results; however, the process becomes more
+                        challenging with texts that are more fragmented, such as travel diaries and
+                        documents. While the automatic translation of edited texts naturally carries
+                        risks, it would also significantly facilitate initial access to the texts
+                        for the highly internationalized field of Humboldt research. </p>
+                    <p>However, the translations of edited texts that are currently available in
+                        individual cases have all been edited, revised, and reviewed. </p>
+                </div>
+            </div>
+            <div>
+                <head type="h2">Special Features</head>
+                <div>
+                    <head type="h3">Visualizations in the Chronology</head>
+                    <p>Since Version 12 (1 January 2026), the Alexander von Humboldt Chronology has
+                        offered three visualizations. First, the homepage displays a so-called “heat
+                        map” that illustrates the distribution of the over 1,600 chronology entries.
+                        This allows users to better assess which time periods the chronology covers
+                        and to what extent. When a specific year is selected, the heat map changes
+                        to a bar chart showing the number of entries per calendar week.</p>
+                    <p>Second, the chronology now offers a chronological-topographical view of a
+                        selection of Humboldt’s journeys in the form of a map on which the stops
+                        along the journey are marked. On the left-hand side, the journey is listed
+                        with additional date and location<note xml:id="ftn7" n="7" place="foot"> </note>details<note xml:id="ftn7" n="7" place="foot">; unlike the
+                            index entry, the location names displayed here are the contemporary
+                            names.</note> On the right-hand side, the corresponding chronology entry
+                        is displayed based on the selected stop. Below this, links are provided to
+                        pages from edited travel diaries and letters in the ehd where the date of
+                        the day has been marked by the editors in TEI-XML.<note xml:id="ftn8" n="8" place="foot">In some cases, the date is also mentioned in several travel
+                            diaries—not only in Humboldt’s own, but also in those of his traveling
+                            companions.</note> This makes it possible, for the first time, to
+                        systematically access the travel diaries based on Humboldt’s itinerary. </p>
+                    <p>Optionally, users can also display historical, often contemporary maps in
+                        addition to the travel route<note xml:id="ftn9" n="9" place="foot">. In the
+                            case of the 1837 map of the Urals, it is even a map that was created,
+                            among other things, with the help of measurements by A. von Humboldt and
+                            was included with the report of his traveling companion <persName ref="https://edition-humboldt.de/H0001040 http://d-nb.info/gnd/116609036">Gustav Rose</persName></note>. These maps have been
+                        georeferenced using a GIS program based on multiple points, so they are
+                        generally located in the correct position on the modern map. However, due to
+                        the historical inaccuracies inherent in these contemporary maps, minor
+                        deviations may occur. On the other hand, the historical maps contain
+                        contemporary information (names, etc.) that is not found on the modern map,
+                        which is sourced from OpenStreetMap.</p>
+                </div>
+                <div>
+                    <head type="h3">Reusing Location Comments</head>
+                    <p>During the course of the project, it became apparent that it would be useful
+                        for the editors to be able to reuse a location comment. This would allow
+                        facts to be explained centrally while also being incorporated into other
+                        parts of the text. In the TEI-XML encoding, the location comment is created
+                        once as usual for this purpose. At all other locations, a reference to this
+                        comment can be easily made using the appropriate markup. In the ehd web
+                        interface, the comment is displayed accordingly at all linked locations.
+                        Additionally, such reused explanations list the pages where they have also
+                        been reused. This further reduces the burden on the in-text comment—even
+                        beyond the now-common linking of names, work titles, or glossary terms.</p>
+                </div>
+            </div>
+            <div>
+                <head type="h2">Data Provision &amp; APIs</head>
+                <p>Data from the “<hi rendition="#i">edition humboldt digital</hi>” can be obtained
+                    via various interfaces as well as a complete TEI-XML dataset. Furthermore,
+                    various interfaces are available that allow other editions or portals to link to
+                    the “<hi rendition="#i">ehd</hi>.” This section provides information on this
+                    topic. Further details on this subject can be found in the article “Data on the
+                    Move,” published in the Journal of the Text Encoding Initiative (<bibl ref="https://edition-humboldt.de/HPSYJC8U">Dumont et al. 2026</bibl>).</p>
+                <div>
+                    <head type="h3">Licensing</head>
+                    <p>The <hi rendition="#i">edition humboldt digital</hi> not only reuses external
+                        data and web services, but also makes its own data available under the open
+                            <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative
+                            Commons CC BY-SA 4.0 license</ref> via an interface and as <ref target="https://doi.org/10.5281/zenodo.13752841">a</ref> standalone <ref target="https://doi.org/10.5281/zenodo.13752841">data
+                        publication</ref>.</p>
+                </div>
+                <div>
+                    <head type="h4">TEI-XML Interface</head>
+                    <p>All edited texts, research articles, and chronology and index entries from
+                        the “<hi rendition="i">edition humboldt digital</hi>” can be accessed via
+                        the TEI-XML interface <ref target="http://edition-humboldt.de/api/v1.2/tei-xml.xql">at</ref>
+                        <ref target="http://edition-humboldt.de/api/v1.2/tei-xml.xql">http://edition-humboldt.de/api/v1.2/tei-xml.xql</ref> (note version
+                            1.<hi rendition="#b">2</hi>). </p>
+                    <p>When accessed without parameters, a list of all data items is displayed,
+                        including the title and permalink of the respective current version. When
+                        accessed with the parameter <hi rend="code">type</hi>, a list of the
+                        respective document types is generated (see the table below). When accessed
+                        with the parameter <hi rend="code">id</hi>, the respective document is
+                        displayed.</p>
+                    <div>
+                        <head type="h5">Parameter <hi rend="code">type</hi></head>
+                        <table rend="drawn" rows="2" cols="2">
+                            <row role="label">
+                                <cell>Values</cell>
+                                <cell>Description</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">[nicht gesetzt]</hi></cell>
+                                <cell>All, i.e., all edited texts, research articles, chronology
+                                    entries, as well as entries in the indexes of people,
+                                    institutions, and places, and the glossary</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">journals</hi></cell>
+                                <cell>all travel diaries</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">letters</hi></cell>
+                                <cell>all letters</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">documents</hi></cell>
+                                <cell>All “documents,” i.e., edited texts that are neither travel
+                                    diaries nor letters</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">articles</hi></cell>
+                                <cell>all research articles</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">chronology</hi></cell>
+                                <cell>all chronology entries</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">people</hi></cell>
+                                <cell>All entries in the index of persons</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">institutions</hi></cell>
+                                <cell>All entries in the index of institutions</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">places</hi></cell>
+                                <cell>all entries in the place index </cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">sigles</hi></cell>
+                                <cell>All Humboldt reference symbols</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">masses</hi></cell>
+                                <cell>All units of measurement</cell>
+                            </row>
+                            <row>
+                                <cell><hi rend="code">about</hi></cell>
+                                <cell>All informational texts about this edition</cell>
+                            </row>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <head type="h2">Data Publication</head>
+                    <p>All edited texts, research articles, and the indexes of persons, places,
+                        institutions, and abbreviations are also published as a complete TEI-XML
+                        dataset on <hi rendition="#i">edition humboldt digital</hi>. To this end,
+                        the texts and entries are not simply exported from the eXistdb, but are
+                        retrieved using an XQuery script via the TEI-XML API 2.0 of the <hi rendition="#i">ehd</hi>, so that the data structure matches that of the
+                        data accessible via the API. This allows for the incorporation of the
+                        enrichments found there (e.g., GNDs; URIs instead of IDs), the
+                        harmonizations with the DTABf, and the division of the register lists into
+                        individual TEI-XML files are utilized. The directory structure is also
+                        modified so that the data is organized by type (i.e., letters, diaries,
+                        research articles, register entries, etc.).</p>
+                    <p>For initial, purely technical versioning, the TEI-XML files retrieved in this
+                        manner are uploaded to a Git repository, which <ref target="https://github.com/telota/edition-humboldt-digital">is</ref>
+                        also <ref target="https://github.com/telota/edition-humboldt-digital">publicly available on GitHub</ref>. After review and supplementation
+                        with the ehd’s TEI-XML schema (as RNG), the dataset is exported from there
+                        to Zenodo, where it is archived for the long term and made freely available:
+                            <ref target="https://doi.org/10.5281/zenodo.13752841">https://doi.org/10.5281/zenodo.13752841</ref> (canonical URL, always
+                        links to the most recent published version).</p>
+                </div>
+                <div>
+                    <head type="h3">Additional APIs</head>
+                    <div>
+                        <head type="h4">OAI-PMH</head>
+                        <p>The metadata for the edited texts and research articles is made available
+                            via the interface <ref target="https://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify">https://edition-humboldt.de/api/v1.1/oai-pmh.xql?verb=Identify</ref>
+                            in accordance with the<ref target="https://www.openarchives.org/pmh/">
+                                Open Archive Initiative’s Protocol for Metadata Harvesting</ref>. As
+                            a result, these texts are also automatically indexed in the <ref target="https://www.base-search.net/">Bielefeld Academic Search
+                                Engine (BASE)</ref>. Currently, only Dublin Core is supported as the
+                            metadata format for OAI-PMH.</p>
+                    </div>
+                    <div>
+                        <head type="h4">CMIF Interface</head>
+                        <p>Through this interface, the correspondence metadata for all letters
+                            included in this edition can be retrieved in the <ref target="https://correspsearch.net/de/dokumentation.html">Correspondence Metadata Interchange Format (CMIF)</ref>. As a
+                            result, the letters edited in this edition are indexed in
+                            correspSearch.</p>
+                        <p>The interface also already supports several extensions of <ref target="https://github.com/TEI-Correspondence-SIG/CMIF/blob/main/proposals/CMIFv2_proposal.md">CMIF v2</ref>. For example, it outputs the <hi rendition="#i">erwähnten</hi> persons as well as the URL to the respective TEI-XML
+                            full text. The latter makes it possible to search for and find these
+                            letters in full text within correspSearch as well (<ref target="https://correspsearch.net/de/suche.html?q=fieber*">example:
+                                “fever*”</ref>).</p>
+                        <p>URL: <ref target="http://edition-humboldt.de/api/v1.2/cmif.xql">http://edition-humboldt.de/api/v1.2/cmif.xql</ref></p>
+                    </div>
+                    <div>
+                        <head type="h4">BEACON Files</head>
+                        <p>The individuals present in the ehd database and tagged with a <ref target="http://www.dnb.de/DE/Standardisierung/GND/gnd_node.html">GND</ref> URI can be retrieved as a list in <ref target="https://de.wikipedia.org/wiki/Wikipedia:BEACON">BEACON
+                                format</ref> via <ref target="http://edition-humboldt.de/api/v1.2/beacon.xql">http://edition-humboldt.de/api/v1.2/beacon.xql</ref> and
+                            automatically linked to external digital resources. It is possible to
+                            restrict the list to individuals who are mentioned in the body of the
+                            letter or who are correspondents (see the table below).</p>
+                        <div>
+                            <head type="h5">Parameter</head>
+                            <div>
+                                <head type="h5"><hi rend="code">type</hi></head>
+                                <table rend="drawn" rows="2" cols="2">
+                                    <row role="label">
+                                        <cell>Values</cell>
+                                        <cell>Description</cell>
+                                    </row>
+                                    <row>
+                                        <cell><hi rend="code">[nicht gesetzt]</hi></cell>
+                                        <cell>All records in the personal index; set by default
+                                            unless otherwise specified</cell>
+                                    </row>
+                                    <row>
+                                        <cell><hi rend="code">correspondents</hi></cell>
+                                        <cell>All correspondence partners</cell>
+                                    </row>
+                                    <row>
+                                        <cell><hi rend="code">personMentioned</hi></cell>
+                                        <cell>All persons mentioned</cell>
+                                    </row>
+                                </table>
+                            </div>
+                            <div>
+                                <head type="h5"><hi rend="code">authority</hi></head>
+                                <p>All persons with a norm ID from a specific norm file (restricted,
+                                    if applicable, by <hi rend="code">type</hi>)</p>
+                                <table rend="drawn" rows="2" cols="2">
+                                    <row>
+                                        <cell>Value</cell>
+                                        <cell>Description</cell>
+                                    </row>
+                                    <row>
+                                        <cell><hi rend="code">gnd</hi></cell>
+                                        <cell>Joint Authority File of the German National Library;
+                                            set by default unless otherwise specified</cell>
+                                    </row>
+                                    <row>
+                                        <cell><hi rend="code">viaf</hi></cell>
+                                        <cell>Virtual International Authority File</cell>
+                                    </row>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <head type="h4">Context Objects in span (COinS) &amp; Zotero API</head>
+                        <p>The bibliography entries are also accessible via APIs. On the one hand,
+                            they are embedded as machine-readable <ref target="https://web.archive.org/web/20140913071820/http://ocoins.info/">ContextObjects in SPAN tags</ref> on the HTML page at <hi rendition="#i">edition humboldt digital</hi>. This allows them to be
+                            imported directly into common reference management systems with a single
+                            mouse click. Additionally, the complete bibliography is available as a
+                            publicly accessible Zotero group via the <ref target="https://www.zotero.org/support/dev/web_api/v3/basics">Zotero
+                                API</ref> at <ref target="https://api.zotero.org/groups/667230/items">https://api.zotero.org/groups/667230/items</ref>.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <head type="h2">Versioning, Permalinks, and Citation Information</head>
+                <p>The texts and data provided at <hi rendition="#i">edition humboldt digital</hi>
+                    are maintained in versions, meaning that every published version (typically one
+                    per year) of the content is made available for retrieval. Versioning always
+                    applies to the entire published dataset. Consequently, the index entries also
+                    reflect the links of the respective version (see, for example, the entry for
+                    Georg Forster in <ref target="https://edition-humboldt.de/v1/H0000177">Version
+                        1</ref> compared to <ref target="https://edition-humboldt.de/v9/H0000177">Version 9</ref>). The <ref target="https://edition-humboldt.de/about/index.xql?id=H0020382&amp;l=de">version history</ref>, introduced with Version 8, provides an overview of
+                    the changes between the versions of <hi rendition="#i">edition humboldt
+                        digital</hi>. It also evaluates the number of edited pages, created
+                    chronology and index entries, as well as coded entity links, and visualizes them
+                    as bar charts. This is intended to document the ongoing work on the edited
+                    texts. </p>
+                <p>All texts are provided with both citation information and permalinks that
+                    reference the respective version (e.g., <ref target="http://edition-humboldt.de/v1/H0002656">http://edition-humboldt.de/v1/H0002656</ref>; for information on citation
+                    and referencing in digital editions, see <bibl ref="https://edition-humboldt.de/TP6JVM4Q">Bleier 2021</bibl>). If necessary, edited texts can also be referenced by
+                    folio number by simply adding the folio number to the URL, e.g., <ref target="https://edition-humboldt.de/v9/H0002656/2v">https://edition-humboldt.de/v9/H0002656/2v</ref>. Research articles that do
+                    not have page numbers due to their “digital-born” nature, on the other hand, can
+                    be cited by paragraph. To do this, the paragraph number (which is always
+                    displayed in the upper left corner next to each paragraph) is appended with a #
+                    as a so-called fragment identifier, e.g.<ref target="https://edition-humboldt.de/v9/H0016432#3">,</ref>
+                    <ref target="https://edition-humboldt.de/v9/H0016432#3">https://edition-humboldt.de/v9/H0016432#3</ref>. The use of Digital Object
+                    Identifiers (DOIs) was avoided, as they offer no real added value. On the
+                    contrary: since their registration is subject to a fee, they would incur
+                    significant costs (DOIs would have to be created for every page of the edited
+                    texts in every version, not to mention the registry entries) and would establish
+                    yet another layer of links alongside the existing permalinks, which would need
+                    to be maintained. Nevertheless, all measures to ensure the long-term
+                    availability of the ehd would still need to be implemented even if DOIs were
+                    used. <note xml:id="ftn10" n="10" place="foot">For more on the issues
+                        surrounding DOIs, see also <bibl ref="https://edition-humboldt.de/J372ZPS8">Arnold und
+                            Müller 2017</bibl>.</note> The TEI-XML dataset published on Zenodo,
+                    however, is assigned a DOI.</p>
+                <p>In addition, the individual texts and datasets are also assigned a canonical URL
+                    that always redirects to the most recent version. In this case, the version
+                    indicator is simply omitted from the path, e.g., <ref target="http://edition-humboldt.de/H0002656">http://edition-humboldt.de/H0002656</ref>. In addition to the texts and
+                    index entries, certain sub-sections (thematic focuses and various
+                    correspondences)—which, like a volume, are actually composed of multiple
+                    texts—are also provided with their own citation information, including canonical
+                    links (e.g., <ref target="https://edition-humboldt.de/X0000003">https://edition-humboldt.de/X0000003</ref>). </p>
+                <p>Thanks to the canonical and uniform URLs (“Humboldt” followed by a seven-digit
+                    number), it has also become possible for the printed volumes of the <hi rendition="#i">edition humboldt print</hi> to link back to their digital
+                    counterparts in the case of edited texts.</p>
+                <p>The interface itself—i.e., the XQL, XSLT, and JS scripts, as well as CSS and
+                    other files—is not currently versioned publicly. However, it is versioned and
+                    maintained in a Git repository for development purposes. Furthermore, there are
+                    plans for the future to additionally store and preserve every version of the
+                    digital edition (as an interface) in <ref target="https://webarchive.bbaw.de/">the BBAW web archive</ref>. To this end, the “<hi rendition="#i">edition
+                        humboldt digital</hi>” is already being technically prepared to ensure it
+                    can be archived as effectively as possible.</p>
+                <p>Separately, the data is also permanently published and archived on Zenodo (see
+                    the section “Data Publication”).</p>
+            </div>
+        </body></text>
+</TEI>

@@ -1,0 +1,34 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0787734">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Data</title>
+                <title type="sub">The <hi rendition="#i">edition humboldt digital</hi> as a TEI-XML
+                    dataset</title>
+            </titleStmt><editionStmt><p>: Data . The edition humboldt digital as a TEI-XML
+                    dataset. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 12 vom 08.06.2026. URL: <ref target="https://edition-humboldt.de/v12/">https://edition-humboldt.de/v12/</ref></p></editionStmt>
+            <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v12/</idno><idno type="URLXML">https://edition-humboldt.de/v12/.xml</idno></publicationStmt>
+            <sourceDesc>
+                <p>translated from HTML to TEI</p>
+            </sourceDesc>
+        </fileDesc><encodingDesc><editorialDecl><p>Art und Weise der Transkribition, Annotation und Kodierung der Texte sind in den Richtlinien der edition humboldt digital 
+                            umfassend dokumentiert, siehe <ref target="https://edition-humboldt.de/richtlinien/">https://edition-humboldt.de/richtlinien/</ref>.
+                            Die Schemata sind als ODD- und RNG-Dateien unter <ref target="https://github.com/telota/ediarum.AVHR.data-model">https://github.com/telota/ediarum.AVHR.data-model</ref>
+                            bereitgestellt.</p></editorialDecl><tagsDecl><rendition xml:id="i" scheme="css">font-style:italic<desc>Kursivdruck</desc></rendition></tagsDecl></encodingDesc>
+    <profileDesc><textClass><keywords><term>about</term></keywords></textClass></profileDesc></teiHeader>
+    <text><body>
+            <div>
+                <p>All data from the <hi rendition="#i">edition humboldt digital</hi> is available
+                    on Zenodo (and <ref target="https://github.com/telota/edition-humboldt-digital">GitHub</ref>):</p>
+                <quote type="block">TEI-XML-Datenset der Tagebücher, Briefe, Dokumente,
+                    Forschungsbeiträge, Chronologieeinträge und Register der edition humboldt
+                    digital (Version 11.0.1). Herausgegeben von Ottmar Ette, Stefan Dumont, Carmen
+                    Götz, Tobias Kraft, Ulrich Päßler, Florian Schnee, Christian Thomas und Jan
+                    Wierzoch. Berlin-Brandenburgische Akademie der Wissenschaften 2025. URL: <ref target="https://zenodo.org/doi/10.5281/zenodo.10457931">https://zenodo.org/doi/10.5281/zenodo.10457931</ref></quote>
+                <p>In addition, individual or multiple TEI-XML files can be retrieved via the
+                    corresponding interface.</p>
+                <p>For further information on data publication and the various interfaces, see the
+                    relevant <ref target="https://edition-humboldt.de/about/index.xql?id=H0021024&amp;l=en#section27">section in the “Digital Methodology”</ref>.</p>
+            </div>
+        </body></text>
+</TEI>

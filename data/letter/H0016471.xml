@@ -1,0 +1,87 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016471">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [22. März 1856]
+            </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [22. März 1856]
+            , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 12 vom 08.06.2026. URL: <ref target="https://edition-humboldt.de/v12/">https://edition-humboldt.de/v12/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v12/</idno><idno type="URLXML">https://edition-humboldt.de/v12/.xml</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">221</idno>
+                     <idno type="shelfmark">421, Bl. 406r</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc><encodingDesc><editorialDecl><p>Art und Weise der Transkribition, Annotation und Kodierung der Texte sind in den Richtlinien der edition humboldt digital 
+                            umfassend dokumentiert, siehe <ref target="https://edition-humboldt.de/richtlinien/">https://edition-humboldt.de/richtlinien/</ref>.
+                            Die Schemata sind als ODD- und RNG-Dateien unter <ref target="https://github.com/telota/ediarum.AVHR.data-model">https://github.com/telota/ediarum.AVHR.data-model</ref>
+                            bereitgestellt.</p></editorialDecl><tagsDecl><rendition xml:id="u" scheme="css">text-decoration:underline<desc>gedruckte Unterstreichung</desc></rendition></tagsDecl></encodingDesc>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+               <date when="1856-03-22">1856-03-22</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://edition-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+            <note>Zur Datierung: vgl. Brief Nr. 222</note>
+         </correspDesc>
+         <langUsage>
+            <language scope="sole" ident="deu"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text><body>
+         <div type="writingSession">
+            <pb n="1r"/>
+            <p>Allerdings sind Herrn <persName ref="https://edition-humboldt.de/H0016800 http://d-nb.info/gnd/116322950">Radlkofers</persName>
+               <add place="intralinear">Ar<g ref="#typoHyphen"/><lb break="no"/>beiten</add>
+               antigobineauischen Inhalts sehr <lb/>merkwürdig. Darf ich, theurer <lb/>Freund, Sie
+               bitten <ref xml:id="f85b2387-9774-4dad-9b23-8797741dad90" corresp="#bfed00b5-3572-4dca-ad00-b53572adcaaf" type="editorialNote"><persName ref="https://edition-humboldt.de/H0003796 http://d-nb.info/gnd/119387123">Burmeisters</persName>
+                     <lb/>zoonomische Briefe</ref><note xml:id="bfed00b5-3572-4dca-ad00-b53572adcaaf" corresp="#f85b2387-9774-4dad-9b23-8797741dad90" type="editorial">
+                     <bibl ref="https://edition-humboldt.de/DM7W4D7B">Burmeister 1856</bibl>
+                  </note>, deren <lb/>Zueignung ich nicht vermeiden <lb/>kann, anzusehen und mir
+                  <lb/><hi rendition="#u">mündlich</hi> zu sagen, ob irgend <lb/>etwas Gründliches
+               in der <lb/>Eintheilung der Infusorien! liegt<supplied cert="high">.</supplied>
+            </p> <closer rend="paragraph">
+               <salute>Dankbar Ihr</salute>
+               <signed>AHt</signed>
+               <dateline>Donnerstag</dateline>
+            </closer>
+         </div>
+      </body></text>
+</TEI>

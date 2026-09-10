@@ -1,0 +1,102 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016656">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] </title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. [Berlin], [wohl um 1836] , hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 12 vom 08.06.2026. URL: <ref target="https://edition-humboldt.de/v12/">https://edition-humboldt.de/v12/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v12/</idno><idno type="URLXML">https://edition-humboldt.de/v12/.xml</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">88</idno>
+                     <idno type="shelfmark">421, Bl. 162r, 163v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc><encodingDesc><editorialDecl><p>Art und Weise der Transkribition, Annotation und Kodierung der Texte sind in den Richtlinien der edition humboldt digital 
+                            umfassend dokumentiert, siehe <ref target="https://edition-humboldt.de/richtlinien/">https://edition-humboldt.de/richtlinien/</ref>.
+                            Die Schemata sind als ODD- und RNG-Dateien unter <ref target="https://github.com/telota/ediarum.AVHR.data-model">https://github.com/telota/ediarum.AVHR.data-model</ref>
+                            bereitgestellt.</p></editorialDecl><tagsDecl><rendition xml:id="u" scheme="css">text-decoration:underline<desc>gedruckte Unterstreichung</desc></rendition><rendition xml:id="s" scheme="css">text-decoration:line-through<desc>durchgestrichener Text</desc></rendition></tagsDecl></encodingDesc>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">Berlin</placeName>
+               <date notBefore="1836" notAfter="1836" cert="low">1836-00-00</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://edition-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+            <note>Zur Datierung: vgl. Nennung der “Sabella amphicora” in Brief 83 von 1836</note>
+         </correspDesc>
+         <langUsage>
+            <language scope="sole" ident="deu"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text><body>
+         <div type="writingSession">
+            <pb n="1r"/>
+            <opener><address>
+                  <addrLine>Herr <choice>
+                        <abbr>Prof.</abbr>
+                        <expan>Professor</expan>
+                     </choice> Ehrenberg</addrLine>
+                  <addrLine>Wohlgeboren</addrLine>
+               </address>
+            </opener>
+            <pb n="1v"/>
+            <p>Wenn Sie, theurer Freund, <lb/>in der <ref xml:id="dfc84511-fb3c-479a-8845-11fb3c679a21" corresp="#cae4b8f8-32bf-4b8e-a4b8-f832bfab8e71" type="editorialNote">heutigen Staats Zeitung</ref><note xml:id="cae4b8f8-32bf-4b8e-a4b8-f832bfab8e71" corresp="#dfc84511-fb3c-479a-8845-11fb3c679a21" type="editorial">
+                     <bibl ref="https://edition-humboldt.de/JZXAVVIG">Allgemeine Preußische Staatszeitung
+                        1819</bibl>
+                  </note>
+               <lb/>Ihre grosse hinteräugige <lb/>Bestie <name type="animal"><choice>
+                     <abbr>Sab.</abbr>
+                     <expan>Sabella</expan>
+                  </choice> amphicora</name> als <lb/>Infusionsthier! genannt finden <lb/>so werden
+               Sie das woh<subst>
+                  <del rendition="#s"><gap reason="covered" unit="chars" quantity="1"/></del>
+                  <add place="across">l</add>
+               </subst>
+               <lb/>nicht <hi rendition="#u">mir</hi> zuschreiben<supplied cert="high">.</supplied></p>
+            <closer rend="paragraph"><signed>AlHumboldt</signed><dateline>Dienstags</dateline></closer>
+            <postscript>
+               <p>Ich hoffe wir werden <lb/>den <choice>
+                     <abbr>Petersb.</abbr>
+                     <expan>Petersburger</expan>
+                  </choice> Ruf <lb/>unseres Heinrich <persName ref="https://edition-humboldt.de/H0001041 http://d-nb.info/gnd/118602640">Rose</persName>
+                  <lb/>nun endlich benuzen <lb/>können, um zum <lb/>längsterwünschten <lb/>Zwek zu
+                     gelangen<supplied cert="high">.</supplied></p>
+            </postscript>
+         </div>
+      </body></text>
+</TEI>

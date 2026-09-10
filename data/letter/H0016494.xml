@@ -1,0 +1,110 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="H0016494">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alexander von Humboldt an Christian Gottfried Ehrenberg. B[erlin], 27. Dezember
+               1858</title>
+            <editor>
+               <persName ref="http://d-nb.info/gnd/13699220X">
+                  <surname>Wendt</surname>
+                  <forename>Anette</forename>
+               </persName>
+            </editor>
+            <respStmt>
+               <persName ref="http://d-nb.info/gnd/115726071">
+                  <surname>Knobloch</surname>
+                  <forename>Eberhard</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+            <respStmt>
+               <persName>
+                  <surname>Kirsten</surname>
+                  <forename>Linda</forename>
+               </persName>
+               <resp>
+                  <note type="remarkResponsibility">Mitarbeit</note>
+               </resp>
+            </respStmt>
+         </titleStmt><editionStmt><p>Alexander von Humboldt an Christian Gottfried Ehrenberg. B[erlin], 27. Dezember
+               1858, hg. v. Anette Wendt unter Mitarbeit von Eberhard Knobloch und Linda Kirsten. In: edition humboldt digital, hg. v. Ottmar Ette. Berlin-Brandenburgische Akademie der Wissenschaften, Berlin. Version 12 vom 08.06.2026. URL: <ref target="https://edition-humboldt.de/v12/">https://edition-humboldt.de/v12/</ref></p></editionStmt>
+         <publicationStmt><publisher><ref target="https://www.bbaw.de">Berlin-Brandenburgische Akademie der Wissenschaften</ref></publisher><pubPlace ref="https://www.geonames.org/2950159">Berlin</pubPlace><availability><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence></availability><idno type="URLWeb">https://edition-humboldt.de/v12/</idno><idno type="URLXML">https://edition-humboldt.de/v12/.xml</idno></publicationStmt>
+         <sourceDesc>
+            <msDesc rend="manuscript">
+               <msIdentifier>
+                  <institution>Berlin-Brandenburgische Akademie der Wissenschaften</institution>
+                  <repository>Archiv</repository>
+                  <collection>NL C. G. Ehrenberg</collection>
+                  <idno>
+                     <idno type="legacy">244</idno>
+                     <idno type="shelfmark">421, Bl. 455r, 456v</idno>
+                  </idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc><encodingDesc><editorialDecl><p>Art und Weise der Transkribition, Annotation und Kodierung der Texte sind in den Richtlinien der edition humboldt digital 
+                            umfassend dokumentiert, siehe <ref target="https://edition-humboldt.de/richtlinien/">https://edition-humboldt.de/richtlinien/</ref>.
+                            Die Schemata sind als ODD- und RNG-Dateien unter <ref target="https://github.com/telota/ediarum.AVHR.data-model">https://github.com/telota/ediarum.AVHR.data-model</ref>
+                            bereitgestellt.</p></editorialDecl><tagsDecl><rendition xml:id="sup" scheme="css">vertical-align:super; font-size:.7em<desc>Hochstellung</desc></rendition></tagsDecl></encodingDesc>
+      <profileDesc><textClass><keywords><term>letter</term></keywords></textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName ref="https://edition-humboldt.de/H0012069 http://d-nb.info/gnd/118554700">Alexander von Humboldt</persName>
+               <placeName evidence="conjecture" ref="https://edition-humboldt.de/H0005221 https://www.geonames.org/2950159">erlin</placeName>
+               <date when="1858-12-27">1858-12-27</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName ref="https://edition-humboldt.de/H0005875 http://d-nb.info/gnd/118529250">Christian Gottfried Ehrenberg</persName>
+            </correspAction>
+         </correspDesc>
+         <langUsage>
+            <language scope="sole" ident="deu"/>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text><body>
+         <div type="writingSession">
+            <pb n="1r"/>
+            <opener><address>
+                  <addrLine>Herrn Professor <choice>
+                        <abbr>D<hi rendition="#sup">r</hi></abbr>
+                        <expan>Doktor</expan>
+                     </choice> Ehrenberg</addrLine>
+                  <addrLine>(AlHumboldt)</addrLine>
+               </address></opener>
+            <pb n="1v"/>
+            <p>Eine Bitte und zwar sehr unbequeme! <lb/>Sollte es Ihnen möglich sein durch
+               <lb/>Blättern etwa in <ref xml:id="a5eaaf6b-dcbd-4335-aaaf-6bdcbd2335cc" corresp="#e3e72a0c-1721-41b4-a72a-0c1721d1b423" type="editorialNote"><persName ref="https://edition-humboldt.de/H0013514 http://d-nb.info/gnd/11903705X">Gmelin’s</persName> Reise</ref><note xml:id="e3e72a0c-1721-41b4-a72a-0c1721d1b423" corresp="#a5eaaf6b-dcbd-4335-aaaf-6bdcbd2335cc" type="editorial">
+                     <bibl ref="https://edition-humboldt.de/F9XC989Q">Gmelin 1751-1752</bibl>
+                  </note>
+               <lb/><choice>
+                  <abbr>od</abbr>
+                  <expan>oder</expan>
+               </choice> einer <ref xml:id="a3da958c-8994-40f0-9a95-8c899430f02d" corresp="#ac531fda-3638-4fb8-931f-da3638bfb838" type="editorialNote">Flora sibirica</ref><note xml:id="ac531fda-3638-4fb8-931f-da3638bfb838" corresp="#a3da958c-8994-40f0-9a95-8c899430f02d" type="editorial">
+                     <bibl ref="https://edition-humboldt.de/XINX459S">Gmelin 1747-1769</bibl>
+                  </note> die <lb/>Stelle aufzufinden in der be<g ref="#typoHyphen"/><lb break="no"/>hauptet wird, dass es östlich <lb/>vom <placeName ref="https://edition-humboldt.de/H0009659 https://www.geonames.org/1488441">Ural</placeName>
+               keine <name type="plant" subtype="vernacular" key="Quercus">Eiche</name>n (<name type="plant" key="Quercus">Quercus</name>) <lb/>und keine Flusskrebse <name type="animal" key="Cancer astacus">Cancer asta<g ref="#typoHyphen"/><lb break="no"/>cus</name> gab. <name type="plant" subtype="vernacular" key="Quercus">Eiche</name>n fangen wieder an <lb/>in <placeName ref="https://edition-humboldt.de/H0006559 https://www.geonames.org/1861060">Japan</placeName><supplied cert="high">.</supplied> Welch ein Prachtwerk <lb/>ist
+                  <ref xml:id="ad62f427-d45e-47d5-a2f4-27d45ed7d536" corresp="#a722fed6-1d9f-489b-a2fe-d61d9fa89b83" type="editorialNote"><persName ref="https://edition-humboldt.de/H0017011 http://d-nb.info/gnd/11634444X">Kotschy</persName>
+                     <name type="plant" subtype="vernacular" key="Quercus">Eiche</name>n des Orients</ref><note xml:id="a722fed6-1d9f-489b-a2fe-d61d9fa89b83" corresp="#ad62f427-d45e-47d5-a2f4-27d45ed7d536" type="editorial">
+                     <bibl ref="https://edition-humboldt.de/VMITXK9G">Kotschy 1858</bibl>
+                  </note><supplied cert="high">.</supplied>
+               <lb/>Ich kann es Ihnen zeigen<supplied cert="high">.</supplied>
+            </p>
+            <closer rend="paragraph"><salute>Ihr <lb/> ewig dankba<lb break="no"/>rer</salute>
+                <lb/><signed>AlHumboldt</signed>
+               <dateline rend="align(left)"><choice>
+                     <abbr>B.</abbr>
+                     <expan>Berlin</expan>
+                  </choice> 27 <choice>
+                     <abbr>Dez</abbr>
+                     <expan>Dezember</expan>
+                  </choice>
+                  <lb/>1858</dateline></closer>
+            <postscript>
+               <p>Meine Ver<lb break="no"/>ehrung Ihrer <lb/>theuren Familie </p>
+            </postscript>
+         </div>
+      </body></text>
+</TEI>
